@@ -5,8 +5,8 @@ import { decodeMorph } from "../morphology";
 import { spellingsOf } from "../punctuation";
 
 /**
- * Every Greek letter is built from its code point, never typed or pasted — see
- * the note in `corpusTokens.test.ts`.
+ * Greek built from code points, never typed or pasted, the convention
+ * `corpusTokens.test.ts` explains.
  */
 const greek = (...codes: number[]) => String.fromCharCode(...codes);
 
@@ -14,10 +14,10 @@ const greek = (...codes: number[]) => String.fromCharCode(...codes);
 const TO = greek(0x3c4, 0x1f78);
 /** `πνεῦμα`, held both ways as well, so the two can be reconciled. */
 const PNEUMA = greek(0x3c0, 0x3bd, 0x3b5, 0x1fe6, 0x3bc, 0x3b1);
-/** `τῇ`, held only as a dative. */
-const TEI = greek(0x3c4, 0x1fc7);
-/** `ἀδελφῇ`, held only as a nominative — the map defect behind 63 corpus rows. */
-const ADELPHEI = greek(0x1f00, 0x3b4, 0x3b5, 0x3bb, 0x3c6, 0x1fc7);
+/** `τῷ`, held only as a dative. */
+const TOI = greek(0x3c4, 0x1ff7);
+/** `θεός`, held only as a nominative, as its ending allows nothing else. */
+const THEOS = greek(0x3b8, 0x3b5, 0x3cc, 0x3c2);
 /** `τὰ`, the neuter plural article. */
 const TA = greek(0x3c4, 0x1f70);
 /** `βοτρύδια`, the noun it governs at ISA 18:5. */
@@ -65,12 +65,13 @@ describe("agreementInSequence, article against its noun", () => {
   });
 
   it("should count but never report a pair the codex cannot reconcile", () => {
-    // `ἀδελφῇ` is held as a nominative and nothing else, so no pair of cells
-    // agrees and the corpus is faithfully copying the map. Correcting the
-    // corpus first would turn a silent defect into a failing morphology audit.
+    // `θεός` is held as a nominative and nothing else, so no pair of cells
+    // agrees and this rule stays quiet rather than guessing which word is
+    // wrong. The silence hides real defects whenever the map is the thing at
+    // fault, which is why `corpusOrthography.ts` asks the map nothing.
     const { issues, pairs, reconcilable } = agreementInSequence([
-      token(TEI, "T-DSF"),
-      token(` ${ADELPHEI}`, "N-NSF"),
+      token(TOI, "T-DSM"),
+      token(` ${THEOS}`, "N-NSM"),
     ]);
 
     expect(pairs).toBe(1);
@@ -140,9 +141,9 @@ describe("agreementInSequence, the adjective between an article and its noun", (
   });
 
   it("should never judge an adjective standing beside a noun on its own", () => {
-    // 17.91% of BYZ2026's bare adjective/noun neighbours disagree and 35.55% of
-    // LXX1935's, and that is Greek rather than corpus rot: adjectives go
-    // substantival, predicative, comparative with a genitive of comparison.
+    // Bare adjective/noun neighbours disagree far too often to be corpus rot,
+    // and the disagreements are Greek: adjectives go substantival,
+    // predicative, comparative with a genitive of comparison.
     expect(agreementInSequence([token(MIKRA, "A-NSF"), token(` ${BOTRYDIA}`, "N-APN")]).issues).toEqual(
       []
     );
@@ -151,8 +152,10 @@ describe("agreementInSequence, the adjective between an article and its noun", (
 
 describe("agreementInSequence, one article against another", () => {
   it("should report a second-attributive article matching no noun phrase before it", () => {
-    // ISA 18:5's own shape: `τὰ βοτρύδια τὰ μικρά`, the second article tagged
-    // nominative inside an accusative phrase.
+    // `τὰ βοτρύδια τὰ μικρά`, the second article tagged nominative inside an
+    // accusative phrase. ISA 18:5 prints this phrase but tags both articles
+    // `T-APN` and mis-tags the adjective instead, so the rule stays quiet
+    // there; it fires only when the repeated article is the word that differs.
     const { issues } = agreementInSequence([
       token(TA, "T-APN"),
       token(` ${BOTRYDIA}`, "N-APN"),
@@ -169,7 +172,8 @@ describe("agreementInSequence, one article against another", () => {
   });
 
   it("should report one across a coordinating conjunction", () => {
-    // 2CH 36:18 and 1ES 1:51: `τὰ … τὰ μεγάλα καὶ τὰ μικρά`.
+    // The coordinated shape `τὰ … τὰ μεγάλα καὶ τὰ μικρά`, which 2CH 36:18 and
+    // 1ES 1:51 print with their articles agreeing, as above.
     const { issues } = agreementInSequence([
       token(TA, "T-APN"),
       token(` ${BOTRYDIA}`, "N-APN"),
@@ -230,7 +234,7 @@ describe("agreementInSequence, one article against another", () => {
   });
 
   it("should not reach across a word that ends the phrase", () => {
-    // A word carrying no code at all — 16,357 of them in LXX1935 — says nothing
+    // A word carrying no code at all, and LXX1935 has thousands, says nothing
     // about what it is, so nothing can be claimed across it.
     expect(
       agreementInSequence([

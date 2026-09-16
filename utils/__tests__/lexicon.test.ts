@@ -272,8 +272,14 @@ describe("resolveStrongs", () => {
   it("should say so when the lemma is not a root the codex holds", () => {
     // No fold fallback here on purpose: a fold could tie two roots, and this
     // lemma has no fold match either, so it would buy nothing but a risk.
-    expect(resolveStrongs({ lemma: "αἴξ", text: " αἶγας", morph: "N-APF", morphology: "robinson" })).toEqual({
-      unresolved: "lemma is not a root in the codex",
-    });
+    //
+    // The lemma is invented rather than borrowed from a corpus. This test used
+    // to name `αἴξ`, a real word the codex happened not to hold, and it broke
+    // the day the codex gained it. Every lemma either corpus names is now a
+    // root, so a real word cannot stand for this case at all.
+    const notAWord = "ξζϙωπ";
+    expect(
+      resolveStrongs({ lemma: notAWord, text: ` ${notAWord}`, morph: "N-APF", morphology: "robinson" })
+    ).toEqual({ unresolved: "lemma is not a root in the codex" });
   });
 });

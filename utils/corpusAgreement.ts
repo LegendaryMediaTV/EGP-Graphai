@@ -5,44 +5,41 @@
  * spelling list and one code, so a pair that disagrees with each other, each
  * individually resolvable, passes every check there is.
  *
- * Three rules, and each is narrow on purpose.
+ * A lead generator, not a gate. Report-only, and it could not be anything else:
+ * in every finding only a person can say which of the two words is wrong. It is
+ * choked narrow for that reason, since a sweep whose findings are mostly Greek
+ * is a sweep nobody reads. Three rules do the choking.
  *
- * **An article and the declinable noun immediately after it**, reported only
- * when the codex already holds a pair of cells that agree — so the corpus could
- * have tagged the pair consistently out of what the map already says, and
- * nothing but its own choice of reading is at fault. Of 79,360 such pairs
- * across the two Greek versions, 827 disagree and 25 survive that restriction.
- * The rest trace to the map rather than to the corpus: `ἀδελφῇ` is held as a
- * nominative and nothing else, so 63 rows reading `τῇ ἀδελφῇ` are the corpus
- * faithfully copying it. Correcting those in the corpus first would turn a
- * silent defect into a failing morphology audit.
+ * **An article and the declinable noun after it**, reported only when the codex
+ * already holds a pair of cells that agree, so nothing but the corpus's own
+ * choice of reading is at fault. Most disagreements trace to the map instead,
+ * and staying quiet about those is deliberate: correcting the corpus while the
+ * map still says otherwise turns a silent defect into a failing morphology
+ * audit. {@link CorpusAgreementAudit.reconcilable} is how many the restriction
+ * let through, so the gap between it and `pairs` says how much is held back.
  *
- * **The adjective between an article and a noun that already agree** — 36 of
- * them, of which perhaps half are real: a genitive between an article and its
- * noun is ordinary Greek, and `τὸν πάντων δεσπότην` trips this as readily as a
- * mis-tagged ordinal does.
+ * **The adjective between an article and a noun that already agree.** Perhaps
+ * half are real. A genitive between an article and its noun is ordinary Greek,
+ * and `τὸν πάντων δεσπότην` trips this as readily as a mis-tagged ordinal does.
  *
- * **A second-attributive article against the noun phrase it belongs to** —
- * `τὰ βοτρύδια τὰ μικρά`, where the corpus contradicts itself inside one
- * printed phrase. 68 of them, all in LXX1935, catching ISA 18:5, 2CH 36:18 and
- * 1ES 1:51.
+ * **A second-attributive article against the article it repeats**, as in
+ * `τὰ βοτρύδια τὰ …`. Both have to be printed the same way, so it fires only
+ * where the corpus gives one spelling two codes inside one phrase, and it says
+ * nothing about a phrase whose articles agree and whose adjective is the
+ * mis-tagged word. No rule here compares an article to an adjective that no
+ * noun completes.
  *
  * **What is deliberately not here: a bare adjective beside a noun.** Those
- * disagree at 17.91% in BYZ2026 and 35.55% in LXX1935, and that is Greek rather
- * than corpus rot — an adjective goes substantival, predicative, comparative
- * with a genitive of comparison. `MAT 12:41 πλεῖον Ἰωνᾶ` and `MAT 26:66 Ἔνοχος
- * θανάτου` are both correct and both would trip it.
+ * disagree far too often to be corpus rot, and the disagreements are Greek: an
+ * adjective goes substantival, predicative, or comparative with a genitive of
+ * comparison. `MAT 12:41 πλεῖον Ἰωνᾶ` and `MAT 26:66 Ἔνοχος θανάτου` are both
+ * correct and both would trip it.
  *
- * **The blind spot, stated plainly: a pair wrong on both sides in the same
- * direction agrees, so no agreement check can ever see it.** 1ES 8:57 proves
- * it — silver and gold were coordinated predicate nominatives, both tagged
- * accusative, and only gold surfaced at all because its article happened to
- * disagree with its noun. Seven such pairs were found this session by reading
- * the verses around known defects, one at a time. There is no mechanical route
- * to the rest.
- *
- * Report-only, and it could not be anything else: in every finding only a
- * person can say which of the two words is the wrong one.
+ * **The blind spot: a pair wrong on both sides in the same direction agrees, so
+ * no agreement check can ever see it.** 1ES 8:57 is the worked example. Silver
+ * and gold were coordinated predicate nominatives, both tagged accusative, and
+ * only gold surfaced because its article happened to disagree with its noun.
+ * Reading the verses around a known defect is the only route to the rest.
  */
 
 import { CorpusToken, cellsFor, corpusVerses, declaredScheme } from "./corpusTokens";

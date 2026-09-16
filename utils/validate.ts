@@ -83,6 +83,10 @@ import {
   formatEnrichmentDisagreement,
 } from "./corpusEnrichment";
 import {
+  auditCorpusOrthography,
+  formatOrthographyFinding,
+} from "./corpusOrthography";
+import {
   auditCorpusAgreement,
   formatAgreementFinding,
 } from "./corpusAgreement";
@@ -2864,25 +2868,41 @@ async function main(requestedVersion?: string) {
     }
   }
 
+  // Word-orthography audit: a iota subscript marks the dative singular and
+  // marks nothing else, settled from the printed ending without consulting the
+  // map. Fails the run, because the ending cannot be read two ways and leaves a
+  // reader nothing to overrule. `utils/corpusOrthography.ts` has the reasoning.
+  console.log("\n🔠 Auditing parses against the words as printed...");
+  let orthographyPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const { findings, scanned } = auditCorpusOrthography(versionDir);
+    if (scanned === 0) {
+      console.log(`➖ ${versionDir}: no parse states both a case and a number, so nothing to check`);
+      continue;
+    }
+
+    const counted = `${scanned} case-bearing reading(s) scanned`;
+    if (findings.length === 0) {
+      console.log(`✅ ${versionDir}: every parse is one the word's ending allows (${counted})`);
+      continue;
+    }
+
+    console.error(`❌ ${versionDir}: ${findings.length} parse(s) the ending refutes (${counted}):`);
+    for (const finding of findings.slice(0, 25)) {
+      console.error(`  ${formatOrthographyFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.error(`  ...and ${findings.length - 25} more`);
+    }
+    orthographyPassed = false;
+  }
+
   // Word-agreement audit: a Greek article agrees with its noun in case, number
-  // and gender, and nothing else in this repo compares two nodes at all. The
-  // corpus walk the morphology audit uses hands its visitor a spelling list and
-  // one code, discarding the sequence, so a pair that disagrees with each
-  // other — each individually resolvable, each accounted for by the map —
-  // passes every check there is.
-  //
-  // The article/noun rule reports only pairs the codex already holds an
-  // agreeing pair of cells for, so what is left is the corpus's own choice of
-  // reading rather than a gap in the map. The other disagreements are counted
-  // and not listed: `ἀδελφῇ` is held as a nominative and nothing else, so 63
-  // rows reading `τῇ ἀδελφῇ` are the corpus faithfully copying the map, and
-  // correcting those here first would turn a silent defect into a failing
-  // morphology audit.
-  //
-  // **Never fails the run.** In every finding only a person can say which of
-  // the two words is wrong, the same reason the coverage numbers above never
-  // fail one. And a pair wrong on both sides in the same direction agrees, so
-  // nothing here can see it at all — 1ES 8:57 is the worked example.
+  // and gender, and nothing else in this repo compares two nodes at all. Never
+  // fails the run, because only a person can say which of the two words in a
+  // finding is wrong. `utils/corpusAgreement.ts` has the three rules and what
+  // each deliberately leaves alone.
   console.log("\n🔗 Auditing word agreement...");
 
   for (const versionDir of versionDirs) {
@@ -2947,6 +2967,7 @@ async function main(requestedVersion?: string) {
   if (
     !enrichmentPassed ||
     !corpusMorphologyPassed ||
+    !orthographyPassed ||
     !declaredChapterMismatchesPassed ||
     !crossChapterLinksPassed ||
     !truncatedRangesPassed ||
@@ -2977,6 +2998,9 @@ async function main(requestedVersion?: string) {
     if (!corpusMorphologyPassed) {
       console.error("\n❌ Corpus morphology audit failed! Each code above is one the lexical map cannot account for: a spelling the map does not hold, a spelling whose cells do not include this parse, or a code written in a scheme the version does not declare in its own `morphology` field. Narrowing an indeclinable from context is allowed and never reported, so a finding here is a real gap. No auto-fix: add the cell the corpus attests, or correct the code.");
     }
+    if (!orthographyPassed) {
+      console.error("\n❌ Word-orthography audit failed! Each parse above states a case the word's own printed ending forbids. A iota subscript marks the dative singular of the first and second declensions and marks nothing else, so a nominal ending in one is dative and singular, and one ending in a bare alpha, eta or omega is not. This is settled without consulting the lexical map, which is the point: the map was built downstream of these corpora, so a corpus error becomes a cell and that cell then satisfies the morphology audit above. No auto-fix, and there cannot be one — the rule says what a parse cannot be, never what it is, so read the clause. Beware that some findings are not case errors at all: a plural code on a word ending in a subscript means the word itself is misidentified, the way EXO 20:9 printed `ἐργᾷ` and `ἔργα` four words apart and tagged both `N-APN`. The Attic declension is the one paradigm the rule cannot resolve, since it takes `-ῳ` in the nominative plural as well as the dative singular; `utils/corpusOrthography.ts` says which roots those are.");
+    }
     if (!lexicalMapsPassed) {
       console.error("\n❌ Lexical map audit failed! Each finding above is either a codex file that does not match `codex-schema.json`, a parse code the language registry does not define, a parse stating two values for one category, a stored transliteration the registry's own table does not produce, two spellings under one root that are the same key written twice (differing only in case or in a grave for an acute), a cell Strong's number that is not a subset of its root's or is the root's whole set, or a root-level lexical fact (gender, declension, conjugation, deponent, stems) that contradicts the root's own cells or the registry's own vocabulary. No auto-fix: correct the codex, or add the registry entry the codex is relying on.");
     }
@@ -2989,7 +3013,7 @@ async function main(requestedVersion?: string) {
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, corpus-morphology, and lexical-enrichment audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, corpus-morphology, word-orthography, and lexical-enrichment audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

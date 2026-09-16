@@ -297,7 +297,6 @@
       "νάβλα": {
         "transliteration": "nábla",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -1075,11 +1074,7 @@
       },
       "νάπῃ": {
         "transliteration": "nápē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "νάπην": {
         "transliteration": "nápēn",
@@ -1596,10 +1591,7 @@
     "inflections": {
       "νεανίᾳ": {
         "transliteration": "neanía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "νεανίαι": {
         "transliteration": "neaníai",
@@ -2221,7 +2213,6 @@
         "transliteration": "neogná",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -2255,7 +2246,6 @@
         "transliteration": "néa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -2315,14 +2305,6 @@
           { "parse": ["adj", "acc", "pl", "masc"] }
         ]
       },
-      "νεώ": {
-        "transliteration": "neṓ",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
-        ]
-      },
       "νέῳ": {
         "transliteration": "néō",
         "cells": [
@@ -2353,11 +2335,7 @@
       },
       "νεωτέρᾳ": {
         "transliteration": "neōtéra",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "pl", "neut", "comp"] },
-          { "parse": ["adj", "voc", "pl", "neut", "comp"] }
-        ]
+        "cells": [{ "parse": ["adj", "comp", "dat", "sg", "fem"] }]
       },
       "νεωτέραις": {
         "transliteration": "neōtérais",
@@ -2512,7 +2490,6 @@
         "transliteration": "neóphyta",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -2995,12 +2972,49 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
     "inflections": {
+      "νεώ": {
+        "transliteration": "neṓ",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
+      },
+      "νεῴ": {
+        "transliteration": "neṓ",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "nom", "pl", "masc"] }
+        ]
+      },
+      "νεών": {
+        "transliteration": "neṓn",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "gen", "pl", "masc"] }
+        ]
+      },
       "νεώς": {
         "transliteration": "neṓs",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "voc", "sg", "masc"] }
+        ]
+      },
+      "νεῴς": {
+        "transliteration": "neṓs",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
+    },
+    "declension": "2-attic"
+  },
+  "νεωστί": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "lately, recently",
+    "inflections": {
+      "νεωστί": { "transliteration": "neōstí", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "νεωτερίζω": {
@@ -3087,7 +3101,6 @@
         "transliteration": "nēktá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3132,7 +3145,6 @@
         "transliteration": "nḗpia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3143,7 +3155,6 @@
         "transliteration": "nḗpiá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3358,7 +3369,7 @@
     "inflections": {
       "νηστεία": {
         "transliteration": "nēsteía",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "νηστείᾳ": {
         "transliteration": "nēsteía",
@@ -4352,6 +4363,14 @@
       }
     }
   },
+  "νοητῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "with understanding, intelligently",
+    "inflections": {
+      "νοητῶς": { "transliteration": "noētō̂s", "cells": [{ "parse": ["adv"] }] }
+    }
+  },
   "νοθεύω": {
     "language": "greek",
     "pos": "verb",
@@ -4384,6 +4403,14 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       }
+    }
+  },
+  "νόθως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "spuriously, insincerely",
+    "inflections": {
+      "νόθως": { "transliteration": "nóthōs", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "νομάς": {
@@ -4450,18 +4477,13 @@
       "νομή": {
         "transliteration": "nomḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "νομῇ": {
         "transliteration": "nomē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "νομήν": {
         "transliteration": "nomḗn",
@@ -4627,7 +4649,6 @@
         "transliteration": "nómima",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -4638,7 +4659,6 @@
         "transliteration": "nómimá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -4715,6 +4735,17 @@
       }
     }
   },
+  "νομιστέον": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "one must consider",
+    "inflections": {
+      "νομιστέον": {
+        "transliteration": "nomistéon",
+        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+      }
+    }
+  },
   "νομοδιδάσκαλος": {
     "language": "greek",
     "pos": "noun",
@@ -4748,6 +4779,17 @@
           { "parse": ["noun", "acc", "pl", "fem"] },
           { "parse": ["noun", "gen", "sg", "fem"] }
         ]
+      }
+    }
+  },
+  "νομοθέσμως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "lawfully, by ordinance",
+    "inflections": {
+      "νομοθέσμως": {
+        "transliteration": "nomothésmōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -5110,11 +5152,7 @@
     "inflections": {
       "νοσσιᾷ": {
         "transliteration": "nossiâ",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "νοσσιαί": {
         "transliteration": "nossiaí",
@@ -5424,18 +5462,13 @@
       "νουμηνία": {
         "transliteration": "noumēnía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "νουμηνίᾳ": {
         "transliteration": "noumēnía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "νουμηνίαι": {
         "transliteration": "noumēníai",
@@ -5450,7 +5483,10 @@
       },
       "νουμηνίας": {
         "transliteration": "noumēnías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "νουμηνιῶν": {
         "transliteration": "noumēniō̂n",
@@ -5548,18 +5584,13 @@
       "νυκτερινή": {
         "transliteration": "nykterinḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
       "νυκτερινῇ": {
         "transliteration": "nykterinē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "νυκτερινόν": {
         "transliteration": "nykterinón",
@@ -5605,6 +5636,14 @@
         "transliteration": "nyktikórax",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
+    }
+  },
+  "νύκτωρ": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "by night",
+    "inflections": {
+      "νύκτωρ": { "transliteration": "nýktōr", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "νυμφαγωγός": {
@@ -5675,7 +5714,7 @@
       },
       "νύμφῃ": {
         "transliteration": "nýmphē",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "νύμφην": {
         "transliteration": "nýmphēn",

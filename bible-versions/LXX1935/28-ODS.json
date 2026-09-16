@@ -6537,7 +6537,7 @@
         "text": " ἐπιστήμη.",
         "script": "G",
         "transliteration": " epistḗmē.",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "ἐπιστήμη"
       }
     ]
@@ -9269,7 +9269,7 @@
         "script": "G",
         "transliteration": " sōtēría",
         "strong": "G4991",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "σωτηρία"
       },
       {
@@ -9707,7 +9707,8 @@
         "text": " ἠλαττώθησαν,",
         "script": "G",
         "transliteration": " ēlattṓthēsan,",
-        "lemma": "ἀλάσσω"
+        "strong": "G1642",
+        "lemma": "ἐλαττόω"
       },
       {
         "text": " καὶ",
@@ -11331,7 +11332,7 @@
         "text": " δασέως.",
         "script": "G",
         "transliteration": " daséōs.",
-        "lemma": "δασέως"
+        "lemma": "δασύς"
       },
       {
         "text": " Διάψαλμα.",
@@ -11771,7 +11772,7 @@
         "script": "G",
         "transliteration": " bía,",
         "strong": "G970",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "βία"
       },
       {
@@ -15056,7 +15057,7 @@
         "text": " μικρᾷ",
         "script": "G",
         "transliteration": " mikrâ",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "μικρός"
       },
       {
@@ -18066,7 +18067,7 @@
         "script": "G",
         "transliteration": " alēthinē̂",
         "strong": "G228",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "ἀληθινός"
       },
       {
@@ -27949,9 +27950,9 @@
         "text": " σκαφῇ,",
         "script": "G",
         "transliteration": " skaphē̂,",
-        "strong": "G4627",
-        "morph": "N-NSF",
-        "lemma": "σκάφη"
+        "strong": "G4626",
+        "morph": "V-2APS-3S",
+        "lemma": "σκάπτω"
       },
       {
         "text": " καὶ",

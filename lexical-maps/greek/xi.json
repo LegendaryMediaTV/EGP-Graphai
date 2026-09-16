@@ -44,7 +44,6 @@
       "ξένια": {
         "transliteration": "xénia",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -221,18 +220,13 @@
       "ξένη": {
         "transliteration": "xénē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
       "ξένῃ": {
         "transliteration": "xénē",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "ξένην": {
         "transliteration": "xénēn",
@@ -405,18 +399,13 @@
       "ξηρασία": {
         "transliteration": "xērasía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "ξηρασίᾳ": {
         "transliteration": "xērasía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ξηρασίας": {
         "transliteration": "xērasías",
@@ -578,7 +567,6 @@
       "ξυλίνη": {
         "transliteration": "xylínē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]

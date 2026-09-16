@@ -580,7 +580,6 @@
         "transliteration": "phalakrá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -1101,7 +1100,6 @@
       "φαντασία": {
         "transliteration": "phantasía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -1119,7 +1117,10 @@
       },
       "φαντασίας": {
         "transliteration": "phantasías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -1328,11 +1329,7 @@
     "inflections": {
       "φαρέτρᾳ": {
         "transliteration": "pharétra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φαρέτραν": {
         "transliteration": "pharétran",
@@ -1465,6 +1462,26 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      }
+    }
+  },
+  "φαρμακία": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
+    "shortDefinition": "sorcery, witchcraft",
+    "inflections": {
+      "φαρμακείαις": {
+        "transliteration": "pharmakeíais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "φαρμακείας": {
+        "transliteration": "pharmakeías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
         ]
       }
     }
@@ -2022,7 +2039,6 @@
       "φαυλίστρια": {
         "transliteration": "phaulístria",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -2044,11 +2060,7 @@
       },
       "φαύλῃ": {
         "transliteration": "phaúlē",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "φαῦλοι": {
         "transliteration": "phaûloi",
@@ -2449,6 +2461,23 @@
       }
     }
   },
+  "φειδώ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-os",
+    "shortDefinition": "sparing, mercy",
+    "inflections": {
+      "φειδοῖ": {
+        "transliteration": "pheidoî",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "φειδοῦς": {
+        "transliteration": "pheidoûs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
   "φειδωλός": {
     "language": "greek",
     "pos": "adj",
@@ -2703,18 +2732,13 @@
       "φερνή": {
         "transliteration": "phernḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "φερνῇ": {
         "transliteration": "phernē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φερνήν": {
         "transliteration": "phernḗn",
@@ -2723,6 +2747,20 @@
       "φερνῆς": {
         "transliteration": "phernē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "φερνίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to endow with a dowry",
+    "inflections": {
+      "φερνιεῖ": {
+        "transliteration": "phernieî",
+        "cells": [
+          { "parse": ["verb", "attic", "fut", "act", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },
@@ -2919,13 +2957,10 @@
       "φερομένη": {
         "transliteration": "pheroménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -3358,6 +3393,12 @@
       "φυγεῖν": {
         "transliteration": "phygeîn",
         "cells": [{ "parse": ["verb", "second", "aor", "act", "inf"] }]
+      },
+      "φύγῃ": {
+        "transliteration": "phýgē",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
+        ]
       },
       "φύγητε": {
         "transliteration": "phýgēte",
@@ -4106,7 +4147,6 @@
       "φιάλη": {
         "transliteration": "phiálē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -4274,7 +4314,7 @@
       },
       "φιλανθρωπίᾳ": {
         "transliteration": "philanthrōpía",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φιλανθρωπίαν": {
         "transliteration": "philanthrōpían",
@@ -4297,7 +4337,6 @@
         "transliteration": "philánthrōpa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -4619,7 +4658,7 @@
       },
       "φιλίᾳ": {
         "transliteration": "philía",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φιλίαν": {
         "transliteration": "philían",
@@ -4766,18 +4805,13 @@
       "φιλοδοξία": {
         "transliteration": "philodoxía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "φιλοδοξίᾳ": {
         "transliteration": "philodoxía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -5046,7 +5080,6 @@
       "φίλη": {
         "transliteration": "phílē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -5122,11 +5155,7 @@
     "inflections": {
       "φιλοσοφίᾳ": {
         "transliteration": "philosophía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φιλοσοφίαν": {
         "transliteration": "philosophían",
@@ -5191,6 +5220,17 @@
       }
     }
   },
+  "φιλοστόργως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "with tender affection",
+    "inflections": {
+      "φιλοστόργως": {
+        "transliteration": "philostórgōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "φιλοτεκνία": {
     "language": "greek",
     "pos": "noun",
@@ -5219,7 +5259,6 @@
         "transliteration": "philótekna",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -5278,7 +5317,6 @@
       "φιλοτιμία": {
         "transliteration": "philotimía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -5296,6 +5334,17 @@
           { "parse": ["adj", "gen", "sg", "masc"] },
           { "parse": ["adj", "gen", "sg", "neut"] }
         ]
+      }
+    }
+  },
+  "φιλοτίμως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "eagerly, zealously",
+    "inflections": {
+      "φιλοτίμως": {
+        "transliteration": "philotímōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -5602,6 +5651,19 @@
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg", "masc"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg", "masc"] }
         ]
+      }
+    }
+  },
+  "φλέψ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "a vein",
+    "inflections": {
+      "φλέβας": {
+        "transliteration": "phlébas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       }
     }
   },
@@ -6014,6 +6076,25 @@
       }
     }
   },
+  "φοβεροειδής": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "fearful in appearance",
+    "inflections": {
+      "φοβεροειδεῖς": {
+        "transliteration": "phoberoeideîs",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
   "φοβερός": {
     "language": "greek",
     "pos": "adj",
@@ -6081,6 +6162,17 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
+      }
+    }
+  },
+  "φοβερῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "fearfully, terribly",
+    "inflections": {
+      "φοβερῶς": {
+        "transliteration": "phoberō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -6411,13 +6503,10 @@
       "φοβουμένη": {
         "transliteration": "phobouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -6657,9 +6746,7 @@
         "transliteration": "Phoiníkē",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
+          { "parse": ["noun", "indecl-proper", "fem"] }
         ]
       },
       "Φοινίκην": {
@@ -6800,10 +6887,7 @@
       },
       "φονευτῇ": {
         "transliteration": "phoneutē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "φονευτήν": {
         "transliteration": "phoneutḗn",
@@ -7225,7 +7309,6 @@
       "φορολογία": {
         "transliteration": "phorología",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7808,7 +7891,6 @@
       "φρίκη": {
         "transliteration": "phríkē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7827,7 +7909,6 @@
         "transliteration": "phriktá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -7840,6 +7921,17 @@
           { "parse": ["adj", "nom", "pl", "fem"] },
           { "parse": ["adj", "nom", "pl", "masc"] }
         ]
+      }
+    }
+  },
+  "φρικτῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "horribly, dreadfully",
+    "inflections": {
+      "φρικτῶς": {
+        "transliteration": "phriktō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -8077,7 +8169,6 @@
       "φρονίμη": {
         "transliteration": "phronímē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -8284,6 +8375,17 @@
       }
     }
   },
+  "φροντιστέον": {
+    "language": "greek",
+    "pos": "adj",
+    "shortDefinition": "one must take thought, care must be taken",
+    "inflections": {
+      "φροντιστέον": {
+        "transliteration": "phrontistéon",
+        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+      }
+    }
+  },
   "φρουρά": {
     "language": "greek",
     "pos": "noun",
@@ -8291,7 +8393,6 @@
       "φρουρά": {
         "transliteration": "phrourá",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -8411,6 +8512,27 @@
       "φρυάγματος": {
         "transliteration": "phryágmatos",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      }
+    }
+  },
+  "φρυάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to be haughty, snort with insolence",
+    "inflections": {
+      "πεφρυαγμένου": {
+        "transliteration": "pephryagménou",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "neut"] }
+        ]
+      },
+      "φρυαττόμενος": {
+        "transliteration": "phryattómenos",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -8673,11 +8795,7 @@
       },
       "φυγῇ": {
         "transliteration": "phygē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "φύγῃ": {
-        "transliteration": "phýgē",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φυγήν": {
         "transliteration": "phygḗn",
@@ -8702,7 +8820,6 @@
       "φυή": {
         "transliteration": "phyḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -9255,18 +9372,13 @@
       "φυλή": {
         "transliteration": "phylḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "φυλῇ": {
         "transliteration": "phylē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "φυλήν": {
         "transliteration": "phylḗn",
@@ -9390,13 +9502,10 @@
       "πεφυραμένη": {
         "transliteration": "pephyraménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -9428,6 +9537,17 @@
       "φύρασον": {
         "transliteration": "phýrason",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+      }
+    }
+  },
+  "φύρδην": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "confusedly, pell-mell",
+    "inflections": {
+      "φύρδην": {
+        "transliteration": "phýrdēn",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -9475,13 +9595,10 @@
       "πεφυρμένη": {
         "transliteration": "pephyrménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -9692,7 +9809,10 @@
     "inflections": {
       "φυσιώσεις": {
         "transliteration": "physiṓseis",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -9772,13 +9892,10 @@
       "πεφυτευμένη": {
         "transliteration": "pephyteuménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]

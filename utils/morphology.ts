@@ -3,10 +3,25 @@
  *
  * The map stores what is known about a form as category-tagged codes, and a
  * morphology code is one rendering of that. Reading the rendering back is how a
- * corpus can be checked against the map that ought to explain it: decode the
+ * corpus is checked against the map that ought to explain it: decode the
  * token's code, look the spelling up, and ask whether any cell says the same
- * thing. That check is what makes the map's claim testable rather than asserted,
- * and it is what would have caught a cell deleted by mistake.
+ * thing. That is what makes the map's claim testable rather than asserted.
+ *
+ * **The two may differ, and only one way.** The map is the superset, holding as
+ * much as is known about a lemma and its inflections, and each morphology
+ * scheme is a projection of that onto what the scheme can say. So the map may
+ * carry a declension class, a dialect, a principal part or a paradigm slot no
+ * corpus prints and no scheme encodes, and that is the map doing its job. Write
+ * the fact into the map first, and let the projection flatten or drop what its
+ * own scheme has no vocabulary for.
+ *
+ * **The projection never invents.** A code written into a corpus has to be one
+ * the scheme already defines, so nothing here extends Robinson to carry what the
+ * map knows and Robinson does not. When a scheme cannot express a distinction,
+ * the answer is a coarser code, never a new one.
+ *
+ * {@link accountsFor} is that asymmetry made testable: a cell stating more than
+ * a code, or leaving open what a code fills in, still accounts for it.
  *
  * The grammar comes from the scheme file itself (`morphology/robinson.json`),
  * not from a table written here, so a change there carries through and this

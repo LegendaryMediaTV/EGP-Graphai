@@ -7017,7 +7017,7 @@
         "script": "G",
         "transliteration": " allotría?",
         "strong": "G245",
-        "morph": "A-DSF",
+        "morph": "A-NSF",
         "lemma": "ἀλλότριος"
       }
     ]
@@ -30716,7 +30716,7 @@
         "script": "G",
         "transliteration": " ponēría",
         "strong": "G4189",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "πονηρία"
       },
       {
@@ -39735,7 +39735,7 @@
         "script": "G",
         "transliteration": " spoudḗ.",
         "strong": "G4710",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "σπουδή"
       }
     ]
@@ -40104,7 +40104,7 @@
         "text": " ἐπᾷσαι,",
         "script": "G",
         "transliteration": " epâsai,",
-        "lemma": "ἐπαΐω"
+        "lemma": "ἐπᾴδω"
       },
       {
         "text": " καὶ",
@@ -41490,7 +41490,7 @@
         "text": " πτέρνῃ",
         "script": "G",
         "transliteration": " ptérnē",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "πτέρνη"
       },
       {
@@ -56409,7 +56409,7 @@
         "script": "G",
         "transliteration": " apōleía.",
         "strong": "G684",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "ἀπώλεια"
       }
     ]
@@ -84736,7 +84736,7 @@
         "script": "G",
         "transliteration": " periochē̂",
         "strong": "G4042",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "περιοχή"
       },
       {
@@ -90363,7 +90363,7 @@
         "script": "G",
         "transliteration": " ektetaménē",
         "strong": "G1614",
-        "morph": "V-REP-NSF",
+        "morph": "V-REP-DSF",
         "lemma": "ἐκτείνω"
       },
       {
@@ -95526,7 +95526,7 @@
         "text": " καλή,",
         "script": "G",
         "transliteration": " kalḗ,",
-        "morph": "A-DSF",
+        "morph": "A-NSF",
         "lemma": "καλός"
       },
       {
@@ -111046,7 +111046,7 @@
         "script": "G",
         "transliteration": " Phygē̂",
         "strong": "G5437",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "φυγή"
       },
       {
@@ -127947,7 +127947,7 @@
         "script": "G",
         "transliteration": " periochē̂,",
         "strong": "G4042",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "περιοχή"
       },
       {
@@ -133457,7 +133457,7 @@
         "script": "G",
         "transliteration": " erchoménē",
         "strong": "G2064",
-        "morph": "V-PNP-NSF",
+        "morph": "V-PNP-DSF",
         "lemma": "ἔρχομαι"
       },
       {
@@ -135478,7 +135478,7 @@
         "text": " ἰταμία",
         "script": "G",
         "transliteration": " itamía",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "ἰταμία"
       },
       {
@@ -135510,7 +135510,7 @@
         "script": "G",
         "transliteration": " trymaliàs",
         "strong": "G5168",
-        "morph": "N-GSF",
+        "morph": "N-APF",
         "lemma": "τρυμαλιά"
       },
       {
@@ -138929,14 +138929,14 @@
         "script": "G",
         "transliteration": " aulḕ",
         "strong": "G833",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "αὐλή"
       },
       {
         "text": " διατριβὴ",
         "script": "G",
         "transliteration": " diatribḕ",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "διατριβή"
       },
       {
@@ -140629,14 +140629,15 @@
         "script": "G",
         "transliteration": " haphē̂",
         "strong": "G860",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "ἁφή"
       },
       {
         "text": " ἀναφθήσεται,",
         "script": "G",
         "transliteration": " anaphthḗsetai,",
-        "lemma": "ἀναφθάνω"
+        "strong": "G381",
+        "lemma": "ἀνάπτω"
       },
       {
         "text": " καὶ",
@@ -141655,7 +141656,7 @@
         "script": "G",
         "transliteration": " ponēría",
         "strong": "G4189",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "πονηρία"
       },
       {
@@ -165170,7 +165171,8 @@
         "text": " ἐργῶνται",
         "script": "G",
         "transliteration": " ergō̂ntai",
-        "lemma": "ἐργάζο"
+        "strong": "G2038",
+        "lemma": "ἐργάζομαι"
       },
       {
         "text": " αὐτοὶ",
@@ -165215,7 +165217,8 @@
         "text": " ἐργῶνται",
         "script": "G",
         "transliteration": " ergō̂ntai",
-        "lemma": "ἐργάζο"
+        "strong": "G2038",
+        "lemma": "ἐργάζομαι"
       },
       {
         "text": " τῷ",
@@ -170966,7 +170969,7 @@
         "script": "G",
         "transliteration": " sōtēría",
         "strong": "G4991",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "σωτηρία"
       },
       {
@@ -205073,7 +205076,7 @@
         "text": " χρησμολογεῖ",
         "script": "G",
         "transliteration": " chrēsmologeî",
-        "lemma": "χρησμολογίζω"
+        "lemma": "χρησμολογέω"
       },
       {
         "text": " εἰρήνην",
@@ -228670,7 +228673,8 @@
         "text": " ἠλαττώθημεν",
         "script": "G",
         "transliteration": " ēlattṓthēmen",
-        "lemma": "ἀλάσσω"
+        "strong": "G1642",
+        "lemma": "ἐλαττόω"
       },
       {
         "text": " πάντες",
@@ -232797,7 +232801,7 @@
         "script": "G",
         "transliteration": " dekátē",
         "strong": "G1182",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "δέκατος"
       },
       {
@@ -234350,7 +234354,7 @@
         "script": "G",
         "transliteration": " dekátē",
         "strong": "G1182",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "δέκατος"
       },
       {
@@ -235728,7 +235732,7 @@
         "text": " Σαλωμων",
         "script": "G",
         "transliteration": " Salōmōn",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       },
       {
@@ -236087,7 +236091,7 @@
         "script": "G",
         "transliteration": " hyperochḕ",
         "strong": "G5247",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "ὑπεροχή"
       },
       {

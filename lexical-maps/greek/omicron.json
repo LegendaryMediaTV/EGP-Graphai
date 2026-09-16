@@ -253,7 +253,7 @@
     "inflections": {
       "ὀγδόη": {
         "transliteration": "ogdóē",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
       "ὀγδόῃ": {
         "transliteration": "ogdóē",
@@ -509,7 +509,10 @@
       },
       "ὁδοιπορίας": {
         "transliteration": "hodoiporías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -846,7 +849,7 @@
       },
       "ὀδύνῃ": {
         "transliteration": "odýnē",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὀδύνην": {
         "transliteration": "odýnēn",
@@ -871,7 +874,6 @@
         "transliteration": "odynērá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -880,14 +882,7 @@
       },
       "ὀδυνηρᾷ": {
         "transliteration": "odynērâ",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "ὀδυνηράν": {
         "transliteration": "odynērán",
@@ -1287,6 +1282,19 @@
       }
     }
   },
+  "οἴαξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "tiller, rudder handle",
+    "inflections": {
+      "οἴακας": {
+        "transliteration": "oíakas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      }
+    }
+  },
   "οἶδα": {
     "language": "greek",
     "pos": "verb",
@@ -1622,7 +1630,6 @@
         "transliteration": "oikeía",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -1633,7 +1640,6 @@
         "transliteration": "oikeîa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -1710,6 +1716,22 @@
       }
     }
   },
+  "οἰκειόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to make one's own, make suitable",
+    "inflections": {
+      "οἰκειωθησόμενα": {
+        "transliteration": "oikeiōthēsómena",
+        "cells": [
+          { "parse": ["verb", "fut", "pas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "fut", "pas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "fut", "pas", "ptc", "voc", "pl", "neut"] }
+        ]
+      }
+    }
+  },
   "οἰκέτης": {
     "language": "greek",
     "pos": "noun",
@@ -1731,10 +1753,7 @@
       },
       "οἰκέτῃ": {
         "transliteration": "oikétē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "οἰκέτην": {
         "transliteration": "oikétēn",
@@ -2384,13 +2403,10 @@
       "οἰκοδομουμένη": {
         "transliteration": "oikodomouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -2558,7 +2574,7 @@
       },
       "οἰκοδομῇ": {
         "transliteration": "oikodomē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "οἰκοδομήν": {
         "transliteration": "oikodomḗn",
@@ -2984,7 +3000,6 @@
         "transliteration": "oiktrá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3007,6 +3022,14 @@
       }
     }
   },
+  "οἴμμοι": {
+    "language": "greek",
+    "pos": "inj",
+    "shortDefinition": "alas! woe is me!",
+    "inflections": {
+      "οἴμμοι": { "transliteration": "oímmoi", "cells": [{ "parse": ["inj"] }] }
+    }
+  },
   "οἰμωγή": {
     "language": "greek",
     "pos": "noun",
@@ -3015,6 +3038,18 @@
       "οἰμωγήν": {
         "transliteration": "oimōgḗn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "οἰμώζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to wail, lament",
+    "inflections": {
+      "οἰμώξεις": {
+        "transliteration": "oimṓxeis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       }
     }
   },
@@ -3638,7 +3673,6 @@
         "transliteration": "oknērá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3726,7 +3760,6 @@
         "transliteration": "oktakischilía",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -3766,6 +3799,22 @@
       }
     }
   },
+  "ὀκτάπηχυς": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "3-1-3-us",
+    "shortDefinition": "eight cubits long",
+    "inflections": {
+      "ὀκταπήχεσιν": {
+        "transliteration": "oktapḗchesin",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "fem"] },
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
+      }
+    }
+  },
   "ὀκτώ": {
     "language": "greek",
     "pos": "adj",
@@ -3778,6 +3827,18 @@
       }
     }
   },
+  "ὀκτωκαίδεκα": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "an eighteen",
+    "inflections": {
+      "ὀκτωκαίδεκα": {
+        "transliteration": "oktōkaídeka",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "ὀκτωκαιδέκατος": {
     "language": "greek",
     "pos": "adj",
@@ -3785,11 +3846,7 @@
     "inflections": {
       "ὀκτωκαιδεκάτῃ": {
         "transliteration": "oktōkaidekátē",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "ὀκτωκαιδέκατος": {
         "transliteration": "oktōkaidékatos",
@@ -4134,7 +4191,6 @@
       "ὀλίγη": {
         "transliteration": "olígē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -4447,6 +4503,19 @@
       }
     }
   },
+  "ὀλίσθρημα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "3n-ma",
+    "shortDefinition": "a slip, stumbling",
+    "inflections": {
+      "ὀλισθρήμασιν": {
+        "transliteration": "olisthrḗmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      }
+    }
+  },
   "ὁλκεῖον": {
     "language": "greek",
     "pos": "noun",
@@ -4471,7 +4540,6 @@
       "ὁλκή": {
         "transliteration": "holkḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -4483,6 +4551,92 @@
       "ὁλκῆς": {
         "transliteration": "holkē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "ὄλλυμι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "athematic",
+    "shortDefinition": "to destroy, ruin; mid. to perish",
+    "inflections": {
+      "ὀλεῖ": {
+        "transliteration": "oleî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ὀλεῖται": {
+        "transliteration": "oleîtai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ὀλέσαισαν": {
+        "transliteration": "olésaisan",
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "pl"] }]
+      },
+      "ὀλέσητε": {
+        "transliteration": "olésēte",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-2", "pl"] }]
+      },
+      "ὀλλύντα": {
+        "transliteration": "ollýnta",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "ὄλλυνται": {
+        "transliteration": "óllyntai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "ὄλλυται": {
+        "transliteration": "óllytai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ὀλοῦνται": {
+        "transliteration": "oloûntai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "ὀλωλότων": {
+        "transliteration": "olōlótōn",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "perf",
+              "act",
+              "ptc",
+              "gen",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "perf",
+              "act",
+              "ptc",
+              "gen",
+              "pl",
+              "neut",
+              "second"
+            ]
+          }
+        ]
+      },
+      "ὤλετο": {
+        "transliteration": "ṓleto",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ὤλοντο": {
+        "transliteration": "ṓlonto",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl", "second"] }
+        ]
       }
     }
   },
@@ -4859,6 +5013,17 @@
       }
     }
   },
+  "ὁλορριζί": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "root and branch, utterly",
+    "inflections": {
+      "ὁλορριζεί": {
+        "transliteration": "holorrizeí",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὁλόρριζος": {
     "language": "greek",
     "pos": "adj",
@@ -4977,6 +5142,17 @@
       }
     }
   },
+  "ὁλοσχερῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "completely, entirely",
+    "inflections": {
+      "ὁλοσχερῶς": {
+        "transliteration": "holoscherō̂s",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὁλοτελής": {
     "language": "greek",
     "pos": "adj",
@@ -4996,17 +5172,11 @@
     "inflections": {
       "Ολοφέρνη": {
         "transliteration": "Olophérnē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
       },
       "Ολοφέρνῃ": {
         "transliteration": "Olophérnē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "Ολοφέρνην": {
         "transliteration": "Olophérnēn",
@@ -5097,7 +5267,6 @@
       "ὀλύρα": {
         "transliteration": "olýra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -5239,7 +5408,6 @@
         "transliteration": "hómēra",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -5330,11 +5498,7 @@
     "inflections": {
       "ὁμιλίᾳ": {
         "transliteration": "homilía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὁμιλίαι": {
         "transliteration": "homilíai",
@@ -5361,18 +5525,13 @@
       "ὁμίχλη": {
         "transliteration": "homíchlē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "ὁμίχλῃ": {
         "transliteration": "homíchlē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὁμίχλην": {
         "transliteration": "homíchlēn",
@@ -5657,7 +5816,6 @@
       "ὁμοζηλία": {
         "transliteration": "homozēlía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -5728,11 +5886,7 @@
       },
       "ὁμοίᾳ": {
         "transliteration": "homoía",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "ὅμοια": {
         "transliteration": "hómoia",
@@ -6105,7 +6259,10 @@
       },
       "ὁμολογίας": {
         "transliteration": "homologías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -6129,6 +6286,17 @@
     "inflections": {
       "ὁμολογουμένως": {
         "transliteration": "homologouménōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
+  "ὁμολόγως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "openly, avowedly",
+    "inflections": {
+      "ὁμολόγως": {
+        "transliteration": "homológōs",
         "cells": [{ "parse": ["adv"] }]
       }
     }
@@ -6182,16 +6350,11 @@
     "inflections": {
       "ὁμονοίᾳ": {
         "transliteration": "homonoía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὁμόνοια": {
         "transliteration": "homónoia",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -6210,7 +6373,6 @@
         "transliteration": "homopatría",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -6252,7 +6414,6 @@
         "transliteration": "hómora",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -7146,11 +7307,7 @@
     "inflections": {
       "ὀνομασίᾳ": {
         "transliteration": "onomasía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -7162,7 +7319,6 @@
       "ὀνομαστή": {
         "transliteration": "onomastḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -7216,7 +7372,6 @@
       "ὀνοματογραφία": {
         "transliteration": "onomatographía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7375,6 +7530,14 @@
         "transliteration": "onychistē̂ras",
         "cells": [{ "parse": ["noun", "acc", "pl"] }]
       }
+    }
+  },
+  "ὀξέως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "quickly, sharply",
+    "inflections": {
+      "ὀξέως": { "transliteration": "oxéōs", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "ὄξος": {
@@ -7634,6 +7797,17 @@
       }
     }
   },
+  "ὁπηνίκα": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "at what time, whenever",
+    "inflections": {
+      "ὁπηνίκα": {
+        "transliteration": "hopēníka",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὀπήτιον": {
     "language": "greek",
     "pos": "noun",
@@ -7677,7 +7851,6 @@
         "transliteration": "opísthia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -7688,7 +7861,6 @@
         "transliteration": "opísthiá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -7721,6 +7893,17 @@
       }
     }
   },
+  "ὀπισθίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "backwards",
+    "inflections": {
+      "ὀπισθίως": {
+        "transliteration": "opisthíōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὀπισθότονος": {
     "language": "greek",
     "pos": "adj",
@@ -7748,6 +7931,17 @@
           { "parse": ["adj", "voc", "sg", "masc"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
+      }
+    }
+  },
+  "ὀπισθοφανῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "facing backwards, with averted face",
+    "inflections": {
+      "ὀπισθοφανῶς": {
+        "transliteration": "opisthophanō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -7806,6 +8000,18 @@
       "ὁπλίτης": {
         "transliteration": "hoplítēs",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "ὁπλοδοτέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "shortDefinition": "to furnish with arms",
+    "inflections": {
+      "ὁπλοδότησεν": {
+        "transliteration": "hoplodótēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -7952,6 +8158,17 @@
       "ὁποῖος": {
         "transliteration": "hopoîos",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "ὁπόταν": {
+    "language": "greek",
+    "pos": "conj",
+    "shortDefinition": "whenever",
+    "inflections": {
+      "ὁπόταν": {
+        "transliteration": "hopótan",
+        "cells": [{ "parse": ["conj"] }]
       }
     }
   },
@@ -8105,7 +8322,6 @@
         "transliteration": "optá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -8211,7 +8427,10 @@
       },
       "ὁράσεις": {
         "transliteration": "horáseis",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       },
       "ὁράσεως": {
         "transliteration": "horáseōs",
@@ -9296,6 +9515,12 @@
           }
         ]
       },
+      "ὦπταί": {
+        "transliteration": "ō̂ptaí",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ὡράθησαν": {
         "transliteration": "hōráthēsan",
         "cells": [
@@ -9595,6 +9820,17 @@
       }
     }
   },
+  "ὀργίλως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "angrily, in anger",
+    "inflections": {
+      "ὀργίλως": {
+        "transliteration": "orgílōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὀργυιά": {
     "language": "greek",
     "pos": "noun",
@@ -9639,7 +9875,6 @@
       "ὀρεινή": {
         "transliteration": "oreinḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -9781,7 +10016,6 @@
         "transliteration": "orthá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -9803,18 +10037,13 @@
       "ὀρθή": {
         "transliteration": "orthḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
       "ὀρθῇ": {
         "transliteration": "orthē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "ὀρθοί": {
         "transliteration": "orthoí",
@@ -10077,7 +10306,6 @@
       "ὀρθρινή": {
         "transliteration": "orthrinḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -10439,7 +10667,6 @@
       "ὁρκωμοσία": {
         "transliteration": "horkōmosía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -10525,7 +10752,7 @@
       },
       "ὁρμῇ": {
         "transliteration": "hormē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὁρμήν": {
         "transliteration": "hormḗn",
@@ -10906,7 +11133,6 @@
       "ὀρτυγομήτρα": {
         "transliteration": "ortygomḗtra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -10914,6 +11140,19 @@
       "ὀρτυγομήτραν": {
         "transliteration": "ortygomḗtran",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "ὄρυξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "oryx, wild antelope",
+    "inflections": {
+      "ὄρυγα": {
+        "transliteration": "óryga",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -10996,11 +11235,7 @@
     "inflections": {
       "ὀρφανίᾳ": {
         "transliteration": "orphanía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -11013,7 +11248,6 @@
         "transliteration": "orphaná",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -11479,7 +11713,7 @@
       },
       "ὀσμῇ": {
         "transliteration": "osmē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ὀσμήν": {
         "transliteration": "osmḗn",
@@ -11527,7 +11761,6 @@
       "ὅση": {
         "transliteration": "hósē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -11713,6 +11946,32 @@
       }
     }
   },
+  "ὁστισοῦν": {
+    "language": "greek",
+    "pos": "pron-rel",
+    "shortDefinition": "whoever, whatever at all",
+    "inflections": {
+      "ἡστινοσοῦν": {
+        "transliteration": "hēstinosoûn",
+        "cells": [{ "parse": ["pron-rel", "gen", "sg", "fem"] }]
+      },
+      "ὁντιναοῦν": {
+        "transliteration": "hontinaoûn",
+        "cells": [{ "parse": ["pron-rel", "acc", "sg", "masc"] }]
+      },
+      "ὁντινοῦν": {
+        "transliteration": "hontinoûn",
+        "cells": [{ "parse": ["pron-rel", "acc", "sg", "masc"] }]
+      },
+      "ὁτιοῦν": {
+        "transliteration": "hotioûn",
+        "cells": [
+          { "parse": ["pron-rel", "acc", "sg", "neut"] },
+          { "parse": ["pron-rel", "nom", "sg", "neut"] }
+        ]
+      }
+    }
+  },
   "ὀστοῦν": {
     "language": "greek",
     "pos": "noun",
@@ -11882,7 +12141,6 @@
       "ὀσφρασία": {
         "transliteration": "osphrasía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -12099,6 +12357,17 @@
       }
     }
   },
+  "οὐδαμοῦ": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "nowhere, not at all",
+    "inflections": {
+      "οὐδαμοῦ": {
+        "transliteration": "oudamoû",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "οὐδαμῶς": {
     "language": "greek",
     "pos": "adv",
@@ -12154,7 +12423,7 @@
       },
       "οὐδεμιᾷ": {
         "transliteration": "oudemiâ",
-        "cells": [{ "parse": ["adj", "neg", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "neg", "dat", "sg", "fem"] }]
       },
       "οὐδεμία": {
         "transliteration": "oudemía",
@@ -12412,18 +12681,13 @@
       "οὐλή": {
         "transliteration": "oulḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "οὐλῇ": {
         "transliteration": "oulē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "οὐλῆς": {
         "transliteration": "oulē̂s",
@@ -12438,6 +12702,14 @@
     "indices": { "strongs": "G3767" },
     "inflections": {
       "οὖν": { "transliteration": "oûn", "cells": [{ "parse": ["conj"] }] }
+    }
+  },
+  "οὗπερ": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "just where, in the very place where",
+    "inflections": {
+      "οὗπερ": { "transliteration": "hoûper", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "οὔπω": {
@@ -12914,10 +13186,6 @@
             "indices": { "strongs": "G3778" }
           }
         ]
-      },
-      "αὑτῇ": {
-        "transliteration": "hautē̂",
-        "cells": [{ "parse": ["pron-dem", "nom", "sg", "fem"] }]
       },
       "αὕτη": {
         "transliteration": "haútē",
@@ -13520,6 +13788,17 @@
       }
     }
   },
+  "ὀφθαλμοφανῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "in plain sight, before the eyes",
+    "inflections": {
+      "ὀφθαλμοφανῶς": {
+        "transliteration": "ophthalmophanō̂s",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "Οφιμιν": {
     "language": "greek",
     "pos": "noun",
@@ -13866,7 +14145,6 @@
         "transliteration": "ochyrá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -13995,13 +14273,10 @@
       "ὠχυρωμένη": {
         "transliteration": "ōchyrōménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -14194,7 +14469,6 @@
         "transliteration": "ópsima",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },

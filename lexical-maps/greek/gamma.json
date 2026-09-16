@@ -1,4 +1,16 @@
 {
+  "γʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "three",
+    "inflections": {
+      "γ": {
+        "transliteration": "g",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "Γααλ": {
     "language": "greek",
     "pos": "noun",
@@ -536,7 +548,6 @@
       "γάζα": {
         "transliteration": "gáza",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -561,7 +572,6 @@
       "Γάζα": {
         "transliteration": "Gáza",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "indecl-proper", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
@@ -770,6 +780,31 @@
       "γαζοφυλακίων": {
         "transliteration": "gazophylakíōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      }
+    }
+  },
+  "γαζοφύλαξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "a treasurer, keeper of the treasury",
+    "inflections": {
+      "γαζοφύλακας": {
+        "transliteration": "gazophýlakas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
+      "γαζοφύλακι": {
+        "transliteration": "gazophýlaki",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "γαζοφύλαξι": {
+        "transliteration": "gazophýlaxi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "γαζοφύλαξιν": {
+        "transliteration": "gazophýlaxin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -1146,7 +1181,6 @@
         "transliteration": "galathēná",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -1219,6 +1253,23 @@
       "Γαλαμααν": {
         "transliteration": "Galamaan",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "Γαλάται": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "Galatians, Gauls",
+    "inflections": {
+      "Γαλάταις": {
+        "transliteration": "Galátais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "Γαλάτας": {
+        "transliteration": "Galátas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -1301,11 +1352,7 @@
     "inflections": {
       "γαλεάγρᾳ": {
         "transliteration": "galeágra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -1352,7 +1399,6 @@
       "γαλῆ": {
         "transliteration": "galē̂",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -2528,6 +2574,19 @@
       }
     }
   },
+  "Γεθθεμ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "indeclinable",
+    "shortDefinition": "Gethem, a place",
+    "inflections": {
+      "Γεθθεμ": {
+        "transliteration": "Geththem",
+        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+      }
+    }
+  },
   "Γεθρεμμων": {
     "language": "greek",
     "pos": "noun",
@@ -3396,6 +3455,17 @@
       }
     }
   },
+  "γενναίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "nobly, bravely",
+    "inflections": {
+      "γενναίως": {
+        "transliteration": "gennaíōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "γεννάω": {
     "language": "greek",
     "pos": "verb",
@@ -3846,13 +3916,6 @@
           { "parse": ["noun", "acc", "pl", "neut"] }
         ]
       },
-      "γένῃ": {
-        "transliteration": "génē",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] }
-        ]
-      },
       "γένος": {
         "transliteration": "génos",
         "cells": [
@@ -3878,7 +3941,6 @@
         "transliteration": "geraiá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -4027,18 +4089,13 @@
       "γερουσία": {
         "transliteration": "gerousía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "γερουσίᾳ": {
         "transliteration": "gerousía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "γερουσίαν": {
         "transliteration": "gerousían",
@@ -4356,6 +4413,16 @@
       }
     }
   },
+  "γεωμετρικός": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "γεωμετρικόν": {
+        "transliteration": "geōmetrikón",
+        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+      }
+    }
+  },
   "γεωργέω": {
     "language": "greek",
     "pos": "verb",
@@ -4660,6 +4727,18 @@
       "γηράσκουσιν": {
         "transliteration": "gēráskousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      }
+    }
+  },
+  "γηροβόσκω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to support in old age",
+    "inflections": {
+      "ἐγηροβόσκησεν": {
+        "transliteration": "egērobóskēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -5086,6 +5165,22 @@
         "cells": [
           {
             "parse": ["verb", "second", "aor", "mid-dep", "imp", "pers-3", "sg"]
+          }
+        ]
+      },
+      "γένῃ": {
+        "transliteration": "génē",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "mid-dep",
+              "subj",
+              "pers-2",
+              "sg"
+            ]
           }
         ]
       },
@@ -6305,6 +6400,19 @@
       }
     }
   },
+  "γλαύξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "owl",
+    "inflections": {
+      "γλαῦκα": {
+        "transliteration": "glaûka",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "γλεῦκος": {
     "language": "greek",
     "pos": "noun",
@@ -6443,7 +6551,6 @@
       "γλυκεῖα": {
         "transliteration": "glykeîa",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -6527,7 +6634,6 @@
         "transliteration": "glyptá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -6597,7 +6703,6 @@
       "γλυφή": {
         "transliteration": "glyphḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7281,7 +7386,6 @@
       "γνωστή": {
         "transliteration": "gnōstḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -7311,6 +7415,17 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] }
         ]
+      }
+    }
+  },
+  "γνωστῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "clearly, so as to be known",
+    "inflections": {
+      "γνωστῶς": {
+        "transliteration": "gnōstō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -7724,11 +7839,17 @@
       },
       "Γομορρας": {
         "transliteration": "Gomorras",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "Γομόρρας": {
         "transliteration": "Gomórras",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "Γομόρροις": {
         "transliteration": "Gomórrois",
@@ -8031,6 +8152,14 @@
       }
     }
   },
+  "γοῦν": {
+    "language": "greek",
+    "pos": "prt",
+    "shortDefinition": "at any rate, indeed",
+    "inflections": {
+      "γοῦν": { "transliteration": "goûn", "cells": [{ "parse": ["prt"] }] }
+    }
+  },
   "Γουνι": {
     "language": "greek",
     "pos": "noun",
@@ -8188,11 +8317,7 @@
     "inflections": {
       "γραμματικῇ": {
         "transliteration": "grammatikē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "γραμματικοί": {
         "transliteration": "grammatikoí",
@@ -8756,6 +8881,19 @@
       }
     }
   },
+  "γρύψ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "griffin vulture",
+    "inflections": {
+      "γρύπα": {
+        "transliteration": "grýpa",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      }
+    }
+  },
   "γυμνάζω": {
     "language": "greek",
     "pos": "verb",
@@ -8858,7 +8996,6 @@
       "γυμνή": {
         "transliteration": "gymnḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -8984,7 +9121,6 @@
         "transliteration": "gynaikeîa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },

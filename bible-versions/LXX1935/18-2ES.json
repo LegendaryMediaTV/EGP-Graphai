@@ -1030,7 +1030,7 @@
         "text": " ἀποσκευῇ",
         "script": "G",
         "transliteration": " aposkeuē̂",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "ἀποσκευή"
       },
       {
@@ -8099,7 +8099,7 @@
         "script": "G",
         "transliteration": " Mōysē̂",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -13046,7 +13046,7 @@
         "script": "G",
         "transliteration": " diatagḕ",
         "strong": "G1296",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "διαταγή"
       },
       {
@@ -17273,7 +17273,7 @@
         "text": " ἐπιδέξιον",
         "script": "G",
         "transliteration": " epidéxion",
-        "lemma": "ἐπιδέξιον"
+        "lemma": "ἐπιδέξιος"
       },
       {
         "text": " γίνεται",
@@ -20530,7 +20530,7 @@
         "text": " ἔπαρχοι",
         "script": "G",
         "transliteration": " éparchoi",
-        "lemma": "ἄπαρχος"
+        "lemma": "ἔπαρχος"
       },
       {
         "text": " πέραν",
@@ -23306,7 +23306,7 @@
         "script": "G",
         "transliteration": " douleía",
         "strong": "G1397",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "δουλεία"
       },
       {
@@ -23378,7 +23378,7 @@
         "script": "G",
         "transliteration": " Mōysē̂.",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       }
     ]
@@ -23465,7 +23465,7 @@
         "script": "G",
         "transliteration": " tessareskaidekátē",
         "strong": "G5065",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "τεσσαρεσκαιδέκατος"
       },
       {
@@ -24706,7 +24706,7 @@
         "script": "G",
         "transliteration": " Mōysē̂,",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -29445,7 +29445,8 @@
         "text": " ἐπηρμένων.",
         "script": "G",
         "transliteration": " epērménōn.",
-        "lemma": "ἐπηρμένων"
+        "strong": "G1869",
+        "lemma": "ἐπαίρω"
       },
       {
         "text": " Καὶ",
@@ -41802,7 +41803,7 @@
         "script": "G",
         "transliteration": " plateía",
         "strong": "G4116",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "πλατύς"
       },
       {
@@ -47797,7 +47798,7 @@
         "script": "G",
         "transliteration": " diasporà",
         "strong": "G1290",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "διασπορά"
       },
       {
@@ -48942,7 +48943,7 @@
         "script": "G",
         "transliteration": " ponēría",
         "strong": "G4189",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "πονηρία"
       },
       {
@@ -66855,7 +66856,7 @@
         "script": "G",
         "transliteration": " pnoḗ.",
         "strong": "G4157",
-        "morph": "N-DSF",
+        "morph": "N-NSF",
         "lemma": "πνοή"
       },
       {
@@ -69364,7 +69365,7 @@
         "script": "G",
         "transliteration": " pémptē",
         "strong": "G3991",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "πέμπτος"
       },
       {
@@ -74412,7 +74413,7 @@
         "text": " Σαλωμων·",
         "script": "G",
         "transliteration": " Salōmōn;",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       },
       {
@@ -74651,7 +74652,7 @@
         "text": " Σαλωμων",
         "script": "G",
         "transliteration": " Salōmōn",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       },
       {
@@ -76822,7 +76823,7 @@
         "script": "G",
         "transliteration": " Mōysē̂,",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -84091,7 +84092,7 @@
         "script": "G",
         "transliteration": " Mōysē̂",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -86619,7 +86620,8 @@
         "text": " ἐτρύφησαν",
         "script": "G",
         "transliteration": " etrýphēsan",
-        "lemma": "τρυφάνω"
+        "strong": "G5171",
+        "lemma": "τρυφάω"
       },
       {
         "text": " ἐν",
@@ -87898,7 +87900,8 @@
         "text": " εἵλκυσας",
         "script": "G",
         "transliteration": " heílkysas",
-        "lemma": "ἕκλω"
+        "strong": "G1670",
+        "lemma": "ἕλκω"
       },
       {
         "text": " ἐπ’",
@@ -89391,7 +89394,7 @@
         "script": "G",
         "transliteration": " plateía",
         "strong": "G4116",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "πλατύς"
       },
       {
@@ -89407,7 +89410,7 @@
         "script": "G",
         "transliteration": " liparâ,",
         "strong": "G3045",
-        "morph": "A-APN",
+        "morph": "A-DSF",
         "lemma": "λιπαρός"
       },
       {
@@ -91575,7 +91578,7 @@
         "script": "G",
         "transliteration": " Mōysē̂",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -93767,7 +93770,7 @@
         "script": "G",
         "transliteration": " dekátē",
         "strong": "G1182",
-        "morph": "A-NSF",
+        "morph": "A-DSF",
         "lemma": "δέκατος"
       },
       {
@@ -94975,7 +94978,7 @@
         "text": " Σαλωμων·",
         "script": "G",
         "transliteration": " Salōmōn;",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       }
     ]
@@ -99088,7 +99091,7 @@
         "script": "G",
         "transliteration": " entolē̂",
         "strong": "G1785",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "ἐντολή"
       },
       {
@@ -102573,7 +102576,7 @@
         "text": " Σαλωμων",
         "script": "G",
         "transliteration": " Salōmōn",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       },
       {
@@ -103031,7 +103034,7 @@
         "script": "G",
         "transliteration": " Mōysē̂",
         "strong": "G3475",
-        "morph": "N-DSM",
+        "morph": "N-GSM",
         "lemma": "Μωσῆς"
       },
       {
@@ -108111,7 +108114,7 @@
         "text": " Σαλωμων",
         "script": "G",
         "transliteration": " Salōmōn",
-        "morph": "N-NSM",
+        "morph": "N-PRI",
         "lemma": "Σαλωμών"
       },
       {
@@ -108733,7 +108736,7 @@
         "text": " ἀγχιστείᾳ",
         "script": "G",
         "transliteration": " anchisteía",
-        "morph": "N-NSF",
+        "morph": "N-DSF",
         "lemma": "ἀγχιστεία"
       },
       {

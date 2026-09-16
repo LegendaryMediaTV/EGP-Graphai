@@ -156,18 +156,13 @@
       "ᾠδή": {
         "transliteration": "ōdḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "ᾠδῇ": {
         "transliteration": "ōdē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ᾠδήν": {
         "transliteration": "ōdḗn",
@@ -889,7 +884,7 @@
     "inflections": {
       "ὡραία": {
         "transliteration": "hōraía",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
       "ὡραίᾳ": {
         "transliteration": "hōraía",
@@ -897,7 +892,10 @@
       },
       "ὡραῖα": {
         "transliteration": "hōraîa",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] }
+        ]
       },
       "ὡραίαν": {
         "transliteration": "hōraían",
@@ -1323,6 +1321,17 @@
       }
     }
   },
+  "ὡσανεί": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "as if, as it were",
+    "inflections": {
+      "ὡσανεί": {
+        "transliteration": "hōsaneí",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ὡσαννά": {
     "language": "greek",
     "pos": "hebrew",
@@ -1729,14 +1738,7 @@
     "inflections": {
       "ὤχρᾳ": {
         "transliteration": "ṓchra",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       }
     }
   }

@@ -303,6 +303,12 @@
       "appliesTo": ["noun"]
     },
     {
+      "_id": "2-attic",
+      "category": "declension",
+      "name": "Attic declension, second declension with an omega stem",
+      "appliesTo": ["noun", "adj"]
+    },
+    {
       "_id": "3-cons",
       "category": "declension",
       "name": "Third declension, consonant stem",

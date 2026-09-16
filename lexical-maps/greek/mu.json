@@ -1,4 +1,12 @@
 {
+  "μά": {
+    "language": "greek",
+    "pos": "prt",
+    "shortDefinition": "by (in an oath)",
+    "inflections": {
+      "μά": { "transliteration": "má", "cells": [{ "parse": ["prt"] }] }
+    }
+  },
   "Μααζια": {
     "language": "greek",
     "pos": "noun",
@@ -804,6 +812,23 @@
       }
     }
   },
+  "Μαδβαρῖτις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "Madbaritis, of the wilderness",
+    "inflections": {
+      "Μαδβαρίτιδι": {
+        "transliteration": "Madbarítidi",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "Μαδβαρῖτις": {
+        "transliteration": "Madbarîtis",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      }
+    }
+  },
   "Μαδεβηνα": {
     "language": "greek",
     "pos": "noun",
@@ -852,6 +877,27 @@
       "Μαδιανίτῃ": {
         "transliteration": "Madianítē",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "Μαδιανῖτις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "a Midianite woman",
+    "inflections": {
+      "Μαδιανίτιδι": {
+        "transliteration": "Madianítidi",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "Μαδιανίτιδος": {
+        "transliteration": "Madianítidos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
+      "Μαδιανῖτιν": {
+        "transliteration": "Madianîtin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -1239,7 +1285,6 @@
       "μαῖα": {
         "transliteration": "maîa",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -1730,6 +1775,17 @@
       }
     }
   },
+  "μακαρίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "blessedly, happily",
+    "inflections": {
+      "μακαρίως": {
+        "transliteration": "makaríōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "Μακεδ": {
     "language": "greek",
     "pos": "noun",
@@ -2169,10 +2225,7 @@
       },
       "μακρᾷ": {
         "transliteration": "makrâ",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μακράν": {
         "transliteration": "makrán",
@@ -2317,6 +2370,19 @@
       "μακροχρόνιος": {
         "transliteration": "makrochrónios",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "μάκρυμμα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "3n-ma",
+    "shortDefinition": "abomination, defilement",
+    "inflections": {
+      "μακρύμμασιν": {
+        "transliteration": "makrýmmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       }
     }
   },
@@ -2501,18 +2567,13 @@
       "μαλακία": {
         "transliteration": "malakía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μαλακίᾳ": {
         "transliteration": "malakía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μαλακίαις": {
         "transliteration": "malakíais",
@@ -2595,7 +2656,6 @@
       "μαλακή": {
         "transliteration": "malakḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -2610,6 +2670,18 @@
       }
     }
   },
+  "μαλακοψυχέω": {
+    "language": "greek",
+    "pos": "verb",
+    "inflections": {
+      "μαλακοψυχήσαντας": {
+        "transliteration": "malakopsychḗsantas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
   "μαλακύνω": {
     "language": "greek",
     "pos": "verb",
@@ -2621,6 +2693,17 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
         ]
+      }
+    }
+  },
+  "μαλακῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "softly, gently",
+    "inflections": {
+      "μαλακῶς": {
+        "transliteration": "malakō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -2831,7 +2914,7 @@
     "inflections": {
       "μάμμη": {
         "transliteration": "mámmē",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μάμμῃ": {
         "transliteration": "mámmē",
@@ -3061,18 +3144,13 @@
       "μάνδρα": {
         "transliteration": "mándra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μάνδρᾳ": {
         "transliteration": "mándra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μάνδραι": {
         "transliteration": "mándrai",
@@ -3387,7 +3465,6 @@
       "μανία": {
         "transliteration": "manía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -3483,7 +3560,6 @@
       "μαντεία": {
         "transliteration": "manteía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -3648,6 +3724,27 @@
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "pl"] }
         ]
+      }
+    }
+  },
+  "μάντις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "a diviner, seer",
+    "inflections": {
+      "μάντεις": {
+        "transliteration": "mánteis",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "μάντιν": {
+        "transliteration": "mántin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -4441,7 +4538,10 @@
       },
       "μαρτυρίας": {
         "transliteration": "martyrías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -5418,7 +5518,7 @@
       },
       "ματαίᾳ": {
         "transliteration": "mataía",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μάταια": {
         "transliteration": "mátaia",
@@ -5580,6 +5680,17 @@
           { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
         ]
+      }
+    }
+  },
+  "ματαίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "in vain, without cause",
+    "inflections": {
+      "ματαίως": {
+        "transliteration": "mataíōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -5837,10 +5948,7 @@
       },
       "μάχαιρά": {
         "transliteration": "máchairá",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μάχαιραι": {
         "transliteration": "máchairai",
@@ -5860,7 +5968,10 @@
       },
       "μαχαίρας": {
         "transliteration": "machaíras",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "μαχαίρῃ": {
         "transliteration": "machaírē",
@@ -5978,18 +6089,13 @@
       "μάχη": {
         "transliteration": "máchē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μάχῃ": {
         "transliteration": "máchē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μάχην": {
         "transliteration": "máchēn",
@@ -6492,6 +6598,17 @@
       }
     }
   },
+  "μεγαλοδόξως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "with great glory",
+    "inflections": {
+      "μεγαλοδόξως": {
+        "transliteration": "megalodóxōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "μεγαλοκράτωρ": {
     "language": "greek",
     "pos": "noun",
@@ -6518,6 +6635,17 @@
       }
     }
   },
+  "μεγαλομερῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "magnificently, on a grand scale",
+    "inflections": {
+      "μεγαλομερῶς": {
+        "transliteration": "megalomerō̂s",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "μεγαλοπρέπεια": {
     "language": "greek",
     "pos": "noun",
@@ -6525,16 +6653,11 @@
     "inflections": {
       "μεγαλοπρεπείᾳ": {
         "transliteration": "megaloprepeía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μεγαλοπρέπεια": {
         "transliteration": "megaloprépeia",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -6542,7 +6665,6 @@
       "μεγαλοπρέπειά": {
         "transliteration": "megaloprépeiá",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -6588,6 +6710,17 @@
       "μεγαλοπρεποῦς": {
         "transliteration": "megaloprepoûs",
         "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "μεγαλοπρεπῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "magnificently, in fitting splendour",
+    "inflections": {
+      "μεγαλοπρεπῶς": {
+        "transliteration": "megaloprepō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -6648,7 +6781,6 @@
       "μεγαλορρημοσύνη": {
         "transliteration": "megalorrēmosýnē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -6745,6 +6877,17 @@
           { "parse": ["adj", "nom", "pl", "fem"] },
           { "parse": ["adj", "nom", "pl", "masc"] }
         ]
+      }
+    }
+  },
+  "μεγαλοψύχως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "magnanimously",
+    "inflections": {
+      "μεγαλοψύχως": {
+        "transliteration": "megalopsýchōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -6973,6 +7116,17 @@
       }
     }
   },
+  "μεγαλωστί": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "loudly, greatly",
+    "inflections": {
+      "μεγαλωστί": {
+        "transliteration": "megalōstí",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "μεγαλωσύνη": {
     "language": "greek",
     "pos": "noun",
@@ -7195,13 +7349,10 @@
         "transliteration": "megístē",
         "cells": [
           {
-            "parse": ["adj", "dat", "sg", "fem", "super"],
-            "indices": { "strongs": "G3176" }
-          },
-          {
             "parse": ["adj", "nom", "sg", "fem", "super"],
             "indices": { "strongs": "G3176" }
           },
+          { "parse": ["adj", "super", "nom", "sg", "fem"] },
           {
             "parse": ["adj", "voc", "sg", "fem", "super"],
             "indices": { "strongs": "G3176" }
@@ -7587,6 +7738,19 @@
       }
     }
   },
+  "μεθαχαβιν": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
+    "shortDefinition": "hiding themselves",
+    "inflections": {
+      "μεθαχαβιν": {
+        "transliteration": "methachabin",
+        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+      }
+    }
+  },
   "μεθερμηνεύω": {
     "language": "greek",
     "pos": "verb",
@@ -7630,7 +7794,7 @@
       },
       "μέθη": {
         "transliteration": "méthē",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μέθῃ": {
         "transliteration": "méthē",
@@ -8228,6 +8392,22 @@
       }
     }
   },
+  "μεῖραξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "lad, youth",
+    "inflections": {
+      "μείρακες": {
+        "transliteration": "meírakes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
   "Μειχάηλος": {
     "language": "greek",
     "pos": "noun",
@@ -8327,11 +8507,7 @@
     "inflections": {
       "μελανίᾳ": {
         "transliteration": "melanía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -8343,13 +8519,10 @@
       "μεμελανωμένη": {
         "transliteration": "memelanōménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -8428,7 +8601,6 @@
         "transliteration": "meléa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -8529,18 +8701,13 @@
       "μελέτη": {
         "transliteration": "melétē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μελέτῃ": {
         "transliteration": "melétē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -8592,7 +8759,6 @@
       "μέλισσα": {
         "transliteration": "mélissa",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -9310,6 +9476,17 @@
     "inflections": {
       "μέντοι": {
         "transliteration": "méntoi",
+        "cells": [{ "parse": ["conj"] }]
+      }
+    }
+  },
+  "μέντοιγε": {
+    "language": "greek",
+    "pos": "conj",
+    "shortDefinition": "yet surely, indeed",
+    "inflections": {
+      "μέντοιγε": {
+        "transliteration": "méntoige",
         "cells": [{ "parse": ["conj"] }]
       }
     }
@@ -10056,18 +10233,13 @@
       "μεσημβρία": {
         "transliteration": "mesēmbría",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μεσημβρίᾳ": {
         "transliteration": "mesēmbría",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μεσημβρίαν": {
         "transliteration": "mesēmbrían",
@@ -10089,11 +10261,7 @@
     "inflections": {
       "μεσημβρινῇ": {
         "transliteration": "mesēmbrinē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μεσημβρινόν": {
         "transliteration": "mesēmbrinón",
@@ -10246,7 +10414,6 @@
         "transliteration": "mesopórphyra",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -10297,7 +10464,6 @@
         "transliteration": "mésa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -10313,11 +10479,7 @@
       },
       "μέσῃ": {
         "transliteration": "mésē",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μέσην": {
         "transliteration": "mésēn",
@@ -10763,11 +10925,7 @@
       },
       "μεταβολῇ": {
         "transliteration": "metabolē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μεταβολῆς": {
         "transliteration": "metabolē̂s",
@@ -10803,6 +10961,72 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
+  "μεταγενής": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "born later, subsequent",
+    "inflections": {
+      "μεταγενέστερος": {
+        "transliteration": "metagenésteros",
+        "cells": [{ "parse": ["adj", "comp", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "μεταγίνομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "deponent",
+    "shortDefinition": "to be removed, go into exile",
+    "inflections": {
+      "μεταγενομένοις": {
+        "transliteration": "metagenoménois",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "dat",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "dat",
+              "pl",
+              "neut",
+              "second"
+            ]
+          }
+        ]
+      },
+      "μεταγενομένους": {
+        "transliteration": "metagenoménous",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid-dep",
+              "ptc",
+              "acc",
+              "pl",
+              "masc",
+              "second"
+            ]
+          }
         ]
       }
     }
@@ -11141,13 +11365,10 @@
       "μετακινουμένη": {
         "transliteration": "metakinouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -11175,6 +11396,20 @@
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
+        ]
+      }
+    }
+  },
+  "μετακομίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to carry over, transfer",
+    "inflections": {
+      "μετακομίσοντας": {
+        "transliteration": "metakomísontas",
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ptc", "acc", "pl", "masc"] }
         ]
       }
     }
@@ -11288,13 +11523,10 @@
       "μεταλλευομένη": {
         "transliteration": "metalleuoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -11322,16 +11554,11 @@
     "inflections": {
       "μεταμελείᾳ": {
         "transliteration": "metameleía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μεταμέλειά": {
         "transliteration": "metaméleiá",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -11904,7 +12131,6 @@
       "μεταστροφή": {
         "transliteration": "metastrophḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -12616,7 +12842,6 @@
         "transliteration": "metéōra",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -12683,18 +12908,13 @@
       "μετοικεσία": {
         "transliteration": "metoikesía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μετοικεσίᾳ": {
         "transliteration": "metoikesía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μετοικεσίαν": {
         "transliteration": "metoikesían",
@@ -12706,17 +12926,25 @@
       }
     }
   },
+  "μετοικέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "shortDefinition": "to migrate, live abroad",
+    "inflections": {
+      "μετῴκηκας": {
+        "transliteration": "metṓkēkas",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }]
+      }
+    }
+  },
   "μετοικία": {
     "language": "greek",
     "pos": "noun",
     "inflections": {
       "μετοικίᾳ": {
         "transliteration": "metoikía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μετοικίαν": {
         "transliteration": "metoikían",
@@ -12795,7 +13023,7 @@
       },
       "μετοχῇ": {
         "transliteration": "metochē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -13137,6 +13365,17 @@
       }
     }
   },
+  "μηδαμόθεν": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "from nowhere",
+    "inflections": {
+      "μηδαμόθεν": {
+        "transliteration": "mēdamóthen",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "μηδαμῶς": {
     "language": "greek",
     "pos": "adv",
@@ -13240,9 +13479,7 @@
         "transliteration": "Mēdía",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
+          { "parse": ["noun", "indecl-proper", "fem"] }
         ]
       },
       "Μηδίαν": {
@@ -13480,11 +13717,7 @@
       },
       "μηλωτῇ": {
         "transliteration": "mēlōtē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μηλωτήν": {
         "transliteration": "mēlōtḗn",
@@ -13500,6 +13733,34 @@
       "μημ": {
         "transliteration": "mēm",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
+  "μήν": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "a month",
+    "inflections": {
+      "μῆνες": {
+        "transliteration": "mē̂nes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "μηνός": {
+        "transliteration": "mēnós",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
+      "μηνῶν": {
+        "transliteration": "mēnō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "μησίν": {
+        "transliteration": "mēsín",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -13818,13 +14079,10 @@
       "μηρυομένη": {
         "transliteration": "mēryoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -13919,18 +14177,13 @@
       "μήτρα": {
         "transliteration": "mḗtra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μήτρᾳ": {
         "transliteration": "mḗtra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μήτραν": {
         "transliteration": "mḗtran",
@@ -14028,6 +14281,18 @@
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] }
+        ]
+      }
+    }
+  },
+  "μηχανεύομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "inflections": {
+      "μεμηχανευμένας": {
+        "transliteration": "memēchaneuménas",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "fem"] }
         ]
       }
     }
@@ -14179,13 +14444,10 @@
       "μιαινομένη": {
         "transliteration": "miainoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -14344,7 +14606,6 @@
         "transliteration": "miará",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -14438,11 +14699,7 @@
     "inflections": {
       "μιαροφαγίᾳ": {
         "transliteration": "miarophagía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μιαροφαγίαν": {
         "transliteration": "miarophagían",
@@ -14572,10 +14829,7 @@
     "inflections": {
       "Μιθραδάτῃ": {
         "transliteration": "Mithradátē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "Μιθραδάτης": {
         "transliteration": "Mithradátēs",
@@ -14635,7 +14889,7 @@
       },
       "μικρᾷ": {
         "transliteration": "mikrâ",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μικραί": {
         "transliteration": "mikraí",
@@ -14831,6 +15085,14 @@
           }
         ]
       }
+    }
+  },
+  "μικρῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "slightly, a little",
+    "inflections": {
+      "μικρῶς": { "transliteration": "mikrō̂s", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "Μίλητος": {
@@ -15606,13 +15868,10 @@
       "μισουμένη": {
         "transliteration": "misouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -15621,14 +15880,8 @@
         "transliteration": "misouménē",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] }
         ]
       },
       "μισουμένης": {
@@ -15753,7 +16006,6 @@
         "transliteration": "misētá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -15763,7 +16015,6 @@
       "μισητή": {
         "transliteration": "misētḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -16176,11 +16427,7 @@
     "inflections": {
       "μίτρᾳ": {
         "transliteration": "mítra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μίτραν": {
         "transliteration": "mítran",
@@ -16383,7 +16630,7 @@
     "inflections": {
       "μνεία": {
         "transliteration": "mneía",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μνείᾳ": {
         "transliteration": "mneía",
@@ -16493,18 +16740,13 @@
       "μνήμη": {
         "transliteration": "mnḗmē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "μνήμῃ": {
         "transliteration": "mnḗmē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "μνήμην": {
         "transliteration": "mnḗmēn",
@@ -16751,7 +16993,7 @@
       "μεμνηστευμένη": {
         "transliteration": "memnēsteuménē",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] }
         ]
       },
       "μεμνηστευμένῃ": {
@@ -16949,28 +17191,20 @@
       "μοιχωμένη": {
         "transliteration": "moichōménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "mid-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "sg", "fem"]
-          },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "fem"]
           },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "sg", "fem"]
           },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "sg", "fem"] }
         ]
@@ -17248,7 +17482,6 @@
       "μολόχη": {
         "transliteration": "molóchē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -17656,18 +17889,13 @@
       "μόνη": {
         "transliteration": "mónē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
       "μόνῃ": {
         "transliteration": "mónē",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "μονήν": {
         "transliteration": "monḗn",
@@ -17720,7 +17948,6 @@
       "μονωτάτη": {
         "transliteration": "monōtátē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem", "super"] },
           { "parse": ["adj", "nom", "sg", "fem", "super"] },
           { "parse": ["adj", "voc", "sg", "fem", "super"] }
         ]
@@ -17764,7 +17991,6 @@
       "μονοφαγία": {
         "transliteration": "monophagía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -17957,7 +18183,7 @@
     "inflections": {
       "μορφή": {
         "transliteration": "morphḗ",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μορφῇ": {
         "transliteration": "morphē̂",
@@ -18232,7 +18458,6 @@
         "transliteration": "mousiká",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -18343,7 +18568,6 @@
         "transliteration": "mochthērá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -18498,7 +18722,6 @@
       "μυγαλῆ": {
         "transliteration": "mygalē̂",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -18769,6 +18992,10 @@
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
+      "μύλαις": {
+        "transliteration": "mýlais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "μύλας": {
         "transliteration": "mýlas",
         "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
@@ -18882,7 +19109,6 @@
         "transliteration": "myrepsiká",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -19059,6 +19285,17 @@
       }
     }
   },
+  "μυριοπλασίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "ten thousand times over",
+    "inflections": {
+      "μυριοπλασίως": {
+        "transliteration": "myrioplasíōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "μυριότης": {
     "language": "greek",
     "pos": "noun",
@@ -19110,6 +19347,42 @@
       }
     }
   },
+  "μύρμηξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "ant",
+    "inflections": {
+      "μύρμηκα": {
+        "transliteration": "mýrmēka",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "μύρμηκες": {
+        "transliteration": "mýrmēkes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
+  "μυροβρεχής": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "μυροβρεχῆ": {
+        "transliteration": "myrobrechē̂",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      }
+    }
+  },
   "μύρον": {
     "language": "greek",
     "pos": "noun",
@@ -19157,7 +19430,6 @@
       "μυρσίνη": {
         "transliteration": "myrsínē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -19277,6 +19549,19 @@
       }
     }
   },
+  "μύσταξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "upper lip, moustache",
+    "inflections": {
+      "μύστακα": {
+        "transliteration": "mýstaka",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      }
+    }
+  },
   "μυστήριον": {
     "language": "greek",
     "pos": "noun",
@@ -19321,6 +19606,17 @@
       "μύστας": {
         "transliteration": "mýstas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      }
+    }
+  },
+  "μυστικῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly, in private",
+    "inflections": {
+      "μυστικῶς": {
+        "transliteration": "mystikō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -19434,6 +19730,39 @@
       "Μωαβιτῶν": {
         "transliteration": "Mōabitō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      }
+    }
+  },
+  "Μωαβῖτις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "a Moabite woman",
+    "inflections": {
+      "Μωαβίτιδας": {
+        "transliteration": "Mōabítidas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+      },
+      "Μωαβίτιδι": {
+        "transliteration": "Mōabítidi",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "Μωαβίτιδος": {
+        "transliteration": "Mōabítidos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
+      "Μωαβῖτιν": {
+        "transliteration": "Mōabîtin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "Μωαβῖτις": {
+        "transliteration": "Mōabîtis",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "Μωαβῖτίς": {
+        "transliteration": "Mōabîtís",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -19582,28 +19911,20 @@
       "μεμωμημένη": {
         "transliteration": "memōmēménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid-dep", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          {
-            "parse": ["verb", "perf", "midpas-dep", "ptc", "dat", "sg", "fem"]
-          },
           {
             "parse": ["verb", "perf", "midpas-dep", "ptc", "nom", "sg", "fem"]
           },
           {
             "parse": ["verb", "perf", "midpas-dep", "ptc", "voc", "sg", "fem"]
           },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas-dep", "ptc", "voc", "sg", "fem"] }
         ]
@@ -19642,7 +19963,6 @@
         "transliteration": "mōmētá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -19877,6 +20197,19 @@
       }
     }
   },
+  "Μωσεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "shortDefinition": "Moses",
+    "inflections": {
+      "Μωυσεῖ": {
+        "transliteration": "Mōyseî",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
   "Μωσῆς": {
     "language": "greek",
     "pos": "noun",
@@ -19895,7 +20228,7 @@
       },
       "Μωσῆ": {
         "transliteration": "Mōsē̂",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "Μωσῇ": {
         "transliteration": "Mōsē̂",
@@ -19919,7 +20252,10 @@
       },
       "Μωυσῆ": {
         "transliteration": "Mōysē̂",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "voc", "sg", "masc"] }
+        ]
       },
       "Μωυσῇ": {
         "transliteration": "Mōysē̂",

@@ -1,4 +1,28 @@
 {
+  "κʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "twenty",
+    "inflections": {
+      "κ": {
+        "transliteration": "k",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
+  "καʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "twenty-one",
+    "inflections": {
+      "κα": {
+        "transliteration": "ka",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "Κααθ": {
     "language": "greek",
     "pos": "noun",
@@ -112,6 +136,10 @@
       "κἀμοί": {
         "transliteration": "kamoí",
         "cells": [{ "parse": ["pron-pers", "crasis", "pers-1", "dat", "sg"] }]
+      },
+      "κἀμοῦ": {
+        "transliteration": "kamoû",
+        "cells": [{ "parse": ["pron-pers", "crasis", "pers-1", "gen", "sg"] }]
       }
     }
   },
@@ -1046,18 +1074,13 @@
       "καθέδρα": {
         "transliteration": "kathédra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "καθέδρᾳ": {
         "transliteration": "kathédra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καθέδραν": {
         "transliteration": "kathédran",
@@ -1130,6 +1153,18 @@
           { "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "pas-dep", "ind", "pers-3", "sg"] }
         ]
+      }
+    }
+  },
+  "καθεῖς": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "each one",
+    "inflections": {
+      "καθεῖς": {
+        "transliteration": "katheîs",
+        "cells": [{ "parse": ["adj", "indecl-other", "masc"] }]
       }
     }
   },
@@ -1448,9 +1483,6 @@
         "transliteration": "kathēménē",
         "cells": [
           {
-            "parse": ["verb", "aor", "mid", "ptc", "dat", "sg", "fem", "second"]
-          },
-          {
             "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "fem", "second"]
           },
           {
@@ -1462,18 +1494,6 @@
               "aor",
               "mid-dep",
               "ptc",
-              "dat",
-              "sg",
-              "fem",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "mid-dep",
-              "ptc",
               "nom",
               "sg",
               "fem",
@@ -1498,18 +1518,6 @@
               "aor",
               "midpas",
               "ptc",
-              "dat",
-              "sg",
-              "fem",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "midpas",
-              "ptc",
               "nom",
               "sg",
               "fem",
@@ -1523,18 +1531,6 @@
               "midpas",
               "ptc",
               "voc",
-              "sg",
-              "fem",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "midpas-dep",
-              "ptc",
-              "dat",
               "sg",
               "fem",
               "second"
@@ -1563,9 +1559,6 @@
               "fem",
               "second"
             ]
-          },
-          {
-            "parse": ["verb", "aor", "pas", "ptc", "dat", "sg", "fem", "second"]
           },
           {
             "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "fem", "second"]
@@ -1579,18 +1572,6 @@
               "aor",
               "pas-dep",
               "ptc",
-              "dat",
-              "sg",
-              "fem",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "pas-dep",
-              "ptc",
               "nom",
               "sg",
               "fem",
@@ -1609,28 +1590,20 @@
               "second"
             ]
           },
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "mid-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid-dep", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "sg", "fem"]
-          },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "fem"]
           },
           {
             "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "sg", "fem"]
           },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "sg", "fem"] }
         ]
@@ -2628,6 +2601,12 @@
         "transliteration": "kathoplisṓmetha",
         "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-1", "pl"] }]
       },
+      "καθωπλικώς": {
+        "transliteration": "kathōplikṓs",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "καθωπλίσαντο": {
         "transliteration": "kathōplísanto",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
@@ -2780,6 +2759,17 @@
       }
     }
   },
+  "καθύπερθε": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "from above, above",
+    "inflections": {
+      "καθύπερθε": {
+        "transliteration": "kathýperthe",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "καθυπνόω": {
     "language": "greek",
     "pos": "verb",
@@ -2824,6 +2814,26 @@
       "καθυστερήσεις": {
         "transliteration": "kathysterḗseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      }
+    }
+  },
+  "καθυφαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to weave in",
+    "inflections": {
+      "καθυφανεῖς": {
+        "transliteration": "kathyphaneîs",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "καθυφασμένων": {
+        "transliteration": "kathyphasménōn",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -2956,9 +2966,7 @@
         "transliteration": "Kainē̂",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
+          { "parse": ["noun", "indecl-proper", "fem"] }
         ]
       },
       "Καινήν": {
@@ -3501,6 +3509,13 @@
       "κἀκεῖνός": {
         "transliteration": "kakeînós",
         "cells": [{ "parse": ["pron-dem", "crasis", "nom", "sg", "masc"] }]
+      },
+      "κἀκείνου": {
+        "transliteration": "kakeínou",
+        "cells": [
+          { "parse": ["pron-dem", "crasis", "gen", "sg", "masc"] },
+          { "parse": ["pron-dem", "crasis", "gen", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -3546,7 +3561,10 @@
       },
       "κακίας": {
         "transliteration": "kakías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "κακιῶν": {
         "transliteration": "kakiō̂n",
@@ -3576,11 +3594,7 @@
     "inflections": {
       "κακοηθείᾳ": {
         "transliteration": "kakoētheía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κακοήθειαν": {
         "transliteration": "kakoḗtheian",
@@ -3629,6 +3643,13 @@
       "ἐκακολόγει": {
         "transliteration": "ekakológei",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐκακολόγουν": {
+        "transliteration": "ekakológoun",
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "κακολογῆσαί": {
         "transliteration": "kakologē̂saí",
@@ -3838,7 +3859,6 @@
       "κακοπραγία": {
         "transliteration": "kakopragía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -3874,18 +3894,13 @@
       "κακή": {
         "transliteration": "kakḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
       "κακῇ": {
         "transliteration": "kakē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "κακήν": {
         "transliteration": "kakḗn",
@@ -3989,7 +4004,6 @@
       "κακουργία": {
         "transliteration": "kakourgía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -4082,7 +4096,6 @@
       "κακοφροσύνη": {
         "transliteration": "kakophrosýnē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -4414,18 +4427,13 @@
       "καλάμη": {
         "transliteration": "kalámē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "καλάμῃ": {
         "transliteration": "kalámē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καλάμην": {
         "transliteration": "kalámēn",
@@ -4445,7 +4453,6 @@
       "καλαμίνη": {
         "transliteration": "kalamínē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -5086,18 +5093,13 @@
       "καλλονή": {
         "transliteration": "kallonḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "καλλονῇ": {
         "transliteration": "kallonē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καλλονήν": {
         "transliteration": "kallonḗn",
@@ -5191,11 +5193,7 @@
     "inflections": {
       "καλοκἀγαθίᾳ": {
         "transliteration": "kalokagathía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καλοκἀγαθίαν": {
         "transliteration": "kalokagathían",
@@ -5265,7 +5263,7 @@
       },
       "καλή": {
         "transliteration": "kalḗ",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
       "καλῇ": {
         "transliteration": "kalē̂",
@@ -5429,6 +5427,19 @@
       }
     }
   },
+  "κάλυξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "bud, calyx",
+    "inflections": {
+      "κάλυξιν": {
+        "transliteration": "kályxin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      }
+    }
+  },
   "καλυπτήρ": {
     "language": "greek",
     "pos": "noun",
@@ -5583,6 +5594,19 @@
     "inflections": {
       "καλώς": { "transliteration": "kalṓs", "cells": [{ "parse": ["adv"] }] },
       "καλῶς": { "transliteration": "kalō̂s", "cells": [{ "parse": ["adv"] }] }
+    }
+  },
+  "κάμαξ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "pole, spear shaft",
+    "inflections": {
+      "καμάκων": {
+        "transliteration": "kamákōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      }
     }
   },
   "καμάρα": {
@@ -5784,7 +5808,6 @@
       "κάμπη": {
         "transliteration": "kámpē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -6165,13 +6188,10 @@
       "καπνιζομένη": {
         "transliteration": "kapnizoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -6892,6 +6912,14 @@
     "pos": "adj",
     "indices": { "strongs": "G2593" },
     "inflections": {
+      "καρποφόρα": {
+        "transliteration": "karpophóra",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      },
       "καρποφόρον": {
         "transliteration": "karpophóron",
         "cells": [
@@ -7006,6 +7034,16 @@
       }
     }
   },
+  "καρπωτός": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "καρπωτόν": {
+        "transliteration": "karpōtón",
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+      }
+    }
+  },
   "κάρταλλος": {
     "language": "greek",
     "pos": "noun",
@@ -7090,7 +7128,6 @@
       "καρτερία": {
         "transliteration": "kartería",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7150,6 +7187,17 @@
       "καρτεροψυχίαν": {
         "transliteration": "karteropsychían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "καρτερῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "steadfastly, stoutly",
+    "inflections": {
+      "καρτερῶς": {
+        "transliteration": "karterō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -7217,6 +7265,22 @@
       }
     }
   },
+  "καρυωτός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "nut-shaped",
+    "inflections": {
+      "καρυωτά": {
+        "transliteration": "karyōtá",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      }
+    }
+  },
   "κάρφος": {
     "language": "greek",
     "pos": "noun",
@@ -7278,7 +7342,6 @@
       "κασία": {
         "transliteration": "kasía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -7833,13 +7896,10 @@
       "καταβεβλημένη": {
         "transliteration": "katabeblēménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -8204,7 +8264,6 @@
         "transliteration": "katágaia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -8465,6 +8524,27 @@
       "κατεγέλων": {
         "transliteration": "kategélōn",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      }
+    }
+  },
+  "κατάγελως": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "mockery, derision",
+    "inflections": {
+      "κατάγελως": {
+        "transliteration": "katágelōs",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "καταγέλωτα": {
+        "transliteration": "katagélōta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "καταγέλωτι": {
+        "transliteration": "katagélōti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -9090,13 +9170,10 @@
       "καταδικαζομένη": {
         "transliteration": "katadikazoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -9410,6 +9487,37 @@
       }
     }
   },
+  "καταδυναστεία": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
+    "shortDefinition": "oppression, abuse of power",
+    "inflections": {
+      "καταδυναστεία": {
+        "transliteration": "katadynasteía",
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
+      },
+      "καταδυναστείᾳ": {
+        "transliteration": "katadynasteía",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "καταδυναστείαν": {
+        "transliteration": "katadynasteían",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "καταδυναστείας": {
+        "transliteration": "katadynasteías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      }
+    }
+  },
   "καταδυναστεύω": {
     "language": "greek",
     "pos": "verb",
@@ -9595,6 +9703,16 @@
       }
     }
   },
+  "καταθαρσέω": {
+    "language": "greek",
+    "pos": "verb",
+    "inflections": {
+      "κατεθάρσησεν": {
+        "transliteration": "katethársēsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
   "κατάθεμα": {
     "language": "greek",
     "pos": "noun",
@@ -9647,7 +9765,6 @@
         "transliteration": "katathýmia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -9687,6 +9804,21 @@
       "καταιγίς": {
         "transliteration": "kataigís",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      }
+    }
+  },
+  "καταιδέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "shortDefinition": "to stand in awe of, respect",
+    "inflections": {
+      "καταιδεσθέντες": {
+        "transliteration": "kataidesthéntes",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -10164,6 +10296,17 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
+      }
+    }
+  },
+  "κατακάρπως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "fruitfully, abundantly",
+    "inflections": {
+      "κατακάρπως": {
+        "transliteration": "katakárpōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -10847,6 +10990,22 @@
       }
     }
   },
+  "κατακοντίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to strike down with javelins",
+    "inflections": {
+      "κατηκόντισεν": {
+        "transliteration": "katēkóntisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "κατηκόντισέν": {
+        "transliteration": "katēkóntisén",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
   "κατακοπή": {
     "language": "greek",
     "pos": "noun",
@@ -11201,6 +11360,25 @@
       }
     }
   },
+  "κατακτείνω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to kill, slay",
+    "inflections": {
+      "κατακτεῖναι": {
+        "transliteration": "katakteînai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "κατακτείνας": {
+        "transliteration": "katakteínas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      }
+    }
+  },
   "κατακυλίνδω": {
     "language": "greek",
     "pos": "verb",
@@ -11212,6 +11390,18 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
         ]
+      }
+    }
+  },
+  "κατακύπτω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to bend down, stoop",
+    "inflections": {
+      "κατέκυψαν": {
+        "transliteration": "katékypsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -11744,6 +11934,18 @@
       }
     }
   },
+  "καταλεαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to grind down, pulverize",
+    "inflections": {
+      "καταλεανεῖ": {
+        "transliteration": "kataleaneî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
   "καταλέγω": {
     "language": "greek",
     "pos": "verb",
@@ -12192,6 +12394,19 @@
       }
     }
   },
+  "κατάληψις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "seizure, capture",
+    "inflections": {
+      "κατάλημψιν": {
+        "transliteration": "katálēmpsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "καταλιθάζω": {
     "language": "greek",
     "pos": "verb",
@@ -12282,7 +12497,7 @@
       },
       "καταλλαγῇ": {
         "transliteration": "katallagē̂",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καταλλαγήν": {
         "transliteration": "katallagḗn",
@@ -12384,7 +12599,6 @@
         "transliteration": "katáloipa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -12450,6 +12664,19 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
+      }
+    }
+  },
+  "καταλοχία": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
+    "shortDefinition": "genealogical registration",
+    "inflections": {
+      "καταλοχίαις": {
+        "transliteration": "katalochíais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       }
     }
   },
@@ -12919,6 +13146,20 @@
       }
     }
   },
+  "καταμεστόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to fill full",
+    "inflections": {
+      "καταμεμεστωμένης": {
+        "transliteration": "katamemestōménēs",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "fem"] }
+        ]
+      }
+    }
+  },
   "καταμετρέω": {
     "language": "greek",
     "pos": "verb",
@@ -12970,6 +13211,36 @@
       "κατεμήνυσε": {
         "transliteration": "katemḗnyse",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "καταμίγνυμι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "athematic",
+    "shortDefinition": "to mix in, intermingle",
+    "inflections": {
+      "καταμεμιγμένα": {
+        "transliteration": "katamemigména",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "neut"] }
+        ]
+      }
+    }
+  },
+  "καταμιμνῄσκομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "deponent",
+    "shortDefinition": "to call to mind, remember",
+    "inflections": {
+      "καταμνησθείς": {
+        "transliteration": "katamnēstheís",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -13102,6 +13373,18 @@
       "κατενάρκησα": {
         "transliteration": "katenárkēsa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      }
+    }
+  },
+  "κατανέμω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to graze down, devour",
+    "inflections": {
+      "κατενεμήσατο": {
+        "transliteration": "katenemḗsato",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -13383,13 +13666,10 @@
       "κατανενυγμένη": {
         "transliteration": "katanenygménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -13548,6 +13828,21 @@
       }
     }
   },
+  "καταξύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to scrape smooth, polish",
+    "inflections": {
+      "κατεξυσμένη": {
+        "transliteration": "katexysménē",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
+        ]
+      }
+    }
+  },
   "καταπαίζω": {
     "language": "greek",
     "pos": "verb",
@@ -13581,6 +13876,34 @@
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
+      }
+    }
+  },
+  "καταπάλτης": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "a catapult",
+    "inflections": {
+      "καταπέλται": {
+        "transliteration": "katapéltai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "καταπέλτας": {
+        "transliteration": "katapéltas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
+      "καταπέλτῃ": {
+        "transliteration": "katapéltē",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "καταπέλτην": {
+        "transliteration": "katapéltēn",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -13880,6 +14203,27 @@
       }
     }
   },
+  "καταπάτημα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "3n-ma",
+    "shortDefinition": "a trampling, what is trodden down",
+    "inflections": {
+      "καταπάτημα": {
+        "transliteration": "katapátēma",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "καταπατήματος": {
+        "transliteration": "katapatḗmatos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      }
+    }
+  },
   "καταπάτησις": {
     "language": "greek",
     "pos": "noun",
@@ -14081,6 +14425,22 @@
       "κατεπείρασεν": {
         "transliteration": "katepeírasen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "καταπελματόομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to be patched, be cobbled",
+    "inflections": {
+      "καταπεπελματωμένα": {
+        "transliteration": "katapepelmatōména",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -14792,7 +15152,7 @@
       },
       "κατάρᾳ": {
         "transliteration": "katára",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κατάραι": {
         "transliteration": "katárai",
@@ -14811,7 +15171,10 @@
       },
       "κατάρας": {
         "transliteration": "katáras",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -15339,6 +15702,21 @@
       }
     }
   },
+  "καταργυρόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to overlay with silver",
+    "inflections": {
+      "κατηργυρωμένοι": {
+        "transliteration": "katērgyrōménoi",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] }
+        ]
+      }
+    }
+  },
   "καταριθμέω": {
     "language": "greek",
     "pos": "verb",
@@ -15369,6 +15747,18 @@
         "cells": [
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
         ]
+      }
+    }
+  },
+  "καταρομβεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to make wander about",
+    "inflections": {
+      "κατερρόμβευσεν": {
+        "transliteration": "katerrómbeusen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -16061,7 +16451,6 @@
       "κατασκευή": {
         "transliteration": "kataskeuḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -16245,7 +16634,10 @@
     "inflections": {
       "κατασκηνώσεις": {
         "transliteration": "kataskēnṓseis",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       },
       "κατασκηνώσεως": {
         "transliteration": "kataskēnṓseōs",
@@ -16565,13 +16957,10 @@
       "κατασπευδομένη": {
         "transliteration": "kataspeudoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -16742,6 +17131,22 @@
       }
     }
   },
+  "καταστηρίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to fix firmly, establish",
+    "inflections": {
+      "κατεστηρίχθαι": {
+        "transliteration": "katestēríchthai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "inf"] },
+          { "parse": ["verb", "perf", "midpas", "inf"] },
+          { "parse": ["verb", "perf", "pas", "inf"] }
+        ]
+      }
+    }
+  },
   "καταστολή": {
     "language": "greek",
     "pos": "noun",
@@ -16756,6 +17161,20 @@
       "καταστολήν": {
         "transliteration": "katastolḗn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "καταστραγγίζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to drain out",
+    "inflections": {
+      "καταστραγγιεῖ": {
+        "transliteration": "katastrangieî",
+        "cells": [
+          { "parse": ["verb", "attic", "fut", "act", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },
@@ -16891,7 +17310,7 @@
     "inflections": {
       "καταστροφή": {
         "transliteration": "katastrophḗ",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "καταστροφῇ": {
         "transliteration": "katastrophē̂",
@@ -16992,6 +17411,21 @@
         "transliteration": "katésphaxen",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      }
+    }
+  },
+  "κατασφαλίζομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to secure firmly",
+    "inflections": {
+      "κατησφαλισμένοι": {
+        "transliteration": "katēsphalisménoi",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -17186,6 +17620,18 @@
       "κατέθηκεν": {
         "transliteration": "katéthēken",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "κατατίλλω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to tear out, pluck out",
+    "inflections": {
+      "κατέτιλα": {
+        "transliteration": "katétila",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -17431,6 +17877,20 @@
       }
     }
   },
+  "καταφαίνω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to appear, seem",
+    "inflections": {
+      "κατεφάνη": {
+        "transliteration": "katephánē",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      }
+    }
+  },
   "καταφερής": {
     "language": "greek",
     "pos": "adj",
@@ -17455,13 +17915,10 @@
       "καταφερομένη": {
         "transliteration": "katapheroménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -17576,6 +18033,12 @@
           { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
         ]
       },
+      "καταφύγῃ": {
+        "transliteration": "kataphýgē",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
+        ]
+      },
       "καταφυγόντες": {
         "transliteration": "kataphygóntes",
         "cells": [
@@ -17598,6 +18061,18 @@
         "cells": [
           { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"] }
         ]
+      }
+    }
+  },
+  "καταφθάνω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to overtake, come upon",
+    "inflections": {
+      "κατέφθασεν": {
+        "transliteration": "katéphthasen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -17673,13 +18148,10 @@
       "κατεφθαρμένη": {
         "transliteration": "katephtharménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -17726,7 +18198,6 @@
       "καταφθορά": {
         "transliteration": "kataphthorá",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -17873,11 +18344,7 @@
     "inflections": {
       "καταφορᾷ": {
         "transliteration": "kataphorâ",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -18087,18 +18554,13 @@
       "καταφυγή": {
         "transliteration": "kataphygḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "καταφύγῃ": {
         "transliteration": "kataphýgē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "καταφυγήν": {
         "transliteration": "kataphygḗn",
@@ -18180,6 +18642,47 @@
       "κατεφύτευσεν": {
         "transliteration": "katephýteusen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "καταχαίρω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to rejoice over, exult at",
+    "inflections": {
+      "καταχαροῦμαι": {
+        "transliteration": "katacharoûmai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
+        ]
+      }
+    }
+  },
+  "καταχαλάω": {
+    "language": "greek",
+    "pos": "verb",
+    "inflections": {
+      "κατεχάλασεν": {
+        "transliteration": "katechálasen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "καταχαλκόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to overlay with bronze",
+    "inflections": {
+      "κατακεχαλκωμένα": {
+        "transliteration": "katakechalkōména",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -18382,7 +18885,6 @@
       "καταχρύσεα": {
         "transliteration": "katachrýsea",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -18416,6 +18918,18 @@
       "κατάχυσις": {
         "transliteration": "katáchysis",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      }
+    }
+  },
+  "καταχώννυμι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "athematic",
+    "shortDefinition": "to bury under, overwhelm",
+    "inflections": {
+      "καταχώσουσιν": {
+        "transliteration": "katachṓsousin",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -18521,6 +19035,43 @@
       }
     }
   },
+  "κατεῖπον": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to speak against, denounce",
+    "inflections": {
+      "κατείπαντες": {
+        "transliteration": "kateípantes",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "pl",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "pl",
+              "masc",
+              "second"
+            ]
+          }
+        ]
+      }
+    }
+  },
   "κατελεέω": {
     "language": "greek",
     "pos": "verb",
@@ -18557,6 +19108,32 @@
       "κατέναντι": {
         "transliteration": "katénanti",
         "cells": [{ "parse": ["prep"] }, { "parse": ["adv"] }]
+      }
+    }
+  },
+  "κατεναντίον": {
+    "language": "greek",
+    "pos": "prep",
+    "shortDefinition": "before, in front of",
+    "inflections": {
+      "κατεναντίον": {
+        "transliteration": "katenantíon",
+        "cells": [{ "parse": ["prep"] }]
+      }
+    }
+  },
+  "κατεναντίος": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2-a",
+    "shortDefinition": "opposite, over against",
+    "inflections": {
+      "κατεναντίον": {
+        "transliteration": "katenantíon",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -18622,6 +19199,18 @@
       }
     }
   },
+  "κατεπικύπτω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to stoop down over",
+    "inflections": {
+      "κατεπέκυψεν": {
+        "transliteration": "katepékypsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
   "κατεργάζομαι": {
     "language": "greek",
     "pos": "verb",
@@ -18658,6 +19247,12 @@
         "cells": [
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "κατεργᾷ": {
+        "transliteration": "katergâ",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "κατεργάζεσθαι": {
@@ -18764,14 +19359,6 @@
     "pos": "noun",
     "declension": "2n",
     "inflections": {
-      "κατεργᾷ": {
-        "transliteration": "katergâ",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      },
       "κάτεργα": {
         "transliteration": "káterga",
         "cells": [
@@ -20286,13 +20873,10 @@
       "κατοικουμένη": {
         "transliteration": "katoikouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -20506,18 +21090,13 @@
       "κατοικία": {
         "transliteration": "katoikía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κατοικίᾳ": {
         "transliteration": "katoikía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κατοικίαι": {
         "transliteration": "katoikíai",
@@ -20536,7 +21115,10 @@
       },
       "κατοικίας": {
         "transliteration": "katoikías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "κατοικιῶν": {
         "transliteration": "katoikiō̂n",
@@ -20705,6 +21287,57 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "pl", "second"] }
         ]
+      }
+    }
+  },
+  "κατοινόομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "shortDefinition": "to be drunk with wine",
+    "inflections": {
+      "κατοινωμένος": {
+        "transliteration": "katoinōménos",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      }
+    }
+  },
+  "κατόπισθε": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "behind, after",
+    "inflections": {
+      "κατόπισθέν": {
+        "transliteration": "katópisthén",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
+  "κατόπισθεν": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "behind, after",
+    "inflections": {
+      "κατόπισθεν": {
+        "transliteration": "katópisthen",
+        "cells": [{ "parse": ["adv"] }]
+      },
+      "κατόπισθέν": {
+        "transliteration": "katópisthén",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
+  "κατοπίσω": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "behind, after",
+    "inflections": {
+      "κατοπίσω": {
+        "transliteration": "katopísō",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -21009,6 +21642,17 @@
       }
     }
   },
+  "κάτωθεν": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "from below, beneath",
+    "inflections": {
+      "κάτωθεν": {
+        "transliteration": "kátōthen",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "κατώτατος": {
     "language": "greek",
     "pos": "noun",
@@ -21029,10 +21673,7 @@
       },
       "κατωτάτω": {
         "transliteration": "katōtátō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["adv"] }]
       },
       "κατωτάτῳ": {
         "transliteration": "katōtátō",
@@ -21501,10 +22142,7 @@
     "inflections": {
       "καψάκῃ": {
         "transliteration": "kapsákē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "καψάκην": {
         "transliteration": "kapsákēn",
@@ -21513,6 +22151,18 @@
       "καψάκης": {
         "transliteration": "kapsákēs",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "κβʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "twenty-two",
+    "inflections": {
+      "κβ": {
+        "transliteration": "kb",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
       }
     }
   },
@@ -21656,7 +22306,6 @@
         "transliteration": "kédrina",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -22066,6 +22715,17 @@
       }
     }
   },
+  "κεκρυμμένως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly, in hiding",
+    "inflections": {
+      "κεκρυμμένως": {
+        "transliteration": "kekrymménōs",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "Κελεζ": {
     "language": "greek",
     "pos": "noun",
@@ -22304,11 +22964,7 @@
     "inflections": {
       "κενοδοξίᾳ": {
         "transliteration": "kenodoxía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κενοδοξίαν": {
         "transliteration": "kenodoxían",
@@ -22383,7 +23039,7 @@
       },
       "κενῇ": {
         "transliteration": "kenē̂",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "κενήν": {
         "transliteration": "kenḗn",
@@ -22724,6 +23380,18 @@
       }
     }
   },
+  "κεραννύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to mix, mingle",
+    "inflections": {
+      "ἐκέρασα": {
+        "transliteration": "ekérasa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      }
+    }
+  },
   "κέρας": {
     "language": "greek",
     "pos": "noun",
@@ -22849,11 +23517,7 @@
       },
       "κερατίνῃ": {
         "transliteration": "keratínē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κερατίνης": {
         "transliteration": "keratínēs",
@@ -23005,6 +23669,19 @@
       "κέρκων": {
         "transliteration": "kérkōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      }
+    }
+  },
+  "κέρκωψ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "knave, mischief-maker",
+    "inflections": {
+      "κερκώπων": {
+        "transliteration": "kerkṓpōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -23769,6 +24446,18 @@
       }
     }
   },
+  "κθʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "twenty-nine",
+    "inflections": {
+      "κθ": {
+        "transliteration": "kth",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "κίβδηλος": {
     "language": "greek",
     "pos": "adj",
@@ -23777,7 +24466,6 @@
         "transliteration": "kíbdēla",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -23861,7 +24549,7 @@
       },
       "κιθάρᾳ": {
         "transliteration": "kithára",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κιθάραις": {
         "transliteration": "kithárais",
@@ -23936,9 +24624,7 @@
         "transliteration": "Kilikía",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
+          { "parse": ["noun", "indecl-proper", "fem"] }
         ]
       },
       "Κιλικίαν": {
@@ -24235,13 +24921,10 @@
       "κινουμένη": {
         "transliteration": "kinouménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -24424,18 +25107,13 @@
       "κινύρα": {
         "transliteration": "kinýra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κινύρᾳ": {
         "transliteration": "kinýra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κινύραι": {
         "transliteration": "kinýrai",
@@ -25182,7 +25860,10 @@
       },
       "κλεῖς": {
         "transliteration": "kleîs",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -25356,7 +26037,6 @@
       "Κλεοπάτρα": {
         "transliteration": "Kleopátra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "indecl-proper"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
@@ -25404,10 +26084,7 @@
       },
       "κλέπτῃ": {
         "transliteration": "kléptē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "κλέπτην": {
         "transliteration": "kléptēn",
@@ -25656,11 +26333,7 @@
     "inflections": {
       "κληροδοσίᾳ": {
         "transliteration": "klērodosía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κληροδοσίαν": {
         "transliteration": "klērodosían",
@@ -25838,7 +26511,7 @@
       },
       "κληρονομίᾳ": {
         "transliteration": "klēronomía",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κληρονομίαι": {
         "transliteration": "klēronomíai",
@@ -25853,7 +26526,10 @@
       },
       "κληρονομίας": {
         "transliteration": "klēronomías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -25970,6 +26646,17 @@
       }
     }
   },
+  "κληρωτί": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "by lot",
+    "inflections": {
+      "κληρωτί": {
+        "transliteration": "klērōtí",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "κλῆσις": {
     "language": "greek",
     "pos": "noun",
@@ -26032,7 +26719,6 @@
       "κλητή": {
         "transliteration": "klētḗ",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -26168,7 +26854,6 @@
       "κλίνη": {
         "transliteration": "klínē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -26177,8 +26862,6 @@
         "transliteration": "klínē",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
         ]
       },
@@ -26459,18 +27142,13 @@
       "κλοπή": {
         "transliteration": "klopḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κλοπῇ": {
         "transliteration": "klopē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κλοπῆς": {
         "transliteration": "klopē̂s",
@@ -26736,11 +27414,7 @@
     "inflections": {
       "κνήφῃ": {
         "transliteration": "knḗphē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -26752,7 +27426,6 @@
       "κνίδη": {
         "transliteration": "knídē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -26919,7 +27592,10 @@
       },
       "κοιλίας": {
         "transliteration": "koilías",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -26932,7 +27608,6 @@
         "transliteration": "koîla",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -26942,7 +27617,6 @@
       "κοίλη": {
         "transliteration": "koílē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -27521,11 +28195,7 @@
       },
       "κοινῇ": {
         "transliteration": "koinē̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "κοινήν": {
         "transliteration": "koinḗn",
@@ -27752,6 +28422,14 @@
       }
     }
   },
+  "κοινῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "in common, together",
+    "inflections": {
+      "κοινῶς": { "transliteration": "koinō̂s", "cells": [{ "parse": ["adv"] }] }
+    }
+  },
   "κοιτάζομαι": {
     "language": "greek",
     "pos": "verb",
@@ -27834,7 +28512,7 @@
       },
       "κοίτῃ": {
         "transliteration": "koítē",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κοίτην": {
         "transliteration": "koítēn",
@@ -27889,7 +28567,6 @@
         "transliteration": "kókkina",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -28376,11 +29053,7 @@
     "inflections": {
       "κόλλῃ": {
         "transliteration": "kóllē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -28461,6 +29134,19 @@
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      }
+    }
+  },
+  "κολόβορρις": {
+    "language": "greek",
+    "pos": "adj",
+    "inflections": {
+      "κολοβόρριν": {
+        "transliteration": "kolobórrin",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] }
         ]
       }
     }
@@ -28657,11 +29343,7 @@
     "inflections": {
       "κομιδῇ": {
         "transliteration": "komidē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -28950,18 +29632,13 @@
       "κονία": {
         "transliteration": "konía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κονίᾳ": {
         "transliteration": "konía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κονίαν": {
         "transliteration": "konían",
@@ -30029,6 +30706,19 @@
       }
     }
   },
+  "κόρυς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "helmet",
+    "inflections": {
+      "κόρυθα": {
+        "transliteration": "kórytha",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "κορυφή": {
     "language": "greek",
     "pos": "noun",
@@ -30046,18 +30736,13 @@
       "κορυφή": {
         "transliteration": "koryphḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κορυφῇ": {
         "transliteration": "koryphē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κορυφήν": {
         "transliteration": "koryphḗn",
@@ -30088,7 +30773,6 @@
       "κορώνη": {
         "transliteration": "korṓnē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -30153,13 +30837,10 @@
       "κεκοσμημένη": {
         "transliteration": "kekosmēménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -30168,14 +30849,8 @@
         "transliteration": "kekosmēménē",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] }
         ]
       },
       "κεκοσμημένην": {
@@ -30527,11 +31202,7 @@
     "inflections": {
       "κουρᾷ": {
         "transliteration": "kourâ",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κουρᾶς": {
         "transliteration": "kourâs",
@@ -30647,7 +31318,6 @@
       "κούφη": {
         "transliteration": "koúphē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
@@ -30691,6 +31361,17 @@
       "κουφότεροι": {
         "transliteration": "kouphóteroi",
         "cells": [{ "parse": ["adj", "nom", "pl", "masc", "comp"] }]
+      }
+    }
+  },
+  "κούφως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "lightly, swiftly",
+    "inflections": {
+      "κούφως": {
+        "transliteration": "koúphōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -31056,7 +31737,6 @@
         "transliteration": "krataiá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -31065,14 +31745,7 @@
       },
       "κραταιᾷ": {
         "transliteration": "krataiâ",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "κραταιάν": {
         "transliteration": "krataián",
@@ -31344,6 +32017,17 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      }
+    }
+  },
+  "κραταιῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "mightily, with force",
+    "inflections": {
+      "κραταιῶς": {
+        "transliteration": "krataiō̂s",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -31823,18 +32507,13 @@
       "κρεάγρα": {
         "transliteration": "kreágra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κρεάγρᾳ": {
         "transliteration": "kreágra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κρεάγρας": {
         "transliteration": "kreágras",
@@ -31962,13 +32641,10 @@
       "κρεμαμένη": {
         "transliteration": "kremaménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -32051,7 +32727,6 @@
         "transliteration": "kremastá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -32179,7 +32854,7 @@
     "inflections": {
       "Κρήτη": {
         "transliteration": "Krḗtē",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "Κρήτῃ": {
         "transliteration": "Krḗtē",
@@ -32216,18 +32891,13 @@
       "κριθή": {
         "transliteration": "krithḗ",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κριθῇ": {
         "transliteration": "krithē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κριθήν": {
         "transliteration": "krithḗn",
@@ -32571,6 +33241,10 @@
         "transliteration": "kékritaí",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
       },
+      "κριθῇ": {
+        "transliteration": "krithē̂",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
       "κριθῆναι": {
         "transliteration": "krithē̂nai",
         "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
@@ -32907,7 +33581,10 @@
       },
       "κρίσεις": {
         "transliteration": "kríseis",
-        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       },
       "κρίσεων": {
         "transliteration": "kríseōn",
@@ -33036,18 +33713,13 @@
       "κρόκη": {
         "transliteration": "krókē",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κρόκῃ": {
         "transliteration": "krókē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κρόκην": {
         "transliteration": "krókēn",
@@ -33113,6 +33785,19 @@
       }
     }
   },
+  "κροσός": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a tassel, fringe",
+    "inflections": {
+      "κροσσούς": {
+        "transliteration": "krossoús",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      }
+    }
+  },
   "κροσσωτός": {
     "language": "greek",
     "pos": "adj",
@@ -33121,7 +33806,6 @@
         "transliteration": "krossōtá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -33214,6 +33898,17 @@
       }
     }
   },
+  "κρουνηδόν": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "in streams, gushing",
+    "inflections": {
+      "κρουνηδόν": {
+        "transliteration": "krounēdón",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "κρούω": {
     "language": "greek",
     "pos": "verb",
@@ -33273,6 +33968,14 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       }
+    }
+  },
+  "κρυβῇ": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly, in secret",
+    "inflections": {
+      "κρυβῇ": { "transliteration": "krybē̂", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "κρύπτη": {
@@ -33501,6 +34204,17 @@
       }
     }
   },
+  "κρυπτῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly",
+    "inflections": {
+      "κρυπτῶς": {
+        "transliteration": "kryptō̂s",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "κρυσταλλίζω": {
     "language": "greek",
     "pos": "verb",
@@ -33563,14 +34277,7 @@
     "inflections": {
       "κρυφαίᾳ": {
         "transliteration": "kryphaía",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
       "κρυφαίοις": {
         "transliteration": "kryphaíois",
@@ -33579,6 +34286,17 @@
           { "parse": ["adj", "dat", "pl", "masc"] },
           { "parse": ["adj", "dat", "pl", "neut"] }
         ]
+      }
+    }
+  },
+  "κρυφαίως": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "secretly, privately",
+    "inflections": {
+      "κρυφαίως": {
+        "transliteration": "kryphaíōs",
+        "cells": [{ "parse": ["adv"] }]
       }
     }
   },
@@ -33598,7 +34316,6 @@
         "transliteration": "krýphia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -34366,14 +35083,8 @@
         "transliteration": "ektisménē",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] }
         ]
       },
       "ἐκτισμένην": {
@@ -34681,7 +35392,10 @@
     "inflections": {
       "κυβερνήσεις": {
         "transliteration": "kybernḗseis",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       },
       "κυβερνήσεως": {
         "transliteration": "kybernḗseōs",
@@ -34800,6 +35514,22 @@
       "κύθραν": {
         "transliteration": "kýthran",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
+  "κυθρόπους": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "pot-stand, earthen cooking pot",
+    "inflections": {
+      "κυθρόποδες": {
+        "transliteration": "kythrópodes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -35189,13 +35919,10 @@
       "κυλιομένη": {
         "transliteration": "kylioménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -35486,7 +36213,6 @@
       "κυνόμυια": {
         "transliteration": "kynómyia",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
@@ -35539,7 +36265,6 @@
         "transliteration": "kyparíssina",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -35857,18 +36582,13 @@
       "κυριεία": {
         "transliteration": "kyrieía",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "κυριείᾳ": {
         "transliteration": "kyrieía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κυριείαν": {
         "transliteration": "kyrieían",
@@ -36025,7 +36745,6 @@
         "transliteration": "kýria",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -36093,7 +36812,6 @@
       "κυριωτάτη": {
         "transliteration": "kyriōtátē",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem", "super"] },
           { "parse": ["adj", "nom", "sg", "fem", "super"] },
           { "parse": ["adj", "voc", "sg", "fem", "super"] }
         ]
@@ -36161,6 +36879,10 @@
       "ἐκυρώθη": {
         "transliteration": "ekyrṓthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ἐκύρωσας": {
+        "transliteration": "ekýrōsas",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
       "ἐκύρωσεν": {
         "transliteration": "ekýrōsen",
@@ -36756,7 +37478,10 @@
     "inflections": {
       "κωμοπόλεις": {
         "transliteration": "kōmopóleis",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -36890,11 +37615,30 @@
     "gender": "fem",
     "indices": { "strongs": "G2972" },
     "inflections": {
+      "Κῶ": {
+        "transliteration": "Kō̂",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      },
+      "Κῷ": {
+        "transliteration": "Kō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
       "Κῶν": {
         "transliteration": "Kō̂n",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "Κῶς": {
+        "transliteration": "Kō̂s",
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
       }
-    }
+    },
+    "declension": "2-attic"
   },
   "Κωσάμ": {
     "language": "greek",
@@ -36983,7 +37727,6 @@
         "transliteration": "kōphá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },

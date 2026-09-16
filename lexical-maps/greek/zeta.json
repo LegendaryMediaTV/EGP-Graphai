@@ -1,4 +1,16 @@
 {
+  "ζʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "seven",
+    "inflections": {
+      "ζ": {
+        "transliteration": "z",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "Ζαβαδ": {
     "language": "greek",
     "pos": "noun",
@@ -1621,6 +1633,27 @@
       }
     }
   },
+  "ζηλωτός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "jealous; to be envied",
+    "inflections": {
+      "ζηλωτόν": {
+        "transliteration": "zēlōtón",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "ζηλωτός": {
+        "transliteration": "zēlōtós",
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      }
+    }
+  },
   "ζημία": {
     "language": "greek",
     "pos": "noun",
@@ -1630,11 +1663,7 @@
     "inflections": {
       "ζημίᾳ": {
         "transliteration": "zēmía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ζημίαν": {
         "transliteration": "zēmían",
@@ -2092,7 +2121,10 @@
       },
       "ζητήσεις": {
         "transliteration": "zētḗseis",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "fem"] }
+        ]
       },
       "ζητήσεως": {
         "transliteration": "zētḗseōs",
@@ -2432,13 +2464,10 @@
       "ἐζυμωμένη": {
         "transliteration": "ezymōménē",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
@@ -2677,7 +2706,7 @@
       },
       "ζώνῃ": {
         "transliteration": "zṓnē",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ζώνην": {
         "transliteration": "zṓnēn",

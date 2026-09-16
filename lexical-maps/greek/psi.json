@@ -206,7 +206,6 @@
         "transliteration": "psaltá",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
@@ -326,6 +325,18 @@
           { "parse": ["adj", "nom", "pl", "fem"] },
           { "parse": ["adj", "nom", "pl", "masc"] }
         ]
+      }
+    }
+  },
+  "ψαύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to touch",
+    "inflections": {
+      "ψαύσειέν": {
+        "transliteration": "psaúseién",
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       }
     }
   },
@@ -1588,6 +1599,17 @@
       }
     }
   },
+  "ψυχικῶς": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "heartily, from the soul",
+    "inflections": {
+      "ψυχικῶς": {
+        "transliteration": "psychikō̂s",
+        "cells": [{ "parse": ["adv"] }]
+      }
+    }
+  },
   "ψύχος": {
     "language": "greek",
     "pos": "noun",
@@ -1831,18 +1853,13 @@
       "ψώρα": {
         "transliteration": "psṓra",
         "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "ψώρᾳ": {
         "transliteration": "psṓra",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ψώραν": {
         "transliteration": "psṓran",
