@@ -350,16 +350,11 @@
   "Ραγμα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "3n-ma",
+    "declension": "indeclinable",
     "inflections": {
       "Ραγμα": {
         "transliteration": "Ragma",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -3191,8 +3186,7 @@
   "ῥόδον": {
     "language": "greek",
     "pos": "noun",
-    "gender": "fem",
-    "indices": { "strongs": "G4499" },
+    "gender": "neut",
     "inflections": {
       "ῥόδα": {
         "transliteration": "rhóda",
@@ -3205,7 +3199,6 @@
       "ῥόδον": {
         "transliteration": "rhódon",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
@@ -3219,7 +3212,8 @@
         "transliteration": "rhódōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
-    }
+    },
+    "declension": "2n"
   },
   "Ῥόδος": {
     "language": "greek",
@@ -3227,12 +3221,12 @@
     "inflections": {
       "Ῥόδον": {
         "transliteration": "Rhódon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
-    }
+    },
+    "gender": "fem",
+    "declension": "2f",
+    "indices": { "strongs": "G4499" }
   },
   "ῥοδοφόρος": {
     "language": "greek",

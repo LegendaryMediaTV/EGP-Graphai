@@ -3241,16 +3241,11 @@
   "Θεμα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "3n-ma",
+    "declension": "indeclinable",
     "inflections": {
       "Θεμα": {
         "transliteration": "Thema",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },

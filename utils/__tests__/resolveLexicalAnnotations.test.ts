@@ -49,7 +49,10 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
   });
 
   it("should leave a node alone when two roots claim its spelling", () => {
-    const content = [word({ text: "Ἄρα", strong: "G686", morph: "PRT" })] as unknown as Content;
+    // λέγω and ἔπω are two entries for one suppletive verb and εἶπεν is the
+    // second aorist of both. LXX1935 carries no Strong's numbers, so a node of
+    // its shape offers nothing to narrow on: 2,815 of them are this one word.
+    const content = [greek({ text: "εἶπεν", morph: "V-2AAI-3S", lemma: undefined })] as unknown as Content;
 
     const result = resolveLexicalAnnotationsInContent(content, "robinson");
 

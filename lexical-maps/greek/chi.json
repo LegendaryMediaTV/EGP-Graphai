@@ -5727,16 +5727,11 @@
   "Χους": {
     "language": "greek",
     "pos": "noun",
-    "declension": "2m-contract",
+    "declension": "indeclinable",
     "inflections": {
       "Χους": {
         "transliteration": "Chous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },

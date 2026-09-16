@@ -5661,7 +5661,9 @@
       },
       "ἔσει": {
         "transliteration": "ései",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] }
+        ]
       },
       "ἔσεσθαι": {
         "transliteration": "ésesthai",
@@ -5977,7 +5979,6 @@
       "ἦ": {
         "transliteration": "ē̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           {
             "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
             "indices": { "strongs": "G2258" }
@@ -6105,7 +6106,6 @@
       "ἤτω": {
         "transliteration": "ḗtō",
         "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] },
           {
             "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"],
             "indices": { "strongs": "G2277" }
@@ -6302,8 +6302,7 @@
           {
             "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"],
             "indices": { "strongs": "G5600" }
-          },
-          { "parse": ["noun", "indecl-letter"] }
+          }
         ]
       },
       "ὦμεν": {
@@ -21328,21 +21327,11 @@
     "inflections": {
       "Ἐλεύθερον": {
         "transliteration": "Eleútheron",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
       },
       "Ἐλευθέρου": {
         "transliteration": "Eleuthérou",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -27614,6 +27603,18 @@
       }
     }
   },
+  "Ενατος": {
+    "language": "greek",
+    "pos": "noun",
+    "inflections": {
+      "Ενατου": {
+        "transliteration": "Enatou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      }
+    },
+    "gender": "masc",
+    "declension": "2m"
+  },
   "ἔνατος": {
     "language": "greek",
     "pos": "adj",
@@ -27650,20 +27651,6 @@
           { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "dat", "sg", "masc"] },
           { "parse": ["adj", "dat", "sg", "neut"] }
-        ]
-      }
-    }
-  },
-  "Ἔνατος": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "Ενατου": {
-        "transliteration": "Enatou",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
         ]
       }
     }
@@ -70826,7 +70813,7 @@
       }
     }
   },
-  "Εὐμενής": {
+  "Εὐμένης": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",

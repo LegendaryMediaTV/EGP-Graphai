@@ -30450,13 +30450,7 @@
       },
       "ἀναμνῆσαι": {
         "transliteration": "anamnē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "inf", "second"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἀναμνήσατε": {
         "transliteration": "anamnḗsate",
@@ -58865,6 +58859,17 @@
       }
     }
   },
+  "Αρα": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "inflections": {
+      "Αρα": {
+        "transliteration": "Ara",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
   "ἀρά": {
     "language": "greek",
     "pos": "noun",
@@ -58872,6 +58877,14 @@
     "shortDefinition": "a curse",
     "indices": { "strongs": "G685" },
     "inflections": {
+      "ἀρά": {
+        "transliteration": "ará",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "ἀρᾷ": {
+        "transliteration": "arâ",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
       "ἀραί": {
         "transliteration": "araí",
         "cells": [
@@ -58903,44 +58916,25 @@
     "pos": "prt",
     "indices": { "strongs": "G686" },
     "inflections": {
-      "αρα": { "transliteration": "ara", "cells": [{ "parse": ["prt"] }] },
-      "ἀρά": { "transliteration": "ará", "cells": [{ "parse": ["prt"] }] },
-      "ἀρᾷ": { "transliteration": "arâ", "cells": [{ "parse": ["prt"] }] },
       "ἄρα": { "transliteration": "ára", "cells": [{ "parse": ["prt"] }] }
     }
   },
   "ἆρα": {
     "language": "greek",
     "pos": "prt",
-    "indices": { "strongs": ["G686", "G687"] },
+    "indices": { "strongs": "G687" },
     "inflections": {
-      "αρα": {
-        "transliteration": "ara",
-        "cells": [{ "parse": ["prt", "interr"] }]
-      },
-      "ἀρά": {
-        "transliteration": "ará",
-        "cells": [{ "parse": ["prt", "interr"] }]
-      },
-      "ἀρᾷ": {
-        "transliteration": "arâ",
-        "cells": [{ "parse": ["prt", "interr"] }]
-      },
       "ἄρα": {
         "transliteration": "ára",
         "cells": [{ "parse": ["prt", "interr"] }]
       },
       "ἆρα": {
         "transliteration": "âra",
-        "cells": [
-          { "parse": ["prt", "interr"], "indices": { "strongs": "G687" } }
-        ]
+        "cells": [{ "parse": ["prt", "interr"] }]
       },
       "ἆρά": {
         "transliteration": "ârá",
-        "cells": [
-          { "parse": ["prt", "interr"], "indices": { "strongs": "G687" } }
-        ]
+        "cells": [{ "parse": ["prt", "interr"] }]
       }
     }
   },

@@ -548,17 +548,53 @@ function distinctRoots(entries: CodexEntry[]): string[] {
 }
 
 /**
+ * Whether an entry could be the word the page printed, judging by case alone.
+ *
+ * Case is a fact about the word: a name keeps its capital in the middle of a
+ * sentence, and the codex stores each root's spellings with the root's own
+ * case. So a word printed in lower case is not the name that shares its
+ * letters, and the capitalised entry is not a candidate for it.
+ *
+ * The other direction says nothing, which is why this asks one question rather
+ * than comparing the two cases. A capital at the head of a sentence belongs to
+ * the sentence: `Στέφανος` opening a verse is the man in some verses and a
+ * crown in six others, and nothing about the capital tells them apart. So a
+ * printed capital agrees with every entry, and only lower case rules one out.
+ *
+ * @param entry One entry the spelling reached.
+ * @param printed The spelling as the page has it, outer punctuation already off.
+ */
+function spelledAsPrinted(entry: CodexEntry, printed: string): boolean {
+  return capitalised(printed) || !capitalised(entry.spelling);
+}
+
+/**
+ * Whether a spelling starts with a capital, read off the decomposed string.
+ *
+ * Decomposed, because a precomposed Greek capital carrying a breathing is a
+ * single code point and testing it directly is a test of that one character;
+ * NFD splits the letter from its marks, so the test is of the letter.
+ */
+function capitalised(spelling: string): boolean {
+  return /^\p{Lu}/u.test(spelling.normalize("NFD"));
+}
+
+/**
  * Which dictionary root a printed word inflects from, or why the map cannot
  * say.
  *
  * The codex answers with every root that holds the spelling, and 1.3% of its
  * keys hold more than one, so the answer is a narrowing rather than a lookup.
- * Three things narrow it, in order of how much they are worth trusting: the
- * spelling alone, then the parse the node's own morphology code states, then
- * the Strong's number the node already carries. What survives all three and is
- * still more than one root **is reported and never guessed at** — across
- * BYZ2026 that is 39 nodes out of 140,146, and every one of them is a word two
- * dictionary entries genuinely share.
+ * The spelling narrows first, then the parse the node's own morphology code
+ * states. Two clues are left after that and neither is worth more than the
+ * other, so they are read together: the Strong's number the node carries, and
+ * the case the page printed the word in. Where those two name different roots
+ * the map reports the disagreement rather than answering, because a lemma the
+ * caller cannot tell is wrong is worse than no lemma at all.
+ *
+ * What survives all of it and is still more than one root **is reported and
+ * never guessed at** — across BYZ2026 that is 1 node out of 140,146, a word
+ * two dictionary entries genuinely share.
  *
  * A node holding two words is declined outright. There is no single lemma to
  * name, and the elision-and-bare pair {@link spellingsOf} hands back would
@@ -584,10 +620,14 @@ export function resolveLemma(word: {
   // two spellings of one word answer with would manufacture an ambiguity the
   // text does not have.
   let candidates: CodexEntry[] = [];
+  let printed = "";
   for (const spelling of spellingsOf(word.text)) {
     if (!spelling) continue;
     candidates = entriesFor(spelling);
-    if (candidates.length) break;
+    if (candidates.length) {
+      printed = spelling;
+      break;
+    }
   }
   if (!candidates.length) return { unresolved: "the map holds no such spelling" };
 
@@ -612,10 +652,21 @@ export function resolveLemma(word: {
   if (onParse.length) candidates = onParse;
   if (distinctRoots(candidates).length === 1) return { lemma: candidates[0].root };
 
-  if (word.strong !== undefined) {
-    const onNumber = candidates.filter((entry) => entry.rootStrongs.includes(word.strong!));
-    if (distinctRoots(onNumber).length === 1) return { lemma: onNumber[0].root };
+  // Two clues are left, and neither outranks the other, so they are read
+  // together. Where they name different roots the map says so rather than
+  // picking one, because a wrong lemma reported as certain is worse than no
+  // lemma: the caller can see a decline and cannot see a silent mistake.
+  const byCase = distinctRoots(candidates.filter((entry) => spelledAsPrinted(entry, printed)));
+  const byNumber =
+    word.strong === undefined
+      ? []
+      : distinctRoots(candidates.filter((entry) => entry.rootStrongs.includes(word.strong!)));
+
+  if (byNumber.length === 1 && byCase.length === 1 && byNumber[0] !== byCase[0]) {
+    return { unresolved: `the printed case says ${byCase[0]} and the Strong's number says ${byNumber[0]}` };
   }
+  if (byNumber.length === 1) return { lemma: byNumber[0] };
+  if (byCase.length === 1) return { lemma: byCase[0] };
 
   return { unresolved: `ambiguous between ${distinctRoots(candidates).join(", ")}` };
 }

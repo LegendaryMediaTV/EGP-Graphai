@@ -5083,15 +5083,26 @@
     "language": "greek",
     "pos": "noun",
     "inflections": {
+      "νομόν": {
+        "transliteration": "nomón",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "νομός": {
+        "transliteration": "nomós",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "νομούς": {
+        "transliteration": "nomoús",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
       "νομῶν": {
         "transliteration": "nomō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
-    }
+    },
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a district, nome"
   },
   "νόμος": {
     "language": "greek",
@@ -5116,17 +5127,9 @@
         "transliteration": "nómois",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
-      "νομόν": {
-        "transliteration": "nomón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "νόμον": {
         "transliteration": "nómon",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "νομός": {
-        "transliteration": "nomós",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "νόμος": {
         "transliteration": "nómos",
@@ -5135,10 +5138,6 @@
       "νόμου": {
         "transliteration": "nómou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
-      "νομούς": {
-        "transliteration": "nomoús",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "νόμους": {
         "transliteration": "nómous",

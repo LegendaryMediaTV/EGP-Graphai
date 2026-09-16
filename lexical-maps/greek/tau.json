@@ -8179,17 +8179,14 @@
         "transliteration": "ti",
         "cells": [
           { "parse": ["pron-indef", "acc", "sg", "neut"] },
-          { "parse": ["pron-indef", "nom", "sg", "neut"] },
-          { "parse": ["pron-int", "acc", "sg", "neut"] }
+          { "parse": ["pron-indef", "nom", "sg", "neut"] }
         ]
       },
       "τί": {
         "transliteration": "tí",
         "cells": [
           { "parse": ["pron-indef", "acc", "sg", "neut"] },
-          { "parse": ["pron-indef", "nom", "sg", "neut"] },
-          { "parse": ["pron-int", "acc", "sg", "neut"] },
-          { "parse": ["pron-int", "nom", "sg", "neut"] }
+          { "parse": ["pron-indef", "nom", "sg", "neut"] }
         ]
       },
       "τινα": {
@@ -8287,12 +8284,7 @@
       },
       "τίς": {
         "transliteration": "tís",
-        "cells": [
-          { "parse": ["pron-indef", "acc", "sg", "neut"] },
-          { "parse": ["pron-indef", "nom", "sg", "masc"] },
-          { "parse": ["pron-int", "nom", "sg", "fem"] },
-          { "parse": ["pron-int", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["pron-indef", "nom", "sg", "masc"] }]
       },
       "τισιν": {
         "transliteration": "tisin",

@@ -183,22 +183,51 @@ describe("resolveLemma", () => {
   });
 
   it("should narrow two roots to one on the Strong's number the node already carries", () => {
-    // πού and ποῦ are both adverbs and both account for ADV-I, so only the
-    // corpus's own G4226 separates the interrogative from the indefinite.
-    expect(resolveLemma({ text: " Ποῦ", morph: "ADV-I", strong: "G4226", morphology: "robinson" })).toEqual({
-      lemma: "ποῦ",
+    // εἴδω and ὁράω are two lexicon entries for one suppletive verb, and εἶδον
+    // is the second aorist of both, so only the corpus's own G1492 separates
+    // them. 236 nodes across the two corpora reach their lemma this way.
+    expect(resolveLemma({ text: "εἶδον", morph: "V-2AAI-1S", strong: "G1492", morphology: "robinson" })).toEqual({
+      lemma: "ὁράω",
     });
-    expect(resolveLemma({ text: " Ποῦ", morph: "ADV-I", morphology: "robinson" })).toEqual({
-      unresolved: "ambiguous between πού, ποῦ",
+    expect(resolveLemma({ text: "εἶδον", morph: "V-2AAI-1S", morphology: "robinson" })).toEqual({
+      unresolved: "ambiguous between εἴδω, ὁράω",
     });
   });
 
+  it("should rule a capitalised root out for a word the page printed in lower case", () => {
+    // Ezekiel's temple vision calls a vestibule αιλαμ and the nation Elam is
+    // Αιλαμ. The map holds both, both are indeclinable, and LXX1935 gives them
+    // no Strong's number, so the printed case is the only thing left.
+    expect(resolveLemma({ text: "αιλαμ", morph: "N-PRI", morphology: "robinson" })).toEqual({
+      lemma: "αιλαμ",
+    });
+    // The capital says nothing, because a capital at the head of a verse
+    // belongs to the sentence. Read the other way round this test would claim
+    // every sentence-initial common noun is a name.
+    expect(resolveLemma({ text: "Αιλαμ", morph: "N-PRI", morphology: "robinson" })).toEqual({
+      unresolved: "ambiguous between Αιλαμ, αιλαμ",
+    });
+  });
+
+  it("should decline when the printed case and the Strong's number name different roots", () => {
+    // 29 corpus words had exactly this shape until their numbers were
+    // corrected: printed στεφάνῳ, a crown, while still carrying G4736, which
+    // is Stephen. Neither clue outranks the other, so the map reports the
+    // disagreement instead of picking the one that happens to be consulted.
+    const result = resolveLemma({ text: "στεφάνῳ", morph: "N-DSM", strong: "G4736", morphology: "robinson" });
+    expect(result).toEqual({
+      unresolved: "the printed case says στέφανος and the Strong's number says Στέφανος",
+    });
+    expect(result).not.toHaveProperty("lemma");
+  });
+
   it("should name both roots and write no lemma when nothing separates them", () => {
-    // 38 of BYZ2026's 39 unresolved nodes are this one word. Both roots are
-    // particles, both are tagged G686, and the corpus offers nothing else to
-    // tell them apart — so the answer is the question, not a coin toss.
-    const result = resolveLemma({ text: "Ἄρα", morph: "PRT", strong: "G686", morphology: "robinson" });
-    expect(result).toEqual({ unresolved: "ambiguous between ἄρα, ἆρα" });
+    // λέγω and ἔπω are two entries for one suppletive verb and εἶπεν is the
+    // second aorist of both, so a node carrying no Strong's number offers
+    // nothing to tell them apart — the answer is the question, not a coin
+    // toss. 2,815 LXX1935 nodes are this one word.
+    const result = resolveLemma({ text: "εἶπεν", morph: "V-2AAI-3S", morphology: "robinson" });
+    expect(result).toEqual({ unresolved: "ambiguous between λέγω, ἔπω" });
     expect(result).not.toHaveProperty("lemma");
   });
 

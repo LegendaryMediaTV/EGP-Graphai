@@ -1579,6 +1579,18 @@
       }
     }
   },
+  "Ἡμέρα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
+    "inflections": {
+      "Ἡμέραν": {
+        "transliteration": "Hēméran",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "ἡμερόομαι": {
     "language": "greek",
     "pos": "verb",

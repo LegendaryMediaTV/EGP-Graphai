@@ -2283,15 +2283,12 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "indices": { "strongs": ["G3112", "G3117"] },
+    "indices": { "strongs": "G3117" },
     "inflections": {
       "μακρά": {
         "transliteration": "makrá",
         "cells": [
-          {
-            "parse": ["adj", "acc", "pl", "neut"],
-            "indices": { "strongs": "G3117" }
-          },
+          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]

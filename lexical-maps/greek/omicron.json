@@ -12075,20 +12075,11 @@
     "inflections": {
       "ὅρον": {
         "transliteration": "hóron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
-      },
-      "ὁρῶν": {
-        "transliteration": "horō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
-    }
+    },
+    "gender": "masc",
+    "declension": "2m"
   },
   "ὀροφοιτόω": {
     "language": "greek",

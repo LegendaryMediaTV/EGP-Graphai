@@ -3136,10 +3136,6 @@
         "transliteration": "zōopoiḗsei",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
-      "ζωοποίησιν": {
-        "transliteration": "zōopoíēsin",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
-      },
       "ζῳοποιοῦν": {
         "transliteration": "zōopoioûn",
         "cells": [
@@ -3153,6 +3149,19 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
+      }
+    }
+  },
+  "ζῳοποίησις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "a making alive, reviving",
+    "inflections": {
+      "ζωοποίησιν": {
+        "transliteration": "zōopoíēsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
