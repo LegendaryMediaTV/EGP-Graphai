@@ -1238,9 +1238,10 @@ A wise son brings joy to his father,<br>but a foolish son grief to his mother.
 <sup>16</sup> Oppressing the poor to enrich oneself or giving gifts to the rich<br>will surely lead to poverty.
 
 ### Thirty Sayings of the Wise
-<sup>17</sup> 
-### Saying 1
 
+<sup>17</sup>
+
+### Saying 1
 
 Incline your ear and hear the words of the wise—<br>apply your mind to my knowledge—<br>
 <sup>18</sup> for it is pleasing when you keep them within you<br>and they are constantly on your lips.<br>
@@ -1278,7 +1279,6 @@ Incline your ear and hear the words of the wise—<br>apply your mind to my know
 ## Chapter 23
 
 ### True Riches<sup>a</sup>
-
 
 ### Saying 7
 
@@ -1364,7 +1364,6 @@ Incline your ear and hear the words of the wise—<br>apply your mind to my know
 ## Chapter 24
 
 ### Do Not Envy
-
 
 ### Saying 20
 

@@ -1368,9 +1368,10 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 <sup>27</sup> but those my enemies, who did not wish me to reign over them, bring hither and slay before me.”
 
 ### In Jerusalem
-<sup>28</sup> 
-### Triumphal Entry
 
+<sup>28</sup>
+
+### Triumphal Entry
 
 And having said these things, he went on before, going up to Jerusalem.
 <sup>29</sup> And it came to pass, as he came nigh to Bethphage and Bethany, unto the mount called of the Olives, he sent two of his disciples,

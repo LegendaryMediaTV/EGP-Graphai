@@ -40,11 +40,16 @@ const FRACTION_SLASH = "⁄";
  * {@link normalizeFractionText} converts it too, at no extra cost, matching
  * this module's own "however the source spells it" scope.
  */
-export const PLAIN_FRACTION = new RegExp(`([0-9]+)${FRACTION_SLASH}([0-9]+)`, "g");
+export const PLAIN_FRACTION = new RegExp(
+  `([0-9]+)${FRACTION_SLASH}([0-9]+)`,
+  "g",
+);
 
 /** Raise or lower every digit of a number. */
 function shift(value: string, table: string): string {
-  return [...value].map((digit) => (/[0-9]/.test(digit) ? table[Number(digit)] : digit)).join("");
+  return [...value]
+    .map((digit) => (/[0-9]/.test(digit) ? table[Number(digit)] : digit))
+    .join("");
 }
 
 /**
@@ -60,8 +65,15 @@ function shift(value: string, table: string): string {
  * @param denominator - The denominator in plain digits, e.g. `16`.
  * @returns The fraction, e.g. `¹⁄₁₆`.
  */
-export function uniformFraction(numerator: string, denominator: string): string {
-  return shift(numerator, SUPERSCRIPT) + FRACTION_SLASH + shift(denominator, SUBSCRIPT);
+export function uniformFraction(
+  numerator: string,
+  denominator: string,
+): string {
+  return (
+    shift(numerator, SUPERSCRIPT) +
+    FRACTION_SLASH +
+    shift(denominator, SUBSCRIPT)
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -103,7 +115,10 @@ export const PRECOMPOSED: Readonly<Record<string, string>> = {
 };
 
 /** Any glyph {@link PRECOMPOSED} converts. */
-const PRECOMPOSED_GLYPH = new RegExp(`[${Object.keys(PRECOMPOSED).join("")}]`, "g");
+const PRECOMPOSED_GLYPH = new RegExp(
+  `[${Object.keys(PRECOMPOSED).join("")}]`,
+  "g",
+);
 
 // ---------------------------------------------------------------------------
 // Shape 2: a genuine ASCII N/M slash fraction
@@ -181,9 +196,19 @@ export function normalizeFractionText(text: string): FractionNormalization {
 
   const withAsciiConverted = withGlyphsConverted.replace(
     ASCII_FRACTION,
-    (whole: string, numerator: string, denominator: string, offset: number, full: string) => {
-      const after = full.slice(offset + whole.length, offset + whole.length + 6);
-      if (looksLikeCitation(numerator, after) || ORDINAL_SUFFIX.test(after)) return whole;
+    (
+      whole: string,
+      numerator: string,
+      denominator: string,
+      offset: number,
+      full: string,
+    ) => {
+      const after = full.slice(
+        offset + whole.length,
+        offset + whole.length + 6,
+      );
+      if (looksLikeCitation(numerator, after) || ORDINAL_SUFFIX.test(after))
+        return whole;
       changes += 1;
       return uniformFraction(numerator, denominator);
     },
@@ -226,9 +251,10 @@ export function normalizeFractionText(text: string): FractionNormalization {
  *   changed, otherwise the original reference) and whether anything changed
  *   at all
  */
-export function normalizeFractionsInContent(
-  content: Content
-): { content: Content; changed: boolean } {
+export function normalizeFractionsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   return mapContentText(content, (text) => {
     const rewritten = normalizeFractionText(text);
     return rewritten.changes > 0 ? rewritten.value : undefined;

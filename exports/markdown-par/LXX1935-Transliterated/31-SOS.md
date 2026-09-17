@@ -6,9 +6,9 @@
 <sup>3</sup> kaì osmḕ mýrōn sou hypèr pánta tà arṓmata, mýron ekkenōthèn ónomá sou. Dià toûto neánides ēgápēsán se,
 <sup>4</sup> heílkysán se, opísō sou eis osmḕn mýrōn sou dramoûmen.
 
- Eisḗnenkén me ho basileùs eis tò tamíeion autoû.
+Eisḗnenkén me ho basileùs eis tò tamíeion autoû.
 
- Agalliasṓmetha kaì euphranthō̂men en soí, agapḗsomen mastoús sou hypèr oînon; euthýtēs ēgápēsén se.
+Agalliasṓmetha kaì euphranthō̂men en soí, agapḗsomen mastoús sou hypèr oînon; euthýtēs ēgápēsén se.
 
 <sup>5</sup> Mélainá eimi kaì kalḗ, thygatéres Ierousalēm, hōs skēnṓmata Kēdar, hōs dérreis Salōmōn.
 <sup>6</sup> Mḕ blépsēté me, hóti egṓ eimi memelanōménē, hóti paréblepsén me ho hḗlios; hyioì mētrós mou emachésanto en emoí, éthentó me phylákissan en ampelō̂sin; ampelō̂na emòn ouk ephýlaxa.
@@ -141,7 +141,7 @@
 
 <sup>1</sup> Epístrephe epístrephe, hē Soulamîtis, epístrephe epístrephe, kaì opsómetha en soí.
 
- Tí ópsesthe en tē̂ Soulamítidi? Hē erchoménē hōs choroì tō̂n parembolō̂n.
+Tí ópsesthe en tē̂ Soulamítidi? Hē erchoménē hōs choroì tō̂n parembolō̂n.
 
 <sup>2</sup> Tí hōraiṓthēsan diabḗmatá sou en hypodḗmasin, thýgater Nadab? Rhythmoì mērō̂n sou hómoioi hormískois érgō cheirō̂n technítou;
 <sup>3</sup> omphalós sou kratḕr toreutòs mḕ hysteroúmenos krâma; koilía sou thimōnià sítou pephragménē en krínois;
@@ -169,7 +169,7 @@
 
 <sup>5</sup> Tís haútē hē anabaínousa leleukanthisménē epistērizoménē epì tòn adelphidòn autē̂s?
 
- Hypò mē̂lon exḗgeirá se; ekeî ōdínēsén se hē mḗtēr sou, ekeî ōdínēsén se hē tekoûsá sou.
+Hypò mē̂lon exḗgeirá se; ekeî ōdínēsén se hē mḗtēr sou, ekeî ōdínēsén se hē tekoûsá sou.
 
 <sup>6</sup> Thés me hōs sphragîda epì tḕn kardían sou, hōs sphragîda epì tòn brachíoná sou; hóti krataià hōs thánatos agápē, sklēròs hōs hádēs zē̂los; períptera autē̂s períptera pyrós, phlóges autē̂s;
 <sup>7</sup> hýdōr polỳ ou dynḗsetai sbésai tḕn agápēn, kaì potamoì ou synklýsousin autḗn; eàn dō̂ anḕr tòn pánta bíon autoû en tē̂ agápē, exoudenṓsei exoudenṓsousin autón.

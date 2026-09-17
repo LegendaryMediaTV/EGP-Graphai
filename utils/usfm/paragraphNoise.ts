@@ -58,12 +58,18 @@ function asArray(content: Content): unknown[] {
 
 /** `true` for a plain-object node whose own `paragraph` is exactly `true`. */
 function opensParagraph(node: unknown): boolean {
-  return typeof node === "object" && node !== null && !Array.isArray(node) && (node as Record<string, unknown>).paragraph === true;
+  return (
+    typeof node === "object" &&
+    node !== null &&
+    !Array.isArray(node) &&
+    (node as Record<string, unknown>).paragraph === true
+  );
 }
 
 /** `true` for a `{heading: ...}` or `{subtitle: ...}` wrapper — the identical predicate `utils/auditNodes.ts`'s own heading-paragraph check already uses, reimplemented locally rather than imported: that module's own version is not exported, and this one is too small to warrant becoming a new shared export for a second caller. */
 function isHeadingOrSubtitle(node: unknown): boolean {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   const record = node as Record<string, unknown>;
   return "heading" in record || "subtitle" in record;
 }
@@ -85,7 +91,9 @@ function verseOpensAParagraph(content: Content): boolean {
  * an empty array), but {@link suppressUniformParagraphNoise} never calls
  * this with one in practice — every real book carries at least one verse.
  */
-export function isUniformParagraphNoise(verses: readonly ParagraphNoiseVerse[]): boolean {
+export function isUniformParagraphNoise(
+  verses: readonly ParagraphNoiseVerse[],
+): boolean {
   return verses.every((verse) => verseOpensAParagraph(verse.content));
 }
 
@@ -121,7 +129,8 @@ function positionsAfterHeadingRuns(nodes: readonly unknown[]): Set<number> {
 
 /** `node` with its own `paragraph` key removed entirely — never set to `false` (this corpus has no real `"paragraph": false` anywhere; absence is how "not a paragraph start" is already spelled everywhere else in the schema). A non-object node (a bare string) passes through unchanged; it could never have carried the key in the first place. */
 function withoutParagraph(node: unknown): unknown {
-  if (typeof node !== "object" || node === null || Array.isArray(node)) return node;
+  if (typeof node !== "object" || node === null || Array.isArray(node))
+    return node;
   const { paragraph: _paragraph, ...rest } = node as Record<string, unknown>;
   return rest;
 }
@@ -133,9 +142,14 @@ function withoutParagraph(node: unknown): unknown {
  * {@link suppressUniformParagraphNoise}, which never calls this for a
  * chapter-first verse in the first place).
  */
-function stripParagraphExcept(content: Content, keepPositions: ReadonlySet<number>): Content {
+function stripParagraphExcept(
+  content: Content,
+  keepPositions: ReadonlySet<number>,
+): Content {
   const nodes = asArray(content);
-  const stripped = nodes.map((node, at) => (keepPositions.has(at) ? node : withoutParagraph(node)));
+  const stripped = nodes.map((node, at) =>
+    keepPositions.has(at) ? node : withoutParagraph(node),
+  );
   return (Array.isArray(content) ? stripped : stripped[0]) as Content;
 }
 
@@ -160,7 +174,9 @@ function stripParagraphExcept(content: Content, keepPositions: ReadonlySet<numbe
  *
  * @param verses - One whole book's own verses, in their real on-disk order.
  */
-export function suppressUniformParagraphNoise<V extends ParagraphNoiseVerse>(verses: readonly V[]): V[] {
+export function suppressUniformParagraphNoise<V extends ParagraphNoiseVerse>(
+  verses: readonly V[],
+): V[] {
   if (!isUniformParagraphNoise(verses)) return [...verses];
 
   const seenChapters = new Set<number>();
@@ -170,6 +186,9 @@ export function suppressUniformParagraphNoise<V extends ParagraphNoiseVerse>(ver
     if (isChapterFirstVerse) return verse;
 
     const keepPositions = positionsAfterHeadingRuns(asArray(verse.content));
-    return { ...verse, content: stripParagraphExcept(verse.content, keepPositions) };
+    return {
+      ...verse,
+      content: stripParagraphExcept(verse.content, keepPositions),
+    };
   });
 }

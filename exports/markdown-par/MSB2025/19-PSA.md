@@ -2,7 +2,6 @@
 
 ### BOOK ONE (Psalms 1–41)
 
-
 ### The Two Paths<sup>a</sup>
 
 <sup>1</sup> Blessed is the man<br>who does not walk in the counsel of the wicked,<br>or set foot on the path of sinners,<br>or sit in the seat of mockers.<br>
@@ -1251,8 +1250,8 @@ Amen and Amen.
 
 ### BOOK TWO (Psalms 42–72)
 
-
 ### As the Deer Pants for the Water
+
 <sup>1</sup> > _For the choirmaster. A Maskil of the sons of Korah.<sup>a</sup>_
 
 As the deer pants for streams of water,<br>so my soul longs after You, O God.<br>
@@ -2159,8 +2158,8 @@ Amen and amen.
 
 ### BOOK THREE (Psalms 73–89)
 
-
 ### Surely God Is Good to Israel
+
 <sup>1</sup> > _A Psalm of Asaph._
 
 Surely God is good to Israel,<br>to those who are pure in heart.<br>
@@ -2780,8 +2779,8 @@ Amen and amen.
 
 ### BOOK FOUR (Psalms 90–106)
 
-
 ### From Everlasting to Everlasting
+
 <sup>1</sup> > _A prayer of Moses the man of God._
 
 Lord, You have been our dwelling place<br>through all generations.<br>
@@ -3348,7 +3347,6 @@ Hallelujah!
 
 ### BOOK FIVE (Psalms 107–150)
 
-
 ### Thanksgiving for Deliverance<sup>a</sup>
 
 <sup>1</sup> Give thanks to the LORD, for He is good;<br>His loving devotion endures forever.<br>
@@ -3720,7 +3718,6 @@ Hallelujah!<sup>b</sup>
 ## Chapter 119
 
 ### Your Word Is a Lamp to My Feet
-
 
 #### א ALEPH
 

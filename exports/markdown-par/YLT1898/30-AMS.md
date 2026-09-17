@@ -173,7 +173,6 @@
 
 ### Visions of Judgement
 
-
 ### Locusts
 
 <sup>1</sup> Thus hath the Lord Jehovah shewed me, and lo, He is forming locusts at the beginning of the ascending of the latter growth, and lo, the latter growth _is_ after the mowings of the king;

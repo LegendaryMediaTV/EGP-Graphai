@@ -23,7 +23,7 @@ describe("getBibleVersions", () => {
           name: "Test Version One",
           license: "CC0-1.0",
           books: [],
-        })
+        }),
       );
 
       // Create another valid version
@@ -44,7 +44,7 @@ describe("getBibleVersions", () => {
               chapters: 50,
             },
           ],
-        })
+        }),
       );
 
       // Create directory without _version.json (should be skipped)
@@ -54,7 +54,7 @@ describe("getBibleVersions", () => {
       // Create a plain file (not a directory, should be skipped)
       fs.writeFileSync(
         path.join(fixtureDir, "somefile.json"),
-        '{"not": "a version"}'
+        '{"not": "a version"}',
       );
 
       // Create directory with malformed JSON
@@ -62,7 +62,7 @@ describe("getBibleVersions", () => {
       fs.mkdirSync(malformedDir, { recursive: true });
       fs.writeFileSync(
         path.join(malformedDir, "_version.json"),
-        "{ invalid json"
+        "{ invalid json",
       );
     });
 
@@ -109,7 +109,7 @@ describe("getBibleVersions", () => {
 
     it("should throw error if directory does not exist", () => {
       expect(() => getBibleVersions("/nonexistent/path")).toThrow(
-        "Bible versions directory not found"
+        "Bible versions directory not found",
       );
     });
   });
@@ -120,7 +120,7 @@ describe("getBibleVersions", () => {
     const writeVersion = (
       id: string,
       name: unknown,
-      dir: string = fixtureDir
+      dir: string = fixtureDir,
     ) => {
       const versionDir = path.join(dir, id);
       fs.mkdirSync(versionDir, { recursive: true });
@@ -131,7 +131,7 @@ describe("getBibleVersions", () => {
           name,
           license: "CC0-1.0",
           books: [],
-        })
+        }),
       );
     };
 
@@ -230,7 +230,7 @@ describe("getBibleVersion", () => {
         _id: "SINGLE",
         name: "Single Test",
         license: "CC0-1.0",
-      })
+      }),
     );
   });
 
@@ -263,7 +263,12 @@ describe("getVersionDirectories", () => {
       fs.mkdirSync(versionDir, { recursive: true });
       fs.writeFileSync(
         path.join(versionDir, "_version.json"),
-        JSON.stringify({ _id: id, name: `Test ${id}`, license: "CC0-1.0", books: [] })
+        JSON.stringify({
+          _id: id,
+          name: `Test ${id}`,
+          license: "CC0-1.0",
+          books: [],
+        }),
       );
     }
     // A plain file alongside the version directories — same non-directory
@@ -279,7 +284,9 @@ describe("getVersionDirectories", () => {
     const dirs = getVersionDirectories(fixtureDir);
 
     expect(dirs).toBeInstanceOf(Array);
-    expect(dirs).toEqual(expect.arrayContaining(["ZZZ999", "AAA000", "MMM555"]));
+    expect(dirs).toEqual(
+      expect.arrayContaining(["ZZZ999", "AAA000", "MMM555"]),
+    );
     expect(dirs).not.toContain("not-a-version.json");
   });
 

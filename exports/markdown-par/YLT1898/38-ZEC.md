@@ -11,9 +11,10 @@
 <sup>6</sup> Only, My words, and My statutes, That I commanded My servants the prophets, Have they not overtaken your fathers, And they turn back and say: As Jehovah of Hosts designed to do to us, According to our ways, and according to our doings, So He hath done to us?”
 
 ### Visions of the Night
-<sup>7</sup> 
-### Among the Myrtle Trees
 
+<sup>7</sup>
+
+### Among the Myrtle Trees
 
 On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,) in the second year of Darius, hath a word of Jehovah been unto Zechariah, son of Berechiah, son of Iddo, the prophet, saying:
 <sup>8</sup> I have seen by night, and lo, one riding on a red horse, and he is standing between the myrtles that _are_ in the shade, and behind him _are_ horses, red, bay, and white.
@@ -127,9 +128,10 @@ On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,
 <sup>8</sup> And he calleth me, and speaketh unto me, saying, “See, those coming forth unto the land of the north have caused My Spirit to rest in the land of the north.”
 
 ### The New Jerusalem
-<sup>9</sup> 
-### A Coronation
 
+<sup>9</sup>
+
+### A Coronation
 
 And there is a word of Jehovah unto me, saying,
 <sup>10</sup> to take of the captivity (who came from Babylon) from Heldai, from Tobijah, and from Jedaiah, “and thou hast come in—thou, in that day, yea, thou hast come into the house of Josiah son of Zephaniah,
@@ -194,7 +196,6 @@ And there is a word of Jehovah unto me, saying,
 ## Chapter 9
 
 ### The City of God
-
 
 ### Look to the Jehovah
 

@@ -36,14 +36,26 @@ export interface ParagraphBreakBoundary {
  * "first/last real block" lookup skip it, mirroring
  * {@link VerseBlock.headingContent}.
  */
-export function upstreamBlocks(
-  content: unknown,
-): { text: string; paragraph?: boolean; break?: boolean; isHeading: boolean }[] {
+export function upstreamBlocks(content: unknown): {
+  text: string;
+  paragraph?: boolean;
+  break?: boolean;
+  isHeading: boolean;
+}[] {
   const items = Array.isArray(content) ? content : [content];
   return items.map((item) => {
     if (typeof item === "string") return { text: item, isHeading: false };
-    const object = item as { text?: string; paragraph?: boolean; break?: boolean };
-    return { text: object.text ?? "", paragraph: object.paragraph, break: object.break, isHeading: object.text === undefined };
+    const object = item as {
+      text?: string;
+      paragraph?: boolean;
+      break?: boolean;
+    };
+    return {
+      text: object.text ?? "",
+      paragraph: object.paragraph,
+      break: object.break,
+      isHeading: object.text === undefined,
+    };
   });
 }
 
@@ -52,11 +64,21 @@ export function upstreamMatchesRule(
   upstream: { chapter: number; verse: number; content: unknown }[],
   boundary: ParagraphBreakBoundary,
 ): boolean | undefined {
-  const before = upstream.find((v) => v.chapter === boundary.beforeChapter && v.verse === boundary.beforeVerse);
-  const after = upstream.find((v) => v.chapter === boundary.afterChapter && v.verse === boundary.afterVerse);
+  const before = upstream.find(
+    (v) =>
+      v.chapter === boundary.beforeChapter && v.verse === boundary.beforeVerse,
+  );
+  const after = upstream.find(
+    (v) =>
+      v.chapter === boundary.afterChapter && v.verse === boundary.afterVerse,
+  );
   if (before === undefined || after === undefined) return undefined;
-  const beforeBlocks = upstreamBlocks(before.content).filter((block) => !block.isHeading);
-  const afterBlocks = upstreamBlocks(after.content).filter((block) => !block.isHeading);
+  const beforeBlocks = upstreamBlocks(before.content).filter(
+    (block) => !block.isHeading,
+  );
+  const afterBlocks = upstreamBlocks(after.content).filter(
+    (block) => !block.isHeading,
+  );
   const lastBefore = beforeBlocks[beforeBlocks.length - 1];
   const firstAfter = afterBlocks[0];
   return lastBefore?.break !== true && firstAfter?.paragraph === true;
@@ -67,12 +89,23 @@ export function fixedOutputMatchesRule(
   records: readonly VerseRecord[],
   boundary: ParagraphBreakBoundary,
 ): boolean | undefined {
-  const before = records.find((r) => r.chapter === boundary.beforeChapter && r.verse === boundary.beforeVerse);
-  const after = records.find((r) => r.chapter === boundary.afterChapter && r.verse === boundary.afterVerse);
+  const before = records.find(
+    (r) =>
+      r.chapter === boundary.beforeChapter && r.verse === boundary.beforeVerse,
+  );
+  const after = records.find(
+    (r) =>
+      r.chapter === boundary.afterChapter && r.verse === boundary.afterVerse,
+  );
   if (before === undefined || after === undefined) return undefined;
-  const beforeBlocks = before.blocks.filter((block) => block.headingContent === undefined);
-  const afterBlocks = after.blocks.filter((block) => block.headingContent === undefined);
-  const lastBefore: VerseBlock | undefined = beforeBlocks[beforeBlocks.length - 1];
+  const beforeBlocks = before.blocks.filter(
+    (block) => block.headingContent === undefined,
+  );
+  const afterBlocks = after.blocks.filter(
+    (block) => block.headingContent === undefined,
+  );
+  const lastBefore: VerseBlock | undefined =
+    beforeBlocks[beforeBlocks.length - 1];
   const firstAfter: VerseBlock | undefined = afterBlocks[0];
   return lastBefore?.break !== true && firstAfter?.paragraph === true;
 }

@@ -32,11 +32,7 @@ const VERSE_KEY_ORDER: string[] = ["book", "chapter", "verse", "content"];
  * exact field types.
  */
 type ContentElement =
-  | string
-  | ContentObject
-  | ContentElement[]
-  | null
-  | undefined;
+  string | ContentObject | ContentElement[] | null | undefined;
 
 /** Object with unsorted keys, used internally for generic key sorting. */
 interface ContentObject {
@@ -90,14 +86,11 @@ export function sortContentKeys<T extends ContentElement>(content: T): T {
 
     if (key === "marks" && Array.isArray(value)) {
       value = [...value].sort();
-    }
-    else if (key === "content" || key === "heading" || key === "subtitle") {
+    } else if (key === "content" || key === "heading" || key === "subtitle") {
       value = sortContentKeys(value as ContentElement);
-    }
-    else if (key === "foot" && typeof value === "object" && value !== null) {
+    } else if (key === "foot" && typeof value === "object" && value !== null) {
       value = sortContentKeys(value as ContentElement);
-    }
-    else if (
+    } else if (
       key === "paragraph" &&
       typeof value === "object" &&
       value !== null

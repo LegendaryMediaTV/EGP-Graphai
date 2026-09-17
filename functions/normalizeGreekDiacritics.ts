@@ -86,7 +86,9 @@ export function normalizeDiacriticsText(text: string): DiacriticNormalization {
     return composed;
   });
 
-  return changes > 0 ? { value: repaired.join(""), changes } : { value: text, changes: 0 };
+  return changes > 0
+    ? { value: repaired.join(""), changes }
+    : { value: text, changes: 0 };
 }
 
 /** Whether one string carries a dialytika this module would rebuild. */
@@ -105,9 +107,10 @@ export function hasMisplacedDialytika(text: string): boolean {
  *   changed, otherwise the original reference) and whether anything changed
  *   at all
  */
-export function normalizeDiacriticsInContent(
-  content: Content
-): { content: Content; changed: boolean } {
+export function normalizeDiacriticsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   return mapContentText(content, (text) => {
     const rewritten = normalizeDiacriticsText(text);
     return rewritten.changes > 0 ? rewritten.value : undefined;

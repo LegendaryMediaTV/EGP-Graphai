@@ -1093,7 +1093,7 @@
 
 <sup>4</sup> Apò eikosaetoûs kaì epánō, hòn trópon synétaxen kýrios tō̂ Mōysē̂.
 
- Kaì hoi hyioì Israēl hoi exelthóntes ex Aigýptou;
+Kaì hoi hyioì Israēl hoi exelthóntes ex Aigýptou;
 
 <sup>5</sup> Roubēn prōtótokos Israēl. Hyioì dè Roubēn; Enōch kaì dē̂mos toû Enōch; tō̂ Phallou dē̂mos toû Phalloui;
 <sup>6</sup> tō̂ Asrōn dē̂mos toû Asrōni; tō̂ Charmi dē̂mos toû Charmi.

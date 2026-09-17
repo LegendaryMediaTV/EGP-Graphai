@@ -112,7 +112,7 @@ interface Attestation {
  *   a caller passes its own to put the rule to a verse it wrote itself.
  */
 export function auditCodexAttestation(
-  verses: Iterable<CorpusVerse> = everyTaggedVerse()
+  verses: Iterable<CorpusVerse> = everyTaggedVerse(),
 ): CodexAttestationAudit {
   const categoryOf = inflectionCategories();
   const attested = new Map<CodexEntry, Attestation>();
@@ -132,7 +132,9 @@ export function auditCodexAttestation(
         if (!cells.length) continue;
 
         for (const reading of readings) {
-          const explaining = cells.filter((cell) => accountsFor(cell.cell, reading.parse!, categoryOf));
+          const explaining = cells.filter((cell) =>
+            accountsFor(cell.cell, reading.parse!, categoryOf),
+          );
           for (const cell of explaining) {
             let tally = attested.get(cell);
             if (!tally) {
@@ -141,7 +143,11 @@ export function auditCodexAttestation(
             }
             tally.nodes++;
             if (explaining.length === 1) tally.sole++;
-            if (reading.strong) tally.carried.set(reading.strong, (tally.carried.get(reading.strong) ?? 0) + 1);
+            if (reading.strong)
+              tally.carried.set(
+                reading.strong,
+                (tally.carried.get(reading.strong) ?? 0) + 1,
+              );
           }
         }
       }
@@ -152,7 +158,12 @@ export function auditCodexAttestation(
   for (const [cell, tally] of attested) {
     if (!cell.rootStrongs.length) continue;
     if (!tally.carried.size) continue;
-    if ([...tally.carried.keys()].some((number) => cell.rootStrongs.includes(number))) continue;
+    if (
+      [...tally.carried.keys()].some((number) =>
+        cell.rootStrongs.includes(number),
+      )
+    )
+      continue;
 
     contradictions.push({
       file: cell.file,
@@ -178,10 +189,15 @@ export function auditCodexAttestation(
       a.file.localeCompare(b.file) ||
       a.root.localeCompare(b.root) ||
       a.spelling.localeCompare(b.spelling) ||
-      a.parse.join(" ").localeCompare(b.parse.join(" "))
+      a.parse.join(" ").localeCompare(b.parse.join(" ")),
   );
 
-  return { versions, nodesScanned, cellsAttested: attested.size, contradictions };
+  return {
+    versions,
+    nodesScanned,
+    cellsAttested: attested.size,
+    contradictions,
+  };
 }
 
 /** Every verse of every version whose codes a scheme on disk can read. */
@@ -196,8 +212,12 @@ function* everyTaggedVerse(): Generator<CorpusVerse> {
 }
 
 /** One contradiction as a single line, for the audit's own output. */
-export function formatCellContradiction(contradiction: CellContradiction): string {
-  const carried = contradiction.carried.map(({ number, nodes }) => `${number} ×${nodes}`).join(", ");
+export function formatCellContradiction(
+  contradiction: CellContradiction,
+): string {
+  const carried = contradiction.carried
+    .map(({ number, nodes }) => `${number} ×${nodes}`)
+    .join(", ");
   return (
     `${contradiction.file} ${contradiction.root} [${contradiction.pos} ${contradiction.rootStrongs.join(", ")}]` +
     ` / ${contradiction.spelling} [${contradiction.parse.join(" ")}] —` +

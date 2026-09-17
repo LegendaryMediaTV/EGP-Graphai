@@ -14,13 +14,19 @@ describe("addMissingHeadingParagraphsInVerse", () => {
       ],
     };
 
-    const { verse: result, changed } = addMissingHeadingParagraphsInVerse(verse as never);
+    const { verse: result, changed } = addMissingHeadingParagraphsInVerse(
+      verse as never,
+    );
 
     expect(changed).toBe(true);
     expect(result.content).toEqual([
       { heading: "Prayer for protection, guidance, and pardon." },
       { subtitle: [{ text: "A Psalm", marks: ["i"] }, " of David."] },
-      { paragraph: true, text: "Unto thee, O Jehovah, do I lift up my soul.", break: true },
+      {
+        paragraph: true,
+        text: "Unto thee, O Jehovah, do I lift up my soul.",
+        break: true,
+      },
     ]);
   });
 
@@ -32,7 +38,11 @@ describe("addMissingHeadingParagraphsInVerse", () => {
       content: [
         { heading: "Prayer for protection, guidance, and pardon." },
         { subtitle: [{ text: "A Psalm", marks: ["i"] }, " of David."] },
-        { paragraph: true, text: "Unto thee, O Jehovah, do I lift up my soul.", break: true },
+        {
+          paragraph: true,
+          text: "Unto thee, O Jehovah, do I lift up my soul.",
+          break: true,
+        },
       ],
     };
 
@@ -69,7 +79,9 @@ describe("addMissingHeadingParagraphsInVerse", () => {
       content: [{ heading: "A heading" }, "plain text with no room for a flag"],
     };
 
-    const { verse: result, changed } = addMissingHeadingParagraphsInVerse(verse as never);
+    const { verse: result, changed } = addMissingHeadingParagraphsInVerse(
+      verse as never,
+    );
 
     expect(changed).toBe(true);
     expect(result.content).toEqual([

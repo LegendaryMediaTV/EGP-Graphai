@@ -66,7 +66,7 @@ describe("convertToSmallCaps", () => {
 
     it("should handle multiple LORD occurrences", () => {
       const result = convertToSmallCaps(
-        "The LORD is good. The LORD is gracious."
+        "The LORD is good. The LORD is gracious.",
       );
       expect(result).toEqual([
         "The ",
@@ -166,7 +166,7 @@ describe("convertToSmallCaps", () => {
     it("should handle footnote with 'loved by the LORD.'", () => {
       // Edge case: a quoted name-meaning parenthetical containing "the LORD."
       const result = convertToSmallCaps(
-        ' This name means "loved by the LORD."'
+        ' This name means "loved by the LORD."',
       );
       expect(result).toEqual([
         ' This name means "loved by the ',
@@ -177,7 +177,7 @@ describe("convertToSmallCaps", () => {
 
     it("should handle 'the Lord breaks through.'", () => {
       const result = convertToSmallCaps(
-        ' This name means "the Lord breaks through."'
+        ' This name means "the Lord breaks through."',
       );
       // "Lord" here is NOT LORD (all caps), so it should remain as is
       expect(result).toEqual(' This name means "the Lord breaks through."');
@@ -187,7 +187,7 @@ describe("convertToSmallCaps", () => {
   describe("real-world LORD/GOD patterns", () => {
     it("should handle LORD with question mark", () => {
       const result = convertToSmallCaps(
-        "Who is like you, O LORD, among the gods?"
+        "Who is like you, O LORD, among the gods?",
       );
       expect(result).toEqual([
         "Who is like you, O ",
@@ -207,7 +207,7 @@ describe("convertToSmallCaps", () => {
 
     it("should handle 'Lord GOD' (adon yhwh pattern) - only GOD to small caps", () => {
       const result = convertToSmallCaps(
-        "all your males will appear before the Lord GOD."
+        "all your males will appear before the Lord GOD.",
       );
       expect(result).toEqual([
         "all your males will appear before the Lord ",

@@ -37,7 +37,12 @@
 import fs from "fs";
 import path from "path";
 import { accountsFor, decodeMorph, readScheme } from "./morphology";
-import { entriesFor, inflectionCategories, isRoot, lexicalMapLanguages } from "./lexicon";
+import {
+  entriesFor,
+  inflectionCategories,
+  isRoot,
+  lexicalMapLanguages,
+} from "./lexicon";
 import { spellingsOf } from "./punctuation";
 
 /** Directory holding one subdirectory per Bible version. */
@@ -82,14 +87,16 @@ export interface CorpusMorphAudit {
  */
 export function auditCorpusMorphology(version: string): CorpusMorphAudit {
   const versionPath = path.join(bibleVersionsDir, version, "_version.json");
-  if (!fs.existsSync(versionPath)) return { version, scheme: null, findings: [], scanned: 0 };
-  const declared = JSON.parse(fs.readFileSync(versionPath, "utf-8")).morphology ?? null;
+  if (!fs.existsSync(versionPath))
+    return { version, scheme: null, findings: [], scanned: 0 };
+  const declared =
+    JSON.parse(fs.readFileSync(versionPath, "utf-8")).morphology ?? null;
   if (!declared) return { version, scheme: null, findings: [], scanned: 0 };
 
   // The scheme file, from whichever language carries one by that id.
   const scheme = lexicalMapLanguages().reduce<ReturnType<typeof readScheme>>(
     (found, language) => found ?? readScheme(language, declared),
-    null
+    null,
   );
   if (!scheme) {
     return {
@@ -115,12 +122,19 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
   let scanned = 0;
 
   const dir = path.join(bibleVersionsDir, version);
-  for (const name of fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "_version.json")) {
+  for (const name of fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && f !== "_version.json")) {
     const records = JSON.parse(fs.readFileSync(path.join(dir, name), "utf-8"));
     if (!Array.isArray(records)) continue;
 
     for (const record of records) {
-      const at = { file: name, book: record.book, chapter: record.chapter, verse: record.verse };
+      const at = {
+        file: name,
+        book: record.book,
+        chapter: record.chapter,
+        verse: record.verse,
+      };
       walk(record.content, (candidateSpellings, morph, lemma) => {
         const word = candidateSpellings[0];
         // A lemma is checked whether or not the node also carries a code,
@@ -128,25 +142,46 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
         // pointing at a root that had been rekeyed `Εὐμένης`, and its `N-DSM`
         // went on resolving through the spelling the whole time.
         if (lemma !== undefined && !isRoot(lemma)) {
-          findings.push({ ...at, word, morph: morph ?? "", reason: `lemma "${lemma}" names no root in the map` });
+          findings.push({
+            ...at,
+            word,
+            morph: morph ?? "",
+            reason: `lemma "${lemma}" names no root in the map`,
+          });
         }
         if (morph === undefined) return;
 
         scanned++;
         const parse = decodeMorph(morph, scheme);
         if (!parse) {
-          findings.push({ ...at, word, morph, reason: `${declared} cannot read this code` });
+          findings.push({
+            ...at,
+            word,
+            morph,
+            reason: `${declared} cannot read this code`,
+          });
           return;
         }
         const candidates = candidateSpellings.flatMap((spelling) =>
-          entriesFor(spelling).map((entry) => entry.cell)
+          entriesFor(spelling).map((entry) => entry.cell),
         );
         if (!candidates.length) {
-          findings.push({ ...at, word, morph, reason: "the map holds no such spelling" });
+          findings.push({
+            ...at,
+            word,
+            morph,
+            reason: "the map holds no such spelling",
+          });
           return;
         }
-        if (candidates.some((cell) => accountsFor(cell, parse, categoryOf))) return;
-        findings.push({ ...at, word, morph, reason: `no cell for this spelling accounts for ${parse.join(" ")}` });
+        if (candidates.some((cell) => accountsFor(cell, parse, categoryOf)))
+          return;
+        findings.push({
+          ...at,
+          word,
+          morph,
+          reason: `no cell for this spelling accounts for ${parse.join(" ")}`,
+        });
       });
     }
   }
@@ -158,7 +193,10 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
  * Visit every word node carrying a morph code or a lemma, with the spellings to
  * try. Either may be absent, and the visitor decides what each one is worth.
  */
-function walk(nodes: unknown, visit: (spellings: string[], morph?: string, lemma?: string) => void): void {
+function walk(
+  nodes: unknown,
+  visit: (spellings: string[], morph?: string, lemma?: string) => void,
+): void {
   if (!Array.isArray(nodes)) return;
   /** The spellings of the last word seen, for a text-less code to attach to. */
   let preceding: string[] = [];

@@ -24,7 +24,12 @@
  * `strong`/`break` end up living on.
  */
 
-import { canJoinForward, describeNode, isMergeableConnector, NodeShape } from "./auditNodes";
+import {
+  canJoinForward,
+  describeNode,
+  isMergeableConnector,
+  NodeShape,
+} from "./auditNodes";
 import Content from "../types/Content";
 
 /**
@@ -59,7 +64,10 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
     if (end > at && target !== undefined && canJoinForward(run, target)) {
       const mergedText = run.map((shape) => shape.text).join("") + target.text;
       const targetNode = nodes[end] as Record<string, unknown>;
-      const merged: Record<string, unknown> = { ...targetNode, text: mergedText };
+      const merged: Record<string, unknown> = {
+        ...targetNode,
+        text: mergedText,
+      };
       if (shapes[at].opensParagraph) merged.paragraph = true;
       result.push(merged);
       at = end + 1;
@@ -83,12 +91,20 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
  * object, has no nested levels to rewrite and passes through unchanged.
  */
 function rewriteNode(node: unknown): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content);
   }
 
@@ -142,9 +158,10 @@ function rewriteLevel(content: unknown): unknown {
  * @returns The rewritten tree (the original reference when nothing merged)
  *   and whether anything did
  */
-export function mergeUnmergedNodesInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function mergeUnmergedNodesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const rewritten = rewriteLevel(content) as Content;
   if (JSON.stringify(rewritten) === JSON.stringify(content)) {
     return { content, changed: false };

@@ -25,7 +25,7 @@
 <sup>21</sup> Kaì ou diē̂lthon hēmérai tessarákonta héōs hoû apékteinan autòn hoi dýo hyioì autoû; kaì éphygon eis tà órē Ararat, kaì ebasíleusen Sacherdonos hyiòs autoû met’ autón. Kaì étaxen Achicharon tòn Anaēl tòn toû adelphoû mou hyiòn epì pâsan tḕn eklogistían tē̂s basileías autoû, kaì autòs eîchen tḕn exousían epì pâsan tḕn dioíkēsin.
 <sup>22</sup> Tóte ēxíōsen Achicharos perì emoû, kaì katē̂lthon eis tḕn Nineuē.
 
- Achicharos gàr ē̂n ho archioinochóos kaì epì toû daktylíou kaì dioikētḕs kaì eklogistē̂s epì Sennachērim basiléōs Assyríōn, kaì katéstēsen autòn Sacherdonos ek deutéras; ē̂n dè exádelphós mou kaì ek tē̂s syngeneías mou.
+Achicharos gàr ē̂n ho archioinochóos kaì epì toû daktylíou kaì dioikētḕs kaì eklogistē̂s epì Sennachērim basiléōs Assyríōn, kaì katéstēsen autòn Sacherdonos ek deutéras; ē̂n dè exádelphós mou kaì ek tē̂s syngeneías mou.
 
 ## Chapter 2
 

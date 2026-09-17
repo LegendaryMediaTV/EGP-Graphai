@@ -106,15 +106,19 @@ export function extractBookMetadata(source: string): BookMetadata {
     const next = tokens[index + 1];
     const line = next?.type === "text" ? next.text.trim() : "";
 
-    if (token.name === "id" && usfmId === undefined) usfmId = line.split(/\s+/)[0];
+    if (token.name === "id" && usfmId === undefined)
+      usfmId = line.split(/\s+/)[0];
     else if (token.name === "h" && name === undefined) name = line;
     else if (token.name === "toc1" && title === undefined) title = line;
   }
 
   if (usfmId === undefined) throw new Error("USFM file carries no \\id marker");
-  if (name === undefined) throw new Error(`${usfmId}: USFM file carries no \\h marker`);
-  if (title === undefined) throw new Error(`${usfmId}: USFM file carries no \\toc1 marker`);
-  if (chapters === 0) throw new Error(`${usfmId}: USFM file carries no \\c marker`);
+  if (name === undefined)
+    throw new Error(`${usfmId}: USFM file carries no \\h marker`);
+  if (title === undefined)
+    throw new Error(`${usfmId}: USFM file carries no \\toc1 marker`);
+  if (chapters === 0)
+    throw new Error(`${usfmId}: USFM file carries no \\c marker`);
 
   return { _id: resolveBookId(usfmId), name, title, chapters };
 }
@@ -149,7 +153,12 @@ export function mergeBookMetadata(
       });
       continue;
     }
-    books[index] = { ...books[index], name: entry.name, title: entry.title, chapters: entry.chapters };
+    books[index] = {
+      ...books[index],
+      name: entry.name,
+      title: entry.title,
+      chapters: entry.chapters,
+    };
   }
 
   return { ...version, books };

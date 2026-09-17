@@ -65,7 +65,8 @@ describe("normalizeFractionText — the citation guard", () => {
   });
 
   it("should still convert a genuine single-digit-numerator fraction elsewhere in the same string", () => {
-    const text = "1/2 of a hin, cited in Review of Semitic Studies 24/25 (1980): 239-42.";
+    const text =
+      "1/2 of a hin, cited in Review of Semitic Studies 24/25 (1980): 239-42.";
     const { value, changes } = normalizeFractionText(text);
 
     expect(value).toBe(
@@ -87,7 +88,9 @@ describe("normalizeFractionText — idempotency", () => {
   });
 
   it("should leave text with no fraction shape at all untouched", () => {
-    const { value, changes } = normalizeFractionText("In the beginning God created the heavens.");
+    const { value, changes } = normalizeFractionText(
+      "In the beginning God created the heavens.",
+    );
 
     expect(value).toBe("In the beginning God created the heavens.");
     expect(changes).toBe(0);
@@ -138,7 +141,7 @@ describe("normalizeFractionsInContent", () => {
 
     it("should accept plain string content", () => {
       expect(
-        normalizeFractionsInContent("In the beginning God created")
+        normalizeFractionsInContent("In the beginning God created"),
       ).toEqual({
         content: "In the beginning God created",
         changed: false,
@@ -156,7 +159,7 @@ describe("normalizeFractionsInContent", () => {
   describe("recursion into every content-bearing branch", () => {
     it("should reach a fraction nested inside a heading", () => {
       expect(
-        normalizeFractionsInContent([{ heading: [{ text: "1/2 measure" }] }])
+        normalizeFractionsInContent([{ heading: [{ text: "1/2 measure" }] }]),
       ).toEqual({
         content: [{ heading: [{ text: "¹⁄₂ measure" }] }],
         changed: true,
@@ -165,7 +168,7 @@ describe("normalizeFractionsInContent", () => {
 
     it("should reach a fraction nested inside a subtitle", () => {
       expect(
-        normalizeFractionsInContent([{ subtitle: [{ text: "1/2 measure" }] }])
+        normalizeFractionsInContent([{ subtitle: [{ text: "1/2 measure" }] }]),
       ).toEqual({
         content: [{ subtitle: [{ text: "¹⁄₂ measure" }] }],
         changed: true,
@@ -176,11 +179,9 @@ describe("normalizeFractionsInContent", () => {
       expect(
         normalizeFractionsInContent([
           { content: ["a", { text: "1/2 measure" }], strong: "H3968" },
-        ])
+        ]),
       ).toEqual({
-        content: [
-          { content: ["a", { text: "¹⁄₂ measure" }], strong: "H3968" },
-        ],
+        content: [{ content: ["a", { text: "¹⁄₂ measure" }], strong: "H3968" }],
         changed: true,
       });
     });
@@ -189,7 +190,7 @@ describe("normalizeFractionsInContent", () => {
       expect(
         normalizeFractionsInContent([
           { text: "word", foot: { type: "stu", content: "a 1/2 measure" } },
-        ])
+        ]),
       ).toEqual({
         content: [
           { text: "word", foot: { type: "stu", content: "a ¹⁄₂ measure" } },
@@ -209,7 +210,7 @@ describe("normalizeFractionsInContent", () => {
               foot: { type: "xrf", content: "1/2 measure" },
             },
           },
-        })
+        }),
       ).toEqual({
         content: {
           text: "word",
@@ -231,7 +232,7 @@ describe("normalizeFractionsInContent", () => {
       expect(
         normalizeFractionsInContent([
           { bibleLink: "John 3:16", content: "1/2 way" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "John 3:16", content: "1/2 way" }],
         changed: false,
@@ -242,7 +243,7 @@ describe("normalizeFractionsInContent", () => {
   describe("multiple offending nodes", () => {
     it("should fix every offending node in a record independently when there's more than one", () => {
       expect(
-        normalizeFractionsInContent([{ text: "1/2" }, "and", { text: "3/4" }])
+        normalizeFractionsInContent([{ text: "1/2" }, "and", { text: "3/4" }]),
       ).toEqual({
         content: [{ text: "¹⁄₂" }, "and", { text: "³⁄₄" }],
         changed: true,

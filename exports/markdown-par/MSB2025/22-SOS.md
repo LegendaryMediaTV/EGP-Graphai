@@ -10,12 +10,12 @@
 <sup>3</sup> The fragrance of your perfume is pleasing;<br>your name is like perfume poured out.<br>No wonder the maidens adore you.
 
 <sup>4</sup> Take me away with you—let us hurry!<br>May the king bring me to his chambers.
+
 ### The Friends
 
-
 We will rejoice and delight in you;<br>we will praise your love more than wine.
-### The Bride
 
+### The Bride
 
 It is only right that they adore you.
 
@@ -61,7 +61,6 @@ It is only right that they adore you.
 ## Chapter 2
 
 ### The Bride’s Admiration
-
 
 ### The Bride
 
@@ -136,7 +135,6 @@ It is only right that they adore you.
 
 ### Solomon Admires His Bride
 
-
 ### The Bridegroom
 
 <sup>1</sup> How beautiful you are, my darling—<br>how very beautiful!<br>Your eyes are like doves<br>behind your veil.<br>Your hair is like a flock of goats<br>streaming down Mount Gilead.<br>
@@ -169,12 +167,11 @@ It is only right that they adore you.
 
 ### The Bride and Her Beloved
 
-
 ### The Bridegroom
 
 <sup>1</sup> I have come to my garden, my sister, my bride;<br>I have gathered my myrrh with my spice.<br>I have eaten my honeycomb with my honey;<br>I have drunk my wine with my milk.
-### The Friends
 
+### The Friends
 
 Eat, O friends, and drink;<br>drink freely, O beloved.
 
@@ -210,7 +207,6 @@ Eat, O friends, and drink;<br>drink freely, O beloved.
 
 ### Together in the Garden
 
-
 ### The Friends
 
 <sup>1</sup> Where has your beloved gone,<br>O most beautiful among women?<br>Which way has he turned?<br>We will seek him with you.
@@ -242,8 +238,8 @@ Eat, O friends, and drink;<br>drink freely, O beloved.
 ### The Friends
 
 <sup>13</sup> Come back, come back, O Shulammite!<br>Come back, come back, that we may gaze upon you.
-### The Bridegroom
 
+### The Bridegroom
 
 Why do you look at the Shulammite,<br>as on the dance of Mahanaim?<sup>b</sup>
 
@@ -264,8 +260,8 @@ Why do you look at the Shulammite,<br>as on the dance of Mahanaim?<sup>b</sup>
 <sup>7</sup> Your stature is like a palm tree;<br>your breasts are clusters of fruit.<br>
 <sup>8</sup> I said, “I will climb the palm tree;<br>I will take hold of its fruit.”<br>May your breasts be like clusters of the vine,<br>the fragrance of your breath like apples,<br>
 <sup>9</sup> and your mouth<sup>a</sup> like the finest wine.
-### The Bride
 
+### The Bride
 
 May it flow smoothly to my beloved,<br>gliding gently over lips and teeth.<sup>b</sup>
 
@@ -293,8 +289,8 @@ May it flow smoothly to my beloved,<br>gliding gently over lips and teeth.<sup>b
 ### The Friends
 
 <sup>5</sup> Who is this coming up from the wilderness,<br>leaning on her beloved?
-### The Bride
 
+### The Bride
 
 I roused you under the apple tree;<br>there your mother conceived you;<br>there she travailed and brought you forth.
 

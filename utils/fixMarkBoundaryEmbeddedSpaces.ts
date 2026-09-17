@@ -174,7 +174,8 @@ import {
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
-  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  const [smaller, larger] =
+    a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
   return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
 }
 
@@ -208,7 +209,10 @@ interface FixCounts {
 }
 
 /** True when merging `run` onto `receiverText` would create a `/\s\s/` doubled-whitespace run that wasn't already present in `receiverText` on its own. */
-function wouldDoubleWhitespace(receiverText: string, mergedText: string): boolean {
+function wouldDoubleWhitespace(
+  receiverText: string,
+  mergedText: string,
+): boolean {
   return /\s\s/.test(mergedText) && !/\s\s/.test(receiverText);
 }
 
@@ -241,12 +245,20 @@ function wouldDoubleWhitespace(receiverText: string, mergedText: string): boolea
  * before that trailing-space check runs, so it still lands on the
  * (now-shifted) marked node rather than on the space it just inserted.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: FixCounts,
+): unknown[] {
   const working: unknown[] = [...nodes];
 
   for (let i = 0; i < working.length; i++) {
     const shape = describeNode(working[i]);
-    if (shape.text === undefined || shape.text.trim() === "" || !carriesFormatting(shape)) continue;
+    if (
+      shape.text === undefined ||
+      shape.text.trim() === "" ||
+      !carriesFormatting(shape)
+    )
+      continue;
 
     if (/^\s/.test(shape.text) && !shape.opensParagraph) {
       let j = i - 1;
@@ -259,7 +271,11 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
           !agreesInFormatting(shape, predecessor) &&
           !isFormattingSubsetOf(shape, predecessor)
         ) {
-          if (predecessor.strong !== undefined || predecessor.hasFoot || carriesFormatting(predecessor)) {
+          if (
+            predecessor.strong !== undefined ||
+            predecessor.hasFoot ||
+            carriesFormatting(predecessor)
+          ) {
             // Structural fix, not a text move (top doc comment's "second
             // shape" and "both sides formatted" sections): neither home for
             // the space is legal here, so it becomes its own standalone
@@ -307,9 +323,17 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
 
     // Re-describe: the leading-space move above may have changed working[i]'s own text.
     const current = describeNode(working[i]);
-    if (current.text !== undefined && /\s$/.test(current.text) && !current.endsBreak) {
+    if (
+      current.text !== undefined &&
+      /\s$/.test(current.text) &&
+      !current.endsBreak
+    ) {
       let j = i + 1;
-      while (j < working.length && describeNode(working[j]).isTextlessStrongSibling) j++;
+      while (
+        j < working.length &&
+        describeNode(working[j]).isTextlessStrongSibling
+      )
+        j++;
       if (j < working.length) {
         const successor = describeNode(working[j]);
         if (
@@ -346,7 +370,10 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
             // belonged to it), so the run and `foot` become a brand-new,
             // unformatted node instead, spliced in between the two; the
             // successor's own text is never touched.
-            const { foot, ...withoutFoot } = working[i] as Record<string, unknown>;
+            const { foot, ...withoutFoot } = working[i] as Record<
+              string,
+              unknown
+            >;
             working[i] = withText(withoutFoot, rest);
             working.splice(i + 1, 0, { text: run, foot });
             counts.fixed++;
@@ -383,12 +410,20 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
  * passes through unchanged.
  */
 function rewriteNode(node: unknown, counts: FixCounts): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content, counts);
   }
 
@@ -434,9 +469,11 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
  *   fixed), whether anything changed, and every finding this run declined to
  *   act on, with its own {@link SkipReason}
  */
-export function relocateMarkBoundarySpacesInContent(
-  content: Content,
-): { content: Content; changed: boolean; skipped: SkipReason[] } {
+export function relocateMarkBoundarySpacesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+  skipped: SkipReason[];
+} {
   const counts: FixCounts = { fixed: 0, skipped: [] };
   const rewritten = rewriteLevel(content, counts) as Content;
   return counts.fixed > 0

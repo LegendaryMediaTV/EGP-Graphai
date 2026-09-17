@@ -76,7 +76,10 @@ interface VersionBookFile {
  *   empty list rather than an error, the same "nothing to do" shape an empty
  *   version directory already produces.
  */
-function readBookFiles(versionDir: string, bookId?: string): readonly VersionBookFile[] {
+function readBookFiles(
+  versionDir: string,
+  bookId?: string,
+): readonly VersionBookFile[] {
   const files = fs
     .readdirSync(versionDir)
     .filter((file) => file.endsWith(".json") && file !== "_version.json")
@@ -128,7 +131,10 @@ function collectBibleLinks(content: unknown, out: FoundReference[]): void {
   const node = content as Record<string, unknown>;
   if (typeof node.bibleLink === "string") {
     const link = node as unknown as ContentBibleLink;
-    out.push({ raw: typeof link.content === "string" ? link.content : link.bibleLink, target: link.bibleLink });
+    out.push({
+      raw: typeof link.content === "string" ? link.content : link.bibleLink,
+      target: link.bibleLink,
+    });
     return;
   }
   if ("content" in node) collectBibleLinks(node.content, out);
@@ -157,7 +163,10 @@ function collectBibleLinks(content: unknown, out: FoundReference[]): void {
  * is left over once each `before` entry cancels one matching `after` entry
  * is exactly what this pass added.
  */
-function findNewlyLinkedReferences(content: Content): { content: Content; found: readonly FoundReference[] } {
+function findNewlyLinkedReferences(content: Content): {
+  content: Content;
+  found: readonly FoundReference[];
+} {
   const before: FoundReference[] = [];
   collectBibleLinks(content, before);
 
@@ -204,22 +213,34 @@ function reviseEmbeddedReferencesIn(
   location: { book: string; chapter: number; verse: number },
 ): void {
   if (Array.isArray(content)) {
-    for (const item of content) reviseEmbeddedReferencesIn(item, changes, location);
+    for (const item of content)
+      reviseEmbeddedReferencesIn(item, changes, location);
     return;
   }
   if (content === null || typeof content !== "object") return;
 
-  const node = content as { foot?: Footnote; content?: unknown; subtitle?: unknown; heading?: unknown };
+  const node = content as {
+    foot?: Footnote;
+    content?: unknown;
+    subtitle?: unknown;
+    heading?: unknown;
+  };
   if (node.foot && node.foot.type !== "xrf") {
-    const { content: rewritten, found } = findNewlyLinkedReferences(node.foot.content);
+    const { content: rewritten, found } = findNewlyLinkedReferences(
+      node.foot.content,
+    );
     if (found.length > 0) {
-      for (const reference of found) changes.push({ ...location, ...reference });
+      for (const reference of found)
+        changes.push({ ...location, ...reference });
       node.foot = { ...node.foot, content: rewritten };
     }
   }
-  if ("content" in node) reviseEmbeddedReferencesIn(node.content, changes, location);
-  if ("subtitle" in node) reviseEmbeddedReferencesIn(node.subtitle, changes, location);
-  if ("heading" in node) reviseEmbeddedReferencesIn(node.heading, changes, location);
+  if ("content" in node)
+    reviseEmbeddedReferencesIn(node.content, changes, location);
+  if ("subtitle" in node)
+    reviseEmbeddedReferencesIn(node.subtitle, changes, location);
+  if ("heading" in node)
+    reviseEmbeddedReferencesIn(node.heading, changes, location);
 }
 
 /** Options shared by {@link computeReferenceOverhaul} and {@link applyReferenceOverhaul}. */
@@ -250,7 +271,11 @@ export function computeReferenceOverhaul(
   for (const bookFile of readBookFiles(versionDir, book)) {
     const changesBefore = changes.length;
     for (const record of bookFile.records) {
-      reviseEmbeddedReferencesIn(record.content, changes, { book: record.book, chapter: record.chapter, verse: record.verse });
+      reviseEmbeddedReferencesIn(record.content, changes, {
+        book: record.book,
+        chapter: record.chapter,
+        verse: record.verse,
+      });
     }
     if (changes.length > changesBefore) changedBooks.push(bookFile);
   }
@@ -289,9 +314,17 @@ function formatChange(change: ReferenceChange): string {
  * report the identical shape, matching `overhaulFootnotes.ts`'s own
  * `printReport`.
  */
-function printReport(versionId: string, result: ReferenceOverhaulResult, applied: boolean): void {
+function printReport(
+  versionId: string,
+  result: ReferenceOverhaulResult,
+  applied: boolean,
+): void {
   if (result.changes.length === 0) {
-    console.log(applied ? `${versionId}: no embedded reference needed linking.` : `${versionId}: no embedded references found.`);
+    console.log(
+      applied
+        ? `${versionId}: no embedded reference needed linking.`
+        : `${versionId}: no embedded references found.`,
+    );
     return;
   }
   const verb = applied ? "linked and written" : "found";
@@ -318,7 +351,9 @@ interface ParsedOverhaulArgs {
  * `main()` so the guard is directly testable without mocking
  * `process.exit`, matching `overhaulFootnotes.ts`'s own `parseOverhaulArgs`.
  */
-export function parseOverhaulArgs(args: readonly string[]): ParsedOverhaulArgs | null {
+export function parseOverhaulArgs(
+  args: readonly string[],
+): ParsedOverhaulArgs | null {
   const fix = args.includes("--fix");
   const positional = args.filter((arg) => arg !== "--fix");
   const [versionArg, bookArg] = positional;
@@ -333,15 +368,21 @@ export function parseOverhaulArgs(args: readonly string[]): ParsedOverhaulArgs |
  * against, reproduced here rather than shared since that function isn't
  * exported and this list is too small to warrant becoming one.
  */
-const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> = [["--fix", "npm_config_fix"]];
+const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> =
+  [["--fix", "npm_config_fix"]];
 
 /**
  * Which of this tool's flags npm ate rather than passed along — see
  * `overhaulFootnotes.ts`'s own `findSwallowedFlags` header comment for why
  * this check exists and what it costs (nothing).
  */
-export function findSwallowedFlags(args: readonly string[], env: NodeJS.ProcessEnv): string[] {
-  return FLAG_ENV_NAMES.filter(([flag, envName]) => env[envName] !== undefined && !args.includes(flag)).map(([flag]) => flag);
+export function findSwallowedFlags(
+  args: readonly string[],
+  env: NodeJS.ProcessEnv,
+): string[] {
+  return FLAG_ENV_NAMES.filter(
+    ([flag, envName]) => env[envName] !== undefined && !args.includes(flag),
+  ).map(([flag]) => flag);
 }
 
 /**
@@ -374,11 +415,19 @@ async function main(): Promise<void> {
   const versionDir = path.join(BIBLE_VERSIONS_DIR, versionArg);
 
   if (!fix) {
-    printReport(versionArg, computeReferenceOverhaul(versionDir, { book: bookArg }), false);
+    printReport(
+      versionArg,
+      computeReferenceOverhaul(versionDir, { book: bookArg }),
+      false,
+    );
     return;
   }
 
-  printReport(versionArg, await applyReferenceOverhaul(versionDir, { book: bookArg }), true);
+  printReport(
+    versionArg,
+    await applyReferenceOverhaul(versionDir, { book: bookArg }),
+    true,
+  );
 }
 
 if (require.main === module) {

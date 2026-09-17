@@ -213,7 +213,7 @@
 <sup>22</sup> kaì eis tḕn gē̂n kátō emblépsontai, kaì idoù thlîpsis kaì stenochōría kaì skótos, aporía stenḕ kaì skótos hṓste mḕ blépein,
 <sup>23</sup> kaì ouk aporēthḗsetai ho en stenochōría ṑn héōs kairoû.
 
- Toûto prō̂ton poíei, tachỳ poíei, chṓra Zaboulōn, hē gē̂ Nephthalim hodòn thalássēs kaì hoi loipoì hoi tḕn paralían katoikoûntes kaì péran toû Iordánou, Galilaía tō̂n ethnō̂n, tà mérē tē̂s Ioudaías.
+Toûto prō̂ton poíei, tachỳ poíei, chṓra Zaboulōn, hē gē̂ Nephthalim hodòn thalássēs kaì hoi loipoì hoi tḕn paralían katoikoûntes kaì péran toû Iordánou, Galilaía tō̂n ethnō̂n, tà mérē tē̂s Ioudaías.
 
 ## Chapter 9
 
@@ -379,7 +379,7 @@
 
 <sup>1</sup> Tò rhē̂ma tò katà tē̂s Mōabítidos.
 
- Nyktòs apoleîtai hē Mōabîtis, nyktòs gàr apoleîtai tò teîchos tē̂s Mōabítidos.
+Nyktòs apoleîtai hē Mōabîtis, nyktòs gàr apoleîtai tò teîchos tē̂s Mōabítidos.
 <sup>2</sup> Lypeîsthe eph’ heautoîs, apoleîtai gàr kaì Dēbōn; hoû ho bōmòs hymō̂n, ekeî anabḗsesthe klaíein; epì Nabau tē̂s Mōabítidos ololýzete epì pásēs kephalē̂s phalákrōma, pántes brachíones katatetmēménoi;
 <sup>3</sup> en taîs plateíais autē̂s perizṓsasthe sákkous kaì kóptesthe, epì tō̂n dōmátōn autē̂s kaì en taîs rhýmais autē̂s pántes ololýzete metà klauthmoû.
 <sup>4</sup> Hóti kékragen Esebōn kaì Elealē, héōs Iassa ēkoústhē hē phōnḕ autō̂n; dià toûto hē osphỳs tē̂s Mōabítidos boâ, hē psychḕ autē̂s gnṓsetai.
@@ -412,7 +412,7 @@
 
 <sup>1</sup> Tò rhē̂ma tò katà Damaskoû.
 
- Idoù Damaskòs arthḗsetai apò póleōn kaì éstai eis ptō̂sin,
+Idoù Damaskòs arthḗsetai apò póleōn kaì éstai eis ptō̂sin,
 <sup>2</sup> kataleleimménē eis tòn aiō̂na, eis koítēn poimníōn kaì anápausin, kaì ouk éstai ho diṓkōn.
 <sup>3</sup> Kaì oukéti éstai ochyrà toû kataphygeîn Ephraim, kaì oukéti éstai basileía en Damaskō̂, kaì tò loipòn tō̂n Sýrōn apoleîtai; ou gàr sỳ beltíōn eî tō̂n hyiō̂n Israēl kaì tē̂s dóxēs autō̂n; táde légei kýrios sabaōth.
 
@@ -443,7 +443,7 @@
 
 <sup>1</sup> Hórasis Aigýptou.
 
- Idoù kýrios káthētai epì nephélēs koúphēs kaì hḗxei eis Aígypton, kaì seisthḗsetai tà cheiropoíēta Aigýptou apò prosṓpou autoû, kaì hē kardía autō̂n hēttēthḗsetai en autoîs.
+Idoù kýrios káthētai epì nephélēs koúphēs kaì hḗxei eis Aígypton, kaì seisthḗsetai tà cheiropoíēta Aigýptou apò prosṓpou autoû, kaì hē kardía autō̂n hēttēthḗsetai en autoîs.
 <sup>2</sup> Kaì epegerthḗsontai Aigýptioi ep’ Aigyptíous, kaì polemḗsei ánthrōpos tòn adelphòn autoû kaì ánthrōpos tòn plēsíon autoû, pólis epì pólin kaì nomòs epì nomón.
 <sup>3</sup> Kaì tarachthḗsetai tò pneûma tō̂n Aigyptíōn en autoîs, kaì tḕn boulḕn autō̂n diaskedásō, kaì eperōtḗsousin toùs theoùs autō̂n kaì tà agálmata autō̂n kaì toùs ek tē̂s gē̂s phōnoûntas kaì toùs engastrimýthous.
 <sup>4</sup> Kaì paradṓsō Aígypton eis cheîras anthrṓpōn kyríōn sklērō̂n, kaì basileîs sklēroì kyrieúsousin autō̂n; táde légei kýrios sabaōth.
@@ -483,7 +483,7 @@
 
 <sup>1</sup> Tò hórama tē̂s erḗmou.
 
- Hōs kataigìs di’ erḗmou diélthoi ex erḗmou erchoménē ek gē̂s, phoberòn
+Hōs kataigìs di’ erḗmou diélthoi ex erḗmou erchoménē ek gē̂s, phoberòn
 <sup>2</sup> tò hórama kaì sklēròn anēngélē moi. Ho athetō̂n atheteî, ho anomō̂n anomeî. Ep’ emoì hoi Ailamîtai, kaì hoi présbeis tō̂n Persō̂n ep’ emè érchontai. Nŷn stenáxō kaì parakalésō emautón.
 <sup>3</sup> Dià toûto eneplḗsthē hē osphýs mou eklýseōs, kaì ōdînes élabón me hōs tḕn tíktousan; ēdíkēsa tò mḕ akoûsai, espoúdasa tò mḕ blépein.
 <sup>4</sup> Hē kardía mou planâtai, kaì hē anomía me baptízei, hē psychḗ mou ephéstēken eis phóbon.
@@ -496,7 +496,7 @@
 
 <sup>11</sup> Tò hórama tē̂s Idoumaías.
 
- Pròs emè kaleî parà toû Sēir Phylássete epálxeis.
+Pròs emè kaleî parà toû Sēir Phylássete epálxeis.
 <sup>12</sup> Phylássō tò prōï̀ kaì tḕn nýkta; eàn zētē̂s, zḗtei kaì par’ emoì oíkei;
 <sup>13</sup> en tō̂ drymō̂ hespéras koimēthḗsē en tē̂ hodō̂ Daidan.
 <sup>14</sup> Eis synántēsin dipsō̂nti hýdōr phérete, hoi enoikoûntes en chṓra Thaiman, ártois synantâte toîs pheúgousin
@@ -508,7 +508,7 @@
 
 <sup>1</sup> Tò rhē̂ma tē̂s phárangos Siōn.
 
- Tí egénetó soi nŷn, hóti anébēte pántes eis dṓmata
+Tí egénetó soi nŷn, hóti anébēte pántes eis dṓmata
 <sup>2</sup> mátaia? Eneplḗsthē hē pólis boṓntōn; hoi traumatíai sou ou traumatíai machaíras, oudè hoi nekroí sou nekroì polémou.
 <sup>3</sup> Pántes hoi árchontés sou pepheúgasin, kaì hoi halóntes sklērō̂s dedeménoi eisín, kaì hoi ischýontes en soì pórrō pepheúgasin.
 <sup>4</sup> Dià toûto eîpa Ápheté me pikrō̂s klaúsomai, mḕ katischýsēte parakaleîn me epì tò sýntrimma tē̂s thygatròs toû génous mou.
@@ -540,7 +540,7 @@
 
 <sup>1</sup> Tò hórama Týrou.
 
- Ololýzete, ploîa Karchēdónos, hóti apṓleto, kaì oukéti érchontai ek gē̂s Kitiaíōn; ē̂ktai aichmálōtos.
+Ololýzete, ploîa Karchēdónos, hóti apṓleto, kaì oukéti érchontai ek gē̂s Kitiaíōn; ē̂ktai aichmálōtos.
 <sup>2</sup> Tíni hómoioi gegónasin hoi enoikoûntes en tē̂ nḗsō metabóloi Phoiníkēs diaperō̂ntes tḕn thálassan
 <sup>3</sup> en hýdati pollō̂, spérma metabólōn? Hōs amētoû eispheroménou hoi metabóloi tō̂n ethnō̂n.
 <sup>4</sup> Aischýnthēti, Sidṓn, eîpen hē thálassa; hē dè ischỳs tē̂s thalássēs eîpen Ouk ṓdinon oudè étekon oudè exéthrepsa neanískous oudè hýpsōsa parthénous.
@@ -713,7 +713,7 @@
 
 <sup>6</sup> Hē hórasis tō̂n tetrapódōn tō̂n en tē̂ erḗmō.
 
- En tē̂ thlípsei kaì tē̂ stenochōría, léōn kaì skýmnos léontos ekeîthen kaì aspídes kaì ékgona aspídōn petoménōn, hoì épheron ep’ ónōn kaì kamḗlōn tòn ploûton autō̂n pròs éthnos hò ouk ōphelḗsei autoùs eis boḗtheian, allà eis aischýnēn kaì óneidos.
+En tē̂ thlípsei kaì tē̂ stenochōría, léōn kaì skýmnos léontos ekeîthen kaì aspídes kaì ékgona aspídōn petoménōn, hoì épheron ep’ ónōn kaì kamḗlōn tòn ploûton autō̂n pròs éthnos hò ouk ōphelḗsei autoùs eis boḗtheian, allà eis aischýnēn kaì óneidos.
 
 <sup>7</sup> Aigýptioi mátaia kaì kenà ōphelḗsousin hymâs; apángeilon autoîs hóti Mataía hē paráklēsis hymō̂n haútē.
 
@@ -759,7 +759,7 @@
 <sup>8</sup> Kaì peseîtai Assour; ou máchaira andròs oudè máchaira anthrṓpou kataphágetai autón, kaì pheúxetai ouk apò prosṓpou machaíras; hoi dè neanískoi ésontai eis hḗttēma,
 <sup>9</sup> pétra gàr perilēmphthḗsontai hōs cháraki kaì hēttēthḗsontai, ho dè pheúgōn halṓsetai.
 
- Táde légei kýrios Makários hòs échei en Siōn spérma kaì oikeíous en Ierousalēm.
+Táde légei kýrios Makários hòs échei en Siōn spérma kaì oikeíous en Ierousalēm.
 
 ## Chapter 32
 
@@ -968,7 +968,7 @@
 <sup>5</sup> kaì ophthḗsetai hē dóxa kyríou, kaì ópsetai pâsa sàrx tò sōtḗrion toû theoû; hóti kýrios elálēsen.
 <sup>6</sup> Phōnḕ légontos Bóēson; kaì eîpa Tí boḗsō?
 
- Pâsa sàrx chórtos, kaì pâsa dóxa anthrṓpou hōs ánthos chórtou;
+Pâsa sàrx chórtos, kaì pâsa dóxa anthrṓpou hōs ánthos chórtou;
 <sup>7</sup> exēránthē ho chórtos, kaì tò ánthos exépesen,
 <sup>8</sup> tò dè rhē̂ma toû theoû hēmō̂n ménei eis tòn aiō̂na.
 <sup>9</sup> Ep’ óros hypsēlòn anábēthi, ho euangelizómenos Siōn; hýpsōson tē̂ ischýi tḕn phōnḗn sou, ho euangelizómenos Ierousalēm; hypsṓsate, mḕ phobeîsthe; eipòn taîs pólesin Iouda Idoù ho theòs hymō̂n.

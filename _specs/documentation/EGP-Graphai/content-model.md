@@ -14,29 +14,29 @@ The trade-off: every consumer must dispatch on the shape of each node and recurs
 
 A `Content` value is always one of these:
 
-| Shape          | Looks like                                  | Used for                                                  |
-| -------------- | ------------------------------------------- | --------------------------------------------------------- |
-| String         | `"In the beginning"`                        | Connector text with no annotations                        |
-| Text object    | `{ text, strong, morph, marks, ... }`       | An annotated word or run of words                         |
-| Nested wrapper | `{ content: ..., strong, morph, ... }`      | Shared annotation that spans multiple children            |
-| Heading        | `{ heading: ... }`                          | Section title between verses                              |
-| Subtitle       | `{ subtitle: ... }`                         | Psalm superscriptions, ascription lines                   |
-| Paragraph wrap | `{ paragraph: <Content> }`                  | Explicit paragraph grouping (rare, usually a flag)       |
-| Bible link     | `{ bibleLink: "Hebrews 11:3", content? }`   | Cross-reference target, with optional display override    |
-| Abbreviation   | `{ abbr: "NA27" }`                          | Reference to the version's abbreviation registry         |
-| Array          | `[ ...Content ]`                            | Sequence of any of the above                              |
+| Shape          | Looks like                                | Used for                                               |
+| -------------- | ----------------------------------------- | ------------------------------------------------------ |
+| String         | `"In the beginning"`                      | Connector text with no annotations                     |
+| Text object    | `{ text, strong, morph, marks, ... }`     | An annotated word or run of words                      |
+| Nested wrapper | `{ content: ..., strong, morph, ... }`    | Shared annotation that spans multiple children         |
+| Heading        | `{ heading: ... }`                        | Section title between verses                           |
+| Subtitle       | `{ subtitle: ... }`                       | Psalm superscriptions, ascription lines                |
+| Paragraph wrap | `{ paragraph: <Content> }`                | Explicit paragraph grouping (rare, usually a flag)     |
+| Bible link     | `{ bibleLink: "Hebrews 11:3", content? }` | Cross-reference target, with optional display override |
+| Abbreviation   | `{ abbr: "NA27" }`                        | Reference to the version's abbreviation registry       |
+| Array          | `[ ...Content ]`                          | Sequence of any of the above                           |
 
 Most verses are an array of text objects with interspersed strings. The other shapes appear where they're needed.
 
 ### Discrimination order
 
-Several shapes share property names (notably `content`). Consumers must check the shapes in the right order, or a `bibleLink` with an optional `content` override would be misread as a nested wrapper. The current dispatch order checks `heading`, `subtitle`, and `bibleLink` *before* falling through to the generic `content`-bearing wrapper. That order is used in [utils/exportContent.ts](../../../utils/exportContent.ts) and mirrored in [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js). If you add a new shape, place its check ahead of the generic wrapper if its objects also carry a `content` property.
+Several shapes share property names (notably `content`). Consumers must check the shapes in the right order, or a `bibleLink` with an optional `content` override would be misread as a nested wrapper. The current dispatch order checks `heading`, `subtitle`, and `bibleLink` _before_ falling through to the generic `content`-bearing wrapper. That order is used in [utils/exportContent.ts](../../../utils/exportContent.ts) and mirrored in [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js). If you add a new shape, place its check ahead of the generic wrapper if its objects also carry a `content` property.
 
 ## Why these particular shapes
 
 Each shape exists because flat alternatives were tried and found wanting.
 
-**Text object vs. nested wrapper.** A text object pins annotations to one piece of text. A nested wrapper pins them to a *group* of children. Greek lemmas often correspond to multi-word English renderings ("The book" in Matthew 1:1 is one Greek `βίβλος`). Without the wrapper, you'd duplicate `strong` across each word and lose the grouping.
+**Text object vs. nested wrapper.** A text object pins annotations to one piece of text. A nested wrapper pins them to a _group_ of children. Greek lemmas often correspond to multi-word English renderings ("The book" in Matthew 1:1 is one Greek `βίβλος`). Without the wrapper, you'd duplicate `strong` across each word and lose the grouping.
 
 **Heading vs. subtitle.** Headings are editorial section breaks ("The Sermon on the Mount"). Subtitles are inscriptions baked into the text itself ("A Psalm of David"). They render differently and toggle independently in the reader. A user might want one but not the other.
 
@@ -74,6 +74,8 @@ A `strong` is resolved from that lemma for a node carrying no number of its own 
 
 A text object carrying `script` also carries `transliteration`: its own `text` romanized by the table the lexical map's language registry declares for that script. `npm run validate` writes it on every run, and the nested wrapper has none — it has no `text` of its own, so there would be nothing to check the value against.
 
+**Wherever content lives, not only in verses.** A version's own `_version.json` holds content too — the version `name` and `copyright`, each abbreviation's `name` and `description`, and each book's `name` and `title` — and those fields are under the same invariant on the same run. They were not, for as long as every content step was gated on a file being a verse file, which is why a Greek book name printed in Greek and nothing else. The field list is written out rather than walked for: `_version.json` has a closed schema, so the fields holding content are known, and `_id`, `license` and `morphology` are strings that are not content and must never grow the key.
+
 The point of storing it is that a consumer can print a transliterated edition without implementing the scheme, and the field is shaped so that printing one is a substitution and nothing else:
 
 - **Word boundaries, capitalization and whitespace are the text's own.** Each word is romanized by itself and everything between and around the words carries through, so `{ text: " χριστοῦ," }` stores `" christoû,"`, leading space and trailing comma intact.
@@ -84,7 +86,7 @@ The point of storing it is that a consumer can print a transliterated edition wi
 
 That equality is both the marking and the way validate recognizes it: a stored value that already equals the node's `text` is held rather than recomputed. Nothing new goes in the schema, and there is no list of exempt references to keep in step with the text. The cost is that a value set equal to its text by mistake is preserved just as faithfully, so the lexical-enrichment audit counts these per version — three in BYZ2026, one in LXX1935 — and a wrong one shows up there as a number that moved. The count is of nodes where holding and recomputing give different answers; a text the table reproduces unchanged, such as a lone stigma, is equal either way and is not counted.
 
-A consumer still needs `node.transliteration ?? node.text`. A bare string in a content array carries no keys, and neither a Latin node nor an `abbr` name has a transliteration to offer.
+A consumer still needs `node.transliteration ?? node.text`. A bare string in a content array carries no keys, and neither a Latin node nor an `{ abbr }` reference has a transliteration to offer — the reference carries only an id, and what it stands for is the registry entry's own `name` and `description`, which carry the field on the same terms as any other content.
 
 `npm run export` is that consumer, and the worked example of what the field buys: it writes `exports/markdown-par/<VERSION>-Transliterated/` for every version declaring a `script`, using the same renderer with one option changed. See [The transliterated markdown](data-pipeline.md#the-transliterated-markdown).
 
@@ -94,12 +96,12 @@ Two things the field is deliberately not. It is **not** looked up in the codex, 
 
 A `marks` array carries presentation choices:
 
-| Mark  | Meaning                                                       |
-| ----- | ------------------------------------------------------------- |
-| `i`   | Italic: supplied words, emphasis                             |
-| `b`   | Bold: strong emphasis                                        |
-| `woc` | Words of Christ: rendered in the user's chosen accent color  |
-| `sc`  | Small caps: divine names (LORD, GOD) in OT translations      |
+| Mark  | Meaning                                                                                          |
+| ----- | ------------------------------------------------------------------------------------------------ |
+| `i`   | Italic: supplied words, emphasis                                                                 |
+| `b`   | Bold: strong emphasis                                                                            |
+| `woc` | Words of Christ: rendered in the user's chosen accent color                                      |
+| `sc`  | Small caps: divine names (LORD, GOD) in OT translations                                          |
 | `sup` | Superscript: edition numbers (NA27), manuscript corrector and legibility modifiers (D2, 1143vid) |
 
 Marks are validated against a fixed enum; arrays are sorted alphabetically during canonical key ordering so diffs stay stable across edits.
@@ -108,13 +110,13 @@ Marks are validated against a fixed enum; arrays are sorted alphabetically durin
 
 A footnote attaches to a text object or nested wrapper via the `foot` property. It carries a `type` (study, translation, variant, map, cross-reference) and its own `content`, which is, recursively, the same shape as the verse content itself. That means footnotes can contain Bible links, emphasized text, even mini paragraphs.
 
-| Type  | Purpose                                                         |
-| ----- | --------------------------------------------------------------- |
-| `stu` | Study note (default): editorial commentary                     |
-| `trn` | Translation note: alternate renderings                         |
-| `var` | Textual variant: manuscript differences                        |
-| `map` | Map reference: geographical pointer                            |
-| `xrf` | Cross-reference: other Scripture                               |
+| Type  | Purpose                                    |
+| ----- | ------------------------------------------ |
+| `stu` | Study note (default): editorial commentary |
+| `trn` | Translation note: alternate renderings     |
+| `var` | Textual variant: manuscript differences    |
+| `map` | Map reference: geographical pointer        |
+| `xrf` | Cross-reference: other Scripture           |
 
 In markdown exports, footnotes are collected per chapter and listed as a footnote block (lettered a–z, cycling). In the web reader, they open in a modal. The text exporter inlines them with a `°{...}` marker so they can be search-and-replaced cleanly.
 
@@ -133,12 +135,12 @@ If you're extending the content model with a new variant, all of the following m
 3. Add the key (if it's a discriminator like `bibleLink`) to the canonical order in [functions/sortContentKeys.ts](../../../functions/sortContentKeys.ts), placed where it makes semantic sense
 4. Add a dispatch case in [utils/exportContent.ts](../../../utils/exportContent.ts), before the generic nested-content branch if your shape also carries a `content` property
 5. Add a dispatch case in [web/public/js/ContentNode.js](../../../web/public/js/ContentNode.js) with the same ordering rule
-6. Add tests in [functions/__tests__/sortContentKeys.test.ts](../../../functions/__tests__/sortContentKeys.test.ts) and [utils/__tests__/exportContent.test.ts](../../../utils/__tests__/exportContent.test.ts)
+6. Add tests in [functions/**tests**/sortContentKeys.test.ts](../../../functions/__tests__/sortContentKeys.test.ts) and [utils/**tests**/exportContent.test.ts](../../../utils/__tests__/exportContent.test.ts)
 
 Forgetting any one of these produces silently-broken output: validation passes but the variant doesn't render, or renders in the wrong slot. The recurring lesson is that all five surfaces must agree: schema, types, sorter, exporter, reader.
 
-Two more surfaces matter if your shape is a *leaf* that renders text of its own, the way `abbr` and `bibleLink` do. `describeNode` in [utils/auditNodes.ts](../../../utils/auditNodes.ts) and `isBoundary` in [functions/tagScriptRunsInContent.ts](../../../functions/tagScriptRunsInContent.ts) both classify siblings in an array to decide what may merge or split. A leaf that neither one recognizes looks like a text node with no text, so the merge and script-tagging passes draw conclusions about its neighbors that its rendered output contradicts. Add it to both boundary checks.
+Two more surfaces matter if your shape is a _leaf_ that renders text of its own, the way `abbr` and `bibleLink` do. `describeNode` in [utils/auditNodes.ts](../../../utils/auditNodes.ts) and `isBoundary` in [functions/tagScriptRunsInContent.ts](../../../functions/tagScriptRunsInContent.ts) both classify siblings in an array to decide what may merge or split. A leaf that neither one recognizes looks like a text node with no text, so the merge and script-tagging passes draw conclusions about its neighbors that its rendered output contradicts. Add it to both boundary checks.
 
-The exporter needs one more thing from a new *mark*. Its array branch shares emphasis delimiters across adjacent siblings carrying the same marks, and it builds each node's `core` in `renderTextObjectParts` and `renderNestedContentParts`, never through `wrapEmphasisMarks`. A mark applied anywhere but where the core is built works on a lone node and vanishes inside an array. That is where `sup` is applied.
+The exporter needs one more thing from a new _mark_. Its array branch shares emphasis delimiters across adjacent siblings carrying the same marks, and it builds each node's `core` in `renderTextObjectParts` and `renderNestedContentParts`, never through `wrapEmphasisMarks`. A mark applied anywhere but where the core is built works on a lone node and vanishes inside an array. That is where `sup` is applied.
 
 A leaf can still take part in that emphasis run when the marks it renders with come from somewhere else. Both `abbr` and `bibleLink` do, one from its registry entry's `name` and the other from its display override, and each has a resolver naming the one shape allowed in: a single object carrying marks, never an array. Keep any future case that narrow. An array can change marks between its elements, leaving the run no single state to carry forward.

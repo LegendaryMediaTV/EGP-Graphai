@@ -82,7 +82,6 @@ which being interpreted is, God with us.
 
 ### His Baptism and Temptation
 
-
 ### John the Baptist
 
 <sup>1</sup> In those days came John the Baptist, preaching in the wilderness of Judæa,
@@ -323,9 +322,10 @@ which being interpreted is, God with us.
 <sup>4</sup> And Jesus saith unto him, See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them.
 
 ### Marvellous Deeds
-<sup>5</sup> 
-### Power Over Disease
 
+<sup>5</sup>
+
+### Power Over Disease
 
 And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,
 <sup>6</sup> and saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.
@@ -1041,7 +1041,6 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 ## Chapter 21
 
 ### In Jerusalem
-
 
 ### Triumphal Entry
 

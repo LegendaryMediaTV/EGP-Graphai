@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { CorpusToken, declaredScheme } from "../corpusTokens";
-import { agreementInSequence, formatAgreementFinding } from "../corpusAgreement";
+import {
+  agreementInSequence,
+  formatAgreementFinding,
+} from "../corpusAgreement";
 import { decodeMorph } from "../morphology";
 import { spellingsOf } from "../punctuation";
 
@@ -41,7 +44,17 @@ const OIKIAS = greek(0x3bf, 0x1f30, 0x3ba, 0x3af, 0x3b1, 0x3c2);
 /** `ὄρη`, the accusative subject inside PSA 89:2's articular infinitive. */
 const ORE = greek(0x1f44, 0x3c1, 0x3b7);
 /** `γενηθῆναι`, the infinitive that article belongs to. */
-const GENETHENAI = greek(0x3b3, 0x3b5, 0x3bd, 0x3b7, 0x3b8, 0x1fc6, 0x3bd, 0x3b1, 0x3b9);
+const GENETHENAI = greek(
+  0x3b3,
+  0x3b5,
+  0x3bd,
+  0x3b7,
+  0x3b8,
+  0x1fc6,
+  0x3bd,
+  0x3b1,
+  0x3b9,
+);
 /** `μικρῷ`, the dative inside 2MC 9:10's accusative phrase. */
 const MIKROI = greek(0x3bc, 0x3b9, 0x3ba, 0x3c1, 0x1ff7);
 
@@ -51,7 +64,10 @@ const scheme = declaredScheme("LXX1935")!.scheme;
 const token = (text: string, ...morphs: string[]): CorpusToken => ({
   text,
   spellings: spellingsOf(text).filter(Boolean),
-  readings: morphs.map((morph) => ({ morph, parse: decodeMorph(morph, scheme) })),
+  readings: morphs.map((morph) => ({
+    morph,
+    parse: decodeMorph(morph, scheme),
+  })),
 });
 
 describe("agreementInSequence, article against its noun", () => {
@@ -73,7 +89,10 @@ describe("agreementInSequence, article against its noun", () => {
   });
 
   it("should leave an agreeing pair alone", () => {
-    expect(agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-NSN")]).issues).toEqual([]);
+    expect(
+      agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-NSN")])
+        .issues,
+    ).toEqual([]);
   });
 
   it("should count but never report a pair the codex cannot reconcile", () => {
@@ -108,19 +127,28 @@ describe("agreementInSequence, article against its noun", () => {
   it("should take agreement on any parse of a twice-parsed word", () => {
     // JAS 4:5's own shape: `τὸ` is printed once and parsed T-NSN and T-ASN.
     expect(
-      agreementInSequence([token(TO, "T-NSN", "T-ASN"), token(` ${PNEUMA}`, "N-ASN")]).issues
+      agreementInSequence([
+        token(TO, "T-NSN", "T-ASN"),
+        token(` ${PNEUMA}`, "N-ASN"),
+      ]).issues,
     ).toEqual([]);
   });
 
   it("should not pair an article with a noun that is not next to it", () => {
     expect(
-      agreementInSequence([token(TO, "T-NSN"), token(` ${KAI}`, "CONJ"), token(` ${PNEUMA}`, "N-ASN")])
-        .pairs
+      agreementInSequence([
+        token(TO, "T-NSN"),
+        token(` ${KAI}`, "CONJ"),
+        token(` ${PNEUMA}`, "N-ASN"),
+      ]).pairs,
     ).toBe(0);
   });
 
   it("should not pair an article with an indeclinable noun, which has no case marking", () => {
-    expect(agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-PRI")]).pairs).toBe(0);
+    expect(
+      agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-PRI")])
+        .pairs,
+    ).toBe(0);
   });
 
   it("should not pair an article with a dependent genitive standing in front of its own noun", () => {
@@ -132,7 +160,7 @@ describe("agreementInSequence, article against its noun", () => {
         token(TES, "T-GSF"),
         token(` ${KAISAROS}`, "N-GSM"),
         token(` ${OIKIAS}`, "N-GSF"),
-      ]).pairs
+      ]).pairs,
     ).toBe(0);
   });
 
@@ -145,7 +173,7 @@ describe("agreementInSequence, article against its noun", () => {
         token(TOU, "T-GSN"),
         token(` ${ORE}`, "N-APN"),
         token(` ${GENETHENAI}`, "V-AON"),
-      ]).pairs
+      ]).pairs,
     ).toBe(0);
   });
 
@@ -188,7 +216,7 @@ describe("agreementInSequence, the adjective between an article and its noun", (
         token(TA, "T-APN"),
         token(` ${MIKRA}`, "A-NSF"),
         token(` ${PNEUMA}`, "N-NSN"),
-      ]).issues
+      ]).issues,
     ).toEqual([]);
   });
 
@@ -196,9 +224,12 @@ describe("agreementInSequence, the adjective between an article and its noun", (
     // Bare adjective/noun neighbours disagree far too often to be corpus rot,
     // and the disagreements are Greek: adjectives go substantival,
     // predicative, comparative with a genitive of comparison.
-    expect(agreementInSequence([token(MIKRA, "A-NSF"), token(` ${BOTRYDIA}`, "N-APN")]).issues).toEqual(
-      []
-    );
+    expect(
+      agreementInSequence([
+        token(MIKRA, "A-NSF"),
+        token(` ${BOTRYDIA}`, "N-APN"),
+      ]).issues,
+    ).toEqual([]);
   });
 });
 
@@ -206,7 +237,10 @@ describe("agreementInSequence, an article against a substantival adjective", () 
   it("should report an adjective no noun completes that disagrees with its article", () => {
     // `τὰ μικρά` with nothing after it is "the small [things]", so the article
     // is the only thing the adjective has to agree with.
-    const { issues } = agreementInSequence([token(TA, "T-APN"), token(` ${MIKRA}`, "A-NSF")]);
+    const { issues } = agreementInSequence([
+      token(TA, "T-APN"),
+      token(` ${MIKRA}`, "A-NSF"),
+    ]);
 
     expect(issues).toHaveLength(1);
     expect(issues[0]).toMatchObject({
@@ -217,7 +251,10 @@ describe("agreementInSequence, an article against a substantival adjective", () 
   });
 
   it("should leave an agreeing pair alone", () => {
-    expect(agreementInSequence([token(TA, "T-APN"), token(` ${MIKRA}`, "A-APN")]).issues).toEqual([]);
+    expect(
+      agreementInSequence([token(TA, "T-APN"), token(` ${MIKRA}`, "A-APN")])
+        .issues,
+    ).toEqual([]);
   });
 
   it("should say nothing when a noun after the adjective completes it", () => {
@@ -229,7 +266,7 @@ describe("agreementInSequence, an article against a substantival adjective", () 
         token(TA, "T-APN"),
         token(` ${MIKRA}`, "A-NPN"),
         token(` ${BOTRYDIA}`, "N-NPN"),
-      ]).issues.filter((issue) => issue.rule === "article/adjective")
+      ]).issues.filter((issue) => issue.rule === "article/adjective"),
     ).toEqual([]);
   });
 
@@ -237,7 +274,8 @@ describe("agreementInSequence, an article against a substantival adjective", () 
     // `2MC 9:6 τὸν πολλαῖς ... συμφοραῖς ... βασανίσαντα` puts a dative phrase
     // inside an accusative one. The dative owes the article nothing.
     expect(
-      agreementInSequence([token(TO, "T-ASN"), token(` ${MIKROI}`, "A-DSM")]).issues
+      agreementInSequence([token(TO, "T-ASN"), token(` ${MIKROI}`, "A-DSM")])
+        .issues,
     ).toEqual([]);
   });
 });
@@ -255,8 +293,12 @@ describe("agreementInSequence, one article against another", () => {
       token(` ${MIKRA}`, "A-NSF"),
     ]);
 
-    expect(issues.filter((issue) => issue.rule === "article/article")).toHaveLength(1);
-    expect(issues.find((issue) => issue.rule === "article/article")).toMatchObject({
+    expect(
+      issues.filter((issue) => issue.rule === "article/article"),
+    ).toHaveLength(1);
+    expect(
+      issues.find((issue) => issue.rule === "article/article"),
+    ).toMatchObject({
       words: [TA, BOTRYDIA, TA],
       codes: [["T-APN"], ["N-APN"], ["T-NPN"]],
       disagreeing: ["case"],
@@ -291,7 +333,7 @@ describe("agreementInSequence, one article against another", () => {
         token(` ${PNEUMA}`, "N-GSM"),
         token(` ${TA}`, "T-NPN"),
         token(` ${MIKRA}`, "A-NSF"),
-      ]).issues.filter((issue) => issue.rule === "article/article")
+      ]).issues.filter((issue) => issue.rule === "article/article"),
     ).toEqual([]);
   });
 
@@ -302,7 +344,7 @@ describe("agreementInSequence, one article against another", () => {
         token(` ${PNEUMA}`, "N-GSM"),
         token(` ${TOU}`, "T-GSN"),
         token(` ${MEGALA}`, "A-GSN"),
-      ]).issues.filter((issue) => issue.rule === "article/article")
+      ]).issues.filter((issue) => issue.rule === "article/article"),
     ).toEqual([]);
   });
 
@@ -315,15 +357,16 @@ describe("agreementInSequence, one article against another", () => {
         token(` ${KAI}`, "CONJ"),
         token(` ${TO}`, "T-NSN"),
         token(` ${PNEUMA}`, "N-NSN"),
-      ]).issues.filter((issue) => issue.rule === "article/article")
+      ]).issues.filter((issue) => issue.rule === "article/article"),
     ).toEqual([]);
   });
 
   it("should say nothing when no noun phrase stands before the article to anchor it", () => {
     expect(
-      agreementInSequence([token(TA, "T-NPN"), token(` ${MIKRA}`, "A-NSF")]).issues.filter(
-        (issue) => issue.rule === "article/article"
-      )
+      agreementInSequence([
+        token(TA, "T-NPN"),
+        token(` ${MIKRA}`, "A-NSF"),
+      ]).issues.filter((issue) => issue.rule === "article/article"),
     ).toEqual([]);
   });
 
@@ -337,17 +380,28 @@ describe("agreementInSequence, one article against another", () => {
         token(` ${KAI}`),
         token(` ${TA}`, "T-NPN"),
         token(` ${MIKRA}`, "A-NSF"),
-      ]).issues.filter((issue) => issue.rule === "article/article")
+      ]).issues.filter((issue) => issue.rule === "article/article"),
     ).toEqual([]);
   });
 });
 
 describe("formatAgreementFinding", () => {
   it("should print the words, their codes and what they disagree on", () => {
-    const [issue] = agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-ASN")]).issues;
+    const [issue] = agreementInSequence([
+      token(TO, "T-NSN"),
+      token(` ${PNEUMA}`, "N-ASN"),
+    ]).issues;
 
     expect(
-      formatAgreementFinding({ file: "20-JAS.json", book: "JAS", chapter: 4, verse: 5, ...issue })
-    ).toBe(`JAS 4:5 ${TO} [T-NSN] ${PNEUMA} [N-ASN] — article/noun disagree in case`);
+      formatAgreementFinding({
+        file: "20-JAS.json",
+        book: "JAS",
+        chapter: 4,
+        verse: 5,
+        ...issue,
+      }),
+    ).toBe(
+      `JAS 4:5 ${TO} [T-NSN] ${PNEUMA} [N-ASN] — article/noun disagree in case`,
+    );
   });
 });

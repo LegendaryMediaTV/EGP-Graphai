@@ -58,7 +58,8 @@ export function resolveLexicalAnnotationsInContent(
   morphology?: string,
 ): { content: Content; changed: boolean } {
   return mapContentNodes(content, (node) => {
-    if (typeof node.text !== "string" || node.script === undefined) return undefined;
+    if (typeof node.text !== "string" || node.script === undefined)
+      return undefined;
 
     const resolved: Record<string, unknown> = {};
 

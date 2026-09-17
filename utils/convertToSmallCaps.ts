@@ -32,7 +32,7 @@ interface Verse {
 
 // Load book registry for display names
 const bookRegistry: Array<{ _id: string; name: string }> = JSON.parse(
-  fs.readFileSync("./bible-books/bible-books.json", "utf-8")
+  fs.readFileSync("./bible-books/bible-books.json", "utf-8"),
 );
 
 function getBookName(bookId: string): string {
@@ -47,7 +47,7 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
   const files = fs
     .readdirSync(versionDir)
     .filter(
-      (f) => f.endsWith(".json") && f !== "_version.json" && f.match(/^\d{2}-/)
+      (f) => f.endsWith(".json") && f !== "_version.json" && f.match(/^\d{2}-/),
     )
     .sort();
 
@@ -62,7 +62,7 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
     if (matchingFiles.length === 0) {
       // Show available book IDs for this version
       const availableBooks = files.map((f) =>
-        f.replace(/^\d{2}-/, "").replace(".json", "")
+        f.replace(/^\d{2}-/, "").replace(".json", ""),
       );
       console.error(`Error: Book "${bookId}" not found in this version.`);
       console.error(`Available books: ${availableBooks.join(", ")}`);
@@ -93,7 +93,7 @@ function countPatterns(content: any): { lord: number; lordGod: number } {
  */
 async function processBook(
   filePath: string,
-  dryRun: boolean = false
+  dryRun: boolean = false,
 ): Promise<{
   converted: number;
   skipped: number;
@@ -156,30 +156,30 @@ async function main() {
   // Validate arguments
   if (!versionId) {
     console.error(
-      "Usage: npx ts-node utils/convertToSmallCaps.ts <version> [book-id] [--dry-run]"
+      "Usage: npx ts-node utils/convertToSmallCaps.ts <version> [book-id] [--dry-run]",
     );
     console.error("");
     console.error("Arguments:");
     console.error(
-      "  <version>: Graphai version ID (e.g., WEBUS2020, KJV1769, ASV1901)"
+      "  <version>: Graphai version ID (e.g., WEBUS2020, KJV1769, ASV1901)",
     );
     console.error(
-      "  [book-id]: Optional. Graphai book ID (e.g., GEN, EXO, PSA, JHN) for single-book conversion"
+      "  [book-id]: Optional. Graphai book ID (e.g., GEN, EXO, PSA, JHN) for single-book conversion",
     );
     console.error(
-      "  [--dry-run]: Show what would be converted without making changes"
+      "  [--dry-run]: Show what would be converted without making changes",
     );
     console.error("");
     console.error("Examples:");
     console.error("  npx ts-node utils/convertToSmallCaps.ts WEBUS2020");
     console.error(
-      "  npx ts-node utils/convertToSmallCaps.ts WEBUS2020 2SM        # 2 Samuel only"
+      "  npx ts-node utils/convertToSmallCaps.ts WEBUS2020 2SM        # 2 Samuel only",
     );
     console.error(
-      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 JHN          # John only"
+      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 JHN          # John only",
     );
     console.error(
-      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 --dry-run"
+      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 --dry-run",
     );
     process.exit(1);
   }
@@ -192,7 +192,7 @@ async function main() {
     const versions = fs
       .readdirSync("./bible-versions")
       .filter((d) =>
-        fs.statSync(path.join("./bible-versions", d)).isDirectory()
+        fs.statSync(path.join("./bible-versions", d)).isDirectory(),
       );
     versions.forEach((v) => console.error(`  - ${v}`));
     process.exit(1);
@@ -204,7 +204,7 @@ async function main() {
   if (bookFiles.length === 0) {
     if (bookId) {
       console.error(
-        `Error: No book file found for "${bookId}" in ${versionId}`
+        `Error: No book file found for "${bookId}" in ${versionId}`,
       );
     } else {
       console.error(`Error: No book files found in ${versionDir}`);
@@ -230,7 +230,7 @@ async function main() {
 
     const { converted, skipped, lordCount, lordGodCount } = await processBook(
       filePath,
-      dryRun
+      dryRun,
     );
 
     totalConverted += converted;
@@ -240,7 +240,7 @@ async function main() {
 
     if (converted > 0 || lordCount > 0 || lordGodCount > 0) {
       console.log(
-        `  ${bookName.padEnd(20)} - ${converted} verses converted, ${lordCount} LORD, ${lordGodCount} Lord GOD patterns found`
+        `  ${bookName.padEnd(20)} - ${converted} verses converted, ${lordCount} LORD, ${lordGodCount} Lord GOD patterns found`,
       );
     }
   }

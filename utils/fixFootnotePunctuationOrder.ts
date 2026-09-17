@@ -70,8 +70,11 @@ function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
 
 /** A node's own real property keys beyond `text`/`marks`/`script` — `[]` for a bare string (which has none) or a node carrying nothing else. Used to decide whether removing an emptied sibling would silently lose something real. A result of exactly `["break"]` is handled by carrying `break: true` forward onto the merged node rather than losing it (a real corpus case); any other non-empty result still blocks the merge, since no other shape has a known-safe way to carry forward. */
 function extraKeysBeyondTextMarksScript(node: unknown): string[] {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return [];
-  return Object.keys(node).filter((key) => key !== "text" && key !== "marks" && key !== "script");
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return [];
+  return Object.keys(node).filter(
+    (key) => key !== "text" && key !== "marks" && key !== "script",
+  );
 }
 
 /**
@@ -119,21 +122,34 @@ interface FixCounts {
  * later overwrite could discard an earlier trim and leave a duplicated
  * punctuation mark on both sides of a boundary.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: FixCounts,
+): unknown[] {
   const working: unknown[] = [...nodes];
   const removed = new Set<number>();
 
   for (let i = 0; i < working.length; i++) {
     if (removed.has(i)) continue;
     const shape = describeNode(working[i]);
-    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0) continue;
+    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0)
+      continue;
 
     let j = i + 1;
-    while (j < working.length && (removed.has(j) || describeNode(working[j]).isTextlessStrongSibling)) j++;
+    while (
+      j < working.length &&
+      (removed.has(j) || describeNode(working[j]).isTextlessStrongSibling)
+    )
+      j++;
     if (j >= working.length) continue;
 
     const next = describeNode(working[j]);
-    if (!isRealAttachmentPoint(next) || next.opensParagraph || next.text === undefined) continue;
+    if (
+      !isRealAttachmentPoint(next) ||
+      next.opensParagraph ||
+      next.text === undefined
+    )
+      continue;
 
     const split = leadingTightPunctuationSplit(next.text);
     if (split === undefined) continue;
@@ -176,8 +192,15 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
 
     const extraKeys = extraKeysBeyondTextMarksScript(working[j]);
     if (extraKeys.length > 0) {
-      if (extraKeys.length === 1 && extraKeys[0] === "break" && next.endsBreak) {
-        working[i] = { ...(withText(working[i], mergedText) as Record<string, unknown>), break: true };
+      if (
+        extraKeys.length === 1 &&
+        extraKeys[0] === "break" &&
+        next.endsBreak
+      ) {
+        working[i] = {
+          ...(withText(working[i], mergedText) as Record<string, unknown>),
+          break: true,
+        };
         removed.add(j);
         counts.fixed++;
         continue;
@@ -204,12 +227,20 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
  * levels to rewrite and passes through unchanged.
  */
 function rewriteNode(node: unknown, counts: FixCounts): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content, counts);
   }
 
@@ -254,9 +285,11 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
  *   fixed), whether anything changed, and every finding this run declined to
  *   act on, with its own {@link SkipReason}
  */
-export function reorderFootnotePunctuationInContent(
-  content: Content,
-): { content: Content; changed: boolean; skipped: SkipReason[] } {
+export function reorderFootnotePunctuationInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+  skipped: SkipReason[];
+} {
   const counts: FixCounts = { fixed: 0, skipped: [] };
   const rewritten = rewriteLevel(content, counts) as Content;
   return counts.fixed > 0

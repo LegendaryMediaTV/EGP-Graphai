@@ -92,7 +92,10 @@ interface SchemaRule {
  * be asked first or the letter rule would swallow it.
  */
 const SCHEMA_RULES: SchemaRule[] = [
-  { claims: (file) => path.basename(file).endsWith("-schema.json"), meta: true },
+  {
+    claims: (file) => path.basename(file).endsWith("-schema.json"),
+    meta: true,
+  },
   {
     claims: (file) => file === "bible-books/bible-books.json",
     schema: "bible-books/bible-books-schema.json",
@@ -104,18 +107,32 @@ const SCHEMA_RULES: SchemaRule[] = [
     delegatedTo: "Bible version file validation",
   },
   {
-    claims: (file) => /^bible-versions\/[^/]+\/\d{2}-[A-Z0-9]+\.json$/.test(file),
+    claims: (file) =>
+      /^bible-versions\/[^/]+\/\d{2}-[A-Z0-9]+\.json$/.test(file),
     schema: "bible-versions/bible-verses-schema.json",
     delegatedTo: "Bible verse file validation",
   },
-  { claims: (file) => /^lexical-maps\/[^/]+\/_language\.json$/.test(file), schema: "lexical-maps/language-schema.json" },
-  { claims: (file) => /^lexical-maps\/[^/]+\/indices\/[^/]+\.json$/.test(file), schema: "lexical-maps/index-schema.json" },
   {
-    claims: (file) => /^lexical-maps\/[^/]+\/morphology\/[^/]+\.json$/.test(file),
+    claims: (file) => /^lexical-maps\/[^/]+\/_language\.json$/.test(file),
+    schema: "lexical-maps/language-schema.json",
+  },
+  {
+    claims: (file) => /^lexical-maps\/[^/]+\/indices\/[^/]+\.json$/.test(file),
+    schema: "lexical-maps/index-schema.json",
+  },
+  {
+    claims: (file) =>
+      /^lexical-maps\/[^/]+\/morphology\/[^/]+\.json$/.test(file),
     schema: "lexical-maps/morphology-schema.json",
   },
-  { claims: (file) => /^lexical-maps\/[^/]+\/[^/]+\.json$/.test(file), schema: "lexical-maps/codex-schema.json" },
-  { claims: (file) => file === "package.json" || file === "package-lock.json", owner: "npm" },
+  {
+    claims: (file) => /^lexical-maps\/[^/]+\/[^/]+\.json$/.test(file),
+    schema: "lexical-maps/codex-schema.json",
+  },
+  {
+    claims: (file) => file === "package.json" || file === "package-lock.json",
+    owner: "npm",
+  },
   { claims: (file) => file === "tsconfig.json", owner: "TypeScript" },
   { claims: (file) => file === ".claude/launch.json", owner: "Claude Code" },
 ];
@@ -129,7 +146,12 @@ const SCHEMA_RULES: SchemaRule[] = [
  *
  * @param file Repo-relative path, as `git ls-files` prints it.
  */
-export function governanceOf(file: string): { schema?: string; meta?: true; owner?: string; delegatedTo?: string } | null {
+export function governanceOf(file: string): {
+  schema?: string;
+  meta?: true;
+  owner?: string;
+  delegatedTo?: string;
+} | null {
   const rule = SCHEMA_RULES.find((candidate) => candidate.claims(file));
   if (!rule) return null;
   const { claims, ...governance } = rule;
@@ -149,13 +171,15 @@ let committable: string[] | null = null;
 export function committableJsonFiles(): string[] {
   if (committable) return committable;
   try {
-    const out = execFileSync("git", ["ls-files", "-z", "*.json"], { encoding: "utf-8" });
+    const out = execFileSync("git", ["ls-files", "-z", "*.json"], {
+      encoding: "utf-8",
+    });
     committable = out.split("\0").filter(Boolean).sort();
   } catch (error) {
     throw new Error(
       `cannot list committable JSON files: \`git ls-files\` failed (${(error as Error).message}). ` +
         "This check reads the git index because committable is a git question, and a directory walk " +
-        "cannot tell a data file from a scratch file."
+        "cannot tell a data file from a scratch file.",
     );
   }
   return committable;
@@ -183,7 +207,8 @@ export function auditJsonSchemas(): JsonSchemaAudit {
     if (!rule) {
       findings.push({
         file,
-        reason: "no rule in SCHEMA_RULES governs this file, so nothing validates its shape",
+        reason:
+          "no rule in SCHEMA_RULES governs this file, so nothing validates its shape",
       });
       continue;
     }
@@ -193,7 +218,10 @@ export function auditJsonSchemas(): JsonSchemaAudit {
       // gone or will not compile is the same hole as no rule at all.
       const validate = validatorFor(rule.schema!, compiled);
       if (typeof validate === "string") {
-        findings.push({ file, reason: `${rule.schema} did not compile: ${validate}` });
+        findings.push({
+          file,
+          reason: `${rule.schema} did not compile: ${validate}`,
+        });
       }
       continue;
     }
@@ -202,7 +230,10 @@ export function auditJsonSchemas(): JsonSchemaAudit {
     try {
       data = JSON.parse(fs.readFileSync(file, "utf-8"));
     } catch (error) {
-      findings.push({ file, reason: `not readable as JSON: ${(error as Error).message}` });
+      findings.push({
+        file,
+        reason: `not readable as JSON: ${(error as Error).message}`,
+      });
       continue;
     }
 
@@ -213,19 +244,28 @@ export function auditJsonSchemas(): JsonSchemaAudit {
       // the file held; a file claiming to be a schema and not being one is the
       // finding this rule exists to make.
       if (!ajv.validateSchema(data as Parameters<Ajv["validateSchema"]>[0])) {
-        findings.push({ file, reason: `not a valid JSON Schema: ${describe(ajv.errors)}` });
+        findings.push({
+          file,
+          reason: `not a valid JSON Schema: ${describe(ajv.errors)}`,
+        });
       }
       continue;
     }
 
     const validate = validatorFor(rule.schema!, compiled);
     if (typeof validate === "string") {
-      findings.push({ file, reason: `${rule.schema} did not compile: ${validate}` });
+      findings.push({
+        file,
+        reason: `${rule.schema} did not compile: ${validate}`,
+      });
       continue;
     }
     checked++;
     if (!validate(data)) {
-      findings.push({ file, reason: `does not match ${rule.schema}: ${describe(validate.errors)}` });
+      findings.push({
+        file,
+        reason: `does not match ${rule.schema}: ${describe(validate.errors)}`,
+      });
     }
   }
 
@@ -242,7 +282,7 @@ export function auditJsonSchemas(): JsonSchemaAudit {
  */
 function validatorFor(
   schemaPath: string,
-  cache: Map<string, ReturnType<Ajv["compile"]> | string>
+  cache: Map<string, ReturnType<Ajv["compile"]> | string>,
 ): ReturnType<Ajv["compile"]> | string {
   const held = cache.get(schemaPath);
   if (held !== undefined) return held;
@@ -250,7 +290,9 @@ function validatorFor(
   let made: ReturnType<Ajv["compile"]> | string;
   try {
     const ajv = new Ajv({ strict: false, allErrors: false });
-    for (const other of committableJsonFiles().filter((f) => f.endsWith("-schema.json") && f !== schemaPath)) {
+    for (const other of committableJsonFiles().filter(
+      (f) => f.endsWith("-schema.json") && f !== schemaPath,
+    )) {
       try {
         ajv.addSchema(JSON.parse(fs.readFileSync(other, "utf-8")));
       } catch {
@@ -271,7 +313,10 @@ function describe(errors: unknown): string {
   if (!Array.isArray(errors) || !errors.length) return "no detail";
   return errors
     .slice(0, 3)
-    .map((error: any) => `${error.instancePath || "/"} ${error.message}${error.params?.additionalProperty ? ` ("${error.params.additionalProperty}")` : ""}`)
+    .map(
+      (error: any) =>
+        `${error.instancePath || "/"} ${error.message}${error.params?.additionalProperty ? ` ("${error.params.additionalProperty}")` : ""}`,
+    )
     .join("; ");
 }
 

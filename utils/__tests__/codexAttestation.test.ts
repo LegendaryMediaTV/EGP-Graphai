@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { CorpusVerse, declaredScheme, verseSequences } from "../corpusTokens";
-import { auditCodexAttestation, formatCellContradiction } from "../codexAttestation";
+import {
+  auditCodexAttestation,
+  formatCellContradiction,
+} from "../codexAttestation";
 import Content from "../../types/Content";
 
 /**
@@ -62,7 +65,9 @@ describe("auditCodexAttestation", () => {
   });
 
   it("should leave a cell alone when no attesting node carries a number at all", () => {
-    const { contradictions } = auditCodexAttestation([verse({ text: PNEUMA, morph: "N-NSN" })]);
+    const { contradictions } = auditCodexAttestation([
+      verse({ text: PNEUMA, morph: "N-NSN" }),
+    ]);
 
     expect(contradictions).toEqual([]);
   });
@@ -104,7 +109,10 @@ describe("auditCodexAttestation", () => {
 
   it("should read a text-less second parse as its own attestation of its own cell", () => {
     const { contradictions } = auditCodexAttestation([
-      verse({ text: PNEUMA, morph: "N-NSN", strong: "G9999" }, { morph: "N-ASN", strong: "G9999" }),
+      verse(
+        { text: PNEUMA, morph: "N-NSN", strong: "G9999" },
+        { morph: "N-ASN", strong: "G9999" },
+      ),
     ]);
 
     expect(contradictions.map((found) => found.parse.join(" "))).toEqual([
@@ -115,7 +123,10 @@ describe("auditCodexAttestation", () => {
 
   it("should count the versions and the tagged words the evidence came from", () => {
     const audit = auditCodexAttestation([
-      verse({ text: PNEUMA, morph: "N-NSN" }, { text: ` ${KAI}`, morph: "CONJ" }),
+      verse(
+        { text: PNEUMA, morph: "N-NSN" },
+        { text: ` ${KAI}`, morph: "CONJ" },
+      ),
     ]);
 
     expect(audit.versions).toEqual(["BYZ2026"]);
@@ -124,7 +135,9 @@ describe("auditCodexAttestation", () => {
   });
 
   it("should count a word the codex does not hold as scanned and attest nothing with it", () => {
-    const audit = auditCodexAttestation([verse({ text: "quidquid", morph: "N-NSN" })]);
+    const audit = auditCodexAttestation([
+      verse({ text: "quidquid", morph: "N-NSN" }),
+    ]);
 
     expect(audit.nodesScanned).toBe(1);
     expect(audit.cellsAttested).toBe(0);

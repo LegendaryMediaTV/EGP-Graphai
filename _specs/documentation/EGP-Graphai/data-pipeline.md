@@ -131,14 +131,14 @@ Each rule is version-scoped: a chapter's last verse, and which verse numbers wit
 
 Verse content is built one lexical node at a time, each carrying its own `strong` number, `marks`, and joining whitespace. That structure drifts out of alignment with this repo's own text-flow conventions during import or hand-editing. [utils/auditNodes.ts](../../../utils/auditNodes.ts) detects such drift patterns, corpus-wide; a representative sampling:
 
-| Finding                | What it catches                                                                                            |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Unmerged node pairs     | An untagged connector word left split from the Strong's-carrying neighbor it should have folded into        |
-| Trailing whitespace     | A Strong's node's own text ending in a space, when the convention keeps joining spaces on the leading edge of what follows |
+| Finding                          | What it catches                                                                                                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Unmerged node pairs              | An untagged connector word left split from the Strong's-carrying neighbor it should have folded into                                                               |
+| Trailing whitespace              | A Strong's node's own text ending in a space, when the convention keeps joining spaces on the leading edge of what follows                                         |
 | Footnote marker after whitespace | A footnote marker rendering a space away from the word it annotates instead of hugging it — the same leading-space convention applied to `foot`, not just `strong` |
-| Untagged script run     | A Hebrew or Greek letter run embedded in otherwise-Latin text with no `script` tag                            |
-| Duplicate footnote anchor | A textless node repeating the identical footnote already carried by the node right before it                |
-| Mergeable siblings      | Two adjacent nodes differing in nothing but `text`                                                            |
+| Untagged script run              | A Hebrew or Greek letter run embedded in otherwise-Latin text with no `script` tag                                                                                 |
+| Duplicate footnote anchor        | A textless node repeating the identical footnote already carried by the node right before it                                                                       |
+| Mergeable siblings               | Two adjacent nodes differing in nothing but `text`                                                                                                                 |
 
 _A representative sampling. [utils/auditNodes.ts](../../../utils/auditNodes.ts) carries the full catalog._
 
@@ -150,18 +150,20 @@ These tools mutate a verse file or write an export: `validate.ts`, `exportConten
 
 The bytes land in a staging file beside the target and get renamed over it, instead of truncating the target in place. This matters on Windows, where reopening an existing file for truncation can collide with something else briefly holding it open, such as a backup agent, an indexer, or a virus scanner, and fail with a transient error. A rename isn't blocked by a reader holding the old file, and a reader never observes a half-written file mid-swap. Writes that hit the transient retry on a backoff before giving up and throwing, naming the file.
 
-JSON payloads are canonicalized from the parsed data, not from whatever text the file already contains, then formatted with the same Prettier call `validate.ts` uses to check formatting. So a file this writes is already a fixed point of validation, and re-running `npm run validate` right after should report no changes. Formatting from a file's existing text instead of its parsed data would let a stray line break persist indefinitely, since Prettier preserves whichever breaks it's handed rather than re-deriving them from width. This also replaces the old approach of shelling out to `npx prettier --write` once per file, which cost a process per book across a full run. Non-JSON output (Markdown, Strong's text) skips the formatting step and writes through the same staging-and-rename path verbatim.
+JSON payloads are canonicalized from the parsed data, not from whatever text the file already contains, then formatted with the same Prettier call `validate.ts` uses to check formatting. So a file this writes is already a fixed point of validation, and re-running `npm run validate` right after should report no changes. Formatting from a file's existing text instead of its parsed data would let a stray line break persist indefinitely, since Prettier preserves whichever breaks it's handed rather than re-deriving them from width. This also replaces the old approach of shelling out to `npx prettier --write` once per file, which cost a process per book across a full run.
+
+Markdown gets the same treatment through Prettier's Markdown parser. `exportContent.ts` assembles a chapter line by line, and the line breaks and blank lines that assembly happens to produce are not the ones Prettier would choose — so the assembled text goes through `formatMarkdownText` before the write, and `exports/markdown-par/` stays a fixed point of `npx prettier --check .` instead of drifting out of it on every run. The formatting is whitespace only in practice: over the full 585-file export it stripped leading and trailing spaces and moved blank lines around headings, and changed no word, no punctuation mark, no emphasis marker and no escape. One pass is enough, because Prettier's Markdown printer settles on the first pass for every document this exporter produces. Only the Strong's plain-text export skips formatting and writes verbatim, since Prettier has no parser for it.
 
 ## Adding a new translation
 
 The mechanical steps live in the [project README](../../../README.md#adding-new-bible-versions). The non-obvious things to think about:
 
-| Decision               | Where it lives                                  | Why it matters                                     |
-| ---------------------- | ----------------------------------------------- | -------------------------------------------------- |
-| Book ordering          | The `books` array in `_version.json`            | Determines filename prefixes and reader nav order  |
-| Default script         | Optional `script` field on the version          | Greek/Hebrew text without explicit `script` inherits it |
-| License & attribution  | `copyright` and `license` fields                | The reader displays these; respect source terms    |
-| Canon scope            | Include or omit books from the registry         | A NT-only version like BYZ2026 lists only NT books |
+| Decision              | Where it lives                          | Why it matters                                          |
+| --------------------- | --------------------------------------- | ------------------------------------------------------- |
+| Book ordering         | The `books` array in `_version.json`    | Determines filename prefixes and reader nav order       |
+| Default script        | Optional `script` field on the version  | Greek/Hebrew text without explicit `script` inherits it |
+| License & attribution | `copyright` and `license` fields        | The reader displays these; respect source terms         |
+| Canon scope           | Include or omit books from the registry | A NT-only version like BYZ2026 lists only NT books      |
 
 The exporter and reader are version-agnostic. They read whatever the version declares. No code changes are needed for a new translation if it follows the schema.
 

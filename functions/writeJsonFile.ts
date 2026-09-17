@@ -1,18 +1,16 @@
 /**
  * Writes files the way the repository's tools need them written: all-or-nothing
- * and loud when it cannot be done, with a JSON convenience on top.
+ * and loud when it cannot be done, with in-process Prettier formatting on top.
  *
- * Every tool that maintains `bible-versions/` or `exports/` used to write the
- * bytes itself and then shell out to `prettier --write` once per file. That
- * cost a process per book — thousands across a full run — and on Windows it
- * intermittently died with `UNKNOWN: unknown error, open '<file>'`.
+ * The bytes go to a staging file and are renamed over the target, because
+ * `fs.writeFileSync` on Windows intermittently dies with `UNKNOWN: unknown
+ * error, open '<file>'`. The failing operation is reopening an existing file
+ * for truncation while something else — a backup agent, an indexer, a virus
+ * scanner — still holds it; such a holder blocks the open but not the replace,
+ * and no reader ever sees a half-written file.
  *
- * Removing the subprocess does not remove the transient: `fs.writeFileSync`
- * meets it too, because the failing operation is reopening an existing file for
- * truncation while something else — a backup agent, an indexer, a virus
- * scanner — still holds it. So the bytes go to a staging file and are renamed
- * over the target. A scanner holding the old file blocks the open but not the
- * replace, and no reader ever sees a half-written file.
+ * Formatting runs in process because the `prettier --write` subprocess it
+ * replaced cost one process per file, thousands across a full run.
  */
 
 import * as fs from "fs";
@@ -27,11 +25,6 @@ const RETRY_DELAYS_MS = [250, 500, 1000, 2000, 4000];
 /**
  * Writes `contents` verbatim, replacing any existing file, or throws naming it.
  *
- * The bytes land in a staging file beside the target and are renamed over it,
- * so a reader never sees a partial file and a holder of the old file cannot
- * block the write. Attempts that hit the Windows transient described above are
- * retried on a backoff, then reported rather than absorbed.
- *
  * Use this for text that is already exactly what belongs on disk — Markdown,
  * plain text, or Prettier output. For JSON built from an object, use
  * {@link writeJsonFile}, which formats first.
@@ -42,7 +35,7 @@ const RETRY_DELAYS_MS = [250, 500, 1000, 2000, 4000];
  */
 export async function writeFileAtomic(
   filePath: string,
-  contents: string
+  contents: string,
 ): Promise<void> {
   const expectedBytes = Buffer.byteLength(contents);
   const staging = `${filePath}.writing`;
@@ -67,13 +60,13 @@ export async function writeFileAtomic(
           // reports the failure either way.
         }
         throw new Error(
-          `Failed to write ${filePath} after ${attempt + 1} attempts: ${reason}`
+          `Failed to write ${filePath} after ${attempt + 1} attempts: ${reason}`,
         );
       }
 
       console.warn(`  Retrying write of ${filePath} (${reason})`);
       await new Promise((resolve) =>
-        setTimeout(resolve, RETRY_DELAYS_MS[attempt])
+        setTimeout(resolve, RETRY_DELAYS_MS[attempt]),
       );
     }
   }
@@ -82,16 +75,14 @@ export async function writeFileAtomic(
 /**
  * Renders `data` as Prettier-formatted JSON text.
  *
- * `data` is stringified compact (no indent) before Prettier ever sees it, so
- * every line-break decision comes from Prettier's own width rules rather than
- * from `JSON.stringify`'s indent argument. `JSON.stringify(data, null, 2)`
- * puts a newline after every object's `{`, and Prettier's JSON printer treats
- * an existing break there as an authored choice to preserve — so indenting
- * first locks every object onto its own lines regardless of length. Compact
- * input carries no such signal, letting Prettier collapse anything that fits.
- * That makes this converge on the same bytes as formatting a file's own raw
- * text would, so a file built from this is already a fixed point of that
- * pass too — the two must share this one implementation to keep it that way.
+ * Stringified compact, never with an indent argument: `JSON.stringify(data,
+ * null, 2)` puts a newline after every object's `{`, and Prettier's JSON
+ * printer treats an existing break there as an authored choice to preserve,
+ * so indenting first would lock every object onto its own lines regardless of
+ * length. Compact input carries no such signal, letting Prettier collapse
+ * anything that fits — which is what makes this converge on the same bytes as
+ * formatting a file's own raw text, so a file built from this is already a
+ * fixed point of that pass too.
  *
  * @param data - Anything JSON-serializable
  * @returns Prettier-formatted JSON text, newline-terminated
@@ -101,10 +92,27 @@ export async function formatJsonData(data: unknown): Promise<string> {
 }
 
 /**
- * Writes `data` as Prettier-formatted JSON, or throws naming the file.
+ * Renders already-assembled Markdown as Prettier-formatted Markdown text.
  *
- * The bytes reach disk through {@link writeFileAtomic}; formatting goes
- * through {@link formatJsonData}.
+ * The companion to {@link formatJsonData} for the repository's other
+ * generated artifact, `exports/markdown-par/**`, which `utils/exportContent.ts`
+ * assembles line by line and would otherwise write with whatever line breaks
+ * and blank lines that assembly happened to produce.
+ *
+ * One pass is enough: Prettier's Markdown printer settles on the first pass
+ * for every document the exporter produces. Its TypeScript printer does not
+ * always settle, so this is a property of the Markdown printer and this
+ * input, not a guarantee of the library.
+ *
+ * @param markdown - Assembled Markdown text
+ * @returns Prettier-formatted Markdown, newline-terminated
+ */
+export async function formatMarkdownText(markdown: string): Promise<string> {
+  return prettier.format(markdown, { parser: "markdown" });
+}
+
+/**
+ * Writes `data` as Prettier-formatted JSON, or throws naming the file.
  *
  * @param filePath - Where to write
  * @param data - Anything JSON-serializable
@@ -112,7 +120,7 @@ export async function formatJsonData(data: unknown): Promise<string> {
  */
 export async function writeJsonFile(
   filePath: string,
-  data: unknown
+  data: unknown,
 ): Promise<void> {
   const contents = await formatJsonData(data);
   await writeFileAtomic(filePath, contents);

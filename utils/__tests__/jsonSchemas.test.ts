@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { auditJsonSchemas, committableJsonFiles, governanceOf } from "../jsonSchemas";
+import {
+  auditJsonSchemas,
+  committableJsonFiles,
+  governanceOf,
+} from "../jsonSchemas";
 
 /**
  * The table is asked about directly rather than through the audit, because the
@@ -15,9 +19,11 @@ describe("governanceOf", () => {
     expect(governanceOf("lexical-maps/greek/indices/strongs.json")).toEqual({
       schema: "lexical-maps/index-schema.json",
     });
-    expect(governanceOf("lexical-maps/greek/morphology/robinson.json")).toEqual({
-      schema: "lexical-maps/morphology-schema.json",
-    });
+    expect(governanceOf("lexical-maps/greek/morphology/robinson.json")).toEqual(
+      {
+        schema: "lexical-maps/morphology-schema.json",
+      },
+    );
     expect(governanceOf("lexical-maps/greek/alpha.json")).toEqual({
       schema: "lexical-maps/codex-schema.json",
     });
@@ -27,12 +33,16 @@ describe("governanceOf", () => {
     // `_language.json` and `alpha.json` are siblings, and the codex rule claims
     // any `.json` at that level. Reversed, every language registry in the repo
     // would be validated against the codex schema and pass for the wrong reason.
-    expect(governanceOf("lexical-maps/greek/_language.json")?.schema).toBe("lexical-maps/language-schema.json");
+    expect(governanceOf("lexical-maps/greek/_language.json")?.schema).toBe(
+      "lexical-maps/language-schema.json",
+    );
   });
 
   it("should treat a schema as something to check rather than something to check against", () => {
     expect(governanceOf("content-schema.json")).toEqual({ meta: true });
-    expect(governanceOf("lexical-maps/codex-schema.json")).toEqual({ meta: true });
+    expect(governanceOf("lexical-maps/codex-schema.json")).toEqual({
+      meta: true,
+    });
   });
 
   it("should name the step that already validates a file in depth", () => {
@@ -40,7 +50,9 @@ describe("governanceOf", () => {
       schema: "bible-versions/bible-verses-schema.json",
       delegatedTo: "Bible verse file validation",
     });
-    expect(governanceOf("bible-versions/BYZ2026/_version.json")?.delegatedTo).toBe("Bible version file validation");
+    expect(
+      governanceOf("bible-versions/BYZ2026/_version.json")?.delegatedTo,
+    ).toBe("Bible version file validation");
   });
 
   it("should record who owns a format this repo does not", () => {
@@ -55,7 +67,9 @@ describe("governanceOf", () => {
     // This is the guard. A new data file lands here until someone writes it a
     // schema, and the audit fails the run for exactly this answer.
     expect(governanceOf("data/new-thing.json")).toBeNull();
-    expect(governanceOf("lexical-maps/greek/indices/deeper/strongs.json")).toBeNull();
+    expect(
+      governanceOf("lexical-maps/greek/indices/deeper/strongs.json"),
+    ).toBeNull();
   });
 });
 

@@ -165,7 +165,7 @@
 
 <sup>1</sup> Eis tò télos; psalmòs tō̂ Dauid.
 
- Epì tō̂ kyríō pépoitha; pâs ereîte tē̂ psychē̂ mou Metanasteúou epì tà órē hōs strouthíon?
+Epì tō̂ kyríō pépoitha; pâs ereîte tē̂ psychē̂ mou Metanasteúou epì tà órē hōs strouthíon?
 <sup>2</sup> Hóti idoù hoi hamartōloì enéteinan tóxon, hētoímasan bélē eis pharétran toû katatoxeûsai en skotomḗnē toùs eutheîs tē̂ kardía.
 <sup>3</sup> Hóti hà katērtísō, katheîlon; ho dè díkaios tí epoíēsen?
 <sup>4</sup> Kýrios en naō̂ hagíō autoû; kýrios, en ouranō̂ ho thrónos autoû. Hoi ophthalmoì autoû eis tòn pénēta apoblépousin, tà bléphara autoû exetázei toùs hyioùs tō̂n anthrṓpōn.
@@ -201,7 +201,7 @@
 
 <sup>1</sup> Eis tò télos; psalmòs tō̂ Dauid.
 
- Eîpen áphrōn en kardía autoû Ouk éstin theós; diéphtheiran kaì ebdelýchthēsan en epitēdeúmasin, ouk éstin poiō̂n chrēstótēta, ouk éstin héōs henós.
+Eîpen áphrōn en kardía autoû Ouk éstin theós; diéphtheiran kaì ebdelýchthēsan en epitēdeúmasin, ouk éstin poiō̂n chrēstótēta, ouk éstin héōs henós.
 <sup>2</sup> Kýrios ek toû ouranoû diékypsen epì toùs hyioùs tō̂n anthrṓpōn toû ideîn ei éstin syníōn ḕ ekzētō̂n tòn theón.
 <sup>3</sup> Pántes exéklinan, háma ēchreṓthēsan, ouk éstin poiō̂n chrēstótēta, ouk éstin héōs henós. [Táphos aneōgménos ho lárynx autō̂n, taîs glṓssais autō̂n edolioûsan; iòs aspídōn hypò tà cheílē autō̂n, hō̂n tò stóma arâs kaì pikrías gémei; oxeîs hoi pódes autō̂n ekchéai haîma; sýntrimma kaì talaipōría en taîs hodoîs autō̂n, kaì hodòn eirḗnēs ouk égnōsan; ouk éstin phóbos theoû apénanti tō̂n ophthalmō̂n autō̂n.]
 <sup>4</sup> ouchì gnṓsontai pántes hoi ergazómenoi tḕn anomían? Hoi katesthíontes tòn laón mou brṓsei ártou tòn kýrion ouk epekalésanto.
@@ -213,7 +213,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Kýrie, tís paroikḗsei en tō̂ skēnṓmatí sou kaì tís kataskēnṓsei en tō̂ órei tō̂ hagíō sou?
+Kýrie, tís paroikḗsei en tō̂ skēnṓmatí sou kaì tís kataskēnṓsei en tō̂ órei tō̂ hagíō sou?
 <sup>2</sup> Poreuómenos ámōmos kaì ergazómenos dikaiosýnēn, lalō̂n alḗtheian en kardía autoû,
 <sup>3</sup> hòs ouk edólōsen en glṓssē autoû oudè epoíēsen tō̂ plēsíon autoû kakòn kaì oneidismòn ouk élaben epì toùs éngista autoû;
 <sup>4</sup> exoudénōtai enṓpion autoû ponēreuómenos, toùs dè phobouménous kýrion doxázei; ho omnýōn tō̂ plēsíon autoû kaì ouk athetō̂n;
@@ -223,7 +223,7 @@
 
 <sup>1</sup> Stēlographía tō̂ Dauid.
 
- Phýlaxón me, kýrie, hóti epì soì ḗlpisa.
+Phýlaxón me, kýrie, hóti epì soì ḗlpisa.
 <sup>2</sup> Eîpa tō̂ kyríō Kýriós mou eî sý, hóti tō̂n agathō̂n mou ou chreían écheis.
 <sup>3</sup> Toîs hagíois toîs en tē̂ gē̂ autoû ethaumástōsen pánta tà thelḗmata autoû en autoîs.
 <sup>4</sup> Eplēthýnthēsan hai asthéneiai autō̂n, metà taûta etáchynan; ou mḕ synagágō tàs synagōgàs autō̂n ex haimátōn oudè mḕ mnēsthō̂ tō̂n onomátōn autō̂n dià cheiléōn mou.
@@ -239,7 +239,7 @@
 
 <sup>1</sup> Proseuchḕ toû Dauid.
 
- Eisákouson, kýrie, tē̂s dikaiosýnēs mou, prósches tē̂ deḗsei mou, enṓtisai tē̂s proseuchē̂s mou ouk en cheílesin dolíois.
+Eisákouson, kýrie, tē̂s dikaiosýnēs mou, prósches tē̂ deḗsei mou, enṓtisai tē̂s proseuchē̂s mou ouk en cheílesin dolíois.
 <sup>2</sup> Ek prosṓpou sou tò kríma mou exélthoi, hoi ophthalmoí mou idétōsan euthýtētas.
 <sup>3</sup> Edokímasas tḕn kardían mou, epesképsō nyktós; epýrōsás me, kaì ouch heuréthē en emoì adikía.
 <sup>4</sup> Hópōs àn mḕ lalḗsē tò stóma mou tà érga tō̂n anthrṓpōn, dià toùs lógous tō̂n cheiléōn sou egṑ ephýlaxa hodoùs sklērás.
@@ -402,7 +402,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Kýrios poimaínei me, kaì oudén me hysterḗsei.
+Kýrios poimaínei me, kaì oudén me hysterḗsei.
 <sup>2</sup> Eis tópon chlóēs, ekeî me kateskḗnōsen, epì hýdatos anapaúseōs exéthrepsén me,
 <sup>3</sup> tḕn psychḗn mou epéstrepsen. Hōdḗgēsén me epì tríbous dikaiosýnēs héneken toû onómatos autoû.
 <sup>4</sup> Eàn gàr kaì poreuthō̂ en mésō skiâs thanátou, ou phobēthḗsomai kaká, hóti sỳ met’ emoû eî; hē rhábdos sou kaì hē baktēría sou, autaí me parekálesan.
@@ -413,7 +413,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid; tē̂s miâs sabbátōn.
 
- Toû kyríou hē gē̂ kaì tò plḗrōma autē̂s, hē oikouménē kaì pántes hoi katoikoûntes en autē̂;
+Toû kyríou hē gē̂ kaì tò plḗrōma autē̂s, hē oikouménē kaì pántes hoi katoikoûntes en autē̂;
 <sup>2</sup> autòs epì thalassō̂n ethemelíōsen autḕn kaì epì potamō̂n hētoímasen autḗn.
 <sup>3</sup> Tís anabḗsetai eis tò óros toû kyríou kaì tís stḗsetai en tópō hagíō autoû?
 <sup>4</sup> Athō̂os chersìn kaì katharòs tē̂ kardía, hòs ouk élaben epì mataíō tḕn psychḕn autoû kaì ouk ṓmosen epì dólō tō̂ plēsíon autoû.
@@ -428,7 +428,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Pròs sé, kýrie, ē̂ra tḕn psychḗn mou, ho theós mou.
+Pròs sé, kýrie, ē̂ra tḕn psychḗn mou, ho theós mou.
 <sup>2</sup> Epì soì pépoitha; mḕ kataischyntheíēn, mēdè katagelasátōsán mou hoi echthroí mou.
 <sup>3</sup> Kaì gàr pántes hoi hypoménontés se ou mḕ kataischynthō̂sin; aischynthḗtōsan pántes hoi anomoûntes dià kenē̂s.
 <sup>4</sup> Tàs hodoús sou, kýrie, gnṓrisón moi kaì tàs tríbous sou dídaxón me.
@@ -455,7 +455,7 @@
 
 <sup>1</sup> Toû Dauid.
 
- Krînón me, kýrie, hóti egṑ en akakía mou eporeúthēn kaì epì tō̂ kyríō elpízōn ou mḕ asthenḗsō.
+Krînón me, kýrie, hóti egṑ en akakía mou eporeúthēn kaì epì tō̂ kyríō elpízōn ou mḕ asthenḗsō.
 <sup>2</sup> Dokímasón me, kýrie, kaì peírasón me, pýrōson toùs nephroús mou kaì tḕn kardían mou.
 <sup>3</sup> Hóti tò éleós sou katénanti tō̂n ophthalmō̂n moú estin, kaì euēréstēsa en tē̂ alētheía sou.
 <sup>4</sup> Ouk ekáthisa metà synedríou mataiótētos kaì metà paranomoúntōn ou mḕ eisélthō;
@@ -472,7 +472,7 @@
 
 <sup>1</sup> Toû Dauid; prò toû christhē̂nai.
 
- Kýrios phōtismós mou kaì sōtḗr mou; tína phobēthḗsomai? Kýrios hyperaspistḕs tē̂s zōē̂s mou; apò tínos deiliásō?
+Kýrios phōtismós mou kaì sōtḗr mou; tína phobēthḗsomai? Kýrios hyperaspistḕs tē̂s zōē̂s mou; apò tínos deiliásō?
 <sup>2</sup> En tō̂ engízein ep’ emè kakoûntas toû phageîn tàs sárkas mou hoi thlíbontés me kaì hoi echthroí mou autoì ēsthénēsan kaì épesan;
 <sup>3</sup> eàn paratáxētai ep’ emè parembolḗ, ou phobēthḗsetai hē kardía mou; eàn epanastē̂ ep’ emè pólemos, en taútē egṑ elpízō.
 <sup>4</sup> Mían ētēsámēn parà kyríou, taútēn ekzētḗsō; toû katoikeîn me en oíkō kyríou pásas tàs hēméras tē̂s zōē̂s mou, toû theōreîn me tḕn terpnótēta toû kyríou kaì episképtesthai tòn naòn autoû.
@@ -491,7 +491,7 @@
 
 <sup>1</sup> Toû Dauid.
 
- Pròs sé, kýrie, ekékraxa, ho theós mou, mḕ parasiōpḗsēs ap’ emoû, mḗpote parasiōpḗsēs ap’ emoû kaì homoiōthḗsomai toîs katabaínousin eis lákkon.
+Pròs sé, kýrie, ekékraxa, ho theós mou, mḕ parasiōpḗsēs ap’ emoû, mḗpote parasiōpḗsēs ap’ emoû kaì homoiōthḗsomai toîs katabaínousin eis lákkon.
 <sup>2</sup> Eisákouson tē̂s phōnē̂s tē̂s deḗseṓs mou en tō̂ déesthaí me pròs sé, en tō̂ me aírein cheîrás mou pròs naòn hágión sou.
 <sup>3</sup> Mḕ synelkýsēs metà hamartōlō̂n tḕn psychḗn mou kaì metà ergazoménōn adikían mḕ synapolésēs me tō̂n laloúntōn eirḗnēn metà tō̂n plēsíon autō̂n, kakà dè en taîs kardíais autō̂n.
 <sup>4</sup> Dòs autoîs katà tà érga autō̂n kaì katà tḕn ponērían tō̂n epitēdeumátōn autō̂n; katà tà érga tō̂n cheirō̂n autō̂n dòs autoîs, apódos tò antapódoma autō̂n autoîs.
@@ -505,7 +505,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid; exodíou skēnē̂s.
 
- Enénkate tō̂ kyríō, hyioì theoû, enénkate tō̂ kyríō hyioùs kriō̂n, enénkate tō̂ kyríō dóxan kaì timḗn,
+Enénkate tō̂ kyríō, hyioì theoû, enénkate tō̂ kyríō hyioùs kriō̂n, enénkate tō̂ kyríō dóxan kaì timḗn,
 <sup>2</sup> enénkate tō̂ kyríō dóxan onómati autoû, proskynḗsate tō̂ kyríō en aulē̂ hagía autoû.
 <sup>3</sup> Phōnḕ kyríou epì tō̂n hydátōn, ho theòs tē̂s dóxēs ebróntēsen, kýrios epì hydátōn pollō̂n.
 <sup>4</sup> Phōnḕ kyríou en ischýi, phōnḕ kyríou en megaloprepeía.
@@ -568,7 +568,7 @@
 
 <sup>1</sup> Tō̂ Dauid; synéseōs.
 
- Makárioi hō̂n aphéthēsan hai anomíai kaì hō̂n epekalýphthēsan hai hamartíai;
+Makárioi hō̂n aphéthēsan hai anomíai kaì hō̂n epekalýphthēsan hai hamartíai;
 <sup>2</sup> makários anḗr, hoû ou mḕ logísētai kýrios hamartían, oudè éstin en tō̂ stómati autoû dólos.
 <sup>3</sup> Hóti esígēsa, epalaiṓthē tà ostâ mou apò toû krázein me hólēn tḕn hēméran;
 <sup>4</sup> hóti hēméras kaì nyktòs ebarýnthē ep’ emè hē cheír sou, estráphēn eis talaipōrían en tō̂ empagē̂nai ákanthan. Diápsalma.
@@ -584,7 +584,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Agalliâsthe, díkaioi, en tō̂ kyríō; toîs euthési prépei aínesis.
+Agalliâsthe, díkaioi, en tō̂ kyríō; toîs euthési prépei aínesis.
 <sup>2</sup> Exomologeîsthe tō̂ kyríō en kithára, en psaltēríō dekachórdō psálate autō̂.
 <sup>3</sup> Ásate autō̂ âsma kainón, kalō̂s psálate en alalagmō̂.
 <sup>4</sup> Hóti euthḕs ho lógos toû kyríou, kaì pánta tà érga autoû en pístei;
@@ -638,7 +638,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Díkason, kýrie, toùs adikoûntás me, polémēson toùs polemoûntás me.
+Díkason, kýrie, toùs adikoûntás me, polémēson toùs polemoûntás me.
 <sup>2</sup> Epilaboû hóplou kaì thyreoû kaì anástēthi eis boḗtheián mou,
 <sup>3</sup> ékcheon rhomphaían kaì sýnkleison ex enantías tō̂n katadiōkóntōn me; eipòn tē̂ psychē̂ mou Sōtēría sou egṓ eimi.
 <sup>4</sup> Aischynthḗtōsan kaì entrapḗtōsan hoi zētoûntes tḕn psychḗn mou, apostraphḗtōsan eis tà opísō kaì kataischynthḗtōsan hoi logizómenoí moi kaká.
@@ -688,7 +688,7 @@
 
 <sup>1</sup> Toû Dauid.
 
- Mḕ parazḗlou en ponēreuoménois mēdè zḗlou toùs poioûntas tḕn anomían;
+Mḕ parazḗlou en ponēreuoménois mēdè zḗlou toùs poioûntas tḕn anomían;
 <sup>2</sup> hóti hōseì chórtos tachỳ apoxēranthḗsontai kaì hōseì láchana chlóēs tachỳ apopesoûntai.
 <sup>3</sup> Élpison epì kýrion kaì poíei chrēstótēta kaì kataskḗnou tḕn gē̂n, kaì poimanthḗsē epì tō̂ ploútō autē̂s;
 <sup>4</sup> katatrýphēson toû kyríou, kaì dṓsei soi tà aitḗmata tē̂s kardías sou.
@@ -836,7 +836,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Krînón me, ho theós, kaì díkason tḕn díkēn mou ex éthnous ouch hosíou, apò anthrṓpou adíkou kaì dolíou rhŷsaí me.
+Krînón me, ho theós, kaì díkason tḕn díkēn mou ex éthnous ouch hosíou, apò anthrṓpou adíkou kaì dolíou rhŷsaí me.
 <sup>2</sup> Hóti sỳ eî, ho theós, krataíōmá mou; hína tí apṓsō me? Kaì hína tí skythrōpázōn poreúomai en tō̂ ekthlíbein tòn echthrón mou?
 <sup>3</sup> Exapósteilon tò phō̂s sou kaì tḕn alḗtheián sou; autá me hōdḗgēsan kaì ḗgagón me eis óros hágión sou kaì eis tà skēnṓmatá sou.
 <sup>4</sup> Kaì eiseleúsomai pròs tò thysiastḗrion toû theoû pròs tòn theòn tòn euphraínonta tḕn neótētá mou; exomologḗsomaí soi en kithára, ho theòs ho theós mou.
@@ -973,7 +973,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Asaph.
 
- Theòs theō̂n kýrios elálēsen kaì ekálesen tḕn gē̂n apò anatolō̂n hēlíou kaì méchri dysmō̂n.
+Theòs theō̂n kýrios elálēsen kaì ekálesen tḕn gē̂n apò anatolō̂n hēlíou kaì méchri dysmō̂n.
 <sup>2</sup> Ek Siōn hē euprépeia tē̂s hōraiótētos autoû, ho theòs emphanō̂s hḗxei,
 <sup>3</sup> ho theòs hēmō̂n, kaì ou parasiōpḗsetai; pŷr enantíon autoû kauthḗsetai, kaì kýklō autoû kataigìs sphódra.
 <sup>4</sup> Proskalésetai tòn ouranòn ánō kaì tḕn gē̂n diakrînai tòn laòn autoû;
@@ -1383,7 +1383,7 @@
 <sup>1</sup> Eis tò télos; tō̂ Dauid eis anámnēsin,
 <sup>2</sup> eis tò sō̂saí me kýrion.
 
- Ho theós, eis tḕn boḗtheián mou prósches.
+Ho theós, eis tḕn boḗtheián mou prósches.
 <sup>3</sup> Aischyntheíēsan kaì entrapeíēsan hoi zētoûntés mou tḕn psychḗn, apostrapheíēsan eis tà opísō kaì kataischyntheíēsan hoi boulómenoí moi kaká,
 <sup>4</sup> apostrapheíēsan parautíka aischynómenoi hoi légontés moi Eûge eûge.
 <sup>5</sup> Agalliásthōsan kaì euphranthḗtōsan epì soì pántes hoi zētoûntés se, kaì legétōsan dià pantós Megalynthḗtō ho theós, hoi agapō̂ntes tò sōtḗrión sou.
@@ -1393,7 +1393,7 @@
 
 <sup>1</sup> Tō̂ Dauid; hyiō̂n Iōnadab kaì tō̂n prṓtōn aichmalōtisthéntōn.
 
- Ho theós, epì soì ḗlpisa, mḕ kataischyntheíēn eis tòn aiō̂na.
+Ho theós, epì soì ḗlpisa, mḕ kataischyntheíēn eis tòn aiō̂na.
 <sup>2</sup> En tē̂ dikaiosýnē sou rhŷsaí me kaì exeloû me, klînon prós me tò oûs sou kaì sō̂són me.
 <sup>3</sup> Genoû moi eis theòn hyperaspistḕn kaì eis tópon ochyròn toû sō̂saí me, hóti steréōmá mou kaì kataphygḗ mou eî sý.
 <sup>4</sup> Ho theós mou, rhŷsaí me ek cheiròs hamartōloû, ek cheiròs paranomoûntos kaì adikoûntos;
@@ -1422,7 +1422,7 @@
 
 <sup>1</sup> Eis Salōmōn.
 
- Ho theós, tò kríma sou tō̂ basileî dòs kaì tḕn dikaiosýnēn sou tō̂ hyiō̂ toû basiléōs
+Ho theós, tò kríma sou tō̂ basileî dòs kaì tḕn dikaiosýnēn sou tō̂ hyiō̂ toû basiléōs
 <sup>2</sup> krínein tòn laón sou en dikaiosýnē kaì toùs ptōchoús sou en krísei.
 <sup>3</sup> Analabétō tà órē eirḗnēn tō̂ laō̂ sou kaì hoi bounoì en dikaiosýnē.
 <sup>4</sup> Krineî toùs ptōchoùs toû laoû kaì sṓsei toùs hyioùs tō̂n penḗtōn kaì tapeinṓsei sykophántēn
@@ -1449,7 +1449,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Asaph.
 
- Hōs agathòs tō̂ Israēl ho theós, toîs euthési tē̂ kardía.
+Hōs agathòs tō̂ Israēl ho theós, toîs euthési tē̂ kardía.
 <sup>2</sup> Emoû dè parà mikròn esaleúthēsan hoi pódes, par’ olígon exechýthē tà diabḗmatá mou.
 <sup>3</sup> Hóti ezḗlōsa epì toîs anómois eirḗnēn hamartōlō̂n theōrō̂n,
 <sup>4</sup> hóti ouk éstin anáneusis tō̂ thanátō autō̂n kaì steréōma en tē̂ mástigi autō̂n;
@@ -1482,7 +1482,7 @@
 
 <sup>1</sup> Synéseōs tō̂ Asaph.
 
- Hína tí apṓsō, ho theós, eis télos, ōrgísthē ho thymós sou epì próbata nomē̂s sou?
+Hína tí apṓsō, ho theós, eis télos, ōrgísthē ho thymós sou epì próbata nomē̂s sou?
 <sup>2</sup> Mnḗsthēti tē̂s synagōgē̂s sou, hē̂s ektḗsō ap’ archē̂s; elytrṓsō rhábdon klēronomías sou, óros Siōn toûto, hò kateskḗnōsas en autō̂.
 <sup>3</sup> Éparon tàs cheîrás sou epì tàs hyperēphanías autō̂n eis télos, hósa eponēreúsato ho echthròs en toîs hagíois sou.
 <sup>4</sup> Kaì enekauchḗsanto hoi misoûntés se en mésō tē̂s heortē̂s sou, éthento tà sēmeîa autō̂n sēmeîa kaì ouk égnōsan.
@@ -1567,7 +1567,7 @@
 
 <sup>1</sup> Synéseōs tō̂ Asaph.
 
- Proséchete, laós mou, tòn nómon mou, klínate tò oûs hymō̂n eis tà rhḗmata toû stómatós mou;
+Proséchete, laós mou, tòn nómon mou, klínate tò oûs hymō̂n eis tà rhḗmata toû stómatós mou;
 <sup>2</sup> anoíxō en parabolaîs tò stóma mou, phthénxomai problḗmata ap’ archē̂s.
 <sup>3</sup> Hósa ēkoúsamen kaì égnōmen autà kaì hoi patéres hēmō̂n diēgḗsanto hēmîn,
 <sup>4</sup> ouk ekrýbē apò tō̂n téknōn autō̂n eis geneàn hetéran apangéllontes tàs ainéseis toû kyríou kaì tàs dynasteías autoû kaì tà thaumásia autoû, hà epoíēsen.
@@ -1644,7 +1644,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Asaph.
 
- Ho theós, ḗlthosan éthnē eis tḕn klēronomían sou, emíanan tòn naòn tòn hágión sou, éthento Ierousalēm eis opōrophylákion.
+Ho theós, ḗlthosan éthnē eis tḕn klēronomían sou, emíanan tòn naòn tòn hágión sou, éthento Ierousalēm eis opōrophylákion.
 <sup>2</sup> Éthento tà thnēsimaîa tō̂n doúlōn sou brṓmata toîs peteinoîs toû ouranoû, tàs sárkas tō̂n hosíōn sou toîs thēríois tē̂s gē̂s;
 <sup>3</sup> exéchean tò haîma autō̂n hōs hýdōr kýklō Ierousalēm, kaì ouk ē̂n ho tháptōn.
 <sup>4</sup> Egenḗthēmen óneidos toîs geítosin hēmō̂n, myktērismòs kaì chleuasmòs toîs kýklō hēmō̂n.
@@ -1708,7 +1708,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Asaph.
 
- Ho theòs éstē en synagōgē̂ theō̂n, en mésō dè theoùs diakrínei
+Ho theòs éstē en synagōgē̂ theō̂n, en mésō dè theoùs diakrínei
 
 <sup>2</sup> Héōs póte krínete adikían kaì prósōpa hamartōlō̂n lambánete? Diápsalma.
 <sup>3</sup> Krínate orphanòn kaì ptōchón, tapeinòn kaì pénēta dikaiṓsate;
@@ -1781,7 +1781,7 @@
 
 <sup>1</sup> Proseuchḕ tō̂ Dauid.
 
- Klînon, kýrie, tò oûs sou kaì epákousón mou, hóti ptōchòs kaì pénēs eimì egṓ.
+Klînon, kýrie, tò oûs sou kaì epákousón mou, hóti ptōchòs kaì pénēs eimì egṓ.
 <sup>2</sup> Phýlaxon tḕn psychḗn mou, hóti hósiós eimi; sō̂son tòn doûlón sou, ho theós mou, tòn elpízonta epì sé.
 <sup>3</sup> Eléēsón me, kýrie, hóti pròs sè kekráxomai hólēn tḕn hēméran.
 <sup>4</sup> Eúphranon tḕn psychḕn toû doúlou sou, hóti pròs sé, kýrie, ē̂ra tḕn psychḗn mou.
@@ -1803,7 +1803,7 @@
 
 <sup>1</sup> Toîs hyioîs Kore psalmòs ōdē̂s.
 
- Hoi themélioi autoû en toîs óresin toîs hagíois;
+Hoi themélioi autoû en toîs óresin toîs hagíois;
 <sup>2</sup> agapâ kýrios tàs pýlas Siōn hypèr pánta tà skēnṓmata Iakōb.
 <sup>3</sup> Dedoxasména elalḗthē perì soû, hē pólis toû theoû. Diápsalma.
 <sup>4</sup> Mnēsthḗsomai Raab kaì Babylō̂nos toîs ginṓskousín me; kaì idoù allóphyloi kaì Týros kaì laòs Aithiópōn, hoûtoi egenḗthēsan ekeî.
@@ -1901,7 +1901,7 @@
 
 <sup>1</sup> Proseuchḕ toû Mōysē̂ anthrṓpou toû theoû.
 
- Kýrie, kataphygḕ egenḗthēs hēmîn en geneâ kaì geneâ;
+Kýrie, kataphygḕ egenḗthēs hēmîn en geneâ kaì geneâ;
 <sup>2</sup> prò toû órē genēthē̂nai kaì plasthē̂nai tḕn gē̂n kaì tḕn oikouménēn kaì apò toû aiō̂nos héōs toû aiō̂nos sỳ eî.
 <sup>3</sup> Mḕ apostrépsēs ánthrōpon eis tapeínōsin; kaì eîpas Epistrépsate, hyioì anthrṓpōn.
 <sup>4</sup> Hóti chília étē en ophthalmoîs sou hōs hē hēméra hē echthés, hḗtis diē̂lthen, kaì phylakḕ en nyktí.
@@ -1923,7 +1923,7 @@
 
 <sup>1</sup> Aînos ōdē̂s tō̂ Dauid.
 
- Ho katoikō̂n en boētheía toû hypsístou en sképē toû theoû toû ouranoû aulisthḗsetai.
+Ho katoikō̂n en boētheía toû hypsístou en sképē toû theoû toû ouranoû aulisthḗsetai.
 <sup>2</sup> Ereî tō̂ kyríō Antilḗmptōr mou eî kaì kataphygḗ mou, ho theós mou, elpiō̂ ep’ autón,
 <sup>3</sup> hóti autòs rhýsetaí me ek pagídos thēreutō̂n kaì apò lógou tarachṓdous.
 <sup>4</sup> En toîs metaphrénois autoû episkiásei soi, kaì hypò tàs ptérygas autoû elpieîs; hóplō kyklṓsei se hē alḗtheia autoû.
@@ -1964,7 +1964,7 @@
 
 <sup>1</sup> Eis tḕn hēméran toû prosabbátou, hóte katṓkistai hē gē̂; aînos ōdē̂s tō̂ Dauid.
 
- Ho kýrios ebasíleusen, euprépeian enedýsato, enedýsato kýrios dýnamin kaì periezṓsato; kaì gàr esteréōsen tḕn oikouménēn, hḗtis ou saleuthḗsetai.
+Ho kýrios ebasíleusen, euprépeian enedýsato, enedýsato kýrios dýnamin kaì periezṓsato; kaì gàr esteréōsen tḕn oikouménēn, hḗtis ou saleuthḗsetai.
 <sup>2</sup> Hétoimos ho thrónos sou apò tóte, apò toû aiō̂nos sỳ eî.
 <sup>3</sup> Epē̂ran hoi potamoí, kýrie, epē̂ran hoi potamoì phōnàs autō̂n;
 <sup>4</sup> apò phōnō̂n hydátōn pollō̂n thaumastoì hoi meteōrismoì tē̂s thalássēs, thaumastòs en hypsēloîs ho kýrios.
@@ -1974,7 +1974,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid, tetrádi sabbátōn.
 
- Ho theòs ekdikḗseōn kýrios, ho theòs ekdikḗseōn eparrēsiásato.
+Ho theòs ekdikḗseōn kýrios, ho theòs ekdikḗseōn eparrēsiásato.
 <sup>2</sup> Hypsṓthēti, ho krínōn tḕn gē̂n, apódos antapódosin toîs hyperēphánois.
 <sup>3</sup> Héōs póte hamartōloí, kýrie, héōs póte hamartōloì kauchḗsontai,
 <sup>4</sup> phthénxontai kaì lalḗsousin adikían, lalḗsousin pántes hoi ergazómenoi tḕn anomían?
@@ -2002,7 +2002,7 @@
 
 <sup>1</sup> Aînos ōdē̂s tō̂ Dauid.
 
- Deûte agalliasṓmetha tō̂ kyríō, alaláxōmen tō̂ theō̂ tō̂ sōtē̂ri hēmō̂n;
+Deûte agalliasṓmetha tō̂ kyríō, alaláxōmen tō̂ theō̂ tō̂ sōtē̂ri hēmō̂n;
 <sup>2</sup> prophthásōmen tò prósōpon autoû en exomologḗsei kaì en psalmoîs alaláxōmen autō̂.
 <sup>3</sup> Hóti theòs mégas kýrios kaì basileùs mégas epì pántas toùs theoús;
 <sup>4</sup> hóti en tē̂ cheirì autoû tà pérata tē̂s gē̂s, kaì tà hýpsē tō̂n oréōn autoû eisin;
@@ -2018,7 +2018,7 @@
 
 <sup>1</sup> Hóte ho oîkos ōkodomeîto metà tḕn aichmalōsían; ōdḕ tō̂ Dauid.
 
- Áisate tō̂ kyríō âsma kainón, ásate tō̂ kyríō, pâsa hē gē̂;
+Áisate tō̂ kyríō âsma kainón, ásate tō̂ kyríō, pâsa hē gē̂;
 <sup>2</sup> ásate tō̂ kyríō, eulogḗsate tò ónoma autoû, euangelízesthe hēméran ex hēméras tò sōtḗrion autoû;
 <sup>3</sup> anangeílate en toîs éthnesin tḕn dóxan autoû, en pâsi toîs laoîs tà thaumásia autoû.
 <sup>4</sup> Hóti mégas kýrios kaì ainetòs sphódra, phoberós estin epì pántas toùs theoús;
@@ -2036,7 +2036,7 @@
 
 <sup>1</sup> Tō̂ Dauid, hóte hē gē̂ autoû kathístatai.
 
- Ho kýrios ebasíleusen, agalliásthō hē gē̂, euphranthḗtōsan nē̂soi pollaí.
+Ho kýrios ebasíleusen, agalliásthō hē gē̂, euphranthḗtōsan nē̂soi pollaí.
 <sup>2</sup> Nephélē kaì gnóphos kýklō autoû, dikaiosýnē kaì kríma katórthōsis toû thrónou autoû.
 <sup>3</sup> Pŷr enantíon autoû proporeúsetai kaì phlogieî kýklō toùs echthroùs autoû;
 <sup>4</sup> éphanan hai astrapaì autoû tē̂ oikouménē, eîden kaì esaleúthē hē gē̂.
@@ -2053,7 +2053,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Áisate tō̂ kyríō âsma kainón, hóti thaumastà epoíēsen kýrios; ésōsen autō̂ hē dexià autoû kaì ho brachíōn ho hágios autoû.
+Áisate tō̂ kyríō âsma kainón, hóti thaumastà epoíēsen kýrios; ésōsen autō̂ hē dexià autoû kaì ho brachíōn ho hágios autoû.
 <sup>2</sup> Egnṓrisen kýrios tò sōtḗrion autoû, enantíon tō̂n ethnō̂n apekálypsen tḕn dikaiosýnēn autoû.
 <sup>3</sup> Emnḗsthē toû eléous autoû tō̂ Iakōb kaì tē̂s alētheías autoû tō̂ oíkō Israēl; eídosan pánta tà pérata tē̂s gē̂s tò sōtḗrion toû theoû hēmō̂n.
 <sup>4</sup> Alaláxate tō̂ theō̂, pâsa hē gē̂, ásate kaì agalliâsthe kaì psálate;
@@ -2067,7 +2067,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Ho kýrios ebasíleusen, orgizésthōsan laoí; ho kathḗmenos epì tō̂n cheroubin, saleuthḗtō hē gē̂.
+Ho kýrios ebasíleusen, orgizésthōsan laoí; ho kathḗmenos epì tō̂n cheroubin, saleuthḗtō hē gē̂.
 <sup>2</sup> Kýrios en Siōn mégas kaì hypsēlós estin epì pántas toùs laoús;
 <sup>3</sup> exomologēsásthōsan tō̂ onómatí sou tō̂ megálō, hóti phoberòn kaì hágión estin.
 <sup>4</sup> Kaì timḕ basiléōs krísin agapâ; sỳ hētoímasas euthýtētas, krísin kaì dikaiosýnēn en Iakōb sỳ epoíēsas.
@@ -2082,7 +2082,7 @@
 
 <sup>1</sup> Psalmòs eis exomológēsin.
 
- Alaláxate tō̂ kyríō, pâsa hē gē̂,
+Alaláxate tō̂ kyríō, pâsa hē gē̂,
 <sup>2</sup> douleúsate tō̂ kyríō en euphrosýnē, eisélthate enṓpion autoû en agalliásei.
 <sup>3</sup> Gnō̂te hóti kýrios, autós estin ho theós, autòs epoíēsen hēmâs kaì ouch hēmeîs, laòs autoû kaì próbata tē̂s nomē̂s autoû.
 <sup>4</sup> Eisélthate eis tàs pýlas autoû en exomologḗsei, eis tàs aulàs autoû en hýmnois; exomologeîsthe autō̂, aineîte tò ónoma autoû,
@@ -2092,7 +2092,7 @@
 
 <sup>1</sup> Tō̂ Dauid psalmós.
 
- Éleos kaì krísin ásomaí soi, kýrie;
+Éleos kaì krísin ásomaí soi, kýrie;
 <sup>2</sup> psalō̂ kaì synḗsō en hodō̂ amṓmō; póte hḗxeis prós me? Dieporeuómēn en akakía kardías mou en mésō toû oíkou mou.
 <sup>3</sup> Ou proethémēn prò ophthalmō̂n mou prâgma paránomon, poioûntas parabáseis emísēsa;
 <sup>4</sup> ouk ekollḗthē moi kardía skambḗ, ekklínontos ap’ emoû toû ponēroû ouk egínōskon.
@@ -2138,7 +2138,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Eulógei, hē psychḗ mou, tòn kýrion kaí, pánta tà entós mou, tò ónoma tò hágion autoû;
+Eulógei, hē psychḗ mou, tòn kýrion kaí, pánta tà entós mou, tò ónoma tò hágion autoû;
 <sup>2</sup> eulógei, hē psychḗ mou, tòn kýrion kaì mḕ epilanthánou pásas tàs antapodóseis autoû;
 <sup>3</sup> tòn euilateúonta pásais taîs anomíais sou, tòn iṓmenon pásas tàs nósous sou;
 <sup>4</sup> tòn lytroúmenon ek phthorâs tḕn zōḗn sou, tòn stephanoûntá se en eléei kaì oiktirmoîs;
@@ -2165,7 +2165,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Eulógei, hē psychḗ mou, tòn kýrion. Kýrie ho theós mou, emegalýnthēs sphódra, exomológēsin kaì euprépeian enedýsō
+Eulógei, hē psychḗ mou, tòn kýrion. Kýrie ho theós mou, emegalýnthēs sphódra, exomológēsin kaì euprépeian enedýsō
 <sup>2</sup> anaballómenos phō̂s hōs himátion, ekteínōn tòn ouranòn hōseì dérrin;
 <sup>3</sup> ho stegázōn en hýdasin tà hyperō̂a autoû, ho titheìs néphē tḕn epíbasin autoû, ho peripatō̂n epì pterýgōn anémōn;
 <sup>4</sup> ho poiō̂n toùs angélous autoû pneúmata kaì toùs leitourgoùs autoû pŷr phlégon.
@@ -2205,7 +2205,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Exomologeîsthe tō̂ kyríō kaì epikaleîsthe tò ónoma autoû, apangeílate en toîs éthnesin tà érga autoû;
+Exomologeîsthe tō̂ kyríō kaì epikaleîsthe tò ónoma autoû, apangeílate en toîs éthnesin tà érga autoû;
 <sup>2</sup> ásate autō̂ kaì psálate autō̂, diēgḗsasthe pánta tà thaumásia autoû.
 <sup>3</sup> Epaineîsthe en tō̂ onómati tō̂ hagíō autoû, euphranthḗtō kardía zētoúntōn tòn kýrion;
 <sup>4</sup> zētḗsate tòn kýrion kaì krataiṓthēte, zētḗsate tò prósōpon autoû dià pantós.
@@ -2256,7 +2256,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû.
+Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû.
 <sup>2</sup> Tís lalḗsei tàs dynasteías toû kyríou, akoustàs poiḗsei pásas tàs ainéseis autoû?
 <sup>3</sup> Makárioi hoi phylássontes krísin kaì poioûntes dikaiosýnēn en pantì kairō̂.
 <sup>4</sup> Mnḗsthēti hēmō̂n, kýrie, en tē̂ eudokía toû laoû sou, epískepsai hēmâs en tō̂ sōtēríō sou
@@ -2310,7 +2310,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû
+Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû
 <sup>2</sup> eipátōsan hoi lelytrōménoi hypò kyríou, hoùs elytrṓsato ek cheiròs echthroû.
 <sup>3</sup> Ek tō̂n chōrō̂n synḗgagen autoùs apò anatolō̂n kaì dysmō̂n kaì borrâ kaì thalássēs.
 <sup>4</sup> Eplanḗthēsan en tē̂ erḗmō en anýdrō, hodòn póleōs katoikētēríou ouch heûron
@@ -2377,7 +2377,7 @@
 
 <sup>1</sup> Eis tò télos; tō̂ Dauid psalmós.
 
- Ho theós, tḕn aínesín mou mḕ parasiōpḗsēs,
+Ho theós, tḕn aínesín mou mḕ parasiōpḗsēs,
 <sup>2</sup> hóti stóma hamartōloû kaì stóma dolíou ep’ emè ēnoíchthē, elálēsan kat’ emoû glṓssē dolía
 <sup>3</sup> kaì lógois mísous ekýklōsán me kaì epolémēsán me dōreán.
 <sup>4</sup> Antì toû agapân me endiéballón me, egṑ dè proseuchómēn;
@@ -2413,7 +2413,7 @@
 
 <sup>1</sup> Tō̂ Dauid psalmós.
 
- Eîpen ho kýrios tō̂ kyríō mou Káthou ek dexiō̂n mou, héōs àn thō̂ toùs echthroús sou hypopódion tō̂n podō̂n sou.
+Eîpen ho kýrios tō̂ kyríō mou Káthou ek dexiō̂n mou, héōs àn thō̂ toùs echthroús sou hypopódion tō̂n podō̂n sou.
 <sup>2</sup> Rhábdon dynámeṓs sou exaposteleî kýrios ek Siōn, kaì katakyríeue en mésō tō̂n echthrō̂n sou.
 <sup>3</sup> Metà soû hē archḕ en hēméra tē̂s dynámeṓs sou en taîs lamprótēsin tō̂n hagíōn; ek gastròs prò heōsphórou exegénnēsá se.
 <sup>4</sup> Ṓmosen kýrios kaì ou metamelēthḗsetai Sỳ eî hiereùs eis tòn aiō̂na katà tḕn táxin Melchisedek.
@@ -2425,7 +2425,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Exomologḗsomaí soi, kýrie, en hólē kardía mou en boulē̂ eutheíōn kaì synagōgē̂.
+Exomologḗsomaí soi, kýrie, en hólē kardía mou en boulē̂ eutheíōn kaì synagōgē̂.
 <sup>2</sup> Megála tà érga kyríou, exezētēména eis pánta tà thelḗmata autoû;
 <sup>3</sup> exomológēsis kaì megaloprépeia tò érgon autoû, kaì hē dikaiosýnē autoû ménei eis tòn aiō̂na toû aiō̂nos.
 <sup>4</sup> Mneían epoiḗsato tō̂n thaumasíōn autoû, eleḗmōn kaì oiktírmōn ho kýrios;
@@ -2440,7 +2440,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Makários anḕr ho phoboúmenos tòn kýrion, en taîs entolaîs autoû thelḗsei sphódra;
+Makários anḕr ho phoboúmenos tòn kýrion, en taîs entolaîs autoû thelḗsei sphódra;
 <sup>2</sup> dynatòn en tē̂ gē̂ éstai tò spérma autoû, geneà eutheíōn eulogēthḗsetai;
 <sup>3</sup> dóxa kaì ploûtos en tō̂ oíkō autoû, kaì hē dikaiosýnē autoû ménei eis tòn aiō̂na toû aiō̂nos.
 <sup>4</sup> Exanéteilen en skótei phō̂s toîs euthésin eleḗmōn kaì oiktírmōn kaì díkaios.
@@ -2455,7 +2455,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Aineîte, paîdes, kýrion, aineîte tò ónoma kyríou;
+Aineîte, paîdes, kýrion, aineîte tò ónoma kyríou;
 <sup>2</sup> eíē tò ónoma kyríou eulogēménon apò toû nŷn kaì héōs toû aiō̂nos;
 <sup>3</sup> apò anatolō̂n hēlíou méchri dysmō̂n aineîte tò ónoma kyríou.
 <sup>4</sup> Hypsēlòs epì pánta tà éthnē ho kýrios, epì toùs ouranoùs hē dóxa autoû.
@@ -2469,7 +2469,7 @@
 
 <sup>1</sup> Allēlouia.
 
- En exódō Israēl ex Aigýptou, oíkou Iakōb ek laoû barbárou
+En exódō Israēl ex Aigýptou, oíkou Iakōb ek laoû barbárou
 <sup>2</sup> egenḗthē Ioudaía hagíasma autoû, Israēl exousía autoû.
 <sup>3</sup> Hē thálassa eîden kaì éphygen, ho Iordánēs estráphē eis tà opísō;
 <sup>4</sup> tà órē eskírtēsan hōseì krioì kaì hoi bounoì hōs arnía probátōn.
@@ -2500,7 +2500,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Ēgápēsa, hóti eisakoúsetai kýrios tē̂s phōnē̂s tē̂s deḗseṓs mou,
+Ēgápēsa, hóti eisakoúsetai kýrios tē̂s phōnē̂s tē̂s deḗseṓs mou,
 <sup>2</sup> hóti éklinen tò oûs autoû emoí, kaì en taîs hēmérais mou epikalésomai.
 <sup>3</sup> Periéschon me ōdînes thanátou, kíndynoi hádou heúrosán me; thlîpsin kaì odýnēn heûron.
 <sup>4</sup> Kaì tò ónoma kyríou epekalesámēn Ō̂ kýrie, rhŷsai tḕn psychḗn mou.
@@ -2514,7 +2514,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Epísteusa, diò elálēsa; egṑ dè etapeinṓthēn sphódra.
+Epísteusa, diò elálēsa; egṑ dè etapeinṓthēn sphódra.
 <sup>2</sup> Egṑ eîpa en tē̂ ekstásei mou Pâs ánthrōpos pseústēs.
 <sup>3</sup> Tí antapodṓsō tō̂ kyríō perì pántōn, hō̂n antapédōkén moi?
 <sup>4</sup> Potḗrion sōtēríou lḗmpsomai kaì tò ónoma kyríou epikalésomai.
@@ -2528,14 +2528,14 @@
 
 <sup>1</sup> Allēlouia.
 
- Aineîte tòn kýrion, pánta tà éthnē, epainésate autón, pántes hoi laoí,
+Aineîte tòn kýrion, pánta tà éthnē, epainésate autón, pántes hoi laoí,
 <sup>2</sup> hóti ekrataiṓthē tò éleos autoû eph’ hēmâs, kaì hē alḗtheia toû kyríou ménei eis tòn aiō̂na.
 
 ## Chapter 117
 
 <sup>1</sup> Allēlouia.
 
- Exomologeîsthe tō̂ kyríō, hóti agathós, hóti eis tòn aiō̂na tò éleos autoû.
+Exomologeîsthe tō̂ kyríō, hóti agathós, hóti eis tòn aiō̂na tò éleos autoû.
 <sup>2</sup> Eipátō dḕ oîkos Israēl hóti agathós, hóti eis tòn aiō̂na tò éleos autoû;
 <sup>3</sup> eipátō dḕ oîkos Aarōn hóti agathós, hóti eis tòn aiō̂na tò éleos autoû;
 <sup>4</sup> eipátōsan dḕ pántes hoi phoboúmenoi tòn kýrion hóti agathós, hóti eis tòn aiō̂na tò éleos autoû.
@@ -2568,10 +2568,10 @@
 ## Chapter 118
 
 <sup>1</sup> Allēlouia.
+
 #### Α alph.
 
-
- Makárioi hoi ámōmoi en hodō̂ hoi poreuómenoi en nómō kyríou.
+Makárioi hoi ámōmoi en hodō̂ hoi poreuómenoi en nómō kyríou.
 <sup>2</sup> Makárioi hoi exereunō̂ntes tà martýria autoû; en hólē kardía ekzētḗsousin autón.
 <sup>3</sup> Ou gàr hoi ergazómenoi tḕn anomían en taîs hodoîs autoû eporeúthēsan.
 <sup>4</sup> Sỳ eneteílō tàs entolás sou phyláxasthai sphódra.
@@ -2815,7 +2815,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Pròs kýrion en tō̂ thlíbesthaí me ekékraxa, kaì eisḗkousén mou.
+Pròs kýrion en tō̂ thlíbesthaí me ekékraxa, kaì eisḗkousén mou.
 <sup>2</sup> Kýrie, rhŷsai tḕn psychḗn mou apò cheiléōn adíkōn kaì apò glṓssēs dolías.
 <sup>3</sup> Tí dotheíē soi kaì tí prostetheíē soi pròs glō̂ssan dolían?
 <sup>4</sup> Tà bélē toû dynatoû ēkonēména sỳn toîs ánthraxin toîs erēmikoîs.
@@ -2827,7 +2827,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Ē̂ra toùs ophthalmoús mou eis tà órē Póthen hḗxei hē boḗtheiá mou?
+Ē̂ra toùs ophthalmoús mou eis tà órē Póthen hḗxei hē boḗtheiá mou?
 <sup>2</sup> Hē boḗtheiá mou parà kyríou toû poiḗsantos tòn ouranòn kaì tḕn gē̂n.
 <sup>3</sup> Mḕ dō̂s eis sálon tòn póda sou, mēdè nystáxē ho phylássōn se.
 <sup>4</sup> Idoù ou nystáxei oudè hypnṓsei ho phylássōn tòn Israēl.
@@ -2840,7 +2840,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Euphránthēn epì toîs eirēkósin moi Eis oîkon kyríou poreusómetha.
+Euphránthēn epì toîs eirēkósin moi Eis oîkon kyríou poreusómetha.
 <sup>2</sup> Hestō̂tes ē̂san hoi pódes hēmō̂n en taîs aulaîs sou, Ierousalēm.
 
 <sup>3</sup> Ierousalēm oikodomouménē hōs pólis hē̂s hē metochḕ autē̂s epì tò autó.
@@ -2855,7 +2855,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Pròs sè ē̂ra toùs ophthalmoús mou tòn katoikoûnta en tō̂ ouranō̂.
+Pròs sè ē̂ra toùs ophthalmoús mou tòn katoikoûnta en tō̂ ouranō̂.
 <sup>2</sup> Idoù hōs ophthalmoì doúlōn eis cheîras tō̂n kyríōn autō̂n, hōs ophthalmoì paidískēs eis cheîras tē̂s kyrías autē̂s, hoútōs hoi ophthalmoì hēmō̂n pròs kýrion tòn theòn hēmō̂n, héōs hoû oiktirḗsai hēmâs.
 <sup>3</sup> Eléēson hēmâs, kýrie, eléēson hēmâs, hóti epì polỳ eplḗsthēmen exoudenṓseōs,
 <sup>4</sup> epì pleîon eplḗsthē hē psychḕ hēmō̂n. Tò óneidos toîs euthēnoûsin, kaì hē exoudénōsis toîs hyperēphánois.
@@ -2864,7 +2864,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Ei mḕ hóti kýrios ē̂n en hēmîn, eipátō dḕ Israēl,
+Ei mḕ hóti kýrios ē̂n en hēmîn, eipátō dḕ Israēl,
 <sup>2</sup> ei mḕ hóti kýrios ē̂n en hēmîn en tō̂ epanastē̂nai anthrṓpous eph’ hēmâs,
 <sup>3</sup> ára zō̂ntas àn katépion hēmâs en tō̂ orgisthē̂nai tòn thymòn autō̂n eph’ hēmâs;
 <sup>4</sup> ára tò hýdōr katepóntisen hēmâs, cheímarron diē̂lthen hē psychḕ hēmō̂n;
@@ -2877,7 +2877,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Hoi pepoithótes epì kýrion hōs óros Siōn; ou saleuthḗsetai eis tòn aiō̂na ho katoikō̂n Ierousalēm.
+Hoi pepoithótes epì kýrion hōs óros Siōn; ou saleuthḗsetai eis tòn aiō̂na ho katoikō̂n Ierousalēm.
 <sup>2</sup> Órē kýklō autē̂s, kaì kýrios kýklō toû laoû autoû apò toû nŷn kaì héōs toû aiō̂nos.
 <sup>3</sup> Hóti ouk aphḗsei tḕn rhábdon tō̂n hamartōlō̂n epì tòn klē̂ron tō̂n dikaíōn, hópōs àn mḕ ekteínōsin hoi díkaioi en anomía cheîras autō̂n.
 <sup>4</sup> Agáthynon, kýrie, toîs agathoîs kaì toîs euthési tē̂ kardía;
@@ -2887,7 +2887,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- En tō̂ epistrépsai kýrion tḕn aichmalōsían Siōn egenḗthēmen hōs parakeklēménoi.
+En tō̂ epistrépsai kýrion tḕn aichmalōsían Siōn egenḗthēmen hōs parakeklēménoi.
 <sup>2</sup> Tóte eplḗsthē charâs tò stóma hēmō̂n kaì hē glō̂ssa hēmō̂n agalliáseōs. Tóte eroûsin en toîs éthnesin Emegálynen kýrios toû poiē̂sai met’ autō̂n.
 <sup>3</sup> Emegálynen kýrios toû poiē̂sai meth’ hēmō̂n, egenḗthēmen euphrainómenoi.
 <sup>4</sup> Epístrepson, kýrie, tḕn aichmalōsían hēmō̂n hōs cheimárrous en tō̂ nótō.
@@ -2898,7 +2898,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n; tō̂ Salōmōn.
 
- Eàn mḕ kýrios oikodomḗsē oîkon, eis mátēn ekopíasan hoi oikodomoûntes autón; eàn mḕ kýrios phyláxē pólin, eis mátēn ēgrýpnēsen ho phylássōn.
+Eàn mḕ kýrios oikodomḗsē oîkon, eis mátēn ekopíasan hoi oikodomoûntes autón; eàn mḕ kýrios phyláxē pólin, eis mátēn ēgrýpnēsen ho phylássōn.
 <sup>2</sup> Eis mátēn hymîn estin toû orthrízein, egeíresthai metà tò kathē̂sthai, hoi ésthontes árton odýnēs, hótan dō̂ toîs agapētoîs autoû hýpnon.
 <sup>3</sup> Idoù hē klēronomía kyríou hyioí, ho misthòs toû karpoû tē̂s gastrós.
 <sup>4</sup> Hōseì bélē en cheirì dynatoû, hoútōs hoi hyioì tō̂n ektetinagménōn.
@@ -2908,7 +2908,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Makárioi pántes hoi phoboúmenoi tòn kýrion hoi poreuómenoi en taîs hodoîs autoû.
+Makárioi pántes hoi phoboúmenoi tòn kýrion hoi poreuómenoi en taîs hodoîs autoû.
 <sup>2</sup> Toùs pónous tō̂n karpō̂n sou phágesai; makários eî, kaì kalō̂s soi éstai.
 <sup>3</sup> Hē gynḗ sou hōs ámpelos euthēnoûsa en toîs klítesi tē̂s oikías sou; hoi hyioí sou hōs neóphyta elaiō̂n kýklō tē̂s trapézēs sou.
 <sup>4</sup> Idoù hoútōs eulogēthḗsetai ánthrōpos ho phoboúmenos tòn kýrion.
@@ -2919,7 +2919,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Pleonákis epolémēsán me ek neótētós mou, eipátō dḕ Israēl,
+Pleonákis epolémēsán me ek neótētós mou, eipátō dḕ Israēl,
 <sup>2</sup> pleonákis epolémēsán me ek neótētós mou, kaì gàr ouk ēdynḗthēsán moi.
 <sup>3</sup> Epì toû nṓtou mou etéktainon hoi hamartōloí, emákrynan tḕn anomían autō̂n;
 <sup>4</sup> kýrios díkaios synékopsen auchénas hamartōlō̂n.
@@ -2932,7 +2932,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Ek bathéōn ekékraxá se, kýrie;
+Ek bathéōn ekékraxá se, kýrie;
 <sup>2</sup> kýrie, eisákouson tē̂s phōnē̂s mou; genēthḗtō tà ō̂tá sou proséchonta eis tḕn phōnḕn tē̂s deḗseṓs mou.
 <sup>3</sup> Eàn anomías paratērḗsē, kýrie, kýrie, tís hypostḗsetai?
 <sup>4</sup> Hóti parà soì ho hilasmós estin.
@@ -2945,7 +2945,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n; tō̂ Dauid.
 
- Kýrie, ouch hypsṓthē mou hē kardía, oudè emeteōrísthēsan hoi ophthalmoí mou, oudè eporeúthēn en megálois oudè en thaumasíois hypèr emé.
+Kýrie, ouch hypsṓthē mou hē kardía, oudè emeteōrísthēsan hoi ophthalmoí mou, oudè eporeúthēn en megálois oudè en thaumasíois hypèr emé.
 <sup>2</sup> Ei mḕ etapeinophrónoun, allà hýpsōsa tḕn psychḗn mou hōs tò apogegalaktisménon epì tḕn mētéra autoû, hōs antapódosis epì tḕn psychḗn mou.
 <sup>3</sup> Elpisátō Israēl epì tòn kýrion apò toû nŷn kaì héōs toû aiō̂nos.
 
@@ -2953,7 +2953,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Mnḗsthēti, kýrie, toû Dauid kaì pásēs tē̂s praútētos autoû,
+Mnḗsthēti, kýrie, toû Dauid kaì pásēs tē̂s praútētos autoû,
 <sup>2</sup> hōs ṓmosen tō̂ kyríō, ēúxato tō̂ theō̂ Iakōb
 
 <sup>3</sup> Ei eiseleúsomai eis skḗnōma oíkou mou, ei anabḗsomai epì klínēs strōmnē̂s mou,
@@ -2978,7 +2978,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n; tō̂ Dauid.
 
- Idoù dḕ tí kalòn ḕ tí terpnòn all’ ḕ tò katoikeîn adelphoùs epì tò autó?
+Idoù dḕ tí kalòn ḕ tí terpnòn all’ ḕ tò katoikeîn adelphoùs epì tò autó?
 <sup>2</sup> Hōs mýron epì kephalē̂s tò katabaînon epì pṓgōna, tòn pṓgōna tòn Aarōn, tò katabaînon epì tḕn ṓan toû endýmatos autoû;
 <sup>3</sup> hōs drósos Aermōn hē katabaínousa epì tà órē Siōn; hóti ekeî eneteílato kýrios tḕn eulogían kaì zōḕn héōs toû aiō̂nos.
 
@@ -2986,7 +2986,7 @@
 
 <sup>1</sup> Ōidḕ tō̂n anabathmō̂n.
 
- Idoù dḕ eulogeîte tòn kýrion, pántes hoi doûloi kyríou hoi hestō̂tes en oíkō kyríou, en aulaîs oíkou theoû hēmō̂n.
+Idoù dḕ eulogeîte tòn kýrion, pántes hoi doûloi kyríou hoi hestō̂tes en oíkō kyríou, en aulaîs oíkou theoû hēmō̂n.
 <sup>2</sup> En taîs nyxìn epárate tàs cheîras hymō̂n eis tà hágia kaì eulogeîte tòn kýrion.
 <sup>3</sup> Eulogḗsei se kýrios ek Siōn ho poiḗsas tòn ouranòn kaì tḕn gē̂n.
 
@@ -2994,7 +2994,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Aineîte tò ónoma kyríou, aineîte, doûloi, kýrion,
+Aineîte tò ónoma kyríou, aineîte, doûloi, kýrion,
 <sup>2</sup> hoi hestō̂tes en oíkō kyríou, en aulaîs oíkou theoû hēmō̂n.
 <sup>3</sup> Aineîte tòn kýrion, hóti agathòs kýrios; psálate tō̂ onómati autoû, hóti kalón;
 <sup>4</sup> hóti tòn Iakōb exeléxato heautō̂ ho kýrios, Israēl eis periousiasmòn autoû.
@@ -3020,7 +3020,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû;
+Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò éleos autoû;
 <sup>2</sup> exomologeîsthe tō̂ theō̂ tō̂n theō̂n, hóti eis tòn aiō̂na tò éleos autoû;
 <sup>3</sup> exomologeîsthe tō̂ kyríō tō̂n kyríōn, hóti eis tòn aiō̂na tò éleos autoû;
 <sup>4</sup> tō̂ poioûnti thaumásia megála mónō, hóti eis tòn aiō̂na tò éleos autoû;
@@ -3051,7 +3051,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Epì tō̂n potamō̂n Babylō̂nos ekeî ekathísamen kaì eklaúsamen en tō̂ mnēsthē̂nai hēmâs tē̂s Siōn.
+Epì tō̂n potamō̂n Babylō̂nos ekeî ekathísamen kaì eklaúsamen en tō̂ mnēsthē̂nai hēmâs tē̂s Siōn.
 <sup>2</sup> Epì taîs itéais en mésō autē̂s ekremásamen tà órgana hēmō̂n;
 <sup>3</sup> hóti ekeî epērṓtēsan hēmâs hoi aichmalōteúsantes hēmâs lógous ōdō̂n kaì hoi apagagóntes hēmâs hýmnon Áisate hēmîn ek tō̂n ōdō̂n Siōn.
 <sup>4</sup> Pō̂s ásōmen tḕn ōdḕn kyríou epì gē̂s allotrías?
@@ -3065,7 +3065,7 @@
 
 <sup>1</sup> Tō̂ Dauid.
 
- Exomologḗsomaí soi, kýrie, en hólē kardía mou, hóti ḗkousas tà rhḗmata toû stómatós mou, kaì enantíon angélōn psalō̂ soi.
+Exomologḗsomaí soi, kýrie, en hólē kardía mou, hóti ḗkousas tà rhḗmata toû stómatós mou, kaì enantíon angélōn psalō̂ soi.
 <sup>2</sup> Proskynḗsō pròs naòn hágión sou kaì exomologḗsomai tō̂ onómatí sou epì tō̂ eléei sou kaì tē̂ alētheía sou, hóti emegálynas epì pân ónoma tò lógión sou.
 <sup>3</sup> En hē̂ àn hēméra epikalésōmaí se, tachỳ epákousón mou; polyōrḗseis me en psychē̂ mou en dynámei.
 <sup>4</sup> Exomologēsásthōsán soi, kýrie, pántes hoi basileîs tē̂s gē̂s, hóti ḗkousan pánta tà rhḗmata toû stómatós sou,
@@ -3078,7 +3078,7 @@
 
 <sup>1</sup> Eis tò télos; psalmòs tō̂ Dauid.
 
- Kýrie, edokímasás me kaì égnōs me;
+Kýrie, edokímasás me kaì égnōs me;
 <sup>2</sup> sỳ égnōs tḕn kathédran mou kaì tḕn égersín mou, sỳ synē̂kas toùs dialogismoús mou apò makróthen;
 <sup>3</sup> tḕn tríbon mou kaì tḕn schoînón mou sỳ exichníasas kaì pásas tàs hodoús mou proeîdes.
 <sup>4</sup> Hóti ouk éstin lógos en glṓssē mou,
@@ -3125,7 +3125,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid.
 
- Kýrie, ekékraxa pròs sé, eisákousón mou; prósches tē̂ phōnē̂ tē̂s deḗseṓs mou en tō̂ kekragénai me pròs sé.
+Kýrie, ekékraxa pròs sé, eisákousón mou; prósches tē̂ phōnē̂ tē̂s deḗseṓs mou en tō̂ kekragénai me pròs sé.
 <sup>2</sup> Kateuthynthḗtō hē proseuchḗ mou hōs thymíama enṓpión sou, éparsis tō̂n cheirō̂n mou thysía hesperinḗ.
 <sup>3</sup> Thoû, kýrie, phylakḕn tō̂ stómatí mou kaì thýran periochē̂s perì tà cheílē mou.
 <sup>4</sup> Mḕ ekklínēs tḕn kardían mou eis lógous ponērías toû prophasízesthai propháseis en hamartíais sỳn anthrṓpois ergazoménois anomían, kaì ou mḕ syndyásō metà tō̂n eklektō̂n autō̂n.
@@ -3152,7 +3152,7 @@
 
 <sup>1</sup> Psalmòs tō̂ Dauid, hóte autòn ho hyiòs katadiṓkei.
 
- Kýrie, eisákouson tē̂s proseuchē̂s mou, enṓtisai tḕn déēsín mou en tē̂ alētheía sou, epákousón mou en tē̂ dikaiosýnē sou;
+Kýrie, eisákouson tē̂s proseuchē̂s mou, enṓtisai tḕn déēsín mou en tē̂ alētheía sou, epákousón mou en tē̂ dikaiosýnē sou;
 <sup>2</sup> kaì mḕ eisélthēs eis krísin metà toû doúlou sou, hóti ou dikaiōthḗsetai enṓpión sou pâs zō̂n.
 <sup>3</sup> Hóti katedíōxen ho echthròs tḕn psychḗn mou, etapeínōsen eis gē̂n tḕn zōḗn mou, ekáthisén me en skoteinoîs hōs nekroùs aiō̂nos;
 <sup>4</sup> kaì ēkēdíasen ep’ emè tò pneûmá mou, en emoì etaráchthē hē kardía mou.
@@ -3169,7 +3169,7 @@
 
 <sup>1</sup> Tō̂ Dauid, pròs tòn Goliad.
 
- Eulogētòs kýrios ho theós mou ho didáskōn tàs cheîrás mou eis parátaxin, toùs daktýlous mou eis pólemon;
+Eulogētòs kýrios ho theós mou ho didáskōn tàs cheîrás mou eis parátaxin, toùs daktýlous mou eis pólemon;
 <sup>2</sup> éleós mou kaì kataphygḗ mou, antilḗmptōr mou kaì rhýstēs mou, hyperaspistḗs mou, kaì ep’ autō̂ ḗlpisa, ho hypotássōn tòn laón mou hyp’ emé.
 <sup>3</sup> Kýrie, tí estin ánthrōpos, hóti egnṓsthēs autō̂, ḕ hyiòs anthrṓpou, hóti logízē autón?
 <sup>4</sup> Ánthrōpos mataiótēti hōmoiṓthē, hai hēmérai autoû hōseì skià parágousin.
@@ -3189,7 +3189,7 @@
 
 <sup>1</sup> Aínesis tō̂ Dauid.
 
- Hypsṓsō se, ho theós mou ho basileús mou, kaì eulogḗsō tò ónomá sou eis tòn aiō̂na kaì eis tòn aiō̂na toû aiō̂nos.
+Hypsṓsō se, ho theós mou ho basileús mou, kaì eulogḗsō tò ónomá sou eis tòn aiō̂na kaì eis tòn aiō̂na toû aiō̂nos.
 <sup>2</sup> Kath’ hekástēn hēméran eulogḗsō se kaì ainésō tò ónomá sou eis tòn aiō̂na kaì eis tòn aiō̂na toû aiō̂nos.
 <sup>3</sup> Mégas kýrios kaì ainetòs sphódra, kaì tē̂s megalōsýnēs autoû ouk éstin péras.
 <sup>4</sup> Geneà kaì geneà epainései tà érga sou kaì tḕn dýnamín sou apangeloûsin.
@@ -3215,7 +3215,7 @@
 
 <sup>1</sup> Allēlouia; Angaiou kaì Zachariou.
 
- Aínei, hē psychḗ mou, tòn kýrion.
+Aínei, hē psychḗ mou, tòn kýrion.
 <sup>2</sup> Ainésō kýrion en zōē̂ mou, psalō̂ tō̂ theō̂ mou, héōs hypárchō.
 <sup>3</sup> Mḕ pepoíthate ep’ árchontas kaì eph’ hyioùs anthrṓpōn, hoîs ouk éstin sōtēría.
 <sup>4</sup> Exeleúsetai tò pneûma autoû, kaì epistrépsei eis tḕn gē̂n autoû; en ekeínē tē̂ hēméra apoloûntai pántes hoi dialogismoì autō̂n.
@@ -3230,7 +3230,7 @@
 
 <sup>1</sup> Allēlouia; Angaiou kaì Zachariou.
 
- Aineîte tòn kýrion, hóti agathòn psalmós; tō̂ theō̂ hēmō̂n hēdyntheíē aínesis.
+Aineîte tòn kýrion, hóti agathòn psalmós; tō̂ theō̂ hēmō̂n hēdyntheíē aínesis.
 <sup>2</sup> Oikodomō̂n Ierousalēm ho kýrios kaì tàs diasporàs toû Israēl episynáxei,
 <sup>3</sup> ho iṓmenos toùs syntetrimménous tḕn kardían kaì desmeúōn tà syntrímmata autō̂n,
 <sup>4</sup> ho arithmō̂n plḗthē ástrōn, kaì pâsin autoîs onómata kalō̂n.
@@ -3246,7 +3246,7 @@
 
 <sup>1</sup> Allēlouia; Angaiou kaì Zachariou.
 
- Epaínei, Ierousalēm, tòn kýrion, aínei tòn theón sou, Siōn,
+Epaínei, Ierousalēm, tòn kýrion, aínei tòn theón sou, Siōn,
 <sup>2</sup> hóti eníschysen toùs mochloùs tō̂n pylō̂n sou, eulógēsen toùs hyioús sou en soí;
 <sup>3</sup> ho titheìs tà hóriá sou eirḗnēn kaì stéar pyroû empiplō̂n se;
 <sup>4</sup> ho apostéllōn tò lógion autoû tē̂ gē̂, héōs táchous drameîtai ho lógos autoû
@@ -3260,7 +3260,7 @@
 
 <sup>1</sup> Allēlouia; Angaiou kaì Zachariou.
 
- Aineîte tòn kýrion ek tō̂n ouranō̂n, aineîte autòn en toîs hypsístois.
+Aineîte tòn kýrion ek tō̂n ouranō̂n, aineîte autòn en toîs hypsístois.
 <sup>2</sup> Aineîte autón, pántes hoi ángeloi autoû; aineîte autón, pâsai hai dynámeis autoû.
 <sup>3</sup> Aineîte autón, hḗlios kaì selḗnē; aineîte autón, pánta tà ástra kaì tò phō̂s.
 <sup>4</sup> Aineîte autón, hoi ouranoì tō̂n ouranō̂n kaì tò hýdōr tò hyperánō tō̂n ouranō̂n.
@@ -3279,7 +3279,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Áisate tō̂ kyríō âsma kainón, hē aínesis autoû en ekklēsía hosíōn.
+Áisate tō̂ kyríō âsma kainón, hē aínesis autoû en ekklēsía hosíōn.
 <sup>2</sup> Euphranthḗtō Israēl epì tō̂ poiḗsanti autón, kaì hyioì Siōn agalliásthōsan epì tō̂ basileî autō̂n;
 <sup>3</sup> ainesátōsan tò ónoma autoû en chorō̂, en tympánō kaì psaltēríō psalátōsan autō̂,
 <sup>4</sup> hóti eudokeî kýrios en laō̂ autoû kaì hypsṓsei praeîs en sōtēría.
@@ -3293,7 +3293,7 @@
 
 <sup>1</sup> Allēlouia.
 
- Aineîte tòn theòn en toîs hagíois autoû, aineîte autòn en stereṓmati dynámeōs autoû;
+Aineîte tòn theòn en toîs hagíois autoû, aineîte autòn en stereṓmati dynámeōs autoû;
 <sup>2</sup> aineîte autòn epì taîs dynasteíais autoû, aineîte autòn katà tò plē̂thos tē̂s megalōsýnēs autoû.
 <sup>3</sup> Aineîte autòn en ḗchō sálpingos, aineîte autòn en psaltēríō kaì kithára;
 <sup>4</sup> aineîte autòn en tympánō kaì chorō̂, aineîte autòn en chordaîs kaì orgánō;
@@ -3304,7 +3304,7 @@
 
 <sup>1</sup> Hoûtos ho psalmòs idiógraphos eis Dauid kaì éxōthen toû arithmoû; hóte emonomáchēsen tō̂ Goliad.
 
- Mikròs ḗmēn en toîs adelphoîs mou kaì neṓteros en tō̂ oíkō toû patrós mou; epoímainon tà próbata toû patrós mou.
+Mikròs ḗmēn en toîs adelphoîs mou kaì neṓteros en tō̂ oíkō toû patrós mou; epoímainon tà próbata toû patrós mou.
 <sup>2</sup> Hai cheîrés mou epoíēsan órganon, hoi dáktyloí mou hḗrmosan psaltḗrion.
 <sup>3</sup> Kaì tís anangeleî tō̂ kyríō mou? Autòs kýrios, autòs eisakoúei.
 <sup>4</sup> Autòs exapésteilen tòn ángelon autoû kaì ē̂rén me ek tō̂n probátōn toû patrós mou kaì échrisén me en tō̂ elaíō tē̂s chríseōs autoû.

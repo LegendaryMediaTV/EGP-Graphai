@@ -4,14 +4,19 @@ import { mergeUnmergedNodesInContent } from "../fixUnmergedNodes";
 describe("mergeUnmergedNodesInContent", () => {
   it("should merge a paragraph-opening connector forward into its foot-carrying neighbor (YLT1898 Mark 1:1's own real shape, split apart)", () => {
     const content = [
-      { paragraph: true, text: "A beginning of the good news of Jesus Christ, " },
+      {
+        paragraph: true,
+        text: "A beginning of the good news of Jesus Christ, ",
+      },
       {
         text: "Son of God.",
         foot: { type: "xrf", content: { bibleLink: "Matthew 3:1–12" } },
       },
     ];
 
-    const { content: result, changed } = mergeUnmergedNodesInContent(content as never);
+    const { content: result, changed } = mergeUnmergedNodesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({
@@ -22,7 +27,9 @@ describe("mergeUnmergedNodesInContent", () => {
   });
 
   it("should leave a clean array unchanged, returning the original reference", () => {
-    const content = [{ text: "Son of God.", foot: { type: "xrf", content: "x" } }];
+    const content = [
+      { text: "Son of God.", foot: { type: "xrf", content: "x" } },
+    ];
 
     const result = mergeUnmergedNodesInContent(content as never);
 
@@ -32,7 +39,9 @@ describe("mergeUnmergedNodesInContent", () => {
 
   it("should leave a standalone bare foot node alone — never merges it forward or absorbs it backward (real CLV1880 NUM 20:28 post-fix shape; this shape is no longer versification-specific — the footnote-marker-spacing check's own fixer now produces it for any 'sole' footnote-marker-after-whitespace case)", () => {
     const content = [
-      { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+      {
+        text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+      },
       { foot: { type: "var", content: "Originally verse 20:29." } },
       "illo mortuo in montis supercilio descendit cum Eleazaro",
     ];
@@ -48,9 +57,21 @@ describe("mergeUnmergedNodesInContent", () => {
     // change is the claim the node makes about itself. " – ὑμῖν" is not the
     // word σύ, and " καὶ" is the word καί however it merges.
     const content = [
-      { text: " σπορίμου", script: "G", morph: "A-GSN", lemma: "σπόριμος", strong: "G4702" },
+      {
+        text: " σπορίμου",
+        script: "G",
+        morph: "A-GSN",
+        lemma: "σπόριμος",
+        strong: "G4702",
+      },
       { text: " –", script: "G" },
-      { text: " ὑμῖν", script: "G", morph: "P-2DP", lemma: "σύ", strong: "G4771" },
+      {
+        text: " ὑμῖν",
+        script: "G",
+        morph: "P-2DP",
+        lemma: "σύ",
+        strong: "G4771",
+      },
     ];
 
     const result = mergeUnmergedNodesInContent(content as never);
@@ -61,9 +82,21 @@ describe("mergeUnmergedNodesInContent", () => {
 
   it("should leave an untagged word standing before a target that carries its own parse — real LXX1935 HOS 1:8 shape", () => {
     const content = [
-      { text: " Οὐκ", script: "G", morph: "PRT-N", lemma: "οὐ", strong: "G3756" },
+      {
+        text: " Οὐκ",
+        script: "G",
+        morph: "PRT-N",
+        lemma: "οὐ",
+        strong: "G3756",
+      },
       { text: " – ἠλεημένην", script: "G" },
-      { text: " καὶ", script: "G", morph: "CONJ", lemma: "καί", strong: "G2532" },
+      {
+        text: " καὶ",
+        script: "G",
+        morph: "CONJ",
+        lemma: "καί",
+        strong: "G2532",
+      },
     ];
 
     const result = mergeUnmergedNodesInContent(content as never);
@@ -78,7 +111,9 @@ describe("mergeUnmergedNodesInContent", () => {
       { text: " θεός", script: "G", strong: "G2316" },
     ];
 
-    const { content: result, changed } = mergeUnmergedNodesInContent(content as never);
+    const { content: result, changed } = mergeUnmergedNodesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({ text: " ὁ θεός", script: "G", strong: "G2316" });
@@ -91,7 +126,9 @@ describe("mergeUnmergedNodesInContent", () => {
     // collapsing it would be wrong.
     const content = ["only one, plain, single element"];
 
-    const { content: result, changed } = mergeUnmergedNodesInContent(content as never);
+    const { content: result, changed } = mergeUnmergedNodesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toEqual(["only one, plain, single element"]);
@@ -99,7 +136,10 @@ describe("mergeUnmergedNodesInContent", () => {
 
   it("should be idempotent — merging an already-merged tree reports no further change", () => {
     const content = [
-      { paragraph: true, text: "A beginning of the good news of Jesus Christ, " },
+      {
+        paragraph: true,
+        text: "A beginning of the good news of Jesus Christ, ",
+      },
       {
         text: "Son of God.",
         foot: { type: "xrf", content: { bibleLink: "Matthew 3:1–12" } },

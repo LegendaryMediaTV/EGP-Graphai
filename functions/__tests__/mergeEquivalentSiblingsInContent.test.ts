@@ -9,7 +9,9 @@ describe("mergeEquivalentSiblingsInContent — normalizing a text-only object", 
       { text: "beyond", strong: "H5674" } as never,
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -22,7 +24,9 @@ describe("mergeEquivalentSiblingsInContent — normalizing a text-only object", 
   it("should normalize a scalar (non-array) text-only object the same way", () => {
     const content = { text: "opened" };
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toBe("opened");
@@ -31,7 +35,9 @@ describe("mergeEquivalentSiblingsInContent — normalizing a text-only object", 
   it("should report no change for a bare string that is already normalized", () => {
     const content = "already plain";
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe("already plain");
@@ -42,7 +48,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
   it("should merge a bare string immediately followed by a text-only object into one bare string — real YLT1898 Exodus 3:1 heading shape", () => {
     const content = { heading: ["The Angel of the ", { text: "Jehovah" }] };
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({ heading: ["The Angel of the Jehovah"] });
@@ -54,10 +62,14 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
       " and the Word was with God, and the Word was God;",
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
-    expect(result).toEqual(["In the beginning was the Word, and the Word was with God, and the Word was God;"]);
+    expect(result).toEqual([
+      "In the beginning was the Word, and the Word was with God, and the Word was God;",
+    ]);
   });
 
   it("should merge two adjacent objects that agree in marks into one, keeping the shared marks — real YLT1898 Revelation 3:1 shape", () => {
@@ -66,31 +78,41 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
       { text: " write: these things", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
-    expect(result).toEqual([{ text: "Sardis write: these things", marks: ["woc"] }]);
+    expect(result).toEqual([
+      { text: "Sardis write: these things", marks: ["woc"] },
+    ]);
   });
 
   it("should merge a real three-node chain into a single node, in source order — real YLT1898 1 Chronicles 13:1 heading shape", () => {
     const content = {
-      heading: ["The Ark of the ", { text: "Jehovah" }, " is brought to Jerusalem"],
+      heading: [
+        "The Ark of the ",
+        { text: "Jehovah" },
+        " is brought to Jerusalem",
+      ],
     };
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
-    expect(result).toEqual({ heading: ["The Ark of the Jehovah is brought to Jerusalem"] });
+    expect(result).toEqual({
+      heading: ["The Ark of the Jehovah is brought to Jerusalem"],
+    });
   });
 
   it("should stop a run at a blocked node and leave both sides split there, not merged across it", () => {
-    const content = [
-      "before ",
-      { text: "tagged", strong: "H1" },
-      " after",
-    ];
+    const content = ["before ", { text: "tagged", strong: "H1" }, " after"];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     // Both sides are single nodes with no merge partner — the strong-carrying
     // node blocks a run from forming across it.
@@ -107,7 +129,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
       "still after",
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -120,7 +144,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
   it("should not merge across a break — the break-carrying node stays an object, its normal-shaped neighbor still normalizes on its own", () => {
     const content = [{ text: "foo", break: true }, { text: "bar" }];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     // {text: "bar"} normalizes to a bare string on its own (changed: true);
     // {text: "foo", break: true} keeps break and stays an object, so the two
@@ -132,7 +158,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
   it("should not merge across a paragraph opening — the paragraph-opening node stays an object, its normal-shaped neighbor still normalizes on its own", () => {
     const content = [{ text: "foo" }, { paragraph: true, text: "bar" }];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual(["foo", { paragraph: true, text: "bar" }]);
@@ -144,7 +172,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
       { text: " write", marks: ["sc"] },
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toEqual(content);
@@ -153,7 +183,9 @@ describe("mergeEquivalentSiblingsInContent — merging agreeing siblings", () =>
   it("should not merge across a bibleLink node — its normal-shaped neighbor still normalizes on its own", () => {
     const content = [{ text: "See " }, { bibleLink: "John 3:16" }];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual(["See ", { bibleLink: "John 3:16" }]);
@@ -164,7 +196,9 @@ describe("mergeEquivalentSiblingsInContent — recursion", () => {
   it("should merge and normalize inside a subtitle node's own inner content", () => {
     const content = { subtitle: ["A ", { text: "psalm" }] };
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({ subtitle: ["A psalm"] });
@@ -175,7 +209,9 @@ describe("mergeEquivalentSiblingsInContent — recursion", () => {
       { content: ["foo ", { text: "bar" }], strong: "H1" } as never,
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([{ content: ["foo bar"], strong: "H1" }]);
@@ -189,7 +225,9 @@ describe("mergeEquivalentSiblingsInContent — recursion", () => {
       },
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -208,7 +246,9 @@ describe("mergeEquivalentSiblingsInContent — no-op cases", () => {
       { text: " bar", strong: "H2" },
     ];
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe(content);
@@ -217,7 +257,9 @@ describe("mergeEquivalentSiblingsInContent — no-op cases", () => {
   it("should report no change for a single text-bearing node with nothing beside it", () => {
     const content = "just one node";
 
-    const { content: result, changed } = mergeEquivalentSiblingsInContent(content as never);
+    const { content: result, changed } = mergeEquivalentSiblingsInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe("just one node");

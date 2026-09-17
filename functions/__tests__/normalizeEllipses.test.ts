@@ -115,7 +115,9 @@ describe("normalizeEllipsisText / hasEllipsisIndicator — the two-period split"
 describe("hasEllipsisIndicator", () => {
   it("should return true for every shape the rewriter does convert", () => {
     expect(hasEllipsisIndicator("and whose...")).toBe(true);
-    expect(hasEllipsisIndicator("I was restored . . . and he was hanged")).toBe(true);
+    expect(hasEllipsisIndicator("I was restored . . . and he was hanged")).toBe(
+      true,
+    );
     expect(
       hasEllipsisIndicator("in me. But that etc. . . . I do, arise etc."),
     ).toBe(true);
@@ -139,7 +141,9 @@ describe("hasEllipsisIndicator", () => {
 
 describe("normalizeEllipsesInContent", () => {
   it("should normalize the reported bug shape in a node's own text", () => {
-    expect(normalizeEllipsesInContent([{ text: "and whose...", marks: ["i"] }])).toEqual({
+    expect(
+      normalizeEllipsesInContent([{ text: "and whose...", marks: ["i"] }]),
+    ).toEqual({
       content: [{ text: "and whose…", marks: ["i"] }],
       changed: true,
     });
@@ -148,18 +152,32 @@ describe("normalizeEllipsesInContent", () => {
   it("should reach a nested foot.content node — proving the tree-walking half is wired to the rewriter", () => {
     expect(
       normalizeEllipsesInContent([
-        { text: "word", foot: { type: "trn", content: [{ text: "and whose...", marks: ["i"] }] } },
+        {
+          text: "word",
+          foot: {
+            type: "trn",
+            content: [{ text: "and whose...", marks: ["i"] }],
+          },
+        },
       ]),
     ).toEqual({
       content: [
-        { text: "word", foot: { type: "trn", content: [{ text: "and whose…", marks: ["i"] }] } },
+        {
+          text: "word",
+          foot: {
+            type: "trn",
+            content: [{ text: "and whose…", marks: ["i"] }],
+          },
+        },
       ],
       changed: true,
     });
   });
 
   it("should leave a two-period node untouched — the shipped auto-fix's own standing refusal", () => {
-    const fixture: Content = [{ text: "fully numbered..and obtained", marks: ["i"] }];
+    const fixture: Content = [
+      { text: "fully numbered..and obtained", marks: ["i"] },
+    ];
     expect(normalizeEllipsesInContent(fixture)).toEqual({
       content: fixture,
       changed: false,

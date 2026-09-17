@@ -102,7 +102,7 @@
 <sup>3</sup> Kaì lḗmpsē ekeîthen olígous en arithmō̂ kaì symperilḗmpsē autoùs tē̂ anabolē̂ sou.
 <sup>4</sup> Kaì ek toútōn lḗmpsē éti kaì rhípseis autoùs eis méson toû pyròs kaì katakaúseis autoùs en pyrí; ex autē̂s exeleúsetai pŷr.
 
- Kaì ereîs pantì oíkō Israēl
+Kaì ereîs pantì oíkō Israēl
 
 <sup>5</sup> Táde légei kýrios Haútē hē Ierousalēm en mésō tō̂n ethnō̂n tétheika autḕn kaì tàs kýklō autē̂s chṓras.
 <sup>6</sup> Kaì ereîs tà dikaiṓmatá mou tē̂ anómō ek tō̂n ethnō̂n kaì tà nómimá mou ek tō̂n chōrō̂n tō̂n kýklō autē̂s, dióti tà dikaiṓmatá mou apṓsanto kaì en toîs nomímois mou ouk eporeúthēsan en autoîs.
@@ -814,7 +814,7 @@
 
 <sup>23</sup> Charran kaì Channa, hoûtoi émporoí sou.
 
- Assour kaì Charman émporoí sou
+Assour kaì Charman émporoí sou
 <sup>24</sup> phérontes emporían hyákinthon kaì thēsauroùs eklektoùs dedeménous schoiníois kaì kyparíssina.
 <sup>25</sup> Ploîa, en autoîs Karchēdónioi émporoí sou en tō̂ plḗthei en tō̂ symmíktō sou, kaì eneplḗsthēs kaì ebarýnthēs sphódra en kardía thalássēs.
 <sup>26</sup> En hýdati pollō̂ ē̂gón se hoi kōpēlátai sou; tò pneûma toû nótou synétripsén se en kardía thalássēs.

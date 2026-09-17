@@ -136,11 +136,11 @@
 <sup>5</sup> Eîpen dè ho basileús Tís hoûtos, hóstis etólmēsen poiē̂sai tò prâgma toûto?
 <sup>6</sup> Eîpen dè Esthēr Ánthrōpos echthròs Aman ho ponēròs hoûtos.
 
- Aman dè etaráchthē apò toû basiléōs kaì tē̂s basilíssēs.
+Aman dè etaráchthē apò toû basiléōs kaì tē̂s basilíssēs.
 <sup>7</sup> Ho dè basileùs exanéstē ek toû symposíou eis tòn kē̂pon; ho dè Aman parēteîto tḕn basílissan, heṓra gàr heautòn en kakoîs ónta.
 <sup>8</sup> Epéstrepsen dè ho basileùs ek toû kḗpou, Aman dè epipeptṓkei epì tḕn klínēn axiō̂n tḕn basílissan; eîpen dè ho basileús Hṓste kaì tḕn gynaîka biázē en tē̂ oikía mou?
 
- Aman dè akoúsas dietrápē tō̂ prosṓpō.
+Aman dè akoúsas dietrápē tō̂ prosṓpō.
 <sup>9</sup> Eîpen dè Bougathan heîs tō̂n eunoúchōn pròs tòn basiléa Idoù kaì xýlon hētoímasen Aman Mardochaíō tō̂ lalḗsanti perì toû basiléōs, kaì ṓrthōtai en toîs Aman xýlon pēchō̂n pentḗkonta. Eîpen dè ho basileús Staurōthḗtō ep’ autoû.
 <sup>10</sup> Kaì ekremásthē Aman epì toû xýlou, hò hētoímasen Mardochaíō. Kaì tóte ho basileùs ekópasen toû thymoû.
 

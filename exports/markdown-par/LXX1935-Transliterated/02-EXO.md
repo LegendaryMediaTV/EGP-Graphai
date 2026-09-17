@@ -748,7 +748,7 @@
 <sup>12</sup> hèx hēméras poiḗseis tà érga sou, tē̂ dè hēméra tē̂ hebdómē anápausis, hína anapaúsētai ho boûs sou kaì tò hypozýgión sou, kaì hína anapsýxē ho hyiòs tē̂s paidískēs sou kaì ho prosḗlytos. —
 <sup>13</sup> pánta, hósa eírēka pròs hymâs, phyláxasthe.
 
- Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ ek toû stómatos hymō̂n.
+Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ ek toû stómatos hymō̂n.
 <sup>14</sup> Treîs kairoùs toû eniautoû heortásaté moi.
 <sup>15</sup> Tḕn heortḕn tō̂n azýmōn phyláxasthe poieîn; heptà hēméras édesthe ázyma, katháper eneteilámēn soi, katà tòn kairòn toû mēnòs tō̂n néōn; en gàr autō̂ exē̂lthes ex Aigýptou. Ouk ophthḗsē enṓpión mou kenós.
 <sup>16</sup> Kaì heortḕn therismoû prōtogenēmátōn poiḗseis tō̂n érgōn sou, hō̂n eàn speírēs en tō̂ agrō̂ sou, kaì heortḕn synteleías ep’ exódou toû eniautoû en tē̂ synagōgē̂ tō̂n érgōn sou tō̂n ek toû agroû sou.

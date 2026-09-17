@@ -356,7 +356,6 @@
 
 ### Daniel’s Visions
 
-
 ### Four Great Beasts
 
 <sup>1</sup> In the first year of Belshazzar king of Babylon Daniel had<sup>a</sup> a dream and visions of his head upon his bed: then he wrote the dream, _and_ told the sum of the matters.<sup>b</sup>

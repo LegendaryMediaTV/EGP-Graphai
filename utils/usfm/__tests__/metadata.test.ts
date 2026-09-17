@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import BibleVersion from "../../../types/Version";
-import { extractBookMetadata, mergeBookMetadata, resolveBookId } from "../metadata";
+import {
+  extractBookMetadata,
+  mergeBookMetadata,
+  resolveBookId,
+} from "../metadata";
 import { readFixture } from "./fixtures";
 
 describe("resolveBookId", () => {
@@ -34,8 +38,23 @@ describe("resolveBookId", () => {
 describe("resolveBookId — the 17 known canonical USFM/registry mismatches", () => {
   it("should resolve each of the 17 real USFM ids ASV1901 and MSB2025 both carry to a different registry id, never left unresolved", () => {
     const knownMismatchedUsfmIds = [
-      "JOS", "RUT", "1SA", "2SA", "1KI", "2KI", "PRO", "SNG", "AMO", "OBA",
-      "JON", "NAM", "ZEP", "1TI", "2TI", "1PE", "2PE",
+      "JOS",
+      "RUT",
+      "1SA",
+      "2SA",
+      "1KI",
+      "2KI",
+      "PRO",
+      "SNG",
+      "AMO",
+      "OBA",
+      "JON",
+      "NAM",
+      "ZEP",
+      "1TI",
+      "2TI",
+      "1PE",
+      "2PE",
     ];
     for (const usfmId of knownMismatchedUsfmIds) {
       expect(resolveBookId(usfmId)).not.toBe(usfmId);
@@ -44,7 +63,9 @@ describe("resolveBookId — the 17 known canonical USFM/registry mismatches", ()
 });
 
 describe("extractBookMetadata — Genesis's own real front matter and chapter markers", () => {
-  const metadata = extractBookMetadata(readFixture("genesis-front-matter-and-chapter-markers.usfm"));
+  const metadata = extractBookMetadata(
+    readFixture("genesis-front-matter-and-chapter-markers.usfm"),
+  );
 
   it("should extract _id, name, title, and chapters exactly as the real front matter states them", () => {
     expect(metadata).toEqual({
@@ -58,15 +79,15 @@ describe("extractBookMetadata — Genesis's own real front matter and chapter ma
 
 describe("extractBookMetadata — a USFM file missing a required marker", () => {
   it("should throw when the source carries no \\id marker at all", () => {
-    expect(() => extractBookMetadata("\\h Genesis\n\\toc1 Title\n\\c 1\n\\v 1 text")).toThrow(
-      /no \\id marker/,
-    );
+    expect(() =>
+      extractBookMetadata("\\h Genesis\n\\toc1 Title\n\\c 1\n\\v 1 text"),
+    ).toThrow(/no \\id marker/);
   });
 
   it("should throw when the source carries no \\c marker at all", () => {
-    expect(() => extractBookMetadata("\\id GEN\n\\h Genesis\n\\toc1 Title")).toThrow(
-      /no \\c marker/,
-    );
+    expect(() =>
+      extractBookMetadata("\\id GEN\n\\h Genesis\n\\toc1 Title"),
+    ).toThrow(/no \\c marker/);
   });
 });
 
@@ -75,12 +96,30 @@ describe("mergeBookMetadata — a synthetic two-book fixture proving the upsert 
     _id: "TEST",
     name: "Test Version",
     license: "CC0-1.0",
-    books: [{ _id: "GEN", name: "Genesis", title: "Old Title", order: 1, chapters: 40 }],
+    books: [
+      {
+        _id: "GEN",
+        name: "Genesis",
+        title: "Old Title",
+        order: 1,
+        chapters: 40,
+      },
+    ],
   };
 
   const merged = mergeBookMetadata(version, [
-    { _id: "GEN", name: "Genesis", title: "The First Book of Moses, Commonly Called Genesis", chapters: 50 },
-    { _id: "EXO", name: "Exodus", title: "The Second Book of Moses, Commonly Called Exodus", chapters: 40 },
+    {
+      _id: "GEN",
+      name: "Genesis",
+      title: "The First Book of Moses, Commonly Called Genesis",
+      chapters: 50,
+    },
+    {
+      _id: "EXO",
+      name: "Exodus",
+      title: "The Second Book of Moses, Commonly Called Exodus",
+      chapters: 40,
+    },
   ]);
 
   it("should update the field that differs on a book already present, without touching its own order", () => {

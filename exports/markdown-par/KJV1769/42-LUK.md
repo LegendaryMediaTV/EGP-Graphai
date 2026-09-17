@@ -1257,9 +1257,10 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>27</sup> But those mine enemies, which would not that I should reign over them, bring hither, and slay _them_ before me.
 
 ### In Jerusalem
-<sup>28</sup> 
-### Triumphal Entry
 
+<sup>28</sup>
+
+### Triumphal Entry
 
 And when he had thus spoken, he went before, ascending up to Jerusalem.
 <sup>29</sup> And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called _the mount_ of Olives, he sent two of his disciples,

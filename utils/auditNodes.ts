@@ -159,7 +159,8 @@ export function describeNode(node: unknown): NodeShape {
   const strong = typeof record.strong === "string" ? record.strong : undefined;
   const hasNestedContent = "content" in record;
   const hasFoot = record.foot !== undefined && record.foot !== null;
-  const hasParse = typeof record.morph === "string" || typeof record.lemma === "string";
+  const hasParse =
+    typeof record.morph === "string" || typeof record.lemma === "string";
 
   return {
     text,
@@ -306,7 +307,10 @@ interface PairFinding {
  * `opensParagraph`; a later one may not, since that marks a piece boundary
  * strictly inside the run.
  */
-export function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
+export function canJoinForward(
+  run: readonly NodeShape[],
+  target: NodeShape,
+): boolean {
   return (
     run.length > 0 &&
     (target.strong !== undefined || target.hasFoot || target.endsBreak) &&
@@ -466,7 +470,12 @@ export function misplacedLeadingPunctuationAt(
   at: number,
 ): LeadingPunctuationSplit | undefined {
   const shape = shapes[at];
-  if (shape === undefined || shape.text === undefined || shape.text.length === 0) return undefined;
+  if (
+    shape === undefined ||
+    shape.text === undefined ||
+    shape.text.length === 0
+  )
+    return undefined;
   if (isMergeableConnector(shape)) return undefined;
 
   const split = leadingTightPunctuationSplit(shape.text);
@@ -539,7 +548,9 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
  * version's already-built content can be checked against it too.
  */
 function hasUnnormalizedFraction(shape: NodeShape): boolean {
-  return shape.text !== undefined && normalizeFractionText(shape.text).changes > 0;
+  return (
+    shape.text !== undefined && normalizeFractionText(shape.text).changes > 0
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -620,7 +631,10 @@ function hasMisplacedDialytikaText(shape: NodeShape): boolean {
  * with a boolean first, matching every other check in this module, and only
  * pay for building the excerpt on an actual finding.
  */
-function describeStraightQuoteFinding(text: string, path: string): StraightQuoteFinding {
+function describeStraightQuoteFinding(
+  text: string,
+  path: string,
+): StraightQuoteFinding {
   const at = text.search(STRAIGHT_QUOTE);
   const character = text[at];
   const start = Math.max(0, at - EXCERPT_RADIUS);
@@ -702,7 +716,11 @@ function scanArrayForMarkBoundarySpaces(
     if (!isRealAttachmentPoint(left)) continue;
 
     let j = i + 1;
-    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
+    while (
+      j < nodes.length &&
+      (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)
+    )
+      j++;
     if (j >= nodes.length) continue;
 
     const target = shapes[j];
@@ -800,7 +818,8 @@ function checkVerseInitialSpace(
 
 /** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. */
 function isHeadingOrSubtitle(node: unknown): boolean {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   const record = node as Record<string, unknown>;
   return "heading" in record || "subtitle" in record;
 }
@@ -821,7 +840,12 @@ function isHeadingOrSubtitle(node: unknown): boolean {
  */
 function skipsPastHeadingRun(node: unknown): boolean {
   const shape = describeNode(node);
-  return !shape.isBoundary && shape.text === undefined && !shape.hasNestedContent && !shape.opensParagraph;
+  return (
+    !shape.isBoundary &&
+    shape.text === undefined &&
+    !shape.hasNestedContent &&
+    !shape.opensParagraph
+  );
 }
 
 /** One heading/subtitle run whose own real next node fails to open a paragraph. */
@@ -857,7 +881,9 @@ export interface HeadingParagraphFinding {
  * convention, not one that reaches into nested content. A run with nothing
  * after it reports nothing — there is no node for the convention to apply to.
  */
-function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagraphFinding[] {
+function findVerseHeadingParagraphMismatches(
+  verse: VerseRecord,
+): HeadingParagraphFinding[] {
   const nodes = asArray(verse.content);
   const findings: HeadingParagraphFinding[] = [];
 
@@ -870,9 +896,13 @@ function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagra
     let end = at;
     while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
     let nextIndex = end;
-    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
+    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex]))
+      nextIndex++;
 
-    if (nextIndex < nodes.length && !describeNode(nodes[nextIndex]).opensParagraph) {
+    if (
+      nextIndex < nodes.length &&
+      !describeNode(nodes[nextIndex]).opensParagraph
+    ) {
       findings.push({
         book: verse.book,
         chapter: verse.chapter,
@@ -947,19 +977,30 @@ function scanArrayForFootnotePunctuationOrder(
 
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
-    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0) continue;
+    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0)
+      continue;
 
     let j = i + 1;
     while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
     if (j >= nodes.length) continue;
 
     const next = shapes[j];
-    if (!isRealAttachmentPoint(next) || next.opensParagraph || next.text === undefined) continue;
+    if (
+      !isRealAttachmentPoint(next) ||
+      next.opensParagraph ||
+      next.text === undefined
+    )
+      continue;
 
     const split = leadingTightPunctuationSplit(next.text);
     if (split === undefined) continue;
 
-    findings.push({ where, node: nodes[i], leading: split.before, next: nodes[j] });
+    findings.push({
+      where,
+      node: nodes[i],
+      leading: split.before,
+      next: nodes[j],
+    });
   }
 
   return findings;
@@ -1001,7 +1042,8 @@ export function carriesFormatting(shape: NodeShape): boolean {
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
-  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  const [smaller, larger] =
+    a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
   return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
 }
 
@@ -1048,7 +1090,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
 
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
-    if (shape.text === undefined || shape.text.trim() === "" || !carriesFormatting(shape)) continue;
+    if (
+      shape.text === undefined ||
+      shape.text.trim() === "" ||
+      !carriesFormatting(shape)
+    )
+      continue;
 
     if (/^\s/.test(shape.text) && !shape.opensParagraph) {
       let j = i - 1;
@@ -1061,7 +1108,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
           !agreesInFormatting(shape, neighbor) &&
           !isFormattingSubsetOf(shape, neighbor)
         ) {
-          findings.push({ where, side: "leading", node: nodes[i], neighbor: nodes[j] });
+          findings.push({
+            where,
+            side: "leading",
+            node: nodes[i],
+            neighbor: nodes[j],
+          });
         }
       }
     }
@@ -1077,7 +1129,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
           !agreesInFormatting(shape, neighbor) &&
           !isFormattingSubsetOf(shape, neighbor)
         ) {
-          findings.push({ where, side: "trailing", node: nodes[i], neighbor: nodes[j] });
+          findings.push({
+            where,
+            side: "trailing",
+            node: nodes[i],
+            neighbor: nodes[j],
+          });
         }
       }
     }
@@ -1171,13 +1228,26 @@ function scanArrayForFootnoteMarkerAfterWhitespace(
     if (!shape.hasFoot || shape.hasNestedContent) continue;
 
     let j = i + 1;
-    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
+    while (
+      j < nodes.length &&
+      (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)
+    )
+      j++;
     const next = j < nodes.length ? shapes[j] : undefined;
 
-    if (shape.text === undefined && next !== undefined && isRealAttachmentPoint(next)) continue;
+    if (
+      shape.text === undefined &&
+      next !== undefined &&
+      isRealAttachmentPoint(next)
+    )
+      continue;
     if (findWhitespaceSourceIndex(shapes, i) === undefined) continue;
 
-    findings.push({ where, node: nodes[i], next: j < nodes.length ? nodes[j] : undefined });
+    findings.push({
+      where,
+      node: nodes[i],
+      next: j < nodes.length ? nodes[j] : undefined,
+    });
   }
 
   return findings;
@@ -1292,7 +1362,12 @@ function scanArrayForDuplicateFootnoteAnchors(
   for (let i = 0; i < nodes.length; i++) {
     if (
       lastKept >= 0 &&
-      isDuplicateFootnoteAnchor(nodes[i], shapes[i], nodes[lastKept], shapes[lastKept])
+      isDuplicateFootnoteAnchor(
+        nodes[i],
+        shapes[i],
+        nodes[lastKept],
+        shapes[lastKept],
+      )
     ) {
       findings.push({ where, node: nodes[i], target: nodes[lastKept] });
       continue; // not kept — the next node still compares against lastKept
@@ -1327,7 +1402,8 @@ const MERGEABLE_EXTRA_KEYS = new Set(["marks", "script"]);
 export function isMergeableTextNode(node: unknown, shape: NodeShape): boolean {
   if (shape.text === undefined) return false;
   if (typeof node === "string") return true;
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   return Object.keys(node as Record<string, unknown>).every(
     (key) => key === "text" || MERGEABLE_EXTRA_KEYS.has(key),
   );
@@ -1419,7 +1495,10 @@ function hasNonStandardWhitespace(shape: NodeShape): boolean {
  * hasNonStandardWhitespace}. Kept separate from the predicate for the same
  * reason {@link describeStraightQuoteFinding} is.
  */
-function describeNonStandardWhitespaceFinding(text: string, path: string): NonStandardWhitespaceFinding {
+function describeNonStandardWhitespaceFinding(
+  text: string,
+  path: string,
+): NonStandardWhitespaceFinding {
   const at = text.search(NON_STANDARD_WHITESPACE);
   const character = text[at];
   const codePoint = `U+${character.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}`;
@@ -1587,11 +1666,21 @@ function walkLevel(
   sink.unmergedPairs.push(...scanArrayForUnmergedPairs(nodes, where));
   sink.leadingPunctuation.push(...scanArrayForLeadingPunctuation(nodes, where));
   sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
-  sink.footnotePunctuationOrder.push(...scanArrayForFootnotePunctuationOrder(nodes, where));
-  sink.markBoundaryEmbeddedSpaces.push(...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where));
-  sink.footnoteMarkerAfterWhitespace.push(...scanArrayForFootnoteMarkerAfterWhitespace(nodes, where));
-  sink.duplicateFootnoteAnchors.push(...scanArrayForDuplicateFootnoteAnchors(nodes, where));
-  sink.mergeableSiblingPairs.push(...scanArrayForMergeableSiblings(nodes, where));
+  sink.footnotePunctuationOrder.push(
+    ...scanArrayForFootnotePunctuationOrder(nodes, where),
+  );
+  sink.markBoundaryEmbeddedSpaces.push(
+    ...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where),
+  );
+  sink.footnoteMarkerAfterWhitespace.push(
+    ...scanArrayForFootnoteMarkerAfterWhitespace(nodes, where),
+  );
+  sink.duplicateFootnoteAnchors.push(
+    ...scanArrayForDuplicateFootnoteAnchors(nodes, where),
+  );
+  sink.mergeableSiblingPairs.push(
+    ...scanArrayForMergeableSiblings(nodes, where),
+  );
 
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
@@ -2012,7 +2101,8 @@ export function auditVersion(version: string): VersionAudit {
   const ellipsisFindings: EllipsisFinding[] = [];
   const straightQuoteFindings: StraightQuoteFileFinding[] = [];
   const dialytikaFindings: DialytikaFinding[] = [];
-  const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] = [];
+  const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] =
+    [];
   const untaggedScriptRuns: UntaggedScriptRunFinding[] = [];
   const mergeableSiblingPairs: MergeableSiblingsFileFinding[] = [];
   const nonStandardWhitespaceFindings: NonStandardWhitespaceFileFinding[] = [];
@@ -2143,7 +2233,10 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
  * Exported so `validate.ts` can render the same per-check breakdown inline in
  * its own report instead of maintaining a second copy of this formatting.
  */
-export function printFindingLines(summary: VersionAudit, verbose: boolean): void {
+export function printFindingLines(
+  summary: VersionAudit,
+  verbose: boolean,
+): void {
   const cap = verbose ? Infinity : 10;
 
   console.log(
@@ -2411,4 +2504,3 @@ export function isClean(summary: VersionAudit): boolean {
     summary.detachedPunctuationFindings.length === 0
   );
 }
-

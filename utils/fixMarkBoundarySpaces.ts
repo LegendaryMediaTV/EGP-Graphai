@@ -77,7 +77,8 @@ import {
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
-  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  const [smaller, larger] =
+    a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
   return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
 }
 
@@ -130,7 +131,10 @@ interface FixCounts {
  * `left`/`target` lookup is judged, without the index arithmetic of an
  * in-place splice.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: FixCounts,
+): unknown[] {
   const working: unknown[] = [...nodes];
   const removed = new Set<number>();
 
@@ -148,7 +152,9 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     let j = i + 1;
     while (
       j < working.length &&
-      (removed.has(j) || describeNode(working[j]).isTextlessStrongSibling || describeNode(working[j]).isTextlessFootSibling)
+      (removed.has(j) ||
+        describeNode(working[j]).isTextlessStrongSibling ||
+        describeNode(working[j]).isTextlessFootSibling)
     ) {
       j++;
     }
@@ -211,7 +217,8 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
     // the working copy straight through is safe: every slot `removed` holds
     // is a blank this same pass already merged away, all of them behind the
     // blank being judged, so a forward walk from `i` never meets one.
-    if (findFirstRenderedIndex(working.map(describeNode), i + 1) !== j) continue;
+    if (findFirstRenderedIndex(working.map(describeNode), i + 1) !== j)
+      continue;
 
     working[j] = withText(working[j], blankText + targetText);
     removed.add(i);
@@ -230,12 +237,20 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: FixCounts): unknow
  * passes through unchanged.
  */
 function rewriteNode(node: unknown, counts: FixCounts): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content, counts);
   }
 
@@ -276,10 +291,13 @@ function rewriteLevel(content: unknown, counts: FixCounts): unknown {
  * @returns The rewritten tree (the original reference when nothing was
  *   fixed) and whether anything changed
  */
-export function mergeMarkBoundarySpacesInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function mergeMarkBoundarySpacesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const counts: FixCounts = { fixed: 0 };
   const rewritten = rewriteLevel(content, counts) as Content;
-  return counts.fixed > 0 ? { content: rewritten, changed: true } : { content, changed: false };
+  return counts.fixed > 0
+    ? { content: rewritten, changed: true }
+    : { content, changed: false };
 }

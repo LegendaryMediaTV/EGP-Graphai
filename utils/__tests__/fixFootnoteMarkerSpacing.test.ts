@@ -6,12 +6,19 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
     const content = [
       {
         text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
-        foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] },
+        foot: {
+          type: "trn",
+          content: ["Or, ", { text: "was brooding upon", marks: ["i"] }],
+        },
       },
       "moved upon the face of the waters.",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -19,7 +26,12 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
       {
         text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
       },
-      { foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] } },
+      {
+        foot: {
+          type: "trn",
+          content: ["Or, ", { text: "was brooding upon", marks: ["i"] }],
+        },
+      },
       "moved upon the face of the waters.",
     ]);
   });
@@ -50,7 +62,11 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
       "illo mortuo in montis supercilio descendit cum Eleazaro",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -81,11 +97,19 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
 
   it("should extract regardless of marks on either side — the redundant/sole decision never consults formatting (both the old relocate-onto-receiver and old insert-bare-whitespace-node paths are gone)", () => {
     const content = [
-      { text: "the earth ", foot: { type: "trn", content: "note" }, marks: ["woc"] },
+      {
+        text: "the earth ",
+        foot: { type: "trn", content: "note" },
+        marks: ["woc"],
+      },
       "was formed.",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -108,7 +132,11 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
       ],
     };
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -129,7 +157,11 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
       "and then more.",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -146,12 +178,20 @@ describe("relocateFootnoteMarkerSpacesInContent — sole (standalone-node extrac
     // what it was before the rule existed, so this pins a narrowing rather
     // than driving it.
     const content = [
-      { text: "the first words ", foot: { type: "trn", content: "note" }, strong: "H1234" },
+      {
+        text: "the first words ",
+        foot: { type: "trn", content: "note" },
+        strong: "H1234",
+      },
       { strong: "H853" },
       "and then more.",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -236,11 +276,21 @@ describe("relocateFootnoteMarkerSpacesInContent — already-settled bare foot no
         text: " Assyrian,",
         foot: {
           type: "trn",
-          content: ["Or, ", { text: "woe to the Assyrian", marks: ["i"] }, ": Heb. ", { text: "Asshur", marks: ["i"] }],
+          content: [
+            "Or, ",
+            { text: "woe to the Assyrian", marks: ["i"] },
+            ": Heb. ",
+            { text: "Asshur", marks: ["i"] },
+          ],
         },
         strong: "H804",
       },
-      { foot: { type: "trn", content: ["Heb. ", { text: "Ashur", marks: ["i"] }] } },
+      {
+        foot: {
+          type: "trn",
+          content: ["Heb. ", { text: "Ashur", marks: ["i"] }],
+        },
+      },
       { text: " the rod", strong: "H7626" },
     ];
 
@@ -266,7 +316,11 @@ describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () =>
       },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -289,7 +343,11 @@ describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () =>
       " was formed.",
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -310,7 +368,11 @@ describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () =>
       { text: " was formed.", marks: ["woc"] },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -329,7 +391,11 @@ describe("relocateFootnoteMarkerSpacesInContent — redundant (deletion)", () =>
       { text: " next word", marks: ["woc"] },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -352,7 +418,11 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion at a genuine end (n
       { foot: { type: "var", content: "NU omits verse 44." } },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -367,13 +437,21 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion at a genuine end (n
   });
 
   it("should delete the trailing run when the footed node is the array's only element", () => {
-    const content = [{ text: "the earth ", foot: { type: "trn", content: "note" } }];
+    const content = [
+      { text: "the earth ", foot: { type: "trn", content: "note" } },
+    ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
-    expect(result).toEqual([{ text: "the earth", foot: { type: "trn", content: "note" } }]);
+    expect(result).toEqual([
+      { text: "the earth", foot: { type: "trn", content: "note" } },
+    ]);
   });
 
   it("should delete the trailing run at the end of a footnote's own body — foot.content is self-contained, never woven into an outer sibling", () => {
@@ -382,12 +460,21 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion at a genuine end (n
         text: "word",
         foot: {
           type: "trn",
-          content: [{ text: "note ending mid-body ", foot: { type: "trn", content: "inner note" } }],
+          content: [
+            {
+              text: "note ending mid-body ",
+              foot: { type: "trn", content: "inner note" },
+            },
+          ],
         },
       },
     ];
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -396,7 +483,12 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion at a genuine end (n
         text: "word",
         foot: {
           type: "trn",
-          content: [{ text: "note ending mid-body", foot: { type: "trn", content: "inner note" } }],
+          content: [
+            {
+              text: "note ending mid-body",
+              foot: { type: "trn", content: "inner note" },
+            },
+          ],
         },
       },
     ]);
@@ -407,7 +499,11 @@ describe("relocateFootnoteMarkerSpacesInContent — deletion at a genuine end (n
       heading: [{ text: "the earth ", foot: { type: "trn", content: "note" } }],
     };
 
-    const { content: result, changed, skipped } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateFootnoteMarkerSpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -429,7 +525,10 @@ describe("relocateFootnoteMarkerSpacesInContent — the one genuinely irreducibl
           { foot: { type: "stu", content: "Chapter summary..." } },
           {
             text: "the chief priests and the scribes, with the elders, came upon ",
-            foot: { type: "trn", content: "Lit., writers stood over him with the presbyters." },
+            foot: {
+              type: "trn",
+              content: "Lit., writers stood over him with the presbyters.",
+            },
           },
         ],
       },
@@ -474,7 +573,11 @@ describe("relocateFootnoteMarkerSpacesInContent — block boundaries (still decl
 
   it("should decline with block-boundary when the source node itself ends a line", () => {
     const content = [
-      { text: "the earth ", foot: { type: "trn", content: "note" }, break: true },
+      {
+        text: "the earth ",
+        foot: { type: "trn", content: "note" },
+        break: true,
+      },
       "was formed.",
     ];
 
@@ -514,14 +617,23 @@ describe("relocateFootnoteMarkerSpacesInContent — idempotence and recursion", 
 
   it("should descend into heading, subtitle, and foot.content — a sole-shaped join there extracts exactly as it does inside content", () => {
     const content = {
-      heading: [{ text: "the earth ", foot: { type: "trn", content: "note" } }, "was formed."],
+      heading: [
+        { text: "the earth ", foot: { type: "trn", content: "note" } },
+        "was formed.",
+      ],
     };
 
-    const { content: result, changed } = relocateFootnoteMarkerSpacesInContent(content as never);
+    const { content: result, changed } = relocateFootnoteMarkerSpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({
-      heading: [{ text: "the earth " }, { foot: { type: "trn", content: "note" } }, "was formed."],
+      heading: [
+        { text: "the earth " },
+        { foot: { type: "trn", content: "note" } },
+        "was formed.",
+      ],
     });
   });
 

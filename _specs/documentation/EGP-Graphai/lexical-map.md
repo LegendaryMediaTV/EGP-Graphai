@@ -112,10 +112,16 @@ A morphology file holds the positional grammar and the token map for one code sy
 {
   "heads": {
     "V": { "pos": "verb", "slots": [["tenseVoiceMood"], ["agreement"]] },
-    "P": { "pos": "pron-pers", "slots": [["personCaseNumber", "caseNumberGender"]] }
+    "P": {
+      "pos": "pron-pers",
+      "slots": [["personCaseNumber", "caseNumberGender"]]
+    }
   },
   "slots": {
-    "tenseVoiceMood": { "prefix": { "2": "second" }, "fields": ["tense", "voice", "mood"] },
+    "tenseVoiceMood": {
+      "prefix": { "2": "second" },
+      "fields": ["tense", "voice", "mood"]
+    },
     "agreement": {
       "variants": [
         { "length": 2, "fields": ["person", "number"] },
@@ -123,9 +129,23 @@ A morphology file holds the positional grammar and the token map for one code sy
       ]
     }
   },
-  "qualifiers": { "C": "comp", "S": "super", "N": "neg", "I": "interr", "K": "crasis", "ATT": "attic" },
+  "qualifiers": {
+    "C": "comp",
+    "S": "super",
+    "N": "neg",
+    "I": "interr",
+    "K": "crasis",
+    "ATT": "attic"
+  },
   "tokens": {
-    "tense": { "P": "pres", "I": "impf", "F": "fut", "A": "aor", "R": "perf", "L": "plup" }
+    "tense": {
+      "P": "pres",
+      "I": "impf",
+      "F": "fut",
+      "A": "aor",
+      "R": "perf",
+      "L": "plup"
+    }
   }
 }
 ```
@@ -134,12 +154,12 @@ A decoder driven by that file, holding no Greek and no Robinson conventions of i
 
 The three file kinds and their schemas:
 
-| Path | Holds | Schema |
-| --- | --- | --- |
-| `<language>/_language.json` | Categories, codes, letters, normalization | `language-schema.json` |
-| `<language>/morphology/<system>.json` | One code system's grammar and tokens | `morphology-schema.json` |
-| `<language>/<letter>.json` | Roots, forms, parses, transliterations | `codex-schema.json` |
-| `<language>/indices/<index>.json` | Placement rules for one external index's cell-level entries | `index-schema.json` |
+| Path                                  | Holds                                                       | Schema                   |
+| ------------------------------------- | ----------------------------------------------------------- | ------------------------ |
+| `<language>/_language.json`           | Categories, codes, letters, normalization                   | `language-schema.json`   |
+| `<language>/morphology/<system>.json` | One code system's grammar and tokens                        | `morphology-schema.json` |
+| `<language>/<letter>.json`            | Roots, forms, parses, transliterations                      | `codex-schema.json`      |
+| `<language>/indices/<index>.json`     | Placement rules for one external index's cell-level entries | `index-schema.json`      |
 
 ### One code per category
 
@@ -147,15 +167,15 @@ A parse may carry at most one code from any category. That single rule is what l
 
 The rule holds only if the registry mints genuinely ambiguous values as their own codes. Greek voice is the case that forces this. Robinson's codes already do it, and BYZ2026 uses seven distinct voice letters:
 
-| Voice | Code | Ambiguous? |
-| --- | --- | --- |
-| Active | `act` | |
-| Middle | `mid` | |
-| Passive | `pas` | |
-| Middle deponent | `mid-dep` | |
-| Passive deponent | `pas-dep` | |
-| Middle or passive | `midpas` | yes |
-| Middle or passive deponent | `midpas-dep` | yes |
+| Voice                      | Code         | Ambiguous? |
+| -------------------------- | ------------ | ---------- |
+| Active                     | `act`        |            |
+| Middle                     | `mid`        |            |
+| Passive                    | `pas`        |            |
+| Middle deponent            | `mid-dep`    |            |
+| Passive deponent           | `pas-dep`    |            |
+| Middle or passive          | `midpas`     | yes        |
+| Middle or passive deponent | `midpas-dep` | yes        |
 
 The last two are the load-bearing ones. If the registry offered only `mid` and `pas`, every token Robinson marks as either would have to carry both codes, and the one-code-per-category rule would break on the first import rather than on some later edge case. Minting the ambiguous values as codes of their own keeps it intact.
 
@@ -179,15 +199,41 @@ One file per language, split by letter, keyed by root. Each root carries `inflec
     "shortDefinition": "to be, exist",
     "indices": { "strongs": "G1510" },
     "inflections": {
-      "ἐστίν": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"], "indices": { "strongs": "G1510" } }],
-      "ἐστιν": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"], "indices": { "strongs": "G1510" } }],
-      "ἔστιν": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"], "indices": { "strongs": "G1510" } }],
+      "ἐστίν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1510" }
+        }
+      ],
+      "ἐστιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1510" }
+        }
+      ],
+      "ἔστιν": [
+        {
+          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+          "indices": { "strongs": "G1510" }
+        }
+      ],
       "ἦτε": [
-        { "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"], "indices": { "strongs": "G1510" } },
-        { "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"], "indices": { "strongs": "G1510" } }
+        {
+          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+          "indices": { "strongs": "G1510" }
+        },
+        {
+          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+          "indices": { "strongs": "G1510" }
+        }
       ]
     },
-    "transliterations": { "ἐστίν": "estín", "ἐστιν": "estin", "ἔστιν": "éstin", "ἦτε": "ē̂te" }
+    "transliterations": {
+      "ἐστίν": "estín",
+      "ἐστιν": "estin",
+      "ἔστιν": "éstin",
+      "ἦτε": "ē̂te"
+    }
   }
 }
 ```
@@ -220,13 +266,13 @@ Flattening the attributes into a single array would produce `["verb", "impf", "p
 
 The scale of this is not marginal. Around one key in twenty-five carries more than one parse, and they fall out like this:
 
-| Collision type | Survives a flat array? |
-| --- | --- |
-| Nominal case, gender or number differs | yes |
-| Verb person or number differs | no |
-| Verb tense, voice or mood differs | no |
-| Verb, two dimensions differ | no |
-| Different part of speech | no |
+| Collision type                         | Survives a flat array? |
+| -------------------------------------- | ---------------------- |
+| Nominal case, gender or number differs | yes                    |
+| Verb person or number differs          | no                     |
+| Verb tense, voice or mood differs      | no                     |
+| Verb, two dimensions differ            | no                     |
+| Different part of speech               | no                     |
 
 Most collisions are the nominal kind, and those are genuine syncretism that a flat array survives: `τῶν` really is genitive plural in all three genders. The verb cases would not: `εἶπον` is first singular and third plural, `λέγω` is indicative and subjunctive, `ποιεῖτε` is indicative and imperative. Flatten those and the reader cannot tell which combinations are real.
 
@@ -238,13 +284,13 @@ The root is the dictionary form of the word, determined from the language itself
 
 Each language states its citation convention in the registry, because the conventions differ. Greek cites a verb in the first person singular present active indicative, so λαμβάνω rather than the infinitive; Latin dictionaries cite the infinitive and Hebrew cites the third masculine singular perfect. Within Greek:
 
-| Part of speech | Citation form |
-| --- | --- |
-| Verb | first person singular present active indicative, or the middle for a deponent |
-| Noun | nominative singular |
-| Adjective, article, pronoun | nominative singular masculine |
-| Indeclinable | the form itself |
-| Adverb, preposition, conjunction, particle, interjection | the form itself |
+| Part of speech                                           | Citation form                                                                 |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Verb                                                     | first person singular present active indicative, or the middle for a deponent |
+| Noun                                                     | nominative singular                                                           |
+| Adjective, article, pronoun                              | nominative singular masculine                                                 |
+| Indeclinable                                             | the form itself                                                               |
+| Adverb, preposition, conjunction, particle, interjection | the form itself                                                               |
 
 The root need not appear in the corpus. ἔλαβον and λαβών both belong to λαμβάνω whether or not λαμβάνω is ever written, because the paradigm decides the root, not the attestation.
 
@@ -306,7 +352,7 @@ The first import did not work that way. It copied the corpus tag onto every cell
 
 The rule also closes off the way the redundancy got in. A writer that copies the corpus tag recreates it; a writer that applies the placement rules and then drops anything equal to the root cannot. The audit enforces both halves.
 
-The defective-verb numbers are parse-level facts by definition. Strong's G2076 *is* "third person singular present indicative of εἰμί." It is not a property of the word and not a property of the spelling.
+The defective-verb numbers are parse-level facts by definition. Strong's G2076 _is_ "third person singular present indicative of εἰμί." It is not a property of the word and not a property of the spelling.
 
 `indices` on the root is for identifiers that genuinely belong to the word, and it is where non-Strong's lexicons attach. Because the key is the root rather than a KJV-derived index, a lexicon organized by dictionary headword slots in with no crosswalk at all.
 
@@ -340,9 +386,9 @@ They are stated only where a corpus settles them. Same discipline the schema alr
 
 A key is the word as written, less what is positional rather than lexical. The test for what comes off: a character-level rule removes it with no exceptions, and what it removes says nothing about which word this is. Four things pass that test.
 
-**Trailing and leading punctuation.** Greek ends a clause with U+0387 and asks a question with U+037E, and a tagger leaves them on the token. Strip those and the ASCII comma, semicolon, colon and period. An apostrophe at U+2019 marks elision and *belongs to the word*, so it stays: `μεθ’` is a spelling and `μεθ` is not. This mattered more than it sounds. Stripping it collided `μεθ’` with a proper name `Μεθ` that occurs once in 1 Chronicles, and 208 tokens of the preposition `μετά` shipped as an indeclinable proper noun.
+**Trailing and leading punctuation.** Greek ends a clause with U+0387 and asks a question with U+037E, and a tagger leaves them on the token. Strip those and the ASCII comma, semicolon, colon and period. An apostrophe at U+2019 marks elision and _belongs to the word_, so it stays: `μεθ’` is a spelling and `μεθ` is not. This mattered more than it sounds. Stripping it collided `μεθ’` with a proper name `Μεθ` that occurs once in 1 Chronicles, and 208 tokens of the preposition `μετά` shipped as an indeclinable proper noun.
 
-**Initial case, taken from the root.** Root `Ζαβαδ` gives key `Ζαβαδ`. Root `καί` gives key `καὶ` whatever the token printed. That one rule handles the proper noun and the sentence-opening capital with no special case for either, because sentence-position capitalization is a rendering rather than a spelling — Rahlfs uses a capital to open a *paragraph* and BYZ uses it to open a *sentence*, so the same mark means different things in two editions and cannot be part of the word.
+**Initial case, taken from the root.** Root `Ζαβαδ` gives key `Ζαβαδ`. Root `καί` gives key `καὶ` whatever the token printed. That one rule handles the proper noun and the sentence-opening capital with no special case for either, because sentence-position capitalization is a rendering rather than a spelling — Rahlfs uses a capital to open a _paragraph_ and BYZ uses it to open a _sentence_, so the same mark means different things in two editions and cannot be part of the word.
 
 **The grave accent, folded to its acute.** A grave appears only when another word follows, so it is positional and never an inflectional difference. `τὰ` and `τά` are one key.
 
@@ -383,11 +429,11 @@ Each inflection carries its own `transliteration`.
 
 It sits on the inflection rather than on a cell because it romanizes the spelling, and 823 spellings in the Greek codex carry more than one parse; the transliteration is the same for all of them. It sat in a root-level `transliterations` map at first, keyed by the same spellings as `inflections`, which duplicated every key and let the two drift. Nothing is keyed twice now.
 
-The scheme is academic rather than a reading aid, and that choice is load-bearing. A reading aid renders ἐστίν as *estin* and ἐστιν as *estin*, so it destroys the distinction the map exists to record. The academic scheme keeps accents as combining marks, so `ἐστίν` reads *estín* and stays reversible. A friendlier form derives from it by stripping marks; the reverse does not work.
+The scheme is academic rather than a reading aid, and that choice is load-bearing. A reading aid renders ἐστίν as _estin_ and ἐστιν as _estin_, so it destroys the distinction the map exists to record. The academic scheme keeps accents as combining marks, so `ἐστίν` reads _estín_ and stays reversible. A friendlier form derives from it by stripping marks; the reverse does not work.
 
-The table lives in the registry under `transliteration`, not in code, so a consumer reads it rather than reimplementing the scheme. Greek needs three context rules beyond letter-for-letter, all named in the table: gamma before a velar is a nasal (ἄγγελος reads *ángelos*), upsilon closing a diphthong is *u* rather than *y* (αὐτοῦ reads *autoû*), and a rough breathing prefixes *h* to the vowel or to the whole diphthong, with rho taking *rh* (ῥῆμα reads *rhē̂ma*, οὗτος reads *hoûtos*).
+The table lives in the registry under `transliteration`, not in code, so a consumer reads it rather than reimplementing the scheme. Greek needs three context rules beyond letter-for-letter, all named in the table: gamma before a velar is a nasal (ἄγγελος reads _ángelos_), upsilon closing a diphthong is _u_ rather than _y_ (αὐτοῦ reads _autoû_), and a rough breathing prefixes _h_ to the vowel or to the whole diphthong, with rho taking _rh_ (ῥῆμα reads _rhē̂ma_, οὗτος reads _hoûtos_).
 
-**Case carries over from the spelling.** `Ζαβδος` is *Zabdos* and `θεός` is *theós*, so the transliteration matches the key it romanizes and a proper name stays a proper name. Only the first Latin letter takes the capital, because the Greek theta is *Th* and psi is *Ps*, never *TH* or *PS*. A breathing shifts where the capital lands rather than removing it: a vowel's aspirate stands first and takes it, so `Ἅγιος` is *Hágios* and not *hÁgios*, while a rho's aspirate follows the letter and the rho keeps it, so `Ῥώμη` is *Rhṓmē*.
+**Case carries over from the spelling.** `Ζαβδος` is _Zabdos_ and `θεός` is _theós_, so the transliteration matches the key it romanizes and a proper name stays a proper name. Only the first Latin letter takes the capital, because the Greek theta is _Th_ and psi is _Ps_, never _TH_ or _PS_. That holds for a capital a single letter owns, whether a name's or the one a sentence puts at its head. A word of two or more letters printed entirely in capitals owns its capitals whole, since they are typography rather than a claim about any letter in it, so the whole romanization is capitals: `ΜΑΤΘΑΙΟΝ` is _MATTHAION_, `ΑΠΟΚΑΛΥΨΙΣ` is _APOKALYPSIS_, and `ΚΑΘΟΛΙΚΗ` is _KATHOLIKĒ_. Every book `title` in both Greek editions is set that way, and no verse in either is. Two letters and not one, because a one-letter word is all-capital the moment it is capital at all: the article and the relative stand alone as words, and reading `Ὁ` and `Ἡ` as capitalized words gives _HO_ and _HĒ_ for what a sentence merely began with a capital, which is 1,283 nodes across the two corpora. A breathing shifts where the capital lands rather than removing it: a vowel's aspirate stands first and takes it, so `Ἅγιος` is _Hágios_ and not _hÁgios_, while a rho's aspirate follows the letter and the rho keeps it, so `Ῥώμη` is _Rhṓmē_.
 
 An earlier implementation lower-cased everything, which read 5,732 capitalized spellings as though they were common words and broke the round trip a reader would expect between a key and its romanization.
 
@@ -407,11 +453,11 @@ Tagged corpora carry structure that a naive walk over text-bearing nodes silentl
 
 **Trailing punctuation is part of the node's text.** Strip it with the language's own marks, not their ASCII lookalikes. Greek ends a clause with U+0387 and asks a question with U+037E, and an apostrophe at U+2019 marks elision and belongs to the word.
 
-That last sentence has cost this repo twice, both times because two Greek marks are visually identical to ASCII ones. The Greek question mark U+037E looks exactly like a semicolon, and a sentence-boundary test written with the ASCII `;` silently skipped 1,298 words. The ano teleia U+0387 looks exactly like a middle dot, and it is a *comma-level pause*, not a sentence end, so a rule that treats it as one is wrong in the other direction. Write both as escapes, not as literals: a literal is unreadable in a character class and vanishes the first time something rewrites the file.
+That last sentence has cost this repo twice, both times because two Greek marks are visually identical to ASCII ones. The Greek question mark U+037E looks exactly like a semicolon, and a sentence-boundary test written with the ASCII `;` silently skipped 1,298 words. The ano teleia U+0387 looks exactly like a middle dot, and it is a _comma-level pause_, not a sentence end, so a rule that treats it as one is wrong in the other direction. Write both as escapes, not as literals: a literal is unreadable in a character class and vanishes the first time something rewrites the file.
 
 **A source lemma names which word a token is, and outranks a spelling collision.** Where two lexemes share a spelling, a lookup on the spelling alone answers for both, and whichever the map happens to hold wins. `Αβδιου` is the genitive of the declinable `Ἀβδίας` in Obadiah and an indeclinable name in its own right in Kings; the source says which, and ignoring it cost 497 proper names their case, number, gender and lemma at once. The narrowing has to be self-limiting — apply it only where the source's lemma names a root the map actually carries, or a source with worse lemma conventions than the map's will drag it down with them.
 
-**An edition's capitalization is its own.** Rahlfs marks a *paragraph* with a capital and leaves sentences lower case; BYZ marks a *sentence*. So a capital is not a fact about the word, and reading one as though it were will either invent paragraph divisions or lose them. Read whatever the edition means by it before normalizing, because normalizing destroys the evidence: this repo's Septuagint import recovered 2,980 paragraph divisions from Rahlfs' capitals, and it had to do that before the capitalization pass rewrote them.
+**An edition's capitalization is its own.** Rahlfs marks a _paragraph_ with a capital and leaves sentences lower case; BYZ marks a _sentence_. So a capital is not a fact about the word, and reading one as though it were will either invent paragraph divisions or lose them. Read whatever the edition means by it before normalizing, because normalizing destroys the evidence: this repo's Septuagint import recovered 2,980 paragraph divisions from Rahlfs' capitals, and it had to do that before the capitalization pass rewrote them.
 
 **Uppercasing a Greek letter is not `toUpperCase`.** Unicode's full uppercase mapping spells an iota subscript out as a second letter, so `ᾳ` becomes `ΑΙ` and `ᾧ` becomes `ὯΙ`. That is right for setting a whole word in capitals and wrong for capitalizing one letter of a lower-case word, which wants the precomposed prosgegrammeni capitals `ᾼ ῌ ῼ`. Decomposing to NFD, uppercasing the base vowel and recomposing gets there without a table.
 
@@ -419,14 +465,14 @@ That last sentence has cost this repo twice, both times because two Greek marks 
 
 A couple of dozen second taggings, all but one keeping the same Strong's number and differing only in parse:
 
-| Reference | Form | Both readings |
-| --- | --- | --- |
-| Matthew 4:15 | Γῆ | nominative or vocative |
-| Matthew 26:45 | Καθεύδετε | indicative or imperative |
-| Matthew 27:9 | ἔλαβον | first singular or third plural |
-| John 21:15 | τούτων | genitive plural masculine or neuter |
+| Reference          | Form      | Both readings                             |
+| ------------------ | --------- | ----------------------------------------- |
+| Matthew 4:15       | Γῆ        | nominative or vocative                    |
+| Matthew 26:45      | Καθεύδετε | indicative or imperative                  |
+| Matthew 27:9       | ἔλαβον    | first singular or third plural            |
+| John 21:15         | τούτων    | genitive plural masculine or neuter       |
 | 1 Corinthians 7:36 | ὑπέρακμος | nominative singular masculine or feminine |
-| 1 John 5:1 | ἀγαπᾷ | indicative or subjunctive |
+| 1 John 5:1         | ἀγαπᾷ     | indicative or subjunctive                 |
 
 James 4:5 does it twice in a row, on the article and then on its noun, because τὸ πνεῦμα can be the subject or the object of ἐπιποθεῖ:
 
@@ -496,7 +542,7 @@ The failure branch matters as much as the success one. A token whose morph match
 
 **Translations inherit tags from their source.** Declaring that an edition follows BYZ, TR or MT lets it carry root and morphology even where its own tagging has none.
 
-**A transliterated edition reads the registry's table, not the codex's stored values.** The obvious shortcut is to join each printed token to its spelling's stored `transliteration`, and it does not work, for a structural reason rather than an incidental one: the codex key deliberately folds away the two things a printed page needs. `codexLookup` lower-cases the spelling and reads a grave as its acute, so the corpus's `Δαυὶδ` keys as `δαυίδ`, whose stored value is *dauíd* where the page wants *Dauìd*. Every sentence-initial capital in both Greek corpora collapses into its lower-case key, and 636 keys answer for more than one root. A lookup is also empty for a word the codex has never heard of — BYZ2026's 20,454 untagged footnote variants, LXX1935's six deliberate misspellings in an apparatus.
+**A transliterated edition reads the registry's table, not the codex's stored values.** The obvious shortcut is to join each printed token to its spelling's stored `transliteration`, and it does not work, for a structural reason rather than an incidental one: the codex key deliberately folds away the two things a printed page needs. `codexLookup` lower-cases the spelling and reads a grave as its acute, so the corpus's `Δαυὶδ` keys as `δαυίδ`, whose stored value is _dauíd_ where the page wants _Dauìd_. Every sentence-initial capital in both Greek corpora collapses into its lower-case key, and 636 keys answer for more than one root. A lookup is also empty for a word the codex has never heard of — BYZ2026's 20,454 untagged footnote variants, LXX1935's six deliberate misspellings in an apparatus.
 
 So the value is computed from the language registry's own `transliteration` table instead, one word at a time, and stored on the node (see [content-model.md](content-model.md)). The codex is never consulted for it. The lexical-map audit's existing check, that each stored codex transliteration is reproducible from the registry alone, is what keeps the two sides agreeing by construction rather than by a second lookup.
 
@@ -534,7 +580,7 @@ One thing there does gate: a stored `transliteration` the registry's own table d
 
 **The codex-attestation audit** ([utils/codexAttestation.ts](../../../utils/codexAttestation.ts)) reads a cell against the corpus's own index, and is the one audit here that does not gate.
 
-It reports a cell whose root carries a Strong's number where every corpus word the cell explains that carries a number carries a different one. Read plainly, such a cell says *this root inflects to this spelling* while every occurrence of that spelling is indexed to some other word. That is a disagreement between two files rather than a linguistic judgment, which is exactly why it is safe to report and unsafe to gate on: the check never decides which side is wrong, and in every finding only a person can. It found a verb root holding the whole paradigm of a noun derived from it, which had shadowed the real noun's own entry.
+It reports a cell whose root carries a Strong's number where every corpus word the cell explains that carries a number carries a different one. Read plainly, such a cell says _this root inflects to this spelling_ while every occurrence of that spelling is indexed to some other word. That is a disagreement between two files rather than a linguistic judgment, which is exactly why it is safe to report and unsafe to gate on: the check never decides which side is wrong, and in every finding only a person can. It found a verb root holding the whole paradigm of a noun derived from it, which had shadowed the real noun's own entry.
 
 It reads the numbers rather than the parts of speech, and that is deliberate. A registry's `posReadings` permits a verb root to carry noun cells, and it is right to; most cells whose parse states a different part of speech than their root are correct. Its blind spot follows from the same design: a corpus wrong about the lemma and the number in the same direction agrees with the cell, and nothing is left to disagree about. Reading the clause is the only route to those.
 

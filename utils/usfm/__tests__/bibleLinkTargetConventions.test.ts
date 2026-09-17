@@ -20,19 +20,31 @@ import { Token, tokenize } from "../tokenize";
  */
 
 /** Finds the first `\x`...`\x*` span in `raw` and builds its cross-reference content, mirroring `footnotes.test.ts`'s own `footnoteFrom` shape for `\f`. */
-function crossReferenceFrom(raw: string): ReturnType<typeof buildCrossReferenceContent> {
+function crossReferenceFrom(
+  raw: string,
+): ReturnType<typeof buildCrossReferenceContent> {
   const tokens: Token[] = tokenize(raw);
-  const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "x");
-  if (openIndex === -1) throw new Error(`crossReferenceFrom: no \\x open token found in: ${raw}`);
+  const openIndex = tokens.findIndex(
+    (token) => token.type === "open" && token.name === "x",
+  );
+  if (openIndex === -1)
+    throw new Error(`crossReferenceFrom: no \\x open token found in: ${raw}`);
   return buildCrossReferenceContent(tokens, openIndex + 1);
 }
 
 describe("bibleLink target conventions — Finding 8b/8c, checked against real WEBUS2020 fixtures", () => {
   it("should resolve the two named fixtures exactly as upstream WEBUS2020's own committed HEAD does (Matthew 4:6 and Matthew 5:4, modulo the dash character, a separate later post-write convention this module never applies)", () => {
-    const matthew46 = crossReferenceFrom("\\x + \\xo 4:6 \\xt Psalms 91:11-12 \\x*");
-    expect(matthew46.footnote.content).toEqual({ bibleLink: "Psalm 91:11-12", content: "Psalms 91:11-12" });
+    const matthew46 = crossReferenceFrom(
+      "\\x + \\xo 4:6 \\xt Psalms 91:11-12 \\x*",
+    );
+    expect(matthew46.footnote.content).toEqual({
+      bibleLink: "Psalm 91:11-12",
+      content: "Psalms 91:11-12",
+    });
 
-    const matthew54 = crossReferenceFrom("\\x + \\xo 5:4 \\xt Isaiah 61:2; 66:10,13\\x*");
+    const matthew54 = crossReferenceFrom(
+      "\\x + \\xo 5:4 \\xt Isaiah 61:2; 66:10,13\\x*",
+    );
     expect(matthew54.footnote.content).toEqual([
       { bibleLink: "Isaiah 61:2" },
       "; ",

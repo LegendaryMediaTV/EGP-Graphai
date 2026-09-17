@@ -430,7 +430,6 @@
 
 ### The Book of the Covenant
 
-
 ### Statutes and Judgements
 
 <sup>1</sup> “These _are_ the statutes and the judgments which ye observe to do in the land which Jehovah, God of thy fathers, hath given to thee to possess it, all the days that ye are living on the ground:

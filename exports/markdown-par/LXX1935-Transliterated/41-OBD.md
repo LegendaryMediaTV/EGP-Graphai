@@ -2,7 +2,7 @@
 
 <sup>1</sup> Hórasis Abdiou.
 
- Táde légei kýrios ho theòs tē̂ Idoumaía Akoḕn ḗkousa parà kyríou, kaì periochḕn eis tà éthnē exapésteilen Anástēte kaì exanastō̂men ep’ autḕn eis pólemon.
+Táde légei kýrios ho theòs tē̂ Idoumaía Akoḕn ḗkousa parà kyríou, kaì periochḕn eis tà éthnē exapésteilen Anástēte kaì exanastō̂men ep’ autḕn eis pólemon.
 <sup>2</sup> Idoù oligostòn dédōká se en toîs éthnesin, ētimōménos sỳ eî sphódra.
 <sup>3</sup> Hyperēphanía tē̂s kardías sou epē̂rén se kataskēnoûnta en taîs opaîs tō̂n petrō̂n, hypsō̂n katoikían autoû légōn en kardía autoû Tís me katáxei epì tḕn gē̂n?
 <sup>4</sup> Eàn meteōristhē̂s hōs aetòs kaì eàn anà méson tō̂n ástrōn thē̂s nossián sou, ekeîthen katáxō se, légei kýrios.

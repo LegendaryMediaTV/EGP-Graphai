@@ -578,7 +578,6 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 
 ### Jesus in Judea
 
-
 ### Beyond Jordan
 
 <sup>1</sup> And having risen thence, he doth come to the coasts of Judea, through the other side of the Jordan, and again do multitudes come together unto him, and, as he had been accustomed, again he was teaching them.<sup>a</sup>
@@ -659,7 +658,6 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 ## Chapter 11
 
 ### Holy Week
-
 
 ### Sunday
 

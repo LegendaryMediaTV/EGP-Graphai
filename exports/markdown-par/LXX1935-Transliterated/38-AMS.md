@@ -136,13 +136,13 @@
 <sup>2</sup> Kaì éstai eàn syntelésē toû kataphageîn tòn chórton tē̂s gē̂s, kaì eîpa Kýrie kýrie, híleōs genoû; tís anastḗsei tòn Iakōb? Hóti oligostós estin;
 <sup>3</sup> metanóēson, kýrie, epì toútō.
 
- Kaì toûto ouk éstai, légei kýrios.
+Kaì toûto ouk éstai, légei kýrios.
 
 <sup>4</sup> Hoútōs édeixén moi kýrios kaì idoù ekálesen tḕn díkēn en pyrì kýrios, kaì katéphage tḕn ábysson tḕn pollḕn kaì katéphagen tḕn merída.
 <sup>5</sup> Kaì eîpa Kýrie kýrie, kópason dḗ; tís anastḗsei tòn Iakōb? Hóti oligostós estin;
 <sup>6</sup> metanóēson, kýrie, epì toútō.
 
- Kaì toûto ou mḕ génētai, légei kýrios.
+Kaì toûto ou mḕ génētai, légei kýrios.
 
 <sup>7</sup> Hoútōs édeixén moi kýrios kaì idoù anḕr hestēkṑs epì teíchous adamantínou, kaì en tē̂ cheirì autoû adámas.
 <sup>8</sup> Kaì eîpen kýrios prós me Tí sỳ horâs, Amōs? Kaì eîpa Adámanta. Kaì eîpen kýrios prós me Idoù egṑ entássō adámanta en mésō laoû mou Israēl, oukéti mḕ prosthō̂ toû pareltheîn autón;

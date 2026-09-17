@@ -44,7 +44,10 @@ describe("mapContentText — recursion into every content-bearing branch", () =>
 
   it("should rewrite text nested inside a ContentNested wrapper's own content", () => {
     expect(
-      mapContentText([{ content: ["A", { text: "hello" }], strong: "H3968" }], shout),
+      mapContentText(
+        [{ content: ["A", { text: "hello" }], strong: "H3968" }],
+        shout,
+      ),
     ).toEqual({
       content: [{ content: ["A", { text: "HELLO" }], strong: "H3968" }],
       changed: true,
@@ -53,7 +56,10 @@ describe("mapContentText — recursion into every content-bearing branch", () =>
 
   it("should rewrite text nested inside a footnote's own content", () => {
     expect(
-      mapContentText([{ text: "WORD", foot: { type: "stu", content: "hello" } }], shout),
+      mapContentText(
+        [{ text: "WORD", foot: { type: "stu", content: "hello" } }],
+        shout,
+      ),
     ).toEqual({
       content: [{ text: "WORD", foot: { type: "stu", content: "HELLO" } }],
       changed: true,
@@ -200,7 +206,10 @@ describe("mapContentNodes — recursion into every content-bearing branch", () =
 
   it("should not walk into a bibleLink node's own display-content override", () => {
     expect(
-      mapContentNodes([{ bibleLink: "John 3:16", content: [{ text: "here" }] }], stamp),
+      mapContentNodes(
+        [{ bibleLink: "John 3:16", content: [{ text: "here" }] }],
+        stamp,
+      ),
     ).toEqual({
       content: [{ bibleLink: "John 3:16", content: [{ text: "here" }] }],
       changed: false,
@@ -220,10 +229,12 @@ describe("mapContentNodes — recursion into every content-bearing branch", () =
       const { lemma: _lemma, ...rest } = node;
       return rest;
     };
-    expect(mapContentNodes([{ lemma: "orphan", strong: "G1" }], strip)).toEqual({
-      content: [{ strong: "G1" }],
-      changed: true,
-    });
+    expect(mapContentNodes([{ lemma: "orphan", strong: "G1" }], strip)).toEqual(
+      {
+        content: [{ strong: "G1" }],
+        changed: true,
+      },
+    );
   });
 
   it("should hand the transform a node whose children have already been rewritten", () => {
@@ -234,8 +245,13 @@ describe("mapContentNodes — recursion into every content-bearing branch", () =
       if (node.foot) seen.push(node.foot);
       return stamp(node);
     };
-    mapContentNodes([{ text: "outer", foot: { type: "stu", content: [{ text: "inner" }] } }], watch);
-    expect(seen).toEqual([{ type: "stu", content: [{ text: "inner", lemma: "inner" }] }]);
+    mapContentNodes(
+      [{ text: "outer", foot: { type: "stu", content: [{ text: "inner" }] } }],
+      watch,
+    );
+    expect(seen).toEqual([
+      { type: "stu", content: [{ text: "inner", lemma: "inner" }] },
+    ]);
   });
 });
 

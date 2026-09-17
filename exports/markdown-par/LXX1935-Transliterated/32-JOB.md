@@ -880,7 +880,7 @@
 <sup>39</sup> ei dè kaì tḕn ischỳn autē̂s éphagon mónos áneu timē̂s, ei dè kaì psychḕn kyríou tē̂s gē̂s ekbalṑn elýpēsa,
 <sup>40</sup> antì pyroû ára exélthoi moi knídē, antì dè krithē̂s bátos.
 
- Kaì epaúsato Iōb rhḗmasin.
+Kaì epaúsato Iōb rhḗmasin.
 
 ## Chapter 32
 

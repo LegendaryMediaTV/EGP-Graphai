@@ -44,7 +44,13 @@ describe("content-schema.json transliteration", () => {
   });
 
   it("should accept a text object carrying a transliteration alongside its text", () => {
-    expect(validate({ text: " χριστοῦ,", script: "G", transliteration: " christoû," })).toBe(true);
+    expect(
+      validate({
+        text: " χριστοῦ,",
+        script: "G",
+        transliteration: " christoû,",
+      }),
+    ).toBe(true);
   });
 
   it("should reject a transliteration on a node that has no text to be a transliteration of", () => {
@@ -54,7 +60,9 @@ describe("content-schema.json transliteration", () => {
   });
 
   it("should reject a transliteration on a nested-content object, which has no text of its own", () => {
-    expect(validate({ content: ["a", "b"], transliteration: "ab" })).toBe(false);
+    expect(validate({ content: ["a", "b"], transliteration: "ab" })).toBe(
+      false,
+    );
   });
 
   it("should still accept a text object with no transliteration", () => {

@@ -37,8 +37,8 @@
 ## Chapter 2
 
 <sup>1</sup> <sup>a</sup>
-### Wise Men from the East
 
+### Wise Men from the East
 
 And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,
 <sup>2</sup> saying, “Where is he who was born king of the Jews? for we saw his star in the east, and we came to bow to him.”
@@ -83,10 +83,10 @@ And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king
 ## Chapter 3
 
 <sup>1</sup> <sup>a</sup>
+
 ### His Baptism and Temptation
 
 ### John the Baptist
-
 
 And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,
 <sup>2</sup> and saying, “Reform, for come nigh hath the reign of the heavens,”
@@ -118,8 +118,8 @@ And in those days cometh John the Baptist, proclaiming in the wilderness of Jude
 ## Chapter 4
 
 <sup>1</sup> <sup>a</sup>
-### His Temptation
 
+### His Temptation
 
 Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,
 <sup>2</sup> and having fasted forty days and forty nights, afterwards he did hunger.
@@ -169,8 +169,8 @@ Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devi
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-### Sermon on the Mount
 
+### Sermon on the Mount
 
 And having seen the multitudes,<sup>b</sup> he went up to the mount, and he having sat down, his disciples came to him,
 <sup>2</sup> and having opened his mouth, he was teaching them, saying:
@@ -253,8 +253,8 @@ And having seen the multitudes,<sup>b</sup> he went up to the mount, and he havi
 ## Chapter 6
 
 <sup>1</sup> <sup>a</sup>
-### Real Religion
 
+### Real Religion
 
 “Take heed your kindness not to do before men, to be seen by them, and if not—reward ye have not from your Father who _is_ in the heavens;
 <sup>2</sup> whenever, therefore, thou mayest do kindness, thou mayest not sound a trumpet before thee as the hypocrites do, in the synagogues, and in the streets, that they may have glory from men; verily I say to you—they have their reward!
@@ -356,9 +356,10 @@ And when he came down from the mount, great multitudes<sup>b</sup> did follow hi
 <sup>4</sup> And Jesus saith to him, “See, thou mayest tell no one, but go, thyself shew to the priest, and bring the gift that Moses commanded for a testimony to them.”
 
 ### Marvellous Deeds
-<sup>5</sup> 
-### Power Over Disease
 
+<sup>5</sup>
+
+### Power Over Disease
 
 And Jesus having entered into Capernaum, there came to him a centurion calling upon him,
 <sup>6</sup> and saying, “Sir, my young man hath been laid in the house a paralytic, fearfully afflicted,”
@@ -414,8 +415,8 @@ And Jesus having entered into Capernaum, there came to him a centurion calling u
 ## Chapter 9
 
 <sup>1</sup> <sup>a</sup>
-### Forgives Sin
 
+### Forgives Sin
 
 And having gone to the boat, he passed over, and came to his own city,
 <sup>2</sup> and lo, they were bringing to him a paralytic, laid upon a couch, and Jesus having seen their faith, said to the paralytic, “Be of good courage, child, thy sins have been forgiven thee.”
@@ -480,8 +481,8 @@ And having gone to the boat, he passed over, and came to his own city,
 ## Chapter 10
 
 <sup>1</sup> <sup>a</sup>
-### Names of the Twelve
 
+### Names of the Twelve
 
 And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady.
 <sup>2</sup> And of the twelve apostles the names are these: first, Simon, who is called Peter, and Andrew his brother; James of Zebedee, and John his brother;
@@ -601,8 +602,8 @@ And it came to pass, when Jesus ended directing his twelve disciples, he departe
 ## Chapter 12
 
 <sup>1</sup> <sup>a</sup>
-### Jesus Challenged
 
+### Jesus Challenged
 
 At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,
 <sup>2</sup> and the Pharisees having seen, said to him, “Lo, thy disciples do that which it is not lawful to do on a sabbath.”
@@ -682,8 +683,8 @@ At that time did Jesus go on the sabbaths through the corn, and his disciples we
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-### Parables of the Kingdom
 
+### Parables of the Kingdom
 
 And in that day Jesus, having gone forth from the house, was sitting by the sea,
 <sup>2</sup> and gathered together unto him were many multitudes, so that he having gone into the boat did sit down, and all the multitude on the beach did stand,
@@ -785,8 +786,8 @@ And in that day Jesus, having gone forth from the house, was sitting by the sea,
 ## Chapter 14
 
 <sup>1</sup> <sup>a</sup>
-### From Place to Place
 
+### From Place to Place
 
 At that time did Herod the tetrarch hear the fame of Jesus,
 <sup>2</sup> and said to his servants,<sup>b</sup> “This is John the Baptist, he did rise from the dead, and because of this the mighty energies are working in him.”
@@ -962,8 +963,8 @@ And the Pharisees and Sadducees having come, tempting, did question him, to shew
 ## Chapter 17
 
 <sup>1</sup> <sup>a</sup>
-### The Transfiguration
 
+### The Transfiguration
 
 And after six days Jesus taketh<sup>b</sup> Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,
 <sup>2</sup> and he was transfigured before them, and his face shone as the sun, and his garments did become white as the light,
@@ -1011,8 +1012,8 @@ And after six days Jesus taketh<sup>b</sup> Peter, and James, and John his broth
 ## Chapter 18
 
 <sup>1</sup> <sup>a</sup>
-### Jesus and His Disciples
 
+### Jesus and His Disciples
 
 At that hour came the disciples near to Jesus, saying, “Who, now, is greater in the reign of the heavens?”
 <sup>2</sup> And Jesus having called near a child, did set him in the midst of them,
@@ -1059,8 +1060,8 @@ At that hour came the disciples near to Jesus, saying, “Who, now, is greater i
 ## Chapter 19
 
 <sup>1</sup> <sup>a</sup>
-### Beyond Jordan
 
+### Beyond Jordan
 
 And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,
 <sup>2</sup> and great multitudes followed him, and he healed<sup>b</sup> them there.
@@ -1109,8 +1110,8 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 ## Chapter 20
 
 <sup>1</sup> <sup>a</sup>
-### Labourers in the Vineyard
 
+### Labourers in the Vineyard
 
 “For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,
 <sup>2</sup> and having agreed with the workmen for a denary a day, he sent them into his vineyard.
@@ -1166,10 +1167,10 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 ## Chapter 21
 
 <sup>1</sup> <sup>a</sup>
+
 ### In Jerusalem
 
 ### Triumphal Entry
-
 
 And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,
 <sup>2</sup> saying to them, “Go on to the village over-against you, and immediately ye shall find an ass bound, and a colt with her—having loosed, bring ye to me;
@@ -1244,8 +1245,8 @@ And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of t
 ## Chapter 22
 
 <sup>1</sup> <sup>a</sup>
-### The Wedding Garment
 
+### The Wedding Garment
 
 And Jesus answering, again spake to them in similes, saying,
 <sup>2</sup> “The reign of the heavens was likened to a man, a king, who made marriage-feasts for his son,
@@ -1318,8 +1319,8 @@ And Jesus answering, again spake to them in similes, saying,
 ## Chapter 23
 
 <sup>1</sup> <sup>a</sup>
-### The Great Denunciation
 
+### The Great Denunciation
 
 Then Jesus spake to the multitudes,<sup>b</sup> and to his disciples,
 <sup>2</sup> saying, “On the seat of Moses sat down the scribes and the Pharisees;
@@ -1375,8 +1376,8 @@ Then Jesus spake to the multitudes,<sup>b</sup> and to his disciples,
 ## Chapter 24
 
 <sup>1</sup> <sup>a</sup>
-### Destruction of the Temple
 
+### Destruction of the Temple
 
 And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,
 <sup>2</sup> and Jesus said to them, “Do ye not see all these? verily I say to you, There may not be left here a stone upon a stone, that shall not be thrown down.”
@@ -1453,8 +1454,8 @@ And having gone forth, Jesus departed from the temple, and his disciples came ne
 ## Chapter 25
 
 <sup>1</sup> <sup>a</sup>
-### The Ten Virgins
 
+### The Ten Virgins
 
 “Then shall the reign of the heavens be likened to ten virgins, who, having taken their lamps, went forth to meet the bridegroom;
 <sup>2</sup> and five of them were prudent, and five foolish;
@@ -1518,8 +1519,8 @@ And having gone forth, Jesus departed from the temple, and his disciples came ne
 ## Chapter 26
 
 <sup>1</sup> <sup>a</sup>
-### The Death of Jesus
 
+### The Death of Jesus
 
 And it came to pass, when Jesus finished all these words, he said to his disciples,
 <sup>2</sup> “Ye have known that after two days the passover cometh, and the Son of Man is delivered up to be crucified.”
@@ -1735,8 +1736,8 @@ And morning having come, all the chief priests and the elders of the people took
 ## Chapter 28
 
 <sup>1</sup> <sup>a</sup>
-### The Resurrection
 
+### The Resurrection
 
 And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,
 <sup>2</sup> and lo, there came a great earthquake, for a messenger of the Lord, having come down out of heaven, having come, did roll away the stone from the door, and was sitting upon it,

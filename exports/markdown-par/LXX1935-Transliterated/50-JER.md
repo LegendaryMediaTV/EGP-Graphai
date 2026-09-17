@@ -877,7 +877,7 @@
 
 <sup>1</sup> Tē̂ Idoumaía.
 
- Táde légei kýrios Ouk éstin éti sophía en Thaiman, apṓleto boulḕ ek synetō̂n, ṓcheto sophía autō̂n,
+Táde légei kýrios Ouk éstin éti sophía en Thaiman, apṓleto boulḕ ek synetō̂n, ṓcheto sophía autō̂n,
 <sup>2</sup> ēpatḗthē ho tópos autō̂n. Bathýnate eis káthisin, hoi katoikoûntes en Daidan, hóti dýskola epoíēsen; ḗgagon ep’ autòn en chrónō, hō̂ epeskepsámēn ep’ autón.
 <sup>3</sup> Hóti trygētaì ē̂lthón soi, ou kataleípsousín soi kataleímmata; hōs kléptai en nyktì epithḗsousin cheîra autō̂n.
 <sup>4</sup> Hóti egṑ katésyra tòn Ēsau, anekálypsa tà kryptà autō̂n, krybē̂nai ou mḕ dýnōntai; ṓlonto dià cheîra adelphoû autoû kaì geítonos autoû, kaì ouk éstin
@@ -896,7 +896,7 @@
 
 <sup>17</sup> Toîs hyioîs Ammōn.
 
- Hoútōs eîpen kýrios Mḕ hyioì oúk eisin en Israēl, ḕ paralēmpsómenos ouk éstin autoîs? Dià tí parélaben Melchom tòn Gad, kaì ho laòs autō̂n en pólesin autō̂n enoikḗsei?
+Hoútōs eîpen kýrios Mḕ hyioì oúk eisin en Israēl, ḕ paralēmpsómenos ouk éstin autoîs? Dià tí parélaben Melchom tòn Gad, kaì ho laòs autō̂n en pólesin autō̂n enoikḗsei?
 <sup>18</sup> Dià toûto idoù hēmérai érchontai, phēsìn kýrios, kaì akoutiō̂ epì Rabbath thórybon polémōn, kaì ésontai eis ábaton kaì eis apṓleian, kaì bōmoì autē̂s en pyrì katakauthḗsontai, kaì paralḗmpsetai Israēl tḕn archḕn autoû.
 <sup>19</sup> Alálaxon, Esebōn, hóti ṓleto Gai; kekráxate, thygatéres Rabbath, perizṓsasthe sákkous kaì epilēmpteúsasthe kaì kópsasthe epì Melchom, hóti en apoikía badieîtai, hoi hiereîs autoû kaì hoi árchontes autoû háma.
 <sup>20</sup> Tí agalliásē en toîs pedíois Enakim, thýgater itamías hē pepoithyîa epì thēsauroîs autē̂s hē légousa Tís eiseleúsetai ep’ emé?
@@ -904,7 +904,7 @@
 
 <sup>23</sup> Tē̂ Kēdar basilíssē tē̂s aulē̂s, hḕn epátaxen Nabouchodonosor basileùs Babylō̂nos.
 
- Hoútōs eîpen kýrios Anástēte kaì anábēte epì Kēdar kaì plḗsate toùs hyioùs Kedem;
+Hoútōs eîpen kýrios Anástēte kaì anábēte epì Kēdar kaì plḗsate toùs hyioùs Kedem;
 <sup>24</sup> skēnàs autō̂n kaì próbata autō̂n lḗmpsontai, himátia autō̂n kaì pánta tà skeúē autō̂n kaì kamḗlous autō̂n lḗmpsontai heautoîs; kaì kalésate ep’ autoùs apṓleian kyklóthen.
 <sup>25</sup> Pheúgete lían, bathýnate eis káthisin, kathḗmenoi en tē̂ aulē̂, hóti ebouleúsato eph’ hymâs basileùs Babylō̂nos boulḕn kaì elogísato eph’ hymâs logismón.
 <sup>26</sup> Anástēthi kaì anábēthi ep’ éthnos eustathoûn kathḗmenon eis anapsychḗn, hoîs oúk eisin thýrai, ou bálanoi, ou mochloí, mónoi katalýousin.
@@ -913,7 +913,7 @@
 
 <sup>29</sup> Tē̂ Damaskō̂.
 
- Katēschýnthē Ēmath kaì Arphad, hóti ḗkousan akoḕn ponērán; exéstēsan, ethymṓthēsan, anapaúsasthai ou mḕ dýnōntai.
+Katēschýnthē Ēmath kaì Arphad, hóti ḗkousan akoḕn ponērán; exéstēsan, ethymṓthēsan, anapaúsasthai ou mḕ dýnōntai.
 <sup>30</sup> Exelýthē Damaskós, apestráphē eis phygḗn, trómos epelábeto autē̂s.
 <sup>31</sup> Pō̂s ouchì enkatélipen pólin emḗn? Kṓmēn ēgápēsan.
 <sup>32</sup> Dià toûto pesoûntai neanískoi en plateíais sou, kaì pántes hoi ándres hoi polemistaí sou pesoûntai, phēsìn kýrios;
@@ -923,7 +923,7 @@
 
 <sup>1</sup> Tē̂ Mōab.
 
- Hoútōs eîpen kýrios Ouaì epì Nabau, hóti ṓleto; elḗmphthē Kariathaim, ēschýnthē Amath kaì hēttḗthē.
+Hoútōs eîpen kýrios Ouaì epì Nabau, hóti ṓleto; elḗmphthē Kariathaim, ēschýnthē Amath kaì hēttḗthē.
 <sup>2</sup> Ouk éstin éti iatreía Mōab, agauríama en Esebōn; elogísanto ep’ autḕn kaká; ekópsamen autḕn apò éthnous, kaì paûsin paúsetai, ópisthén sou badieîtai máchaira.
 <sup>3</sup> Hóti phōnḕ kekragótōn ex Ōrōnaim, ólethros kaì sýntrimma méga
 

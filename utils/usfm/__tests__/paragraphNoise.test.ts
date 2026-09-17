@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import Content from "../../../types/Content";
-import { isUniformParagraphNoise, ParagraphNoiseVerse, suppressUniformParagraphNoise } from "../paragraphNoise";
+import {
+  isUniformParagraphNoise,
+  ParagraphNoiseVerse,
+  suppressUniformParagraphNoise,
+} from "../paragraphNoise";
 
 describe("suppressUniformParagraphNoise — real USFM source's Genesis 1 shape", () => {
   // Modeled on a real USFM source's own shape — each verse carries
@@ -23,12 +27,18 @@ describe("suppressUniformParagraphNoise — real USFM source's Genesis 1 shape",
     {
       chapter: 1,
       verse: 3,
-      content: { paragraph: true, text: "Third verse text, with a quoted “remark” inside it." },
+      content: {
+        paragraph: true,
+        text: "Third verse text, with a quoted “remark” inside it.",
+      },
     },
     {
       chapter: 2,
       verse: 1,
-      content: { paragraph: true, text: "Fourth verse text, opening the next chapter." },
+      content: {
+        paragraph: true,
+        text: "Fourth verse text, opening the next chapter.",
+      },
     },
   ];
 
@@ -66,7 +76,11 @@ describe("isUniformParagraphNoise / suppressUniformParagraphNoise — the 100%-w
     return [
       { chapter: 1, verse: 1, content: { paragraph: true, text: "verse one" } },
       { chapter: 1, verse: 2, content: { paragraph: true, text: "verse two" } },
-      { chapter: 1, verse: 3, content: { paragraph: true, text: "verse three" } },
+      {
+        chapter: 1,
+        verse: 3,
+        content: { paragraph: true, text: "verse three" },
+      },
     ];
   }
 
@@ -100,26 +114,50 @@ describe("suppressUniformParagraphNoise — heading/subtitle interaction (synthe
     // that run must keep paragraph: true even under book-wide suppression,
     // since verse 3 isn't chapter 1's first verse.
     const headingNode = { heading: "A Heading" };
-    const afterHeadingNode = { paragraph: true, text: "Text right after the heading." };
+    const afterHeadingNode = {
+      paragraph: true,
+      text: "Text right after the heading.",
+    };
 
     const verses: ParagraphNoiseVerse[] = [
-      { chapter: 1, verse: 1, content: { paragraph: true, text: "Chapter 1's own first verse." } },
-      { chapter: 1, verse: 2, content: { paragraph: true, text: "An ordinary later verse." } },
+      {
+        chapter: 1,
+        verse: 1,
+        content: { paragraph: true, text: "Chapter 1's own first verse." },
+      },
+      {
+        chapter: 1,
+        verse: 2,
+        content: { paragraph: true, text: "An ordinary later verse." },
+      },
       {
         chapter: 1,
         verse: 3,
         content: [headingNode, afterHeadingNode] as unknown as Content,
       },
-      { chapter: 2, verse: 1, content: { paragraph: true, text: "Chapter 2's own first verse." } },
+      {
+        chapter: 2,
+        verse: 1,
+        content: { paragraph: true, text: "Chapter 2's own first verse." },
+      },
     ];
 
     expect(isUniformParagraphNoise(verses)).toBe(true);
 
     const result = suppressUniformParagraphNoise(verses);
 
-    expect(result[0].content).toEqual({ paragraph: true, text: "Chapter 1's own first verse." });
+    expect(result[0].content).toEqual({
+      paragraph: true,
+      text: "Chapter 1's own first verse.",
+    });
     expect(result[1].content).toEqual({ text: "An ordinary later verse." });
-    expect(result[2].content).toEqual([headingNode, { paragraph: true, text: "Text right after the heading." }]);
-    expect(result[3].content).toEqual({ paragraph: true, text: "Chapter 2's own first verse." });
+    expect(result[2].content).toEqual([
+      headingNode,
+      { paragraph: true, text: "Text right after the heading." },
+    ]);
+    expect(result[3].content).toEqual({
+      paragraph: true,
+      text: "Chapter 2's own first verse.",
+    });
   });
 });

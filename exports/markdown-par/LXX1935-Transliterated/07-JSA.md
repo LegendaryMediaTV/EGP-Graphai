@@ -1,4 +1,3 @@
-
 ## Chapter 15
 
 <sup>21</sup> Kabseēl kaì Edrai kaì Iagour
@@ -57,7 +56,7 @@
 <sup>61</sup> Baddargis kaì Bētharaba kaì Madōn kaì Sochocha
 <sup>62</sup> kaì Nebsan kaì hai póleis halō̂n kaì Ēngaddi, póleis heptà kaì hai kō̂mai autō̂n.
 
- Bēthagla kaì Amekkasis
+Bēthagla kaì Amekkasis
 
 ## Chapter 18
 

@@ -18,7 +18,11 @@ describe("reorderFootnotePunctuationInContent", () => {
       { text: "”", marks: ["woc"] },
     ];
 
-    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = reorderFootnotePunctuationInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -47,7 +51,11 @@ describe("reorderFootnotePunctuationInContent", () => {
       { text: "”", marks: ["woc"], break: true },
     ];
 
-    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = reorderFootnotePunctuationInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -74,10 +82,18 @@ describe("reorderFootnotePunctuationInContent", () => {
         marks: ["woc"],
         foot: { type: "var", content: "TR adds “the Beginning and the End”" },
       },
-      { text: "”", marks: ["woc"], foot: { type: "expl", content: "a second, unrelated note" } },
+      {
+        text: "”",
+        marks: ["woc"],
+        foot: { type: "expl", content: "a second, unrelated note" },
+      },
     ];
 
-    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = reorderFootnotePunctuationInContent(content as never);
 
     expect(changed).toBe(false);
     expect(skipped).toEqual(["extra-keys"]);
@@ -92,11 +108,19 @@ describe("reorderFootnotePunctuationInContent", () => {
     // position still has one correct answer: after the punctuation. `foot`
     // moves there instead of the punctuation moving onto the footed node.
     const content = [
-      { text: "some clause", marks: ["i"], foot: { type: "expl", content: "note" } },
+      {
+        text: "some clause",
+        marks: ["i"],
+        foot: { type: "expl", content: "note" },
+      },
       ".",
     ];
 
-    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = reorderFootnotePunctuationInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -115,11 +139,19 @@ describe("reorderFootnotePunctuationInContent", () => {
     // extracted `foot` without splitting this sibling in two, which no real
     // corpus case has needed yet.
     const content = [
-      { text: "some clause", marks: ["i"], foot: { type: "expl", content: "note" } },
+      {
+        text: "some clause",
+        marks: ["i"],
+        foot: { type: "expl", content: "note" },
+      },
       ". Then something else",
     ];
 
-    const { content: result, changed, skipped } = reorderFootnotePunctuationInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = reorderFootnotePunctuationInContent(content as never);
 
     expect(changed).toBe(false);
     expect(skipped).toEqual(["eligibility"]);

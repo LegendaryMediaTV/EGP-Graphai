@@ -98,27 +98,51 @@ export interface CorpusEnrichmentAudit {
  */
 export function auditCorpusEnrichment(version: string): CorpusEnrichmentAudit {
   const dir = path.join(bibleVersionsDir, version);
-  const lemma: AnnotationCoverage = { candidates: 0, carried: 0, unresolved: new Map() };
-  const strongs: AnnotationCoverage = { candidates: 0, carried: 0, unresolved: new Map() };
+  const lemma: AnnotationCoverage = {
+    candidates: 0,
+    carried: 0,
+    unresolved: new Map(),
+  };
+  const strongs: AnnotationCoverage = {
+    candidates: 0,
+    carried: 0,
+    unresolved: new Map(),
+  };
   const disagreements: EnrichmentDisagreement[] = [];
-  const audit: CorpusEnrichmentAudit = { version, scanned: 0, lemma, strongs, disagreements, held: 0 };
+  const audit: CorpusEnrichmentAudit = {
+    version,
+    scanned: 0,
+    lemma,
+    strongs,
+    disagreements,
+    held: 0,
+  };
 
   const versionFile = path.join(dir, "_version.json");
   if (!fs.existsSync(versionFile)) return audit;
-  const morphology = JSON.parse(fs.readFileSync(versionFile, "utf-8")).morphology ?? undefined;
+  const morphology =
+    JSON.parse(fs.readFileSync(versionFile, "utf-8")).morphology ?? undefined;
 
-  for (const name of fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "_version.json")) {
+  for (const name of fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && f !== "_version.json")) {
     const records = JSON.parse(fs.readFileSync(path.join(dir, name), "utf-8"));
     if (!Array.isArray(records)) continue;
 
     for (const record of records) {
-      const at = { file: name, book: record.book, chapter: record.chapter, verse: record.verse };
+      const at = {
+        file: name,
+        book: record.book,
+        chapter: record.chapter,
+        verse: record.verse,
+      };
 
       // Returning undefined for every node makes this walker a visitor. Reusing
       // it rather than writing a second one is what keeps these counts about
       // exactly the nodes the fixer acted on.
       mapContentNodes(record.content as Content, (node) => {
-        if (typeof node.text !== "string" || node.script === undefined) return undefined;
+        if (typeof node.text !== "string" || node.script === undefined)
+          return undefined;
         audit.scanned++;
 
         const expected = transliterateText(node.text, node.script);
@@ -127,7 +151,13 @@ export function auditCorpusEnrichment(version: string): CorpusEnrichmentAudit {
           // report, so counting them here rather than in a walk of their own
           // keeps the two numbers about one population.
           if (node.transliteration === node.text) audit.held++;
-          else disagreements.push({ ...at, text: node.text, stored: node.transliteration ?? "", expected });
+          else
+            disagreements.push({
+              ...at,
+              text: node.text,
+              stored: node.transliteration ?? "",
+              expected,
+            });
         }
 
         if (node.morph !== undefined) {
@@ -136,8 +166,13 @@ export function auditCorpusEnrichment(version: string): CorpusEnrichmentAudit {
           else
             count(
               lemma.unresolved,
-              resolveLemma({ text: node.text, morph: node.morph, morphology, strong: node.strong }),
-              "lemma"
+              resolveLemma({
+                text: node.text,
+                morph: node.morph,
+                morphology,
+                strong: node.strong,
+              }),
+              "lemma",
             );
         }
 
@@ -147,8 +182,13 @@ export function auditCorpusEnrichment(version: string): CorpusEnrichmentAudit {
           else
             count(
               strongs.unresolved,
-              resolveStrongs({ lemma: node.lemma, text: node.text, morph: node.morph, morphology }),
-              "Strong's number"
+              resolveStrongs({
+                lemma: node.lemma,
+                text: node.text,
+                morph: node.morph,
+                morphology,
+              }),
+              "Strong's number",
             );
         }
 
@@ -173,7 +213,7 @@ export function auditCorpusEnrichment(version: string): CorpusEnrichmentAudit {
 function count(
   tally: Map<string, number>,
   resolution: LemmaResolution | StrongsResolution,
-  field: string
+  field: string,
 ): void {
   const reason =
     "unresolved" in resolution
@@ -183,9 +223,14 @@ function count(
 }
 
 /** One disagreement as a single line, for the audit's own output. */
-export function formatEnrichmentDisagreement(disagreement: EnrichmentDisagreement): string {
-  const stored = disagreement.stored === "" ? "nothing" : JSON.stringify(disagreement.stored);
+export function formatEnrichmentDisagreement(
+  disagreement: EnrichmentDisagreement,
+): string {
+  const stored =
+    disagreement.stored === ""
+      ? "nothing"
+      : JSON.stringify(disagreement.stored);
   return `${disagreement.book} ${disagreement.chapter}:${disagreement.verse} ${JSON.stringify(
-    disagreement.text
+    disagreement.text,
   )} — stores ${stored}, its own text romanizes to ${JSON.stringify(disagreement.expected)}`;
 }

@@ -73,7 +73,6 @@
 
 ### The Debate
 
-
 ### Job’s Outburst
 
 <sup>1</sup> After this opened Job his mouth, and cursed his day.

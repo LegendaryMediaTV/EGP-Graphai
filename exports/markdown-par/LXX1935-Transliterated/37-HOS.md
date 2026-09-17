@@ -238,7 +238,7 @@
 <sup>11</sup> Kaì édōká soi basiléa en orgē̂ mou kaì éschon en tō̂ thymō̂ mou
 <sup>12</sup> systrophḕn adikías.
 
- Ephraim, enkekrymménē hē hamartía autoû.
+Ephraim, enkekrymménē hē hamartía autoû.
 <sup>13</sup> Ōdînes hōs tiktoúsēs hḗxousin autō̂; hoûtos ho hyiós sou ou phrónimos, dióti ou mḕ hypostē̂ en syntribē̂ téknōn.
 <sup>14</sup> Ek cheiròs hádou rhýsomai autoùs kaì ek thanátou lytrṓsomai autoús; poû hē díkē sou, thánate? Poû tò kéntron sou, hádē? Paráklēsis kékryptai apò ophthalmō̂n mou.
 <sup>15</sup> Dióti hoûtos anà méson adelphō̂n diasteleî. Epáxei ánemon kaúsōna kýrios ek tē̂s erḗmou ep’ autón, kaì anaxēraneî tàs phlébas autoû, exerēmṓsei tàs pēgàs autoû; autòs kataxēraneî tḕn gē̂n autoû kaì pánta tà skeúē tà epithymētà autoû.

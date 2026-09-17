@@ -82,7 +82,8 @@ export function tokensOf(text: string): TextRun[] {
   const runs: TextRun[] = [];
   let at = 0;
   for (const match of text.matchAll(WORD)) {
-    if (match.index > at) runs.push({ text: text.slice(at, match.index), word: false });
+    if (match.index > at)
+      runs.push({ text: text.slice(at, match.index), word: false });
     runs.push({ text: match[0], word: true });
     at = match.index + match[0].length;
   }

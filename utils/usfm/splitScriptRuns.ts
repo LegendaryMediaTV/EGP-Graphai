@@ -64,7 +64,9 @@ function rangeClass(pairs: ReadonlyArray<readonly [string, string]>): string {
   return pairs
     .map(([first, last]) => {
       if (!HEX_CODE_POINT.test(first) || !HEX_CODE_POINT.test(last)) {
-        throw new Error(`splitScriptRuns: malformed codepoint pair ${first}-${last}`);
+        throw new Error(
+          `splitScriptRuns: malformed codepoint pair ${first}-${last}`,
+        );
       }
       return `\\u{${first}}-\\u{${last}}`;
     })
@@ -121,7 +123,10 @@ export type ScriptRun = string | ContentObject;
  *   alternating array of plain-text segments and `{text, script}` nodes, in
  *   the order they appeared, with no empty segment on either side.
  */
-export function splitScriptRuns(text: string, script: "H" | "G"): string | ScriptRun[] {
+export function splitScriptRuns(
+  text: string,
+  script: "H" | "G",
+): string | ScriptRun[] {
   const pattern = scriptPattern(script);
   if (!pattern.test(text)) return text;
   pattern.lastIndex = 0;

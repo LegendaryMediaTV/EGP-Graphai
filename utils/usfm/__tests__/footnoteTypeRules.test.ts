@@ -12,9 +12,13 @@ import { classifyFootnote, flattenContentText } from "../footnoteTypeRules";
  */
 function registryBookNames(): string[] {
   const file = path.resolve(__dirname, "../../../bible-books/bible-books.json");
-  const entries: { name: string; alt?: string[] }[] = JSON.parse(fs.readFileSync(file, "utf8"));
+  const entries: { name: string; alt?: string[] }[] = JSON.parse(
+    fs.readFileSync(file, "utf8"),
+  );
   const spellings = new Set<string>();
-  for (const entry of entries) for (const spelling of [entry.name, ...(entry.alt ?? [])]) spellings.add(spelling);
+  for (const entry of entries)
+    for (const spelling of [entry.name, ...(entry.alt ?? [])])
+      spellings.add(spelling);
   return [...spellings];
 }
 
@@ -43,9 +47,11 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
   });
 
   it("should not classify a body that merely contains a reference amid real prose as xrf (Genesis 6:2's cherubim note)", () => {
-    expect(classifyFootnote("cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.")).toBe(
-      "stu",
-    );
+    expect(
+      classifyFootnote(
+        "cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.",
+      ),
+    ).toBe("stu");
   });
 
   it('should classify a trailing tradition siglon directly after a reference as still xrf, not var (Hebrews 1:6\'s real "Deuteronomy 32:43 LXX" — a citation naming its own textual tradition, not a note contesting the verse\'s own wording, so a bare "LXX" witness match must not steal it)', () => {
@@ -132,13 +138,19 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
     });
 
     it("should not let the siglum alone carry a body that has real prose left after the citations are stripped", () => {
-      expect(classifyFootnote("The mg here is uncertain and the sense is disputed")).not.toBe("xrf");
+      expect(
+        classifyFootnote("The mg here is uncertain and the sense is disputed"),
+      ).not.toBe("xrf");
       expect(classifyFootnote("Some mss read this in the mg")).toBe("var");
     });
   });
 
   describe('a citation lead-in ("See ... on"/"See ... margin") leaves no real residue behind', () => {
-    const citationLeadIns = ["See marginal note on 3:9.", "See verse 12.", "See 2:13 margin."];
+    const citationLeadIns = [
+      "See marginal note on 3:9.",
+      "See verse 12.",
+      "See 2:13 margin.",
+    ];
     it.each(citationLeadIns)("should classify %j as xrf", (body) => {
       expect(classifyFootnote(body)).toBe("xrf");
     });
@@ -177,14 +189,20 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
     });
 
     it('should not strip "fulfilled"/"foretold" or "in" as filler anywhere else in a body, only as this anchored opener (real discursive commentary stays stu)', () => {
-      expect(classifyFootnote("This prophecy was literally fulfilled. Moses, for example, led the Israelites back to Canaan.")).toBe(
-        "stu",
-      );
       expect(
-        classifyFootnote("Christ fulfills through his victory over Satan the wonderful promise here spoken. See also Isa. 9:6."),
+        classifyFootnote(
+          "This prophecy was literally fulfilled. Moses, for example, led the Israelites back to Canaan.",
+        ),
       ).toBe("stu");
       expect(
-        classifyFootnote("Nothing quite like it had been recorded in any earlier generation—yet the promise held."),
+        classifyFootnote(
+          "Christ fulfills through his victory over Satan the wonderful promise here spoken. See also Isa. 9:6.",
+        ),
+      ).toBe("stu");
+      expect(
+        classifyFootnote(
+          "Nothing quite like it had been recorded in any earlier generation—yet the promise held.",
+        ),
       ).toBe("stu");
     });
   });
@@ -289,7 +307,20 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
      * pretends to have addressed it.
      */
     it("should reach the same answer for every edition-only siglum spelled with letters alone, the whole class rather than the one body that exposed it", () => {
-      for (const siglum of ["LXX", "DSS", "TR", "RP", "FH", "CT", "GOC", "WH", "ALT", "ECM", "SBL", "Scrivener"]) {
+      for (const siglum of [
+        "LXX",
+        "DSS",
+        "TR",
+        "RP",
+        "FH",
+        "CT",
+        "GOC",
+        "WH",
+        "ALT",
+        "ECM",
+        "SBL",
+        "Scrivener",
+      ]) {
         expect(classifyFootnote(`${siglum} 76`)).toBe("var");
       }
     });
@@ -396,20 +427,28 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
 
   it("should classify a spelled-out witness name as var (Deuteronomy 33:2)", () => {
     expect(
-      classifyFootnote('another manuscript reads "He came with myriads of holy ones from the south, from his mountain slopes."'),
+      classifyFootnote(
+        'another manuscript reads "He came with myriads of holy ones from the south, from his mountain slopes."',
+      ),
     ).toBe("var");
   });
 
   it("should classify WEB's own LXX/DSS abbreviations as var (Isaiah 29:18)", () => {
-    expect(classifyFootnote("LXX and DSS add: recovery of sight to the blind")).toBe("var");
+    expect(
+      classifyFootnote("LXX and DSS add: recovery of sight to the blind"),
+    ).toBe("var");
   });
 
   it('should run before trn, so a witness note that also happens to say "reads" is not caught by the translation-alternative rule instead (Genesis 36:2)', () => {
-    expect(classifyFootnote('LXX reads "angels" instead of "gods"')).toBe("var");
+    expect(classifyFootnote('LXX reads "angels" instead of "gods"')).toBe(
+      "var",
+    );
   });
 
   it('should classify "some ancient authorities omit ..." as var', () => {
-    expect(classifyFootnote("Some ancient authorities omit the Lord.")).toBe("var");
+    expect(classifyFootnote("Some ancient authorities omit the Lord.")).toBe(
+      "var",
+    );
   });
 
   it('should classify ASV1901\'s own "Another reading is, Ai." as var — a witness claim with no named witness, siglon, or witness noun at all, just this fixed idiom', () => {
@@ -417,7 +456,9 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
   });
 
   it('should classify a language paired with its own witness noun as var, not the trn its opening word might suggest ("As in Greek manuscripts; the Hebrew omits this word." — "Greek manuscripts" is one side of a comparison, contrasted below with "Hebrew lacks this word", which opens with the language instead and is trn)', () => {
-    expect(classifyFootnote("As in Greek manuscripts; the Hebrew omits this word.")).toBe("var");
+    expect(
+      classifyFootnote("As in Greek manuscripts; the Hebrew omits this word."),
+    ).toBe("var");
   });
 
   describe('"Aquila" is not a bare witness name, since it collides with the New Testament person of the same name (a real Acts 18:18 shape)', () => {
@@ -431,15 +472,29 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
 
     it("should still classify the ancient translator Aquila as var whenever he is named alongside another real witness, the shape every genuine corpus mention of him actually takes", () => {
       expect(classifyFootnote("The Syriac and Aquila have red.")).toBe("var");
-      expect(classifyFootnote("Aquila, Symmachus, Syriac, Vulgate; Hebrew could be read as and the trap gives way")).toBe("var");
-      expect(classifyFootnote("Tg., Vg., Aquila the chief officer of the guard")).toBe("var");
+      expect(
+        classifyFootnote(
+          "Aquila, Symmachus, Syriac, Vulgate; Hebrew could be read as and the trap gives way",
+        ),
+      ).toBe("var");
+      expect(
+        classifyFootnote("Tg., Vg., Aquila the chief officer of the guard"),
+      ).toBe("var");
     });
   });
 
   describe('"(the) Latin" is a witness only as the subject or object of an actual reading-claim, never bare, since it doubles as the ordinary adjective for the language itself', () => {
     it("should not classify a bare word-origin, title-origin, or office-equivalent mention of Latin as var", () => {
-      expect(classifyFootnote("Wycliffe, who rendered much of the Bible from the Latin into Middle English.")).toBe("stu");
-      expect(classifyFootnote("According to the Latin, Calvary, which has the same meaning.")).toBe("stu");
+      expect(
+        classifyFootnote(
+          "Wycliffe, who rendered much of the Bible from the Latin into Middle English.",
+        ),
+      ).toBe("stu");
+      expect(
+        classifyFootnote(
+          "According to the Latin, Calvary, which has the same meaning.",
+        ),
+      ).toBe("stu");
       expect(
         classifyFootnote(
           'This is the so-called "levirate" custom (from the Latin term levir, "brother-in-law"), an ancient provision.',
@@ -471,7 +526,9 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     });
 
     it("should classify a real reading-claim naming the Latin as var, whether Latin is the claim's subject or its object (real WEBUS2020 and one other edition's shapes)", () => {
-      expect(classifyFootnote("So the Syriac. The Latin is corrupt.")).toBe("var");
+      expect(classifyFootnote("So the Syriac. The Latin is corrupt.")).toBe(
+        "var",
+      );
       expect(classifyFootnote("The Latin omits I will speak.")).toBe("var");
       expect(
         classifyFootnote(
@@ -514,14 +571,19 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
       "Some ancient authorities, including the two oldest manuscripts, read God.",
     ];
     it("should classify each of these real ASV1901 textual-variant notes as var", () => {
-      for (const body of realAsv1901Bodies) expect(classifyFootnote(body)).toBe("var");
+      for (const body of realAsv1901Bodies)
+        expect(classifyFootnote(body)).toBe("var");
     });
   });
 
   describe("the deuterocanon corpus's own \"authorities read\" phrasing (Tobit 1:17) — the identical quantifier-plus-witness-noun construct as the 66-book corpus's own vocabulary, just worded differently", () => {
     it('should classify "Some ancient authorities read behind." and "Many authorities read toward the Jews, he sent." as var', () => {
-      expect(classifyFootnote("Some ancient authorities read behind.")).toBe("var");
-      expect(classifyFootnote("Many authorities read toward the Jews, he sent.")).toBe("var");
+      expect(classifyFootnote("Some ancient authorities read behind.")).toBe(
+        "var",
+      );
+      expect(
+        classifyFootnote("Many authorities read toward the Jews, he sent."),
+      ).toBe("var");
     });
   });
 
@@ -538,8 +600,12 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
    */
   it('should classify WEB\'s own 3 real deuterocanon "authorities omit" footnote bodies as var, matching the one house convention this table now applies everywhere', () => {
     expect(classifyFootnote("Many authorities omit this line ")).toBe("var"); // Sirach 7:26
-    expect(classifyFootnote("Some authorities omit and read...Lord.")).toBe("var"); // 1 Esdras 9:48
-    expect(classifyFootnote("Some authorities omit by reason of my sins.")).toBe("var"); // Manasses 1:10
+    expect(classifyFootnote("Some authorities omit and read...Lord.")).toBe(
+      "var",
+    ); // 1 Esdras 9:48
+    expect(
+      classifyFootnote("Some authorities omit by reason of my sins."),
+    ).toBe("var"); // Manasses 1:10
   });
 
   describe('"authorities" is a witness only near a reading verb, since it collides with scholarly and governing authorities (two real edition shapes)', () => {
@@ -554,7 +620,11 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
           "There is no certain identification of the place to which he withdrew after the ruling of the local authorities.",
         ),
       ).toBe("stu");
-      expect(classifyFootnote("Most authorities link this wording to Ex 3:14 and the divine name revealed there")).toBe("stu");
+      expect(
+        classifyFootnote(
+          "Most authorities link this wording to Ex 3:14 and the divine name revealed there",
+        ),
+      ).toBe("stu");
     });
 
     it('should still classify "authorities" as var whenever a reading verb sits near it, including ASV1901\'s own real reverse-order "omitted by" construct at its actual, unusually wide 49-character gap (Matthew 16:2)', () => {
@@ -568,11 +638,17 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
           "The reading adopted by the translation is attested by many authorities (A D* K P 365 1739* al). But many others read “your” instead of “our.”",
         ),
       ).toBe("var");
-      expect(classifyFootnote("This line is added by the best authorities.")).toBe("var");
+      expect(
+        classifyFootnote("This line is added by the best authorities."),
+      ).toBe("var");
     });
 
     it('should classify WEBUS2020\'s own real elliptical "So some authorities." opener as var, the same "So <witness>" idiom this table already applies to named witnesses (1 Esdras 8:20)', () => {
-      expect(classifyFootnote("So some authorities. See Ezra 7:22. The common reading is, other things.")).toBe("var");
+      expect(
+        classifyFootnote(
+          "So some authorities. See Ezra 7:22. The common reading is, other things.",
+        ),
+      ).toBe("var");
     });
   });
 
@@ -593,12 +669,17 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
       "Discussed at length, and compared with Alpha 4:3–4; Beta 6:4; Heb 12:5–11.", // no period, chapter:verse range
       "Something explanatory here (Alpha 1:1–4; Heb. 1:1–2).", // period, chapter:verse
     ];
-    it.each(citedBookAbbreviations)("should classify %j as stu, the prose around the citation being what settles it", (body) => {
-      expect(classifyFootnote(body)).toBe("stu");
-    });
+    it.each(citedBookAbbreviations)(
+      "should classify %j as stu, the prose around the citation being what settles it",
+      (body) => {
+        expect(classifyFootnote(body)).toBe("stu");
+      },
+    );
 
     it("should classify the same abbreviation in a body that is only citations as xrf, since nothing but citations is left once the marginal siglum is read as the filler it is", () => {
-      expect(classifyFootnote("Alpha 16:22 mg; Heb 10:37; Gamma 5:8f")).toBe("xrf");
+      expect(classifyFootnote("Alpha 16:22 mg; Heb 10:37; Gamma 5:8f")).toBe(
+        "xrf",
+      );
     });
 
     it("should still read a spelled-out language name after a semicolon as a language, even when a number follows it, since no book shares that spelling", () => {
@@ -607,8 +688,12 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     });
 
     it("should still read an abbreviated language name after a semicolon as a language when a word rather than a number follows it", () => {
-      expect(classifyFootnote("As the versions have it; Heb. lacks this word")).toBe("var");
-      expect(classifyFootnote("As the versions have it; Heb omits the clause")).toBe("var");
+      expect(
+        classifyFootnote("As the versions have it; Heb. lacks this word"),
+      ).toBe("var");
+      expect(
+        classifyFootnote("As the versions have it; Heb omits the clause"),
+      ).toBe("var");
     });
   });
 
@@ -629,17 +714,33 @@ describe("classifyFootnote — var (names a manuscript witness or text-tradition
     });
 
     it("should refuse the abbreviation wherever a hyphen carries it into more letters, not only in this one place name", () => {
-      expect(classifyFootnote("As in the parallel passage; Heb-something the rest of the note")).toBe("stu");
-      expect(classifyFootnote("As in the parallel passage; Gr-something the rest of the note")).toBe("stu");
+      expect(
+        classifyFootnote(
+          "As in the parallel passage; Heb-something the rest of the note",
+        ),
+      ).toBe("stu");
+      expect(
+        classifyFootnote(
+          "As in the parallel passage; Gr-something the rest of the note",
+        ),
+      ).toBe("stu");
     });
 
     it("should still read the abbreviation as a language when the hyphen belongs to what follows it rather than to the abbreviation itself", () => {
-      expect(classifyFootnote("As the versions have it; Heb well-watered land")).toBe("var");
-      expect(classifyFootnote("As the versions have it; Aram. well-watered land")).toBe("var");
+      expect(
+        classifyFootnote("As the versions have it; Heb well-watered land"),
+      ).toBe("var");
+      expect(
+        classifyFootnote("As the versions have it; Aram. well-watered land"),
+      ).toBe("var");
     });
 
     it("should not extend the refusal to a spelled-out language name, which collides with no place name in the canon", () => {
-      expect(classifyFootnote("As in the parallel passage; Hebrew-something the rest of the note")).toBe("var");
+      expect(
+        classifyFootnote(
+          "As in the parallel passage; Hebrew-something the rest of the note",
+        ),
+      ).toBe("var");
     });
   });
 });
@@ -656,7 +757,9 @@ describe('classifyFootnote — CLV1880\'s own "Originally verse N:N." idiom is v
   });
 
   it("should not classify a bare mention of 'verse' elsewhere in a note as this idiom — it must open the body", () => {
-    expect(classifyFootnote("See the note on the originally-numbered verse above.")).not.toBe("var");
+    expect(
+      classifyFootnote("See the note on the originally-numbered verse above."),
+    ).not.toBe("var");
   });
 
   describe("a whole body that is nothing but a language name and a verse number is the same versification claim", () => {
@@ -677,8 +780,12 @@ describe('classifyFootnote — CLV1880\'s own "Originally verse N:N." idiom is v
     });
 
     it("should not match the same words with anything else in the body, since the whole-body anchor is what makes the rule safe", () => {
-      expect(classifyFootnote("Hebrew verse 5 is numbered differently here")).not.toBe("var");
-      expect(classifyFootnote("This clause opens Hebrew verse 5")).not.toBe("var");
+      expect(
+        classifyFootnote("Hebrew verse 5 is numbered differently here"),
+      ).not.toBe("var");
+      expect(classifyFootnote("This clause opens Hebrew verse 5")).not.toBe(
+        "var",
+      );
     });
   });
 });
@@ -705,9 +812,11 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
   });
 
   it('should classify "sometimes rendered" the same way as "sometimes translated" (WEB\'s own recurring Yahweh/LORD note)', () => {
-    expect(classifyFootnote('"Yahweh" is God’s proper Name, sometimes rendered "LORD" (all caps) in other translations.')).toBe(
-      "trn",
-    );
+    expect(
+      classifyFootnote(
+        '"Yahweh" is God’s proper Name, sometimes rendered "LORD" (all caps) in other translations.',
+      ),
+    ).toBe("trn");
   });
 
   it('should classify "can be correctly translated" as trn regardless of where in the sentence it falls (Genesis 4:1)', () => {
@@ -720,23 +829,31 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
 
   it('should classify "may be also correctly translated" as trn too — "also" placed after "be" rather than immediately after the modal (Acts 3:17)', () => {
     expect(
-      classifyFootnote("The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”"),
+      classifyFootnote(
+        "The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”",
+      ),
     ).toBe("trn");
   });
 
   it("should classify the bare-infinitive \"also mean\" as trn, the same construct as \"also means\" regardless of grammatical number (WEB's Psalm 138:1, \"usually means 'God' but can also mean 'gods', 'princes', or 'angels'\")", () => {
     expect(
-      classifyFootnote("The word elohim, used here, usually means “God” but can also mean “gods”, “princes”, or “angels”."),
+      classifyFootnote(
+        "The word elohim, used here, usually means “God” but can also mean “gods”, “princes”, or “angels”.",
+      ),
     ).toBe("trn");
   });
 
   it('should classify a comma-punctuated opener as trn, the same construct as the colon-led form (Exodus 17:15\'s "Hebrew, Yahweh Nissi" and Matthew 16:18\'s "Greek, petra, a rock mass or bedrock.")', () => {
     expect(classifyFootnote("Hebrew, Yahweh Nissi")).toBe("trn");
-    expect(classifyFootnote("Greek, petra, a rock mass or bedrock.")).toBe("trn");
+    expect(classifyFootnote("Greek, petra, a rock mass or bedrock.")).toBe(
+      "trn",
+    );
   });
 
   it('should resolve "Mt." as Matthew, not the MT siglon, once the opening word is a recognized translation-opener anyway (Greek\'s own real body: "Greek good tidings. See marginal note on Mt. 4:23.")', () => {
-    expect(classifyFootnote("Greek good tidings. See marginal note on Mt. 4:23.")).toBe("trn");
+    expect(
+      classifyFootnote("Greek good tidings. See marginal note on Mt. 4:23."),
+    ).toBe("trn");
   });
 
   it('should classify "Or, Jeshimon. See 23:19." as trn, not xrf — the one-book-word citation cap keeps "Jeshimon. See" from being swallowed into a reference, leaving "Or," as the body\'s own real opener', () => {
@@ -770,7 +887,9 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
 
     it('should classify YLT1898\'s own real "Lit.," opener as trn (Acts 19:9, "Lit., made a synagogue") and KJV1769\'s own real "Heb." opener as trn (Genesis 1:5, "Heb. between the light and between the darkness")', () => {
       expect(classifyFootnote("Lit., made a synagogue")).toBe("trn");
-      expect(classifyFootnote("Heb. between the light and between the darkness")).toBe("trn");
+      expect(
+        classifyFootnote("Heb. between the light and between the darkness"),
+      ).toBe("trn");
     });
   });
 
@@ -781,25 +900,45 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
      * what this rule decides.
      */
     it("should classify the caveat as trn when it is the whole body", () => {
-      expect(classifyFootnote("The meaning of the Hebrew word is uncertain.")).toBe("trn");
+      expect(
+        classifyFootnote("The meaning of the Hebrew word is uncertain."),
+      ).toBe("trn");
     });
 
     it("should classify the caveat as trn with the noun left out, the shape a noun-bearing pattern misses", () => {
-      expect(classifyFootnote("The meaning of the Hebrew is uncertain")).toBe("trn");
+      expect(classifyFootnote("The meaning of the Hebrew is uncertain")).toBe(
+        "trn",
+      );
     });
 
     it("should classify the caveat as trn behind a comparison citation, the shape that prompted the rule", () => {
-      expect(classifyFootnote("Compare 21:7; the meaning of the Hebrew word is uncertain")).toBe("trn");
-      expect(classifyFootnote("Compare Alpha 11:11; the meaning of the Hebrew expression is uncertain")).toBe("trn");
+      expect(
+        classifyFootnote(
+          "Compare 21:7; the meaning of the Hebrew word is uncertain",
+        ),
+      ).toBe("trn");
+      expect(
+        classifyFootnote(
+          "Compare Alpha 11:11; the meaning of the Hebrew expression is uncertain",
+        ),
+      ).toBe("trn");
     });
 
     it("should classify the caveat as trn ahead of a trailing gloss", () => {
-      expect(classifyFootnote("The meaning of the Hebrew word is uncertain; possibly a garment")).toBe("trn");
+      expect(
+        classifyFootnote(
+          "The meaning of the Hebrew word is uncertain; possibly a garment",
+        ),
+      ).toBe("trn");
     });
 
     it("should classify the caveat as trn for the other two languages the rule admits, alongside the Hebrew cases above", () => {
-      expect(classifyFootnote("The meaning of the Greek term is uncertain.")).toBe("trn");
-      expect(classifyFootnote("The meaning of the Aramaic is uncertain.")).toBe("trn");
+      expect(
+        classifyFootnote("The meaning of the Greek term is uncertain."),
+      ).toBe("trn");
+      expect(classifyFootnote("The meaning of the Aramaic is uncertain.")).toBe(
+        "trn",
+      );
     });
 
     describe("a stronger signal already on the body keeps its own verdict, which is why this rule is consulted last", () => {
@@ -810,29 +949,51 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
        * already produces.
        */
       it("should keep a body naming a witness outright as var", () => {
-        expect(classifyFootnote("Compare Septuagint, Syriac; the meaning of the Hebrew phrase is uncertain")).toBe("var");
+        expect(
+          classifyFootnote(
+            "Compare Septuagint, Syriac; the meaning of the Hebrew phrase is uncertain",
+          ),
+        ).toBe("var");
       });
 
       it("should keep a body naming a language with its own witness noun as var", () => {
-        expect(classifyFootnote("As in the Greek version; the sense of the Hebrew is uncertain.")).toBe("var");
+        expect(
+          classifyFootnote(
+            "As in the Greek version; the sense of the Hebrew is uncertain.",
+          ),
+        ).toBe("var");
       });
 
       it("should keep a body carrying a quantified witness phrase as var", () => {
-        expect(classifyFootnote("Some ancient versions read otherwise. The meaning of the Hebrew word is uncertain.")).toBe(
-          "var",
-        );
+        expect(
+          classifyFootnote(
+            "Some ancient versions read otherwise. The meaning of the Hebrew word is uncertain.",
+          ),
+        ).toBe("var");
       });
 
       it("should keep a body carrying a witness claim as var — a minimal body, since the 2 real ones of this shape trip two neighboring witness checks as well and would not isolate the claim", () => {
-        expect(classifyFootnote("The manuscripts read otherwise; the meaning of the Hebrew word is uncertain.")).toBe("var");
+        expect(
+          classifyFootnote(
+            "The manuscripts read otherwise; the meaning of the Hebrew word is uncertain.",
+          ),
+        ).toBe("var");
       });
 
       it("should leave a body behind a translation opener trn by the opener, the more specific route, rather than by this rule", () => {
-        expect(classifyFootnote("Or slingers; the meaning of the Hebrew word is uncertain")).toBe("trn");
+        expect(
+          classifyFootnote(
+            "Or slingers; the meaning of the Hebrew word is uncertain",
+          ),
+        ).toBe("trn");
       });
 
       it("should keep a language comparison after a semicolon var — a constructed shape rather than a quoted one, since no real body takes it, and the single case that separates consulting this rule last from folding it into the translation rule", () => {
-        expect(classifyFootnote("Compare 1:1; Hebrew reads otherwise. The meaning of the Hebrew is uncertain.")).toBe("var");
+        expect(
+          classifyFootnote(
+            "Compare 1:1; Hebrew reads otherwise. The meaning of the Hebrew is uncertain.",
+          ),
+        ).toBe("var");
       });
     });
 
@@ -860,9 +1021,11 @@ describe("classifyFootnote — stu (default; naming an original-language term or
   });
 
   it('should still classify "Abaddon" is a Hebrew word that means <gloss list> as stu, not trn — the general rendered/translated construct must not reach past the divine-title template into this name-etymology note, which shares the surface shape (a quoted term, "means", a gloss list) but never says the name was rendered or translated (Revelation 9:11)', () => {
-    expect(classifyFootnote("“Abaddon” is a Hebrew word that means “ruin”, “destruction”, or “the place of destruction”")).toBe(
-      "stu",
-    );
+    expect(
+      classifyFootnote(
+        "“Abaddon” is a Hebrew word that means “ruin”, “destruction”, or “the place of destruction”",
+      ),
+    ).toBe("stu");
   });
 
   it('should still classify "Apollyon" means "Destroyer" as stu, not trn (Revelation 9:11, the same verse\'s second name-etymology note)', () => {
@@ -887,8 +1050,14 @@ describe("classifyFootnote — stu (default; naming an original-language term or
 
   describe('the deuterocanon corpus\'s own bare "Hebrew" mentions stay stu, not var (Esther-Greek 3:13, 4:17)', () => {
     it('should classify a bare "in Hebrew"/"in the Hebrew" mention as stu — a bare language name names no witness on its own; only a language paired with a witness noun ("Greek version") or set against another reading after a semicolon does', () => {
-      expect(classifyFootnote("Note: The part in brackets is not in Hebrew")).toBe("stu");
-      expect(classifyFootnote("Note: The part between brackets, i.e. to the end of chapter 5 is not in the Hebrew")).toBe("stu");
+      expect(
+        classifyFootnote("Note: The part in brackets is not in Hebrew"),
+      ).toBe("stu");
+      expect(
+        classifyFootnote(
+          "Note: The part between brackets, i.e. to the end of chapter 5 is not in the Hebrew",
+        ),
+      ).toBe("stu");
     });
   });
 
@@ -935,15 +1104,21 @@ describe("classifyFootnote — stu (default; naming an original-language term or
 
 describe("classifyFootnote — the divine-title-naming template (word rendered/translated X) generalizes to trn without any divine-title-specific literal", () => {
   it('should classify WEB\'s own recurring "Hebrew word rendered X is Y" boilerplate as trn, not stu — saying a word was "rendered" is itself describing a real translation choice (Genesis 1:1 and 40 other real instances)', () => {
-    expect(classifyFootnote('The Hebrew word rendered "God" is "Elohim" (Elohim).')).toBe("trn");
+    expect(
+      classifyFootnote('The Hebrew word rendered "God" is "Elohim" (Elohim).'),
+    ).toBe("trn");
   });
 
   it('should classify "the word translated X is Y" as trn (every book\'s own recurring Adonai note, period-inside-quotes variant — Numbers 14:17 and most other real instances)', () => {
-    expect(classifyFootnote('The word translated "Lord" is "Adonai."')).toBe("trn");
+    expect(classifyFootnote('The word translated "Lord" is "Adonai."')).toBe(
+      "trn",
+    );
   });
 
   it("should classify the identical Adonai note's other real punctuation variant as trn too (Genesis 15:2/Exodus 4:10's own \"Adonai\". with the period outside the closing quote)", () => {
-    expect(classifyFootnote('The word translated "Lord" is "Adonai".')).toBe("trn");
+    expect(classifyFootnote('The word translated "Lord" is "Adonai".')).toBe(
+      "trn",
+    );
   });
 });
 
@@ -954,17 +1129,25 @@ describe("classifyFootnote — the divine-title-naming template (word rendered/t
  */
 describe("flattenContentText — a bare bibleLink node's implied display text", () => {
   it("should flatten a bare {bibleLink} node with no override to the reference itself (2 Kings 12:4's real Exodus 30:12 cross-reference)", () => {
-    expect(flattenContentText({ bibleLink: "Exodus 30:12" })).toBe("Exodus 30:12");
+    expect(flattenContentText({ bibleLink: "Exodus 30:12" })).toBe(
+      "Exodus 30:12",
+    );
   });
 
   it("should still prefer an explicit display override over the reference when one is present (1 Esdras 6:1's real second bibleLink)", () => {
-    expect(flattenContentText({ bibleLink: "Ezra 5:1", content: "5:1" })).toBe("5:1");
+    expect(flattenContentText({ bibleLink: "Ezra 5:1", content: "5:1" })).toBe(
+      "5:1",
+    );
   });
 
   it("should flatten a real, mixed multi-reference xrf body exactly as it prints (1 Esdras 6:1, override-then-plain-reference in document order)", () => {
-    expect(flattenContentText([{ bibleLink: "Ezra 4:24" }, "; ", { bibleLink: "Ezra 5:1", content: "5:1" }])).toBe(
-      "Ezra 4:24; 5:1",
-    );
+    expect(
+      flattenContentText([
+        { bibleLink: "Ezra 4:24" },
+        "; ",
+        { bibleLink: "Ezra 5:1", content: "5:1" },
+      ]),
+    ).toBe("Ezra 4:24; 5:1");
   });
 });
 
@@ -995,16 +1178,26 @@ describe("flattenContentText — an abbr node's registry id", () => {
   });
 
   it("should classify a witness-naming body whose sigla are abbr nodes as var, exactly as it would if they were plain text (MSB2025's Revelation 22:21)", () => {
-    const body: unknown = [{ abbr: "CT" }, ", ", { abbr: "SBL" }, " do not include Amen."];
+    const body: unknown = [
+      { abbr: "CT" },
+      ", ",
+      { abbr: "SBL" },
+      " do not include Amen.",
+    ];
     expect(classifyFootnote(flattenContentText(body))).toBe("var");
     expect(classifyFootnote("CT, SBL do not include Amen.")).toBe("var");
   });
 
   it("should read TR out of the qualified TR-SCRIVENER id, since a hyphen is a word boundary (MSB2025's own qualified registry entry)", () => {
     expect(flattenContentText({ abbr: "TR-SCRIVENER" })).toBe("TR-SCRIVENER");
-    expect(classifyFootnote(flattenContentText([{ abbr: "TR-SCRIVENER" }, " includes a longer reading here."]))).toBe(
-      "var",
-    );
+    expect(
+      classifyFootnote(
+        flattenContentText([
+          { abbr: "TR-SCRIVENER" },
+          " includes a longer reading here.",
+        ]),
+      ),
+    ).toBe("var");
   });
 });
 
@@ -1017,7 +1210,9 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
   it("should classify a bare MSS. claim as var (YLT1898's own textual notes, which carry no quantifier the phrase rule could use)", () => {
     expect(classifyFootnote("Textual note: MSS. omit.")).toBe("var");
     expect(classifyFootnote("Textual note: Oldest MSS. omit.")).toBe("var");
-    expect(classifyFootnote("Textual note: the oldest MSS. add, “and we are so.”")).toBe("var");
+    expect(
+      classifyFootnote("Textual note: the oldest MSS. add, “and we are so.”"),
+    ).toBe("var");
   });
 
   it("should classify period-terminated witness abbreviations as var", () => {
@@ -1031,17 +1226,29 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
 
   it("should classify period-less spellings of the same sigla as var", () => {
     expect(classifyFootnote("Syr, Vg read differently here")).toBe("var");
-    expect(classifyFootnote("Sam, Syr read a different name here; 1Ch 7:1")).toBe("var");
+    expect(
+      classifyFootnote("Sam, Syr read a different name here; 1Ch 7:1"),
+    ).toBe("var");
   });
 
   it("should not read Sam. as the Samaritan Pentateuch when a chapter:verse follows it, since that is 1/2 Samuel (ASV1901 cites it constantly inside ordinary prose notes)", () => {
-    expect(classifyFootnote("See verse 33 and 1 Sam. 8:2. The Hebrew text has Vashni, and Abiah.")).toBe("stu");
+    expect(
+      classifyFootnote(
+        "See verse 33 and 1 Sam. 8:2. The Hebrew text has Vashni, and Abiah.",
+      ),
+    ).toBe("stu");
     expect(classifyFootnote("1 Sam. 21:6.")).toBe("xrf");
   });
 
   it("should still read Syr as a witness when a number follows nearby, unlike Sam/Vg/Tg/Vss — Syr never collides with a book name or a discursive-note citation the way those do (a real 2 Chronicles 3:15 measurement dispute)", () => {
-    expect(classifyFootnote("Syr reads 20 cubits (30 feet); Hb reads 25 cubits (37 ¹⁄₂ feet)")).toBe("var");
-    expect(classifyFootnote("Heb. mss., LXX, Syr. sixteen and 2 Kin. 22:1")).toBe("var");
+    expect(
+      classifyFootnote(
+        "Syr reads 20 cubits (30 feet); Hb reads 25 cubits (37 ¹⁄₂ feet)",
+      ),
+    ).toBe("var");
+    expect(
+      classifyFootnote("Heb. mss., LXX, Syr. sixteen and 2 Kin. 22:1"),
+    ).toBe("var");
   });
 });
 
@@ -1052,11 +1259,17 @@ describe("classifyFootnote — abbreviations that end in a period still name a w
  */
 describe("classifyFootnote — witnesses needs a reading verb, not just a quantifier", () => {
   it("should classify KJV1769's own quoted-scripture body as trn on its Or opener, not var on “two witnesses”", () => {
-    expect(classifyFootnote("Or, I will give unto my two witnesses that they may prophesy")).toBe("trn");
+    expect(
+      classifyFootnote(
+        "Or, I will give unto my two witnesses that they may prophesy",
+      ),
+    ).toBe("trn");
   });
 
   it("should still classify a real apparatus claim about witnesses as var", () => {
-    expect(classifyFootnote("Some witnesses read “the Lord” here.")).toBe("var");
+    expect(classifyFootnote("Some witnesses read “the Lord” here.")).toBe(
+      "var",
+    );
   });
 });
 
@@ -1083,7 +1296,9 @@ describe("classifyFootnote — symbolic apparatus notation is var", () => {
   });
 
   it("should not read an ordinary tilde inside prose as apparatus notation", () => {
-    expect(classifyFootnote("A cubit is about 18 inches (~45 cm).")).toBe("stu");
+    expect(classifyFootnote("A cubit is about 18 inches (~45 cm).")).toBe(
+      "stu",
+    );
   });
 });
 
@@ -1102,11 +1317,19 @@ describe("classifyFootnote — a critical edition's longer publisher notes", () 
   });
 
   it("should classify a bare witness list as var on its ℵ siglon, where the uncial letters and Gregory-Aland numbers around it are far too ordinary to match on (the 2026 edition's own 1 John 5:7-8 note, markdown stripped)", () => {
-    expect(classifyFootnote("om. ℵ A B K L P Ψ 048 049 056 0142 0296 33vid 1841 1862 2464")).toBe("var");
+    expect(
+      classifyFootnote(
+        "om. ℵ A B K L P Ψ 048 049 056 0142 0296 33vid 1841 1862 2464",
+      ),
+    ).toBe("var");
   });
 
   it("should not read an unquantified mention of editions as a witness claim, since that is ordinary background prose", () => {
-    expect(classifyFootnote("This verse is numbered differently in the standard critical editions of the Greek NT.")).toBe("stu");
+    expect(
+      classifyFootnote(
+        "This verse is numbered differently in the standard critical editions of the Greek NT.",
+      ),
+    ).toBe("stu");
   });
 });
 
@@ -1117,7 +1340,11 @@ describe("classifyFootnote — a critical edition's longer publisher notes", () 
  */
 describe("classifyFootnote — every spelling of an original-language opener is trn", () => {
   describe("KJV1769's own Hebrew abbreviations", () => {
-    const bodies = ["Hebr. to cause it to fly", "He. the staff, or the head", "Heb. between the light and between the darkness"];
+    const bodies = [
+      "Hebr. to cause it to fly",
+      "He. the staff, or the head",
+      "Heb. between the light and between the darkness",
+    ];
     it.each(bodies)("should classify %j as trn", (body) => {
       expect(classifyFootnote(body)).toBe("trn");
     });
@@ -1159,7 +1386,11 @@ describe("classifyFootnote — every spelling of an original-language opener is 
   });
 
   it("should not read a word merely beginning with an opener's letters as an opener (“called in the original Didrachma…” is not the Chaldee “Cal.”)", () => {
-    expect(classifyFootnote("called in the original Didrachma, being in value fifteen pence")).toBe("stu");
+    expect(
+      classifyFootnote(
+        "called in the original Didrachma, being in value fifteen pence",
+      ),
+    ).toBe("stu");
   });
 });
 
@@ -1168,13 +1399,19 @@ describe("classifyFootnote — every spelling of an original-language opener is 
  * can only mean "some manuscripts read X".
  */
 describe("classifyFootnote — an elliptical “some read” is var when it is the note itself", () => {
-  const bodies = ["Some read, our", "some read against themselves", "Some read, both your, and their master"];
+  const bodies = [
+    "Some read, our",
+    "some read against themselves",
+    "Some read, both your, and their master",
+  ];
   it.each(bodies)("should classify %j as var", (body) => {
     expect(classifyFootnote(body)).toBe("var");
   });
 
   it("should leave the same words as trn when they only qualify an alternative an Or opener already offered — ASV1901's own convention, which KJV1769 disagrees with", () => {
-    expect(classifyFootnote("Or as some read shake. See Ps. 69:23.")).toBe("trn");
+    expect(classifyFootnote("Or as some read shake. See Ps. 69:23.")).toBe(
+      "trn",
+    );
   });
 
   it("should classify the identical elliptical construct with 'emend' in place of 'read' as var (real shapes, e.g. 2 Kings 6:33's own 'Some emend to king')", () => {
@@ -1230,11 +1467,17 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
       ["WH (Matthew 6:8)", "WH God your Father"],
       ["ALT (Matthew 11:16)", "ALT, F35 marketplace"],
       ["ECM (Revelation 9:17)", "ECM does not include In a vision."],
-      ["Scrivener (Luke 2:22)", "Literally their purification; Scrivener TR her purification"],
+      [
+        "Scrivener (Luke 2:22)",
+        "Literally their purification; Scrivener TR her purification",
+      ],
     ];
-    it.each(bodies)("should classify a body naming %s as var", (_where, body) => {
-      expect(classifyFootnote(body)).toBe("var");
-    });
+    it.each(bodies)(
+      "should classify a body naming %s as var",
+      (_where, body) => {
+        expect(classifyFootnote(body)).toBe("var");
+      },
+    );
   });
 
   describe("a siglum a critical edition also prints with its own edition number", () => {
@@ -1243,11 +1486,17 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
     });
 
     it("should classify a bare NE as var (Luke 12:27)", () => {
-      expect(classifyFootnote("NE and Tischendorf Consider the lilies: They do not spin or weave.")).toBe("var");
+      expect(
+        classifyFootnote(
+          "NE and Tischendorf Consider the lilies: They do not spin or weave.",
+        ),
+      ).toBe("var");
     });
 
     it("should classify a bare TH as var (Mark 4:21)", () => {
-      expect(classifyFootnote("TH does not include or under a basket.")).toBe("var");
+      expect(classifyFootnote("TH does not include or under a basket.")).toBe(
+        "var",
+      );
     });
 
     it("should not read a numbered printing of one of those editions as a bare siglum (a real NA²⁸ shape, whose notes are about where that edition sets a verse division)", () => {
@@ -1269,7 +1518,11 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
     });
 
     it("should classify SBL beside a proper-noun reading as var (Luke 3:26)", () => {
-      expect(classifyFootnote("NA and SBL Semein; TH and WH Semeein; ALT and HF Semeei; GOC Semeu")).toBe("var");
+      expect(
+        classifyFootnote(
+          "NA and SBL Semein; TH and WH Semeein; ALT and HF Semeei; GOC Semeu",
+        ),
+      ).toBe("var");
     });
 
     it("should leave a bibliographic citation of that society's own journal alone (a real Romans 3:22 note, a translation note whose only SBL is in a title)", () => {
@@ -1298,9 +1551,11 @@ describe("classifyFootnote — a Cited in lead-in is a citation, not a study not
   });
 
   it("should keep a body that only mentions being cited, without opening on the lead-in, as stu", () => {
-    expect(classifyFootnote("This verse is cited in the New Testament at Matthew 19:4, where the wording differs.")).toBe(
-      "stu",
-    );
+    expect(
+      classifyFootnote(
+        "This verse is cited in the New Testament at Matthew 19:4, where the wording differs.",
+      ),
+    ).toBe("stu");
   });
 });
 
@@ -1313,7 +1568,11 @@ describe("classifyFootnote — a Cited in lead-in is a citation, not a study not
  */
 describe("classifyFootnote — Forms of the <language> <term> ... are translated", () => {
   it("should classify the rendering claim as trn (Genesis 14:13)", () => {
-    expect(classifyFootnote("Forms of the Hebrew berit are translated in most passages as covenant.")).toBe("trn");
+    expect(
+      classifyFootnote(
+        "Forms of the Hebrew berit are translated in most passages as covenant.",
+      ),
+    ).toBe("trn");
   });
 
   it("should classify the rendering claim with a clause between the term and the verb as trn (Leviticus 13:47)", () => {

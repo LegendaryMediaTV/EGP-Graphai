@@ -31,7 +31,10 @@ import * as path from "path";
 import Footnote from "../../types/Footnote";
 
 /** The four types this classifier can ever produce — `map` is never assigned (see {@link classifyFootnote}). */
-export type ClassifiableFootnoteType = Exclude<NonNullable<Footnote["type"]>, "map">;
+export type ClassifiableFootnoteType = Exclude<
+  NonNullable<Footnote["type"]>,
+  "map"
+>;
 
 /**
  * The three self-documented Greek-text-tradition sigla, exported so
@@ -112,7 +115,8 @@ const SPELLED_OUT_LANGUAGE = "(?:Hebrew|Greek|Aramaic|Latin|Samaritan)";
  * citation that names its own book (`Deuteronomy 32:43 LXX`), and that is
  * untouched.
  */
-const EDITION_ONLY_SIGLUM = "(?:LXX|DSS|TR|RP|FH|CT|GOC|F35|WH|ALT|ECM|SBL|Scrivener)";
+const EDITION_ONLY_SIGLUM =
+  "(?:LXX|DSS|TR|RP|FH|CT|GOC|F35|WH|ALT|ECM|SBL|Scrivener)";
 /**
  * The word standing between a book name and a number to say the number is a
  * chapter rather than a verse — `‹book› ch ‹n›`, `‹book› chs ‹n›–‹m›`. An
@@ -142,7 +146,10 @@ const ONE_WORD_BOOK = "[A-Z][A-Za-z]{1,11}";
 /** {@link ONE_WORD_BOOK} as a whole-string test, for {@link REGISTRY_BOOK_NAME}'s own filter. */
 const ONE_WORD_BOOK_ONLY = new RegExp(`^${ONE_WORD_BOOK}$`);
 /** Absolute path to the repo-wide book registry, read once by {@link registryBookNames}. */
-const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../../bible-books/bible-books.json");
+const BIBLE_BOOKS_FILE = path.resolve(
+  __dirname,
+  "../../bible-books/bible-books.json",
+);
 /** The one `bible-books/bible-books.json` entry shape this module reads — the same two fields `usfm/references.ts` builds its own candidate list from. */
 interface BibleBookRegistryEntry {
   /** The book's own canonical display name, e.g. `"Genesis"`. */
@@ -181,12 +188,15 @@ const REGISTRY_BOOK_NAME = registryBookNames();
 
 /** Reads {@link BIBLE_BOOKS_FILE} and builds {@link REGISTRY_BOOK_NAME}'s alternation — see that constant's own doc comment for what it selects and why. */
 function registryBookNames(): string {
-  const entries: BibleBookRegistryEntry[] = JSON.parse(fs.readFileSync(BIBLE_BOOKS_FILE, "utf8"));
+  const entries: BibleBookRegistryEntry[] = JSON.parse(
+    fs.readFileSync(BIBLE_BOOKS_FILE, "utf8"),
+  );
   const spellings = new Set<string>();
   for (const entry of entries) {
     for (const spelling of [entry.name, ...(entry.alt ?? [])]) {
       const withoutOrdinal = spelling.replace(/^[1-4]\s?/, "");
-      if (!ONE_WORD_BOOK_ONLY.test(withoutOrdinal)) spellings.add(withoutOrdinal);
+      if (!ONE_WORD_BOOK_ONLY.test(withoutOrdinal))
+        spellings.add(withoutOrdinal);
     }
   }
   return [...spellings]
@@ -308,7 +318,10 @@ const CITATION_MARKER = "\uE000";
  * rather than a citation on its left, so the flanking test separates them
  * cleanly: 7 bodies become citation-only, and nothing else changes type.
  */
-const INTER_CITATION_WITH = new RegExp(`${CITATION_MARKER}[\\s,;]*\\bwith\\b[\\s,;]*${CITATION_MARKER}`, "gi");
+const INTER_CITATION_WITH = new RegExp(
+  `${CITATION_MARKER}[\\s,;]*\\bwith\\b[\\s,;]*${CITATION_MARKER}`,
+  "gi",
+);
 
 /**
  * What may be left over without proving a body is more than citations: the
@@ -316,7 +329,10 @@ const INTER_CITATION_WITH = new RegExp(`${CITATION_MARKER}[\\s,;]*\\bwith\\b[\\s
  * {@link CITATION_MARKER} slots standing in for the deleted citations
  * themselves.
  */
-const RESIDUE_FILLER = new RegExp(`[;,.:\\s()\\[\\]–—${CITATION_MARKER}-]`, "g");
+const RESIDUE_FILLER = new RegExp(
+  `[;,.:\\s()\\[\\]–—${CITATION_MARKER}-]`,
+  "g",
+);
 
 /**
  * A language name inside parentheses, tagging a citation with which
@@ -340,7 +356,8 @@ const RESIDUE_FILLER = new RegExp(`[;,.:\\s()\\[\\]–—${CITATION_MARKER}-]`, 
  * {@link LANGUAGE}'s, taking in the two-letter abbreviations that constant
  * omits: inside parentheses a short form has nothing to collide with.
  */
-const PARENTHETICAL_LANGUAGE_TAG = /\([^)]*\b(?:greek|hebrew|aramaic|latin|gk|gr|heb|hb|aram|lat)\b[^)]*\)/gi;
+const PARENTHETICAL_LANGUAGE_TAG =
+  /\([^)]*\b(?:greek|hebrew|aramaic|latin|gk|gr|heb|hb|aram|lat)\b[^)]*\)/gi;
 
 /**
  * The whole-body `xrf` test: a body is nothing-but-citations only if at
@@ -402,7 +419,8 @@ const LATIN_WITNESS_VERB_FORWARD =
  * {@link LATIN_WITNESS_VERB_FORWARD}: none is a common auxiliary, so scanning a
  * wider gap ahead of them carries none of that construct's risk.
  */
-const LATIN_WITNESS_VERB_REVERSE = "(?:reflects?|reflected|follows|supports?|supported)";
+const LATIN_WITNESS_VERB_REVERSE =
+  "(?:reflects?|reflected|follows|supports?|supported)";
 /**
  * `"the Latin"`/`"the Latin version(s)"`, matched only as the subject or object
  * of an actual reading-claim, never bare. Unlike this table's other named
@@ -551,7 +569,9 @@ const WITNESS_VERB_SOURCE =
  * when the lower-case siglon is immediately followed by a reading verb — a
  * citation of that Gospel has a period and a digit after it, never a verb.
  */
-const LOWERCASE_SIGLON_READING = new RegExp(`\\b(?:lxx|dss|mt|tr|nu|rp|fh)\\s+${WITNESS_VERB_SOURCE}\\b`);
+const LOWERCASE_SIGLON_READING = new RegExp(
+  `\\b(?:lxx|dss|mt|tr|nu|rp|fh)\\s+${WITNESS_VERB_SOURCE}\\b`,
+);
 
 /** Nouns that always name a manuscript witness, whatever the sentence around them. */
 const STRONG_WITNESS_NOUN = "(?:manuscripts?|MSS?|mss?|copies|scrolls?)\\b\\.?";
@@ -580,7 +600,8 @@ const CLAIM_WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${VERB_BOUND_WITNESS_NOUN}
  * just as often background description as a claim about a manuscript tradition,
  * and that note is `stu`.
  */
-const WEAK_WITNESS_NOUN = "(?:texts?|versions?|traditions?|readings?|editions?)\\b";
+const WEAK_WITNESS_NOUN =
+  "(?:texts?|versions?|traditions?|readings?|editions?)\\b";
 /** Witness nouns valid once quantified — the union of {@link STRONG_WITNESS_NOUN} and {@link WEAK_WITNESS_NOUN}, used by {@link WITNESS_PHRASE}. */
 const WITNESS_NOUN = `(?:${STRONG_WITNESS_NOUN}|${WEAK_WITNESS_NOUN})`;
 
@@ -589,10 +610,16 @@ const QUANTIFIER =
   "(?:some|other|others|many|most|a few|few|one|two|three|several|certain|early|earliest|earlier|oldest|older|ancient|later|latter|various|numerous|best|another|alternate|alt)";
 
 /** A quantifier followed, within two words, by a witness noun — `"some ancient authorities"`, `"other mss"`, `"two early manuscripts"`. This is what lets a weak noun like `"text"`/`"version"` count once it is quantified, without letting a bare, unquantified one count on its own. */
-const WITNESS_PHRASE = new RegExp(`\\b${QUANTIFIER}(?:\\s+\\S+){0,2}\\s+${WITNESS_NOUN}`, "i");
+const WITNESS_PHRASE = new RegExp(
+  `\\b${QUANTIFIER}(?:\\s+\\S+){0,2}\\s+${WITNESS_NOUN}`,
+  "i",
+);
 
 /** A witness noun near a reading verb — `"authorities insert"` (ASV1901's "Many ancient authorities insert...", John 5:4). A {@link WEAK_WITNESS_NOUN} near a verb is deliberately not enough on its own. */
-const WITNESS_CLAIM = new RegExp(`\\b${CLAIM_WITNESS_NOUN}[^.]{0,40}?\\b${WITNESS_VERB_SOURCE}\\b`, "i");
+const WITNESS_CLAIM = new RegExp(
+  `\\b${CLAIM_WITNESS_NOUN}[^.]{0,40}?\\b${WITNESS_VERB_SOURCE}\\b`,
+  "i",
+);
 /**
  * The reverse word order of {@link WITNESS_CLAIM} — verb before noun,
  * `"omitted by the best ancient authorities"` (ASV1901's Mark 9:44/9:46). Given
@@ -601,7 +628,10 @@ const WITNESS_CLAIM = new RegExp(`\\b${CLAIM_WITNESS_NOUN}[^.]{0,40}?\\b${WITNES
  * 16:2) puts 49 characters between verb and noun — an unusually long quantifier
  * phrase, but still one clause.
  */
-const WITNESS_CLAIM_REVERSE = new RegExp(`\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,60}?\\b${CLAIM_WITNESS_NOUN}`, "i");
+const WITNESS_CLAIM_REVERSE = new RegExp(
+  `\\b${WITNESS_VERB_SOURCE}\\b[^.]{0,60}?\\b${CLAIM_WITNESS_NOUN}`,
+  "i",
+);
 
 /** ASV1901's own real `"Another reading is, Ai."` phrasing — a witness claim with no named witness, no siglon, and no witness noun at all, just this fixed idiom. */
 const ANOTHER_READING = /\banother reading\b/i;
@@ -620,7 +650,8 @@ const ANOTHER_READING = /\banother reading\b/i;
  * the calibration corpus, leaving 4 bodies in the other edition as an accepted
  * disagreement rather than flipping the calibration corpus's own 2.
  */
-const ELLIPTICAL_WITNESS_READING = /^\s*(?:some|many|others?|a few|several)\s+(?:reads?|emends?)\b/i;
+const ELLIPTICAL_WITNESS_READING =
+  /^\s*(?:some|many|others?|a few|several)\s+(?:reads?|emends?)\b/i;
 
 /**
  * `"So some authorities."` — the terse `"So <witness>"` idiom this corpus
@@ -630,7 +661,10 @@ const ELLIPTICAL_WITNESS_READING = /^\s*(?:some|many|others?|a few|several)\s+(?
  * {@link ELLIPTICAL_WITNESS_READING} is, `"So"` can only stand in for
  * `"[This/that] reads"`.
  */
-const SOME_WITNESS_OPENER = new RegExp(`^\\s*so\\s+(?:the\\s+)?(?:${QUANTIFIER}\\s+)?${VERB_BOUND_WITNESS_NOUN}`, "i");
+const SOME_WITNESS_OPENER = new RegExp(
+  `^\\s*so\\s+(?:the\\s+)?(?:${QUANTIFIER}\\s+)?${VERB_BOUND_WITNESS_NOUN}`,
+  "i",
+);
 
 /**
  * The symbolic operators a critical edition's apparatus uses in place of
@@ -701,7 +735,10 @@ const LANGUAGE = `(?:${SPELLED_OUT_LANGUAGE}|${LANGUAGE_ABBREVIATION})\\.?`;
  * textual comparison. `"As in Greek manuscripts; the Hebrew omits this word."`
  * is `var` on this clause alone, independent of the semicolon test below.
  */
-const LANGUAGE_WITNESS = new RegExp(`\\b${LANGUAGE}\\s+(?:versions?|manuscripts?|mss?|copies)\\b`, "i");
+const LANGUAGE_WITNESS = new RegExp(
+  `\\b${LANGUAGE}\\s+(?:versions?|manuscripts?|mss?|copies)\\b`,
+  "i",
+);
 
 /**
  * A language name following a semicolon — weaker evidence than
@@ -834,7 +871,8 @@ function isVersificationVariant(body: string): boolean {
  * whole family, malformed spellings included. The two-letter forms sit alongside
  * their longer stems because an edition may use only the short one.
  */
-const LANGUAGE_OPENER = "or|lit(?:erally)?|heb(?:r(?:ew)?)?|hb|gr(?:eek)?|gk|aram(?:aic)?|ch?al(?:d(?:ee?)?)?";
+const LANGUAGE_OPENER =
+  "or|lit(?:erally)?|heb(?:r(?:ew)?)?|hb|gr(?:eek)?|gk|aram(?:aic)?|ch?al(?:d(?:ee?)?)?";
 
 /**
  * `He.`, KJV1769's shortest abbreviation for Hebrew (2 Samuel 21:16's `"He. the
@@ -904,7 +942,10 @@ const TRANSLATION_CONSTRUCTS = [
  * means is the recurring shape that distinction keeps out.
  */
 function offersATranslationAlternative(body: string): boolean {
-  return TRANSLATION_OPENER.test(body) || TRANSLATION_CONSTRUCTS.some((pattern) => pattern.test(body));
+  return (
+    TRANSLATION_OPENER.test(body) ||
+    TRANSLATION_CONSTRUCTS.some((pattern) => pattern.test(body))
+  );
 }
 
 /**
@@ -946,7 +987,8 @@ function offersATranslationAlternative(body: string): boolean {
  * like-for-like loosening, measured and rejected: 20 more bodies, 8 of them
  * moving, one a name-etymology note.
  */
-const UNCERTAIN_MEANING_CAVEAT = /meaning of the (?:Hebrew|Greek|Aramaic)(?:\s+\w+)?\s+is uncertain/i;
+const UNCERTAIN_MEANING_CAVEAT =
+  /meaning of the (?:Hebrew|Greek|Aramaic)(?:\s+\w+)?\s+is uncertain/i;
 
 /** The weakest of the `trn` signals — see {@link UNCERTAIN_MEANING_CAVEAT} for why it is consulted last, after {@link comparesLanguageWitnesses} included. */
 function reportsAnUncertainMeaning(body: string): boolean {

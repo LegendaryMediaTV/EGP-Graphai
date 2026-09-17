@@ -21,7 +21,11 @@ const PRESENTATION_FORM_SHIN = String.fromCodePoint(0xfb2a);
 describe("splitScriptRuns, Hebrew presentation forms", () => {
   it("should tag a presentation-form shin mixed into Latin text, which the base-letter block alone left untagged", () => {
     const text = `Hebrew ${PRESENTATION_FORM_SHIN} Shin`;
-    const expected = ["Hebrew ", { text: PRESENTATION_FORM_SHIN, script: "H" }, " Shin"];
+    const expected = [
+      "Hebrew ",
+      { text: PRESENTATION_FORM_SHIN, script: "H" },
+      " Shin",
+    ];
 
     expect(splitScriptRuns(text, "H")).toEqual(expected);
     expect(splitNonLatinScriptRuns(text)).toEqual(expected);

@@ -16,14 +16,19 @@ import { VerseRecord } from "../auditNodes";
 import { VersionBook } from "../../types/Version";
 
 describe("collectJsonFiles — mock version directories, not the real corpus", () => {
-  const versionsRoot = fs.mkdtempSync(path.join(os.tmpdir(), "collectJsonFiles-test-"));
+  const versionsRoot = fs.mkdtempSync(
+    path.join(os.tmpdir(), "collectJsonFiles-test-"),
+  );
   const versionIds = ["FAKE_A", "FAKE_B"];
 
   beforeAll(() => {
     for (const id of versionIds) {
       const dir = path.join(versionsRoot, id);
       fs.mkdirSync(dir, { recursive: true });
-      fs.writeFileSync(path.join(dir, "_version.json"), JSON.stringify({ _id: id }));
+      fs.writeFileSync(
+        path.join(dir, "_version.json"),
+        JSON.stringify({ _id: id }),
+      );
       fs.writeFileSync(path.join(dir, "01-GEN.json"), "[]");
     }
   });
@@ -64,15 +69,15 @@ describe("collectJsonFiles — mock version directories, not the real corpus", (
 describe("findMeaninglessContentNodes", () => {
   describe("formatting with no text to apply it to", () => {
     it("should report a node when it carries marks but no text", () => {
-      expect(findMeaninglessContentNodes([{ marks: ["woc"] }, "text"])).toEqual([
-        'content[0]: marks [woc] with no text to apply to',
-      ]);
+      expect(findMeaninglessContentNodes([{ marks: ["woc"] }, "text"])).toEqual(
+        ["content[0]: marks [woc] with no text to apply to"],
+      );
     });
 
     it("should report a node when it carries marks and an empty text", () => {
       expect(
-        findMeaninglessContentNodes([{ text: "", marks: ["b"] }, "text"])
-      ).toEqual(['content[0]: marks [b] with no text to apply to']);
+        findMeaninglessContentNodes([{ text: "", marks: ["b"] }, "text"]),
+      ).toEqual(["content[0]: marks [b] with no text to apply to"]);
     });
 
     it("should report a node when it carries script but no text", () => {
@@ -83,7 +88,7 @@ describe("findMeaninglessContentNodes", () => {
 
     it("should report both when a node carries marks and script but no text", () => {
       expect(
-        findMeaninglessContentNodes([{ marks: ["i", "sc"], script: "H" }])
+        findMeaninglessContentNodes([{ marks: ["i", "sc"], script: "H" }]),
       ).toEqual([
         'content[0]: marks [i, sc] and script "H" with no text to apply to',
       ]);
@@ -96,8 +101,8 @@ describe("findMeaninglessContentNodes", () => {
         findMeaninglessContentNodes([
           { marks: ["woc"], foot: { type: "xrf", content: "Prov 30:4" } },
           { text: "And no one has ascended into heaven", marks: ["woc"] },
-        ])
-      ).toEqual(['content[0]: marks [woc] with no text to apply to']);
+        ]),
+      ).toEqual(["content[0]: marks [woc] with no text to apply to"]);
     });
 
     it("should report every offender when a verse holds more than one", () => {
@@ -106,10 +111,10 @@ describe("findMeaninglessContentNodes", () => {
           { marks: ["woc"] },
           { text: "middle" },
           { marks: ["sc"] },
-        ])
+        ]),
       ).toEqual([
-        'content[0]: marks [woc] with no text to apply to',
-        'content[2]: marks [sc] with no text to apply to',
+        "content[0]: marks [woc] with no text to apply to",
+        "content[2]: marks [sc] with no text to apply to",
       ]);
     });
   });
@@ -125,9 +130,9 @@ describe("findMeaninglessContentNodes", () => {
               content: ["This", { text: "", marks: ["b"] }, " psalm"],
             },
           },
-        ])
+        ]),
       ).toEqual([
-        'content[0].foot.content[1]: marks [b] with no text to apply to',
+        "content[0].foot.content[1]: marks [b] with no text to apply to",
       ]);
     });
 
@@ -136,10 +141,8 @@ describe("findMeaninglessContentNodes", () => {
         findMeaninglessContentNodes([
           { subtitle: ["A", { marks: ["i"] }, " psalm of David."] },
           "Body",
-        ])
-      ).toEqual([
-        'content[0].subtitle[1]: marks [i] with no text to apply to',
-      ]);
+        ]),
+      ).toEqual(["content[0].subtitle[1]: marks [i] with no text to apply to"]);
     });
 
     it("should report a node when it sits inside a heading", () => {
@@ -147,23 +150,23 @@ describe("findMeaninglessContentNodes", () => {
         findMeaninglessContentNodes([
           { heading: ["A", { marks: ["i"] }, " Prayer"] },
           "Body",
-        ])
-      ).toEqual(['content[0].heading[1]: marks [i] with no text to apply to']);
+        ]),
+      ).toEqual(["content[0].heading[1]: marks [i] with no text to apply to"]);
     });
 
     it("should report a node when it sits inside a nested-content object", () => {
       expect(
         findMeaninglessContentNodes([
           { content: ["the", { marks: ["sc"] }, " Lord"], strong: "H3068" },
-        ])
-      ).toEqual(['content[0].content[1]: marks [sc] with no text to apply to']);
+        ]),
+      ).toEqual(["content[0].content[1]: marks [sc] with no text to apply to"]);
     });
 
     it("should report a node when it sits inside a paragraph object", () => {
       expect(
-        findMeaninglessContentNodes([{ paragraph: ["A", { marks: ["b"] }] }])
+        findMeaninglessContentNodes([{ paragraph: ["A", { marks: ["b"] }] }]),
       ).toEqual([
-        'content[0].paragraph[1]: marks [b] with no text to apply to',
+        "content[0].paragraph[1]: marks [b] with no text to apply to",
       ]);
     });
 
@@ -171,8 +174,8 @@ describe("findMeaninglessContentNodes", () => {
       expect(
         findMeaninglessContentNodes([
           { bibleLink: "John 3:16", content: [{ marks: ["i"] }, "see"] },
-        ])
-      ).toEqual(['content[0].content[0]: marks [i] with no text to apply to']);
+        ]),
+      ).toEqual(["content[0].content[0]: marks [i] with no text to apply to"]);
     });
 
     it("should report a node when it sits inside a footnote nested in a footnote", () => {
@@ -183,7 +186,7 @@ describe("findMeaninglessContentNodes", () => {
             type: "stu",
             content: { text: "note", foot: { type: "xrf", content: [{}] } },
           },
-        })
+        }),
       ).toEqual([
         "content.foot.content.foot.content[0]: empty node with nothing to render",
       ]);
@@ -208,8 +211,10 @@ describe("findMeaninglessContentNodes", () => {
               content: ["This", { text: "" }, " psalm is an acrostic poem."],
             },
           },
-        ])
-      ).toEqual(["content[0].foot.content[1]: empty node with nothing to render"]);
+        ]),
+      ).toEqual([
+        "content[0].foot.content[1]: empty node with nothing to render",
+      ]);
     });
 
     it("should report a node when it has no properties at all", () => {
@@ -240,7 +245,7 @@ describe("findMeaninglessContentNodes", () => {
               content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
             },
           },
-        ])
+        ]),
       ).toEqual(["content[1]: empty node with nothing to render"]);
     });
 
@@ -255,7 +260,7 @@ describe("findMeaninglessContentNodes", () => {
               content: ["Or, ", { text: "shall be beaten", marks: ["i"] }],
             },
           },
-        ])
+        ]),
       ).toEqual(["content[0]: empty node with nothing to render"]);
     });
 
@@ -266,7 +271,7 @@ describe("findMeaninglessContentNodes", () => {
         findMeaninglessContentNodes([
           { foot: { type: "xrf", content: "Gen 1:1" } },
           { foot: { type: "xrf", content: "Gen 1:1" }, break: true },
-        ])
+        ]),
       ).toEqual([]);
     });
   });
@@ -281,7 +286,7 @@ describe("findMeaninglessContentNodes", () => {
           { foot: { type: "xrf", content: "Gen 1:1" }, paragraph: true },
           { foot: { type: "xrf", content: "Gen 1:1" }, break: true },
           "In the beginning",
-        ])
+        ]),
       ).toEqual([]);
     });
 
@@ -294,7 +299,7 @@ describe("findMeaninglessContentNodes", () => {
           { strong: "H1254", morph: "8804" },
           { strong: "H430", paragraph: true },
           { lemma: "θεός" },
-        ])
+        ]),
       ).toEqual([]);
     });
 
@@ -305,13 +310,13 @@ describe("findMeaninglessContentNodes", () => {
           { paragraph: true },
           { break: true },
           "text",
-        ])
+        ]),
       ).toEqual([]);
     });
 
     it("should accept a bibleLink carrying no display content", () => {
       expect(
-        findMeaninglessContentNodes([{ bibleLink: "Hebrews 11:3" }])
+        findMeaninglessContentNodes([{ bibleLink: "Hebrews 11:3" }]),
       ).toEqual([]);
     });
   });
@@ -319,7 +324,7 @@ describe("findMeaninglessContentNodes", () => {
   describe("nodes that do have text to format", () => {
     it("should accept marks on a node with text", () => {
       expect(
-        findMeaninglessContentNodes([{ text: "Jesus wept", marks: ["woc"] }])
+        findMeaninglessContentNodes([{ text: "Jesus wept", marks: ["woc"] }]),
       ).toEqual([]);
     });
 
@@ -328,7 +333,7 @@ describe("findMeaninglessContentNodes", () => {
       // misfire against real corpus data that legitimately marks a bare
       // joining space.
       expect(
-        findMeaninglessContentNodes([{ text: " ", marks: ["woc"] }])
+        findMeaninglessContentNodes([{ text: " ", marks: ["woc"] }]),
       ).toEqual([]);
     });
 
@@ -338,19 +343,19 @@ describe("findMeaninglessContentNodes", () => {
       expect(
         findMeaninglessContentNodes([
           { content: ["the", " Lord"], marks: ["sc"] },
-        ])
+        ]),
       ).toEqual([]);
     });
 
     it("should accept plain string content", () => {
       expect(
-        findMeaninglessContentNodes("In the beginning God created")
+        findMeaninglessContentNodes("In the beginning God created"),
       ).toEqual([]);
     });
 
     it("should accept script on a node with text", () => {
       expect(
-        findMeaninglessContentNodes([{ text: "λόγος", script: "G" }])
+        findMeaninglessContentNodes([{ text: "λόγος", script: "G" }]),
       ).toEqual([]);
     });
   });
@@ -362,23 +367,35 @@ describe("dropEmptyTextKeysInContent", () => {
       dropEmptyTextKeysInContent([
         {
           text: "How long wilt thou be angry",
-          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+          },
           strong: "H6225",
         },
         {
           text: "",
-          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+          },
         },
-      ])
+      ]),
     ).toEqual({
       content: [
         {
           text: "How long wilt thou be angry",
-          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+          },
           strong: "H6225",
         },
         {
-          foot: { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+          },
         },
       ],
       changed: true,
@@ -391,14 +408,20 @@ describe("dropEmptyTextKeysInContent", () => {
         {
           text: "",
           break: true,
-          foot: { type: "trn", content: ["Or, ", { text: "shall be beaten", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Or, ", { text: "shall be beaten", marks: ["i"] }],
+          },
         },
-      ])
+      ]),
     ).toEqual({
       content: [
         {
           break: true,
-          foot: { type: "trn", content: ["Or, ", { text: "shall be beaten", marks: ["i"] }] },
+          foot: {
+            type: "trn",
+            content: ["Or, ", { text: "shall be beaten", marks: ["i"] }],
+          },
         },
       ],
       changed: true,
@@ -407,22 +430,38 @@ describe("dropEmptyTextKeysInContent", () => {
 
   it("should leave a node whose only property is an empty text untouched — dropping it would leave a bare {} with nothing left to keep", () => {
     const content: Content = [{ text: "" }, "text"];
-    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+    expect(dropEmptyTextKeysInContent(content)).toEqual({
+      content,
+      changed: false,
+    });
   });
 
   it("should leave a node with no properties at all untouched", () => {
     const content: Content = [{}, "text"];
-    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+    expect(dropEmptyTextKeysInContent(content)).toEqual({
+      content,
+      changed: false,
+    });
   });
 
   it("should leave a node with real text untouched", () => {
-    const content: Content = [{ text: "Jesus wept", foot: { type: "trn", content: "note" } }];
-    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+    const content: Content = [
+      { text: "Jesus wept", foot: { type: "trn", content: "note" } },
+    ];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({
+      content,
+      changed: false,
+    });
   });
 
   it("should leave a foot-carrying node with no text key at all untouched", () => {
-    const content: Content = [{ foot: { type: "xrf", content: "Gen 1:1" }, break: true }];
-    expect(dropEmptyTextKeysInContent(content)).toEqual({ content, changed: false });
+    const content: Content = [
+      { foot: { type: "xrf", content: "Gen 1:1" }, break: true },
+    ];
+    expect(dropEmptyTextKeysInContent(content)).toEqual({
+      content,
+      changed: false,
+    });
   });
 
   it("should report no change and return the original reference when nothing needs fixing", () => {
@@ -439,10 +478,14 @@ describe("dropEmptyTextKeysInContent", () => {
           text: "To",
           foot: {
             type: "stu",
-            content: ["This", { text: "", strong: "H1" }, " psalm is an acrostic poem."],
+            content: [
+              "This",
+              { text: "", strong: "H1" },
+              " psalm is an acrostic poem.",
+            ],
           },
         },
-      ])
+      ]),
     ).toEqual({
       content: [
         {
@@ -460,9 +503,11 @@ describe("dropEmptyTextKeysInContent", () => {
   it("should drop an empty text key nested inside a heading", () => {
     expect(
       dropEmptyTextKeysInContent([
-        { heading: ["A ", { text: "", marks: ["i"], strong: "H1" }, " Prayer"] },
+        {
+          heading: ["A ", { text: "", marks: ["i"], strong: "H1" }, " Prayer"],
+        },
         "Body",
-      ])
+      ]),
     ).toEqual({
       content: [
         { heading: ["A ", { marks: ["i"], strong: "H1" }, " Prayer"] },
@@ -480,7 +525,7 @@ describe("findStrongTrailingWhitespaceNodes", () => {
         findStrongTrailingWhitespaceNodes([
           { text: "God ", strong: "H430" },
           { text: "said", strong: "H559" },
-        ])
+        ]),
       ).toEqual([
         'content[0]: strong "H430" carries text "God " ending in whitespace',
       ]);
@@ -492,7 +537,7 @@ describe("findStrongTrailingWhitespaceNodes", () => {
           { text: "one ", strong: "H1" },
           { text: "two", strong: "H2" },
           { text: "three ", strong: "H3" },
-        ])
+        ]),
       ).toEqual([
         'content[0]: strong "H1" carries text "one " ending in whitespace',
         'content[2]: strong "H3" carries text "three " ending in whitespace',
@@ -509,7 +554,7 @@ describe("findStrongTrailingWhitespaceNodes", () => {
               content: [{ text: "note ", strong: "H1" }],
             },
           },
-        ])
+        ]),
       ).toEqual([
         'content[0].foot.content[0]: strong "H1" carries text "note " ending in whitespace',
       ]);
@@ -524,7 +569,7 @@ describe("findStrongTrailingWhitespaceNodes", () => {
         findStrongTrailingWhitespaceNodes([
           { text: "In the beginning", strong: "H7225" },
           { text: " God", strong: "H430" },
-        ])
+        ]),
       ).toEqual([]);
     });
 
@@ -535,25 +580,27 @@ describe("findStrongTrailingWhitespaceNodes", () => {
         findStrongTrailingWhitespaceNodes([
           { text: "the earth", strong: "H776" },
           { strong: "H853" },
-        ])
+        ]),
       ).toEqual([]);
     });
 
     it("should accept a strong-carrying node whose text has no trailing whitespace", () => {
       expect(
-        findStrongTrailingWhitespaceNodes([{ text: "beginning", strong: "H7225" }])
+        findStrongTrailingWhitespaceNodes([
+          { text: "beginning", strong: "H7225" },
+        ]),
       ).toEqual([]);
     });
 
     it("should accept a node with trailing whitespace that carries no strong value", () => {
       expect(
-        findStrongTrailingWhitespaceNodes([{ text: "middle ", marks: ["i"] }])
+        findStrongTrailingWhitespaceNodes([{ text: "middle ", marks: ["i"] }]),
       ).toEqual([]);
     });
 
     it("should accept plain string content", () => {
       expect(
-        findStrongTrailingWhitespaceNodes("In the beginning God created")
+        findStrongTrailingWhitespaceNodes("In the beginning God created"),
       ).toEqual([]);
     });
   });
@@ -563,7 +610,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
   describe("fixing a hyphen in bibleLink and/or its content override", () => {
     it("should fix a hyphen in a bare bibleLink target without inventing a content key", () => {
       expect(
-        normalizeBibleLinkDashesInContent([{ bibleLink: "Isaiah 66-2" }])
+        normalizeBibleLinkDashesInContent([{ bibleLink: "Isaiah 66-2" }]),
       ).toEqual({
         content: [{ bibleLink: "Isaiah 66–2" }],
         changed: true,
@@ -574,7 +621,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Psalm 53:1–3", content: "53:1-3" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Psalm 53:1–3", content: "53:1–3" }],
         changed: true,
@@ -585,7 +632,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Psalm 53:1-3", content: "53:1-3" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Psalm 53:1–3", content: "53:1–3" }],
         changed: true,
@@ -594,7 +641,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
 
     it("should fix the cross-chapter shorthand's digit-flanked hyphen in a bare bibleLink target", () => {
       expect(
-        normalizeBibleLinkDashesInContent([{ bibleLink: "2 Kings 6:31-7:20" }])
+        normalizeBibleLinkDashesInContent([{ bibleLink: "2 Kings 6:31-7:20" }]),
       ).toEqual({
         content: [{ bibleLink: "2 Kings 6:31–7:20" }],
         changed: true,
@@ -605,7 +652,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Exodus 2:9–18", content: "chap. 2.9-18" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Exodus 2:9–18", content: "chap. 2.9–18" }],
         changed: true,
@@ -618,7 +665,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Joshua 15:9", content: "Beth-el 15:9" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Joshua 15:9", content: "Beth-el 15:9" }],
         changed: false,
@@ -627,7 +674,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
 
     it("should leave a hyphenated word inside a bare bibleLink target untouched", () => {
       expect(
-        normalizeBibleLinkDashesInContent([{ bibleLink: "Beth-el 15:9" }])
+        normalizeBibleLinkDashesInContent([{ bibleLink: "Beth-el 15:9" }]),
       ).toEqual({
         content: [{ bibleLink: "Beth-el 15:9" }],
         changed: false,
@@ -638,7 +685,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Exodus 12:3", content: "Exodus 12:3 -" }],
         changed: false,
@@ -649,7 +696,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Exodus 12:3", content: "- Exodus 12:3" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Exodus 12:3", content: "- Exodus 12:3" }],
         changed: false,
@@ -662,7 +709,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Isaiah 66-2", content: "Isaiah 66-2" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Isaiah 66–2" }],
         changed: true,
@@ -673,7 +720,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "Isaiah 66:2", content: "Isaiah 66:2" },
-        ])
+        ]),
       ).toEqual({
         content: [{ bibleLink: "Isaiah 66:2" }],
         changed: true,
@@ -686,7 +733,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { bibleLink: "John 3-16", content: [{ marks: ["i"] }, "see"] },
-        ])
+        ]),
       ).toEqual({
         content: [
           { bibleLink: "John 3–16", content: [{ marks: ["i"] }, "see"] },
@@ -699,7 +746,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { content: ["the", "well-known", " Lord"], strong: "H3068" },
-        ])
+        ]),
       ).toEqual({
         content: [{ content: ["the", "well-known", " Lord"], strong: "H3068" }],
         changed: false,
@@ -718,7 +765,9 @@ describe("normalizeBibleLinkDashesInContent", () => {
     });
 
     it("should accept plain string content", () => {
-      expect(normalizeBibleLinkDashesInContent("In the beginning God created")).toEqual({
+      expect(
+        normalizeBibleLinkDashesInContent("In the beginning God created"),
+      ).toEqual({
         content: "In the beginning God created",
         changed: false,
       });
@@ -733,7 +782,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
             text: "word",
             foot: { type: "xrf", content: [{ bibleLink: "Romans 3-12" }] },
           },
-        ])
+        ]),
       ).toEqual({
         content: [
           {
@@ -749,7 +798,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { heading: [{ bibleLink: "Psalm 119-1" }] },
-        ])
+        ]),
       ).toEqual({
         content: [{ heading: [{ bibleLink: "Psalm 119–1" }] }],
         changed: true,
@@ -760,7 +809,7 @@ describe("normalizeBibleLinkDashesInContent", () => {
       expect(
         normalizeBibleLinkDashesInContent([
           { subtitle: [{ bibleLink: "Psalm 51-1" }] },
-        ])
+        ]),
       ).toEqual({
         content: [{ subtitle: [{ bibleLink: "Psalm 51–1" }] }],
         changed: true,
@@ -773,13 +822,9 @@ describe("normalizeBibleLinkDashesInContent", () => {
           { bibleLink: "Gen 1-1" },
           "and",
           { bibleLink: "Gen 1-2", content: "Gen 1-2" },
-        ])
+        ]),
       ).toEqual({
-        content: [
-          { bibleLink: "Gen 1–1" },
-          "and",
-          { bibleLink: "Gen 1–2" },
-        ],
+        content: [{ bibleLink: "Gen 1–1" }, "and", { bibleLink: "Gen 1–2" }],
         changed: true,
       });
     });
@@ -795,7 +840,9 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
       book: "GEN",
       chapter: 1,
       verse: 1,
-      content: ["In the beginning God created the heavens and the earth."] as unknown as Content,
+      content: [
+        "In the beginning God created the heavens and the earth.",
+      ] as unknown as Content,
     };
     expect(findResidualContentChanges("YLT1898", verse)).toEqual([]);
   });
@@ -893,10 +940,18 @@ describe("findResidualContentChanges — the idempotence guard's own per-verse r
       chapter: 1,
       verse: 1,
       content: [
-        { text: " χριστοῦ,", script: "G", transliteration: " christoû,", strong: "G5547", morph: "N-GSM" },
+        {
+          text: " χριστοῦ,",
+          script: "G",
+          transliteration: " christoû,",
+          strong: "G5547",
+          morph: "N-GSM",
+        },
       ] as unknown as Content,
     };
-    expect(findResidualContentChanges("BYZ2026", verse)).toEqual(["lexical annotation resolution"]);
+    expect(findResidualContentChanges("BYZ2026", verse)).toEqual([
+      "lexical annotation resolution",
+    ]);
   });
 
   it("should report nothing for a word node already carrying its lemma", () => {
@@ -938,7 +993,9 @@ describe("findDeclaredChapterMismatches", () => {
       [book({ _id: "EST", chapters: 16 })],
       new Map([["EST", 10]]),
     );
-    expect(mismatches).toEqual([{ book: "EST", declaredChapters: 16, highestChapterPresent: 10 }]);
+    expect(mismatches).toEqual([
+      { book: "EST", declaredChapters: 16, highestChapterPresent: 10 },
+    ]);
   });
 
   it("should report a finding, naming both numbers, when the file's highest chapter is above the declared count — the metadata is equally wrong in that direction", () => {
@@ -946,7 +1003,9 @@ describe("findDeclaredChapterMismatches", () => {
       [book({ _id: "DAN", chapters: 10 })],
       new Map([["DAN", 12]]),
     );
-    expect(mismatches).toEqual([{ book: "DAN", declaredChapters: 10, highestChapterPresent: 12 }]);
+    expect(mismatches).toEqual([
+      { book: "DAN", declaredChapters: 10, highestChapterPresent: 12 },
+    ]);
   });
 
   it("should not report a finding when the declared count and the file's highest chapter agree", () => {
@@ -959,7 +1018,11 @@ describe("findDeclaredChapterMismatches", () => {
 
   it("should check every book independently, reporting only the ones that disagree", () => {
     const mismatches = findDeclaredChapterMismatches(
-      [book({ _id: "EST", chapters: 16 }), book({ _id: "GEN", chapters: 50 }), book({ _id: "DAN", chapters: 14 })],
+      [
+        book({ _id: "EST", chapters: 16 }),
+        book({ _id: "GEN", chapters: 50 }),
+        book({ _id: "DAN", chapters: 14 }),
+      ],
       new Map([
         ["EST", 10],
         ["GEN", 50],
@@ -976,7 +1039,12 @@ describe("findDeclaredChapterMismatches", () => {
     // A book declared in _version.json whose own verse file is missing
     // entirely is already reported by the existing file-existence check;
     // this comparator still names it rather than skipping it quietly.
-    const mismatches = findDeclaredChapterMismatches([book({ _id: "OBD", chapters: 1 })], new Map());
-    expect(mismatches).toEqual([{ book: "OBD", declaredChapters: 1, highestChapterPresent: 0 }]);
+    const mismatches = findDeclaredChapterMismatches(
+      [book({ _id: "OBD", chapters: 1 })],
+      new Map(),
+    );
+    expect(mismatches).toEqual([
+      { book: "OBD", declaredChapters: 1, highestChapterPresent: 0 },
+    ]);
   });
 });

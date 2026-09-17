@@ -92,7 +92,6 @@
 
 ### Before the fall of Jerusalem
 
-
 ### Symbols of its Fall
 
 <sup>1</sup> “And thou, son of man, take to thee a brick, and thou hast put it before thee, and hast graven on it a city—Jerusalem,
@@ -839,7 +838,6 @@
 ## Chapter 25
 
 ### Judgement upon the Nations
-
 
 ### Ammon
 

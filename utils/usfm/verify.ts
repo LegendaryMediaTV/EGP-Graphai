@@ -536,9 +536,16 @@ export interface BookCounts {
 export function countMarkersIn(source: string): BookCounts {
   const verseMatches = source.match(/\\v[ \t]+\d+/g) ?? [];
   const chapterMatches = [...source.matchAll(/\\c[ \t]+(\d+)/g)];
-  const maxChapter = chapterMatches.reduce((max, match) => Math.max(max, Number(match[1])), 0);
+  const maxChapter = chapterMatches.reduce(
+    (max, match) => Math.max(max, Number(match[1])),
+    0,
+  );
 
-  return { verses: verseMatches.length, chapters: chapterMatches.length, maxChapter };
+  return {
+    verses: verseMatches.length,
+    chapters: chapterMatches.length,
+    maxChapter,
+  };
 }
 
 /**
@@ -580,7 +587,8 @@ export interface BlockMarkerCounts {
  * `\b` alone already rules out a partial match like `\p` inside `pi1`.
  */
 export function countBlockMarkersIn(source: string): BlockMarkerCounts {
-  const paragraphMarkers = (source.match(/\\(?:p|m|nb|li1|pi1|mi)\b/g) ?? []).length;
+  const paragraphMarkers = (source.match(/\\(?:p|m|nb|li1|pi1|mi)\b/g) ?? [])
+    .length;
   const breakMarkers = (source.match(/\\(?:q1|q2|q3|b)\b/g) ?? []).length;
   return { paragraphMarkers, breakMarkers };
 }
@@ -593,19 +601,29 @@ export function countBlockMarkersIn(source: string): BlockMarkerCounts {
  * function keeps working unchanged if a future extension starts nesting
  * flagged blocks inside a `marks`/`strong`-bearing wrapper.
  */
-export function countEmittedBlockFlags(content: unknown): { paragraph: number; break: number } {
+export function countEmittedBlockFlags(content: unknown): {
+  paragraph: number;
+  break: number;
+} {
   if (Array.isArray(content)) {
     return content.reduce(
       (totals, item) => {
         const sub = countEmittedBlockFlags(item);
-        return { paragraph: totals.paragraph + sub.paragraph, break: totals.break + sub.break };
+        return {
+          paragraph: totals.paragraph + sub.paragraph,
+          break: totals.break + sub.break,
+        };
       },
       { paragraph: 0, break: 0 },
     );
   }
 
   if (content !== null && typeof content === "object") {
-    const node = content as { paragraph?: unknown; break?: unknown; content?: unknown };
+    const node = content as {
+      paragraph?: unknown;
+      break?: unknown;
+      content?: unknown;
+    };
     let paragraph = node.paragraph === true ? 1 : 0;
     let brk = node.break === true ? 1 : 0;
     if ("content" in node) {
@@ -672,7 +690,11 @@ export function countEmittedMarkRuns(content: unknown, mark: string): number {
  * leaf carries `mark`. A wrapper node's own mark applies to every leaf
  * found inside it.
  */
-function collectMarkedLeaves(content: unknown, mark: string, leaves: boolean[]): void {
+function collectMarkedLeaves(
+  content: unknown,
+  mark: string,
+  leaves: boolean[],
+): void {
   if (Array.isArray(content)) {
     for (const item of content) collectMarkedLeaves(item, mark, leaves);
     return;
@@ -684,7 +706,9 @@ function collectMarkedLeaves(content: unknown, mark: string, leaves: boolean[]):
     if ("content" in node) {
       const before = leaves.length;
       collectMarkedLeaves(node.content, mark, leaves);
-      if (hasMark) for (let index = before; index < leaves.length; index++) leaves[index] = true;
+      if (hasMark)
+        for (let index = before; index < leaves.length; index++)
+          leaves[index] = true;
       return;
     }
     leaves.push(hasMark);
@@ -734,15 +758,20 @@ const VERSE_OR_CHAPTER_MARKER_PATTERN = /\\[vc]\b/g;
  * ({@link HEADING_MARKER_PATTERN}) — i.e., a heading marker has opened and
  * nothing has closed it since.
  */
-function precededByUnclosedHeading(source: string, beforeIndex: number): boolean {
+function precededByUnclosedHeading(
+  source: string,
+  beforeIndex: number,
+): boolean {
   const before = source.slice(0, beforeIndex);
 
   let lastHeadingIndex = -1;
-  for (const match of before.matchAll(HEADING_MARKER_PATTERN)) lastHeadingIndex = match.index;
+  for (const match of before.matchAll(HEADING_MARKER_PATTERN))
+    lastHeadingIndex = match.index;
   if (lastHeadingIndex === -1) return false;
 
   let lastVerseOrChapterIndex = -1;
-  for (const match of before.matchAll(VERSE_OR_CHAPTER_MARKER_PATTERN)) lastVerseOrChapterIndex = match.index;
+  for (const match of before.matchAll(VERSE_OR_CHAPTER_MARKER_PATTERN))
+    lastVerseOrChapterIndex = match.index;
 
   return lastHeadingIndex > lastVerseOrChapterIndex;
 }
@@ -837,7 +866,9 @@ export interface ExtractedCrossReference {
  * identical relationship {@link extractFootnoteBodiesIn} already has to
  * `usfm/footnotes.ts`.
  */
-export function extractCrossReferencesIn(source: string): ExtractedCrossReference[] {
+export function extractCrossReferencesIn(
+  source: string,
+): ExtractedCrossReference[] {
   const results: ExtractedCrossReference[] = [];
   for (const match of source.matchAll(XREF_SPAN_PATTERN)) {
     const parts = match[1].split(XREF_SUB_MARKER_PATTERN);
@@ -870,7 +901,10 @@ const XREF_SEPARATOR_STRINGS = new Set(["; ", "–"]);
  * {@link XREF_SEPARATOR_STRINGS} is either, and both are skipped rather
  * than counted as an unresolved target.
  */
-export function countXrefLinkNodes(content: unknown): { links: number; unresolved: number } {
+export function countXrefLinkNodes(content: unknown): {
+  links: number;
+  unresolved: number;
+} {
   const items = Array.isArray(content) ? content : [content];
   let links = 0;
   let unresolved = 0;
@@ -880,7 +914,8 @@ export function countXrefLinkNodes(content: unknown): { links: number; unresolve
       unresolved++;
       continue;
     }
-    if (item !== null && typeof item === "object" && "bibleLink" in item) links++;
+    if (item !== null && typeof item === "object" && "bibleLink" in item)
+      links++;
   }
   return { links, unresolved };
 }
@@ -893,7 +928,10 @@ export function countXrefLinkNodes(content: unknown): { links: number; unresolve
  * Psalm superscription (e.g. Psalm 46:0's own) be found at all: each one
  * sits inside a `{subtitle: [...]}` node's own array.
  */
-function collectFootnotes(content: unknown, sink: { type: unknown; content: unknown }[]): void {
+function collectFootnotes(
+  content: unknown,
+  sink: { type: unknown; content: unknown }[],
+): void {
   if (Array.isArray(content)) {
     for (const item of content) collectFootnotes(item, sink);
     return;
@@ -906,7 +944,8 @@ function collectFootnotes(content: unknown, sink: { type: unknown; content: unkn
     subtitle?: unknown;
     heading?: unknown;
   };
-  if (node.foot !== undefined && node.foot !== null) sink.push({ type: node.foot.type, content: node.foot.content });
+  if (node.foot !== undefined && node.foot !== null)
+    sink.push({ type: node.foot.type, content: node.foot.content });
   if ("content" in node) collectFootnotes(node.content, sink);
   if ("subtitle" in node) collectFootnotes(node.subtitle, sink);
   if ("heading" in node) collectFootnotes(node.heading, sink);
@@ -942,7 +981,11 @@ function hasAnyMark(content: unknown): boolean {
  * place a plain verse-content tree never has.
  */
 export function countScriptNodes(content: unknown, script: "H" | "G"): number {
-  if (Array.isArray(content)) return content.reduce((total, item) => total + countScriptNodes(item, script), 0);
+  if (Array.isArray(content))
+    return content.reduce(
+      (total, item) => total + countScriptNodes(item, script),
+      0,
+    );
   if (content === null || typeof content !== "object") return 0;
 
   const node = content as {
@@ -954,7 +997,8 @@ export function countScriptNodes(content: unknown, script: "H" | "G"): number {
   };
   let count = node.script === script ? 1 : 0;
   if ("content" in node) count += countScriptNodes(node.content, script);
-  if (node.foot?.content !== undefined) count += countScriptNodes(node.foot.content, script);
+  if (node.foot?.content !== undefined)
+    count += countScriptNodes(node.foot.content, script);
   if ("subtitle" in node) count += countScriptNodes(node.subtitle, script);
   if ("heading" in node) count += countScriptNodes(node.heading, script);
   return count;
@@ -969,7 +1013,11 @@ export function countScriptNodes(content: unknown, script: "H" | "G"): number {
  * regains a `strong` value.
  */
 export function countStrongAttributeNodes(content: unknown): number {
-  if (Array.isArray(content)) return content.reduce((total, item) => total + countStrongAttributeNodes(item), 0);
+  if (Array.isArray(content))
+    return content.reduce(
+      (total, item) => total + countStrongAttributeNodes(item),
+      0,
+    );
   if (content === null || typeof content !== "object") return 0;
 
   const node = content as {
@@ -981,7 +1029,8 @@ export function countStrongAttributeNodes(content: unknown): number {
   };
   let count = typeof node.strong === "string" ? 1 : 0;
   if ("content" in node) count += countStrongAttributeNodes(node.content);
-  if (node.foot?.content !== undefined) count += countStrongAttributeNodes(node.foot.content);
+  if (node.foot?.content !== undefined)
+    count += countStrongAttributeNodes(node.foot.content);
   if ("subtitle" in node) count += countStrongAttributeNodes(node.subtitle);
   if ("heading" in node) count += countStrongAttributeNodes(node.heading);
   return count;
@@ -1037,7 +1086,9 @@ const SUPERSCRIPTION_SPAN_PATTERN = /\\d[ \t]+(.*?)\\q1\b/gs;
  * — a regex of this verifier's own, never `usfm/headings.ts`'s
  * `buildHeadingSpanContent`.
  */
-export function extractSuperscriptionsIn(source: string): ExtractedSuperscription[] {
+export function extractSuperscriptionsIn(
+  source: string,
+): ExtractedSuperscription[] {
   const results: ExtractedSuperscription[] = [];
   for (const match of source.matchAll(SUPERSCRIPTION_SPAN_PATTERN)) {
     const withoutFootnote = match[1].replace(/\\f\s?\+?\s*.*?\\f\*/gs, "");
@@ -1071,7 +1122,9 @@ const SECTION_HEADING_SPAN_PATTERN = /\\s1[ \t]+(.*?)\\p\b/gs;
  * zero real `\s1` instances carry a Strong's-tagged word (confirmed
  * directly, unlike `\d`'s own two acrostic-letter artifacts).
  */
-export function extractSectionHeadingsIn(source: string): ExtractedSuperscription[] {
+export function extractSectionHeadingsIn(
+  source: string,
+): ExtractedSuperscription[] {
   const results: ExtractedSuperscription[] = [];
   for (const match of source.matchAll(SECTION_HEADING_SPAN_PATTERN)) {
     const withoutFootnote = match[1].replace(/\\f\s?\+?\s*.*?\\f\*/gs, "");
@@ -1157,7 +1210,11 @@ const IP_INLINE_MARKER_NAMES = new Set(["w", "wh", "wj", "f", "x", "bk", "qs"]);
 export function extractIntroParagraphsIn(source: string): ExtractedFootnote[] {
   const markerPositions: { index: number; end: number; name: string }[] = [];
   for (const match of source.matchAll(/\\(\+)?([A-Za-z][A-Za-z0-9]*)(\*)?/g)) {
-    markerPositions.push({ index: match.index, end: match.index + match[0].length, name: match[2] });
+    markerPositions.push({
+      index: match.index,
+      end: match.index + match[0].length,
+      name: match[2],
+    });
   }
 
   const results: ExtractedFootnote[] = [];
@@ -1201,7 +1258,11 @@ export function extractIntroParagraphsIn(source: string): ExtractedFootnote[] {
 export type HeadingKind = "subtitle" | "acrostic" | "bookDivision" | "speaker";
 
 /** Classifies one emitted node as a {@link HeadingKind} by its shape — see that type's own doc comment for the distinguishing rule for each kind. Returns `undefined` for a node that carries neither a `subtitle` nor a `heading`. */
-function classifyHeadingNode(node: { subtitle?: unknown; heading?: unknown; type?: unknown }): HeadingKind | undefined {
+function classifyHeadingNode(node: {
+  subtitle?: unknown;
+  heading?: unknown;
+  type?: unknown;
+}): HeadingKind | undefined {
   if ("subtitle" in node) return "subtitle";
   if (!("heading" in node)) return undefined;
   if (node.type === "acrostic") return "acrostic";
@@ -1209,8 +1270,11 @@ function classifyHeadingNode(node: { subtitle?: unknown; heading?: unknown; type
   const heading = node.heading;
   const firstItem = Array.isArray(heading) ? heading[0] : undefined;
   const firstItemMarks =
-    firstItem !== null && typeof firstItem === "object" ? (firstItem as { marks?: unknown }).marks : undefined;
-  if (Array.isArray(firstItemMarks) && firstItemMarks.includes("sc")) return "bookDivision";
+    firstItem !== null && typeof firstItem === "object"
+      ? (firstItem as { marks?: unknown }).marks
+      : undefined;
+  if (Array.isArray(firstItemMarks) && firstItemMarks.includes("sc"))
+    return "bookDivision";
 
   return "speaker";
 }
@@ -1222,14 +1286,22 @@ function classifyHeadingNode(node: { subtitle?: unknown; heading?: unknown; type
  * already use for `content`, never descending *into* a heading/subtitle
  * node once found (this corpus never nests one heading inside another).
  */
-export function collectHeadingBlocks(content: unknown, sink: HeadingKind[]): void {
+export function collectHeadingBlocks(
+  content: unknown,
+  sink: HeadingKind[],
+): void {
   if (Array.isArray(content)) {
     for (const item of content) collectHeadingBlocks(item, sink);
     return;
   }
   if (content === null || typeof content !== "object") return;
 
-  const node = content as { subtitle?: unknown; heading?: unknown; type?: unknown; content?: unknown };
+  const node = content as {
+    subtitle?: unknown;
+    heading?: unknown;
+    type?: unknown;
+    content?: unknown;
+  };
   const kind = classifyHeadingNode(node);
   if (kind !== undefined) {
     sink.push(kind);
@@ -1435,7 +1507,9 @@ export function markerNamesIn(source: string): Set<string> {
 function main(): void {
   const [sourceDir, versionId] = process.argv.slice(2);
   if (!sourceDir || !versionId) {
-    console.error("Usage: npx ts-node utils/usfm/verify.ts <source-dir> <version-id>");
+    console.error(
+      "Usage: npx ts-node utils/usfm/verify.ts <source-dir> <version-id>",
+    );
     process.exit(1);
   }
 
@@ -1472,7 +1546,13 @@ function main(): void {
   let greekNodeTotal = 0;
   let strongAttributeTotal = 0;
   let mapTypeTotal = 0;
-  const typeDistribution: Record<string, number> = { xrf: 0, var: 0, trn: 0, stu: 0, map: 0 };
+  const typeDistribution: Record<string, number> = {
+    xrf: 0,
+    var: 0,
+    trn: 0,
+    stu: 0,
+    map: 0,
+  };
   let characterMismatchCount = 0;
   let typeMismatchCount = 0;
   let xrefSpanTotal = 0;
@@ -1510,12 +1590,19 @@ function main(): void {
     const blockCounts = countBlockMarkersIn(source);
     const inlineCounts = countInlineMarkersIn(source);
 
-    const emittedPath = path.join(versionDir, bookFilename(book.order, book._id));
+    const emittedPath = path.join(
+      versionDir,
+      bookFilename(book.order, book._id),
+    );
     if (!fs.existsSync(emittedPath)) {
-      mismatches.push(`${book._id}: no emitted verse file found at ${emittedPath}`);
+      mismatches.push(
+        `${book._id}: no emitted verse file found at ${emittedPath}`,
+      );
       continue;
     }
-    const emitted: EmittedVerse[] = JSON.parse(fs.readFileSync(emittedPath, "utf8"));
+    const emitted: EmittedVerse[] = JSON.parse(
+      fs.readFileSync(emittedPath, "utf8"),
+    );
 
     if (emitted.length !== counts.verses) {
       mismatches.push(
@@ -1559,7 +1646,9 @@ function main(): void {
     // subtitle/heading (see {@link SUPERSCRIPTION_FOOTNOTES_IN_CORPUS}),
     // none excluded.
     const rawFootnotes = extractFootnoteBodiesIn(source);
-    const superscriptionFootnoteCount = rawFootnotes.filter((footnote) => footnote.precededByUnclosedHeading).length;
+    const superscriptionFootnoteCount = rawFootnotes.filter(
+      (footnote) => footnote.precededByUnclosedHeading,
+    ).length;
 
     // Reference-only bodies (see
     // {@link REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS}) are excluded here
@@ -1567,8 +1656,12 @@ function main(): void {
     // `\ip`-derived pseudo-footnotes (see {@link extractIntroParagraphsIn})
     // are prepended instead, since they always precede a book's real `\f`
     // spans in source order and land in the same plain `foot` bucket.
-    const referenceOnlyRawFootnotes = rawFootnotes.filter((footnote) => classifyFootnote(footnote.plainText) === "xrf");
-    const nonXrfRawFootnotes = rawFootnotes.filter((footnote) => classifyFootnote(footnote.plainText) !== "xrf");
+    const referenceOnlyRawFootnotes = rawFootnotes.filter(
+      (footnote) => classifyFootnote(footnote.plainText) === "xrf",
+    );
+    const nonXrfRawFootnotes = rawFootnotes.filter(
+      (footnote) => classifyFootnote(footnote.plainText) !== "xrf",
+    );
     const rawIntroParagraphs = extractIntroParagraphsIn(source);
     const pairableRawFootnotes = [...rawIntroParagraphs, ...nonXrfRawFootnotes];
 
@@ -1580,9 +1673,14 @@ function main(): void {
     // marker provenance no longer maps to them 1:1 in the deuterocanon
     // corpus.
     const allEmittedFootnotes: { type: unknown; content: unknown }[] = [];
-    for (const verse of emitted) collectFootnotes(verse.content, allEmittedFootnotes);
-    const emittedFootnotes = allEmittedFootnotes.filter((footnote) => footnote.type !== "xrf");
-    const emittedXrefFootnotes = allEmittedFootnotes.filter((footnote) => footnote.type === "xrf");
+    for (const verse of emitted)
+      collectFootnotes(verse.content, allEmittedFootnotes);
+    const emittedFootnotes = allEmittedFootnotes.filter(
+      (footnote) => footnote.type !== "xrf",
+    );
+    const emittedXrefFootnotes = allEmittedFootnotes.filter(
+      (footnote) => footnote.type === "xrf",
+    );
 
     hebrewPairTotal += (source.match(/\\\+wh\*/g) ?? []).length;
     footnoteTotal += rawFootnotes.length;
@@ -1599,7 +1697,10 @@ function main(): void {
     const rawXrefs = extractCrossReferencesIn(source);
     xrefSpanTotal += rawXrefs.length;
     emittedXrefFootnoteTotal += emittedXrefFootnotes.length;
-    if (rawXrefs.length + referenceOnlyRawFootnotes.length !== emittedXrefFootnotes.length) {
+    if (
+      rawXrefs.length + referenceOnlyRawFootnotes.length !==
+      emittedXrefFootnotes.length
+    ) {
       mismatches.push(
         `${book._id}: ${rawXrefs.length} raw \\x...\\x* span(s) plus ${referenceOnlyRawFootnotes.length} reference-only \\f body(ies) but ${emittedXrefFootnotes.length} emitted xrf foot object(s)`,
       );
@@ -1616,7 +1717,10 @@ function main(): void {
       );
     }
 
-    const pairCount = Math.min(pairableRawFootnotes.length, emittedFootnotes.length);
+    const pairCount = Math.min(
+      pairableRawFootnotes.length,
+      emittedFootnotes.length,
+    );
     for (let index = 0; index < pairCount; index++) {
       const raw = pairableRawFootnotes[index];
       const emittedFootnote = emittedFootnotes[index];
@@ -1625,7 +1729,9 @@ function main(): void {
       typeDistribution[rawType] = (typeDistribution[rawType] ?? 0) + 1;
       greekRunTotal += (() => {
         const split = splitScriptRuns(raw.plainText, "G");
-        return typeof split === "string" ? 0 : split.filter((segment) => typeof segment !== "string").length;
+        return typeof split === "string"
+          ? 0
+          : split.filter((segment) => typeof segment !== "string").length;
       })();
 
       if (emittedFootnote.type === "map") mapTypeTotal++;
@@ -1637,7 +1743,9 @@ function main(): void {
       }
 
       const expectedText = normalizeWhitespace(raw.plainText);
-      const actualText = normalizeWhitespace(flattenContentText(emittedFootnote.content));
+      const actualText = normalizeWhitespace(
+        flattenContentText(emittedFootnote.content),
+      );
       if (expectedText !== actualText) {
         characterMismatchCount++;
         mismatches.push(
@@ -1669,14 +1777,16 @@ function main(): void {
       );
     }
     for (const superscription of rawSuperscriptions) {
-      if (isAcrosticLetterName(superscription.plainText)) rawAcrosticHeadingTotal++;
+      if (isAcrosticLetterName(superscription.plainText))
+        rawAcrosticHeadingTotal++;
       else rawOrdinarySuperscriptionTotal++;
     }
 
     // Emitted counts — classified from the already-built JSON, never from
     // `usfm/blockStructure.ts`'s own construction code.
     const headingKinds: HeadingKind[] = [];
-    for (const verse of emitted) collectHeadingBlocks(verse.content, headingKinds);
+    for (const verse of emitted)
+      collectHeadingBlocks(verse.content, headingKinds);
     for (const kind of headingKinds) {
       if (kind === "subtitle") emittedSubtitleTotal++;
       else if (kind === "acrostic") emittedAcrosticHeadingTotal++;
@@ -1699,17 +1809,23 @@ function main(): void {
     // `segmentVerses.test.ts` cover them at the unit level instead.
     bkMarkerTotal += (source.match(/\\bk\b/g) ?? []).length;
     if (book._id === "NUM") {
-      const numbers21_14 = emitted.find((verse) => verse.chapter === 21 && verse.verse === 14);
+      const numbers21_14 = emitted.find(
+        (verse) => verse.chapter === 21 && verse.verse === 14,
+      );
       if (numbers21_14 === undefined) {
-        mismatches.push("NUM: no emitted verse found for Numbers 21:14 — cannot verify the \\bk citation");
+        mismatches.push(
+          "NUM: no emitted verse found for Numbers 21:14 — cannot verify the \\bk citation",
+        );
       } else {
         const text = flattenContentText(numbers21_14.content);
         if (!text.includes("Book of the Wars of")) {
-          mismatches.push(`NUM 21:14: expected the \\bk book title's own real text, found "${text}"`);
+          mismatches.push(
+            `NUM 21:14: expected the \\bk book title's own real text, found "${text}"`,
+          );
         }
         if (!hasAnyMark(numbers21_14.content)) {
           mismatches.push(
-            "NUM 21:14: expected the \\bk book title's own text to carry marks: [\"i\"], found none",
+            'NUM 21:14: expected the \\bk book title\'s own text to carry marks: ["i"], found none',
           );
         }
       }
@@ -1720,7 +1836,9 @@ function main(): void {
     // content) was hosted inside it.
     clMarkerTotal += (source.match(/\\cl\b/g) ?? []).length;
     if (book._id === "PSA" && !clSpanHostsNothingButChrome(source)) {
-      mismatches.push("PSA: the \\cl span hosts something other than plain chrome text — dropping it would lose real content");
+      mismatches.push(
+        "PSA: the \\cl span hosts something other than plain chrome text — dropping it would lose real content",
+      );
     }
 
     // The zero-tables finding, re-measured directly against this book's
@@ -1731,12 +1849,17 @@ function main(): void {
     // Every marker name here must land in one of the three buckets above
     // — see this file's own top doc comment for the rule.
     for (const name of markerNamesIn(source)) {
-      if (!CONTENT_HANDLED_MARKER_NAMES.has(name) && !CHROME_MARKER_NAMES.has(name) && !CONFIRMED_ZERO_MARKER_NAMES.has(name)) {
+      if (
+        !CONTENT_HANDLED_MARKER_NAMES.has(name) &&
+        !CHROME_MARKER_NAMES.has(name) &&
+        !CONFIRMED_ZERO_MARKER_NAMES.has(name)
+      ) {
         unknownMarkerNames.add(`${name} (${book._id})`);
       }
     }
     for (const name of CONFIRMED_ZERO_MARKER_NAMES) {
-      const count = (source.match(new RegExp(`\\\\${name}\\b`, "g")) ?? []).length;
+      const count = (source.match(new RegExp(`\\\\${name}\\b`, "g")) ?? [])
+        .length;
       if (count > 0) {
         confirmedZeroViolations.push(
           `${book._id}: \\${name} occurs ${count} time(s) — this marker was confirmed zero in-scope during planning, no longer true`,
@@ -1746,10 +1869,14 @@ function main(): void {
   }
 
   if (verseTotal !== VERSES_IN_CORPUS) {
-    mismatches.push(`${verseTotal} verse(s) across the corpus; ${VERSES_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${verseTotal} verse(s) across the corpus; ${VERSES_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (chapterTotal !== CHAPTERS_IN_CORPUS) {
-    mismatches.push(`${chapterTotal} chapter(s) across the corpus; ${CHAPTERS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${chapterTotal} chapter(s) across the corpus; ${CHAPTERS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (paragraphMarkerTotal !== PARAGRAPH_MARKERS_IN_CORPUS) {
     mismatches.push(
@@ -1772,7 +1899,9 @@ function main(): void {
     );
   }
   if (wocMarkerTotal !== WOC_MARKERS_IN_CORPUS) {
-    mismatches.push(`${wocMarkerTotal} raw \\wj marker(s) across the corpus; ${WOC_MARKERS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${wocMarkerTotal} raw \\wj marker(s) across the corpus; ${WOC_MARKERS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (wocRunTotal !== WOC_RUNS_IN_CORPUS) {
     mismatches.push(
@@ -1790,7 +1919,9 @@ function main(): void {
     );
   }
   if (footnoteTotal !== FOOTNOTES_IN_CORPUS) {
-    mismatches.push(`${footnoteTotal} raw \\f...\\f* span(s) across the corpus; ${FOOTNOTES_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${footnoteTotal} raw \\f...\\f* span(s) across the corpus; ${FOOTNOTES_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (deferredFootnoteTotal !== SUPERSCRIPTION_FOOTNOTES_IN_CORPUS) {
     mismatches.push(
@@ -1798,7 +1929,9 @@ function main(): void {
     );
   }
   if (introParagraphTotal !== INTRO_PARAGRAPHS_IN_CORPUS) {
-    mismatches.push(`${introParagraphTotal} raw \\ip block(s) across the corpus; ${INTRO_PARAGRAPHS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${introParagraphTotal} raw \\ip block(s) across the corpus; ${INTRO_PARAGRAPHS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (referenceOnlyFootnoteTotal !== REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS) {
     mismatches.push(
@@ -1811,7 +1944,10 @@ function main(): void {
   // INTRO_PARAGRAPHS_IN_CORPUS.
   if (
     emittedFootnoteTotal !==
-    FOOTNOTES_IN_CORPUS - FOOTNOTES_EXCLUDED_FROM_CORPUS - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS
+    FOOTNOTES_IN_CORPUS -
+      FOOTNOTES_EXCLUDED_FROM_CORPUS -
+      REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS +
+      INTRO_PARAGRAPHS_IN_CORPUS
   ) {
     mismatches.push(
       `${emittedFootnoteTotal} emitted foot object(s) across the corpus; ${FOOTNOTES_IN_CORPUS} raw minus ${FOOTNOTES_EXCLUDED_FROM_CORPUS} excluded minus ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} reference-only (moved to the xrf bucket) plus ${INTRO_PARAGRAPHS_IN_CORPUS} \\ip-derived = ${FOOTNOTES_IN_CORPUS - FOOTNOTES_EXCLUDED_FROM_CORPUS - REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS + INTRO_PARAGRAPHS_IN_CORPUS} are fixed in advance`,
@@ -1830,7 +1966,10 @@ function main(): void {
   // HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS is permanently 0 (see its own
   // doc comment) — this equals HEBREW_SCRIPT_RUNS_IN_CORPUS exactly, no
   // subtraction.
-  if (hebrewNodeTotal !== HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS) {
+  if (
+    hebrewNodeTotal !==
+    HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS
+  ) {
     mismatches.push(
       `${hebrewNodeTotal} emitted script:"H" node(s) across the corpus; ${HEBREW_SCRIPT_RUNS_IN_CORPUS} raw minus ${HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS} excluded = ${HEBREW_SCRIPT_RUNS_IN_CORPUS - HEBREW_SCRIPT_RUNS_EXCLUDED_FROM_CORPUS} are fixed in advance`,
     );
@@ -1846,12 +1985,17 @@ function main(): void {
     );
   }
   if (xrefSpanTotal !== XREF_SPANS_IN_CORPUS) {
-    mismatches.push(`${xrefSpanTotal} raw \\x...\\x* span(s) across the corpus; ${XREF_SPANS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${xrefSpanTotal} raw \\x...\\x* span(s) across the corpus; ${XREF_SPANS_IN_CORPUS} are fixed in advance`,
+    );
   }
   // Same two-marker source as the per-book check above: every raw \x
   // span plus REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS's own real \f
   // bodies.
-  if (emittedXrefFootnoteTotal !== XREF_SPANS_IN_CORPUS + REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS) {
+  if (
+    emittedXrefFootnoteTotal !==
+    XREF_SPANS_IN_CORPUS + REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS
+  ) {
     mismatches.push(
       `${emittedXrefFootnoteTotal} emitted xrf foot object(s) across the corpus; ${XREF_SPANS_IN_CORPUS} raw \\x spans plus ${REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} reference-only \\f bodies = ${XREF_SPANS_IN_CORPUS + REFERENCE_ONLY_FOOTNOTE_BODIES_IN_CORPUS} are fixed in advance`,
     );
@@ -1874,7 +2018,9 @@ function main(): void {
 
   // Headings/subtitles.
   if (rawSuperscriptionTotal !== SUPERSCRIPTIONS_IN_CORPUS) {
-    mismatches.push(`${rawSuperscriptionTotal} raw \\d marker(s) across the corpus; ${SUPERSCRIPTIONS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${rawSuperscriptionTotal} raw \\d marker(s) across the corpus; ${SUPERSCRIPTIONS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (rawOrdinarySuperscriptionTotal !== ORDINARY_SUPERSCRIPTIONS_IN_CORPUS) {
     mismatches.push(
@@ -1887,13 +2033,19 @@ function main(): void {
     );
   }
   if (rawBookDivisionTotal !== BOOK_DIVISION_HEADINGS_IN_CORPUS) {
-    mismatches.push(`${rawBookDivisionTotal} raw \\ms1 marker(s) across the corpus; ${BOOK_DIVISION_HEADINGS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${rawBookDivisionTotal} raw \\ms1 marker(s) across the corpus; ${BOOK_DIVISION_HEADINGS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (rawSpeakerLabelTotal !== SPEAKER_HEADINGS_IN_CORPUS) {
-    mismatches.push(`${rawSpeakerLabelTotal} raw \\sp marker(s) across the corpus; ${SPEAKER_HEADINGS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${rawSpeakerLabelTotal} raw \\sp marker(s) across the corpus; ${SPEAKER_HEADINGS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (rawSectionHeadingTotal !== SECTION_HEADINGS_IN_CORPUS) {
-    mismatches.push(`${rawSectionHeadingTotal} raw \\s1 marker(s) across the corpus; ${SECTION_HEADINGS_IN_CORPUS} are fixed in advance`);
+    mismatches.push(
+      `${rawSectionHeadingTotal} raw \\s1 marker(s) across the corpus; ${SECTION_HEADINGS_IN_CORPUS} are fixed in advance`,
+    );
   }
   if (emittedSubtitleTotal !== ORDINARY_SUPERSCRIPTIONS_IN_CORPUS) {
     mismatches.push(
@@ -1929,7 +2081,9 @@ function main(): void {
     );
   }
   if (clMarkerTotal !== 1) {
-    mismatches.push(`${clMarkerTotal} raw \\cl marker(s) across the corpus; 1 is fixed in advance`);
+    mismatches.push(
+      `${clMarkerTotal} raw \\cl marker(s) across the corpus; 1 is fixed in advance`,
+    );
   }
 
   // The zero-tables finding, asserted in code rather than left resting on
@@ -1952,14 +2106,20 @@ function main(): void {
   // Whole-corpus marker-inventory sweep — see this file's own top doc
   // comment for the three-bucket rule every marker name must satisfy.
   if (unknownMarkerNames.size > 0) {
-    mismatches.push(`${unknownMarkerNames.size} unaccounted-for marker name(s) found: ${[...unknownMarkerNames].join(", ")}`);
+    mismatches.push(
+      `${unknownMarkerNames.size} unaccounted-for marker name(s) found: ${[...unknownMarkerNames].join(", ")}`,
+    );
   }
   if (confirmedZeroViolations.length > 0) {
     mismatches.push(...confirmedZeroViolations);
   }
 
-  console.log(`Verse total: ${verseTotal} (${VERSES_IN_CORPUS} fixed in advance)`);
-  console.log(`Chapter total: ${chapterTotal} (${CHAPTERS_IN_CORPUS} fixed in advance)`);
+  console.log(
+    `Verse total: ${verseTotal} (${VERSES_IN_CORPUS} fixed in advance)`,
+  );
+  console.log(
+    `Chapter total: ${chapterTotal} (${CHAPTERS_IN_CORPUS} fixed in advance)`,
+  );
   console.log(
     `Paragraph markers: ${paragraphMarkerTotal} raw (${PARAGRAPH_MARKERS_IN_CORPUS} fixed in advance), ${paragraphFlagTotal} emitted (${EMITTED_PARAGRAPH_FLAGS_IN_CORPUS} fixed in advance)`,
   );
@@ -1978,8 +2138,12 @@ function main(): void {
   console.log(
     `  Type distribution (computed from the real corpus, not fixed in advance): xrf ${typeDistribution.xrf}, var ${typeDistribution.var}, trn ${typeDistribution.trn}, stu ${typeDistribution.stu}, map ${typeDistribution.map} (map is fixed at 0)`,
   );
-  console.log(`  Per-footnote type mismatches (verifier's own re-derivation vs. the emitted foot): ${typeMismatchCount}`);
-  console.log(`  Character-reconciliation mismatches: ${characterMismatchCount}`);
+  console.log(
+    `  Per-footnote type mismatches (verifier's own re-derivation vs. the emitted foot): ${typeMismatchCount}`,
+  );
+  console.log(
+    `  Character-reconciliation mismatches: ${characterMismatchCount}`,
+  );
   console.log(
     `Original-script runs: ${hebrewPairTotal} raw \\+wh pairs / ${hebrewNodeTotal} emitted script:"H" node(s) (${HEBREW_SCRIPT_RUNS_IN_CORPUS} fixed in advance), ${greekRunTotal} raw bare-Greek run(s) / ${greekNodeTotal} emitted script:"G" node(s) (${GREEK_SCRIPT_RUNS_IN_CORPUS} fixed in advance)`,
   );

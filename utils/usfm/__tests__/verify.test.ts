@@ -51,12 +51,16 @@ describe("countTableMarkersIn — confirms zero table markers via an independent
   });
 
   it("should detect \\tr, numbered \\tc/\\th cells, and their right-aligned \\tcr/\\thr forms when they do occur — this corpus never producing a table is not the same as this function being unable to recognize one", () => {
-    expect(countTableMarkersIn("\\tr \\th1 Name \\th2 Age \\tr \\tc1 Ann \\tc2 32")).toBe(6);
+    expect(
+      countTableMarkersIn("\\tr \\th1 Name \\th2 Age \\tr \\tc1 Ann \\tc2 32"),
+    ).toBe(6);
     expect(countTableMarkersIn("\\tr \\thr1 Total \\tcr1 42")).toBe(3);
   });
 
   it("should not match \\toc1/\\toc2/\\toc3 — the letter immediately after \\t must be r/c/h, and \\toc's is o", () => {
-    expect(countTableMarkersIn("\\toc1 Genesis\n\\toc2 Genesis\n\\toc3 Gen")).toBe(0);
+    expect(
+      countTableMarkersIn("\\toc1 Genesis\n\\toc2 Genesis\n\\toc3 Gen"),
+    ).toBe(0);
   });
 });
 
@@ -68,8 +72,12 @@ describe("countBlockMarkersIn — an independent regex count of \\p/\\m/\\nb and
   });
 
   it("should count \\q1/\\q2 markers in the Psalm 3 fixture, and the \\b in the Psalm 10:11-13 fixture, without matching \\qs/\\qs*", () => {
-    expect(countBlockMarkersIn(readFixture("psalm-3.usfm")).breakMarkers).toBe(18);
-    expect(countBlockMarkersIn(readFixture("psalm-10-11-13.usfm")).breakMarkers).toBe(9);
+    expect(countBlockMarkersIn(readFixture("psalm-3.usfm")).breakMarkers).toBe(
+      18,
+    );
+    expect(
+      countBlockMarkersIn(readFixture("psalm-10-11-13.usfm")).breakMarkers,
+    ).toBe(9);
   });
 
   it("should not match \\m inside \\mt1/\\ms1 — the word-boundary anchor is load-bearing", () => {
@@ -80,17 +88,24 @@ describe("countBlockMarkersIn — an independent regex count of \\p/\\m/\\nb and
   });
 
   it("should count \\pi1 and \\mi as real paragraph-opening markers", () => {
-    expect(countBlockMarkersIn("\\pi1 text\n\\mi text").paragraphMarkers).toBe(2);
+    expect(countBlockMarkersIn("\\pi1 text\n\\mi text").paragraphMarkers).toBe(
+      2,
+    );
   });
 });
 
 describe("countEmittedBlockFlags — an independent recursive walk of emitted content, sharing no code with blockStructure.ts", () => {
   it("should count zero flags on a bare, unflagged string", () => {
-    expect(countEmittedBlockFlags("plain text")).toEqual({ paragraph: 0, break: 0 });
+    expect(countEmittedBlockFlags("plain text")).toEqual({
+      paragraph: 0,
+      break: 0,
+    });
   });
 
   it("should count a single flag on a bare object", () => {
-    expect(countEmittedBlockFlags({ text: "In the beginning...", paragraph: true })).toEqual({
+    expect(
+      countEmittedBlockFlags({ text: "In the beginning...", paragraph: true }),
+    ).toEqual({
       paragraph: 1,
       break: 0,
     });
@@ -106,7 +121,10 @@ describe("countEmittedBlockFlags — an independent recursive walk of emitted co
   });
 
   it("should descend into a ContentNested wrapper's own content property", () => {
-    const content = { strong: "H3068", content: [{ text: "line one", break: true }, "line two"] };
+    const content = {
+      strong: "H3068",
+      content: [{ text: "line one", break: true }, "line two"],
+    };
     expect(countEmittedBlockFlags(content)).toEqual({ paragraph: 0, break: 1 });
   });
 });
@@ -122,11 +140,18 @@ describe("countStrongAttributeNodes — an independent recursive walk of emitted
   });
 
   it("should count one strong-carrying node", () => {
-    expect(countStrongAttributeNodes({ text: "beginning", strong: "H7225" })).toBe(1);
+    expect(
+      countStrongAttributeNodes({ text: "beginning", strong: "H7225" }),
+    ).toBe(1);
   });
 
   it("should sum across an array mixing bare strings and strong-carrying objects, not stop at the first", () => {
-    const content = ["In the ", { text: "beginning", strong: "H7225" }, " God ", { text: "created", strong: "H1254" }];
+    const content = [
+      "In the ",
+      { text: "beginning", strong: "H7225" },
+      " God ",
+      { text: "created", strong: "H1254" },
+    ];
     expect(countStrongAttributeNodes(content)).toBe(2);
   });
 
@@ -134,15 +159,23 @@ describe("countStrongAttributeNodes — an independent recursive walk of emitted
     const wrapperOnly = { strong: "H3068", content: ["line one", "line two"] };
     expect(countStrongAttributeNodes(wrapperOnly)).toBe(1);
 
-    const wrapperPlusInner = { strong: "H3068", content: [{ text: "line one", strong: "H1234" }, "line two"] };
+    const wrapperPlusInner = {
+      strong: "H3068",
+      content: [{ text: "line one", strong: "H1234" }, "line two"],
+    };
     expect(countStrongAttributeNodes(wrapperPlusInner)).toBe(2);
   });
 
   it("should descend into a footnote's own foot.content and a heading's own subtitle/heading value", () => {
-    const withFootnote = { text: "word", foot: { type: "stu", content: [{ text: "note", strong: "H1" }] } };
+    const withFootnote = {
+      text: "word",
+      foot: { type: "stu", content: [{ text: "note", strong: "H1" }] },
+    };
     expect(countStrongAttributeNodes(withFootnote)).toBe(1);
 
-    const withSubtitle = { subtitle: [{ text: "For the Chief Musician", strong: "H2" }] };
+    const withSubtitle = {
+      subtitle: [{ text: "For the Chief Musician", strong: "H2" }],
+    };
     expect(countStrongAttributeNodes(withSubtitle)).toBe(1);
   });
 });
@@ -159,13 +192,18 @@ describe("countInlineMarkersIn — an independent regex count of \\wj/\\wj* and 
   });
 
   it("should count zero of either marker in a fixture that carries neither", () => {
-    expect(countInlineMarkersIn(readFixture("numbers-13-1-5.usfm"))).toEqual({ wocMarkers: 0, selahMarkers: 0 });
+    expect(countInlineMarkersIn(readFixture("numbers-13-1-5.usfm"))).toEqual({
+      wocMarkers: 0,
+      selahMarkers: 0,
+    });
   });
 });
 
 describe("countEmittedMarkRuns — an independent count of contiguous marks-carrying runs, sharing no code with blockStructure.ts/inlineMarks.ts", () => {
   it("should count zero runs when nothing carries the mark", () => {
-    expect(countEmittedMarkRuns([{ text: "plain" }, "also plain"], "woc")).toBe(0);
+    expect(countEmittedMarkRuns([{ text: "plain" }, "also plain"], "woc")).toBe(
+      0,
+    );
   });
 
   it("should count one run across several adjacent marked nodes, not one run per node", () => {
@@ -187,7 +225,11 @@ describe("countEmittedMarkRuns — an independent count of contiguous marks-carr
   });
 
   it("should descend into a ContentNested wrapper's own content property, the same way countEmittedBlockFlags does", () => {
-    const content = { strong: "H3068", marks: ["i"], content: ["line one", "line two"] };
+    const content = {
+      strong: "H3068",
+      marks: ["i"],
+      content: ["line one", "line two"],
+    };
     expect(countEmittedMarkRuns(content, "i")).toBe(1);
   });
 
@@ -202,12 +244,16 @@ describe("countEmittedMarkRuns — an independent count of contiguous marks-carr
 
 describe("extractCrossReferencesIn — an independent regex extraction of \\x...\\x* spans, sharing no code with tokenize.ts/segmentVerses.ts/usfm/references.ts", () => {
   it("should extract a single-target span's own \\xt text, with \\xo's own reference-locator label dropped (2 Kings 12:4's real shape)", () => {
-    const [xref] = extractCrossReferencesIn("\\x + \\xo 12:4 \\xt Exodus 30:12\\x*");
+    const [xref] = extractCrossReferencesIn(
+      "\\x + \\xo 12:4 \\xt Exodus 30:12\\x*",
+    );
     expect(xref.targets).toEqual(["Exodus 30:12"]);
   });
 
   it("should split a multi-target span's own \\xt text on \"; \", one target per element (Matthew 5:4's real shape)", () => {
-    const [xref] = extractCrossReferencesIn("\\x + \\xo 5:4 \\xt Isaiah 61:2; 66:10,13\\x*");
+    const [xref] = extractCrossReferencesIn(
+      "\\x + \\xo 5:4 \\xt Isaiah 61:2; 66:10,13\\x*",
+    );
     expect(xref.targets).toEqual(["Isaiah 61:2", "66:10,13"]);
   });
 
@@ -219,21 +265,33 @@ describe("extractCrossReferencesIn — an independent regex extraction of \\x...
   });
 
   it("should extract zero spans from a fixture that carries none", () => {
-    expect(extractCrossReferencesIn(readFixture("genesis-1-2.usfm"))).toHaveLength(0);
+    expect(
+      extractCrossReferencesIn(readFixture("genesis-1-2.usfm")),
+    ).toHaveLength(0);
   });
 });
 
 describe("countXrefLinkNodes — an independent count of an emitted xrf footnote's own real bibleLink nodes versus targets left as plain text, sharing no code with usfm/references.ts", () => {
   it("should count a bare bibleLink object as one link, zero unresolved", () => {
-    expect(countXrefLinkNodes({ bibleLink: "Exodus 30:12" })).toEqual({ links: 1, unresolved: 0 });
+    expect(countXrefLinkNodes({ bibleLink: "Exodus 30:12" })).toEqual({
+      links: 1,
+      unresolved: 0,
+    });
   });
 
   it("should count a plain string (an unresolved target, e.g. Hebrews 1:6's own siglum-suffixed target) as unresolved, not a link", () => {
-    expect(countXrefLinkNodes("Deuteronomy 32:43 LXX")).toEqual({ links: 0, unresolved: 1 });
+    expect(countXrefLinkNodes("Deuteronomy 32:43 LXX")).toEqual({
+      links: 0,
+      unresolved: 1,
+    });
   });
 
   it('should skip the literal "; " multi-target join without counting it either way', () => {
-    const content = [{ bibleLink: "Isaiah 61:2" }, "; ", { bibleLink: "Isaiah 66:10,13", content: "66:10,13" }];
+    const content = [
+      { bibleLink: "Isaiah 61:2" },
+      "; ",
+      { bibleLink: "Isaiah 66:10,13", content: "66:10,13" },
+    ];
     expect(countXrefLinkNodes(content)).toEqual({ links: 2, unresolved: 0 });
   });
 
@@ -259,7 +317,9 @@ describe("extractHeadingMarkersIn — an independent regex count of raw \\d/\\ms
   });
 
   it("should count Psalm 42's own \\ms1 and \\d together", () => {
-    expect(extractHeadingMarkersIn(readFixture("psalm-42-opening.usfm"))).toEqual({
+    expect(
+      extractHeadingMarkersIn(readFixture("psalm-42-opening.usfm")),
+    ).toEqual({
       superscriptions: 1,
       bookDivisions: 1,
       speakerLabels: 0,
@@ -267,25 +327,38 @@ describe("extractHeadingMarkersIn — an independent regex count of raw \\d/\\ms
   });
 
   it("should count every \\sp in the Song of Solomon excerpt", () => {
-    expect(extractHeadingMarkersIn(readFixture("song-of-solomon-1-1-5.usfm")).speakerLabels).toBe(3);
+    expect(
+      extractHeadingMarkersIn(readFixture("song-of-solomon-1-1-5.usfm"))
+        .speakerLabels,
+    ).toBe(3);
   });
 });
 
 describe("extractSuperscriptionsIn — an independent extraction of \\d's own plain text (stray \\w tags and any embedded footnote stripped), sharing no code with usfm/headings.ts", () => {
   it("should extract Psalm 3's own ordinary superscription text", () => {
-    const [superscription] = extractSuperscriptionsIn(readFixture("psalm-3.usfm"));
-    expect(superscription.plainText).toBe("A Psalm by David, when he fled from Absalom his son.");
+    const [superscription] = extractSuperscriptionsIn(
+      readFixture("psalm-3.usfm"),
+    );
+    expect(superscription.plainText).toBe(
+      "A Psalm by David, when he fled from Absalom his son.",
+    );
   });
 
   it("should strip the footnote out of Psalm 46's own superscription, leaving only the heading's own real prose", () => {
-    const [superscription] = extractSuperscriptionsIn(readFixture("psalm-46-opening.usfm"));
-    expect(superscription.plainText).toBe("For the Chief Musician. By the sons of Korah. According to Alamoth.");
+    const [superscription] = extractSuperscriptionsIn(
+      readFixture("psalm-46-opening.usfm"),
+    );
+    expect(superscription.plainText).toBe(
+      "For the Chief Musician. By the sons of Korah. According to Alamoth.",
+    );
   });
 
   it("should strip the stray \\w tag from an acrostic letter name, leaving the bare transliteration", () => {
     const [he] = extractSuperscriptionsIn(readFixture("psalm-119-he.usfm"));
     expect(he.plainText).toBe("HE");
-    const [sinAndShin] = extractSuperscriptionsIn(readFixture("psalm-119-sin-and-shin.usfm"));
+    const [sinAndShin] = extractSuperscriptionsIn(
+      readFixture("psalm-119-sin-and-shin.usfm"),
+    );
     expect(sinAndShin.plainText).toBe("SIN AND SHIN");
   });
 });
@@ -303,9 +376,12 @@ describe("collectHeadingBlocks — an independent classification of emitted subt
     expect(sink).toEqual(["acrostic"]);
   });
 
-  it("should classify a heading whose own array starts with a marks: [\"sc\"] node as bookDivision", () => {
+  it('should classify a heading whose own array starts with a marks: ["sc"] node as bookDivision', () => {
     const sink: HeadingKind[] = [];
-    collectHeadingBlocks({ heading: [{ text: "Book One", marks: ["sc"] }, " (Psalms 1–41)"] }, sink);
+    collectHeadingBlocks(
+      { heading: [{ text: "Book One", marks: ["sc"] }, " (Psalms 1–41)"] },
+      sink,
+    );
     expect(sink).toEqual(["bookDivision"]);
   });
 
@@ -327,13 +403,19 @@ describe("collectHeadingBlocks — an independent classification of emitted subt
   });
 });
 
-describe("clSpanHostsNothingButChrome — confirms Psalms' own single \\cl instance hosts nothing (guide §6, \"deleting a container deletes its contents\")", () => {
+describe('clSpanHostsNothingButChrome — confirms Psalms\' own single \\cl instance hosts nothing (guide §6, "deleting a container deletes its contents")', () => {
   it("should return true for the real Psalms front matter, where \\cl is immediately followed by \\c with nothing else in between", () => {
-    expect(clSpanHostsNothingButChrome("\\mt1 The Psalms  \n\\cl Psalm  \n\\c 1  \n\\ms1 BOOK 1")).toBe(true);
+    expect(
+      clSpanHostsNothingButChrome(
+        "\\mt1 The Psalms  \n\\cl Psalm  \n\\c 1  \n\\ms1 BOOK 1",
+      ),
+    ).toBe(true);
   });
 
   it("should return false if something else (a footnote, a Strong's tag) were ever found hiding inside the span", () => {
-    expect(clSpanHostsNothingButChrome("\\cl Psalm\\f + \\ft note\\f*  \n\\c 1  ")).toBe(false);
+    expect(
+      clSpanHostsNothingButChrome("\\cl Psalm\\f + \\ft note\\f*  \n\\c 1  "),
+    ).toBe(false);
   });
 
   it("should return false if the span between \\cl and \\c is empty", () => {
@@ -350,7 +432,9 @@ describe("clSpanHostsNothingButChrome — confirms Psalms' own single \\cl insta
 
 describe("extractFootnoteBodiesIn — \\fl, an independent regex extraction sharing no code with usfm/footnotes.ts", () => {
   it("should keep an \\fl label's own text in the independently-extracted body, agreeing with the real, emitted content (Esther-Greek 1:11's real \"Greek\"-labeled note)", () => {
-    const [footnote] = extractFootnoteBodiesIn('\\f + \\fr 1:11 \\fl Greek \\ft to make her queen. \\f*');
+    const [footnote] = extractFootnoteBodiesIn(
+      "\\f + \\fr 1:11 \\fl Greek \\ft to make her queen. \\f*",
+    );
     expect(footnote.plainText).toBe("Greek to make her queen. ");
   });
 
@@ -358,7 +442,9 @@ describe("extractFootnoteBodiesIn — \\fl, an independent regex extraction shar
     const [footnote] = extractFootnoteBodiesIn(
       "\\f + \\fr 1:1 \\fl Note: \\ft In the \\fl Hebrew \\ft and some copies of LXX, Esther begins here.\\f*",
     );
-    expect(footnote.plainText).toBe("Note: In the Hebrew and some copies of LXX, Esther begins here.");
+    expect(footnote.plainText).toBe(
+      "Note: In the Hebrew and some copies of LXX, Esther begins here.",
+    );
   });
 });
 
@@ -372,7 +458,9 @@ describe("extractFootnoteBodiesIn — \\fl, an independent regex extraction shar
  */
 describe("extractFootnoteBodiesIn — \\+bk/\\+bk* nested-form book-title citations, delimiters stripped", () => {
   it("should strip \\+bk/\\+bk* delimiters from an independently-extracted footnote body, keeping the citation's own real text (Daniel 3:24's real \\s1-adjacent footnote)", () => {
-    const [footnote] = extractFootnoteBodiesIn(readFixture("daniel-3-23-24-s1.usfm"));
+    const [footnote] = extractFootnoteBodiesIn(
+      readFixture("daniel-3-23-24-s1.usfm"),
+    );
     expect(footnote.plainText).toBe(
       "The Song of the Three Holy Children is an addition to Daniel found in the Greek Septuagint but not found in the traditional Hebrew text of Daniel. This portion is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. It is found inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible. Here, the verses after 23 from the Hebrew Bible are numbered starting at 91 to make room for these verses.",
     );
@@ -386,7 +474,9 @@ describe("extractSectionHeadingsIn — \\s1, an independent extraction of \\s1's
   });
 
   it("should strip an embedded footnote out of an \\s1 span, leaving only the heading's own real title text (Daniel 3:24's real shape — the one \\s1 in this corpus that carries one)", () => {
-    const [heading] = extractSectionHeadingsIn(readFixture("daniel-3-23-24-s1.usfm"));
+    const [heading] = extractSectionHeadingsIn(
+      readFixture("daniel-3-23-24-s1.usfm"),
+    );
     expect(heading.plainText).toBe("THE SONG OF THE THREE HOLY CHILDREN");
   });
 
@@ -394,7 +484,10 @@ describe("extractSectionHeadingsIn — \\s1, an independent extraction of \\s1's
     const headings = extractSectionHeadingsIn(
       "\\c 13  \n\\s1 THE HISTORY OF SUSANNA  \n\\p\n\\v 1 text.\n\\c 14  \n\\s1 Bel and the Dragon  \n\\p\n\\v 1 text.",
     );
-    expect(headings.map((heading) => heading.plainText)).toEqual(["THE HISTORY OF SUSANNA", "Bel and the Dragon"]);
+    expect(headings.map((heading) => heading.plainText)).toEqual([
+      "THE HISTORY OF SUSANNA",
+      "Bel and the Dragon",
+    ]);
   });
 });
 
@@ -410,15 +503,21 @@ describe("countNestedBkPairsIn — \\+bk/\\+bk*, an independent regex count of t
 
 describe("countChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count sharing no code with tokenize.ts/segmentVerses.ts", () => {
   it("should count 2 Maccabees' own real \\pc divider", () => {
-    expect(countChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm"))).toEqual({ pc: 1, cp: 0, is1: 0 });
+    expect(
+      countChromeMarkersIn(readFixture("2-maccabees-1-16-19-pc.usfm")),
+    ).toEqual({ pc: 1, cp: 0, is1: 0 });
   });
 
   it("should count Psalm 151's own real \\cp chapter-number override", () => {
-    expect(countChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual({ pc: 0, cp: 1, is1: 0 });
+    expect(countChromeMarkersIn(readFixture("psalm-151-opening.usfm"))).toEqual(
+      { pc: 0, cp: 1, is1: 0 },
+    );
   });
 
   it("should count Esther-Greek's own real \\is1, without matching \\ip (a different marker name entirely, not a prefix match)", () => {
-    expect(countChromeMarkersIn(readFixture("esther-greek-opening.usfm"))).toEqual({ pc: 0, cp: 0, is1: 1 });
+    expect(
+      countChromeMarkersIn(readFixture("esther-greek-opening.usfm")),
+    ).toEqual({ pc: 0, cp: 0, is1: 1 });
   });
 });
 
@@ -429,7 +528,9 @@ describe("countChromeMarkersIn — \\pc/\\cp/\\is1, an independent regex count s
  */
 describe("extractIntroParagraphsIn — \\ip, an independent extraction sharing no code with usfm/footnotes.ts", () => {
   it("should extract a single-\\bk-citation \\ip block's own plain text, delimiters stripped (Tobit's real editorial blurb)", () => {
-    const [intro] = extractIntroParagraphsIn(readFixture("tobit-opening-ip.usfm"));
+    const [intro] = extractIntroParagraphsIn(
+      readFixture("tobit-opening-ip.usfm"),
+    );
     expect(intro.plainText).toBe(
       "Tobit is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.",
     );
@@ -437,27 +538,41 @@ describe("extractIntroParagraphsIn — \\ip, an independent extraction sharing n
   });
 
   it("should keep both of an \\ip block's own two embedded \\bk citations, in source order (Baruch's real editorial blurb)", () => {
-    const [intro] = extractIntroParagraphsIn(readFixture("baruch-opening-ip.usfm"));
+    const [intro] = extractIntroParagraphsIn(
+      readFixture("baruch-opening-ip.usfm"),
+    );
     expect(intro.plainText).toBe(
       "The book of Baruch is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. In some Bibles, Baruch chapter 6 is listed as a separate book called The Letter of Jeremiah, reflecting its separation from Baruch in some copies of the Greek Septuagint.",
     );
   });
 
   it("should extract both of Esther-Greek's own two separate \\ip blocks, in source order, the first stopping at its own second \\ip rather than reaching all the way to \\c", () => {
-    const intros = extractIntroParagraphsIn(readFixture("esther-greek-opening.usfm"));
+    const intros = extractIntroParagraphsIn(
+      readFixture("esther-greek-opening.usfm"),
+    );
     expect(intros).toHaveLength(2);
-    expect(intros[0].plainText).toMatch(/^The book of Esther in the Greek Septuagint contains 5 additions/);
-    expect(intros[0].plainText).toMatch(/translation of the whole book of Esther from the Greek\.$/);
-    expect(intros[1].plainText).toMatch(/^We have chosen not to distract the reader/);
+    expect(intros[0].plainText).toMatch(
+      /^The book of Esther in the Greek Septuagint contains 5 additions/,
+    );
+    expect(intros[0].plainText).toMatch(
+      /translation of the whole book of Esther from the Greek\.$/,
+    );
+    expect(intros[1].plainText).toMatch(
+      /^We have chosen not to distract the reader/,
+    );
   });
 
   it("should stop Sirach's own first \\ip block at \\is1, not at its own second \\ip (the one real in-scope case where two \\ip blocks are not directly adjacent)", () => {
-    const intros = extractIntroParagraphsIn(readFixture("sirach-opening-ip.usfm"));
+    const intros = extractIntroParagraphsIn(
+      readFixture("sirach-opening-ip.usfm"),
+    );
     expect(intros).toHaveLength(2);
     expect(intros[0].plainText).toBe(
       "The Wisdom of Jesus the Son of Sirach, also called Ecclesiasticus, is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.",
     );
-    expect(intros[1].plainText).toMatch(/^WHEREAS many and great things have been delivered to us/);
+    expect(intros[1].plainText).toMatch(
+      /^WHEREAS many and great things have been delivered to us/,
+    );
   });
 });
 
@@ -510,18 +625,21 @@ describe("Marker-inventory buckets: \\qc (ASV1901's real Psalm 119 acrostic head
  * target list `"Deuteronomy 32:43 LXX"`, and 1 Maccabees 1:14's own
  * `\f`-derived body `"See 2 Maccabees 4:9, 12. "`.
  */
-describe("classifyFootnote/buildReferenceOnlyContent — trailing-tradition-siglon and \"See \"-lead-in handling", () => {
-  it("should classify Hebrews 1:6's real \\x-sourced \"Deuteronomy 32:43 LXX\" target list as xrf, now that REFERENCE_SUFFIX accepts a trailing tradition siglon", () => {
+describe('classifyFootnote/buildReferenceOnlyContent — trailing-tradition-siglon and "See "-lead-in handling', () => {
+  it('should classify Hebrews 1:6\'s real \\x-sourced "Deuteronomy 32:43 LXX" target list as xrf, now that REFERENCE_SUFFIX accepts a trailing tradition siglon', () => {
     expect(classifyFootnote("Deuteronomy 32:43 LXX")).toBe("xrf");
   });
 
-  it("should classify 1 Maccabees 1:14's real \\f-derived \"See 2 Maccabees 4:9, 12.\" body as xrf, now that a \"See \"/\"Compare \" lead-in is stripped before the empty-residue check", () => {
+  it('should classify 1 Maccabees 1:14\'s real \\f-derived "See 2 Maccabees 4:9, 12." body as xrf, now that a "See "/"Compare " lead-in is stripped before the empty-residue check', () => {
     expect(classifyFootnote("See 2 Maccabees 4:9, 12. ")).toBe("xrf");
   });
 
   it("should resolve Hebrews 1:6's own real target to a bibleLink naming the verse alone, the siglon following as plain text, against a hardcoded single-book canon rather than the version's own full _version.json", () => {
     const canonBookIds = new Set(["DEU"]);
-    const resolved = buildReferenceOnlyContent("Deuteronomy 32:43 LXX", canonBookIds);
+    const resolved = buildReferenceOnlyContent(
+      "Deuteronomy 32:43 LXX",
+      canonBookIds,
+    );
     expect(resolved).toEqual([{ bibleLink: "Deuteronomy 32:43" }, " LXX"]);
   });
 });
@@ -535,7 +653,7 @@ describe("classifyFootnote/buildReferenceOnlyContent — trailing-tradition-sigl
  * corpus-wide sweep.
  */
 describe("classifyFootnote — trn-signal construct handling, against real extracted examples", () => {
-  it("should classify Deuteronomy 23:18's real \"literally, dog\" note as trn, via the anchored Literally/Lit opener", () => {
+  it('should classify Deuteronomy 23:18\'s real "literally, dog" note as trn, via the anchored Literally/Lit opener', () => {
     expect(classifyFootnote("literally, dog")).toBe("trn");
   });
 
@@ -547,7 +665,7 @@ describe("classifyFootnote — trn-signal construct handling, against real extra
     ).toBe("trn");
   });
 
-  it("should classify Matthew 25:40's real may-be-also-translated note as trn, via can/could/may...be...translated accepting \"also\" after \"be\"", () => {
+  it('should classify Matthew 25:40\'s real may-be-also-translated note as trn, via can/could/may...be...translated accepting "also" after "be"', () => {
     expect(
       classifyFootnote(
         "The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”",
@@ -565,12 +683,18 @@ describe("classifyFootnote — trn-signal construct handling, against real extra
  * 15:2's own "word translated 'Lord'" note.
  */
 describe("classifyFootnote — the word(s) rendered/translated construct, against real extracted examples", () => {
-  it("should classify Genesis 1:1's real \"The Hebrew word rendered God is Elohim\" note as trn", () => {
-    expect(classifyFootnote("The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).")).toBe("trn");
+  it('should classify Genesis 1:1\'s real "The Hebrew word rendered God is Elohim" note as trn', () => {
+    expect(
+      classifyFootnote(
+        "The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).",
+      ),
+    ).toBe("trn");
   });
 
-  it("should classify Genesis 15:2's real \"The word translated Lord is Adonai\" note as trn", () => {
-    expect(classifyFootnote("The word translated “Lord” is “Adonai”.")).toBe("trn");
+  it('should classify Genesis 15:2\'s real "The word translated Lord is Adonai" note as trn', () => {
+    expect(classifyFootnote("The word translated “Lord” is “Adonai”.")).toBe(
+      "trn",
+    );
   });
 });
 
@@ -583,12 +707,13 @@ describe("classifyFootnote — the word(s) rendered/translated construct, agains
  * "Greek, petra" note — rather than a corpus-wide sweep.
  */
 describe("classifyFootnote — the comma-punctuated language opener, against real extracted examples", () => {
-  it("should classify Exodus 17:15's real \"Hebrew, Yahweh Nissi\" note as trn", () => {
+  it('should classify Exodus 17:15\'s real "Hebrew, Yahweh Nissi" note as trn', () => {
     expect(classifyFootnote("Hebrew, Yahweh Nissi")).toBe("trn");
   });
 
-  it("should classify 1 Corinthians 10:4's real \"Greek, petra, a rock mass or bedrock.\" note as trn", () => {
-    expect(classifyFootnote("Greek, petra, a rock mass or bedrock.")).toBe("trn");
+  it('should classify 1 Corinthians 10:4\'s real "Greek, petra, a rock mass or bedrock." note as trn', () => {
+    expect(classifyFootnote("Greek, petra, a rock mass or bedrock.")).toBe(
+      "trn",
+    );
   });
 });
-

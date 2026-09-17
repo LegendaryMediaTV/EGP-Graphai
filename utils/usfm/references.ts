@@ -81,7 +81,10 @@ interface BookRegistry {
 }
 
 /** Absolute path to the bible-books registry, read once by {@link registry}. */
-const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../../bible-books/bible-books.json");
+const BIBLE_BOOKS_FILE = path.resolve(
+  __dirname,
+  "../../bible-books/bible-books.json",
+);
 
 /**
  * A book name/alias's own leading ordinal digit, mapped to the Roman
@@ -126,7 +129,9 @@ function romanNumeralVariant(name: string): string | undefined {
  * poem, "Psalm C:V" — the same singular/plural distinction English already
  * makes between "the Psalms" (the book) and "Psalm 23" (one poem in it).
  */
-const BIBLE_LINK_BOOK_NAME_OVERRIDES: ReadonlyMap<string, string> = new Map([["PSA", "Psalm"]]);
+const BIBLE_LINK_BOOK_NAME_OVERRIDES: ReadonlyMap<string, string> = new Map([
+  ["PSA", "Psalm"],
+]);
 
 /**
  * Book ids that carry exactly one chapter in every edition this repo has
@@ -138,7 +143,15 @@ const BIBLE_LINK_BOOK_NAME_OVERRIDES: ReadonlyMap<string, string> = new Map([["P
  * a bare digit run {@link buildLinkTarget} would otherwise read as a chapter
  * number rather than the verse it is.
  */
-const SINGLE_CHAPTER_BOOK_IDS: ReadonlySet<string> = new Set(["OBD", "PHM", "2JN", "3JN", "JUD", "PMA", "PS2"]);
+const SINGLE_CHAPTER_BOOK_IDS: ReadonlySet<string> = new Set([
+  "OBD",
+  "PHM",
+  "2JN",
+  "3JN",
+  "JUD",
+  "PMA",
+  "PS2",
+]);
 
 /** Memoized {@link registry} result, computed once per process. */
 let registryCache: BookRegistry | undefined;
@@ -147,7 +160,9 @@ let registryCache: BookRegistry | undefined;
 function registry(): BookRegistry {
   if (registryCache) return registryCache;
 
-  const entries: BibleBookRegistryEntry[] = JSON.parse(fs.readFileSync(BIBLE_BOOKS_FILE, "utf8"));
+  const entries: BibleBookRegistryEntry[] = JSON.parse(
+    fs.readFileSync(BIBLE_BOOKS_FILE, "utf8"),
+  );
   const candidates: BookNameCandidate[] = [];
   const canonicalNameById = new Map<string, string>();
   for (const entry of entries) {
@@ -281,7 +296,9 @@ const TRAILING_SIGLON = new RegExp(`${SIGLON_SOURCE}$`);
  * references, so a bare comma inside one target is always more of *that same*
  * target's verse list, and the trailing `$` demands nothing else follow.
  */
-const REFERENCE_SUFFIX = new RegExp(`^${DIGITS}(?::${VERSE})?(?:${DASH_RANGE_SOURCE})?(?:${COMMA_SEGMENT_SOURCE})*(?:${SIGLON_SOURCE})?$`);
+const REFERENCE_SUFFIX = new RegExp(
+  `^${DIGITS}(?::${VERSE})?(?:${DASH_RANGE_SOURCE})?(?:${COMMA_SEGMENT_SOURCE})*(?:${SIGLON_SOURCE})?$`,
+);
 
 /**
  * The mandatory core of a named embedded reference: a chapter, with an optional
@@ -371,7 +388,10 @@ function wouldStealBookOrdinal(text: string): boolean {
  * @returns `undefined` when `rest` does not carry the mandatory head, which the
  *   caller treats as declining the candidate entirely.
  */
-function findSafeReferenceLength(rest: string, head: RegExp = EMBEDDED_HEAD): number | undefined {
+function findSafeReferenceLength(
+  rest: string,
+  head: RegExp = EMBEDDED_HEAD,
+): number | undefined {
   const headMatch = head.exec(rest);
   if (headMatch === null) return undefined;
   let length = headMatch[0].length;
@@ -386,7 +406,8 @@ function findSafeReferenceLength(rest: string, head: RegExp = EMBEDDED_HEAD): nu
     const remaining = rest.slice(length);
     const commaSpaceMatch = LEADING_COMMA_SPACE.exec(remaining);
     if (commaSpaceMatch === null) break;
-    if (wouldStealBookOrdinal(remaining.slice(commaSpaceMatch[0].length))) break;
+    if (wouldStealBookOrdinal(remaining.slice(commaSpaceMatch[0].length)))
+      break;
 
     const segmentMatch = LEADING_COMMA_SEGMENT.exec(remaining);
     if (segmentMatch === null) break;
@@ -458,7 +479,10 @@ function stripSubVerseLetters(text: string): string {
  * the suffix grammar stops matching, leaving the closing paren outside the link
  * like any other trailing punctuation this module leaves to prose.
  */
-function matchBookPrefix(text: string, candidates: readonly BookNameCandidate[]): { id: string; rest: string } | undefined {
+function matchBookPrefix(
+  text: string,
+  candidates: readonly BookNameCandidate[],
+): { id: string; rest: string } | undefined {
   for (const candidate of candidates) {
     const { name } = candidate;
     if (!text.startsWith(name)) continue;
@@ -475,7 +499,9 @@ function matchBookPrefix(text: string, candidates: readonly BookNameCandidate[])
 
 /** Builds a `{bibleLink}` node, adding a `content` display override only when `raw` differs from the resolved `target` — most real targets already spell the book exactly as the registry does, so no override is needed in the common case. */
 function withDisplay(target: string, raw: string): ContentBibleLink {
-  return target === raw ? { bibleLink: target } : { bibleLink: target, content: raw };
+  return target === raw
+    ? { bibleLink: target }
+    : { bibleLink: target, content: raw };
 }
 
 /**
@@ -488,11 +514,21 @@ function withDisplay(target: string, raw: string): ContentBibleLink {
  * {@link findNextEmbeddedReference}, so a reference resolves identically
  * whichever of the two finds it.
  */
-function buildLinkTarget(bookId: string, rest: string): { target: string; bookName: string } {
+function buildLinkTarget(
+  bookId: string,
+  rest: string,
+): { target: string; bookName: string } {
   const { canonicalNameById } = registry();
-  const bookName = BIBLE_LINK_BOOK_NAME_OVERRIDES.get(bookId) ?? (canonicalNameById.get(bookId) as string);
-  const cleaned = stripSubVerseLetters(stripAndFromVerseList(addSpaceAfterVerseListComma(rest)));
-  const withChapter = SINGLE_CHAPTER_BOOK_IDS.has(bookId) && !/^\d+:/.test(cleaned) ? `1:${cleaned}` : cleaned;
+  const bookName =
+    BIBLE_LINK_BOOK_NAME_OVERRIDES.get(bookId) ??
+    (canonicalNameById.get(bookId) as string);
+  const cleaned = stripSubVerseLetters(
+    stripAndFromVerseList(addSpaceAfterVerseListComma(rest)),
+  );
+  const withChapter =
+    SINGLE_CHAPTER_BOOK_IDS.has(bookId) && !/^\d+:/.test(cleaned)
+      ? `1:${cleaned}`
+      : cleaned;
   return { target: `${bookName} ${withChapter}`, bookName };
 }
 
@@ -516,7 +552,9 @@ function unresolved(raw: string): ResolvedTarget {
 /** Splits a {@link TRAILING_SIGLON} off already-suffix-validated reference text, so {@link buildLinkTarget} never sees it. */
 function splitTrailingSiglon(rest: string): { rest: string; siglon: string } {
   const match = TRAILING_SIGLON.exec(rest);
-  return match === null ? { rest, siglon: "" } : { rest: rest.slice(0, match.index), siglon: match[0] };
+  return match === null
+    ? { rest, siglon: "" }
+    : { rest: rest.slice(0, match.index), siglon: match[0] };
 }
 
 /**
@@ -551,7 +589,11 @@ function splitTrailingSiglon(rest: string): { rest: string; siglon: string } {
  *   default for a caller indifferent to canon scoping, such as a unit
  *   test).
  */
-function resolveTarget(raw: string, canonBookIds: ReadonlySet<string> | undefined, priorBookName: string | undefined): ResolvedTarget {
+function resolveTarget(
+  raw: string,
+  canonBookIds: ReadonlySet<string> | undefined,
+  priorBookName: string | undefined,
+): ResolvedTarget {
   const { candidates } = registry();
 
   const leadInMatch = REFERENCE_LEAD_IN.exec(raw);
@@ -565,14 +607,26 @@ function resolveTarget(raw: string, canonBookIds: ReadonlySet<string> | undefine
 
     const { rest, siglon } = splitTrailingSiglon(direct.rest);
     const { target, bookName } = buildLinkTarget(direct.id, rest);
-    const display = withoutLeadIn.slice(0, withoutLeadIn.length - siglon.length);
+    const display = withoutLeadIn.slice(
+      0,
+      withoutLeadIn.length - siglon.length,
+    );
     return { leadIn, node: withDisplay(target, display), siglon, bookName };
   }
 
-  if (priorBookName !== undefined && /^\d/.test(withoutLeadIn) && REFERENCE_SUFFIX.test(withoutLeadIn)) {
+  if (
+    priorBookName !== undefined &&
+    /^\d/.test(withoutLeadIn) &&
+    REFERENCE_SUFFIX.test(withoutLeadIn)
+  ) {
     const { rest: bare, siglon } = splitTrailingSiglon(withoutLeadIn);
     const rest = stripAndFromVerseList(addSpaceAfterVerseListComma(bare));
-    return { leadIn, node: withDisplay(`${priorBookName} ${rest}`, bare), siglon, bookName: priorBookName };
+    return {
+      leadIn,
+      node: withDisplay(`${priorBookName} ${rest}`, bare),
+      siglon,
+      bookName: priorBookName,
+    };
   }
 
   return unresolved(raw);
@@ -587,12 +641,19 @@ function resolveTarget(raw: string, canonBookIds: ReadonlySet<string> | undefine
  * "nothing but a reference") — the same resolve-each-and-join walk
  * regardless of which marker produced the raw targets.
  */
-function resolveTargetList(rawTargets: readonly string[], canonBookIds: ReadonlySet<string> | undefined): Content {
+function resolveTargetList(
+  rawTargets: readonly string[],
+  canonBookIds: ReadonlySet<string> | undefined,
+): Content {
   const nodes: (ContentBibleLink | string)[] = [];
   let priorBookName: string | undefined;
   for (let targetIndex = 0; targetIndex < rawTargets.length; targetIndex++) {
     if (targetIndex > 0) pushText(nodes, "; ");
-    const resolved = resolveTarget(rawTargets[targetIndex], canonBookIds, priorBookName);
+    const resolved = resolveTarget(
+      rawTargets[targetIndex],
+      canonBookIds,
+      priorBookName,
+    );
     if (resolved.leadIn !== "") pushText(nodes, resolved.leadIn);
     nodes.push(resolved.node);
     if (resolved.siglon !== "") pushText(nodes, resolved.siglon);
@@ -632,7 +693,10 @@ function pushText(nodes: (ContentBibleLink | string)[], text: string): void {
  *   (`usfm/footnotes.ts`'s `classificationText`).
  * @param canonBookIds - See {@link resolveTarget}.
  */
-export function buildReferenceOnlyContent(body: string, canonBookIds?: ReadonlySet<string>): Content {
+export function buildReferenceOnlyContent(
+  body: string,
+  canonBookIds?: ReadonlySet<string>,
+): Content {
   const withoutTrailingPeriod = body.trim().replace(/\.$/, "");
   const rawTargets = withoutTrailingPeriod.split("; ");
   return resolveTargetList(rawTargets, canonBookIds);
@@ -674,7 +738,10 @@ export function buildCrossReferenceContent(
       break;
     }
 
-    if (token.type === "marker" && (token.name === "xo" || token.name === "xt")) {
+    if (
+      token.type === "marker" &&
+      (token.name === "xo" || token.name === "xt")
+    ) {
       currentSubMarker = token.name;
       index++;
       continue;
@@ -748,7 +815,8 @@ interface AmbientBook {
  * reference an earlier pass linked — without otherwise touching that node.
  */
 function extractBibleLinkBookId(item: unknown): string | undefined {
-  if (item === null || typeof item !== "object" || !("bibleLink" in item)) return undefined;
+  if (item === null || typeof item !== "object" || !("bibleLink" in item))
+    return undefined;
   const target = (item as ContentBibleLink).bibleLink;
   return matchBookPrefix(target, registry().candidates)?.id;
 }
@@ -801,7 +869,11 @@ const LEADING_CONTINUATION_CONNECTOR = /^(?:;\s?|\s+and\s+)/;
  *   A chapter with no verse, or prose that never names a real book, is left as
  *   ordinary unlinked text rather than guessed at.
  */
-function findNextEmbeddedReference(text: string, from: number, ambient: AmbientBook): EmbeddedReferenceMatch | undefined {
+function findNextEmbeddedReference(
+  text: string,
+  from: number,
+  ambient: AmbientBook,
+): EmbeddedReferenceMatch | undefined {
   const { candidates } = registry();
 
   for (let position = from; position < text.length; position++) {
@@ -813,14 +885,28 @@ function findNextEmbeddedReference(text: string, from: number, ambient: AmbientB
       if (suffixLength === undefined) continue;
 
       const prefixLength = text.length - position - direct.rest.length;
-      return buildReferenceMatch(text, position, prefixLength, direct.rest.slice(0, suffixLength), direct.id, ambient);
+      return buildReferenceMatch(
+        text,
+        position,
+        prefixLength,
+        direct.rest.slice(0, suffixLength),
+        direct.id,
+        ambient,
+      );
     }
 
     if (ambient.id !== undefined && text[position] === "(") {
       const afterParen = text.slice(position + 1);
       const bareLength = findSafeReferenceLength(afterParen, AMBIENT_HEAD);
       if (bareLength === undefined) continue;
-      return buildReferenceMatch(text, position + 1, 0, afterParen.slice(0, bareLength), ambient.id, ambient);
+      return buildReferenceMatch(
+        text,
+        position + 1,
+        0,
+        afterParen.slice(0, bareLength),
+        ambient.id,
+        ambient,
+      );
     }
   }
 
@@ -861,13 +947,23 @@ function buildReferenceMatch(
     if (continuationLength === undefined) break;
 
     const continuationText = afterConnector.slice(0, continuationLength);
-    const { target: continuationTarget } = buildLinkTarget(bookId, continuationText);
-    nodes.push(connectorMatch[0], withDisplay(continuationTarget, continuationText));
+    const { target: continuationTarget } = buildLinkTarget(
+      bookId,
+      continuationText,
+    );
+    nodes.push(
+      connectorMatch[0],
+      withDisplay(continuationTarget, continuationText),
+    );
     consumed += connectorMatch[0].length + continuationLength;
   }
 
   ambient.id = bookId;
-  return { raw: text.slice(position, position + consumed), start: position, nodes };
+  return {
+    raw: text.slice(position, position + consumed),
+    start: position,
+    nodes,
+  };
 }
 
 /**
@@ -887,7 +983,10 @@ function buildReferenceMatch(
  * @returns `text` itself, unchanged, when no reference resolves anywhere in it,
  *   so a caller can compare the result with `===` to detect "nothing to do".
  */
-function splitEmbeddedReferences(text: string, ambient: AmbientBook): string | (string | ContentBibleLink)[] {
+function splitEmbeddedReferences(
+  text: string,
+  ambient: AmbientBook,
+): string | (string | ContentBibleLink)[] {
   const segments: (string | ContentBibleLink)[] = [];
   let cursor = 0;
 
@@ -935,7 +1034,8 @@ function splitEmbeddedReferences(text: string, ambient: AmbientBook): string | (
 export function linkEmbeddedReferences(content: Content): Content {
   const ambient: AmbientBook = { id: undefined };
 
-  if (typeof content === "string") return splitEmbeddedReferences(content, ambient);
+  if (typeof content === "string")
+    return splitEmbeddedReferences(content, ambient);
 
   if (Array.isArray(content)) {
     const rebuilt: Content[] = [];

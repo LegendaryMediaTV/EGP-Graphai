@@ -34,7 +34,7 @@ interface Verse {
 
 /** The book registry, read once at startup for its display names. */
 const bookRegistry: Array<{ _id: string; name: string }> = JSON.parse(
-  fs.readFileSync("./bible-books/bible-books.json", "utf-8")
+  fs.readFileSync("./bible-books/bible-books.json", "utf-8"),
 );
 
 /** Display name for a book id, falling back to the id when it is unregistered. */
@@ -52,7 +52,7 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
   const files = fs
     .readdirSync(versionDir)
     .filter(
-      (f) => f.endsWith(".json") && f !== "_version.json" && f.match(/^\d{2}-/)
+      (f) => f.endsWith(".json") && f !== "_version.json" && f.match(/^\d{2}-/),
     )
     .sort();
 
@@ -65,7 +65,7 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
 
     if (matchingFiles.length === 0) {
       const availableBooks = files.map((f) =>
-        f.replace(/^\d{2}-/, "").replace(".json", "")
+        f.replace(/^\d{2}-/, "").replace(".json", ""),
       );
       console.error(`Error: Book "${bookId}" not found in this version.`);
       console.error(`Available books: ${availableBooks.join(", ")}`);
@@ -85,7 +85,7 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
  */
 async function processBook(
   filePath: string,
-  dryRun: boolean = false
+  dryRun: boolean = false,
 ): Promise<{ changed: boolean; verseCount: number }> {
   const originalContent = fs.readFileSync(filePath, "utf-8");
   const verses: Verse[] = JSON.parse(originalContent);
@@ -118,13 +118,13 @@ async function main() {
 
   if (!versionId) {
     console.error(
-      "Usage: npx ts-node utils/sortBibleKeys.ts <version> [book-id] [--dry-run]"
+      "Usage: npx ts-node utils/sortBibleKeys.ts <version> [book-id] [--dry-run]",
     );
     console.error("");
     console.error("Examples:");
     console.error("  npx ts-node utils/sortBibleKeys.ts WEBUS2020");
     console.error(
-      "  npx ts-node utils/sortBibleKeys.ts WEBUS2020 PSA       # Psalms only"
+      "  npx ts-node utils/sortBibleKeys.ts WEBUS2020 PSA       # Psalms only",
     );
     console.error("  npx ts-node utils/sortBibleKeys.ts WEBUS2020 --dry-run");
     process.exit(1);
@@ -136,7 +136,7 @@ async function main() {
     const versions = fs
       .readdirSync("./bible-versions")
       .filter((d) =>
-        fs.statSync(path.join("./bible-versions", d)).isDirectory()
+        fs.statSync(path.join("./bible-versions", d)).isDirectory(),
       );
     console.error(`Available versions: ${versions.join(", ")}`);
     process.exit(1);
@@ -167,7 +167,7 @@ async function main() {
     if (changed) {
       totalChanged++;
       console.log(
-        `  ${bookName.padEnd(20)} - ${verseCount} verses (reordered)`
+        `  ${bookName.padEnd(20)} - ${verseCount} verses (reordered)`,
       );
     } else {
       totalUnchanged++;

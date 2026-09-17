@@ -25,7 +25,7 @@
 <sup>21</sup> Kaì ou diē̂lthon hēmérai pentḗkonta héōs hoû apékteinan autòn hoi dýo hyioì autoû; kaì éphygon eis tà órē Ararat, kaì ebasíleusen Sacherdonos ho hyiòs autoû ant’ autoû. Kaì étaxen Achiacharon tòn Anaēl hyiòn toû adelphoû mou epì pâsan tḕn eklogistían tē̂s basileías autoû kaì epì pâsan tḕn dioíkēsin.
 <sup>22</sup> Kaì ēxíōsen Achiacharos perì emoû, kaì ē̂lthon eis Nineuē.
 
- Achiacharos dè ē̂n ho oinochóos kaì epì toû daktylíou kaì dioikētḕs kaì eklogistḗs, kaì katéstēsen autòn ho Sacherdonos ek deutéras; ē̂n dè exádelphós mou.
+Achiacharos dè ē̂n ho oinochóos kaì epì toû daktylíou kaì dioikētḕs kaì eklogistḗs, kaì katéstēsen autòn ho Sacherdonos ek deutéras; ē̂n dè exádelphós mou.
 
 ## Chapter 2
 
@@ -83,7 +83,7 @@
 <sup>11</sup> dō̂ron gàr agathón estin eleēmosýnē pâsi toîs poioûsin autḕn enṓpion toû hypsístou.
 <sup>12</sup> Próseche seautō̂, paidíon, apò pásēs porneías kaì gynaîka prō̂ton labè apò toû spérmatos tō̂n patérōn sou; mḕ lábēs gynaîka allotrían, hḕ ouk éstin ek tē̂s phylē̂s toû patrós sou, dióti hyioì prophētō̂n esmen.
 
- Nōe, Abraam, Isaak, Iakōb hoi patéres hēmō̂n apò toû aiō̂nos mnḗsthēti, paidíon, hóti hoûtoi pántes élabon gynaîkas ek tō̂n adelphō̂n autō̂n kaì eulogḗthēsan en toîs téknois autō̂n, kaì tò spérma autō̂n klēronomḗsei gē̂n.
+Nōe, Abraam, Isaak, Iakōb hoi patéres hēmō̂n apò toû aiō̂nos mnḗsthēti, paidíon, hóti hoûtoi pántes élabon gynaîkas ek tō̂n adelphō̂n autō̂n kaì eulogḗthēsan en toîs téknois autō̂n, kaì tò spérma autō̂n klēronomḗsei gē̂n.
 <sup>13</sup> Kaì nŷn, paidíon, agápa toùs adelphoús sou kaì mḕ hyperēphaneúou tē̂ kardía sou apò tō̂n adelphō̂n sou kaì tō̂n hyiō̂n kaì thygatérōn toû laoû sou labeîn seautō̂ ex autō̂n gynaîka, dióti en tē̂ hyperēphanía apṓleia kaì akatastasía pollḗ, kaì en tē̂ achreiótēti eláttōsis kaì éndeia megálē; hē gàr achreiótēs mḗtēr estìn toû limoû.
 <sup>14</sup> Misthòs pantòs anthrṓpou, hòs eàn ergásētai, parà soì mḕ aulisthḗtō, allà apódos autō̂ parautíka, kaì eàn douleúsēs tō̂ theō̂, apodothḗsetaí soi. Próseche seautō̂, paidíon, en pâsi toîs érgois sou kaì ísthi pepaideuménos en pásē anastrophē̂ sou.
 <sup>15</sup> Kaì hò miseîs, mēdenì poiḗsēs. Oînon eis méthēn mḕ píēs, kaì mḕ poreuthḗtō metà soû méthē en tē̂ hodō̂ sou.
@@ -310,7 +310,7 @@
 <sup>9</sup> Sỳ dè tḗrēson tòn nómon kaì tà prostágmata kaì gínou phileleḗmōn kaì díkaios, hína soi kalō̂s ē̂, kaì thápson me kalō̂s kaì tḕn mētéra sou met’ emoû; kaì mēkéti aulisthē̂te eis Nineuē.
 <sup>10</sup> Téknon, idè tí epoíēsen Aman Achiachárō tō̂ thrépsanti autón, hōs ek toû phōtòs ḗgagen autòn eis tò skótos, kaì hósa antapédōken autō̂; kaì Achiacharos mèn esṓthē, ekeínō dè tò antapódoma apedóthē, kaì autòs katébē eis tò skótos.
 
- Manassēs epoíēsen eleēmosýnēn kaì esṓthē ek pagídos thanátou, hē̂s épēxen autō̂, Aman dè enépesen eis tḕn pagída kaì apṓleto.
+Manassēs epoíēsen eleēmosýnēn kaì esṓthē ek pagídos thanátou, hē̂s épēxen autō̂, Aman dè enépesen eis tḕn pagída kaì apṓleto.
 <sup>11</sup> Kaì nŷn, paidía, ídete tí eleēmosýnē poieî, kaì tí dikaiosýnē rhýetai. — kaì taûta autoû légontos exélipen autoû hē psychḕ epì tē̂s klínēs; ē̂n dè etō̂n hekatòn pentḗkonta oktṓ; kaì éthapsen autòn endóxōs.
 
 <sup>12</sup> Kaì hóte apéthanen Anna, éthapsen autḕn metà toû patròs autoû. Apē̂lthen dè Tōbias metà tē̂s gynaikòs autoû kaì tō̂n hyiō̂n autoû eis Ekbátana pròs Ragouēl tòn pentheròn autoû.

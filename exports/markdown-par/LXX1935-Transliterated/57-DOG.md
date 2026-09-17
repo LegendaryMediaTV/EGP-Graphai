@@ -244,7 +244,7 @@
 
 <sup>1</sup> Kaì Artaxérxēs ho tō̂n Mḗdōn parélabe tḕn basileían.
 
- Kaì Dareîos plḗrēs tō̂n hēmerō̂n kaì éndoxos en gḗrei;
+Kaì Dareîos plḗrēs tō̂n hēmerō̂n kaì éndoxos en gḗrei;
 <sup>2</sup> kaì katéstēse satrápas hekatòn eíkosi heptà epì pásēs tē̂s basileías autoû
 <sup>3</sup> kaì ep’ autō̂n ándras treîs hēgouménous autō̂n, kaì Daniēl heîs ē̂n tō̂n triō̂n andrō̂n
 <sup>4</sup> hypèr pántas échōn exousían en tē̂ basileía. Kaì Daniēl ē̂n endedyménos porphýran kaì mégas kaì éndoxos énanti Dareíou toû basiléōs, kathóti ē̂n éndoxos kaì epistḗmōn kaì synetós, kaì pneûma hágion en autō̂, kaì euodoúmenos en taîs pragmateíais toû basiléōs, haîs éprasse. Tóte ho basileùs ebouleúsato katastē̂sai tòn Daniēl epì pásēs tē̂s basileías autoû kaì toùs dýo ándras, hoùs katéstēse met’ autoû, kaì satrápas hekatòn eíkosi heptá.

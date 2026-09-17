@@ -222,7 +222,6 @@
 
 ### Visions of Judgement
 
-
 ### Locusts
 
 <sup>1</sup> Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers<sup>a</sup> in the beginning of the shooting up of the latter growth; and, lo, _it was_ the latter growth after the king’s mowings.

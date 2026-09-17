@@ -25,19 +25,19 @@ flowchart TD
 
 ## Module responsibilities
 
-| Module | Owns |
-| --- | --- |
-| `tokenize.ts` | Lexes raw USFM into a flat, source-ordered stream of markers and text. No tree yet, since paired markers (`\w`...`\w*`) and unpaired position markers (`\v`, `\c`, `\p`) interleave freely |
-| `segmentVerses.ts` | Walks that stream and decides every verse-level boundary: paragraphs, real stanza breaks vs. ordinary line wraps, chapter cuts, and the deuterocanon-only structural markers |
-| `blockStructure.ts` | Renders the blocks `segmentVerses.ts` already decided into the content-schema shape |
-| `headings.ts` | Psalm superscriptions, the acrostic letter names (in whichever spelling a given edition uses, singly or joined into one combined-stanza heading) that open each stanza of Psalm 119, Psalter book-division headings recognized by their printed label rather than tied to one specific section-heading marker, and Song of Solomon's speaker labels |
-| `footnotes.ts` | Assembles a footnote from one `\f`...`\f*` span, including deuterocanon front-matter blocks that get wrapped as a synthetic footnote on the book's opening verse |
-| `footnoteTypeRules.ts` | The classification table that sorts footnote text into cross-reference, variant, translation, or study. Shared by the importer and by the standalone re-classification tool below |
-| `references.ts` | Resolves `\x` cross-references against the book registry directly, and finds Scripture references sitting in ordinary footnote prose with no marker at all |
-| `inlineMarks.ts` | The shared run-builder that turns Strong's-tagged USFM into joined, readable text, used for both verse content and footnote bodies |
-| `splitScriptRuns.ts` | Splits an embedded Hebrew or Greek letter run out into its own `{text, script}` node; the same eligibility judgment `npm run validate`'s own untagged-script-run check reuses |
-| `metadata.ts` | Book-id resolution and version-metadata extraction and merging |
-| `paragraphNoise.ts` | The pipeline's one whole-book pass. Cleans up a source-tool artifact that over-applies paragraph flags |
+| Module                 | Owns                                                                                                                                                                                                                                                                                                                                                |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `tokenize.ts`          | Lexes raw USFM into a flat, source-ordered stream of markers and text. No tree yet, since paired markers (`\w`...`\w*`) and unpaired position markers (`\v`, `\c`, `\p`) interleave freely                                                                                                                                                          |
+| `segmentVerses.ts`     | Walks that stream and decides every verse-level boundary: paragraphs, real stanza breaks vs. ordinary line wraps, chapter cuts, and the deuterocanon-only structural markers                                                                                                                                                                        |
+| `blockStructure.ts`    | Renders the blocks `segmentVerses.ts` already decided into the content-schema shape                                                                                                                                                                                                                                                                 |
+| `headings.ts`          | Psalm superscriptions, the acrostic letter names (in whichever spelling a given edition uses, singly or joined into one combined-stanza heading) that open each stanza of Psalm 119, Psalter book-division headings recognized by their printed label rather than tied to one specific section-heading marker, and Song of Solomon's speaker labels |
+| `footnotes.ts`         | Assembles a footnote from one `\f`...`\f*` span, including deuterocanon front-matter blocks that get wrapped as a synthetic footnote on the book's opening verse                                                                                                                                                                                    |
+| `footnoteTypeRules.ts` | The classification table that sorts footnote text into cross-reference, variant, translation, or study. Shared by the importer and by the standalone re-classification tool below                                                                                                                                                                   |
+| `references.ts`        | Resolves `\x` cross-references against the book registry directly, and finds Scripture references sitting in ordinary footnote prose with no marker at all                                                                                                                                                                                          |
+| `inlineMarks.ts`       | The shared run-builder that turns Strong's-tagged USFM into joined, readable text, used for both verse content and footnote bodies                                                                                                                                                                                                                  |
+| `splitScriptRuns.ts`   | Splits an embedded Hebrew or Greek letter run out into its own `{text, script}` node; the same eligibility judgment `npm run validate`'s own untagged-script-run check reuses                                                                                                                                                                       |
+| `metadata.ts`          | Book-id resolution and version-metadata extraction and merging                                                                                                                                                                                                                                                                                      |
+| `paragraphNoise.ts`    | The pipeline's one whole-book pass. Cleans up a source-tool artifact that over-applies paragraph flags                                                                                                                                                                                                                                              |
 
 Fraction normalization isn't a `utils/usfm/` module at all: `segmentVerses.ts` and `footnotes.ts` both call the shared [functions/normalizeFractions.ts](../../../functions/normalizeFractions.ts), the same function `npm run validate`'s own unnormalized-fraction check applies to hand-edited content. One convention, one function, so an imported verse and a hand-edited one are never held to two different rules that could quietly drift apart.
 
@@ -60,14 +60,14 @@ Supplying a chapter number switches the run to preview mode. The resulting JSON 
 
 ## USFM markers, sampled
 
-| USFM marker | Becomes |
-| --- | --- |
-| `\d` (an ordinary superscription) | A subtitle |
+| USFM marker                                   | Becomes                                                                                                                  |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `\d` (an ordinary superscription)             | A subtitle                                                                                                               |
 | `\d` (one of the 22 Psalm 119 acrostic names) | An acrostic heading, told apart from the ordinary case by matching the text against a fixed name list, never by position |
-| `\f`...`\f*` | A footnote, typed by `footnoteTypeRules.ts` |
-| `\x`...`\x*` | A footnote typed as cross-reference |
-| `\ip` (deuterocanon front matter) | A synthetic footnote attached to a textless leading node on the book's first verse |
-| `\bk`...`\bk*` (a cited book title) | Text marked italic |
+| `\f`...`\f*`                                  | A footnote, typed by `footnoteTypeRules.ts`                                                                              |
+| `\x`...`\x*`                                  | A footnote typed as cross-reference                                                                                      |
+| `\ip` (deuterocanon front matter)             | A synthetic footnote attached to a textless leading node on the book's first verse                                       |
+| `\bk`...`\bk*` (a cited book title)           | Text marked italic                                                                                                       |
 
 This is a representative sampling. The test fixtures under `utils/usfm/__tests__/fixtures/*.usfm` and their matching specs cover the full set of markers the pipeline handles, including how a stanza break (`\b`) differs from an ordinary line wrap (`\q1`–`\q3`) and how a footnote and a cross-reference sitting back to back on the same word are kept as two separate pieces rather than one overwriting the other.
 

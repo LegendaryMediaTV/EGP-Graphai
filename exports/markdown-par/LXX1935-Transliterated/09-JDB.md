@@ -162,7 +162,7 @@
 
 <sup>17</sup> Galaad en tō̂ péran toû Iordánou eskḗnōsen; kaì Dan eis tí paroikeî ploíois?
 
- Asēr ekáthisen paralían thalassō̂n kaì epì diexódois autoû skēnṓsei.
+Asēr ekáthisen paralían thalassō̂n kaì epì diexódois autoû skēnṓsei.
 
 <sup>18</sup> Zaboulōn laòs ōneídisen psychḕn autoû eis thánaton kaì Nephthali epì hýpsē agroû.
 <sup>19</sup> Ē̂lthon autō̂n basileîs, paretáxanto, tóte epolémēsan basileîs Chanaan en Thanaach epì hýdati Megeddō; dō̂ron argyríou ouk élabon.
@@ -180,7 +180,7 @@
 <sup>30</sup> Ouch heurḗsousin autòn diamerízonta skŷla? Oiktírmōn oiktirḗsei eis kephalḕn andrós; skŷla bammátōn tō̂ Sisara, skŷla bammátōn poikilías, bámmata poikiltō̂n autá, tō̂ trachḗlō autoû skŷla.
 <sup>31</sup> Hoútōs apólointo pántes hoi echthroí sou, kýrie; kaì hoi agapō̂ntes autòn hōs éxodos hēlíou en dynámei autoû.
 
- Kaì hēsýchasen hē gē̂ tessarákonta étē.
+Kaì hēsýchasen hē gē̂ tessarákonta étē.
 
 ## Chapter 6
 

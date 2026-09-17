@@ -7,7 +7,10 @@ import Content, {
   ContentNested,
   ContentObject,
 } from "../types/Content";
-import { writeFileAtomic } from "../functions/writeJsonFile";
+import {
+  formatMarkdownText,
+  writeFileAtomic,
+} from "../functions/writeJsonFile";
 import VerseSchema from "../types/VerseSchema";
 import BibleVersion from "../types/Version";
 
@@ -21,20 +24,34 @@ import BibleVersion from "../types/Version";
  * are the three concrete configurations.
  */
 interface RenderOptions {
-  includeStrongs: boolean; // Whether to append Strong's numbers after words
-  includeMorph: boolean; // Whether to append morphology codes after words
-  includeFootnotes: boolean; // Whether footnote markers/content render at all
-  footnoteStyle: "inline" | "reference"; // inline = °{...} at point of reference; reference = collected into a footer list
-  paragraphMarker: string; // Text inserted at the start of a new paragraph
-  lineBreakMarker: string; // Text inserted at an explicit line break
-  headingWrapper: (text: string, type?: "standard" | "acrostic") => string; // Wraps rendered heading text; type selects standard vs. acrostic styling
-  subtitleWrapper: (text: string) => string; // Wraps rendered subtitle text
-  footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
-  boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
-  italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
-  superscriptWrapper: (text: string) => string; // Wraps text carrying a "sup" mark
-  escapeSourceText: (text: string) => string; // Escapes this format's own delimiter characters when they appear in text taken verbatim from content (see `escapeMarkdownDelimiters`)
-  textOf: (obj: ContentObject) => string; // Which of a node's own strings this format prints: its `text`, or the `transliteration` standing in for it (see `MARKDOWN_TRANSLITERATED_OPTIONS`)
+  /** Whether to append Strong's numbers after words. */
+  includeStrongs: boolean;
+  /** Whether to append morphology codes after words. */
+  includeMorph: boolean;
+  /** Whether footnote markers and content render at all. */
+  includeFootnotes: boolean;
+  /** Where a footnote body goes: "inline" = °{...} at the point of reference; "reference" = collected into a footer list. */
+  footnoteStyle: "inline" | "reference";
+  /** Text inserted at the start of a new paragraph. */
+  paragraphMarker: string;
+  /** Text inserted at an explicit line break. */
+  lineBreakMarker: string;
+  /** Wraps rendered heading text; `type` selects standard vs. acrostic styling. */
+  headingWrapper: (text: string, type?: "standard" | "acrostic") => string;
+  /** Wraps rendered subtitle text. */
+  subtitleWrapper: (text: string) => string;
+  /** Renders the marker for the footnote at the given 0-based index within the current footnotes list. */
+  footnoteMarker: (index: number) => string;
+  /** Wraps text carrying a "b" mark. */
+  boldWrapper: (text: string) => string;
+  /** Wraps text carrying an "i" mark. */
+  italicWrapper: (text: string) => string;
+  /** Wraps text carrying a "sup" mark. */
+  superscriptWrapper: (text: string) => string;
+  /** Escapes this format's own delimiter characters where they appear in text taken verbatim from content (see `escapeMarkdownDelimiters`). */
+  escapeSourceText: (text: string) => string;
+  /** Which of a node's own strings this format prints: its `text`, or the `transliteration` standing in for it (see `MARKDOWN_TRANSLITERATED_OPTIONS`). */
+  textOf: (obj: ContentObject) => string;
 }
 
 /**
@@ -57,9 +74,9 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
   boldWrapper: (text) => text,
   italicWrapper: (text) => text,
-  // Plain text has no way to raise a baseline, so a superscript siglum
-  // modifier prints inline: "NA27", "1143vid". Losing the distinction beats
-  // inventing a caret notation this format's readers would have to learn.
+  // Plain text cannot raise a baseline, so a superscript siglum modifier
+  // prints inline ("NA27", "1143vid") rather than in a caret notation this
+  // format's readers would have to learn.
   superscriptWrapper: (text) => text,
   // The text export has no delimiter grammar of its own to collide with.
   escapeSourceText: (text) => text,
@@ -111,10 +128,10 @@ const MARKDOWN_OPTIONS: RenderOptions = {
 
 /**
  * Rendering configuration for the transliterated markdown export
- * (`exports/markdown-par/<version>-Transliterated`). The spread is what keeps
- * the two markdown exports structurally identical by construction rather than
- * by two configurations being kept in agreement: they differ in the one string
- * read off each node, so the two trees agree line for line.
+ * (`exports/markdown-par/<version>-Transliterated`). Spreading
+ * `MARKDOWN_OPTIONS` keeps the two markdown trees structurally identical by
+ * construction rather than by two configurations being kept in agreement:
+ * they differ in the one string read off each node, and so agree line for line.
  *
  * The romanization is read, never computed: `validate` stores it on the node
  * and this module has no opinion about how a script romanizes. A node without
@@ -132,12 +149,18 @@ const MARKDOWN_TRANSLITERATED_OPTIONS: RenderOptions = {
 
 /** Threaded through every render call in a single conversion pass. */
 interface RenderContext {
-  options: RenderOptions; // Active TEXT_OPTIONS or MARKDOWN_OPTIONS
-  footnotes: string[]; // Reference-style footnote lines collected during the render (populated only when footnoteStyle is "reference")
-  verseNum?: number; // Current verse number; falls back to this as the footnote prefix ("N.") when footnotePrefix isn't set
-  footnotePrefix?: string; // "Subtitle." or "Heading." for special contexts
-  withinItalicWrapper?: boolean; // Whether the text this render returns lands inside an italic wrapper its caller applies (see `italicWrapperFor`)
-  abbreviations?: ReadonlyMap<string, Content>; // Display names from the version's `abbr` registry, keyed by id, resolving `{ abbr }` nodes
+  /** The active per-format configuration. */
+  options: RenderOptions;
+  /** Reference-style footnote lines collected during the render; populated only when `footnoteStyle` is "reference". */
+  footnotes: string[];
+  /** Current verse number, used as the footnote prefix ("N.") when `footnotePrefix` is unset. */
+  verseNum?: number;
+  /** "Subtitle." or "Heading.", labelling a footnote raised from one of those contexts. */
+  footnotePrefix?: string;
+  /** Whether the text this render returns lands inside an italic wrapper its caller applies (see `italicWrapperFor`). */
+  withinItalicWrapper?: boolean;
+  /** Display names from the version's `abbr` registry, keyed by id, resolving `{ abbr }` nodes. */
+  abbreviations?: ReadonlyMap<string, Content>;
 }
 
 /**
@@ -149,7 +172,7 @@ interface RenderContext {
 function wrapSuperscript(
   text: string,
   marks: ContentObject["marks"],
-  ctx: RenderContext
+  ctx: RenderContext,
 ): string {
   if (!marks?.includes("sup") || text.trim() === "") return text;
   const [, leading, core, trailing] = text.match(/^(\s*)([\s\S]*?)(\s*)$/)!;
@@ -181,7 +204,13 @@ function italicWrapperFor(ctx: RenderContext): (text: string) => string {
  * glued straight to it ("H2400␤").
  */
 function endsWithUnseparatedTag(item: Content, ctx: RenderContext): boolean {
-  if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
+  if (
+    typeof item === "string" ||
+    Array.isArray(item) ||
+    item === null ||
+    typeof item !== "object"
+  )
+    return false;
   const record = item as Record<string, unknown>;
   if (record.break === true) return false;
   return (
@@ -204,11 +233,23 @@ function startsWithLetter(text: string): boolean {
  * is the *sole* note on a phrase, sitting before it instead of after.
  */
 function isTextlessFootnoteSibling(item: Content): boolean {
-  if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
+  if (
+    typeof item === "string" ||
+    Array.isArray(item) ||
+    item === null ||
+    typeof item !== "object"
+  )
+    return false;
   const record = item as Record<string, unknown>;
   if (record.foot === undefined) return false;
   if (record.strong !== undefined) return false;
-  if ("content" in record || "heading" in record || "subtitle" in record || "bibleLink" in record) return false;
+  if (
+    "content" in record ||
+    "heading" in record ||
+    "subtitle" in record ||
+    "bibleLink" in record
+  )
+    return false;
   return typeof record.text !== "string" || record.text.length === 0;
 }
 
@@ -222,12 +263,23 @@ function isTextlessFootnoteSibling(item: Content): boolean {
  * carrying marks is untested, and admitting it could self-wrap.
  */
 function markedBibleLinkOverride(item: Content): ContentObject | undefined {
-  if (typeof item !== "object" || item === null || Array.isArray(item)) return undefined;
+  if (typeof item !== "object" || item === null || Array.isArray(item))
+    return undefined;
   if (!("bibleLink" in item)) return undefined;
   const override = (item as ContentBibleLink).content;
-  if (override === undefined || typeof override === "string" || Array.isArray(override)) return undefined;
+  if (
+    override === undefined ||
+    typeof override === "string" ||
+    Array.isArray(override)
+  )
+    return undefined;
   if (typeof override !== "object" || override === null) return undefined;
-  if ("heading" in override || "subtitle" in override || "bibleLink" in override || "content" in override) {
+  if (
+    "heading" in override ||
+    "subtitle" in override ||
+    "bibleLink" in override ||
+    "content" in override
+  ) {
     return undefined;
   }
   const obj = override as ContentObject;
@@ -246,13 +298,24 @@ function markedBibleLinkOverride(item: Content): ContentObject | undefined {
  * Narrow for the same reason `markedBibleLinkOverride` is: an array name
  * mixing marks across its elements has no single state to hand the run.
  */
-function markedAbbreviationName(item: Content, ctx: RenderContext): ContentObject | undefined {
-  if (typeof item !== "object" || item === null || Array.isArray(item)) return undefined;
+function markedAbbreviationName(
+  item: Content,
+  ctx: RenderContext,
+): ContentObject | undefined {
+  if (typeof item !== "object" || item === null || Array.isArray(item))
+    return undefined;
   if (!("abbr" in item)) return undefined;
   const name = ctx.abbreviations?.get((item as ContentAbbreviation).abbr);
-  if (name === undefined || typeof name === "string" || Array.isArray(name)) return undefined;
+  if (name === undefined || typeof name === "string" || Array.isArray(name))
+    return undefined;
   if (typeof name !== "object" || name === null) return undefined;
-  if ("heading" in name || "subtitle" in name || "bibleLink" in name || "abbr" in name || "content" in name) {
+  if (
+    "heading" in name ||
+    "subtitle" in name ||
+    "bibleLink" in name ||
+    "abbr" in name ||
+    "content" in name
+  ) {
     return undefined;
   }
   const obj = name as ContentObject;
@@ -263,21 +326,39 @@ function markedAbbreviationName(item: Content, ctx: RenderContext): ContentObjec
  * Whether `item` is a plain mark-bearing renderable — `ContentObject`/
  * `ContentNested`, a `bibleLink` whose override qualifies per
  * `markedBibleLinkOverride`, or an `abbr` whose registry name qualifies per
- * `markedAbbreviationName`. The array's other legal shapes are excluded: a
- * bare string, a `heading`/`subtitle`/unqualified `bibleLink`/unqualified
- * `abbr` (each renders in its own context and must never share the
- * surrounding items' open "b"/"i" state), and the `paragraph`-wrapper object
- * (`content.paragraph` holding nested content, not the boolean
- * start-of-paragraph flag). Only candidates carry a `marks` array, so only
- * they take part in the array branch's emphasis-state walk (see
- * `emphasisTransition`).
+ * `markedAbbreviationName`. The shapes excluded below — a bare string, a
+ * heading, subtitle, unqualified `bibleLink` or unqualified `abbr`, and the
+ * `paragraph`-wrapper object — each render in their own context and must never
+ * share the surrounding items' open "b"/"i" state. Only candidates carry a
+ * `marks` array, so only they take part in the array branch's emphasis-state
+ * walk (see `emphasisTransition`).
  */
-function isMarkRunCandidate(item: Content, ctx: RenderContext): item is ContentObject | ContentNested {
+function isMarkRunCandidate(
+  item: Content,
+  ctx: RenderContext,
+): item is ContentObject | ContentNested {
   if (markedBibleLinkOverride(item) !== undefined) return true;
   if (markedAbbreviationName(item, ctx) !== undefined) return true;
-  if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
-  if ("heading" in item || "subtitle" in item || "bibleLink" in item || "abbr" in item) return false;
-  if ("paragraph" in item && item.paragraph !== undefined && typeof item.paragraph !== "boolean") return false;
+  if (
+    typeof item === "string" ||
+    Array.isArray(item) ||
+    item === null ||
+    typeof item !== "object"
+  )
+    return false;
+  if (
+    "heading" in item ||
+    "subtitle" in item ||
+    "bibleLink" in item ||
+    "abbr" in item
+  )
+    return false;
+  if (
+    "paragraph" in item &&
+    item.paragraph !== undefined &&
+    typeof item.paragraph !== "boolean"
+  )
+    return false;
   return true;
 }
 
@@ -320,7 +401,11 @@ function escapeMarkdownDelimiters(text: string): string {
  * whitespace — both callers write a delimiter next to text that may carry a
  * leading or trailing join-space, which real content items routinely do.
  */
-function splitWhitespace(text: string): { leading: string; core: string; trailing: string } {
+function splitWhitespace(text: string): {
+  leading: string;
+  core: string;
+  trailing: string;
+} {
   const leading = text.length - text.trimStart().length;
   const trailing = text.length - text.trimEnd().length;
   return {
@@ -394,11 +479,12 @@ function delimiterRuns(line: string, character: string): DelimiterRun[] {
 function delimiterRunRoles(
   line: string,
   run: DelimiterRun,
-  character: string
+  character: string,
 ): { opens: boolean; closes: boolean } {
   const before: string | undefined = line[run.at - 1];
   const after: string | undefined = line[run.at + run.length];
-  const beforeIsSpace = before === undefined || FLANKING_WHITESPACE.test(before);
+  const beforeIsSpace =
+    before === undefined || FLANKING_WHITESPACE.test(before);
   const afterIsSpace = after === undefined || FLANKING_WHITESPACE.test(after);
   const beforeIsPunctuation =
     before !== undefined && FLANKING_PUNCTUATION.test(before);
@@ -457,7 +543,7 @@ function resolveUnparsableEmphasisSpans(markdown: string): string {
           }
           rewrites.push(
             { ...open, text: `<${tag}>` },
-            { ...close, text: `</${tag}>` }
+            { ...close, text: `</${tag}>` },
           );
         }
       }
@@ -491,7 +577,7 @@ function resolveUnparsableEmphasisSpans(markdown: string): string {
 function wrapEmphasisMarks(
   text: string,
   marks: ContentObject["marks"],
-  ctx: RenderContext
+  ctx: RenderContext,
 ): string {
   let wrapped = text;
   if (marks?.includes("b")) wrapped = ctx.options.boldWrapper(wrapped);
@@ -506,26 +592,31 @@ function wrapEmphasisMarks(
  * `RenderOptions` can stay plain text-wrapping functions with no separate
  * open/close fields.
  */
-function delimitersOf(wrapper: (text: string) => string): { open: string; close: string } {
+function delimitersOf(wrapper: (text: string) => string): {
+  open: string;
+  close: string;
+} {
   const SENTINEL = "\u0000";
   const wrapped = wrapper(SENTINEL);
   const at = wrapped.indexOf(SENTINEL);
-  return { open: wrapped.slice(0, at), close: wrapped.slice(at + SENTINEL.length) };
+  return {
+    open: wrapped.slice(0, at),
+    close: wrapped.slice(at + SENTINEL.length),
+  };
 }
 
 /**
  * The close/open delimiters for moving the array branch's running "b"/"i"
- * open-state from `from` to `to` — closing marks present in `from` but not
- * `to` (innermost first: "b" before "i", matching `wrapEmphasisMarks`'s own
- * nesting order), opening marks present in `to` but not `from` (outermost
- * first: "i" before "b"), and leaving a mark present in both untouched — see
- * {@link EmphasisState} for why the two are tracked independently.
+ * open-state from `from` to `to`, closing innermost first and opening
+ * outermost first to match `wrapEmphasisMarks`'s own nesting order, and
+ * leaving a mark present in both untouched — see {@link EmphasisState} for why
+ * the two are tracked independently.
  */
 function emphasisTransition(
   from: EmphasisState,
   to: EmphasisState,
   bold: { open: string; close: string },
-  italic: { open: string; close: string }
+  italic: { open: string; close: string },
 ): { close: string; open: string } {
   let close = "";
   if (from.b && !to.b) close += bold.close;
@@ -568,7 +659,7 @@ function spliceTrailingFootnoteSiblings(
   parts: RenderedParts,
   content: Content[],
   startIndex: number,
-  ctx: RenderContext
+  ctx: RenderContext,
 ): { suffix: string; lastIndex: number } {
   let suffix = parts.suffix;
   let lastIndex = startIndex;
@@ -581,7 +672,10 @@ function spliceTrailingFootnoteSiblings(
   if (tagOffset === -1) return { suffix, lastIndex };
 
   let insertAt = tagOffset;
-  while (lastIndex + 1 < content.length && isTextlessFootnoteSibling(content[lastIndex + 1])) {
+  while (
+    lastIndex + 1 < content.length &&
+    isTextlessFootnoteSibling(content[lastIndex + 1])
+  ) {
     lastIndex++;
     const siblingNode = content[lastIndex] as ContentObject;
     const siblingRendered = renderContent(siblingNode, ctx);
@@ -617,8 +711,10 @@ function spliceTrailingFootnoteSiblings(
  * ("_b _"), which CommonMark's right-flanking rule rejects outright.
  */
 interface EmphasisRunState {
-  openMarks: EmphasisState; // "b"/"i" marks currently open in this run
-  pendingWhitespace: string; // trailing whitespace held back from the last-rendered core (see above)
+  /** The "b"/"i" marks currently open in this run. */
+  openMarks: EmphasisState;
+  /** Trailing whitespace held back from the last-rendered core, per the invariant above. */
+  pendingWhitespace: string;
 }
 
 /**
@@ -640,7 +736,7 @@ interface EmphasisRunState {
 function emphasisRunContinuation(
   content: Content,
   ctx: RenderContext,
-  seed: EmphasisRunState
+  seed: EmphasisRunState,
 ): { text: string; state: EmphasisRunState } {
   const bold = delimitersOf(ctx.options.boldWrapper);
   const italic = delimitersOf(italicWrapperFor(ctx));
@@ -648,7 +744,12 @@ function emphasisRunContinuation(
   if (!Array.isArray(content)) {
     // No internal run to continue — seal the seed state and render
     // independently.
-    const { close } = emphasisTransition(seed.openMarks, { b: false, i: false }, bold, italic);
+    const { close } = emphasisTransition(
+      seed.openMarks,
+      { b: false, i: false },
+      bold,
+      italic,
+    );
     return {
       text: close + seed.pendingWhitespace + renderContent(content, ctx),
       state: { openMarks: { b: false, i: false }, pendingWhitespace: "" },
@@ -660,7 +761,12 @@ function emphasisRunContinuation(
   let pendingWhitespace = seed.pendingWhitespace;
 
   const closeOpenMarks = () => {
-    const { close } = emphasisTransition(openMarks, { b: false, i: false }, bold, italic);
+    const { close } = emphasisTransition(
+      openMarks,
+      { b: false, i: false },
+      bold,
+      italic,
+    );
     result += close + pendingWhitespace;
     pendingWhitespace = "";
     openMarks = { b: false, i: false };
@@ -686,7 +792,11 @@ function emphasisRunContinuation(
       closeOpenMarks();
       let rendered = renderContent(item, ctx);
       const next = content[index + 1];
-      if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
+      if (
+        next !== undefined &&
+        endsWithUnseparatedTag(item, ctx) &&
+        startsWithLetter(renderContent(next, ctx))
+      ) {
         rendered += " ";
       }
       result += rendered;
@@ -699,12 +809,12 @@ function emphasisRunContinuation(
     // check, decides eligibility, so a node marked only `["woc"]` or `["sc"]`
     // is as eligible as one with no marks.
     const override = markedBibleLinkOverride(item);
-    const abbreviationName = override ? undefined : markedAbbreviationName(item, ctx);
-    // The object supplying this item's core text and its marks when the item
-    // is not itself a text object: a qualifying bibleLink display override,
-    // or a qualifying abbreviation name.
+    const abbreviationName = override
+      ? undefined
+      : markedAbbreviationName(item, ctx);
     const resolved = override ?? abbreviationName;
-    const ownMarks = !resolved && "content" in item ? emphasisStateOf(item.marks) : undefined;
+    const ownMarks =
+      !resolved && "content" in item ? emphasisStateOf(item.marks) : undefined;
     // A "sup" mark disqualifies the node the same way "b"/"i" do: this
     // branch builds its own core out of the continuation text and never
     // reaches `renderNestedContentParts`, where the superscript wrap lives.
@@ -720,7 +830,10 @@ function emphasisRunContinuation(
       if (nested.paragraph) closeOpenMarks();
       result += renderNestedPrefix(nested, ctx);
 
-      const continuation = emphasisRunContinuation(nested.content, ctx, { openMarks, pendingWhitespace });
+      const continuation = emphasisRunContinuation(nested.content, ctx, {
+        openMarks,
+        pendingWhitespace,
+      });
       result += continuation.text;
       openMarks = continuation.state.openMarks;
       pendingWhitespace = continuation.state.pendingWhitespace;
@@ -730,7 +843,13 @@ function emphasisRunContinuation(
         core: continuation.text,
         suffix: renderNestedSuffix(nested, ctx, continuation.text),
       };
-      const spliced = spliceTrailingFootnoteSiblings(nested, parts, content, index, ctx);
+      const spliced = spliceTrailingFootnoteSiblings(
+        nested,
+        parts,
+        content,
+        index,
+        ctx,
+      );
       index = spliced.lastIndex;
       if (spliced.suffix !== "") {
         closeOpenMarks();
@@ -738,27 +857,37 @@ function emphasisRunContinuation(
       }
 
       const next = content[index + 1];
-      if (next !== undefined && endsWithUnseparatedTag(nested, ctx) && startsWithLetter(renderContent(next, ctx))) {
+      if (
+        next !== undefined &&
+        endsWithUnseparatedTag(nested, ctx) &&
+        startsWithLetter(renderContent(next, ctx))
+      ) {
         result += " ";
       }
       continue;
     }
 
-    // A qualifying bibleLink's display override, or a qualifying
-    // abbreviation name, supplies both the rendered core and the marks
-    // driving this run's open/close state; every other shape reports marks
-    // from `item` itself. Re-checked here rather than threaded through from
-    // `isMarkRunCandidate`, whose type predicate has already narrowed
-    // `item` — safe because the other `item` accesses below (`.strong`,
-    // `.paragraph`) read a harmless `undefined` on a real bibleLink or abbr
-    // node, and both resolvers are cheap and pure.
+    // A qualifying bibleLink override or abbreviation name supplies both the
+    // rendered core and the marks driving this run's open/close state; every
+    // other shape reports marks from `item` itself. Re-resolved here rather
+    // than threaded through from `isMarkRunCandidate` — safe because both
+    // resolvers are cheap and pure, and because the `item` accesses below
+    // (`.strong`, `.paragraph`) read a harmless `undefined` on a real
+    // bibleLink or abbr node.
     let parts: RenderedParts;
     if (override) parts = renderBibleLinkParts(override, ctx);
-    else if (abbreviationName) parts = renderAbbreviationParts(abbreviationName, ctx);
+    else if (abbreviationName)
+      parts = renderAbbreviationParts(abbreviationName, ctx);
     else if ("content" in item) parts = renderNestedContentParts(item, ctx);
     else parts = renderTextObjectParts(item, ctx);
 
-    const spliced = spliceTrailingFootnoteSiblings(item, parts, content, index, ctx);
+    const spliced = spliceTrailingFootnoteSiblings(
+      item,
+      parts,
+      content,
+      index,
+      ctx,
+    );
     parts = { ...parts, suffix: spliced.suffix };
     index = spliced.lastIndex;
 
@@ -769,24 +898,25 @@ function emphasisRunContinuation(
     if (item.paragraph) closeOpenMarks();
     result += parts.prefix;
 
-    // A whitespace-only or absent core is never wrapped and is transparent
-    // to the open/close state — it neither opens nor closes a mark, so a
-    // same-marked node on either side of it still merges into one continuous
-    // span. This holds even for a whitespace-only *object* core that carries
-    // its own marks: such a core joins the hold rather than being written,
-    // per `EmphasisRunState`'s invariant. Dropping `transition.close` from
-    // that path is safe by construction, not merely convenient — `desired`
-    // is forced to `openMarks` whenever the core is blank, so the transition
-    // is empty on it.
+    // A whitespace-only or absent core is transparent to the open/close
+    // state, even when it carries marks of its own: it joins the hold rather
+    // than being written, per `EmphasisRunState`'s invariant, so a same-marked
+    // node on either side still merges into one span. Dropping
+    // `transition.close` from that path is safe by construction — `desired` is
+    // forced to `openMarks` whenever the core is blank, so the transition is
+    // empty on it.
     const isBlank = parts.core.trim() === "";
-    const desired = isBlank ? openMarks : emphasisStateOf(resolved ? resolved.marks : item.marks);
+    const desired = isBlank
+      ? openMarks
+      : emphasisStateOf(resolved ? resolved.marks : item.marks);
     const transition = emphasisTransition(openMarks, desired, bold, italic);
 
     if (isBlank) {
       pendingWhitespace += parts.core;
     } else {
       const { leading, core, trailing } = splitWhitespace(parts.core);
-      result += transition.close + pendingWhitespace + leading + transition.open + core;
+      result +=
+        transition.close + pendingWhitespace + leading + transition.open + core;
       pendingWhitespace = trailing;
     }
     openMarks = desired;
@@ -811,7 +941,11 @@ function emphasisRunContinuation(
     // `content[index]` after splicing, since a consumed textless-footnote
     // sibling never carries the tag this check looks for.
     const next = content[index + 1];
-    if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
+    if (
+      next !== undefined &&
+      endsWithUnseparatedTag(item, ctx) &&
+      startsWithLetter(renderContent(next, ctx))
+    ) {
       result += " ";
     }
   }
@@ -820,10 +954,10 @@ function emphasisRunContinuation(
 }
 
 /**
- * Render any Content to a string based on options. Shape checks run from
- * most specific (heading, subtitle, bibleLink, paragraph wrapper) to most
- * generic (nested content, then a bare text object), returning at the
- * first match.
+ * Renders any Content to a string. Shape checks run most specific first and
+ * return at the first match, because the generic nested-content and text-object
+ * tests at the bottom would match a heading, subtitle, bibleLink, abbr or
+ * paragraph wrapper too.
  */
 function renderContent(content: Content, ctx: RenderContext): string {
   if (typeof content === "string") {
@@ -837,7 +971,12 @@ function renderContent(content: Content, ctx: RenderContext): string {
       openMarks: { b: false, i: false },
       pendingWhitespace: "",
     });
-    const { close } = emphasisTransition(state.openMarks, { b: false, i: false }, bold, italic);
+    const { close } = emphasisTransition(
+      state.openMarks,
+      { b: false, i: false },
+      bold,
+      italic,
+    );
     return text + close + state.pendingWhitespace;
   }
 
@@ -874,7 +1013,8 @@ function renderContent(content: Content, ctx: RenderContext): string {
     return name === undefined ? content.abbr : renderContent(name, ctx);
   }
 
-  // Paragraph wrapper object - contains nested paragraph content (not a flag)
+  // The paragraph *wrapper*: `paragraph` holds nested content here, not the
+  // boolean start-of-paragraph flag a text object carries.
   if (
     "paragraph" in content &&
     content.paragraph !== undefined &&
@@ -883,7 +1023,6 @@ function renderContent(content: Content, ctx: RenderContext): string {
     return renderContent(content.paragraph, ctx);
   }
 
-  // Nested content object (content property with optional strong, morph, foot, etc.)
   if (
     "content" in content &&
     !("heading" in content) &&
@@ -892,7 +1031,6 @@ function renderContent(content: Content, ctx: RenderContext): string {
     return renderNestedContent(content as ContentNested, ctx);
   }
 
-  // Text object (may have paragraph flag, strong, morph, etc.)
   return renderTextObject(content as ContentObject, ctx);
 }
 
@@ -921,19 +1059,22 @@ function footnoteBodyContext(ctx: RenderContext): RenderContext {
  * below (a lone node) or the array branch's per-transition emission (several
  * adjacent nodes sharing delimiters via `emphasisTransition`).
  */
-function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): RenderedParts {
+function renderTextObjectParts(
+  obj: ContentObject,
+  ctx: RenderContext,
+): RenderedParts {
   let prefix = "";
   if (obj.paragraph) {
     // Text format needs a space before the marker to separate it from the
     // previous word's Strong's/morph
-    prefix = ctx.options.footnoteStyle === "inline"
-      ? " " + ctx.options.paragraphMarker
-      : ctx.options.paragraphMarker;
+    prefix =
+      ctx.options.footnoteStyle === "inline"
+        ? " " + ctx.options.paragraphMarker
+        : ctx.options.paragraphMarker;
   }
 
   let text = ctx.options.textOf(obj);
 
-  // Small caps render as uppercase in the text and markdown exports
   if (obj.marks?.includes("sc")) {
     text = text.toUpperCase();
   }
@@ -955,15 +1096,17 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
     const footIndex = ctx.footnotes.length;
     suffixParts.push(ctx.options.footnoteMarker(footIndex));
 
-    const footnoteContent = renderContent(obj.foot.content, footnoteBodyContext(ctx));
+    const footnoteContent = renderContent(
+      obj.foot.content,
+      footnoteBodyContext(ctx),
+    );
 
     if (ctx.options.footnoteStyle === "inline") {
-      // No space before { so °{...} stays a clean search/replace target
       suffixParts.push(`{${footnoteContent}}`);
     } else {
       const prefixLabel = ctx.footnotePrefix || `${ctx.verseNum}.`;
       ctx.footnotes.push(
-        `- ${ctx.options.footnoteMarker(footIndex)} ${prefixLabel} ${footnoteContent}`
+        `- ${ctx.options.footnoteMarker(footIndex)} ${prefixLabel} ${footnoteContent}`,
       );
     }
   }
@@ -984,7 +1127,8 @@ function renderTextObjectParts(obj: ContentObject, ctx: RenderContext): Rendered
 }
 
 /**
- * Render a ContentObject (text with optional strong, morph, foot, paragraph, break)
+ * Renders a lone ContentObject, applying the "b"/"i" wrap that
+ * `renderTextObjectParts` defers to its caller.
  */
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   const { prefix, core, suffix } = renderTextObjectParts(obj, ctx);
@@ -999,7 +1143,10 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
  * its same-marked neighbors; self-wrapping would instead emit a redundant
  * `_ _` and a broken `__` where the two spans meet.
  */
-function renderBibleLinkParts(override: ContentObject, ctx: RenderContext): RenderedParts {
+function renderBibleLinkParts(
+  override: ContentObject,
+  ctx: RenderContext,
+): RenderedParts {
   return renderTextObjectParts(override, ctx);
 }
 
@@ -1011,7 +1158,10 @@ function renderBibleLinkParts(override: ContentObject, ctx: RenderContext): Rend
  * source edition prints one italic run, `_om. here but add at 16:25–27_`,
  * and self-wrapping would split it into `_om._ _here but add at 16:25–27_`.
  */
-function renderAbbreviationParts(name: ContentObject, ctx: RenderContext): RenderedParts {
+function renderAbbreviationParts(
+  name: ContentObject,
+  ctx: RenderContext,
+): RenderedParts {
   return renderTextObjectParts(name, ctx);
 }
 
@@ -1038,7 +1188,11 @@ function renderNestedPrefix(obj: ContentNested, ctx: RenderContext): string {
  * calls this function after. The already-rendered `core` is passed in but
  * not read.
  */
-function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string): string {
+function renderNestedSuffix(
+  obj: ContentNested,
+  ctx: RenderContext,
+  core: string,
+): string {
   const suffixParts: string[] = [];
 
   // Same footnote/Strong's ordering rationale as `renderTextObjectParts`'s
@@ -1047,14 +1201,17 @@ function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string
     const footIndex = ctx.footnotes.length;
     suffixParts.push(ctx.options.footnoteMarker(footIndex));
 
-    const footnoteContent = renderContent(obj.foot.content, footnoteBodyContext(ctx));
+    const footnoteContent = renderContent(
+      obj.foot.content,
+      footnoteBodyContext(ctx),
+    );
 
     if (ctx.options.footnoteStyle === "inline") {
       suffixParts.push(`{${footnoteContent}}`);
     } else {
       const prefixLabel = ctx.footnotePrefix || `${ctx.verseNum}.`;
       ctx.footnotes.push(
-        `- ${ctx.options.footnoteMarker(footIndex)} ${prefixLabel} ${footnoteContent}`
+        `- ${ctx.options.footnoteMarker(footIndex)} ${prefixLabel} ${footnoteContent}`,
       );
     }
   }
@@ -1067,7 +1224,6 @@ function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string
     suffixParts.push(` (${obj.morph})`);
   }
 
-  // Lemma is included when Strong's are shown, since the two are related
   if (obj.lemma && ctx.options.includeStrongs) {
     suffixParts.push(` [${obj.lemma}]`);
   }
@@ -1088,7 +1244,10 @@ function renderNestedSuffix(obj: ContentNested, ctx: RenderContext, core: string
  * treat as merge-eligible (own top-level marks, or non-array content), both
  * of which render `obj.content` self-contained and sealed.
  */
-function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): RenderedParts {
+function renderNestedContentParts(
+  obj: ContentNested,
+  ctx: RenderContext,
+): RenderedParts {
   const core = wrapSuperscript(renderContent(obj.content, ctx), obj.marks, ctx);
   return {
     prefix: renderNestedPrefix(obj, ctx),
@@ -1098,8 +1257,8 @@ function renderNestedContentParts(obj: ContentNested, ctx: RenderContext): Rende
 }
 
 /**
- * Render a ContentNested — like renderTextObject, but the payload is nested
- * content rather than a text property.
+ * Renders a lone ContentNested — like `renderTextObject`, but the payload is
+ * nested content rather than a text property.
  */
 function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
   const { prefix, core, suffix } = renderNestedContentParts(obj, ctx);
@@ -1117,11 +1276,13 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
  * for every siglum it prints.
  */
 function readAbbreviations(
-  versionDir: string
+  versionDir: string,
 ): ReadonlyMap<string, Content> | undefined {
   const versionPath = path.join(versionDir, "_version.json");
   if (!fs.existsSync(versionPath)) return undefined;
-  const version: BibleVersion = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+  const version: BibleVersion = JSON.parse(
+    fs.readFileSync(versionPath, "utf-8"),
+  );
   if (!version.abbr?.length) return undefined;
   return new Map(version.abbr.map((entry) => [entry._id, entry.name]));
 }
@@ -1136,7 +1297,9 @@ function readAbbreviations(
 function declaredScript(versionDir: string): BibleVersion["script"] {
   const versionPath = path.join(versionDir, "_version.json");
   if (!fs.existsSync(versionPath)) return undefined;
-  const version: BibleVersion = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+  const version: BibleVersion = JSON.parse(
+    fs.readFileSync(versionPath, "utf-8"),
+  );
   return version.script;
 }
 
@@ -1145,7 +1308,7 @@ function declaredScript(versionDir: string): BibleVersion["script"] {
  */
 function convertVerseToText(
   verse: VerseSchema,
-  abbreviations?: ReadonlyMap<string, Content>
+  abbreviations?: ReadonlyMap<string, Content>,
 ): string {
   const chapter = verse.chapter.toString().padStart(3, "0");
   const verseNum = verse.verse.toString().padStart(3, "0");
@@ -1175,7 +1338,7 @@ function convertVerseToMarkdown(
   verse: VerseSchema,
   chapterFootnotes: string[],
   abbreviations?: ReadonlyMap<string, Content>,
-  options: RenderOptions = MARKDOWN_OPTIONS
+  options: RenderOptions = MARKDOWN_OPTIONS,
 ): string {
   const ctx: RenderContext = {
     options,
@@ -1258,12 +1421,12 @@ function convertVerseToMarkdown(
   // characters that are about to move.
   for (let index = firstOwnFootnote; index < chapterFootnotes.length; index++) {
     chapterFootnotes[index] = resolveUnparsableEmphasisSpans(
-      chapterFootnotes[index]
+      chapterFootnotes[index],
     );
   }
 
   return resolveUnparsableEmphasisSpans(
-    `${leadingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`
+    `${leadingPrefix}${paragraphPrefix}<sup>${verse.verse}</sup> ${text}`,
   );
 }
 
@@ -1278,18 +1441,18 @@ function convertVerseToMarkdown(
  */
 async function convertBibleVersion(
   version: string,
-  bookId?: string
+  bookId?: string,
 ): Promise<void> {
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
-    version
+    version,
   );
   const outputDir = path.join(
     path.dirname(__dirname),
     "exports",
     "text-vbv-strongs",
-    version
+    version,
   );
 
   if (!fs.existsSync(outputDir)) {
@@ -1301,7 +1464,7 @@ async function convertBibleVersion(
   const files = fs
     .readdirSync(inputDir)
     .filter(
-      (file: string) => file.endsWith(".json") && file !== "_version.json"
+      (file: string) => file.endsWith(".json") && file !== "_version.json",
     )
     .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
@@ -1312,7 +1475,9 @@ async function convertBibleVersion(
     console.log(`Converting ${inputPath} to ${outputPath}`);
 
     const data: VerseSchema[] = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
-    const textLines = data.map((verse) => convertVerseToText(verse, abbreviations));
+    const textLines = data.map((verse) =>
+      convertVerseToText(verse, abbreviations),
+    );
 
     await writeFileAtomic(outputPath, textLines.join("\n"));
   }
@@ -1333,7 +1498,7 @@ async function convertBibleVersion(
 async function convertBibleVersionToMarkdown(
   version: string,
   bookId?: string,
-  transliterated = false
+  transliterated = false,
 ): Promise<void> {
   const options = transliterated
     ? MARKDOWN_TRANSLITERATED_OPTIONS
@@ -1341,13 +1506,13 @@ async function convertBibleVersionToMarkdown(
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
-    version
+    version,
   );
   const outputDir = path.join(
     path.dirname(__dirname),
     "exports",
     "markdown-par",
-    transliterated ? `${version}-Transliterated` : version
+    transliterated ? `${version}-Transliterated` : version,
   );
 
   if (!fs.existsSync(outputDir)) {
@@ -1359,14 +1524,14 @@ async function convertBibleVersionToMarkdown(
   const files = fs
     .readdirSync(inputDir)
     .filter(
-      (file: string) => file.endsWith(".json") && file !== "_version.json"
+      (file: string) => file.endsWith(".json") && file !== "_version.json",
     )
     .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
   for (const file of files) {
     const inputPath = path.join(inputDir, file);
     const verses: VerseSchema[] = JSON.parse(
-      fs.readFileSync(inputPath, "utf-8")
+      fs.readFileSync(inputPath, "utf-8"),
     );
 
     if (verses.length === 0) continue;
@@ -1380,7 +1545,7 @@ async function convertBibleVersionToMarkdown(
     }
 
     const sortedChapters = Array.from(chapters.entries()).sort(
-      ([a], [b]) => a - b
+      ([a], [b]) => a - b,
     );
     const markdownLines: string[] = [];
 
@@ -1432,7 +1597,7 @@ async function convertBibleVersionToMarkdown(
           };
           const headingText = renderContent(firstItem.heading, ctx);
           const marker = markdownHeadingMarker(
-            (firstItem as ContentHeading).type
+            (firstItem as ContentHeading).type,
           );
           markdownLines.push("");
           markdownLines.push(`${marker} ${headingText}`);
@@ -1469,7 +1634,7 @@ async function convertBibleVersionToMarkdown(
           verse,
           chapterFootnotes,
           abbreviations,
-          options
+          options,
         );
         markdownLines.push(verseText);
       }
@@ -1488,7 +1653,9 @@ async function convertBibleVersionToMarkdown(
     const outputPath = path.join(outputDir, file.replace(".json", ".md"));
     await writeFileAtomic(
       outputPath,
-      markdownLines.map(resolveUnparsableEmphasisSpans).join("\n") + "\n"
+      await formatMarkdownText(
+        markdownLines.map(resolveUnparsableEmphasisSpans).join("\n") + "\n",
+      ),
     );
     console.log(`Markdown conversion complete: ${outputPath}`);
   }

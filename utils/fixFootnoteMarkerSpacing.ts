@@ -156,7 +156,11 @@ function rewriteArrayLevel(
     const stripped = sourceText.slice(0, -run.length);
 
     let j = i + 1;
-    while (j < working.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
+    while (
+      j < working.length &&
+      (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)
+    )
+      j++;
 
     if (j >= working.length || !isRealAttachmentPoint(shapes[j])) {
       if (endOfLevelIsSafeToDelete) {
@@ -228,18 +232,29 @@ function rewriteArrayLevel(
  * why `heading`, `subtitle`, and `foot.content` all stay `true`.
  */
 function rewriteNode(node: unknown, counts: FixCounts): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts, true);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts, true);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts, true);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts, true);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content, counts, false);
   }
 
   const foot = record.foot as { content?: unknown } | undefined;
   if (foot?.content !== undefined) {
-    record.foot = { ...foot, content: rewriteLevel(foot.content, counts, true) };
+    record.foot = {
+      ...foot,
+      content: rewriteLevel(foot.content, counts, true),
+    };
   }
 
   return record;
@@ -252,7 +267,11 @@ function rewriteNode(node: unknown, counts: FixCounts): unknown {
  * nested levels, then resolves whitespace at this level via {@link
  * rewriteArrayLevel}.
  */
-function rewriteLevel(content: unknown, counts: FixCounts, endOfLevelIsSafeToDelete: EndOfLevelPolicy): unknown {
+function rewriteLevel(
+  content: unknown,
+  counts: FixCounts,
+  endOfLevelIsSafeToDelete: EndOfLevelPolicy,
+): unknown {
   if (Array.isArray(content)) {
     const children = content.map((node) => rewriteNode(node, counts));
     return rewriteArrayLevel(children, counts, endOfLevelIsSafeToDelete);
@@ -279,9 +298,11 @@ function rewriteLevel(content: unknown, counts: FixCounts, endOfLevelIsSafeToDel
  *   fixed), whether anything changed, and every finding this run declined to
  *   act on, with its own {@link SkipReason}
  */
-export function relocateFootnoteMarkerSpacesInContent(
-  content: Content,
-): { content: Content; changed: boolean; skipped: SkipReason[] } {
+export function relocateFootnoteMarkerSpacesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+  skipped: SkipReason[];
+} {
   const counts: FixCounts = { fixed: 0, skipped: [] };
   const rewritten = rewriteLevel(content, counts, true) as Content;
   return counts.fixed > 0

@@ -22,7 +22,11 @@ describe("tokensOf", () => {
       "",
     ];
     for (const shape of shapes) {
-      expect(tokensOf(shape).map((run) => run.text).join("")).toBe(shape);
+      expect(
+        tokensOf(shape)
+          .map((run) => run.text)
+          .join(""),
+      ).toBe(shape);
     }
   });
 

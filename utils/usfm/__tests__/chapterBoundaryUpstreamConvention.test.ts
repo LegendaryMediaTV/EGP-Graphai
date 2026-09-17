@@ -1,7 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { segmentVerses } from "../segmentVerses";
 import { readFixture } from "./fixtures";
-import { fixedOutputMatchesRule, ParagraphBreakBoundary, upstreamMatchesRule } from "./upstreamHeadConvention";
+import {
+  fixedOutputMatchesRule,
+  ParagraphBreakBoundary,
+  upstreamMatchesRule,
+} from "./upstreamHeadConvention";
 
 /**
  * A `\b`-less chapter boundary still gets the "clean cut, chapter paragraph
@@ -28,12 +32,18 @@ import { fixedOutputMatchesRule, ParagraphBreakBoundary, upstreamMatchesRule } f
  */
 describe("chapter-boundary handling, checked against a real WEBUS2020 fixture", () => {
   it("should reproduce Psalm 33:22→34:1's own real, named exception: HEAD's own textless footnote-anchored node hides the real paragraph start from upstreamMatchesRule's heading heuristic, but segmentVerses() itself still gets it right", () => {
-    const records = segmentVerses(readFixture("psalm-33-22-34-1-textless-footnote-node.usfm"), "PSA");
+    const records = segmentVerses(
+      readFixture("psalm-33-22-34-1-textless-footnote-node.usfm"),
+      "PSA",
+    );
     const upstream = [
       {
         chapter: 33,
         verse: 22,
-        content: [{ text: "Let your loving kindness be on us, Yahweh,", break: true }, "since we have hoped in you."],
+        content: [
+          { text: "Let your loving kindness be on us, Yahweh,", break: true },
+          "since we have hoped in you.",
+        ],
       },
       {
         chapter: 34,
@@ -47,7 +57,8 @@ describe("chapter-boundary handling, checked against a real WEBUS2020 fixture", 
             paragraph: true,
             foot: {
               type: "stu",
-              content: "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).",
+              content:
+                "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).",
             },
           },
           { text: "I will bless Yahweh at all times.", break: true },
@@ -55,7 +66,12 @@ describe("chapter-boundary handling, checked against a real WEBUS2020 fixture", 
         ],
       },
     ];
-    const boundary: ParagraphBreakBoundary = { beforeChapter: 33, beforeVerse: 22, afterChapter: 34, afterVerse: 1 };
+    const boundary: ParagraphBreakBoundary = {
+      beforeChapter: 33,
+      beforeVerse: 22,
+      afterChapter: 34,
+      afterVerse: 1,
+    };
 
     expect(upstreamMatchesRule(upstream, boundary)).toBe(false);
     expect(fixedOutputMatchesRule(records, boundary)).toBe(true);

@@ -54,7 +54,9 @@ function readRegistry(versionDir: string): {
   const versionPath = path.join(versionDir, "_version.json");
   if (!fs.existsSync(versionPath)) return { ids: new Set(), duplicates: [] };
 
-  const version: BibleVersion = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+  const version: BibleVersion = JSON.parse(
+    fs.readFileSync(versionPath, "utf-8"),
+  );
   const counts = new Map<string, number>();
   for (const entry of version.abbr ?? ([] as Abbreviation[])) {
     counts.set(entry._id, (counts.get(entry._id) ?? 0) + 1);
@@ -98,7 +100,9 @@ function collectIds(content: unknown, into: string[]): void {
  *
  * @param versionDir - Absolute or repo-relative path to a `bible-versions/<VERSION>` folder
  */
-export function findUnknownAbbreviations(versionDir: string): AbbreviationAudit {
+export function findUnknownAbbreviations(
+  versionDir: string,
+): AbbreviationAudit {
   const { ids, duplicates } = readRegistry(versionDir);
   const findings: UnknownAbbreviationFinding[] = [];
   let scanned = 0;
@@ -109,7 +113,9 @@ export function findUnknownAbbreviations(versionDir: string): AbbreviationAudit 
     .sort();
 
   for (const file of files) {
-    const verses = JSON.parse(fs.readFileSync(path.join(versionDir, file), "utf-8"));
+    const verses = JSON.parse(
+      fs.readFileSync(path.join(versionDir, file), "utf-8"),
+    );
     if (!Array.isArray(verses)) continue;
 
     for (const verse of verses) {
@@ -133,7 +139,9 @@ export function findUnknownAbbreviations(versionDir: string): AbbreviationAudit 
 }
 
 /** One finding as a single console line. */
-export function formatUnknownAbbreviation(finding: UnknownAbbreviationFinding): string {
+export function formatUnknownAbbreviation(
+  finding: UnknownAbbreviationFinding,
+): string {
   return `${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}): no registry entry for "${finding.id}"`;
 }
 
@@ -159,7 +167,9 @@ const registeredIdCache = new Map<string, ReadonlySet<string>>();
  * @param versionDir - Absolute or repo-relative path to a `bible-versions/<VERSION>` folder
  * @returns The ids defined, or an empty set for a version declaring no registry
  */
-export function registeredAbbreviationIds(versionDir: string): ReadonlySet<string> {
+export function registeredAbbreviationIds(
+  versionDir: string,
+): ReadonlySet<string> {
   const cached = registeredIdCache.get(versionDir);
   if (cached !== undefined) return cached;
 

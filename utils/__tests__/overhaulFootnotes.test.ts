@@ -3,7 +3,12 @@ import * as os from "os";
 import * as path from "path";
 import { describe, expect, it } from "vitest";
 import VerseSchema from "../../types/VerseSchema";
-import { applyFootnoteOverhaul, computeFootnoteOverhaul, findSwallowedFlags, parseOverhaulArgs } from "../overhaulFootnotes";
+import {
+  applyFootnoteOverhaul,
+  computeFootnoteOverhaul,
+  findSwallowedFlags,
+  parseOverhaulArgs,
+} from "../overhaulFootnotes";
 
 /**
  * Every fixture body below lands on an already-established `classifyFootnote`
@@ -12,7 +17,11 @@ import { applyFootnoteOverhaul, computeFootnoteOverhaul, findSwallowedFlags, par
  */
 
 /** One book file written under a temp `bible-versions/<fakeVersionId>` directory, matching the on-disk shape `overhaulFootnotes.ts` reads. */
-function writeBookFixture(versionDir: string, file: string, records: VerseSchema[]): void {
+function writeBookFixture(
+  versionDir: string,
+  file: string,
+  records: VerseSchema[],
+): void {
   fs.writeFileSync(path.join(versionDir, file), JSON.stringify(records));
 }
 
@@ -33,13 +42,19 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
         content: [
           {
             text: "God",
-            foot: { type: "stu", content: 'another manuscript reads "the LORD"' },
+            foot: {
+              type: "stu",
+              content: 'another manuscript reads "the LORD"',
+            },
           },
         ],
       },
     ];
     writeBookFixture(versionDir, "01-GEN.json", records);
-    const before = fs.readFileSync(path.join(versionDir, "01-GEN.json"), "utf-8");
+    const before = fs.readFileSync(
+      path.join(versionDir, "01-GEN.json"),
+      "utf-8",
+    );
 
     const result = computeFootnoteOverhaul(versionDir);
 
@@ -53,7 +68,9 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
         to: "var",
       },
     ]);
-    expect(fs.readFileSync(path.join(versionDir, "01-GEN.json"), "utf-8")).toBe(before);
+    expect(fs.readFileSync(path.join(versionDir, "01-GEN.json"), "utf-8")).toBe(
+      before,
+    );
   });
 
   it("should report zero changes for a footnote whose stored type already agrees with classifyFootnote", () => {
@@ -63,7 +80,12 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
         book: "GEN",
         chapter: 1,
         verse: 2,
-        content: [{ text: "the earth", foot: { type: "stu", content: "A cubit is about 18 inches." } }],
+        content: [
+          {
+            text: "the earth",
+            foot: { type: "stu", content: "A cubit is about 18 inches." },
+          },
+        ],
       },
     ];
     writeBookFixture(versionDir, "01-GEN.json", records);
@@ -73,7 +95,10 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
 
   it("should ignore _version.json, matching crossChapterLinks.ts's own readVersionBookFiles convention", () => {
     const versionDir = makeTempVersionDir();
-    fs.writeFileSync(path.join(versionDir, "_version.json"), JSON.stringify({ _id: "FAKE" }));
+    fs.writeFileSync(
+      path.join(versionDir, "_version.json"),
+      JSON.stringify({ _id: "FAKE" }),
+    );
 
     expect(() => computeFootnoteOverhaul(versionDir)).not.toThrow();
     expect(computeFootnoteOverhaul(versionDir).changes).toEqual([]);
@@ -90,9 +115,29 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
           // A stu -> xrf upgrade, not a downgrade to stu, so it registers under this
           // suite's own default options — see the dedicated no-downgrade describe
           // block below for the case this fixture deliberately avoids.
-          { heading: [{ text: "Superscription", foot: { type: "stu", content: "Exodus 30:12" } }] },
-          { subtitle: [{ text: "A prayer.", foot: { type: "var", content: "or, correctly translated a plea" } }] },
-          { text: "Lord, you have been our dwelling place", foot: { type: "trn", content: "another manuscript reads home" } },
+          {
+            heading: [
+              {
+                text: "Superscription",
+                foot: { type: "stu", content: "Exodus 30:12" },
+              },
+            ],
+          },
+          {
+            subtitle: [
+              {
+                text: "A prayer.",
+                foot: {
+                  type: "var",
+                  content: "or, correctly translated a plea",
+                },
+              },
+            ],
+          },
+          {
+            text: "Lord, you have been our dwelling place",
+            foot: { type: "trn", content: "another manuscript reads home" },
+          },
         ],
       },
     ];
@@ -103,9 +148,21 @@ describe("computeFootnoteOverhaul — preview, read-only", () => {
     expect(changes).toHaveLength(3);
     expect(changes).toEqual(
       expect.arrayContaining([
-        expect.objectContaining({ body: "Exodus 30:12", from: "stu", to: "xrf" }),
-        expect.objectContaining({ body: "or, correctly translated a plea", from: "var", to: "trn" }),
-        expect.objectContaining({ body: "another manuscript reads home", from: "trn", to: "var" }),
+        expect.objectContaining({
+          body: "Exodus 30:12",
+          from: "stu",
+          to: "xrf",
+        }),
+        expect.objectContaining({
+          body: "or, correctly translated a plea",
+          from: "var",
+          to: "trn",
+        }),
+        expect.objectContaining({
+          body: "another manuscript reads home",
+          from: "trn",
+          to: "var",
+        }),
       ]),
     );
   });
@@ -119,7 +176,15 @@ describe("applyFootnoteOverhaul — --fix, writes changed books only", () => {
         book: "GEN",
         chapter: 1,
         verse: 1,
-        content: [{ text: "God", foot: { type: "stu", content: 'another manuscript reads "the LORD"' } }],
+        content: [
+          {
+            text: "God",
+            foot: {
+              type: "stu",
+              content: 'another manuscript reads "the LORD"',
+            },
+          },
+        ],
       },
     ]);
     writeBookFixture(versionDir, "19-PSA.json", [
@@ -127,16 +192,28 @@ describe("applyFootnoteOverhaul — --fix, writes changed books only", () => {
         book: "PSA",
         chapter: 1,
         verse: 1,
-        content: [{ text: "blessed", foot: { type: "stu", content: "A cubit is about 18 inches." } }],
+        content: [
+          {
+            text: "blessed",
+            foot: { type: "stu", content: "A cubit is about 18 inches." },
+          },
+        ],
       },
     ]);
-    const psalmBefore = fs.readFileSync(path.join(versionDir, "19-PSA.json"), "utf-8");
+    const psalmBefore = fs.readFileSync(
+      path.join(versionDir, "19-PSA.json"),
+      "utf-8",
+    );
 
     await applyFootnoteOverhaul(versionDir);
 
-    const genesisAfter = JSON.parse(fs.readFileSync(path.join(versionDir, "01-GEN.json"), "utf-8"));
+    const genesisAfter = JSON.parse(
+      fs.readFileSync(path.join(versionDir, "01-GEN.json"), "utf-8"),
+    );
     expect(genesisAfter[0].content[0].foot.type).toBe("var");
-    expect(fs.readFileSync(path.join(versionDir, "19-PSA.json"), "utf-8")).toBe(psalmBefore);
+    expect(fs.readFileSync(path.join(versionDir, "19-PSA.json"), "utf-8")).toBe(
+      psalmBefore,
+    );
   });
 
   it("should report zero further changes on a second --fix run against its own just-fixed output — the same fixed-point proof crossChapterLinks.test.ts already uses for the sibling tool", async () => {
@@ -146,7 +223,15 @@ describe("applyFootnoteOverhaul — --fix, writes changed books only", () => {
         book: "GEN",
         chapter: 1,
         verse: 1,
-        content: [{ text: "God", foot: { type: "stu", content: 'another manuscript reads "the LORD"' } }],
+        content: [
+          {
+            text: "God",
+            foot: {
+              type: "stu",
+              content: 'another manuscript reads "the LORD"',
+            },
+          },
+        ],
       },
     ]);
 
@@ -169,7 +254,9 @@ describe("computeFootnoteOverhaul — the no-downgrade rule (stu is a default, n
         // A bare gloss with no classification signal of its own — classifyFootnote's
         // default. See overhaulFootnotes.ts's own header comment for why this must
         // not downgrade to stu.
-        content: [{ text: "the sky", foot: { type: "trn", content: "expanse" } }],
+        content: [
+          { text: "the sky", foot: { type: "trn", content: "expanse" } },
+        ],
       },
     ]);
 
@@ -184,7 +271,13 @@ describe("computeFootnoteOverhaul — the no-downgrade rule (stu is a default, n
         chapter: 1,
         verse: 1,
         content: [
-          { text: "God", foot: { type: "stu", content: 'another manuscript reads "the LORD"' } },
+          {
+            text: "God",
+            foot: {
+              type: "stu",
+              content: 'another manuscript reads "the LORD"',
+            },
+          },
           { text: "the heavens", foot: { type: "trn", content: "expanse" } },
         ],
       },
@@ -193,32 +286,65 @@ describe("computeFootnoteOverhaul — the no-downgrade rule (stu is a default, n
     const { changes } = computeFootnoteOverhaul(versionDir);
 
     expect(changes).toEqual([
-      { book: "GEN", chapter: 1, verse: 1, body: 'another manuscript reads "the LORD"', from: "stu", to: "var" },
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        body: 'another manuscript reads "the LORD"',
+        from: "stu",
+        to: "var",
+      },
     ]);
   });
 
   it("should still allow upgrading a stored stu to a real type — the no-downgrade rule only ever protects a non-stu stored type", () => {
     const versionDir = makeTempVersionDir();
     writeBookFixture(versionDir, "01-GEN.json", [
-      { book: "GEN", chapter: 1, verse: 1, content: [{ text: "God", foot: { type: "stu", content: "Exodus 30:12" } }] },
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "God", foot: { type: "stu", content: "Exodus 30:12" } },
+        ],
+      },
     ]);
 
     expect(computeFootnoteOverhaul(versionDir).changes).toEqual([
-      { book: "GEN", chapter: 1, verse: 1, body: "Exodus 30:12", from: "stu", to: "xrf" },
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        body: "Exodus 30:12",
+        from: "stu",
+        to: "xrf",
+      },
     ]);
   });
 
   it("should carry the same no-downgrade protection through applyFootnoteOverhaul, leaving the file on disk untouched", async () => {
     const versionDir = makeTempVersionDir();
     writeBookFixture(versionDir, "16-NEH.json", [
-      { book: "NEH", chapter: 9, verse: 6, content: [{ text: "the sky", foot: { type: "trn", content: "expanse" } }] },
+      {
+        book: "NEH",
+        chapter: 9,
+        verse: 6,
+        content: [
+          { text: "the sky", foot: { type: "trn", content: "expanse" } },
+        ],
+      },
     ]);
-    const before = fs.readFileSync(path.join(versionDir, "16-NEH.json"), "utf-8");
+    const before = fs.readFileSync(
+      path.join(versionDir, "16-NEH.json"),
+      "utf-8",
+    );
 
     const result = await applyFootnoteOverhaul(versionDir);
 
     expect(result.changes).toEqual([]);
-    expect(fs.readFileSync(path.join(versionDir, "16-NEH.json"), "utf-8")).toBe(before);
+    expect(fs.readFileSync(path.join(versionDir, "16-NEH.json"), "utf-8")).toBe(
+      before,
+    );
   });
 });
 
@@ -226,11 +352,27 @@ describe("computeFootnoteOverhaul — --hard-reset, the from-scratch re-derivati
   it("should replace a non-stu stored type with stu, the one thing the default mode can never do", () => {
     const versionDir = makeTempVersionDir();
     writeBookFixture(versionDir, "16-NEH.json", [
-      { book: "NEH", chapter: 9, verse: 6, content: [{ text: "the sky", foot: { type: "trn", content: "expanse" } }] },
+      {
+        book: "NEH",
+        chapter: 9,
+        verse: 6,
+        content: [
+          { text: "the sky", foot: { type: "trn", content: "expanse" } },
+        ],
+      },
     ]);
 
-    expect(computeFootnoteOverhaul(versionDir, { hardReset: true }).changes).toEqual([
-      { book: "NEH", chapter: 9, verse: 6, body: "expanse", from: "trn", to: "stu" },
+    expect(
+      computeFootnoteOverhaul(versionDir, { hardReset: true }).changes,
+    ).toEqual([
+      {
+        book: "NEH",
+        chapter: 9,
+        verse: 6,
+        body: "expanse",
+        from: "trn",
+        to: "stu",
+      },
     ]);
   });
 
@@ -242,37 +384,77 @@ describe("computeFootnoteOverhaul — --hard-reset, the from-scratch re-derivati
         chapter: 1,
         verse: 1,
         content: [
-          { text: "God", foot: { type: "stu", content: 'another manuscript reads "the LORD"' } },
+          {
+            text: "God",
+            foot: {
+              type: "stu",
+              content: 'another manuscript reads "the LORD"',
+            },
+          },
           { text: "the heavens", foot: { type: "trn", content: "expanse" } },
         ],
       },
     ]);
 
-    expect(computeFootnoteOverhaul(versionDir, { hardReset: true }).changes).toEqual([
-      { book: "GEN", chapter: 1, verse: 1, body: 'another manuscript reads "the LORD"', from: "stu", to: "var" },
-      { book: "GEN", chapter: 1, verse: 1, body: "expanse", from: "trn", to: "stu" },
+    expect(
+      computeFootnoteOverhaul(versionDir, { hardReset: true }).changes,
+    ).toEqual([
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        body: 'another manuscript reads "the LORD"',
+        from: "stu",
+        to: "var",
+      },
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        body: "expanse",
+        from: "trn",
+        to: "stu",
+      },
     ]);
   });
 
   it("should leave a footnote whose stored type the classifier already agrees with alone, so a reset is not a rewrite of everything", () => {
     const versionDir = makeTempVersionDir();
     writeBookFixture(versionDir, "01-GEN.json", [
-      { book: "GEN", chapter: 1, verse: 1, content: [{ text: "God", foot: { type: "xrf", content: "Exodus 30:12" } }] },
+      {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "God", foot: { type: "xrf", content: "Exodus 30:12" } },
+        ],
+      },
     ]);
 
-    expect(computeFootnoteOverhaul(versionDir, { hardReset: true }).changes).toEqual([]);
+    expect(
+      computeFootnoteOverhaul(versionDir, { hardReset: true }).changes,
+    ).toEqual([]);
   });
 
   it("should write the reset through applyFootnoteOverhaul", async () => {
     const versionDir = makeTempVersionDir();
     writeBookFixture(versionDir, "16-NEH.json", [
-      { book: "NEH", chapter: 9, verse: 6, content: [{ text: "the sky", foot: { type: "trn", content: "expanse" } }] },
+      {
+        book: "NEH",
+        chapter: 9,
+        verse: 6,
+        content: [
+          { text: "the sky", foot: { type: "trn", content: "expanse" } },
+        ],
+      },
     ]);
 
     const result = await applyFootnoteOverhaul(versionDir, { hardReset: true });
 
     expect(result.changes).toHaveLength(1);
-    const written = JSON.parse(fs.readFileSync(path.join(versionDir, "16-NEH.json"), "utf-8"));
+    const written = JSON.parse(
+      fs.readFileSync(path.join(versionDir, "16-NEH.json"), "utf-8"),
+    );
     expect(written[0].content[0].foot.type).toBe("stu");
   });
 });
@@ -284,12 +466,24 @@ describe("parseOverhaulArgs — the --fix-requires-a-version guard, matching aud
   });
 
   it("should parse a bare version with fix and hard-reset defaulting to false", () => {
-    expect(parseOverhaulArgs(["WEBUS2020"])).toEqual({ fix: false, hardReset: false, versionArg: "WEBUS2020" });
+    expect(parseOverhaulArgs(["WEBUS2020"])).toEqual({
+      fix: false,
+      hardReset: false,
+      versionArg: "WEBUS2020",
+    });
   });
 
   it("should parse a version alongside --fix in either order", () => {
-    expect(parseOverhaulArgs(["WEBUS2020", "--fix"])).toEqual({ fix: true, hardReset: false, versionArg: "WEBUS2020" });
-    expect(parseOverhaulArgs(["--fix", "WEBUS2020"])).toEqual({ fix: true, hardReset: false, versionArg: "WEBUS2020" });
+    expect(parseOverhaulArgs(["WEBUS2020", "--fix"])).toEqual({
+      fix: true,
+      hardReset: false,
+      versionArg: "WEBUS2020",
+    });
+    expect(parseOverhaulArgs(["--fix", "WEBUS2020"])).toEqual({
+      fix: true,
+      hardReset: false,
+      versionArg: "WEBUS2020",
+    });
   });
 
   it("should parse --hard-reset on its own and alongside --fix, in any order", () => {
@@ -314,20 +508,30 @@ describe("parseOverhaulArgs — the --fix-requires-a-version guard, matching aud
  */
 describe("findSwallowedFlags — npm eats a flag unless a bare -- precedes it", () => {
   it("should report a flag npm consumed instead of forwarding", () => {
-    expect(findSwallowedFlags(["ASV1901"], { npm_config_fix: "true" })).toEqual(["--fix"]);
-    expect(findSwallowedFlags(["ASV1901"], { npm_config_hard_reset: "true" })).toEqual(["--hard-reset"]);
+    expect(findSwallowedFlags(["ASV1901"], { npm_config_fix: "true" })).toEqual(
+      ["--fix"],
+    );
+    expect(
+      findSwallowedFlags(["ASV1901"], { npm_config_hard_reset: "true" }),
+    ).toEqual(["--hard-reset"]);
   });
 
   it("should report both when npm consumed both", () => {
-    expect(findSwallowedFlags(["ASV1901"], { npm_config_fix: "true", npm_config_hard_reset: "true" })).toEqual([
-      "--fix",
-      "--hard-reset",
-    ]);
+    expect(
+      findSwallowedFlags(["ASV1901"], {
+        npm_config_fix: "true",
+        npm_config_hard_reset: "true",
+      }),
+    ).toEqual(["--fix", "--hard-reset"]);
   });
 
   it("should report nothing when the flag actually arrived, whatever npm also recorded", () => {
-    expect(findSwallowedFlags(["ASV1901", "--fix"], { npm_config_fix: "true" })).toEqual([]);
-    expect(findSwallowedFlags(["ASV1901", "--hard-reset", "--fix"], {})).toEqual([]);
+    expect(
+      findSwallowedFlags(["ASV1901", "--fix"], { npm_config_fix: "true" }),
+    ).toEqual([]);
+    expect(
+      findSwallowedFlags(["ASV1901", "--hard-reset", "--fix"], {}),
+    ).toEqual([]);
   });
 
   it("should report nothing outside npm, where the script is invoked directly", () => {

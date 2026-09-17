@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { cellsFor, corpusVerses, declaredScheme, verseSequences } from "../corpusTokens";
+import {
+  cellsFor,
+  corpusVerses,
+  declaredScheme,
+  verseSequences,
+} from "../corpusTokens";
 import Content from "../../types/Content";
 
 /**
@@ -20,7 +25,8 @@ const KAI = greek(0x3ba, 0x3b1, 0x1f76);
 const scheme = declaredScheme("BYZ2026")!.scheme;
 
 /** One verse's sequences from a bare content array, with the real scheme. */
-const sequences = (content: unknown) => verseSequences(content as Content, scheme);
+const sequences = (content: unknown) =>
+  verseSequences(content as Content, scheme);
 
 describe("declaredScheme", () => {
   it("should answer with the robinson scheme for a version declaring it", () => {
@@ -59,15 +65,23 @@ describe("verseSequences", () => {
     ])[0];
 
     expect(tokens).toHaveLength(2);
-    expect(tokens[0].readings.map((reading) => reading.morph)).toEqual(["T-NSN", "T-ASN"]);
+    expect(tokens[0].readings.map((reading) => reading.morph)).toEqual([
+      "T-NSN",
+      "T-ASN",
+    ]);
     expect(tokens[0].readings[1].parse).toEqual(["art", "acc", "sg", "neut"]);
   });
 
   it("should drop a text-less code with no word before it rather than invent one", () => {
-    const tokens = sequences([{ morph: "T-ASN" }, { text: PNEUMA, morph: "N-NSN" }])[0];
+    const tokens = sequences([
+      { morph: "T-ASN" },
+      { text: PNEUMA, morph: "N-NSN" },
+    ])[0];
 
     expect(tokens).toHaveLength(1);
-    expect(tokens[0].readings.map((reading) => reading.morph)).toEqual(["N-NSN"]);
+    expect(tokens[0].readings.map((reading) => reading.morph)).toEqual([
+      "N-NSN",
+    ]);
   });
 
   it("should keep a word carrying no code as a token, so it still stands between its neighbours", () => {
@@ -97,7 +111,10 @@ describe("verseSequences", () => {
       { text: ` ${PNEUMA}`, morph: "N-NSN" },
     ])[0];
 
-    expect(tokens[0].readings.map((reading) => reading.strong)).toEqual(["G3588", "G3588"]);
+    expect(tokens[0].readings.map((reading) => reading.strong)).toEqual([
+      "G3588",
+      "G3588",
+    ]);
     expect(tokens[1].readings[0].strong).toBeUndefined();
   });
 
@@ -128,20 +145,25 @@ describe("verseSequences", () => {
     ]);
 
     expect(found).toHaveLength(2);
-    expect(found.map((tokens) => tokens.map((token) => token.spellings[0]))).toContainEqual([TO]);
-    expect(found.map((tokens) => tokens.map((token) => token.spellings[0]))).toContainEqual([PNEUMA]);
+    expect(
+      found.map((tokens) => tokens.map((token) => token.spellings[0])),
+    ).toContainEqual([TO]);
+    expect(
+      found.map((tokens) => tokens.map((token) => token.spellings[0])),
+    ).toContainEqual([PNEUMA]);
   });
 
   it("should offer both spellings of an elided word, the way the map is keyed", () => {
     const elided = greek(0x3bc, 0x3b5, 0x3b8, 0x2019);
-    expect(sequences([{ text: elided, morph: "PREP" }])[0][0].spellings).toEqual([
-      elided,
-      greek(0x3bc, 0x3b5, 0x3b8),
-    ]);
+    expect(
+      sequences([{ text: elided, morph: "PREP" }])[0][0].spellings,
+    ).toEqual([elided, greek(0x3bc, 0x3b5, 0x3b8)]);
   });
 
   it("should answer with nothing for a verse printing no words", () => {
-    expect(sequences([" ", { foot: { type: "var", content: ["x"] } }])).toEqual([]);
+    expect(sequences([" ", { foot: { type: "var", content: ["x"] } }])).toEqual(
+      [],
+    );
   });
 });
 
@@ -164,7 +186,9 @@ describe("cellsFor", () => {
   it("should answer for the elided spelling as printed, mark and all", () => {
     // `μεθ’` is the spelling the map keys, elision mark included; the bare
     // `μεθ` is a key the codex does not hold at all.
-    const [token] = sequences([{ text: greek(0x3bc, 0x3b5, 0x3b8, 0x2019), morph: "PREP" }])[0];
+    const [token] = sequences([
+      { text: greek(0x3bc, 0x3b5, 0x3b8, 0x2019), morph: "PREP" },
+    ])[0];
 
     expect(cellsFor(token).map((entry) => entry.root)).toEqual([
       greek(0x39c, 0x3b5, 0x3b8),
@@ -173,16 +197,22 @@ describe("cellsFor", () => {
   });
 
   it("should fall through to the bare spelling only when the elided one answers nothing", () => {
-    const [token] = sequences([{ text: `${PNEUMA}${greek(0x2019)}`, morph: "N-NSN" }])[0];
+    const [token] = sequences([
+      { text: `${PNEUMA}${greek(0x2019)}`, morph: "N-NSN" },
+    ])[0];
 
     expect(token.spellings).toEqual([`${PNEUMA}${greek(0x2019)}`, PNEUMA]);
     // The spellings above are what this test is about. The cells only show the
     // fall-through reached the codex, so the root is asserted and not the count.
-    expect(new Set(cellsFor(token).map((entry) => entry.root))).toEqual(new Set([PNEUMA]));
+    expect(new Set(cellsFor(token).map((entry) => entry.root))).toEqual(
+      new Set([PNEUMA]),
+    );
   });
 
   it("should answer with nothing for a word the codex does not hold", () => {
-    expect(cellsFor(sequences([{ text: "quidquid", morph: "N-NSN" }])[0][0])).toEqual([]);
+    expect(
+      cellsFor(sequences([{ text: "quidquid", morph: "N-NSN" }])[0][0]),
+    ).toEqual([]);
   });
 });
 

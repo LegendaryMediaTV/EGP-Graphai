@@ -1,5 +1,8 @@
 import Content from "../types/Content";
-import { ScriptRun, splitNonLatinScriptRuns } from "../utils/usfm/splitScriptRuns";
+import {
+  ScriptRun,
+  splitNonLatinScriptRuns,
+} from "../utils/usfm/splitScriptRuns";
 
 /**
  * Tags an untagged Hebrew or Greek run embedded in otherwise-Latin text as
@@ -112,7 +115,11 @@ function trySplit(node: unknown): ScriptRun[] | SkipReason | undefined {
 
   if (typeof node === "string") {
     text = node;
-  } else if (isPlainObject(node) && !isBoundary(node) && typeof node.text === "string") {
+  } else if (
+    isPlainObject(node) &&
+    !isBoundary(node) &&
+    typeof node.text === "string"
+  ) {
     if (node.script !== undefined) return undefined;
     record = node;
     text = node.text;
@@ -127,7 +134,8 @@ function trySplit(node: unknown): ScriptRun[] | SkipReason | undefined {
     if (keys.length !== 1 || keys[0] !== "text") {
       if (record.strong !== undefined) return "strong";
       if (record.foot !== undefined && record.foot !== null) return "foot";
-      if (Array.isArray(record.marks) && record.marks.length > 0) return "marks";
+      if (Array.isArray(record.marks) && record.marks.length > 0)
+        return "marks";
       return "other-properties";
     }
   }
@@ -147,8 +155,10 @@ function rewriteNested(node: unknown, counts: Counts): unknown {
   if (!isPlainObject(node)) return node;
   const record = { ...node };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
   if (
     record.heading === undefined &&
     record.subtitle === undefined &&
@@ -172,7 +182,10 @@ function rewriteNested(node: unknown, counts: Counts): unknown {
  * for any element that itself needed splitting, so one node genuinely
  * becomes several siblings in place rather than being rewritten in place.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: Counts): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: Counts,
+): unknown[] {
   const result: unknown[] = [];
   for (const node of nodes) {
     const nested = rewriteNested(node, counts);
@@ -229,9 +242,11 @@ function rewriteLevel(content: unknown, counts: Counts): unknown {
  *   fixed), whether anything changed, and every finding this run declined to
  *   act on, with its own {@link SkipReason}
  */
-export function tagScriptRunsInContent(
-  content: Content,
-): { content: Content; changed: boolean; skipped: SkipReason[] } {
+export function tagScriptRunsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+  skipped: SkipReason[];
+} {
   const counts: Counts = { fixed: 0, skipped: [] };
   const rewritten = rewriteLevel(content, counts) as Content;
   return counts.fixed > 0

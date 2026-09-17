@@ -77,8 +77,8 @@
 ## Chapter 2
 
 <sup>1</sup> <sup>a</sup>
-### His First Miracle
 
+### His First Miracle
 
 And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,
 <sup>2</sup> and also Jesus was called, and his disciples, to the marriage;
@@ -122,8 +122,8 @@ And the third day a marriage happened in Cana of Galilee, and the mother of Jesu
 ## Chapter 3
 
 <sup>1</sup> <sup>a</sup>
-### Nicodemus
 
+### Nicodemus
 
 And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of the Jews,
 <sup>2</sup> this one came unto him by night, and said to him, “Rabbi, we have known that from God thou hast come—a teacher, for no one these signs is able to do that thou dost, if God may not be with him.”
@@ -251,8 +251,8 @@ And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-### At Another Festival
 
+### At Another Festival
 
 After these things there was a feast of the Jews, and Jesus went up to Jerusalem,
 <sup>2</sup> and there is in Jerusalem by the sheep-_gate_ a pool that is called in Hebrew Bethesda, having five porches,
@@ -312,8 +312,8 @@ After these things there was a feast of the Jews, and Jesus went up to Jerusalem
 ## Chapter 6
 
 <sup>1</sup> <sup>a</sup>
-### The Second Passover
 
+### The Second Passover
 
 After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 <sup>2</sup> and there was following him a great multitude, because they were seeing his signs that he was doing on the ailing;
@@ -404,8 +404,8 @@ After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 ## Chapter 7
 
 <sup>1</sup> <sup>a</sup>
-### The Feast of Tabernacles
 
+### The Feast of Tabernacles
 
 And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,
 <sup>2</sup> and the feast of the Jews was nigh—that of tabernacles—
@@ -600,8 +600,8 @@ And Jesus was walking after these things in Galilee, for he did not wish to walk
 ## Chapter 10
 
 <sup>1</sup> <sup>a</sup>
-### The Good Shepherd
 
+### The Good Shepherd
 
 “Verily, verily,<sup>b</sup> I say to you, He who is not entering through the door to the fold of the sheep, but is going up from another side, that one is a thief and a robber;
 <sup>2</sup> and he who is entering through the door is shepherd of the sheep;
@@ -660,8 +660,8 @@ And Jesus was walking after these things in Galilee, for he did not wish to walk
 ## Chapter 11
 
 <sup>1</sup> <sup>a</sup>
-### The Lord of Life
 
+### The Lord of Life
 
 And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—
 <sup>2</sup> and it was Mary who did anoint the Lord with ointment, and did wipe his feet with her hair, whose brother Lazarus was ailing—<sup>b</sup>
@@ -806,8 +806,8 @@ And there was a certain one ailing, Lazarus, from Bethany, of the village of Mar
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-### The Third Passover
 
+### The Third Passover
 
 And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
 
@@ -903,8 +903,8 @@ And before the feast of the passover, Jesus knowing that his hour hath come, tha
 ## Chapter 15
 
 <sup>1</sup> <sup>a</sup>
-### The True Vine
 
+### The True Vine
 
 “I am the true vine, and my Father is the husbandman;
 <sup>2</sup> every branch in me not bearing fruit, He doth take it away, and every one bearing fruit, He doth cleanse by pruning it, that it may bear more fruit;
@@ -987,8 +987,8 @@ And before the feast of the passover, Jesus knowing that his hour hath come, tha
 ## Chapter 17
 
 <sup>1</sup> <sup>a</sup>
-### The Prayer of Jesus
 
+### The Prayer of Jesus
 
 These things spake Jesus, and lifted up his eyes to the heaven, and said—“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,
 <sup>2</sup> according as Thou didst give to him authority over all flesh, that—all that Thou hast given to him—he may give to them life age-during;
@@ -1023,8 +1023,8 @@ These things spake Jesus, and lifted up his eyes to the heaven, and said—“Fa
 ## Chapter 18
 
 <sup>1</sup> <sup>a</sup>
-### The Betrayal
 
+### The Betrayal
 
 These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,
 <sup>2</sup> and Judas also, who delivered him up, had known the place, because many times did Jesus assemble there with his disciples.
@@ -1086,8 +1086,8 @@ These things having said, Jesus went forth with his disciples beyond the brook o
 ## Chapter 19
 
 <sup>1</sup> <sup>a</sup>
-### The Crucifixion
 
+### The Crucifixion
 
 Then, therefore, did Pilate take Jesus and scourge _him_,
 <sup>2</sup> and the soldiers having plaited a crown of thorns, did place _it_ on his head, and a purple garment they put around him,
@@ -1150,8 +1150,8 @@ Then, therefore, did Pilate take Jesus and scourge _him_,
 ## Chapter 20
 
 <sup>1</sup> <sup>a</sup>
-### The Resurrection
 
+### The Resurrection
 
 And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,
 <sup>2</sup> she runneth, therefore, and cometh unto Simon Peter, and unto the other disciple whom Jesus was loving, and saith to them, “They took away the Lord out of the tomb, and we have not known where they laid him.”

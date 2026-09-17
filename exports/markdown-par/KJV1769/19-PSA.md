@@ -227,9 +227,10 @@
 <sup>6</sup> He hath said in his heart, I shall not be moved:<br>For _I shall_ never<sup>c</sup> _be_ in adversity.<br>
 
 #### (ס Samek)
-<sup>7</sup> 
-#### פ Pe
 
+<sup>7</sup>
+
+#### פ Pe
 
 His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tongue _is_ mischief and vanity.<sup>e</sup><br>
 
@@ -651,9 +652,10 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>4</sup> Shew me thy ways, O LORD;<br>Teach me thy paths.<br>
 
 #### ה He
-<sup>5</sup> 
-#### (ו Waw)
 
+<sup>5</sup>
+
+#### (ו Waw)
 
 Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; on thee do I wait all the day.<br>
 
@@ -3254,75 +3256,83 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 #### א Aleph
 
-
 #### ב Bet
 
 <sup>1</sup> Praise ye<sup>a</sup> the LORD. I will praise the LORD with _my_ whole heart,<br>In the assembly of the upright, and _in_ the congregation.<br>
 
 #### ג Gimel
-<sup>2</sup> 
-#### ד Dalet
 
+<sup>2</sup>
+
+#### ד Dalet
 
 The works of the LORD _are_ great,<br>Sought out of all them that have pleasure therein.<br>
 
 #### ה He
-<sup>3</sup> 
-#### ו Waw
 
+<sup>3</sup>
+
+#### ו Waw
 
 His work _is_ honourable and glorious:<br>And his righteousness endureth for ever.<br>
 
 #### ז Zain
-<sup>4</sup> 
-#### ח Het
 
+<sup>4</sup>
+
+#### ח Het
 
 He hath made his wonderful works to be remembered:<br>The LORD _is_ gracious and full of compassion.<br>
 
 #### ט Tet
-<sup>5</sup> 
-#### י Yod
 
+<sup>5</sup>
+
+#### י Yod
 
 He hath given meat<sup>b</sup> unto them that fear him:<br>He will ever be mindful of his covenant.<br>
 
 #### כ Kaph
-<sup>6</sup> 
-#### ל Lamed
 
+<sup>6</sup>
+
+#### ל Lamed
 
 He hath shewed his people the power of his works,<br>That he may give them the heritage of the heathen.<br>
 
 #### מ Mem
-<sup>7</sup> 
-#### נ Nun
 
+<sup>7</sup>
+
+#### נ Nun
 
 The works of his hands _are_ verity and judgment;<br>All his commandments _are_ sure.<br>
 
 #### ס Samek
-<sup>8</sup> 
-#### ע Ain
 
+<sup>8</sup>
+
+#### ע Ain
 
 They stand fast<sup>c</sup> for ever and ever,<br>_And are_ done in truth and uprightness.<br>
 
 #### פ Pe
-<sup>9</sup> 
+
+<sup>9</sup>
+
 #### צ Zade
 
 #### ק Qoph
 
-
 He sent redemption unto his people:<br>He hath commanded his covenant for ever:<br>Holy and reverend _is_ his name.<br>
 
 #### ר Resh
-<sup>10</sup> 
+
+<sup>10</sup>
+
 #### ש Shin
 
 #### ת Taw
-
 
 The fear of the LORD _is_ the beginning of wisdom:<br>A good understanding<sup>d</sup> have all they that do _his commandments:_<sup>e</sup><br>His praise endureth for ever.<br>
 
@@ -3336,75 +3346,83 @@ The fear of the LORD _is_ the beginning of wisdom:<br>A good understanding<sup>d
 
 #### א Aleph
 
-
 #### ב Bet
 
 <sup>1</sup> Praise ye<sup>a</sup> the LORD. Blessed _is_ the man _that_ feareth the LORD,<br>_That_ delighteth greatly in his commandments.<br>
 
 #### ג Gimel
-<sup>2</sup> 
-#### ד Dalet
 
+<sup>2</sup>
+
+#### ד Dalet
 
 His seed shall be mighty upon earth:<br>The generation of the upright shall be blessed.<br>
 
 #### ה He
-<sup>3</sup> 
-#### ו Waw
 
+<sup>3</sup>
+
+#### ו Waw
 
 Wealth and riches _shall be_ in his house:<br>And his righteousness endureth for ever.<br>
 
 #### ז Zain
-<sup>4</sup> 
-#### ח Het
 
+<sup>4</sup>
+
+#### ח Het
 
 Unto the upright there ariseth light in the darkness:<br>_He is_ gracious, and full of compassion, and righteous.<br>
 
 #### ט Tet
-<sup>5</sup> 
-#### י Yod
 
+<sup>5</sup>
+
+#### י Yod
 
 A good man sheweth favour, and lendeth:<br>He will guide his affairs with discretion.<sup>b</sup><br>
 
 #### כ Kaph
-<sup>6</sup> 
-#### ל Lamed
 
+<sup>6</sup>
+
+#### ל Lamed
 
 Surely he shall not be moved for ever:<br>The righteous shall be in everlasting remembrance.<br>
 
 #### מ Mem
-<sup>7</sup> 
-#### נ Nun
 
+<sup>7</sup>
+
+#### נ Nun
 
 He shall not be afraid of evil tidings:<br>His heart is fixed, trusting in the LORD.<br>
 
 #### ס Samek
-<sup>8</sup> 
-#### ע Ain
 
+<sup>8</sup>
+
+#### ע Ain
 
 His heart _is_ established, he shall not be afraid,<br>Until he see _his desire_ upon his enemies.<br>
 
 #### פ Pe
-<sup>9</sup> 
+
+<sup>9</sup>
+
 #### צ Zade
 
 #### ק Qoph
 
-
 He hath dispersed, he hath given to the poor;<br>His righteousness endureth for ever;<br>His horn shall be exalted with honour.<br>
 
 #### ר Resh
-<sup>10</sup> 
+
+<sup>10</sup>
+
 #### ש Shin
 
 #### ת Taw
-
 
 The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and melt away:<br>The desire of the wicked shall perish.<br>
 

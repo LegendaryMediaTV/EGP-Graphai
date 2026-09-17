@@ -56,7 +56,12 @@ interface SlotSpec {
 
 /** Read one language's morphology scheme by id, or null when there is none. */
 export function readScheme(language: string, id: string): Scheme | null {
-  const file = path.join("./lexical-maps", language, "morphology", `${id}.json`);
+  const file = path.join(
+    "./lexical-maps",
+    language,
+    "morphology",
+    `${id}.json`,
+  );
   if (!fs.existsSync(file)) return null;
   return JSON.parse(fs.readFileSync(file, "utf-8")) as Scheme;
 }
@@ -100,7 +105,11 @@ export function decodeMorph(code: string, scheme: Scheme): string[] | null {
 }
 
 /** Read one positional group against one slot's own spec. */
-function readSlot(group: string, spec: SlotSpec | undefined, scheme: Scheme): string[] | null {
+function readSlot(
+  group: string,
+  spec: SlotSpec | undefined,
+  scheme: Scheme,
+): string[] | null {
   if (!spec) return null;
   let rest = group;
   const out: string[] = [];
@@ -115,8 +124,11 @@ function readSlot(group: string, spec: SlotSpec | undefined, scheme: Scheme): st
 
   // A slot whose whole group is one token, which is how declinability works:
   // the group is `PRI`, not one character per field.
-  const wholeGroup = Object.entries(scheme.tokens).find(([, table]) => table[rest] !== undefined);
-  const fields = spec.fields ?? spec.variants?.find((v) => v.length === rest.length)?.fields;
+  const wholeGroup = Object.entries(scheme.tokens).find(
+    ([, table]) => table[rest] !== undefined,
+  );
+  const fields =
+    spec.fields ?? spec.variants?.find((v) => v.length === rest.length)?.fields;
   if (!fields) {
     return wholeGroup ? [...out, scheme.tokens[wholeGroup[0]][rest]] : null;
   }
@@ -147,9 +159,15 @@ function readSlot(group: string, spec: SlotSpec | undefined, scheme: Scheme): st
  * did. Rejecting the second would be rejecting the map's own purpose, which is
  * to say what a form could be so that something else can say which it is.
  */
-export function accountsFor(cell: string[], token: string[], categoryOf: Map<string, string>): boolean {
+export function accountsFor(
+  cell: string[],
+  token: string[],
+  categoryOf: Map<string, string>,
+): boolean {
   const indeclinable = cell.some((code) => code.startsWith("indecl"));
-  const openCategories = new Set(indeclinable ? ["case", "number", "gender", "declinability"] : []);
+  const openCategories = new Set(
+    indeclinable ? ["case", "number", "gender", "declinability"] : [],
+  );
 
   for (const code of token) {
     const category = categoryOf.get(code);

@@ -105,7 +105,9 @@ const DISPLAY_SEGMENT = "\\d+[a-z]*(?:[–—-](?:\\d+)?[a-z]*)?";
  * and stops the merge — the one thing separating a list some version split up
  * from a sentence that happens to mention two places.
  */
-const VERSE_LIST_DISPLAY = new RegExp(`^${DISPLAY_SEGMENT}(?:,\\s?${DISPLAY_SEGMENT})*$`);
+const VERSE_LIST_DISPLAY = new RegExp(
+  `^${DISPLAY_SEGMENT}(?:,\\s?${DISPLAY_SEGMENT})*$`,
+);
 
 /** The entire separator a merge accepts: a comma, and at most the one space after it. */
 const SEPARATOR = /^, ?$/;
@@ -118,10 +120,12 @@ const SEPARATOR = /^, ?$/;
  * it with the text around the comma, so this declines rather than guesses.
  */
 function asBibleLink(node: unknown): VerseListLink | undefined {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return undefined;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return undefined;
   const record = node as Record<string, unknown>;
   if (typeof record.bibleLink !== "string") return undefined;
-  if (record.content !== undefined && typeof record.content !== "string") return undefined;
+  if (record.content !== undefined && typeof record.content !== "string")
+    return undefined;
   for (const key of Object.keys(record)) {
     if (key !== "bibleLink" && key !== "content") return undefined;
   }
@@ -137,9 +141,11 @@ function asBibleLink(node: unknown): VerseListLink | undefined {
  */
 function separatorText(node: unknown): string | undefined {
   if (typeof node === "string") return node;
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return undefined;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return undefined;
   const record = node as Record<string, unknown>;
-  if (typeof record.text !== "string" || Object.keys(record).length !== 1) return undefined;
+  if (typeof record.text !== "string" || Object.keys(record).length !== 1)
+    return undefined;
   return record.text;
 }
 
@@ -163,7 +169,11 @@ function parseTarget(target: string): ParsedTarget | undefined {
  * whenever neither half carried one: the target was already what both halves
  * were rendering.
  */
-function mergePair(first: unknown, separator: unknown, second: unknown): VerseListLink | undefined {
+function mergePair(
+  first: unknown,
+  separator: unknown,
+  second: unknown,
+): VerseListLink | undefined {
   const left = asBibleLink(first);
   const right = asBibleLink(second);
   if (left === undefined || right === undefined) return undefined;
@@ -174,15 +184,25 @@ function mergePair(first: unknown, separator: unknown, second: unknown): VerseLi
   const leftTarget = parseTarget(left.bibleLink);
   const rightTarget = parseTarget(right.bibleLink);
   if (leftTarget === undefined || rightTarget === undefined) return undefined;
-  if (leftTarget.book !== rightTarget.book || leftTarget.chapter !== rightTarget.chapter) return undefined;
-  if (!VERSE_LIST_TARGET.test(leftTarget.verses) || !VERSE_LIST_TARGET.test(rightTarget.verses)) return undefined;
+  if (
+    leftTarget.book !== rightTarget.book ||
+    leftTarget.chapter !== rightTarget.chapter
+  )
+    return undefined;
+  if (
+    !VERSE_LIST_TARGET.test(leftTarget.verses) ||
+    !VERSE_LIST_TARGET.test(rightTarget.verses)
+  )
+    return undefined;
 
   const rightDisplay = right.content ?? rightTarget.verses;
   if (!VERSE_LIST_DISPLAY.test(rightDisplay)) return undefined;
 
   const target = `${left.bibleLink}, ${rightTarget.verses}`;
   const display = `${left.content ?? left.bibleLink}${comma}${rightDisplay}`;
-  return display === target ? { bibleLink: target } : { bibleLink: target, content: display };
+  return display === target
+    ? { bibleLink: target }
+    : { bibleLink: target, content: display };
 }
 
 /**
@@ -195,7 +215,9 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
   const result: unknown[] = [];
   for (const node of nodes) {
     const merged =
-      result.length >= 2 ? mergePair(result[result.length - 2], result[result.length - 1], node) : undefined;
+      result.length >= 2
+        ? mergePair(result[result.length - 2], result[result.length - 1], node)
+        : undefined;
     if (merged === undefined) {
       result.push(node);
       continue;
@@ -214,11 +236,14 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
  * were nested content.
  */
 function rewriteNode(node: unknown): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle);
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle);
   if (
     record.heading === undefined &&
     record.subtitle === undefined &&
@@ -265,7 +290,10 @@ function rewriteLevel(content: unknown): unknown {
  * @returns The rewritten tree (the original reference when nothing merged) and
  *   whether anything did
  */
-export function mergeSplitVerseListsInContent(content: Content): { content: Content; changed: boolean } {
+export function mergeSplitVerseListsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const rewritten = rewriteLevel(content) as Content;
   if (JSON.stringify(rewritten) === JSON.stringify(content)) {
     return { content, changed: false };

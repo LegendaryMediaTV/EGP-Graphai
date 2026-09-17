@@ -719,9 +719,10 @@
 <sup>21</sup> And the people stand afar off, and Moses hath drawn nigh unto the thick darkness where God _is_.
 
 ### The Book of the Covenant
-<sup>22</sup> 
-### Worship and Justice
 
+<sup>22</sup>
+
+### Worship and Justice
 
 And Jehovah saith unto Moses, “Thus dost thou say unto the sons of Israel: Ye—ye have seen that from the heavens I have spoken with you;
 <sup>23</sup> ye do not make with Me gods of silver, even gods of gold ye do not make to yourselves.

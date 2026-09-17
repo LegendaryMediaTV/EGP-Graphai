@@ -41,7 +41,10 @@
  * opt in or out.
  */
 
-import Content, { ContentAbbreviation, ContentBibleLink } from "../types/Content";
+import Content, {
+  ContentAbbreviation,
+  ContentBibleLink,
+} from "../types/Content";
 
 /**
  * Prose written ahead of a reference, to print before the link instead of
@@ -55,7 +58,11 @@ import Content, { ContentAbbreviation, ContentBibleLink } from "../types/Content
  *   into the link while its closing partner stayed in the prose (a real
  *   2 Samuel 12:11's "(13:28, 29").
  */
-const LEADING_PROSE: readonly RegExp[] = [/^(?:See|Compare) /, /^end of /, /^\(/];
+const LEADING_PROSE: readonly RegExp[] = [
+  /^(?:See|Compare) /,
+  /^end of /,
+  /^\(/,
+];
 
 /**
  * Prose written after a reference, to print after the link instead of inside
@@ -76,7 +83,11 @@ const LEADING_PROSE: readonly RegExp[] = [/^(?:See|Compare) /, /^end of /, /^\(/
  * they are the reference's own tail — trimming them would leave a display
  * that no longer names what it links to. See this module's own doc comment.
  */
-const TRAILING_PROSE: readonly RegExp[] = [/ above$/, / \((?:Gk|Heb)\.\)$/, / (?:LXX|MT|TR|NU)$/];
+const TRAILING_PROSE: readonly RegExp[] = [
+  / above$/,
+  / \((?:Gk|Heb)\.\)$/,
+  / (?:LXX|MT|TR|NU)$/,
+];
 
 /** A tradition siglon at the end of a `bibleLink` target, where it makes the target name no verse at all. */
 const TARGET_SIGLON = / (?:LXX|MT|TR|NU)$/;
@@ -95,12 +106,17 @@ interface SplitLink {
 }
 
 /** Strips the first matching affix, returning the remaining text and what came off (`""` when nothing matched). */
-function stripAffix(text: string, patterns: readonly RegExp[]): { text: string; affix: string } {
+function stripAffix(
+  text: string,
+  patterns: readonly RegExp[],
+): { text: string; affix: string } {
   for (const pattern of patterns) {
     const match = pattern.exec(text);
     if (match !== null) {
       return {
-        text: text.slice(0, match.index) + text.slice(match.index + match[0].length),
+        text:
+          text.slice(0, match.index) +
+          text.slice(match.index + match[0].length),
         affix: match[0],
       };
     }
@@ -125,9 +141,15 @@ function stripAffix(text: string, patterns: readonly RegExp[]): { text: string; 
  *   common case, and the signal for the caller to leave the node alone
  *   rather than rebuild an identical one.
  */
-function splitLink(node: ContentBibleLink, registeredAbbreviations: ReadonlySet<string>): SplitLink | undefined {
-  const { text: bibleLink, affix: targetSiglon } = stripAffix(node.bibleLink, [TARGET_SIGLON]);
-  const shown = typeof node.content === "string" ? node.content : node.bibleLink;
+function splitLink(
+  node: ContentBibleLink,
+  registeredAbbreviations: ReadonlySet<string>,
+): SplitLink | undefined {
+  const { text: bibleLink, affix: targetSiglon } = stripAffix(node.bibleLink, [
+    TARGET_SIGLON,
+  ]);
+  const shown =
+    typeof node.content === "string" ? node.content : node.bibleLink;
 
   const withoutLead = stripAffix(shown, LEADING_PROSE);
   const withoutTrail = stripAffix(withoutLead.text, TRAILING_PROSE);
@@ -137,11 +159,19 @@ function splitLink(node: ContentBibleLink, registeredAbbreviations: ReadonlySet<
   // display never showed still resolves to nothing, and taking it off the
   // target changes only where the link goes, never what the reader reads —
   // so `after` stays empty and no new text appears on the page.
-  if (withoutLead.affix === "" && withoutTrail.affix === "" && targetSiglon === "") return undefined;
+  if (
+    withoutLead.affix === "" &&
+    withoutTrail.affix === "" &&
+    targetSiglon === ""
+  )
+    return undefined;
 
   return {
     before: withoutLead.affix,
-    link: reference === bibleLink ? { bibleLink } : { bibleLink, content: reference },
+    link:
+      reference === bibleLink
+        ? { bibleLink }
+        : { bibleLink, content: reference },
     after: hoistedAffixNodes(withoutTrail.affix, registeredAbbreviations),
   };
 }
@@ -161,7 +191,10 @@ function splitLink(node: ContentBibleLink, registeredAbbreviations: ReadonlySet<
  * lookup to fall through to, so inventing an id here would only trade a
  * missing tooltip for a failing audit.
  */
-function hoistedAffixNodes(affix: string, registeredAbbreviations: ReadonlySet<string>): readonly (string | ContentAbbreviation)[] {
+function hoistedAffixNodes(
+  affix: string,
+  registeredAbbreviations: ReadonlySet<string>,
+): readonly (string | ContentAbbreviation)[] {
   if (affix === "") return [];
 
   const siglon = HOISTED_SIGLON.exec(affix);
@@ -173,7 +206,12 @@ function hoistedAffixNodes(affix: string, registeredAbbreviations: ReadonlySet<s
 
 /** Whether `node` is a `bibleLink` node — a reference target with an optional display override, and no subtree of its own. */
 function isBibleLink(node: unknown): node is ContentBibleLink {
-  return node !== null && typeof node === "object" && !Array.isArray(node) && typeof (node as ContentBibleLink).bibleLink === "string";
+  return (
+    node !== null &&
+    typeof node === "object" &&
+    !Array.isArray(node) &&
+    typeof (node as ContentBibleLink).bibleLink === "string"
+  );
 }
 
 /**
@@ -207,7 +245,9 @@ function expandArrayLevel(
   let textJustEmittedAfterLink = false;
 
   for (const node of nodes) {
-    const split = isBibleLink(node) ? splitLink(node, registeredAbbreviations) : undefined;
+    const split = isBibleLink(node)
+      ? splitLink(node, registeredAbbreviations)
+      : undefined;
     if (split === undefined) {
       if (textJustEmittedAfterLink && typeof node === "string") pushText(node);
       else result.push(node);
@@ -221,7 +261,8 @@ function expandArrayLevel(
       if (typeof item === "string") pushText(item);
       else result.push(item);
     }
-    textJustEmittedAfterLink = typeof split.after[split.after.length - 1] === "string";
+    textJustEmittedAfterLink =
+      typeof split.after[split.after.length - 1] === "string";
   }
 
   return { nodes: result, changed };
@@ -234,8 +275,12 @@ function expandArrayLevel(
  * recursion, including its `bibleLink` exclusion so a link's own display
  * override is never walked into as if it were nested content.
  */
-function rewriteNode(node: unknown, registeredAbbreviations: ReadonlySet<string>): { node: unknown; changed: boolean } {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return { node, changed: false };
+function rewriteNode(
+  node: unknown,
+  registeredAbbreviations: ReadonlySet<string>,
+): { node: unknown; changed: boolean } {
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return { node, changed: false };
   const record = { ...(node as Record<string, unknown>) };
   let changed = false;
 
@@ -279,7 +324,10 @@ function rewriteNode(node: unknown, registeredAbbreviations: ReadonlySet<string>
  * footnote whose whole body is one cross-reference needs, since "See " has
  * to live somewhere beside the link once it is out of it.
  */
-function rewriteLevel(content: unknown, registeredAbbreviations: ReadonlySet<string>): { value: unknown; changed: boolean } {
+function rewriteLevel(
+  content: unknown,
+  registeredAbbreviations: ReadonlySet<string>,
+): { value: unknown; changed: boolean } {
   if (Array.isArray(content)) {
     let childrenChanged = false;
     const children = content.map((node) => {
@@ -288,13 +336,20 @@ function rewriteLevel(content: unknown, registeredAbbreviations: ReadonlySet<str
       return result.node;
     });
     const expanded = expandArrayLevel(children, registeredAbbreviations);
-    return { value: expanded.nodes, changed: childrenChanged || expanded.changed };
+    return {
+      value: expanded.nodes,
+      changed: childrenChanged || expanded.changed,
+    };
   }
 
   const rewritten = rewriteNode(content, registeredAbbreviations);
   const expanded = expandArrayLevel([rewritten.node], registeredAbbreviations);
-  if (!expanded.changed) return { value: rewritten.node, changed: rewritten.changed };
-  return { value: expanded.nodes.length === 1 ? expanded.nodes[0] : expanded.nodes, changed: true };
+  if (!expanded.changed)
+    return { value: rewritten.node, changed: rewritten.changed };
+  return {
+    value: expanded.nodes.length === 1 ? expanded.nodes[0] : expanded.nodes,
+    changed: true,
+  };
 }
 
 /**
@@ -316,7 +371,9 @@ export function hoistBibleLinkDisplayProseInContent(
   registeredAbbreviations: ReadonlySet<string> = new Set(),
 ): { content: Content; changed: boolean } {
   const result = rewriteLevel(content, registeredAbbreviations);
-  return result.changed ? { content: result.value as Content, changed: true } : { content, changed: false };
+  return result.changed
+    ? { content: result.value as Content, changed: true }
+    : { content, changed: false };
 }
 
 /** One `bibleLink` node still linking text that is not part of its reference, with enough identity to report it. */
@@ -338,7 +395,8 @@ function flattenDisplay(content: Content | undefined): string {
   if (content === undefined) return "";
   if (typeof content === "string") return content;
   if (Array.isArray(content)) return content.map(flattenDisplay).join("");
-  if ("text" in content && typeof content.text === "string") return content.text;
+  if ("text" in content && typeof content.text === "string")
+    return content.text;
   if ("content" in content) return flattenDisplay(content.content as Content);
   return "";
 }
@@ -357,12 +415,20 @@ function flattenDisplay(content: Content | undefined): string {
  * this fails the run naming it instead of quietly leaving it linked.
  */
 export function findBibleLinkDisplayProse(
-  verses: readonly { book: string; chapter: number; verse: number; content: Content }[],
+  verses: readonly {
+    book: string;
+    chapter: number;
+    verse: number;
+    content: Content;
+  }[],
 ): { findings: BibleLinkDisplayProseFinding[]; scanned: number } {
   const findings: BibleLinkDisplayProseFinding[] = [];
   let scanned = 0;
 
-  const scan = (node: unknown, at: { book: string; chapter: number; verse: number }): void => {
+  const scan = (
+    node: unknown,
+    at: { book: string; chapter: number; verse: number },
+  ): void => {
     if (Array.isArray(node)) {
       node.forEach((child) => scan(child, at));
       return;
@@ -371,7 +437,10 @@ export function findBibleLinkDisplayProse(
 
     if (isBibleLink(node)) {
       scanned++;
-      const display = node.content === undefined ? node.bibleLink : flattenDisplay(node.content);
+      const display =
+        node.content === undefined
+          ? node.bibleLink
+          : flattenDisplay(node.content);
       const hasProse =
         TARGET_SIGLON.test(node.bibleLink) ||
         LEADING_PROSE.some((pattern) => pattern.test(display)) ||
@@ -381,16 +450,23 @@ export function findBibleLinkDisplayProse(
       return;
     }
 
-    for (const value of Object.values(node as Record<string, unknown>)) scan(value, at);
+    for (const value of Object.values(node as Record<string, unknown>))
+      scan(value, at);
   };
 
   for (const verse of verses) {
-    scan(verse.content, { book: verse.book, chapter: verse.chapter, verse: verse.verse });
+    scan(verse.content, {
+      book: verse.book,
+      chapter: verse.chapter,
+      verse: verse.verse,
+    });
   }
   return { findings, scanned };
 }
 
 /** Formats one finding as a single report line, matching `crossChapterLinks.ts`'s own finding-line shape. */
-export function formatBibleLinkDisplayProseFinding(finding: BibleLinkDisplayProseFinding): string {
+export function formatBibleLinkDisplayProseFinding(
+  finding: BibleLinkDisplayProseFinding,
+): string {
   return `   ${finding.book} ${finding.chapter}:${finding.verse} — ${JSON.stringify(finding.display)} links to "${finding.target}"`;
 }

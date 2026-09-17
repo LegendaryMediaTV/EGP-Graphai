@@ -20,13 +20,11 @@ function ContentNode({
   onBibleLinkClick,
   onAbbrClick,
 }) {
-  // Read before any early return: a hook may not sit behind a condition.
+  /** Version abbreviation registry, read before any early return since a hook may not sit behind a condition. */
   const abbreviations = React.useContext(AbbreviationContext);
 
-  // Handle null/undefined
   if (!node) return null;
 
-  // Handle array (recursive)
   if (Array.isArray(node)) {
     return node.map((child, i) => (
       <ContentNode
@@ -40,7 +38,6 @@ function ContentNode({
     ));
   }
 
-  // Handle string
   if (typeof node === "string") {
     return <span>{node}</span>;
   }
@@ -76,9 +73,9 @@ function ContentNode({
     }
 
     // --- Abbreviation Reference ---
-    // The id is all the content carries; what prints and what it means come
-    // from the version registry, so an unknown id degrades to the bare id
-    // rather than rendering nothing. `validate` is what reports it.
+    // What prints and what it means come from the version registry, so an
+    // unknown id degrades to the bare id rather than rendering nothing.
+    // `validate` is what reports it.
     if (node.abbr) {
       const entry = abbreviations && abbreviations.get(node.abbr);
       if (!entry) return <span>{node.abbr}</span>;
@@ -116,7 +113,6 @@ function ContentNode({
     // --- Structural Wrappers ---
 
     if (node.paragraph) {
-      // If it's a wrapper object { paragraph: ... }
       if (
         typeof node.paragraph === "object" ||
         typeof node.paragraph === "string" ||
@@ -197,7 +193,6 @@ function ContentNode({
         />
       );
 
-      // Apply formatting marks to the entire nested content
       if (node.marks) {
         if (node.marks.includes("b")) nestedContent = <b>{nestedContent}</b>;
         if (node.marks.includes("i")) nestedContent = <i>{nestedContent}</i>;
@@ -220,7 +215,6 @@ function ContentNode({
           nestedContent = <sup>{nestedContent}</sup>;
       }
 
-      // Handle parsing info for the nested content
       let parsingInfo = [];
       if (settings.showStrongs && node.strong) {
         const strongsLink = node.strong.startsWith("H")
@@ -267,7 +261,6 @@ function ContentNode({
           </span>
         ) : null;
 
-      // Handle footnotes for nested content
       const footnoteText = node.foot
         ? getFootnoteText(
             node.foot.content,
@@ -311,21 +304,14 @@ function ContentNode({
     }
 
     // --- Text Node ---
-    // Which of the node's own strings prints, and with it how the span is
-    // styled: a romanization is Latin, so it takes neither the script font nor
-    // the RTL direction the node's own text would. A node carrying no
-    // romanization prints its text, which is what keeps a version that has
-    // never been through the enrichment pass readable rather than blank. This
-    // is the browser's counterpart to `textOf` in `utils/exportContent.ts`,
-    // where the same choice is made in one place for the same reason.
-    const romanized =
-      settings.showTransliteration && node.transliteration != null;
-    const printedText = romanized ? node.transliteration : node.text;
-    const scriptClass = romanized
-      ? ""
-      : node.script === "H"
+    const { text: printedText, script: printedScript } = printedTextOf(
+      node,
+      settings.showTransliteration,
+    );
+    const scriptClass =
+      printedScript === "H"
         ? "script-hebrew"
-        : node.script === "G"
+        : printedScript === "G"
           ? "script-greek"
           : "";
 
@@ -335,14 +321,13 @@ function ContentNode({
       content = (
         <span
           className={scriptClass}
-          {...(!romanized && node.script === "H" ? { dir: "rtl" } : {})}
+          {...(printedScript === "H" ? { dir: "rtl" } : {})}
         >
           {printedText}
         </span>
       );
     }
 
-    // Formatting Marks
     if (node.marks) {
       if (node.marks.includes("b")) content = <b>{content}</b>;
       if (node.marks.includes("i")) content = <i>{content}</i>;
@@ -364,10 +349,8 @@ function ContentNode({
       if (node.marks.includes("sup")) content = <sup>{content}</sup>;
     }
 
-    // Paragraph break (boolean flag on text node)
     const isBlock = node.paragraph === true;
 
-    // Footnotes
     const footnoteText = node.foot
       ? getFootnoteText(
           node.foot.content,
@@ -392,7 +375,6 @@ function ContentNode({
         </span>
       ) : null;
 
-    // Strongs / Parsing
     let parsingInfo = [];
     if (settings.showStrongs && node.strong) {
       const strongsLink = node.strong.startsWith("H")

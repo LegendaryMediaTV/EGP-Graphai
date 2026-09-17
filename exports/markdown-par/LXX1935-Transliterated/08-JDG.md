@@ -162,7 +162,7 @@
 
 <sup>17</sup> Galaad en tō̂ péran toû Iordánou kateskḗnōsen; kaì Dan hína tí paroikeî ploíois?
 
- Asēr parṓkēsen par’ aigialòn thalassō̂n kaì epì tàs diakopàs autoû kateskḗnōsen.
+Asēr parṓkēsen par’ aigialòn thalassō̂n kaì epì tàs diakopàs autoû kateskḗnōsen.
 
 <sup>18</sup> Zaboulōn laòs oneidísas psychḕn autoû eis thánaton kaì Nephthalim epì hýpsē agroû.
 <sup>19</sup> Ē̂lthon basileîs kaì paretáxanto. Tóte epolémēsan basileîs Chanaan en Thennach epì hýdatos Mageddō; pleonexían argyríou ouk élabon.
@@ -180,7 +180,7 @@
 <sup>30</sup> Ouchì heurḗsousin autòn diamerízonta skŷla? Philiázōn phílois eis kephalḕn dynatoû; skŷla bammátōn Sisara, skŷla bammátōn poikilías, baphḕ poikílōn perì tráchēlon autoû skŷlon.
 <sup>31</sup> Hoútōs apólointo pántes hoi echthroí sou, kýrie; kaì hoi agapō̂ntes autòn kathṑs hē anatolḕ toû hēlíou en dynasteíais autoû.
 
- Kaì hēsýchasen hē gē̂ tessarákonta étē.
+Kaì hēsýchasen hē gē̂ tessarákonta étē.
 
 ## Chapter 6
 

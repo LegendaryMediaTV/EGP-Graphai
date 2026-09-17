@@ -66,7 +66,8 @@ const FINAL_LETTER = /([Α-ω])([̀-ͯ]*)$/;
 const BARE_VOWELS = "αηω";
 
 /** Which of the rule's two directions a finding comes from. */
-export type OrthographyRule = "subscript-is-dative-singular" | "bare-vowel-is-not-dative-singular";
+export type OrthographyRule =
+  "subscript-is-dative-singular" | "bare-vowel-is-not-dative-singular";
 
 /** One parse a word's own ending refutes. */
 export interface OrthographyIssue {
@@ -146,8 +147,12 @@ export function issuesInToken(token: CorpusToken): OrthographyIssue[] {
   const issues: OrthographyIssue[] = [];
   for (const reading of token.readings) {
     if (!reading.parse) continue;
-    const grammaticalCase = reading.parse.find((code) => categories.get(code) === "case");
-    const number = reading.parse.find((code) => categories.get(code) === "number");
+    const grammaticalCase = reading.parse.find(
+      (code) => categories.get(code) === "case",
+    );
+    const number = reading.parse.find(
+      (code) => categories.get(code) === "number",
+    );
     if (!grammaticalCase || !number) continue;
 
     const states = `${grammaticalCase} ${number}`;
@@ -179,7 +184,9 @@ export function issuesInToken(token: CorpusToken): OrthographyIssue[] {
  *
  * @param version Directory under `bible-versions`, e.g. `"LXX1935"`.
  */
-export function auditCorpusOrthography(version: string): CorpusOrthographyAudit {
+export function auditCorpusOrthography(
+  version: string,
+): CorpusOrthographyAudit {
   const findings: OrthographyFinding[] = [];
   let scanned = 0;
 
@@ -188,8 +195,12 @@ export function auditCorpusOrthography(version: string): CorpusOrthographyAudit 
     for (const sequence of verse.sequences) {
       for (const token of sequence) {
         for (const reading of token.readings) {
-          const hasCase = reading.parse?.some((code) => categories.get(code) === "case");
-          const hasNumber = reading.parse?.some((code) => categories.get(code) === "number");
+          const hasCase = reading.parse?.some(
+            (code) => categories.get(code) === "case",
+          );
+          const hasNumber = reading.parse?.some(
+            (code) => categories.get(code) === "number",
+          );
           if (hasCase && hasNumber) scanned++;
         }
         for (const issue of issuesInToken(token)) {

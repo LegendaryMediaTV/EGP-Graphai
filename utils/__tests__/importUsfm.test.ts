@@ -44,9 +44,18 @@ const repoRoot = path.resolve(__dirname, "..", "..");
  * copy removes that cross-file coupling instead of just documenting it.
  */
 const SINGLE_BOOK_SOURCE_DIR = (() => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "importUsfm-test-single-book-"));
+  const dir = fs.mkdtempSync(
+    path.join(os.tmpdir(), "importUsfm-test-single-book-"),
+  );
   fs.copyFileSync(
-    path.join(__dirname, "..", "usfm", "__tests__", "fixtures", "genesis-1-2.usfm"),
+    path.join(
+      __dirname,
+      "..",
+      "usfm",
+      "__tests__",
+      "fixtures",
+      "genesis-1-2.usfm",
+    ),
     path.join(dir, "genesis-1-2.usfm"),
   );
   return dir;
@@ -58,14 +67,28 @@ function fakeVersionJson(versionId: string): string {
     _id: versionId,
     name: "Fake test version",
     license: "CC0-1.0",
-    books: [{ _id: "GEN", name: "Genesis", title: "Genesis", order: 1, chapters: 2 }],
+    books: [
+      { _id: "GEN", name: "Genesis", title: "Genesis", order: 1, chapters: 2 },
+    ],
   };
   return JSON.stringify(version);
 }
 
 const books: VersionBook[] = [
-  { _id: "GEN", name: "Genesis", title: "The First Book of Moses", order: 1, chapters: 50 },
-  { _id: "1SM", name: "1 Samuel", title: "The First Book of Samuel", order: 9, chapters: 31 },
+  {
+    _id: "GEN",
+    name: "Genesis",
+    title: "The First Book of Moses",
+    order: 1,
+    chapters: 50,
+  },
+  {
+    _id: "1SM",
+    name: "1 Samuel",
+    title: "The First Book of Samuel",
+    order: 9,
+    chapters: 31,
+  },
 ];
 
 describe("findBook", () => {
@@ -114,14 +137,28 @@ describe("parseArgv (--no-strongs CLI flag, position-independent)", () => {
   });
 
   it("should fold --no-strongs into options.strongs regardless of where it sits among the positional arguments", () => {
-    expect(parseArgv(["--no-strongs", "src", "WEBUS2020"]).options).toEqual({ strongs: false });
-    expect(parseArgv(["src", "--no-strongs", "WEBUS2020"]).options).toEqual({ strongs: false });
-    expect(parseArgv(["src", "WEBUS2020", "--no-strongs"]).options).toEqual({ strongs: false });
-    expect(parseArgv(["src", "WEBUS2020", "Genesis", "--no-strongs", "1"]).options).toEqual({ strongs: false });
+    expect(parseArgv(["--no-strongs", "src", "WEBUS2020"]).options).toEqual({
+      strongs: false,
+    });
+    expect(parseArgv(["src", "--no-strongs", "WEBUS2020"]).options).toEqual({
+      strongs: false,
+    });
+    expect(parseArgv(["src", "WEBUS2020", "--no-strongs"]).options).toEqual({
+      strongs: false,
+    });
+    expect(
+      parseArgv(["src", "WEBUS2020", "Genesis", "--no-strongs", "1"]).options,
+    ).toEqual({ strongs: false });
   });
 
   it("should still resolve the correct positional slots once --no-strongs is removed from the middle", () => {
-    const parsed = parseArgv(["src", "WEBUS2020", "Genesis", "--no-strongs", "1"]);
+    const parsed = parseArgv([
+      "src",
+      "WEBUS2020",
+      "Genesis",
+      "--no-strongs",
+      "1",
+    ]);
     expect(parsed.sourceDir).toBe("src");
     expect(parsed.versionId).toBe("WEBUS2020");
     expect(parsed.book).toBe("Genesis");
@@ -159,8 +196,15 @@ describe("applyMetadataOverrides (book name/title override point)", () => {
     // Reproduces the actual wiring point runImport uses: extractBookMetadata's
     // output flows through applyMetadataOverrides before mergeBookMetadata
     // ever sees it — proven here without needing real USFM/disk I/O.
-    const version: BibleVersion = { _id: "WEBUS2020", name: "WEB US 2020", license: "CC0-1.0", books: [] };
-    const overridden = applyMetadataOverrides(metadata, { bookName: (defaultName) => `${defaultName}!` });
+    const version: BibleVersion = {
+      _id: "WEBUS2020",
+      name: "WEB US 2020",
+      license: "CC0-1.0",
+      books: [],
+    };
+    const overridden = applyMetadataOverrides(metadata, {
+      bookName: (defaultName) => `${defaultName}!`,
+    });
     const merged = mergeBookMetadata(version, [overridden]);
     expect(merged.books?.[0]?.name).toBe("Genesis!");
   });
@@ -179,11 +223,16 @@ describe("applyVersionOverrides (copyright/license override point)", () => {
   });
 
   it("should override only the field an option was given for, leaving the other untouched", () => {
-    expect(applyVersionOverrides(version, { copyright: "New Copyright" })).toEqual({
+    expect(
+      applyVersionOverrides(version, { copyright: "New Copyright" }),
+    ).toEqual({
       ...version,
       copyright: "New Copyright",
     });
-    expect(applyVersionOverrides(version, { license: "MIT" })).toEqual({ ...version, license: "MIT" });
+    expect(applyVersionOverrides(version, { license: "MIT" })).toEqual({
+      ...version,
+      license: "MIT",
+    });
   });
 });
 
@@ -212,7 +261,10 @@ describe("runImport, preview mode (disk-safe — never calls writeJsonFile; read
 
   it("should apply options.onVerse to every printed record before it prints", async () => {
     const logSpy = vi.spyOn(console, "log").mockImplementation(() => undefined);
-    const onVerse = (record: VerseRecord): VerseRecord => ({ ...record, content: "REPLACED BY onVerse" });
+    const onVerse = (record: VerseRecord): VerseRecord => ({
+      ...record,
+      content: "REPLACED BY onVerse",
+    });
     await runImport(fixturesDir, "WEBUS2020", { onVerse }, "Genesis", 1);
     const printed = String(logSpy.mock.calls[0][0]);
     expect(printed).toContain("REPLACED BY onVerse");
@@ -225,18 +277,30 @@ describe("runImport, output-path hardwiring (the real gap ImportOptions.outputDi
   const fixturesDir = SINGLE_BOOK_SOURCE_DIR;
 
   it("should read bible-versions/<versionId>/_version.json unconditionally, ignoring a real, valid _version.json fixture that already exists in a temp directory with no way to point runImport at it yet", async () => {
-    const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "phase2-hardwiring-"));
+    const tempDir = fs.mkdtempSync(
+      path.join(os.tmpdir(), "phase2-hardwiring-"),
+    );
     const fakeVersionId = "PHASE2_NONEXISTENT_TEST_VERSION";
     // A real, valid, ready-to-read fixture — this proves the gap is "no way
     // to redirect here yet," not "no fixture exists to redirect to."
-    fs.writeFileSync(path.join(tempDir, "_version.json"), fakeVersionJson(fakeVersionId));
+    fs.writeFileSync(
+      path.join(tempDir, "_version.json"),
+      fakeVersionJson(fakeVersionId),
+    );
 
-    const expectedHardwiredPath = path.join(repoRoot, "bible-versions", fakeVersionId, "_version.json");
+    const expectedHardwiredPath = path.join(
+      repoRoot,
+      "bible-versions",
+      fakeVersionId,
+      "_version.json",
+    );
 
     // options: {} carries no redirect, so the only path this can possibly
     // read from is the hardwired default, which does not exist for this
     // fake id.
-    await expect(runImport(fixturesDir, fakeVersionId, {})).rejects.toMatchObject({
+    await expect(
+      runImport(fixturesDir, fakeVersionId, {}),
+    ).rejects.toMatchObject({
       code: "ENOENT",
       path: expectedHardwiredPath,
     });
@@ -252,7 +316,10 @@ describe("runImport, ImportOptions.outputDir (the redirect itself)", () => {
   it("should read/write entirely under outputDir when given, touching nothing under the real bible-versions/ directory", async () => {
     const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "phase2-outputdir-"));
     const fakeVersionId = "PHASE2_OUTPUTDIR_TEST_VERSION";
-    fs.writeFileSync(path.join(tempDir, "_version.json"), fakeVersionJson(fakeVersionId));
+    fs.writeFileSync(
+      path.join(tempDir, "_version.json"),
+      fakeVersionJson(fakeVersionId),
+    );
 
     // bible-versions/ itself (not any one version's own subdirectory) is
     // the check: creating a new subdirectory inside it would bump its own
@@ -266,11 +333,16 @@ describe("runImport, ImportOptions.outputDir (the redirect itself)", () => {
     expect(afterMtimeMs).toBe(beforeMtimeMs);
 
     expect(fs.existsSync(path.join(tempDir, "01-GEN.json"))).toBe(true);
-    const writtenVersion: BibleVersion = JSON.parse(fs.readFileSync(path.join(tempDir, "_version.json"), "utf8"));
+    const writtenVersion: BibleVersion = JSON.parse(
+      fs.readFileSync(path.join(tempDir, "_version.json"), "utf8"),
+    );
     // mergeBookMetadata re-measures chapters for real from the actual
     // genesis-1-2.usfm fixture (chapters 1-2) — confirms a real, full,
     // non-preview run happened under outputDir, not just a version.json copy.
-    expect(writtenVersion.books?.[0]).toMatchObject({ _id: "GEN", chapters: 2 });
+    expect(writtenVersion.books?.[0]).toMatchObject({
+      _id: "GEN",
+      chapters: 2,
+    });
 
     fs.rmSync(tempDir, { recursive: true, force: true });
   });
@@ -292,7 +364,10 @@ describe("runImport, downstream-regeneration guard (regenerateDownstream must ne
   it("should never invoke the downstream-regeneration subprocess when outputDir diverges from the default bible-versions/<versionId> path", async () => {
     const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "phase2-guard-"));
     const fakeVersionId = "PHASE2_GUARD_TEST_VERSION";
-    fs.writeFileSync(path.join(tempDir, "_version.json"), fakeVersionJson(fakeVersionId));
+    fs.writeFileSync(
+      path.join(tempDir, "_version.json"),
+      fakeVersionJson(fakeVersionId),
+    );
 
     await runImport(fixturesDir, fakeVersionId, { outputDir: tempDir });
 

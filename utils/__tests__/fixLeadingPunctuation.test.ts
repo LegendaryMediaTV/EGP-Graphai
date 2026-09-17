@@ -8,7 +8,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ",", foot: { type: "trn", content: "Grk “said.”" } },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -26,7 +28,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ",", break: true },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -43,7 +47,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -61,7 +67,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: "! The", marks: ["b", "i"], strong: "G3588" },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -77,7 +85,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: " more", strong: "H2" },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe(content);
@@ -93,7 +103,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: " more", strong: "H2" },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -113,16 +125,28 @@ describe("reattachLeadingPunctuationInContent", () => {
     // fixer moves characters; `transliterateScriptRuns` recomputes every
     // script-tagged node later in the same pass.
     const content = [
-      { text: " νίκην", script: "G", transliteration: " níkēn", strong: "G3529" },
+      {
+        text: " νίκην",
+        script: "G",
+        transliteration: " níkēn",
+        strong: "G3529",
+      },
       { text: "”", script: "G", transliteration: "”" },
       { text: " μετὰ", script: "G", transliteration: " metà", strong: "G3326" },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
-      { text: " νίκην”", script: "G", transliteration: " níkēn", strong: "G3529" },
+      {
+        text: " νίκην”",
+        script: "G",
+        transliteration: " níkēn",
+        strong: "G3529",
+      },
       { text: " μετὰ", script: "G", transliteration: " metà", strong: "G3326" },
     ]);
   });
@@ -133,7 +157,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ",", foot: { type: "trn", content: "second" } },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -148,7 +174,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ")", foot: { type: "trn", content: "x" } },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -163,7 +191,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ",", foot: { type: "trn", content: "x" } },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -187,7 +217,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       { text: ",", break: true, foot: { type: "trn", content: "x" } },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -215,7 +247,9 @@ describe("reattachLeadingPunctuationInContent", () => {
       },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -231,10 +265,16 @@ describe("reattachLeadingPunctuationInContent", () => {
 
   it("should return the original reference untouched when there is nothing to repair", () => {
     const content = [
-      { text: " replied,", strong: "G3004", foot: { type: "trn", content: "x" } },
+      {
+        text: " replied,",
+        strong: "G3004",
+        foot: { type: "trn", content: "x" },
+      },
     ];
 
-    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+    const { content: result, changed } = reattachLeadingPunctuationInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe(content);

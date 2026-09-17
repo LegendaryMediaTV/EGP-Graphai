@@ -120,9 +120,21 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     // leaves the node claiming " – ὑμῖν" is the word σύ. A node with no letter
     // in it has no lexical content to belong to a neighbour.
     const content: Content = [
-      { text: " σπορίμου", script: "G", morph: "A-GSN", lemma: "σπόριμος", strong: "G4702" },
+      {
+        text: " σπορίμου",
+        script: "G",
+        morph: "A-GSN",
+        lemma: "σπόριμος",
+        strong: "G4702",
+      },
       { text: " –", script: "G" },
-      { text: " ὑμῖν", script: "G", morph: "P-2DP", lemma: "σύ", strong: "G4771" },
+      {
+        text: " ὑμῖν",
+        script: "G",
+        morph: "P-2DP",
+        lemma: "σύ",
+        strong: "G4771",
+      },
     ];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
@@ -133,9 +145,21 @@ describe("findStrongsNodeIssues — unmerged pairs", () => {
     // report the merged node as a spelling the map cannot find. The repair for
     // an untagged word is a tag, never a merge into the word beside it.
     const content: Content = [
-      { text: " Οὐκ", script: "G", morph: "PRT-N", lemma: "οὐ", strong: "G3756" },
+      {
+        text: " Οὐκ",
+        script: "G",
+        morph: "PRT-N",
+        lemma: "οὐ",
+        strong: "G3756",
+      },
       { text: " – ἠλεημένην", script: "G" },
-      { text: " καὶ", script: "G", morph: "CONJ", lemma: "καί", strong: "G2532" },
+      {
+        text: " καὶ",
+        script: "G",
+        morph: "CONJ",
+        lemma: "καί",
+        strong: "G2532",
+      },
     ];
     expect(findStrongsNodeIssues(content).unmergedPairs).toEqual([]);
   });
@@ -318,7 +342,10 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
     expect(findings.unmergedPairs).toEqual([]);
     expect(findings.leadingPunctuation).toHaveLength(1);
     expect(findings.leadingPunctuation[0].leading).toBe(",");
-    expect(findings.leadingPunctuation[0].attachTo).toEqual({ text: " word", strong: "H1" });
+    expect(findings.leadingPunctuation[0].attachTo).toEqual({
+      text: " word",
+      strong: "H1",
+    });
   });
 
   it("should leave an untagged connector *word* to the unmerged-connector check rather than reporting the same node twice", () => {
@@ -969,8 +996,7 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
       { text: "is", marks: ["i", "woc"] },
       { text: " , Hear,", marks: ["woc"] },
     ];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].path).toBe("content[1]");
     expect(findings[0].text).toBe(" , Hear,");
@@ -981,9 +1007,9 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
       { text: "is", marks: ["i", "woc"] },
       { text: ", Hear,", marks: ["woc"] },
     ];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should flag a node that is nothing but a space and a period — the KJV1769 MRK 15:2 shape", () => {
@@ -991,16 +1017,14 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
       { text: "it", marks: ["i", "woc"] },
       { text: " .", marks: ["woc"] },
     ];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].text).toBe(" .");
   });
 
   it("should flag a bare string in a content array — the shape most of the downstream fork's own hits take", () => {
     const content: Content = [{ text: "adultery", strong: "G3431" }, " ;"];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].path).toBe("content[1]");
     expect(findings[0].text).toBe(" ;");
@@ -1011,69 +1035,69 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
     // own comma follows it. The first non-space character is the dash, and
     // isTightPunctuationChar excludes every dash, so the run never starts.
     const content: Content = [{ text: " – ,", script: "G" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on the same shape closed by an ano teleia — the other three LXX1935 nodes", () => {
     // Written as an escape on purpose: an ano teleia and an ASCII middle
     // dot are indistinguishable in a terminal and in a diff.
     const content: Content = [{ text: " – \u0387", script: "G" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on an opening parenthesis, which attaches to what it introduces rather than closing what came before", () => {
     const content: Content = [{ text: " (word)" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on an initial quotation mark, for the same reason", () => {
     const content: Content = [{ text: " ‘Hello" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on a leading em dash", () => {
     const content: Content = [{ text: " —word" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent when a letter follows the punctuation, because the mark is inside a word rather than closing one", () => {
     // The corpus splits the contraction "I’m" as " him, ‘I" followed by
     // " ’m": that apostrophe belongs to the word it sits in.
     const content: Content = [{ text: " him, ‘I" }, { text: " ’m" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent when a digit follows the punctuation, the same as a letter", () => {
     const content: Content = [{ text: " ’45" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on BYZ2026's own apparatus separator, which is spaced on both sides on purpose — 12,085 nodes ride on this exclusion", () => {
     const content: Content = [{ text: " ¦ " }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on an ampersand joining two cross-references, a conjunction rather than a mark that lost its word", () => {
     const content: Content = [{ text: " & 21.17" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should flag a stranded closing double quote — the WEBUS2020 JHN 5:11 shape, where the quote closes the speech in the node before it", () => {
@@ -1084,8 +1108,7 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
       { text: "‘Take up your mat and walk.’", marks: ["woc"] },
       { text: " ”" },
     ];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].path).toBe("content[1]");
     expect(findings[0].text).toBe(" ”");
@@ -1096,61 +1119,58 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
       { text: "‘Take up your mat and walk.’", marks: ["woc"] },
       { text: "”" },
     ];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should flag a stranded closing single quote, the inner mark of the same nested-speech cluster", () => {
     const content: Content = [{ text: "word" }, { text: " ’" }];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].text).toBe(" ’");
   });
 
   it("should flag a whole closing cluster, both marks and the terminator they follow", () => {
     const content: Content = [{ text: " .’”" }];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].text).toBe(" .’”");
   });
 
   it("should stay silent on a leading ellipsis", () => {
     const content: Content = [{ text: " … with the likeness" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should carry a closing quote riding behind the terminator into the same finding", () => {
     const content: Content = [{ text: " ,”" }];
-    const findings =
-      findStrongsNodeIssues(content).detachedPunctuationFindings;
+    const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
     expect(findings[0].text).toBe(" ,”");
   });
 
   it("should stay silent on a leading decimal, where the digit after the point says the mark is inside a number", () => {
     const content: Content = [{ text: " .45 centimeters" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on a node whose text opens with whitespace and nothing else", () => {
     const content: Content = [{ text: " " }, { text: "   " }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should stay silent on ordinary leading-space text, which is this corpus's own convention", () => {
     const content: Content = [{ text: " and it was so.", strong: "H776" }];
-    expect(
-      findStrongsNodeIssues(content).detachedPunctuationFindings,
-    ).toEqual([]);
+    expect(findStrongsNodeIssues(content).detachedPunctuationFindings).toEqual(
+      [],
+    );
   });
 
   it("should report each offending node's own path when more than one node in the same array carries the shape", () => {

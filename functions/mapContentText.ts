@@ -66,7 +66,9 @@ function rewrite(
       changed = changed || rewritten.changed;
       return rewritten.value;
     });
-    return changed ? { value: items, changed: true } : { value, changed: false };
+    return changed
+      ? { value: items, changed: true }
+      : { value, changed: false };
   }
 
   if (value === null || typeof value !== "object") {
@@ -181,7 +183,9 @@ function rewriteNodes(
       changed = changed || rewritten.changed;
       return rewritten.value;
     });
-    return changed ? { value: items, changed: true } : { value, changed: false };
+    return changed
+      ? { value: items, changed: true }
+      : { value, changed: false };
   }
 
   if (value === null || typeof value !== "object") {

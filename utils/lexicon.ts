@@ -2,19 +2,17 @@
  * What the lexical map knows about a printed token.
  *
  * A consumer holding a word off a page has two questions the map can answer:
- * how does this romanize, and what does the codex hold for it. The answers have
- * to agree, because the whole point of the map is that the corpus and the codex
- * say the same thing about the same word. One module owning the question is
- * what makes that agreement structural rather than hand-maintained.
+ * how does this romanize, and what does the codex hold for it. One module
+ * owning both is what keeps the corpus and the codex saying the same thing
+ * about the same word, structurally rather than by hand.
  *
  * **The codex is never consulted for a transliteration.** It stores one against
  * each spelling, and reaching for it is the obvious shortcut and the wrong
  * answer: {@link codexLookup} folds initial case away and reads a grave as its
  * acute, so printed `Δαυὶδ` keys as `δαυίδ` and comes back *dauíd* where the
  * page wants *Dauìd*. The value is recomputed from the registry's table every
- * time, so a word the codex has never heard of — an untagged footnote variant,
- * a deliberate misspelling in an apparatus — transliterates exactly as well as
- * one it holds.
+ * time, so a word the codex has never heard of transliterates exactly as well
+ * as one it holds.
  *
  * **Two caches, not one.** A registry is a few kilobytes; the codex is 13 MB
  * across 24 files and about 130 ms to index. Indexing it lazily and separately
@@ -59,17 +57,16 @@ const SMOOTH = "\u0313";
 /**
  * Script-specific marks and the Latin ones they read as.
  *
- * Written as escapes on purpose. The ano teleia looks exactly like a middle dot
+ * Written as escapes on purpose: the ano teleia looks exactly like a middle dot
  * and the Greek question mark exactly like a semicolon, and
  * {@link transliterate} ends in an NFC normalization that turns U+0387 into
- * U+00B7, so a table written with pasted literals can be silently dead and a
- * word carrying its punctuation into the transliterator loses the mark to a
- * look-alike. Marks not named here stand as printed, which is the right answer
- * for everything from a comma to LXX's editorial brackets.
+ * U+00B7, so a table written with pasted literals can be silently dead. Marks
+ * not named here stand as printed, which is the right answer for everything
+ * from a comma to LXX's editorial brackets.
  */
 const SCRIPT_MARKS: Record<string, string> = {
-  "\u0387": ";", // Greek ano teleia reads as a semicolon
-  "\u037E": "?", // Greek question mark reads as a question mark
+  "\u0387": ";", // Greek ano teleia
+  "\u037E": "?", // Greek question mark
 };
 
 /** The transliteration scheme a language registry declares, as its table. */
@@ -98,9 +95,9 @@ export interface CodexEntry {
   file: string;
   /**
    * The spelling as the codex writes it, which is **not** the key it was found
-   * under: {@link codexLookup} folds initial case and reads a grave as its
-   * acute, so `Δαυὶδ` is stored under `δαυίδ`. A caller reporting a cell wants
-   * the written form, and nothing else can recover it from the key.
+   * under ({@link codexLookup} folds the case and the accent). A caller
+   * reporting a cell wants the written form, and nothing else can recover it
+   * from the key.
    */
   spelling: string;
   /** Dictionary root the spelling inflects from, e.g. `"Χριστός"`. */
@@ -191,7 +188,8 @@ function languageFacts(): Map<string, LanguageFacts> {
     const registry = JSON.parse(fs.readFileSync(registryPath, "utf-8"));
 
     const categoryOf = new Map<string, string>();
-    for (const entry of registry.inflections ?? []) categoryOf.set(entry._id, entry.category);
+    for (const entry of registry.inflections ?? [])
+      categoryOf.set(entry._id, entry.category);
 
     // Missing any of the three the scheme is built from, a registry has no
     // usable table at all — better than a partial one every caller would then
@@ -209,7 +207,11 @@ function languageFacts(): Map<string, LanguageFacts> {
           }
         : null;
 
-    registries.set(language, { script: registry.script ?? null, transliteration, categoryOf });
+    registries.set(language, {
+      script: registry.script ?? null,
+      transliteration,
+      categoryOf,
+    });
   }
   return registries;
 }
@@ -238,7 +240,9 @@ export function languageForScript(script: string): string | null {
  *
  * @param language Subdirectory of `lexical-maps`, e.g. `"greek"`.
  */
-export function transliterationTable(language: string): TransliterationTable | null {
+export function transliterationTable(
+  language: string,
+): TransliterationTable | null {
   return languageFacts().get(language)?.transliteration ?? null;
 }
 
@@ -253,7 +257,8 @@ export function inflectionCategories(): Map<string, string> {
   if (categories) return categories;
   categories = new Map();
   for (const facts of languageFacts().values()) {
-    for (const [code, category] of facts.categoryOf) categories.set(code, category);
+    for (const [code, category] of facts.categoryOf)
+      categories.set(code, category);
   }
   return categories;
 }
@@ -271,7 +276,12 @@ export function inflectionCategories(): Map<string, string> {
  * @param spelling One spelling, outer punctuation already off.
  */
 export function codexLookup(spelling: string): string {
-  return spelling.toLowerCase().normalize("NFD").split(GRAVE).join(ACUTE).normalize("NFC");
+  return spelling
+    .toLowerCase()
+    .normalize("NFD")
+    .split(GRAVE)
+    .join(ACUTE)
+    .normalize("NFC");
 }
 
 /**
@@ -281,7 +291,11 @@ export function codexLookup(spelling: string): string {
  * spelling the codex carries under some other accentuation.
  */
 function fold(word: string): string {
-  return word.normalize("NFD").replace(COMBINING, "").toLowerCase().normalize("NFC");
+  return word
+    .normalize("NFD")
+    .replace(COMBINING, "")
+    .toLowerCase()
+    .normalize("NFC");
 }
 
 /** The codex as spelling key to entries, built on first use. */
@@ -292,14 +306,18 @@ function codexIndex(): Map<string, CodexEntry[]> {
   roots = new Map();
   for (const language of lexicalMapLanguages()) {
     const dir = path.join(lexicalMapsDir, language);
-    const files = fs.readdirSync(dir).filter((name) => name.endsWith(".json") && name !== "_language.json");
+    const files = fs
+      .readdirSync(dir)
+      .filter((name) => name.endsWith(".json") && name !== "_language.json");
 
     for (const name of files) {
       const data = JSON.parse(fs.readFileSync(path.join(dir, name), "utf-8"));
       for (const [root, entry] of Object.entries<any>(data)) {
         const rootStrongs = indexNumbers(entry.indices?.strongs);
         roots.set(root, rootStrongs);
-        for (const [spelling, inflection] of Object.entries<any>(entry.inflections ?? {})) {
+        for (const [spelling, inflection] of Object.entries<any>(
+          entry.inflections ?? {},
+        )) {
           // Both keys, so a corpus printing a capital where a sentence starts
           // finds the key its root gave it, and a spelling the codex carries
           // under some other accentuation is still reachable.
@@ -372,7 +390,9 @@ function strongsPlacements(): Map<string, IndexRule[]> {
   for (const language of lexicalMapLanguages()) {
     const dir = path.join(lexicalMapsDir, language, "indices");
     if (!fs.existsSync(dir)) continue;
-    for (const name of fs.readdirSync(dir).filter((file) => file.endsWith(".json"))) {
+    for (const name of fs
+      .readdirSync(dir)
+      .filter((file) => file.endsWith(".json"))) {
       const index = JSON.parse(fs.readFileSync(path.join(dir, name), "utf-8"));
       if (index._id !== "strongs") continue;
       for (const rule of (index.rules ?? []) as IndexRule[]) {
@@ -399,7 +419,7 @@ function morphologyScheme(id: string): ReturnType<typeof readScheme> {
 
   const found = lexicalMapLanguages().reduce<ReturnType<typeof readScheme>>(
     (scheme, language) => scheme ?? readScheme(language, id),
-    null
+    null,
   );
   schemes.set(id, found);
   return found;
@@ -438,8 +458,14 @@ export function entriesFor(spelling: string): CodexEntry[] {
  * Capitalise a transliterated letter, which may be more than one character.
  *
  * Only the first: the Greek theta is *Th* and psi is *Ps*, never *TH* or *PS*.
+ * That is the rule for a capital a single letter owns, whether a name's or the
+ * one a sentence puts at its head, because the capital belongs to one Greek
+ * letter and the digraph is how that one letter is spelled in Latin.
+ *
+ * That is half the rule; {@link transliterate} owns the word-level half.
  */
-const titleCase = (latin: string) => latin.charAt(0).toUpperCase() + latin.slice(1);
+const titleCase = (latin: string) =>
+  latin.charAt(0).toUpperCase() + latin.slice(1);
 
 /**
  * The academic transliteration of one word, from the registry's own table.
@@ -458,15 +484,22 @@ const titleCase = (latin: string) => latin.charAt(0).toUpperCase() + latin.slice
  * clause and every word after the first is quietly wrong. Callers working from
  * printed text want {@link transliterateText}, which takes the string apart
  * first.
+ *
+ * **Case is read off the whole word.** A word of two or more letters, every one
+ * of them a capital, is set in capitals and romanizes to capitals throughout:
+ * `ΜΑΤΘΑΙΟΝ` is *MATTHAION*, not *MATThAION*. Anything else, a lone capital
+ * included, capitalises letter by letter and keeps *Th*; see {@link titleCase}.
  */
-export function transliterate(word: string, table: TransliterationTable): string {
+export function transliterate(
+  word: string,
+  table: TransliterationTable,
+): string {
   const diphthongs = new Set(table.diphthongs);
   const velars = new Set(table.velars);
 
   // `base` is lower-cased because the registry's table is keyed that way;
-  // `capital` remembers what the text printed so the Latin can match it.
-  // Lower-casing everything reads `Ζαβδος` as *zabdos*, a proper name in lower
-  // case.
+  // `capital` remembers what the text printed, so `Ζαβδος` does not come back
+  // *zabdos*.
   const chars: { base: string; marks: string[]; capital: boolean }[] = [];
   for (const ch of word.normalize("NFD")) {
     if (ch in MARKS || ch === ROUGH || ch === SMOOTH) {
@@ -477,6 +510,20 @@ export function transliterate(word: string, table: TransliterationTable): string
     chars.push({ base, marks: [], capital: base !== ch });
   }
 
+  // An uncased character — an elision mark, a numeral sign — says nothing
+  // either way, so it neither makes a word all-capital nor stops one from
+  // being.
+  //
+  // **Two letters, not one.** A one-letter word is capitals throughout the
+  // moment it is capital at all, and the article and the relative stand alone
+  // as words, so reading them that way answers *HO* and *HĒ* where the sentence
+  // merely began in a capital: 1,283 nodes across the two corpora.
+  const cased = chars.filter((char) => char.base !== char.base.toUpperCase());
+  const allCapitals = cased.length > 1 && cased.every((char) => char.capital);
+  const capitalise = allCapitals
+    ? (latin: string) => latin.toUpperCase()
+    : titleCase;
+
   let out = "";
   let aspirated = false;
   chars.forEach((char, i) => {
@@ -486,22 +533,35 @@ export function transliterate(word: string, table: TransliterationTable): string
 
     if (char.base === "γ" && next && velars.has(next.base)) {
       latin = table.gammaNasal;
-    } else if (char.base === "υ" && previous && diphthongs.has(previous.base + char.base)) {
+    } else if (
+      char.base === "υ" &&
+      previous &&
+      diphthongs.has(previous.base + char.base)
+    ) {
       latin = table.upsilonInDiphthong;
     } else {
       latin = table.letters[char.base] ?? char.base;
     }
 
-    // A rough breathing aspirates the syllable it sits on.
+    // A rough breathing aspirates the syllable it sits on. The aspirate and the
+    // letter are then one Latin unit, so which part shows the capital falls out
+    // of their order rather than out of a rule of its own.
     if (char.marks.includes(ROUGH)) {
       // A rho takes its aspirate after itself, so the rho keeps the capital
       // (`Ῥώμη` is *Rhṓmē*); a vowel's aspirate stands first and takes it
       // instead (`Ἅγιος` is *Hágios*, not *hÁgios*).
-      if (char.base === "ρ") latin = (char.capital ? titleCase(latin) : latin) + table.aspirate;
-      else if (previous && diphthongs.has(previous.base + char.base)) aspirated = true;
-      else latin = (char.capital ? titleCase(table.aspirate) : table.aspirate) + latin;
+      if (char.base === "ρ")
+        latin = char.capital
+          ? capitalise(latin + table.aspirate)
+          : latin + table.aspirate;
+      else if (previous && diphthongs.has(previous.base + char.base))
+        aspirated = true;
+      else
+        latin = char.capital
+          ? capitalise(table.aspirate + latin)
+          : table.aspirate + latin;
     } else if (char.capital) {
-      latin = titleCase(latin);
+      latin = capitalise(latin);
     }
 
     out += latin + char.marks.map((m) => MARKS[m] ?? "").join("");
@@ -511,9 +571,10 @@ export function transliterate(word: string, table: TransliterationTable): string
   // diphthong, so the capital moves out to it: `Οὗτος` is *Hoûtos*.
   if (aspirated) {
     const capital = chars[0]?.capital;
-    out =
-      (capital ? titleCase(table.aspirate) : table.aspirate) +
+    const prefixed =
+      table.aspirate +
       (capital ? out.charAt(0).toLowerCase() + out.slice(1) : out);
+    out = capital ? capitalise(prefixed) : prefixed;
   }
   return out.normalize("NFC");
 }
@@ -529,8 +590,7 @@ export function transliterate(word: string, table: TransliterationTable): string
  * a semicolon and every other mark, digit and space stands as printed.
  *
  * Nothing is dropped and nothing is moved, so stitching these values together
- * yields what stitching the texts does: the same word boundaries, the same
- * spacing, the same punctuation in the same places.
+ * yields what stitching the texts does.
  *
  * @param text A node's printed text, spaces and all.
  * @param script The node's `script` value, e.g. `"G"`.
@@ -546,7 +606,7 @@ export function transliterateText(text: string, script: string): string | null {
     .map((run) =>
       run.word
         ? transliterate(run.text, table)
-        : [...run.text].map((mark) => SCRIPT_MARKS[mark] ?? mark).join("")
+        : [...run.text].map((mark) => SCRIPT_MARKS[mark] ?? mark).join(""),
     )
     .join("");
 }
@@ -644,9 +704,11 @@ export function resolveLemma(word: {
       break;
     }
   }
-  if (!candidates.length) return { unresolved: "the map holds no such spelling" };
+  if (!candidates.length)
+    return { unresolved: "the map holds no such spelling" };
 
-  if (distinctRoots(candidates).length === 1) return { lemma: candidates[0].root };
+  if (distinctRoots(candidates).length === 1)
+    return { lemma: candidates[0].root };
 
   const scheme = word.morphology ? morphologyScheme(word.morphology) : null;
   if (!scheme) {
@@ -663,27 +725,42 @@ export function resolveLemma(word: {
   // stand. The map records what a form could be apart from any sentence, and a
   // corpus may legitimately state a parse no cell anticipated.
   const categoryOf = inflectionCategories();
-  const onParse = candidates.filter((entry) => accountsFor(entry.cell, parse, categoryOf));
+  const onParse = candidates.filter((entry) =>
+    accountsFor(entry.cell, parse, categoryOf),
+  );
   if (onParse.length) candidates = onParse;
-  if (distinctRoots(candidates).length === 1) return { lemma: candidates[0].root };
+  if (distinctRoots(candidates).length === 1)
+    return { lemma: candidates[0].root };
 
   // Two clues are left, and neither outranks the other, so they are read
-  // together. Where they name different roots the map says so rather than
-  // picking one, because a wrong lemma reported as certain is worse than no
-  // lemma: the caller can see a decline and cannot see a silent mistake.
-  const byCase = distinctRoots(candidates.filter((entry) => spelledAsPrinted(entry, printed)));
+  // together rather than in an order.
+  const byCase = distinctRoots(
+    candidates.filter((entry) => spelledAsPrinted(entry, printed)),
+  );
   const byNumber =
     word.strong === undefined
       ? []
-      : distinctRoots(candidates.filter((entry) => entry.rootStrongs.includes(word.strong!)));
+      : distinctRoots(
+          candidates.filter((entry) =>
+            entry.rootStrongs.includes(word.strong!),
+          ),
+        );
 
-  if (byNumber.length === 1 && byCase.length === 1 && byNumber[0] !== byCase[0]) {
-    return { unresolved: `the printed case says ${byCase[0]} and the Strong's number says ${byNumber[0]}` };
+  if (
+    byNumber.length === 1 &&
+    byCase.length === 1 &&
+    byNumber[0] !== byCase[0]
+  ) {
+    return {
+      unresolved: `the printed case says ${byCase[0]} and the Strong's number says ${byNumber[0]}`,
+    };
   }
   if (byNumber.length === 1) return { lemma: byNumber[0] };
   if (byCase.length === 1) return { lemma: byCase[0] };
 
-  return { unresolved: `ambiguous between ${distinctRoots(candidates).join(", ")}` };
+  return {
+    unresolved: `ambiguous between ${distinctRoots(candidates).join(", ")}`,
+  };
 }
 
 /**
@@ -725,27 +802,42 @@ export function resolveStrongs(word: {
   morphology?: string;
 }): StrongsResolution {
   const rootNumbers = rootIndex().get(word.lemma);
-  if (rootNumbers === undefined) return { unresolved: "lemma is not a root in the codex" };
+  if (rootNumbers === undefined)
+    return { unresolved: "lemma is not a root in the codex" };
 
   const spelling = spellingsOf(word.text).find(Boolean) ?? "";
   const scheme = word.morphology ? morphologyScheme(word.morphology) : null;
   const parse = word.morph && scheme ? decodeMorph(word.morph, scheme) : null;
 
   const matched = (strongsPlacements().get(word.lemma) ?? []).filter((rule) => {
-    if (rule.requires && !rule.requires.every((code) => parse?.includes(code))) return false;
-    if (rule.spelling && codexLookup(rule.spelling) !== codexLookup(spelling)) return false;
+    if (rule.requires && !rule.requires.every((code) => parse?.includes(code)))
+      return false;
+    if (rule.spelling && codexLookup(rule.spelling) !== codexLookup(spelling))
+      return false;
     return true;
   });
   const placed = [...new Set(matched.map((rule) => rule.n))].sort();
   if (placed.length === 1) return { strong: placed[0] };
-  if (placed.length > 1) return { unresolved: `conflicting index rules: ${placed.join(", ")}` };
+  if (placed.length > 1)
+    return { unresolved: `conflicting index rules: ${placed.join(", ")}` };
 
-  const cells = entriesFor(spelling).filter((entry) => entry.root === word.lemma);
-  const onParse = parse ? cells.filter((entry) => accountsFor(entry.cell, parse, inflectionCategories())) : [];
-  const onCell = [...new Set((onParse.length ? onParse : cells).flatMap((entry) => entry.cellStrongs))];
+  const cells = entriesFor(spelling).filter(
+    (entry) => entry.root === word.lemma,
+  );
+  const onParse = parse
+    ? cells.filter((entry) =>
+        accountsFor(entry.cell, parse, inflectionCategories()),
+      )
+    : [];
+  const onCell = [
+    ...new Set(
+      (onParse.length ? onParse : cells).flatMap((entry) => entry.cellStrongs),
+    ),
+  ];
   if (onCell.length === 1) return { strong: onCell[0] };
 
   if (rootNumbers.length === 1) return { strong: rootNumbers[0] };
-  if (rootNumbers.length === 0) return { unresolved: "the root carries no Strong's number" };
+  if (rootNumbers.length === 0)
+    return { unresolved: "the root carries no Strong's number" };
   return { unresolved: "root-level index is an array no rule narrows" };
 }

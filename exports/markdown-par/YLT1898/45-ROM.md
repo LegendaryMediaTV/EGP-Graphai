@@ -49,8 +49,8 @@
 ## Chapter 2
 
 <sup>1</sup> <sup>a</sup>
-### Jews as Well as Gentiles
 
+### Jews as Well as Gentiles
 
 Therefore, thou art inexcusable, O man—every one who is judging—for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,
 <sup>2</sup> and we have known that the judgment of God is according to truth, upon those practising such things.
@@ -92,8 +92,8 @@ Therefore, thou art inexcusable, O man—every one who is judging—for in that 
 ## Chapter 3
 
 <sup>1</sup> <sup>a</sup>
-### They Are All Under Sin
 
+### They Are All Under Sin
 
 What, then, _is_ the superiority of the Jew? or what the profit of the circumcision?
 <sup>2</sup> much in every way; for first, indeed, that they were intrusted with the oracles of God;
@@ -144,8 +144,8 @@ What, then, _is_ the superiority of the Jew? or what the profit of the circumcis
 ## Chapter 4
 
 <sup>1</sup> <sup>a</sup>
-### Grasped by Faith
 
+### Grasped by Faith
 
 What, then, shall we say Abraham our father, to have found, according to flesh?
 <sup>2</sup> for if Abraham by works was declared righteous, he hath to boast—but not before god;
@@ -181,8 +181,8 @@ What, then, shall we say Abraham our father, to have found, according to flesh?
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-### Peace with God
 
+### Peace with God
 
 Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,
 <sup>2</sup> through whom also we have the access by the faith into this grace in which we have stood, and we boast on the hope of the glory of God.
@@ -214,8 +214,8 @@ Having been declared righteous, then, by faith, we have peace toward God through
 ## Chapter 6
 
 <sup>1</sup> <sup>a</sup>
-### Complete Renewal
 
+### Complete Renewal
 
 What, then, shall we say? shall we continue in the sin that the grace may abound?
 <sup>2</sup> let it not be! we who died to the sin—how shall we still live in it?
@@ -250,8 +250,8 @@ What, then, shall we say? shall we continue in the sin that the grace may abound
 ## Chapter 7
 
 <sup>1</sup> <sup>a</sup>
-### A Change of Masters
 
+### A Change of Masters
 
 Are ye ignorant, brethren—for to those knowing law I speak—that the law hath lordship over the man as long as he liveth?
 <sup>2</sup> for the married woman to the living husband hath been bound by law, and if the husband may die, she hath been free from the law of the husband;
@@ -286,8 +286,8 @@ Are ye ignorant, brethren—for to those knowing law I speak—that the law hath
 ## Chapter 8
 
 <sup>1</sup> <sup>a</sup>
-### The Spirit of God Within You
 
+### The Spirit of God Within You
 
 There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;
 <sup>2</sup> for the law of the Spirit of the life in Christ Jesus did set me free from the law of the sin and of the death;
@@ -347,10 +347,10 @@ There is, then, now no condemnation to those in Christ Jesus, who walk not accor
 ## Chapter 9
 
 <sup>1</sup> <sup>a</sup>
+
 ### The Problem of the Jews
 
 ### The Rejection of Israel
-
 
 Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,
 <sup>2</sup> that I have great grief and unceasing pain in my heart—
@@ -437,8 +437,8 @@ Brethren, the pleasure indeed of my heart, and my supplication that _is_ to God 
 ## Chapter 11
 
 <sup>1</sup> <sup>a</sup>
-### The Divine Purpose in It
 
+### The Divine Purpose in It
 
 I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:
 <sup>2</sup> God did not cast away His people whom He knew before; have ye not known—in Elijah—what the Writing saith? how he doth plead with God concerning Israel, saying,
@@ -495,8 +495,8 @@ I say, then, Did God cast away His people? let it not be! for I also am an Israe
 ## Chapter 12
 
 <sup>1</sup> <sup>a</sup>
-### Christian Living
 
+### Christian Living
 
 I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice—living, sanctified, acceptable to God—your intelligent service;
 <sup>2</sup> and be not conformed to this age, but be transformed by the renewing of your mind, for your proving what _is_ the will of God—the good, and acceptable, and perfect.
@@ -530,8 +530,8 @@ I call upon you, therefore, brethren, through the compassions of God, to present
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-### Civil and Social Duties
 
+### Civil and Social Duties
 
 Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,
 <sup>2</sup> so that he who is setting himself against the authority, against God’s ordinance hath resisted; and those resisting, to themselves shall receive judgment.
@@ -554,8 +554,8 @@ Let every soul to the higher authorities be subject, for there is no authority e
 ## Chapter 14
 
 <sup>1</sup> <sup>a</sup>
-### Christian Charity and Unity
 
+### Christian Charity and Unity
 
 And him who is weak in the faith receive ye—not to determinations of reasonings;
 <sup>2</sup> one doth believe that he may eat all things—and he who is weak doth eat herbs;<sup>b</sup>

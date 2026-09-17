@@ -37,7 +37,10 @@ const scheme = declaredScheme("LXX1935")!.scheme;
 const token = (text: string, ...morphs: string[]): CorpusToken => ({
   text,
   spellings: spellingsOf(text).filter(Boolean),
-  readings: morphs.map((morph) => ({ morph, parse: decodeMorph(morph, scheme) })),
+  readings: morphs.map((morph) => ({
+    morph,
+    parse: decodeMorph(morph, scheme),
+  })),
 });
 
 describe("issuesInToken, a iota subscript marks the dative singular", () => {
@@ -119,6 +122,8 @@ describe("formatOrthographyFinding", () => {
       chapter: 2,
       verse: 2,
     });
-    expect(line).toBe(`GEN 2:2 ${HEKTEI} A-NSF states nom sg, ending allows dat sg`);
+    expect(line).toBe(
+      `GEN 2:2 ${HEKTEI} A-NSF states nom sg, ending allows dat sg`,
+    );
   });
 });

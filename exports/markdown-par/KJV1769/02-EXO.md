@@ -816,9 +816,10 @@
 <sup>21</sup> And the people stood afar off, and Moses drew near unto the thick darkness where God _was_.
 
 ### The Book of the Covenant
-<sup>22</sup> 
-### Worship and Justice
 
+<sup>22</sup>
+
+### Worship and Justice
 
 And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Ye have seen that I have talked with you from heaven.
 <sup>23</sup> Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold.

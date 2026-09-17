@@ -96,7 +96,9 @@ const declared = new Map<string, { id: string; scheme: Scheme } | null>();
  *
  * @param version Directory under `bible-versions`, e.g. `"BYZ2026"`.
  */
-export function declaredScheme(version: string): { id: string; scheme: Scheme } | null {
+export function declaredScheme(
+  version: string,
+): { id: string; scheme: Scheme } | null {
   const cached = declared.get(version);
   if (cached !== undefined) return cached;
 
@@ -107,7 +109,7 @@ export function declaredScheme(version: string): { id: string; scheme: Scheme } 
   const scheme = id
     ? lexicalMapLanguages().reduce<Scheme | null>(
         (found, language) => found ?? readScheme(language, id),
-        null
+        null,
       )
     : null;
 
@@ -126,14 +128,21 @@ export function declaredScheme(version: string): { id: string; scheme: Scheme } 
  * @param content A verse's content tree.
  * @param scheme The scheme the version writes its codes in.
  */
-export function verseSequences(content: Content, scheme: Scheme): CorpusToken[][] {
+export function verseSequences(
+  content: Content,
+  scheme: Scheme,
+): CorpusToken[][] {
   const sequences: CorpusToken[][] = [];
   appendSequence(content, scheme, sequences);
   return sequences.filter((tokens) => tokens.length > 0);
 }
 
 /** Walk one separately-printed block into a sequence of its own. */
-function appendSequence(nodes: unknown, scheme: Scheme, sequences: CorpusToken[][]): void {
+function appendSequence(
+  nodes: unknown,
+  scheme: Scheme,
+  sequences: CorpusToken[][],
+): void {
   if (!Array.isArray(nodes)) return;
   const tokens: CorpusToken[] = [];
   sequences.push(tokens);
@@ -141,7 +150,12 @@ function appendSequence(nodes: unknown, scheme: Scheme, sequences: CorpusToken[]
 }
 
 /** Fill one sequence, sending separately-printed blocks off into their own. */
-function walk(nodes: unknown[], scheme: Scheme, tokens: CorpusToken[], sequences: CorpusToken[][]): void {
+function walk(
+  nodes: unknown[],
+  scheme: Scheme,
+  tokens: CorpusToken[],
+  sequences: CorpusToken[][],
+): void {
   for (const node of nodes as any[]) {
     if (node === null || typeof node !== "object") continue;
 
@@ -181,7 +195,11 @@ function walk(nodes: unknown[], scheme: Scheme, tokens: CorpusToken[], sequences
 
     const spellings = spellingsOf(node.text).filter(Boolean);
     if (!spellings.length) continue;
-    tokens.push({ text: node.text, spellings, readings: reading ? [reading] : [] });
+    tokens.push({
+      text: node.text,
+      spellings,
+      readings: reading ? [reading] : [],
+    });
   }
 }
 
@@ -221,7 +239,9 @@ export function* corpusVerses(version: string): Generator<CorpusVerse> {
   if (!scheme) return;
 
   const dir = path.join(bibleVersionsDir, version);
-  for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "_version.json")) {
+  for (const file of fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && f !== "_version.json")) {
     const records = JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8"));
     if (!Array.isArray(records)) continue;
 

@@ -890,7 +890,7 @@
 
 <sup>23</sup> Epikatáratos ho koimṓmenos metà pentherâs autoû; kaì eroûsin pâs ho laós Génoito.
 
- Epikatáratos ho koimṓmenos metà adelphē̂s gynaikòs autoû; kaì eroûsin pâs ho laós Génoito.
+Epikatáratos ho koimṓmenos metà adelphē̂s gynaikòs autoû; kaì eroûsin pâs ho laós Génoito.
 
 <sup>24</sup> Epikatáratos ho týptōn tòn plēsíon autoû dólō; kaì eroûsin pâs ho laós Génoito.
 

@@ -113,7 +113,6 @@
 
 ### Before the fall of Jerusalem
 
-
 ### Symbols of its Fall
 
 <sup>1</sup> Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, _even_ Jerusalem:
@@ -1032,7 +1031,6 @@
 ## Chapter 25
 
 ### Judgement upon the Nations
-
 
 ### Ammon
 

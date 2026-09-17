@@ -93,15 +93,19 @@ The frontend uses no module bundler. Each component file ends with:
 window.ComponentName = ComponentName;
 ```
 
-That's how cross-file references resolve. When you add a new component, register it the same way; otherwise other files won't see it. This is a deliberate trade-off: no build pipeline at the cost of explicit registration boilerplate.
+That's how cross-file references resolve. When you add a new component, register it the same way and add its `<script type="text/babel">` tag to `index.html` ahead of whatever uses it; otherwise other files won't see it. This is a deliberate trade-off: no build pipeline at the cost of explicit registration boilerplate.
+
+The two files that hold logic rather than markup — [footnoteText.js](../../../web/public/js/footnoteText.js) and [printedText.js](../../../web/public/js/printedText.js) — register the same way and add a `module.exports` guard and a hand-written `.d.ts` beside them. That is what lets vitest import them directly, and it is the only way reader logic gets a unit test here: the JSX files cannot be imported outside the browser, since nothing compiles them but Babel-standalone at load time.
 
 ## Rendering original-language script
 
 Greek and Hebrew text uses the `script` property on text nodes (`"G"` or `"H"`). The reader applies a CSS class and, for Hebrew, sets `dir="rtl"` so the browser handles bidirectional text correctly. Fonts are loaded via the page's stylesheet. Latin text uses the default body font, Greek and Hebrew get their own script-specific stacks.
 
-The Transliteration toggle changes which of a node's own strings prints: its `transliteration` when it has one, its `text` when it doesn't. The choice is per node, not per version, so a translation that quotes a Hebrew word in a footnote romanizes that word and leaves its English alone, and a version nothing has romanized yet reads exactly as it does with the toggle off. The same fallback is why book names stay in Greek in the sidebar and chapter nav: `_version.json` carries no transliterations for any version, and `BookName.js` prints what it's given.
+The Transliteration toggle changes which of a node's own strings prints: its `transliteration` when it has one, its `text` when it doesn't. The choice is per node, not per version, so a translation that quotes a Hebrew word in a footnote romanizes that word and leaves its English alone, and a version nothing has romanized yet reads exactly as it does with the toggle off.
 
-A romanization is Latin, so it takes neither the script font nor `dir="rtl"`. Both would be wrong on the romanized string, and the RTL one visibly so, putting the punctuation on the wrong end of the line.
+[printedText.js](../../../web/public/js/printedText.js) is where that choice is made, and it answers with the script alongside the text, because a romanization is Latin: it takes neither the script font nor `dir="rtl"`. Both would be wrong on the romanized string, and the RTL one visibly so, putting the punctuation on the wrong end of the line.
+
+Book names go through the same function. `ContentNode.js` asks it for verse text and `BookName.js` asks it for a book's `name`, so the sidebar, the mobile book drawer and the chapter-nav header all switch with the chapter rather than staying in Greek beside a romanized page. The sidebar's tooltip prints the book's `title`, which is a `Content` node rather than a string, so it goes through `getFootnoteText` with the same flag. Nothing here is a second setting: `settings.showTransliteration` is handed to `BookName` as a `transliterate` prop at each of its three call sites.
 
 This is the browser's counterpart to `textOf` in [exportContent.ts](../../../utils/exportContent.ts), which is how the exporter builds the `-Transliterated` markdown tree from the same field. Both make the choice in exactly one place, so the toggle is a fair way to eyeball that export before running it.
 

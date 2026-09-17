@@ -42,7 +42,12 @@
  * Reading the verses around a known defect is the only route to the rest.
  */
 
-import { CorpusToken, cellsFor, corpusVerses, declaredScheme } from "./corpusTokens";
+import {
+  CorpusToken,
+  cellsFor,
+  corpusVerses,
+  declaredScheme,
+} from "./corpusTokens";
 import { codexLookup, inflectionCategories } from "./lexicon";
 
 /** The categories an article, an adjective and a noun agree in. */
@@ -120,12 +125,18 @@ export function auditCorpusAgreement(version: string): CorpusAgreementAudit {
   if (!declared) return audit;
 
   for (const verse of corpusVerses(version)) {
-    const at = { file: verse.file, book: verse.book, chapter: verse.chapter, verse: verse.verse };
+    const at = {
+      file: verse.file,
+      book: verse.book,
+      chapter: verse.chapter,
+      verse: verse.verse,
+    };
     for (const sequence of verse.sequences) {
       const found = agreementInSequence(sequence);
       audit.pairs += found.pairs;
       audit.reconcilable += found.reconcilable;
-      for (const issue of found.issues) audit.findings.push({ ...at, ...issue });
+      for (const issue of found.issues)
+        audit.findings.push({ ...at, ...issue });
     }
   }
 
@@ -143,7 +154,8 @@ export function auditCorpusAgreement(version: string): CorpusAgreementAudit {
 export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
   const categoryOf = inflectionCategories();
   const found: SequenceAgreement = { issues: [], pairs: 0, reconcilable: 0 };
-  const asPos = (i: number, pos: string) => inflectedAs(tokens[i], pos, categoryOf);
+  const asPos = (i: number, pos: string) =>
+    inflectedAs(tokens[i], pos, categoryOf);
 
   for (let i = 0; i < tokens.length; i++) {
     const articles = asPos(i, "art");
@@ -154,7 +166,10 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
     // about are the ones that do not, and those are also the only ones where
     // the article might be heading something else entirely.
     const disagree = nouns.length > 0 && !agrees(articles, nouns, categoryOf);
-    if (nouns.length && !(disagree && headsSomethingElse(tokens, i, articles, categoryOf))) {
+    if (
+      nouns.length &&
+      !(disagree && headsSomethingElse(tokens, i, articles, categoryOf))
+    ) {
       found.pairs++;
       // The codex holding an agreeing pair of cells is what makes this the
       // corpus's own choice rather than a gap in the map.
@@ -162,7 +177,11 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
         found.reconcilable++;
         if (disagree) {
           found.issues.push(
-            issue("article/noun", [tokens[i], tokens[i + 1]], differences(articles, nouns, categoryOf))
+            issue(
+              "article/noun",
+              [tokens[i], tokens[i + 1]],
+              differences(articles, nouns, categoryOf),
+            ),
           );
         }
       }
@@ -170,7 +189,11 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
 
     const adjectives = asPos(i + 1, "adj");
     const after = asPos(i + 2, "noun");
-    if (adjectives.length && after.length && agrees(articles, after, categoryOf)) {
+    if (
+      adjectives.length &&
+      after.length &&
+      agrees(articles, after, categoryOf)
+    ) {
       // A genitive standing between an article and its noun is ordinary Greek
       // and not an attributive at all: `ὁ πάντων δεσπότης` is "the master of
       // all", with πάντων depending on δεσπότης rather than agreeing with it,
@@ -187,18 +210,26 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
       // and `ἑτέρων` is plural inside a singular phrase. An attributive like
       // `τῶν ἀφρόνων γυναικῶν` matches in both and is still reported.
       const dependentGenitive =
-        adjectives.every((parse) => stated(parse, "case", categoryOf) === "gen") &&
-        (!articles.some((parse) => stated(parse, "case", categoryOf) === "gen") ||
+        adjectives.every(
+          (parse) => stated(parse, "case", categoryOf) === "gen",
+        ) &&
+        (!articles.some(
+          (parse) => stated(parse, "case", categoryOf) === "gen",
+        ) ||
           !articles.some((article) =>
-            adjectives.some((parse) => stated(parse, "number", categoryOf) === stated(article, "number", categoryOf))
+            adjectives.some(
+              (parse) =>
+                stated(parse, "number", categoryOf) ===
+                stated(article, "number", categoryOf),
+            ),
           ));
       if (!dependentGenitive && !agrees(articles, adjectives, categoryOf)) {
         found.issues.push(
           issue(
             "article/adjective/noun",
             [tokens[i], tokens[i + 1], tokens[i + 2]],
-            differences(articles, adjectives, categoryOf)
-          )
+            differences(articles, adjectives, categoryOf),
+          ),
         );
       }
     }
@@ -235,22 +266,34 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
     const attributive = completing.some((noun) =>
       adjectives.some(
         (parse) =>
-          stated(parse, "case", categoryOf) === stated(noun, "case", categoryOf) &&
-          stated(parse, "number", categoryOf) === stated(noun, "number", categoryOf)
-      )
+          stated(parse, "case", categoryOf) ===
+            stated(noun, "case", categoryOf) &&
+          stated(parse, "number", categoryOf) ===
+            stated(noun, "number", categoryOf),
+      ),
     );
     const substantival = !attributive;
-    if (adjectives.length && substantival && !agrees(articles, adjectives, categoryOf)) {
+    if (
+      adjectives.length &&
+      substantival &&
+      !agrees(articles, adjectives, categoryOf)
+    ) {
       const dependent = adjectives.every((parse) => {
         const where = stated(parse, "case", categoryOf);
         return (
           (where === "gen" || where === "dat") &&
-          !articles.some((article) => stated(article, "case", categoryOf) === where)
+          !articles.some(
+            (article) => stated(article, "case", categoryOf) === where,
+          )
         );
       });
       if (!dependent && !headsSomethingElse(tokens, i, articles, categoryOf)) {
         found.issues.push(
-          issue("article/adjective", [tokens[i], tokens[i + 1]], differences(articles, adjectives, categoryOf))
+          issue(
+            "article/adjective",
+            [tokens[i], tokens[i + 1]],
+            differences(articles, adjectives, categoryOf),
+          ),
         );
       }
     }
@@ -292,25 +335,35 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
  * κτηνῶν τῶν καθαρῶν` print identically and only one of them is one phrase.
  * That costs the rule some genuine findings and is worth it.
  */
-function secondAttributives(tokens: CorpusToken[], categoryOf: Map<string, string>): AgreementIssue[] {
+function secondAttributives(
+  tokens: CorpusToken[],
+  categoryOf: Map<string, string>,
+): AgreementIssue[] {
   const issues: AgreementIssue[] = [];
-  const asPos = (i: number, pos: string) => inflectedAs(tokens[i], pos, categoryOf);
+  const asPos = (i: number, pos: string) =>
+    inflectedAs(tokens[i], pos, categoryOf);
   /** An article with an adjective after it that no noun completes. */
   const attributive = (i: number) =>
-    asPos(i, "art").length && asPos(i + 1, "adj").length && !asPos(i + 2, "noun").length;
+    asPos(i, "art").length &&
+    asPos(i + 1, "adj").length &&
+    !asPos(i + 2, "noun").length;
 
   const compare = (first: number, second: number, between: number): void => {
     const left = asPos(first, "art");
     const right = asPos(second, "art");
-    if (codexLookup(tokens[first].spellings[0]) !== codexLookup(tokens[second].spellings[0])) return;
+    if (
+      codexLookup(tokens[first].spellings[0]) !==
+      codexLookup(tokens[second].spellings[0])
+    )
+      return;
     if (genitive(left, categoryOf) || genitive(right, categoryOf)) return;
     if (agrees(left, right, categoryOf)) return;
     issues.push(
       issue(
         "article/article",
         [tokens[first], tokens[between], tokens[second]],
-        differences(left, right, categoryOf)
-      )
+        differences(left, right, categoryOf),
+      ),
     );
   };
 
@@ -323,7 +376,10 @@ function secondAttributives(tokens: CorpusToken[], categoryOf: Map<string, strin
     // wrong is open, and the article/noun rule above already owns the question.
     let noun = i + 1;
     while (asPos(noun, "adj").length && !asPos(noun, "noun").length) noun++;
-    if (asPos(noun, "noun").length && agrees(articles, asPos(noun, "noun"), categoryOf)) {
+    if (
+      asPos(noun, "noun").length &&
+      agrees(articles, asPos(noun, "noun"), categoryOf)
+    ) {
       if (attributive(noun + 1)) compare(i, noun + 1, noun);
       continue;
     }
@@ -331,16 +387,25 @@ function secondAttributives(tokens: CorpusToken[], categoryOf: Map<string, strin
     // `τὰ μεγάλα καὶ τὰ μικρά`.
     const conjunction = i + 2;
     if (!attributive(i)) continue;
-    const joins = (tokens[conjunction]?.readings ?? []).some((reading) => reading.parse?.includes("conj"));
-    if (joins && attributive(conjunction + 1)) compare(i, conjunction + 1, conjunction);
+    const joins = (tokens[conjunction]?.readings ?? []).some((reading) =>
+      reading.parse?.includes("conj"),
+    );
+    if (joins && attributive(conjunction + 1))
+      compare(i, conjunction + 1, conjunction);
   }
 
   return issues;
 }
 
 /** Whether every parse offered is genitive, which makes the word a dependent. */
-function genitive(parses: string[][], categoryOf: Map<string, string>): boolean {
-  return parses.length > 0 && parses.every((parse) => stated(parse, "case", categoryOf) === "gen");
+function genitive(
+  parses: string[][],
+  categoryOf: Map<string, string>,
+): boolean {
+  return (
+    parses.length > 0 &&
+    parses.every((parse) => stated(parse, "case", categoryOf) === "gen")
+  );
 }
 
 /**
@@ -351,10 +416,12 @@ function genitive(parses: string[][], categoryOf: Map<string, string>): boolean 
 function inflectedAs(
   token: CorpusToken | undefined,
   pos: string,
-  categoryOf: Map<string, string>
+  categoryOf: Map<string, string>,
 ): string[][] {
   return (token?.readings ?? [])
-    .filter((reading) => reading.parse && inflects(reading.parse, pos, categoryOf))
+    .filter(
+      (reading) => reading.parse && inflects(reading.parse, pos, categoryOf),
+    )
     .map((reading) => reading.parse!);
 }
 
@@ -367,14 +434,24 @@ function inflectedAs(
  * context. Two words agree by what they are marked for, so a word marked for
  * nothing agrees with everything and is no evidence either way.
  */
-function inflects(parse: string[], pos: string, categoryOf: Map<string, string>): boolean {
+function inflects(
+  parse: string[],
+  pos: string,
+  categoryOf: Map<string, string>,
+): boolean {
   if (!parse.includes(pos)) return false;
   if (parse.some((code) => code.startsWith("indecl"))) return false;
-  return AGREEING.every((category) => stated(parse, category, categoryOf) !== undefined);
+  return AGREEING.every(
+    (category) => stated(parse, category, categoryOf) !== undefined,
+  );
 }
 
 /** The code one parse states for one category, e.g. `case` -> `nom`. */
-function stated(parse: string[], category: string, categoryOf: Map<string, string>): string | undefined {
+function stated(
+  parse: string[],
+  category: string,
+  categoryOf: Map<string, string>,
+): string | undefined {
   return parse.find((code) => categoryOf.get(code) === category);
 }
 
@@ -387,9 +464,17 @@ function stated(parse: string[], category: string, categoryOf: Map<string, strin
  * nothing**, which is the answer {@link reconciles} needs: a spelling the codex
  * holds no inflected cell for cannot be reconciled with anything.
  */
-function agrees(left: string[][], right: string[][], categoryOf: Map<string, string>): boolean {
+function agrees(
+  left: string[][],
+  right: string[][],
+  categoryOf: Map<string, string>,
+): boolean {
   return left.some((a) =>
-    right.some((b) => AGREEING.every((c) => stated(a, c, categoryOf) === stated(b, c, categoryOf)))
+    right.some((b) =>
+      AGREEING.every(
+        (c) => stated(a, c, categoryOf) === stated(b, c, categoryOf),
+      ),
+    ),
   );
 }
 
@@ -404,12 +489,13 @@ function agrees(left: string[][], right: string[][], categoryOf: Map<string, str
 function differences(
   left: string[][],
   right: string[][],
-  categoryOf: Map<string, string>
+  categoryOf: Map<string, string>,
 ): string[] {
   for (const a of left) {
     for (const b of right) {
       const differing = AGREEING.filter(
-        (category) => stated(a, category, categoryOf) !== stated(b, category, categoryOf)
+        (category) =>
+          stated(a, category, categoryOf) !== stated(b, category, categoryOf),
       );
       if (differing.length) return [...differing];
     }
@@ -430,7 +516,11 @@ function differences(
  * the map rather than about this pair. `Σαλωμων` holding both an indeclinable
  * and a nominative cell is the map-side defect that shape belongs to.
  */
-function reconciles(article: CorpusToken, noun: CorpusToken, categoryOf: Map<string, string>): boolean {
+function reconciles(
+  article: CorpusToken,
+  noun: CorpusToken,
+  categoryOf: Map<string, string>,
+): boolean {
   const cells = (token: CorpusToken, pos: string) =>
     cellsFor(token)
       .map((entry) => entry.cell)
@@ -474,7 +564,7 @@ function headsSomethingElse(
   tokens: CorpusToken[],
   at: number,
   articles: string[][],
-  categoryOf: Map<string, string>
+  categoryOf: Map<string, string>,
 ): boolean {
   for (let j = at + 2; j <= at + REACH && j < tokens.length; j++) {
     const parses = (tokens[j].readings ?? [])
@@ -484,19 +574,28 @@ function headsSomethingElse(
     const inflected = parses.filter(
       (parse) =>
         !parse.includes("art") &&
-        AGREEING.every((category) => stated(parse, category, categoryOf) !== undefined)
+        AGREEING.every(
+          (category) => stated(parse, category, categoryOf) !== undefined,
+        ),
     );
-    if (inflected.length && agrees(articles, inflected, categoryOf)) return true;
+    if (inflected.length && agrees(articles, inflected, categoryOf))
+      return true;
   }
   return false;
 }
 
 /** One issue from the tokens it compared. */
-function issue(rule: AgreementRule, tokens: CorpusToken[], disagreeing: string[]): AgreementIssue {
+function issue(
+  rule: AgreementRule,
+  tokens: CorpusToken[],
+  disagreeing: string[],
+): AgreementIssue {
   return {
     rule,
     words: tokens.map((token) => token.spellings[0]),
-    codes: tokens.map((token) => token.readings.map((reading) => reading.morph)),
+    codes: tokens.map((token) =>
+      token.readings.map((reading) => reading.morph),
+    ),
     disagreeing,
   };
 }

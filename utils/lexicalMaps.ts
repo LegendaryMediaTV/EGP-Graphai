@@ -104,16 +104,29 @@ function readRegistry(languageDir: string): Registry | null {
     if (entry.category === "gender") genders.add(entry._id);
   }
 
-  const readableAs = new Map<string, string[]>(Object.entries(registry.posReadings?.readings ?? {}));
+  const readableAs = new Map<string, string[]>(
+    Object.entries(registry.posReadings?.readings ?? {}),
+  );
 
   const transliteration = transliterationTable(languageDir);
 
   const classes = new Map<string, { category: string; appliesTo: string[] }>();
   for (const entry of registry.classes ?? []) {
-    classes.set(entry._id, { category: entry.category, appliesTo: entry.appliesTo ?? [] });
+    classes.set(entry._id, {
+      category: entry.category,
+      appliesTo: entry.appliesTo ?? [],
+    });
   }
 
-  return { categoryOf, partsOfSpeech, tenses, genders, classes, readableAs, transliteration };
+  return {
+    categoryOf,
+    partsOfSpeech,
+    tenses,
+    genders,
+    classes,
+    readableAs,
+    transliteration,
+  };
 }
 
 /**
@@ -136,7 +149,9 @@ function readRegistry(languageDir: string): Registry | null {
  */
 export function gendersOf(entry: { gender?: unknown }): string[] {
   if (entry.gender === undefined) return [];
-  return (Array.isArray(entry.gender) ? entry.gender : [entry.gender]).map(String);
+  return (Array.isArray(entry.gender) ? entry.gender : [entry.gender]).map(
+    String,
+  );
 }
 
 export function auditLexicalMaps(language: string): LexicalMapAudit {
@@ -148,7 +163,13 @@ export function auditLexicalMaps(language: string): LexicalMapAudit {
   if (!registry) {
     return {
       language,
-      findings: [{ file: `${language}/_language.json`, root: null, message: "no language registry, so nothing can be checked against it" }],
+      findings: [
+        {
+          file: `${language}/_language.json`,
+          root: null,
+          message: "no language registry, so nothing can be checked against it",
+        },
+      ],
       rootsScanned,
       cellsScanned,
     };
@@ -182,7 +203,9 @@ export function auditLexicalMaps(language: string): LexicalMapAudit {
     const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     for (const [root, entry] of Object.entries<any>(data)) {
       rootsScanned++;
-      findings.push(...auditRoot(file, root, entry, registry, () => cellsScanned++));
+      findings.push(
+        ...auditRoot(file, root, entry, registry, () => cellsScanned++),
+      );
     }
   }
 
@@ -195,10 +218,11 @@ function auditRoot(
   root: string,
   entry: any,
   registry: Registry,
-  countCell: () => void
+  countCell: () => void,
 ): LexicalMapFinding[] {
   const findings: LexicalMapFinding[] = [];
-  const at = (message: string, spelling?: string) => findings.push({ file, root, spelling, message });
+  const at = (message: string, spelling?: string) =>
+    findings.push({ file, root, spelling, message });
 
   if (!registry.partsOfSpeech.has(entry.pos)) {
     at(`pos "${entry.pos}" is not a part of speech the registry defines`);
@@ -221,15 +245,19 @@ function auditRoot(
   // everywhere at once.
   if (entry.gender !== undefined) {
     const stated = gendersOf(entry);
-    if (entry.pos !== "noun") at(`gender "${stated.join(", ")}" on a ${entry.pos}, which has none`);
+    if (entry.pos !== "noun")
+      at(`gender "${stated.join(", ")}" on a ${entry.pos}, which has none`);
     else {
       for (const gender of stated) {
-        if (!registry.genders.has(gender)) at(`gender "${gender}" is not a gender the registry defines`);
+        if (!registry.genders.has(gender))
+          at(`gender "${gender}" is not a gender the registry defines`);
       }
       // A list means common gender, and one entry in it is a list saying
       // nothing a plain string does not say.
       if (Array.isArray(entry.gender) && stated.length < 2) {
-        at(`gender is a list of ${stated.length}, which is the single-gender case and belongs in a string`);
+        at(
+          `gender is a list of ${stated.length}, which is the single-gender case and belongs in a string`,
+        );
       }
     }
   }
@@ -248,10 +276,16 @@ function auditRoot(
     at(`root key is capitalised, which says proper name, on a ${entry.pos}`);
   }
   if (!capitalised) {
-    const proper = Object.values<any>(entry.inflections ?? {}).some((inflection) =>
-      (inflection.cells ?? []).some((cell: any) => (cell.parse ?? []).includes("indecl-proper"))
+    const proper = Object.values<any>(entry.inflections ?? {}).some(
+      (inflection) =>
+        (inflection.cells ?? []).some((cell: any) =>
+          (cell.parse ?? []).includes("indecl-proper"),
+        ),
     );
-    if (proper) at(`root key is lowercase, which says common word, but a cell says indecl-proper`);
+    if (proper)
+      at(
+        `root key is lowercase, which says common word, but a cell says indecl-proper`,
+      );
   }
 
   // An inflection class has to exist, belong to the category the field names,
@@ -269,17 +303,23 @@ function auditRoot(
       continue;
     }
     if (klass.category !== category) {
-      at(`${field} "${claimed}" is a ${klass.category} class, not a ${category} one`);
+      at(
+        `${field} "${claimed}" is a ${klass.category} class, not a ${category} one`,
+      );
     }
     if (klass.appliesTo.length && !klass.appliesTo.includes(entry.pos)) {
-      at(`${field} "${claimed}" applies to ${klass.appliesTo.join(", ")}, not to a ${entry.pos}`);
+      at(
+        `${field} "${claimed}" applies to ${klass.appliesTo.join(", ")}, not to a ${entry.pos}`,
+      );
     }
   }
   if (entry.stems !== undefined) {
-    if (entry.pos !== "verb") at(`stems on a ${entry.pos}, which has no principal parts`);
+    if (entry.pos !== "verb")
+      at(`stems on a ${entry.pos}, which has no principal parts`);
     else {
       for (const tense of Object.keys(entry.stems)) {
-        if (!registry.tenses.has(tense)) at(`stems key "${tense}" is not a tense the registry defines`);
+        if (!registry.tenses.has(tense))
+          at(`stems key "${tense}" is not a tense the registry defines`);
       }
     }
   }
@@ -296,7 +336,11 @@ function auditRoot(
     const lookup = codexLookup(spelling);
     const first = byLookup.get(lookup);
     if (first === undefined) byLookup.set(lookup, spelling);
-    else at(`spelling "${spelling}" and "${first}" are one key: they differ only in case or in a grave for an acute`, spelling);
+    else
+      at(
+        `spelling "${spelling}" and "${first}" are one key: they differ only in case or in a grave for an acute`,
+        spelling,
+      );
 
     // Case is a fact about the word, so it belongs to the root and every
     // spelling under it carries the root's. A spelling written in the other
@@ -309,16 +353,21 @@ function auditRoot(
         capitalised
           ? `spelling "${spelling}" is lowercase under a capitalised root`
           : `spelling "${spelling}" is capitalised under a lowercase root`,
-        spelling
+        spelling,
       );
     }
   }
 
-  for (const [spelling, inflection] of Object.entries<any>(entry.inflections ?? {})) {
+  for (const [spelling, inflection] of Object.entries<any>(
+    entry.inflections ?? {},
+  )) {
     if (inflection.transliteration !== undefined && registry.transliteration) {
       const expected = transliterate(spelling, registry.transliteration);
       if (inflection.transliteration !== expected) {
-        at(`transliteration "${inflection.transliteration}" but the registry's table gives "${expected}"`, spelling);
+        at(
+          `transliteration "${inflection.transliteration}" but the registry's table gives "${expected}"`,
+          spelling,
+        );
       }
     }
 
@@ -331,11 +380,19 @@ function auditRoot(
       // 18,702 cells came to repeat their root's own number and say nothing.
       const cellNumbers = indexNumbers(cell.indices?.strongs);
       if (cellNumbers.length) {
-        const absent = cellNumbers.filter((number) => !rootNumbers.includes(number));
+        const absent = cellNumbers.filter(
+          (number) => !rootNumbers.includes(number),
+        );
         if (absent.length) {
-          at(`cell Strong's ${absent.join(", ")} is not a number the root carries (${rootNumbers.join(", ") || "none"})`, spelling);
+          at(
+            `cell Strong's ${absent.join(", ")} is not a number the root carries (${rootNumbers.join(", ") || "none"})`,
+            spelling,
+          );
         } else if (new Set(cellNumbers).size === new Set(rootNumbers).size) {
-          at(`cell Strong's ${cellNumbers.join(", ")} is the root's own set, which every cell under it already has`, spelling);
+          at(
+            `cell Strong's ${cellNumbers.join(", ")} is the root's own set, which every cell under it already has`,
+            spelling,
+          );
         }
       }
 
@@ -348,15 +405,24 @@ function auditRoot(
         }
         const already = seen.get(category);
         if (already && already !== code) {
-          at(`parse states both "${already}" and "${code}" for ${category}`, spelling);
+          at(
+            `parse states both "${already}" and "${code}" for ${category}`,
+            spelling,
+          );
         }
         seen.set(category, code);
         if (category === "gender") genders.add(code);
       }
       const parsePos = seen.get("pos");
       if (!parsePos) at("parse states no part of speech", spelling);
-      else if (parsePos !== entry.pos && !(registry.readableAs.get(entry.pos) ?? []).includes(parsePos)) {
-        at(`parse says "${parsePos}", which is not a reading of a ${entry.pos}`, spelling);
+      else if (
+        parsePos !== entry.pos &&
+        !(registry.readableAs.get(entry.pos) ?? []).includes(parsePos)
+      ) {
+        at(
+          `parse says "${parsePos}", which is not a reading of a ${entry.pos}`,
+          spelling,
+        );
       }
     }
   }
@@ -367,7 +433,9 @@ function auditRoot(
   // `SOS 1:8` prints `τὰς ἐρίφους`, not because a lexicon says it can be.
   for (const gender of gendersOf(entry)) {
     if (genders.size > 0 && !genders.has(gender)) {
-      at(`gender "${gender}" but its own cells only ever say ${[...genders].sort().join(", ")}`);
+      at(
+        `gender "${gender}" but its own cells only ever say ${[...genders].sort().join(", ")}`,
+      );
     }
   }
 
@@ -377,5 +445,7 @@ function auditRoot(
 /** One finding as a single line, for the audit's own output. */
 export function formatLexicalMapFinding(finding: LexicalMapFinding): string {
   const where = [finding.root, finding.spelling].filter(Boolean).join(" / ");
-  return where ? `${finding.file} ${where}: ${finding.message}` : `${finding.file}: ${finding.message}`;
+  return where
+    ? `${finding.file} ${where}: ${finding.message}`
+    : `${finding.file}: ${finding.message}`;
 }
