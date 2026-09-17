@@ -47,6 +47,7 @@ The lexical map sits beside that loop rather than inside it. It is built from th
 - **Verse file naming**: `{order}-{bookId}.json` (e.g., `01-GEN.json`). The order prefix lets the filesystem list books in canonical sequence; the book ID matches the registry.
 - **No frontend build step**. The web reader transpiles JSX in the browser via Babel. Source files are plain `.js`; components register themselves on `window` for cross-file access.
 - **Schemas are URLs**. The JSON Schemas use `$id` URLs and `$ref` against `https://github.com/LegendaryMediaTV/EGP-Graphai/...` paths. Validation resolves these locally; do not break the URL pattern when editing.
+- **Every committable JSON file needs a schema**. Validation checks coverage as well as conformance, so a new data file that matches no rule fails the run on its own. Add the schema and the rule that points at it in the same change as the file. See [Schema coverage](./data-pipeline.md#schema-coverage).
 - **A lexical-map cell's number is derived, not authored**. It is the corpus's own tag unless a placement rule in `indices/{index}.json` overrides it. Edit the rule and re-derive; hand-editing a cell puts the file out of step with the rule that is supposed to produce it. Where the index splits one spelling and parse by sense, the cell lists every number involved and the corpus tag decides each token. See [lexical-map.md](./lexical-map.md).
 
 ## Where to look when something breaks
@@ -69,6 +70,9 @@ The lexical map sits beside that loop rather than inside it. It is built from th
 | A tagged form has no cell in the lexical map, or its morph matches no parse under its spelling | Either the corpus mistagged the token or the map is missing the form. Both want a human; see [How a token resolves](./lexical-map.md#how-a-token-resolves) |
 | A lexical-map edit produces a huge reordering diff | The Greek files are collator-sorted rather than code-point sorted; match the existing order or the diff fills with noise. See [Sorting](./lexical-map.md#sorting) |
 | A corrected index number reappears after a re-derivation | The placement rule still says the old thing. The cell is derived from corpus tag plus rule, so the rule is where the correction belongs |
+| `npm run validate` fails on a new JSON file you just added | Every committable JSON file must be governed by a schema, and a file matching no rule is itself a finding. Write the schema and its rule in the same change. See [Schema coverage](./data-pipeline.md#schema-coverage) |
+| `npm run validate` fails on a parse the word's ending refutes | The printed ending is evidence the lexical map cannot overrule, so this gates and has no auto-fix. A plural code on a word ending in a iota subscript usually means the word itself is misidentified, not just its case. See [Which audits gate](./data-pipeline.md#which-audits-gate-and-why-the-rest-do-not) |
+| A run prints disagreeing word pairs or contradicted codex cells but still exits clean | Both are advisory audits, not gates. Each finding is a disagreement between two records where only a person can say which side is wrong. See [Which audits gate](./data-pipeline.md#which-audits-gate-and-why-the-rest-do-not) |
 
 ## License & contribution notes
 

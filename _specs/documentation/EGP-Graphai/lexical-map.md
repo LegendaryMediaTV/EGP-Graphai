@@ -322,6 +322,8 @@ Five facts sit on the root rather than on a cell, because they belong to the wor
 
 **`gender`** is the one a citation form usually hides: `ὁδός` is feminine and `λόγος` masculine, and both end in `-ος`. Without it a noun stays open on gender, and so does the article in front of it, since agreement can only narrow what one side already knows. Read from the articles a text prints, since most article forms name one gender outright and only `τοῦ`, `τῷ`, `τῶν` and `τοῖς` are open.
 
+A noun of common gender takes either article according to what it names, and stores a list instead of a string. `ἔριφος` is masculine for a kid and feminine for a female one; `λιμός` is masculine in Attic and feminine in the Greek the Septuagint is written in. The list is the exception and the string is what almost every noun carries, so a reader of this field normalizes a single value up to a list rather than the reverse. A root filed as a gender set, like the article's own `ὁ ἡ τό`, still has no gender of its own and omits the field entirely, which is a different claim from naming two.
+
 **`declension`** and **`conjugation`** name the inflection class. This is the piece that makes a second morphology derivable rather than only Robinson: Packard puts the class in its type code (`N1T`, `N3`, `A1A`, `VF`) and Robinson encodes none of it, so a map holding only what Robinson can say could never render a Packard code even in principle. Settled by scoring each candidate class against the root's own attested spellings, and left absent where the evidence does not discriminate — `1f-a` and `1f-a-impure` differ only in the genitive, so a root attested in the nominative alone genuinely cannot be told apart, and writing either would put a guess beside facts.
 
 **`stems`** are the principal parts no rule produces. `λέγω`'s aorist is `εἰπ-`, and nothing about the present stem says so.
@@ -502,7 +504,7 @@ So the value is computed from the language registry's own `transliteration` tabl
 
 ## Validation rules
 
-`npm run validate` runs three audits that bear on this directory. All three are report-only for what they count, like every other audit there: a finding is either a codex to correct or a registry entry to add, and only a person can say which.
+`npm run validate` runs four audits that bear on this directory. All four are report-only for what they count, like every other audit there: a finding is either a codex to correct or a registry entry to add, and only a person can say which. Three can fail a run, each in the way its own section below describes. The fourth only ever counts and prints, for the reason given there.
 
 **The lexical-map audit** ([utils/lexicalMaps.ts](../../../utils/lexicalMaps.ts)) checks the map against itself and against the registry.
 
@@ -510,6 +512,8 @@ So the value is computed from the language registry's own `transliteration` tabl
 - Every code in a parse resolves in the registry, and a parse states at most one code per category.
 - Every root's `pos` resolves, and every cell's part of speech is either the root's or a reading the registry's `posReadings` allows.
 - Every root-level `gender`, `declension`, `conjugation`, `deponent` and `stems` belongs to a part of speech that can have it, resolves in the registry, and does not contradict the root's own cells.
+- No two `inflections` keys under one root are the same key written twice, differing only in case or in a grave for an acute. The key rule folds both away on the way in, so a stored difference of that kind is a duplicate rather than a distinction.
+- A cell's Strong's number is a proper subset of its root's: every number the cell names is one the root carries, and a cell repeating the root's whole set says nothing the root did not already say.
 - Every stored `transliteration` is the one the registry's own table produces for that spelling. This is a reimplementation on purpose: the point is that the value is reproducible from the registry alone, so a consumer implementing the table gets the same answer.
 
 **The corpus-against-map audit** ([utils/corpusMorphology.ts](../../../utils/corpusMorphology.ts)) checks that the map can explain every corpus that names a scheme.
@@ -520,16 +524,22 @@ It earns its keep. It found a cell a cleanup pass had deleted by mistake — BYZ
 
 **Narrowing is allowed and is never a finding.** A word that does not inflect has no case marking, and the map records that as `indecl-proper` rather than by listing every case it could stand in, because "this can be anything" is a different claim from "this is one of these two". A corpus may then narrow it from context. So `Ἀβραάμ` reads `N-PRI` in BYZ2026, which did not narrow it, and `N-GSM` in LXX1935, which did, and both are right about the same word.
 
+**What this audit cannot catch, a separate one does.** Because it settles every question by consulting the map, a corpus error that has already become a cell satisfies it: the cell vouches for the error that produced it. The word-orthography audit exists to ask the one question the map must not be asked, deciding a parse from the word's own printed ending and nothing else. It lives with the pipeline rather than here precisely because it reads no file in this directory. See [data-pipeline.md](./data-pipeline.md#which-audits-gate-and-why-the-rest-do-not).
+
 **The lexical-enrichment audit** ([utils/corpusEnrichment.ts](../../../utils/corpusEnrichment.ts)) checks how far the map reaches into each version's Greek, and is the reporting half of the auto-fix pass's own lexical annotation resolution.
 
 It counts, per version, the word nodes the map could be asked about, how many carry a lemma and a Strong's number, and why the rest do not, bucketed by the reason `resolveLemma` and `resolveStrongs` gave. The counts never fail a run. Neither resolver guesses, so an unresolved node is the map declining rather than failing, and gating on that would leave the command permanently red over 50,035 LXX1935 nodes whose root simply has no Strong's number — which is exactly the "where available" the corpus was enriched under. A coverage regression shows up the way it does in the audits above: as a number that moved.
 
 One thing there does gate: a stored `transliteration` the registry's own table does not produce. That value is derived, the pass recomputes it on every run, and a disagreement surviving the run means the fixer declined to write it rather than that the map has a gap.
 
+**The codex-attestation audit** ([utils/codexAttestation.ts](../../../utils/codexAttestation.ts)) reads a cell against the corpus's own index, and is the one audit here that does not gate.
+
+It reports a cell whose root carries a Strong's number where every corpus word the cell explains that carries a number carries a different one. Read plainly, such a cell says *this root inflects to this spelling* while every occurrence of that spelling is indexed to some other word. That is a disagreement between two files rather than a linguistic judgment, which is exactly why it is safe to report and unsafe to gate on: the check never decides which side is wrong, and in every finding only a person can. It found a verb root holding the whole paradigm of a noun derived from it, which had shadowed the real noun's own entry.
+
+It reads the numbers rather than the parts of speech, and that is deliberate. A registry's `posReadings` permits a verb root to carry noun cells, and it is right to; most cells whose parse states a different part of speech than their root are correct. Its blind spot follows from the same design: a corpus wrong about the lemma and the number in the same direction agrees with the cell, and nothing is left to disagree about. Reading the clause is the only route to those.
+
 Still unchecked, and worth building:
 
-- No two `inflections` keys under one root are equal under the case-and-grave fold.
-- A cell's Strong's number is never equal to its root's, and always a subset of it.
 - Every Strong's number resolves in the lexicon, not only its pattern.
 - Two placement rules never both match one cell. `strongs.json` carries two pairs that do — `ἐμέ`/`ἐμὲ` and `ἐμοί`/`ἐμοὶ`, each differing only in a grave for an acute, which the codex key folds together. Harmless as long as a reader collects the distinct numbers the matching rules name instead of counting the matches, but it is a rule the file's own schema says is checked and is not.
 - Every cell's number is what the corpus tag plus the placement rules produce, so the codex and the index file cannot drift apart.

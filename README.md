@@ -22,6 +22,8 @@ EGP Graphai establishes a free, open JSON schema for Bible resources that priori
 - **Book Metadata Schema** - Canonical book information and alternate names
 - **Lexical Map Schemas** - Per-language registry, morphology code systems, the codex of roots and inflected forms, and index crosswalks
 
+Every committable JSON file in the repository is governed by one of these, and validation checks that coverage as well as conformance. A data file no schema claims fails the run on its own.
+
 ### Lexical Map
 
 A per-language paradigm chart, keyed by the dictionary root rather than by a concordance number. Each attested spelling carries its parse as category-tagged codes, so a Strong's number becomes a value on a parse instead of the primary key. That is what lets one word hold several numbers and one number cover several words without either fact breaking the other.
@@ -75,9 +77,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 npm install
 
 # Validate JSON schemas and data integrity — the sole entry point for all
-# normalization and validation. Normalizes key order, formatting, bibleLink
-# dashes and ranges, fractions, and ellipses; repairs the node-placement
-# conventions whose fixes are safe; and fails with detail on everything else
+# normalization and validation, covering verse data, the lexical maps, and
+# every other committable JSON file. Normalizes key order, formatting,
+# bibleLink dashes and ranges, fractions, and ellipses; repairs the
+# node-placement conventions whose fixes are safe; and fails with detail on
+# everything else
 npm run validate
 
 # Convert Bible JSON to text/markdown formats (all versions). A version that
