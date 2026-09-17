@@ -2034,7 +2034,7 @@ describe("exportContent", () => {
       });
     });
 
-    describe("the markdown subtitle wrapper does not double-wrap an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — the leading-subtitle describe block below covers the [heading, subtitle] chapter-opening combination the real verse carries, which the chapter-level hoist handles)", () => {
+    describe("the markdown subtitle wrapper does not double-wrap an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — the leading-subtitle describe block below covers the [heading, subtitle] chapter-opening combination the real verse carries, which convertVerseToMarkdown's own leading-run hoist renders together)", () => {
       it("should render one italic wrapper around the whole subtitle instead of a broken '__' where the inner and outer delimiters collide — hoisted above the verse line, since a lone leading subtitle also qualifies for the verse-level subtitle fallback", () => {
         const verse: VerseSchema = {
           book: "PSA",
@@ -3811,7 +3811,7 @@ describe("exportContent", () => {
   });
 
   describe("a leading subtitle does not strand a stray mid-line '> ' blockquote marker inside a verse line", () => {
-    it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a non-chapter-opening verse (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, so no chapter-level hoist can ever reach it)", () => {
+    it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a verse deep in its chapter (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, exercising the same leading-run rule a chapter-opening verse also uses)", () => {
       const verse: VerseSchema = {
         book: "PSA",
         chapter: 147,
@@ -3854,7 +3854,7 @@ describe("exportContent", () => {
       expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
     });
 
-    it("regression: the acrostic marker in a [heading, heading] chapter opening (real ASV1901 Psalm 119:1, content shown here as convertVerseToMarkdown receives it once the chapter-level hoist has already consumed the first heading) still hoists via the pre-existing verse-level heading fallback exactly as today", () => {
+    it("regression: a single acrostic heading before verse 1's own paragraph still hoists and keeps the paragraph's blank line (real ASV1901 Psalm 119:1's acrostic marker; the multi-heading runs above already cover a [heading, heading] chapter opening)", () => {
       const verse: VerseSchema = {
         book: "PSA",
         chapter: 119,
