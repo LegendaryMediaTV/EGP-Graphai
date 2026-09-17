@@ -1,6 +1,6 @@
 /**
- * Corpus-against-map audit: every `morph` code a version prints must be one
- * the lexical map can account for.
+ * Corpus-against-map audit: every `morph` code and every `lemma` a version
+ * prints must be one the lexical map can account for.
  *
  * This is the check that makes the map's claim testable. The map stores what is
  * known about each inflected form, and a morphology code is one rendering of
@@ -22,6 +22,13 @@
  * and `N-GSM` in LXX1935, which did, and both are right about the same word.
  * See {@link accountsFor}.
  *
+ * A **lemma** is checked separately and by a different test: it must name a root
+ * the codex holds, exactly. The two fail apart, so checking one is not checking
+ * the other. `1MC 8:8`'s `Εὐμένει` went on resolving its `N-DSM` through the
+ * spelling for a whole session while its lemma named a root that had been
+ * rekeyed out from under it, which left the word unable to take a Strong's
+ * number and nothing reporting why.
+ *
  * What the map holds for a spelling is asked of `lexicon.ts` rather than
  * indexed here. A second index would be a second answer to the very question
  * this check exists to settle.
@@ -30,7 +37,7 @@
 import fs from "fs";
 import path from "path";
 import { accountsFor, decodeMorph, readScheme } from "./morphology";
-import { entriesFor, inflectionCategories, lexicalMapLanguages } from "./lexicon";
+import { entriesFor, inflectionCategories, isRoot, lexicalMapLanguages } from "./lexicon";
 import { spellingsOf } from "./punctuation";
 
 /** Directory holding one subdirectory per Bible version. */
@@ -114,9 +121,18 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
 
     for (const record of records) {
       const at = { file: name, book: record.book, chapter: record.chapter, verse: record.verse };
-      walk(record.content, (candidateSpellings, morph) => {
-        scanned++;
+      walk(record.content, (candidateSpellings, morph, lemma) => {
         const word = candidateSpellings[0];
+        // A lemma is checked whether or not the node also carries a code,
+        // because the two say different things and fail apart. `Εὐμενής` kept
+        // pointing at a root that had been rekeyed `Εὐμένης`, and its `N-DSM`
+        // went on resolving through the spelling the whole time.
+        if (lemma !== undefined && !isRoot(lemma)) {
+          findings.push({ ...at, word, morph: morph ?? "", reason: `lemma "${lemma}" names no root in the map` });
+        }
+        if (morph === undefined) return;
+
+        scanned++;
         const parse = decodeMorph(morph, scheme);
         if (!parse) {
           findings.push({ ...at, word, morph, reason: `${declared} cannot read this code` });
@@ -138,8 +154,11 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
   return { version, scheme: declared, findings, scanned };
 }
 
-/** Visit every word node carrying a morph code, with the spellings to try. */
-function walk(nodes: unknown, visit: (spellings: string[], morph: string) => void): void {
+/**
+ * Visit every word node carrying a morph code or a lemma, with the spellings to
+ * try. Either may be absent, and the visitor decides what each one is worth.
+ */
+function walk(nodes: unknown, visit: (spellings: string[], morph?: string, lemma?: string) => void): void {
   if (!Array.isArray(nodes)) return;
   /** The spellings of the last word seen, for a text-less code to attach to. */
   let preceding: string[] = [];
@@ -150,21 +169,21 @@ function walk(nodes: unknown, visit: (spellings: string[], morph: string) => voi
     if (node.heading) walk(node.heading, visit);
     if (node.foot?.content) walk(node.foot.content, visit);
     if (Array.isArray(node.content)) walk(node.content, visit);
-    if (!node.morph) continue;
+    if (!node.morph && !node.lemma) continue;
 
     if (node.text === undefined) {
       // A tagged node with no text is a second reading of the word before it,
       // which is this corpus's own convention. Skipping such a node would leave
       // its code outside every check here, and a code the map cannot explain is
       // worth reporting wherever it is printed.
-      if (preceding.length) visit(preceding, node.morph);
+      if (preceding.length) visit(preceding, node.morph, node.lemma);
       continue;
     }
 
     const candidates = spellingsOf(String(node.text)).filter(Boolean);
     if (!candidates.length) continue;
     preceding = candidates;
-    visit(candidates, node.morph);
+    visit(candidates, node.morph, node.lemma);
   }
 }
 

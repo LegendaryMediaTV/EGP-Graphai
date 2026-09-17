@@ -8,7 +8,7 @@
 <sup>5</sup> Hoi patéres hymō̂n poû eisin? Kaì hoi prophē̂tai mḕ tòn aiō̂na zḗsontai?
 <sup>6</sup> Plḕn toùs lógous mou kaì tà nómimá mou déchesthe, hósa egṑ entéllomai en pneúmatí mou toîs doúlois mou toîs prophḗtais, hoì katelábosan toùs patéras hymō̂n. Kaì apekríthēsan kaì eîpan Kathṑs paratétaktai kýrios pantokrátōr toû poiē̂sai katà tàs hodoùs hymō̂n kaì katà tà epitēdeúmata hymō̂n, hoútōs epoíēsen hymîn.
 
-<sup>7</sup> Tē̂ tetrádi kaì eikádi tō̂ hendekátō mēní – hoûtós estin ho mḕn Sabat – en tō̂ deutérō étei epì Dareíou egéneto lógos kyríou pròs Zacharian tòn toû Barachiou hyiòn Addō tòn prophḗtēn légōn
+<sup>7</sup> Tē̂ tetrádi kaì eikádi tō̂ hendekátō mēní—hoûtós estin ho mḕn Sabat—en tō̂ deutérō étei epì Dareíou egéneto lógos kyríou pròs Zacharian tòn toû Barachiou hyiòn Addō tòn prophḗtēn légōn
 
 <sup>8</sup> Heṓraka tḕn nýkta kaì idoù anḕr epibebēkṑs epì híppon pyrrón, kaì hoûtos heistḗkei anà méson tō̂n dýo oréōn tō̂n kataskíōn, kaì opísō autoû híppoi pyrroì kaì psaroì kaì poikíloi kaì leukoí.
 <sup>9</sup> Kaì eîpa Tí hoûtoi, kýrie? Kaì eîpen prós me ho ángelos ho lalō̂n en emoí Egṑ deíxō soi tí estin taûta.
@@ -201,7 +201,7 @@
 <sup>4</sup> Táde légei kýrios pantokrátōr Poimaínete tà próbata tē̂s sphagē̂s,
 <sup>5</sup> hà hoi ktēsámenoi katésphazon kaì ou metemélonto, kaì hoi pōloûntes autà élegon Eulogētòs kýrios kaì peploutḗkamen, kaì hoi poiménes autō̂n ouk épaschon oudèn ep’ autoîs.
 <sup>6</sup> Dià toûto ou pheísomai oukéti epì toùs katoikoûntas tḕn gē̂n, légei kýrios, kaì idoù egṑ paradídōmi toùs anthrṓpous hékaston eis cheîras toû plēsíon autoû kaì eis cheîras basiléōs autoû, kaì katakópsousin tḕn gē̂n, kaì ou mḕ exélōmai ek cheiròs autō̂n.
-<sup>7</sup> Kaì poimanō̂ tà próbata tē̂s sphagē̂s eis tḕn Chanaanîtin; kaì lḗmpsomai emautō̂ dýo rhábdous – tḕn mían ekálesa Kállos kaì tḕn hetéran ekálesa Schoínisma – kaì poimanō̂ tà próbata.
+<sup>7</sup> Kaì poimanō̂ tà próbata tē̂s sphagē̂s eis tḕn Chanaanîtin; kaì lḗmpsomai emautō̂ dýo rhábdous—tḕn mían ekálesa Kállos kaì tḕn hetéran ekálesa Schoínisma—kaì poimanō̂ tà próbata.
 <sup>8</sup> Kaì exarō̂ toùs treîs poiménas en mēnì hení, kaì barynthḗsetai hē psychḗ mou ep’ autoús, kaì gàr hai psychaì autō̂n epōrýonto ep’ emé.
 <sup>9</sup> Kaì eîpa Ou poimanō̂ hymâs; tò apothnē̂skon apothnēskétō, kaì tò ekleîpon ekleipétō, kaì tà katáloipa katesthiétōsan hékastos tàs sárkas toû plēsíon autoû.
 <sup>10</sup> Kaì lḗmpsomai tḕn rhábdon mou tḕn kalḕn kaì aporrípsō autḕn toû diaskedásai tḕn diathḗkēn mou, hḕn diethémēn pròs pántas toùs laoús;

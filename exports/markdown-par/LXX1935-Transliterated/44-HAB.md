@@ -11,7 +11,7 @@
 <sup>8</sup> kaì exaloûntai hypèr pardáleis hoi híppoi autoû kaì oxýteroi hypèr toùs lýkous tē̂s Arabías; kaì exippásontai hoi hippeîs autoû kaì hormḗsousin makróthen kaì petasthḗsontai hōs aetòs próthymos eis tò phageîn.
 <sup>9</sup> Syntéleia eis asebeîs hḗxei anthestēkótas prosṓpois autō̂n ex enantías kaì synáxei hōs ámmon aichmalōsían.
 <sup>10</sup> Kaì autòs en basileûsin entryphḗsei, kaì týrannoi paígnia autoû, kaì autòs eis pân ochýrōma empaíxetai kaì baleî chō̂ma kaì kratḗsei autoû.
-<sup>11</sup> Tóte metabaleî tò pneûma kaì dieleúsetai kaì exilásetai; haútē hē ischỳs tō̂ theō̂ mou. –
+<sup>11</sup> Tóte metabaleî tò pneûma kaì dieleúsetai kaì exilásetai; haútē hē ischỳs tō̂ theō̂ mou. —
 <sup>12</sup> ouchì sỳ ap’ archē̂s, kýrie, ho theòs ho hágiós mou? Kaì ou mḕ apothánōmen. Kýrie, eis kríma tétachas autón; kaì éplasén me toû elénchein paideían autoû.
 <sup>13</sup> Katharòs ophthalmòs toû mḕ horân ponērá, kaì epiblépein epì pónous ou dynḗsē; hína tí epiblépeis epì kataphronoûntas? Parasiōpḗsē en tō̂ katapínein asebē̂ tòn díkaion?
 <sup>14</sup> Kaì poiḗseis toùs anthrṓpous hōs toùs ichthýas tē̂s thalássēs kaì hōs tà herpetà tà ouk échonta hēgoúmenon.
@@ -26,18 +26,18 @@
 <sup>3</sup> Dióti éti hórasis eis kairòn kaì anateleî eis péras kaì ouk eis kenón; eàn hysterḗsē, hypómeinon autón, hóti erchómenos hḗxei kaì ou mḕ chronísē.
 <sup>4</sup> Eàn hyposteílētai, ouk eudokeî hē psychḗ mou en autō̂; ho dè díkaios ek písteṓs mou zḗsetai.
 <sup>5</sup> Ho dè katoinōménos kaì kataphronētḕs anḕr alázōn oudèn mḕ peránē, hòs eplátynen kathṑs ho hádēs tḕn psychḕn autoû, kaì hoûtos hōs thánatos ouk empiplámenos kaì episynáxei ep’ autòn pánta tà éthnē kaì eisdéxetai pròs autòn pántas toùs laoús.
-<sup>6</sup> Ouchì taûta pánta parabolḕn kat’ autoû lḗmpsontai kaì próblēma eis diḗgēsin autoû? Kaì eroûsin Ouaì ho plēthýnōn heautō̂ tà ouk ónta autoû – héōs tínos? – kaì barýnōn tòn kloiòn autoû stibarō̂s.
+<sup>6</sup> Ouchì taûta pánta parabolḕn kat’ autoû lḗmpsontai kaì próblēma eis diḗgēsin autoû? Kaì eroûsin Ouaì ho plēthýnōn heautō̂ tà ouk ónta autoû—héōs tínos? — kaì barýnōn tòn kloiòn autoû stibarō̂s.
 <sup>7</sup> Hóti exaíphnēs anastḗsontai dáknontes autón, kaì eknḗpsousin hoi epíbouloí sou, kaì ésē eis diarpagḕn autoîs.
-<sup>8</sup> Dióti sỳ eskýleusas éthnē pollá, skyleúsousín se pántes hoi hypoleleimménoi laoì di’ haímata anthrṓpōn kaì asebeías gē̂s kaì póleōs kaì pántōn tō̂n katoikoúntōn autḗn. –
+<sup>8</sup> Dióti sỳ eskýleusas éthnē pollá, skyleúsousín se pántes hoi hypoleleimménoi laoì di’ haímata anthrṓpōn kaì asebeías gē̂s kaì póleōs kaì pántōn tō̂n katoikoúntōn autḗn. —
 <sup>9</sup> ō̂ ho pleonektō̂n pleonexían kakḕn tō̂ oíkō autoû toû táxai eis hýpsos nossiàn autoû toû ekspasthē̂nai ek cheiròs kakō̂n.
 <sup>10</sup> Ebouleúsō aischýnēn tō̂ oíkō sou, synepéranas laoùs polloús, kaì exḗmarten hē psychḗ sou;
-<sup>11</sup> dióti líthos ek toíchou boḗsetai, kaì kántharos ek xýlou phthénxetai autá. –
+<sup>11</sup> dióti líthos ek toíchou boḗsetai, kaì kántharos ek xýlou phthénxetai autá. —
 <sup>12</sup> ouaì ho oikodomō̂n pólin en haímasin kaì hetoimázōn pólin en adikíais.
 <sup>13</sup> Ou taûtá estin parà kyríou pantokrátoros? Kaì exélipon laoì hikanoì en pyrí, kaì éthnē pollà ōligopsýchēsan.
-<sup>14</sup> Hóti plēsthḗsetai hē gē̂ toû gnō̂nai tḕn dóxan kyríou, hōs hýdōr katakalýpsei autoús. –
+<sup>14</sup> Hóti plēsthḗsetai hē gē̂ toû gnō̂nai tḕn dóxan kyríou, hōs hýdōr katakalýpsei autoús. —
 <sup>15</sup> ō̂ ho potízōn tòn plēsíon autoû anatropē̂ tholerâ kaì methýskōn, hópōs epiblépē epì tà spḗlaia autō̂n.
 <sup>16</sup> Plēsmonḕn atimías ek dóxēs píe kaì sỳ kaì diasaleúthēti kaì seísthēti; ekýklōsen epì sè potḗrion dexiâs kyríou, kaì synḗchthē atimía epì tḕn dóxan sou.
-<sup>17</sup> Dióti asébeia toû Libánou kalýpsei se, kaì talaipōría thēríōn ptoḗsei se dià haímata anthrṓpōn kaì asebeías gē̂s kaì póleōs kaì pántōn tō̂n katoikoúntōn autḗn. –
+<sup>17</sup> Dióti asébeia toû Libánou kalýpsei se, kaì talaipōría thēríōn ptoḗsei se dià haímata anthrṓpōn kaì asebeías gē̂s kaì póleōs kaì pántōn tō̂n katoikoúntōn autḗn. —
 
 <sup>18</sup> Tí ōpheleî glyptón, hóti églypsan autó? Éplasan autò chṓneuma, phantasían pseudē̂, hóti pépoithen ho plásas epì tò plásma autoû toû poiē̂sai eídōla kōphá.
 <sup>19</sup> Ouaì ho légōn tō̂ xýlō Éknēpson exegérthēti, kaì tō̂ líthō Hypsṓthēti; kaì autó estin phantasía, toûto dé estin élasma chrysíou kaì argyríou, kaì pân pneûma ouk éstin en autō̂.

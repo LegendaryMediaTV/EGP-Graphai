@@ -898,7 +898,7 @@
 <sup>11</sup> enōtízesthé mou tà rhḗmata; erō̂ gàr hymō̂n akouóntōn, áchri hoû etásēte lógous.
 <sup>12</sup> Kaì méchri hymō̂n synḗsō, kaì idoù ouk ē̂n tō̂ Iōb elénchōn, antapokrinómenos rhḗmata autoû ex hymō̂n,
 <sup>13</sup> hína mḕ eípēte Heúromen sophían kyríō prosthémenoi;
-<sup>14</sup> anthrṓpō dè epetrépsate lalē̂sai toiaûta rhḗmata. –
+<sup>14</sup> anthrṓpō dè epetrépsate lalē̂sai toiaûta rhḗmata. —
 <sup>15</sup> eptoḗthēsan, ouk apekríthēsan éti, epalaíōsan ex autō̂n lógous.
 <sup>16</sup> Hypémeina, ou gàr elálēsan; hóti éstēsan, ouk apekríthēsan.
 
@@ -1170,7 +1170,7 @@
 <sup>11</sup> apósteilon dè angélous orgē̂, pân dè hybristḕn tapeínōson,
 <sup>12</sup> hyperḗphanon dè sbéson, sē̂pson dè asebeîs parachrē̂ma,
 <sup>13</sup> krýpson dè eis gē̂n éxō homothymadón, tà dè prósōpa autō̂n atimías émplēson;
-<sup>14</sup> homologḗsō ára hóti dýnatai hē dexiá sou sō̂sai. –
+<sup>14</sup> homologḗsō ára hóti dýnatai hē dexiá sou sō̂sai. —
 <sup>15</sup> allà dḕ idoù thēría parà soí; chórton ísa bousìn esthíei.
 <sup>16</sup> Idoù dḕ ischỳs autoû ep’ osphýi, hē dè dýnamis ep’ omphaloû gastrós;
 <sup>17</sup> éstēsen ouràn hōs kypárisson, tà dè neûra autoû sympéplektai;
@@ -1180,7 +1180,7 @@
 <sup>21</sup> hypò pantodapà déndra koimâtai parà pápyron kaì kálamon kaì boútomon;
 <sup>22</sup> skiázontai dè en autō̂ déndra megála sỳn rhadámnois kaì klō̂nes ágnou.
 <sup>23</sup> Eàn génētai plḗmmyra, ou mḕ aisthēthē̂, pépoithen hóti proskroúsei ho Iordánēs eis tò stóma autoû.
-<sup>24</sup> En tō̂ ophthalmō̂ autoû déxetai autón, enskolieuómenos trḗsei rhîna? –
+<sup>24</sup> En tō̂ ophthalmō̂ autoû déxetai autón, enskolieuómenos trḗsei rhîna? —
 <sup>25</sup> áxeis dè drákonta en ankístrō, perithḗseis dè phorbeàn perì rhîna autoû?
 <sup>26</sup> Ei dḗseis kríkon en tō̂ myktē̂ri autoû, pselíō dè trypḗseis tò cheîlos autoû?
 <sup>27</sup> Lalḗsei dé soi deḗsei, hiketēría malakō̂s?
@@ -1230,7 +1230,7 @@
 <sup>6</sup> diò ephaúlisa emautòn kaì etákēn, hḗgēmai dè emautòn gē̂n kaì spodón.
 
 <sup>7</sup> Egéneto dè metà tò lalē̂sai tòn kýrion pánta tà rhḗmata taûta tō̂ Iōb eîpen ho kýrios Eliphas tō̂ Thaimanítē Hḗmartes sỳ kaì hoi dýo phíloi sou; ou gàr elalḗsate enṓpión mou alēthès oudèn hṓsper ho therápōn mou Iōb.
-<sup>8</sup> Nŷn dè lábete heptà móschous kaì heptà krioùs kaì poreúthēte pròs tòn therápontá mou Iōb, kaì poiḗsei kárpōsin perì hymō̂n; Iōb dè ho therápōn mou eúxetai perì hymō̂n, hóti ei mḕ prósōpon autoû lḗmpsomai; ei mḕ gàr di’ autón, apṓlesa àn hymâs; ou gàr elalḗsate alēthès katà toû therápontós mou Iōb. –
+<sup>8</sup> Nŷn dè lábete heptà móschous kaì heptà krioùs kaì poreúthēte pròs tòn therápontá mou Iōb, kaì poiḗsei kárpōsin perì hymō̂n; Iōb dè ho therápōn mou eúxetai perì hymō̂n, hóti ei mḕ prósōpon autoû lḗmpsomai; ei mḕ gàr di’ autón, apṓlesa àn hymâs; ou gàr elalḗsate alēthès katà toû therápontós mou Iōb. —
 <sup>9</sup> eporeúthē dè Eliphas ho Thaimanítēs kaì Baldad ho Sauchítēs kaì Sōphar ho Minaîos kaì epoíēsan kathṑs synétaxen autoîs ho kýrios, kaì élysen tḕn hamartían autoîs dià Iōb.
 <sup>10</sup> Ho dè kýrios ēúxēsen tòn Iōb; euxaménou dè autoû kaì perì tō̂n phílōn autoû aphē̂ken autoîs tḕn hamartían; édōken dè ho kýrios diplâ hósa ē̂n émprosthen Iōb eis diplasiasmón.
 <sup>11</sup> Ḗkousan dè pántes hoi adelphoì autoû kaì hai adelphaì autoû pánta tà symbebēkóta autō̂ kaì ē̂lthon pròs autòn kaì pántes hósoi ḗdeisan autòn ek prṓtou; phagóntes dè kaì pióntes par’ autō̂ parekálesan autón, kaì ethaúmasan epì pâsin, hoîs epḗgagen autō̂ ho kýrios; édōken dè autō̂ hékastos amnáda mían kaì tetrádrachmon chrysoûn ásēmon.
@@ -1240,4 +1240,4 @@
 <sup>15</sup> kaì ouch heuréthēsan katà tàs thygatéras Iōb beltíous autō̂n en tē̂ hyp’ ouranón; édōken dè autaîs ho patḕr klēronomían en toîs adelphoîs.
 <sup>16</sup> Ézēsen dè Iōb metà tḕn plēgḕn étē hekatòn hebdomḗkonta, tà dè pánta ézēsen étē diakósia tessarákonta oktṓ; kaì eîden Iōb toùs hyioùs autoû kaì toùs hyioùs tō̂n hyiō̂n autoû tetártēn geneán;
 
-<sup>17</sup> kaì eteleútēsen Iōb presbýteros kaì plḗrēs hēmerō̂n. <sup>a</sup> gégraptai dè autòn pálin anastḗsesthai meth’ hō̂n ho kýrios anístēsin. – – <sup>b</sup> Hoûtos hermēneúetai ek tē̂s Syriakē̂s bíblou en mèn gē̂ katoikō̂n tē̂ Ausítidi epì toîs horíois tē̂s Idoumaías kaì Arabías, proupē̂rchen dè autō̂ ónoma Iōbab; <sup>c</sup> labṑn dè gynaîka Arábissan gennâ hyión, hō̂ ónoma Ennōn, ē̂n dè autòs patròs mèn Zare, tō̂n Ēsau hyiō̂n hyiós, mētròs dè Bosorras, hṓste eînai autòn pémpton apò Abraam. <sup>d</sup> kaì hoûtoi hoi basileîs hoi basileúsantes en Edōm, hē̂s kaì autòs ē̂rxen chṓras; prō̂tos Balak ho toû Beōr, kaì ónoma tē̂ pólei autoû Dennaba; metà dè Balak Iōbab ho kaloúmenos Iōb; metà dè toûton Asom ho hypárchōn hēgemṑn ek tē̂s Thaimanítidos chṓras; metà dè toûton Adad hyiòs Barad ho ekkópsas Madiam en tō̂ pedíō Mōab, kaì ónoma tē̂ pólei autoû Geththaim. <sup>e</sup> hoi dè elthóntes pròs autòn phíloi; Eliphas tō̂n Ēsau hyiō̂n Thaimanōn basileús, Baldad ho Sauchaíōn týrannos, Sōphar ho Minaíōn basileús.
+<sup>17</sup> kaì eteleútēsen Iōb presbýteros kaì plḗrēs hēmerō̂n. <sup>a</sup> gégraptai dè autòn pálin anastḗsesthai meth’ hō̂n ho kýrios anístēsin. <sup>b</sup> Hoûtos hermēneúetai ek tē̂s Syriakē̂s bíblou en mèn gē̂ katoikō̂n tē̂ Ausítidi epì toîs horíois tē̂s Idoumaías kaì Arabías, proupē̂rchen dè autō̂ ónoma Iōbab; <sup>c</sup> labṑn dè gynaîka Arábissan gennâ hyión, hō̂ ónoma Ennōn, ē̂n dè autòs patròs mèn Zare, tō̂n Ēsau hyiō̂n hyiós, mētròs dè Bosorras, hṓste eînai autòn pémpton apò Abraam. <sup>d</sup> kaì hoûtoi hoi basileîs hoi basileúsantes en Edōm, hē̂s kaì autòs ē̂rxen chṓras; prō̂tos Balak ho toû Beōr, kaì ónoma tē̂ pólei autoû Dennaba; metà dè Balak Iōbab ho kaloúmenos Iōb; metà dè toûton Asom ho hypárchōn hēgemṑn ek tē̂s Thaimanítidos chṓras; metà dè toûton Adad hyiòs Barad ho ekkópsas Madiam en tō̂ pedíō Mōab, kaì ónoma tē̂ pólei autoû Geththaim. <sup>e</sup> hoi dè elthóntes pròs autòn phíloi; Eliphas tō̂n Ēsau hyiō̂n Thaimanōn basileús, Baldad ho Sauchaíōn týrannos, Sōphar ho Minaíōn basileús.

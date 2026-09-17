@@ -342,6 +342,21 @@ function rootIndex(): Map<string, string[]> {
 }
 
 /**
+ * Whether a lemma names a root the codex holds.
+ *
+ * Exact, with no accent-blind or case-blind fallback, because that is the test
+ * {@link resolveStrongs} applies: a lemma that is not a root **exactly** can
+ * never take a number, whatever else is true of it. So a corpus lemma failing
+ * this is a word cut off from the map rather than a word the map disagrees
+ * with, which is why it is worth a finding of its own.
+ *
+ * @param lemma A corpus node's own `lemma`.
+ */
+export function isRoot(lemma: string): boolean {
+  return rootIndex().has(lemma);
+}
+
+/**
  * Strong's placement rules by root, from every `indices` file declaring itself
  * the `strongs` index.
  *

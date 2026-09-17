@@ -209,7 +209,7 @@
 <sup>18</sup> kaì en philía autē̂s térpsis agathḕ kaì en pónois cheirō̂n autē̂s ploûtos aneklipḕs kaì en syngymnasía homilías autē̂s phrónēsis kaì eúkleia en koinōnía lógōn autē̂s, periḗein zētō̂n hópōs lábō autḕn eis emautón.
 <sup>19</sup> Paîs dè ḗmēn euphyḕs psychē̂s te élachon agathē̂s,
 <sup>20</sup> mâllon dè agathòs ṑn ē̂lthon eis sō̂ma amíanton.
-<sup>21</sup> Gnoùs dè hóti ouk állōs ésomai enkratḗs, eàn mḕ ho theòs dō̂ – kaì toûto d’ ē̂n phronḗseōs tò eidénai tínos hē cháris – , enétychon tō̂ kyríō kaì edeḗthēn autoû kaì eîpon ex hólēs tē̂s kardías mou
+<sup>21</sup> Gnoùs dè hóti ouk állōs ésomai enkratḗs, eàn mḕ ho theòs dō̂—kaì toûto d’ ē̂n phronḗseōs tò eidénai tínos hē cháris—enétychon tō̂ kyríō kaì edeḗthēn autoû kaì eîpon ex hólēs tē̂s kardías mou
 
 ## Chapter 9
 
@@ -397,7 +397,7 @@
 <sup>14</sup> Pántes dè aphronéstatoi kaì tálanes hypèr psychḕn nēpíou hoi echthroì toû laoû sou katadynasteúsantes autón,
 <sup>15</sup> hóti kaì pánta tà eídōla tō̂n ethnō̂n elogísanto theoús, hoîs oúte ommátōn chrē̂sis eis hórasin oúte rhînes eis synolkḕn aéros oúte ō̂ta akoúein oúte dáktyloi cheirō̂n eis psēláphēsin kaì hoi pódes autō̂n argoì pròs epíbasin.
 <sup>16</sup> Ánthrōpos gàr epoíēsen autoús, kaì tò pneûma dedaneisménos éplasen autoús; oudeìs gàr autō̂ hómoion ánthrōpos ischýei plásai theón;
-<sup>17</sup> thnētòs dè ṑn nekròn ergázetai chersìn anómois; kreíttōn gár estin tō̂n sebasmátōn autoû, hō̂n autòs mèn ézēsen, ekeîna dè oudépote. –
+<sup>17</sup> thnētòs dè ṑn nekròn ergázetai chersìn anómois; kreíttōn gár estin tō̂n sebasmátōn autoû, hō̂n autòs mèn ézēsen, ekeîna dè oudépote. —
 <sup>18</sup> kaì tà zō̂a dè tà échthista sébontai; anoía gàr synkrinómena tō̂n állōn estì cheírona;
 <sup>19</sup> oud’ hóson epipothē̂sai hōs en zṓōn ópsei kalà tynchánei, ekpépheugen dè kaì tòn toû theoû épainon kaì tḕn eulogían autoû.
 

@@ -814,7 +814,7 @@
 <sup>12</sup> En toútō égnōn hóti tethélēkás me, hóti ou mḕ epicharē̂ ho echthrós mou ep’ emé.
 <sup>13</sup> Emoû dè dià tḕn akakían antelábou, kaì ebebaíōsás me enṓpión sou eis tòn aiō̂na.
 
-<sup>14</sup> Eulogētòs kýrios ho theòs Israēl apò toû aiō̂nos kaì eis tòn aiō̂na. Génoito génoito. – –
+<sup>14</sup> Eulogētòs kýrios ho theòs Israēl apò toû aiō̂nos kaì eis tòn aiō̂na. Génoito génoito.
 
 ## Chapter 41
 
@@ -881,7 +881,7 @@
 <sup>3</sup> Hōraîos kállei parà toùs hyioùs tō̂n anthrṓpōn, exechýthē cháris en cheílesín sou; dià toûto eulógēsén se ho theòs eis tòn aiō̂na.
 <sup>4</sup> Perízōsai tḕn rhomphaían sou epì tòn mērón sou, dynaté, tē̂ hōraiótētí sou kaì tō̂ kállei sou
 <sup>5</sup> kaì énteinon kaì kateuodoû kaì basíleue héneken alētheías kaì praútētos kaì dikaiosýnēs, kaì hodēgḗsei se thaumastō̂s hē dexiá sou.
-<sup>6</sup> Tà bélē sou ēkonēména, dynaté, – laoì hypokátō sou pesoûntai – en kardía tō̂n echthrō̂n toû basiléōs.
+<sup>6</sup> Tà bélē sou ēkonēména, dynaté,—laoì hypokátō sou pesoûntai—en kardía tō̂n echthrō̂n toû basiléōs.
 <sup>7</sup> Ho thrónos sou, ho theós, eis tòn aiō̂na toû aiō̂nos, rhábdos euthýtētos hē rhábdos tē̂s basileías sou.
 <sup>8</sup> Ēgápēsas dikaiosýnēn kaì emísēsas anomían; dià toûto échrisén se ho theòs ho theós sou élaion agalliáseōs parà toùs metóchous sou.
 <sup>9</sup> Smýrna kaì staktḕ kaì kasía apò tō̂n himatíōn sou apò báreōn elephantínōn, ex hō̂n ēúphranán se.
@@ -1443,7 +1443,7 @@
 <sup>18</sup> Eulogētòs kýrios ho theòs ho theòs Israēl ho poiō̂n thaumásia mónos,
 <sup>19</sup> kaì eulogētòn tò ónoma tē̂s dóxēs autoû eis tòn aiō̂na kaì eis tòn aiō̂na toû aiō̂nos, kaì plērōthḗsetai tē̂s dóxēs autoû pâsa hē gē̂. Génoito génoito.
 
-<sup>20</sup> Exélipon hoi hýmnoi Dauid toû hyioû Iessai. – –
+<sup>20</sup> Exélipon hoi hýmnoi Dauid toû hyioû Iessai.
 
 ## Chapter 72
 
@@ -1895,7 +1895,7 @@
 <sup>51</sup> Mnḗsthēti, kýrie, toû oneidismoû tō̂n doúlōn sou, hoû hypéschon en tō̂ kólpō mou, pollō̂n ethnō̂n,
 <sup>52</sup> hoû ōneídisan hoi echthroí sou, kýrie, hoû ōneídisan tò antállagma toû christoû sou.
 
-<sup>53</sup> Eulogētòs kýrios eis tòn aiō̂na. Génoito génoito. – –
+<sup>53</sup> Eulogētòs kýrios eis tòn aiō̂na. Génoito génoito.
 
 ## Chapter 89
 
@@ -2304,7 +2304,7 @@
 <sup>46</sup> kaì édōken autoùs eis oiktirmoùs enantíon pántōn tō̂n aichmalōtisántōn autoús.
 <sup>47</sup> Sō̂son hēmâs, kýrie ho theòs hēmō̂n, kaì episynágage hēmâs ek tō̂n ethnō̂n toû exomologḗsasthai tō̂ onómati tō̂ hagíō sou, toû enkauchâsthai en tē̂ ainései sou.
 
-<sup>48</sup> Eulogētòs kýrios ho theòs Israēl apò toû aiō̂nos kaì héōs toû aiō̂nos. Kaì ereî pâs ho laós Génoito génoito. – –
+<sup>48</sup> Eulogētòs kýrios ho theòs Israēl apò toû aiō̂nos kaì héōs toû aiō̂nos. Kaì ereî pâs ho laós Génoito génoito.
 
 ## Chapter 106
 
@@ -2318,20 +2318,20 @@
 <sup>6</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n errýsato autoùs
 <sup>7</sup> kaì hōdḗgēsen autoùs eis hodòn eutheîan toû poreuthē̂nai eis pólin katoikētēríou.
 <sup>8</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>9</sup> hóti echórtasen psychḕn kenḕn kaì psychḕn peinō̂san enéplēsen agathō̂n. –
+<sup>9</sup> hóti echórtasen psychḕn kenḕn kaì psychḕn peinō̂san enéplēsen agathō̂n. —
 <sup>10</sup> kathēménous en skótei kaì skiâ thanátou, pepedēménous en ptōcheía kaì sidḗrō,
 <sup>11</sup> hóti parepíkranan tà lógia toû theoû kaì tḕn boulḕn toû hypsístou parṓxynan,
 <sup>12</sup> kaì etapeinṓthē en kópois hē kardía autō̂n, ēsthénēsan, kaì ouk ē̂n ho boēthō̂n;
 <sup>13</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n ésōsen autoùs
 <sup>14</sup> kaì exḗgagen autoùs ek skótous kaì skiâs thanátou kaì toùs desmoùs autō̂n diérrēxen.
 <sup>15</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>16</sup> hóti synétripsen pýlas chalkâs kaì mochloùs sidēroûs synéklasen. –
+<sup>16</sup> hóti synétripsen pýlas chalkâs kaì mochloùs sidēroûs synéklasen. —
 <sup>17</sup> antelábeto autō̂n ex hodoû anomías autō̂n, dià gàr tàs anomías autō̂n etapeinṓthēsan;
 <sup>18</sup> pân brō̂ma ebdelýxato hē psychḕ autō̂n, kaì ḗngisan héōs tō̂n pylō̂n toû thanátou;
 <sup>19</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n ésōsen autoús,
 <sup>20</sup> apésteilen tòn lógon autoû kaì iásato autoùs kaì errýsato autoùs ek tō̂n diaphthorō̂n autō̂n.
 <sup>21</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn
-<sup>22</sup> kaì thysátōsan thysían ainéseōs kaì exangeilátōsan tà érga autoû en agalliásei. –
+<sup>22</sup> kaì thysátōsan thysían ainéseōs kaì exangeilátōsan tà érga autoû en agalliásei. —
 <sup>23</sup> hoi katabaínontes eis tḕn thálassan en ploíois poioûntes ergasían en hýdasi polloîs,
 <sup>24</sup> autoì eídosan tà érga kyríou kaì tà thaumásia autoû en tō̂ bythō̂;
 <sup>25</sup> eîpen, kaì éstē pneûma kataigídos, kaì hypsṓthē tà kýmata autē̂s;
@@ -2341,7 +2341,7 @@
 <sup>29</sup> kaì epétaxen tē̂ kataigídi, kaì éstē eis aúran, kaì esígēsan tà kýmata autē̂s;
 <sup>30</sup> kaì euphránthēsan, hóti hēsýchasan, kaì hōdḗgēsen autoùs epì liména thelḗmatos autō̂n.
 <sup>31</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>32</sup> hypsōsátōsan autòn en ekklēsía laoû kaì en kathédra presbytérōn ainesátōsan autón. –
+<sup>32</sup> hypsōsátōsan autòn en ekklēsía laoû kaì en kathédra presbytérōn ainesátōsan autón. —
 <sup>33</sup> étheto potamoùs eis érēmon kaì diexódous hydátōn eis dípsan,
 <sup>34</sup> gē̂n karpophóron eis hálmēn apò kakías tō̂n katoikoúntōn en autē̂.
 <sup>35</sup> Étheto érēmon eis límnas hydátōn kaì gē̂n ánydron eis diexódous hydátōn
@@ -3310,4 +3310,4 @@
 <sup>4</sup> Autòs exapésteilen tòn ángelon autoû kaì ē̂rén me ek tō̂n probátōn toû patrós mou kaì échrisén me en tō̂ elaíō tē̂s chríseōs autoû.
 <sup>5</sup> Hoi adelphoí mou kaloì kaì megáloi, kaì ouk eudókēsen en autoîs kýrios.
 <sup>6</sup> Exē̂lthon eis synántēsin tō̂ allophýlō, kaì epikatērásató me en toîs eidṓlois autoû;
-<sup>7</sup> egṑ dè spasámenos tḕn par’ autoû máchairan apekephálisa autòn kaì ē̂ra óneidos ex hyiō̂n Israēl. – –
+<sup>7</sup> egṑ dè spasámenos tḕn par’ autoû máchairan apekephálisa autòn kaì ē̂ra óneidos ex hyiō̂n Israēl.

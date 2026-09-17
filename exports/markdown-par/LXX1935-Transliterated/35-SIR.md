@@ -1053,7 +1053,7 @@
 <sup>10</sup> Kaì ánthrōpoi pántes apò edáphous, kaì ek gē̂s ektísthē Adam;
 <sup>11</sup> en plḗthei epistḗmēs kýrios diechṓrisen autoùs kaì ēlloíōsen tàs hodoùs autō̂n;
 <sup>12</sup> ex autō̂n eulógēsen kaì anýpsōsen kaì ex autō̂n hēgíasen kaì pròs autòn ḗngisen; ap’ autō̂n katērásato kaì etapeínōsen kaì anéstrepsen autoùs apò stáseōs autō̂n.
-<sup>13</sup> Hōs pēlòs keraméōs en cheirì autoû – pâsai hai hodoì autoû katà tḕn eudokían autoû – , hoútōs ánthrōpoi en cheirì toû poiḗsantos autoùs apodoûnai autoîs katà tḕn krísin autoû.
+<sup>13</sup> Hōs pēlòs keraméōs en cheirì autoû—pâsai hai hodoì autoû katà tḕn eudokían autoû—hoútōs ánthrōpoi en cheirì toû poiḗsantos autoùs apodoûnai autoîs katà tḕn krísin autoû.
 <sup>14</sup> Apénanti toû kakoû tò agathón, kaì apénanti toû thanátou hē zōḗ, hoútōs apénanti euseboûs hamartōlós;
 <sup>15</sup> kaì hoútōs émblepson eis pánta tà érga toû hypsístou, dýo dýo, hèn katénanti toû henós.
 
@@ -1179,7 +1179,7 @@
 <sup>6</sup> Mḕ epiláthē phílou en tē̂ psychē̂ sou kaì mḕ amnēmonḗsēs autoû en chrḗmasín sou.
 
 <sup>7</sup> Pâs sýmboulos exaírei boulḗn, all’ éstin symbouleúōn eis heautón.
-<sup>8</sup> Apò symboúlou phýlaxon tḕn psychḗn sou kaì gnō̂thi próteron tís autoû chreía – kaì gàr autòs heautō̂ bouleúsetai – , mḗpote bálē epì soì klē̂ron
+<sup>8</sup> Apò symboúlou phýlaxon tḕn psychḗn sou kaì gnō̂thi próteron tís autoû chreía—kaì gàr autòs heautō̂ bouleúsetai—mḗpote bálē epì soì klē̂ron
 <sup>9</sup> kaì eípē soi Kalḕ hē hodós sou, kaì stḗsetai ex anantías ideîn tò symbēsómenón soi.
 <sup>10</sup> Mḕ bouleúou metà toû hypoblepoménou se kaì apò tō̂n zēloúntōn se krýpson boulḗn,
 <sup>11</sup> metà gynaikòs perì tē̂s antizḗlou autē̂s kaì metà deiloû perì polémou, metà empórou perì metabolías kaì metà agorázontos perì práseōs, metà baskánou perì eucharistías kaì metà aneleḗmonos perì chrēstoētheías, metà oknēroû perì pantòs érgou kaì metà misthíou ephetíou perì synteleías, oikétē argō̂ perì pollē̂s ergasías, mḕ épeche epì toútois perì pásēs symboulías;

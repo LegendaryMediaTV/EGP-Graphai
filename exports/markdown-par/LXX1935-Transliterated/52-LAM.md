@@ -208,7 +208,7 @@
 
 <sup>14</sup> Esaleúthēsan egrḗgoroi autē̂s en taîs exódois, emolýnthēsan en haímati; en tō̂ mḕ dýnasthai autoùs hḗpsanto endymátōn autō̂n.
 
-<sup>15</sup> Apóstēte akathártōn – kalésate autoús – apóstēte apóstēte, mḕ háptesthe, hóti anḗphthēsan kaí ge esaleúthēsan; eípate en toîs éthnesin Ou mḕ prosthō̂sin toû paroikeîn.
+<sup>15</sup> Apóstēte akathártōn—kalésate autoús—apóstēte apóstēte, mḕ háptesthe, hóti anḗphthēsan kaí ge esaleúthēsan; eípate en toîs éthnesin Ou mḕ prosthō̂sin toû paroikeîn.
 
 <sup>16</sup> Prósōpon kyríou merìs autō̂n, ou prosthḗsei epiblépsai autoîs; prósōpon hieréōn ouk élabon, presbýtas ouk ēléēsan.
 

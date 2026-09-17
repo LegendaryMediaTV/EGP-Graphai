@@ -66,7 +66,7 @@
 <sup>12</sup> Procheirísasthe hymîn dṓdeka ándras apò tō̂n hyiō̂n Israēl, héna aph’ hekástēs phylē̂s.
 <sup>13</sup> Kaì éstai hōs àn katapaúsōsin hoi pódes tō̂n hieréōn tō̂n airóntōn tḕn kibōtòn tē̂s diathḗkēs kyríou pásēs tē̂s gē̂s en tō̂ hýdati toû Iordánou, tò hýdōr toû Iordánou ekleípsei, tò dè hýdōr tò katabaînon stḗsetai.
 <sup>14</sup> Kaì apē̂ren ho laòs ek tō̂n skēnōmátōn autō̂n diabē̂nai tòn Iordánēn, hoi dè hiereîs ḗrosan tḕn kibōtòn tē̂s diathḗkēs kyríou próteroi toû laoû.
-<sup>15</sup> Hōs dè eiseporeúonto hoi hiereîs hoi aírontes tḕn kibōtòn tē̂s diathḗkēs epì tòn Iordánēn kaì hoi pódes tō̂n hieréōn tō̂n airóntōn tḕn kibōtòn tē̂s diathḗkēs kyríou ebáphēsan eis méros toû hýdatos toû Iordánou – ho dè Iordánēs eplḗrou kath’ hólēn tḕn krēpîda autoû hōseì hēmérai therismoû pyrō̂n – ,
+<sup>15</sup> Hōs dè eiseporeúonto hoi hiereîs hoi aírontes tḕn kibōtòn tē̂s diathḗkēs epì tòn Iordánēn kaì hoi pódes tō̂n hieréōn tō̂n airóntōn tḕn kibōtòn tē̂s diathḗkēs kyríou ebáphēsan eis méros toû hýdatos toû Iordánou—ho dè Iordánēs eplḗrou kath’ hólēn tḕn krēpîda autoû hōseì hēmérai therismoû pyrō̂n—
 <sup>16</sup> kaì éstē tà hýdata tà katabaínonta ánōthen, éstē pē̂gma hèn aphestēkòs makràn sphódra sphodrō̂s héōs mérous Kariathiarim, tò dè katabaînon katébē eis tḕn thálassan Araba, thálassan halós, héōs eis tò télos exélipen; kaì ho laòs heistḗkei apénanti Ierichō.
 <sup>17</sup> Kaì éstēsan hoi hiereîs hoi aírontes tḕn kibōtòn tē̂s diathḗkēs kyríou epì xērâs en mésō toû Iordánou; kaì pántes hoi hyioì Israēl diébainon dià xērâs, héōs synetélesen pâs ho laòs diabaínōn tòn Iordánēn.
 
@@ -146,7 +146,7 @@
 <sup>22</sup> Kaì toîs dysìn neanískois toîs kataskopeúsasin eîpen Iēsoûs Eisélthate eis tḕn oikían tē̂s gynaikòs kaì exagágete autḕn ekeîthen kaì hósa estìn autē̂.
 <sup>23</sup> Kaì eisē̂lthon hoi dýo neanískoi hoi kataskopeúsantes tḕn pólin eis tḕn oikían tē̂s gynaikòs kaì exēgágosan Raab tḕn pórnēn kaì tòn patéra autē̂s kaì tḕn mētéra autē̂s kaì toùs adelphoùs autē̂s kaì pánta, hósa ē̂n autē̂, kaì pâsan tḕn syngéneian autē̂s kaì katéstēsan autḕn éxō tē̂s parembolē̂s Israēl.
 <sup>24</sup> Kaì hē pólis eneprḗsthē empyrismō̂ sỳn pâsin toîs en autē̂, plḕn argyríou kaì chrysíou kaì chalkoû kaì sidḗrou édōkan eis thēsauròn kyríou eisenechthē̂nai.
-<sup>25</sup> Kaì Raab tḕn pórnēn kaì pánta tòn oîkon tòn patrikòn autē̂s ezṓgrēsen Iēsoûs, kaì katṓkēsen en tō̂ Israēl héōs tē̂s sḗmeron hēméras, dióti ékrypsen toùs kataskopeúsantas, hoùs apésteilen Iēsoûs kataskopeûsai tḕn Ierichō. –
+<sup>25</sup> Kaì Raab tḕn pórnēn kaì pánta tòn oîkon tòn patrikòn autē̂s ezṓgrēsen Iēsoûs, kaì katṓkēsen en tō̂ Israēl héōs tē̂s sḗmeron hēméras, dióti ékrypsen toùs kataskopeúsantas, hoùs apésteilen Iēsoûs kataskopeûsai tḕn Ierichō. —
 <sup>26</sup> kaì hṓrkisen Iēsoûs en tē̂ hēméra ekeínē enantíon kyríou légōn Epikatáratos ho ánthrōpos, hòs oikodomḗsei tḕn pólin ekeínēn; en tō̂ prōtotókō autoû themeliṓsei autḕn kaì en tō̂ elachístō autoû epistḗsei tàs pýlas autē̂s. Kaì hoútōs epoíēsen Ozan ho ek Baithēl; en tō̂ Abirōn tō̂ prōtotókō ethemelíōsen autḕn kaì en tō̂ elachístō diasōthénti epéstēsen tàs pýlas autē̂s.
 
 <sup>27</sup> Kaì ē̂n kýrios metà Iēsoû, kaì ē̂n tò ónoma autoû katà pâsan tḕn gē̂n.
@@ -167,7 +167,7 @@
 <sup>12</sup> Ou mḕ dýnōntai hoi hyioì Israēl hypostē̂nai katà prósōpon tō̂n echthrō̂n autō̂n; auchéna epistrépsousin énanti tō̂n echthrō̂n autō̂n, hóti egenḗthēsan anáthema; ou prosthḗsō éti eînai meth’ hymō̂n, eàn mḕ exárēte tò anáthema ex hymō̂n autō̂n.
 <sup>13</sup> Anastàs hagíason tòn laòn kaì eipòn hagiasthē̂nai eis aúrion; táde légei kýrios ho theòs Israēl Tò anáthema en hymîn estin, ou dynḗsesthe antistē̂nai apénanti tō̂n echthrō̂n hymō̂n, héōs àn exárēte tò anáthema ex hymō̂n.
 <sup>14</sup> Kaì synachthḗsesthe pántes tò prōï̀ katà phylás, kaì éstai hē phylḗ, hḕn àn deíxē kýrios, prosáxete katà dḗmous; kaì tòn dē̂mon, hòn eàn deíxē kýrios, prosáxete kat’ oîkon; kaì tòn oîkon, hòn eàn deíxē kýrios, prosáxete kat’ ándra;
-<sup>15</sup> kaì hòs àn endeichthē̂, katakauthḗsetai en pyrì kaì pánta, hósa estìn autō̂, hóti parébē tḕn diathḗkēn kyríou kaì epoíēsen anómēma en Israēl. –
+<sup>15</sup> kaì hòs àn endeichthē̂, katakauthḗsetai en pyrì kaì pánta, hósa estìn autō̂, hóti parébē tḕn diathḗkēn kyríou kaì epoíēsen anómēma en Israēl. —
 <sup>16</sup> kaì ṓrthrisen Iēsoûs kaì prosḗgagen tòn laòn katà phylás, kaì enedeíchthē hē phylḕ Iouda;
 <sup>17</sup> kaì prosḗchthē katà dḗmous, kaì enedeíchthē dē̂mos ho Zarai; kaì prosḗchthē katà ándra,
 <sup>18</sup> kaì enedeíchthē Achar hyiòs Zambri hyioû Zara.
@@ -198,7 +198,7 @@
 <sup>15</sup> Kaì eîden kaì anechṓrēsen Iēsoûs kaì Israēl apò prosṓpou autō̂n.
 <sup>16</sup> Kaì katedíōxan opísō tō̂n hyiō̂n Israēl kaì autoì apéstēsan apò tē̂s póleōs;
 <sup>17</sup> ou kateleíphthē outheìs en tē̂ Gai, hòs ou katedíōxen opísō Israēl; kaì katélipon tḕn pólin aneōgménēn kaì katedíōxan opísō Israēl.
-<sup>18</sup> Kaì eîpen kýrios pròs Iēsoûn Ékteinon tḕn cheîrá sou en tō̂ gaísō tō̂ en tē̂ cheirí sou epì tḕn pólin – eis gàr tàs cheîrás sou paradédōka autḗn – , kaì tà énedra exanastḗsontai en táchei ek toû tópou autō̂n. Kaì exéteinen Iēsoûs tḕn cheîra autoû, tòn gaîson, epì tḕn pólin,
+<sup>18</sup> Kaì eîpen kýrios pròs Iēsoûn Ékteinon tḕn cheîrá sou en tō̂ gaísō tō̂ en tē̂ cheirí sou epì tḕn pólin—eis gàr tàs cheîrás sou paradédōka autḗn—kaì tà énedra exanastḗsontai en táchei ek toû tópou autō̂n. Kaì exéteinen Iēsoûs tḕn cheîra autoû, tòn gaîson, epì tḕn pólin,
 <sup>19</sup> kaì tà énedra exanéstēsan en táchei ek toû tópou autō̂n kaì exḗlthosan, hóte exéteinen tḕn cheîra, kaì ḗlthosan epì tḕn pólin kaì katelábonto autḕn kaì speúsantes enéprēsan tḕn pólin en pyrí.
 <sup>20</sup> Kaì periblépsantes hoi kátoikoi Gai eis tà opísō autō̂n kaì etheṓroun kapnòn anabaínonta ek tē̂s póleōs eis tòn ouranón; kaì oukéti eîchon poû phýgōsin hō̂de ḕ hō̂de.
 <sup>21</sup> Kaì Iēsoûs kaì pâs Israēl eîdon hóti élabon tà énedra tḕn pólin kaì hóti anébē ho kapnòs tē̂s póleōs eis tòn ouranón, kaì metabalómenoi epátaxan toùs ándras tē̂s Gai.
@@ -228,7 +228,7 @@
 <sup>12</sup> Hoûtoi hoi ártoi, thermoùs ephōdiásthēmen autoùs en tē̂ hēméra, hē̂ exḗlthomen paragenésthai pròs hymâs, nŷn dè exēránthēsan kaì gegónasin bebrōménoi;
 <sup>13</sup> kaì hoûtoi hoi askoì toû oínou, hoùs eplḗsamen kainoús, kaì hoûtoi errṓgasin; kaì tà himátia hēmō̂n kaì tà hypodḗmata hēmō̂n pepalaíōtai apò tē̂s pollē̂s hodoû sphódra.
 <sup>14</sup> Kaì élabon hoi árchontes toû episitismoû autō̂n kaì kýrion ouk epērṓtēsan.
-<sup>15</sup> Kaì epoíēsen Iēsoûs pròs autoùs eirḗnēn kaì diétheto pròs autoùs diathḗkēn toû diasō̂sai autoús, kaì ṓmosan autoîs hoi árchontes tē̂s synagōgē̂s. –
+<sup>15</sup> Kaì epoíēsen Iēsoûs pròs autoùs eirḗnēn kaì diétheto pròs autoùs diathḗkēn toû diasō̂sai autoús, kaì ṓmosan autoîs hoi árchontes tē̂s synagōgē̂s. —
 <sup>16</sup> kaì egéneto metà treîs hēméras metà tò diathésthai pròs autoùs diathḗkēn ḗkousan hóti engýthen autō̂n eisin, kaì hóti en autoîs katoikoûsin.
 <sup>17</sup> Kaì apē̂ran hoi hyioì Israēl kaì ē̂lthon eis tàs póleis autō̂n; hai dè póleis autō̂n Gabaōn kaì Kephira kaì Bērōth kaì pólis Iarin.
 <sup>18</sup> Kaì ouk emachésanto autoîs hoi hyioì Israēl, hóti ṓmosan autoîs pántes hoi árchontes kýrion tòn theòn Israēl; kaì diegóngysan pâsa hē synagōgḕ epì toîs árchousin.
@@ -244,7 +244,7 @@
 
 ## Chapter 10
 
-<sup>1</sup> Hōs dè ḗkousen Adōnibezek basileùs Ierousalēm hóti élaben Iēsoûs tḕn Gai kaì exōléthreusen autḗn – hòn trópon epoíēsan tḕn Ierichō kaì tòn basiléa autē̂s, hoútōs epoíēsan tḕn Gai kaì tòn basiléa autē̂s – kaì hóti automólēsan hoi katoikoûntes Gabaōn pròs Iēsoûn kaì pròs Israēl,
+<sup>1</sup> Hōs dè ḗkousen Adōnibezek basileùs Ierousalēm hóti élaben Iēsoûs tḕn Gai kaì exōléthreusen autḗn—hòn trópon epoíēsan tḕn Ierichō kaì tòn basiléa autē̂s, hoútōs epoíēsan tḕn Gai kaì tòn basiléa autē̂s—kaì hóti automólēsan hoi katoikoûntes Gabaōn pròs Iēsoûn kaì pròs Israēl,
 <sup>2</sup> kaì ephobḗthēsan en autoîs sphódra; ḗdei gàr hóti megálē pólis Gabaōn hōseì mía tō̂n mētropóleōn kaì pántes hoi ándres autē̂s ischyroí.
 <sup>3</sup> Kaì apésteilen Adōnibezek basileùs Ierousalēm pròs Ailam basiléa Chebrōn kaì pròs Phidōn basiléa Ierimouth kaì pròs Iephtha basiléa Lachis kaì pròs Dabir basiléa Odollam légōn
 
@@ -280,7 +280,7 @@
 <sup>30</sup> Kaì parédōken autḕn kýrios eis cheîras Israēl, kaì élabon autḕn kaì tòn basiléa autē̂s kaì ephóneusan autḕn en stómati xíphous kaì pân empnéon en autē̂, kaì ou kateleíphthē en autē̂ oudè heîs diasesōsménos kaì diapepheugṓs; kaì epoíēsan tō̂ basileî autē̂s hòn trópon epoíēsan tō̂ basileî Ierichō.
 
 <sup>31</sup> Kaì apē̂lthen Iēsoûs kaì pâs Israēl met’ autoû ek Lebna eis Lachis kaì periekáthisen autḕn kaì epoliórkei autḗn.
-<sup>32</sup> Kaì parédōken kýrios tḕn Lachis eis tàs cheîras Israēl, kaì élaben autḕn en tē̂ hēméra tē̂ deutéra kaì ephóneusan autḕn en stómati xíphous kaì exōléthreusan autḗn, hòn trópon epoíēsan tḕn Lebna. –
+<sup>32</sup> Kaì parédōken kýrios tḕn Lachis eis tàs cheîras Israēl, kaì élaben autḕn en tē̂ hēméra tē̂ deutéra kaì ephóneusan autḕn en stómati xíphous kaì exōléthreusan autḗn, hòn trópon epoíēsan tḕn Lebna. —
 <sup>33</sup> tóte anébē Ailam basileùs Gazer boēthḗsōn tē̂ Lachis, kaì epátaxen autòn Iēsoûs en stómati xíphous kaì tòn laòn autoû héōs toû mḕ kataleiphthē̂nai autō̂n sesōsménon kaì diapepheugóta.
 
 <sup>34</sup> Kaì apē̂lthen Iēsoûs kaì pâs Israēl met’ autoû ek Lachis eis Odollam kaì periekáthisen autḕn kaì epoliórkēsen autḗn.
@@ -426,14 +426,14 @@
 <sup>9</sup> kaì diekbállei tò hórion apò koryphē̂s toû órous epì pēgḕn hýdatos Naphthō kaì diekbállei eis tò óros Ephrōn, kaì exáxei tò hórion eis Baal [haútē estìn pólis Iarim],
 <sup>10</sup> kaì perieleúsetai hórion apò Baal epì thálassan kaì pareleúsetai eis óros Assares epì nṓtou, pólin Iarim apò borrâ [haútē estìn Chaslōn] kaì katabḗsetai epì Pólin hēlíou kaì pareleúsetai epì líba,
 <sup>11</sup> kaì diekbaleî tò hórion katà nṓtou Akkarōn epì borrân, kaì diekbaleî tà hória eis Sakcharōna kaì pareleúsetai óros tē̂s Bala kaì diekbaleî epì Iabnēl, kaì éstai hē diéxodos tō̂n horíōn epì thálassan.
-<sup>12</sup> Kaì tà hória autō̂n apò thalássēs; hē thálassa hē megálē horieî. Taûta tà hória hyiō̂n Iouda kýklō katà dḗmous autō̂n. –
+<sup>12</sup> Kaì tà hória autō̂n apò thalássēs; hē thálassa hē megálē horieî. Taûta tà hória hyiō̂n Iouda kýklō katà dḗmous autō̂n. —
 <sup>13</sup> kaì tō̂ Chaleb hyiō̂ Iephonnē édōken merída en mésō hyiō̂n Iouda dià prostágmatos toû theoû, kaì édōken autō̂ Iēsoûs tḕn pólin Arbok mētrópolin Enak [haútē estìn Chebrōn].
 <sup>14</sup> Kaì exōléthreusen ekeîthen Chaleb hyiòs Iephonnē toùs treîs hyioùs Enak, tòn Sousi kaì tòn Tholmi kaì tòn Achima.
 <sup>15</sup> Kaì anébē ekeîthen Chaleb epì toùs katoikoûntas Dabir; tò dè ónoma Dabir ē̂n tò próteron Pólis grammátōn.
 <sup>16</sup> Kaì eîpen Chaleb Hòs eàn lábē kaì ekkópsē tḕn Pólin tō̂n grammátōn kaì kyrieúsē autē̂s, dṓsō autō̂ tḕn Achsan thygatéra mou eis gynaîka.
 <sup>17</sup> Kaì élaben autḕn Gothoniēl hyiòs Kenez adelphòs Chaleb ho neṓteros, kaì édōken autō̂ tḕn Achsan thygatéra autoû autō̂ gynaîka.
 <sup>18</sup> Kaì egéneto en tō̂ eisporeúesthai autḕn kaì synebouleúsato autō̂ légousa Aitḗsomai tòn patéra mou agrón; kaì ebóēsen ek toû ónou. Kaì eîpen autē̂ Chaleb Tí estín soi?
-<sup>19</sup> Kaì eîpen autō̂ Dós moi eulogían, hóti eis gē̂n Nageb dédōkás me; dós moi tḕn Golathmain. Kaì édōken autē̂ Chaleb tḕn Golathmain tḕn ánō kaì tḕn Golathmain tḕn kátō. –
+<sup>19</sup> Kaì eîpen autō̂ Dós moi eulogían, hóti eis gē̂n Nageb dédōkás me; dós moi tḕn Golathmain. Kaì édōken autē̂ Chaleb tḕn Golathmain tḕn ánō kaì tḕn Golathmain tḕn kátō. —
 <sup>20</sup> haútē hē klēronomía phylē̂s hyiō̂n Iouda.
 
 <sup>21</sup> Egenḗthēsan dè hai póleis autō̂n; pólis prṓtē phylē̂s hyiō̂n Iouda eph’ horíōn Edōm epì tē̂s erḗmou Kaibaiseleēl kaì Ara kaì Asōr
@@ -504,7 +504,7 @@
 <sup>6</sup> kaì dieleúsetai tà hória epì tḕn thálassan eis Ikasmōn apò borrâ Therma, perieleúsetai epì anatolàs eis Thēnasa kaì Sellēsa kaì pareleúsetai ap’ anatolō̂n eis Ianōka
 <sup>7</sup> kaì eis Machō kaì Atarōth kaì hai kō̂mai autō̂n kaì eleúsetai epì Ierichō kaì diekbaleî epì tòn Iordánēn,
 <sup>8</sup> kaì apò Taphou poreúsetai tà hória epì thálassan epì Chelkana, kaì éstai hē diéxodos autō̂n epì thálassan; haútē hē klēronomía phylē̂s Ephraim katà dḗmous autō̂n.
-<sup>9</sup> Kaì hai póleis hai aphoristheîsai toîs hyioîs Ephraim anà méson tē̂s klēronomías hyiō̂n Manassē, pâsai hai póleis kaì hai kō̂mai autō̂n. –
+<sup>9</sup> Kaì hai póleis hai aphoristheîsai toîs hyioîs Ephraim anà méson tē̂s klēronomías hyiō̂n Manassē, pâsai hai póleis kaì hai kō̂mai autō̂n. —
 <sup>10</sup> kaì ouk apṓlesen Ephraim tòn Chananaîon tòn katoikoûnta en Gazer, kaì katṓkei ho Chananaîos en tō̂ Ephraim héōs tē̂s hēméras taútēs, héōs anébē Pharaō basileùs Aigýptou kaì élaben autḕn kaì enéprēsen autḕn en pyrí, kaì toùs Chananaíous kaì toùs Pherezaíous kaì toùs katoikoûntas en Gazer exekéntēsan, kaì édōken autḕn Pharaō en phernē̂ tē̂ thygatrì autoû.
 
 ## Chapter 17
@@ -552,7 +552,7 @@
 <sup>17</sup> kaì dieleúsetai epì pēgḕn Baithsamys kaì pareleúsetai epì Galilōth, hḗ estin apénanti pròs anábasin Aithamin, kaì katabḗsetai epì líthon Baiōn hyiō̂n Roubēn
 <sup>18</sup> kaì dieleúsetai katà nṓtou Baitharaba apò borrâ kaì katabḗsetai
 <sup>19</sup> epì tà hória epì nṓtou Baithagla apò borrâ, kaì éstai hē diéxodos tō̂n horíōn epì lophiàn tē̂s thalássēs tō̂n halō̂n epì borrân eis méros toû Iordánou apò libós; taûta tà hóriá estin apò libós.
-<sup>20</sup> Kaì ho Iordánēs horieî apò mérous anatolō̂n. Haútē hē klēronomía hyiō̂n Beniamin, tà hória autē̂s kýklō katà dḗmous. –
+<sup>20</sup> Kaì ho Iordánēs horieî apò mérous anatolō̂n. Haútē hē klēronomía hyiō̂n Beniamin, tà hória autē̂s kýklō katà dḗmous. —
 <sup>21</sup> kaì egenḗthēsan hai póleis tō̂n hyiō̂n Beniamin katà dḗmous autō̂n Ierichō kaì Baithegliō kaì Amekasis
 <sup>22</sup> kaì Baithabara kaì Sara kaì Bēsana
 <sup>23</sup> kaì Aiin kaì Phara kaì Ephratha
@@ -698,7 +698,7 @@
 <sup>3</sup> Ouk enkataleloípate toùs adelphoùs hymō̂n taútas tàs hēméras kaì pleíous héōs tē̂s sḗmeron hēméras; ephyláxasthe tḕn entolḕn kyríou toû theoû hymō̂n.
 <sup>4</sup> Nŷn dè katépausen kýrios ho theòs hēmō̂n toùs adelphoùs hēmō̂n, hòn trópon eîpen autoîs; nŷn oûn apostraphéntes apélthate eis toùs oíkous hymō̂n kaì eis tḕn gē̂n tē̂s kataschéseōs hymō̂n, hḕn édōken hymîn Mōÿsē̂s en tō̂ péran toû Iordánou.
 <sup>5</sup> Allà phyláxasthe poieîn sphódra tàs entolàs kaì tòn nómon, hòn eneteílato hēmîn poieîn Mōÿsē̂s ho paîs kyríou, agapân kýrion tòn theòn hymō̂n, poreúesthai pásais taîs hodoîs autoû, phyláxasthai tàs entolàs autoû kaì proskeîsthai autō̂ kaì latreúein autō̂ ex hólēs tē̂s dianoías hymō̂n kaì ex hólēs tē̂s psychē̂s hymō̂n.
-<sup>6</sup> Kaì ēulógēsen autoùs Iēsoûs kaì exapésteilen autoús, kaì eporeúthēsan eis toùs oíkous autō̂n. –
+<sup>6</sup> Kaì ēulógēsen autoùs Iēsoûs kaì exapésteilen autoús, kaì eporeúthēsan eis toùs oíkous autō̂n. —
 <sup>7</sup> kaì tō̂ hēmísei phylē̂s Manassē édōken Mōÿsē̂s en tē̂ Basanítidi, kaì tō̂ hēmísei édōken Iēsoûs metà tō̂n adelphō̂n autoû en tō̂ péran toû Iordánou parà thálassan. Kaì hēníka exapésteilen autoùs Iēsoûs eis toùs oíkous autō̂n kaì eulógēsen autoús,
 <sup>8</sup> kaì en chrḗmasin polloîs apḗlthosan eis toùs oíkous autō̂n, kaì ktḗnē pollà sphódra kaì argýrion kaì chrysíon kaì sídēron kaì himatismòn polýn, kaì dieílanto tḕn pronomḕn tō̂n echthrō̂n metà tō̂n adelphō̂n autō̂n.
 
@@ -787,7 +787,7 @@
 <sup>29</sup> Kaì elátreusen Israēl tō̂ kyríō pásas tàs hēméras Iēsoû kaì pásas tàs hēméras tō̂n presbytérōn, hósoi epheílkysan tòn chrónon metà Iēsoû kaì hósoi eídosan pánta tà érga kyríou, hósa epoíēsen tō̂ Israēl.
 
 <sup>30</sup> Kaì egéneto met’ ekeîna kaì apéthanen Iēsoûs hyiòs Nauē doûlos kyríou hekatòn déka etō̂n.
-<sup>31</sup> Kaì éthapsan autòn pròs toîs horíois toû klḗrou autoû en Thamnathasachara en tō̂ órei tō̂ Ephraim apò borrâ toû órous Gaas; <sup>a</sup> ekeî éthēkan met’ autoû eis tò mnē̂ma, eis hò éthapsan autòn ekeî, tàs machaíras tàs petrínas, en haîs periétemen toùs hyioùs Israēl en Galgalois, hóte exḗgagen autoùs ex Aigýptou, kathà synétaxen autoîs kýrios, kaì ekeî eisin héōs tē̂s sḗmeron hēméras. –
+<sup>31</sup> Kaì éthapsan autòn pròs toîs horíois toû klḗrou autoû en Thamnathasachara en tō̂ órei tō̂ Ephraim apò borrâ toû órous Gaas; <sup>a</sup> ekeî éthēkan met’ autoû eis tò mnē̂ma, eis hò éthapsan autòn ekeî, tàs machaíras tàs petrínas, en haîs periétemen toùs hyioùs Israēl en Galgalois, hóte exḗgagen autoùs ex Aigýptou, kathà synétaxen autoîs kýrios, kaì ekeî eisin héōs tē̂s sḗmeron hēméras. —
 <sup>32</sup> kaì tà ostâ Iōsēph anḗgagon hoi hyioì Israēl ex Aigýptou kaì katṓryxan en Sikimois en tē̂ merídi toû agroû, hoû ektḗsato Iakōb parà tō̂n Amorraíōn tō̂n katoikoúntōn en Sikimois amnádōn hekatòn kaì édōken autḕn Iōsēph en merídi.
 
 <sup>33</sup> Kaì egéneto metà taûta kaì Eleazar hyiòs Aarōn ho archiereùs eteleútēsen kaì etáphē en Gabaath Phinees toû hyioû autoû, hḕn édōken autō̂ en tō̂ órei tō̂ Ephraim. <sup>a</sup> en ekeínē tē̂ hēméra labóntes hoi hyioì Israēl tḕn kibōtòn toû theoû periephérosan en heautoîs, kaì Phinees hieráteusen antì Eleazar toû patròs autoû, héōs apéthanen kaì katōrýgē en Gabaath tē̂ heautoû. <sup>b</sup> hoi dè hyioì Israēl apḗlthosan hékastos eis tòn tópon autō̂n kaì eis tḕn heautō̂n pólin. Kaì esébonto hoi hyioì Israēl tḕn Astártēn kaì Astarōth kaì toùs theoùs tō̂n ethnō̂n tō̂n kýklō autō̂n; kaì parédōken autoùs kýrios eis cheîras Eglōm tō̂ basileî Mōab, kaì ekyríeusen autō̂n étē déka oktṓ.

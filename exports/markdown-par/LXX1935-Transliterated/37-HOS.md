@@ -5,17 +5,17 @@
 <sup>2</sup> Archḕ lógou kyríou pròs Ōsēe; kaì eîpen kýrios pròs Ōsēe Bádize labè seautō̂ gynaîka porneías kaì tékna porneías, dióti ekporneúousa ekporneúsei hē gē̂ apò ópisthen toû kyríou.
 <sup>3</sup> Kaì eporeúthē kaì élaben tḕn Gomer thygatéra Debēlaim, kaì synélaben kaì éteken autō̂ hyión.
 <sup>4</sup> Kaì eîpen kýrios pròs autón Káleson tò ónoma autoû Iezrael, dióti éti mikròn kaì ekdikḗsō tò haîma toû Iezrael epì tòn oîkon Iou kaì katapaúsō basileían oíkou Israēl;
-<sup>5</sup> kaì éstai en tē̂ hēméra ekeínē syntrípsō tò tóxon toû Israēl en tē̂ koiládi toû Iezrael. –
-<sup>6</sup> kaì synélaben éti kaì éteken thygatéra. Kaì eîpen autō̂ Káleson tò ónoma autē̂s Ouk – ēleēménē, dióti ou mḕ prosthḗsō éti eleē̂sai tòn oîkon toû Israēl, all’ ḕ antitassómenos antitáxomai autoîs.
-<sup>7</sup> Toùs dè hyioùs Iouda eleḗsō kaì sṓsō autoùs en kyríō theō̂ autō̂n kaì ou sṓsō autoùs en tóxō oudè en rhomphaía oudè en polémō oudè en hármasin oudè en híppois oudè en hippeûsin. –
-<sup>8</sup> kaì apegaláktisen tḕn Ouk – ēleēménēn kaì synélaben éti kaì éteken hyión.
-<sup>9</sup> Kaì eîpen Káleson tò ónoma autoû Ou – laós – mou, dióti hymeîs ou laós mou, kaì egṑ oúk eimi hymō̂n.
+<sup>5</sup> kaì éstai en tē̂ hēméra ekeínē syntrípsō tò tóxon toû Israēl en tē̂ koiládi toû Iezrael. —
+<sup>6</sup> kaì synélaben éti kaì éteken thygatéra. Kaì eîpen autō̂ Káleson tò ónoma autē̂s Ouk—ēleēménē, dióti ou mḕ prosthḗsō éti eleē̂sai tòn oîkon toû Israēl, all’ ḕ antitassómenos antitáxomai autoîs.
+<sup>7</sup> Toùs dè hyioùs Iouda eleḗsō kaì sṓsō autoùs en kyríō theō̂ autō̂n kaì ou sṓsō autoùs en tóxō oudè en rhomphaía oudè en polémō oudè en hármasin oudè en híppois oudè en hippeûsin. —
+<sup>8</sup> kaì apegaláktisen tḕn Ouk—ēleēménēn kaì synélaben éti kaì éteken hyión.
+<sup>9</sup> Kaì eîpen Káleson tò ónoma autoû Ou—laós—mou, dióti hymeîs ou laós mou, kaì egṑ oúk eimi hymō̂n.
 
 ## Chapter 2
 
 <sup>1</sup> Kaì ē̂n ho arithmòs tō̂n hyiō̂n Israēl hōs hē ámmos tē̂s thalássēs, hḕ ouk ekmetrēthḗsetai oudè exarithmēthḗsetai; kaì éstai en tō̂ tópō, hoû erréthē autoîs Ou laós mou hymeîs, ekeî klēthḗsontai hyioì theoû zō̂ntos.
 <sup>2</sup> Kaì synachthḗsontai hoi hyioì Iouda kaì hoi hyioì Israēl epì tò autò kaì thḗsontai heautoîs archḕn mían kaì anabḗsontai ek tē̂s gē̂s, hóti megálē hē hēméra toû Iezrael.
-<sup>3</sup> Eípate tō̂ adelphō̂ hymō̂n Laós – mou kaì tē̂ adelphē̂ hymō̂n Ēleēménē.
+<sup>3</sup> Eípate tō̂ adelphō̂ hymō̂n Laós—mou kaì tē̂ adelphē̂ hymō̂n Ēleēménē.
 
 <sup>4</sup> Kríthēte pròs tḕn mētéra hymō̂n kríthēte, hóti autḕ ou gynḗ mou, kaì egṑ ouk anḕr autē̂s; kaì exarō̂ tḕn porneían autē̂s ek prosṓpou mou kaì tḕn moicheían autē̂s ek mésou mastō̂n autē̂s,
 <sup>5</sup> hópōs àn ekdýsō autḕn gymnḕn kaì apokatastḗsō autḕn kathṑs hēméra genéseōs autē̂s; kaì thḗsomai autḕn hōs érēmon kaì táxō autḕn hōs gē̂n ánydron kaì apoktenō̂ autḕn en dípsei;
@@ -39,7 +39,7 @@
 <sup>22</sup> kaì mnēsteúsomaí se emautō̂ en pístei, kaì epignṓsē tòn kýrion.
 <sup>23</sup> Kaì éstai en ekeínē tē̂ hēméra, légei kýrios, epakoúsomai tō̂ ouranō̂, kaì ho ouranòs epakoúsetai tē̂ gē̂,
 <sup>24</sup> kaì hē gē̂ epakoúsetai tòn sîton kaì tòn oînon kaì tò élaion, kaì autà epakoúsetai tō̂ Iezrael.
-<sup>25</sup> Kaì sperō̂ autḕn emautō̂ epì tē̂s gē̂s kaì eleḗsō tḕn Ouk – ēleēménēn kaì erō̂ tō̂ Ou – laō̂ – mou Laós mou eî sý, kaì autòs ereî Kýrios ho theós mou eî sý.
+<sup>25</sup> Kaì sperō̂ autḕn emautō̂ epì tē̂s gē̂s kaì eleḗsō tḕn Ouk—ēleēménēn kaì erō̂ tō̂ Ou—laō̂—mou Laós mou eî sý, kaì autòs ereî Kýrios ho theós mou eî sý.
 
 ## Chapter 3
 
@@ -97,7 +97,7 @@
 
 <sup>1</sup> Poreuthō̂men kaì epistrépsōmen pròs kýrion tòn theòn hēmō̂n, hóti autòs hḗrpaken kaì iásetai hēmâs, patáxei kaì motṓsei hēmâs;
 <sup>2</sup> hygiásei hēmâs metà dýo hēméras, en tē̂ hēméra tē̂ trítē anastēsómetha kaì zēsómetha enṓpion autoû;
-<sup>3</sup> kaì gnōsómetha diṓxomen toû gnō̂nai tòn kýrion, hōs órthron hétoimon heurḗsomen autón, kaì hḗxei hōs hyetòs hēmîn próimos kaì ópsimos tē̂ gē̂. –
+<sup>3</sup> kaì gnōsómetha diṓxomen toû gnō̂nai tòn kýrion, hōs órthron hétoimon heurḗsomen autón, kaì hḗxei hōs hyetòs hēmîn próimos kaì ópsimos tē̂ gē̂. —
 <sup>4</sup> tí soi poiḗsō, Ephraim? Tí soi poiḗsō, Iouda? Tò dè éleos hymō̂n hōs nephélē prōinḕ kaì hōs drósos orthrinḕ poreuoménē.
 
 <sup>5</sup> Dià toûto apethérisa toùs prophḗtas hymō̂n, apékteina autoùs en rhḗmasin stómatós mou, kaì tò kríma mou hōs phō̂s exeleúsetai.

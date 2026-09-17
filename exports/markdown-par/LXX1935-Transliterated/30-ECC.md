@@ -25,7 +25,7 @@
 
 <sup>1</sup> Eîpon egṑ en kardía mou Deûro dḕ peirásō se en euphrosýnē, kaì idè en agathō̂; kaì idoù kaí ge toûto mataiótēs.
 <sup>2</sup> Tō̂ gélōti eîpa periphoràn kaì tē̂ euphrosýnē Tí toûto poieîs?
-<sup>3</sup> Kateskepsámēn en kardía mou toû helkýsai eis oînon tḕn sárka mou – kaì kardía mou hōdḗgēsen en sophía – kaì toû kratē̂sai ep’ aphrosýnē, héōs hoû ídō poîon tò agathòn toîs hyioîs toû anthrṓpou, hò poiḗsousin hypò tòn hḗlion arithmòn hēmerō̂n zōē̂s autō̂n.
+<sup>3</sup> Kateskepsámēn en kardía mou toû helkýsai eis oînon tḕn sárka mou—kaì kardía mou hōdḗgēsen en sophía—kaì toû kratē̂sai ep’ aphrosýnē, héōs hoû ídō poîon tò agathòn toîs hyioîs toû anthrṓpou, hò poiḗsousin hypò tòn hḗlion arithmòn hēmerō̂n zōē̂s autō̂n.
 <sup>4</sup> Emegályna poíēmá mou, ōkodómēsá moi oíkous, ephýteusá moi ampelō̂nas,
 <sup>5</sup> epoíēsá moi kḗpous kaì paradeísous kaì ephýteusa en autoîs xýlon pân karpoû;
 <sup>6</sup> epoíēsá moi kolymbḗthras hydátōn toû potísai ap’ autō̂n drymòn blastō̂nta xýla;

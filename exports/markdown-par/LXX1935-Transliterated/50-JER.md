@@ -14,7 +14,7 @@
 <sup>10</sup> idoù katéstaká se sḗmeron epì éthnē kaì basileías ekrizoûn kaì kataskáptein kaì apollýein kaì anoikodomeîn kaì kataphyteúein.
 
 <sup>11</sup> Kaì egéneto lógos kyríou prós me légōn Tí sỳ horâs, Ieremia? Kaì eîpa Baktērían karyínēn.
-<sup>12</sup> Kaì eîpen kýrios prós me Kalō̂s heṓrakas, dióti egrḗgora egṑ epì toùs lógous mou toû poiē̂sai autoús. –
+<sup>12</sup> Kaì eîpen kýrios prós me Kalō̂s heṓrakas, dióti egrḗgora egṑ epì toùs lógous mou toû poiē̂sai autoús. —
 <sup>13</sup> kaì egéneto lógos kyríou prós me ek deutérou légōn Tí sỳ horâs? Kaì eîpa Lébēta hypokaiómenon, kaì tò prósōpon autoû apò prosṓpou borrâ.
 <sup>14</sup> Kaì eîpen kýrios prós me Apò prosṓpou borrâ ekkauthḗsetai tà kakà epì pántas toùs katoikoûntas tḕn gē̂n.
 <sup>15</sup> Dióti idoù egṑ synkalō̂ pásas tàs basileías apò borrâ tē̂s gē̂s, légei kýrios, kaì hḗxousin kaì thḗsousin hékastos tòn thrónon autoû epì tà próthyra tō̂n pylō̂n Ierousalēm kaì epì pánta tà teíchē tà kýklō autē̂s kaì epì pásas tàs póleis Iouda.
@@ -229,7 +229,7 @@
 <sup>31</sup> kaì ōkodómēsan tòn bōmòn toû Tapheth, hós estin en phárangi hyioû Ennom, toû katakaíein toùs hyioùs autō̂n kaì tàs thygatéras autō̂n en pyrí, hò ouk eneteilámēn autoîs kaì ou dienoḗthēn en tē̂ kardía mou.
 <sup>32</sup> Dià toûto idoù hēmérai érchontai, légei kýrios, kaì ouk eroûsin éti Bōmòs toû Tapheth kaì Pháranx hyioû Ennom, all’ ḕ Pháranx tō̂n anērēménōn, kaì thápsousin en tō̂ Tapheth dià tò mḕ hypárchein tópon.
 <sup>33</sup> Kaì ésontai hoi nekroì toû laoû toútou eis brō̂sin toîs peteinoîs toû ouranoû kaì toîs thēríois tē̂s gē̂s, kaì ouk éstai ho aposobō̂n.
-<sup>34</sup> Kaì katalýsō ek póleōn Iouda kaì ek diódōn Ierousalēm phōnḕn euphrainoménōn kaì phōnḕn chairóntōn, phōnḕn nymphíou kaì phōnḕn nýmphēs, hóti eis erḗmōsin éstai pâsa hē gē̂. –
+<sup>34</sup> Kaì katalýsō ek póleōn Iouda kaì ek diódōn Ierousalēm phōnḕn euphrainoménōn kaì phōnḕn chairóntōn, phōnḕn nymphíou kaì phōnḕn nýmphēs, hóti eis erḗmōsin éstai pâsa hē gē̂. —
 
 ## Chapter 8
 
@@ -254,7 +254,7 @@
 <sup>20</sup> Diē̂lthen théros, parē̂lthen ámētos, kaì hēmeîs ou diesṓthēmen.
 <sup>21</sup> Epì syntrímmati thygatròs laoû mou eskotṓthēn; aporía katíschysán me ōdînes hōs tiktoúsēs.
 <sup>22</sup> Mḕ rhētínē ouk éstin en Galaad, ḕ iatròs ouk éstin ekeî? Dià tí ouk anébē íasis thygatròs laoû mou?
-<sup>23</sup> Tís dṓsei kephalē̂ mou hýdōr kaì ophthalmoîs mou pēgḕn dakrýōn, kaì klaúsomai tòn laón mou toûton hēméras kaì nyktós, toùs tetraumatisménous thygatròs laoû mou? –
+<sup>23</sup> Tís dṓsei kephalē̂ mou hýdōr kaì ophthalmoîs mou pēgḕn dakrýōn, kaì klaúsomai tòn laón mou toûton hēméras kaì nyktós, toùs tetraumatisménous thygatròs laoû mou? —
 
 ## Chapter 9
 
@@ -402,10 +402,10 @@
 <sup>3</sup> Kaì hoi megistânes autē̂s apésteilan toùs neōtérous autō̂n eph’ hýdōr; ḗlthosan epì tà phréata kaì ouch heúrosan hýdōr kaì apéstrepsan tà angeîa autō̂n kená.
 <sup>4</sup> Kaì tà érga tē̂s gē̂s exélipen, hóti ouk ē̂n hyetós; ēschýnthēsan geōrgoí, epekálypsan tḕn kephalḕn autō̂n.
 <sup>5</sup> Kaì élaphoi en agrō̂ étekon kaì enkatélipon, hóti ouk ē̂n botánē.
-<sup>6</sup> Ónoi ágrioi éstēsan epì nápas; heílkysan ánemon, exélipon hoi ophthalmoì autō̂n, hóti ouk ē̂n chórtos apò laoû adikías. –
+<sup>6</sup> Ónoi ágrioi éstēsan epì nápas; heílkysan ánemon, exélipon hoi ophthalmoì autō̂n, hóti ouk ē̂n chórtos apò laoû adikías. —
 <sup>7</sup> ei hai hamartíai hēmō̂n antéstēsan hēmîn, kýrie, poíēson hēmîn héneken soû, hóti pollaì hai hamartíai hēmō̂n enantíon soû, hóti soì hēmártomen.
 <sup>8</sup> Hypomonḕ Israēl, kýrie, kaì sṓzeis en kairō̂ kakō̂n; hína tí egenḗthēs hōseì pároikos epì tē̂s gē̂s kaì hōs autóchthōn ekklínōn eis katályma?
-<sup>9</sup> Mḕ ésē hṓsper ánthrōpos hypnō̂n ḕ hōs anḕr ou dynámenos sṓzein? Kaì sỳ en hēmîn eî, kýrie, kaì tò ónomá sou epikéklētai eph’ hēmâs; mḕ epiláthē hēmō̂n. –
+<sup>9</sup> Mḕ ésē hṓsper ánthrōpos hypnō̂n ḕ hōs anḕr ou dynámenos sṓzein? Kaì sỳ en hēmîn eî, kýrie, kaì tò ónomá sou epikéklētai eph’ hēmâs; mḕ epiláthē hēmō̂n. —
 <sup>10</sup> hoútōs légei kýrios tō̂ laō̂ toútō Ēgápēsan kineîn pódas autō̂n kaì ouk epheísanto, kaì ho theòs ouk eudókēsen en autoîs; nŷn mnēsthḗsetai tō̂n adikiō̂n autō̂n.
 <sup>11</sup> Kaì eîpen kýrios prós me Mḕ proseúchou perì toû laoû toútou eis agathá;
 <sup>12</sup> hóti eàn nēsteúsōsin, ouk eisakoúsomai tē̂s deḗseōs autō̂n, kaì eàn prosenénkōsin holokautṓmata kaì thysías, ouk eudokḗsō en autoîs, hóti en machaíra kaì en limō̂ kaì en thanátō egṑ syntelésō autoús.
@@ -414,7 +414,7 @@
 <sup>15</sup> Dià toûto táde légei kýrios perì tō̂n prophētō̂n tō̂n prophēteuóntōn epì tō̂ onómatí mou pseudē̂, kaì egṑ ouk apésteila autoús, hoì légousin Máchaira kaì limòs ouk éstai epì tē̂s gē̂s taútēs En thanátō noserō̂ apothanoûntai, kaì en limō̂ syntelesthḗsontai hoi prophē̂tai;
 <sup>16</sup> kaì ho laós, hoîs autoì prophēteúousin autoîs, kaì ésontai errimménoi en taîs diódois Ierousalēm apò prosṓpou machaíras kaì toû limoû, kaì ouk éstai ho tháptōn autoús, kaì hai gynaîkes autō̂n kaì hoi hyioì autō̂n kaì hai thygatéres autō̂n; kaì ekcheō̂ ep’ autoùs tà kakà autō̂n.
 <sup>17</sup> Kaì ereîs pròs autoùs tòn lógon toûton Katagágete ep’ ophthalmoùs hymō̂n dákrya hēméras kaì nyktós, kaì mḕ dialipétōsan, hóti syntrímmati synetríbē thygátēr laoû mou kaì plēgē̂ odynērâ sphódra.
-<sup>18</sup> Eàn exélthō eis tò pedíon, kaì idoù traumatíai machaíras, kaì eàn eisélthō eis tḕn pólin, kaì idoù pónos limoû; hóti hiereùs kaì prophḗtēs eporeúthēsan eis gē̂n, hḕn ouk ḗdeisan. –
+<sup>18</sup> Eàn exélthō eis tò pedíon, kaì idoù traumatíai machaíras, kaì eàn eisélthō eis tḕn pólin, kaì idoù pónos limoû; hóti hiereùs kaì prophḗtēs eporeúthēsan eis gē̂n, hḕn ouk ḗdeisan. —
 <sup>19</sup> mḕ apodokimázōn apedokímasas tòn Ioudan, kaì apò Siōn apéstē hē psychḗ sou? Hína tí épaisas hēmâs, kaì ouk éstin hēmîn íasis? Hypemeínamen eis eirḗnēn, kaì ouk ē̂n agathá; eis kairòn iáseōs, kaì idoù tarachḗ.
 <sup>20</sup> Égnōmen, kýrie, hamartḗmata hēmō̂n, adikías patérōn hēmō̂n, hóti hēmártomen enantíon sou.
 <sup>21</sup> Kópason dià tò ónomá sou, mḕ apolésēs thrónon dóxēs sou; mnḗsthēti, mḕ diaskedásēs tḕn diathḗkēn sou tḕn meth’ hēmō̂n.
@@ -433,7 +433,7 @@
 <sup>9</sup> Ekenṓthē hē tíktousa heptá, apekákēsen hē psychḕ autē̂s, epédy ho hḗlios autē̂ éti mesoúsēs tē̂s hēméras, katēschýnthē kaì ōneidísthē; toùs kataloípous autō̂n eis máchairan dṓsō enantíon tō̂n echthrō̂n autō̂n.
 
 <sup>10</sup> Oímmoi egṓ, mē̂ter, hōs tína me étekes? Ándra dikazómenon kaì diakrinómenon pásē tē̂ gē̂; oúte ōphélēsa, oúte ōphélēsén me oudeís; hē ischýs mou exélipen en toîs katarōménois me.
-<sup>11</sup> Génoito, déspota, kateuthynóntōn autō̂n, ei mḕ paréstēn soi en kairō̂ tō̂n kakō̂n autō̂n kaì en kairō̂ thlípseōs autō̂n eis agathà pròs tòn echthrón. –
+<sup>11</sup> Génoito, déspota, kateuthynóntōn autō̂n, ei mḕ paréstēn soi en kairō̂ tō̂n kakō̂n autō̂n kaì en kairō̂ thlípseōs autō̂n eis agathà pròs tòn echthrón. —
 <sup>12</sup> ei gnōsthḗsetai sídēros? Kaì peribólaion chalkoûn
 <sup>13</sup> hē ischýs sou. Kaì toùs thēsauroús sou eis pronomḕn dṓsō antállagma dià pásas tàs hamartías sou kaì en pâsi toîs horíois sou.
 <sup>14</sup> Kaì katadoulṓsō se kýklō toîs echthroîs sou en tē̂ gē̂, hē̂ ouk ḗdeis; hóti pŷr ekkékautai ek toû thymoû mou, eph’ hymâs kauthḗsetai.
@@ -441,7 +441,7 @@
 <sup>15</sup> Kýrie, mnḗsthētí mou kaì epískepsaí me kaì athṓōsón me apò tō̂n katadiōkóntōn me, mḕ eis makrothymían; gnō̂thi hōs élabon perì soû oneidismòn
 <sup>16</sup> hypò tō̂n athetoúntōn toùs lógous sou; syntéleson autoús, kaì éstai ho lógos sou emoì eis euphrosýnēn kaì charàn kardías mou, hóti epikéklētai tò ónomá sou ep’ emoí, kýrie pantokrátōr.
 <sup>17</sup> Ouk ekáthisa en synedríō autō̂n paizóntōn, allà eulaboúmēn apò prosṓpou cheirós sou; katà mónas ekathḗmēn, hóti pikrías eneplḗsthēn.
-<sup>18</sup> Hína tí hoi lypoûntés me katischýousín mou? Hē plēgḗ mou stereá, póthen iathḗsomai? Ginoménē egenḗthē moi hōs hýdōr pseudès ouk échon pístin. –
+<sup>18</sup> Hína tí hoi lypoûntés me katischýousín mou? Hē plēgḗ mou stereá, póthen iathḗsomai? Ginoménē egenḗthē moi hōs hýdōr pseudès ouk échon pístin. —
 <sup>19</sup> dià toûto táde légei kýrios Eàn epistrépsēs, kaì apokatastḗsō se, kaì prò prosṓpou mou stḗsē; kaì eàn exagágēs tímion apò anaxíou, hōs stóma mou ésē; kaì anastrépsousin autoì pròs sé, kaì sỳ ouk anastrépseis pròs autoús.
 <sup>20</sup> Kaì dṓsō se tō̂ laō̂ toútō hōs teîchos ochyròn chalkoûn, kaì polemḗsousin pròs sè kaì ou mḕ dýnōntai pròs sé, dióti metà soû eimi toû sṓzein se
 <sup>21</sup> kaì exaireîsthaí se ek cheiròs ponērō̂n kaì lytrṓsomaí se ek cheiròs loimō̂n.
@@ -464,10 +464,10 @@
 <sup>13</sup> kaì aporrípsō hymâs apò tē̂s gē̂s taútēs eis tḕn gē̂n, hḕn ouk ḗdeite hymeîs kaì hoi patéres hymō̂n, kaì douleúsete ekeî theoîs hetérois, hoì ou dṓsousin hymîn éleos.
 
 <sup>14</sup> Dià toûto idoù hēmérai érchontai, légei kýrios, kaì ouk eroûsin éti Zē̂ kýrios ho anagagṑn toùs hyioùs Israēl ek gē̂s Aigýptou,
-<sup>15</sup> allá Zē̂ kýrios hòs anḗgagen tòn oîkon Israēl apò gē̂s borrâ kaì apò pasō̂n tō̂n chōrō̂n, hoû exṓsthēsan ekeî; kaì apokatastḗsō autoùs eis tḕn gē̂n autō̂n, hḕn édōka toîs patrásin autō̂n. –
+<sup>15</sup> allá Zē̂ kýrios hòs anḗgagen tòn oîkon Israēl apò gē̂s borrâ kaì apò pasō̂n tō̂n chōrō̂n, hoû exṓsthēsan ekeî; kaì apokatastḗsō autoùs eis tḕn gē̂n autō̂n, hḕn édōka toîs patrásin autō̂n. —
 <sup>16</sup> idoù egṑ apostéllō toùs haleeîs toùs polloús, légei kýrios, kaì halieúsousin autoús; kaì metà taûta apostelō̂ toùs polloùs thēreutás, kaì thēreúsousin autoùs epánō pantòs órous kaì epánō pantòs bounoû kaì ek tō̂n trymaliō̂n tō̂n petrō̂n.
 <sup>17</sup> Hóti hoi ophthalmoí mou epì pásas tàs hodoùs autō̂n, kaì ouk ekrýbē tà adikḗmata autō̂n apénanti tō̂n ophthalmō̂n mou.
-<sup>18</sup> Kaì antapodṓsō diplâs tàs adikías autō̂n kaì tàs hamartías autō̂n, eph’ haîs ebebḗlōsan tḕn gē̂n mou en toîs thnēsimaíois tō̂n bdelygmátōn autō̂n kaì en taîs anomíais autō̂n, en haîs eplēmmélēsan tḕn klēronomían mou. –
+<sup>18</sup> Kaì antapodṓsō diplâs tàs adikías autō̂n kaì tàs hamartías autō̂n, eph’ haîs ebebḗlōsan tḕn gē̂n mou en toîs thnēsimaíois tō̂n bdelygmátōn autō̂n kaì en taîs anomíais autō̂n, en haîs eplēmmélēsan tḕn klēronomían mou. —
 <sup>19</sup> kýrie ischýs mou kaì boḗtheiá mou kaì kataphygḗ mou en hēméra kakō̂n, pròs sè éthnē hḗxousin ap’ eschátou tē̂s gē̂s kaì eroûsin Hōs pseudē̂ ektḗsanto hoi patéres hēmō̂n eídōla, kaì ouk éstin en autoîs ōphélēma.
 <sup>20</sup> Ei poiḗsei heautō̂ ánthrōpos theoús? Kaì hoûtoi oúk eisin theoí.
 <sup>21</sup> Dià toûto idoù egṑ dēlṓsō autoîs en tō̂ kairō̂ toútō tḕn cheîrá mou kaì gnōriō̂ autoîs tḕn dýnamín mou, kaì gnṓsontai hóti ónomá moi kýrios.
@@ -477,13 +477,13 @@
 <sup>5</sup> Epikatáratos ho ánthrōpos, hòs tḕn elpída échei ep’ ánthrōpon kaì stērísei sárka brachíonos autoû ep’ autón, kaì apò kyríou apostē̂ hē kardía autoû;
 <sup>6</sup> kaì éstai hōs hē agriomyríkē hē en tē̂ erḗmō, ouk ópsetai hótan élthē tà agathá, kaì kataskēnṓsei en halímois kaì en erḗmō, en gē̂ halmyrâ hḗtis ou katoikeîtai.
 <sup>7</sup> Kaì eulogēménos ho ánthrōpos, hòs pépoithen epì tō̂ kyríō, kaì éstai kýrios elpìs autoû;
-<sup>8</sup> kaì éstai hōs xýlon euthēnoûn par’ hýdata kaì epì ikmáda baleî rhízas autoû kaì ou phobēthḗsetai hótan élthē kaûma, kaì éstai ep’ autō̂ steléchē alsṓdē, en eniautō̂ abrochías ou phobēthḗsetai kaì ou dialeípsei poiō̂n karpón. –
+<sup>8</sup> kaì éstai hōs xýlon euthēnoûn par’ hýdata kaì epì ikmáda baleî rhízas autoû kaì ou phobēthḗsetai hótan élthē kaûma, kaì éstai ep’ autō̂ steléchē alsṓdē, en eniautō̂ abrochías ou phobēthḗsetai kaì ou dialeípsei poiō̂n karpón. —
 <sup>9</sup> batheîa hē kardía parà pánta, kaì ánthrōpós estin; kaì tís gnṓsetai autón?
-<sup>10</sup> Egṑ kýrios etázōn kardías kaì dokimázōn nephroùs toû doûnai hekástō katà tàs hodoùs autoû kaì katà toùs karpoùs tō̂n epitēdeumátōn autoû. –
+<sup>10</sup> Egṑ kýrios etázōn kardías kaì dokimázōn nephroùs toû doûnai hekástō katà tàs hodoùs autoû kaì katà toùs karpoùs tō̂n epitēdeumátōn autoû. —
 <sup>11</sup> ephṓnēsen pérdix, synḗgagen hà ouk éteken; poiō̂n ploûton autoû ou metà kríseōs, en hēmísei hēmerō̂n autoû enkataleípsousin autón, kaì ep’ eschátōn autoû éstai áphrōn.
 
 <sup>12</sup> Thrónos dóxēs hypsōménos hagíasma hēmō̂n
-<sup>13</sup> hypomonḕ Israēl kýrie, pántes hoi katalipóntes se kataischynthḗtōsan, aphestēkótes epì tē̂s gē̂s graphḗtōsan, hóti enkatélipon pēgḕn zōē̂s tòn kýrion. –
+<sup>13</sup> hypomonḕ Israēl kýrie, pántes hoi katalipóntes se kataischynthḗtōsan, aphestēkótes epì tē̂s gē̂s graphḗtōsan, hóti enkatélipon pēgḕn zōē̂s tòn kýrion. —
 <sup>14</sup> íasaí me, kýrie, kaì iathḗsomai; sō̂són me, kaì sōthḗsomai; hóti kaúchēmá mou sỳ eî.
 <sup>15</sup> Idoù autoì légousi prós me Poû estin ho lógos kyríou? Elthátō.
 <sup>16</sup> Egṑ dè ouk ekopíasa katakolouthō̂n opísō sou kaì hēméran anthrṓpou ouk epethýmēsa, sỳ epístē; tà ekporeuómena dià tō̂n cheiléōn mou prò prosṓpou soú estin.
@@ -522,7 +522,7 @@
 <sup>16</sup> toû táxai tḕn gē̂n autō̂n eis aphanismòn kaì sýrigma aiṓnion; pántes hoi diaporeuómenoi di’ autē̂s ekstḗsontai kaì kinḗsousin tḕn kephalḕn autō̂n.
 <sup>17</sup> Hōs ánemon kaúsōna diasperō̂ autoùs katà prósōpon echthrō̂n autō̂n, deíxō autoîs hēméran apōleías autō̂n.
 
-<sup>18</sup> Kaì eîpan Deûte logisṓmetha epì Ieremian logismón, hóti ouk apoleîtai nómos apò hieréōs kaì boulḕ apò synetoû kaì lógos apò prophḗtou; deûte kaì patáxōmen autòn en glṓssē kaì akousómetha pántas toùs lógous autoû. –
+<sup>18</sup> Kaì eîpan Deûte logisṓmetha epì Ieremian logismón, hóti ouk apoleîtai nómos apò hieréōs kaì boulḕ apò synetoû kaì lógos apò prophḗtou; deûte kaì patáxōmen autòn en glṓssē kaì akousómetha pántas toùs lógous autoû. —
 <sup>19</sup> eisákousón mou, kýrie, kaì eisákouson tē̂s phōnē̂s toû dikaiṓmatós mou.
 <sup>20</sup> Ei antapodídotai antì agathō̂n kaká? Hóti synelálēsan rhḗmata katà tē̂s psychē̂s mou kaì tḕn kólasin autō̂n ékrypsán moi; mnḗsthēti hestēkótos mou katà prósōpón sou toû lalē̂sai hypèr autō̂n agathà toû apostrépsai tòn thymón sou ap’ autō̂n.
 <sup>21</sup> Dià toûto dòs toùs hyioùs autō̂n eis limòn kaì áthroison autoùs eis cheîras machaíras; genésthōsan hai gynaîkes autō̂n áteknoi kaì chē̂rai, kaì hoi ándres autō̂n genésthōsan anērēménoi thanátō kaì hoi neanískoi autō̂n peptōkótes machaíra en polémō.
@@ -543,7 +543,7 @@
 <sup>10</sup> Kaì syntrípseis tòn bîkon kat’ ophthalmoùs tō̂n andrō̂n tō̂n ekporeuoménōn metà soû
 <sup>11</sup> kaì ereîs Táde légei kýrios Hoútōs syntrípsō tòn laòn toûton kaì tḕn pólin taútēn, kathṑs syntríbetai ángos ostrákinon, hò ou dynḗsetai iathē̂nai éti.
 <sup>12</sup> Hoútōs poiḗsō, légei kýrios, tō̂ tópō toútō kaì toîs katoikoûsin en autō̂ toû dothē̂nai tḕn pólin taútēn hōs tḕn diapíptousan.
-<sup>13</sup> Kaì hoi oîkoi Ierousalēm kaì hoi oîkoi basiléōn Iouda ésontai kathṑs ho tópos ho diapíptōn tō̂n akatharsiō̂n en pásais taîs oikíais, en haîs ethymíasan epì tō̂n dōmátōn autō̂n pásē tē̂ stratiâ toû ouranoû kaì éspeisan spondàs theoîs allotríois. –
+<sup>13</sup> Kaì hoi oîkoi Ierousalēm kaì hoi oîkoi basiléōn Iouda ésontai kathṑs ho tópos ho diapíptōn tō̂n akatharsiō̂n en pásais taîs oikíais, en haîs ethymíasan epì tō̂n dōmátōn autō̂n pásē tē̂ stratiâ toû ouranoû kaì éspeisan spondàs theoîs allotríois. —
 <sup>14</sup> kaì ē̂lthen Ieremias apò tē̂s diaptṓseōs, hoû apésteilen autòn kýrios ekeî toû prophēteûsai, kaì éstē en tē̂ aulē̂ oíkou kyríou kaì eîpe pròs pánta tòn laón
 
 <sup>15</sup> Táde légei kýrios Idoù egṑ epágō epì tḕn pólin taútēn kaì epì pásas tàs póleis autē̂s kaì epì tàs kṓmas autē̂s hápanta tà kaká, hà elálēsa ep’ autḗn, hóti esklḗrynan tòn tráchēlon autō̂n toû mḕ eisakoúein tō̂n lógōn mou.
@@ -562,8 +562,8 @@
 <sup>9</sup> Kaì eîpa Ou mḕ onomásō tò ónoma kyríou kaì ou mḕ lalḗsō éti epì tō̂ onómati autoû; kaì egéneto hōs pŷr kaiómenon phlégon en toîs ostéois mou, kaì pareîmai pántothen kaì ou dýnamai phérein.
 <sup>10</sup> Hóti ḗkousa psógon pollō̂n synathroizoménōn kyklóthen Episýstēte kaì episystō̂men autō̂, pántes ándres phíloi autoû; tērḗsate tḕn epínoian autoû, ei apatēthḗsetai kaì dynēsómetha autō̂ kaì lēmpsómetha tḕn ekdíkēsin hēmō̂n ex autoû.
 <sup>11</sup> Kaì kýrios met’ emoû kathṑs machētḕs ischýōn; dià toûto edíōxan kaì noē̂sai ouk ēdýnanto; ēschýnthēsan sphódra, hóti ouk enóēsan atimías autō̂n, haì di’ aiō̂nos ouk epilēsthḗsontai.
-<sup>12</sup> Kýrie dokimázōn díkaia syníōn nephroùs kaì kardías, ídoimi tḕn parà soû ekdíkēsin en autoîs, hóti pròs sè apekálypsa tà apologḗmatá mou. –
-<sup>13</sup> ásate tō̂ kyríō, ainésate autō̂, hóti exeílato psychḕn pénētos ek cheiròs ponēreuoménōn. –
+<sup>12</sup> Kýrie dokimázōn díkaia syníōn nephroùs kaì kardías, ídoimi tḕn parà soû ekdíkēsin en autoîs, hóti pròs sè apekálypsa tà apologḗmatá mou. —
+<sup>13</sup> ásate tō̂ kyríō, ainésate autō̂, hóti exeílato psychḕn pénētos ek cheiròs ponēreuoménōn. —
 <sup>14</sup> epikatáratos hē hēméra, en hē̂ etéchthēn en autē̂; hē hēméra, en hē̂ étekén me hē mḗtēr mou, mḕ éstō epeuktḗ.
 <sup>15</sup> Epikatáratos ho ánthrōpos ho euangelisámenos tō̂ patrí mou légōn Etéchthē soi ársen, euphrainómenos.
 <sup>16</sup> Éstō ho ánthrōpos ekeînos hōs hai póleis, hàs katéstrepsen kýrios en thymō̂ kaì ou metemelḗthē, akousátō kraugē̂s tò prōï̀ kaì alalagmoû mesēmbrías,
@@ -580,10 +580,10 @@
 <sup>4</sup> Táde légei kýrios Idoù egṑ metastréphō tà hópla tà polemiká, en hoîs hymeîs polemeîte en autoîs pròs toùs Chaldaíous toùs synkekleikótas hymâs éxōthen toû teíchous, eis tò méson tē̂s póleōs taútēs
 <sup>5</sup> kaì polemḗsō egṑ hymâs en cheirì ektetaménē kaì en brachíoni krataiō̂ metà thymoû kaì orgē̂s kaì parorgismoû megálou
 <sup>6</sup> kaì patáxō pántas toùs katoikoûntas en tē̂ pólei taútē, toùs anthrṓpous kaì tà ktḗnē, en thanátō megálō, kaì apothanoûntai.
-<sup>7</sup> Kaì metà taûta – hoútōs légei kýrios – dṓsō tòn Sedekian basiléa Iouda kaì toùs paîdas autoû kaì tòn laòn tòn kataleiphthénta en tē̂ pólei taútē apò toû thanátou kaì apò toû limoû kaì apò tē̂s machaíras eis cheîras echthrō̂n autō̂n tō̂n zētoúntōn tàs psychàs autō̂n, kaì katakópsousin autoùs en stómati machaíras; ou pheísomai ep’ autoîs kaì ou mḕ oiktirḗsō autoús.
+<sup>7</sup> Kaì metà taûta—hoútōs légei kýrios—dṓsō tòn Sedekian basiléa Iouda kaì toùs paîdas autoû kaì tòn laòn tòn kataleiphthénta en tē̂ pólei taútē apò toû thanátou kaì apò toû limoû kaì apò tē̂s machaíras eis cheîras echthrō̂n autō̂n tō̂n zētoúntōn tàs psychàs autō̂n, kaì katakópsousin autoùs en stómati machaíras; ou pheísomai ep’ autoîs kaì ou mḕ oiktirḗsō autoús.
 <sup>8</sup> Kaì pròs tòn laòn toûton ereîs Táde légei kýrios Idoù egṑ dédōka prò prosṓpou hymō̂n tḕn hodòn tē̂s zōē̂s kaì tḕn hodòn toû thanátou;
 <sup>9</sup> ho kathḗmenos en tē̂ pólei taútē apothaneîtai en machaíra kaì en limō̂, kaì ho ekporeuómenos proschōrē̂sai pròs toùs Chaldaíous toùs synkekleikótas hymâs zḗsetai, kaì éstai hē psychḕ autoû eis skŷla, kaì zḗsetai.
-<sup>10</sup> Dióti estḗrika tò prósōpón mou epì tḕn pólin taútēn eis kakà kaì ouk eis agathá; eis cheîras basiléōs Babylō̂nos paradothḗsetai, kaì katakaúsei autḕn en pyrí. –
+<sup>10</sup> Dióti estḗrika tò prósōpón mou epì tḕn pólin taútēn eis kakà kaì ouk eis agathá; eis cheîras basiléōs Babylō̂nos paradothḗsetai, kaì katakaúsei autḕn en pyrí. —
 <sup>11</sup> ho oîkos basiléōs Iouda, akoúsate lógon kyríou;
 <sup>12</sup> oîkos Dauid, táde légei kýrios Krínate tò prōï̀ kríma kaì kateuthýnate kaì exélesthe diērpasménon ek cheiròs adikoûntos autón, hópōs mḕ anaphthē̂ hōs pŷr hē orgḗ mou kaì kauthḗsetai, kaì ouk éstai ho sbésōn.
 <sup>13</sup> Idoù egṑ pròs sè tòn katoikoûnta tḕn koiláda Sor tḕn pedinḕn toùs légontas Tís ptoḗsei hēmâs? Ḕ tís eiseleúsetai pròs tò katoikētḗrion hēmō̂n?
@@ -709,7 +709,7 @@
 <sup>16</sup> Kaì epáxō epì Ailam téssaras anémous ek tō̂n tessárōn ákrōn toû ouranoû kaì diasperō̂ autoùs en pâsin toîs anémois toútois, kaì ouk éstai éthnos, hò ouch hḗxei ekeî hoi exōsménoi Ailam.
 <sup>17</sup> Kaì ptoḗsō autoùs enantíon tō̂n echthrō̂n autō̂n tō̂n zētoúntōn tḕn psychḕn autō̂n kaì epáxō ep’ autoùs kakà katà tḕn orgḕn toû thymoû mou kaì epapostelō̂ opísō autō̂n tḕn máchairán mou héōs toû exanalō̂sai autoús.
 <sup>18</sup> Kaì thḗsō tòn thrónon mou en Ailam kaì exapostelō̂ ekeîthen basiléa kaì megistânas.
-<sup>19</sup> Kaì éstai ep’ eschátou tō̂n hēmerō̂n apostrépsō tḕn aichmalōsían Ailam, légei kýrios. –
+<sup>19</sup> Kaì éstai ep’ eschátou tō̂n hēmerō̂n apostrépsō tḕn aichmalōsían Ailam, légei kýrios. —
 <sup>20</sup> en archē̂ basileúontos Sedekiou toû basiléōs egéneto ho lógos hoûtos perì Ailam.
 
 ## Chapter 26
@@ -732,7 +732,7 @@
 <sup>14</sup> Anangeílate eis Mágdōlon kaì parangeílate eis Mémphin, eípate Epístēthi kaì hetoímason, hóti katéphagen máchaira tḕn smílaká sou.
 <sup>15</sup> Dià tí éphygen ho Âpis? Ho móschos ho eklektós sou ouk émeinen, hóti kýrios parélysen autón.
 <sup>16</sup> Kaì tò plē̂thós sou ēsthénēsen kaì épesen, kaì hékastos pròs tòn plēsíon autoû elálei Anastō̂men kaì anastrépsōmen pròs tòn laòn hēmō̂n eis tḕn patrída hēmō̂n apò prosṓpou machaíras Hellēnikē̂s.
-<sup>17</sup> Kalésate tò ónoma Pharaō Nechaō basiléōs Aigýptou Saōn – esbi – emōēd.
+<sup>17</sup> Kalésate tò ónoma Pharaō Nechaō basiléōs Aigýptou Saōn—esbi—emōēd.
 <sup>18</sup> Zō̂ egṓ, légei kýrios ho theós, hóti hōs tò Itabýrion en toîs óresin kaì hōs ho Kármēlos en tē̂ thalássē hḗxei.
 <sup>19</sup> Skeúē apoikismoû poíēson seautē̂, katoikoûsa thýgater Aigýptou, hóti Mémphis eis aphanismòn éstai kaì klēthḗsetai ouaì dià tò mḕ hypárchein katoikoûntas en autē̂.
 <sup>20</sup> Dámalis kekallōpisménē Aígyptos, apóspasma apò borrâ ē̂lthen ep’ autḗn.
@@ -812,12 +812,12 @@
 <sup>11</sup> Paraskeuázete tà toxeúmata, plēroûte tàs pharétras; ḗgeiren kýrios tò pneûma basiléōs Mḗdōn, hóti eis Babylō̂na hē orgḕ autoû toû exolethreûsai autḗn, hóti ekdíkēsis kyríou estín, ekdíkēsis laoû autoû estin.
 <sup>12</sup> Epì teichéōn Babylō̂nos árate sēmeîon, epistḗsate pharétras, egeírate phylakás, hetoimásate hópla, hóti enecheírēsen kaì poiḗsei kýrios hà elálēsen epì toùs katoikoûntas Babylō̂na
 <sup>13</sup> kataskēnoûntas eph’ hýdasi polloîs kaì epì plḗthei thēsaurō̂n autē̂s; hḗkei tò péras sou alēthō̂s eis tà spláncha sou.
-<sup>14</sup> Hóti ṓmosen kýrios katà toû brachíonos autoû Dióti plērṓsō se anthrṓpōn hōseì akrídōn, kaì phthénxontai epì sè hoi katabaínontes. –
+<sup>14</sup> Hóti ṓmosen kýrios katà toû brachíonos autoû Dióti plērṓsō se anthrṓpōn hōseì akrídōn, kaì phthénxontai epì sè hoi katabaínontes. —
 <sup>15</sup> poiō̂n gē̂n en tē̂ ischýi autoû, hetoimázōn oikouménēn en tē̂ sophía autoû, en tē̂ synései autoû exéteinen tòn ouranón,
 <sup>16</sup> eis phōnḕn étheto ē̂chos hýdatos en tō̂ ouranō̂ kaì anḗgagen nephélas ap’ eschátou tē̂s gē̂s, astrapàs eis hyetòn epoíēsen kaì exḗgagen phō̂s ek thēsaurō̂n autoû.
 <sup>17</sup> Emōránthē pâs ánthrōpos apò gnṓseōs, katēschýnthē pâs chrysochóos apò tō̂n glyptō̂n autoû, hóti pseudē̂ echṓneusan, ouk éstin pneûma en autoîs;
 <sup>18</sup> mátaiá estin, érga memōkēména, en kairō̂ episképseōs autō̂n apoloûntai.
-<sup>19</sup> Ou toiaútē merìs tō̂ Iakōb, hóti ho plásas tà pánta autós estin klēronomía autoû, kýrios ónoma autō̂. –
+<sup>19</sup> Ou toiaútē merìs tō̂ Iakōb, hóti ho plásas tà pánta autós estin klēronomía autoû, kýrios ónoma autō̂. —
 <sup>20</sup> diaskorpízeis sý moi skeúē polémou, kaì diaskorpiō̂ en soì éthnē kaì exarō̂ ek soû basileîs
 <sup>21</sup> kaì diaskorpiō̂ en soì híppon kaì anabátēn autoû kaì diaskorpiō̂ en soì hármata kaì anabátas autō̂n
 <sup>22</sup> kaì diaskorpiō̂ en soì neanískon kaì parthénon kaì diaskorpiō̂ en soì ándra kaì gynaîka
@@ -958,7 +958,7 @@
 <sup>31</sup> Dià toûto epì Mōab ololýzete pántothen, boḗsate ep’ ándras Kiradas auchmoû.
 <sup>32</sup> Hōs klauthmòn Iazēr apoklaúsomaí soi, ámpelos Sebēma; klḗmatá sou diē̂lthen thálassan, Iazēr hḗpsanto; epì opṓran sou, epì trygētaîs sou ólethros epépesen.
 <sup>33</sup> Synepsḗsthē charmosýnē kaì euphrosýnē ek tē̂s Mōabítidos, kaì oînos ē̂n epì lēnoîs sou; prōï̀ ouk epátēsan oudè deílēs, ouk epoíēsan aidad.
-<sup>34</sup> Apò kraugē̂s Esebōn héōs Elealē hai póleis autō̂n édōkan phōnḕn autō̂n, apò Zogor héōs Ōrōnaim kaì Aglath – salisia, hóti kaì tò hýdōr Nebrim eis katákauma éstai.
+<sup>34</sup> Apò kraugē̂s Esebōn héōs Elealē hai póleis autō̂n édōkan phōnḕn autō̂n, apò Zogor héōs Ōrōnaim kaì Aglath—salisia, hóti kaì tò hýdōr Nebrim eis katákauma éstai.
 <sup>35</sup> Kaì apolō̂ tòn Mōab, phēsìn kýrios, anabaínonta epì bōmòn kaì thymiō̂nta theoîs autoû.
 <sup>36</sup> Dià toûto kardía mou, Mōab, hṓsper auloì bombḗsousin, kardía mou ep’ anthrṓpous Kiradas hṓsper aulòs bombḗsei; dià toûto hà periepoiḗsato, apṓleto apò anthrṓpou.
 <sup>37</sup> Pâsan kephalḕn en pantì tópō xyrḗsontai, kaì pâs pṓgōn xyrēthḗsetai, kaì pâsai cheîres kópsontai, kaì epì pásēs osphýos sákkos.
@@ -1023,7 +1023,7 @@
 <sup>17</sup> Kaì anéstēsan ándres tō̂n presbytérōn tē̂s gē̂s kaì eîpan pásē tē̂ synagōgē̂ toû laoû
 
 <sup>18</sup> Michaias ho Mōrathítēs ē̂n en taîs hēmérais Ezekiou basiléōs Iouda kaì eîpen pantì tō̂ laō̂ Iouda Hoútōs eîpen kýrios Siōn hōs agròs arotriathḗsetai, kaì Ierousalēm eis ábaton éstai kaì tò óros toû oíkou eis álsos drymoû.
-<sup>19</sup> Mḕ anelṑn aneîlen autòn Ezekias kaì pâs Iouda? Ouchì hóti ephobḗthēsan tòn kýrion kaì hóti edeḗthēsan toû prosṓpou kyríou, kaì epaúsato kýrios apò tō̂n kakō̂n, hō̂n elálēsen ep’ autoús? Kaì hēmeîs epoiḗsamen kakà megála epì psychàs hēmō̂n. –
+<sup>19</sup> Mḕ anelṑn aneîlen autòn Ezekias kaì pâs Iouda? Ouchì hóti ephobḗthēsan tòn kýrion kaì hóti edeḗthēsan toû prosṓpou kyríou, kaì epaúsato kýrios apò tō̂n kakō̂n, hō̂n elálēsen ep’ autoús? Kaì hēmeîs epoiḗsamen kakà megála epì psychàs hēmō̂n. —
 <sup>20</sup> kaì ánthrōpos ē̂n prophēteúōn tō̂ onómati kyríou, Ourias hyiòs Samaiou ek Kariathiarim, kaì eprophḗteusen perì tē̂s gē̂s taútēs katà pántas toùs lógous Ieremiou.
 <sup>21</sup> Kaì ḗkousen ho basileùs Iōakim kaì pántes hoi árchontes pántas toùs lógous autoû kaì ezḗtoun apokteînai autón, kaì ḗkousen Ourias kaì eisē̂lthen eis Aígypton.
 <sup>22</sup> Kaì exapésteilen ho basileùs ándras eis Aígypton,
@@ -1040,7 +1040,7 @@
 <sup>8</sup> Kaì tò éthnos kaì hē basileía, hósoi eàn mḕ embálōsin tòn tráchēlon autō̂n hypò tòn zygòn basiléōs Babylō̂nos, en machaíra kaì en limō̂ episképsomai autoús, eîpen kýrios, héōs eklípōsin en cheirì autoû.
 <sup>9</sup> Kaì hymeîs mḕ akoúete tō̂n pseudoprophētō̂n hymō̂n kaì tō̂n manteuoménōn hymîn kaì tō̂n enypniazoménōn hymîn kaì tō̂n oiōnismátōn hymō̂n kaì tō̂n pharmakō̂n hymō̂n tō̂n legóntōn Ou mḕ ergásēsthe tō̂ basileî Babylō̂nos;
 <sup>10</sup> hóti pseudē̂ autoì prophēteúousin hymîn pròs tò makrŷnai hymâs apò tē̂s gē̂s hymō̂n.
-<sup>11</sup> Kaì tò éthnos, hò eàn eisagágē tòn tráchēlon autoû hypò tòn zygòn basiléōs Babylō̂nos kaì ergásētai autō̂, kaì kataleípsō autòn epì tē̂s gē̂s autoû, kaì ergâtai autō̂ kaì enoikḗsei en autē̂. –
+<sup>11</sup> Kaì tò éthnos, hò eàn eisagágē tòn tráchēlon autoû hypò tòn zygòn basiléōs Babylō̂nos kaì ergásētai autō̂, kaì kataleípsō autòn epì tē̂s gē̂s autoû, kaì ergâtai autō̂ kaì enoikḗsei en autē̂. —
 <sup>12</sup> kaì pròs Sedekian basiléa Iouda elálēsa katà pántas toùs lógous toútous légōn Eisagágete tòn tráchēlon hymō̂n
 <sup>14</sup> kaì ergásasthe tō̂ basileî Babylō̂nos, hóti ádika autoì prophēteúousin hymîn;
 <sup>15</sup> hóti ouk apésteila autoús, phēsìn kýrios, kaì prophēteúousin tō̂ onómatí mou ep’ adíkō pròs tò apolésai hymâs, kaì apoleîsthe hymeîs kaì hoi prophē̂tai hymō̂n hoi prophēteúontes hymîn ep’ adíkō pseudē̂.
@@ -1064,7 +1064,7 @@
 <sup>8</sup> Hoi prophē̂tai hoi gegonótes próteroí mou kaì próteroi hymō̂n apò toû aiō̂nos kaì eprophḗteusan epì gē̂s pollē̂s kaì epì basileías megálas eis pólemon;
 <sup>9</sup> ho prophḗtēs ho prophēteúsas eis eirḗnēn, elthóntos toû lógou gnṓsontai tòn prophḗtēn, hòn apésteilen autoîs kýrios en pístei.
 <sup>10</sup> Kaì élaben Ananias en ophthalmoîs pantòs toû laoû toùs kloioùs apò toû trachḗlou Ieremiou kaì synétripsen autoús.
-<sup>11</sup> Kaì eîpen Ananias kat’ ophthalmoùs pantòs toû laoû légōn Hoútōs eîpen kýrios Hoútōs syntrípsō tòn zygòn basiléōs Babylō̂nos apò trachḗlōn pántōn tō̂n ethnō̂n. Kaì ṓcheto Ieremias eis tḕn hodòn autoû. –
+<sup>11</sup> Kaì eîpen Ananias kat’ ophthalmoùs pantòs toû laoû légōn Hoútōs eîpen kýrios Hoútōs syntrípsō tòn zygòn basiléōs Babylō̂nos apò trachḗlōn pántōn tō̂n ethnō̂n. Kaì ṓcheto Ieremias eis tḕn hodòn autoû. —
 <sup>12</sup> kaì egéneto lógos kyríou pròs Ieremian metà tò syntrîpsai Ananian toùs kloioùs apò toû trachḗlou autoû légōn
 
 <sup>13</sup> Bádize kaì eipòn pròs Ananian légōn Hoútōs eîpen kýrios Kloioùs xylínous synétripsas, kaì poiḗsō ant’ autō̂n kloioùs sidēroûs;
@@ -1090,18 +1090,18 @@
 <sup>11</sup> kaì logioûmai eph’ hymâs logismòn eirḗnēs kaì ou kakà toû doûnai hymîn taûta.
 <sup>12</sup> Kaì proseúxasthe prós me, kaì eisakoúsomai hymō̂n;
 <sup>13</sup> kaì ekzētḗsaté me, kaì heurḗseté me, hóti zētḗseté me en hólē kardía hymō̂n,
-<sup>14</sup> kaì epiphanoûmai hymîn. –
+<sup>14</sup> kaì epiphanoûmai hymîn. —
 <sup>15</sup> hóti eípate Katéstēsen hēmîn kýrios prophḗtas en Babylō̂ni,
 <sup>21</sup> hoútōs eîpen kýrios epì Achiab kaì epì Sedekian Idoù egṑ dídōmi autoùs eis cheîras basiléōs Babylō̂nos, kaì patáxei autoùs kat’ ophthalmoùs hymō̂n.
 <sup>22</sup> Kaì lḗmpsontai ap’ autō̂n katáran en pásē tē̂ apoikía Iouda en Babylō̂ni légontes Poiḗsai se kýrios, hōs Sedekian epoíēsen kaì hōs Achiab, hoùs apetēgánisen basileùs Babylō̂nos en pyrì
-<sup>23</sup> di’ hḕn epoíēsan anomían en Israēl kaì emoichō̂nto tàs gynaîkas tō̂n politō̂n autō̂n kaì lógon echrēmátisan en tō̂ onómatí mou, hòn ou synétaxa autoîs, kaì egṑ mártys, phēsìn kýrios. –
+<sup>23</sup> di’ hḕn epoíēsan anomían en Israēl kaì emoichō̂nto tàs gynaîkas tō̂n politō̂n autō̂n kaì lógon echrēmátisan en tō̂ onómatí mou, hòn ou synétaxa autoîs, kaì egṑ mártys, phēsìn kýrios. —
 <sup>24</sup> kaì pròs Samaian tòn Nelamítēn ereîs
 
 <sup>25</sup> Ouk apésteilá se tō̂ onómatí mou. Kaì pròs Sophonian hyiòn Maasaiou tòn hieréa eipé
 
 <sup>26</sup> Kýrios édōkén se eis hieréa antì Iōdae toû hieréōs genésthai epistátēn en tō̂ oíkō kyríou pantì anthrṓpō prophēteúonti kaì pantì anthrṓpō mainoménō, kaì dṓseis autòn eis tò apókleisma kaì eis tòn katarráktēn.
 <sup>27</sup> Kaì nŷn dià tí syneloidorḗsate Ieremian tòn ex Anathōth tòn prophēteúsanta hymîn?
-<sup>28</sup> Ou dià toûto apésteilen pròs hymâs eis Babylō̂na légōn Makrán estin, oikodomḗsate oikías kaì katoikḗsate kaì phyteúsate kḗpous kaì phágesthe tòn karpòn autō̂n? –
+<sup>28</sup> Ou dià toûto apésteilen pròs hymâs eis Babylō̂na légōn Makrán estin, oikodomḗsate oikías kaì katoikḗsate kaì phyteúsate kḗpous kaì phágesthe tòn karpòn autō̂n? —
 <sup>29</sup> kaì anégnō Sophonias tò biblíon eis tà ō̂ta Ieremiou.
 <sup>30</sup> Kaì egéneto lógos kyríou pròs Ieremian légōn
 
@@ -1142,7 +1142,7 @@
 <sup>3</sup> Kýrios pórrōthen ṓphthē autō̂ Agápēsin aiōnían ēgápēsá se, dià toûto heílkysá se eis oiktírēma.
 <sup>4</sup> Éti oikodomḗsō se, kaì oikodomēthḗsē, parthénos Israēl; éti lḗmpsē týmpanón sou kaì exeleúsē metà synagōgē̂s paizóntōn.
 <sup>5</sup> Éti phyteúsate ampelō̂nas en óresin Samareías, phyteúsate kaì ainésate.
-<sup>6</sup> Hóti éstin hēméra klḗseōs apologouménōn en óresin Ephraim Anástēte kaì anábēte eis Siōn pròs kýrion tòn theòn hēmō̂n. –
+<sup>6</sup> Hóti éstin hēméra klḗseōs apologouménōn en óresin Ephraim Anástēte kaì anábēte eis Siōn pròs kýrion tòn theòn hēmō̂n. —
 <sup>7</sup> hóti hoútōs eîpen kýrios tō̂ Iakōb Euphránthēte kaì chremetísate epì kephalḕn ethnō̂n, akoustà poiḗsate kaì ainésate; eípate Ésōsen kýrios tòn laòn autoû, tò katáloipon toû Israēl.
 <sup>8</sup> Idoù egṑ ágō autoùs apò borrâ kaì synáxō autoùs ap’ eschátou tē̂s gē̂s en heortē̂ phasek; kaì teknopoiḗsē óchlon polýn, kaì apostrépsousin hō̂de.
 <sup>9</sup> En klauthmō̂ exē̂lthon, kaì en paraklḗsei anáxō autoùs aulízōn epì diṓrygas hydátōn en hodō̂ orthē̂, kaì ou mḕ planēthō̂sin en autē̂; hóti egenómēn tō̂ Israēl eis patéra, kaì Ephraim prōtótokós moú estin.
@@ -1174,11 +1174,11 @@
 <sup>31</sup> Idoù hēmérai érchontai, phēsìn kýrios, kaì diathḗsomai tō̂ oíkō Israēl kaì tō̂ oíkō Iouda diathḗkēn kainḗn,
 <sup>32</sup> ou katà tḕn diathḗkēn, hḕn diethémēn toîs patrásin autō̂n en hēméra epilaboménou mou tē̂s cheiròs autō̂n exagageîn autoùs ek gē̂s Aigýptou, hóti autoì ouk enémeinan en tē̂ diathḗkē mou, kaì egṑ ēmélēsa autō̂n, phēsìn kýrios;
 <sup>33</sup> hóti haútē hē diathḗkē, hḕn diathḗsomai tō̂ oíkō Israēl metà tàs hēméras ekeínas, phēsìn kýrios Didoùs dṓsō nómous mou eis tḕn diánoian autō̂n kaì epì kardías autō̂n grápsō autoús; kaì ésomai autoîs eis theón, kaì autoì ésontaí moi eis laón;
-<sup>34</sup> kaì ou mḕ didáxōsin hékastos tòn polítēn autoû kaì hékastos tòn adelphòn autoû légōn Gnō̂thi tòn kýrion; hóti pántes eidḗsousín me apò mikroû autō̂n kaì héōs megálou autō̂n, hóti híleōs ésomai taîs adikíais autō̂n kaì tō̂n hamartiō̂n autō̂n ou mḕ mnēsthō̂ éti. –
+<sup>34</sup> kaì ou mḕ didáxōsin hékastos tòn polítēn autoû kaì hékastos tòn adelphòn autoû légōn Gnō̂thi tòn kýrion; hóti pántes eidḗsousín me apò mikroû autō̂n kaì héōs megálou autō̂n, hóti híleōs ésomai taîs adikíais autō̂n kaì tō̂n hamartiō̂n autō̂n ou mḕ mnēsthō̂ éti. —
 <sup>35</sup> eàn hypsōthē̂ ho ouranòs eis tò metéōron, phēsìn kýrios, kaì eàn tapeinōthē̂ tò édaphos tē̂s gē̂s kátō, kaì egṑ ouk apodokimō̂ tò génos Israēl, phēsìn kýrios, perì pántōn, hō̂n epoíēsan.
 <sup>36</sup> Hoútōs eîpen kýrios ho doùs tòn hḗlion eis phō̂s tē̂s hēméras, selḗnēn kaì astéras eis phō̂s tē̂s nyktós, kaì kraugḕn en thalássē kaì ebómbēsen tà kýmata autē̂s, kýrios pantokrátōr ónoma autō̂
 
-<sup>37</sup> Eàn paúsōntai hoi nómoi hoûtoi apò prosṓpou mou, phēsìn kýrios, kaì tò génos Israēl paúsetai genésthai éthnos katà prósōpón mou pásas tàs hēméras. –
+<sup>37</sup> Eàn paúsōntai hoi nómoi hoûtoi apò prosṓpou mou, phēsìn kýrios, kaì tò génos Israēl paúsetai genésthai éthnos katà prósōpón mou pásas tàs hēméras. —
 <sup>38</sup> idoù hēmérai érchontai, phēsìn kýrios, kaì oikodomēthḗsetai pólis tō̂ kyríō apò pýrgou Anameēl héōs pýlēs tē̂s gōnías;
 <sup>39</sup> kaì exeleúsetai hē diamétrēsis autē̂s apénanti autō̂n héōs bounō̂n Garēb kaì perikyklōthḗsetai kýklō ex eklektō̂n líthōn;
 <sup>40</sup> kaì pántes asarēmōth héōs nachal Kedrōn héōs gōnías pýlēs híppōn anatolē̂s hagíasma tō̂ kyríō kaì oukéti ou mḕ eklípē kaì ou mḕ kathairethē̂ héōs toû aiō̂nos.
@@ -1225,7 +1225,7 @@
 <sup>32</sup> dià pásas tàs ponērías tō̂n hyiō̂n Israēl kaì Iouda, hō̂n epoíēsan pikrânaí me autoì kaì hoi basileîs autō̂n kaì hoi árchontes autō̂n kaì hoi hiereîs autō̂n kaì hoi prophē̂tai autō̂n, ándres Iouda kaì hoi katoikoûntes Ierousalēm,
 <sup>33</sup> kaì epéstrepsan prós me nō̂ton kaì ou prósōpon, kaì edídaxa autoùs órthrou kaì edídaxa, kaì ouk ḗkousan epilabeîn paideían;
 <sup>34</sup> kaì éthēkan tà miásmata autō̂n en tō̂ oíkō, hoû epeklḗthē tò ónomá mou ep’ autō̂, en akatharsíais autō̂n
-<sup>35</sup> kaì ōkodómēsan toùs bōmoùs tē̂ Baal toùs en phárangi hyioû Ennom toû anaphérein toùs hyioùs autō̂n kaì tàs thygatéras autō̂n tō̂ Moloch basileî, hà ou synétaxa autoîs kaì ouk anébē epì kardían mou, toû poiē̂sai tò bdélygma toûto pròs tò ephamarteîn tòn Ioudan. –
+<sup>35</sup> kaì ōkodómēsan toùs bōmoùs tē̂ Baal toùs en phárangi hyioû Ennom toû anaphérein toùs hyioùs autō̂n kaì tàs thygatéras autō̂n tō̂ Moloch basileî, hà ou synétaxa autoîs kaì ouk anébē epì kardían mou, toû poiē̂sai tò bdélygma toûto pròs tò ephamarteîn tòn Ioudan. —
 <sup>36</sup> kaì nŷn hoútōs eîpen kýrios ho theòs Israēl epì tḕn pólin, hḕn sỳ légeis Paradothḗsetai eis cheîras basiléōs Babylō̂nos en machaíra kaì en limō̂ kaì en apostolē̂
 
 <sup>37</sup> Idoù egṑ synágō autoùs ek pásēs tē̂s gē̂s, hoû diéspeira autoùs ekeî en orgē̂ mou kaì tō̂ thymō̂ mou kaì paroxysmō̂ megálō, kaì epistrépsō autoùs eis tòn tópon toûton kaì kathiō̂ autoùs pepoithótas,
@@ -1250,7 +1250,7 @@
 <sup>6</sup> Idoù egṑ anágō autē̂ synoúlōsin kaì íama kaì phanerṓsō autoîs eisakoúein kaì iatreúsō autḕn kaì poiḗsō autoîs eirḗnēn kaì pístin;
 <sup>7</sup> kaì epistrépsō tḕn apoikían Iouda kaì tḕn apoikían Israēl kaì oikodomḗsō autoùs kathṑs tò próteron;
 <sup>8</sup> kaì kathariō̂ autoùs apò pasō̂n tō̂n adikiō̂n autō̂n, hō̂n hēmártosán moi, kaì ou mḕ mnēsthḗsomai hamartiō̂n autō̂n, hō̂n hḗmartón moi kaì apéstēsan ap’ emoû.
-<sup>9</sup> Kaì éstai eis euphrosýnēn kaì eis aínesin kaì eis megaleiótēta pantì tō̂ laō̂ tē̂s gē̂s, hoítines akoúsontai pánta tà agathá, hà egṑ poiḗsō, kaì phobēthḗsontai kaì pikranthḗsontai perì pántōn tō̂n agathō̂n kaì perì pásēs tē̂s eirḗnēs, hē̂s egṑ poiḗsō autoîs. –
+<sup>9</sup> Kaì éstai eis euphrosýnēn kaì eis aínesin kaì eis megaleiótēta pantì tō̂ laō̂ tē̂s gē̂s, hoítines akoúsontai pánta tà agathá, hà egṑ poiḗsō, kaì phobēthḗsontai kaì pikranthḗsontai perì pántōn tō̂n agathō̂n kaì perì pásēs tē̂s eirḗnēs, hē̂s egṑ poiḗsō autoîs. —
 <sup>10</sup> hoútōs eîpen kýrios Éti akousthḗsetai en tō̂ tópō toútō, hō̂ hymeîs légete Érēmós estin apò anthrṓpōn kaì ktēnō̂n, en pólesin Iouda kaì éxōthen Ierousalēm taîs ērēmōménais parà tò mḕ eînai ánthrōpon kaì ktḗnē
 <sup>11</sup> phōnḕ euphrosýnēs kaì phōnḕ charmosýnēs, phōnḕ nymphíou kaì phōnḕ nýmphēs, phōnḕ legóntōn Exomologeîsthe kyríō pantokrátori, hóti chrēstòs kýrios, hóti eis tòn aiō̂na tò éleos autoû; kaì eisoísousin dō̂ra eis oîkon kyríou; hóti apostrépsō pâsan tḕn apoikían tē̂s gē̂s ekeínēs katà tò próteron, eîpen kýrios.
 <sup>12</sup> Hoútōs eîpen kýrios tō̂n dynámeōn Éti éstai en tō̂ tópō toútō tō̂ erḗmō parà tò mḕ eînai ánthrōpon kaì ktē̂nos kaì en pásais taîs pólesin autoû katalýmata poiménōn koitazóntōn próbata;
@@ -1299,7 +1299,7 @@
 <sup>8</sup> Kaì ēkoúsamen tē̂s phōnē̂s Iōnadab toû patròs hēmō̂n pròs tò mḕ pieîn oînon pásas tàs hēméras hēmō̂n, hēmeîs kaì hai gynaîkes hēmō̂n kaì hoi hyioì hēmō̂n kaì hai thygatéres hēmō̂n,
 <sup>9</sup> kaì pròs tò mḕ oikodomeîn oikías toû katoikeîn ekeî, kaì ampelṑn kaì agròs kaì spérma ouk egéneto hēmîn,
 <sup>10</sup> kaì ōkḗsamen en skēnaîs kaì ēkoúsamen kaì epoiḗsamen katà pánta, hà eneteílato hēmîn Iōnadab ho patḕr hēmō̂n.
-<sup>11</sup> Kaì egenḗthē hóte anébē Nabouchodonosor epì tḕn gē̂n, kaì eípamen Eisélthate kaì eisélthōmen eis Ierousalēm apò prosṓpou tē̂s dynámeōs tō̂n Chaldaíōn kaì apò prosṓpou tē̂s dynámeōs tō̂n Assyríōn, kaì ōkoûmen ekeî. –
+<sup>11</sup> Kaì egenḗthē hóte anébē Nabouchodonosor epì tḕn gē̂n, kaì eípamen Eisélthate kaì eisélthōmen eis Ierousalēm apò prosṓpou tē̂s dynámeōs tō̂n Chaldaíōn kaì apò prosṓpou tē̂s dynámeōs tō̂n Assyríōn, kaì ōkoûmen ekeî. —
 <sup>12</sup> kaì egéneto lógos kyríou prós me légōn
 
 <sup>13</sup> Hoútōs légei kýrios Poreúou kaì eipòn anthrṓpō Iouda kaì toîs katoikoûsin Ierousalēm Ou mḕ lábēte paideían toû akoúein toùs lógous mou?
@@ -1315,14 +1315,14 @@
 <sup>1</sup> Kaì en tō̂ eniautō̂ tō̂ tetártō Iōakim hyioû Iōsia basiléōs Iouda egenḗthē lógos kyríou prós me légōn
 
 <sup>2</sup> Labè seautō̂ chartíon biblíou kaì grápson ep’ autoû pántas toùs lógous, hoùs echrēmátisa pròs sè epì Ierousalēm kaì epì Ioudan kaì epì pánta tà éthnē aph’ hē̂s hēméras lalḗsantós mou prós se, aph’ hēmerō̂n Iōsia basiléōs Iouda kaì héōs tē̂s hēméras taútēs;
-<sup>3</sup> ísōs akoúsetai ho oîkos Iouda pánta tà kaká, hà egṑ logízomai poiē̂sai autoîs, hína apostrépsōsin apò hodoû autō̂n tē̂s ponērâs, kaì híleōs ésomai taîs adikíais autō̂n kaì taîs hamartíais autō̂n. –
+<sup>3</sup> ísōs akoúsetai ho oîkos Iouda pánta tà kaká, hà egṑ logízomai poiē̂sai autoîs, hína apostrépsōsin apò hodoû autō̂n tē̂s ponērâs, kaì híleōs ésomai taîs adikíais autō̂n kaì taîs hamartíais autō̂n. —
 <sup>4</sup> kaì ekálesen Ieremias tòn Barouch hyiòn Nēriou, kaì égrapsen apò stómatos Ieremiou pántas toùs lógous kyríou, hoùs echrēmátisen pròs autón, eis chartíon biblíou.
 <sup>5</sup> Kaì eneteílato Ieremias tō̂ Barouch légōn Egṑ phylássomai, ou mḕ dýnōmai eiseltheîn eis oîkon kyríou;
 <sup>6</sup> kaì anagnṓsē en tō̂ chartíō toútō eis tà ō̂ta toû laoû en oíkō kyríou en hēméra nēsteías, kaì en ōsì pantòs Iouda tō̂n erchoménōn ek póleōs autō̂n anagnṓsē autoîs;
 <sup>7</sup> ísōs peseîtai éleos autō̂n katà prósōpon kyríou, kaì apostrépsousin ek tē̂s hodoû autō̂n tē̂s ponērâs, hóti mégas ho thymòs kaì hē orgḕ kyríou, hḕn elálēsen epì tòn laòn toûton.
-<sup>8</sup> Kaì epoíēsen Barouch katà pánta, hà eneteílato autō̂ Ieremias toû anagnō̂nai en tō̂ biblíō lógous kyríou en oíkō kyríou. –
+<sup>8</sup> Kaì epoíēsen Barouch katà pánta, hà eneteílato autō̂ Ieremias toû anagnō̂nai en tō̂ biblíō lógous kyríou en oíkō kyríou. —
 <sup>9</sup> kaì egenḗthē en tō̂ étei tō̂ ogdóō basileî Iōakim tō̂ mēnì tō̂ enátō exekklēsíasan nēsteían katà prósōpon kyríou pâs ho laòs en Ierousalēm kaì oîkos Iouda.
-<sup>10</sup> Kaì anegínōske Barouch en tō̂ biblíō toùs lógous Ieremiou en oíkō kyríou en oíkō Gamariou hyioû Saphan toû grammatéōs en tē̂ aulē̂ tē̂ epánō en prothýrois pýlēs toû oíkou kyríou tē̂s kainē̂s en ōsì pantòs toû laoû. –
+<sup>10</sup> Kaì anegínōske Barouch en tō̂ biblíō toùs lógous Ieremiou en oíkō kyríou en oíkō Gamariou hyioû Saphan toû grammatéōs en tē̂ aulē̂ tē̂ epánō en prothýrois pýlēs toû oíkou kyríou tē̂s kainē̂s en ōsì pantòs toû laoû. —
 <sup>11</sup> kaì ḗkousen Michaias hyiòs Gamariou hyioû Saphan hápantas toùs lógous kyríou ek toû biblíou;
 <sup>12</sup> kaì katébē eis oîkon toû basiléōs eis tòn oîkon toû grammatéōs, kaì idoù ekeî pántes hoi árchontes ekáthēnto, Elisama ho grammateùs kaì Dalaias hyiòs Selemiou kaì Elnathan hyiòs Akchobōr kaì Gamarias hyiòs Saphan kaì Sedekias hyiòs Ananiou kaì pántes hoi árchontes,
 <sup>13</sup> kaì anḗngeilen autoîs Michaias pántas toùs lógous, hoùs ḗkousen anaginṓskontos toû Barouch eis tà ō̂ta toû laoû.
@@ -1332,7 +1332,7 @@
 <sup>17</sup> Kaì tòn Barouch ērṓtēsan légontes Póthen égrapsas pántas toùs lógous toútous?
 <sup>18</sup> Kaì eîpen Barouch Apò stómatos autoû anḗngeilén moi Ieremias pántas toùs lógous toútous, kaì égraphon en biblíō.
 <sup>19</sup> Kaì eîpan tō̂ Barouch Bádison katakrýbēthi, sỳ kaì Ieremias; ánthrōpos mḕ gnṓtō poû hymeîs.
-<sup>20</sup> Kaì eisē̂lthon pròs tòn basiléa eis tḕn aulḗn, kaì tò chartíon édōkan phylássein en oíkō Elisama, kaì anḗngeilan tō̂ basileî pántas toùs lógous. –
+<sup>20</sup> Kaì eisē̂lthon pròs tòn basiléa eis tḕn aulḗn, kaì tò chartíon édōkan phylássein en oíkō Elisama, kaì anḗngeilan tō̂ basileî pántas toùs lógous. —
 <sup>21</sup> kaì apésteilen ho basileùs tòn Ioudin labeîn tò chartíon, kaì élaben autò ex oíkou Elisama; kaì anégnō Ioudin eis tà ō̂ta toû basiléōs kaì eis tà ō̂ta pántōn tō̂n archóntōn tō̂n hestēkótōn perì tòn basiléa.
 <sup>22</sup> Kaì ho basileùs ekáthēto en oíkō cheimerinō̂, kaì eschára pyròs katà prósōpon autoû.
 <sup>23</sup> Kaì egenḗthē anaginṓskontos Ioudin treîs selídas kaì téssaras, apétemnen autàs tō̂ xyrō̂ toû grammatéōs kaì érripten eis tò pŷr tò epì tē̂s escháras, héōs exélipen pâs ho chártēs eis tò pŷr tò epì tē̂s escháras.
@@ -1351,7 +1351,7 @@
 ## Chapter 44
 
 <sup>1</sup> Kaì ebasíleusen Sedekias hyiòs Iōsia antì Iōakim, hòn ebasíleusen Nabouchodonosor basileúein toû Iouda;
-<sup>2</sup> kaì ouk ḗkousen autòs kaì hoi paîdes autoû kaì ho laòs tē̂s gē̂s toùs lógous kyríou, hoùs elálēsen en cheirì Ieremiou. –
+<sup>2</sup> kaì ouk ḗkousen autòs kaì hoi paîdes autoû kaì ho laòs tē̂s gē̂s toùs lógous kyríou, hoùs elálēsen en cheirì Ieremiou. —
 <sup>3</sup> kaì apésteilen ho basileùs Sedekias tòn Iōachal hyiòn Selemiou kaì tòn Sophonian hyiòn Maasaiou tòn hieréa pròs Ieremian légōn Próseuxai dḕ perì hēmō̂n pròs kýrion.
 <sup>4</sup> Kaì Ieremias ē̂lthen kaì diē̂lthen dià mésou tē̂s póleōs, kaì ouk édōkan autòn eis oîkon tē̂s phylakē̂s.
 <sup>5</sup> Kaì dýnamis Pharaō exē̂lthen ex Aigýptou, kaì ḗkousan hoi Chaldaîoi tḕn akoḕn autō̂n kaì anébēsan apò Ierousalēm.
@@ -1450,21 +1450,21 @@
 
 <sup>1</sup> Kaì egéneto tō̂ mēnì tō̂ hebdómō ē̂lthen Ismaēl hyiòs Nathaniou hyioû Elasa apò génous toû basiléōs kaì déka ándres met’ autoû pròs Godolian eis Massēpha, kaì éphagon ekeî árton háma.
 <sup>2</sup> Kaì anéstē Ismaēl kaì hoi déka ándres, hoì ē̂san met’ autoû, kaì epátaxan tòn Godolian, hòn katéstēsen basileùs Babylō̂nos epì tē̂s gē̂s,
-<sup>3</sup> kaì pántas toùs Ioudaíous toùs óntas met’ autoû en Massēpha kaì pántas toùs Chaldaíous toùs heurethéntas ekeî. –
+<sup>3</sup> kaì pántas toùs Ioudaíous toùs óntas met’ autoû en Massēpha kaì pántas toùs Chaldaíous toùs heurethéntas ekeî. —
 <sup>4</sup> kaì egéneto tē̂ hēméra tē̂ deutéra patáxantos autoû tòn Godolian, kaì ánthrōpos ouk égnō,
 <sup>5</sup> kaì ḗlthosan ándres apò Sychem kaì apò Salēm kaì apò Samareías, ogdoḗkonta ándres, exyrēménoi pṓgōnas kaì dierrēgménoi tà himátia kaì koptómenoi, kaì manaa kaì líbanos en chersìn autō̂n toû eisenenkeîn eis oîkon kyríou.
 <sup>6</sup> Kaì exē̂lthen eis apántēsin autoîs Ismaēl; autoì eporeúonto kaì éklaion, kaì eîpen autoîs Eisélthete pròs Godolian.
 <sup>7</sup> Kaì egéneto eiselthóntōn autō̂n eis tò méson tē̂s póleōs ésphaxen autoùs eis tò phréar.
 <sup>8</sup> Kaì déka ándres heuréthēsan ekeî kaì eîpan tō̂ Ismaēl Mḕ anélēs hēmâs, hóti eisìn hēmîn thēsauroì en agrō̂, pyroì kaì krithaí, méli kaì élaion; kaì parē̂lthen kaì ouk aneîlen autoùs en mésō tō̂n adelphō̂n autō̂n.
 <sup>9</sup> Kaì tò phréar, eis hò érripsen ekeî Ismaēl pántas hoùs epátaxen, phréar méga toûtó estin hò epoíēsen ho basileùs Asa apò prosṓpou Baasa basiléōs Israēl; toûto enéplēsen Ismaēl traumatiō̂n.
-<sup>10</sup> Kaì apéstrepsen Ismaēl pánta tòn laòn tòn kataleiphthénta eis Massēpha kaì tàs thygatéras toû basiléōs, hàs parekatétheto ho archimágeiros tō̂ Godolia hyiō̂ Achikam, kaì ṓcheto eis tò péran hyiō̂n Ammōn. –
+<sup>10</sup> Kaì apéstrepsen Ismaēl pánta tòn laòn tòn kataleiphthénta eis Massēpha kaì tàs thygatéras toû basiléōs, hàs parekatétheto ho archimágeiros tō̂ Godolia hyiō̂ Achikam, kaì ṓcheto eis tò péran hyiō̂n Ammōn. —
 <sup>11</sup> kaì ḗkousen Iōanan hyiòs Karēe kaì pántes hoi hēgemónes tē̂s dynámeōs hoi met’ autoû pánta tà kaká, hà epoíēsen Ismaēl,
 <sup>12</sup> kaì ḗgagon hápan tò stratópedon autō̂n kaì ṓchonto polemeîn autòn kaì heûron autòn epì hýdatos polloû en Gabaōn.
 <sup>13</sup> Kaì egéneto hóte eîdon pâs ho laòs ho metà Ismaēl tòn Iōanan kaì toùs hēgemónas tē̂s dynámeōs tē̂s met’ autoû,
 <sup>14</sup> kaì anéstrepsan pròs Iōanan.
-<sup>15</sup> Kaì Ismaēl esṓthē sỳn oktṑ anthrṓpois kaì ṓcheto pròs toùs hyioùs Ammōn. –
+<sup>15</sup> Kaì Ismaēl esṓthē sỳn oktṑ anthrṓpois kaì ṓcheto pròs toùs hyioùs Ammōn. —
 <sup>16</sup> kaì élaben Iōanan kaì pántes hoi hēgemónes tē̂s dynámeōs hoi met’ autoû pántas toùs kataloípous toû laoû, hoús apéstrepsen apò Ismaēl, dynatoùs ándras en polémō kaì tàs gynaîkas kaì tà loipà kaì toùs eunoúchous, hoùs apéstrepsen apò Gabaōn,
-<sup>17</sup> kaì ṓchonto kaì ekáthisan en Gabērōth – chamaam tḕn pròs Bēthleem toû poreuthē̂nai eiseltheîn eis Aígypton
+<sup>17</sup> kaì ṓchonto kaì ekáthisan en Gabērōth—chamaam tḕn pròs Bēthleem toû poreuthē̂nai eiseltheîn eis Aígypton
 <sup>18</sup> apò prosṓpou tō̂n Chaldaíōn, hóti ephobḗthēsan apò prosṓpou autō̂n, hóti epátaxen Ismaēl tòn Godolian, hòn katéstēsen basileùs Babylō̂nos en tē̂ gē̂.
 
 ## Chapter 49
@@ -1474,7 +1474,7 @@
 <sup>3</sup> kaì anangeilátō hēmîn kýrios ho theós sou tḕn hodón, hē̂ poreusómetha en autē̂, kaì lógon, hòn poiḗsomen.
 <sup>4</sup> Kaì eîpen autoîs Ieremias Ḗkousa, idoù egṑ proseúxomai pròs kýrion tòn theòn hēmō̂n katà toùs lógous hymō̂n; kaì éstai, ho lógos, hòn àn apokrithḗsetai kýrios, anangelō̂ hymîn, ou mḕ krýpsō aph’ hymō̂n rhē̂ma.
 <sup>5</sup> Kaì autoì eîpan tō̂ Ieremia Éstō kýrios en hēmîn eis mártyra díkaion kaì pistón, ei mḕ katà pánta tòn lógon, hòn àn aposteílē se kýrios pròs hēmâs, hoútōs poiḗsomen;
-<sup>6</sup> kaì eàn agathòn kaì eàn kakón, tḕn phōnḕn kyríou toû theoû hēmō̂n, hoû hēmeîs apostéllomén se pròs autón, akousómetha, hína béltion hēmîn génētai, hóti akousómetha tē̂s phōnē̂s kyríou toû theoû hēmō̂n. –
+<sup>6</sup> kaì eàn agathòn kaì eàn kakón, tḕn phōnḕn kyríou toû theoû hēmō̂n, hoû hēmeîs apostéllomén se pròs autón, akousómetha, hína béltion hēmîn génētai, hóti akousómetha tē̂s phōnē̂s kyríou toû theoû hēmō̂n. —
 <sup>7</sup> kaì egenḗthē metà déka hēméras egenḗthē lógos kyríou pròs Ieremian.
 <sup>8</sup> Kaì ekálesen tòn Iōanan kaì toùs hēgemónas tē̂s dynámeōs kaì pánta tòn laòn apò mikroû héōs megálou
 <sup>9</sup> kaì eîpen autoîs Hoútōs eîpen kýrios
@@ -1527,13 +1527,13 @@
 <sup>11</sup> Dià toûto hoútōs eîpen kýrios Idoù egṑ ephístēmi tò prósōpón mou
 <sup>12</sup> toû apolésai pántas toùs kataloípous toùs en Aigýptō, kaì pesoûntai; en rhomphaía kaì en limō̂ ekleípsousin apò mikroû héōs megálou kaì ésontai eis oneidismòn kaì eis apṓleian kaì eis katáran.
 <sup>13</sup> Kaì episképsomai epì toùs kathēménous en gē̂ Aigýptō hōs epeskepsámēn epì Ierousalēm en rhomphaía kaì en limō̂ kaì en thanátō,
-<sup>14</sup> kaì ouk éstai sesōsménos outheìs tō̂n epiloípōn Iouda tō̂n paroikoúntōn en gē̂ Aigýptō toû epistrépsai eis gē̂n Iouda, eph’ hḕn autoì elpízousin taîs psychaîs autō̂n toû epistrépsai ekeî; ou mḕ epistrépsōsin all’ ḕ anasesōsménoi. –
+<sup>14</sup> kaì ouk éstai sesōsménos outheìs tō̂n epiloípōn Iouda tō̂n paroikoúntōn en gē̂ Aigýptō toû epistrépsai eis gē̂n Iouda, eph’ hḕn autoì elpízousin taîs psychaîs autō̂n toû epistrépsai ekeî; ou mḕ epistrépsōsin all’ ḕ anasesōsménoi. —
 <sup>15</sup> kaì apekríthēsan tō̂ Ieremia pántes hoi ándres hoi gnóntes hóti thymiō̂sin hai gynaîkes autō̂n theoîs hetérois kaì pâsai hai gynaîkes, synagōgḕ megálē, kaì pâs ho laòs hoi kathḗmenoi en gē̂ Aigýptō en Pathourē légontes
 
 <sup>16</sup> Ho lógos, hòn elálēsas pròs hēmâs tō̂ onómati kyríou, ouk akoúsomén sou,
 <sup>17</sup> hóti poioûntes poiḗsomen pánta tòn lógon, hòs exeleúsetai ek toû stómatos hēmō̂n, thymiân tē̂ basilíssē toû ouranoû kaì spéndein autē̂ spondás, kathà epoiḗsamen hēmeîs kaì hoi patéres hēmō̂n kaì hoi basileîs hēmō̂n kaì hoi árchontes hēmō̂n en pólesin Iouda kaì éxōthen Ierousalēm kaì eplḗsthēmen ártōn kaì egenómetha chrēstoì kaì kakà ouk eídomen;
 <sup>18</sup> kaì hōs dielípomen thymiō̂ntes tē̂ basilíssē toû ouranoû, ēlattṓthēmen pántes kaì en rhomphaía kaì en limō̂ exelípomen.
-<sup>19</sup> Kaì hóti hēmeîs thymiō̂men tē̂ basilíssē toû ouranoû kaì espeísamen autē̂ spondás, mḕ áneu tō̂n andrō̂n hēmō̂n epoiḗsamen autē̂ chauō̂nas kaì espeísamen spondàs autē̂? –
+<sup>19</sup> Kaì hóti hēmeîs thymiō̂men tē̂ basilíssē toû ouranoû kaì espeísamen autē̂ spondás, mḕ áneu tō̂n andrō̂n hēmō̂n epoiḗsamen autē̂ chauō̂nas kaì espeísamen spondàs autē̂? —
 <sup>20</sup> kaì eîpen Ieremias pantì tō̂ laō̂, toîs dynatoîs kaì taîs gynaixìn kaì pantì tō̂ laō̂ toîs apokritheîsin autō̂ lógous, légōn
 
 <sup>21</sup> Ouchì toû thymiámatos, hoû ethymiásate en taîs pólesin Iouda kaì éxōthen Ierousalēm hymeîs kaì hoi patéres hymō̂n kaì hoi basileîs hymō̂n kaì hoi árchontes hymō̂n kaì ho laòs tē̂s gē̂s, emnḗsthē kýrios, kaì anébē epì tḕn kardían autoû?

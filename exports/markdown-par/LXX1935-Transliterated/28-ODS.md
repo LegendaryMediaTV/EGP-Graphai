@@ -243,7 +243,7 @@
 <sup>76</sup> Kaì sỳ dé, paidíon, prophḗtēs hypsístou klēthḗsē; proporeúsē gàr prò prosṓpou kyríou hetoimásai hodoùs autoû
 <sup>77</sup> toû doûnai gnō̂sin sōtērías tō̂ laō̂ autoû en aphései hamartiō̂n hēmō̂n
 <sup>78</sup> dià splánchna eléous theoû hēmō̂n, en hoîs epesképsato hēmâs anatolḕ ex hýpsous
-<sup>79</sup> epiphânai toîs en skótei kaì skiâ thanátou kathēménois toû kateuthŷnai toùs pódas hēmō̂n eis hodòn eirḗnēs. – –
+<sup>79</sup> epiphânai toîs en skótei kaì skiâ thanátou kathēménois toû kateuthŷnai toùs pódas hēmō̂n eis hodòn eirḗnēs.
 
 ## Chapter 10
 

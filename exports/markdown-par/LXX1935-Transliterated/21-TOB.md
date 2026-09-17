@@ -43,7 +43,7 @@
 <sup>11</sup> Kaì hē gynḗ mou Anna ēritheúeto en toîs gynaikeíois;
 <sup>12</sup> kaì apéstelle toîs kyríois, kaì apédōkan autē̂ kaì autoì tòn misthòn prosdóntes kaì ériphon.
 <sup>13</sup> Hóte dè ē̂lthen prós me, ḗrxato krázein; kaì eîpa autē̂ Póthen tò eríphion? Mḕ klepsimaîón estin? Apódos autò toîs kyríois; ou gàr themitón estin phageîn klepsimaîon.
-<sup>14</sup> Hē dè eîpen Dō̂ron dédotaí moi epì tō̂ misthō̂. Kaì ouk epísteuon autē̂ kaì élegon apodidónai autò toîs kyríois kaì ērythríōn pròs autḗn; hē dè apokritheîsa eîpén moi Poû eisin hai eleēmosýnai sou kaì hai dikaiosýnai sou? Idoù gnōstà pánta metà soû. –
+<sup>14</sup> Hē dè eîpen Dō̂ron dédotaí moi epì tō̂ misthō̂. Kaì ouk epísteuon autē̂ kaì élegon apodidónai autò toîs kyríois kaì ērythríōn pròs autḗn; hē dè apokritheîsa eîpén moi Poû eisin hai eleēmosýnai sou kaì hai dikaiosýnai sou? Idoù gnōstà pánta metà soû. —
 
 ## Chapter 3
 
@@ -112,7 +112,7 @@
 <sup>14</sup> Kaì eîpen autō̂ Hygiaínōn élthois, ádelphe; kaì mḗ moi orgisthē̂s hóti ezḗtēsa tḕn phylḗn sou kaì tḕn patrián sou epignō̂nai. Kaì sỳ tyncháneis adelphós mou ek tē̂s kalē̂s kaì agathē̂s geneâs; epegínōskon gàr egṑ Ananian kaì Iathan toùs hyioùs Semeiou toû megálou, hōs eporeuómetha koinō̂s eis Ierosólyma proskyneîn anaphérontes tà prōtótoka kaì tàs dekátas tō̂n genēmátōn, kaì ouk eplanḗthēsan en tē̂ plánē tō̂n adelphō̂n hēmō̂n. Ek rhízēs kalē̂s eî, ádelphe.
 <sup>15</sup> All’ eipón moi tína soi ésomai misthòn didónai; drachmḕn tē̂s hēméras kaì tà déontá soi hōs kaì tō̂ hyiō̂ mou?
 <sup>16</sup> Kaì éti prosthḗsō soi epì tòn misthón, eàn hygiaínontes epistrépsēte.
-<sup>17</sup> Kaì eudókēsan hoútōs. Kaì eîpen pròs Tōbian Hétoimos gínou pròs tḕn hodón; kaì euodōtheíēte. Kaì hētoímasen ho hyiòs autoû tà pròs tḕn hodón. Kaì eîpen autō̂ ho patḕr autoû Poreúou metà toû anthrṓpou; ho dè en tō̂ ouranō̂ oikō̂n theòs euodṓsei tḕn hodòn hymō̂n, kaì ho ángelos autoû symporeuthḗtō hymîn. Kaì exē̂lthan amphóteroi apeltheîn kaì ho kýōn toû paidaríou met’ autō̂n. –
+<sup>17</sup> Kaì eudókēsan hoútōs. Kaì eîpen pròs Tōbian Hétoimos gínou pròs tḕn hodón; kaì euodōtheíēte. Kaì hētoímasen ho hyiòs autoû tà pròs tḕn hodón. Kaì eîpen autō̂ ho patḕr autoû Poreúou metà toû anthrṓpou; ho dè en tō̂ ouranō̂ oikō̂n theòs euodṓsei tḕn hodòn hymō̂n, kaì ho ángelos autoû symporeuthḗtō hymîn. Kaì exē̂lthan amphóteroi apeltheîn kaì ho kýōn toû paidaríou met’ autō̂n. —
 <sup>18</sup> éklausen dè Anna hē mḗtēr autoû kaì eîpen pròs Tōbit Tí exapésteilas tò paidíon hēmō̂n? Ḕ ouchì hē rhábdos tē̂s cheiròs hēmō̂n estin en tō̂ eisporeúesthai autòn kaì ekporeúesthai enṓpion hēmō̂n?
 <sup>19</sup> Argýrion tō̂ argyríō mḕ phthásai, allà perípsēma toû paidíou hēmō̂n génoito;
 <sup>20</sup> hōs gàr dédotai hēmîn zē̂n parà toû kyríou, toûto hikanòn hēmîn hypárchei.
@@ -126,7 +126,7 @@
 <sup>2</sup> Tò dè paidárion katébē periklýsasthai, kaì anepḗdēsen ichthỳs apò toû potamoû kaì eboulḗthē katapieîn tò paidárion.
 <sup>3</sup> Ho dè ángelos eîpen autō̂ Epilaboû toû ichthýos. Kaì ekrátēsen tòn ichthỳn tò paidárion kaì anébalen autòn epì tḕn gē̂n.
 <sup>4</sup> Kaì eîpen autō̂ ho ángelos Anáteme tòn ichthỳn kaì labṑn tḕn kardían kaì tò hē̂par kaì tḕn cholḕn thès asphalō̂s.
-<sup>5</sup> Kaì epoíēsen tò paidárion hōs eîpen autō̂ ho ángelos, tòn dè ichthỳn optḗsantes éphagon. –
+<sup>5</sup> Kaì epoíēsen tò paidárion hōs eîpen autō̂ ho ángelos, tòn dè ichthỳn optḗsantes éphagon. —
 <sup>6</sup> kaì hṓdeuon amphóteroi, héōs ḗngisan en Ekbatánois.
 <sup>7</sup> Kaì eîpen tò paidárion tō̂ angélō Azaria ádelphe, tí estin tò hē̂par kaì hē kardía kaì hē cholḕ toû ichthýos?
 <sup>8</sup> Kaì eîpen autō̂ Hē kardía kaì tò hē̂par, eán tina ochlē̂ daimónion ḕ pneûma<sup>a</sup> ponērón, taûta deî kapnísai enṓpion anthrṓpou ḕ gynaikós, kaì oukéti ou mḕ ochlēthē̂;
@@ -311,7 +311,7 @@
 <sup>10</sup> Téknon, idè tí epoíēsen Aman Achiachárō tō̂ thrépsanti autón, hōs ek toû phōtòs ḗgagen autòn eis tò skótos, kaì hósa antapédōken autō̂; kaì Achiacharos mèn esṓthē, ekeínō dè tò antapódoma apedóthē, kaì autòs katébē eis tò skótos.
 
  Manassēs epoíēsen eleēmosýnēn kaì esṓthē ek pagídos thanátou, hē̂s épēxen autō̂, Aman dè enépesen eis tḕn pagída kaì apṓleto.
-<sup>11</sup> Kaì nŷn, paidía, ídete tí eleēmosýnē poieî, kaì tí dikaiosýnē rhýetai. – kaì taûta autoû légontos exélipen autoû hē psychḕ epì tē̂s klínēs; ē̂n dè etō̂n hekatòn pentḗkonta oktṓ; kaì éthapsen autòn endóxōs.
+<sup>11</sup> Kaì nŷn, paidía, ídete tí eleēmosýnē poieî, kaì tí dikaiosýnē rhýetai. — kaì taûta autoû légontos exélipen autoû hē psychḕ epì tē̂s klínēs; ē̂n dè etō̂n hekatòn pentḗkonta oktṓ; kaì éthapsen autòn endóxōs.
 
 <sup>12</sup> Kaì hóte apéthanen Anna, éthapsen autḕn metà toû patròs autoû. Apē̂lthen dè Tōbias metà tē̂s gynaikòs autoû kaì tō̂n hyiō̂n autoû eis Ekbátana pròs Ragouēl tòn pentheròn autoû.
 <sup>13</sup> Kaì egḗrasen entímōs kaì éthapsen toùs pentheroùs autoû endóxōs kaì eklēronómēsen tḕn ousían autō̂n kaì Tōbit toû patròs autoû.

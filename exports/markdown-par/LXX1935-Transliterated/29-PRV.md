@@ -164,7 +164,7 @@
 
 <sup>1</sup> Hyié, eàn engyḗsē sòn phílon, paradṓseis sḕn cheîra echthrō̂;
 <sup>2</sup> pagìs gàr ischyrà andrì tà ídia cheílē, kaì halísketai cheílesin idíou stómatos.
-<sup>3</sup> Poíei, hyié, hà egṓ soi entéllomai, kaì sṓzou – hḗkeis gàr eis cheîras kakō̂n dià sòn phílon – íthi mḕ eklyómenos, paróxyne dè kaì tòn phílon sou, hòn enegyḗsō;
+<sup>3</sup> Poíei, hyié, hà egṓ soi entéllomai, kaì sṓzou—hḗkeis gàr eis cheîras kakō̂n dià sòn phílon—íthi mḕ eklyómenos, paróxyne dè kaì tòn phílon sou, hòn enegyḗsō;
 <sup>4</sup> mḕ dō̂s hýpnon soîs ómmasin mēdè epinystáxēs soîs blephárois,
 <sup>5</sup> hína sṓzē hṓsper dorkàs ek bróchōn kaì hṓsper órneon ek pagídos.
 
@@ -296,7 +296,7 @@
 <sup>16</sup> Hós estin hymō̂n aphronéstatos, ekklinátō prós me; endeési dè phronḗseōs parakeleúomai légousa
 
 <sup>17</sup> Ártōn kryphíōn hēdéōs hápsasthe kaì hýdatos klopē̂s glykeroû.
-<sup>18</sup> Ho dè ouk oîden hóti gēgeneîs par’ autē̂ óllyntai, kaì epì péteuron hádou synantâ. <sup>a</sup> allà apopḗdēson, mḕ enchronísēs en tō̂ tópō mēdè epistḗsēs tò sòn ómma pròs autḗn; <sup>b</sup> hoútōs gàr diabḗsē hýdōr allótrion kaì hyperbḗsē potamòn allótrion; <sup>c</sup> apò dè hýdatos allotríou apóschou kaì apò pēgē̂s allotrías mḕ píēs, <sup>d</sup> hína polỳn zḗsēs chrónon, prostethē̂ dé soi étē zōē̂s. – –
+<sup>18</sup> Ho dè ouk oîden hóti gēgeneîs par’ autē̂ óllyntai, kaì epì péteuron hádou synantâ. <sup>a</sup> allà apopḗdēson, mḕ enchronísēs en tō̂ tópō mēdè epistḗsēs tò sòn ómma pròs autḗn; <sup>b</sup> hoútōs gàr diabḗsē hýdōr allótrion kaì hyperbḗsē potamòn allótrion; <sup>c</sup> apò dè hýdatos allotríou apóschou kaì apò pēgē̂s allotrías mḕ píēs, <sup>d</sup> hína polỳn zḗsēs chrónon, prostethē̂ dé soi étē zōē̂s.
 
 ## Chapter 10
 
@@ -689,7 +689,7 @@
 <sup>13</sup> Prophasízetai kaì légei oknērós Léōn en taîs hodoîs, en dè taîs plateíais phoneutaí.
 <sup>14</sup> Bóthros bathỳs stóma paranómou, ho dè misētheìs hypò kyríou empeseîtai eis autón. <sup>a</sup> eisìn hodoì kakaì enṓpion andrós, kaì ouk agapâ toû apostrépsai ap’ autō̂n; apostréphein dè deî apò hodoû skoliâs kaì kakē̂s.
 <sup>15</sup> Ánoia exē̂ptai kardías néou, rhábdos dè kaì paideía makràn ap’ autoû.
-<sup>16</sup> Ho sykophantō̂n pénēta pollà poieî tà heautoû; dídōsin dè plousíō ep’ elássoni. – –
+<sup>16</sup> Ho sykophantō̂n pénēta pollà poieî tà heautoû; dídōsin dè plousíō ep’ elássoni.
 
 <sup>17</sup> Lógois sophō̂n paráballe sòn oûs kaì ákoue emòn lógon, tḕn dè sḕn kardían epístēson, hína gnō̂s hóti kaloí eisin;
 <sup>18</sup> kaì eàn embálēs autoùs eis tḕn kardían sou, euphranoûsín se háma epì soîs cheílesin,
@@ -766,7 +766,7 @@
 <sup>19</sup> Mḕ chaîre epì kakopoioîs mēdè zḗlou hamartōloús;
 <sup>20</sup> ou gàr mḕ génētai ékgona ponērō̂n, lamptḕr dè asebō̂n sbesthḗsetai.
 <sup>21</sup> Phoboû tòn theón, hyié, kaì basiléa kaì mēthetérō autō̂n apeithḗsēs;
-<sup>22</sup> exaíphnēs gàr teísontai toùs asebeîs, tàs dè timōrías amphotérōn tís gnṓsetai? <sup>a</sup> lógon phylassómenos hyiòs apōleías ektòs éstai, dechómenos dè edéxato autón. <sup>b</sup> mēdèn pseûdos apò glṓssēs basileî legésthō, kaì oudèn pseûdos apò glṓssēs autoû ou mḕ exélthē. <sup>c</sup> máchaira glō̂ssa basiléōs kaì ou sarkínē, hòs d’ àn paradothē̂, syntribḗsetai; <sup>d</sup> eàn gàr oxynthē̂ ho thymòs autoû, sỳn neúrois anthrṓpous analískei <sup>e</sup> kaì ostâ anthrṓpōn katatrṓgei kaì synkaíei hṓsper phlòx hṓste ábrōta eînai neossoîs aetō̂n. – –
+<sup>22</sup> exaíphnēs gàr teísontai toùs asebeîs, tàs dè timōrías amphotérōn tís gnṓsetai? <sup>a</sup> lógon phylassómenos hyiòs apōleías ektòs éstai, dechómenos dè edéxato autón. <sup>b</sup> mēdèn pseûdos apò glṓssēs basileî legésthō, kaì oudèn pseûdos apò glṓssēs autoû ou mḕ exélthē. <sup>c</sup> máchaira glō̂ssa basiléōs kaì ou sarkínē, hòs d’ àn paradothē̂, syntribḗsetai; <sup>d</sup> eàn gàr oxynthē̂ ho thymòs autoû, sỳn neúrois anthrṓpous analískei <sup>e</sup> kaì ostâ anthrṓpōn katatrṓgei kaì synkaíei hṓsper phlòx hṓste ábrōta eînai neossoîs aetō̂n.
 
 <sup>23</sup> Taûta dè légō hymîn toîs sophoîs epiginṓskein; aideîsthai prósōpon en krísei ou kalón;
 <sup>24</sup> ho eipṑn tòn asebē̂ Díkaiós estin, epikatáratos laoîs éstai kaì misētòs eis éthnē;
@@ -779,7 +779,7 @@
 <sup>31</sup> eàn aphē̂s autón, chersōthḗsetai kaì chortomanḗsei hólos kaì gínetai ekleleimménos, hoi dè phragmoì tō̂n líthōn autoû kataskáptontai.
 <sup>32</sup> Hýsteron egṑ metenóēsa, epéblepsa toû ekléxasthai paideían.
 <sup>33</sup> Olígon nystázō, olígon dè kathypnō̂, olígon dè enankalízomai chersìn stḗthē;
-<sup>34</sup> eàn dè toûto poiē̂s, hḗxei proporeuoménē hē penía sou kaì hē éndeiá sou hṓsper agathòs dromeús. – –
+<sup>34</sup> eàn dè toûto poiē̂s, hḗxei proporeuoménē hē penía sou kaì hē éndeiá sou hṓsper agathòs dromeús.
 
 ## Chapter 25
 
@@ -933,7 +933,7 @@
 <sup>24</sup> Hòs merízetai kléptē, miseî tḕn heautoû psychḗn; eàn dè hórkou protethéntos akoúsantes mḕ anangeílōsin,
 <sup>25</sup> phobēthéntes kaì aischynthéntes anthrṓpous hypeskelísthēsan; ho dè pepoithṑs epì kýrion euphranthḗsetai. Asébeia andrì dídōsin sphálma; hòs dè pépoithen epì tō̂ despótē, sōthḗsetai.
 <sup>26</sup> Polloì therapeúousin prósōpa hēgouménōn, parà dè kyríou gínetai tò díkaion andrí.
-<sup>27</sup> Bdélygma dikaíois anḕr ádikos, bdélygma dè anómō kateuthýnousa hodós. – –
+<sup>27</sup> Bdélygma dikaíois anḕr ádikos, bdélygma dè anómō kateuthýnousa hodós.
 
 ## Chapter 30
 
@@ -950,7 +950,7 @@
 <sup>11</sup> Ékgonon kakòn patéra katarâtai, tḕn dè mētéra ouk eulogeî;
 <sup>12</sup> ékgonon kakòn díkaion heautòn krínei, tḕn dè éxodon autoû ouk apénipsen;
 <sup>13</sup> ékgonon kakòn hypsēloùs ophthalmoùs échei, toîs dè blephárois autoû epaíretai;
-<sup>14</sup> ékgonon kakòn machaíras toùs odóntas échei kaì tàs mýlas tomídas, hṓste analískein kaì katesthíein toùs tapeinoùs apò tē̂s gē̂s kaì toùs pénētas autō̂n ex anthrṓpōn. – –
+<sup>14</sup> ékgonon kakòn machaíras toùs odóntas échei kaì tàs mýlas tomídas, hṓste analískein kaì katesthíein toùs tapeinoùs apò tē̂s gē̂s kaì toùs pénētas autō̂n ex anthrṓpōn.
 
 <sup>15</sup> Tē̂ bdéllē treîs thygatéres ē̂san agapḗsei agapṓmenai, kaì hai treîs haûtai ouk enepímplasan autḗn, kaì hē tetártē ouk ērkésthē eipeîn Hikanón;
 <sup>16</sup> hádēs kaì érōs gynaikòs kaì tártaros kaì gē̂ ouk empiplaménē hýdatos kaì hýdōr kaì pŷr ou mḕ eípōsin Arkeî.
@@ -970,7 +970,7 @@
 <sup>30</sup> skýmnos léontos ischyróteros ktēnō̂n, hòs ouk apostréphetai oudè kataptḗssei ktē̂nos,
 <sup>31</sup> kaì aléktōr emperipatō̂n thēleíais eúpsychos kaì trágos hēgoúmenos aipolíou kaì basileùs dēmēgorō̂n en éthnei.
 <sup>32</sup> Eàn próē seautòn eis euphrosýnēn kaì ekteínēs tḕn cheîrá sou metà máchēs, atimasthḗsē.
-<sup>33</sup> Ámelge gála, kaì éstai boútyron; eàn dè ekpiézēs myktē̂ras, exeleúsetai haîma; eàn dè exélkēs lógous, exeleúsontai kríseis kaì máchai. – –
+<sup>33</sup> Ámelge gála, kaì éstai boútyron; eàn dè ekpiézēs myktē̂ras, exeleúsetai haîma; eàn dè exélkēs lógous, exeleúsontai kríseis kaì máchai.
 
 ## Chapter 31
 
@@ -982,7 +982,7 @@
 <sup>6</sup> Dídote méthēn toîs en lýpais kaì oînon pínein toîs en odýnais,
 <sup>7</sup> hína epiláthōntai tē̂s penías kaì tō̂n pónōn mḕ mnēsthō̂sin éti.
 <sup>8</sup> Ánoige sòn stóma lógō theoû kaì krîne pántas hygiō̂s;
-<sup>9</sup> ánoige sòn stóma kaì krîne dikaíōs, diákrine dè pénēta kaì asthenē̂. – –
+<sup>9</sup> ánoige sòn stóma kaì krîne dikaíōs, diákrine dè pénēta kaì asthenē̂.
 
 <sup>10</sup> Gynaîka andreían tís heurḗsei? Timiōtéra dé estin líthōn polytelō̂n hē toiaútē.
 <sup>11</sup> Tharseî ep’ autē̂ hē kardía toû andròs autē̂s, hē toiaútē kalō̂n skýlōn ouk aporḗsei;
