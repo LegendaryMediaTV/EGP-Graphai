@@ -19,23 +19,35 @@ const AbbreviationContext =
  * @param {Map<string, object>|null} [abbreviations] - The version's
  *   abbreviation registry, so an `{ abbr }` node reads as its display name
  *   rather than disappearing from the tooltip. Falls back to the bare id.
+ * @param {boolean} [romanize] - Read each node's `transliteration` in place of
+ *   its `text`, matching what the reader is showing while the transliteration
+ *   setting is on. A node carrying none still reads as its own text, so a
+ *   tooltip never comes back emptier than the text it describes.
  * @returns {string} The joined display text, or `""` if none can be derived
  */
-function getFootnoteText(content, abbreviations) {
+function getFootnoteText(content, abbreviations, romanize) {
   if (typeof content === "string") return content;
   if (Array.isArray(content)) {
-    return content.map((n) => getFootnoteText(n, abbreviations)).join("");
+    return content
+      .map((n) => getFootnoteText(n, abbreviations, romanize))
+      .join("");
   }
   if (content && typeof content === "object") {
     if (content.bibleLink)
       return (
-        getFootnoteText(content.content, abbreviations) || content.bibleLink
+        getFootnoteText(content.content, abbreviations, romanize) ||
+        content.bibleLink
       );
     if (content.abbr) {
       const entry = abbreviations && abbreviations.get(content.abbr);
-      return entry ? getFootnoteText(entry.name, abbreviations) : content.abbr;
+      return entry
+        ? getFootnoteText(entry.name, abbreviations, romanize)
+        : content.abbr;
     }
-    if (content.text) return content.text;
+    if (content.text)
+      return romanize && content.transliteration != null
+        ? content.transliteration
+        : content.text;
   }
   return "";
 }

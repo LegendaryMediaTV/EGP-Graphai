@@ -84,7 +84,11 @@ function ContentNode({
       if (!entry) return <span>{node.abbr}</span>;
 
       const description = entry.description
-        ? getFootnoteText(entry.description, abbreviations)
+        ? getFootnoteText(
+            entry.description,
+            abbreviations,
+            settings.showTransliteration,
+          )
         : "";
       const display = (
         <ContentNode
@@ -264,16 +268,23 @@ function ContentNode({
         ) : null;
 
       // Handle footnotes for nested content
+      const footnoteText = node.foot
+        ? getFootnoteText(
+            node.foot.content,
+            abbreviations,
+            settings.showTransliteration,
+          )
+        : "";
       const footnote =
         settings.showFootnotes && node.foot ? (
           <span
             className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-            title={getFootnoteText(node.foot.content, abbreviations)}
+            title={footnoteText}
             onClick={() => {
               if (onFootnoteClick) {
                 onFootnoteClick(node.foot.content);
               } else {
-                alert(getFootnoteText(node.foot.content, abbreviations));
+                alert(footnoteText);
               }
             }}
           >
@@ -300,8 +311,19 @@ function ContentNode({
     }
 
     // --- Text Node ---
-    const scriptClass =
-      node.script === "H"
+    // Which of the node's own strings prints, and with it how the span is
+    // styled: a romanization is Latin, so it takes neither the script font nor
+    // the RTL direction the node's own text would. A node carrying no
+    // romanization prints its text, which is what keeps a version that has
+    // never been through the enrichment pass readable rather than blank. This
+    // is the browser's counterpart to `textOf` in `utils/exportContent.ts`,
+    // where the same choice is made in one place for the same reason.
+    const romanized =
+      settings.showTransliteration && node.transliteration != null;
+    const printedText = romanized ? node.transliteration : node.text;
+    const scriptClass = romanized
+      ? ""
+      : node.script === "H"
         ? "script-hebrew"
         : node.script === "G"
           ? "script-greek"
@@ -309,13 +331,13 @@ function ContentNode({
 
     let content = null;
 
-    if (node.text) {
+    if (printedText) {
       content = (
         <span
           className={scriptClass}
-          {...(node.script === "H" ? { dir: "rtl" } : {})}
+          {...(!romanized && node.script === "H" ? { dir: "rtl" } : {})}
         >
-          {node.text}
+          {printedText}
         </span>
       );
     }
@@ -346,16 +368,23 @@ function ContentNode({
     const isBlock = node.paragraph === true;
 
     // Footnotes
+    const footnoteText = node.foot
+      ? getFootnoteText(
+          node.foot.content,
+          abbreviations,
+          settings.showTransliteration,
+        )
+      : "";
     const footnote =
       settings.showFootnotes && node.foot ? (
         <span
           className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-          title={getFootnoteText(node.foot.content, abbreviations)}
+          title={footnoteText}
           onClick={() => {
             if (onFootnoteClick) {
               onFootnoteClick(node.foot.content);
             } else {
-              alert(getFootnoteText(node.foot.content, abbreviations));
+              alert(footnoteText);
             }
           }}
         >

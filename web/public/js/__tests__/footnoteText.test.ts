@@ -12,7 +12,7 @@ describe("getFootnoteText", () => {
 
   it("prefers the display override in content.content over the raw bibleLink", () => {
     expect(
-      getFootnoteText({ bibleLink: "Proverbs 1:7", content: "Prov 1:7" })
+      getFootnoteText({ bibleLink: "Proverbs 1:7", content: "Prov 1:7" }),
     ).toBe("Prov 1:7");
   });
 
@@ -31,7 +31,7 @@ describe("getFootnoteText", () => {
       { bibleLink: "Ecclesiastes 12:13", content: "Eccl 12:13" },
     ];
     expect(getFootnoteText(xrfContent)).toBe(
-      "Job 28:28; Prov 1:7; 9:10; Eccl 12:13"
+      "Job 28:28; Prov 1:7; 9:10; Eccl 12:13",
     );
   });
 
@@ -51,18 +51,70 @@ describe("getFootnoteText", () => {
 
   it("resolves an abbr node to its registry entry's display name", () => {
     const registry = new Map([
-      ["NA27", { _id: "NA27", name: [{ text: "NA" }, { text: "27", marks: ["sup"] }] }],
+      [
+        "NA27",
+        { _id: "NA27", name: [{ text: "NA" }, { text: "27", marks: ["sup"] }] },
+      ],
     ]);
     expect(
-      getFootnoteText([{ abbr: "NA27" }, " ", { text: "αλλα" }] as any, registry as any)
+      getFootnoteText(
+        [{ abbr: "NA27" }, " ", { text: "αλλα" }] as any,
+        registry as any,
+      ),
     ).toBe("NA27 αλλα");
   });
 
   it("falls back to the bare id when the registry has no such entry, so the note still reads", () => {
-    expect(getFootnoteText({ abbr: "NA27" } as any, new Map() as any)).toBe("NA27");
+    expect(getFootnoteText({ abbr: "NA27" } as any, new Map() as any)).toBe(
+      "NA27",
+    );
   });
 
   it("falls back to the bare id when no registry is supplied at all", () => {
     expect(getFootnoteText({ abbr: "OM" } as any)).toBe("OM");
+  });
+
+  it("reads a node's transliteration in place of its text when asked", () => {
+    expect(
+      getFootnoteText(
+        { text: "Δαυίδ", script: "G", transliteration: "Dauíd" } as any,
+        undefined,
+        true,
+      ),
+    ).toBe("Dauíd");
+  });
+
+  it("reads the node's own text when not asked, even where a transliteration exists", () => {
+    expect(
+      getFootnoteText({
+        text: "Δαυίδ",
+        script: "G",
+        transliteration: "Dauíd",
+      } as any),
+    ).toBe("Δαυίδ");
+  });
+
+  it("falls back to a node's text when it carries no transliteration, so a tooltip never comes back emptier than its text", () => {
+    expect(
+      getFootnoteText({ text: "Δαυίδ", script: "G" } as any, undefined, true),
+    ).toBe("Δαυίδ");
+  });
+
+  it("romanizes through arrays, bibleLink overrides and abbr names alike (Matthew 1:1's real BYZ2026 var footnote)", () => {
+    const registry = new Map([
+      ["HF", { _id: "HF", name: "HF" }],
+      ["TR", { _id: "TR", name: "TR" }],
+    ]);
+    const varContent = [
+      { text: "Δαυίδ", script: "G", transliteration: "Dauíd" },
+      " ¦ ",
+      { abbr: "HF" },
+      " ",
+      { abbr: "TR" },
+      { text: " Δαβίδ", script: "G", transliteration: " Dabíd" },
+    ];
+    expect(getFootnoteText(varContent as any, registry as any, true)).toBe(
+      "Dauíd ¦ HF TR Dabíd",
+    );
   });
 });

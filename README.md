@@ -55,6 +55,7 @@ The project includes a built-in web reader to visualize and test Graphai content
 
 - Dynamic rendering of Bible text with support for paragraph and verse-by-verse modes
 - Toggleable study tools: Strong's numbers, morphology, lemmas, and footnotes
+- Transliteration toggle that swaps Greek and Hebrew text for its romanized form wherever a node carries one
 - "Words of Christ" highlighting with customizable colors
 - Proper handling of non-Latin scripts (Hebrew/Greek) with specific fonts
 - Responsive design with dark mode support
