@@ -38655,7 +38655,10 @@
       },
       "ἄνομος": {
         "transliteration": "ánomos",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
       },
       "ἀνόμου": {
         "transliteration": "anómou",
@@ -62691,6 +62694,10 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
+      },
+      "ἄρσεσιν": {
+        "transliteration": "ársesin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "ἄρσεων": {
         "transliteration": "árseōn",

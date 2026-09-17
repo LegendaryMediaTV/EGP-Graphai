@@ -4618,6 +4618,7 @@
         "transliteration": "nomádes",
         "cells": [
           { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
@@ -4626,7 +4627,7 @@
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     },
-    "gender": "fem"
+    "gender": ["fem", "masc"]
   },
   "Νομβα": {
     "language": "greek",

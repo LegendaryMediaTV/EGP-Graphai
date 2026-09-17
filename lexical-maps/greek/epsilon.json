@@ -62988,8 +62988,8 @@
   "ἔριφος": {
     "language": "greek",
     "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "gender": ["fem", "masc"],
+    "declension": "2-common",
     "indices": { "strongs": "G2056" },
     "inflections": {
       "ἐρίφοις": {
@@ -63006,7 +63006,10 @@
       },
       "ἐρίφους": {
         "transliteration": "eríphous",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] }
+        ]
       },
       "ἐρίφῳ": {
         "transliteration": "eríphō",

@@ -121,6 +121,24 @@ function readRegistry(languageDir: string): Registry | null {
  *
  * @param language Subdirectory of `lexical-maps`, e.g. `"greek"`.
  */
+/**
+ * Every gender a noun root claims, as a list however the codex stores it.
+ *
+ * `gender` is a string on almost every noun and a list on the few of common
+ * gender, which take either article according to what they name: `ἔριφος` is
+ * masculine for a kid and feminine for a female one, and `λιμός` is masculine
+ * in Attic and feminine in the Greek the Septuagint is written in. Storing the
+ * ordinary case as a string keeps 6,593 roots as they were; asking through
+ * this keeps every reader from caring which shape it found.
+ *
+ * @param entry One root's codex entry.
+ * @returns The genders claimed, empty when the root claims none.
+ */
+export function gendersOf(entry: { gender?: unknown }): string[] {
+  if (entry.gender === undefined) return [];
+  return (Array.isArray(entry.gender) ? entry.gender : [entry.gender]).map(String);
+}
+
 export function auditLexicalMaps(language: string): LexicalMapAudit {
   const findings: LexicalMapFinding[] = [];
   let rootsScanned = 0;
@@ -202,8 +220,18 @@ function auditRoot(
   // state another is the kind of error that makes a generated paradigm wrong
   // everywhere at once.
   if (entry.gender !== undefined) {
-    if (entry.pos !== "noun") at(`gender "${entry.gender}" on a ${entry.pos}, which has none`);
-    else if (!registry.genders.has(entry.gender)) at(`gender "${entry.gender}" is not a gender the registry defines`);
+    const stated = gendersOf(entry);
+    if (entry.pos !== "noun") at(`gender "${stated.join(", ")}" on a ${entry.pos}, which has none`);
+    else {
+      for (const gender of stated) {
+        if (!registry.genders.has(gender)) at(`gender "${gender}" is not a gender the registry defines`);
+      }
+      // A list means common gender, and one entry in it is a list saying
+      // nothing a plain string does not say.
+      if (Array.isArray(entry.gender) && stated.length < 2) {
+        at(`gender is a list of ${stated.length}, which is the single-gender case and belongs in a string`);
+      }
+    }
   }
   if (entry.deponent !== undefined && entry.pos !== "verb") {
     at(`deponent on a ${entry.pos}, which cannot be one`);
@@ -333,8 +361,14 @@ function auditRoot(
     }
   }
 
-  if (entry.gender !== undefined && genders.size > 0 && !genders.has(entry.gender)) {
-    at(`gender "${entry.gender}" but its own cells only ever say ${[...genders].sort().join(", ")}`);
+  // Every gender the root claims has to turn up in its own cells. A
+  // common-gender noun claims two and has to show both, which is what stops
+  // the second one being an opinion: `ἔριφος` is feminine here because
+  // `SOS 1:8` prints `τὰς ἐρίφους`, not because a lexicon says it can be.
+  for (const gender of gendersOf(entry)) {
+    if (genders.size > 0 && !genders.has(gender)) {
+      at(`gender "${gender}" but its own cells only ever say ${[...genders].sort().join(", ")}`);
+    }
   }
 
   return findings;

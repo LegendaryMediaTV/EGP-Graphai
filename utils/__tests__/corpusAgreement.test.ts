@@ -42,6 +42,8 @@ const OIKIAS = greek(0x3bf, 0x1f30, 0x3ba, 0x3af, 0x3b1, 0x3c2);
 const ORE = greek(0x1f44, 0x3c1, 0x3b7);
 /** `γενηθῆναι`, the infinitive that article belongs to. */
 const GENETHENAI = greek(0x3b3, 0x3b5, 0x3bd, 0x3b7, 0x3b8, 0x1fc6, 0x3bd, 0x3b1, 0x3b9);
+/** `μικρῷ`, the dative inside 2MC 9:10's accusative phrase. */
+const MIKROI = greek(0x3bc, 0x3b9, 0x3ba, 0x3c1, 0x1ff7);
 
 const scheme = declaredScheme("LXX1935")!.scheme;
 
@@ -200,6 +202,46 @@ describe("agreementInSequence, the adjective between an article and its noun", (
   });
 });
 
+describe("agreementInSequence, an article against a substantival adjective", () => {
+  it("should report an adjective no noun completes that disagrees with its article", () => {
+    // `τὰ μικρά` with nothing after it is "the small [things]", so the article
+    // is the only thing the adjective has to agree with.
+    const { issues } = agreementInSequence([token(TA, "T-APN"), token(` ${MIKRA}`, "A-NSF")]);
+
+    expect(issues).toHaveLength(1);
+    expect(issues[0]).toMatchObject({
+      rule: "article/adjective",
+      words: [TA, MIKRA],
+      disagreeing: ["case", "number", "gender"],
+    });
+  });
+
+  it("should leave an agreeing pair alone", () => {
+    expect(agreementInSequence([token(TA, "T-APN"), token(` ${MIKRA}`, "A-APN")]).issues).toEqual([]);
+  });
+
+  it("should say nothing when a noun after the adjective completes it", () => {
+    // `τὰ μικρὰ βοτρύδια` puts the adjective with its own noun, and the two
+    // share case and number, so any quarrel is between those two rather than
+    // with the article. The article/adjective/noun rule owns that shape.
+    expect(
+      agreementInSequence([
+        token(TA, "T-APN"),
+        token(` ${MIKRA}`, "A-NPN"),
+        token(` ${BOTRYDIA}`, "N-NPN"),
+      ]).issues.filter((issue) => issue.rule === "article/adjective")
+    ).toEqual([]);
+  });
+
+  it("should say nothing about an oblique adjective the article is not oblique with", () => {
+    // `2MC 9:6 τὸν πολλαῖς ... συμφοραῖς ... βασανίσαντα` puts a dative phrase
+    // inside an accusative one. The dative owes the article nothing.
+    expect(
+      agreementInSequence([token(TO, "T-ASN"), token(` ${MIKROI}`, "A-DSM")]).issues
+    ).toEqual([]);
+  });
+});
+
 describe("agreementInSequence, one article against another", () => {
   it("should report a second-attributive article matching no noun phrase before it", () => {
     // `τὰ βοτρύδια τὰ μικρά`, the second article tagged nominative inside an
@@ -279,7 +321,9 @@ describe("agreementInSequence, one article against another", () => {
 
   it("should say nothing when no noun phrase stands before the article to anchor it", () => {
     expect(
-      agreementInSequence([token(TA, "T-NPN"), token(` ${MIKRA}`, "A-NSF")]).issues
+      agreementInSequence([token(TA, "T-NPN"), token(` ${MIKRA}`, "A-NSF")]).issues.filter(
+        (issue) => issue.rule === "article/article"
+      )
     ).toEqual([]);
   });
 
@@ -293,7 +337,7 @@ describe("agreementInSequence, one article against another", () => {
         token(` ${KAI}`),
         token(` ${TA}`, "T-NPN"),
         token(` ${MIKRA}`, "A-NSF"),
-      ]).issues
+      ]).issues.filter((issue) => issue.rule === "article/article")
     ).toEqual([]);
   });
 });

@@ -6139,7 +6139,10 @@
       },
       "κάλλιστον": {
         "transliteration": "kálliston",
-        "cells": [{ "parse": ["adj", "super", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "super", "acc", "sg", "masc"] },
+          { "parse": ["adj", "super", "acc", "sg", "neut"] }
+        ]
       },
       "κάλλιστος": {
         "transliteration": "kállistos",

@@ -503,6 +503,13 @@
       "category": "conjugation",
       "name": "Suppletive, paradigm listed rather than derived",
       "appliesTo": ["verb"]
+    },
+    {
+      "_id": "2-common",
+      "category": "declension",
+      "name": "Second declension, common gender",
+      "appliesTo": ["noun"],
+      "description": "Second declension noun that takes either gender according to what it names, such as ἔριφος, masculine for a kid and feminine for a female one. The endings are those of 2m and 2f, which are the same; what those two classes add is a single gender, and a common-gender noun has none to add."
     }
   ],
   "posReadings": {

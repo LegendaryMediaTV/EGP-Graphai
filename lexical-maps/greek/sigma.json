@@ -25013,16 +25013,15 @@
       }
     }
   },
-  "συμπλοκῶν": {
+  "συμπλοκή": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
     "inflections": {
       "συμπλοκῶν": {
         "transliteration": "symplokō̂n",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },

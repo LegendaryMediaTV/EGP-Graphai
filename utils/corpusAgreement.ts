@@ -48,8 +48,12 @@ import { codexLookup, inflectionCategories } from "./lexicon";
 /** The categories an article, an adjective and a noun agree in. */
 const AGREEING = ["case", "number", "gender"] as const;
 
-/** Which of the three rules a finding comes from. */
-export type AgreementRule = "article/noun" | "article/adjective/noun" | "article/article";
+/** Which of the four rules a finding comes from. */
+export type AgreementRule =
+  | "article/noun"
+  | "article/adjective/noun"
+  | "article/adjective"
+  | "article/article";
 
 /** One disagreement, as the words alone can state it. */
 export interface AgreementIssue {
@@ -195,6 +199,58 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
             [tokens[i], tokens[i + 1], tokens[i + 2]],
             differences(articles, adjectives, categoryOf)
           )
+        );
+      }
+    }
+
+    // An article and an adjective no noun completes, which is Greek's ordinary
+    // way of naming a thing by a quality of it: `τῷ ἑβδόμῳ` is "in the seventh
+    // [month]" and `τὸν δεύτερον` is "the second [stone]". The noun is not
+    // printed, so the article is the only thing the adjective has to agree
+    // with, and the two rules above never look at this shape: one wants a noun
+    // beside the article and the other a noun after the adjective.
+    //
+    // Three guards keep it honest. An adjective in an oblique case the article
+    // is not in is a dependent or an adverbial rather than a substantive, and
+    // owes the article nothing: `2MC 9:6 τὸν πολλαῖς καὶ ξενιζούσαις
+    // συμφοραῖς ... βασανίσαντα` is "him who tormented them with many strange
+    // calamities", where the datives belong to `συμφοραῖς` and the article to
+    // `βασανίσαντα`. The article must not be heading something further along,
+    // which is what catches `DEU 13:8 τῶν μακρὰν`, where `μακράν` is adverbial
+    // and the article belongs to a noun past it.
+    //
+    // And the adjective must really have no noun. `ACT 8:11` reads `διὰ τὸ
+    // ἱκανῷ χρόνῳ ... ἐξεστακέναι`, where `τὸ` belongs to the infinitive and
+    // `ἱκανῷ χρόνῳ` is a dative of time: the adjective has its noun, it simply
+    // is not the article's. Asking about the noun after the *adjective* is what
+    // separates that from `τῷ ἑβδόμῳ [μηνί]`, where nothing follows to complete
+    // it.
+    //
+    // Case and number settle that, and gender deliberately does not. `DNT 6:16`
+    // prints `τοῦ πᾶν ὁρισμὸν ... παραλλάξαι`, where `πᾶν` is neuter and
+    // `ὁρισμὸν` masculine: the two disagree, but they disagree with each other,
+    // and `τοῦ` heads the infinitive rather than either of them. Reporting that
+    // against the article would name the wrong pair.
+    const completing = asPos(i + 2, "noun");
+    const attributive = completing.some((noun) =>
+      adjectives.some(
+        (parse) =>
+          stated(parse, "case", categoryOf) === stated(noun, "case", categoryOf) &&
+          stated(parse, "number", categoryOf) === stated(noun, "number", categoryOf)
+      )
+    );
+    const substantival = !attributive;
+    if (adjectives.length && substantival && !agrees(articles, adjectives, categoryOf)) {
+      const dependent = adjectives.every((parse) => {
+        const where = stated(parse, "case", categoryOf);
+        return (
+          (where === "gen" || where === "dat") &&
+          !articles.some((article) => stated(article, "case", categoryOf) === where)
+        );
+      });
+      if (!dependent && !headsSomethingElse(tokens, i, articles, categoryOf)) {
+        found.issues.push(
+          issue("article/adjective", [tokens[i], tokens[i + 1]], differences(articles, adjectives, categoryOf))
         );
       }
     }

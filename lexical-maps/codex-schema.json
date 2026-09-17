@@ -85,8 +85,16 @@
           "description": "Optional citation forms, e.g. [\"ὁ\", \"ἡ\", \"τό\"] for a gender set filed under one root."
         },
         "gender": {
-          "type": "string",
-          "description": "This noun's grammatical gender, for a language that fixes one per noun. A lexical fact the citation form usually does not carry: ὁδός is feminine and λόγος masculine, and both end in -ος. Present only where the evidence settles it, and only on a noun; a root filed as a gender set (ὁ ἡ τό) has no one gender and omits this. Resolves in the language registry's \"gender\" category (checked outside this schema)."
+          "oneOf": [
+            { "type": "string" },
+            {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 2,
+              "uniqueItems": true
+            }
+          ],
+          "description": "This noun's grammatical gender. A lexical fact the citation form usually does not carry: ὁδός is feminine and λόγος masculine, and both end in -ος. An array names a noun of common gender, which takes either article according to what it names: ἔριφος is masculine for a kid and feminine for a female one, λιμός is masculine in Attic and feminine in the Hellenistic Greek the Septuagint is written in. A string is the ordinary single-gender case and is what almost every noun carries, so reading this means normalizing one value to a list rather than the reverse. Present only where the evidence settles it, and only on a noun; a root filed as a gender set (ὁ ἡ τό) has no gender of its own and omits this. Every value resolves in the language registry's \"gender\" category (checked outside this schema)."
         },
         "declension": {
           "type": "string",

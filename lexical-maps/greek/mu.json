@@ -2358,7 +2358,8 @@
           { "parse": ["adj", "acc", "sg", "masc", "comp"] },
           { "parse": ["adj", "acc", "sg", "neut", "comp"] },
           { "parse": ["adj", "nom", "sg", "neut", "comp"] },
-          { "parse": ["adj", "voc", "sg", "neut", "comp"] }
+          { "parse": ["adj", "voc", "sg", "neut", "comp"] },
+          { "parse": ["adv", "comp"] }
         ]
       },
       "μακρούς": {

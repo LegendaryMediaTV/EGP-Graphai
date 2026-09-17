@@ -6626,8 +6626,8 @@
   "λιμός": {
     "language": "greek",
     "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "gender": ["fem", "masc"],
+    "declension": "2-common",
     "indices": { "strongs": "G3042" },
     "inflections": {
       "λιμοί": {
@@ -6643,7 +6643,10 @@
       },
       "λιμός": {
         "transliteration": "limós",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       },
       "λιμοῦ": {
         "transliteration": "limoû",

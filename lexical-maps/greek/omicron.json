@@ -6481,6 +6481,7 @@
       "ὁμοιοπαθεῖς": {
         "transliteration": "homoiopatheîs",
         "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
           { "parse": ["adj", "nom", "pl", "masc"] },
           { "parse": ["adj", "voc", "pl", "masc"] }
         ]

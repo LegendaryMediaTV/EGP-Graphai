@@ -10731,8 +10731,8 @@
   "τρίβος": {
     "language": "greek",
     "pos": "noun",
-    "gender": "fem",
-    "declension": "2f",
+    "gender": ["fem", "masc"],
+    "declension": "2-common",
     "shortDefinition": "a path",
     "indices": { "strongs": "G5147" },
     "inflections": {
@@ -10740,6 +10740,7 @@
         "transliteration": "tríboi",
         "cells": [
           { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
@@ -10767,7 +10768,10 @@
       },
       "τρίβους": {
         "transliteration": "tríbous",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] }
+        ]
       },
       "τρίβῳ": {
         "transliteration": "tríbō",
