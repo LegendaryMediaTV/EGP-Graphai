@@ -1636,6 +1636,7 @@
   "ἰατής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἰαταί": {
@@ -1663,6 +1664,7 @@
   "ἰατρεῖον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "ἰατρεῖα": {
@@ -1930,6 +1932,7 @@
   "ἶβις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "ἴβεις": {
@@ -4489,6 +4492,7 @@
   "ἱεροστάτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἱεροστάταις": {
@@ -4519,6 +4523,7 @@
   "ἱεροσύλημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "ἱεροσυλημάτων": {
@@ -4671,6 +4676,7 @@
   "ἱέρωμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "ἱερώματα": {
@@ -5299,6 +5305,7 @@
   "Ιηου": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-u",
     "inflections": {
       "Ιηου": {
@@ -5759,6 +5766,7 @@
   "ἱκέτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἱκέται": {
@@ -6192,6 +6200,7 @@
   "ἴλη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "ἴλας": {
@@ -6503,6 +6512,7 @@
   "ἴνδαλμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "ἰνδάλμασιν": {
@@ -6554,6 +6564,7 @@
   "ἰξευτής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἰξευτοῦ": {
@@ -6710,6 +6721,7 @@
   "Ἰοππίτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "Ἰοππῖται": {
@@ -7318,6 +7330,7 @@
   "ἵππαρχης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἱππάρχαι": {
@@ -8069,6 +8082,7 @@
   "ἰσοπολίτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ἰσοπολίτας": {
@@ -9347,6 +9361,7 @@
   "ἰσχίον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "ἰσχίων": {
@@ -9986,6 +10001,7 @@
   "Ἰταβύριον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "Ἰταβύριον": {
@@ -10994,6 +11010,7 @@
   "Ἰωνάθας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Ιωναθας": {
@@ -11013,6 +11030,7 @@
   "Ιωναθης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "Ιωναθην": {

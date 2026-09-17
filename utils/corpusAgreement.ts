@@ -146,13 +146,17 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
     if (!articles.length) continue;
 
     const nouns = asPos(i + 1, "noun");
-    if (nouns.length) {
+    // A pair that agrees raises no question, so the only pairs worth asking
+    // about are the ones that do not, and those are also the only ones where
+    // the article might be heading something else entirely.
+    const disagree = nouns.length > 0 && !agrees(articles, nouns, categoryOf);
+    if (nouns.length && !(disagree && headsSomethingElse(tokens, i, articles, categoryOf))) {
       found.pairs++;
       // The codex holding an agreeing pair of cells is what makes this the
       // corpus's own choice rather than a gap in the map.
       if (reconciles(tokens[i], tokens[i + 1], categoryOf)) {
         found.reconcilable++;
-        if (!agrees(articles, nouns, categoryOf)) {
+        if (disagree) {
           found.issues.push(
             issue("article/noun", [tokens[i], tokens[i + 1]], differences(articles, nouns, categoryOf))
           );
@@ -163,7 +167,28 @@ export function agreementInSequence(tokens: CorpusToken[]): SequenceAgreement {
     const adjectives = asPos(i + 1, "adj");
     const after = asPos(i + 2, "noun");
     if (adjectives.length && after.length && agrees(articles, after, categoryOf)) {
-      if (!agrees(articles, adjectives, categoryOf)) {
+      // A genitive standing between an article and its noun is ordinary Greek
+      // and not an attributive at all: `ὁ πάντων δεσπότης` is "the master of
+      // all", with πάντων depending on δεσπότης rather than agreeing with it,
+      // and `τὴν Ἐφεσίων πόλιν` is "the city of the Ephesians". It reads as an
+      // attributive only when the phrase around it is itself genitive, which
+      // `τῶν ἀφρόνων γυναικῶν` is. So a genitive inside a phrase that is not
+      // genitive says nothing about agreement, and reporting it anyway buries
+      // the real findings under fifteen pieces of correct Greek.
+      //
+      // A genitive phrase can hold one too, which is why the article's own case
+      // is not the whole test: `τῆς ἑτέρων σπουδῆς` is "the earnestness of
+      // others" and every word of it is genitive. What gives it away there is
+      // number, since a dependent genitive owes the phrase no agreement at all
+      // and `ἑτέρων` is plural inside a singular phrase. An attributive like
+      // `τῶν ἀφρόνων γυναικῶν` matches in both and is still reported.
+      const dependentGenitive =
+        adjectives.every((parse) => stated(parse, "case", categoryOf) === "gen") &&
+        (!articles.some((parse) => stated(parse, "case", categoryOf) === "gen") ||
+          !articles.some((article) =>
+            adjectives.some((parse) => stated(parse, "number", categoryOf) === stated(article, "number", categoryOf))
+          ));
+      if (!dependentGenitive && !agrees(articles, adjectives, categoryOf)) {
         found.issues.push(
           issue(
             "article/adjective/noun",
@@ -355,6 +380,59 @@ function reconciles(article: CorpusToken, noun: CorpusToken, categoryOf: Map<str
       .map((entry) => entry.cell)
       .filter((cell) => inflects(cell, pos, categoryOf));
   return agrees(cells(article, "art"), cells(noun, "noun"), categoryOf);
+}
+
+/** How far past an article its own word can stand. */
+const REACH = 4;
+
+/**
+ * Whether the article at `at` heads something other than the word beside it.
+ *
+ * The rule above pairs an article with the next word and takes that word for
+ * the noun it heads. Greek puts other things in that slot often enough that the
+ * assumption has to be tested rather than made, and both shapes below were
+ * found by asking why the audit had 410 pairs it could say nothing about:
+ *
+ * **Another word carries what the article carries.** `τῆς Καίσαρος οἰκίας` is
+ * "the household of Caesar" and `τὰ κύκλῳ ἔθνη` is "the nations round about".
+ * The article heads `οἰκίας` and `ἔθνη`; the genitive and the adverbial dative
+ * between them are nobody's agreement partner. This is the same fact the
+ * article/adjective/noun rule already uses when it asks whether the article
+ * agrees with the word two along, stated once for any word within reach.
+ *
+ * **An infinitive follows.** `τοῦ ὄρη γενηθῆναι` is "for the mountains to be
+ * made" and `τὸ θανάτῳ κωλύεσθαι` is "being prevented by death". The article
+ * belongs to the infinitive, which carries no case of its own to agree with,
+ * and the accusative between them is the infinitive's subject or object.
+ *
+ * **A second article is not evidence**, because an article is never the word
+ * an article heads. `τὰ βοτρύδια τὰ μικρά` repeats the article to hang a
+ * second modifier on one noun, so the `τὰ` further along agrees with the first
+ * whatever `βοτρύδια` is tagged. Counting it would hide exactly the mis-tagged
+ * noun this rule exists to find.
+ *
+ * The word beside the article stays its noun whenever none of these holds,
+ * which is the ordinary case and the one the rule is about.
+ */
+function headsSomethingElse(
+  tokens: CorpusToken[],
+  at: number,
+  articles: string[][],
+  categoryOf: Map<string, string>
+): boolean {
+  for (let j = at + 2; j <= at + REACH && j < tokens.length; j++) {
+    const parses = (tokens[j].readings ?? [])
+      .map((reading) => reading.parse)
+      .filter((parse): parse is string[] => parse !== undefined);
+    if (parses.some((parse) => parse.includes("inf"))) return true;
+    const inflected = parses.filter(
+      (parse) =>
+        !parse.includes("art") &&
+        AGREEING.every((category) => stated(parse, category, categoryOf) !== undefined)
+    );
+    if (inflected.length && agrees(articles, inflected, categoryOf)) return true;
+  }
+  return false;
 }
 
 /** One issue from the tokens it compared. */

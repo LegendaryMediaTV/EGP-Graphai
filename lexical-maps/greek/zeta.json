@@ -554,6 +554,7 @@
   "Ζαραίας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Ζαραιας": {
@@ -1131,6 +1132,7 @@
   "ζεμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "ζεμα": {
@@ -1439,6 +1441,7 @@
   "ζῆλος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a zeal, fervor",
     "indices": { "strongs": "G2205" },
@@ -1674,6 +1677,7 @@
   "ζήλωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "ζηλώσεως": {
@@ -2239,6 +2243,7 @@
   "ζιβύνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "ζιβύνας": {
@@ -2565,6 +2570,7 @@
   "ζυμίτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ζυμίταις": {
@@ -3190,6 +3196,7 @@
   "ζώπυρον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "ζώπυρα": {
@@ -3224,6 +3231,7 @@
   "ζῶσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "ζῶσιν": {

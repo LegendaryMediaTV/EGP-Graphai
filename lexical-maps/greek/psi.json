@@ -170,6 +170,7 @@
   "ψαλτήριον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "ψαλτήρια": {
@@ -205,6 +206,7 @@
   "ψάλτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "ψάλται": {
@@ -576,6 +578,7 @@
   "ψευδοθύριον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "ψευδοθύρια": {
@@ -1181,6 +1184,7 @@
   "ψηλάφησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "ψηλάφησιν": {

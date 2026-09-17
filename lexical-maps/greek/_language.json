@@ -246,61 +246,71 @@
       "_id": "1f-a",
       "category": "declension",
       "name": "First declension feminine in -ᾱ",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "1f-a-impure",
       "category": "declension",
       "name": "First declension feminine in -α with genitive -ης",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "1f-e",
       "category": "declension",
       "name": "First declension feminine in -η",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "1m-as",
       "category": "declension",
       "name": "First declension masculine in -ᾱς",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "masc"
     },
     {
       "_id": "1m-es",
       "category": "declension",
       "name": "First declension masculine in -ης",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "masc"
     },
     {
       "_id": "2m",
       "category": "declension",
       "name": "Second declension masculine",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "masc"
     },
     {
       "_id": "2f",
       "category": "declension",
       "name": "Second declension feminine",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "2n",
       "category": "declension",
       "name": "Second declension neuter",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "neut"
     },
     {
       "_id": "2m-contract",
       "category": "declension",
       "name": "Second declension masculine, contracted",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "masc"
     },
     {
       "_id": "2n-contract",
       "category": "declension",
       "name": "Second declension neuter, contracted",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "neut"
     },
     {
       "_id": "2-attic",
@@ -324,25 +334,29 @@
       "_id": "3n-ma",
       "category": "declension",
       "name": "Third declension neuter in -μα",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "neut"
     },
     {
       "_id": "3n-es",
       "category": "declension",
       "name": "Third declension neuter in -ος, sigma stem",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "neut"
     },
     {
       "_id": "3f-is",
       "category": "declension",
       "name": "Third declension feminine in -ις",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "3m-eus",
       "category": "declension",
       "name": "Third declension masculine in -ευς",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "masc"
     },
     {
       "_id": "3-us",
@@ -354,7 +368,8 @@
       "_id": "3n-u",
       "category": "declension",
       "name": "Third declension neuter in -υ",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "neut"
     },
     {
       "_id": "3-nt",
@@ -366,7 +381,8 @@
       "_id": "3f-os",
       "category": "declension",
       "name": "Third declension feminine in -ως",
-      "appliesTo": ["noun"]
+      "appliesTo": ["noun"],
+      "gender": "fem"
     },
     {
       "_id": "2-1-2",

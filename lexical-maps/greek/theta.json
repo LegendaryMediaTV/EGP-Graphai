@@ -1092,6 +1092,7 @@
   "θανατώσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "θανατώσεως": {
@@ -1765,6 +1766,7 @@
   "θαυ": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-u",
     "inflections": {
       "θαυ": {
@@ -3291,6 +3293,7 @@
   "θεμέλιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "θεμελίων": {
@@ -3302,6 +3305,7 @@
   "θεμέλιος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "shortDefinition": "a foundation",
     "indices": { "strongs": "G2310" },
@@ -3509,6 +3513,7 @@
   "θεμελίωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "θεμελιώσει": {
@@ -3673,6 +3678,7 @@
   "θεός": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "shortDefinition": "the God, a god/goddess",
     "indices": { "strongs": "G2316" },
@@ -4147,6 +4153,7 @@
   "θεραφις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "θεραφιν": {
@@ -4782,6 +4789,7 @@
   "θέσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "θέσει": {
@@ -5579,6 +5587,7 @@
   "θήρευμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "θήρευμα": {
@@ -5619,6 +5628,7 @@
   "θηρευτής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "θηρευτάς": {
@@ -5984,6 +5994,7 @@
   "θησαύρισμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "θησαυρίσματα": {
@@ -7506,6 +7517,7 @@
   "θρεπτή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "θρεπτή": {
@@ -7640,6 +7652,7 @@
   "θρήνημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "θρήνημά": {
@@ -7896,6 +7909,7 @@
   "θροῦς": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m-contract",
     "inflections": {
       "θροῦς": {
@@ -7937,6 +7951,7 @@
   "θρύλημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "θρύλημα": {
@@ -8852,6 +8867,7 @@
   "θυρωρός": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "indices": { "strongs": "G2377" },
     "inflections": {

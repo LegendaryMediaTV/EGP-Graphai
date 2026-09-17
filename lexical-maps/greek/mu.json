@@ -616,6 +616,7 @@
   "μαγειρεῖον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μαγειρεῖα": {
@@ -1148,6 +1149,7 @@
   "μάθημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μαθήματα": {
@@ -2102,6 +2104,7 @@
   "μακροημέρευσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μακροημέρευσιν": {
@@ -2642,6 +2645,7 @@
   "μάλαγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μάλαγμα": {
@@ -3357,6 +3361,7 @@
   "μανη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μανη": {
@@ -3395,6 +3400,7 @@
   "Μανθανιας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Μανθανιας": {
@@ -4316,6 +4322,7 @@
   "Μαρισα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-a-impure",
     "inflections": {
       "Μαρισα": {
@@ -4486,6 +4493,7 @@
   "μαρσίππιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μαρσίππιον": {
@@ -6534,6 +6542,7 @@
   "μαχμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μαχμα": {
@@ -7129,6 +7138,7 @@
   "μεγαλορρημοσύνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μεγαλορημοσύνη": {
@@ -7193,6 +7203,7 @@
   "μεγαλοσύνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μεγαλοσύνην": {
@@ -8664,6 +8675,7 @@
   "μέθυσμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μέθυσμα": {
@@ -8895,6 +8907,7 @@
   "μεῖγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μεῖγμα": {
@@ -8963,6 +8976,7 @@
   "μειράκιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μειράκια": {
@@ -9050,6 +9064,7 @@
   "μέλαθρον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μέλαθρα": {
@@ -9645,6 +9660,7 @@
   "μελον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μελον": {
@@ -9771,6 +9787,7 @@
   "Μελχιας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Μελχιας": {
@@ -9981,6 +9998,7 @@
   "Μέμφις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "Μέμφεως": {
@@ -10071,6 +10089,7 @@
   "μέμψις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μέμψιν": {
@@ -10440,6 +10459,7 @@
   "μεριδάρχη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μεριδάρχην": {
@@ -10938,6 +10958,7 @@
   "μέσακλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μέσακλον": {
@@ -12484,6 +12505,7 @@
   "μέταλλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μετάλλων": {
@@ -13113,6 +13135,7 @@
   "μεταστροφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μεταστροφή": {
@@ -13609,6 +13632,7 @@
   "μετάφρασις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μετάφρασιν": {
@@ -14197,6 +14221,7 @@
   "μέτρησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μετρήσει": {
@@ -14789,6 +14814,7 @@
   "μῆλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μῆλα": {
@@ -14931,6 +14957,7 @@
   "μηνίαμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μηνίαμα": {
@@ -14957,6 +14984,7 @@
   "μῆνις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μῆνιν": {
@@ -15134,6 +15162,7 @@
   "μηρίον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μηρίων": {
@@ -15343,6 +15372,7 @@
   "μητρόπολις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μητροπόλεσιν": {
@@ -15469,6 +15499,7 @@
   "μηχάνημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μηχανήμασιν": {
@@ -15813,6 +15844,7 @@
   "μίανσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μιάνσει": {
@@ -16076,6 +16108,7 @@
   "Μιθραδάτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "Μιθραδάτῃ": {
@@ -16483,6 +16516,7 @@
   "μίμημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μίμημα": {
@@ -17716,6 +17750,7 @@
   "μῖσος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "μίσει": {
@@ -17746,6 +17781,7 @@
   "μίσυβρις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μίσυβρι": {
@@ -18851,6 +18887,7 @@
   "μολόχη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μολόχη": {
@@ -18865,6 +18902,7 @@
   "μόλυνσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μολύνσεως": {
@@ -19231,6 +19269,7 @@
   "μονόκερως": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-os",
     "inflections": {
       "μονόκερως": {
@@ -19476,6 +19515,7 @@
   "μόνωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "μονώσει": {
@@ -19581,6 +19621,7 @@
   "μόρον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "μόρων": {
@@ -19782,6 +19823,7 @@
   "μόσχευμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "μοσχευμάτων": {
@@ -20156,6 +20198,7 @@
   "μυγάλη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μυγαλῆ": {
@@ -20894,6 +20937,7 @@
   "μυρσίνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "μυρσίνη": {
@@ -21076,6 +21120,7 @@
   "μύστης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "μύστας": {

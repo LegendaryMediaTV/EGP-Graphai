@@ -124,6 +124,11 @@
           "minItems": 1,
           "description": "Parts of speech a root may carry this class on. A declension class applies to nouns and adjectives, a conjugation class to verbs."
         },
+        "gender": {
+          "type": "string",
+          "enum": ["masc", "fem", "neut"],
+          "description": "The gender every noun in this class has, where the class has one. A root carrying this class and a different gender is a contradiction (checked outside this schema). Declined on purpose by the classes that hold more than one gender: \"3-cons\" covers all three, \"3-syncopated\" holds πατήρ beside μήτηρ, and \"indeclinable\" is not a paradigm."
+        },
         "description": {
           "type": "string",
           "description": "Optional longer explanation of what distinguishes this class from a neighbouring one."

@@ -32,6 +32,16 @@ const KAI = greek(0x3ba, 0x3b1, 0x1f76);
 const TOU = greek(0x3c4, 0x3bf, 0x1fe6);
 /** `Βααλ`, which the codex holds as indeclinable and nothing else. */
 const BAAL = greek(0x392, 0x3b1, 0x3b1, 0x3bb);
+/** `τῆς`, the feminine genitive article. */
+const TES = greek(0x3c4, 0x1fc6, 0x3c2);
+/** `Καίσαρος`, the dependent genitive of PHP 4:22. */
+const KAISAROS = greek(0x39a, 0x3b1, 0x3af, 0x3c3, 0x3b1, 0x3c1, 0x3bf, 0x3c2);
+/** `οἰκίας`, the noun that article actually heads. */
+const OIKIAS = greek(0x3bf, 0x1f30, 0x3ba, 0x3af, 0x3b1, 0x3c2);
+/** `ὄρη`, the accusative subject inside PSA 89:2's articular infinitive. */
+const ORE = greek(0x1f44, 0x3c1, 0x3b7);
+/** `γενηθῆναι`, the infinitive that article belongs to. */
+const GENETHENAI = greek(0x3b3, 0x3b5, 0x3bd, 0x3b7, 0x3b8, 0x1fc6, 0x3bd, 0x3b1, 0x3b9);
 
 const scheme = declaredScheme("LXX1935")!.scheme;
 
@@ -109,6 +119,46 @@ describe("agreementInSequence, article against its noun", () => {
 
   it("should not pair an article with an indeclinable noun, which has no case marking", () => {
     expect(agreementInSequence([token(TO, "T-NSN"), token(` ${PNEUMA}`, "N-PRI")]).pairs).toBe(0);
+  });
+
+  it("should not pair an article with a dependent genitive standing in front of its own noun", () => {
+    // `τῆς Καίσαρος οἰκίας` is "the household of Caesar". The article heads
+    // `οἰκίας` and the genitive between them is nobody's agreement partner, so
+    // there is no pair here to judge.
+    expect(
+      agreementInSequence([
+        token(TES, "T-GSF"),
+        token(` ${KAISAROS}`, "N-GSM"),
+        token(` ${OIKIAS}`, "N-GSF"),
+      ]).pairs
+    ).toBe(0);
+  });
+
+  it("should not pair an article that belongs to an infinitive", () => {
+    // `τοῦ ὄρη γενηθῆναι` is "for the mountains to be made". The article goes
+    // with `γενηθῆναι`, which states no case of its own, and the accusative
+    // between them is the infinitive's subject.
+    expect(
+      agreementInSequence([
+        token(TOU, "T-GSN"),
+        token(` ${ORE}`, "N-APN"),
+        token(` ${GENETHENAI}`, "V-AON"),
+      ]).pairs
+    ).toBe(0);
+  });
+
+  it("should still pair an article with its noun when the word after agrees with neither", () => {
+    // The guard must fire only on a word the article could actually head, or
+    // it would silence the rule wherever a phrase happens to be three words
+    // long. `θεός` is nominative masculine and this article is neuter.
+    const { issues, pairs } = agreementInSequence([
+      token(TO, "T-NSN"),
+      token(` ${PNEUMA}`, "N-ASN"),
+      token(` ${THEOS}`, "N-NSM"),
+    ]);
+
+    expect(pairs).toBe(1);
+    expect(issues).toHaveLength(1);
   });
 });
 

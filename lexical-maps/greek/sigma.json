@@ -526,6 +526,7 @@
   "σαγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σαγῇ": {
@@ -575,6 +576,7 @@
   "σάγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σάγματα": {
@@ -660,6 +662,7 @@
   "σαδη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σαδη": {
@@ -773,6 +776,7 @@
   "Σαθραβουζάνης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "Σαθραβουζάνῃ": {
@@ -2197,6 +2201,7 @@
   "σαμβύκη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σαμβύκης": {
@@ -2691,6 +2696,7 @@
   "σανίδωμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σανιδώματι": {
@@ -4143,6 +4149,7 @@
   "Σαφατιας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Σαφατιας": {
@@ -5176,6 +5183,7 @@
   "σειρομάστης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "σειρομάσταις": {
@@ -5206,6 +5214,7 @@
   "σεῖσμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σείσματι": {
@@ -5428,6 +5437,7 @@
   "Σελεμιας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Σελεμιας": {
@@ -5814,6 +5824,7 @@
   "Σεμείας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "inflections": {
       "Σεμειας": {
@@ -6486,6 +6497,7 @@
   "σευτλίον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σευτλίον": {
@@ -7125,6 +7137,7 @@
   "σημείωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σημειώσει": {
@@ -7166,6 +7179,7 @@
   "σήπη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σήπη": {
@@ -7322,6 +7336,7 @@
   "σῆψις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σῆψιν": {
@@ -7345,6 +7360,7 @@
   "σθένος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "σθένει": {
@@ -7402,6 +7418,7 @@
   "σιαγόνιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σιαγόνια": {
@@ -7476,6 +7493,7 @@
   "σιβύνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σιβύναις": {
@@ -7841,6 +7859,7 @@
   "σίελον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σίελα": {
@@ -7937,6 +7956,7 @@
   "Σίκιμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "Σικιμα": {
@@ -8020,6 +8040,7 @@
   "σικυήρατον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σικυηράτῳ": {
@@ -8317,6 +8338,7 @@
   "σιρομάστης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "σιρομαστῶν": {
@@ -8352,6 +8374,7 @@
   "Σισίννης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "Σισίννῃ": {
@@ -8370,6 +8393,7 @@
   "σισόη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σισόην": {
@@ -8444,6 +8468,7 @@
   "σιτίον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σιτίων": {
@@ -8764,6 +8789,7 @@
   "σιωπή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σιωπήν": {
@@ -8999,6 +9025,7 @@
   "σκάφος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "σκάφη": {
@@ -9194,6 +9221,7 @@
   "σκεπάρνον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκεπάρνοις": {
@@ -9243,6 +9271,7 @@
   "σκεπαστής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "σκεπαστά": {
@@ -9705,6 +9734,7 @@
   "σκήνωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σκηνώσεως": {
@@ -9813,6 +9843,7 @@
   "σκιάδιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκιαδίων": {
@@ -10489,6 +10520,7 @@
   "σκόπελον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκόπελον": {
@@ -10575,6 +10607,7 @@
   "σκοπή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σκοπῆς": {
@@ -10669,6 +10702,7 @@
   "σκόρδον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκόρδα": {
@@ -10684,6 +10718,7 @@
   "σκορπίδιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκορπίδια": {
@@ -11013,6 +11048,7 @@
   "σκοτομήνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σκοτομήνῃ": {
@@ -11024,6 +11060,7 @@
   "σκότος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "shortDefinition": "a shadiness; fig. an obscurity",
     "indices": { "strongs": "G4655" },
@@ -11480,6 +11517,7 @@
   "σκυτάλη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σκυτάλαις": {
@@ -11541,6 +11579,7 @@
   "σκῶλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σκῶλα": {
@@ -11591,6 +11630,7 @@
   "σμαραγδίτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "σμαραγδίτου": {
@@ -11636,6 +11676,7 @@
   "σμῆγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σμῆγμα": {
@@ -13158,6 +13199,7 @@
   "σπάνις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σπάνει": {
@@ -13213,6 +13255,7 @@
   "σπάργανον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σπαργάνοις": {
@@ -13362,6 +13405,7 @@
   "σπατάλη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σπατάλῃ": {
@@ -14221,6 +14265,7 @@
   "σπιθαμή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σπιθαμῇ": {
@@ -14935,6 +14980,7 @@
   "στάδιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "indices": { "strongs": "G4712" },
     "inflections": {
@@ -15812,6 +15858,7 @@
   "στεμφυλόν": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "στεμφύλων": {
@@ -16450,6 +16497,7 @@
   "στερέωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "στερέωσιν": {
@@ -16475,6 +16523,7 @@
   "στέρνον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "στέρνοις": {
@@ -17340,6 +17389,7 @@
   "στίλβωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "στίλβωσιν": {
@@ -17384,6 +17434,7 @@
   "στιππύον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "στιππύον": {
@@ -17561,6 +17612,7 @@
   "στοιχείωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "στοιχείωσιν": {
@@ -17846,6 +17898,7 @@
   "στόμωμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "στόμωμα": {
@@ -17861,6 +17914,7 @@
   "στοργή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "στοργή": {
@@ -17944,6 +17998,7 @@
   "στοχαστής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "στοχαστήν": {
@@ -18218,6 +18273,7 @@
   "στρατήγημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "στρατηγήματι": {
@@ -18350,6 +18406,7 @@
   "στρατιώτις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "στρατιῶτι": {
@@ -18518,6 +18575,7 @@
   "στρέβλη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "στρέβλαι": {
@@ -18648,6 +18706,7 @@
   "στρεβλωτήριον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "στρεβλωτήριά": {
@@ -18663,6 +18722,7 @@
   "στρέμμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "στρέμμα": {
@@ -19041,6 +19101,7 @@
   "στρογγύλον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "στρογγύλον": {
@@ -19140,6 +19201,7 @@
   "στροφεύς": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "3m-eus",
     "inflections": {
       "στροφεῖς": {
@@ -19155,6 +19217,7 @@
   "στροφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "στροφαῖς": {
@@ -19213,6 +19276,7 @@
   "στρῶμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "στρῶμα": {
@@ -19825,6 +19889,7 @@
   "συγγραφεύς": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "3m-eus",
     "inflections": {
       "συγγραφεῖ": {
@@ -19836,6 +19901,7 @@
   "συγγραφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συγγραφαί": {
@@ -20122,6 +20188,7 @@
   "συγκάλυμμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "συγκάλυμμα": {
@@ -20666,6 +20733,7 @@
   "σύγκλειστον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σύγκλειστον": {
@@ -21074,6 +21142,7 @@
   "σύγκρασις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σύγκρασιν": {
@@ -21698,6 +21767,7 @@
   "Συήνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "Συήνη": {
@@ -21717,6 +21787,7 @@
   "συκάμινον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "συκάμινα": {
@@ -21929,6 +22000,7 @@
   "συκοφάντης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "συκοφάντην": {
@@ -22605,6 +22677,7 @@
   "συλλογή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συλλογήν": {
@@ -23218,6 +23291,7 @@
   "συμβίωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συμβίωσιν": {
@@ -23233,6 +23307,7 @@
   "συμβιωτής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "συμβιωτάς": {
@@ -23248,6 +23323,7 @@
   "σύμβλημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σύμβλημα": {
@@ -23263,6 +23339,7 @@
   "σύμβλησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σύμβλησιν": {
@@ -23331,6 +23408,7 @@
   "σύμβολον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "σύμβολα": {
@@ -23370,6 +23448,7 @@
   "συμβουλευτής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "συμβουλευταῖς": {
@@ -24088,6 +24167,7 @@
   "σύμμιξις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συμμίξεων": {
@@ -24924,6 +25004,7 @@
   "συμπλήρωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συμπλήρωσιν": {
@@ -25400,6 +25481,7 @@
   "συμπότης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "συμποτῶν": {
@@ -26107,6 +26189,7 @@
   "σύναγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "συναγμάτων": {
@@ -26888,6 +26971,7 @@
   "συνάλλαγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "συναλλάγμασιν": {
@@ -27415,6 +27499,7 @@
   "συναντή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συναντήν": {
@@ -27426,6 +27511,7 @@
   "συνάντημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "συνάντημα": {
@@ -30582,6 +30668,7 @@
   "συνθήκη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συνθήκαις": {
@@ -30605,6 +30692,7 @@
   "σύνθημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σύνθημα": {
@@ -32034,6 +32122,7 @@
   "σύννους": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m-contract",
     "inflections": {
       "σύννους": {
@@ -32298,6 +32387,7 @@
   "συνοίκησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συνοικήσεως": {
@@ -32369,6 +32459,7 @@
   "συνολκή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συνολκήν": {
@@ -32441,6 +32532,7 @@
   "συνούλωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συνούλωσιν": {
@@ -32500,6 +32592,7 @@
   "συνταγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συνταγή": {
@@ -34323,6 +34416,7 @@
   "σύντριψις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "σύντριψιν": {
@@ -34463,6 +34557,7 @@
   "συνυφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "συνυφῆς": {
@@ -34498,6 +34593,7 @@
   "συνωμότης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "συνωμόται": {
@@ -34620,6 +34716,7 @@
   "σύριγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σύριγμα": {
@@ -34978,6 +35075,7 @@
   "συσκιάζον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "συσκιάζον": {
@@ -35258,6 +35356,7 @@
   "σύστασις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "συστάσει": {
@@ -35408,6 +35507,7 @@
   "σύστημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σύστημα": {
@@ -36059,6 +36159,7 @@
   "σφάλμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "σφάλμα": {
@@ -36089,6 +36190,7 @@
   "σφενδόνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σφενδόνας": {
@@ -36959,6 +37061,7 @@
   "σχισμή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "σχισμάς": {
@@ -37148,6 +37251,7 @@
   "σχολαστής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "σχολασταί": {

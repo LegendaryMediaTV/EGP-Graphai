@@ -1445,6 +1445,7 @@
   "δαπάνημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δαπάνημα": {
@@ -1581,6 +1582,7 @@
   "δάσος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "δάσεσι": {
@@ -2681,6 +2683,7 @@
   "δεῖμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δείματα": {
@@ -3442,6 +3445,7 @@
   "δένδρος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "δένδρει": {
@@ -3495,6 +3499,7 @@
   "δεξαμενή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "δεξαμενάς": {
@@ -4041,6 +4046,7 @@
   "δέσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "δέσει": {
@@ -4173,6 +4179,7 @@
   "δεσμός": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "indices": { "strongs": "G1199" },
     "inflections": {
@@ -5390,6 +5397,7 @@
   "δῆγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δήγμασίν": {
@@ -6495,6 +6503,7 @@
   "διαβολή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαβολαῖς": {
@@ -6669,6 +6678,7 @@
   "διάγγελμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "διαγγέλματα": {
@@ -6935,6 +6945,7 @@
   "διαγραφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαγραφήν": {
@@ -7151,6 +7162,7 @@
   "διαγωγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαγωγήν": {
@@ -7589,6 +7601,7 @@
   "διάθεσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διαθέσει": {
@@ -8343,6 +8356,7 @@
   "διάκονος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a deacon; lit. an assistant, minister",
     "indices": { "strongs": "G1249" },
@@ -8560,6 +8574,7 @@
   "διακόσμησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διακόσμησιν": {
@@ -9263,6 +9278,7 @@
   "διάλημψις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διάλημψιν": {
@@ -9285,6 +9301,7 @@
   "διαλλαγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαλλαγή": {
@@ -9387,6 +9404,7 @@
   "διαλογή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαλογή": {
@@ -9572,6 +9590,7 @@
   "διάλυσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διαλύσει": {
@@ -10786,6 +10805,7 @@
   "διανόησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διανόησιν": {
@@ -11869,6 +11889,7 @@
   "διάπτωσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διαπτώσεως": {
@@ -11946,6 +11967,7 @@
   "διαρπαγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαρπαγή": {
@@ -12577,6 +12599,7 @@
   "διασκευή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διασκευῇ": {
@@ -13050,6 +13073,7 @@
   "διάσταλσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διαστάλσεις": {
@@ -13065,6 +13089,7 @@
   "διάστασις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διάστασιν": {
@@ -13510,6 +13535,7 @@
   "διαστροφή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διαστροφῇ": {
@@ -13548,6 +13574,7 @@
   "διασφαγή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διασφαγαί": {
@@ -14397,6 +14424,7 @@
   "διατήρησις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διατήρησιν": {
@@ -14676,6 +14704,7 @@
   "διατόνιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "διατόνια": {
@@ -14825,6 +14854,7 @@
   "διατριβή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "διατριβαί": {
@@ -15621,6 +15651,7 @@
   "διαφόρημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "διαφόρημα": {
@@ -16050,6 +16081,7 @@
   "διάχυσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διαχύσει": {
@@ -18666,6 +18698,7 @@
   "δίεσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "διέσεως": {
@@ -19505,6 +19538,7 @@
   "δικαιοκρίτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "δικαιοκρίτου": {
@@ -20029,6 +20063,7 @@
   "δικαστήριον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "δικαστήριον": {
@@ -20238,6 +20273,7 @@
   "δίμετρον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "δίμετρον": {
@@ -20330,6 +20366,7 @@
   "δίνη": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "δῖναι": {
@@ -20507,6 +20544,7 @@
   "διοικητής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "διοικηταῖς": {
@@ -20803,6 +20841,7 @@
   "διόρυγμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "διορύγμασιν": {
@@ -21260,6 +21299,7 @@
   "διτάλαντον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "διτάλαντον": {
@@ -22671,6 +22711,7 @@
   "δοκιμαστής": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "δοκιμαστήν": {
@@ -23519,6 +23560,7 @@
   "δόξασμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δόξασμα": {
@@ -23627,6 +23669,7 @@
   "δορκάδιον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "δορκάδιον": {
@@ -24253,6 +24296,7 @@
   "δοῦλος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a worker, servant",
     "indices": { "strongs": "G1401" },
@@ -24437,6 +24481,7 @@
   "δράκος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-es",
     "inflections": {
       "δράκεσι": {
@@ -24491,6 +24536,7 @@
   "δρᾶμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δρᾶμα": {
@@ -24534,6 +24580,7 @@
   "δραπέτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "δραπέτου": {
@@ -24726,6 +24773,7 @@
   "δρομεύς": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "3m-eus",
     "inflections": {
       "δρομεύς": {
@@ -25744,6 +25792,7 @@
   "δυνάστευμα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δυναστεύματα": {
@@ -26270,6 +26319,7 @@
   "δύσις": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "3f-is",
     "inflections": {
       "δύσιν": {
@@ -26465,6 +26515,7 @@
   "δυσμή": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
     "declension": "1f-e",
     "inflections": {
       "δυσμαῖς": {
@@ -26518,6 +26569,7 @@
   "δυσπέτημα": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "3n-ma",
     "inflections": {
       "δυσπετημάτων": {
@@ -26890,6 +26942,7 @@
   "δωδεκάμηνον": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
     "declension": "2n",
     "inflections": {
       "δωδεκάμηνον": {
@@ -27259,6 +27312,7 @@
   "δωροδέκτης": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-es",
     "inflections": {
       "δωροδεκτῶν": {
