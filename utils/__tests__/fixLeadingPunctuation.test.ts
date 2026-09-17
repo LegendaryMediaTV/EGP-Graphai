@@ -102,6 +102,31 @@ describe("reattachLeadingPunctuationInContent", () => {
     ]);
   });
 
+  it("should drop the emptied node's transliteration with its text, rather than leave a husk behind", () => {
+    // 2MC 13:15's real shape. A transliteration renders the node's own text, so
+    // once the text has moved there is nothing left for it to render. Keeping
+    // it defeated the emptiness test: the node survived carrying only a
+    // transliteration, a later step stripped that too, and a bare `{}` reached
+    // the corpus for `findMeaninglessContentNodes` to fail the run over.
+    //
+    // The attachment point's own transliteration is left stale on purpose. This
+    // fixer moves characters; `transliterateScriptRuns` recomputes every
+    // script-tagged node later in the same pass.
+    const content = [
+      { text: " νίκην", script: "G", transliteration: " níkēn", strong: "G3529" },
+      { text: "”", script: "G", transliteration: "”" },
+      { text: " μετὰ", script: "G", transliteration: " metà", strong: "G3326" },
+    ];
+
+    const { content: result, changed } = reattachLeadingPunctuationInContent(content as never);
+
+    expect(changed).toBe(true);
+    expect(result).toEqual([
+      { text: " νίκην”", script: "G", transliteration: " níkēn", strong: "G3529" },
+      { text: " μετὰ", script: "G", transliteration: " metà", strong: "G3326" },
+    ]);
+  });
+
   it("should leave the emptied node behind as a bare footnote sibling when the attachment point already carries a footnote of its own", () => {
     const content = [
       { text: " a", strong: "H1", foot: { type: "trn", content: "first" } },

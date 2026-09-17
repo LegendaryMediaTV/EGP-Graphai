@@ -81,6 +81,54 @@
           "description": "Optional longer explanation, e.g. for a code minted to resolve a genuine ambiguity such as \"midpas\"."
         }
       }
+    },
+    "classCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "Identifier for this kind of class, e.g. \"declension\" or \"conjugation\". A root carries at most one class per category, under a key of this name."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable label for the category."
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional longer explanation, e.g. why the citation form does not always reveal which class a word belongs to."
+        }
+      }
+    },
+    "class": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "category", "name"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "description": "Code for this class, e.g. \"2m\" or \"contract-a\". This is the value a root's own declension or conjugation carries, and it must resolve here (checked outside this schema)."
+        },
+        "category": {
+          "type": "string",
+          "description": "_id of the classCategories entry this class belongs to."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable label, e.g. \"Second declension masculine\"."
+        },
+        "appliesTo": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Parts of speech a root may carry this class on. A declension class applies to nouns and adjectives, a conjugation class to verbs."
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional longer explanation of what distinguishes this class from a neighbouring one."
+        }
+      }
     }
   },
   "type": "object",
@@ -178,6 +226,39 @@
         }
       },
       "description": "Table driving transliteration. Kept as data so a consumer can read it rather than reimplement the scheme."
+    },
+    "classCategories": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/classCategory" },
+      "minItems": 1,
+      "description": "The kinds of lexical class a root can carry. Separate from inflectionCategories: a class is a fact about the headword and says which paradigm it follows, while an inflection category describes one form of it."
+    },
+    "classes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/class" },
+      "minItems": 1,
+      "description": "Every class a root may name, across all categories. A root's own declension or conjugation must be one of these (checked outside this schema)."
+    },
+    "posReadings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["readings"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Optional explanation of what a reading is and why it is not the same thing as a part of speech."
+        },
+        "readings": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "description": "Part of speech to the others a word of that part of speech may legitimately be tagged with. A corpus records the reading a token has in its own sentence, which need not be the heading its lexicon files the word under: a noun used attributively reads as an adjective."
+        }
+      },
+      "description": "Which cross-part-of-speech readings are allowed, so a cell whose parse names a different part of speech than its root is not automatically a defect."
     }
   }
 }

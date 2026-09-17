@@ -94,6 +94,12 @@ import {
   auditCodexAttestation,
   formatCellContradiction,
 } from "./codexAttestation";
+import {
+  auditJsonSchemas,
+  committableJsonFiles,
+  formatSchemaFinding,
+  governanceOf,
+} from "./jsonSchemas";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -1679,7 +1685,21 @@ async function main(requestedVersion?: string) {
   // `imports/lxx/lib/codex.mjs`. If the two ever disagree again they will revert
   // each other on alternate runs, and `node imports/lxx/build-map.mjs --check`
   // is what catches it.
-  for (const file of [...jsonFiles, ...collectLexicalMapFiles()]) {
+  // The list is every committable JSON file, so a data file cannot be added to
+  // the repo and quietly keep whatever layout its writer happened to produce.
+  // `collectJsonFiles` is scoped to the versions asked for, so it stays for a
+  // single-version run; the wider list is added on a full one.
+  //
+  // A file whose format belongs to a tool outside this repo is left alone. npm
+  // writes `package-lock.json` in its own layout and Prettier would take 2,900
+  // bytes out of it, so formatting it here means npm and this step rewriting
+  // each other on alternate runs. See `SCHEMA_RULES` in `jsonSchemas.ts`, which
+  // is the one place that records who owns which format.
+  const everyJsonFile = versionDirs.length === getVersionDirectories().length
+    ? committableJsonFiles().filter((file) => governanceOf(file)?.owner === undefined)
+    : [...jsonFiles, ...collectLexicalMapFiles()];
+
+  for (const file of everyJsonFile) {
     if (fs.existsSync(file)) {
       const wasFormatted = await formatJsonFile(file);
       if (wasFormatted) {
@@ -2728,6 +2748,40 @@ async function main(requestedVersion?: string) {
   }
   console.log(`   ${abbreviationsScanned} abbr node(s) scanned corpus-wide`);
 
+  // Schema-coverage audit: every committable JSON file must be governed by a
+  // schema, and a file governed by nothing is the finding.
+  //
+  // This is the check that keeps the format from getting away from the repo.
+  // Four data schemas sat here unapplied for months, and `language-schema.json`
+  // drifted so far from `_language.json` in the meantime that wiring it up
+  // failed: it declared ten properties where the file carried thirteen. A
+  // schema nothing runs is documentation of a format, and documentation of a
+  // format is the thing most likely to be wrong about it.
+  //
+  // Files another step already validates per record are named rather than
+  // re-validated here — repeating the verse pass would add a second walk over
+  // 760,000 nodes to say the same thing without the book, chapter and verse.
+  // What is confirmed for those is that the schema exists and compiles, which
+  // is the coverage claim itself.
+  //
+  // Report-only, like its peers. A new file with no schema needs someone to
+  // write one, and only a person can say what shape it should describe.
+  console.log("\n🗂️  Auditing JSON schema coverage...");
+  const schemaCoverage = auditJsonSchemas();
+  const schemaCoveragePassed = schemaCoverage.findings.length === 0;
+  const coverageScanned = `${schemaCoverage.scanned} committable JSON file(s), ${schemaCoverage.checked} validated here`;
+  if (schemaCoveragePassed) {
+    console.log(`✅ every committable JSON file is governed by a schema (${coverageScanned})`);
+  } else {
+    console.error(`❌ ${schemaCoverage.findings.length} JSON schema finding(s) (${coverageScanned}):`);
+    for (const finding of schemaCoverage.findings.slice(0, 50)) {
+      console.error(`  ${formatSchemaFinding(finding)}`);
+    }
+    if (schemaCoverage.findings.length > 50) {
+      console.error(`  ...and ${schemaCoverage.findings.length - 50} more`);
+    }
+  }
+
   // Lexical-map audit: every codex file against its own schema, and every
   // claim in it against the language registry that defines the vocabulary.
   // Corpus-wide rather than per-version, because a codex belongs to a language
@@ -2975,7 +3029,8 @@ async function main(requestedVersion?: string) {
     !unresolvableTargetsPassed ||
     !displayProsePassed ||
     !abbreviationsPassed ||
-    !lexicalMapsPassed
+    !lexicalMapsPassed ||
+    !schemaCoveragePassed
   ) {
     if (!declaredChapterMismatchesPassed) {
       console.error("\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.");
@@ -3001,6 +3056,9 @@ async function main(requestedVersion?: string) {
     if (!orthographyPassed) {
       console.error("\n❌ Word-orthography audit failed! Each parse above states a case the word's own printed ending forbids. A iota subscript marks the dative singular of the first and second declensions and marks nothing else, so a nominal ending in one is dative and singular, and one ending in a bare alpha, eta or omega is not. This is settled without consulting the lexical map, which is the point: the map was built downstream of these corpora, so a corpus error becomes a cell and that cell then satisfies the morphology audit above. No auto-fix, and there cannot be one — the rule says what a parse cannot be, never what it is, so read the clause. Beware that some findings are not case errors at all: a plural code on a word ending in a subscript means the word itself is misidentified, the way EXO 20:9 printed `ἐργᾷ` and `ἔργα` four words apart and tagged both `N-APN`. The Attic declension is the one paradigm the rule cannot resolve, since it takes `-ῳ` in the nominative plural as well as the dative singular; `utils/corpusOrthography.ts` says which roots those are.");
     }
+    if (!schemaCoveragePassed) {
+      console.error("\n❌ JSON schema coverage audit failed! Either a committable JSON file matches no rule in `SCHEMA_RULES` — nothing validates its shape, which is how a format gets away from a repo — or one that does failed the schema, or a schema file is not itself valid JSON Schema. No auto-fix: write the rule and the schema the new file needs, or correct the file. A format genuinely owned by a tool outside this repo belongs in the table with its owner named, not left out of it.");
+    }
     if (!lexicalMapsPassed) {
       console.error("\n❌ Lexical map audit failed! Each finding above is either a codex file that does not match `codex-schema.json`, a parse code the language registry does not define, a parse stating two values for one category, a stored transliteration the registry's own table does not produce, two spellings under one root that are the same key written twice (differing only in case or in a grave for an acute), a cell Strong's number that is not a subset of its root's or is the root's whole set, or a root-level lexical fact (gender, declension, conjugation, deponent, stems) that contradicts the root's own cells or the registry's own vocabulary. No auto-fix: correct the codex, or add the registry entry the codex is relying on.");
     }
@@ -3013,7 +3071,7 @@ async function main(requestedVersion?: string) {
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, corpus-morphology, word-orthography, and lexical-enrichment audits all passed!");
+  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, JSON-schema-coverage, corpus-morphology, word-orthography, and lexical-enrichment audits all passed!");
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()
