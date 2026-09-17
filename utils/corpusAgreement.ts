@@ -537,7 +537,7 @@ const REACH = 4;
  * The rule above pairs an article with the next word and takes that word for
  * the noun it heads. Greek puts other things in that slot often enough that the
  * assumption has to be tested rather than made, and both shapes below were
- * found by asking why the audit had 410 pairs it could say nothing about:
+ * found by asking why the audit had pairs it could say nothing about:
  *
  * **Another word carries what the article carries.** `τῆς Καίσαρος οἰκίας` is
  * "the household of Caesar" and `τὰ κύκλῳ ἔθνη` is "the nations round about".

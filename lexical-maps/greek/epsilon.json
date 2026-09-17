@@ -39301,10 +39301,7 @@
     "inflections": {
       "ἕξει": {
         "transliteration": "héxei",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "ἕξεως": {
         "transliteration": "héxeōs",

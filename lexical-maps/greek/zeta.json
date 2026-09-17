@@ -2007,10 +2007,7 @@
       },
       "ζητήσεις": {
         "transliteration": "zētḗseis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["noun", "acc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "ζητήσετε": {
         "transliteration": "zētḗsete",

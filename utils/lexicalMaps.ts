@@ -141,7 +141,7 @@ function readRegistry(languageDir: string): Registry | null {
  * gender, which take either article according to what they name: `ἔριφος` is
  * masculine for a kid and feminine for a female one, and `λιμός` is masculine
  * in Attic and feminine in the Greek the Septuagint is written in. Storing the
- * ordinary case as a string keeps 6,593 roots as they were; asking through
+ * ordinary case as a string keeps every root as it was; asking through
  * this keeps every reader from caring which shape it found.
  *
  * @param entry One root's codex entry.
@@ -230,7 +230,7 @@ function auditRoot(
 
   // A root key is an identifier: a corpus names it, a script matches it, and a
   // reader types it. Two spellings of one identifier is one identifier too
-  // many. 258 keys were stored with the oxia code points rather than the tonos
+  // many. Keys were stored with the oxia code points rather than the tonos
   // ones NFC produces, which nothing caught because {@link codexLookup}
   // decomposes and recomposes on the way in and normalizes the difference away
   // for free. It stops being free the moment anything compares a key to a
@@ -377,7 +377,7 @@ function auditRoot(
       // A cell's own Strong's number is there to say which of the root's
       // numbers this spelling and parse takes, so it has to be some of them and
       // not all of them. The corpus tags at the lexical level, which is how
-      // 18,702 cells came to repeat their root's own number and say nothing.
+      // Cells came in bulk to repeat their root's own number and say nothing.
       const cellNumbers = indexNumbers(cell.indices?.strongs);
       if (cellNumbers.length) {
         const absent = cellNumbers.filter(

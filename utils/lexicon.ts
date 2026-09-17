@@ -14,8 +14,8 @@
  * time, so a word the codex has never heard of transliterates exactly as well
  * as one it holds.
  *
- * **Two caches, not one.** A registry is a few kilobytes; the codex is 13 MB
- * across 24 files and about 130 ms to index. Indexing it lazily and separately
+ * **Two caches, not one.** A registry is a few kilobytes; the codex is megabytes
+ * across a file per initial letter, and indexing it is measurable. Indexing it lazily and separately
  * means a pass that only transliterates never pays for it, and one that
  * resolves lemmas pays once per process rather than once per book.
  */
@@ -444,8 +444,7 @@ export function indexNumbers(value: unknown): string[] {
  * both: a spelling the codex holds as printed answers with what it holds, and
  * the fold is there for one it carries only under some other accentuation.
  *
- * One spelling can answer with entries from more than one root — 636 keys do —
- * which is the ambiguity a caller narrows with a parse or a Strong's number.
+ * One spelling can answer with entries from more than one root, which is the ambiguity a caller narrows with a parse or a Strong's number.
  *
  * @param spelling One printed spelling, outer punctuation already off.
  */
@@ -517,7 +516,7 @@ export function transliterate(
   // **Two letters, not one.** A one-letter word is capitals throughout the
   // moment it is capital at all, and the article and the relative stand alone
   // as words, so reading them that way answers *HO* and *HĒ* where the sentence
-  // merely began in a capital: 1,283 nodes across the two corpora.
+  // merely began in a capital, which the two corpora do in quantity.
   const cased = chars.filter((char) => char.base !== char.base.toUpperCase());
   const allCapitals = cased.length > 1 && cased.every((char) => char.capital);
   const capitalise = allCapitals
@@ -668,8 +667,8 @@ function capitalised(spelling: string): boolean {
  * caller cannot tell is wrong is worse than no lemma at all.
  *
  * What survives all of it and is still more than one root **is reported and
- * never guessed at** — across BYZ2026 that is 1 node out of 140,146, a word
- * two dictionary entries genuinely share.
+ * never guessed at** — across BYZ2026 that is a single node, a word two
+ * dictionary entries genuinely share.
  *
  * A node holding two words is declined outright. There is no single lemma to
  * name, and the elision-and-bare pair {@link spellingsOf} hands back would

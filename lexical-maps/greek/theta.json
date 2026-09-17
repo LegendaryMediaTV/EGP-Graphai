@@ -2555,8 +2555,6 @@
       "θεῖον": {
         "transliteration": "theîon",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
           { "parse": ["adj", "voc", "sg", "neut"] },
           { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
@@ -6601,14 +6599,12 @@
         "transliteration": "thlípsei",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "θλίψεις": {
         "transliteration": "thlípseis",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }
         ]

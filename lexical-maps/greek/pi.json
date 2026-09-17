@@ -18807,7 +18807,6 @@
       "περιέλῃ": {
         "transliteration": "periélē",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
           {
             "parse": [
@@ -27974,7 +27973,6 @@
       "πλατεῖα": {
         "transliteration": "plateîa",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
@@ -28750,7 +28748,6 @@
       "πλοῦν": {
         "transliteration": "ploûn",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
@@ -31966,10 +31963,7 @@
       },
       "ποιήσει": {
         "transliteration": "poiḗsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ποιήσειαν": {
         "transliteration": "poiḗseian",

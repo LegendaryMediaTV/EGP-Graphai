@@ -93,7 +93,7 @@ export interface NodeShape {
    * some neighbor. {@link isMergeableTextNode}'s own doc anticipated this
    * shape as "legal per the schema, absent from this corpus today", and
    * LXX1935 is the corpus where it stopped being absent — every one of its
-   * 624,654 words carries `morph` and `lemma` and none carries `strong`.
+   * words carries `morph` and `lemma` and none carries `strong`.
    * Without this, {@link isMergeableConnector} read all of them as plain text
    * and folded five whole runs into the next footnoted word, taking their
    * parses with them.
@@ -1543,19 +1543,19 @@ const DETACHABLE_PUNCTUATION = /[.,;:!?\u2019\u201D]/;
  * digit, space, dash or opening mark. That is the right shape for its own
  * caller, which already knows it is looking at a mark beside a word. Asked
  * instead to classify the first character of any node in the corpus, it calls
- * every symbol a closing mark: measured over all eight versions it reports
- * 12,093 nodes, of which 12,085 are BYZ2026's U+00A6 apparatus separator,
- * 4 an ampersand joining two cross-references, 3 a stranded closing quote and
- * 1 an ellipsis. A separator spaced on purpose is not a mark that lost its
+ * every symbol a closing mark: measured over every version it reports nodes
+ * that are almost entirely BYZ2026's U+00A6 apparatus separator, the rest an
+ * ampersand joining two cross-references, a stranded closing quote and an
+ * ellipsis. A separator spaced on purpose is not a mark that lost its
  * word. So the run is still extended with {@link isTightPunctuationChar} —
  * which is what carries the rest of a closing cluster in `" .’”"` along — but
  * the *first* character has to be in {@link DETACHABLE_PUNCTUATION} for the
  * node to be a finding at all.
  *
- * **The two curly quotes are in that class, and the other 12,090 are not.**
+ * **The two curly quotes are in that class, and nothing else in the census is.**
  * The owner ruled on the three stranded closing quotes the census above found:
- * WEBUS2020 closes a nested-speech cluster tight 519 times and spaced 3, so
- * the three are a source mistake rather than a house style, and they were
+ * WEBUS2020 closes a nested-speech cluster tight almost without exception, so
+ * the spaced few are a source mistake rather than a house style, and they were
  * repaired alongside this widening. Widening the class instead to all of
  * `\p{Pe}\p{Pf}` finds nothing these two do not, so the narrow written-out
  * list stays, which is what the paragraph above argues for. The apparatus
@@ -1583,7 +1583,7 @@ const DETACHABLE_PUNCTUATION = /[.,;:!?\u2019\u201D]/;
  * mark onto an earlier node, this one deletes a space — and a single fixer
  * holding two answers is how a fix pass comes to apply the wrong one. The
  * curly quotes make that concrete twice over. The downstream fork's NKJV1982
- * spaces all 537 of its closing clusters as house style, so a fixer would
+ * spaces every one of its closing clusters as house style, so a fixer would
  * rewrite a whole translation's typography; and its NET2019 EZK 13:8 carries
  * `{text: " ’"}` where the U+2019 is an aleph inside the Hebrew
  * transliteration `hinnenî ’êlékâ` and the space is a word boundary, so a

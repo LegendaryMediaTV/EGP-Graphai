@@ -9,34 +9,32 @@
  * which is the whole reason it is safe to report: the check never decides which
  * side is wrong, and in every finding only a person can.
  *
- * It caught `εἴκω / εἰκών [noun nom sg fem]` — a verb root holding fourteen
- * nodes of the noun `εἰκών`, all indexed G1504 against the root's G1502 — which
- * is the cell that shadowed the real noun's paradigm. The same shape recurs
- * within one part of speech: the place `Γάζα` holding the cells of `γάζα` the
- * treasury, `σκευή` holding `σκεῦος`'s plural, `Ἰωνᾶς` holding `Ἰωνάν`'s.
+ * Two shapes recur. A derived word's paradigm filed under the word it derives
+ * from — `ἄρχω` the verb holding the cells of `ἄρχων` the ruler, `δοκέω`
+ * holding `δόξα`'s, `γινώσκω` holding `γνῶσις`'s — where the corpus names the
+ * derived word at every occurrence. And a homograph's paradigm under the wrong
+ * headword: `ἕξις` holding `ἕξει`, which is `ἔχω`'s future; `κρίνον` the lily
+ * holding `κρίνω`'s participle; `Σύρος` holding `σύρω`'s.
  *
- * 64 cells at the last measurement, out of 52,450 the corpus attests at all,
- * and **every one of them at `sole` zero**: not one node would be left without
- * an account of its parse if the cell went. That makes the whole list safe to
- * delete and says nothing about whether it is right to. The large ones are
- * redundant rather than wrong — `ἄρχω / ἄρχων [noun nom sg masc]` explains 123
- * nodes and every one of them correctly names ἄρχων — and whether a derived
- * noun should also stand under its verb is lexicographic policy, not a defect.
+ * **A finding is not a verdict on the codex.** The corpus can be the wrong
+ * side: `Γάζα` the city holding its own genitive, contradicted only because
+ * every occurrence was tagged as `γάζα` the treasury, was the corpus tagging
+ * the wrong word. Which side moves is a question about the clause, and
+ * {@link CellContradiction.sole} says only what deleting the cell would cost.
  *
  * **It is deliberately not a cross-part-of-speech rule.** A language registry's
- * `posReadings` permits a verb root to carry noun cells, and it is right to: of
- * 364 cells whose parse states a different part of speech than their root, most
- * are correct, `οὐαί (inj) / οὐαί [noun indecl-other]` among them — the
- * four-token cell whose accidental deletion is written up in
- * `corpusMorphology.ts`'s own header. Reading the numbers instead of the parts
- * of speech is what tells the disease from the paradigm.
+ * `posReadings` permits a verb root to carry noun cells, and it is right to:
+ * most cells whose parse states a different part of speech than their root are
+ * correct, `οὐαί (inj) / οὐαί [noun indecl-other]` among them — the four-token
+ * cell whose accidental deletion is written up in `corpusMorphology.ts`'s own
+ * header. Reading the numbers instead of the parts of speech is what tells the
+ * disease from the paradigm.
  *
  * **Its blind spot, stated plainly: a corpus wrong about the lemma and the
  * Strong's number in the same direction is invisible here.** The cell's root
  * and the node's number then agree, and there is nothing left to disagree
- * about. Five of the six cells found by hand this session, each attested by a
- * single node, were invisible for exactly that reason, and every one of them
- * needed a person to read the clause. Nothing mechanical reaches the rest.
+ * about. `Ἰωνᾶς` the prophet tagged as `Ἰωνάν` of the genealogy, lemma and
+ * number together, is the shape; a person reading the verse is what reaches it.
  *
  * What the codex holds for a spelling is asked of `lexicon.ts`, and what a
  * verse prints of `corpusTokens.ts`. Both cache; neither is re-indexed here.

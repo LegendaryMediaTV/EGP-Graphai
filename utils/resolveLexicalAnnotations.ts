@@ -22,8 +22,8 @@
  * **Only a script-tagged node is a candidate.** A lexical map belongs to a
  * language, and a node's `script` is this repo's own statement of which
  * language's map is about it. Without that gate the step would ask a Greek
- * codex about KJV1769's 99,993 morphology-tagged English words, find nothing,
- * and report 93,952 misses that were never candidates.
+ * codex about KJV1769's morphology-tagged English words, find nothing, and
+ * report misses that were never candidates.
  *
  * **One walk, one node at a time, both fields together.** Both answers come from
  * resolving the same node against the same codex, and the lemma written here is

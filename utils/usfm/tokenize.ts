@@ -75,8 +75,8 @@ export type Token = TextToken | MarkerToken | OpenToken | CloseToken;
  * `add` — USFM's own standard "translator-supplied words" character
  * marker (the KJV-tradition italics convention for words with no
  * equivalent in the source language) — joined ASV1901's own real Genesis
- * 1:11 ("`...seed, \add and\add* fruit-trees...`", 4,316 real pairs
- * corpus-wide) once this importer's own generality test ran a second real
+ * 1:11 ("`...seed, \add and\add* fruit-trees...`", real pairs throughout
+ * that corpus) once this importer's own generality test ran a second real
  * source through it; WEB's own corpus carries zero, so this was never
  * exercised until then. `imports/kjv/kjvContent.ts:195`'s own
  * already-shipped `add: "i"` mapping for KJV1769's HTML-sourced equivalent

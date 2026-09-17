@@ -54,7 +54,7 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
   it("should leave a node alone when two roots claim its spelling", () => {
     // λέγω and ἔπω are two entries for one suppletive verb and εἶπεν is the
     // second aorist of both. LXX1935 carries no Strong's numbers, so a node of
-    // its shape offers nothing to narrow on: 2,815 of them are this one word.
+    // its shape offers nothing to narrow on, and this one word dominates them.
     const content = [
       greek({ text: "εἶπεν", morph: "V-2AAI-3S", lemma: undefined }),
     ] as unknown as Content;
@@ -66,7 +66,7 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
   });
 
   it("should leave an untagged node alone, since the map joins the corpus by script", () => {
-    // KJV1769 carries 99,993 morph codes on English words. Nothing in a Greek
+    // KJV1769 carries morph codes on English words throughout. Nothing in a Greek
     // codex is about them, and the `script` a node declares is this repo's own
     // statement of which language's map applies.
     const content = [
@@ -80,7 +80,7 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
   });
 
   it("should leave a node with no morphology code alone", () => {
-    // BYZ2026's 20,455 footnote variants are Greek, script-tagged, and carry no
+    // BYZ2026's footnote variants are Greek, script-tagged, and carry no
     // lexical tags at all. A morph code is what says a node is one word the map
     // should be able to name.
     const content = [{ text: "Δαυίδ", script: "G" }] as unknown as Content;
@@ -156,7 +156,7 @@ describe("resolveLexicalAnnotationsInContent — Strong's number", () => {
   });
 
   it("should leave the node alone when the root carries no number at all", () => {
-    // Real LXX1935 GEN 1:2. 50,035 nodes sit here, which is why the audit counts
+    // Real LXX1935 GEN 1:2. Nodes sit here in bulk, which is why the audit counts
     // this and does not fail on it.
     const content = [
       greek({

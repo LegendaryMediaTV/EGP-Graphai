@@ -1272,7 +1272,7 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
 /**
  * Display names from a version's `abbr` registry, keyed by id, or undefined
  * when the version declares none. Read once per version rather than per
- * verse: a 10,000-footnote book would otherwise re-parse `_version.json`
+ * verse: a footnote-heavy book would otherwise re-parse `_version.json`
  * for every siglum it prints.
  */
 function readAbbreviations(

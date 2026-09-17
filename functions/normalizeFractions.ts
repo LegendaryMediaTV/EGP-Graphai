@@ -83,9 +83,9 @@ export function uniformFraction(
 /**
  * Every precomposed Unicode vulgar fraction, mapped to the uniform form.
  *
- * WEBUS2020's own raw USFM carries exactly one of these (`½`, three times, in
- * Exodus 27:1's own footnote); the rest are here so that a fraction glyph this
- * module has never actually met cannot slip past it unconverted. Each value is
+ * WEBUS2020's own raw USFM carries just the one glyph (`½`, in Exodus 27:1's
+ * own footnote); the rest are here so that a fraction glyph this module has
+ * never actually met cannot slip past it unconverted. Each value is
  * {@link uniformFraction} of the glyph's own numerator and denominator, so the
  * table is a spelling of the convention rather than a second opinion about it.
  *

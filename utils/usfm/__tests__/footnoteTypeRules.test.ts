@@ -249,7 +249,7 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
   describe("a language name is deletable filler only inside a parenthesized tag on a citation", () => {
     /**
      * The shapes below are every form the tag really takes, found by
-     * scanning every footnote in every version. 161 bodies carry it, so
+     * scanning every footnote in every version. Bodies carry it in quantity, so
      * these guards are the load-bearing half of the rule.
      */
     const parenthesizedLanguageTags = [
@@ -303,7 +303,7 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
      * citation and a lone `f` is deletable filler (the `7f.`/`7ff.` shape
      * `CONNECTIVES` exists for). So does `35 76`. That is a different
      * mechanism from the one this bar fixes, it predates it, and no body on
-     * disk takes the shape — measured over all 321,204 — so nothing here
+     * disk takes the shape — measured over every one of them — so nothing here
      * pretends to have addressed it.
      */
     it("should reach the same answer for every edition-only siglum spelled with letters alone, the whole class rather than the one body that exposed it", () => {
@@ -403,7 +403,7 @@ describe("classifyFootnote — xrf (the whole body is nothing but citations)", (
 
     /**
      * A range of whole books names no chapter, so there is nothing for it to
-     * resolve to. Measured over all 322,529 footnote bodies on disk, exactly
+     * resolve to. Measured over every footnote body on disk, exactly
      * one is a whole-book range and nothing else (MSB2025's Hebrews 11:30);
      * what the same scan turns up in quantity is the collision a rule for it
      * would walk into, two book names hyphenated into an ordinary compound
@@ -895,8 +895,8 @@ describe("classifyFootnote — trn (an anchored opener or construct offering a l
 
   describe("a caveat that the meaning of an original-language word is uncertain", () => {
     /**
-     * 287 bodies corpus-wide carry the caveat: 93 already open with a
-     * translation marker, 39 also name a witness, and the remaining 155 are
+     * Bodies corpus-wide carry the caveat: some already open with a
+     * translation marker, some also name a witness, and the rest are
      * what this rule decides.
      */
     it("should classify the caveat as trn when it is the whole body", () => {
@@ -1276,7 +1276,7 @@ describe("classifyFootnote — witnesses needs a reading verb, not just a quanti
 /**
  * A Greek or Hebrew critical edition prints its apparatus as operators
  * between competing readings, never as the prose the vocabulary rules look
- * for, so without this construct every one of the retired BYZ2018's 7,522 real bodies
+ * for, so without this construct every one of the retired BYZ2018's real bodies
  * falls through to `stu`.
  */
 describe("classifyFootnote — symbolic apparatus notation is var", () => {
@@ -1454,7 +1454,8 @@ describe("classifyFootnote — Sam. is a witness only at the start of a note", (
  * and each is cited by book, chapter, and verse.
  *
  * The MSB names eleven printed editions the older siglum list had never met,
- * and 1,764 of its 6,644 notes name one with no already-known siglum beside it.
+ * and a large minority of its notes name one with no already-known siglum
+ * beside it.
  * Three of the eleven need a guard; `WITNESS_SIGLA`'s doc comment has what each
  * guard is and what it was measured against.
  */
@@ -1539,7 +1540,7 @@ describe("classifyFootnote — the MSB's printed-edition sigla", () => {
  * `Cited in ‹citation›` is the MSB's lead-in where the other editions in this
  * corpus write `Fulfilled in` or `Foretold in` — the same construct, naming
  * where the verse is quoted rather than claiming anything about its wording.
- * 184 MSB bodies open this way and no body in any other version on disk does.
+ * MSB bodies open this way and no body in any other version on disk does.
  */
 describe("classifyFootnote — a Cited in lead-in is a citation, not a study note", () => {
   it("should classify a single citation behind the lead-in as xrf (Genesis 1:3)", () => {

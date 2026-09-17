@@ -27,7 +27,7 @@
  * of those looks like a reference with something extra stuck to it and is in
  * fact the whole reference, so a grammar confident enough to trim them would
  * be wrong far more often than this table can be. A corpus-wide sweep of
- * every word appearing in any display override found 220 distinct ones, of
+ * every word appearing in any display override found a bounded vocabulary, of
  * which exactly these are prose; the rest are book names and citation
  * vocabulary. What the tables cannot recognize, {@link
  * findBibleLinkDisplayProse} reports rather than guesses at.

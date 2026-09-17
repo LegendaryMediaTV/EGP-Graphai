@@ -3272,10 +3272,7 @@
       },
       "οἰκτίρμων": {
         "transliteration": "oiktírmōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },

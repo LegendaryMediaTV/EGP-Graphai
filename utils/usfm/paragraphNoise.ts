@@ -1,6 +1,6 @@
 /**
  * One real USFM import source marks `\m` immediately before literally
- * every verse — all 31,098 verses across all 66 books carry
+ * every verse — every verse of every book it ships carries
  * `paragraph: true`, zero exceptions. That is the source export tool's own
  * default line-formatting marker, not real per-verse paragraph structure: a
  * marker this uniform can never mean "a new paragraph genuinely starts

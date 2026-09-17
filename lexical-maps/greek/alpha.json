@@ -1559,8 +1559,7 @@
       "ἀγαθοποιῶν": {
         "transliteration": "agathopoiō̂n",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["adj", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ἠγαθοποίησέν": {
@@ -38132,10 +38131,7 @@
       },
       "ἀνοίξει": {
         "transliteration": "anoíxei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ἀνοίξεις": {
         "transliteration": "anoíxeis",
@@ -45233,8 +45229,6 @@
       "ἀπειθεῖς": {
         "transliteration": "apeitheîs",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "masc"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
           { "parse": ["adj", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
         ]
@@ -45463,8 +45457,7 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
+          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
         ]
       },
       "ἀπειληθῆναι": {
@@ -50399,10 +50392,7 @@
       },
       "ἀποκαλύψει": {
         "transliteration": "apokalýpsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ἀποκαλύψῃ": {
         "transliteration": "apokalýpsē",
@@ -55953,8 +55943,7 @@
         "transliteration": "apostréphou",
         "cells": [
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] }
         ]
       }
     }
@@ -63838,8 +63827,6 @@
         "transliteration": "arxámenon",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "aor", "mid", "ptc", "voc", "sg", "neut"] }
         ]
       },
@@ -63991,8 +63978,7 @@
       "ἄρχοντας": {
         "transliteration": "árchontas",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "ἀρχόντων": {
@@ -64000,8 +63986,7 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["noun", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "ἄρχου": {
@@ -64034,10 +64019,7 @@
       },
       "ἄρχουσιν": {
         "transliteration": "árchousin",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ἀρχουσῶν": {
         "transliteration": "archousō̂n",
@@ -64049,8 +64031,7 @@
         "transliteration": "árchōn",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ἦργμαι": {
@@ -64893,8 +64874,7 @@
         "transliteration": "asebō̂n",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["adj", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ἠσεβήκασιν": {
@@ -65629,8 +65609,7 @@
       "ἀσθενῶν": {
         "transliteration": "asthenō̂n",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["adj", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ἠσθένει": {

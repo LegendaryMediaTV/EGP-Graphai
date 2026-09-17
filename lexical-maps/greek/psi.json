@@ -545,8 +545,7 @@
         "cells": [
           { "parse": ["adj", "gen", "sg", "fem"] },
           { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
+          { "parse": ["adj", "gen", "sg", "neut"] }
         ]
       },
       "ψευδῶν": {
@@ -680,8 +679,7 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
+          { "parse": ["verb", "pres", "pas-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "ψεύδεσθε": {

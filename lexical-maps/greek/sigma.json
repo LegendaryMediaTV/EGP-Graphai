@@ -13575,8 +13575,7 @@
         "transliteration": "speíras",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["noun", "gen", "sg", "fem"] }
         ]
       },
       "σπείρης": {
@@ -21865,10 +21864,7 @@
       },
       "σύκων": {
         "transliteration": "sýkōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -34878,10 +34874,7 @@
       },
       "Σύρων": {
         "transliteration": "Sýrōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },

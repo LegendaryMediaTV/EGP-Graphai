@@ -3037,7 +3037,8 @@ async function main(requestedVersion?: string) {
   //
   // Files another step already validates per record are named rather than
   // re-validated here: repeating the verse pass would add a second walk over
-  // 760,000 nodes to say the same thing without the book, chapter and verse.
+  // every node in the corpus to say the same thing without the book, chapter
+  // and verse.
   // What is confirmed for those is that the schema exists and compiles, which
   // is the coverage claim itself.
   //
@@ -3141,7 +3142,7 @@ async function main(requestedVersion?: string) {
   // Lexical-enrichment audit: how far the map reaches into a version's Greek,
   // and whether what the version stores still agrees with it. The coverage
   // numbers are report-only on purpose — neither resolver ever guesses, so an
-  // unresolved node is the map declining rather than failing, and 50,035 of
+  // unresolved node is the map declining rather than failing, and most of
   // LXX1935's are simply roots Strong's has no number for, which is the
   // "when available" the corpus was enriched under. A regression shows up here
   // as a number that moved, the same way the audits above surface one.
@@ -3296,24 +3297,18 @@ async function main(requestedVersion?: string) {
   // different one. Read plainly, such a cell says *this root inflects to this
   // spelling* while every occurrence of that spelling in the corpus is indexed
   // to some other word — a disagreement between two files rather than a
-  // linguistic judgment, which is what makes it safe to report at all.
+  // linguistic judgment, which is why a person has to read each one.
   //
   // Corpus-wide rather than per-version, because a cell belongs to a language
   // rather than to an edition. Deliberately not a cross-part-of-speech rule: a
   // registry's `posReadings` permits a verb root to carry noun cells and is
   // right to, `οὐαί (inj) / οὐαί [noun indecl-other]` among them.
-  //
-  // **Never fails the run.** A cell here can be redundant rather than wrong —
-  // `ἄρχω / ἄρχων` explains 123 nodes and every one of them correctly names
-  // ἄρχων — and whether a derived noun should also stand under its verb is
-  // lexicographic policy. A corpus wrong about the lemma and the number in the
-  // same direction is invisible here for the same reason it is invisible
-  // everywhere: there is nothing left to disagree about.
   console.log("\n🧭 Auditing codex cells against the corpus's own index...");
 
   const attestation = auditCodexAttestation();
+  const attestationPassed = attestation.contradictions.length === 0;
   const attested = `${attestation.cellsAttested} cell(s) attested by ${attestation.nodesScanned} tagged word(s) across ${attestation.versions.join(", ") || "no version"}`;
-  if (attestation.contradictions.length === 0) {
+  if (attestationPassed) {
     console.log(
       `✅ every attested cell agrees with the index on at least one of its words (${attested})`,
     );
@@ -3322,7 +3317,7 @@ async function main(requestedVersion?: string) {
       (finding) => finding.sole > 0,
     ).length;
     console.log(
-      `⚠️  ${attestation.contradictions.length} cell(s) the corpus's own index contradicts, ${sole} of them the sole explanation of any word (${attested}):`,
+      `❌ ${attestation.contradictions.length} cell(s) the corpus's own index contradicts, ${sole} of them the sole explanation of any word (${attested}):`,
     );
     for (const contradiction of attestation.contradictions.slice(0, 25)) {
       console.log(`    ${formatCellContradiction(contradiction)}`);
@@ -3344,7 +3339,8 @@ async function main(requestedVersion?: string) {
     !displayProsePassed ||
     !abbreviationsPassed ||
     !lexicalMapsPassed ||
-    !schemaCoveragePassed
+    !schemaCoveragePassed ||
+    !attestationPassed
   ) {
     if (!declaredChapterMismatchesPassed) {
       console.error(
@@ -3389,6 +3385,11 @@ async function main(requestedVersion?: string) {
     if (!schemaCoveragePassed) {
       console.error(
         "\n❌ JSON schema coverage audit failed! Either a committable JSON file matches no rule in `SCHEMA_RULES` — nothing validates its shape, which is how a format gets away from a repo — or one that does failed the schema, or a schema file is not itself valid JSON Schema. No auto-fix: write the rule and the schema the new file needs, or correct the file. A format genuinely owned by a tool outside this repo belongs in the table with its owner named, not left out of it.",
+      );
+    }
+    if (!attestationPassed) {
+      console.error(
+        "\n❌ Codex-attestation audit failed! Each cell above says its root inflects to a spelling the corpus indexes to some other word — every tagged occurrence of it carries a number the root does not. Two files disagreeing, so read the clause before touching either: the cell may be a paradigm filed under the wrong headword, or the corpus may be tagging the wrong word. No auto-fix, and there cannot be one, since nothing mechanical can say which side is wrong.",
       );
     }
     if (!lexicalMapsPassed) {

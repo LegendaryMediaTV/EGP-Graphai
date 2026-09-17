@@ -76,7 +76,8 @@ interface SchemaRule {
    * Those steps validate a verse at a time and report the book, chapter and
    * verse a failure sits in, which is the answer a person needs and one this
    * module cannot give from a whole-file check. Repeating the work here would
-   * add a second pass over 760,000 nodes to say the same thing worse. So the
+   * add a second pass over every node in the corpus to say the same thing worse.
+   * So the
    * rule still records what governs the file — that is the coverage claim —
    * and this module confirms the schema exists and compiles rather than
    * running it again.
@@ -188,9 +189,9 @@ export function committableJsonFiles(): string[] {
 /**
  * Check every committable JSON file against the schema its location implies.
  *
- * Schemas are compiled once and reused: `bible-verses-schema.json` governs 459
- * files, and compiling it 459 times is most of the run for no answer it does
- * not already have.
+ * Schemas are compiled once and reused: `bible-verses-schema.json` governs every
+ * book file on disk, and compiling it once per file is most of the run for no
+ * answer it does not already have.
  */
 export function auditJsonSchemas(): JsonSchemaAudit {
   const findings: SchemaFinding[] = [];

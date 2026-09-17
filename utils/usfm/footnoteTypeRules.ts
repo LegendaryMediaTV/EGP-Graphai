@@ -101,8 +101,8 @@ const SPELLED_OUT_LANGUAGE = "(?:Hebrew|Greek|Aramaic|Latin|Samaritan)";
  * because the citation-only test runs first; the fix has to be in the citation
  * grammar.
  *
- * Measured over all 321,204 footnote bodies on disk: 4 carry a siglum before a
- * bare number and exactly one is typed `xrf`, so this bar moves one body.
+ * Measured over every footnote body on disk, a handful carry a siglum before a
+ * bare number and one of those is typed `xrf`, so this bar moves a single body.
  *
  * `MT`, `NU`, `NA`, `NE`, and `TH` are deliberately absent, though
  * {@link WITNESS_SIGLA} carries every one. Each also stands where a book
@@ -226,7 +226,7 @@ function registryBookNames(): string {
  *
  * A range of whole books — `Joshua–Malachi` — is deliberately not described
  * here. It names no chapter, so there is nothing for it to resolve to, and over
- * all 322,529 footnote bodies on disk exactly one is a whole-book range and
+ * every footnote body on disk a single one is a whole-book range and
  * nothing else (`recon/measureBookRangeCitations.ts`). What the same scan turns
  * up in quantity is the collision a rule for it would walk into — `Luke-Acts`,
  * `Ezra-Nehemiah`, `Bar-Jonah`, two book names hyphenated as an ordinary
@@ -284,12 +284,12 @@ const CONNECTIVES =
  * was fulfilled or first foretold, always exactly one of these three verbs
  * at the body's own start. Stripped as its own anchored prefix rather than
  * folded into {@link CONNECTIVES}, because "in" alone is far too common a word
- * to remove as filler wherever it appears. The 81 other bodies that merely
+ * to remove as filler wherever it appears. The other bodies that merely
  * mention "fulfilled" somewhere never open this way, so anchoring costs nothing
  * in coverage and keeps that discursive commentary `stu`.
  *
- * `fulfilled`/`foretold` cover 24 bodies corpus-wide. `cited` covers 184 more,
- * all the MSB's own lead-in for the same construct, reaching no body in any
+ * `fulfilled`/`foretold` cover few bodies corpus-wide. `cited` covers several
+ * times as many, all the MSB's own lead-in for the same construct, reaching no body in any
  * other version on disk — one edition's spelling of a shape the other two
  * verbs already describe, not a new one.
  */
@@ -340,14 +340,14 @@ const RESIDUE_FILLER = new RegExp(
  * `‹citation› (‹language› version)`, two abbreviations sharing one
  * parenthesis, or a tag carrying a citation of its own. The tag decorates
  * the citation and claims nothing about this verse, so a list carrying one
- * is still nothing but citations. 161 bodies corpus-wide take the shape.
+ * is still nothing but citations. The shape is common corpus-wide.
  *
  * Parenthesization is the whole distinction. The obvious remedy — deleting a
  * language name wherever it appears, by carrying the names in
- * {@link CONNECTIVES} as this table once did — moves 177 bodies corpus-wide and
- * regresses 174 of them, since the common real shape is the parenthesized tag
+ * {@link CONNECTIVES} as this table once did — moves bodies corpus-wide and
+ * regresses nearly every one, since the common real shape is the parenthesized tag
  * above, which then loses its citation-only reading. Restricting the deletion to
- * parentheses moves 3 and regresses none. Outside parentheses a language name
+ * parentheses moves a few and regresses none. Outside parentheses a language name
  * governs what follows it, and `‹language› ‹reading›` is the strongest
  * translation-or-variant signal this table has.
  *
@@ -459,7 +459,7 @@ const LATIN_WITNESS_CLAIM = new RegExp(
  * deep inside a longer discursive note, which is `stu` on the strength of that
  * embedded reference, not `var`.
  *
- * `Syr` has never needed the guard. Of all 508 real bodies naming it, exactly 2
+ * `Syr` has never needed the guard. Of every real body naming it, a pair
  * are followed by a digit within the guard's reach, and both are genuine `var`
  * claims it was wrongly silencing. `Syr` collides with no book name and with no
  * citation-heavy discursive genre the way `Sam`/`Tg` do, so it is split out
@@ -501,16 +501,16 @@ const SIGLA_SYMBOLS = /ℵ/u;
  *
  * The eleven printed-edition sigla below the first alternative are the MSB's own
  * apparatus, an edition citing modern critical editions by name where the older
- * list here knew only manuscript traditions. 1,764 of its 6,644 bodies name one
- * with no already-known siglum beside it, so leaving them off left every one of
+ * list here knew only manuscript traditions. A large minority of its bodies name
+ * one with no already-known siglum beside it, so leaving them off left every one of
  * those in `stu`.
  *
  * Two of them collide, and both guards were measured over every footnote in
- * every version on disk (314,596 bodies) as well as the MSB's own. Neither guard
+ * every version on disk as well as the MSB's own. Neither guard
  * costs the MSB a single body.
  *
  * `NA`, `NE`, and `TH` name editions another apparatus cites *with its own
- * printing number* — one edition writes `NA²⁸` 145 times, in notes about where that
+ * printing number* — one edition writes `NA²⁸` throughout, in notes about where that
  * edition sets a verse division or brackets a word, which are remarks about an
  * edition rather than claims about this verse's text. The same two letters also
  * stand where a book abbreviation would (`NE 4:6` for Nehemiah). One guard
@@ -553,7 +553,7 @@ const WITNESS_SIGLA = new RegExp(
  * anchored and unambiguous, and {@link ELLIPTICAL_WITNESS_READING} covers it
  * there instead. Added here it widens {@link WITNESS_CLAIM}'s noun-then-verb
  * reach into unrelated bodies: a long discursive word-study note mentioning a
- * scroll emending a form 400 characters in is a witness noun near "emend" only
+ * scroll emending a form far later in the body is a witness noun near "emend" only
  * in the most technical sense.
  */
 const WITNESS_VERB_SOURCE =
@@ -561,8 +561,8 @@ const WITNESS_VERB_SOURCE =
 
 /**
  * The one confirmed exception to {@link WITNESS_SIGLA}'s case-sensitivity: one
- * body's lower-case siglon is a source-side casing slip against 200+ upper-case
- * occurrences elsewhere, and {@link classifyFootnote} sees the raw body before
+ * body's lower-case siglon is a source-side casing slip against the upper-case
+ * occurrences everywhere else, and {@link classifyFootnote} sees the raw body before
  * `usfm/footnotes.ts`'s `capitalizeFootnoteOpening` runs, so that spelling is
  * what reaches this function. Lower-casing the whole {@link WITNESS_SIGLA} check
  * would reopen the Gospel-abbreviation collision, so this allowance fires only
@@ -579,8 +579,8 @@ const STRONG_WITNESS_NOUN = "(?:manuscripts?|MSS?|mss?|copies|scrolls?)\\b\\.?";
 /**
  * Nouns that mean a manuscript witness only when a reading verb sits next to
  * them, however quantified. Both are apparatus jargon and ordinary vocabulary
- * at once, and the ordinary sense is far commoner: of 534 real bodies using
- * `witnesses`, only 163 sit near a reading verb — quoted scripture about two
+ * at once, and the ordinary sense is far commoner: of every real body using
+ * `witnesses`, under a third sit near a reading verb — quoted scripture about two
  * witnesses prophesying is a quantifier and a witness noun with nothing to do
  * with manuscripts. `authorities` splits the same way against a scholarly
  * consensus, an assumed measurement, or a governing body; it used to sit in
@@ -679,15 +679,15 @@ const SOME_WITNESS_OPENER = new RegExp(
  *   the forthcoming edition uses throughout.
  *
  * Measured across every footnote in the corpus: `⇒` and `~` together cover all
- * 7,522 bodies of the edition that uses them, with no gaps; `¦` covers 10,225
- * of another's 10,227 apparatus entries; and outside a Greek edition exactly one
+ * bodies of the edition that uses them, with no gaps; `¦` covers all but two
+ * of another's apparatus entries; and outside a Greek edition a single
  * body anywhere uses any of the three.
  *
  * A leading Greek or Hebrew character is deliberately not a fourth signal,
  * though one edition's own convention would suggest it. The worry it would
- * answer is that edition's 647 longer publisher notes, which argue a variant in
- * prose rather than printing it in notation — but 646 carry `¦` anyway, and the
- * two that do not open in English and on an italicized `om.` respectively.
+ * answer is that edition's longer publisher notes, which argue a variant in
+ * prose rather than printing it in notation — but all but two carry `¦` anyway,
+ * and those two open in English and on an italicized `om.` respectively.
  * Those two are covered instead by a quantified `editions`
  * ({@link WEAK_WITNESS_NOUN}) and by {@link SIGLA_SYMBOLS}, both of which read
  * the note rather than guessing at the edition it came from. A leading-character
@@ -820,9 +820,8 @@ function namesAWitness(body: string): boolean {
 /**
  * The whole-body idiom asserting a verse's content was originally numbered
  * differently — `"Originally verse 20:29."`, always this exact shape. It is
- * overwhelmingly CLV1880's versification apparatus (2,938 of the corpus's 2,944
- * real bodies), but the identical wording turns up verbatim in 6 footnotes
- * across two other editions — all long-recognized spots where editions' verse
+ * overwhelmingly CLV1880's versification apparatus, but the identical wording
+ * turns up verbatim in a few footnotes across two other editions — all long-recognized spots where editions' verse
  * numbering genuinely diverges, not a coincidental phrase collision. It
  * therefore fires wherever the phrasing appears rather than being scoped to one
  * edition.
@@ -866,7 +865,7 @@ function isVersificationVariant(body: string): boolean {
  * Every spelling of an original-language name a real edition opens with, written
  * as a stem with optional tails rather than a list, because the abbreviations
  * vary by edition and by printing. One edition alone spells one of these
- * languages seven ways across 136 real bodies — including a spelling with a
+ * languages many ways — including a spelling with a
  * letter dropped — and abbreviates another three ways; each stem covers its
  * whole family, malformed spellings included. The two-letter forms sit alongside
  * their longer stems because an edition may use only the short one.
@@ -891,9 +890,9 @@ const SHORT_LANGUAGE_OPENER = "he";
  * language from claiming `trn` — a note observing what a Greek word denotes is
  * `stu`. (What keeps a translation opener followed by a place name off `xrf` is
  * {@link REFERENCE}'s one-book-word cap, not this anchoring; `xrf` is settled
- * before this rule runs.) This one construct covers one edition's 2,146
- * language-marker notes, another's 216 literal-rendering notes, and a third's
- * 4,500 `Or,` notes.
+ * before this rule runs.) This one construct covers one edition's
+ * language-marker notes, another's literal-rendering notes, and a third's
+ * `Or,` notes.
  */
 const TRANSLATION_OPENER = new RegExp(
   `^\\s*["'“(]?\\s*(?:(?:${LANGUAGE_OPENER})\\b[.,:;]*|(?:${SHORT_LANGUAGE_OPENER})[.,])(?:[\\s“"']|$)`,
@@ -952,20 +951,20 @@ function offersATranslationAlternative(body: string): boolean {
  * A note reporting that the original-language wording is hard to render —
  * `meaning of the ‹language›[ ‹noun›] is uncertain`. It offers no
  * alternative and names no competing witness, which makes it a remark about
- * *translating* the text rather than about what the text is. 287 bodies
- * corpus-wide carry it.
+ * *translating* the text rather than about what the text is. A steady
+ * population corpus-wide carries it.
  *
  * This is the table's second deliberate piece of memorized wording, alongside
  * {@link VERSIFICATION_VARIANT}: `meaning of the` and `is uncertain` are fixed
  * literals and only the language and the optional noun vary — a fixed predicate
  * over an open subject, not a grammatical shape.
  *
- * It is consulted last, and that ordering is the whole of the rule's safety. 39
- * of the 287 name a manuscript witness as well, and a note claiming the meaning
+ * It is consulted last, and that ordering is the whole of the rule's safety. Some
+ * of them name a manuscript witness as well, and a note claiming the meaning
  * is uncertain *while* naming a witness is textual criticism, not a translation
- * remark; ahead of the witness checks this rule would take all 39. Last means
+ * remark; ahead of the witness checks this rule would take every one of them. Last means
  * after {@link comparesLanguageWitnesses} too, not merely after the witness
- * checks: 7 of the 287 already satisfy {@link LANGUAGE_AFTER_SEMICOLON}, held at
+ * checks: a few already satisfy {@link LANGUAGE_AFTER_SEMICOLON}, held at
  * `var` by a witness noun standing beside the language name and by nothing else,
  * so folding this into {@link offersATranslationAlternative} as a tidy-up would
  * put it one step ahead of the check those bodies depend on.
@@ -974,7 +973,7 @@ function offersATranslationAlternative(body: string): boolean {
  * difference is in what the words mean, not in how much an anchor would reach.
  * `‹language› verse ‹n›` inside a longer body is a remark about a verse and
  * means something else entirely, where this caveat means the same thing wherever
- * it sits. An anchor would also miss the 19 of the 155 bodies this rule decides
+ * it sits. An anchor would also miss the bodies this rule decides
  * that carry anything besides the caveat — among them every body that prompted
  * the rule.
  *

@@ -5173,9 +5173,7 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "neut"] },
@@ -22440,10 +22438,7 @@
       },
       "δόξῃ": {
         "transliteration": "dóxē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
       },
       "δόξητε": {
         "transliteration": "dóxēte",

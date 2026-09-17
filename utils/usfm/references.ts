@@ -380,10 +380,10 @@ function wouldStealBookOrdinal(text: string): boolean {
  * Psalm 32 verses 42 and 44–45 — and Psalm 32 has eleven verses. A dash range is
  * still allowed after a chapter-only head, because `Genesis 4–9` names one
  * continuous span rather than a list, and `utils/crossChapterLinks.ts` exists to
- * split exactly that target. Measured over all 322,565 footnote bodies on disk,
- * 27 links take the comma-list shape — 13 in MSB2025, 13 continental-style
- * bibliographic citations in another edition (`Gen 3, 16`), and one `I Sam.
- * 21, 22` — every one a chapter list, none a verse list.
+ * split exactly that target. Measured over every footnote body on disk, the
+ * links taking the comma-list shape are a small population: MSB2025's, another
+ * edition's continental-style bibliographic citations (`Gen 3, 16`), and one
+ * `I Sam. 21, 22` — every one a chapter list, none a verse list.
  *
  * @returns `undefined` when `rest` does not carry the mandatory head, which the
  *   caller treats as declining the candidate entirely.

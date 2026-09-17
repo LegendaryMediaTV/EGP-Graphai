@@ -27,7 +27,7 @@ describe("transliterateText", () => {
   });
 
   it("should put a diphthong's rough breathing in front of the word and not in front of the space", () => {
-    // Measured, 35,775 tokens across the two corpora take this path.
+    // Measured, tokens across the two corpora take this path in quantity.
     expect(transliterateText(" Οὗτος", "G")).toBe(" Hoûtos");
     expect(transliterateText(" Οὗτος", "G")).not.toBe("h Oûtos");
   });
@@ -193,8 +193,8 @@ describe("inflectionCategories", () => {
  */
 describe("resolveLemma", () => {
   // The root is lower case because the word is a common noun used as a title:
-  // both corpora print it lower case 603 times of 610, and the three mid-clause
-  // capitals all stand directly after `Ἰησοῦς`.
+  // both corpora print it lower case almost without exception, and the
+  // mid-clause capitals all stand directly after `Ἰησοῦς`.
   it("should answer with the only root the codex holds for the spelling", () => {
     expect(
       resolveLemma({
@@ -222,7 +222,7 @@ describe("resolveLemma", () => {
     });
   });
 
-  it("should leave the same spelling ambiguous when the parse accounts for both roots", () => {
+  it("should answer with the other root when the parse names the other part of speech", () => {
     expect(
       resolveLemma({
         text: " ἀγαθοποιῶν",
@@ -230,14 +230,14 @@ describe("resolveLemma", () => {
         morphology: "robinson",
       }),
     ).toEqual({
-      unresolved: "ambiguous between ἀγαθοποιέω, ἀγαθοποιός",
+      lemma: "ἀγαθοποιός",
     });
   });
 
   it("should narrow two roots to one on the Strong's number the node already carries", () => {
     // εἴδω and ὁράω are two lexicon entries for one suppletive verb, and εἶδον
     // is the second aorist of both, so only the corpus's own G1492 separates
-    // them. 236 nodes across the two corpora reach their lemma this way.
+    // them. Nodes across the two corpora reach their lemma this way in quantity.
     expect(
       resolveLemma({
         text: "εἶδον",

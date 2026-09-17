@@ -20,8 +20,8 @@
  * asking whether two tokens agree asks whether **any** parse of one matches
  * **any** parse of the other.
  *
- * **A word carrying no code is still a word.** 16,357 LXX1935 nodes print a
- * word and tag it with nothing, and dropping them would make the words either
+ * **A word carrying no code is still a word.** LXX1935 nodes in quantity print
+ * a word and tag it with nothing, and dropping them would make the words either
  * side of one look adjacent. They arrive with no readings, which is exactly what
  * separates two neighbours without claiming anything about the word between.
  *
@@ -228,7 +228,8 @@ export function cellsFor(token: CorpusToken): CodexEntry[] {
  * Every verse of one version, walked, or nothing at all for a version whose
  * codes nothing can read.
  *
- * A generator rather than an array: LXX1935 alone prints 623,974 words, and a
+ * A generator rather than an array: LXX1935 alone prints hundreds of thousands
+ * of words, and a
  * caller that only ever looks at one verse at a time should not hold the corpus
  * in memory to do it.
  *

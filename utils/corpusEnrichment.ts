@@ -10,8 +10,8 @@
  * guesses, so a node with no lemma is a node the map could not narrow, and a
  * node with no Strong's number is usually a root the index simply has no number
  * for. Those are not faults to fix, and gating on them would leave
- * `npm run validate` permanently red over 50,035 LXX1935 nodes whose root has
- * no number at all. So this counts and does not fail; a coverage regression
+ * `npm run validate` permanently red over the LXX1935 nodes whose root has no
+ * number at all. So this counts and does not fail; a coverage regression
  * shows up the way it does in the audits next door, as a number that moved.
  *
  * **Does the stored transliteration still agree?** That one gates. It is

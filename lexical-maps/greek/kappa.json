@@ -4117,8 +4117,7 @@
         "transliteration": "kaúsōn",
         "cells": [
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "κεκαυμένῳ": {
@@ -4497,8 +4496,7 @@
       "κακοποιῶν": {
         "transliteration": "kakopoiō̂n",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["adj", "gen", "pl", "masc"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -5576,8 +5574,7 @@
       "καλῶν": {
         "transliteration": "kalō̂n",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "κέκληκά": {
@@ -7840,6 +7837,10 @@
         "transliteration": "karpoús",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
+      "καρπῷ": {
+        "transliteration": "karpō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
       "καρπῶν": {
         "transliteration": "karpō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
@@ -7853,10 +7854,6 @@
     "declension": "2m",
     "indices": { "strongs": "G2591" },
     "inflections": {
-      "Καρπῷ": {
-        "transliteration": "Karpō̂",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
-      },
       "Κάρπῳ": {
         "transliteration": "Kárpō",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
@@ -19107,10 +19104,7 @@
       },
       "κατασκηνώσεις": {
         "transliteration": "kataskēnṓseis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["noun", "acc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "κατασκήνωσον": {
         "transliteration": "kataskḗnōson",
@@ -30503,10 +30497,7 @@
       },
       "κλίνας": {
         "transliteration": "klínas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "κλίνη": {
         "transliteration": "klínē",
@@ -30517,10 +30508,7 @@
       },
       "κλίνῃ": {
         "transliteration": "klínē",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κλίνην": {
         "transliteration": "klínēn",
@@ -36242,10 +36230,7 @@
       },
       "κράτει": {
         "transliteration": "krátei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "κρατεῖν": {
         "transliteration": "krateîn",
@@ -37356,10 +37341,7 @@
       },
       "κρίνων": {
         "transliteration": "krínōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },

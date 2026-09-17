@@ -4252,8 +4252,6 @@
       "ἱερά": {
         "transliteration": "hierá",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
@@ -6876,10 +6874,7 @@
       },
       "Ἰουδαίᾳ": {
         "transliteration": "Ioudaía",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "Ιουδαίαν": {
         "transliteration": "Ioudaían",
@@ -6887,10 +6882,7 @@
       },
       "Ἰουδαίαν": {
         "transliteration": "Ioudaían",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Ιουδαίας": {
         "transliteration": "Ioudaías",
@@ -6898,10 +6890,7 @@
       },
       "Ἰουδαίας": {
         "transliteration": "Ioudaías",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -11054,10 +11043,6 @@
     "declension": "indeclinable",
     "indices": { "strongs": "G2494" },
     "inflections": {
-      "Ιωναν": {
-        "transliteration": "Iōnan",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      },
       "Ἰωνάν": {
         "transliteration": "Iōnán",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]

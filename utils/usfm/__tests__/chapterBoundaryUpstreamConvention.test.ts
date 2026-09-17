@@ -26,9 +26,9 @@ import {
  * produces, just merged into one block instead of `HEAD`'s three-way split.
  *
  * Targeted regression check against one named example — not a corpus-wide
- * sweep. The whole-corpus counts this file used to measure (59 `\b`-adjacent
- * boundaries, 197 bare-`\qN` boundaries, 400+ "everything else" boundaries)
- * are dropped along with the corpus/`HEAD` reads.
+ * sweep. The whole-corpus tallies this file used to measure, over `\b`-adjacent
+ * boundaries, bare-`\qN` boundaries and "everything else" boundaries, are
+ * dropped along with the corpus/`HEAD` reads.
  */
 describe("chapter-boundary handling, checked against a real WEBUS2020 fixture", () => {
   it("should reproduce Psalm 33:22→34:1's own real, named exception: HEAD's own textless footnote-anchored node hides the real paragraph start from upstreamMatchesRule's heading heuristic, but segmentVerses() itself still gets it right", () => {

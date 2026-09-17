@@ -559,6 +559,10 @@
         "transliteration": "gázais",
         "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
+      "γάζαν": {
+        "transliteration": "gázan",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "γάζης": {
         "transliteration": "gázēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
@@ -3817,10 +3821,7 @@
       },
       "γεννήσει": {
         "transliteration": "gennḗsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "γεννήσεις": {
         "transliteration": "gennḗseis",
@@ -6951,8 +6952,7 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "γνώσεσθε": {
@@ -7027,8 +7027,7 @@
       "γνῶσιν": {
         "transliteration": "gnō̂sin",
         "cells": [
-          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] },
-          { "parse": ["noun", "acc", "sg", "fem"] }
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
         ]
       },
       "γνώσομαι": {

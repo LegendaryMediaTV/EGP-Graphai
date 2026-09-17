@@ -5,28 +5,22 @@ import { mapContentText } from "./mapContentText";
  * Compose a Greek vowel's dialytika into the letter it belongs to, putting
  * it ahead of any accent that was written before it.
  *
- * Unicode's canonical order for a Greek vowel carrying both marks is base,
+ * Unicode's canonical order for a vowel carrying both marks is base,
  * dialytika, accent: Ἠσαΐου is ι + U+0308 + U+0301, which composes to the
  * single character U+0390. Written the other way round — the accent first,
  * whether precomposed into the letter (U+03AF) or as its own mark — the
  * sequence never composes, because both marks share combining class 230 and
  * canonical reordering leaves them where they are. The result looks right on
- * screen and is wrong everywhere it matters: Ἠσαί̈ου and Ἠσαΐου are
- * different strings, so a search, a diff, or a word alignment against another
- * edition sees two unrelated words.
- *
- * BYZ2026 carries 372 dialytika-bearing nodes across 121 word forms
- * (Ἠσαΐου, πρωΐ, Λευΐ, Νινευΐ and the rest), every one of them composed —
- * which is what this keeps true. The since-retired BYZ2018 arrived with 88
- * of them misordered, plus 6 places where a plain υ + dialytika sat
- * uncomposed. Both shapes are the same defect and this fixes both.
+ * screen and is wrong everywhere it matters: Ἠσαί̈ου and Ἠσαΐου are different
+ * strings, so a search, a diff, or a word alignment against another edition
+ * sees two unrelated words. A plain vowel whose dialytika never composed at
+ * all is the same defect and repairs the same way.
  *
  * The repair is deliberately confined to the affected letter. Normalizing a
  * whole string to NFC would be simpler and wrong: NFC folds the Greek ano
  * teleia (U+0387) to a middle dot and the Greek question mark (U+037E) to a
- * semicolon, and BYZ2026 alone uses the Greek ano teleia in 3,417 places
- * and the Greek question mark in 1,034. Rebuilding one base-plus-marks cluster at a time
- * leaves every other character in the string untouched.
+ * semicolon, both of which the Greek corpora print throughout. Rebuilding one
+ * base-plus-marks cluster at a time leaves every other character untouched.
  */
 
 /** U+0308 COMBINING DIAERESIS — the dialytika, as a standalone mark. */
