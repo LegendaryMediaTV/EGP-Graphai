@@ -375,6 +375,32 @@ export function isRoot(lemma: string): boolean {
 }
 
 /**
+ * Every Strong's number one root is allowed to carry, or null when the lemma
+ * names no root at all.
+ *
+ * The root's own numbers plus the ones its placement rules distribute, because
+ * a rule exists precisely to name a number the root's own entry does not: every
+ * form of `εἰμί` sits under G1510 and a rule is what knows the third singular
+ * present is G2076. Cell-level numbers add nothing, since `auditLexicalMaps`
+ * already holds a cell's numbers to a subset of its root's.
+ *
+ * Empty for a root the index has no number for, which is the commonest answer
+ * in the codex and is not the same as the lemma being unknown — hence the null.
+ * A caller checking a corpus number against this needs no separate case for
+ * that empty answer: a number the codex places on a root is a number that
+ * root can carry, and a number it does not place is one the root cannot carry,
+ * whether the codex gave that root several numbers, one, or none.
+ *
+ * @param lemma A corpus node's own `lemma`, which must be a root exactly.
+ */
+export function numbersFor(lemma: string): string[] | null {
+  const own = rootIndex().get(lemma);
+  if (own === undefined) return null;
+  const placed = (strongsPlacements().get(lemma) ?? []).map((rule) => rule.n);
+  return [...new Set([...own, ...placed])].sort();
+}
+
+/**
  * Strong's placement rules by root, from every `indices` file declaring itself
  * the `strongs` index.
  *

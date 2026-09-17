@@ -722,6 +722,230 @@ describe("exportContent", () => {
     });
   });
 
+  describe("convertVerseToMarkdown's leading heading run", () => {
+    /**
+     * Renders a chapter the way `convertBibleVersionToMarkdown` renders one —
+     * the chapter line, a blank line, then every verse — and formats it, so
+     * each assertion below reads against the document that actually lands in
+     * `exports/markdown-par/`. Every expected string in this block is a
+     * hand-written ideal that `formatMarkdownText` leaves untouched.
+     */
+    async function renderChapter(
+      chapterNum: number,
+      verses: VerseSchema[],
+    ): Promise<string> {
+      const footnotes: string[] = [];
+      const lines = [`## Chapter ${chapterNum}`, ""];
+      for (const verse of verses) {
+        lines.push(convertVerseToMarkdown(verse, footnotes));
+      }
+      return formatMarkdownText(lines.join("\n") + "\n");
+    }
+
+    /** A verse whose content is `content`, in a book/chapter the shape doesn't depend on. */
+    function verseOf(
+      verse: number,
+      content: VerseSchema["content"],
+    ): VerseSchema {
+      return { book: "PSA", chapter: 111, verse, content };
+    }
+
+    it("should hoist both headings above the verse number when two lead a mid-chapter verse", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(1, [{ text: "Praise ye the LORD." }]),
+        verseOf(2, [
+          { heading: "ג Gimel" },
+          { heading: "ד Dalet" },
+          { text: "The works of the LORD are great," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n<sup>1</sup> Praise ye the LORD.\n\n" +
+          "### ג Gimel\n\n### ד Dalet\n\n" +
+          "<sup>2</sup> The works of the LORD are great,\n",
+      );
+    });
+
+    it("should hoist all three headings above the verse number when three lead a verse", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(9, [
+          { heading: "ק Qof" },
+          { heading: "ר Resh" },
+          { heading: "ש Shin" },
+          { text: "He sent redemption unto his people:" },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n### ק Qof\n\n### ר Resh\n\n### ש Shin\n\n" +
+          "<sup>9</sup> He sent redemption unto his people:\n",
+      );
+    });
+
+    it("should hoist both headings above the verse number when two open a chapter", async () => {
+      const markdown = await renderChapter(20, [
+        verseOf(22, [
+          { heading: "The Book of the Covenant" },
+          { heading: "Worship and Justice" },
+          { text: "And the LORD said unto Moses," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 20\n\n### The Book of the Covenant\n\n### Worship and Justice\n\n" +
+          "<sup>22</sup> And the LORD said unto Moses,\n",
+      );
+    });
+
+    it("should hoist a heading and the subtitle after it, in source order, leaving no blockquote marker mid-verse", async () => {
+      const markdown = await renderChapter(42, [
+        verseOf(1, [
+          { heading: "Book Two" },
+          { subtitle: "To the chief Musician" },
+          { text: "As the hart panteth after the water brooks," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 42\n\n### Book Two\n\n> _To the chief Musician_\n\n" +
+          "<sup>1</sup> As the hart panteth after the water brooks,\n",
+      );
+    });
+
+    it("should hoist a subtitle and the heading after it, in source order, leaving no blockquote marker mid-verse", async () => {
+      const markdown = await renderChapter(42, [
+        verseOf(1, [
+          { subtitle: "To the chief Musician" },
+          { heading: "Book Two" },
+          { text: "As the hart panteth after the water brooks," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 42\n\n> _To the chief Musician_\n\n### Book Two\n\n" +
+          "<sup>1</sup> As the hart panteth after the water brooks,\n",
+      );
+    });
+
+    it("should never leave a stray blockquote marker inside a verse line, whatever the run's order", async () => {
+      for (const run of [
+        [{ heading: "H" }, { subtitle: "S" }],
+        [{ subtitle: "S" }, { heading: "H" }],
+        [{ subtitle: "S1" }, { subtitle: "S2" }],
+      ]) {
+        const markdown = await renderChapter(42, [
+          verseOf(1, [
+            ...run,
+            { text: "verse text" },
+          ] as VerseSchema["content"]),
+        ]);
+
+        const verseLine = markdown
+          .split("\n")
+          .find((line) => line.includes("<sup>1</sup>"));
+        expect(verseLine).toBe("<sup>1</sup> verse text");
+      }
+    });
+
+    it("should hoist both acrostic markers as #### above the verse number", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(2, [
+          { heading: "ג Gimel", type: "acrostic" },
+          { heading: "ד Dalet", type: "acrostic" },
+          { text: "The works of the LORD are great," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n#### ג Gimel\n\n#### ד Dalet\n\n" +
+          "<sup>2</sup> The works of the LORD are great,\n",
+      );
+    });
+
+    it("should leave the common one-block and no-block verses reading exactly as they do today", async () => {
+      const singleHeading = await renderChapter(2, [
+        {
+          book: "GEN",
+          chapter: 2,
+          verse: 1,
+          content: [
+            { heading: "The Seventh Day" },
+            { text: "Thus the heavens" },
+          ],
+        },
+      ]);
+      const singleSubtitle = await renderChapter(3, [
+        {
+          book: "PSA",
+          chapter: 3,
+          verse: 1,
+          content: [
+            { subtitle: "A Psalm of David" },
+            { text: " LORD, how are they increased" },
+          ],
+        },
+      ]);
+      const noLeadingBlock = await renderChapter(1, [
+        {
+          book: "GEN",
+          chapter: 1,
+          verse: 1,
+          content: [{ text: "In the beginning" }],
+        },
+      ]);
+
+      expect(singleHeading).toBe(
+        "## Chapter 2\n\n### The Seventh Day\n\n<sup>1</sup> Thus the heavens\n",
+      );
+      expect(singleSubtitle).toBe(
+        "## Chapter 3\n\n> _A Psalm of David_\n\n<sup>1</sup> LORD, how are they increased\n",
+      );
+      expect(noLeadingBlock).toBe(
+        "## Chapter 1\n\n<sup>1</sup> In the beginning\n",
+      );
+    });
+
+    it("should keep the paragraph blank line when the node after a two-heading run opens a paragraph", async () => {
+      const markdown = await renderChapter(2, [
+        {
+          book: "GEN",
+          chapter: 2,
+          verse: 1,
+          content: [
+            { heading: "The Seventh Day" },
+            { heading: "Rest" },
+            { paragraph: true, text: "Thus the heavens" },
+          ],
+        },
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 2\n\n### The Seventh Day\n\n### Rest\n\n<sup>1</sup> Thus the heavens\n",
+      );
+    });
+
+    it("should label a footnote raised from the second heading of a run as a heading footnote", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 1,
+        content: [
+          { heading: "The Seventh Day" },
+          {
+            heading: [{ text: "Rest", foot: { content: "Or repose." } }],
+          },
+          { text: "Thus the heavens" },
+        ],
+      };
+      const footnotes: string[] = [];
+
+      convertVerseToMarkdown(verse, footnotes);
+
+      expect(footnotes).toEqual(["- <sup>a</sup> Heading. Or repose."]);
+    });
+  });
+
   describe("real-world verses from KJV1769", () => {
     it("should match expected text export for Genesis 1:1", () => {
       const verse: VerseSchema = {
@@ -1900,7 +2124,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1928,7 +2154,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1951,7 +2179,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1979,7 +2209,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1996,7 +2228,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a c d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a c d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -2009,7 +2241,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _c_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _c_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -2025,7 +2257,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _b c_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _b c_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -2049,7 +2281,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a c e d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a c e d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -2065,7 +2297,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a **c** d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a **c** d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -2092,7 +2324,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b **c**"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -2120,7 +2354,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n### a <sup>a</sup> d\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n### a <sup>a</sup> d\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Heading. b _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -4073,10 +4309,9 @@ describe("exportContent", () => {
           MARKDOWN_TRANSLITERATED_OPTIONS,
         ),
       ).toBe(
-        // The verse-level fallback lifts one leading wrapper, so the subtitle
-        // stays inline here. A chapter-opening verse has both hoisted above it
-        // by `convertBibleVersionToMarkdown` instead.
-        "\n### Archḗ\n<sup>1</sup> > _Psalmós_\n\n**Bíblos** _genéseōs_<sup>a</sup> IĒSOÛ<br> christoû,",
+        // Both leading wrappers are hoisted above the verse number, in source
+        // order, wherever the verse sits in its chapter.
+        "\n### Archḗ\n\n> _Psalmós_\n\n<sup>1</sup> **Bíblos** _genéseōs_<sup>a</sup> IĒSOÛ<br> christoû,",
       );
       expect(footnotes).toEqual(["- <sup>a</sup> 1. Dauíd"]);
     });

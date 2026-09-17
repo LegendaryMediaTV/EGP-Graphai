@@ -1239,11 +1239,9 @@ A wise son brings joy to his father,<br>but a foolish son grief to his mother.
 
 ### Thirty Sayings of the Wise
 
-<sup>17</sup>
-
 ### Saying 1
 
-Incline your ear and hear the words of the wise—<br>apply your mind to my knowledge—<br>
+<sup>17</sup> Incline your ear and hear the words of the wise—<br>apply your mind to my knowledge—<br>
 <sup>18</sup> for it is pleasing when you keep them within you<br>and they are constantly on your lips.<br>
 <sup>19</sup> So that your trust may be in the LORD,<br>I instruct you today—yes, you.<br>
 <sup>20</sup> Have I not written for you thirty sayings<sup>c</sup><br>about counsel and knowledge,<br>

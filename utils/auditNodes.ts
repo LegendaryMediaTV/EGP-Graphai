@@ -816,8 +816,8 @@ function checkVerseInitialSpace(
 // The heading-paragraph check — a heading/subtitle run not immediately followed by a paragraph start
 // ---------------------------------------------------------------------------
 
-/** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. */
-function isHeadingOrSubtitle(node: unknown): boolean {
+/** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. `utils/exportContent.ts` reads the same run to hoist it above a verse number, and shares this definition rather than keeping a second copy of it. */
+export function isHeadingOrSubtitle(node: unknown): boolean {
   if (node === null || typeof node !== "object" || Array.isArray(node))
     return false;
   const record = node as Record<string, unknown>;

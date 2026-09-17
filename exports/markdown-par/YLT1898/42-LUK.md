@@ -1369,11 +1369,9 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 
 ### In Jerusalem
 
-<sup>28</sup>
-
 ### Triumphal Entry
 
-And having said these things, he went on before, going up to Jerusalem.
+<sup>28</sup> And having said these things, he went on before, going up to Jerusalem.
 <sup>29</sup> And it came to pass, as he came nigh to Bethphage and Bethany, unto the mount called of the Olives, he sent two of his disciples,
 <sup>30</sup> having said, Go away to the village over-against, in which, entering into, ye shall find a colt bound, on which no one of men did ever sit, having loosed it, bring _it_;
 <sup>31</sup> and if any one doth question you, Wherefore do ye loose _it_? thus ye shall say to him—The Lord hath need of it.”

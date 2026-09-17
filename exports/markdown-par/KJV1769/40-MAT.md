@@ -323,11 +323,9 @@ which being interpreted is, God with us.
 
 ### Marvellous Deeds
 
-<sup>5</sup>
-
 ### Power Over Disease
 
-And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,
+<sup>5</sup> And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,
 <sup>6</sup> and saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.
 <sup>7</sup> And Jesus saith unto him, I will come and heal him.
 <sup>8</sup> The centurion answered and said, Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.

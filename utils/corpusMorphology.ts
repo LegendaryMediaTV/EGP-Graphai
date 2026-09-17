@@ -1,6 +1,6 @@
 /**
- * Corpus-against-map audit: every `morph` code and every `lemma` a version
- * prints must be one the lexical map can account for.
+ * Corpus-against-map audit: every `morph` code, every `lemma` and every
+ * Strong's number a version prints must be one the lexical map can account for.
  *
  * This is the check that makes the map's claim testable. The map stores what is
  * known about each inflected form, and a morphology code is one rendering of
@@ -29,6 +29,18 @@
  * rekeyed out from under it, which left the word unable to take a Strong's
  * number and nothing reporting why.
  *
+ * A **Strong's number** is checked against that lemma, and is the one test here
+ * that reads two of the node's own claims against each other rather than
+ * against the map. A node saying both which word it is and which number it
+ * carries can name two different words, and when it does, every other check
+ * passes: the spelling is real, the parse is real, the lemma is a root. Only the
+ * pair shows it. LXX1935 printed the city Gaza with `γάζα` the treasury's number
+ * in every genitive it had, and nothing saw it until the two were compared.
+ * A number the corpus carries must be sourced from the codex, so a lemma whose
+ * root carries no number at all fails the check the same way one carrying the
+ * wrong number does. See {@link numbersFor} for what a root may carry, empty
+ * answer included.
+ *
  * What the map holds for a spelling is asked of `lexicon.ts` rather than
  * indexed here. A second index would be a second answer to the very question
  * this check exists to settle.
@@ -42,6 +54,7 @@ import {
   inflectionCategories,
   isRoot,
   lexicalMapLanguages,
+  numbersFor,
 } from "./lexicon";
 import { spellingsOf } from "./punctuation";
 
@@ -135,7 +148,7 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
         chapter: record.chapter,
         verse: record.verse,
       };
-      walk(record.content, (candidateSpellings, morph, lemma) => {
+      walk(record.content, (candidateSpellings, morph, lemma, strong) => {
         const word = candidateSpellings[0];
         // A lemma is checked whether or not the node also carries a code,
         // because the two say different things and fail apart. `Εὐμενής` kept
@@ -148,6 +161,33 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
             morph: morph ?? "",
             reason: `lemma "${lemma}" names no root in the map`,
           });
+        }
+        // A node naming both a lemma and a number makes two claims about which
+        // word it is, and they can name different words. LXX1935 tagged the
+        // city Gaza with γάζα the treasury's number in every genitive it
+        // printed, lemma saying one word and number the other, which nothing
+        // else here could see: the spelling is real, the parse is real, and only
+        // the two claims against each other show the fault.
+        //
+        // A root that carries no number at all is not silent about the
+        // question — it answers it. The codex is where a Strong's number
+        // comes from, so a root the index gives none is a root with nothing
+        // to lend, and a node tagged with a number anyway is contradicting
+        // its own lemma exactly as much as one tagged with the wrong number
+        // out of several. Both are reported the same way.
+        if (lemma !== undefined && strong !== undefined) {
+          const allowed = numbersFor(lemma);
+          if (allowed !== null && !allowed.includes(strong)) {
+            const carries = allowed.length
+              ? `can carry (${allowed.join(", ")})`
+              : `can carry — the root carries no Strong's number at all`;
+            findings.push({
+              ...at,
+              word,
+              morph: morph ?? "",
+              reason: `Strong's number ${strong} is not one "${lemma}" ${carries}`,
+            });
+          }
         }
         if (morph === undefined) return;
 
@@ -191,11 +231,17 @@ export function auditCorpusMorphology(version: string): CorpusMorphAudit {
 
 /**
  * Visit every word node carrying a morph code or a lemma, with the spellings to
- * try. Either may be absent, and the visitor decides what each one is worth.
+ * try. Any of the three may be absent, and the visitor decides what each one is
+ * worth.
  */
 function walk(
   nodes: unknown,
-  visit: (spellings: string[], morph?: string, lemma?: string) => void,
+  visit: (
+    spellings: string[],
+    morph?: string,
+    lemma?: string,
+    strong?: string,
+  ) => void,
 ): void {
   if (!Array.isArray(nodes)) return;
   /** The spellings of the last word seen, for a text-less code to attach to. */
@@ -214,14 +260,15 @@ function walk(
       // which is this corpus's own convention. Skipping such a node would leave
       // its code outside every check here, and a code the map cannot explain is
       // worth reporting wherever it is printed.
-      if (preceding.length) visit(preceding, node.morph, node.lemma);
+      if (preceding.length)
+        visit(preceding, node.morph, node.lemma, node.strong);
       continue;
     }
 
     const candidates = spellingsOf(String(node.text)).filter(Boolean);
     if (!candidates.length) continue;
     preceding = candidates;
-    visit(candidates, node.morph, node.lemma);
+    visit(candidates, node.morph, node.lemma, node.strong);
   }
 }
 

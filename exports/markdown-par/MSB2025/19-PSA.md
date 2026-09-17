@@ -1252,9 +1252,9 @@ Amen and Amen.
 
 ### As the Deer Pants for the Water
 
-<sup>1</sup> > _For the choirmaster. A Maskil of the sons of Korah.<sup>a</sup>_
+> _For the choirmaster. A Maskil of the sons of Korah.<sup>a</sup>_
 
-As the deer pants for streams of water,<br>so my soul longs after You, O God.<br>
+<sup>1</sup> As the deer pants for streams of water,<br>so my soul longs after You, O God.<br>
 <sup>2</sup> My soul thirsts for God, the living God.<br>When shall I come and appear in God’s presence?<sup>b</sup><br>
 <sup>3</sup> My tears have been my food<br>both day and night,<br>while men ask me all day long,<br>“Where is your God?”<br>
 <sup>4</sup> These things come to mind as I pour out my soul:<br>how I walked with the multitude,<br>leading the festive procession to the house of God<br>with shouts of joy and praise.
@@ -2160,9 +2160,9 @@ Amen and amen.
 
 ### Surely God Is Good to Israel
 
-<sup>1</sup> > _A Psalm of Asaph._
+> _A Psalm of Asaph._
 
-Surely God is good to Israel,<br>to those who are pure in heart.<br>
+<sup>1</sup> Surely God is good to Israel,<br>to those who are pure in heart.<br>
 <sup>2</sup> But as for me, my feet had almost stumbled;<br>my steps had nearly slipped.<br>
 <sup>3</sup> For I envied the arrogant<br>when I saw the prosperity of the wicked.
 
@@ -2781,9 +2781,9 @@ Amen and amen.
 
 ### From Everlasting to Everlasting
 
-<sup>1</sup> > _A prayer of Moses the man of God._
+> _A prayer of Moses the man of God._
 
-Lord, You have been our dwelling place<br>through all generations.<br>
+<sup>1</sup> Lord, You have been our dwelling place<br>through all generations.<br>
 <sup>2</sup> Before the mountains were born<br>or You brought forth the earth and the world,<br>from everlasting to everlasting<br>You are God.
 
 <sup>3</sup> You return man to dust,<br>saying, “Return, O sons of mortals.”<br>

@@ -1258,11 +1258,9 @@ And when he was now not far from the house, the centurion sent friends to him, s
 
 ### In Jerusalem
 
-<sup>28</sup>
-
 ### Triumphal Entry
 
-And when he had thus spoken, he went before, ascending up to Jerusalem.
+<sup>28</sup> And when he had thus spoken, he went before, ascending up to Jerusalem.
 <sup>29</sup> And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called _the mount_ of Olives, he sent two of his disciples,
 <sup>30</sup> saying, Go ye into the village over against _you_; in the which at your entering ye shall find a colt tied, whereon yet never man sat: loose him, and bring _him hither_.
 <sup>31</sup> And if any man ask you, Why do ye loose _him_? thus shall ye say unto him, Because the Lord hath need of him.

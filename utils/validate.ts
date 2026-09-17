@@ -3374,7 +3374,7 @@ async function main(requestedVersion?: string) {
     }
     if (!corpusMorphologyPassed) {
       console.error(
-        "\n❌ Corpus morphology audit failed! Each code above is one the lexical map cannot account for: a spelling the map does not hold, a spelling whose cells do not include this parse, or a code written in a scheme the version does not declare in its own `morphology` field. Narrowing an indeclinable from context is allowed and never reported, so a finding here is a real gap. No auto-fix: add the cell the corpus attests, or correct the code.",
+        "\n❌ Corpus morphology audit failed! Each finding above is one the lexical map cannot account for: a spelling the map does not hold, a spelling whose cells do not include this parse, a code written in a scheme the version does not declare in its own `morphology` field, a lemma naming no root, or a Strong's number the node's own lemma cannot carry. That last one is the node contradicting itself: a number has to come from the codex, and a node's own lemma is wrong to carry one its root does not give it, whether the root gives some other number or none at all. Where the root holds other numbers, the tagged one is usually naming some different, homographic word, so read the clause and decide which word it is. Where the root holds none, there is no different word to go looking for — the fix is to drop the number, not to invent one. Narrowing an indeclinable from context is allowed and never reported, so a finding here is a real gap. No auto-fix: add the cell the corpus attests, or correct the code, the lemma, or the number.",
       );
     }
     if (!orthographyPassed) {

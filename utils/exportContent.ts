@@ -6,6 +6,7 @@ import Content, {
   ContentHeading,
   ContentNested,
   ContentObject,
+  ContentSubtitle,
 } from "../types/Content";
 import {
   formatMarkdownText,
@@ -13,6 +14,7 @@ import {
 } from "../functions/writeJsonFile";
 import VerseSchema from "../types/VerseSchema";
 import BibleVersion from "../types/Version";
+import { isHeadingOrSubtitle } from "./auditNodes";
 
 // ============================================================================
 // Core Content Rendering Options
@@ -1330,6 +1332,53 @@ function convertVerseToText(
 }
 
 /**
+ * How many nodes at the head of `content` are `heading` or `subtitle`
+ * wrappers — the run that renders as block constructs above a verse number
+ * rather than inline in the verse. Zero for content that is not an array,
+ * since a lone node carries no run.
+ *
+ * `convertVerseToMarkdown` hoists exactly this many nodes;
+ * `convertBibleVersionToMarkdown` reads the same count to see past the run to
+ * the verse's real first node.
+ */
+function leadingBlockRunLength(content: Content): number {
+  if (!Array.isArray(content)) return 0;
+  let length = 0;
+  while (length < content.length && isHeadingOrSubtitle(content[length])) {
+    length++;
+  }
+  return length;
+}
+
+/**
+ * Renders one hoisted node — a `heading` or a `subtitle`, as
+ * `leadingBlockRunLength` counts them — as its own markdown block, newline
+ * delimited on both sides so blocks concatenate into separate paragraphs.
+ *
+ * Each kind carries its own footnote label, so a footnote raised from a
+ * heading reads "Heading." rather than the verse number; a subtitle also
+ * renders inside its caller's italic wrapper, since "> " is a block marker
+ * that sits outside the emphasis span.
+ */
+function renderLeadingBlock(node: Content, ctx: RenderContext): string {
+  if (typeof node === "object" && node !== null && "heading" in node) {
+    const heading = node as ContentHeading;
+    const headingText = renderContent(heading.heading, {
+      ...ctx,
+      footnotePrefix: "Heading.",
+    });
+    return `\n${markdownHeadingMarker(heading.type)} ${headingText}\n`;
+  }
+
+  const subtitleText = renderContent((node as ContentSubtitle).subtitle, {
+    ...ctx,
+    withinItalicWrapper: true,
+    footnotePrefix: "Subtitle.",
+  });
+  return `\n${ctx.options.subtitleWrapper(subtitleText)}\n`;
+}
+
+/**
  * Convert a verse to markdown format. Any footnotes it renders are appended
  * to chapterFootnotes, which the caller shares across every verse in a
  * chapter. Pass `MARKDOWN_TRANSLITERATED_OPTIONS` for the romanized edition.
@@ -1354,31 +1403,20 @@ function convertVerseToMarkdown(
   let leadingPrefix = "";
   let processedContent = verse.content;
 
-  // A leading heading or subtitle renders above the verse number rather than
-  // inline — the fallback for whatever `convertBibleVersionToMarkdown`'s
-  // chapter-level hoist didn't already consume: the second heading of a
-  // chapter-opening [heading, heading] run, or any subtitle that doesn't open
-  // a chapter. Left inline, a subtitle would strand a meaningless mid-line
-  // "> " blockquote marker in the verse.
-  if (Array.isArray(verse.content) && verse.content.length > 0) {
-    const firstItem = verse.content[0];
-    if (typeof firstItem === "object" && "heading" in firstItem) {
-      const headingText = renderContent(firstItem.heading, {
-        ...ctx,
-        footnotePrefix: "Heading.",
-      });
-      const marker = markdownHeadingMarker((firstItem as ContentHeading).type);
-      leadingPrefix = `\n${marker} ${headingText}\n`;
-      processedContent = verse.content.slice(1);
-    } else if (typeof firstItem === "object" && "subtitle" in firstItem) {
-      const subtitleText = renderContent(firstItem.subtitle, {
-        ...ctx,
-        withinItalicWrapper: true,
-        footnotePrefix: "Subtitle.",
-      });
-      leadingPrefix = `\n${ctx.options.subtitleWrapper(subtitleText)}\n`;
-      processedContent = verse.content.slice(1);
-    }
+  // The whole leading run of headings and subtitles renders above the verse
+  // number, in source order, however long it is and whatever the kinds are.
+  // Nothing is left behind: a node left inline renders after the verse
+  // number, which puts the number between two headings, and a subtitle left
+  // there also strands a meaningless mid-line "> " blockquote marker in the
+  // verse.
+  const runLength = leadingBlockRunLength(verse.content);
+  if (runLength > 0) {
+    const content = verse.content as Content[];
+    leadingPrefix = content
+      .slice(0, runLength)
+      .map((node) => renderLeadingBlock(node, ctx))
+      .join("");
+    processedContent = content.slice(runLength);
   }
 
   // Whether the verse (after any heading is pulled out) opens its own paragraph, which decides the blank line below
@@ -1413,7 +1451,13 @@ function convertVerseToMarkdown(
   text = text.replace(/^ +/, "");
   text = text.replace(/ +/g, " ");
 
-  const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
+  // A hoisted run is a sequence of markdown blocks, so a blank line closes
+  // the last of them before the verse number — the run's own trailing newline
+  // plus this one. Without it a subtitle's blockquote continues lazily onto
+  // the next line and the verse number prints as "> <sup>1</sup>". A verse
+  // opening its own paragraph wants the same blank line for its own reason.
+  const blankLineBeforeVerse = leadingPrefix !== "" || hasLeadingParagraph;
+  const paragraphPrefix = blankLineBeforeVerse ? "\n" : "";
 
   // Last, after the two rewrites above: stripping a leading space and
   // collapsing a run of spaces both change the neighbors the flanking rules
@@ -1557,59 +1601,17 @@ async function convertBibleVersionToMarkdown(
 
       const chapterFootnotes: string[] = [];
 
-      // A leading run of heading/subtitle wrappers prints above the chapter
-      // rather than inside verse 1, hoisted in the order they actually
-      // appear — a fixed subtitle-then-heading order would silently miss a
-      // [heading, subtitle] leading run and leave a stray mid-line "> "
-      // blockquote marker in verse 1. At most one heading and one subtitle
-      // are consumed here, never a second of the same kind, so a [heading,
-      // heading] chapter opening still leaves its second heading to
-      // `convertVerseToMarkdown`'s own verse-level fallback.
-      let hoistedHeading = false;
-      let hoistedSubtitle = false;
-      while (chapterVerses.length > 0) {
-        const firstContent = chapterVerses[0].content;
-        if (!Array.isArray(firstContent) || firstContent.length === 0) break;
-        const firstItem = firstContent[0];
-        if (typeof firstItem !== "object") break;
+      // A chapter knows only "## Chapter N, then the verses".
+      // `convertVerseToMarkdown` owns the whole leading-run rule and hoists
+      // every heading and subtitle at the head of a verse above its verse
+      // number. Hoisting here as well meant two functions each taking a
+      // different arbitrary number of nodes, neither knowing what the other
+      // consumed, which is how a verse number ended up between two headings.
 
-        if (!hoistedSubtitle && "subtitle" in firstItem) {
-          const ctx: RenderContext = {
-            options: { ...options, includeFootnotes: true },
-            footnotes: chapterFootnotes,
-            verseNum: chapterVerses[0].verse,
-            withinItalicWrapper: true,
-            footnotePrefix: "Subtitle.",
-          };
-          const subtitleText = renderContent(firstItem.subtitle, ctx);
-          markdownLines.push("");
-          markdownLines.push(options.subtitleWrapper(subtitleText));
-          chapterVerses[0].content = firstContent.slice(1);
-          hoistedSubtitle = true;
-          continue;
-        }
-
-        if (!hoistedHeading && "heading" in firstItem) {
-          const ctx: RenderContext = {
-            options: { ...options, includeFootnotes: true },
-            footnotes: chapterFootnotes,
-            footnotePrefix: "Heading.",
-          };
-          const headingText = renderContent(firstItem.heading, ctx);
-          const marker = markdownHeadingMarker(
-            (firstItem as ContentHeading).type,
-          );
-          markdownLines.push("");
-          markdownLines.push(`${marker} ${headingText}`);
-          chapterVerses[0].content = firstContent.slice(1);
-          hoistedHeading = true;
-          continue;
-        }
-
-        break;
-      }
-
-      // Whether verse 1 opens its own paragraph, which decides the blank line
+      // Whether verse 1 opens its own paragraph, which decides the blank
+      // line. Read past its leading heading/subtitle run: those nodes are
+      // hoisted above the verse number, so it is the node after them whose
+      // paragraph flag decides the spacing.
       let firstVerseHasLeadingParagraph = false;
       if (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;
@@ -1617,10 +1619,11 @@ async function convertBibleVersionToMarkdown(
           firstVerseHasLeadingParagraph =
             "paragraph" in firstContent ||
             !!(firstContent as ContentObject).paragraph;
-        } else if (Array.isArray(firstContent) && firstContent.length > 0) {
-          const first = firstContent[0];
+        } else if (Array.isArray(firstContent)) {
+          const first = firstContent[leadingBlockRunLength(firstContent)];
           firstVerseHasLeadingParagraph =
             typeof first === "object" &&
+            first !== null &&
             ("paragraph" in first || !!(first as ContentObject).paragraph);
         }
       }
@@ -1647,15 +1650,14 @@ async function convertBibleVersionToMarkdown(
       }
     }
 
-    // The `.map` below catches the chapter-hoisted subtitle and heading
-    // lines, built here and never passed through `convertVerseToMarkdown`; a
-    // second pass over an already-resolved verse line changes nothing.
+    // Every line here comes back from `convertVerseToMarkdown` already
+    // resolved — the chapter line and the footnote lines carry no emphasis
+    // delimiters of their own — so there is nothing left for this level to
+    // resolve.
     const outputPath = path.join(outputDir, file.replace(".json", ".md"));
     await writeFileAtomic(
       outputPath,
-      await formatMarkdownText(
-        markdownLines.map(resolveUnparsableEmphasisSpans).join("\n") + "\n",
-      ),
+      await formatMarkdownText(markdownLines.join("\n") + "\n"),
     );
     console.log(`Markdown conversion complete: ${outputPath}`);
   }

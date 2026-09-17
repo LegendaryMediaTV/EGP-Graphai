@@ -357,11 +357,9 @@ And when he came down from the mount, great multitudes<sup>b</sup> did follow hi
 
 ### Marvellous Deeds
 
-<sup>5</sup>
-
 ### Power Over Disease
 
-And Jesus having entered into Capernaum, there came to him a centurion calling upon him,
+<sup>5</sup> And Jesus having entered into Capernaum, there came to him a centurion calling upon him,
 <sup>6</sup> and saying, “Sir, my young man hath been laid in the house a paralytic, fearfully afflicted,”
 <sup>7</sup> and Jesus saith to him, “I, having come, will heal<sup>d</sup> him.”
 <sup>8</sup> And the centurion answering said, “Sir, I am not worthy<sup>e</sup> that thou mayest enter under my roof, but only say a word, and my servant shall be healed;
