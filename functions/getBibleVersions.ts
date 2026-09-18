@@ -50,8 +50,8 @@ function disambiguateDuplicateNames(versions: BibleVersion[]): BibleVersion[] {
       if (!yearMatch) {
         console.error(
           `Cannot disambiguate duplicate name "${String(
-            version.name
-          )}" for version ${version._id}: _id has no trailing 4-digit year`
+            version.name,
+          )}" for version ${version._id}: _id has no trailing 4-digit year`,
         );
         continue;
       }
@@ -129,7 +129,7 @@ export function getBibleVersions(versionsDir?: string): BibleVersion[] {
  */
 export function getBibleVersion(
   versionId: string,
-  versionsDir?: string
+  versionsDir?: string,
 ): BibleVersion | undefined {
   const dir = versionsDir ?? BIBLE_VERSIONS_DIR;
   const versionFilePath = path.join(dir, versionId, VERSION_FILENAME);

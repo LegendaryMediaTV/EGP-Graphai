@@ -262,8 +262,6 @@
 
 <sup>13</sup> And when the devil had ended all the temptation, he departed from him for a season.
 
-### His Message and Mission
-
 <sup>14</sup> And Jesus returned in the power of the Spirit into Galilee: and there went out a fame of him through all the region round about.
 <sup>15</sup> And he taught in their synagogues, being glorified of all.
 
@@ -1256,12 +1254,9 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>26</sup> For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him.
 <sup>27</sup> But those mine enemies, which would not that I should reign over them, bring hither, and slay _them_ before me.
 
-### In Jerusalem
-<sup>28</sup> 
 ### Triumphal Entry
 
-
-And when he had thus spoken, he went before, ascending up to Jerusalem.
+<sup>28</sup> And when he had thus spoken, he went before, ascending up to Jerusalem.
 <sup>29</sup> And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called _the mount_ of Olives, he sent two of his disciples,
 <sup>30</sup> saying, Go ye into the village over against _you_; in the which at your entering ye shall find a colt tied, whereon yet never man sat: loose him, and bring _him hither_.
 <sup>31</sup> And if any man ask you, Why do ye loose _him_? thus shall ye say unto him, Because the Lord hath need of him.
@@ -1419,8 +1414,6 @@ And when he had thus spoken, he went before, ascending up to Jerusalem.
 > - <sup>a</sup> 2. _See Mark 12.42_
 
 ## Chapter 22
-
-### His Death and Resurrection
 
 <sup>1</sup> Now the feast of unleavened bread drew nigh, which is called the Passover.
 <sup>2</sup> And the chief priests and scribes sought how they might kill him; for they feared the people.

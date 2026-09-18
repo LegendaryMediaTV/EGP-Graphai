@@ -38,7 +38,9 @@ import { findHeadingParagraphMismatches, VerseRecord } from "./auditNodes";
 function withParagraph(node: unknown): unknown {
   if (typeof node === "string") return { paragraph: true, text: node };
   if (node === null || typeof node !== "object" || Array.isArray(node))
-    throw new Error(`cannot flag a ${node === null ? "null" : typeof node} node as opening a paragraph`);
+    throw new Error(
+      `cannot flag a ${node === null ? "null" : typeof node} node as opening a paragraph`,
+    );
   return { paragraph: true, ...(node as Record<string, unknown>) };
 }
 
@@ -64,9 +66,10 @@ function withParagraph(node: unknown): unknown {
  * @throws If a finding exists but the verse's own `content` is not an array —
  *   `nextIndex` has nowhere to index into otherwise
  */
-export function addMissingHeadingParagraphsInVerse(
-  verse: VerseRecord,
-): { verse: VerseRecord; changed: boolean } {
+export function addMissingHeadingParagraphsInVerse(verse: VerseRecord): {
+  verse: VerseRecord;
+  changed: boolean;
+} {
   const findings = findHeadingParagraphMismatches([verse]);
   if (findings.length === 0) return { verse, changed: false };
 
@@ -77,7 +80,8 @@ export function addMissingHeadingParagraphsInVerse(
     );
 
   const rewritten: unknown[] = [...nodes];
-  for (const finding of findings) rewritten[finding.nextIndex] = withParagraph(rewritten[finding.nextIndex]);
+  for (const finding of findings)
+    rewritten[finding.nextIndex] = withParagraph(rewritten[finding.nextIndex]);
 
   return { verse: { ...verse, content: rewritten as never }, changed: true };
 }

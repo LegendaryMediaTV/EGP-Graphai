@@ -34,7 +34,11 @@
  * them; ordinary verse content never does.
  */
 
-import Content, { ContentHeading, ContentObject, ContentSubtitle } from "../../types/Content";
+import Content, {
+  ContentHeading,
+  ContentObject,
+  ContentSubtitle,
+} from "../../types/Content";
 import Footnote from "../../types/Footnote";
 
 /** The only two marks this source can ever produce — `sc`/`b` never occur; building handling for them would be dead code, not defensive completeness. */
@@ -79,7 +83,10 @@ function sameMarks(
 ): boolean {
   const left = a ?? [];
   const right = b ?? [];
-  return left.length === right.length && left.every((mark, index) => mark === right[index]);
+  return (
+    left.length === right.length &&
+    left.every((mark, index) => mark === right[index])
+  );
 }
 
 /**
@@ -173,7 +180,11 @@ function isMergeTarget(node: ContentObject): boolean {
  * "earth.").
  */
 function isBackwardMergeTarget(node: ContentObject): boolean {
-  return node.strong !== undefined && typeof node.text === "string" && node.text.length > 0;
+  return (
+    node.strong !== undefined &&
+    typeof node.text === "string" &&
+    node.text.length > 0
+  );
 }
 
 /**
@@ -190,7 +201,9 @@ function isBackwardMergeTarget(node: ContentObject): boolean {
  * mark-mismatched `"Lord"`) can legitimately stay split from its neighbor;
  * a bare joining space never can, since nothing would then own it.
  */
-function foldWhitespaceIntoNeighbors(pieces: readonly InlineTextPiece[]): InlineTextPiece[] {
+function foldWhitespaceIntoNeighbors(
+  pieces: readonly InlineTextPiece[],
+): InlineTextPiece[] {
   const result: InlineTextPiece[] = pieces.map((piece) => ({ ...piece }));
 
   for (let index = 0; index < result.length; index++) {
@@ -198,11 +211,19 @@ function foldWhitespaceIntoNeighbors(pieces: readonly InlineTextPiece[]): Inline
     // A foot-only piece (no `text` at all — see {@link InlineTextPiece})
     // isn't pure whitespace either: it carries a footnote, not something
     // to fold.
-    if ((piece.text ?? "").trim().length > 0 || piece.strong !== undefined || piece.foot !== undefined) continue;
+    if (
+      (piece.text ?? "").trim().length > 0 ||
+      piece.strong !== undefined ||
+      piece.foot !== undefined
+    )
+      continue;
 
     const next = result[index + 1];
     if (next !== undefined) {
-      result[index + 1] = { ...next, text: (piece.text ?? "") + (next.text ?? "") };
+      result[index + 1] = {
+        ...next,
+        text: (piece.text ?? "") + (next.text ?? ""),
+      };
       result.splice(index, 1);
       index--;
       continue;
@@ -210,7 +231,10 @@ function foldWhitespaceIntoNeighbors(pieces: readonly InlineTextPiece[]): Inline
 
     const previous = result[index - 1];
     if (previous !== undefined) {
-      result[index - 1] = { ...previous, text: (previous.text ?? "") + (piece.text ?? "") };
+      result[index - 1] = {
+        ...previous,
+        text: (previous.text ?? "") + (piece.text ?? ""),
+      };
       result.splice(index, 1);
       index--;
     }
@@ -235,7 +259,9 @@ function foldWhitespaceIntoNeighbors(pieces: readonly InlineTextPiece[]): Inline
  * absorb a plain-Latin neighbor's text — the two would end up as one node
  * mixing two scripts under a single `script` tag.
  */
-function coalesceAdjacentConnectors(pieces: readonly InlineTextPiece[]): InlineTextPiece[] {
+function coalesceAdjacentConnectors(
+  pieces: readonly InlineTextPiece[],
+): InlineTextPiece[] {
   const result: InlineTextPiece[] = [];
 
   for (const piece of pieces) {
@@ -249,7 +275,10 @@ function coalesceAdjacentConnectors(pieces: readonly InlineTextPiece[]): InlineT
       previous.script === piece.script &&
       sameMarks(previous.marks, piece.marks)
     ) {
-      result[result.length - 1] = { ...previous, text: (previous.text ?? "") + (piece.text ?? "") };
+      result[result.length - 1] = {
+        ...previous,
+        text: (previous.text ?? "") + (piece.text ?? ""),
+      };
       continue;
     }
     result.push({ ...piece });
@@ -273,7 +302,10 @@ function coalesceAdjacentConnectors(pieces: readonly InlineTextPiece[]): InlineT
  * sit back to back with nothing between them, where the second note would
  * otherwise overwrite the first's `foot`.
  */
-export function attachFootToPieces(pieces: InlineTextPiece[], foot: Footnote): void {
+export function attachFootToPieces(
+  pieces: InlineTextPiece[],
+  foot: Footnote,
+): void {
   const last = pieces[pieces.length - 1];
   if (last !== undefined && last.foot === undefined) {
     pieces[pieces.length - 1] = { ...last, foot };
@@ -313,7 +345,9 @@ export function attachFootToPieces(pieces: InlineTextPiece[], foot: Footnote): v
  * textless sibling in the way stops the scan outright rather than being
  * skipped past.
  */
-export function mergeConnectors(nodes: readonly ContentObject[]): ContentObject[] {
+export function mergeConnectors(
+  nodes: readonly ContentObject[],
+): ContentObject[] {
   const working: ContentObject[] = nodes.map((node) => ({ ...node }));
 
   let index = 0;
@@ -327,7 +361,10 @@ export function mergeConnectors(nodes: readonly ContentObject[]): ContentObject[
     const next = working[index + 1];
     if (next !== undefined) {
       if (isMergeTarget(next) && sameMarks(node.marks, next.marks)) {
-        working[index + 1] = { ...next, text: (node.text ?? "") + (next.text ?? "") };
+        working[index + 1] = {
+          ...next,
+          text: (node.text ?? "") + (next.text ?? ""),
+        };
         working.splice(index, 1);
         continue;
       }
@@ -337,8 +374,15 @@ export function mergeConnectors(nodes: readonly ContentObject[]): ContentObject[
     }
 
     const previous = working[index - 1];
-    if (previous !== undefined && isBackwardMergeTarget(previous) && sameMarks(node.marks, previous.marks)) {
-      working[index - 1] = { ...previous, text: (previous.text ?? "") + (node.text ?? "") };
+    if (
+      previous !== undefined &&
+      isBackwardMergeTarget(previous) &&
+      sameMarks(node.marks, previous.marks)
+    ) {
+      working[index - 1] = {
+        ...previous,
+        text: (previous.text ?? "") + (node.text ?? ""),
+      };
       working.splice(index, 1);
       continue;
     }
@@ -363,7 +407,9 @@ function isTightPunctuationChar(char: string): boolean {
 }
 
 /** Splits `text` at the boundary between its own leading run of {@link isTightPunctuationChar} characters and everything after — `undefined` when `text` does not start with one, or when the punctuation run would consume the entire text (nothing meaningful left to attach the `strong` number to). */
-function leadingTightPunctuationSplit(text: string): { punctuation: string; rest: string } | undefined {
+function leadingTightPunctuationSplit(
+  text: string,
+): { punctuation: string; rest: string } | undefined {
   let index = 0;
   while (index < text.length && isTightPunctuationChar(text[index])) index++;
   if (index === 0 || index === text.length) return undefined;
@@ -391,7 +437,9 @@ function isTextlessStrongSibling(node: ContentObject): boolean {
  * check but are unreachable from this module's real call sites today —
  * see {@link isMergeTarget}'s doc comment for why they're kept anyway.
  */
-export function moveTrailingPunctuationBackward(nodes: readonly ContentObject[]): ContentObject[] {
+export function moveTrailingPunctuationBackward(
+  nodes: readonly ContentObject[],
+): ContentObject[] {
   const working: ContentObject[] = nodes.map((node) => ({ ...node }));
 
   for (let index = 0; index < working.length; index++) {
@@ -402,7 +450,8 @@ export function moveTrailingPunctuationBackward(nodes: readonly ContentObject[])
     if (split === undefined) continue;
 
     let targetIndex = index - 1;
-    while (targetIndex >= 0 && isTextlessStrongSibling(working[targetIndex])) targetIndex--;
+    while (targetIndex >= 0 && isTextlessStrongSibling(working[targetIndex]))
+      targetIndex--;
     if (targetIndex < 0) continue;
 
     const target = working[targetIndex];
@@ -431,18 +480,25 @@ export function moveTrailingPunctuationBackward(nodes: readonly ContentObject[])
  * it isn't empty, it simply has no text.
  */
 function trimRunEdges(pieces: readonly InlineTextPiece[]): InlineTextPiece[] {
-  const hasContent = (piece: InlineTextPiece): boolean => (piece.text?.length ?? 0) > 0 || piece.foot !== undefined;
+  const hasContent = (piece: InlineTextPiece): boolean =>
+    (piece.text?.length ?? 0) > 0 || piece.foot !== undefined;
 
   const normalized = pieces
-    .map((piece) => (piece.text !== undefined ? { ...piece, text: piece.text.replace(/\s+/g, " ") } : piece))
+    .map((piece) =>
+      piece.text !== undefined
+        ? { ...piece, text: piece.text.replace(/\s+/g, " ") }
+        : piece,
+    )
     .filter(hasContent);
   if (normalized.length === 0) return [];
 
   const first = normalized[0];
-  if (first.text !== undefined) normalized[0] = { ...first, text: first.text.replace(/^ /, "") };
+  if (first.text !== undefined)
+    normalized[0] = { ...first, text: first.text.replace(/^ /, "") };
   const lastIndex = normalized.length - 1;
   const last = normalized[lastIndex];
-  if (last.text !== undefined) normalized[lastIndex] = { ...last, text: last.text.replace(/ $/, "") };
+  if (last.text !== undefined)
+    normalized[lastIndex] = { ...last, text: last.text.replace(/ $/, "") };
 
   return normalized.filter(hasContent);
 }
@@ -450,10 +506,14 @@ function trimRunEdges(pieces: readonly InlineTextPiece[]): InlineTextPiece[] {
 /** Converts one already-merged {@link InlineTextPiece} into its `ContentObject` shape, omitting every property the piece does not actually carry. */
 function pieceToNode(piece: InlineTextPiece): ContentObject {
   return {
-    ...(piece.text !== undefined && piece.text.length > 0 ? { text: piece.text } : {}),
+    ...(piece.text !== undefined && piece.text.length > 0
+      ? { text: piece.text }
+      : {}),
     ...(piece.strong !== undefined ? { strong: piece.strong } : {}),
     ...(piece.script !== undefined ? { script: piece.script } : {}),
-    ...(piece.marks !== undefined && piece.marks.length > 0 ? { marks: [...piece.marks] } : {}),
+    ...(piece.marks !== undefined && piece.marks.length > 0
+      ? { marks: [...piece.marks] }
+      : {}),
     ...(piece.foot !== undefined ? { foot: piece.foot } : {}),
   };
 }
@@ -472,18 +532,28 @@ function pieceToNode(piece: InlineTextPiece): ContentObject {
  *   themselves, the way `segmentVerses.ts`'s `flushBlock` never calls
  *   this on a block it already knows is empty.
  */
-export function buildRunNodes(pieces: readonly InlineTextPiece[]): ContentObject[] {
-  const trimmed = trimRunEdges(coalesceAdjacentConnectors(foldWhitespaceIntoNeighbors(pieces)));
+export function buildRunNodes(
+  pieces: readonly InlineTextPiece[],
+): ContentObject[] {
+  const trimmed = trimRunEdges(
+    coalesceAdjacentConnectors(foldWhitespaceIntoNeighbors(pieces)),
+  );
   if (trimmed.length === 0) return [];
 
-  const merged = moveTrailingPunctuationBackward(mergeConnectors(trimmed.map(pieceToNode)));
+  const merged = moveTrailingPunctuationBackward(
+    mergeConnectors(trimmed.map(pieceToNode)),
+  );
 
   // Folding and merging can leave a node with doubled whitespace — a
   // word's trailing space and the next content's leading space are each
   // real, and can end up concatenated once whatever separated them merges
   // away. Collapse any resulting run to one space, matching the flat-text
   // collapse used elsewhere in this pipeline.
-  return merged.map((node) => (node.text !== undefined ? { ...node, text: node.text.replace(/ {2,}/g, " ") } : node));
+  return merged.map((node) =>
+    node.text !== undefined
+      ? { ...node, text: node.text.replace(/ {2,}/g, " ") }
+      : node,
+  );
 }
 
 /**
@@ -501,10 +571,16 @@ export function buildRunNodes(pieces: readonly InlineTextPiece[]): ContentObject
  * passes through the bare-string check unchanged like any other
  * multi-key object.
  */
-export function collapseContentNodes(nodes: readonly (ContentObject | ContentHeading | ContentSubtitle)[]): Content {
+export function collapseContentNodes(
+  nodes: readonly (ContentObject | ContentHeading | ContentSubtitle)[],
+): Content {
   const collapsed: Content[] = nodes.map((node) => {
-    const keys = Object.keys(node).filter((key) => (node as Record<string, unknown>)[key] !== undefined);
-    return keys.length === 1 && keys[0] === "text" ? ((node as ContentObject).text as string) : node;
+    const keys = Object.keys(node).filter(
+      (key) => (node as Record<string, unknown>)[key] !== undefined,
+    );
+    return keys.length === 1 && keys[0] === "text"
+      ? ((node as ContentObject).text as string)
+      : node;
   });
 
   return collapsed.length === 1 ? collapsed[0] : collapsed;

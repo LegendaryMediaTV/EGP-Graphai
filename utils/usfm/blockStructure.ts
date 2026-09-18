@@ -25,7 +25,11 @@
  *   source order.
  */
 
-import Content, { ContentHeading, ContentObject, ContentSubtitle } from "../../types/Content";
+import Content, {
+  ContentHeading,
+  ContentObject,
+  ContentSubtitle,
+} from "../../types/Content";
 import { collapseContentNodes } from "./inlineMarks";
 import { VerseBlock } from "./segmentVerses";
 
@@ -41,7 +45,9 @@ import { VerseBlock } from "./segmentVerses";
  */
 export function buildBlockContent(blocks: readonly VerseBlock[]): Content {
   if (blocks.length === 0) {
-    throw new Error("buildBlockContent: no blocks to render — segmentVerses() never emits an empty verse");
+    throw new Error(
+      "buildBlockContent: no blocks to render — segmentVerses() never emits an empty verse",
+    );
   }
 
   const allNodes: (ContentObject | ContentHeading | ContentSubtitle)[] = [];
@@ -53,11 +59,16 @@ export function buildBlockContent(blocks: readonly VerseBlock[]): Content {
 
     // A block with no `nodes` of its own (no `\w`/`\wj`/`\qs` event
     // anywhere in it) falls back to its own plain `text` as a single node.
-    const nodes = (block.nodes && block.nodes.length > 0 ? block.nodes : [{ text: block.text }]).map((node) => ({
+    const nodes = (
+      block.nodes && block.nodes.length > 0
+        ? block.nodes
+        : [{ text: block.text }]
+    ).map((node) => ({
       ...node,
     }));
     if (block.paragraph) nodes[0] = { ...nodes[0], paragraph: true };
-    if (block.break) nodes[nodes.length - 1] = { ...nodes[nodes.length - 1], break: true };
+    if (block.break)
+      nodes[nodes.length - 1] = { ...nodes[nodes.length - 1], break: true };
     allNodes.push(...nodes);
   }
 

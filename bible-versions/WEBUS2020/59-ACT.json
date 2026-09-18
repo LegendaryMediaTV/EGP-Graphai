@@ -91,7 +91,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            { "text": "ἰδοὺ", "script": "G" },
+            { "text": "ἰδοὺ", "script": "G", "transliteration": "idoù" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -5829,7 +5829,7 @@
         "text": "‘It is more blessed to give than to receive.’",
         "marks": ["woc"]
       },
-      " ”"
+      "”"
     ]
   },
   {
@@ -6307,7 +6307,7 @@
         "text": "‘Depart, for I will send you out far from here to the Gentiles.’",
         "marks": ["woc"]
       },
-      " ”"
+      "”"
     ]
   },
   {

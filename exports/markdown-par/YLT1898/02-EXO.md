@@ -718,12 +718,9 @@
 <sup>20</sup> And Moses saith unto the people, “Fear not, for to try you hath God come, and in order that His fear may be before your faces—that ye sin not.”
 <sup>21</sup> And the people stand afar off, and Moses hath drawn nigh unto the thick darkness where God _is_.
 
-### The Book of the Covenant
-<sup>22</sup> 
 ### Worship and Justice
 
-
-And Jehovah saith unto Moses, “Thus dost thou say unto the sons of Israel: Ye—ye have seen that from the heavens I have spoken with you;
+<sup>22</sup> And Jehovah saith unto Moses, “Thus dost thou say unto the sons of Israel: Ye—ye have seen that from the heavens I have spoken with you;
 <sup>23</sup> ye do not make with Me gods of silver, even gods of gold ye do not make to yourselves.
 <sup>24</sup> “An altar of earth thou dost make for Me, and thou hast sacrificed on it thy burntofferings and thy peace-offerings, thy flock and thy herd; in every place where I cause My name to be remembered I come in unto thee, and have blessed thee.
 <sup>25</sup> “And if an altar of stones thou dost make to Me, thou dost not build them of hewn work; when thy tool thou hast waved over it, then thou dost pollute it;

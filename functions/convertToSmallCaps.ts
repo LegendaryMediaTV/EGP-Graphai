@@ -48,7 +48,7 @@ function isAllCaps(word: string): boolean {
 function getContextWords(
   text: string,
   matchStart: number,
-  matchEnd: number
+  matchEnd: number,
 ): { before: string; after: string } {
   const beforeText = text.slice(0, matchStart);
   const afterText = text.slice(matchEnd);
@@ -71,7 +71,7 @@ function getContextWords(
 function shouldConvertLord(
   text: string,
   matchStart: number,
-  matchEnd: number
+  matchEnd: number,
 ): boolean {
   const { before, after } = getContextWords(text, matchStart, matchEnd);
 
@@ -101,7 +101,7 @@ function shouldConvertLord(
  * @returns Either the original string (if no conversion needed) or an array of content elements
  */
 export function convertToSmallCaps(
-  text: string
+  text: string,
 ): string | (string | SmallCapsText)[] {
   if (!text || typeof text !== "string") {
     return text;
@@ -214,7 +214,7 @@ export function convertToSmallCaps(
  * @returns The converted content
  */
 export function convertContentToSmallCaps(
-  content: ContentElement
+  content: ContentElement,
 ): ContentElement {
   // Handle null/undefined
   if (content === null || content === undefined) {

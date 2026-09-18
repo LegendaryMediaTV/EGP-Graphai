@@ -40,7 +40,7 @@ const server = http.createServer(async (req, res) => {
       if (pathname === "/api/books") {
         const data = fs.readFileSync(
           path.join(ROOT_DIR, "bible-books", "bible-books.json"),
-          "utf-8"
+          "utf-8",
         );
         res.writeHead(200);
         res.end(data);
@@ -49,7 +49,7 @@ const server = http.createServer(async (req, res) => {
 
       // /api/content/:version/:bookId
       const contentMatch = pathname.match(
-        /^\/api\/content\/([^\/]+)\/([^\/]+)$/
+        /^\/api\/content\/([^\/]+)\/([^\/]+)$/,
       );
       if (contentMatch) {
         const version = contentMatch[1];
@@ -67,13 +67,13 @@ const server = http.createServer(async (req, res) => {
 
         const files = fs.readdirSync(versionDir);
         const bookFile = files.find(
-          (f) => f.includes(`-${bookId}.json`) || f === `${bookId}.json`
+          (f) => f.includes(`-${bookId}.json`) || f === `${bookId}.json`,
         ); // Handle 01-GEN.json or GEN.json
 
         if (bookFile) {
           const data = fs.readFileSync(
             path.join(versionDir, bookFile),
-            "utf-8"
+            "utf-8",
           );
           res.writeHead(200);
           res.end(data);
@@ -97,7 +97,7 @@ const server = http.createServer(async (req, res) => {
   // Static Files
   let filePath = path.join(
     PUBLIC_DIR,
-    pathname === "/" ? "index.html" : pathname
+    pathname === "/" ? "index.html" : pathname,
   );
 
   // Prevent directory traversal

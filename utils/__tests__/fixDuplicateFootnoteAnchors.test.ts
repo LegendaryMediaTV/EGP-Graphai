@@ -7,22 +7,49 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
       {
         text: " εἵνεκεν",
         script: "G",
-        foot: { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] },
+        foot: {
+          type: "var",
+          content: [
+            "B ",
+            { text: "εἵνεκεν", script: "G" },
+            " ⇒ ",
+            { text: "ἕνεκεν", script: "G" },
+          ],
+        },
         strong: "G1752",
         morph: "PREP",
       },
-      { foot: { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] } },
+      {
+        foot: {
+          type: "var",
+          content: [
+            "B ",
+            { text: "εἵνεκεν", script: "G" },
+            " ⇒ ",
+            { text: "ἕνεκεν", script: "G" },
+          ],
+        },
+      },
       { text: " τοῦ", script: "G", strong: "G3588", morph: "T-GSM" },
     ];
 
-    const { content: result, changed } = removeDuplicateFootnoteAnchorsInContent(content as never);
+    const { content: result, changed } =
+      removeDuplicateFootnoteAnchorsInContent(content as never);
 
     expect(changed).toBe(true);
     expect(result).toEqual([
       {
         text: " εἵνεκεν",
         script: "G",
-        foot: { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] },
+        foot: {
+          type: "var",
+          content: [
+            "B ",
+            { text: "εἵνεκεν", script: "G" },
+            " ⇒ ",
+            { text: "ἕνεκεν", script: "G" },
+          ],
+        },
         strong: "G1752",
         morph: "PREP",
       },
@@ -31,40 +58,78 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
   });
 
   it("should delete every repeat in a chain of three, not just the one touching the real node — real shape from the retired BYZ2018's 2 Corinthians 7:12 (three markers share one apparatus note)", () => {
-    const note = { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] };
+    const note = {
+      type: "var",
+      content: [
+        "B ",
+        { text: "εἵνεκεν", script: "G" },
+        " ⇒ ",
+        { text: "ἕνεκεν", script: "G" },
+      ],
+    };
     const content = [
-      { text: " εἵνεκεν", script: "G", foot: note, strong: "G1752", morph: "PREP" },
+      {
+        text: " εἵνεκεν",
+        script: "G",
+        foot: note,
+        strong: "G1752",
+        morph: "PREP",
+      },
       { foot: { ...note } },
       { foot: { ...note } },
     ];
 
-    const { content: result, changed } = removeDuplicateFootnoteAnchorsInContent(content as never);
+    const { content: result, changed } =
+      removeDuplicateFootnoteAnchorsInContent(content as never);
 
     expect(changed).toBe(true);
     expect(result).toEqual([
-      { text: " εἵνεκεν", script: "G", foot: note, strong: "G1752", morph: "PREP" },
+      {
+        text: " εἵνεκεν",
+        script: "G",
+        foot: note,
+        strong: "G1752",
+        morph: "PREP",
+      },
     ]);
   });
 
   it("should delete a duplicate anchor that also carries an empty text key — real KJV1769 Psalm 80:4 shape (both a husk and a duplicate anchor at once)", () => {
-    const note = { type: "trn", content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }] };
+    const note = {
+      type: "trn",
+      content: ["Heb. ", { text: "wilt thou smoke?", marks: ["i"] }],
+    };
     const content = [
-      { text: "How long wilt thou be angry", foot: note, strong: "H6225", morph: "QalPerf" },
+      {
+        text: "How long wilt thou be angry",
+        foot: note,
+        strong: "H6225",
+        morph: "QalPerf",
+      },
       { text: "", foot: { ...note } },
       { text: " against the prayer", strong: "H8605" },
     ];
 
-    const { content: result, changed } = removeDuplicateFootnoteAnchorsInContent(content as never);
+    const { content: result, changed } =
+      removeDuplicateFootnoteAnchorsInContent(content as never);
 
     expect(changed).toBe(true);
     expect(result).toEqual([
-      { text: "How long wilt thou be angry", foot: note, strong: "H6225", morph: "QalPerf" },
+      {
+        text: "How long wilt thou be angry",
+        foot: note,
+        strong: "H6225",
+        morph: "QalPerf",
+      },
       { text: " against the prayer", strong: "H8605" },
     ]);
   });
 
   it("should not delete a byte-identical foot when the later node still renders real text — real ASV1901 Genesis 3:14 shape (183-of-203 case)", () => {
-    const note = { type: "trn", content: ["Or, ", { text: "from among", marks: ["i"] }] };
+    const note = {
+      type: "trn",
+      content: ["Or, ", { text: "from among", marks: ["i"] }],
+    };
     const content = [
       { text: "cursed art thou", foot: note },
       { text: " above all cattle, and", foot: { ...note } },
@@ -80,14 +145,30 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
   it("should not delete two adjacent textless anchors whose own foot values genuinely differ — real shape from the retired BYZ2018's Revelation 7:5", () => {
     const content = [
       {
-        text: " ἐσφραγισμέναι·",
+        text: " ἐσφραγισμέναι·",
         script: "G",
-        foot: { type: "var", content: ["B ", { text: "ἐσφραγισμέναι", script: "G" }, " ⇒ ", { text: "ἐσφραγισμένοι", script: "G" }] },
+        foot: {
+          type: "var",
+          content: [
+            "B ",
+            { text: "ἐσφραγισμέναι", script: "G" },
+            " ⇒ ",
+            { text: "ἐσφραγισμένοι", script: "G" },
+          ],
+        },
         strong: "G4972",
         morph: "V-RPP-NPF",
       },
       {
-        foot: { type: "var", content: ["N ", { text: "ἐσφραγισμέναι", script: "G" }, " ⇒ ", { text: "ἐσφραγισμένοι", script: "G" }] },
+        foot: {
+          type: "var",
+          content: [
+            "N ",
+            { text: "ἐσφραγισμέναι", script: "G" },
+            " ⇒ ",
+            { text: "ἐσφραγισμένοι", script: "G" },
+          ],
+        },
       },
     ];
 
@@ -103,14 +184,12 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
       text: "word",
       foot: {
         type: "trn",
-        content: [
-          { text: "inner", foot: note },
-          { foot: { ...note } },
-        ],
+        content: [{ text: "inner", foot: note }, { foot: { ...note } }],
       },
     };
 
-    const { content: result, changed } = removeDuplicateFootnoteAnchorsInContent(content as never);
+    const { content: result, changed } =
+      removeDuplicateFootnoteAnchorsInContent(content as never);
 
     expect(changed).toBe(true);
     expect(result).toEqual({
@@ -135,9 +214,23 @@ describe("removeDuplicateFootnoteAnchorsInContent", () => {
   });
 
   it("should be idempotent — removing duplicates from an already-cleaned tree reports no further change", () => {
-    const note = { type: "var", content: ["B ", { text: "εἵνεκεν", script: "G" }, " ⇒ ", { text: "ἕνεκεν", script: "G" }] };
+    const note = {
+      type: "var",
+      content: [
+        "B ",
+        { text: "εἵνεκεν", script: "G" },
+        " ⇒ ",
+        { text: "ἕνεκεν", script: "G" },
+      ],
+    };
     const content = [
-      { text: " εἵνεκεν", script: "G", foot: note, strong: "G1752", morph: "PREP" },
+      {
+        text: " εἵνεκεν",
+        script: "G",
+        foot: note,
+        strong: "G1752",
+        morph: "PREP",
+      },
       { foot: { ...note } },
       { foot: { ...note } },
     ];

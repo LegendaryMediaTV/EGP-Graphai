@@ -1,4 +1,8 @@
-import { ContentHeading, ContentObject, ContentSubtitle } from "../../types/Content";
+import {
+  ContentHeading,
+  ContentObject,
+  ContentSubtitle,
+} from "../../types/Content";
 import Footnote from "../../types/Footnote";
 import { buildFootnoteContent, buildIntroParagraphFootnote } from "./footnotes";
 import {
@@ -13,8 +17,16 @@ import {
   psalterBookDivisionNumber,
 } from "./headings";
 import { normalizeFractionText } from "../../functions/normalizeFractions";
-import { attachFootToPieces, buildRunNodes, InlineMarkName, InlineTextPiece } from "./inlineMarks";
-import { buildCrossReferenceContent, buildReferenceOnlyContent } from "./references";
+import {
+  attachFootToPieces,
+  buildRunNodes,
+  InlineMarkName,
+  InlineTextPiece,
+} from "./inlineMarks";
+import {
+  buildCrossReferenceContent,
+  buildReferenceOnlyContent,
+} from "./references";
 import { tokenize } from "./tokenize";
 
 /**
@@ -230,7 +242,13 @@ export function segmentVerses(
   includeStrongs = true,
 ): VerseRecord[] {
   const tokens = tokenize(source);
-  const records: { book: string; chapter: number; verse: number; rawContent: string; blocks: VerseBlock[] }[] = [];
+  const records: {
+    book: string;
+    chapter: number;
+    verse: number;
+    rawContent: string;
+    blocks: VerseBlock[];
+  }[] = [];
 
   let chapter = 0;
   let verse = 0;
@@ -375,7 +393,10 @@ export function segmentVerses(
    * one post-pass once every division and the book's own highest chapter
    * are known (see the end of this function).
    */
-  const bookDivisions: { readonly ordinal: number; readonly startChapter: number }[] = [];
+  const bookDivisions: {
+    readonly ordinal: number;
+    readonly startChapter: number;
+  }[] = [];
 
   /**
    * Every `\ip` block's own built footnote, in source order. Real
@@ -414,7 +435,8 @@ export function segmentVerses(
    * second note needs its own node; overwriting would silently discard
    * one of the two.
    */
-  const attachFoot = (foot: Footnote): void => attachFootToPieces(blockInline, foot);
+  const attachFoot = (foot: Footnote): void =>
+    attachFootToPieces(blockInline, foot);
 
   /**
    * The span belonging to the `\qc` marker at `markerIndex`, but only when
@@ -427,7 +449,9 @@ export function segmentVerses(
    * mutates nothing, so a rejected peek is thrown away and the same tokens
    * are walked again as ordinary text.
    */
-  const acrosticGlyphSpanAt = (markerIndex: number): HeadingSpanResult | undefined => {
+  const acrosticGlyphSpanAt = (
+    markerIndex: number,
+  ): HeadingSpanResult | undefined => {
     const span = buildHeadingSpanContent(tokens, markerIndex + 1);
     return isAcrosticGlyphHeading(span.pieces) ? span : undefined;
   };
@@ -531,14 +555,22 @@ export function segmentVerses(
 
     if (breakFlag) {
       let index = currentVerseBlocks.length - 1;
-      while (index >= 0 && currentVerseBlocks[index].headingContent !== undefined) index--;
+      while (
+        index >= 0 &&
+        currentVerseBlocks[index].headingContent !== undefined
+      )
+        index--;
       if (index >= 0) {
         const last = currentVerseBlocks[index];
         if (!last.break) currentVerseBlocks[index] = { ...last, break: true };
         return;
       }
 
-      for (let recordIndex = records.length - 1; recordIndex >= 0; recordIndex--) {
+      for (
+        let recordIndex = records.length - 1;
+        recordIndex >= 0;
+        recordIndex--
+      ) {
         const blocks = records[recordIndex].blocks;
         if (blocks.length === 0) continue;
         const last = blocks[blocks.length - 1];
@@ -577,7 +609,10 @@ export function segmentVerses(
     // text into `asidePieces` for exactly this reason. A cross-reference
     // never feeds `asidePieces` at all, since no in-scope `\x` span is
     // ever a whole verse's own entire content the way a footnote can be.
-    const rawOrFallback = rawContent.length > 0 ? rawContent : asidePieces.join("").replace(/\s+/g, " ").trim();
+    const rawOrFallback =
+      rawContent.length > 0
+        ? rawContent
+        : asidePieces.join("").replace(/\s+/g, " ").trim();
 
     flushBlock(false);
 
@@ -590,12 +625,16 @@ export function segmentVerses(
     let trailingHeadingCount = 0;
     while (
       trailingHeadingCount < currentVerseBlocks.length &&
-      currentVerseBlocks[currentVerseBlocks.length - 1 - trailingHeadingCount].headingContent !== undefined
+      currentVerseBlocks[currentVerseBlocks.length - 1 - trailingHeadingCount]
+        .headingContent !== undefined
     ) {
       trailingHeadingCount++;
     }
     if (trailingHeadingCount > 0) {
-      const reclaimed = currentVerseBlocks.splice(currentVerseBlocks.length - trailingHeadingCount, trailingHeadingCount);
+      const reclaimed = currentVerseBlocks.splice(
+        currentVerseBlocks.length - trailingHeadingCount,
+        trailingHeadingCount,
+      );
       pendingHeadingBlocks = [...reclaimed, ...pendingHeadingBlocks];
     }
 
@@ -615,7 +654,10 @@ export function segmentVerses(
       return;
     }
 
-    const blocks = currentVerseBlocks.length > 0 ? currentVerseBlocks : [{ text: rawOrFallback }];
+    const blocks =
+      currentVerseBlocks.length > 0
+        ? currentVerseBlocks
+        : [{ text: rawOrFallback }];
 
     records.push({ book, chapter, verse, rawContent: rawOrFallback, blocks });
     pieces = [];
@@ -632,9 +674,14 @@ export function segmentVerses(
     // must not disagree. `undefined` for any token that isn't an
     // acrostic-heading `\qc` — see {@link acrosticGlyphSpanAt}.
     const acrosticGlyphSpan =
-      token.type === "marker" && token.name === "qc" ? acrosticGlyphSpanAt(index) : undefined;
+      token.type === "marker" && token.name === "qc"
+        ? acrosticGlyphSpanAt(index)
+        : undefined;
     /** This token is a `\qc` in its ordinary USFM reading: a centered poetic line, belonging with `\q1`/`\q2`/`\q3` rather than with the heading markers. */
-    const isPoeticLineQc = token.type === "marker" && token.name === "qc" && acrosticGlyphSpan === undefined;
+    const isPoeticLineQc =
+      token.type === "marker" &&
+      token.name === "qc" &&
+      acrosticGlyphSpan === undefined;
 
     // See {@link suppressNextBareBreakAfterCleanBoundary}'s own doc
     // comment for the full real-shape inventory this survivor list is
@@ -669,7 +716,10 @@ export function segmentVerses(
         // the book division, or queue its heading), or the heading/speaker branch's own ordinary handling
         // (force-flush the same already-empty accumulator, queue the
         // heading) still needs to run; the guard just must not clear here.
-      } else if (token.type === "marker" && (BREAK_MARKER_NAMES.has(token.name) || isPoeticLineQc)) {
+      } else if (
+        token.type === "marker" &&
+        (BREAK_MARKER_NAMES.has(token.name) || isPoeticLineQc)
+      ) {
         suppressNextBareBreakAfterCleanBoundary = false;
         skipToNextMarker = false;
         index++;
@@ -738,7 +788,10 @@ export function segmentVerses(
     // poetry markers do. `index++` here — never the peeked span's own
     // `nextIndex` — leaves its trailing text to the walk below as verse
     // content.
-    if ((token.type === "marker" && BREAK_MARKER_NAMES.has(token.name)) || isPoeticLineQc) {
+    if (
+      (token.type === "marker" && BREAK_MARKER_NAMES.has(token.name)) ||
+      isPoeticLineQc
+    ) {
       flushBlock(true);
       skipToNextMarker = false;
       index++;
@@ -753,7 +806,10 @@ export function segmentVerses(
       // own guard as a standalone text token and clear it, since that
       // guard whitelists only whitespace-only text and specific marker
       // names, never text content.
-      const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(tokens, index + 1);
+      const { pieces: headingPieces, nextIndex } = buildHeadingSpanContent(
+        tokens,
+        index + 1,
+      );
       // `\mr` is defined by its position: it follows the heading it is the
       // reference range of. Consuming it from here rather than from a
       // dispatch of its own makes "the heading it belongs to" a fact of
@@ -771,7 +827,10 @@ export function segmentVerses(
         // division is dropped along with the division's own printed label:
         // it prints the very range this run recomputes from the book's own
         // chapters, so nothing it carries is lost by recomputing it.
-        bookDivisions.push({ ordinal: divisionNumber, startChapter: chapterOpenedAfter(nextIndex) });
+        bookDivisions.push({
+          ordinal: divisionNumber,
+          startChapter: chapterOpenedAfter(nextIndex),
+        });
       } else {
         // Every other major-section heading keeps the text it actually
         // prints and takes the identical path `\s1` already takes — see
@@ -788,14 +847,20 @@ export function segmentVerses(
           attachFootToPieces(headingPieces, {
             type: "xrf",
             content: buildReferenceOnlyContent(
-              headingSpanText(referenceSpan.pieces).replace(MAJOR_SECTION_REFERENCE_PARENTHESES, ""),
+              headingSpanText(referenceSpan.pieces).replace(
+                MAJOR_SECTION_REFERENCE_PARENTHESES,
+                "",
+              ),
               canonBookIds,
             ),
           });
         }
         flushBlock(false);
         pendingParagraph = true;
-        pendingHeadingBlocks.push({ text: "", headingContent: buildSpeakerHeading(headingPieces) });
+        pendingHeadingBlocks.push({
+          text: "",
+          headingContent: buildSpeakerHeading(headingPieces),
+        });
       }
       skipToNextMarker = false;
       index = referenceSpan?.nextIndex ?? nextIndex;
@@ -823,14 +888,21 @@ export function segmentVerses(
       // `usfm/headings.ts`'s `buildHeadingSpanContent` already establishes
       // for `\d`/`\sp`/`\s1`. See {@link introParagraphFootnotes} for how
       // this resolves at end of book.
-      const { footnote, nextIndex } = buildIntroParagraphFootnote(tokens, index + 1, canonBookIds);
+      const { footnote, nextIndex } = buildIntroParagraphFootnote(
+        tokens,
+        index + 1,
+        canonBookIds,
+      );
       introParagraphFootnotes.push(footnote);
       skipToNextMarker = false;
       index = nextIndex;
       continue;
     }
 
-    if (token.type === "marker" && SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES.has(token.name)) {
+    if (
+      token.type === "marker" &&
+      SUPERSCRIPTION_OR_SPEAKER_MARKER_NAMES.has(token.name)
+    ) {
       // Force whatever was already accumulating to finalize as its own
       // block *before* the heading is built — see
       // {@link pendingHeadingBlocks}'s own doc comment, step 1. A no-op
@@ -855,7 +927,8 @@ export function segmentVerses(
       // A `\qc` reaching this branch was already walked by the peek that
       // classified it; reusing that span keeps the classification and the
       // content built from it from being two reads that could disagree.
-      const { pieces: headingPieces, nextIndex } = acrosticGlyphSpan ?? buildHeadingSpanContent(tokens, index + 1);
+      const { pieces: headingPieces, nextIndex } =
+        acrosticGlyphSpan ?? buildHeadingSpanContent(tokens, index + 1);
       const headingContent =
         token.name === "d"
           ? buildSuperscriptionContent(headingPieces)
@@ -875,7 +948,11 @@ export function segmentVerses(
 
     if (token.type === "open" && token.name === "f") {
       skipToNextMarker = false;
-      const { footnote, plainText, nextIndex } = buildFootnoteContent(tokens, index + 1, canonBookIds);
+      const { footnote, plainText, nextIndex } = buildFootnoteContent(
+        tokens,
+        index + 1,
+        canonBookIds,
+      );
       index = nextIndex;
       // A footnote embedded inside a `\d` Psalm superscription (e.g. Psalm
       // 46:0) never reaches this branch at all — the
@@ -902,7 +979,11 @@ export function segmentVerses(
 
     if (token.type === "open" && token.name === "x") {
       skipToNextMarker = false;
-      const { footnote, nextIndex } = buildCrossReferenceContent(tokens, index + 1, canonBookIds);
+      const { footnote, nextIndex } = buildCrossReferenceContent(
+        tokens,
+        index + 1,
+        canonBookIds,
+      );
       index = nextIndex;
       // No real in-scope `\x` span sits inside an unclosed `\d` heading,
       // so the `started` guard here is a defensive mirror of the
@@ -930,7 +1011,11 @@ export function segmentVerses(
       // a run with no `strong` anywhere naturally collapses to plain,
       // connector-merged text, with no second code path needed for it.
       const strong = includeStrongs ? token.attributes?.strong : undefined;
-      if (started && !skipToNextMarker && (wordText.length > 0 || strong !== undefined)) {
+      if (
+        started &&
+        !skipToNextMarker &&
+        (wordText.length > 0 || strong !== undefined)
+      ) {
         const marks: InlineMarkName[] = [
           ...(insideWj ? (["woc"] as const) : []),
           ...(insideQs || insideAdd || insideBk ? (["i"] as const) : []),
@@ -1051,11 +1136,23 @@ export function segmentVerses(
   // real source's own Psalm 42:1 ordering (the book-division heading
   // always comes first).
   if (bookDivisions.length > 0) {
-    const maxChapter = records.reduce((max, record) => Math.max(max, record.chapter), 0);
+    const maxChapter = records.reduce(
+      (max, record) => Math.max(max, record.chapter),
+      0,
+    );
     bookDivisions.forEach(({ ordinal, startChapter }, at) => {
-      const endChapter = at + 1 < bookDivisions.length ? bookDivisions[at + 1].startChapter - 1 : maxChapter;
-      const heading = buildBookDivisionHeading(ordinal - 1, startChapter, endChapter);
-      const verseOne = records.find((record) => record.chapter === startChapter && record.verse === 1);
+      const endChapter =
+        at + 1 < bookDivisions.length
+          ? bookDivisions[at + 1].startChapter - 1
+          : maxChapter;
+      const heading = buildBookDivisionHeading(
+        ordinal - 1,
+        startChapter,
+        endChapter,
+      );
+      const verseOne = records.find(
+        (record) => record.chapter === startChapter && record.verse === 1,
+      );
       if (verseOne === undefined) {
         throw new Error(
           `segmentVerses: book division "BOOK ${ordinal}" opens on chapter ${startChapter}, but this book has no verse 1 there to attach its own division heading to`,
@@ -1086,17 +1183,27 @@ export function segmentVerses(
   // no longer first, and it renders as a break in the middle of the verse —
   // after the verse number and footnote icon — instead of before both.
   if (introParagraphFootnotes.length > 0) {
-    const minChapter = records.reduce((min, record) => Math.min(min, record.chapter), Infinity);
-    const verseOne = records.find((record) => record.chapter === minChapter && record.verse === 1);
+    const minChapter = records.reduce(
+      (min, record) => Math.min(min, record.chapter),
+      Infinity,
+    );
+    const verseOne = records.find(
+      (record) => record.chapter === minChapter && record.verse === 1,
+    );
     if (verseOne === undefined) {
       throw new Error(
         `segmentVerses: found ${introParagraphFootnotes.length} \\ip block(s) but this book has no chapter ${minChapter} verse 1 to attach their own textless footnote node(s) to`,
       );
     }
-    const footBlocks = introParagraphFootnotes.map((foot) => ({ text: "", nodes: [{ foot }] }) as VerseBlock);
-    const paragraphBlockIndex = verseOne.blocks.findIndex((block) => block.paragraph === true);
+    const footBlocks = introParagraphFootnotes.map(
+      (foot) => ({ text: "", nodes: [{ foot }] }) as VerseBlock,
+    );
+    const paragraphBlockIndex = verseOne.blocks.findIndex(
+      (block) => block.paragraph === true,
+    );
     if (paragraphBlockIndex !== -1) {
-      const { paragraph: _paragraph, ...rest } = verseOne.blocks[paragraphBlockIndex];
+      const { paragraph: _paragraph, ...rest } =
+        verseOne.blocks[paragraphBlockIndex];
       // A block whose only reason to exist was carrying `paragraph: true` —
       // no text, no nodes, no break, no heading — contributes nothing once
       // that flag moves onto the footnote block ahead of it, and is dropped
@@ -1106,7 +1213,12 @@ export function segmentVerses(
       // the flag) already relies on `content-schema.json`'s own bare-object
       // shape for "flag with nothing else" — leaving that shape behind
       // empty here would violate the schema's own `minProperties: 1`.
-      if (rest.text === "" && (rest.nodes?.length ?? 0) === 0 && !rest.break && !rest.headingContent) {
+      if (
+        rest.text === "" &&
+        (rest.nodes?.length ?? 0) === 0 &&
+        !rest.break &&
+        !rest.headingContent
+      ) {
         verseOne.blocks.splice(paragraphBlockIndex, 1);
       } else {
         verseOne.blocks[paragraphBlockIndex] = rest;

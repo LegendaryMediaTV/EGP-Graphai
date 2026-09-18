@@ -1105,9 +1105,7 @@
             "Or, ",
             { "text": "elements", "marks": ["i"] },
             ". ",
-            { "bibleLink": "2 Peter 3:10", "content": "2 Pet. 3:10" },
-            ", ",
-            { "bibleLink": "2 Peter 3:12", "content": "12" }
+            { "bibleLink": "2 Peter 3:10, 12", "content": "2 Pet. 3:10, 12" }
           ]
         }
       },
@@ -1444,9 +1442,7 @@
         "foot": {
           "type": "xrf",
           "content": [
-            { "bibleLink": "Genesis 21:10", "content": "Gen. 21:10" },
-            ", ",
-            { "bibleLink": "Genesis 21:12", "content": "12" },
+            { "bibleLink": "Genesis 21:10, 12", "content": "Gen. 21:10, 12" },
             "."
           ]
         }
@@ -1500,9 +1496,7 @@
             "Greek ",
             { "text": "brought to nought", "marks": ["i"] },
             ". Compare ",
-            { "bibleLink": "Romans 7:2", "content": "Rom. 7:2" },
-            ", ",
-            { "bibleLink": "Romans 7:6", "content": "6" },
+            { "bibleLink": "Romans 7:2, 6", "content": "Rom. 7:2, 6" },
             " (in the Greek)."
           ]
         }

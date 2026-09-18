@@ -65,7 +65,11 @@ import * as path from "path";
 import { writeJsonFile } from "../functions/writeJsonFile";
 import Footnote from "../types/Footnote";
 import VerseSchema from "../types/VerseSchema";
-import { ClassifiableFootnoteType, classifyFootnote, flattenContentText } from "./usfm/footnoteTypeRules";
+import {
+  ClassifiableFootnoteType,
+  classifyFootnote,
+  flattenContentText,
+} from "./usfm/footnoteTypeRules";
 
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
 
@@ -87,7 +91,9 @@ interface VersionBookFile {
  * directory instead of the real `bible-versions/`.
  */
 function readBookFiles(versionDir: string): readonly VersionBookFile[] {
-  const files = fs.readdirSync(versionDir).filter((file) => file.endsWith(".json") && file !== "_version.json");
+  const files = fs
+    .readdirSync(versionDir)
+    .filter((file) => file.endsWith(".json") && file !== "_version.json");
   return files.map((file) => ({
     file,
     records: JSON.parse(fs.readFileSync(path.join(versionDir, file), "utf-8")),
@@ -141,24 +147,34 @@ function reclassifyFootnotesIn(
   hardReset: boolean,
 ): void {
   if (Array.isArray(content)) {
-    for (const item of content) reclassifyFootnotesIn(item, changes, location, hardReset);
+    for (const item of content)
+      reclassifyFootnotesIn(item, changes, location, hardReset);
     return;
   }
   if (content === null || typeof content !== "object") return;
 
-  const node = content as { foot?: Footnote; content?: unknown; subtitle?: unknown; heading?: unknown };
+  const node = content as {
+    foot?: Footnote;
+    content?: unknown;
+    subtitle?: unknown;
+    heading?: unknown;
+  };
   if (node.foot) {
     const body = flattenContentText(node.foot.content);
     const to = classifyFootnote(body);
-    const isDowngradeToStu = to === "stu" && node.foot.type !== undefined && node.foot.type !== "stu";
+    const isDowngradeToStu =
+      to === "stu" && node.foot.type !== undefined && node.foot.type !== "stu";
     if (node.foot.type !== to && (hardReset || !isDowngradeToStu)) {
       changes.push({ ...location, body, from: node.foot.type, to });
       node.foot.type = to;
     }
   }
-  if ("content" in node) reclassifyFootnotesIn(node.content, changes, location, hardReset);
-  if ("subtitle" in node) reclassifyFootnotesIn(node.subtitle, changes, location, hardReset);
-  if ("heading" in node) reclassifyFootnotesIn(node.heading, changes, location, hardReset);
+  if ("content" in node)
+    reclassifyFootnotesIn(node.content, changes, location, hardReset);
+  if ("subtitle" in node)
+    reclassifyFootnotesIn(node.subtitle, changes, location, hardReset);
+  if ("heading" in node)
+    reclassifyFootnotesIn(node.heading, changes, location, hardReset);
 }
 
 /** Options shared by {@link computeFootnoteOverhaul} and {@link applyFootnoteOverhaul}. */
@@ -232,10 +248,16 @@ function formatChange(change: FootnoteTypeChange): string {
  * report the identical shape, so both call sites in `main()` share this one
  * loop instead of each carrying their own copy.
  */
-function printReport(versionId: string, result: FootnoteOverhaulResult, applied: boolean): void {
+function printReport(
+  versionId: string,
+  result: FootnoteOverhaulResult,
+  applied: boolean,
+): void {
   if (result.changes.length === 0) {
     console.log(
-      applied ? `${versionId}: no footnote needed reclassifying.` : `${versionId}: no footnote reclassifications found.`,
+      applied
+        ? `${versionId}: no footnote needed reclassifying.`
+        : `${versionId}: no footnote reclassifications found.`,
     );
     return;
   }
@@ -264,10 +286,14 @@ interface ParsedOverhaulArgs {
  * `--fix`. Extracted from `main()` so the guard is directly testable without
  * mocking `process.exit`, which no test in this repo does today.
  */
-export function parseOverhaulArgs(args: readonly string[]): ParsedOverhaulArgs | null {
+export function parseOverhaulArgs(
+  args: readonly string[],
+): ParsedOverhaulArgs | null {
   const fix = args.includes("--fix");
   const hardReset = args.includes("--hard-reset");
-  const versionArg = args.find((arg) => arg !== "--fix" && arg !== "--hard-reset");
+  const versionArg = args.find(
+    (arg) => arg !== "--fix" && arg !== "--hard-reset",
+  );
   if (!versionArg) return null;
   return { fix, hardReset, versionArg };
 }
@@ -276,10 +302,11 @@ export function parseOverhaulArgs(args: readonly string[]): ParsedOverhaulArgs |
  * This tool's own flags, paired with the `npm_config_*` environment variable
  * npm sets when it swallows one instead of forwarding it.
  */
-const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> = [
-  ["--fix", "npm_config_fix"],
-  ["--hard-reset", "npm_config_hard_reset"],
-];
+const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> =
+  [
+    ["--fix", "npm_config_fix"],
+    ["--hard-reset", "npm_config_hard_reset"],
+  ];
 
 /**
  * Which of this tool's flags npm ate rather than passed along. `npm run
@@ -300,8 +327,13 @@ const FLAG_ENV_NAMES: ReadonlyArray<readonly [flag: string, envName: string]> = 
  * @param args - `process.argv.slice(2)`, the flags that did arrive.
  * @param env - `process.env`, carrying npm's own record of what it consumed.
  */
-export function findSwallowedFlags(args: readonly string[], env: NodeJS.ProcessEnv): string[] {
-  return FLAG_ENV_NAMES.filter(([flag, envName]) => env[envName] !== undefined && !args.includes(flag)).map(([flag]) => flag);
+export function findSwallowedFlags(
+  args: readonly string[],
+  env: NodeJS.ProcessEnv,
+): string[] {
+  return FLAG_ENV_NAMES.filter(
+    ([flag, envName]) => env[envName] !== undefined && !args.includes(flag),
+  ).map(([flag]) => flag);
 }
 
 /**
@@ -334,11 +366,19 @@ async function main(): Promise<void> {
   const versionDir = path.join(BIBLE_VERSIONS_DIR, versionArg);
 
   if (!fix) {
-    printReport(versionArg, computeFootnoteOverhaul(versionDir, { hardReset }), false);
+    printReport(
+      versionArg,
+      computeFootnoteOverhaul(versionDir, { hardReset }),
+      false,
+    );
     return;
   }
 
-  printReport(versionArg, await applyFootnoteOverhaul(versionDir, { hardReset }), true);
+  printReport(
+    versionArg,
+    await applyFootnoteOverhaul(versionDir, { hardReset }),
+    true,
+  );
 }
 
 if (require.main === module) {

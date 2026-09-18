@@ -7,12 +7,12 @@
 <sup>2</sup> Let him kiss me with the kisses of his mouth;<br>for your love is better than wine.<br>
 <sup>3</sup> Your oils have a pleasing fragrance.<br>Your name is oil poured out,<br>therefore the virgins love you.<br>
 <sup>4</sup> Take me away with you.<br>Let’s hurry.<br>The king has brought me into his rooms.<br>
+
 ### Friends
 
-
 We will be glad and rejoice in you.<br>We will praise your love more than wine!<br>
-### Beloved
 
+### Beloved
 
 They are right to love you.<br>
 <sup>5</sup> I am dark, but lovely,<br>you daughters of Jerusalem,<br>like Kedar’s tents,<br>like Solomon’s curtains.<br>
@@ -135,8 +135,8 @@ They are right to love you.<br>
 ### Lover
 
 <sup>1</sup> I have come into my garden, my sister, my bride.<br>I have gathered my myrrh with my spice;<br>I have eaten my honeycomb with my honey;<br>I have drunk my wine with my milk.<br>
-### Friends
 
+### Friends
 
 Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 
@@ -194,8 +194,8 @@ Eat, friends!<br>Drink, yes, drink abundantly, beloved.<br>
 ### Friends
 
 <sup>13</sup> Return, return, Shulammite!<br>Return, return, that we may gaze at you.<br>
-### Lover
 
+### Lover
 
 Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
 
@@ -229,8 +229,8 @@ Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
 ### Friends
 
 <sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved?
-### Beloved
 
+### Beloved
 
 Under the apple tree I awakened you.<br>There your mother conceived you.<br>There she was in labor and bore you.
 

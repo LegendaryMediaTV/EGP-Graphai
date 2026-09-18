@@ -111,9 +111,6 @@
 
 ## Chapter 4
 
-### Before the fall of Jerusalem
-
-
 ### Symbols of its Fall
 
 <sup>1</sup> Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, _even_ Jerusalem:
@@ -1031,9 +1028,6 @@
 
 ## Chapter 25
 
-### Judgement upon the Nations
-
-
 ### Ammon
 
 <sup>1</sup> The word of the LORD came again unto me, saying,
@@ -1717,8 +1711,6 @@
 > - <sup>p</sup> 28. Heb. _by my causing of them_ etc.
 
 ## Chapter 40
-
-### The Temple of the Holy City
 
 <sup>1</sup> In the five and twentieth year of our captivity, in the beginning of the year, in the tenth _day_ of the month, in the fourteenth year after that the city was smitten, in the selfsame day the hand of the LORD was upon me, and brought me thither.
 <sup>2</sup> In the visions of God brought he me into the land of Israel, and set me upon a very high mountain, by which<sup>a</sup> _was_ as the frame of a city on the south.

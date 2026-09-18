@@ -22,6 +22,7 @@ type Content =
 interface ContentObject {
   text?: string; // Plain text content (optional - can have Strong's-only elements)
   script?: "G" | "H"; // Specifies the script of the text. If not specified, Latin script is assumed.
+  transliteration?: string; // The text romanized by the registry's table for its script, keeping the text's own spacing, capitalization and word boundaries
   marks?: ("i" | "b" | "woc" | "sc" | "sup")[]; // Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps, sup = superscript
   foot?: Footnote; // Optional footnote attached to the text
   strong?: string; // Strong's number in format G/H + 1-4 digits

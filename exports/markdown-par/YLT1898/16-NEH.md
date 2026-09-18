@@ -48,8 +48,6 @@
 
 ## Chapter 3
 
-### Specification of Work
-
 <sup>1</sup> And Eliashib the high priest riseth, and his brethren the priests, and they build the sheep-gate; they have sanctified it, and set up its doors, even unto the tower of Meah they have sanctified it, unto the tower of Hananeel;
 <sup>2</sup> and by his hand have men of Jericho built; and by their hand hath Zaccur son of Imri built;
 <sup>3</sup> and the fish-gate have sons of Hassenaah built, they have walled it, and set up its doors, its locks, and its bars.

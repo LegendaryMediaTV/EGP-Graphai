@@ -71,8 +71,8 @@
 ## Chapter 3
 
 <sup>1</sup> <sup>a</sup>
-### Defends the Truth of His Message
 
+### Defends the Truth of His Message
 
 O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?
 <sup>2</sup> this only do I wish to learn from you—by works of law the Spirit did ye receive, or by the hearing of faith?
@@ -157,8 +157,8 @@ O thoughtless Galatians, who did bewitch you, not to obey the truth—before who
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-### Commends the New Life
 
+### Commends the New Life
 
 In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;
 

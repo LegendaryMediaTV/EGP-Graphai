@@ -43,7 +43,10 @@ import VerseSchema from "../types/VerseSchema";
 // ---------------------------------------------------------------------------
 
 const BIBLE_VERSIONS_DIR = path.resolve(__dirname, "../bible-versions");
-const BIBLE_BOOKS_FILE = path.resolve(__dirname, "../bible-books/bible-books.json");
+const BIBLE_BOOKS_FILE = path.resolve(
+  __dirname,
+  "../bible-books/bible-books.json",
+);
 
 // ---------------------------------------------------------------------------
 // Dash-agnostic endpoint grammar
@@ -86,7 +89,11 @@ function parseEndpoint(text: string): ParsedEndpoint | null {
   const match = ENDPOINT.exec(text.trim());
   if (!match) return null;
   const [, bookName, chapter, verse] = match;
-  return { bookName, chapter: Number(chapter), verse: verse === undefined ? null : Number(verse) };
+  return {
+    bookName,
+    chapter: Number(chapter),
+    verse: verse === undefined ? null : Number(verse),
+  };
 }
 
 /**
@@ -116,7 +123,8 @@ function parseEndpoint(text: string): ParsedEndpoint | null {
  * {@link findCrossChapterLinks} returns it as `unreadable`. The corpus holds
  * none.
  */
-type TargetShape = "singleChapter" | "crossChapterRange" | "mergedTarget" | "unparsed";
+type TargetShape =
+  "singleChapter" | "crossChapterRange" | "mergedTarget" | "unparsed";
 
 /**
  * One `bibleLink` target's classification for one version — shape, resolved
@@ -172,13 +180,19 @@ const UNRESOLVED: BibleLinkClassification = {
  * @param versionId - A `bible-versions/` directory name, e.g. `"WEBUS2020"`.
  * @param target - A `bibleLink` target string, exactly as written.
  */
-export function classifyBibleLink(versionId: string, target: string): BibleLinkClassification {
+export function classifyBibleLink(
+  versionId: string,
+  target: string,
+): BibleLinkClassification {
   const grammar = parseTarget(target);
-  if (grammar.bookName === null) return { ...grammar, book: null, firstChapterLastVerse: null };
+  if (grammar.bookName === null)
+    return { ...grammar, book: null, firstChapterLastVerse: null };
 
   const book = resolveBookName(versionId, grammar.bookName);
   const firstChapterLastVerse =
-    book === null ? null : (lastVerseOf(versionId, book, grammar.fromChapter as number) ?? null);
+    book === null
+      ? null
+      : (lastVerseOf(versionId, book, grammar.fromChapter as number) ?? null);
   return { ...grammar, book, firstChapterLastVerse };
 }
 
@@ -187,7 +201,10 @@ export function classifyBibleLink(versionId: string, target: string): BibleLinkC
  * need a version's own data to answer — the target's own grammar, which no
  * version has any say in.
  */
-type TargetGrammar = Omit<BibleLinkClassification, "book" | "firstChapterLastVerse">;
+type TargetGrammar = Omit<
+  BibleLinkClassification,
+  "book" | "firstChapterLastVerse"
+>;
 
 const UNPARSED_GRAMMAR: TargetGrammar = {
   shape: "unparsed",
@@ -211,7 +228,8 @@ const UNPARSED_GRAMMAR: TargetGrammar = {
  */
 function parseTarget(target: string): TargetGrammar {
   // The comma wins over the dash grammar — see TargetShape's `mergedTarget`.
-  if (target.includes(",")) return { ...UNPARSED_GRAMMAR, shape: "mergedTarget" };
+  if (target.includes(","))
+    return { ...UNPARSED_GRAMMAR, shape: "mergedTarget" };
 
   const dashMatch = DASH.exec(target);
   const firstText = dashMatch ? target.slice(0, dashMatch.index) : target;
@@ -220,7 +238,11 @@ function parseTarget(target: string): TargetGrammar {
   const from = parseEndpoint(firstText);
   if (!from) return UNPARSED_GRAMMAR; // does not match `Book C[:V]` at all
 
-  const base = { bookName: from.bookName, fromChapter: from.chapter, fromVerse: from.verse };
+  const base = {
+    bookName: from.bookName,
+    fromChapter: from.chapter,
+    fromVerse: from.verse,
+  };
 
   if (secondText === undefined) {
     return { ...UNPARSED_GRAMMAR, ...base, shape: "singleChapter", dash: null };
@@ -237,20 +259,47 @@ function parseTarget(target: string): TargetGrammar {
   if (shorthand) {
     const toChapter = Number(shorthand[1]);
     const toVerse = Number(shorthand[2]);
-    return { ...UNPARSED_GRAMMAR, ...base, shape: toChapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter, toVerse, dash };
+    return {
+      ...UNPARSED_GRAMMAR,
+      ...base,
+      shape: toChapter === from.chapter ? "singleChapter" : "crossChapterRange",
+      toChapter,
+      toVerse,
+      dash,
+    };
   }
 
   if (/^\d+$/.test(secondText)) {
     const bare = Number(secondText);
     if (from.verse === null) {
-      return { ...UNPARSED_GRAMMAR, ...base, shape: bare === from.chapter ? "singleChapter" : "crossChapterRange", toChapter: bare, dash };
+      return {
+        ...UNPARSED_GRAMMAR,
+        ...base,
+        shape: bare === from.chapter ? "singleChapter" : "crossChapterRange",
+        toChapter: bare,
+        dash,
+      };
     }
-    return { ...UNPARSED_GRAMMAR, ...base, shape: "singleChapter", toChapter: from.chapter, toVerse: bare, dash };
+    return {
+      ...UNPARSED_GRAMMAR,
+      ...base,
+      shape: "singleChapter",
+      toChapter: from.chapter,
+      toVerse: bare,
+      dash,
+    };
   }
 
   const to = parseEndpoint(secondText);
   if (!to) return { ...UNPARSED_GRAMMAR, ...base, shape: "unparsed", dash };
-  return { ...UNPARSED_GRAMMAR, ...base, shape: to.chapter === from.chapter ? "singleChapter" : "crossChapterRange", toChapter: to.chapter, toVerse: to.verse, dash };
+  return {
+    ...UNPARSED_GRAMMAR,
+    ...base,
+    shape: to.chapter === from.chapter ? "singleChapter" : "crossChapterRange",
+    toChapter: to.chapter,
+    toVerse: to.verse,
+    dash,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -271,7 +320,8 @@ let bibleBooksCache: readonly BibleBookEntry[] | undefined;
 
 /** The repo-wide book registry, read once and reused for every version's own alias index. */
 function bibleBooks(): readonly BibleBookEntry[] {
-  if (!bibleBooksCache) bibleBooksCache = JSON.parse(fs.readFileSync(BIBLE_BOOKS_FILE, "utf-8"));
+  if (!bibleBooksCache)
+    bibleBooksCache = JSON.parse(fs.readFileSync(BIBLE_BOOKS_FILE, "utf-8"));
   return bibleBooksCache!;
 }
 
@@ -307,12 +357,19 @@ interface VersionBookFile {
  *   report gracefully.
  */
 function readVersionBookFiles(versionId: string): readonly VersionBookFile[] {
-  const dir = path.isAbsolute(versionId) ? versionId : path.join(BIBLE_VERSIONS_DIR, versionId);
+  const dir = path.isAbsolute(versionId)
+    ? versionId
+    : path.join(BIBLE_VERSIONS_DIR, versionId);
   if (!fs.existsSync(dir)) {
     throw new Error(`No bible-versions/ directory for "${versionId}"`);
   }
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "_version.json");
-  return files.map((file) => ({ file, records: JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8")) }));
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json") && f !== "_version.json");
+  return files.map((file) => ({
+    file,
+    records: JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8")),
+  }));
 }
 
 /** Every verse record of one version, flattened across its book files — the granularity an index build or a read-only content walk needs. */
@@ -355,10 +412,12 @@ function indexFor(versionId: string): VersionIndex {
   for (const record of readVersionRecords(versionId)) {
     canon.add(record.book);
     const key = `${record.book} ${record.chapter}`;
-    if (record.verse > (lastVerseByChapter.get(key) ?? 0)) lastVerseByChapter.set(key, record.verse);
+    if (record.verse > (lastVerseByChapter.get(key) ?? 0))
+      lastVerseByChapter.set(key, record.verse);
     if (!versesInChapter.has(key)) versesInChapter.set(key, new Set());
     versesInChapter.get(key)!.add(record.verse);
-    if (record.chapter > (lastChapterByBook.get(record.book) ?? 0)) lastChapterByBook.set(record.book, record.chapter);
+    if (record.chapter > (lastChapterByBook.get(record.book) ?? 0))
+      lastChapterByBook.set(record.book, record.chapter);
   }
 
   const bookIdByFoldedName = new Map<string, string>();
@@ -369,7 +428,12 @@ function indexFor(versionId: string): VersionIndex {
     }
   }
 
-  const index: VersionIndex = { lastVerseByChapter, versesInChapter, lastChapterByBook, bookIdByFoldedName };
+  const index: VersionIndex = {
+    lastVerseByChapter,
+    versesInChapter,
+    lastChapterByBook,
+    bookIdByFoldedName,
+  };
   versionIndexCache.set(versionId, index);
   return index;
 }
@@ -396,7 +460,11 @@ function resolveBookName(versionId: string, name: string): string | null {
  *   data carries no such chapter at all (e.g. any Old Testament book+chapter
  *   asked of BYZ2026, which is NT-only) — never defaulted to 0.
  */
-function lastVerseOf(versionId: string, book: string, chapter: number): number | undefined {
+function lastVerseOf(
+  versionId: string,
+  book: string,
+  chapter: number,
+): number | undefined {
   return indexFor(versionId).lastVerseByChapter.get(`${book} ${chapter}`);
 }
 
@@ -411,8 +479,16 @@ function lastVerseOf(versionId: string, book: string, chapter: number): number |
  * a check that only compared against the chapter's own last verse would miss
  * it.
  */
-function verseExistsIn(versionId: string, book: string, chapter: number, verse: number): boolean {
-  return indexFor(versionId).versesInChapter.get(`${book} ${chapter}`)?.has(verse) ?? false;
+function verseExistsIn(
+  versionId: string,
+  book: string,
+  chapter: number,
+  verse: number,
+): boolean {
+  return (
+    indexFor(versionId).versesInChapter.get(`${book} ${chapter}`)?.has(verse) ??
+    false
+  );
 }
 
 /**
@@ -477,7 +553,9 @@ function everyVersionOnDisk(): readonly string[] {
     ? []
     : fs
         .readdirSync(BIBLE_VERSIONS_DIR)
-        .filter((entry) => fs.existsSync(path.join(BIBLE_VERSIONS_DIR, entry, "_version.json")));
+        .filter((entry) =>
+          fs.existsSync(path.join(BIBLE_VERSIONS_DIR, entry, "_version.json")),
+        );
   return versionsOnDiskCache;
 }
 
@@ -512,34 +590,61 @@ function corpusIndexFor(versions?: readonly string[]): CorpusIndex {
       for (const verse of verses) pooled.add(verse);
     }
     for (const [book, chapter] of versionIndex.lastChapterByBook) {
-      if (chapter > (lastChapterByBook.get(book) ?? 0)) lastChapterByBook.set(book, chapter);
+      if (chapter > (lastChapterByBook.get(book) ?? 0))
+        lastChapterByBook.set(book, chapter);
     }
-    for (const [folded, book] of versionIndex.bookIdByFoldedName) bookIdByFoldedName.set(folded, book);
+    for (const [folded, book] of versionIndex.bookIdByFoldedName)
+      bookIdByFoldedName.set(folded, book);
   }
 
-  const index: CorpusIndex = { versesInChapter, lastChapterByBook, bookIdByFoldedName };
+  const index: CorpusIndex = {
+    versesInChapter,
+    lastChapterByBook,
+    bookIdByFoldedName,
+  };
   corpusIndexCache.set(cacheKey, index);
   if (versions === undefined) defaultCorpusIndex = index;
   return index;
 }
 
 /** Resolve a book name to a repo book id against the pooled corpus, so a book absent from the version being read still resolves. */
-function resolveBookNameAnywhere(name: string, versions?: readonly string[]): string | null {
-  return corpusIndexFor(versions).bookIdByFoldedName.get(foldName(name)) ?? null;
+function resolveBookNameAnywhere(
+  name: string,
+  versions?: readonly string[],
+): string | null {
+  return (
+    corpusIndexFor(versions).bookIdByFoldedName.get(foldName(name)) ?? null
+  );
 }
 
 /** Whether any pooled version records a given chapter at all. */
-function chapterExistsAnywhere(book: string, chapter: number, versions?: readonly string[]): boolean {
+function chapterExistsAnywhere(
+  book: string,
+  chapter: number,
+  versions?: readonly string[],
+): boolean {
   return corpusIndexFor(versions).versesInChapter.has(`${book} ${chapter}`);
 }
 
 /** Whether any pooled version records a specific verse — a genuine gap in one version is not a gap if another version fills it. */
-function verseExistsAnywhere(book: string, chapter: number, verse: number, versions?: readonly string[]): boolean {
-  return corpusIndexFor(versions).versesInChapter.get(`${book} ${chapter}`)?.has(verse) ?? false;
+function verseExistsAnywhere(
+  book: string,
+  chapter: number,
+  verse: number,
+  versions?: readonly string[],
+): boolean {
+  return (
+    corpusIndexFor(versions)
+      .versesInChapter.get(`${book} ${chapter}`)
+      ?.has(verse) ?? false
+  );
 }
 
 /** The highest chapter number any pooled version records for a book, or `undefined` when none carries it. */
-function lastChapterAnywhere(book: string, versions?: readonly string[]): number | undefined {
+function lastChapterAnywhere(
+  book: string,
+  versions?: readonly string[],
+): number | undefined {
   return corpusIndexFor(versions).lastChapterByBook.get(book);
 }
 
@@ -589,7 +694,9 @@ export interface CrossChapterFinding {
  * Exported so `validate.ts` can render the same line inline in its own
  * report instead of maintaining a second copy of this formatting.
  */
-export function formatCrossChapterFinding(finding: CrossChapterFinding): string {
+export function formatCrossChapterFinding(
+  finding: CrossChapterFinding,
+): string {
   return (
     `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
     `"${finding.target}" spans ${finding.book ?? finding.target} ${finding.fromChapter}–${finding.toChapter} — unsplit`
@@ -627,7 +734,9 @@ export interface UnreadableTargetFinding {
  * Render one unreadable target as this report's one-line format, matching
  * {@link formatCrossChapterFinding}'s own shape.
  */
-export function formatUnreadableTargetFinding(finding: UnreadableTargetFinding): string {
+export function formatUnreadableTargetFinding(
+  finding: UnreadableTargetFinding,
+): string {
   return (
     `${finding.atBook} ${finding.atChapter}:${finding.atVerse} [${finding.footnoteType ?? "(none)"}/${finding.zone}]: ` +
     `"${finding.target}" — no target grammar reads this`
@@ -652,9 +761,14 @@ function walkContent(
   content: Content,
   zone: Zone,
   footnoteType: string | null,
-  visit: (link: ContentBibleLink, zone: Zone, footnoteType: string | null) => void,
+  visit: (
+    link: ContentBibleLink,
+    zone: Zone,
+    footnoteType: string | null,
+  ) => void,
 ): void {
-  if (content === null || content === undefined || typeof content !== "object") return;
+  if (content === null || content === undefined || typeof content !== "object")
+    return;
   if (Array.isArray(content)) {
     for (const item of content) walkContent(item, zone, footnoteType, visit);
     return;
@@ -671,15 +785,21 @@ function walkContent(
     walkContent(content.subtitle, "subtitle", footnoteType, visit);
     return;
   }
-  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
+  if (
+    "paragraph" in content &&
+    content.paragraph !== undefined &&
+    typeof content.paragraph !== "boolean"
+  ) {
     walkContent(content.paragraph, zone, footnoteType, visit);
     return;
   }
   // An abbreviation node is a leaf: its display name and description live in
   // the version's registry, not here, so there is nothing to walk into.
   if ("abbr" in content) return;
-  if ("content" in content) walkContent(content.content, zone, footnoteType, visit);
-  if (content.foot) walkContent(content.foot.content, zone, content.foot.type ?? null, visit);
+  if ("content" in content)
+    walkContent(content.content, zone, footnoteType, visit);
+  if (content.foot)
+    walkContent(content.foot.content, zone, content.foot.type ?? null, visit);
 }
 
 /**
@@ -765,7 +885,9 @@ const EN_DASH = "–";
  * text actually differs from the target.
  */
 function withDisplay(target: string, display: string): ContentBibleLink {
-  return display === target ? { bibleLink: target } : { bibleLink: target, content: display };
+  return display === target
+    ? { bibleLink: target }
+    : { bibleLink: target, content: display };
 }
 
 /**
@@ -815,17 +937,23 @@ export function splitCrossChapterLink(
   if (classification.shape !== "crossChapterRange") return null;
 
   if (link.content !== undefined && typeof link.content !== "string") {
-    throw new Error(`splitCrossChapterLink: a bibleLink's content override must be a plain string: ${JSON.stringify(link)}`);
+    throw new Error(
+      `splitCrossChapterLink: a bibleLink's content override must be a plain string: ${JSON.stringify(link)}`,
+    );
   }
   if (classification.book === null) {
-    throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s book for: ${JSON.stringify(link)}`);
+    throw new Error(
+      `splitCrossChapterLink: cannot derive ${versionId}'s book for: ${JSON.stringify(link)}`,
+    );
   }
   const display = link.content ?? link.bibleLink;
 
   const targetDashMatch = DASH.exec(link.bibleLink);
   const displayDashMatch = DASH.exec(display);
   if (!targetDashMatch || !displayDashMatch) {
-    throw new Error(`splitCrossChapterLink: a target and its display must each carry a dash: ${JSON.stringify(link)}`);
+    throw new Error(
+      `splitCrossChapterLink: a target and its display must each carry a dash: ${JSON.stringify(link)}`,
+    );
   }
   const targetPrefix = link.bibleLink.slice(0, targetDashMatch.index); // e.g. "2 Kings 6:31" or "Romans 1"
   const displayPrefix = display.slice(0, displayDashMatch.index);
@@ -838,10 +966,14 @@ export function splitCrossChapterLink(
   // writes anything — checked once, here, so neither half can skip an
   // endpoint the other one checks.
   if (classification.firstChapterLastVerse === null) {
-    throw new Error(`splitCrossChapterLink: cannot derive ${versionId}'s chapter length for: ${JSON.stringify(link)}`);
+    throw new Error(
+      `splitCrossChapterLink: cannot derive ${versionId}'s chapter length for: ${JSON.stringify(link)}`,
+    );
   }
   if (lastVerseOf(versionId, classification.book, toChapter) === undefined) {
-    throw new Error(`splitCrossChapterLink: ${versionId} carries no ${bookName} ${toChapter} for: ${JSON.stringify(link)}`);
+    throw new Error(
+      `splitCrossChapterLink: ${versionId} carries no ${bookName} ${toChapter} for: ${JSON.stringify(link)}`,
+    );
   }
 
   // The left endpoint verbatim, carried to its own chapter's end only when it
@@ -849,7 +981,9 @@ export function splitCrossChapterLink(
   const lastVerse = classification.firstChapterLastVerse;
   const fromVerse = classification.fromVerse;
   const partATarget =
-    fromVerse === null || fromVerse === lastVerse ? targetPrefix : `${targetPrefix}${EN_DASH}${lastVerse}`;
+    fromVerse === null || fromVerse === lastVerse
+      ? targetPrefix
+      : `${targetPrefix}${EN_DASH}${lastVerse}`;
 
   // The second chapter from its own verse 1 to wherever the right endpoint
   // stops, or the bare chapter when that endpoint named no verse.
@@ -861,7 +995,11 @@ export function splitCrossChapterLink(
         ? `${bookName} ${toChapter}:1`
         : `${bookName} ${toChapter}:1${EN_DASH}${toVerse}`;
 
-  return [withDisplay(partATarget, displayPrefix), EN_DASH, withDisplay(partBTarget, displayTail)];
+  return [
+    withDisplay(partATarget, displayPrefix),
+    EN_DASH,
+    withDisplay(partBTarget, displayTail),
+  ];
 }
 
 /**
@@ -883,8 +1021,15 @@ export function splitCrossChapterLink(
  *   carries an already-split pair, since both halves classify as
  *   `singleChapter` on a second pass, which is what makes this idempotent).
  */
-export function splitCrossChapterLinksInContent(versionId: string, content: Content): { content: Content; splits: number } {
-  if (content === null || content === undefined || typeof content !== "object") {
+export function splitCrossChapterLinksInContent(
+  versionId: string,
+  content: Content,
+): { content: Content; splits: number } {
+  if (
+    content === null ||
+    content === undefined ||
+    typeof content !== "object"
+  ) {
     return { content, splits: 0 };
   }
 
@@ -892,7 +1037,12 @@ export function splitCrossChapterLinksInContent(versionId: string, content: Cont
     const items: Content[] = [];
     let splits = 0;
     for (const item of content) {
-      if (typeof item === "object" && item !== null && !Array.isArray(item) && "bibleLink" in item) {
+      if (
+        typeof item === "object" &&
+        item !== null &&
+        !Array.isArray(item) &&
+        "bibleLink" in item
+      ) {
         const split = splitCrossChapterLink(versionId, item);
         if (split) {
           items.push(...split);
@@ -913,18 +1063,40 @@ export function splitCrossChapterLinksInContent(versionId: string, content: Cont
   }
 
   if ("heading" in content) {
-    const rewritten = splitCrossChapterLinksInContent(versionId, content.heading);
-    return { content: { ...content, heading: rewritten.content }, splits: rewritten.splits };
+    const rewritten = splitCrossChapterLinksInContent(
+      versionId,
+      content.heading,
+    );
+    return {
+      content: { ...content, heading: rewritten.content },
+      splits: rewritten.splits,
+    };
   }
 
   if ("subtitle" in content) {
-    const rewritten = splitCrossChapterLinksInContent(versionId, content.subtitle);
-    return { content: { ...content, subtitle: rewritten.content }, splits: rewritten.splits };
+    const rewritten = splitCrossChapterLinksInContent(
+      versionId,
+      content.subtitle,
+    );
+    return {
+      content: { ...content, subtitle: rewritten.content },
+      splits: rewritten.splits,
+    };
   }
 
-  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
-    const rewritten = splitCrossChapterLinksInContent(versionId, content.paragraph);
-    return { content: { ...content, paragraph: rewritten.content }, splits: rewritten.splits };
+  if (
+    "paragraph" in content &&
+    content.paragraph !== undefined &&
+    typeof content.paragraph !== "boolean"
+  ) {
+    const rewritten = splitCrossChapterLinksInContent(
+      versionId,
+      content.paragraph,
+    );
+    return {
+      content: { ...content, paragraph: rewritten.content },
+      splits: rewritten.splits,
+    };
   }
 
   // Leaf: an abbreviation node holds only an id — see `walkContent`.
@@ -933,13 +1105,22 @@ export function splitCrossChapterLinksInContent(versionId: string, content: Cont
   let result: Content = content;
   let splits = 0;
   if ("content" in content) {
-    const rewritten = splitCrossChapterLinksInContent(versionId, content.content);
+    const rewritten = splitCrossChapterLinksInContent(
+      versionId,
+      content.content,
+    );
     result = { ...content, content: rewritten.content };
     splits += rewritten.splits;
   }
   if (content.foot) {
-    const rewritten = splitCrossChapterLinksInContent(versionId, content.foot.content);
-    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    const rewritten = splitCrossChapterLinksInContent(
+      versionId,
+      content.foot.content,
+    );
+    result = {
+      ...(result as typeof content),
+      foot: { ...content.foot, content: rewritten.content },
+    };
     splits += rewritten.splits;
   }
   return { content: result, splits };
@@ -974,9 +1155,14 @@ export function fixCrossChapterLinks(versionId: string): readonly FixedBook[] {
   for (const { file, records } of readVersionBookFiles(versionId)) {
     let splits = 0;
     const rewrittenRecords = records.map((record) => {
-      const rewritten = splitCrossChapterLinksInContent(versionId, record.content);
+      const rewritten = splitCrossChapterLinksInContent(
+        versionId,
+        record.content,
+      );
       splits += rewritten.splits;
-      return rewritten.splits > 0 ? { ...record, content: rewritten.content } : record;
+      return rewritten.splits > 0
+        ? { ...record, content: rewritten.content }
+        : record;
     });
     if (splits > 0) fixed.push({ file, records: rewrittenRecords, splits });
   }
@@ -1037,10 +1223,13 @@ function flattenDisplayText(content: Content | undefined): string | null {
   if (content === undefined || content === null) return null;
   if (typeof content === "string") return content;
   if (Array.isArray(content)) {
-    const joined = content.map((item) => flattenDisplayText(item) ?? "").join("");
+    const joined = content
+      .map((item) => flattenDisplayText(item) ?? "")
+      .join("");
     return joined === "" ? null : joined;
   }
-  if ("text" in content && typeof content.text === "string") return content.text;
+  if ("text" in content && typeof content.text === "string")
+    return content.text;
   return null;
 }
 
@@ -1064,7 +1253,9 @@ interface DisplayRange {
  * leading book-abbreviation text (`"Ex. "`, `"2 Sam. "`) this grammar makes
  * no attempt to parse — only the numbers are the signal.
  */
-const DISPLAY_RANGE = new RegExp(`(\\d+)[.:](\\d+)\\s*[${DASH_CLASS}]\\s*(?:(\\d+)[.:])?(\\d+)\\s*$`);
+const DISPLAY_RANGE = new RegExp(
+  `(\\d+)[.:](\\d+)\\s*[${DASH_CLASS}]\\s*(?:(\\d+)[.:])?(\\d+)\\s*$`,
+);
 
 /** Parse a flattened display string's own trailing range, or `null` when it names no range this grammar recognizes at all. */
 function parseDisplayRange(display: string): DisplayRange | null {
@@ -1098,14 +1289,18 @@ function parseDisplayRange(display: string): DisplayRange | null {
  *   real ASV1901 PSA 18:1 shape). Otherwise the verdict: either a completed
  *   target, or a decline with its own reason.
  */
-export function completeTruncatedRange(versionId: string, link: ContentBibleLink): TruncatedRangeResult | null {
+export function completeTruncatedRange(
+  versionId: string,
+  link: ContentBibleLink,
+): TruncatedRangeResult | null {
   const classification = classifyBibleLink(versionId, link.bibleLink);
 
   // Only a target carrying no range of its own at all is a candidate.
   // classifyBibleLink's singleChapter shape also covers a target that
   // already spells out a same-chapter range (dash !== null); that one needs
   // no completion.
-  if (classification.shape !== "singleChapter" || classification.dash !== null) return null;
+  if (classification.shape !== "singleChapter" || classification.dash !== null)
+    return null;
 
   const display = flattenDisplayText(link.content);
   if (display === null) return null;
@@ -1118,22 +1313,39 @@ export function completeTruncatedRange(versionId: string, link: ContentBibleLink
   // spelled out — some other mismatch this check has no business guessing
   // at.
   if (range.chapter !== classification.fromChapter) return null;
-  if (classification.fromVerse !== null && range.verse !== classification.fromVerse) return null;
+  if (
+    classification.fromVerse !== null &&
+    range.verse !== classification.fromVerse
+  )
+    return null;
 
   const fromChapter = classification.fromChapter as number;
-  const isCrossChapter = range.toChapter !== null && range.toChapter !== fromChapter;
+  const isCrossChapter =
+    range.toChapter !== null && range.toChapter !== fromChapter;
 
   // Whole-chapter-equivalence gate: a target naming only a chapter, whose
   // display spells out that exact chapter's own verses 1..last (from this
   // version's own data), names the same thing the target already does — not
   // a truncation.
-  if (classification.fromVerse === null && !isCrossChapter && range.verse === 1) {
-    const lastVerse = classification.book === null ? undefined : lastVerseOf(versionId, classification.book, fromChapter);
+  if (
+    classification.fromVerse === null &&
+    !isCrossChapter &&
+    range.verse === 1
+  ) {
+    const lastVerse =
+      classification.book === null
+        ? undefined
+        : lastVerseOf(versionId, classification.book, fromChapter);
     if (lastVerse !== undefined && lastVerse === range.toVerse) return null;
   }
 
   if (isCrossChapter) {
-    return { book: classification.book, display, reconstructedTarget: null, declineReason: "cross-chapter" };
+    return {
+      book: classification.book,
+      display,
+      reconstructedTarget: null,
+      declineReason: "cross-chapter",
+    };
   }
 
   const bookName = classification.bookName as string;
@@ -1166,7 +1378,9 @@ export interface TruncatedRangeFinding extends TruncatedRangeResult {
  * Render one truncated-range finding as this report's one-line format,
  * matching {@link formatCrossChapterFinding}'s own shape.
  */
-export function formatTruncatedRangeFinding(finding: TruncatedRangeFinding): string {
+export function formatTruncatedRangeFinding(
+  finding: TruncatedRangeFinding,
+): string {
   const outcome =
     finding.reconstructedTarget !== null
       ? `completes to "${finding.reconstructedTarget}"`
@@ -1236,7 +1450,11 @@ export function reconstructTruncatedRangesInContent(
   versionId: string,
   content: Content,
 ): { content: Content; changed: boolean; skipped: SkipReason[] } {
-  if (content === null || content === undefined || typeof content !== "object") {
+  if (
+    content === null ||
+    content === undefined ||
+    typeof content !== "object"
+  ) {
     return { content, changed: false, skipped: [] };
   }
 
@@ -1256,24 +1474,57 @@ export function reconstructTruncatedRangesInContent(
     const result = completeTruncatedRange(versionId, content);
     if (!result) return { content, changed: false, skipped: [] };
     if (result.reconstructedTarget === null) {
-      return { content, changed: false, skipped: [result.declineReason as SkipReason] };
+      return {
+        content,
+        changed: false,
+        skipped: [result.declineReason as SkipReason],
+      };
     }
-    return { content: { ...content, bibleLink: result.reconstructedTarget }, changed: true, skipped: [] };
+    return {
+      content: { ...content, bibleLink: result.reconstructedTarget },
+      changed: true,
+      skipped: [],
+    };
   }
 
   if ("heading" in content) {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, content.heading);
-    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      content.heading,
+    );
+    return {
+      content: { ...content, heading: rewritten.content },
+      changed: rewritten.changed,
+      skipped: rewritten.skipped,
+    };
   }
 
   if ("subtitle" in content) {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, content.subtitle);
-    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      content.subtitle,
+    );
+    return {
+      content: { ...content, subtitle: rewritten.content },
+      changed: rewritten.changed,
+      skipped: rewritten.skipped,
+    };
   }
 
-  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, content.paragraph);
-    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed, skipped: rewritten.skipped };
+  if (
+    "paragraph" in content &&
+    content.paragraph !== undefined &&
+    typeof content.paragraph !== "boolean"
+  ) {
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      content.paragraph,
+    );
+    return {
+      content: { ...content, paragraph: rewritten.content },
+      changed: rewritten.changed,
+      skipped: rewritten.skipped,
+    };
   }
 
   // Leaf: an abbreviation node holds only an id — see `walkContent`.
@@ -1283,14 +1534,23 @@ export function reconstructTruncatedRangesInContent(
   let changed = false;
   let skipped: SkipReason[] = [];
   if ("content" in content) {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, content.content);
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      content.content,
+    );
     result = { ...content, content: rewritten.content };
     changed = rewritten.changed;
     skipped = rewritten.skipped;
   }
   if (content.foot) {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, content.foot.content);
-    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      content.foot.content,
+    );
+    result = {
+      ...(result as typeof content),
+      foot: { ...content.foot, content: rewritten.content },
+    };
     changed = changed || rewritten.changed;
     skipped = skipped.concat(rewritten.skipped);
   }
@@ -1334,7 +1594,8 @@ export function reconstructTruncatedRangesInContent(
  * (`utils/usfm/references.ts`'s own embedded scanner resolves this kind of
  * mention un-restricted by canon for exactly that reason).
  */
-export type UnresolvableTargetReason = "chapter-not-carried" | "verse-not-carried";
+export type UnresolvableTargetReason =
+  "chapter-not-carried" | "verse-not-carried";
 
 /**
  * One bibleLink target's unresolvable verdict against the pooled corpus —
@@ -1381,10 +1642,24 @@ function unresolvableEndpoint(
   if (book === null) return null;
   const lastChapter = lastChapterAnywhere(book, versions) ?? null;
   if (!chapterExistsAnywhere(book, chapter, versions)) {
-    return { reason: "chapter-not-carried", bookName, book, chapter, verse, lastChapterAnywhere: lastChapter };
+    return {
+      reason: "chapter-not-carried",
+      bookName,
+      book,
+      chapter,
+      verse,
+      lastChapterAnywhere: lastChapter,
+    };
   }
   if (verse !== null && !verseExistsAnywhere(book, chapter, verse, versions)) {
-    return { reason: "verse-not-carried", bookName, book, chapter, verse, lastChapterAnywhere: lastChapter };
+    return {
+      reason: "verse-not-carried",
+      bookName,
+      book,
+      chapter,
+      verse,
+      lastChapterAnywhere: lastChapter,
+    };
   }
   return null;
 }
@@ -1408,17 +1683,33 @@ function unresolvableEndpoint(
  * @returns `null` when the target resolves, or wasn't attempted (unparsed,
  *   merged). Otherwise the verdict, with enough detail for a report line.
  */
-export function findUnresolvableTarget(target: string, versions?: readonly string[]): UnresolvableTargetResult | null {
+export function findUnresolvableTarget(
+  target: string,
+  versions?: readonly string[],
+): UnresolvableTargetResult | null {
   const grammar = parseTarget(target);
-  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget") return null;
+  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget")
+    return null;
 
   const bookName = grammar.bookName as string;
   const book = resolveBookNameAnywhere(bookName, versions);
-  const fromResult = unresolvableEndpoint(bookName, book, grammar.fromChapter as number, grammar.fromVerse, versions);
+  const fromResult = unresolvableEndpoint(
+    bookName,
+    book,
+    grammar.fromChapter as number,
+    grammar.fromVerse,
+    versions,
+  );
   if (fromResult) return fromResult;
 
   if (grammar.toChapter !== null) {
-    const toResult = unresolvableEndpoint(bookName, book, grammar.toChapter, grammar.toVerse, versions);
+    const toResult = unresolvableEndpoint(
+      bookName,
+      book,
+      grammar.toChapter,
+      grammar.toVerse,
+      versions,
+    );
     if (toResult) return toResult;
   }
 
@@ -1448,7 +1739,9 @@ export interface UnresolvableTargetFinding extends UnresolvableTargetResult {
  * reader can tell a target that overshoots a short book apart from one that
  * names a plausible chapter without looking anything up.
  */
-export function formatUnresolvableTargetFinding(finding: UnresolvableTargetFinding): string {
+export function formatUnresolvableTargetFinding(
+  finding: UnresolvableTargetFinding,
+): string {
   const detail =
     finding.reason === "chapter-not-carried"
       ? `${finding.bookName} ${finding.chapter} — no version carries more than ${finding.lastChapterAnywhere ?? 0} chapter(s) in ${finding.bookName}`
@@ -1557,7 +1850,8 @@ export function findSingleChapterShorthand(
   versions?: readonly string[],
 ): SingleChapterShorthand | null {
   const grammar = parseTarget(target);
-  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget") return null;
+  if (grammar.shape === "unparsed" || grammar.shape === "mergedTarget")
+    return null;
   if (grammar.fromVerse !== null) return null; // already spells its chapter out
 
   const book = resolveBookNameAnywhere(grammar.bookName as string, versions);
@@ -1595,14 +1889,21 @@ export function normalizeSingleChapterShorthandInContent(
   content: Content,
   versions?: readonly string[],
 ): { content: Content; changed: boolean } {
-  if (content === null || content === undefined || typeof content !== "object") {
+  if (
+    content === null ||
+    content === undefined ||
+    typeof content !== "object"
+  ) {
     return { content, changed: false };
   }
 
   if (Array.isArray(content)) {
     let changed = false;
     const items = content.map((item) => {
-      const rewritten = normalizeSingleChapterShorthandInContent(item, versions);
+      const rewritten = normalizeSingleChapterShorthandInContent(
+        item,
+        versions,
+      );
       changed = changed || rewritten.changed;
       return rewritten.content;
     });
@@ -1618,24 +1919,50 @@ export function normalizeSingleChapterShorthandInContent(
     if (!shorthand) return { content, changed: false };
     const rewritten: ContentBibleLink =
       content.content === undefined
-        ? { ...content, bibleLink: shorthand.target, content: shorthand.display }
+        ? {
+            ...content,
+            bibleLink: shorthand.target,
+            content: shorthand.display,
+          }
         : { ...content, bibleLink: shorthand.target };
     return { content: rewritten, changed: true };
   }
 
   if ("heading" in content) {
-    const rewritten = normalizeSingleChapterShorthandInContent(content.heading, versions);
-    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed };
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      content.heading,
+      versions,
+    );
+    return {
+      content: { ...content, heading: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
   if ("subtitle" in content) {
-    const rewritten = normalizeSingleChapterShorthandInContent(content.subtitle, versions);
-    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed };
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      content.subtitle,
+      versions,
+    );
+    return {
+      content: { ...content, subtitle: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
-  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
-    const rewritten = normalizeSingleChapterShorthandInContent(content.paragraph, versions);
-    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
+  if (
+    "paragraph" in content &&
+    content.paragraph !== undefined &&
+    typeof content.paragraph !== "boolean"
+  ) {
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      content.paragraph,
+      versions,
+    );
+    return {
+      content: { ...content, paragraph: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
   // Leaf: an abbreviation node holds only an id — see `walkContent`.
@@ -1644,13 +1971,22 @@ export function normalizeSingleChapterShorthandInContent(
   let result: Content = content;
   let changed = false;
   if ("content" in content) {
-    const rewritten = normalizeSingleChapterShorthandInContent(content.content, versions);
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      content.content,
+      versions,
+    );
     result = { ...content, content: rewritten.content };
     changed = rewritten.changed;
   }
   if (content.foot) {
-    const rewritten = normalizeSingleChapterShorthandInContent(content.foot.content, versions);
-    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      content.foot.content,
+      versions,
+    );
+    result = {
+      ...(result as typeof content),
+      foot: { ...content.foot, content: rewritten.content },
+    };
     changed = changed || rewritten.changed;
   }
   return { content: result, changed };

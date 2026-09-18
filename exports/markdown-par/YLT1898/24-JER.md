@@ -895,9 +895,6 @@
 
 ## Chapter 26
 
-### Events in the Life of the Prophet
-
-
 ### Attacked in the Temple
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim son of Josiah, king of Judah, hath this word been from Jehovah, saying:

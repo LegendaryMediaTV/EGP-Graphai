@@ -937,8 +937,6 @@
 
 ## Chapter 20
 
-### Wandering in the Wilderness
-
 <sup>1</sup> And the sons of Israel come in,—all the company—to the wilderness of Zin, in the first month, and the people abide in Kadesh, and Miriam dieth there, and is buried there.
 
 ### Water from the Rock

@@ -68,6 +68,41 @@ import {
   registeredAbbreviationIds,
 } from "./abbreviations";
 import { mergeMarkBoundarySpacesInContent } from "./fixMarkBoundarySpaces";
+import { mergeSplitVerseListsInContent } from "./fixSplitVerseLists";
+import { auditLexicalMaps, formatLexicalMapFinding } from "./lexicalMaps";
+import {
+  auditCorpusMorphology,
+  formatCorpusMorphFinding,
+} from "./corpusMorphology";
+import { lexicalMapLanguages } from "./lexicon";
+import {
+  transliterateScriptRunsInContent,
+  transliterateScriptRunsInVersion,
+} from "./transliterateScriptRuns";
+import { resolveLexicalAnnotationsInContent } from "./resolveLexicalAnnotations";
+import {
+  AnnotationCoverage,
+  auditCorpusEnrichment,
+  formatEnrichmentDisagreement,
+} from "./corpusEnrichment";
+import {
+  auditCorpusOrthography,
+  formatOrthographyFinding,
+} from "./corpusOrthography";
+import {
+  auditCorpusAgreement,
+  formatAgreementFinding,
+} from "./corpusAgreement";
+import {
+  auditCodexAttestation,
+  formatCellContradiction,
+} from "./codexAttestation";
+import {
+  auditJsonSchemas,
+  committableJsonFiles,
+  formatSchemaFinding,
+  governanceOf,
+} from "./jsonSchemas";
 
 /** Path to the bible-books registry JSON file. */
 const jsonPath = "./bible-books/bible-books.json";
@@ -102,7 +137,7 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
   const verses = JSON.parse(content);
 
   const sortedVerses = verses.map((verse: Record<string, unknown>) =>
-    sortVerseKeys(verse)
+    sortVerseKeys(verse),
   );
 
   const originalSerialized = JSON.stringify(verses);
@@ -162,14 +197,19 @@ async function formatJsonFile(filePath: string): Promise<boolean> {
  * whether the version defines that siglum, and so whether the siglon prints
  * as an `{ abbr }` node or as plain text.
  */
-async function hoistBibleLinkDisplayProseInFile(filePath: string): Promise<boolean> {
+async function hoistBibleLinkDisplayProseInFile(
+  filePath: string,
+): Promise<boolean> {
   const versionDir = path.dirname(filePath);
   const registeredAbbreviations = registeredAbbreviationIds(versionDir);
   const verses = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = hoistBibleLinkDisplayProseInContent(verse.content as Content, registeredAbbreviations);
+    const rewritten = hoistBibleLinkDisplayProseInContent(
+      verse.content as Content,
+      registeredAbbreviations,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -190,13 +230,17 @@ async function hoistBibleLinkDisplayProseInFile(filePath: string): Promise<boole
  * serialize-and-diff (needed there only because `sortVerseKeys` itself
  * returns no such flag).
  */
-async function normalizeBibleLinkDashesInFile(filePath: string): Promise<boolean> {
+async function normalizeBibleLinkDashesInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = normalizeBibleLinkDashesInContent(verse.content as Content);
+    const rewritten = normalizeBibleLinkDashesInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return { ...verse, content: rewritten.content };
@@ -246,7 +290,10 @@ async function reconstructTruncatedRangesInFile(
   let anyChanged = false;
   const skipped: TruncatedRangeSkip[] = [];
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = reconstructTruncatedRangesInContent(versionId, verse.content as Content);
+    const rewritten = reconstructTruncatedRangesInContent(
+      versionId,
+      verse.content as Content,
+    );
     for (const reason of rewritten.skipped) {
       skipped.push({
         book: verse.book as string,
@@ -458,13 +505,17 @@ async function mergeUnmergedNodesInFile(filePath: string): Promise<boolean> {
  * `foot` or `break` to the node before it, which may never have carried
  * either.
  */
-async function reattachLeadingPunctuationInFile(filePath: string): Promise<boolean> {
+async function reattachLeadingPunctuationInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = reattachLeadingPunctuationInContent(verse.content as Content);
+    const rewritten = reattachLeadingPunctuationInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -510,7 +561,9 @@ async function reorderFootnotePunctuationInFile(
   let anyChanged = false;
   const skipped: FootnotePunctuationSkip[] = [];
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = reorderFootnotePunctuationInContent(verse.content as Content);
+    const rewritten = reorderFootnotePunctuationInContent(
+      verse.content as Content,
+    );
     for (const reason of rewritten.skipped) {
       skipped.push({
         book: verse.book as string,
@@ -559,7 +612,9 @@ async function relocateMarkBoundarySpacesInFile(
   let anyChanged = false;
   const skipped: MarkBoundarySpaceSkip[] = [];
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = relocateMarkBoundarySpacesInContent(verse.content as Content);
+    const rewritten = relocateMarkBoundarySpacesInContent(
+      verse.content as Content,
+    );
     for (const reason of rewritten.skipped) {
       skipped.push({
         book: verse.book as string,
@@ -611,7 +666,9 @@ async function relocateFootnoteMarkerSpacesInFile(
   let anyChanged = false;
   const skipped: FootnoteMarkerSpacingSkip[] = [];
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = relocateFootnoteMarkerSpacesInContent(verse.content as Content);
+    const rewritten = relocateFootnoteMarkerSpacesInContent(
+      verse.content as Content,
+    );
     for (const reason of rewritten.skipped) {
       skipped.push({
         book: verse.book as string,
@@ -672,13 +729,17 @@ async function dropEmptyTextKeysInFile(filePath: string): Promise<boolean> {
  * deleted, only that this step always sees the fully-settled key set on
  * every node it compares.
  */
-async function removeDuplicateFootnoteAnchorsInFile(filePath: string): Promise<boolean> {
+async function removeDuplicateFootnoteAnchorsInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = removeDuplicateFootnoteAnchorsInContent(verse.content as Content);
+    const rewritten = removeDuplicateFootnoteAnchorsInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -689,6 +750,37 @@ async function removeDuplicateFootnoteAnchorsInFile(filePath: string): Promise<b
     return true;
   }
   return false;
+}
+
+/**
+ * Merges every comma-split verse list in one verse file and writes it back if
+ * anything changed — same `sortVerseKeys`-on-change shape as
+ * {@link mergeUnmergedNodesInFile}, since a merge can hand a footnote body a
+ * bare node where an array stood.
+ *
+ * **Runs after the truncated-range and cross-chapter steps in `main()`'s own
+ * pass, and the order is load-bearing.** A merged target carries a comma, which
+ * is the one thing the target grammar refuses to read past, so both of those
+ * steps would find nothing left to judge in a target this one had already
+ * folded a second verse into. Letting them settle each target first leaves this
+ * step an ordinary verse list to join.
+ */
+async function mergeSplitVerseListsInFile(filePath: string): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = mergeSplitVerseListsInContent(verse.content as Content);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return anyChanged;
 }
 
 /**
@@ -705,13 +797,17 @@ async function removeDuplicateFootnoteAnchorsInFile(filePath: string): Promise<b
  * the chapter in first leaves them an ordinary same-chapter verse range to
  * look at.
  */
-async function normalizeSingleChapterShorthandInFile(filePath: string): Promise<boolean> {
+async function normalizeSingleChapterShorthandInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = normalizeSingleChapterShorthandInContent(verse.content as Content);
+    const rewritten = normalizeSingleChapterShorthandInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -737,13 +833,17 @@ async function normalizeSingleChapterShorthandInFile(filePath: string): Promise<
  * array in its fully-settled shape rather than merge a run that a later
  * deletion would have split differently.
  */
-async function mergeEquivalentSiblingsInFile(filePath: string): Promise<boolean> {
+async function mergeEquivalentSiblingsInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = mergeEquivalentSiblingsInContent(verse.content as Content);
+    const rewritten = mergeEquivalentSiblingsInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -771,13 +871,17 @@ async function mergeEquivalentSiblingsInFile(filePath: string): Promise<boolean>
  * its fully-settled shape rather than resolve a boundary a later merge
  * would still touch.
  */
-async function mergeMarkBoundarySpacesInFile(filePath: string): Promise<boolean> {
+async function mergeMarkBoundarySpacesInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = mergeMarkBoundarySpacesInContent(verse.content as Content);
+    const rewritten = mergeMarkBoundarySpacesInContent(
+      verse.content as Content,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys({ ...verse, content: rewritten.content });
@@ -800,13 +904,17 @@ async function mergeMarkBoundarySpacesInFile(filePath: string): Promise<boolean>
  * verse's outermost content array, not an arbitrary subtree, so the fix
  * operates one whole verse at a time.
  */
-async function addMissingHeadingParagraphsInFile(filePath: string): Promise<boolean> {
+async function addMissingHeadingParagraphsInFile(
+  filePath: string,
+): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
   let anyChanged = false;
   const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
-    const rewritten = addMissingHeadingParagraphsInVerse(verse as unknown as VerseRecord);
+    const rewritten = addMissingHeadingParagraphsInVerse(
+      verse as unknown as VerseRecord,
+    );
     if (!rewritten.changed) return verse;
     anyChanged = true;
     return sortVerseKeys(rewritten.verse as unknown as Record<string, unknown>);
@@ -817,6 +925,129 @@ async function addMissingHeadingParagraphsInFile(filePath: string): Promise<bool
     return true;
   }
   return false;
+}
+
+/**
+ * Writes every script-tagged node's own text romanized in one verse file and
+ * writes it back if anything changed. Calls `sortVerseKeys` on every changed
+ * verse for the same reason {@link mergeUnmergedNodesInFile} does: adding a key
+ * a node never carried changes that node's own key order.
+ *
+ * **Runs after every step that can move a character**, for the reason
+ * `transliterateScriptRuns.ts`'s own top doc comment gives.
+ *
+ * Reports the `script` code of each node it left as printed, not the verse it
+ * sits in; `main` tallies the codes across the run and prints one line per
+ * code.
+ */
+async function transliterateScriptRunsInFile(
+  filePath: string,
+): Promise<{ changed: boolean; undeclaredScripts: string[] }> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+
+  let anyChanged = false;
+  const undeclaredScripts: string[] = [];
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = transliterateScriptRunsInContent(
+      verse.content as Content,
+    );
+    undeclaredScripts.push(...rewritten.undeclaredScripts);
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return { changed: anyChanged, undeclaredScripts };
+}
+
+/**
+ * The same step for one version's own `_version.json`, whose book names, book
+ * titles and abbreviation descriptions are content the invariant covers but no
+ * other content step reaches — every one of them is gated on {@link
+ * isVerseFile}, which excludes this file by name.
+ *
+ * No `sortVerseKeys` here: that sorts a verse record's own keys and a version
+ * file has no verse records. The content nodes inside it still need their keys
+ * settled, and {@link transliterateScriptRunsInVersion} does that itself.
+ */
+async function transliterateScriptRunsInVersionFile(
+  filePath: string,
+): Promise<{ changed: boolean; undeclaredScripts: string[] }> {
+  const version = JSON.parse(
+    fs.readFileSync(filePath, "utf-8"),
+  ) as BibleVersion;
+  const rewritten = transliterateScriptRunsInVersion(version);
+
+  if (rewritten.changed) {
+    await writeJsonFile(filePath, rewritten.version);
+  }
+  return {
+    changed: rewritten.changed,
+    undeclaredScripts: rewritten.undeclaredScripts,
+  };
+}
+
+/**
+ * The morphology scheme id one version declares, memoized for a whole run the
+ * same way {@link registeredAbbreviationIds} memoizes its registry: the
+ * annotation step asks once per file and the idempotence guard asks once per
+ * verse, and neither should re-read and re-parse `_version.json` to learn one
+ * string. The transliteration step does rewrite `_version.json` mid-run, but
+ * never its `morphology`, so a cached answer cannot go stale.
+ */
+const declaredMorphologyCache = new Map<string, string | undefined>();
+
+/** The scheme a version writes its `morph` codes in, or undefined for one declaring none. */
+function declaredMorphology(versionDir: string): string | undefined {
+  const cached = declaredMorphologyCache.get(versionDir);
+  if (cached !== undefined || declaredMorphologyCache.has(versionDir))
+    return cached;
+
+  const file = path.join(versionDir, "_version.json");
+  const declared = fs.existsSync(file)
+    ? (JSON.parse(fs.readFileSync(file, "utf-8")).morphology ?? undefined)
+    : undefined;
+  declaredMorphologyCache.set(versionDir, declared);
+  return declared;
+}
+
+/**
+ * Writes the lemma and the Strong's number the lexical map resolves for every
+ * word node in one verse file that carries neither, and writes the file back if
+ * anything changed. Calls `sortVerseKeys` on every changed verse for the same
+ * reason {@link transliterateScriptRunsInFile} does: a node gaining a key it
+ * never carried has its own key order to settle.
+ *
+ * **Runs last**, after the transliteration. It adds keys and moves no
+ * characters, so nothing downstream depends on it; what it needs is the settled
+ * spelling every character-moving step above produces.
+ */
+async function resolveLexicalAnnotationsInFile(
+  filePath: string,
+): Promise<boolean> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  const verses = JSON.parse(content);
+  const morphology = declaredMorphology(path.dirname(filePath));
+
+  let anyChanged = false;
+  const rewrittenVerses = verses.map((verse: Record<string, unknown>) => {
+    const rewritten = resolveLexicalAnnotationsInContent(
+      verse.content as Content,
+      morphology,
+    );
+    if (!rewritten.changed) return verse;
+    anyChanged = true;
+    return sortVerseKeys({ ...verse, content: rewritten.content });
+  });
+
+  if (anyChanged) {
+    await writeJsonFile(filePath, rewrittenVerses);
+  }
+  return anyChanged;
 }
 
 // ---------------------------------------------------------------------------
@@ -835,13 +1066,11 @@ async function addMissingHeadingParagraphsInFile(filePath: string): Promise<bool
  * checkAutoFixPassIsFixedPoint}. Factored out so it can be tested directly
  * against a synthetic verse with no file I/O at all.
  *
- * Named per step rather than returning a bare boolean so a failure points at
- * exactly which step is still rewriting something. A real, verified instance
- * of the interaction this catches lives in the mark-boundary-embedded-space
- * fixer: relocating a space across a genuine formatting disagreement can
- * leave a new, equally-disagreeing space on the far side of the same
- * boundary, which that fixer's next application flips straight back (see
- * `fixMarkBoundaryEmbeddedSpaces.ts`'s own doc comment).
+ * A real, verified instance of the interaction this catches lives in the
+ * mark-boundary-embedded-space fixer: relocating a space across a genuine
+ * formatting disagreement can leave a new, equally-disagreeing space on the
+ * far side of the same boundary, which that fixer's next application flips
+ * straight back (see `fixMarkBoundaryEmbeddedSpaces.ts`'s own doc comment).
  *
  * Sort-keys and Prettier formatting are deliberately excluded: neither
  * touches the content tree, so neither can participate in the kind of
@@ -870,32 +1099,73 @@ export function findResidualContentChanges(
   };
 
   applyStep("bibleLink display prose hoist", (c) =>
-    hoistBibleLinkDisplayProseInContent(c, registeredAbbreviationIds(path.join(bibleVersionsDir, versionId))),
+    hoistBibleLinkDisplayProseInContent(
+      c,
+      registeredAbbreviationIds(path.join(bibleVersionsDir, versionId)),
+    ),
   );
-  applyStep("bibleLink dash normalization", (c) => normalizeBibleLinkDashesInContent(c));
-  applyStep("single-chapter shorthand rewrite", (c) => normalizeSingleChapterShorthandInContent(c));
-  applyStep("truncated-range reconstruction", (c) => reconstructTruncatedRangesInContent(versionId, c));
+  applyStep("bibleLink dash normalization", (c) =>
+    normalizeBibleLinkDashesInContent(c),
+  );
+  applyStep("single-chapter shorthand rewrite", (c) =>
+    normalizeSingleChapterShorthandInContent(c),
+  );
+  applyStep("truncated-range reconstruction", (c) =>
+    reconstructTruncatedRangesInContent(versionId, c),
+  );
   applyStep("cross-chapter bibleLink split", (c) => {
     const result = splitCrossChapterLinksInContent(versionId, c);
     return { content: result.content, changed: result.splits > 0 };
   });
+  applyStep("comma-split verse list merge", (c) =>
+    mergeSplitVerseListsInContent(c),
+  );
   applyStep("fraction normalization", (c) => normalizeFractionsInContent(c));
   applyStep("ellipsis normalization", (c) => normalizeEllipsesInContent(c));
   applyStep("straight-quote normalization", (c) => normalizeQuotesInContent(c));
   applyStep("dialytika repair", (c) => normalizeDiacriticsInContent(c));
   applyStep("script-run tagging", (c) => tagScriptRunsInContent(c));
   applyStep("unmerged-node merge", (c) => mergeUnmergedNodesInContent(c));
-  applyStep("leading-punctuation reattach", (c) => reattachLeadingPunctuationInContent(c));
-  applyStep("footnote punctuation reorder", (c) => reorderFootnotePunctuationInContent(c));
-  applyStep("mark-boundary space relocation", (c) => relocateMarkBoundarySpacesInContent(c));
-  applyStep("footnote-marker spacing relocation", (c) => relocateFootnoteMarkerSpacesInContent(c));
+  applyStep("leading-punctuation reattach", (c) =>
+    reattachLeadingPunctuationInContent(c),
+  );
+  applyStep("footnote punctuation reorder", (c) =>
+    reorderFootnotePunctuationInContent(c),
+  );
+  applyStep("mark-boundary space relocation", (c) =>
+    relocateMarkBoundarySpacesInContent(c),
+  );
+  applyStep("footnote-marker spacing relocation", (c) =>
+    relocateFootnoteMarkerSpacesInContent(c),
+  );
   applyStep("empty text key drop", (c) => dropEmptyTextKeysInContent(c));
-  applyStep("duplicate footnote anchor removal", (c) => removeDuplicateFootnoteAnchorsInContent(c));
-  applyStep("equivalent sibling merge", (c) => mergeEquivalentSiblingsInContent(c));
-  applyStep("mark-boundary space merge", (c) => mergeMarkBoundarySpacesInContent(c));
+  applyStep("duplicate footnote anchor removal", (c) =>
+    removeDuplicateFootnoteAnchorsInContent(c),
+  );
+  applyStep("equivalent sibling merge", (c) =>
+    mergeEquivalentSiblingsInContent(c),
+  );
+  applyStep("mark-boundary space merge", (c) =>
+    mergeMarkBoundarySpacesInContent(c),
+  );
 
-  const headingResult = addMissingHeadingParagraphsInVerse({ ...verse, content });
-  if (headingResult.changed) residualSteps.push("heading/subtitle paragraph flag");
+  const headingResult = addMissingHeadingParagraphsInVerse({
+    ...verse,
+    content,
+  });
+  if (headingResult.changed)
+    residualSteps.push("heading/subtitle paragraph flag");
+  content = headingResult.verse.content;
+
+  applyStep("script-run transliteration", (c) =>
+    transliterateScriptRunsInContent(c),
+  );
+  applyStep("lexical annotation resolution", (c) =>
+    resolveLexicalAnnotationsInContent(
+      c,
+      declaredMorphology(path.join(bibleVersionsDir, versionId)),
+    ),
+  );
 
   return residualSteps;
 }
@@ -938,7 +1208,13 @@ function checkAutoFixPassIsFixedPoint(
     for (const verse of verses) {
       const steps = findResidualContentChanges(versionId, verse);
       if (steps.length > 0) {
-        failures.push({ file, book: verse.book, chapter: verse.chapter, verse: verse.verse, steps });
+        failures.push({
+          file,
+          book: verse.book,
+          chapter: verse.chapter,
+          verse: verse.verse,
+          steps,
+        });
       }
     }
   }
@@ -961,21 +1237,20 @@ function checkAutoFixPassIsFixedPoint(
  *   test can point this at a small fixture directory instead of scanning the
  *   real corpus.
  */
-export function collectJsonFiles(versionDirs: string[], versionsRoot: string = bibleVersionsDir): string[] {
+export function collectJsonFiles(
+  versionDirs: string[],
+  versionsRoot: string = bibleVersionsDir,
+): string[] {
   const files: string[] = [];
 
-  // Root-level schema
   files.push("content-schema.json");
 
-  // Bible books
   files.push(jsonPath);
   files.push(schemaPath);
 
-  // Bible versions schemas
   files.push(versionsSchemaPath);
   files.push("./bible-versions/bible-verses-schema.json");
 
-  // Version folders and their files
   for (const versionDir of versionDirs) {
     const versionPath = path.join(versionsRoot, versionDir);
     const jsonFiles = fs
@@ -1061,7 +1336,7 @@ export function findMeaninglessContentNodes(content: Content): string[] {
           script && `script "${script}"`,
         ].filter(Boolean);
         problems.push(
-          `${at}: ${dangling.join(" and ")} with no text to apply to`
+          `${at}: ${dangling.join(" and ")} with no text to apply to`,
         );
       } else if (
         !hasText &&
@@ -1105,9 +1380,10 @@ export function findMeaninglessContentNodes(content: Content): string[] {
  * @param content - A verse's content tree
  * @returns The rewritten tree (the original reference when nothing changed) and whether anything did
  */
-export function dropEmptyTextKeysInContent(
-  content: Content
-): { content: Content; changed: boolean } {
+export function dropEmptyTextKeysInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const rewrite = (node: unknown): { node: unknown; changed: boolean } => {
     if (Array.isArray(node)) {
       let changed = false;
@@ -1116,9 +1392,12 @@ export function dropEmptyTextKeysInContent(
         if (result.changed) changed = true;
         return result.node;
       });
-      return changed ? { node: rewritten, changed: true } : { node, changed: false };
+      return changed
+        ? { node: rewritten, changed: true }
+        : { node, changed: false };
     }
-    if (node === null || typeof node !== "object") return { node, changed: false };
+    if (node === null || typeof node !== "object")
+      return { node, changed: false };
 
     let properties = node as Record<string, unknown>;
     let changed = false;
@@ -1154,7 +1433,9 @@ export function dropEmptyTextKeysInContent(
       }
     }
 
-    return changed ? { node: properties, changed: true } : { node, changed: false };
+    return changed
+      ? { node: properties, changed: true }
+      : { node, changed: false };
   };
 
   const result = rewrite(content);
@@ -1207,7 +1488,7 @@ export function findStrongTrailingWhitespaceNodes(content: Content): string[] {
       /\s$/.test(properties.text)
     ) {
       problems.push(
-        `${at}: strong "${properties.strong}" carries text "${properties.text}" ending in whitespace`
+        `${at}: strong "${properties.strong}" carries text "${properties.text}" ending in whitespace`,
       );
     }
 
@@ -1234,24 +1515,15 @@ export interface DeclaredChapterMismatch {
 /**
  * Compare each book's declared chapter count against the highest chapter its
  * own verse file actually carries — corpus *completeness*, not merely
- * validity. `verify.ts` already asks this question for a USFM import
- * (`counts.maxChapter !== book.chapters`), but nothing asked it of a version
- * imported any other way until now.
+ * validity. `verify.ts` asks the same question of a USFM import
+ * (`counts.maxChapter !== book.chapters`); this asks it of a version imported
+ * any other way.
  *
  * Reports a mismatch in **either** direction — the metadata is equally wrong
  * whether the file falls short of, or exceeds, what it declares. A book's
- * `chapters` value in `_version.json` always tracks what its own verse file
- * actually carries today, not what a future import might add — when new
- * chapters land for a book that was previously incomplete (e.g. a
- * deuterocanonical addition), the declared count goes up in that same
- * change, not before. `npm run validate` is expected to report zero findings
- * here at all times; a survivor is a real gap between the metadata and the
- * file, not an accepted state.
- *
- * A pure comparison with no file I/O of its own — the caller (`main()`'s own
- * per-version loop, which already has `books` in scope from validating book
- * ordering) reads `_version.json` and each book's own verse file and passes
- * both in, rather than this function re-reading either.
+ * `chapters` value in `_version.json` tracks what its own verse file carries
+ * today, not what a future import might add, so a survivor here is a real gap
+ * between the metadata and the file rather than an accepted state.
  *
  * @param books - One version's own `books` array, exactly as read from its
  *   `_version.json` — declared chapter counts live here.
@@ -1269,7 +1541,11 @@ export function findDeclaredChapterMismatches(
   for (const book of books) {
     const highestChapterPresent = highestChapterByBook.get(book._id) ?? 0;
     if (highestChapterPresent !== book.chapters) {
-      mismatches.push({ book: book._id, declaredChapters: book.chapters, highestChapterPresent });
+      mismatches.push({
+        book: book._id,
+        declaredChapters: book.chapters,
+        highestChapterPresent,
+      });
     }
   }
   return mismatches;
@@ -1300,11 +1576,16 @@ function convertDigitFlankedHyphens(text: string): string {
  * {@link normalizeBibleLinkDashesInContent}, which is the one that knows
  * when a node in the tree is a `bibleLink` at all.
  */
-function fixBibleLinkNode(node: ContentBibleLink): { content: ContentBibleLink; changed: boolean } {
+function fixBibleLinkNode(node: ContentBibleLink): {
+  content: ContentBibleLink;
+  changed: boolean;
+} {
   const bibleLink = convertDigitFlankedHyphens(node.bibleLink);
 
   const content =
-    typeof node.content === "string" ? convertDigitFlankedHyphens(node.content) : node.content;
+    typeof node.content === "string"
+      ? convertDigitFlankedHyphens(node.content)
+      : node.content;
 
   if (typeof content === "string" && content === bibleLink) {
     return { content: { bibleLink }, changed: true };
@@ -1337,10 +1618,15 @@ function fixBibleLinkNode(node: ContentBibleLink): { content: ContentBibleLink; 
  * @returns The rewritten tree (structurally new only where something
  *   changed) and whether anything changed at all
  */
-export function normalizeBibleLinkDashesInContent(
-  content: Content
-): { content: Content; changed: boolean } {
-  if (content === null || content === undefined || typeof content !== "object") {
+export function normalizeBibleLinkDashesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
+  if (
+    content === null ||
+    content === undefined ||
+    typeof content !== "object"
+  ) {
     return { content, changed: false };
   }
 
@@ -1360,17 +1646,30 @@ export function normalizeBibleLinkDashesInContent(
 
   if ("heading" in content) {
     const rewritten = normalizeBibleLinkDashesInContent(content.heading);
-    return { content: { ...content, heading: rewritten.content }, changed: rewritten.changed };
+    return {
+      content: { ...content, heading: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
   if ("subtitle" in content) {
     const rewritten = normalizeBibleLinkDashesInContent(content.subtitle);
-    return { content: { ...content, subtitle: rewritten.content }, changed: rewritten.changed };
+    return {
+      content: { ...content, subtitle: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
-  if ("paragraph" in content && content.paragraph !== undefined && typeof content.paragraph !== "boolean") {
+  if (
+    "paragraph" in content &&
+    content.paragraph !== undefined &&
+    typeof content.paragraph !== "boolean"
+  ) {
     const rewritten = normalizeBibleLinkDashesInContent(content.paragraph);
-    return { content: { ...content, paragraph: rewritten.content }, changed: rewritten.changed };
+    return {
+      content: { ...content, paragraph: rewritten.content },
+      changed: rewritten.changed,
+    };
   }
 
   // An abbreviation node is a leaf: it holds an id, never text or a link.
@@ -1385,29 +1684,42 @@ export function normalizeBibleLinkDashesInContent(
   }
   if (content.foot) {
     const rewritten = normalizeBibleLinkDashesInContent(content.foot.content);
-    result = { ...(result as typeof content), foot: { ...content.foot, content: rewritten.content } };
+    result = {
+      ...(result as typeof content),
+      foot: { ...content.foot, content: rewritten.content },
+    };
     changed = changed || rewritten.changed;
   }
   return { content: result, changed };
 }
 
 /**
- * Validates (and normalizes) one version, or every version when none is
- * requested. The auto-fix pass runs these steps, in order: sort verse keys,
- * format JSON files, hoist non-reference prose out of `bibleLink` nodes,
- * normalize `bibleLink` dashes, write the implied chapter into single-chapter
- * shorthand targets, reconstruct truncated `bibleLink` ranges, split
- * cross-chapter `bibleLink` ranges, normalize fractions, normalize ellipses,
- * normalize straight quotes, repair misplaced dialytika, tag untagged script
- * runs, merge unmerged node pairs, reorder footnote punctuation, relocate
- * mark-boundary embedded spaces, relocate footnote-marker spacing, drop empty
- * text keys, remove duplicate footnote anchors, merge equivalent siblings,
- * merge mark-boundary spaces, and add missing heading/subtitle paragraph
- * flags.
+ * Every JSON file under `lexical-maps`, so the format pass covers them too.
  *
- * The ordering is deliberate, and each step's own `…InFile` doc comment gives
- * its own constraint. Four constraints belong to the sequence as a whole
- * rather than to any one step:
+ * A codex is generated output like a verse file, and wants the same canonical
+ * bytes for the same reason: a diff should show what changed in the data.
+ */
+function collectLexicalMapFiles(): string[] {
+  const root = "./lexical-maps";
+  if (!fs.existsSync(root)) return [];
+  const out: string[] = [];
+  const walk = (dir: string) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith(".json")) out.push(full);
+    }
+  };
+  walk(root);
+  return out.sort();
+}
+
+/**
+ * Validates (and normalizes) one version, or every version when none is
+ * requested. The auto-fix pass below runs its steps in a fixed order, each
+ * announced by its own console banner; each step's `…InFile` doc comment gives
+ * that step's own constraint. Five constraints belong to the sequence as a
+ * whole rather than to any one step:
  *
  * - **Target-reading steps run in grammar order** — prose hoist, dashes,
  *   shorthand, truncated ranges, cross-chapter split — so each one sees a
@@ -1421,8 +1733,14 @@ export function normalizeBibleLinkDashesInContent(
  *   nodes rather than the single pre-split one.
  * - **Structural steps run coarsest first**, so a finer step never resolves a
  *   boundary a coarser one is still about to move.
- * - **The heading-paragraph flag goes last**, being purely additive and
- *   touching a node class none of the others do.
+ * - **The heading-paragraph flag goes last among the structural steps**, being
+ *   purely additive and touching a node class none of the others do.
+ * - **The two lexical steps go after all of them**, because both read a node's
+ *   settled text — one to romanize it, one to look its spelling up — and every
+ *   step above can still move characters between nodes or out of one entirely.
+ *   Computed earlier, the stored value would be stale before the same pass
+ *   finished, and the guard below would fail the run naming one of these steps
+ *   for someone else's change. Between the two, order does not matter.
  *
  * **Immediately after the auto-fix pass, before any schema/structure check,
  * `main` proves the pass is a fixed point of itself.** A before/after byte
@@ -1469,7 +1787,9 @@ async function main(requestedVersion?: string) {
   // the pass actually changed without threading a changed-files set through
   // all fourteen of the pass's own loops — see {@link
   // checkAutoFixPassIsFixedPoint}'s own doc comment.
-  const verseFilesInScope = jsonFiles.filter((file) => fs.existsSync(file) && isVerseFile(file));
+  const verseFilesInScope = jsonFiles.filter(
+    (file) => fs.existsSync(file) && isVerseFile(file),
+  );
   const preFixPassSnapshot = new Map<string, string>();
   for (const file of verseFilesInScope) {
     preFixPassSnapshot.set(file, fs.readFileSync(file, "utf-8"));
@@ -1499,7 +1819,29 @@ async function main(requestedVersion?: string) {
 
   let formattedCount = 0;
 
-  for (const file of jsonFiles) {
+  // Every committable JSON file goes through one formatter, so a data file
+  // cannot be added to the repo and quietly keep whatever layout its writer
+  // happened to produce. The lexical maps were outside it once: fifteen importer
+  // passes write that directory, they disagreed about layout, and the resulting
+  // diff read as 1.19 million insertions where the content had grown by a few
+  // thousand roots. Safe to format here only because the importer now writes
+  // through one function that formats identically (`writeCodex` in
+  // `imports/lxx/lib/codex.mjs`); if the two ever disagree again they will
+  // revert each other on alternate runs, and `node imports/lxx/build-map.mjs
+  // --check` is what catches it.
+  //
+  // A file whose format belongs to a tool outside this repo is left alone. npm
+  // writes `package-lock.json` in its own layout, so formatting it here means
+  // npm and this step rewriting each other on alternate runs. `SCHEMA_RULES` in
+  // `jsonSchemas.ts` is the one place that records who owns which format.
+  const everyJsonFile =
+    versionDirs.length === getVersionDirectories().length
+      ? committableJsonFiles().filter(
+          (file) => governanceOf(file)?.owner === undefined,
+        )
+      : [...jsonFiles, ...collectLexicalMapFiles()];
+
+  for (const file of everyJsonFile) {
     if (fs.existsSync(file)) {
       const wasFormatted = await formatJsonFile(file);
       if (wasFormatted) {
@@ -1530,9 +1872,13 @@ async function main(requestedVersion?: string) {
   }
 
   if (displayProseHoistedCount > 0) {
-    console.log(`\n✅ Hoisted bibleLink display prose in ${displayProseHoistedCount} file(s)\n`);
+    console.log(
+      `\n✅ Hoisted bibleLink display prose in ${displayProseHoistedCount} file(s)\n`,
+    );
   } else {
-    console.log("✅ Every bibleLink already links its reference and nothing else\n");
+    console.log(
+      "✅ Every bibleLink already links its reference and nothing else\n",
+    );
   }
 
   console.log("🔧 Normalizing bibleLink dashes...\n");
@@ -1550,12 +1896,16 @@ async function main(requestedVersion?: string) {
   }
 
   if (dashNormalizedCount > 0) {
-    console.log(`\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`);
+    console.log(
+      `\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ All bibleLink dashes already normalized\n");
   }
 
-  console.log("1️⃣  Writing the implied chapter into single-chapter shorthand targets...\n");
+  console.log(
+    "1️⃣  Writing the implied chapter into single-chapter shorthand targets...\n",
+  );
 
   let singleChapterShorthandCount = 0;
 
@@ -1563,13 +1913,17 @@ async function main(requestedVersion?: string) {
     if (fs.existsSync(file) && isVerseFile(file)) {
       if (await normalizeSingleChapterShorthandInFile(file)) {
         singleChapterShorthandCount++;
-        console.log(`  🔄 Wrote implied chapter into single-chapter shorthand target(s): ${file}`);
+        console.log(
+          `  🔄 Wrote implied chapter into single-chapter shorthand target(s): ${file}`,
+        );
       }
     }
   }
 
   if (singleChapterShorthandCount > 0) {
-    console.log(`\n✅ Wrote implied chapter into single-chapter shorthand targets in ${singleChapterShorthandCount} file(s)\n`);
+    console.log(
+      `\n✅ Wrote implied chapter into single-chapter shorthand targets in ${singleChapterShorthandCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No single-chapter shorthand targets to rewrite\n");
   }
@@ -1591,14 +1945,20 @@ async function main(requestedVersion?: string) {
   }
 
   if (truncatedRangesFixedCount > 0) {
-    console.log(`\n✅ Reconstructed truncated bibleLink ranges in ${truncatedRangesFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Reconstructed truncated bibleLink ranges in ${truncatedRangesFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No truncated bibleLink ranges found\n");
   }
   if (truncatedRangesSkipped.length > 0) {
-    console.log(`⚠️  ${truncatedRangesSkipped.length} truncated-range finding(s) left for the audit below to report:`);
+    console.log(
+      `⚠️  ${truncatedRangesSkipped.length} truncated-range finding(s) left for the audit below to report:`,
+    );
     for (const skip of truncatedRangesSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
     }
     console.log("");
   }
@@ -1614,17 +1974,45 @@ async function main(requestedVersion?: string) {
 
   for (const versionDir of versionDirs) {
     for (const { file, records, splits } of fixCrossChapterLinks(versionDir)) {
-      await writeJsonFile(path.join(bibleVersionsDir, versionDir, file), records);
+      await writeJsonFile(
+        path.join(bibleVersionsDir, versionDir, file),
+        records,
+      );
       crossChapterFilesFixedCount++;
       crossChapterSplitsCount += splits;
-      console.log(`  🔄 Split ${splits} cross-chapter bibleLink(s): ${versionDir}/${file}`);
+      console.log(
+        `  🔄 Split ${splits} cross-chapter bibleLink(s): ${versionDir}/${file}`,
+      );
     }
   }
 
   if (crossChapterFilesFixedCount > 0) {
-    console.log(`\n✅ Split ${crossChapterSplitsCount} cross-chapter bibleLink range(s) across ${crossChapterFilesFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Split ${crossChapterSplitsCount} cross-chapter bibleLink range(s) across ${crossChapterFilesFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No cross-chapter bibleLink ranges to split\n");
+  }
+
+  console.log("🪢 Merging comma-split verse lists...\n");
+
+  let splitVerseListsMergedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      if (await mergeSplitVerseListsInFile(file)) {
+        splitVerseListsMergedCount++;
+        console.log(`  🔄 Merged comma-split verse list(s): ${file}`);
+      }
+    }
+  }
+
+  if (splitVerseListsMergedCount > 0) {
+    console.log(
+      `\n✅ Merged comma-split verse lists in ${splitVerseListsMergedCount} file(s)\n`,
+    );
+  } else {
+    console.log("✅ No comma-split verse lists to merge\n");
   }
 
   console.log("➗ Normalizing fractions...\n");
@@ -1642,7 +2030,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (fractionsNormalizedCount > 0) {
-    console.log(`\n✅ Normalized fractions in ${fractionsNormalizedCount} file(s)\n`);
+    console.log(
+      `\n✅ Normalized fractions in ${fractionsNormalizedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ All fractions already normalized\n");
   }
@@ -1662,7 +2052,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (ellipsesNormalizedCount > 0) {
-    console.log(`\n✅ Normalized ellipses in ${ellipsesNormalizedCount} file(s)\n`);
+    console.log(
+      `\n✅ Normalized ellipses in ${ellipsesNormalizedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ All ellipses already normalized\n");
   }
@@ -1682,7 +2074,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (quotesNormalizedCount > 0) {
-    console.log(`\n✅ Normalized straight quotes in ${quotesNormalizedCount} file(s)\n`);
+    console.log(
+      `\n✅ Normalized straight quotes in ${quotesNormalizedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ All quotes already normalized\n");
   }
@@ -1702,7 +2096,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (dialytikaRepairedCount > 0) {
-    console.log(`\n✅ Repaired misplaced dialytika in ${dialytikaRepairedCount} file(s)\n`);
+    console.log(
+      `\n✅ Repaired misplaced dialytika in ${dialytikaRepairedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ All Greek dialytika already well-formed\n");
   }
@@ -1724,14 +2120,20 @@ async function main(requestedVersion?: string) {
   }
 
   if (scriptRunsTaggedCount > 0) {
-    console.log(`\n✅ Tagged script runs in ${scriptRunsTaggedCount} file(s)\n`);
+    console.log(
+      `\n✅ Tagged script runs in ${scriptRunsTaggedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No untagged script runs found\n");
   }
   if (untaggedScriptRunsSkipped.length > 0) {
-    console.log(`⚠️  ${untaggedScriptRunsSkipped.length} untagged-script-run finding(s) left for the audit below to report:`);
+    console.log(
+      `⚠️  ${untaggedScriptRunsSkipped.length} untagged-script-run finding(s) left for the audit below to report:`,
+    );
     for (const skip of untaggedScriptRunsSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
     }
     console.log("");
   }
@@ -1751,7 +2153,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (unmergedNodesFixedCount > 0) {
-    console.log(`\n✅ Merged unmerged node pairs in ${unmergedNodesFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Merged unmerged node pairs in ${unmergedNodesFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No unmerged node pairs found\n");
   }
@@ -1771,7 +2175,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (leadingPunctuationFixedCount > 0) {
-    console.log(`\n✅ Reattached leading punctuation in ${leadingPunctuationFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Reattached leading punctuation in ${leadingPunctuationFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No misplaced leading punctuation found\n");
   }
@@ -1793,14 +2199,20 @@ async function main(requestedVersion?: string) {
   }
 
   if (footnotePunctuationFixedCount > 0) {
-    console.log(`\n✅ Reordered footnote punctuation in ${footnotePunctuationFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Reordered footnote punctuation in ${footnotePunctuationFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No footnote punctuation to reorder\n");
   }
   if (footnotePunctuationSkipped.length > 0) {
-    console.log(`⚠️  ${footnotePunctuationSkipped.length} footnote-punctuation finding(s) left for the audit below to report:`);
+    console.log(
+      `⚠️  ${footnotePunctuationSkipped.length} footnote-punctuation finding(s) left for the audit below to report:`,
+    );
     for (const skip of footnotePunctuationSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
     }
     console.log("");
   }
@@ -1822,14 +2234,20 @@ async function main(requestedVersion?: string) {
   }
 
   if (markBoundarySpacesFixedCount > 0) {
-    console.log(`\n✅ Relocated mark-boundary embedded spaces in ${markBoundarySpacesFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Relocated mark-boundary embedded spaces in ${markBoundarySpacesFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No mark-boundary embedded spaces found\n");
   }
   if (markBoundarySpacesSkipped.length > 0) {
-    console.log(`⚠️  ${markBoundarySpacesSkipped.length} mark-boundary-space finding(s) left for the audit below to report:`);
+    console.log(
+      `⚠️  ${markBoundarySpacesSkipped.length} mark-boundary-space finding(s) left for the audit below to report:`,
+    );
     for (const skip of markBoundarySpacesSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
     }
     console.log("");
   }
@@ -1841,7 +2259,8 @@ async function main(requestedVersion?: string) {
 
   for (const file of jsonFiles) {
     if (fs.existsSync(file) && isVerseFile(file)) {
-      const { changed, skipped } = await relocateFootnoteMarkerSpacesInFile(file);
+      const { changed, skipped } =
+        await relocateFootnoteMarkerSpacesInFile(file);
       if (changed) {
         footnoteMarkerSpacingFixedCount++;
         console.log(`  🔄 Relocated footnote-marker spacing: ${file}`);
@@ -1851,14 +2270,20 @@ async function main(requestedVersion?: string) {
   }
 
   if (footnoteMarkerSpacingFixedCount > 0) {
-    console.log(`\n✅ Relocated footnote-marker spacing in ${footnoteMarkerSpacingFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Relocated footnote-marker spacing in ${footnoteMarkerSpacingFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No footnote-marker spacing to relocate\n");
   }
   if (footnoteMarkerSpacingSkipped.length > 0) {
-    console.log(`⚠️  ${footnoteMarkerSpacingSkipped.length} footnote-marker-spacing finding(s) left for the audit below to report:`);
+    console.log(
+      `⚠️  ${footnoteMarkerSpacingSkipped.length} footnote-marker-spacing finding(s) left for the audit below to report:`,
+    );
     for (const skip of footnoteMarkerSpacingSkipped) {
-      console.log(`    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`);
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
     }
     console.log("");
   }
@@ -1878,7 +2303,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (emptyTextKeysDroppedCount > 0) {
-    console.log(`\n✅ Dropped empty text key(s) in ${emptyTextKeysDroppedCount} file(s)\n`);
+    console.log(
+      `\n✅ Dropped empty text key(s) in ${emptyTextKeysDroppedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No empty text keys to drop\n");
   }
@@ -1898,11 +2325,12 @@ async function main(requestedVersion?: string) {
   }
 
   if (duplicateFootnoteAnchorsRemovedCount > 0) {
-    console.log(`\n✅ Removed duplicate footnote anchor(s) in ${duplicateFootnoteAnchorsRemovedCount} file(s)\n`);
+    console.log(
+      `\n✅ Removed duplicate footnote anchor(s) in ${duplicateFootnoteAnchorsRemovedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No duplicate footnote anchors to remove\n");
   }
-
 
   console.log("🔗 Merging equivalent siblings...\n");
 
@@ -1919,7 +2347,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (mergeEquivalentSiblingsCount > 0) {
-    console.log(`\n✅ Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`);
+    console.log(
+      `\n✅ Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No equivalent siblings to merge\n");
   }
@@ -1939,7 +2369,9 @@ async function main(requestedVersion?: string) {
   }
 
   if (markBoundarySpaceMergeCount > 0) {
-    console.log(`\n✅ Merged mark-boundary space(s) in ${markBoundarySpaceMergeCount} file(s)\n`);
+    console.log(
+      `\n✅ Merged mark-boundary space(s) in ${markBoundarySpaceMergeCount} file(s)\n`,
+    );
   } else {
     console.log("✅ No mark-boundary spaces to merge\n");
   }
@@ -1953,15 +2385,90 @@ async function main(requestedVersion?: string) {
       const wasFixed = await addMissingHeadingParagraphsInFile(file);
       if (wasFixed) {
         headingParagraphsFixedCount++;
-        console.log(`  🔄 Added missing heading/subtitle paragraph flags: ${file}`);
+        console.log(
+          `  🔄 Added missing heading/subtitle paragraph flags: ${file}`,
+        );
       }
     }
   }
 
   if (headingParagraphsFixedCount > 0) {
-    console.log(`\n✅ Added missing heading/subtitle paragraph flags in ${headingParagraphsFixedCount} file(s)\n`);
+    console.log(
+      `\n✅ Added missing heading/subtitle paragraph flags in ${headingParagraphsFixedCount} file(s)\n`,
+    );
   } else {
     console.log("✅ Every heading/subtitle run already opens a paragraph\n");
+  }
+
+  console.log("🔡 Transliterating script-tagged text...\n");
+
+  let transliteratedCount = 0;
+  const undeclaredScripts: string[] = [];
+
+  // The one content step that also reaches `_version.json`, whose own content
+  // feeds the same tally and the same undeclared-script list — one story per
+  // run rather than two.
+  for (const file of jsonFiles) {
+    if (!fs.existsSync(file)) continue;
+
+    const isVersionFile = path.basename(file) === "_version.json";
+    if (!isVerseFile(file) && !isVersionFile) continue;
+
+    const { changed, undeclaredScripts: undeclared } = isVersionFile
+      ? await transliterateScriptRunsInVersionFile(file)
+      : await transliterateScriptRunsInFile(file);
+    if (changed) {
+      transliteratedCount++;
+      console.log(`  🔄 Transliterated script-tagged text: ${file}`);
+    }
+    undeclaredScripts.push(...undeclared);
+  }
+
+  if (transliteratedCount > 0) {
+    console.log(
+      `\n✅ Transliterated script-tagged text in ${transliteratedCount} file(s)\n`,
+    );
+  } else {
+    console.log(
+      "✅ Every script-tagged node already carries the transliteration its text implies\n",
+    );
+  }
+  if (undeclaredScripts.length > 0) {
+    console.log(
+      `⚠️  ${undeclaredScripts.length} script-tagged node(s) left as printed, no registry declaring how their script romanizes:`,
+    );
+    for (const [script, count] of Object.entries(
+      _.countBy(undeclaredScripts),
+    ).sort()) {
+      console.log(
+        `    script "${script}" — ${count} node(s); add a lexical-maps registry declaring it to transliterate them`,
+      );
+    }
+    console.log("");
+  }
+
+  console.log("🔖 Resolving lexical annotations...\n");
+
+  let annotationsResolvedCount = 0;
+
+  for (const file of jsonFiles) {
+    if (fs.existsSync(file) && isVerseFile(file)) {
+      const wasResolved = await resolveLexicalAnnotationsInFile(file);
+      if (wasResolved) {
+        annotationsResolvedCount++;
+        console.log(`  🔄 Resolved lexical annotations: ${file}`);
+      }
+    }
+  }
+
+  if (annotationsResolvedCount > 0) {
+    console.log(
+      `\n✅ Resolved lexical annotations in ${annotationsResolvedCount} file(s)\n`,
+    );
+  } else {
+    console.log(
+      "✅ Every word node already carries the lemma and Strong's number the map resolves for it\n",
+    );
   }
 
   console.log("🪞 Checking the auto-fix pass is a fixed point of itself...\n");
@@ -1973,21 +2480,25 @@ async function main(requestedVersion?: string) {
 
   if (fixedPointFailures.length > 0) {
     console.error(
-      `\n❌ Auto-fix pass is not a fixed point of itself — ${fixedPointFailures.length} verse(s) would still change on a second pass:`
+      `\n❌ Auto-fix pass is not a fixed point of itself — ${fixedPointFailures.length} verse(s) would still change on a second pass:`,
     );
     for (const failure of fixedPointFailures) {
       console.error(
-        `  ${failure.book} ${failure.chapter}:${failure.verse} (${failure.file}) — ${failure.steps.join(", ")}`
+        `  ${failure.book} ${failure.chapter}:${failure.verse} (${failure.file}) — ${failure.steps.join(", ")}`,
       );
     }
     console.error(
-      "\nTwo (or more) of the steps above are undoing each other's work. Investigate the interaction named for each verse rather than absorbing it — see findResidualContentChanges's own doc comment."
+      "\nTwo (or more) of the steps above are undoing each other's work. Investigate the interaction named for each verse rather than absorbing it — see findResidualContentChanges's own doc comment.",
     );
     process.exit(1);
   } else if (changedFiles.length > 0) {
-    console.log(`✅ Re-checked ${changedFiles.length} changed file(s) — the auto-fix pass is a fixed point of itself\n`);
+    console.log(
+      `✅ Re-checked ${changedFiles.length} changed file(s) — the auto-fix pass is a fixed point of itself\n`,
+    );
   } else {
-    console.log("✅ No files changed in the auto-fix pass — nothing to re-check\n");
+    console.log(
+      "✅ No files changed in the auto-fix pass — nothing to re-check\n",
+    );
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
@@ -2001,7 +2512,7 @@ async function main(requestedVersion?: string) {
         console.error(`  - ${error.instancePath || "Root"}: ${error.message}`);
         if (error.params && error.params.additionalProperty) {
           console.error(
-            `    Extra property: "${error.params.additionalProperty}"`
+            `    Extra property: "${error.params.additionalProperty}"`,
           );
         }
       });
@@ -2024,7 +2535,7 @@ async function main(requestedVersion?: string) {
 
     const versionResult = validateJsonAgainstSchema(
       versionsSchemaPath,
-      versionFilePath
+      versionFilePath,
     );
 
     if (!versionResult.valid) {
@@ -2032,11 +2543,11 @@ async function main(requestedVersion?: string) {
       if (versionResult.errors) {
         versionResult.errors.forEach((error) => {
           console.error(
-            `  - ${error.instancePath || "Root"}: ${error.message}`
+            `  - ${error.instancePath || "Root"}: ${error.message}`,
           );
           if (error.params && error.params.additionalProperty) {
             console.error(
-              `    Extra property: "${error.params.additionalProperty}"`
+              `    Extra property: "${error.params.additionalProperty}"`,
             );
           }
         });
@@ -2051,7 +2562,7 @@ async function main(requestedVersion?: string) {
 
     if (version._id !== versionDir) {
       console.error(
-        `❌ Version _id "${version._id}" does not match folder name "${versionDir}"`
+        `❌ Version _id "${version._id}" does not match folder name "${versionDir}"`,
       );
       versionsValidationPassed = false;
     }
@@ -2069,16 +2580,16 @@ async function main(requestedVersion?: string) {
   console.log("\n🔍 Validating book ordering...");
   let booksValidationPassed = true;
 
-  // Declared-vs-actual chapter counts — collected here, alongside the
-  // order checks below, because this loop already has each version's own
-  // `books` array (with its declared `chapters` per book) in scope; opening
-  // `_version.json` a second time to get it again would be redundant. Not
-  // printed or gated here: like the cross-chapter, truncated-range,
-  // node-convention, and unresolvable-target checks, this is a corpus-wide
-  // audit reported and gated as its own trailing audit, further down, so a
-  // finding here never blocks the schema/verse checks or the other trailing
-  // audits from running to completion.
-  const declaredChapterMismatchesByVersion = new Map<string, DeclaredChapterMismatch[]>();
+  // Declared-vs-actual chapter counts, collected here because this loop
+  // already has each version's own `books` array in scope and opening
+  // `_version.json` again for it would be redundant. Neither printed nor gated
+  // here: like its peer audits it reports further down, so a finding never
+  // blocks the schema/verse checks or the other audits from running to
+  // completion.
+  const declaredChapterMismatchesByVersion = new Map<
+    string,
+    DeclaredChapterMismatch[]
+  >();
 
   for (const version of versions) {
     const versionBooks = version.books || [];
@@ -2091,22 +2602,26 @@ async function main(requestedVersion?: string) {
     for (const book of versionBooks) {
       const bookFilePath = `${bibleVersionsDir}/${version._id}/${book.order.toString().padStart(2, "0")}-${book._id}.json`;
       if (!fs.existsSync(bookFilePath)) continue; // reported separately by the file-existence check below
-      const bookVerses = JSON.parse(fs.readFileSync(bookFilePath, "utf-8")) as { chapter: number }[];
+      const bookVerses = JSON.parse(fs.readFileSync(bookFilePath, "utf-8")) as {
+        chapter: number;
+      }[];
       let highestChapter = 0;
       for (const verse of bookVerses) {
         if (verse.chapter > highestChapter) highestChapter = verse.chapter;
       }
       highestChapterByBook.set(book._id, highestChapter);
     }
-    declaredChapterMismatchesByVersion.set(version._id, findDeclaredChapterMismatches(versionBooks, highestChapterByBook));
+    declaredChapterMismatchesByVersion.set(
+      version._id,
+      findDeclaredChapterMismatches(versionBooks, highestChapterByBook),
+    );
 
     const orderValues = versionBooks.map((item) => item.order);
     const sortedOrders = _.sortBy(orderValues);
 
-    // Check for duplicates
     const duplicates = _.filter(
       _.groupBy(versionBooks, "order"),
-      (group) => group.length > 1
+      (group) => group.length > 1,
     );
 
     if (duplicates.length > 0) {
@@ -2120,12 +2635,11 @@ async function main(requestedVersion?: string) {
 
     if (sortedOrders[0] !== 1) {
       console.error(
-        `\n❌ ${version._id} does not start at 1 (starts at ${sortedOrders[0]})`
+        `\n❌ ${version._id} does not start at 1 (starts at ${sortedOrders[0]})`,
       );
       booksValidationPassed = false;
     }
 
-    // Check for gaps in sequence
     const expectedCount = sortedOrders[sortedOrders.length - 1];
     if (sortedOrders.length !== expectedCount) {
       const allExpected = _.range(1, expectedCount + 1);
@@ -2133,8 +2647,8 @@ async function main(requestedVersion?: string) {
       if (missing.length > 0) {
         console.error(
           `\n❌ ${version._id} has gaps in numbering. Missing: ${missing.join(
-            ", "
-          )}`
+            ", ",
+          )}`,
         );
         booksValidationPassed = false;
       }
@@ -2146,7 +2660,7 @@ async function main(requestedVersion?: string) {
       duplicates.length === 0
     ) {
       console.log(
-        `✅ ${version._id}: ${sortedOrders.length} books, numbered 1–${expectedCount}`
+        `✅ ${version._id}: ${sortedOrders.length} books, numbered 1–${expectedCount}`,
       );
     }
   }
@@ -2164,11 +2678,9 @@ async function main(requestedVersion?: string) {
 
   let verseValidationPassed = true;
 
-  // Create version map for book list validation
   const versionMap = new Map(versions.map((v) => [v._id, v]));
 
-  // Load all three schemas and compile the verse validator once, so it
-  // isn't recompiled per version in the loop below
+  // Compiled once here rather than per version inside the loop below.
   const verseSchemaContent = fs.readFileSync(verseSchemaPath, "utf-8");
   const verseSchema = JSON.parse(verseSchemaContent);
   const bookSchemaContent = fs.readFileSync(schemaPath, "utf-8");
@@ -2191,27 +2703,25 @@ async function main(requestedVersion?: string) {
     const versionObj = versionMap.get(versionDir);
     const expectedFiles = new Set(
       (versionObj?.books || []).map(
-        (b) => `${b.order.toString().padStart(2, "0")}-${b._id}.json`
-      )
+        (b) => `${b.order.toString().padStart(2, "0")}-${b._id}.json`,
+      ),
     );
     const actualFiles = new Set(verseFiles);
 
-    // Check for missing files
     for (const expectedFile of expectedFiles) {
       if (!actualFiles.has(expectedFile)) {
         const bookId = expectedFile.split("-")[1].replace(".json", "");
         console.error(
-          `❌ Missing file for book ${bookId} in version ${versionDir}`
+          `❌ Missing file for book ${bookId} in version ${versionDir}`,
         );
         verseValidationPassed = false;
       }
     }
 
-    // Check for extra files
     for (const actualFile of actualFiles) {
       if (!expectedFiles.has(actualFile)) {
         console.error(
-          `❌ Extra file ${actualFile} in version ${versionDir} (not in books array)`
+          `❌ Extra file ${actualFile} in version ${versionDir} (not in books array)`,
         );
         verseValidationPassed = false;
       }
@@ -2223,7 +2733,7 @@ async function main(requestedVersion?: string) {
 
       if (!validBookIds.has(bookIdFromFilename)) {
         console.error(
-          `❌ Invalid filename: ${file} (book ID "${bookIdFromFilename}" not found in bible-books.json)`
+          `❌ Invalid filename: ${file} (book ID "${bookIdFromFilename}" not found in bible-books.json)`,
         );
         verseValidationPassed = false;
         continue;
@@ -2231,22 +2741,19 @@ async function main(requestedVersion?: string) {
 
       const verses = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-      // Per-verse checks: schema validity, the book field against the
-      // filename, content that passes the schema but renders as nothing,
-      // and Strong's-tagged text with trailing whitespace.
       for (const verse of verses) {
         const valid = validateVerse(verse);
         if (!valid) {
           console.error(
             `❌ Schema validation failed for verse ${verse.chapter}:${verse.verse} in ${filePath}:`,
-            validateVerse.errors
+            validateVerse.errors,
           );
           verseValidationPassed = false;
         }
 
         if (verse.book !== bookIdFromFilename) {
           console.error(
-            `❌ Book field mismatch in ${filePath}: verse ${verse.chapter}:${verse.verse} has book="${verse.book}" but filename indicates "${bookIdFromFilename}"`
+            `❌ Book field mismatch in ${filePath}: verse ${verse.chapter}:${verse.verse} has book="${verse.book}" but filename indicates "${bookIdFromFilename}"`,
           );
           verseValidationPassed = false;
         }
@@ -2255,7 +2762,7 @@ async function main(requestedVersion?: string) {
         // something. See findMeaninglessContentNodes for what slipped past it.
         for (const problem of findMeaninglessContentNodes(verse.content)) {
           console.error(
-            `❌ Meaningless content in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`
+            `❌ Meaningless content in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`,
           );
           verseValidationPassed = false;
         }
@@ -2263,10 +2770,10 @@ async function main(requestedVersion?: string) {
         // See findStrongTrailingWhitespaceNodes for the convention this
         // enforces and why a violation is a real defect, not just style.
         for (const problem of findStrongTrailingWhitespaceNodes(
-          verse.content
+          verse.content,
         )) {
           console.error(
-            `❌ Strong's text ends in whitespace in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`
+            `❌ Strong's text ends in whitespace in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`,
           );
           verseValidationPassed = false;
         }
@@ -2286,21 +2793,26 @@ async function main(requestedVersion?: string) {
   // Declared-chapter-count audit (report-only): every book whose
   // `_version.json` declares a chapter count its own verse file does not
   // actually carry. No check can supply missing chapters, so this only
-  // reports — fixing a finding here means either completing the verse file
-  // or correcting `_version.json` to what the file actually carries.
+  // reports.
   console.log("\n📐 Auditing declared chapter counts...");
   let declaredChapterMismatchesPassed = true;
 
   for (const versionDir of versionDirs) {
     const mismatches = declaredChapterMismatchesByVersion.get(versionDir) ?? [];
     if (mismatches.length === 0) {
-      console.log(`✅ ${versionDir}: every declared chapter count matches its file`);
+      console.log(
+        `✅ ${versionDir}: every declared chapter count matches its file`,
+      );
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${mismatches.length} book(s) whose declared chapter count disagrees with the chapters its file actually carries:`);
+    console.error(
+      `❌ ${versionDir}: ${mismatches.length} book(s) whose declared chapter count disagrees with the chapters its file actually carries:`,
+    );
     for (const mismatch of mismatches) {
-      console.error(`  ${versionDir} ${mismatch.book}: highest chapter ${mismatch.highestChapterPresent}, _version.json declares ${mismatch.declaredChapters}`);
+      console.error(
+        `  ${versionDir} ${mismatch.book}: highest chapter ${mismatch.highestChapterPresent}, _version.json declares ${mismatch.declaredChapters}`,
+      );
     }
     declaredChapterMismatchesPassed = false;
   }
@@ -2313,12 +2825,10 @@ async function main(requestedVersion?: string) {
   // The unreadable targets share this section rather than getting a peer
   // audit of their own: findCrossChapterLinks already walks every bibleLink
   // in a version, and what it could not read is the missing half of the same
-  // coverage statement its `scanned` count makes. A version's clean line is
-  // clean only when both counts are zero.
+  // coverage statement its `scanned` count makes.
   //
   // Prints each version's own `scanned` count, so a walk that silently stops
   // descending is caught rather than under-reporting a clean bill of health.
-  // A dropped number here is a real regression to investigate.
   console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
   let crossChapterLinksPassed = true;
   let crossChapterLinksScanned = 0;
@@ -2327,25 +2837,33 @@ async function main(requestedVersion?: string) {
     const { findings, unreadable, scanned } = findCrossChapterLinks(versionDir);
     crossChapterLinksScanned += scanned;
     if (findings.length === 0 && unreadable.length === 0) {
-      console.log(`✅ ${versionDir}: no unsplit cross-chapter links, no unreadable targets (${scanned} bibleLink node(s) scanned)`);
+      console.log(
+        `✅ ${versionDir}: no unsplit cross-chapter links, no unreadable targets (${scanned} bibleLink node(s) scanned)`,
+      );
       continue;
     }
 
     if (findings.length > 0) {
-      console.error(`❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s) (${scanned} bibleLink node(s) scanned):`);
+      console.error(
+        `❌ ${versionDir}: ${findings.length} unsplit cross-chapter link(s) (${scanned} bibleLink node(s) scanned):`,
+      );
       for (const finding of findings) {
         console.error(`  ${formatCrossChapterFinding(finding)}`);
       }
     }
     if (unreadable.length > 0) {
-      console.error(`❌ ${versionDir}: ${unreadable.length} unreadable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`);
+      console.error(
+        `❌ ${versionDir}: ${unreadable.length} unreadable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`,
+      );
       for (const finding of unreadable) {
         console.error(`  ${formatUnreadableTargetFinding(finding)}`);
       }
     }
     crossChapterLinksPassed = false;
   }
-  console.log(`   ${crossChapterLinksScanned} bibleLink node(s) scanned corpus-wide`);
+  console.log(
+    `   ${crossChapterLinksScanned} bibleLink node(s) scanned corpus-wide`,
+  );
 
   // Truncated-range audit: every bibleLink target still short of the range
   // its own display names — a different finding from the unsplit-range one
@@ -2359,17 +2877,23 @@ async function main(requestedVersion?: string) {
     const { findings, scanned } = findTruncatedRanges(versionDir);
     truncatedRangesScanned += scanned;
     if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: no truncated bibleLink ranges (${scanned} bibleLink node(s) scanned)`);
+      console.log(
+        `✅ ${versionDir}: no truncated bibleLink ranges (${scanned} bibleLink node(s) scanned)`,
+      );
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} truncated bibleLink range(s) (${scanned} bibleLink node(s) scanned):`);
+    console.error(
+      `❌ ${versionDir}: ${findings.length} truncated bibleLink range(s) (${scanned} bibleLink node(s) scanned):`,
+    );
     for (const finding of findings) {
       console.error(`  ${formatTruncatedRangeFinding(finding)}`);
     }
     truncatedRangesPassed = false;
   }
-  console.log(`   ${truncatedRangesScanned} bibleLink node(s) scanned corpus-wide`);
+  console.log(
+    `   ${truncatedRangesScanned} bibleLink node(s) scanned corpus-wide`,
+  );
 
   // Node-placement and content-convention audit: the checks
   // auditNodes.ts owns. Also report-only here.
@@ -2401,17 +2925,23 @@ async function main(requestedVersion?: string) {
     const { findings, scanned } = findUnresolvableTargets(versionDir);
     unresolvableTargetsScanned += scanned;
     if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: no unresolvable bibleLink targets (${scanned} bibleLink node(s) scanned)`);
+      console.log(
+        `✅ ${versionDir}: no unresolvable bibleLink targets (${scanned} bibleLink node(s) scanned)`,
+      );
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} unresolvable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`);
+    console.error(
+      `❌ ${versionDir}: ${findings.length} unresolvable bibleLink target(s) (${scanned} bibleLink node(s) scanned):`,
+    );
     for (const finding of findings) {
       console.error(`  ${formatUnresolvableTargetFinding(finding)}`);
     }
     unresolvableTargetsPassed = false;
   }
-  console.log(`   ${unresolvableTargetsScanned} bibleLink node(s) scanned corpus-wide`);
+  console.log(
+    `   ${unresolvableTargetsScanned} bibleLink node(s) scanned corpus-wide`,
+  );
 
   // Display-prose audit: every bibleLink still linking text that is not part
   // of its own reference. Report-only, like its peers — the hoist step above
@@ -2426,25 +2956,35 @@ async function main(requestedVersion?: string) {
   for (const versionDir of versionDirs) {
     let findings: ReturnType<typeof findBibleLinkDisplayProse>["findings"] = [];
     let scanned = 0;
-    for (const file of collectJsonFiles([versionDir]).filter((f) => fs.existsSync(f) && isVerseFile(f))) {
-      const result = findBibleLinkDisplayProse(JSON.parse(fs.readFileSync(file, "utf-8")) as VerseRecord[]);
+    for (const file of collectJsonFiles([versionDir]).filter(
+      (f) => fs.existsSync(f) && isVerseFile(f),
+    )) {
+      const result = findBibleLinkDisplayProse(
+        JSON.parse(fs.readFileSync(file, "utf-8")) as VerseRecord[],
+      );
       findings = findings.concat(result.findings);
       scanned += result.scanned;
     }
     displayProseScanned += scanned;
 
     if (findings.length === 0) {
-      console.log(`✅ ${versionDir}: every bibleLink links its reference and nothing else (${scanned} bibleLink node(s) scanned)`);
+      console.log(
+        `✅ ${versionDir}: every bibleLink links its reference and nothing else (${scanned} bibleLink node(s) scanned)`,
+      );
       continue;
     }
 
-    console.error(`❌ ${versionDir}: ${findings.length} bibleLink(s) linking non-reference text (${scanned} bibleLink node(s) scanned):`);
+    console.error(
+      `❌ ${versionDir}: ${findings.length} bibleLink(s) linking non-reference text (${scanned} bibleLink node(s) scanned):`,
+    );
     for (const finding of findings) {
       console.error(`  ${formatBibleLinkDisplayProseFinding(finding)}`);
     }
     displayProsePassed = false;
   }
-  console.log(`   ${displayProseScanned} bibleLink node(s) scanned corpus-wide`);
+  console.log(
+    `   ${displayProseScanned} bibleLink node(s) scanned corpus-wide`,
+  );
 
   // Abbreviation audit: every `{ abbr }` node naming an id its own version
   // registry defines, and no registry defining an id twice. Report-only for
@@ -2456,22 +2996,30 @@ async function main(requestedVersion?: string) {
 
   for (const versionDir of versionDirs) {
     const { findings, duplicates, scanned } = findUnknownAbbreviations(
-      `${bibleVersionsDir}/${versionDir}`
+      `${bibleVersionsDir}/${versionDir}`,
     );
     abbreviationsScanned += scanned;
     if (findings.length === 0 && duplicates.length === 0) {
-      console.log(`✅ ${versionDir}: every abbreviation resolves (${scanned} abbr node(s) scanned)`);
+      console.log(
+        `✅ ${versionDir}: every abbreviation resolves (${scanned} abbr node(s) scanned)`,
+      );
       continue;
     }
 
     if (duplicates.length > 0) {
-      console.error(`❌ ${versionDir}: ${duplicates.length} duplicate registry id(s):`);
+      console.error(
+        `❌ ${versionDir}: ${duplicates.length} duplicate registry id(s):`,
+      );
       for (const duplicate of duplicates) {
-        console.error(`  "${duplicate.id}" defined ${duplicate.count} times in _version.json`);
+        console.error(
+          `  "${duplicate.id}" defined ${duplicate.count} times in _version.json`,
+        );
       }
     }
     if (findings.length > 0) {
-      console.error(`❌ ${versionDir}: ${findings.length} unresolved abbreviation(s) (${scanned} abbr node(s) scanned):`);
+      console.error(
+        `❌ ${versionDir}: ${findings.length} unresolved abbreviation(s) (${scanned} abbr node(s) scanned):`,
+      );
       for (const finding of findings) {
         console.error(`  ${formatUnknownAbbreviation(finding)}`);
       }
@@ -2480,40 +3028,391 @@ async function main(requestedVersion?: string) {
   }
   console.log(`   ${abbreviationsScanned} abbr node(s) scanned corpus-wide`);
 
+  // Schema-coverage audit: every committable JSON file must be governed by a
+  // schema, and a file governed by nothing is the finding. A schema nothing
+  // runs is documentation of a format, and documentation of a format is the
+  // thing most likely to be wrong about it — four sat here unapplied long
+  // enough that `language-schema.json` declared ten properties where
+  // `_language.json` carried thirteen.
+  //
+  // Files another step already validates per record are named rather than
+  // re-validated here: repeating the verse pass would add a second walk over
+  // every node in the corpus to say the same thing without the book, chapter
+  // and verse.
+  // What is confirmed for those is that the schema exists and compiles, which
+  // is the coverage claim itself.
+  //
+  // Report-only, like its peers. A new file with no schema needs someone to
+  // write one, and only a person can say what shape it should describe.
+  console.log("\n🗂️  Auditing JSON schema coverage...");
+  const schemaCoverage = auditJsonSchemas();
+  const schemaCoveragePassed = schemaCoverage.findings.length === 0;
+  const coverageScanned = `${schemaCoverage.scanned} committable JSON file(s), ${schemaCoverage.checked} validated here`;
+  if (schemaCoveragePassed) {
+    console.log(
+      `✅ every committable JSON file is governed by a schema (${coverageScanned})`,
+    );
+  } else {
+    console.error(
+      `❌ ${schemaCoverage.findings.length} JSON schema finding(s) (${coverageScanned}):`,
+    );
+    for (const finding of schemaCoverage.findings.slice(0, 50)) {
+      console.error(`  ${formatSchemaFinding(finding)}`);
+    }
+    if (schemaCoverage.findings.length > 50) {
+      console.error(`  ...and ${schemaCoverage.findings.length - 50} more`);
+    }
+  }
+
+  // Lexical-map audit: every codex file against its own schema, and every
+  // claim in it against the language registry that defines the vocabulary.
+  // Corpus-wide rather than per-version, because a codex belongs to a language
+  // rather than to an edition. Report-only, like its peers: an unknown parse
+  // code is either a typo in the codex or a missing registry entry, and only a
+  // person can say which. Prints its own scanned counts for the same reason
+  // the audits above do.
+  console.log("\n📚 Auditing lexical maps...");
+  let lexicalMapsPassed = true;
+
+  for (const language of lexicalMapLanguages()) {
+    const { findings, rootsScanned, cellsScanned } = auditLexicalMaps(language);
+    const scanned = `${rootsScanned} root(s), ${cellsScanned} cell(s) scanned`;
+    if (findings.length === 0) {
+      console.log(
+        `✅ ${language}: every parse resolves in the registry (${scanned})`,
+      );
+      continue;
+    }
+
+    console.error(
+      `❌ ${language}: ${findings.length} lexical-map finding(s) (${scanned}):`,
+    );
+    for (const finding of findings.slice(0, 50)) {
+      console.error(`  ${formatLexicalMapFinding(finding)}`);
+    }
+    if (findings.length > 50) {
+      console.error(`  ...and ${findings.length - 50} more`);
+    }
+    lexicalMapsPassed = false;
+  }
+
+  // Corpus-against-map audit: every `morph` code a version prints must be one
+  // the lexical map can account for. This is what makes the map's claim
+  // testable rather than asserted: the map stores what is known about a form,
+  // a morph code is one rendering of that, and a code the map cannot explain
+  // means a gap on one side or the other.
+  //
+  // Narrowing is allowed and is not a finding: an indeclinable has no case
+  // marking, so the map records `indecl-proper` rather than listing every case
+  // it could stand in, and a corpus may narrow it from context. The same word
+  // reads `N-PRI` in BYZ2026 and `N-GSM` in LXX1935 and both are right.
+  //
+  // Report-only, like its peers. A gap here is either a cell to add or a code
+  // to correct, and only a person can say which.
+  console.log("\n🔠 Auditing corpus morphology against the lexical map...");
+  let corpusMorphologyPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const { scheme, findings, scanned } = auditCorpusMorphology(versionDir);
+    if (!scheme) {
+      console.log(
+        `➖ ${versionDir}: declares no morphology scheme, so nothing to check`,
+      );
+      continue;
+    }
+    if (findings.length === 0) {
+      console.log(
+        `✅ ${versionDir}: every ${scheme} code resolves through the map (${scanned} token(s) scanned)`,
+      );
+      continue;
+    }
+
+    console.error(
+      `❌ ${versionDir}: ${findings.length} ${scheme} code(s) the map cannot account for (${scanned} token(s) scanned):`,
+    );
+    for (const finding of findings.slice(0, 25)) {
+      console.error(`  ${formatCorpusMorphFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.error(`  ...and ${findings.length - 25} more`);
+    }
+    corpusMorphologyPassed = false;
+  }
+
+  // Lexical-enrichment audit: how far the map reaches into a version's Greek,
+  // and whether what the version stores still agrees with it. The coverage
+  // numbers are report-only on purpose — neither resolver ever guesses, so an
+  // unresolved node is the map declining rather than failing, and most of
+  // LXX1935's are simply roots Strong's has no number for, which is the
+  // "when available" the corpus was enriched under. A regression shows up here
+  // as a number that moved, the same way the audits above surface one.
+  //
+  // The stored transliteration is the one thing that does gate. It is derived
+  // data with one right answer and the fix pass recomputes it every run, so a
+  // value still disagreeing afterwards means the fixer declined to write it.
+  console.log("\n📖 Auditing lexical enrichment...");
+  let enrichmentPassed = true;
+
+  /** The reasons one annotation is missing, commonest first, capped like its peers. */
+  const reportUnresolved = (
+    field: string,
+    coverage: AnnotationCoverage,
+  ): void => {
+    const reasons = [...coverage.unresolved].sort(([, a], [, b]) => b - a);
+    const total = reasons.reduce((sum, [, count]) => sum + count, 0);
+    if (total === 0) return;
+    console.log(`   ${total} word node(s) carry no ${field}:`);
+    for (const [reason, count] of reasons.slice(0, 25)) {
+      console.log(`     ${count} × ${reason}`);
+    }
+    if (reasons.length > 25) {
+      console.log(`     ...and ${reasons.length - 25} more reason(s)`);
+    }
+  };
+
+  for (const versionDir of versionDirs) {
+    const { scanned, lemma, strongs, disagreements, held } =
+      auditCorpusEnrichment(versionDir);
+    if (scanned === 0) {
+      console.log(
+        `➖ ${versionDir}: no script-tagged text, so the lexical map has nothing to say about it`,
+      );
+      continue;
+    }
+
+    if (disagreements.length === 0) {
+      console.log(
+        `✅ ${versionDir}: every stored transliteration is what its own text romanizes to${
+          held > 0 ? ", or its own text verbatim" : ""
+        } (${scanned} script-tagged node(s) scanned)`,
+      );
+    } else {
+      console.error(
+        `❌ ${versionDir}: ${disagreements.length} stored transliteration(s) the registry's table does not produce (${scanned} script-tagged node(s) scanned):`,
+      );
+      for (const disagreement of disagreements.slice(0, 25)) {
+        console.error(`  ${formatEnrichmentDisagreement(disagreement)}`);
+      }
+      if (disagreements.length > 25) {
+        console.error(`  ...and ${disagreements.length - 25} more`);
+      }
+      enrichmentPassed = false;
+    }
+
+    // Report-only, and the only place the freeze is visible at all. A node
+    // marked this way by mistake is preserved exactly as faithfully as one
+    // marked deliberately, so this number moving is the whole warning.
+    if (held > 0) {
+      console.log(
+        `   ${held} node(s) store their own text, marking a form that does not romanize (a Greek alphabetic numeral)`,
+      );
+    }
+
+    // A version whose script-tagged nodes are all untagged quotations — every
+    // Latin edition here — has no word for the map to name, so the coverage
+    // line would read "0 of 0" on six of eight versions and say nothing.
+    if (lemma.candidates > 0 || strongs.candidates > 0) {
+      console.log(
+        `   ${lemma.carried} of ${lemma.candidates} word node(s) carry a lemma, ${strongs.carried} of ${strongs.candidates} node(s) with a lemma carry a Strong's number`,
+      );
+      reportUnresolved("lemma", lemma);
+      reportUnresolved("Strong's number", strongs);
+    }
+  }
+
+  // Word-orthography audit: a iota subscript marks the dative singular and
+  // marks nothing else, settled from the printed ending without consulting the
+  // map. Fails the run, because the ending cannot be read two ways and leaves a
+  // reader nothing to overrule. `utils/corpusOrthography.ts` has the reasoning.
+  console.log("\n🔠 Auditing parses against the words as printed...");
+  let orthographyPassed = true;
+
+  for (const versionDir of versionDirs) {
+    const { findings, scanned } = auditCorpusOrthography(versionDir);
+    if (scanned === 0) {
+      console.log(
+        `➖ ${versionDir}: no parse states both a case and a number, so nothing to check`,
+      );
+      continue;
+    }
+
+    const counted = `${scanned} case-bearing reading(s) scanned`;
+    if (findings.length === 0) {
+      console.log(
+        `✅ ${versionDir}: every parse is one the word's ending allows (${counted})`,
+      );
+      continue;
+    }
+
+    console.error(
+      `❌ ${versionDir}: ${findings.length} parse(s) the ending refutes (${counted}):`,
+    );
+    for (const finding of findings.slice(0, 25)) {
+      console.error(`  ${formatOrthographyFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.error(`  ...and ${findings.length - 25} more`);
+    }
+    orthographyPassed = false;
+  }
+
+  // Word-agreement audit: a Greek article agrees with its noun in case, number
+  // and gender, and nothing else in this repo compares two nodes at all. Never
+  // fails the run, because only a person can say which of the two words in a
+  // finding is wrong. `utils/corpusAgreement.ts` has the three rules and what
+  // each deliberately leaves alone.
+  console.log("\n🔗 Auditing word agreement...");
+
+  for (const versionDir of versionDirs) {
+    const { scheme, findings, pairs, reconcilable } =
+      auditCorpusAgreement(versionDir);
+    if (!scheme) {
+      console.log(
+        `➖ ${versionDir}: declares no morphology scheme this repo can read, so nothing to compare`,
+      );
+      continue;
+    }
+
+    const scanned = `${pairs} article/noun pair(s) scanned, ${reconcilable} of them the map can reconcile`;
+    if (findings.length === 0) {
+      console.log(
+        `✅ ${versionDir}: every neighbouring word agrees with the one beside it (${scanned})`,
+      );
+      continue;
+    }
+
+    console.log(
+      `⚠️  ${versionDir}: ${findings.length} disagreeing pair(s) (${scanned}):`,
+    );
+    for (const finding of findings.slice(0, 25)) {
+      console.log(`    ${formatAgreementFinding(finding)}`);
+    }
+    if (findings.length > 25) {
+      console.log(`    ...and ${findings.length - 25} more`);
+    }
+  }
+
+  // Codex-attestation audit: a cell whose root carries a Strong's number, where
+  // every corpus word the cell explains that carries a number carries a
+  // different one. Read plainly, such a cell says *this root inflects to this
+  // spelling* while every occurrence of that spelling in the corpus is indexed
+  // to some other word — a disagreement between two files rather than a
+  // linguistic judgment, which is why a person has to read each one.
+  //
+  // Corpus-wide rather than per-version, because a cell belongs to a language
+  // rather than to an edition. Deliberately not a cross-part-of-speech rule: a
+  // registry's `posReadings` permits a verb root to carry noun cells and is
+  // right to, `οὐαί (inj) / οὐαί [noun indecl-other]` among them.
+  console.log("\n🧭 Auditing codex cells against the corpus's own index...");
+
+  const attestation = auditCodexAttestation();
+  const attestationPassed = attestation.contradictions.length === 0;
+  const attested = `${attestation.cellsAttested} cell(s) attested by ${attestation.nodesScanned} tagged word(s) across ${attestation.versions.join(", ") || "no version"}`;
+  if (attestationPassed) {
+    console.log(
+      `✅ every attested cell agrees with the index on at least one of its words (${attested})`,
+    );
+  } else {
+    const sole = attestation.contradictions.filter(
+      (finding) => finding.sole > 0,
+    ).length;
+    console.log(
+      `❌ ${attestation.contradictions.length} cell(s) the corpus's own index contradicts, ${sole} of them the sole explanation of any word (${attested}):`,
+    );
+    for (const contradiction of attestation.contradictions.slice(0, 25)) {
+      console.log(`    ${formatCellContradiction(contradiction)}`);
+    }
+    if (attestation.contradictions.length > 25) {
+      console.log(`    ...and ${attestation.contradictions.length - 25} more`);
+    }
+  }
+
   if (
+    !enrichmentPassed ||
+    !corpusMorphologyPassed ||
+    !orthographyPassed ||
     !declaredChapterMismatchesPassed ||
     !crossChapterLinksPassed ||
     !truncatedRangesPassed ||
     !nodeConventionsPassed ||
     !unresolvableTargetsPassed ||
     !displayProsePassed ||
-    !abbreviationsPassed
+    !abbreviationsPassed ||
+    !lexicalMapsPassed ||
+    !schemaCoveragePassed ||
+    !attestationPassed
   ) {
     if (!declaredChapterMismatchesPassed) {
-      console.error("\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.");
+      console.error(
+        "\n❌ Declared chapter count audit failed! A book's chapters count in _version.json must match the highest chapter its own verse file actually carries. See the findings printed above for detail — fix by completing the verse file or correcting the declared count to what the file actually has.",
+      );
     }
     if (!crossChapterLinksPassed) {
-      console.error("\n❌ Cross-chapter link audit failed! The split step above already ran automatically — a finding surviving here means it genuinely could not be split. An unreadable target is the other way this fails: nothing split it because no target grammar reads it, so it is invisible to this audit's peers as well. See the findings printed above for detail.");
+      console.error(
+        "\n❌ Cross-chapter link audit failed! The split step above already ran automatically — a finding surviving here means it genuinely could not be split. An unreadable target is the other way this fails: nothing split it because no target grammar reads it, so it is invisible to this audit's peers as well. See the findings printed above for detail.",
+      );
     }
     if (!truncatedRangesPassed) {
-      console.error("\n❌ Truncated bibleLink range audit failed! The reconstruction step above already ran automatically — a finding surviving here means it declined the completion (a display range spanning two chapters, which the cross-chapter split owns instead). See the findings printed above for detail.");
+      console.error(
+        "\n❌ Truncated bibleLink range audit failed! The reconstruction step above already ran automatically — a finding surviving here means it declined the completion (a display range spanning two chapters, which the cross-chapter split owns instead). See the findings printed above for detail.",
+      );
     }
     if (!nodeConventionsPassed) {
-      console.error("\n❌ Node/content convention audit failed! The unmerged-connector check, the heading-paragraph check, the footnote-punctuation-order check, the mark-boundary-embedded-space check, the footnote-marker-spacing check, the script-run check, the duplicate-footnote-anchor check, and the mergeable-sibling check already ran their own auto-fix above — see the findings printed above for what's left and why (a gate declined it, or it's one of the report-only checks with no fixer at all).");
+      console.error(
+        "\n❌ Node/content convention audit failed! The unmerged-connector check, the heading-paragraph check, the footnote-punctuation-order check, the mark-boundary-embedded-space check, the footnote-marker-spacing check, the script-run check, the duplicate-footnote-anchor check, and the mergeable-sibling check already ran their own auto-fix above — see the findings printed above for what's left and why (a gate declined it, or it's one of the report-only checks with no fixer at all — the non-standard-whitespace check and the detached-punctuation check have no fixer by design).",
+      );
     }
     if (!unresolvableTargetsPassed) {
-      console.error("\n❌ Unresolvable bibleLink target audit failed! Each target above names a chapter or verse no version on disk records, so nothing can open it. This check has no auto-fix: correct the target, or add the version that carries it.");
+      console.error(
+        "\n❌ Unresolvable bibleLink target audit failed! Each target above names a chapter or verse no version on disk records, so nothing can open it. This check has no auto-fix: correct the target, or add the version that carries it.",
+      );
     }
     if (!displayProsePassed) {
-      console.error("\n❌ bibleLink display prose audit failed! Each link above still has non-reference text inside it — a lead-in word, a locator, an edition note, or a stray paren. The hoist step above already ran automatically, so a finding surviving here is a display override that is not a plain string: splitting it would have to decide how the prose half is marked. Fix by hand, or by making the override plain text so the hoist step can take it.");
+      console.error(
+        "\n❌ bibleLink display prose audit failed! Each link above still has non-reference text inside it — a lead-in word, a locator, an edition note, or a stray paren. The hoist step above already ran automatically, so a finding surviving here is a display override that is not a plain string: splitting it would have to decide how the prose half is marked. Fix by hand, or by making the override plain text so the hoist step can take it.",
+      );
+    }
+    if (!corpusMorphologyPassed) {
+      console.error(
+        "\n❌ Corpus morphology audit failed! Each finding above is one the lexical map cannot account for: a spelling the map does not hold, a spelling whose cells do not include this parse, a code written in a scheme the version does not declare in its own `morphology` field, a lemma naming no root, or a Strong's number the node's own lemma cannot carry. That last one is the node contradicting itself: a number has to come from the codex, and a node's own lemma is wrong to carry one its root does not give it, whether the root gives some other number or none at all. Where the root holds other numbers, the tagged one is usually naming some different, homographic word, so read the clause and decide which word it is. Where the root holds none, there is no different word to go looking for — the fix is to drop the number, not to invent one. Narrowing an indeclinable from context is allowed and never reported, so a finding here is a real gap. No auto-fix: add the cell the corpus attests, or correct the code, the lemma, or the number.",
+      );
+    }
+    if (!orthographyPassed) {
+      console.error(
+        "\n❌ Word-orthography audit failed! Each parse above states a case the word's own printed ending forbids. A iota subscript marks the dative singular of the first and second declensions and marks nothing else, so a nominal ending in one is dative and singular, and one ending in a bare alpha, eta or omega is not. This is settled without consulting the lexical map, which is the point: the map was built downstream of these corpora, so a corpus error becomes a cell and that cell then satisfies the morphology audit above. No auto-fix, and there cannot be one — the rule says what a parse cannot be, never what it is, so read the clause. Beware that some findings are not case errors at all: a plural code on a word ending in a subscript means the word itself is misidentified, the way EXO 20:9 printed `ἐργᾷ` and `ἔργα` four words apart and tagged both `N-APN`. The Attic declension is the one paradigm the rule cannot resolve, since it takes `-ῳ` in the nominative plural as well as the dative singular; `utils/corpusOrthography.ts` says which roots those are.",
+      );
+    }
+    if (!schemaCoveragePassed) {
+      console.error(
+        "\n❌ JSON schema coverage audit failed! Either a committable JSON file matches no rule in `SCHEMA_RULES` — nothing validates its shape, which is how a format gets away from a repo — or one that does failed the schema, or a schema file is not itself valid JSON Schema. No auto-fix: write the rule and the schema the new file needs, or correct the file. A format genuinely owned by a tool outside this repo belongs in the table with its owner named, not left out of it.",
+      );
+    }
+    if (!attestationPassed) {
+      console.error(
+        "\n❌ Codex-attestation audit failed! Each cell above says its root inflects to a spelling the corpus indexes to some other word — every tagged occurrence of it carries a number the root does not. Two files disagreeing, so read the clause before touching either: the cell may be a paradigm filed under the wrong headword, or the corpus may be tagging the wrong word. No auto-fix, and there cannot be one, since nothing mechanical can say which side is wrong.",
+      );
+    }
+    if (!lexicalMapsPassed) {
+      console.error(
+        "\n❌ Lexical map audit failed! Each finding above is either a codex file that does not match `codex-schema.json`, a parse code the language registry does not define, a parse stating two values for one category, a stored transliteration the registry's own table does not produce, two spellings under one root that are the same key written twice (differing only in case or in a grave for an acute), a cell Strong's number that is not a subset of its root's or is the root's whole set, or a root-level lexical fact (gender, declension, conjugation, deponent, stems) that contradicts the root's own cells or the registry's own vocabulary. No auto-fix: correct the codex, or add the registry entry the codex is relying on.",
+      );
+    }
+    if (!enrichmentPassed) {
+      console.error(
+        "\n❌ Lexical enrichment audit failed! Each node above stores a transliteration the registry's own table does not produce for that node's own text. The auto-fix pass recomputes and overwrites this value on every run, so a disagreement surviving here means the fixer declined to write it — a node whose `script` no registry declares is the one way that happens, and the fix pass prints a count of those above. A node storing its own text verbatim is the deliberate exception and is counted, not reported: it marks a form that does not romanize. The coverage numbers beside them never fail a run: a node the map cannot narrow is the map declining to guess, and a root with no Strong's number is the corpus's own 'when available'.",
+      );
     }
     if (!abbreviationsPassed) {
-      console.error("\n❌ Abbreviation audit failed! Each id above is written in content but missing from its own version’s `abbr` registry, or defined there twice. Registries are per-version on purpose — the same short code means different things in different editions — so there is nowhere for a lookup to fall through to. No auto-fix: add the registry entry, or correct the id in the content.");
+      console.error(
+        "\n❌ Abbreviation audit failed! Each id above is written in content but missing from its own version’s `abbr` registry, or defined there twice. Registries are per-version on purpose — the same short code means different things in different editions — so there is nowhere for a lookup to fall through to. No auto-fix: add the registry entry, or correct the id in the content.",
+      );
     }
     process.exit(1);
   }
 
-  console.log("\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, and abbreviation audits all passed!");
+  console.log(
+    "\n✅ Cross-chapter link, truncated bibleLink range, node/content convention, unresolvable-target, display-prose, abbreviation, lexical-map, JSON-schema-coverage, corpus-morphology, word-orthography, and lexical-enrichment audits all passed!",
+  );
 }
 
 // Guard so importing this module (e.g. from tests) doesn't also run main()

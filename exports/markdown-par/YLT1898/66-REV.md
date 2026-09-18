@@ -138,8 +138,8 @@ And to the messenger of the assembly in Sardis write: These things saith he who 
 ## Chapter 4
 
 <sup>1</sup> <sup>a</sup>
-### A Vision of Heaven
 
+### A Vision of Heaven
 
 After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard _is_ as of a trumpet speaking with me, saying, “Come up hither, and I will shew thee what it behoveth to come to pass after these things;”
 
@@ -160,8 +160,8 @@ After these things I saw, and lo, a door opened in the heaven, and the first voi
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-### The Sealed Book
 
+### The Sealed Book
 
 And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;
 <sup>2</sup> and I saw a strong messenger crying with a great voice, “Who is worthy to open the scroll and to loose the seals of it?”
@@ -184,8 +184,8 @@ And I saw upon the right hand of Him who is sitting upon the throne a scroll, wr
 ## Chapter 6
 
 <sup>1</sup> <sup>a</sup>
-### Opening of the Seals
 
+### Opening of the Seals
 
 And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”
 <sup>2</sup> and I saw, and lo, a white horse, and he who is sitting upon it is having a bow, and there was given to him a crown, and he went forth overcoming, and that he may overcome.
@@ -221,8 +221,8 @@ And I saw when the Lamb opened one of the seals, and I heard one of the four liv
 ## Chapter 7
 
 <sup>1</sup> <sup>a</sup>
-### Sealing the Servants of God
 
+### Sealing the Servants of God
 
 And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;
 <sup>2</sup> and I saw another messenger going up from the rising of the sun, having a seal of the living God, and he did cry with a great voice to the four messengers, to whom it was given to injure the land and the sea, saying,
@@ -321,8 +321,8 @@ And the fifth messenger did sound, and I saw a star out of the heaven having fal
 ## Chapter 10
 
 <sup>1</sup> <sup>a</sup>
-### The Angel and the Book
 
+### The Angel and the Book
 
 And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,
 <sup>2</sup> and he had in his hand a little scroll opened, and he did place his right foot upon the sea, and the left upon the land,
@@ -341,8 +341,8 @@ And I saw another strong messenger coming down out of the heaven, arrayed with a
 ## Chapter 11
 
 <sup>1</sup> <sup>a</sup>
-### The Angel and the Temple
 
+### The Angel and the Temple
 
 And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;
 <sup>2</sup> and the court that is without the sanctuary leave out, and thou mayest not measure it, because it was given to the nations, and the holy city they shall tread down forty-two months;<sup>b</sup>
@@ -380,8 +380,8 @@ And there was given to me a reed like to a rod, and the messenger stood, saying,
 ## Chapter 12
 
 <sup>1</sup> <sup>a</sup>
-### War in Heaven
 
+### War in Heaven
 
 And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,
 <sup>2</sup> and being with child she doth cry out, travailing and pained to bring forth.
@@ -411,8 +411,8 @@ And a great sign was seen in the heaven, a woman arrayed with the sun, and the m
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-### War in the Sea and on Land
 
+### War in the Sea and on Land
 
 And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,
 <sup>2</sup> and the beast that I saw was like to a leopard, and its feet as of a bear, and its mouth as the mouth of a lion, and the dragon did give to it his power, and his throne, and great authority.
@@ -441,8 +441,8 @@ And I stood upon the sand of the sea, and I saw out of the sea a beast coming up
 ## Chapter 14
 
 <sup>1</sup> <sup>a</sup>
-### The Church Triumphant
 
+### The Church Triumphant
 
 And I saw, and lo, a Lamb having stood upon the mount Sion,<sup>b</sup> and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;
 <sup>2</sup> and I heard a voice out of the heaven, as a voice of many waters, and as a voice of great thunder, and a voice I heard of harpers harping with their harps,
@@ -496,8 +496,8 @@ And I saw another sign in the heaven, great and wonderful, seven messengers havi
 ## Chapter 16
 
 <sup>1</sup> <sup>a</sup>
-### Visions of Judgement
 
+### Visions of Judgement
 
 And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”
 
@@ -536,8 +536,8 @@ And I heard a great voice out of the sanctuary saying to the seven messengers, �
 ## Chapter 17
 
 <sup>1</sup> <sup>a</sup>
-### Visions of Doom
 
+### Visions of Doom
 
 And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,
 <sup>2</sup> with whom the kings of the earth did commit whoredom; and made drunk from the wine of her whoredom were those inhabiting the earth;”
@@ -609,8 +609,8 @@ And after these things I saw another messenger coming down out of the heaven, ha
 ## Chapter 19
 
 <sup>1</sup> <sup>a</sup>
-### Songs of Deliverance
 
+### Songs of Deliverance
 
 And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia!<sup>b</sup> the salvation, and the glory, and the honour, and the power, _is_ to the Lord our God;
 <sup>2</sup> because true and righteous _are_ His judgments, because He did judge the great whore who did corrupt the earth in her whoredom, and He did avenge the blood of His servants at her hand;”
@@ -674,8 +674,8 @@ And I saw a messenger coming down out of the heaven, having the key of the abyss
 ## Chapter 21
 
 <sup>1</sup> <sup>a</sup>
-### A New Heaven and Earth
 
+### A New Heaven and Earth
 
 And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;
 <sup>2</sup> and I, John,<sup>b</sup> saw the holy city—new Jerusalem—coming down from God out of the heaven, made ready as a bride adorned for her husband;

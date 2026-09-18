@@ -815,12 +815,9 @@
 <sup>20</sup> And Moses said unto the people, Fear not: for God is come to prove you, and that his fear may be before your faces, that ye sin not.
 <sup>21</sup> And the people stood afar off, and Moses drew near unto the thick darkness where God _was_.
 
-### The Book of the Covenant
-<sup>22</sup> 
 ### Worship and Justice
 
-
-And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Ye have seen that I have talked with you from heaven.
+<sup>22</sup> And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Ye have seen that I have talked with you from heaven.
 <sup>23</sup> Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold.
 <sup>24</sup> An altar of earth thou shalt make unto me, and shalt sacrifice thereon thy burnt offerings, and thy peace offerings, thy sheep, and thine oxen: in all places where I record my name I will come unto thee, and I will bless thee.
 <sup>25</sup> And if thou wilt make me an altar of stone, thou shalt not build it of hewn stone: for if thou lift up thy tool upon it, thou hast polluted it.

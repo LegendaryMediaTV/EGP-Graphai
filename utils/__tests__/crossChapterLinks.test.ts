@@ -35,18 +35,30 @@ import {
  * resolves to `null` rather than throwing, so most grammar-only tests need no
  * fixture data for their own book name at all.
  */
-function writeFixtureVersion(root: string, books: Record<string, Record<number, number[]>>): void {
+function writeFixtureVersion(
+  root: string,
+  books: Record<string, Record<number, number[]>>,
+): void {
   fs.mkdirSync(root, { recursive: true });
   for (const [book, chapters] of Object.entries(books)) {
     const records = Object.entries(chapters).flatMap(([chapter, verses]) =>
-      verses.map((verse) => ({ book, chapter: Number(chapter), verse, content: [`${book} ${chapter}:${verse}`] })),
+      verses.map((verse) => ({
+        book,
+        chapter: Number(chapter),
+        verse,
+        content: [`${book} ${chapter}:${verse}`],
+      })),
     );
     fs.writeFileSync(path.join(root, `${book}.json`), JSON.stringify(records));
   }
 }
 
-const FAKE_A = fs.mkdtempSync(path.join(os.tmpdir(), "crossChapterLinks-test-a-"));
-const FAKE_B = fs.mkdtempSync(path.join(os.tmpdir(), "crossChapterLinks-test-b-"));
+const FAKE_A = fs.mkdtempSync(
+  path.join(os.tmpdir(), "crossChapterLinks-test-a-"),
+);
+const FAKE_B = fs.mkdtempSync(
+  path.join(os.tmpdir(), "crossChapterLinks-test-b-"),
+);
 
 beforeAll(() => {
   writeFixtureVersion(FAKE_A, {
@@ -80,23 +92,33 @@ function range(from: number, to: number): number[] {
 
 describe("classifyBibleLink — target shape", () => {
   it("should classify an em-dash cross-chapter target as crossChapterRange", () => {
-    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").shape).toBe("crossChapterRange");
+    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").shape).toBe(
+      "crossChapterRange",
+    );
   });
 
   it("should classify the same target written with an en dash as crossChapterRange", () => {
-    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5–7:3").shape).toBe("crossChapterRange");
+    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5–7:3").shape).toBe(
+      "crossChapterRange",
+    );
   });
 
   it("should classify the same target written with an ASCII hyphen as crossChapterRange", () => {
-    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5-7:3").shape).toBe("crossChapterRange");
+    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5-7:3").shape).toBe(
+      "crossChapterRange",
+    );
   });
 
   it("should classify a same-chapter verse range as singleChapter", () => {
-    expect(classifyBibleLink(FAKE_A, "Exodus 3:3–4").shape).toBe("singleChapter");
+    expect(classifyBibleLink(FAKE_A, "Exodus 3:3–4").shape).toBe(
+      "singleChapter",
+    );
   });
 
   it("should classify a whole-chapter range as crossChapterRange too — one range shape, whichever endpoints anchor a verse", () => {
-    expect(classifyBibleLink(FAKE_A, "Revelation 4–20").shape).toBe("crossChapterRange");
+    expect(classifyBibleLink(FAKE_A, "Revelation 4–20").shape).toBe(
+      "crossChapterRange",
+    );
   });
 
   // The real LUK 20:37 shape (`Exodus 3–4:17`, displayed
@@ -113,8 +135,14 @@ describe("classifyBibleLink — target shape", () => {
 
   it("should read that same chapter-to-verse range through an em dash and an ASCII hyphen, differing only in which dash it reports", () => {
     const enDash = classifyBibleLink(FAKE_A, "Exodus 3–4:17");
-    expect(classifyBibleLink(FAKE_A, "Exodus 3—4:17")).toEqual({ ...enDash, dash: "—" });
-    expect(classifyBibleLink(FAKE_A, "Exodus 3-4:17")).toEqual({ ...enDash, dash: "-" });
+    expect(classifyBibleLink(FAKE_A, "Exodus 3—4:17")).toEqual({
+      ...enDash,
+      dash: "—",
+    });
+    expect(classifyBibleLink(FAKE_A, "Exodus 3-4:17")).toEqual({
+      ...enDash,
+      dash: "-",
+    });
   });
 
   it("should classify a bare chapter reference as singleChapter (grammar illustration)", () => {
@@ -122,17 +150,23 @@ describe("classifyBibleLink — target shape", () => {
   });
 
   it("should classify a comma-merged target as mergedTarget, not crossChapterRange", () => {
-    expect(classifyBibleLink(FAKE_A, "Isaiah 66:10, 13").shape).toBe("mergedTarget");
+    expect(classifyBibleLink(FAKE_A, "Isaiah 66:10, 13").shape).toBe(
+      "mergedTarget",
+    );
   });
 
   it("should not misread a merged target's internal dash-and-comma as a second endpoint", () => {
-    expect(classifyBibleLink(FAKE_A, "Ezekiel 34:11–12, 15, 22").shape).toBe("mergedTarget");
+    expect(classifyBibleLink(FAKE_A, "Ezekiel 34:11–12, 15, 22").shape).toBe(
+      "mergedTarget",
+    );
   });
 
   it("should report a target the grammar cannot read rather than throw", () => {
     expect(() => classifyBibleLink(FAKE_A, "Romans 1–end")).not.toThrow();
     expect(classifyBibleLink(FAKE_A, "Romans 1–end").shape).toBe("unparsed"); // a second endpoint that is neither a number nor an endpoint of its own
-    expect(classifyBibleLink(FAKE_A, "see the note above").shape).toBe("unparsed"); // a first endpoint that names no chapter
+    expect(classifyBibleLink(FAKE_A, "see the note above").shape).toBe(
+      "unparsed",
+    ); // a first endpoint that names no chapter
   });
 
   it("should find the em-dash target even though an en-dash-only pattern would miss it", () => {
@@ -145,16 +179,24 @@ describe("classifyBibleLink — target shape", () => {
 
 describe("classifyBibleLink — per-version chapter lengths", () => {
   it("should read Ezra 4's last verse from this fixture's own records", () => {
-    expect(classifyBibleLink(FAKE_A, "Ezra 4:8–6:18").firstChapterLastVerse).toBe(15);
+    expect(
+      classifyBibleLink(FAKE_A, "Ezra 4:8–6:18").firstChapterLastVerse,
+    ).toBe(15);
   });
 
   it("should read 2 Kings 6's last verse from this fixture's own records", () => {
-    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").firstChapterLastVerse).toBe(10);
+    expect(
+      classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").firstChapterLastVerse,
+    ).toBe(10);
   });
 
   it("should read Romans 14's last verse as 6 from FAKE_A but 9 from FAKE_B, same function, different version", () => {
-    expect(classifyBibleLink(FAKE_A, "Romans 14:1").firstChapterLastVerse).toBe(6);
-    expect(classifyBibleLink(FAKE_B, "Romans 14:1").firstChapterLastVerse).toBe(9);
+    expect(classifyBibleLink(FAKE_A, "Romans 14:1").firstChapterLastVerse).toBe(
+      6,
+    );
+    expect(classifyBibleLink(FAKE_B, "Romans 14:1").firstChapterLastVerse).toBe(
+      9,
+    );
   });
 
   it("should report a chapter this version does not carry as unknown, not default it to 0", () => {
@@ -170,7 +212,9 @@ describe("classifyBibleLink — book-name resolution restricted to a version's o
   });
 
   it("should report 'Psalms of Solomon' as unresolvable rather than throw (a real bible-books.json entry, but absent from this fixture's canon)", () => {
-    expect(() => classifyBibleLink(FAKE_A, "Psalms of Solomon 8:32")).not.toThrow();
+    expect(() =>
+      classifyBibleLink(FAKE_A, "Psalms of Solomon 8:32"),
+    ).not.toThrow();
     expect(classifyBibleLink(FAKE_A, "Psalms of Solomon 8:32").book).toBeNull();
   });
 
@@ -204,21 +248,51 @@ describe("formatCrossChapterFinding", () => {
 // The sweep needs its own fixture: the shared versions above carry
 // plain-string content with no bibleLink node anywhere in it.
 describe("findCrossChapterLinks — the whole-version sweep", () => {
-  const FAKE_SWEEP = fs.mkdtempSync(path.join(os.tmpdir(), "crossChapterLinks-test-sweep-"));
+  const FAKE_SWEEP = fs.mkdtempSync(
+    path.join(os.tmpdir(), "crossChapterLinks-test-sweep-"),
+  );
 
   beforeAll(() => {
     const records: unknown[] = [
       // A readable chapter-spanning range, in verse content with no footnote.
-      { book: "EXO", chapter: 3, verse: 1, content: ["see ", { bibleLink: "Exodus 3–4:17", content: "Ex. 3:1–4:17" }] },
+      {
+        book: "EXO",
+        chapter: 3,
+        verse: 1,
+        content: [
+          "see ",
+          { bibleLink: "Exodus 3–4:17", content: "Ex. 3:1–4:17" },
+        ],
+      },
       // A target the grammar cannot read, inside an xrf footnote.
-      { book: "EXO", chapter: 3, verse: 2, content: [{ text: "so", foot: { type: "xrf", content: [{ bibleLink: "Romans 1–end" }] } }] },
+      {
+        book: "EXO",
+        chapter: 3,
+        verse: 2,
+        content: [
+          {
+            text: "so",
+            foot: { type: "xrf", content: [{ bibleLink: "Romans 1–end" }] },
+          },
+        ],
+      },
       // A target that reads fine and is no finding at all.
-      { book: "EXO", chapter: 3, verse: 3, content: [{ bibleLink: "Exodus 4:2" }] },
+      {
+        book: "EXO",
+        chapter: 3,
+        verse: 3,
+        content: [{ bibleLink: "Exodus 4:2" }],
+      },
     ];
-    for (const verse of [4, ...range(5, 17)]) records.push({ book: "EXO", chapter: 3, verse, content: ["filler"] });
-    for (const verse of range(1, 17)) records.push({ book: "EXO", chapter: 4, verse, content: ["filler"] });
+    for (const verse of [4, ...range(5, 17)])
+      records.push({ book: "EXO", chapter: 3, verse, content: ["filler"] });
+    for (const verse of range(1, 17))
+      records.push({ book: "EXO", chapter: 4, verse, content: ["filler"] });
     fs.mkdirSync(FAKE_SWEEP, { recursive: true });
-    fs.writeFileSync(path.join(FAKE_SWEEP, "EXO.json"), JSON.stringify(records));
+    fs.writeFileSync(
+      path.join(FAKE_SWEEP, "EXO.json"),
+      JSON.stringify(records),
+    );
   });
 
   afterAll(() => {
@@ -232,7 +306,14 @@ describe("findCrossChapterLinks — the whole-version sweep", () => {
     expect(findings).toHaveLength(1);
     expect(findings[0].target).toBe("Exodus 3–4:17");
     expect(unreadable).toEqual([
-      { atBook: "EXO", atChapter: 3, atVerse: 2, footnoteType: "xrf", zone: "verse", target: "Romans 1–end" },
+      {
+        atBook: "EXO",
+        atChapter: 3,
+        atVerse: 2,
+        footnoteType: "xrf",
+        zone: "verse",
+        target: "Romans 1–end",
+      },
     ]);
   });
 });
@@ -260,17 +341,24 @@ describe("splitCrossChapterLink — a cross-chapter node (pure function only —
 
     expect(split).not.toBeNull();
     const [partA, dash, partB] = split!;
-    expect(partA).toEqual({ bibleLink: "2 Kings 6:5–10", content: "2 Kings 6:5" });
+    expect(partA).toEqual({
+      bibleLink: "2 Kings 6:5–10",
+      content: "2 Kings 6:5",
+    });
     expect(dash).toBe("–"); // the convention's own en dash, even though the source used an em dash
     expect(partB).toEqual({ bibleLink: "2 Kings 7:1–3", content: "7:3" });
   });
 
   it("should re-derive Part A's own chapter-length from this fixture's own data rather than hardcode it", () => {
-    expect(classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").firstChapterLastVerse).toBe(10);
+    expect(
+      classifyBibleLink(FAKE_A, "2 Kings 6:5—7:3").firstChapterLastVerse,
+    ).toBe(10);
   });
 
   it("should return null for a target that needs no split", () => {
-    expect(splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3:3–4" })).toBeNull();
+    expect(
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3:3–4" }),
+    ).toBeNull();
   });
 });
 
@@ -287,12 +375,16 @@ describe("splitCrossChapterLink — whole-chapter ranges (pure function only —
   });
 
   it("should read Part B's chapter number, not fold it into a verse the way a verse-anchored endpoint does", () => {
-    const [, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "2 Corinthians 10–12" })!;
+    const [, , partB] = splitCrossChapterLink(FAKE_A, {
+      bibleLink: "2 Corinthians 10–12",
+    })!;
     expect(partB).toEqual({ bibleLink: "2 Corinthians 12", content: "12" });
   });
 
   it("should drop Part A's content override when its display matches its own target, but keep Part B's bare chapter number as an override (its display never gained the book name a bare target needs)", () => {
-    const [partA, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Revelation 4–20" })!;
+    const [partA, , partB] = splitCrossChapterLink(FAKE_A, {
+      bibleLink: "Revelation 4–20",
+    })!;
     expect(partA).toEqual({ bibleLink: "Revelation 4" });
     expect(partB).toEqual({ bibleLink: "Revelation 20", content: "20" });
   });
@@ -327,12 +419,16 @@ describe("splitCrossChapterLink — a chapter-to-verse range (pure function only
   });
 
   it("should give Part B a bare verse one, with no trailing range, when the right endpoint stops there", () => {
-    const [, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3–4:1" })!;
+    const [, , partB] = splitCrossChapterLink(FAKE_A, {
+      bibleLink: "Exodus 3–4:1",
+    })!;
     expect(partB).toEqual({ bibleLink: "Exodus 4:1", content: "4:1" });
   });
 
   it("should throw when this fixture carries no toChapter — the existing chapter-existence guards cover the new shape too", () => {
-    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2:3" })).toThrow(/carries no Jude 2 for:/);
+    expect(() =>
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2:3" }),
+    ).toThrow(/carries no Jude 2 for:/);
   });
 });
 
@@ -340,13 +436,20 @@ describe("splitCrossChapterLink — a chapter-to-verse range (pure function only
 // this corpus but not assumed absent.
 describe("splitCrossChapterLink — each endpoint decides its own half", () => {
   it("should keep Part A a bare chapter when the left endpoint names no verse, however the right endpoint is spelled", () => {
-    const [partA, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3–Exodus 4:17" })!;
+    const [partA, , partB] = splitCrossChapterLink(FAKE_A, {
+      bibleLink: "Exodus 3–Exodus 4:17",
+    })!;
     expect(partA).toEqual({ bibleLink: "Exodus 3" }); // not "Exodus 3–4", which reads as chapters 3–4
-    expect(partB).toEqual({ bibleLink: "Exodus 4:1–17", content: "Exodus 4:17" });
+    expect(partB).toEqual({
+      bibleLink: "Exodus 4:1–17",
+      content: "Exodus 4:17",
+    });
   });
 
   it("should carry Part A to its own chapter's end when the left endpoint names a verse, however the right endpoint is spelled", () => {
-    const [partA, , partB] = splitCrossChapterLink(FAKE_A, { bibleLink: "Exodus 3:2–Exodus 4" })!;
+    const [partA, , partB] = splitCrossChapterLink(FAKE_A, {
+      bibleLink: "Exodus 3:2–Exodus 4",
+    })!;
     expect(partA).toEqual({ bibleLink: "Exodus 3:2–4", content: "Exodus 3:2" }); // not "Exodus 3:2", losing the rest of chapter 3
     expect(partB).toEqual({ bibleLink: "Exodus 4" });
   });
@@ -357,33 +460,54 @@ describe("splitCrossChapterLink — chapter-existence guard", () => {
   // "chapter 2" is guaranteed absent without depending on any other data.
 
   it("should throw for a whole-chapter range whose fromChapter is absent", () => {
-    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2–3" })).toThrow(/cannot derive .*chapter length for:/);
+    expect(() =>
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2–3" }),
+    ).toThrow(/cannot derive .*chapter length for:/);
   });
 
   it("should throw for a whole-chapter range whose toChapter is absent", () => {
-    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2" })).toThrow(/carries no Jude 2 for:/);
+    expect(() =>
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1–2" }),
+    ).toThrow(/carries no Jude 2 for:/);
   });
 
   it("should throw for a verse-anchored range whose toChapter is absent", () => {
-    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1:5–2:3" })).toThrow(/carries no Jude 2 for:/);
+    expect(() =>
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 1:5–2:3" }),
+    ).toThrow(/carries no Jude 2 for:/);
   });
 
   it("should throw for a verse-anchored range whose fromChapter is absent", () => {
-    expect(() => splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2:5–3:1" })).toThrow(/cannot derive .*chapter length for:/);
+    expect(() =>
+      splitCrossChapterLink(FAKE_A, { bibleLink: "Jude 2:5–3:1" }),
+    ).toThrow(/cannot derive .*chapter length for:/);
   });
 });
 
 describe("splitCrossChapterLinksInContent — the content-array splice", () => {
   it("should splice a bare {bibleLink} footnote content into its three-part replacement", () => {
-    const { content, splits } = splitCrossChapterLinksInContent(FAKE_A, { bibleLink: "2 Kings 6:5—7:3" });
+    const { content, splits } = splitCrossChapterLinksInContent(FAKE_A, {
+      bibleLink: "2 Kings 6:5—7:3",
+    });
 
     expect(splits).toBe(1);
-    expect(content).toEqual([{ bibleLink: "2 Kings 6:5–10", content: "2 Kings 6:5" }, "–", { bibleLink: "2 Kings 7:1–3", content: "7:3" }]);
+    expect(content).toEqual([
+      { bibleLink: "2 Kings 6:5–10", content: "2 Kings 6:5" },
+      "–",
+      { bibleLink: "2 Kings 7:1–3", content: "7:3" },
+    ]);
   });
 
   it("should splice a bibleLink inside a mixed array of surrounding content, leaving the other entries untouched and in order", () => {
-    const original = [{ bibleLink: "1 Kings 19:1–3" }, "; ", { bibleLink: "2 Kings 6:5—7:3" }];
-    const { content, splits } = splitCrossChapterLinksInContent(FAKE_A, original);
+    const original = [
+      { bibleLink: "1 Kings 19:1–3" },
+      "; ",
+      { bibleLink: "2 Kings 6:5—7:3" },
+    ];
+    const { content, splits } = splitCrossChapterLinksInContent(
+      FAKE_A,
+      original,
+    );
 
     expect(splits).toBe(1);
     expect(content).toEqual([
@@ -396,8 +520,14 @@ describe("splitCrossChapterLinksInContent — the content-array splice", () => {
   });
 
   it("should leave content with no cross-chapter link untouched and report zero splits", () => {
-    const original = [{ text: "quenched the power of fire," }, { bibleLink: "Daniel 3:1–30" }];
-    const { content, splits } = splitCrossChapterLinksInContent(FAKE_A, original);
+    const original = [
+      { text: "quenched the power of fire," },
+      { bibleLink: "Daniel 3:1–30" },
+    ];
+    const { content, splits } = splitCrossChapterLinksInContent(
+      FAKE_A,
+      original,
+    );
 
     expect(splits).toBe(0);
     expect(content).toEqual(original);
@@ -406,7 +536,11 @@ describe("splitCrossChapterLinksInContent — the content-array splice", () => {
 
 describe("splitCrossChapterLinksInContent — idempotence", () => {
   it("should report zero splits and leave already-split content unchanged on a second pass", () => {
-    const original = [{ bibleLink: "1 Kings 19:1–3" }, "; ", { bibleLink: "2 Kings 6:5—7:3" }];
+    const original = [
+      { bibleLink: "1 Kings 19:1–3" },
+      "; ",
+      { bibleLink: "2 Kings 6:5—7:3" },
+    ];
     const first = splitCrossChapterLinksInContent(FAKE_A, original);
     expect(first.splits).toBe(1);
 
@@ -421,32 +555,47 @@ describe("splitCrossChapterLinksInContent — idempotence", () => {
 describe("completeTruncatedRange — whole-chapter-equivalence gate", () => {
   it("should NOT be a finding: a bare-chapter target whose display spells out that exact chapter's own verses 1..last", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "2 Samuel 22", content: "2 Sam. 22:1–12" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "2 Samuel 22",
+        content: "2 Sam. 22:1–12",
+      }),
     ).toBeNull();
   });
 });
 
 describe("completeTruncatedRange — the whole-chapter gate rejects a display that only looks equivalent", () => {
   it("should be a finding when the display range starts somewhere other than verse 1", () => {
-    const result = completeTruncatedRange(FAKE_A, { bibleLink: "2 Samuel 22", content: "2 Sam. 22:5–12" });
+    const result = completeTruncatedRange(FAKE_A, {
+      bibleLink: "2 Samuel 22",
+      content: "2 Sam. 22:5–12",
+    });
     expect(result).not.toBeNull();
   });
 
   it("should be a finding when the display's claimed chapter length disagrees with this version's own data (FAKE_A's Romans 14 ends at 6, not 9)", () => {
-    const result = completeTruncatedRange(FAKE_A, { bibleLink: "Romans 14", content: "Rom. 14:1–9" });
+    const result = completeTruncatedRange(FAKE_A, {
+      bibleLink: "Romans 14",
+      content: "Rom. 14:1–9",
+    });
     expect(result).not.toBeNull();
   });
 
   it("should NOT be a finding for the identical target and display checked against a version whose Romans 14 really does end at 9 (FAKE_B)", () => {
     expect(
-      completeTruncatedRange(FAKE_B, { bibleLink: "Romans 14", content: "Rom. 14:1–9" })
+      completeTruncatedRange(FAKE_B, {
+        bibleLink: "Romans 14",
+        content: "Rom. 14:1–9",
+      }),
     ).toBeNull();
   });
 });
 
 describe("completeTruncatedRange — a same-chapter truncation", () => {
   it("should be a finding carrying the reconstructed target, en-dash separated", () => {
-    const result = completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3", content: "Ex. 12.3–20" });
+    const result = completeTruncatedRange(FAKE_A, {
+      bibleLink: "Exodus 12:3",
+      content: "Ex. 12.3–20",
+    });
     expect(result).not.toBeNull();
     expect(result!.reconstructedTarget).toBe("Exodus 12:3–20");
     expect(result!.declineReason).toBeNull();
@@ -455,14 +604,20 @@ describe("completeTruncatedRange — a same-chapter truncation", () => {
 
 describe("completeTruncatedRange — a cross-chapter display is declined here, not reconstructed", () => {
   it("should be a finding with no reconstructed target when the display's range crosses a chapter boundary", () => {
-    const result = completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3", content: "Ex. 12.3–13.5" });
+    const result = completeTruncatedRange(FAKE_A, {
+      bibleLink: "Exodus 12:3",
+      content: "Ex. 12.3–13.5",
+    });
     expect(result).not.toBeNull();
     expect(result!.reconstructedTarget).toBeNull();
     expect(result!.declineReason).not.toBeNull();
   });
 
   it("should not name a command in the decline reason — there is no separate invocation left to name", () => {
-    const result = completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3", content: "Ex. 12.3–13.5" })!;
+    const result = completeTruncatedRange(FAKE_A, {
+      bibleLink: "Exodus 12:3",
+      content: "Ex. 12.3–13.5",
+    })!;
     expect(result.declineReason).not.toMatch(/npm|npx/);
   });
 });
@@ -470,23 +625,34 @@ describe("completeTruncatedRange — a cross-chapter display is declined here, n
 describe("completeTruncatedRange — not findings", () => {
   it("should not flag a target and display that already agree", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 3:1–4", content: "Exodus 3:1–4" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Exodus 3:1–4",
+        content: "Exodus 3:1–4",
+      }),
     ).toBeNull();
   });
 
   it("should not flag a display with no range at all", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3", content: "Exodus 12:3" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Exodus 12:3",
+        content: "Exodus 12:3",
+      }),
     ).toBeNull();
   });
 
   it("should not flag a node with no display override", () => {
-    expect(completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3" })).toBeNull();
+    expect(
+      completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3" }),
+    ).toBeNull();
   });
 
   it("should not flag a display whose range endpoints do not parse", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3", content: "Ex. 12.3-ff" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Exodus 12:3",
+        content: "Ex. 12.3-ff",
+      }),
     ).toBeNull();
   });
 
@@ -494,19 +660,28 @@ describe("completeTruncatedRange — not findings", () => {
   // the unparsed shape is the only thing making this null.
   it("should never flag a target the grammar cannot read at all", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Romans 1–end", content: "Rom. 1.1–5" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Romans 1–end",
+        content: "Rom. 1.1–5",
+      }),
     ).toBeNull();
   });
 
   it("should never flag a mergedTarget — a merge is confined to one chapter by construction", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Isaiah 66:10, 13", content: "Isa. 66:10-13" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Isaiah 66:10, 13",
+        content: "Isa. 66:10-13",
+      }),
     ).toBeNull();
   });
 
   it("should not flag a target that already carries its own same-chapter range (nothing to complete)", () => {
     expect(
-      completeTruncatedRange(FAKE_A, { bibleLink: "Exodus 12:3–20", content: "Ex. 12.3–20" })
+      completeTruncatedRange(FAKE_A, {
+        bibleLink: "Exodus 12:3–20",
+        content: "Ex. 12.3–20",
+      }),
     ).toBeNull();
   });
 });
@@ -549,14 +724,17 @@ describe("formatTruncatedRangeFinding", () => {
 
 describe("reconstructTruncatedRangesInContent — the content-tree transform", () => {
   it("should replace bibleLink with the reconstructed target and leave content untouched", () => {
-    const { content, changed, skipped } = reconstructTruncatedRangesInContent(FAKE_A, [
-      "See ",
-      { bibleLink: "Exodus 12:3", content: "Ex. 12:3–20" },
-      ".",
-    ]);
+    const { content, changed, skipped } = reconstructTruncatedRangesInContent(
+      FAKE_A,
+      ["See ", { bibleLink: "Exodus 12:3", content: "Ex. 12:3–20" }, "."],
+    );
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
-    expect(content).toEqual(["See ", { bibleLink: "Exodus 12:3–20", content: "Ex. 12:3–20" }, "."]);
+    expect(content).toEqual([
+      "See ",
+      { bibleLink: "Exodus 12:3–20", content: "Ex. 12:3–20" },
+      ".",
+    ]);
   });
 
   it("should read the endpoint correctly regardless of the display's own dot-notation punctuation, and always emit U+2013", () => {
@@ -565,12 +743,18 @@ describe("reconstructTruncatedRangesInContent — the content-tree transform", (
       content: "Ex. 12.3-20",
     });
     expect(changed).toBe(true);
-    expect(content).toEqual({ bibleLink: "Exodus 12:3–20", content: "Ex. 12.3-20" });
+    expect(content).toEqual({
+      bibleLink: "Exodus 12:3–20",
+      content: "Ex. 12.3-20",
+    });
   });
 
   it("should leave a cross-chapter display's node unchanged and report it as skipped", () => {
     const original = { bibleLink: "Exodus 12:3", content: "Ex. 12.3–13.5" };
-    const { content, changed, skipped } = reconstructTruncatedRangesInContent(FAKE_A, original);
+    const { content, changed, skipped } = reconstructTruncatedRangesInContent(
+      FAKE_A,
+      original,
+    );
     expect(changed).toBe(false);
     expect(content).toEqual(original);
     expect(skipped).toEqual(["cross-chapter"]);
@@ -578,7 +762,10 @@ describe("reconstructTruncatedRangesInContent — the content-tree transform", (
 
   it("should leave a whole-chapter near-miss unchanged — not even seen as a finding", () => {
     const original = { bibleLink: "2 Samuel 22", content: "2 Sam. 22:1–12" };
-    const { content, changed, skipped } = reconstructTruncatedRangesInContent(FAKE_A, original);
+    const { content, changed, skipped } = reconstructTruncatedRangesInContent(
+      FAKE_A,
+      original,
+    );
     expect(changed).toBe(false);
     expect(content).toEqual(original);
     expect(skipped).toEqual([]);
@@ -687,7 +874,9 @@ describe("formatUnresolvableTargetFinding", () => {
       zone: "verse",
       target: "Jude 2:1",
     };
-    expect(formatUnresolvableTargetFinding(finding)).toContain("1 chapter(s) in Jude");
+    expect(formatUnresolvableTargetFinding(finding)).toContain(
+      "1 chapter(s) in Jude",
+    );
   });
 });
 
@@ -725,29 +914,41 @@ describe("findSingleChapterShorthand — the single-target entry point", () => {
   });
 
   it("should carry a range across, since only the first endpoint names the book", () => {
-    expect(findSingleChapterShorthand("Jude 3–5", undefined, [FAKE_A])).toEqual({
-      target: "Jude 1:3–5",
-      display: "Jude 3–5",
-    });
+    expect(findSingleChapterShorthand("Jude 3–5", undefined, [FAKE_A])).toEqual(
+      {
+        target: "Jude 1:3–5",
+        display: "Jude 3–5",
+      },
+    );
   });
 
   it("should leave a target that already spells its chapter out alone — the rewrite is idempotent", () => {
-    expect(findSingleChapterShorthand("Jude 1:3", undefined, [FAKE_A])).toBeNull();
-    expect(findSingleChapterShorthand("Jude 1:3–5", undefined, [FAKE_A])).toBeNull();
+    expect(
+      findSingleChapterShorthand("Jude 1:3", undefined, [FAKE_A]),
+    ).toBeNull();
+    expect(
+      findSingleChapterShorthand("Jude 1:3–5", undefined, [FAKE_A]),
+    ).toBeNull();
   });
 
   it("should leave a multi-chapter book's bare chapter alone — that target means the chapter", () => {
-    expect(findSingleChapterShorthand("Genesis 2", undefined, [FAKE_A])).toBeNull();
+    expect(
+      findSingleChapterShorthand("Genesis 2", undefined, [FAKE_A]),
+    ).toBeNull();
   });
 
   it("should leave a book no pooled version carries alone — nothing says how many chapters it has", () => {
-    expect(findSingleChapterShorthand("Jude 3", undefined, [FAKE_B])).toBeNull();
+    expect(
+      findSingleChapterShorthand("Jude 3", undefined, [FAKE_B]),
+    ).toBeNull();
   });
 
   // A target with no book name at all — without the unparsed guard this
   // would reach book resolution with a null name and throw.
   it("should never touch a target the endpoint grammar cannot parse", () => {
-    expect(findSingleChapterShorthand("see the note above", undefined, [FAKE_A])).toBeNull();
+    expect(
+      findSingleChapterShorthand("see the note above", undefined, [FAKE_A]),
+    ).toBeNull();
   });
 });
 
@@ -762,29 +963,43 @@ describe("normalizeSingleChapterShorthandInContent — the fixer", () => {
   });
 
   it("should give a node with no display override the shorthand it was already rendering", () => {
-    const { content, changed } = normalizeSingleChapterShorthandInContent({ bibleLink: "Jude 3" }, [FAKE_A]);
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      { bibleLink: "Jude 3" },
+      [FAKE_A],
+    );
     expect(changed).toBe(true);
     expect(content).toEqual({ bibleLink: "Jude 1:3", content: "Jude 3" });
   });
 
   it("should leave a resolvable multi-chapter target untouched", () => {
     const original = { bibleLink: "Genesis 2" };
-    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      original,
+      [FAKE_A],
+    );
     expect(changed).toBe(false);
     expect(content).toEqual(original);
   });
 
   it("should leave a whole-book cross-reference alone, reading its own display override to tell", () => {
     const original = { bibleLink: "Jude 1", content: "Jude" };
-    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      original,
+      [FAKE_A],
+    );
     expect(changed).toBe(false);
     expect(content).toEqual(original);
   });
 
   it("should be idempotent — running it again on already-rewritten content changes nothing", () => {
-    const first = normalizeSingleChapterShorthandInContent({ bibleLink: "Jude 3" }, [FAKE_A]);
+    const first = normalizeSingleChapterShorthandInContent(
+      { bibleLink: "Jude 3" },
+      [FAKE_A],
+    );
     expect(first.changed).toBe(true);
-    const second = normalizeSingleChapterShorthandInContent(first.content, [FAKE_A]);
+    const second = normalizeSingleChapterShorthandInContent(first.content, [
+      FAKE_A,
+    ]);
     expect(second.changed).toBe(false);
     expect(second.content).toEqual(first.content);
   });
@@ -797,7 +1012,10 @@ describe("normalizeSingleChapterShorthandInContent — the fixer", () => {
       { bibleLink: "Exodus 3:2" },
       ".",
     ];
-    const { content, changed } = normalizeSingleChapterShorthandInContent(original, [FAKE_A]);
+    const { content, changed } = normalizeSingleChapterShorthandInContent(
+      original,
+      [FAKE_A],
+    );
     expect(changed).toBe(true);
     expect(content).toEqual([
       "see v. ",
@@ -810,7 +1028,10 @@ describe("normalizeSingleChapterShorthandInContent — the fixer", () => {
 
   it("should recurse into heading, subtitle, and foot.content the same way the cross-chapter split does", () => {
     const { content, changed } = normalizeSingleChapterShorthandInContent(
-      { text: "a word", foot: { type: "trn", content: [{ bibleLink: "Jude 3", content: "3" }] } },
+      {
+        text: "a word",
+        foot: { type: "trn", content: [{ bibleLink: "Jude 3", content: "3" }] },
+      },
       [FAKE_A],
     );
     expect(changed).toBe(true);

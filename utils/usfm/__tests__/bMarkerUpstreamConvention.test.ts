@@ -1,7 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { segmentVerses } from "../segmentVerses";
 import { readFixture } from "./fixtures";
-import { fixedOutputMatchesRule, ParagraphBreakBoundary, upstreamMatchesRule } from "./upstreamHeadConvention";
+import {
+  fixedOutputMatchesRule,
+  ParagraphBreakBoundary,
+  upstreamMatchesRule,
+} from "./upstreamHeadConvention";
 
 /**
  * Regression check for the `\b` stanza-break fix's two-part convention
@@ -42,7 +46,12 @@ describe("the \\b stanza-break fix, checked against a real WEBUS2020 fixture", (
         ],
       },
     ];
-    const boundary: ParagraphBreakBoundary = { beforeChapter: 4, beforeVerse: 16, afterChapter: 4, afterVerse: 17 };
+    const boundary: ParagraphBreakBoundary = {
+      beforeChapter: 4,
+      beforeVerse: 16,
+      afterChapter: 4,
+      afterVerse: 17,
+    };
 
     expect(upstreamMatchesRule(upstream, boundary)).toBe(true);
     expect(fixedOutputMatchesRule(records, boundary)).toBe(true);

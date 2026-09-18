@@ -315,7 +315,6 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      { "heading": "Jesus in Galilee" },
       { "paragraph": true, "text": "Now", "strong": "G1161" },
       { "text": " after", "strong": "G3326" },
       { "text": " that John", "strong": "G2491" },
@@ -11686,7 +11685,6 @@
     "chapter": 10,
     "verse": 1,
     "content": [
-      { "heading": "Jesus in Judæa" },
       { "heading": "Beyond Jordan" },
       { "paragraph": true, "text": "And", "strong": "G2547" },
       { "text": " he arose", "strong": "G450", "morph": "Aor2ActPtc" },
@@ -13526,7 +13524,6 @@
     "chapter": 11,
     "verse": 1,
     "content": [
-      { "heading": "Holy Week" },
       { "heading": "Sunday" },
       { "paragraph": true, "text": "And", "strong": "G2532" },
       { "text": " when", "strong": "G3753" },
@@ -15730,7 +15727,7 @@
       {
         "content": [
           { "text": "is", "marks": ["i", "woc"] },
-          { "text": " , Hear,", "marks": ["woc"] }
+          { "text": ", Hear,", "marks": ["woc"] }
         ],
         "strong": "G191",
         "morph": "PresActImpr"
@@ -20237,7 +20234,7 @@
       },
       " ",
       { "text": "it", "marks": ["i", "woc"] },
-      { "text": " .", "marks": ["woc"] }
+      { "text": ".", "marks": ["woc"] }
     ]
   },
   {

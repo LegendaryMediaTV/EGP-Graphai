@@ -3677,11 +3677,10 @@
           "type": "stu",
           "content": [
             "In ",
-            { "bibleLink": "2 Chronicles 2:8", "content": "2 Chr. 2:8" },
-            ", ",
-            { "bibleLink": "2 Chronicles 2:9", "content": "9" },
-            ", ",
-            { "bibleLink": "2 Chronicles 2:10", "content": "10" },
+            {
+              "bibleLink": "2 Chronicles 2:8, 9, 10",
+              "content": "2 Chr. 2:8, 9, 10"
+            },
             ", ",
             { "text": "algum-trees", "marks": ["i"] },
             ". Perhaps ",
@@ -5178,9 +5177,10 @@
           "type": "stu",
           "content": [
             "In ",
-            { "bibleLink": "2 Chronicles 11:20", "content": "2 Chr. 11:20" },
-            ", ",
-            { "bibleLink": "2 Chronicles 11:21", "content": "21" },
+            {
+              "bibleLink": "2 Chronicles 11:20, 21",
+              "content": "2 Chr. 11:20, 21"
+            },
             ", ",
             { "text": "Absalom", "marks": ["i"] }
           ]

@@ -123,9 +123,10 @@ export function hasEllipsisIndicator(text: string): boolean {
  *   changed, otherwise the original reference) and whether anything changed
  *   at all
  */
-export function normalizeEllipsesInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function normalizeEllipsesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   return mapContentText(content, (text) => {
     const rewritten = normalizeEllipsisText(text);
     return rewritten.changes > 0 ? rewritten.value : undefined;

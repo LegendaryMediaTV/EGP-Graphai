@@ -80,18 +80,29 @@ import { writeJsonFile } from "../functions/writeJsonFile";
 import Content from "../types/Content";
 import BibleVersion, { VersionBook } from "../types/Version";
 import { buildBlockContent } from "./usfm/blockStructure";
-import { BookMetadata, extractBookMetadata, mergeBookMetadata, resolveBookId } from "./usfm/metadata";
+import {
+  BookMetadata,
+  extractBookMetadata,
+  mergeBookMetadata,
+  resolveBookId,
+} from "./usfm/metadata";
 import { suppressUniformParagraphNoise } from "./usfm/paragraphNoise";
 import { segmentVerses } from "./usfm/segmentVerses";
 
 const REPO_ROOT = path.resolve(__dirname, "..");
 
 /** Matches a book by id or full name (case- and whitespace-insensitive). Mirrors `imports/kjv/import.ts`'s matching so both importers accept the same lookups. */
-export function findBook(books: readonly VersionBook[], wanted: string): VersionBook | undefined {
+export function findBook(
+  books: readonly VersionBook[],
+  wanted: string,
+): VersionBook | undefined {
   const key = wanted.toLowerCase().replace(/\s+/g, "");
   return books.find((book) => {
     if (book._id.toLowerCase() === key) return true;
-    return typeof book.name === "string" && book.name.toLowerCase().replace(/\s+/g, "") === key;
+    return (
+      typeof book.name === "string" &&
+      book.name.toLowerCase().replace(/\s+/g, "") === key
+    );
   });
 }
 
@@ -225,11 +236,18 @@ export interface VerseRecord {
  * `mergeBookMetadata`. Either callback absent leaves that field
  * byte-identical to what `extractBookMetadata` returned.
  */
-export function applyMetadataOverrides(metadata: BookMetadata, options: ImportOptions): BookMetadata {
+export function applyMetadataOverrides(
+  metadata: BookMetadata,
+  options: ImportOptions,
+): BookMetadata {
   return {
     ...metadata,
-    name: options.bookName ? options.bookName(metadata.name, metadata._id) : metadata.name,
-    title: options.bookTitle ? options.bookTitle(metadata.title, metadata._id) : metadata.title,
+    name: options.bookName
+      ? options.bookName(metadata.name, metadata._id)
+      : metadata.name,
+    title: options.bookTitle
+      ? options.bookTitle(metadata.title, metadata._id)
+      : metadata.title,
   };
 }
 
@@ -238,10 +256,15 @@ export function applyMetadataOverrides(metadata: BookMetadata, options: ImportOp
  * whole, immediately before the final `_version.json` write. Either
  * option absent leaves that field's existing value on `version` untouched.
  */
-export function applyVersionOverrides(version: BibleVersion, options: ImportOptions): BibleVersion {
+export function applyVersionOverrides(
+  version: BibleVersion,
+  options: ImportOptions,
+): BibleVersion {
   return {
     ...version,
-    ...(options.copyright !== undefined ? { copyright: options.copyright } : {}),
+    ...(options.copyright !== undefined
+      ? { copyright: options.copyright }
+      : {}),
     ...(options.license !== undefined ? { license: options.license } : {}),
   };
 }
@@ -264,9 +287,14 @@ export async function runImport(
   chapterArgument?: number,
 ): Promise<void> {
   const defaultVersionDir = path.join(REPO_ROOT, "bible-versions", versionId);
-  const versionDir = options.outputDir !== undefined ? path.resolve(options.outputDir) : defaultVersionDir;
+  const versionDir =
+    options.outputDir !== undefined
+      ? path.resolve(options.outputDir)
+      : defaultVersionDir;
   const versionFile = path.join(versionDir, "_version.json");
-  const version: BibleVersion = JSON.parse(fs.readFileSync(versionFile, "utf8"));
+  const version: BibleVersion = JSON.parse(
+    fs.readFileSync(versionFile, "utf8"),
+  );
   const books = [...(version.books ?? [])].sort((a, b) => a.order - b.order);
   // Whole canon, not just `selected` — a single-book rebuild still needs
   // to recognize cross-references naming other books (see
@@ -289,13 +317,16 @@ export async function runImport(
 
   const missing = selected.filter((book) => !filesByRegistryId.has(book._id));
   if (missing.length > 0) {
-    console.error(`${missing.length} selected book(s) have no matching USFM source file in ${sourceDir}:`);
+    console.error(
+      `${missing.length} selected book(s) have no matching USFM source file in ${sourceDir}:`,
+    );
     for (const book of missing) console.error(`  ${book._id}`);
     process.exit(1);
   }
 
   /** Per-verse override point, applied right before a built record is written or printed — a no-op pass-through when `options.onVerse` is absent. */
-  const finalizeVerse = (built: VerseRecord): VerseRecord => (options.onVerse ? options.onVerse(built) : built);
+  const finalizeVerse = (built: VerseRecord): VerseRecord =>
+    options.onVerse ? options.onVerse(built) : built;
 
   const metadataEntries: BookMetadata[] = [];
   let totalVerses = 0;
@@ -305,10 +336,18 @@ export async function runImport(
     const file = filesByRegistryId.get(book._id)!;
     const source = fs.readFileSync(path.join(sourceDir, file), "utf8");
 
-    const metadata = applyMetadataOverrides(extractBookMetadata(source), options);
+    const metadata = applyMetadataOverrides(
+      extractBookMetadata(source),
+      options,
+    );
     metadataEntries.push(metadata);
 
-    const records = segmentVerses(source, book._id, canonBookIds, options.strongs !== false);
+    const records = segmentVerses(
+      source,
+      book._id,
+      canonBookIds,
+      options.strongs !== false,
+    );
 
     if (preview) {
       // Skipped: suppressUniformParagraphNoise needs a whole book to tell
@@ -344,11 +383,16 @@ export async function runImport(
     await writeJsonFile(path.join(versionDir, bookFilename(book)), verses);
     totalVerses += verses.length;
     totalChapters += metadata.chapters;
-    console.log(`${bookFilename(book)}: ${metadata.chapters} chapters, ${verses.length} verses`);
+    console.log(
+      `${bookFilename(book)}: ${metadata.chapters} chapters, ${verses.length} verses`,
+    );
   }
 
   if (!preview) {
-    const merged = applyVersionOverrides(mergeBookMetadata(version, metadataEntries), options);
+    const merged = applyVersionOverrides(
+      mergeBookMetadata(version, metadataEntries),
+      options,
+    );
     await writeJsonFile(versionFile, merged);
   }
 
@@ -392,7 +436,9 @@ export interface ParsedArgv {
  */
 export function parseArgv(argv: readonly string[]): ParsedArgv {
   const noStrongs = argv.includes("--no-strongs");
-  const [sourceDir, versionId, book, chapterText] = argv.filter((argument) => argument !== "--no-strongs");
+  const [sourceDir, versionId, book, chapterText] = argv.filter(
+    (argument) => argument !== "--no-strongs",
+  );
   return {
     sourceDir,
     versionId,
@@ -404,9 +450,13 @@ export function parseArgv(argv: readonly string[]): ParsedArgv {
 
 /** CLI entry point: parses argv, validates the required positional arguments, and delegates to {@link runImport}. */
 async function main(): Promise<void> {
-  const { sourceDir, versionId, book, chapter, options } = parseArgv(process.argv.slice(2));
+  const { sourceDir, versionId, book, chapter, options } = parseArgv(
+    process.argv.slice(2),
+  );
   if (!sourceDir || !versionId) {
-    console.error("Usage: npx ts-node utils/importUsfm.ts <source-dir> <version-id> [book] [chapter] [--no-strongs]");
+    console.error(
+      "Usage: npx ts-node utils/importUsfm.ts <source-dir> <version-id> [book] [chapter] [--no-strongs]",
+    );
     process.exit(1);
   }
 

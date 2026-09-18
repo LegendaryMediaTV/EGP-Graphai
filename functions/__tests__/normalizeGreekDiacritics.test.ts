@@ -8,13 +8,18 @@ import {
 /** Spells a string as its code points, so a failure names the characters rather than showing two identical-looking glyphs. */
 const points = (text: string): string =>
   [...text]
-    .map((c) => `U+${c.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}`)
+    .map(
+      (c) =>
+        `U+${c.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}`,
+    )
     .join(" ");
 
 describe("normalizeDiacriticsText", () => {
   it("moves a dialytika ahead of a combining accent and composes the letter (BYZ2026 Ἠσαΐου)", () => {
     const result = normalizeDiacriticsText("Ἠσαί̈ου");
-    expect(points(result.value)).toBe("U+0397 U+0313 U+03C3 U+03B1 U+0390 U+03BF U+03C5");
+    expect(points(result.value)).toBe(
+      "U+0397 U+0313 U+03C3 U+03B1 U+0390 U+03BF U+03C5",
+    );
     expect(result.changes).toBe(1);
   });
 
@@ -48,7 +53,7 @@ describe("normalizeDiacriticsText", () => {
     const text = "πρωί̈· τί;";
     const result = normalizeDiacriticsText(text);
     expect(points(result.value)).toBe(
-      "U+03C0 U+03C1 U+03C9 U+0390 U+0387 U+0020 U+03C4 U+03AF U+037E"
+      "U+03C0 U+03C1 U+03C9 U+0390 U+0387 U+0020 U+03C4 U+03AF U+037E",
     );
   });
 
@@ -80,7 +85,9 @@ describe("normalizeDiacriticsInContent", () => {
     expect(result.changed).toBe(true);
     const [first, second] = result.content as any[];
     expect(points(first.text)).toBe("U+03C0 U+03C1 U+03C9 U+0390");
-    expect(points(second.foot.content[0].text)).toBe("U+039B U+03B5 U+03CB U+1F76");
+    expect(points(second.foot.content[0].text)).toBe(
+      "U+039B U+03B5 U+03CB U+1F76",
+    );
   });
 
   it("returns the original tree when there is nothing to repair", () => {

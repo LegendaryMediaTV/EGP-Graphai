@@ -967,8 +967,6 @@
 
 ## Chapter 36
 
-### Isaiah and Hezekiah
-
 <sup>1</sup> And it cometh to pass, in the fourteenth year of king Hezekiah, come up hath Sennacherib king of Asshur against all the fenced cities of Judah, and seizeth them.
 <sup>2</sup> And the king of Asshur sendeth Rabshakeh from Lachish to Jerusalem, unto the king Hezekiah, with a heavy force, and he standeth by the conduit of the upper pool, in the highway of the fuller’s field,
 <sup>3</sup> and go forth unto him doth Eliakim son of Hilkiah, who _is_ over the house, and Shebna the scribe, and Joah son of Asaph, the remembrancer.

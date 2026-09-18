@@ -80,9 +80,6 @@ which being interpreted is, God with us.
 
 ## Chapter 3
 
-### His Baptism and Temptation
-
-
 ### John the Baptist
 
 <sup>1</sup> In those days came John the Baptist, preaching in the wilderness of Judæa,
@@ -154,8 +151,6 @@ which being interpreted is, God with us.
 > - <sup>a</sup> 12. Or, _delivered up_
 
 ## Chapter 5
-
-### Sermon on the Mount
 
 <sup>1</sup> And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:
 <sup>2</sup> and he opened his mouth, and taught them, saying,
@@ -322,12 +317,9 @@ which being interpreted is, God with us.
 <sup>3</sup> And Jesus put forth _his_ hand, and touched him, saying, I will; be thou clean. And immediately his leprosy was cleansed.
 <sup>4</sup> And Jesus saith unto him, See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them.
 
-### Marvellous Deeds
-<sup>5</sup> 
 ### Power Over Disease
 
-
-And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,
+<sup>5</sup> And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,
 <sup>6</sup> and saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.
 <sup>7</sup> And Jesus saith unto him, I will come and heal him.
 <sup>8</sup> The centurion answered and said, Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.
@@ -421,8 +413,6 @@ And when Jesus was entered into Capernaum, there came unto him a centurion, bese
 <sup>33</sup> And when the devil was cast out, the dumb spake: and the multitudes marvelled, saying, It was never so seen in Israel.
 <sup>34</sup> But the Pharisees said, He casteth out devils through the prince of the devils.
 <sup>35</sup> And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people.
-
-### Jesus and His Apostles
 
 <sup>36</sup> But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad,<sup>c</sup> as sheep having no shepherd.
 <sup>37</sup> Then saith he unto his disciples, The harvest truly _is_ plenteous, but the labourers _are_ few;
@@ -613,8 +603,6 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>50</sup> For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother.
 
 ## Chapter 13
-
-### Parables of the Kingdom
 
 <sup>1</sup> The same day went Jesus out of the house, and sat by the sea side.
 <sup>2</sup> And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.
@@ -1039,9 +1027,6 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 > - <sup>b</sup> 12. Or, _have continued one hour only_
 
 ## Chapter 21
-
-### In Jerusalem
-
 
 ### Triumphal Entry
 

@@ -1,3 +1,12 @@
+/**
+ * Desktop book list, hidden below the `md` breakpoint where {@link MobileNav}
+ * takes over. Each button's tooltip is the book's full title, romanized or not
+ * to match the list itself, so hovering never contradicts what is on screen.
+ *
+ * @param {object} props
+ * @param {object} props.settings - Reader settings; `darkMode` and
+ *   `showTransliteration` are the two read here
+ */
 function Sidebar({
   settings,
   availableBooks,
@@ -20,13 +29,11 @@ function Sidebar({
         {availableBooks.map((book) => (
           <button
             key={book._id}
-            title={
-              book.title && typeof book.title === "string"
-                ? book.title
-                : book.title && book.title.text
-                ? book.title.text
-                : ""
-            }
+            title={getFootnoteText(
+              book.title,
+              null,
+              settings.showTransliteration,
+            )}
             onClick={() => {
               setSelectedBookId(book._id);
               setSelectedChapter(1);
@@ -37,7 +44,10 @@ function Sidebar({
                 : ""
             }`}
           >
-            <BookName book={book} />
+            <BookName
+              book={book}
+              transliterate={settings.showTransliteration}
+            />
           </button>
         ))}
       </div>

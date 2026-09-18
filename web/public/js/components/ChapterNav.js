@@ -1,3 +1,12 @@
+/**
+ * Chapter bar above the reading pane: the open book's name, a chapter picker,
+ * and the two step arrows. The arrows step past a book boundary rather than
+ * stopping at it, and are disabled only at the two ends of the whole version.
+ *
+ * @param {object} props
+ * @param {object} props.settings - Reader settings; `darkMode` and
+ *   `showTransliteration` are the two read here
+ */
 function ChapterNav({
   settings,
   currentBook,
@@ -28,7 +37,10 @@ function ChapterNav({
 
       <div className="flex items-center gap-2">
         <span className="font-semibold hidden sm:inline">
-          <BookName book={currentBook} />
+          <BookName
+            book={currentBook}
+            transliterate={settings.showTransliteration}
+          />
         </span>
         <select
           value={selectedChapter}

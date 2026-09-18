@@ -10,12 +10,9 @@
 <sup>5</sup> Your fathers—where _are_ they? And the prophets—to the age do they live?
 <sup>6</sup> Only, My words, and My statutes, That I commanded My servants the prophets, Have they not overtaken your fathers, And they turn back and say: As Jehovah of Hosts designed to do to us, According to our ways, and according to our doings, So He hath done to us?”
 
-### Visions of the Night
-<sup>7</sup> 
 ### Among the Myrtle Trees
 
-
-On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,) in the second year of Darius, hath a word of Jehovah been unto Zechariah, son of Berechiah, son of Iddo, the prophet, saying:
+<sup>7</sup> On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,) in the second year of Darius, hath a word of Jehovah been unto Zechariah, son of Berechiah, son of Iddo, the prophet, saying:
 <sup>8</sup> I have seen by night, and lo, one riding on a red horse, and he is standing between the myrtles that _are_ in the shade, and behind him _are_ horses, red, bay, and white.
 <sup>9</sup> And I say, “What _are_ these, my lord?” And the messenger who is speaking with me saith unto me, “I—I do shew thee what these _are_.”
 <sup>10</sup> And the one who is standing between the myrtles doth answer and say, “These _are_ they whom Jehovah hath sent to walk up and down in the land.”
@@ -126,12 +123,9 @@ On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,
 
 <sup>8</sup> And he calleth me, and speaketh unto me, saying, “See, those coming forth unto the land of the north have caused My Spirit to rest in the land of the north.”
 
-### The New Jerusalem
-<sup>9</sup> 
 ### A Coronation
 
-
-And there is a word of Jehovah unto me, saying,
+<sup>9</sup> And there is a word of Jehovah unto me, saying,
 <sup>10</sup> to take of the captivity (who came from Babylon) from Heldai, from Tobijah, and from Jedaiah, “and thou hast come in—thou, in that day, yea, thou hast come into the house of Josiah son of Zephaniah,
 <sup>11</sup> and thou hast taken silver and gold, and hast made a crown, and hast placed on the head of Joshua son of Josedech, the high priest,
 <sup>12</sup> and hast spoken unto him, saying: Thus spake Jehovah of Hosts, saying: Lo, a man! A Shoot—_is_ his name, And from his place he doth shoot up, And he hath built the temple of Jehovah.
@@ -192,9 +186,6 @@ And there is a word of Jehovah unto me, saying,
 <sup>23</sup> Thus said Jehovah of Hosts: In those days take hold do ten men of all languages of the nations, Yea, they have taken hold on the skirt of a man, a Jew, saying: We go with you, for we heard God _is_ with you!
 
 ## Chapter 9
-
-### The City of God
-
 
 ### Look to the Jehovah
 

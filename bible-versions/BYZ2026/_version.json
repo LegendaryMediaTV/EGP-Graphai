@@ -4,6 +4,7 @@
   "copyright": "The Greek New Testament According to the Byzantine Text (Guardian Press, Inc., Robinson-Pierpont Byzantine Textform, 2026). Dedicated to the public domain by Guardian Press, Inc. and J. Jeffrey Dodson.",
   "license": "CC0-1.0",
   "script": "G",
+  "morphology": "robinson",
   "abbr": [
     {
       "_id": "CT",
@@ -94,8 +95,9 @@
       "name": "PT",
       "description": [
         {
-          "text": "Ἡ Καινὴ Διαθήϰη ἐγϰϱίσει τῆς Μεγάλης τοῦ Χϱιστοῦ Ἐϰϰλησίας.",
+          "text": "Ἡ Καινὴ Διαθήκη ἐγκρίσει τῆς Μεγάλης τοῦ Χριστοῦ Ἐκκλησίας.",
           "script": "G",
+          "transliteration": "Hē Kainḕ Diathḗkē enkrísei tē̂s Megálēs toû Christoû Ekklēsías.",
           "marks": ["i"]
         },
         " (The Ecumenical Patriarchal Text of the New Testament). Vasileios Antoniades, ed. Constantinople: Patriarchal Press, 1904–1912."
@@ -765,234 +767,401 @@
   "books": [
     {
       "_id": "MAT",
-      "name": { "text": "Κατὰ Ματθαῖον", "script": "G" },
-      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ", "script": "G" },
+      "name": {
+        "text": "Κατὰ Ματθαῖον",
+        "script": "G",
+        "transliteration": "Katà Matthaîon"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+        "script": "G",
+        "transliteration": "EUANGELION TO KATA MATTHAION"
+      },
       "order": 1,
       "chapters": 28
     },
     {
       "_id": "MRK",
-      "name": { "text": "Κατὰ Μάρκον", "script": "G" },
-      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΡΚΟΝ", "script": "G" },
+      "name": {
+        "text": "Κατὰ Μάρκον",
+        "script": "G",
+        "transliteration": "Katà Márkon"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΡΚΟΝ",
+        "script": "G",
+        "transliteration": "EUANGELION TO KATA MARKON"
+      },
       "order": 2,
       "chapters": 16
     },
     {
       "_id": "LUK",
-      "name": { "text": "Κατὰ Λουκᾶν", "script": "G" },
-      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΛΟΥΚΑΝ", "script": "G" },
+      "name": {
+        "text": "Κατὰ Λουκᾶν",
+        "script": "G",
+        "transliteration": "Katà Loukân"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΛΟΥΚΑΝ",
+        "script": "G",
+        "transliteration": "EUANGELION TO KATA LOUKAN"
+      },
       "order": 3,
       "chapters": 24
     },
     {
       "_id": "JHN",
-      "name": { "text": "Κατὰ Ἰωάννην", "script": "G" },
-      "title": { "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΙΩΑΝΝΗΝ", "script": "G" },
+      "name": {
+        "text": "Κατὰ Ἰωάννην",
+        "script": "G",
+        "transliteration": "Katà Iōánnēn"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΙΩΑΝΝΗΝ",
+        "script": "G",
+        "transliteration": "EUANGELION TO KATA IŌANNĒN"
+      },
       "order": 4,
       "chapters": 21
     },
     {
       "_id": "ACT",
-      "name": { "text": "Πράξεις Ἀποστόλων", "script": "G" },
-      "title": { "text": "ΠΡΑΞΕΙΣ ΤΩΝ ΑΠΟΣΤΟΛΩΝ", "script": "G" },
+      "name": {
+        "text": "Πράξεις Ἀποστόλων",
+        "script": "G",
+        "transliteration": "Práxeis Apostólōn"
+      },
+      "title": {
+        "text": "ΠΡΑΞΕΙΣ ΤΩΝ ΑΠΟΣΤΟΛΩΝ",
+        "script": "G",
+        "transliteration": "PRAXEIS TŌN APOSTOLŌN"
+      },
       "order": 5,
       "chapters": 28
     },
     {
       "_id": "ROM",
-      "name": { "text": "Πρὸς Ῥωμαίους", "script": "G" },
+      "name": {
+        "text": "Πρὸς Ῥωμαίους",
+        "script": "G",
+        "transliteration": "Pròs Rhōmaíous"
+      },
       "title": {
-        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
-        "script": "G"
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS RŌMAIOUS"
       },
       "order": 6,
       "chapters": 16
     },
     {
       "_id": "1CO",
-      "name": { "text": "Πρὸς Κορινθίους Αʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Κορινθίους Αʹ",
+        "script": "G",
+        "transliteration": "Pròs Korinthíous Aʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS KORINTHIOUS EPISTOLĒ PRŌTĒ"
       },
       "order": 7,
       "chapters": 16
     },
     {
       "_id": "2CO",
-      "name": { "text": "Πρὸς Κορινθίους Bʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Κορινθίους Βʹ",
+        "script": "G",
+        "transliteration": "Pròs Korinthíous Bʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS KORINTHIOUS EPISTOLĒ DEUTERA"
       },
       "order": 8,
       "chapters": 13
     },
     {
       "_id": "GAL",
-      "name": { "text": "Πρὸς Γαλάτας", "script": "G" },
+      "name": {
+        "text": "Πρὸς Γαλάτας",
+        "script": "G",
+        "transliteration": "Pròs Galátas"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΓΑΛΑΤΑΣ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS GALATAS EPISTOLĒ"
       },
       "order": 9,
       "chapters": 6
     },
     {
       "_id": "EPH",
-      "name": { "text": "Πρὸς Ἐφεσίους", "script": "G" },
+      "name": {
+        "text": "Πρὸς Ἐφεσίους",
+        "script": "G",
+        "transliteration": "Pròs Ephesíous"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΦΕΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS EPHESIOUS EPISTOLĒ"
       },
       "order": 10,
       "chapters": 6
     },
     {
       "_id": "PHP",
-      "name": { "text": "Πρὸς Φιλιππησίους", "script": "G" },
+      "name": {
+        "text": "Πρὸς Φιλιππησίους",
+        "script": "G",
+        "transliteration": "Pròs Philippēsíous"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS PHILIPPĒSIOUS EPISTOLĒ"
       },
       "order": 11,
       "chapters": 4
     },
     {
       "_id": "COL",
-      "name": { "text": "Πρὸς Κολοσσαεῖς", "script": "G" },
+      "name": {
+        "text": "Πρὸς Κολοσσαεῖς",
+        "script": "G",
+        "transliteration": "Pròs Kolossaeîs"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS KOLOSSAEIS EPISTOLĒ"
       },
       "order": 12,
       "chapters": 4
     },
     {
       "_id": "1TH",
-      "name": { "text": "Πρὸς Θεσσαλονικεῖς Αʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Θεσσαλονικεῖς Αʹ",
+        "script": "G",
+        "transliteration": "Pròs Thessalonikeîs Aʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS THESSALONIKEIS EPISTOLĒ PRŌTĒ"
       },
       "order": 13,
       "chapters": 5
     },
     {
       "_id": "2TH",
-      "name": { "text": "Πρὸς Θεσσαλονικεῖς Βʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Θεσσαλονικεῖς Βʹ",
+        "script": "G",
+        "transliteration": "Pròs Thessalonikeîs Bʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS THESSALONIKEIS EPISTOLĒ DEUTERA"
       },
       "order": 14,
       "chapters": 3
     },
     {
       "_id": "1TM",
-      "name": { "text": "Πρὸς Τιμόθεον Αʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Τιμόθεον Αʹ",
+        "script": "G",
+        "transliteration": "Pròs Timótheon Aʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS TIMOTHEON EPISTOLĒ PRŌTĒ"
       },
       "order": 15,
       "chapters": 6
     },
     {
       "_id": "2TM",
-      "name": { "text": "Πρὸς Τιμόθεον Βʹ", "script": "G" },
+      "name": {
+        "text": "Πρὸς Τιμόθεον Βʹ",
+        "script": "G",
+        "transliteration": "Pròs Timótheon Bʹ"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS TIMOTHEON EPISTOLĒ DEUTERA"
       },
       "order": 16,
       "chapters": 4
     },
     {
       "_id": "TIT",
-      "name": { "text": "Πρὸς Τίτον", "script": "G" },
+      "name": {
+        "text": "Πρὸς Τίτον",
+        "script": "G",
+        "transliteration": "Pròs Títon"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΤΟΝ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS TITON EPISTOLĒ"
       },
       "order": 17,
       "chapters": 3
     },
     {
       "_id": "PHM",
-      "name": { "text": "Πρὸς Φιλήμονα", "script": "G" },
+      "name": {
+        "text": "Πρὸς Φιλήμονα",
+        "script": "G",
+        "transliteration": "Pròs Philḗmona"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΗΜΟΝΑ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS PHILĒMONA EPISTOLĒ"
       },
       "order": 18,
       "chapters": 1
     },
     {
       "_id": "HEB",
-      "name": { "text": "Πρὸς Ἑβραίους", "script": "G" },
+      "name": {
+        "text": "Πρὸς Ἑβραίους",
+        "script": "G",
+        "transliteration": "Pròs Hebraíous"
+      },
       "title": {
         "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΒΡΑΙΟΥΣ ΕΠΙΣΤΟΛΗ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS EBRAIOUS EPISTOLĒ"
       },
       "order": 19,
       "chapters": 13
     },
     {
       "_id": "JAS",
-      "name": { "text": "Ἰακώβου", "script": "G" },
-      "title": { "text": "ΙΑΚΩΒΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ", "script": "G" },
+      "name": {
+        "text": "Ἰακώβου",
+        "script": "G",
+        "transliteration": "Iakṓbou"
+      },
+      "title": {
+        "text": "ΙΑΚΩΒΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ",
+        "script": "G",
+        "transliteration": "IAKŌBOU EPISTOLĒ KATHOLIKĒ"
+      },
       "order": 20,
       "chapters": 5
     },
     {
       "_id": "1PT",
-      "name": { "text": "Πέτρου Αʹ", "script": "G" },
-      "title": { "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ", "script": "G" },
+      "name": {
+        "text": "Πέτρου Αʹ",
+        "script": "G",
+        "transliteration": "Pétrou Aʹ"
+      },
+      "title": {
+        "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ",
+        "script": "G",
+        "transliteration": "PETROU EPISTOLĒ KATHOLIKĒ PRŌTĒ"
+      },
       "order": 21,
       "chapters": 5
     },
     {
       "_id": "2PT",
-      "name": { "text": "Πέτρου Βʹ", "script": "G" },
-      "title": { "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΔΕΥΤΕΡΑ", "script": "G" },
+      "name": {
+        "text": "Πέτρου Βʹ",
+        "script": "G",
+        "transliteration": "Pétrou Bʹ"
+      },
+      "title": {
+        "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΔΕΥΤΕΡΑ",
+        "script": "G",
+        "transliteration": "PETROU EPISTOLĒ KATHOLIKĒ DEUTERA"
+      },
       "order": 22,
       "chapters": 3
     },
     {
       "_id": "1JN",
-      "name": { "text": "Ἰωάννου Αʹ", "script": "G" },
-      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ", "script": "G" },
+      "name": {
+        "text": "Ἰωάννου Αʹ",
+        "script": "G",
+        "transliteration": "Iōánnou Aʹ"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ",
+        "script": "G",
+        "transliteration": "IŌANNOU EPISTOLĒ KATHOLIKĒ PRŌTĒ"
+      },
       "order": 23,
       "chapters": 5
     },
     {
       "_id": "2JN",
-      "name": { "text": "Ἰωάννου Βʹ", "script": "G" },
-      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ", "script": "G" },
+      "name": {
+        "text": "Ἰωάννου Βʹ",
+        "script": "G",
+        "transliteration": "Iōánnou Bʹ"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G",
+        "transliteration": "IŌANNOU EPISTOLĒ DEUTERA"
+      },
       "order": 24,
       "chapters": 1
     },
     {
       "_id": "3JN",
-      "name": { "text": "Ἰωάννου Γʹ", "script": "G" },
-      "title": { "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΤΡΙΤΗ", "script": "G" },
+      "name": {
+        "text": "Ἰωάννου Γʹ",
+        "script": "G",
+        "transliteration": "Iōánnou Gʹ"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΤΡΙΤΗ",
+        "script": "G",
+        "transliteration": "IŌANNOU EPISTOLĒ TRITĒ"
+      },
       "order": 25,
       "chapters": 1
     },
     {
       "_id": "JUD",
-      "name": { "text": "Ἰούδα", "script": "G" },
-      "title": { "text": "ΙΟΥΔΑ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ", "script": "G" },
+      "name": { "text": "Ἰούδα", "script": "G", "transliteration": "Ioúda" },
+      "title": {
+        "text": "ΙΟΥΔΑ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ",
+        "script": "G",
+        "transliteration": "IOUDA EPISTOLĒ KATHOLIKĒ"
+      },
       "order": 26,
       "chapters": 1
     },
     {
       "_id": "REV",
-      "name": { "text": "Ἀποκάλυψις Ἰωάννου", "script": "G" },
+      "name": {
+        "text": "Ἀποκάλυψις Ἰωάννου",
+        "script": "G",
+        "transliteration": "Apokálypsis Iōánnou"
+      },
       "title": {
         "text": "ΑΠΟΚΑΛΥΨΙΣ ΤΟΥ ΑΓΙΟΥ ΙΩΑΝΝΟΥ ΤΟΥ ΘΕΟΛΟΓΟΥ",
-        "script": "G"
+        "script": "G",
+        "transliteration": "APOKALYPSIS TOU AGIOU IŌANNOU TOU THEOLOGOU"
       },
       "order": 27,
       "chapters": 22

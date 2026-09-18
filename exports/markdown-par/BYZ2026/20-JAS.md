@@ -47,7 +47,7 @@
 > - <sup>l</sup> 25. οὗτος ¦ CT _om._
 > - <sup>m</sup> 26. ἐν ὑμῖν ¦ CT _om._
 > - <sup>n</sup> 26. αὐτοῦ ¦ WH ἑαυτοῦ
-> - <sup>o</sup> 26. ἀλλὰ ¦ ECM NA<sup>28</sup> PCK PT TR ἀλλ
+> - <sup>o</sup> 26. ἀλλὰ ¦ ECM NA<sup>28</sup> PCK PT TR ἀλλ’
 > - <sup>p</sup> 26. αὐτοῦ ¦ WH ἑαυτοῦ
 > - <sup>q</sup> 27. θεῷ ¦ CT TR τῷ θεῷ ¦ PT [τῷ] θεῷ
 
@@ -108,7 +108,7 @@
 > - <sup>y</sup> 18. δείξω σοι ¦ CT σοι δείξω
 > - <sup>z</sup> 18. μου ¦ CT _om._
 > - <sup>aa</sup> 19. ὁ θεὸς εἷς ἐστίν ¦ ECM NA SBL TH εἷς ἐστιν ὁ θεός ¦ WH εἷς θεός ἐστίν
-> - <sup>ab</sup> 20. νεκρὰ ¦ CT ἀργὴ
+> - <sup>ab</sup> 20. νεκρά ¦ CT ἀργή
 > - <sup>ac</sup> 24. τοίνυν ¦ CT _om._
 > - <sup>ad</sup> 26. γὰρ ¦ WH _om._
 > - <sup>ae</sup> 26. τῶν ¦ CT _om._
@@ -151,7 +151,7 @@
 > - <sup>n</sup> 9. θεὸν ¦ CT κύριον
 > - <sup>o</sup> 12. Οὕτως οὐδεμία πηγὴ ἁλυκὸν καὶ ¦ CT Οὔτε ἁλυκὸν
 > - <sup>p</sup> 14. ἐριθείαν ¦ WH ἐριθίαν
-> - <sup>q</sup> 15. ἀλλ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
+> - <sup>q</sup> 15. ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
 > - <sup>r</sup> 16. ἐριθεία ¦ WH ἐριθία
 > - <sup>s</sup> 17. καὶ ¦ CT _om._
 > - <sup>t</sup> 18. τῆς ¦ [PT] ¦ CT PCK _om._
@@ -242,7 +242,7 @@
 > - <sup>d</sup> 7. αὐτόν ¦ CT PT TR αὐτῷ
 > - <sup>e</sup> 7. ἕως ¦ PCK TR ἕως ἂν
 > - <sup>f</sup> 7. ὑετὸν πρώϊμον ¦ CT πρόϊμον
-> - <sup>g</sup> 9. κατ ἀλλήλων ἀδελφοί ¦ CT ἀδελφοὶ κατ ἀλλήλων
+> - <sup>g</sup> 9. κατ’ ἀλλήλων ἀδελφοί ¦ CT ἀδελφοὶ κατ’ ἀλλήλων
 > - <sup>h</sup> 9. κριθῆτε ¦ TR κατακριθῆτε
 > - <sup>i</sup> 9. ὁ ¦ ST _om._
 > - <sup>j</sup> 10. ἀδελφοί μου τῆς κακοπαθείας ¦ TR τῆς κακοπαθείας ἀδελφοί μου ¦ ECM PCK TH ἀδελφοὶ τῆς κακοπαθείας ¦ NA SBL WH ἀδελφοὶ τῆς κακοπαθίας

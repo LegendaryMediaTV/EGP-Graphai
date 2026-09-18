@@ -10,12 +10,9 @@
 <sup>5</sup> Your fathers, where _are_ they? and the prophets, do they live for ever?
 <sup>6</sup> But my words and my statutes, which I commanded my servants the prophets, did they not take hold<sup>b</sup> of your fathers? and they returned and said, Like as the LORD of hosts thought to do unto us, according to our ways, and according to our doings, so hath he dealt with us.
 
-### Visions of the Night
-<sup>7</sup> 
 ### Among the Myrtle Trees
 
-
-Upon the four and twentieth day of the eleventh month, which _is_ the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,
+<sup>7</sup> Upon the four and twentieth day of the eleventh month, which _is_ the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,
 <sup>8</sup> I saw by night, and behold a man riding upon a red horse, and he stood among the myrtle trees that _were_ in the bottom; and behind him _were there_ red horses, speckled,<sup>c</sup> and white.
 <sup>9</sup> Then said I, O my lord, what _are_ these? And the angel that talked with me said unto me, I will shew thee what these _be_.
 <sup>10</sup> And the man that stood among the myrtle trees answered and said, These _are they_ whom the LORD hath sent to walk to and fro through the earth.
@@ -150,12 +147,9 @@ Upon the four and twentieth day of the eleventh month, which _is_ the month Seba
 
 <sup>8</sup> Then cried he upon me, and spake unto me, saying, Behold, these that go toward the north country have quieted my spirit in the north country.
 
-### The New Jerusalem
-<sup>9</sup> 
 ### A Coronation
 
-
-And the word of the LORD came unto me, saying,
+<sup>9</sup> And the word of the LORD came unto me, saying,
 <sup>10</sup> Take of _them of_ the captivity, _even_ of Heldai, of Tobijah, and of Jedaiah, which are come from Babylon, and come thou the same day, and go into the house of Josiah the son of Zephaniah;
 <sup>11</sup> then take silver and gold, and make crowns, and set _them_ upon the head of Joshua the son of Josedech, the high priest;
 <sup>12</sup> and speak unto him, saying, Thus speaketh the LORD of hosts, saying, Behold the man whose name _is_ The BRANCH; and he shall grow up out of his place,<sup>c</sup> and he shall build the temple of the LORD:
@@ -240,9 +234,6 @@ And the word of the LORD came unto me, saying,
 > - <sup>i</sup> 21. Heb. _to intreat the face_
 
 ## Chapter 9
-
-### The City of God
-
 
 ### Look to the LORD
 

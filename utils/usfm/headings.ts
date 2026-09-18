@@ -40,7 +40,12 @@
 
 import Content, { ContentHeading, ContentSubtitle } from "../../types/Content";
 import { buildFootnoteContent } from "./footnotes";
-import { attachFootToPieces, buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
+import {
+  attachFootToPieces,
+  buildRunNodes,
+  collapseContentNodes,
+  InlineTextPiece,
+} from "./inlineMarks";
 import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
@@ -63,29 +68,72 @@ import { Token } from "./tokenize";
  * classifies — the standard spellings sit beside them.
  */
 const ACROSTIC_LETTER_NAMES = new Set([
-  "ALEPH", "ALEF", // one edition: "Alef"
-  "BETH", "BET", // KJV1769: "Bet"
+  "ALEPH",
+  "ALEF", // one edition: "Alef"
+  "BETH",
+  "BET", // KJV1769: "Bet"
   "GIMEL",
-  "DALETH", "DALET", "DELETH", // KJV1769: "Dalet"; CLV1880: "deleth"
+  "DALETH",
+  "DALET",
+  "DELETH", // KJV1769: "Dalet"; CLV1880: "deleth"
   "HE",
-  "WAW", "VAV", // WEBUS2020/ASV1901: "VAV"
-  "ZAYIN", "ZAIN", "ZAI", // KJV1769/YLT1898: "Zain"; CLV1880: "zai"
-  "HETH", "HET", "CHETH", "KHET", "HHETH", // KJV1769: "Het"; YLT1898: "Cheth"; ASV1901: "HHETH"; another edition: "Khet"
-  "TETH", "TET", // KJV1769: "Tet"
-  "YOD", "YODH", "IOTH", // WEBUS2020: "YODH"; CLV1880: "ioth"
-  "KAPH", "KAF", "CAPH", "CAF", "KAPF", // CLV1880: "caf"; WEBUS2020: "KAPF"; another edition: "Kaf"
-  "LAMED", "LAMEDH", // WEBUS2020: "LAMEDH"
-  "MEM", "ME", // CLV1880: "me"
+  "WAW",
+  "VAV", // WEBUS2020/ASV1901: "VAV"
+  "ZAYIN",
+  "ZAIN",
+  "ZAI", // KJV1769/YLT1898: "Zain"; CLV1880: "zai"
+  "HETH",
+  "HET",
+  "CHETH",
+  "KHET",
+  "HHETH", // KJV1769: "Het"; YLT1898: "Cheth"; ASV1901: "HHETH"; another edition: "Khet"
+  "TETH",
+  "TET", // KJV1769: "Tet"
+  "YOD",
+  "YODH",
+  "IOTH", // WEBUS2020: "YODH"; CLV1880: "ioth"
+  "KAPH",
+  "KAF",
+  "CAPH",
+  "CAF",
+  "KAPF", // CLV1880: "caf"; WEBUS2020: "KAPF"; another edition: "Kaf"
+  "LAMED",
+  "LAMEDH", // WEBUS2020: "LAMEDH"
+  "MEM",
+  "ME", // CLV1880: "me"
   "NUN",
-  "SAMEK", "SAMEKH", "SAMECH", // WEBUS2020: "SAMEKH"; CLV1880/YLT1898: "Samech"
-  "AYIN", "AIN", // KJV1769/CLV1880: "Ain"
-  "PE", "FE", // CLV1880: "fe"
+  "SAMEK",
+  "SAMEKH",
+  "SAMECH", // WEBUS2020: "SAMEKH"; CLV1880/YLT1898: "Samech"
+  "AYIN",
+  "AIN", // KJV1769/CLV1880: "Ain"
+  "PE",
+  "FE", // CLV1880: "fe"
   // MSB2025: "TZADE"; WEBUS2020: "TZADHE"; KJV1769: "Zade"; CLV1880: "sade"; two other editions: "Tsade"
-  "TSADDE", "TSADHE", "TSADE", "TSADI", "TZADE", "TZADHE", "TZADI", "SADHE", "SADE", "ZADE",
-  "QOPH", "QOF", "KOPH", "COF", // MSB2025/YLT1898: "KOPH"; CLV1880: "cof"; another edition: "Qof"
-  "RESH", "RES", // CLV1880: "res"
-  "SIN", "SHIN", "SEN", // CLV1880: "sen"; the combined "SIN AND SHIN" form is LETTER_NAME_JOINERS' job, never an entry here
-  "TAU", "TAV", "TAW", "THAV", "THAU", // WEBUS2020/ASV1901: "TAV"; CLV1880: "thau"; two other editions: "Taw"
+  "TSADDE",
+  "TSADHE",
+  "TSADE",
+  "TSADI",
+  "TZADE",
+  "TZADHE",
+  "TZADI",
+  "SADHE",
+  "SADE",
+  "ZADE",
+  "QOPH",
+  "QOF",
+  "KOPH",
+  "COF", // MSB2025/YLT1898: "KOPH"; CLV1880: "cof"; another edition: "Qof"
+  "RESH",
+  "RES", // CLV1880: "res"
+  "SIN",
+  "SHIN",
+  "SEN", // CLV1880: "sen"; the combined "SIN AND SHIN" form is LETTER_NAME_JOINERS' job, never an entry here
+  "TAU",
+  "TAV",
+  "TAW",
+  "THAV",
+  "THAU", // WEBUS2020/ASV1901: "TAV"; CLV1880: "thau"; two other editions: "Taw"
 ]);
 
 /**
@@ -122,7 +170,9 @@ export function isAcrosticLetterName(text: string): boolean {
     .map((part) => part.replace(LETTER_NAME_PUNCTUATION, ""))
     .filter((part) => part.length > 0);
 
-  return parts.length > 0 && parts.every((part) => ACROSTIC_LETTER_NAMES.has(part));
+  return (
+    parts.length > 0 && parts.every((part) => ACROSTIC_LETTER_NAMES.has(part))
+  );
 }
 
 /** The result of walking one heading span's own text (`\d`/`\sp`/`\s1`, the `\ms` family and the `\mr` after one, and a `\qc` the caller has yet to classify). */
@@ -156,7 +206,10 @@ export interface HeadingSpanResult {
  * only needs to *see* the `\w`/`\w*` boundary well enough to keep walking
  * past it without ending the span early.
  */
-export function buildHeadingSpanContent(tokens: readonly Token[], startIndex: number): HeadingSpanResult {
+export function buildHeadingSpanContent(
+  tokens: readonly Token[],
+  startIndex: number,
+): HeadingSpanResult {
   const pieces: InlineTextPiece[] = [];
   let index = startIndex;
 
@@ -169,7 +222,10 @@ export function buildHeadingSpanContent(tokens: readonly Token[], startIndex: nu
       continue;
     }
 
-    if ((token.type === "open" || token.type === "close") && token.name === "w") {
+    if (
+      (token.type === "open" || token.type === "close") &&
+      token.name === "w"
+    ) {
       index++;
       continue;
     }
@@ -255,7 +311,8 @@ export function buildSuperscriptionContent(
  * Syriac too. Missing a glyph here would demote a real letter heading to a
  * poetic line.
  */
-const NON_LATIN_GLYPHS = /[^\p{Script=Latin}\p{White_Space}\p{Punctuation}\p{Number}]+/gu;
+const NON_LATIN_GLYPHS =
+  /[^\p{Script=Latin}\p{White_Space}\p{Punctuation}\p{Number}]+/gu;
 
 /**
  * `true` when one `\qc` span's own text is an acrostic letter heading —
@@ -267,8 +324,12 @@ const NON_LATIN_GLYPHS = /[^\p{Script=Latin}\p{White_Space}\p{Punctuation}\p{Num
  * (see {@link NON_LATIN_GLYPHS}). A source printing no glyph at all (`\qc
  * ALEPH`) classifies the same way — there is simply nothing to drop.
  */
-export function isAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): boolean {
-  return isAcrosticLetterName(headingSpanText(pieces).replace(NON_LATIN_GLYPHS, " "));
+export function isAcrosticGlyphHeading(
+  pieces: readonly InlineTextPiece[],
+): boolean {
+  return isAcrosticLetterName(
+    headingSpanText(pieces).replace(NON_LATIN_GLYPHS, " "),
+  );
 }
 
 /**
@@ -294,7 +355,9 @@ export function isAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): bool
  * that let a different call site ship an untagged word, so it closes here
  * too rather than waiting for a future import to prove it out.
  */
-export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
+export function buildAcrosticGlyphHeading(
+  pieces: readonly InlineTextPiece[],
+): ContentHeading {
   const text = headingSpanText(pieces);
   return { heading: splitNonLatinScriptRuns(text), type: "acrostic" };
 }
@@ -310,7 +373,9 @@ export function buildAcrosticGlyphHeading(pieces: readonly InlineTextPiece[]): C
  * subtitle case — reused here rather than forked, even though this
  * corpus's own real data never exercises the footnote path for `\sp`.
  */
-export function buildSpeakerHeading(pieces: readonly InlineTextPiece[]): ContentHeading {
+export function buildSpeakerHeading(
+  pieces: readonly InlineTextPiece[],
+): ContentHeading {
   const nodes = buildRunNodes(pieces);
   const content: Content = collapseContentNodes(nodes);
   return { heading: content };
@@ -350,8 +415,14 @@ const ROMAN_DIGIT_VALUES: ReadonlyMap<string, number> = new Map([
 function numeralValue(numeral: string): number {
   if (/^\d+$/.test(numeral)) return Number(numeral);
 
-  const digits = [...numeral.toUpperCase()].map((digit) => ROMAN_DIGIT_VALUES.get(digit) as number);
-  return digits.reduce((total, value, at) => total + (value < (digits[at + 1] ?? 0) ? -value : value), 0);
+  const digits = [...numeral.toUpperCase()].map(
+    (digit) => ROMAN_DIGIT_VALUES.get(digit) as number,
+  );
+  return digits.reduce(
+    (total, value, at) =>
+      total + (value < (digits[at + 1] ?? 0) ? -value : value),
+    0,
+  );
 }
 
 /**
@@ -411,7 +482,11 @@ const ORDINAL_WORDS = ["One", "Two", "Three", "Four", "Five"];
  *   an unrepresented case belongs to a human decision, not a guessed sixth
  *   word.
  */
-export function buildBookDivisionHeading(index: number, start: number, end: number): ContentHeading {
+export function buildBookDivisionHeading(
+  index: number,
+  start: number,
+  end: number,
+): ContentHeading {
   const word = ORDINAL_WORDS[index];
   if (word === undefined) {
     throw new Error(
@@ -419,5 +494,10 @@ export function buildBookDivisionHeading(index: number, start: number, end: numb
     );
   }
 
-  return { heading: [{ text: `Book ${word}`, marks: ["sc"] }, ` (Psalms ${start}–${end})`] };
+  return {
+    heading: [
+      { text: `Book ${word}`, marks: ["sc"] },
+      ` (Psalms ${start}–${end})`,
+    ],
+  };
 }

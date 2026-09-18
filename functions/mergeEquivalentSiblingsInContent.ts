@@ -33,7 +33,11 @@
  */
 
 import Content from "../types/Content";
-import { agreesInFormatting, describeNode, isMergeableTextNode } from "../utils/auditNodes";
+import {
+  agreesInFormatting,
+  describeNode,
+  isMergeableTextNode,
+} from "../utils/auditNodes";
 
 /**
  * True when `node` is an object carrying nothing but a `text` key — the
@@ -49,9 +53,14 @@ import { agreesInFormatting, describeNode, isMergeableTextNode } from "../utils/
  * already does for one this transform never touches.
  */
 function isTextOnlyObject(node: unknown): node is { text: string } {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   const record = node as Record<string, unknown>;
-  return typeof record.text === "string" && record.text !== "" && Object.keys(record).length === 1;
+  return (
+    typeof record.text === "string" &&
+    record.text !== "" &&
+    Object.keys(record).length === 1
+  );
 }
 
 /**
@@ -81,11 +90,14 @@ interface Counts {
  * rewrite and passes through unchanged.
  */
 function rewriteNested(node: unknown, counts: Counts): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
   if (
     record.heading === undefined &&
     record.subtitle === undefined &&
@@ -131,7 +143,10 @@ function normalizeNode(node: unknown, counts: Counts): unknown {
  * disagrees in formatting with the run so far) starts a fresh run rather
  * than being folded in, so a run never crosses a real boundary.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: Counts): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: Counts,
+): unknown[] {
   const normalized = nodes.map((node) => normalizeNode(node, counts));
 
   const merged: unknown[] = [];
@@ -180,9 +195,10 @@ function rewriteLevel(content: unknown, counts: Counts): unknown {
  * @param content - A verse's own `content` value, or any subtree of it
  * @returns The rewritten tree (the original reference when nothing changed) and whether anything changed
  */
-export function mergeEquivalentSiblingsInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function mergeEquivalentSiblingsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const counts: Counts = { changed: false };
   const rewritten = rewriteLevel(content, counts) as Content;
   return counts.changed

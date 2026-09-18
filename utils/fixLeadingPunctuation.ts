@@ -70,7 +70,10 @@ function asObjectNode(node: unknown): Record<string, unknown> {
  * not a failure mode worth leaving open to save a walk over a verse-sized
  * array.
  */
-function rewriteArrayLevel(nodes: readonly unknown[], counts: { fixed: number }): unknown[] {
+function rewriteArrayLevel(
+  nodes: readonly unknown[],
+  counts: { fixed: number },
+): unknown[] {
   const working: unknown[] = [...nodes];
   let shapes = working.map(describeNode);
 
@@ -90,6 +93,14 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: { fixed: number })
       delete offender.text;
       delete offender.marks;
       delete offender.script;
+      // A transliteration is a rendering of this node's own text, so once the
+      // text has moved to the target there is nothing left for it to render.
+      // Leaving it behind defeats the emptiness test below: the node survives
+      // carrying only a transliteration, a later step strips that too, and what
+      // reaches the corpus is a bare `{}` that `findMeaninglessContentNodes`
+      // then fails the run over. 2MC 13:15's closing quotation mark did exactly
+      // that.
+      delete offender.transliteration;
 
       // A line break is a position, not text. Where the check reached back
       // across a textless Strong's sibling to find the target, that sibling
@@ -135,11 +146,14 @@ function rewriteArrayLevel(nodes: readonly unknown[], counts: { fixed: number })
  * levels to rewrite and passes through unchanged.
  */
 function rewriteNode(node: unknown, counts: { fixed: number }): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading, counts);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle, counts);
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading, counts);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle, counts);
   if (
     record.heading === undefined &&
     record.subtitle === undefined &&
@@ -188,9 +202,10 @@ function rewriteLevel(content: unknown, counts: { fixed: number }): unknown {
  * @returns The rewritten tree (the original reference when nothing moved) and
  *   whether anything did
  */
-export function reattachLeadingPunctuationInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function reattachLeadingPunctuationInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const counts = { fixed: 0 };
   const rewritten = rewriteLevel(content, counts) as Content;
   return counts.fixed > 0

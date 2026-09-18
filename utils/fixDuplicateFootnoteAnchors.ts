@@ -40,7 +40,10 @@ import {
  * real 2 Corinthians 7:12 shape) all compare against the one real node, so all of
  * them fall, not just the one immediately touching it.
  */
-function rewriteArrayLevel(nodes: readonly unknown[]): { nodes: unknown[]; changed: boolean } {
+function rewriteArrayLevel(nodes: readonly unknown[]): {
+  nodes: unknown[];
+  changed: boolean;
+} {
   const kept: unknown[] = [];
   const keptShapes: NodeShape[] = [];
   let changed = false;
@@ -62,7 +65,9 @@ function rewriteArrayLevel(nodes: readonly unknown[]): { nodes: unknown[]; chang
     keptShapes.push(shape);
   }
 
-  return changed ? { nodes: kept, changed: true } : { nodes: [...nodes], changed: false };
+  return changed
+    ? { nodes: kept, changed: true }
+    : { nodes: [...nodes], changed: false };
 }
 
 /**
@@ -74,7 +79,8 @@ function rewriteArrayLevel(nodes: readonly unknown[]): { nodes: unknown[]; chang
  * rewrite and passes through unchanged.
  */
 function rewriteNode(node: unknown): { node: unknown; changed: boolean } {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return { node, changed: false };
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return { node, changed: false };
   const record = { ...(node as Record<string, unknown>) };
   let changed = false;
 
@@ -135,8 +141,12 @@ function rewriteLevel(content: unknown): { value: unknown; changed: boolean } {
       return result.node;
     });
 
-    const { nodes: afterDeletion, changed: deletionChanged } = rewriteArrayLevel(rewrittenChildren);
-    return { value: afterDeletion, changed: childrenChanged || deletionChanged };
+    const { nodes: afterDeletion, changed: deletionChanged } =
+      rewriteArrayLevel(rewrittenChildren);
+    return {
+      value: afterDeletion,
+      changed: childrenChanged || deletionChanged,
+    };
   }
   const result = rewriteNode(content);
   return { value: result.node, changed: result.changed };
@@ -151,9 +161,10 @@ function rewriteLevel(content: unknown): { value: unknown; changed: boolean } {
  * @param content - A verse's own `content` value, or any subtree of it
  * @returns The rewritten tree (the original reference when nothing was deleted) and whether anything changed
  */
-export function removeDuplicateFootnoteAnchorsInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function removeDuplicateFootnoteAnchorsInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const result = rewriteLevel(content);
   return result.changed
     ? { content: result.value as Content, changed: true }

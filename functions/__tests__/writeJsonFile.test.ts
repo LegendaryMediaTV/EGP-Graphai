@@ -3,7 +3,11 @@ import * as fs from "fs";
 import * as os from "os";
 import * as path from "path";
 import * as prettier from "prettier";
-import { writeFileAtomic, writeJsonFile } from "../writeJsonFile";
+import {
+  formatMarkdownText,
+  writeFileAtomic,
+  writeJsonFile,
+} from "../writeJsonFile";
 
 describe("writeJsonFile", () => {
   let dir: string;
@@ -34,20 +38,16 @@ describe("writeJsonFile", () => {
       expect(fs.readFileSync(file, "utf-8")).toBe(
         await prettier.format(JSON.stringify(sample) + "\n", {
           parser: "json",
-        })
+        }),
       );
     });
 
     it("should collapse an object that fits on one line, not force it onto three", async () => {
-      // JSON.stringify(data, null, 2) puts a newline after every `{`, and
-      // Prettier preserves an authored break it's handed rather than
-      // re-deciding from width — so indenting before Prettier sees it would
-      // lock this onto three lines even though it fits comfortably on one.
       const file = path.join(dir, "short-object.json");
       await writeJsonFile(file, { subtitle: "in finem psalmus David" });
 
       expect(fs.readFileSync(file, "utf-8")).toBe(
-        '{ "subtitle": "in finem psalmus David" }\n'
+        '{ "subtitle": "in finem psalmus David" }\n',
       );
     });
 
@@ -78,7 +78,7 @@ describe("writeJsonFile", () => {
       vi.useFakeTimers();
       try {
         const rejection = expect(writeJsonFile(file, sample)).rejects.toThrow(
-          /Failed to write .*json-occupied after \d+ attempts/
+          /Failed to write .*json-occupied after \d+ attempts/,
         );
         await vi.runAllTimersAsync();
         await rejection;
@@ -90,9 +90,8 @@ describe("writeJsonFile", () => {
 
   describe("writeFileAtomic", () => {
     it("should write the given text verbatim, without reformatting it", async () => {
-      // utils/validate.ts and utils/exportContent.ts hand over text that is
-      // already exactly what belongs on disk — Prettier output, Markdown, or
-      // plain verse text. Touching it would corrupt the non-JSON exports.
+      // The plain-text export hands over verse text nothing else formats, so
+      // any reformatting here would corrupt it.
       const file = path.join(dir, "verbatim.md");
       const contents = "# Genesis\n\n  ragged   spacing  kept\n";
       await writeFileAtomic(file, contents);
@@ -128,7 +127,7 @@ describe("writeJsonFile", () => {
       vi.useFakeTimers();
       try {
         const rejection = expect(
-          writeFileAtomic(file, "contents")
+          writeFileAtomic(file, "contents"),
         ).rejects.toThrow(/Failed to write .*occupied after \d+ attempts/);
         await vi.runAllTimersAsync();
         await rejection;
@@ -144,7 +143,7 @@ describe("writeJsonFile", () => {
       vi.useFakeTimers();
       try {
         const rejection = expect(
-          writeFileAtomic(file, "contents")
+          writeFileAtomic(file, "contents"),
         ).rejects.toThrow();
         await vi.runAllTimersAsync();
         await rejection;
@@ -153,6 +152,49 @@ describe("writeJsonFile", () => {
       }
 
       expect(fs.existsSync(`${file}.writing`)).toBe(false);
+    });
+  });
+
+  describe("formatMarkdownText", () => {
+    /** One chapter in the shape `utils/exportContent.ts` renders. */
+    const exportShaped = [
+      "## Chapter 1",
+      "",
+      "<sup>1</sup> <sup>a</sup>Paul, an apostle—not from men,",
+      "### Paul Defends His Authority",
+      "",
+      "",
+      "<sup>2</sup> to whom _is_ the glory to the ages.",
+      "",
+      "> - <sup>a</sup> 1. Lit., _that which causes leaping for joy_",
+      "",
+    ].join("\n");
+
+    it("should format the text with Prettier's markdown parser", async () => {
+      expect(await formatMarkdownText(exportShaped)).toBe(
+        await prettier.format(exportShaped, { parser: "markdown" }),
+      );
+    });
+
+    it("should leave the result settled, so prettier --check passes on what it returns", async () => {
+      // `npm run export` gets one pass. Anything it writes that is not
+      // already a fixed point leaves the export tree failing `--check`.
+      const once = await formatMarkdownText(exportShaped);
+
+      expect(await formatMarkdownText(once)).toBe(once);
+    });
+
+    it("should end the text with exactly one newline", async () => {
+      expect(await formatMarkdownText("## Chapter 1")).toBe("## Chapter 1\n");
+    });
+
+    it("should keep a verse line's words and punctuation unchanged", async () => {
+      const verseLine =
+        "<sup>3</sup> ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν — “ho logos”…";
+
+      const formatted = await formatMarkdownText(`${verseLine}\n`);
+
+      expect(formatted.trim()).toBe(verseLine);
     });
   });
 });

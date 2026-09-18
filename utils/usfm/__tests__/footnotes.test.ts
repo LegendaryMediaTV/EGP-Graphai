@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { buildFootnoteContent, buildIntroParagraphFootnote, capitalizeFootnoteOpening } from "../footnotes";
+import {
+  buildFootnoteContent,
+  buildIntroParagraphFootnote,
+  capitalizeFootnoteOpening,
+} from "../footnotes";
 import { uniformFraction } from "../../../functions/normalizeFractions";
 import { Token, tokenize } from "../tokenize";
 
@@ -16,42 +20,119 @@ import { Token, tokenize } from "../tokenize";
  *   `\f`...`\f*` span, with nothing but the span itself (or the span
  *   preceded by other tokens this helper skips past to find it).
  */
-function footnoteFrom(raw: string, canonBookIds?: ReadonlySet<string>): ReturnType<typeof buildFootnoteContent> {
+function footnoteFrom(
+  raw: string,
+  canonBookIds?: ReadonlySet<string>,
+): ReturnType<typeof buildFootnoteContent> {
   const tokens: Token[] = tokenize(raw);
-  const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "f");
-  if (openIndex === -1) throw new Error(`footnoteFrom: no \\f open token found in: ${raw}`);
+  const openIndex = tokens.findIndex(
+    (token) => token.type === "open" && token.name === "f",
+  );
+  if (openIndex === -1)
+    throw new Error(`footnoteFrom: no \\f open token found in: ${raw}`);
   return buildFootnoteContent(tokens, openIndex + 1, canonBookIds);
 }
 
 /** The 66-book in-scope canon. Duplicated, not imported, from `references.test.ts`'s identical constant — intentionally: a verifying test shouldn't share code with the thing it verifies, and that caution extends to fixtures, not just production code. */
 const IN_SCOPE_CANON = new Set([
-  "GEN", "EXO", "LEV", "NUM", "DEU", "JSH", "JDG", "RTH", "1SM", "2SM", "1KG", "2KG",
-  "1CH", "2CH", "EZR", "NEH", "EST", "JOB", "PSA", "PRV", "ECC", "SOS", "ISA", "JER",
-  "LAM", "EZK", "DAN", "HOS", "JOL", "AMS", "OBD", "JNA", "MIC", "NAH", "HAB", "ZPH",
-  "HAG", "ZEC", "MAL", "MAT", "MRK", "LUK", "JHN", "ACT", "ROM", "1CO", "2CO", "GAL",
-  "EPH", "PHP", "COL", "1TH", "2TH", "1TM", "2TM", "TIT", "PHM", "HEB", "JAS", "1PT",
-  "2PT", "1JN", "2JN", "3JN", "JUD", "REV",
+  "GEN",
+  "EXO",
+  "LEV",
+  "NUM",
+  "DEU",
+  "JSH",
+  "JDG",
+  "RTH",
+  "1SM",
+  "2SM",
+  "1KG",
+  "2KG",
+  "1CH",
+  "2CH",
+  "EZR",
+  "NEH",
+  "EST",
+  "JOB",
+  "PSA",
+  "PRV",
+  "ECC",
+  "SOS",
+  "ISA",
+  "JER",
+  "LAM",
+  "EZK",
+  "DAN",
+  "HOS",
+  "JOL",
+  "AMS",
+  "OBD",
+  "JNA",
+  "MIC",
+  "NAH",
+  "HAB",
+  "ZPH",
+  "HAG",
+  "ZEC",
+  "MAL",
+  "MAT",
+  "MRK",
+  "LUK",
+  "JHN",
+  "ACT",
+  "ROM",
+  "1CO",
+  "2CO",
+  "GAL",
+  "EPH",
+  "PHP",
+  "COL",
+  "1TH",
+  "2TH",
+  "1TM",
+  "2TM",
+  "TIT",
+  "PHM",
+  "HEB",
+  "JAS",
+  "1PT",
+  "2PT",
+  "1JN",
+  "2JN",
+  "3JN",
+  "JUD",
+  "REV",
 ]);
 
 describe("buildFootnoteContent — \\fr dropped, \\ft kept plain", () => {
   it("should drop \\fr's own reference label entirely, keeping only \\ft's own text (2 Kings 17:27's real shape, already this repo's established \\fr-drop precedent)", () => {
-    const { footnote, plainText } = footnoteFrom('\\f + \\fr 17:27 \\ft Hebrew: \\fq them\\f*');
+    const { footnote, plainText } = footnoteFrom(
+      "\\f + \\fr 17:27 \\ft Hebrew: \\fq them\\f*",
+    );
     expect(plainText).not.toContain("17:27");
-    expect(footnote.content).toEqual(["Hebrew: ", { text: "them", marks: ["i"] }]);
+    expect(footnote.content).toEqual([
+      "Hebrew: ",
+      { text: "them", marks: ["i"] },
+    ]);
     expect(footnote.type).toBe("trn");
   });
 
   it("should advance the caller past the matching \\f* close, to the very next token", () => {
-    const tokens = tokenize('\\f + \\fr 2:12 \\ft or, aromatic resin\\f*\\w and|strong="H2091"\\w*');
-    const openIndex = tokens.findIndex((token) => token.type === "open" && token.name === "f");
+    const tokens = tokenize(
+      '\\f + \\fr 2:12 \\ft or, aromatic resin\\f*\\w and|strong="H2091"\\w*',
+    );
+    const openIndex = tokens.findIndex(
+      (token) => token.type === "open" && token.name === "f",
+    );
     const { nextIndex } = buildFootnoteContent(tokens, openIndex + 1);
     expect(tokens[nextIndex]).toMatchObject({ type: "open", name: "w" });
   });
 });
 
-describe("buildFootnoteContent — \\fq/\\fqa get marks: [\"i\"], \\ft does not", () => {
+describe('buildFootnoteContent — \\fq/\\fqa get marks: ["i"], \\ft does not', () => {
   it("should italicize \\fqa's own alternating quoted-name segments while leaving \\ft's own connecting prose plain (2 Chronicles 36:2's real \\fqa/\\ft-alternating shape) — tokenize()'s own mandatory one-space marker separator means only the *first* segment keeps a trailing space (real content, sitting between \\fqa and the next marker) and every later segment's own leading space is consumed as syntax, never content", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 36:2 \\fqa Joahaz \\ft is a variant of \\fqa Jehoahaz\\ft .\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 36:2 \\fqa Joahaz \\ft is a variant of \\fqa Jehoahaz\\ft .\\f*",
+    );
     expect(footnote.content).toEqual([
       { text: "Joahaz ", marks: ["i"] },
       "is a variant of ",
@@ -61,12 +142,14 @@ describe("buildFootnoteContent — \\fq/\\fqa get marks: [\"i\"], \\ft does not"
     expect(footnote.type).toBe("stu");
   });
 
-  it("should italicize an entire \\fqa-quoted alternate-reading passage (Mark 16:8's own \"short ending of Mark\" quotation)", () => {
+  it('should italicize an entire \\fqa-quoted alternate-reading passage (Mark 16:8\'s own "short ending of Mark" quotation)', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 16:8 \\ft One isolated manuscript omits verses 9-20 but adds this “short ending of Mark” to the end of verse 8: \\fqa They told all that had been commanded them briefly to those around Peter.\\f*',
+      "\\f + \\fr 16:8 \\ft One isolated manuscript omits verses 9-20 but adds this “short ending of Mark” to the end of verse 8: \\fqa They told all that had been commanded them briefly to those around Peter.\\f*",
     );
     expect(footnote.type).toBe("var");
-    const lastNode = (footnote.content as unknown[])[(footnote.content as unknown[]).length - 1];
+    const lastNode = (footnote.content as unknown[])[
+      (footnote.content as unknown[]).length - 1
+    ];
     expect(lastNode).toEqual({
       text: "They told all that had been commanded them briefly to those around Peter.",
       marks: ["i"],
@@ -75,9 +158,9 @@ describe("buildFootnoteContent — \\fq/\\fqa get marks: [\"i\"], \\ft does not"
 });
 
 describe("buildFootnoteContent — original-script tagging", () => {
-  it("should tag a \\+wh-delimited Hebrew word as {text, script: \"H\"} directly, no scan needed (Genesis 1:1's real Elohim gloss)", () => {
+  it('should tag a \\+wh-delimited Hebrew word as {text, script: "H"} directly, no scan needed (Genesis 1:1\'s real Elohim gloss)', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 1:1 \\ft The Hebrew word rendered “God” is “\\+wh אֱלֹהִ֑ים\\+wh*” (Elohim).\\f*',
+      "\\f + \\fr 1:1 \\ft The Hebrew word rendered “God” is “\\+wh אֱלֹהִ֑ים\\+wh*” (Elohim).\\f*",
     );
     expect(footnote.content).toEqual([
       "The Hebrew word rendered “God” is “",
@@ -90,7 +173,7 @@ describe("buildFootnoteContent — original-script tagging", () => {
     expect(footnote.type).toBe("trn");
   });
 
-  it("should isolate a bare, undelimited Greek word with splitScriptRuns, with no delimiter to lean on (John 14:16's real \"παρακλητον\" gloss)", () => {
+  it('should isolate a bare, undelimited Greek word with splitScriptRuns, with no delimiter to lean on (John 14:16\'s real "παρακλητον" gloss)', () => {
     const { footnote } = footnoteFrom(
       "\\f + \\fr 14:16 \\ft Greek παρακλητον: Counselor, Helper, Intercessor, Advocate, and Comforter.\\f*",
     );
@@ -104,7 +187,7 @@ describe("buildFootnoteContent — original-script tagging", () => {
 
   it("should tag both a delimited Hebrew word and a bare Greek word inside the same footnote body (1 Peter 2:6's real dual-language gloss)", () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 2:6 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*” or “ἰδοὺ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*',
+      "\\f + \\fr 2:6 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*” or “ἰδοὺ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*",
     );
     expect(footnote.content).toEqual([
       "“Behold”, from “",
@@ -116,25 +199,39 @@ describe("buildFootnoteContent — original-script tagging", () => {
   });
 
   it('should leave splitScriptRuns\'s own "returns input unchanged when nothing matches" contract exercised for the overwhelming majority of footnote bodies, which carry no non-Latin text at all (a plain measurement note)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 6:15 \\ft A cubit is about 18 inches or 46 centimeters.\\f*');
-    expect(footnote.content).toBe("A cubit is about 18 inches or 46 centimeters.");
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 6:15 \\ft A cubit is about 18 inches or 46 centimeters.\\f*",
+    );
+    expect(footnote.content).toBe(
+      "A cubit is about 18 inches or 46 centimeters.",
+    );
   });
 
   it("should isolate a bare, undelimited Hebrew word with splitNonLatinScriptRuns, closing the real import-time asymmetry that shipped it untagged (WEBUS2020 Numbers 15:38's real tassels gloss)", () => {
-    const { footnote } = footnoteFrom("\\f + \\fr 15:38 \\ft or, tassels (Hebrew צִיצִ֛ת)\\f*");
-    expect(footnote.content).toEqual(["or, tassels (Hebrew ", { text: "צִיצִ֛ת", script: "H" }, ")"]);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 15:38 \\ft or, tassels (Hebrew צִיצִ֛ת)\\f*",
+    );
+    expect(footnote.content).toEqual([
+      "or, tassels (Hebrew ",
+      { text: "צִיצִ֛ת", script: "H" },
+      ")",
+    ]);
     expect(footnote.type).toBe("trn");
   });
 });
 
 describe("buildFootnoteContent — classification reaches the built footnote's own type", () => {
   it('should classify a witness-naming note as var (Mark 16:8\'s "TR adds" note)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 16:8 \\ft TR adds “quickly”\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 16:8 \\ft TR adds “quickly”\\f*",
+    );
     expect(footnote.type).toBe("var");
   });
 
   it("should classify a plain background note as stu, the default, when nothing else applies (Genesis 25:26's name-etymology note)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 25:26 \\ft Isaac means “he laughs”.\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 25:26 \\ft Isaac means “he laughs”.\\f*",
+    );
     expect(footnote.type).toBe("stu");
   });
 });
@@ -150,8 +247,12 @@ describe("buildFootnoteContent — classification reaches the built footnote's o
  */
 describe("buildFootnoteContent — fraction normalization", () => {
   it("should normalize a genuine ASCII fraction in a footnote's own displayed content (Exodus 16:36's real footnote)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*');
-    expect(footnote.content).toBe(`1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*",
+    );
+    expect(footnote.content).toBe(
+      `1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`,
+    );
   });
 
   it("should normalize every precomposed vulgar-fraction glyph in one footnote body, all three in one string (Exodus 27:1's real footnote)", () => {
@@ -165,8 +266,12 @@ describe("buildFootnoteContent — fraction normalization", () => {
   });
 
   it("should also normalize plainText/classificationText, not just the displayed content, so classifyFootnote and segmentVerses.ts's own empty-verse fallback see the identical normalized text the display already carries (Exodus 16:36's real footnote again, checked from the plainText side this time)", () => {
-    const { plainText } = footnoteFrom('\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*');
-    expect(plainText).toBe(`1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`);
+    const { plainText } = footnoteFrom(
+      "\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*",
+    );
+    expect(plainText).toBe(
+      `1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`,
+    );
   });
 });
 
@@ -179,53 +284,65 @@ describe("buildFootnoteContent — fraction normalization", () => {
  */
 describe("buildFootnoteContent — footnote-initial capitalization", () => {
   it('should capitalize Leviticus 11:5\'s own real regression ("or rock badger, or cony" — no comma after the first "or", so it does not qualify for the or, exception below)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 11:5 \\ft or rock badger, or cony\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 11:5 \\ft or rock badger, or cony\\f*",
+    );
     expect(footnote.content).toBe("Or rock badger, or cony");
   });
 
   it('should capitalize Leviticus 19:16\'s own real regression ("literally, “blood”")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 19:16 \\ft literally, “blood”\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 19:16 \\ft literally, “blood”\\f*",
+    );
     expect(footnote.content).toBe("Literally, “blood”");
   });
 
   it('should capitalize a second real "literally," regression in a different book (Matthew 6:27\'s "literally, cubit")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 6:27 \\ft literally, cubit\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 6:27 \\ft literally, cubit\\f*",
+    );
     expect(footnote.content).toBe("Literally, cubit");
   });
 
   it('should capitalize Deuteronomy 33:2\'s own real regression, "another manuscript reads..." (the one real "another"-opening regression)', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 33:2 \\ft another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”\\f*',
+      "\\f + \\fr 33:2 \\ft another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”\\f*",
     );
-    expect(footnote.content).toBe("Another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”");
+    expect(footnote.content).toBe(
+      "Another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”",
+    );
     expect(footnote.type).toBe("var");
   });
 
   it('should capitalize 1 Corinthians 12:2\'s own real regression, "or Gentiles" — "or" with no trailing comma still capitalizes, unlike the or, exception below', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 12:2 \\ft or Gentiles\\f*');
+    const { footnote } = footnoteFrom("\\f + \\fr 12:2 \\ft or Gentiles\\f*");
     expect(footnote.content).toBe("Or Gentiles");
   });
 
   it('should recapitalize the *whole* witness siglon, not just its own leading letter, for Acts 4:27\'s own real regression — a real source-side casing slip ("nu adds...") that upstream HEAD carries as "NU adds...", not "Nu adds..."', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 4:27 \\ft nu adds “in this city,”\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 4:27 \\ft nu adds “in this city,”\\f*",
+    );
     expect(footnote.content).toBe("NU adds “in this city,”");
     expect(footnote.type).toBe("var");
   });
 
   it('should leave a real "or," (comma immediately after) footnote exactly as it is, lowercase — the one, 100%-consistent exception (Genesis 1:29\'s real "or, aromatic resin")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 1:29 \\ft or, aromatic resin\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 1:29 \\ft or, aromatic resin\\f*",
+    );
     expect(footnote.content).toBe("or, aromatic resin");
   });
 
   it('should leave a second real "or," footnote unchanged in a different book (Matthew 23:5\'s own second footnote, "or, tassels")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 23:5 \\ft or, tassels\\f*');
+    const { footnote } = footnoteFrom("\\f + \\fr 23:5 \\ft or, tassels\\f*");
     expect(footnote.content).toBe("or, tassels");
     expect(footnote.type).toBe("trn");
   });
 
   it('should capitalize a representative sample of the lowercase-backlog set — real bodies already lowercase in both HEAD and the current output, with no textual signal of their own tying them together, capitalized the same way regressions are (1 Samuel 15:23\'s "teraphim were household idols...")', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 15:23 \\ft teraphim were household idols that may have been associated with inheritance rights to the household property.\\f*',
+      "\\f + \\fr 15:23 \\ft teraphim were household idols that may have been associated with inheritance rights to the household property.\\f*",
     );
     expect(footnote.content).toBe(
       "Teraphim were household idols that may have been associated with inheritance rights to the household property.",
@@ -233,13 +350,17 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
   });
 
   it('should capitalize a second lowercase-backlog fixture, a plain-English unit-of-measure gloss (Exodus 30:13\'s "a gerah is about 0.5 grams...")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 30:13 \\ft a gerah is about 0.5 grams or about 7.7 grains\\f*');
-    expect(footnote.content).toBe("A gerah is about 0.5 grams or about 7.7 grains");
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 30:13 \\ft a gerah is about 0.5 grams or about 7.7 grains\\f*",
+    );
+    expect(footnote.content).toBe(
+      "A gerah is about 0.5 grams or about 7.7 grains",
+    );
   });
 
   it('should capitalize a third lowercase-backlog fixture (1 Chronicles 29:7\'s "a daric was a gold coin...")', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 29:7 \\ft a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.\\f*',
+      "\\f + \\fr 29:7 \\ft a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.\\f*",
     );
     expect(footnote.content).toBe(
       "A daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.",
@@ -247,28 +368,43 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
   });
 
   it('should capitalize a fourth lowercase-backlog fixture, a time-of-day gloss (Matthew 20:5\'s "noon and 3:00 p.m.")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 20:5 \\ft noon and 3:00 p.m.\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 20:5 \\ft noon and 3:00 p.m.\\f*",
+    );
     expect(footnote.content).toBe("Noon and 3:00 p.m.");
   });
 
   it('should capitalize a fifth lowercase-backlog fixture, an "i.e.," opener (Deuteronomy 27:20\'s "i.e., has sexual relations with")', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 27:20 \\ft i.e., has sexual relations with\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 27:20 \\ft i.e., has sexual relations with\\f*",
+    );
     expect(footnote.content).toBe("I.e., has sexual relations with");
   });
 
-  it("should leave a footnote whose first piece is already uppercase untouched (Mark 4:4's real \"TR adds…\" witness note — already matches upstream HEAD, nothing to fix)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 4:4 \\ft TR adds “of the air”\\f*');
+  it('should leave a footnote whose first piece is already uppercase untouched (Mark 4:4\'s real "TR adds…" witness note — already matches upstream HEAD, nothing to fix)', () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 4:4 \\ft TR adds “of the air”\\f*",
+    );
     expect(footnote.content).toBe("TR adds “of the air”");
   });
 
-  it('should leave a footnote whose first character is a digit untouched — not an ASCII letter at all (Exodus 16:36\'s real fraction fixture, already covered from the fraction-normalization angle above — this is the same body proving the /[a-z]/ guard from the casing angle)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*');
-    expect(footnote.content).toBe(`1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`);
+  it("should leave a footnote whose first character is a digit untouched — not an ASCII letter at all (Exodus 16:36's real fraction fixture, already covered from the fraction-normalization angle above — this is the same body proving the /[a-z]/ guard from the casing angle)", () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 16:36 \\ft 1 ephah is about 22 liters or about 2/3 of a bushel\\f*",
+    );
+    expect(footnote.content).toBe(
+      `1 ephah is about 22 liters or about ${uniformFraction("2", "3")} of a bushel`,
+    );
   });
 
   it("should leave a footnote whose first piece is a script-tagged Hebrew word untouched — no real in-scope footnote body ever opens this way (buildFootnoteContent's own doc comment), so this is a synthetic fixture proving the /[a-z]/ guard covers a script piece too, not only a plain-Latin one", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 1:1 \\ft \\+wh בְּרֵאשִׁית\\+wh* is the first word\\f*');
-    expect(footnote.content).toEqual([{ text: "בְּרֵאשִׁית", script: "H" }, " is the first word"]);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 1:1 \\ft \\+wh בְּרֵאשִׁית\\+wh* is the first word\\f*",
+    );
+    expect(footnote.content).toEqual([
+      { text: "בְּרֵאשִׁית", script: "H" },
+      " is the first word",
+    ]);
   });
 
   /**
@@ -282,14 +418,20 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
    * through this same generic mechanism.
    */
   it('should link Deuteronomy 33:16\'s real "the burning bush of Exodus 3:3-4" through the generic mechanism, no cue word or separate override needed — "Exodus 3:3-4" names its own book explicitly, matching upstream HEAD\'s own exact shape (modulo the dash character, a separate, later, post-write convention this module never applies)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 33:16 \\ft i.e., the burning bush of Exodus 3:3-4.\\f*');
-    expect(footnote.content).toEqual(["I.e., the burning bush of ", { bibleLink: "Exodus 3:3-4" }, "."]);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 33:16 \\ft i.e., the burning bush of Exodus 3:3-4.\\f*",
+    );
+    expect(footnote.content).toEqual([
+      "I.e., the burning bush of ",
+      { bibleLink: "Exodus 3:3-4" },
+      ".",
+    ]);
     expect(footnote.type).toBe("stu");
   });
 
   it('should link Matthew 23:5\'s real embedded "See Deuteronomy 6:8." to a real bibleLink, matching upstream HEAD\'s own content shape — the capitalized "Phylacteries..." opening is an intentional divergence from upstream\'s own lowercase wording (a transliterated term, backlog-shaped, capitalized anyway under this importer\'s general "capitalize all of them" rule)', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 23:5 \\ft phylacteries (tefillin in Hebrew) are small leather pouches that some Jewish men wear on their forehead and arm in prayer. They are used to carry a small scroll with some Scripture in it. See Deuteronomy 6:8.\\f*',
+      "\\f + \\fr 23:5 \\ft phylacteries (tefillin in Hebrew) are small leather pouches that some Jewish men wear on their forehead and arm in prayer. They are used to carry a small scroll with some Scripture in it. See Deuteronomy 6:8.\\f*",
     );
     expect(footnote.content).toEqual([
       "Phylacteries (tefillin in Hebrew) are small leather pouches that some Jewish men wear on their forehead and arm in prayer. They are used to carry a small scroll with some Scripture in it. See ",
@@ -302,7 +444,9 @@ describe("buildFootnoteContent — footnote-initial capitalization", () => {
 
 describe("buildFootnoteContent — zero \\w/\\+w tags ever occur inside a footnote body in this corpus (confirmed directly, not assumed)", () => {
   it("should have nothing special to do when a footnote body carries no Strong's-tagged word — buildRunNodes's own generic machinery handles the plain-prose case unchanged", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 1:29 \\ft or, aromatic resin\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 1:29 \\ft or, aromatic resin\\f*",
+    );
     expect(footnote.content).toBe("or, aromatic resin");
   });
 });
@@ -315,7 +459,9 @@ describe("buildFootnoteContent — zero \\w/\\+w tags ever occur inside a footno
  */
 describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-marker)", () => {
   it("should keep an \\fl label's own text in the footnote body, feeding footnoteTypeRules the label it needs to classify correctly (Esther-Greek 1:11's real \"Greek\"-labeled note)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 1:11 \\fl Greek \\ft to make her queen.\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 1:11 \\fl Greek \\ft to make her queen.\\f*",
+    );
     expect(footnote.content).toBe("Greek to make her queen.");
     expect(footnote.type).toBe("trn");
   });
@@ -324,19 +470,27 @@ describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-m
     const { footnote, plainText } = footnoteFrom(
       "\\f + \\fr 1:1 \\fl Note: \\ft In the \\fl Hebrew \\ft and some copies of LXX, Esther begins here.\\f*",
     );
-    expect(plainText).toBe("Note: In the Hebrew and some copies of LXX, Esther begins here.");
+    expect(plainText).toBe(
+      "Note: In the Hebrew and some copies of LXX, Esther begins here.",
+    );
     expect(footnote.type).toBe("var");
   });
 
   it('should keep a standalone \\fl "Or," label\'s own text, classifying trn the same way the spelled-out \\ft "or," opener already does (Esther-Greek 4:43)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 4:43 \\fl Or, \\ft opinion.\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 4:43 \\fl Or, \\ft opinion.\\f*",
+    );
     expect(footnote.content).toBe("Or, opinion.");
     expect(footnote.type).toBe("trn");
   });
 
-  it("should keep an \\fl \"Hebrew\"-labeled note's own text, classifying stu — a bare witness name with no live English alternative offered (Esther-Greek 3:13)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 3:13 \\fl Note: \\ft The part in brackets is not in \\fl Hebrew\\f*');
-    expect(footnote.content).toBe("Note: The part in brackets is not in Hebrew");
+  it('should keep an \\fl "Hebrew"-labeled note\'s own text, classifying stu — a bare witness name with no live English alternative offered (Esther-Greek 3:13)', () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 3:13 \\fl Note: \\ft The part in brackets is not in \\fl Hebrew\\f*",
+    );
+    expect(footnote.content).toBe(
+      "Note: The part in brackets is not in Hebrew",
+    );
     expect(footnote.type).toBe("stu");
   });
 });
@@ -348,9 +502,9 @@ describe("buildFootnoteContent — \\fl (Esther-Greek's own footnote label sub-m
  * doc-comment claim.
  */
 describe("buildFootnoteContent — deuterocanon regressions for already-established mechanisms", () => {
-  it("should tag each of \\+bk/\\+bk*'s 3 real book-title citations marks: [\"i\"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24's real footnote) — its own trailing \"between Daniel 3:23 and Daniel 3:24\" also links both, finding two fully-qualified references with nothing but a bare book-name repeat sitting between them", () => {
+  it('should tag each of \\+bk/\\+bk*\'s 3 real book-title citations marks: ["i"], even inside a footnote that itself sits inside an \\s1 span (Daniel 3:24\'s real footnote) — its own trailing "between Daniel 3:23 and Daniel 3:24" also links both, finding two fully-qualified references with nothing but a bare book-name repeat sitting between them', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 3:24 \\ft \\+bk The Song of the Three Holy Children\\+bk* is an addition to \\+bk Daniel\\+bk* found in the Greek Septuagint but not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. This portion is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. It is found inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible. Here, the verses after 23 from the Hebrew Bible are numbered starting at 91 to make room for these verses.\\f*',
+      "\\f + \\fr 3:24 \\ft \\+bk The Song of the Three Holy Children\\+bk* is an addition to \\+bk Daniel\\+bk* found in the Greek Septuagint but not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. This portion is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches. It is found inserted between Daniel 3:23 and Daniel 3:24 of the traditional Hebrew Bible. Here, the verses after 23 from the Hebrew Bible are numbered starting at 91 to make room for these verses.\\f*",
     );
     expect(footnote.content).toEqual([
       { text: "The Song of the Three Holy Children", marks: ["i"] },
@@ -366,9 +520,9 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
     ]);
   });
 
-  it("should tag all 4 of \\+bk/\\+bk*'s real citations marks: [\"i\"] in Daniel 13:1's own real footnote — a different repeat shape than 3:24's (the book title repeats, not \"Daniel\")", () => {
+  it('should tag all 4 of \\+bk/\\+bk*\'s real citations marks: ["i"] in Daniel 13:1\'s own real footnote — a different repeat shape than 3:24\'s (the book title repeats, not "Daniel")', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 13:1 \\ft \\+bk The History of Susanna\\+bk* is translated from chapter 13 of \\+bk Daniel\\+bk* in the Greek Septuagint. It is not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. \\+bk The History of Susanna\\+bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.\\f*',
+      "\\f + \\fr 13:1 \\ft \\+bk The History of Susanna\\+bk* is translated from chapter 13 of \\+bk Daniel\\+bk* in the Greek Septuagint. It is not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. \\+bk The History of Susanna\\+bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.\\f*",
     );
     expect(footnote.content).toEqual([
       { text: "The History of Susanna", marks: ["i"] },
@@ -384,7 +538,7 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
 
   it("should tag all 4 of \\+bk/\\+bk*'s real citations marks: [\"i\"] in Daniel 14:1's own real footnote (Bel and the Dragon)", () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 14:1 \\ft \\+bk Bel and the Dragon\\+bk* is translated from chapter 14 of \\+bk Daniel\\+bk* in the Greek Septuagint. It is not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. \\+bk Bel and the Dragon\\+bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.\\f*',
+      "\\f + \\fr 14:1 \\ft \\+bk Bel and the Dragon\\+bk* is translated from chapter 14 of \\+bk Daniel\\+bk* in the Greek Septuagint. It is not found in the traditional Hebrew text of \\+bk Daniel\\+bk*. \\+bk Bel and the Dragon\\+bk* is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.\\f*",
     );
     expect(footnote.content).toEqual([
       { text: "Bel and the Dragon", marks: ["i"] },
@@ -400,14 +554,18 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
 
   it("should tag a \\+wh-delimited Hebrew word inside the deuterocanon corpus the same way it already does in the 66-book canonical corpus (Daniel 1:2's real Elohim gloss)", () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 1:2 \\ft The Hebrew word rendered “God” is “\\+wh אֱלֹהִ֑ים\\+wh*” (Elohim).\\f*',
+      "\\f + \\fr 1:2 \\ft The Hebrew word rendered “God” is “\\+wh אֱלֹהִ֑ים\\+wh*” (Elohim).\\f*",
     );
-    expect(footnote.content).toEqual(["The Hebrew word rendered “God” is “", { text: "אֱלֹהִ֑ים", script: "H" }, "” (Elohim)."]);
+    expect(footnote.content).toEqual([
+      "The Hebrew word rendered “God” is “",
+      { text: "אֱלֹהִ֑ים", script: "H" },
+      "” (Elohim).",
+    ]);
   });
 
   it('should tag a \\+wh-delimited Hebrew word for the "Behold"/Hinneh gloss the deuterocanon corpus also carries (Daniel 2:31)', () => {
     const { footnote } = footnoteFrom(
-      '\\f + \\fr 2:31 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*',
+      "\\f + \\fr 2:31 \\ft “Behold”, from “\\+wh הִנֵּה\\+wh*”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.\\f*",
     );
     expect(footnote.content).toEqual([
       "“Behold”, from “",
@@ -416,8 +574,10 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
     ]);
   });
 
-  it("should isolate a bare, undelimited Greek word with splitScriptRuns in the deuterocanon corpus too, needing no \\fl fix at all (2 Maccabees 5:24's real \"Μυσάρχην\" gloss — this note carries \\ft/\\fqa only, no \\fl)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 5:24 \\ft Gr. \\fqa Μυσάρχην, \\ft which also may mean \\fqa ruler of the Mysians. \\f*');
+  it('should isolate a bare, undelimited Greek word with splitScriptRuns in the deuterocanon corpus too, needing no \\fl fix at all (2 Maccabees 5:24\'s real "Μυσάρχην" gloss — this note carries \\ft/\\fqa only, no \\fl)', () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 5:24 \\ft Gr. \\fqa Μυσάρχην, \\ft which also may mean \\fqa ruler of the Mysians. \\f*",
+    );
     expect(footnote.content).toEqual([
       "Gr. ",
       { text: "Μυσάρχην", script: "G", marks: ["i"] },
@@ -439,25 +599,46 @@ describe("buildFootnoteContent — deuterocanon regressions for already-establis
  */
 describe("buildFootnoteContent — an \\f body that is nothing but a reference resolves like a real cross-reference", () => {
   it('should resolve a "See "-led reference-only \\f body to a real bibleLink, not leave it as unresolved plain text (Baruch 1:11\'s real note)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 1:11 \\ft See Deuteronomy 11:21. \\f*', IN_SCOPE_CANON);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 1:11 \\ft See Deuteronomy 11:21. \\f*",
+      IN_SCOPE_CANON,
+    );
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual(["See ", { bibleLink: "Deuteronomy 11:21" }]);
+    expect(footnote.content).toEqual([
+      "See ",
+      { bibleLink: "Deuteronomy 11:21" },
+    ]);
   });
 
   it('should resolve a "Compare "-led reference-only \\f body the same way (1 Maccabees 4:40\'s real note — "Compare " never occurs in a real \\xt target, only here)', () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 4:40 \\ft Compare Numbers 31:6.\\f*', IN_SCOPE_CANON);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 4:40 \\ft Compare Numbers 31:6.\\f*",
+      IN_SCOPE_CANON,
+    );
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual(["Compare ", { bibleLink: "Numbers 31:6" }]);
+    expect(footnote.content).toEqual([
+      "Compare ",
+      { bibleLink: "Numbers 31:6" },
+    ]);
   });
 
-  it("should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular \"Psalm\" target (1 Maccabees 7:17's real note)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 7:17 \\ft Psalms 79:2, 3.\\f*', IN_SCOPE_CANON);
+  it('should resolve a bare reference-only \\f body with no lead-in word at all, to the canonical singular "Psalm" target (1 Maccabees 7:17\'s real note)', () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 7:17 \\ft Psalms 79:2, 3.\\f*",
+      IN_SCOPE_CANON,
+    );
     expect(footnote.type).toBe("xrf");
-    expect(footnote.content).toEqual({ bibleLink: "Psalm 79:2, 3", content: "Psalms 79:2, 3" });
+    expect(footnote.content).toEqual({
+      bibleLink: "Psalm 79:2, 3",
+      content: "Psalms 79:2, 3",
+    });
   });
 
-  it("should resolve a semicolon-joined multi-target reference-only \\f body the same \"; \"-joining way \\x already does, the Psalms target resolving to canonical singular \"Psalm\" (Wisdom 11:4's real note)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 11:4 \\ft See Deuteronomy 8:15; Psalms 114:8.\\f*', IN_SCOPE_CANON);
+  it('should resolve a semicolon-joined multi-target reference-only \\f body the same "; "-joining way \\x already does, the Psalms target resolving to canonical singular "Psalm" (Wisdom 11:4\'s real note)', () => {
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 11:4 \\ft See Deuteronomy 8:15; Psalms 114:8.\\f*",
+      IN_SCOPE_CANON,
+    );
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual([
       "See ",
@@ -468,15 +649,23 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
   });
 
   it("should still classify and resolve correctly when canonBookIds is omitted entirely (no canon restriction), matching buildReferenceOnlyContent's own default", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 10:26 \\ft See Exodus 23:22.\\f*');
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 10:26 \\ft See Exodus 23:22.\\f*",
+    );
     expect(footnote.type).toBe("xrf");
     expect(footnote.content).toEqual(["See ", { bibleLink: "Exodus 23:22" }]);
   });
 
   it("should leave an ordinary, non-reference-only \\f body exactly as before — this fix only ever changes an xrf-classified body's own content (2 Kings 17:27's real \\fq-shaped note, already covered above, re-asserted here to prove no cross-talk between the two code paths)", () => {
-    const { footnote } = footnoteFrom('\\f + \\fr 17:27 \\ft Hebrew: \\fq them\\f*', IN_SCOPE_CANON);
+    const { footnote } = footnoteFrom(
+      "\\f + \\fr 17:27 \\ft Hebrew: \\fq them\\f*",
+      IN_SCOPE_CANON,
+    );
     expect(footnote.type).toBe("trn");
-    expect(footnote.content).toEqual(["Hebrew: ", { text: "them", marks: ["i"] }]);
+    expect(footnote.content).toEqual([
+      "Hebrew: ",
+      { text: "them", marks: ["i"] },
+    ]);
   });
 });
 
@@ -488,10 +677,15 @@ describe("buildFootnoteContent — an \\f body that is nothing but a reference r
  */
 describe("buildIntroParagraphFootnote — \\ip", () => {
   /** Finds the first `\ip` marker in `raw` and builds its footnote, mirroring `footnoteFrom`'s own shape for `\f`. */
-  function introFootnoteFrom(raw: string): ReturnType<typeof buildIntroParagraphFootnote> {
+  function introFootnoteFrom(
+    raw: string,
+  ): ReturnType<typeof buildIntroParagraphFootnote> {
     const tokens: Token[] = tokenize(raw);
-    const ipIndex = tokens.findIndex((token) => token.type === "marker" && token.name === "ip");
-    if (ipIndex === -1) throw new Error(`introFootnoteFrom: no \\ip marker found in: ${raw}`);
+    const ipIndex = tokens.findIndex(
+      (token) => token.type === "marker" && token.name === "ip",
+    );
+    if (ipIndex === -1)
+      throw new Error(`introFootnoteFrom: no \\ip marker found in: ${raw}`);
     return buildIntroParagraphFootnote(tokens, ipIndex + 1);
   }
 
@@ -533,12 +727,17 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
     expect(footnote.type).toBe("var");
   });
 
-  it("should stop the span at the very next marker, whatever it is, and hand the caller back that unconsumed token — both of its own embedded \\bk citations still tagged marks: [\"i\"] (Sirach's own real \\ip stopping at \\is1, not at any \\ip-specific close tag)", () => {
+  it('should stop the span at the very next marker, whatever it is, and hand the caller back that unconsumed token — both of its own embedded \\bk citations still tagged marks: ["i"] (Sirach\'s own real \\ip stopping at \\is1, not at any \\ip-specific close tag)', () => {
     const tokens = tokenize(
       "\\ip \\bk The Wisdom of Jesus the Son of Sirach\\bk*, also called \\bk Ecclesiasticus\\bk*, is recognized as Deuterocanonical Scripture by the Roman Catholic, Greek Orthodox, and Russian Orthodox Churches.  \n\\is1 The Prologue of the Wisdom of Jesus the Son of Sirach.  \n\\ip WHEREAS many and great things have been delivered to us.",
     );
-    const ipIndex = tokens.findIndex((token) => token.type === "marker" && token.name === "ip");
-    const { footnote, nextIndex } = buildIntroParagraphFootnote(tokens, ipIndex + 1);
+    const ipIndex = tokens.findIndex(
+      (token) => token.type === "marker" && token.name === "ip",
+    );
+    const { footnote, nextIndex } = buildIntroParagraphFootnote(
+      tokens,
+      ipIndex + 1,
+    );
     expect(footnote.content).toEqual([
       { text: "The Wisdom of Jesus the Son of Sirach", marks: ["i"] },
       ", also called ",
@@ -561,7 +760,9 @@ describe("buildIntroParagraphFootnote — \\ip", () => {
     const tokens = tokenize(
       "\\ip First block text.  \n\\ip Second block text.  \n\\c 1",
     );
-    const firstIpIndex = tokens.findIndex((token) => token.type === "marker" && token.name === "ip");
+    const firstIpIndex = tokens.findIndex(
+      (token) => token.type === "marker" && token.name === "ip",
+    );
     const first = buildIntroParagraphFootnote(tokens, firstIpIndex + 1);
     expect(first.footnote.content).toBe("First block text.");
     expect(tokens[first.nextIndex]).toEqual({ type: "marker", name: "ip" });

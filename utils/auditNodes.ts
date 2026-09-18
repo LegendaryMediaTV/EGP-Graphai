@@ -17,12 +17,13 @@
  * 9. Mark-boundary embedded spaces — {@link scanArrayForMarkBoundaryEmbeddedSpaces}
  * 10. Un-normalized ellipsis — {@link hasUnnormalizedEllipsis}
  * 11. ASCII straight quote or apostrophe — {@link hasStraightQuote}
- * 11a. Misplaced Greek dialytika — {@link hasMisplacedDialytikaText}
- * 12. Footnote marker after whitespace — {@link scanArrayForFootnoteMarkerAfterWhitespace}
- * 13. Untagged script run — {@link hasUntaggedScriptRun}
- * 14. Duplicate footnote anchor — {@link scanArrayForDuplicateFootnoteAnchors}
- * 15. Mergeable siblings — {@link scanArrayForMergeableSiblings}
- * 16. Non-standard whitespace — {@link hasNonStandardWhitespace}
+ * 12. Misplaced Greek dialytika — {@link hasMisplacedDialytikaText}
+ * 13. Footnote marker after whitespace — {@link scanArrayForFootnoteMarkerAfterWhitespace}
+ * 14. Untagged script run — {@link hasUntaggedScriptRun}
+ * 15. Duplicate footnote anchor — {@link scanArrayForDuplicateFootnoteAnchors}
+ * 16. Mergeable siblings — {@link scanArrayForMergeableSiblings}
+ * 17. Non-standard whitespace — {@link hasNonStandardWhitespace}
+ * 18. Detached punctuation — {@link hasDetachedPunctuation}
  *
  * Checks 5 and 6 look only at a verse's own outermost content — one is
  * defined as a verse-level convention, the other needs a whole book's verse
@@ -38,10 +39,6 @@
  * `validate.ts` runs in its own auto-fix pass, most of them importing their
  * eligibility from here rather than keeping a second copy of the judgment. A
  * reader looking for the fix half of a check should look there, not here.
- *
- * A general-purpose, version-controlled tool any future import can reach for,
- * rather than a one-off diagnostic scoped to whichever translation happens to
- * be mid-import at the time.
  */
 
 import * as fs from "fs";
@@ -88,6 +85,24 @@ export interface NodeShape {
   strong: string | undefined;
   /** Whether this node carries a `foot`. */
   hasFoot: boolean;
+  /**
+   * Whether this node carries a parse of its own — a `morph` or a `lemma`.
+   *
+   * A tagged word, in other words, on the same footing as a `strong`-carrying
+   * one: it is a word in its own right rather than stray text belonging on
+   * some neighbor. {@link isMergeableTextNode}'s own doc anticipated this
+   * shape as "legal per the schema, absent from this corpus today", and
+   * LXX1935 is the corpus where it stopped being absent — every one of its
+   * words carries `morph` and `lemma` and none carries `strong`.
+   * Without this, {@link isMergeableConnector} read all of them as plain text
+   * and folded five whole runs into the next footnoted word, taking their
+   * parses with them.
+   *
+   * Read on both sides of a pair. A parsed node is not a donor, and {@link
+   * canJoinForward} will not let it be a target either: text folded in front
+   * of a parse is text that parse does not describe.
+   */
+  hasParse: boolean;
   /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — has rendered text one level down but no top-level `text` of its own, so it's never itself an eligible donor, merge target, or attachment point at this array level. */
   hasNestedContent: boolean;
   /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
@@ -115,6 +130,7 @@ export function describeNode(node: unknown): NodeShape {
     script: undefined,
     strong: undefined,
     hasFoot: false,
+    hasParse: false,
     hasNestedContent: false,
     isTextlessStrongSibling: false,
     isTextlessFootSibling: false,
@@ -143,6 +159,8 @@ export function describeNode(node: unknown): NodeShape {
   const strong = typeof record.strong === "string" ? record.strong : undefined;
   const hasNestedContent = "content" in record;
   const hasFoot = record.foot !== undefined && record.foot !== null;
+  const hasParse =
+    typeof record.morph === "string" || typeof record.lemma === "string";
 
   return {
     text,
@@ -150,6 +168,7 @@ export function describeNode(node: unknown): NodeShape {
     script: record.script,
     strong,
     hasFoot,
+    hasParse,
     hasNestedContent,
     isTextlessStrongSibling:
       text === undefined && strong !== undefined && !hasNestedContent,
@@ -170,19 +189,39 @@ export function agreesInFormatting(a: NodeShape, b: NodeShape): boolean {
   );
 }
 
+/** True for text holding at least one letter — the difference between a connector *word* and a run of punctuation, which is all {@link isMergeableConnector} means by "real". Marks and digits do not qualify on their own: neither is something a dictionary names. */
+const HAS_LETTER = /\p{L}/u;
+
 /**
- * Real, non-blank, untagged, footnote-less, break-free text — the only shape
- * a merge (the unmerged-connector check) may treat as the "plain" half of a pair. `endsBreak` is
- * excluded alongside `strong`/`hasFoot` because a break-carrying node is
- * itself a valid {@link canJoinForward} target; without the exclusion the
- * scanning loop would sweep past it instead of stopping to treat it as the
- * target.
+ * A real, untagged, footnote-less, break-free connector *word* — the only
+ * shape a merge (the unmerged-connector check) may treat as the "plain" half
+ * of a pair. `endsBreak` is excluded alongside `strong`/`hasFoot` because a
+ * break-carrying node is itself a valid {@link canJoinForward} target; without
+ * the exclusion the scanning loop would sweep past it instead of stopping to
+ * treat it as the target.
+ *
+ * `hasParse` excludes a word tagged with a `morph` or a `lemma` for the same
+ * reason `strong` does: it is a word of its own, not text that belongs on a
+ * neighbor. Untagged used to mean "carries no `strong`", which was true of
+ * every corpus here until a morph-tagged one arrived; see {@link
+ * NodeShape.hasParse}.
+ *
+ * **A node with no letter in it is punctuation, not a connector.** A blank is
+ * excluded for having no lexical content ({@link isBlankConnector}), and a node
+ * whose whole text is `" –"` has none either. Rahlfs's Septuagint is the corpus
+ * that shows it: it writes each half of a parenthesis as its own node, as in
+ * `… σπορίμου – ὑμῖν ἔσται εἰς βρῶσιν –`. Merging changes no rendered
+ * character, but the merged node would then carry `" – ὑμῖν"` under the lemma
+ * σύ, and that claim is untrue. A one-letter word (`ὁ`, `ἡ`, `ὃ`) is a
+ * connector as much as any longer one, which is why the test is for a letter
+ * and not for a length.
  */
 export function isMergeableConnector(shape: NodeShape): boolean {
   return (
     shape.text !== undefined &&
-    shape.text.trim() !== "" &&
+    HAS_LETTER.test(shape.text) &&
     shape.strong === undefined &&
+    !shape.hasParse &&
     !shape.hasFoot &&
     !shape.endsBreak
   );
@@ -249,6 +288,18 @@ interface PairFinding {
  * attaching to the end of accumulated text, and is exactly why `target` had
  * to stay its own node; the connectors before it carry no such reason.
  *
+ * **A target carrying its own parse is refused, the mirror of {@link
+ * isMergeableConnector}'s own `hasParse` exclusion.** A `morph` code or a
+ * `lemma` parses one word; text folded in front of it would be text that parse
+ * does not describe, and `corpusMorphology.ts` audits exactly that claim — it
+ * looks every morph-carrying node's spelling up in the lexical map, so a merged
+ * node stops resolving and becomes a finding there instead. The eligibility
+ * rule above reads a `strong`/`foot`/`break` as evidence that a word *had to*
+ * stay its own node while the glue around it did not; a corpus that parses
+ * every word separately offers no such evidence, because nothing was ever split
+ * off. Where such a corpus leaves a word untagged beside tagged ones, the
+ * repair is the missing tag, never a fold into the neighbour.
+ *
  * `target.text !== undefined` is required in addition: checking
  * `strong`/`hasFoot`/`endsBreak` alone would accept a `ContentNested`
  * wrapper, which can carry `strong` with no top-level `text` for a
@@ -256,10 +307,14 @@ interface PairFinding {
  * `opensParagraph`; a later one may not, since that marks a piece boundary
  * strictly inside the run.
  */
-export function canJoinForward(run: readonly NodeShape[], target: NodeShape): boolean {
+export function canJoinForward(
+  run: readonly NodeShape[],
+  target: NodeShape,
+): boolean {
   return (
     run.length > 0 &&
     (target.strong !== undefined || target.hasFoot || target.endsBreak) &&
+    !target.hasParse &&
     target.text !== undefined &&
     !target.opensParagraph &&
     run.every(
@@ -384,15 +439,17 @@ export interface LeadingPunctuationSplit {
  * rather than to the word it annotates.
  *
  * **The offending node has to be one the unmerged-connector check cannot
- * sweep up** ({@link isMergeableConnector}) — that is, it carries a `strong`
- * number, a `foot`, or a `break`. That gate is what keeps the two checks
- * complementary rather than overlapping: a bare `{text: ","}` between two
- * tagged words is already a `scanArrayForUnmergedPairs` finding with its own
- * answer (merge it *forward* into the target that made it stay split), and
- * reporting it here as well would give one node two contradictory
- * resolutions. Everything else — anything anchored in place by a suffix it
- * carries — has no forward merge available, so its leading punctuation is
- * this check's to report.
+ * sweep up** ({@link isMergeableConnector}) — it carries a `strong` number, a
+ * `foot`, or a `break`, or it holds no letter at all. That gate is what keeps
+ * the two checks complementary rather than overlapping: a `" and"` between two
+ * tagged words is a `scanArrayForUnmergedPairs` finding with its own answer
+ * (merge it *forward* into the target that made it stay split), and reporting
+ * it here as well would give one node two contradictory resolutions.
+ * Everything else has no forward merge available, so its leading punctuation
+ * is this check's to report — including a bare `{text: ","}`, which the merge
+ * check declines because punctuation is not a connector word, and whose comma
+ * belongs on the word it follows rather than on the front of the next word's
+ * Strong's span.
  *
  * A finding requires a genuine attachment point immediately before the
  * offending node (see {@link isRealAttachmentPoint}), agreeing in
@@ -413,7 +470,12 @@ export function misplacedLeadingPunctuationAt(
   at: number,
 ): LeadingPunctuationSplit | undefined {
   const shape = shapes[at];
-  if (shape === undefined || shape.text === undefined || shape.text.length === 0) return undefined;
+  if (
+    shape === undefined ||
+    shape.text === undefined ||
+    shape.text.length === 0
+  )
+    return undefined;
   if (isMergeableConnector(shape)) return undefined;
 
   const split = leadingTightPunctuationSplit(shape.text);
@@ -486,7 +548,9 @@ function hasTrailingWhitespace(shape: NodeShape): boolean {
  * version's already-built content can be checked against it too.
  */
 function hasUnnormalizedFraction(shape: NodeShape): boolean {
-  return shape.text !== undefined && normalizeFractionText(shape.text).changes > 0;
+  return (
+    shape.text !== undefined && normalizeFractionText(shape.text).changes > 0
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -567,7 +631,10 @@ function hasMisplacedDialytikaText(shape: NodeShape): boolean {
  * with a boolean first, matching every other check in this module, and only
  * pay for building the excerpt on an actual finding.
  */
-function describeStraightQuoteFinding(text: string, path: string): StraightQuoteFinding {
+function describeStraightQuoteFinding(
+  text: string,
+  path: string,
+): StraightQuoteFinding {
   const at = text.search(STRAIGHT_QUOTE);
   const character = text[at];
   const start = Math.max(0, at - EXCERPT_RADIUS);
@@ -584,9 +651,11 @@ function describeStraightQuoteFinding(text: string, path: string): StraightQuote
  * True for a node whose own `text` is nonempty but entirely whitespace.
  *
  * A blank has no lexical content, so {@link isMergeableConnector} excludes it
- * — leaving a separate real shape uncovered: a Words-of-Christ or italics
- * span built one word at a time, with the joining space between each word
- * pulled out as its own node instead of leading the word that follows.
+ * — the same rule that now excludes a punctuation-only node, a blank being
+ * only the emptiest case of it. That leaves a separate real shape uncovered: a
+ * Words-of-Christ or italics span built one word at a time, with the joining
+ * space between each word pulled out as its own node instead of leading the
+ * word that follows.
  */
 function isBlankConnector(shape: NodeShape): boolean {
   return (
@@ -647,7 +716,11 @@ function scanArrayForMarkBoundarySpaces(
     if (!isRealAttachmentPoint(left)) continue;
 
     let j = i + 1;
-    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
+    while (
+      j < nodes.length &&
+      (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)
+    )
+      j++;
     if (j >= nodes.length) continue;
 
     const target = shapes[j];
@@ -743,9 +816,10 @@ function checkVerseInitialSpace(
 // The heading-paragraph check — a heading/subtitle run not immediately followed by a paragraph start
 // ---------------------------------------------------------------------------
 
-/** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. */
-function isHeadingOrSubtitle(node: unknown): boolean {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+/** True for a `{heading: ...}` or `{subtitle: ...}` wrapper — the two boundary shapes this check collapses into one run before looking at what comes after. `utils/exportContent.ts` reads the same run to hoist it above a verse number, and shares this definition rather than keeping a second copy of it. */
+export function isHeadingOrSubtitle(node: unknown): boolean {
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   const record = node as Record<string, unknown>;
   return "heading" in record || "subtitle" in record;
 }
@@ -766,7 +840,12 @@ function isHeadingOrSubtitle(node: unknown): boolean {
  */
 function skipsPastHeadingRun(node: unknown): boolean {
   const shape = describeNode(node);
-  return !shape.isBoundary && shape.text === undefined && !shape.hasNestedContent && !shape.opensParagraph;
+  return (
+    !shape.isBoundary &&
+    shape.text === undefined &&
+    !shape.hasNestedContent &&
+    !shape.opensParagraph
+  );
 }
 
 /** One heading/subtitle run whose own real next node fails to open a paragraph. */
@@ -802,7 +881,9 @@ export interface HeadingParagraphFinding {
  * convention, not one that reaches into nested content. A run with nothing
  * after it reports nothing — there is no node for the convention to apply to.
  */
-function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagraphFinding[] {
+function findVerseHeadingParagraphMismatches(
+  verse: VerseRecord,
+): HeadingParagraphFinding[] {
   const nodes = asArray(verse.content);
   const findings: HeadingParagraphFinding[] = [];
 
@@ -815,9 +896,13 @@ function findVerseHeadingParagraphMismatches(verse: VerseRecord): HeadingParagra
     let end = at;
     while (end < nodes.length && isHeadingOrSubtitle(nodes[end])) end++;
     let nextIndex = end;
-    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex])) nextIndex++;
+    while (nextIndex < nodes.length && skipsPastHeadingRun(nodes[nextIndex]))
+      nextIndex++;
 
-    if (nextIndex < nodes.length && !describeNode(nodes[nextIndex]).opensParagraph) {
+    if (
+      nextIndex < nodes.length &&
+      !describeNode(nodes[nextIndex]).opensParagraph
+    ) {
       findings.push({
         book: verse.book,
         chapter: verse.chapter,
@@ -892,19 +977,30 @@ function scanArrayForFootnotePunctuationOrder(
 
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
-    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0) continue;
+    if (!shape.hasFoot || shape.text === undefined || shape.text.length === 0)
+      continue;
 
     let j = i + 1;
     while (j < nodes.length && shapes[j].isTextlessStrongSibling) j++;
     if (j >= nodes.length) continue;
 
     const next = shapes[j];
-    if (!isRealAttachmentPoint(next) || next.opensParagraph || next.text === undefined) continue;
+    if (
+      !isRealAttachmentPoint(next) ||
+      next.opensParagraph ||
+      next.text === undefined
+    )
+      continue;
 
     const split = leadingTightPunctuationSplit(next.text);
     if (split === undefined) continue;
 
-    findings.push({ where, node: nodes[i], leading: split.before, next: nodes[j] });
+    findings.push({
+      where,
+      node: nodes[i],
+      leading: split.before,
+      next: nodes[j],
+    });
   }
 
   return findings;
@@ -946,7 +1042,8 @@ export function carriesFormatting(shape: NodeShape): boolean {
  */
 function isFormattingSubsetOf(a: NodeShape, b: NodeShape): boolean {
   if (a.script !== b.script) return false;
-  const [smaller, larger] = a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
+  const [smaller, larger] =
+    a.marks.length <= b.marks.length ? [a.marks, b.marks] : [b.marks, a.marks];
   return smaller.length > 0 && smaller.every((mark) => larger.includes(mark));
 }
 
@@ -993,7 +1090,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
 
   for (let i = 0; i < nodes.length; i++) {
     const shape = shapes[i];
-    if (shape.text === undefined || shape.text.trim() === "" || !carriesFormatting(shape)) continue;
+    if (
+      shape.text === undefined ||
+      shape.text.trim() === "" ||
+      !carriesFormatting(shape)
+    )
+      continue;
 
     if (/^\s/.test(shape.text) && !shape.opensParagraph) {
       let j = i - 1;
@@ -1006,7 +1108,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
           !agreesInFormatting(shape, neighbor) &&
           !isFormattingSubsetOf(shape, neighbor)
         ) {
-          findings.push({ where, side: "leading", node: nodes[i], neighbor: nodes[j] });
+          findings.push({
+            where,
+            side: "leading",
+            node: nodes[i],
+            neighbor: nodes[j],
+          });
         }
       }
     }
@@ -1022,7 +1129,12 @@ function scanArrayForMarkBoundaryEmbeddedSpaces(
           !agreesInFormatting(shape, neighbor) &&
           !isFormattingSubsetOf(shape, neighbor)
         ) {
-          findings.push({ where, side: "trailing", node: nodes[i], neighbor: nodes[j] });
+          findings.push({
+            where,
+            side: "trailing",
+            node: nodes[i],
+            neighbor: nodes[j],
+          });
         }
       }
     }
@@ -1116,13 +1228,26 @@ function scanArrayForFootnoteMarkerAfterWhitespace(
     if (!shape.hasFoot || shape.hasNestedContent) continue;
 
     let j = i + 1;
-    while (j < nodes.length && (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)) j++;
+    while (
+      j < nodes.length &&
+      (shapes[j].isTextlessStrongSibling || shapes[j].isTextlessFootSibling)
+    )
+      j++;
     const next = j < nodes.length ? shapes[j] : undefined;
 
-    if (shape.text === undefined && next !== undefined && isRealAttachmentPoint(next)) continue;
+    if (
+      shape.text === undefined &&
+      next !== undefined &&
+      isRealAttachmentPoint(next)
+    )
+      continue;
     if (findWhitespaceSourceIndex(shapes, i) === undefined) continue;
 
-    findings.push({ where, node: nodes[i], next: j < nodes.length ? nodes[j] : undefined });
+    findings.push({
+      where,
+      node: nodes[i],
+      next: j < nodes.length ? nodes[j] : undefined,
+    });
   }
 
   return findings;
@@ -1237,7 +1362,12 @@ function scanArrayForDuplicateFootnoteAnchors(
   for (let i = 0; i < nodes.length; i++) {
     if (
       lastKept >= 0 &&
-      isDuplicateFootnoteAnchor(nodes[i], shapes[i], nodes[lastKept], shapes[lastKept])
+      isDuplicateFootnoteAnchor(
+        nodes[i],
+        shapes[i],
+        nodes[lastKept],
+        shapes[lastKept],
+      )
     ) {
       findings.push({ where, node: nodes[i], target: nodes[lastKept] });
       continue; // not kept — the next node still compares against lastKept
@@ -1272,7 +1402,8 @@ const MERGEABLE_EXTRA_KEYS = new Set(["marks", "script"]);
 export function isMergeableTextNode(node: unknown, shape: NodeShape): boolean {
   if (shape.text === undefined) return false;
   if (typeof node === "string") return true;
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return false;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return false;
   return Object.keys(node as Record<string, unknown>).every(
     (key) => key === "text" || MERGEABLE_EXTRA_KEYS.has(key),
   );
@@ -1364,7 +1495,10 @@ function hasNonStandardWhitespace(shape: NodeShape): boolean {
  * hasNonStandardWhitespace}. Kept separate from the predicate for the same
  * reason {@link describeStraightQuoteFinding} is.
  */
-function describeNonStandardWhitespaceFinding(text: string, path: string): NonStandardWhitespaceFinding {
+function describeNonStandardWhitespaceFinding(
+  text: string,
+  path: string,
+): NonStandardWhitespaceFinding {
   const at = text.search(NON_STANDARD_WHITESPACE);
   const character = text[at];
   const codePoint = `U+${character.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}`;
@@ -1372,6 +1506,102 @@ function describeNonStandardWhitespaceFinding(text: string, path: string): NonSt
   const end = Math.min(text.length, at + EXCERPT_RADIUS + 1);
   const excerpt = `${start > 0 ? "…" : ""}${text.slice(start, end)}${end < text.length ? "…" : ""}`;
   return { path, codePoint, excerpt };
+}
+
+// ---------------------------------------------------------------------------
+// The detached-punctuation check — a closing mark left a node boundary's space away from the word it binds to
+// ---------------------------------------------------------------------------
+
+/** One node whose own leading punctuation is detached from the word before it, found within a single array level. */
+interface DetachedPunctuationFinding {
+  /** The offending node's own path within its verse (e.g. `content[3]`, `content.foot.content[1]`). */
+  path: string;
+  /** The offending node's own text, verbatim and untruncated — unlike the invisible character behind a {@link NonStandardWhitespaceFinding}, this shape is legible on sight, and it is always at the very front of the string, so the first two characters carry the whole finding. */
+  text: string;
+}
+
+/** The marks that close what came before them: a clause or sentence terminator, and the two curly quotes that end a speech. This is the check's entry condition, deliberately narrower than {@link isTightPunctuationChar}; see {@link hasDetachedPunctuation} for why a predicate defined by exclusion cannot be the whole test here, and why the class is written out rather than widened to `\p{Pe}\p{Pf}`. Both quotes are escapes so the class reads as a list of decisions rather than as punctuation inside a regular expression. */
+const DETACHABLE_PUNCTUATION = /[.,;:!?\u2019\u201D]/;
+
+/**
+ * True when a node's own `text` opens with whitespace and then a closing mark —
+ * a mark stranded a space away from the word it closes.
+ *
+ * The shape is an import artifact. KJV1769 MRK 12:29 carried
+ * `{text: " , Hear,", marks: ["woc"]}` beside the italic supplied word
+ * `{text: "is", marks: ["i", "woc"]}`, so the comma closing `_is_` rendered a
+ * space away from it; MRK 15:2 carried a whole node that was nothing but
+ * `" ."`. Both were repaired when this check was written, and the markdown
+ * export used to hide them by closing every space before punctuation on its
+ * way out — which also closed, across 24 LXX1935 nodes, 45 export lines that
+ * were never defects. That rule is
+ * gone, and this check stands in its place: it watches exactly the characters
+ * the rule used to move, so nothing it was hiding can return unseen.
+ *
+ * **Why the entry class is written out rather than borrowed.**
+ * {@link isTightPunctuationChar} is defined by *exclusion* — not a letter,
+ * digit, space, dash or opening mark. That is the right shape for its own
+ * caller, which already knows it is looking at a mark beside a word. Asked
+ * instead to classify the first character of any node in the corpus, it calls
+ * every symbol a closing mark: measured over every version it reports nodes
+ * that are almost entirely BYZ2026's U+00A6 apparatus separator, the rest an
+ * ampersand joining two cross-references, a stranded closing quote and an
+ * ellipsis. A separator spaced on purpose is not a mark that lost its
+ * word. So the run is still extended with {@link isTightPunctuationChar} —
+ * which is what carries the rest of a closing cluster in `" .’”"` along — but
+ * the *first* character has to be in {@link DETACHABLE_PUNCTUATION} for the
+ * node to be a finding at all.
+ *
+ * **The two curly quotes are in that class, and nothing else in the census is.**
+ * The owner ruled on the three stranded closing quotes the census above found:
+ * WEBUS2020 closes a nested-speech cluster tight almost without exception, so
+ * the spaced few are a source mistake rather than a house style, and they were
+ * repaired alongside this widening. Widening the class instead to all of
+ * `\p{Pe}\p{Pf}` finds nothing these two do not, so the narrow written-out
+ * list stays, which is what the paragraph above argues for. The apparatus
+ * separator, the ampersands and the ellipsis stay out, because none of them is
+ * a mark that lost its word. Population with this entry condition: 3 before
+ * those repairs, 0 after.
+ *
+ * **The dash exclusion still matters and is still borrowed.** LXX1935 has 24
+ * nodes where Rahlfs closes a parenthetical with a spaced en dash and the
+ * clause's own comma follows inside that same node — 21 spelling `" – ,"` and
+ * 3 closing with a U+0387 ano teleia, named here rather than pasted because it
+ * and an ASCII middle dot are indistinguishable on screen. The first non-space
+ * character there is a dash, so neither the entry condition nor the run ever
+ * starts. That space is the source edition's own typography, at no node
+ * boundary at all, and the owner has chosen to keep it.
+ *
+ * A letter or digit immediately after the run means the mark is inside a word
+ * rather than closing one — the same guard {@link
+ * leadingTightPunctuationSplit} makes, against the same split contraction it
+ * was written for. It also keeps a leading decimal like `" .45"` out.
+ *
+ * **Report-only, per the owner's own call.** {@link
+ * reattachLeadingPunctuationInContent} could be widened to cover this, and
+ * deliberately is not: the two shapes resolve differently — that fixer moves a
+ * mark onto an earlier node, this one deletes a space — and a single fixer
+ * holding two answers is how a fix pass comes to apply the wrong one. The
+ * curly quotes make that concrete twice over. The downstream fork's NKJV1982
+ * spaces every one of its closing clusters as house style, so a fixer would
+ * rewrite a whole translation's typography; and its NET2019 EZK 13:8 carries
+ * `{text: " ’"}` where the U+2019 is an aleph inside the Hebrew
+ * transliteration `hinnenî ’êlékâ` and the space is a word boundary, so a
+ * fixer would corrupt the word. A person reading the report gets both right;
+ * a rewrite rule gets both wrong.
+ */
+function hasDetachedPunctuation(shape: NodeShape): boolean {
+  const text = shape.text;
+  if (text === undefined) return false;
+
+  let at = 0;
+  while (at < text.length && /\s/.test(text[at])) at++;
+  if (at === 0 || !DETACHABLE_PUNCTUATION.test(text[at])) return false;
+
+  let end = at;
+  while (end < text.length && isTightPunctuationChar(text[end])) end++;
+
+  return end === text.length || !/[\p{L}\p{N}]/u.test(text[end]);
 }
 
 // ---------------------------------------------------------------------------
@@ -1416,6 +1646,8 @@ interface LevelFindings {
   mergeableSiblingPairs: MergeableSiblingsFinding[];
   /** The non-standard-whitespace check's findings. */
   nonStandardWhitespaceFindings: NonStandardWhitespaceFinding[];
+  /** The detached-punctuation check's findings. */
+  detachedPunctuationFindings: DetachedPunctuationFinding[];
 }
 
 /**
@@ -1434,11 +1666,21 @@ function walkLevel(
   sink.unmergedPairs.push(...scanArrayForUnmergedPairs(nodes, where));
   sink.leadingPunctuation.push(...scanArrayForLeadingPunctuation(nodes, where));
   sink.markBoundarySpaces.push(...scanArrayForMarkBoundarySpaces(nodes, where));
-  sink.footnotePunctuationOrder.push(...scanArrayForFootnotePunctuationOrder(nodes, where));
-  sink.markBoundaryEmbeddedSpaces.push(...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where));
-  sink.footnoteMarkerAfterWhitespace.push(...scanArrayForFootnoteMarkerAfterWhitespace(nodes, where));
-  sink.duplicateFootnoteAnchors.push(...scanArrayForDuplicateFootnoteAnchors(nodes, where));
-  sink.mergeableSiblingPairs.push(...scanArrayForMergeableSiblings(nodes, where));
+  sink.footnotePunctuationOrder.push(
+    ...scanArrayForFootnotePunctuationOrder(nodes, where),
+  );
+  sink.markBoundaryEmbeddedSpaces.push(
+    ...scanArrayForMarkBoundaryEmbeddedSpaces(nodes, where),
+  );
+  sink.footnoteMarkerAfterWhitespace.push(
+    ...scanArrayForFootnoteMarkerAfterWhitespace(nodes, where),
+  );
+  sink.duplicateFootnoteAnchors.push(
+    ...scanArrayForDuplicateFootnoteAnchors(nodes, where),
+  );
+  sink.mergeableSiblingPairs.push(
+    ...scanArrayForMergeableSiblings(nodes, where),
+  );
 
   for (let i = 0; i < nodes.length; i++) {
     const node = nodes[i];
@@ -1461,6 +1703,11 @@ function walkLevel(
       sink.nonStandardWhitespaceFindings.push(
         describeNonStandardWhitespaceFinding(shape.text, `${where}[${i}]`),
       );
+    if (shape.text !== undefined && hasDetachedPunctuation(shape))
+      sink.detachedPunctuationFindings.push({
+        path: `${where}[${i}]`,
+        text: shape.text,
+      });
 
     if (node === null || typeof node !== "object" || Array.isArray(node))
       continue;
@@ -1518,6 +1765,7 @@ export function findStrongsNodeIssues(
     untaggedScriptRuns: [],
     mergeableSiblingPairs: [],
     nonStandardWhitespaceFindings: [],
+    detachedPunctuationFindings: [],
   };
   walkLevel(asArray(content), where, sink);
   return sink;
@@ -1733,6 +1981,20 @@ export interface MergeableSiblingsFileFinding extends MergeableSiblingsFinding {
   verse: number;
 }
 
+/** One detached-punctuation finding, with its file/verse identity attached. */
+export interface DetachedPunctuationFileFinding extends DetachedPunctuationFinding {
+  /** The version id this finding belongs to (e.g. `KJV1769`). */
+  version: string;
+  /** The verse file this finding belongs to (e.g. `41-MRK.json`). */
+  file: string;
+  /** The book id this finding belongs to (e.g. `MRK`). */
+  book: string;
+  /** The chapter number this finding belongs to. */
+  chapter: number;
+  /** The verse number this finding belongs to. */
+  verse: number;
+}
+
 /** One non-standard-whitespace finding, with its file/verse identity attached. */
 export interface NonStandardWhitespaceFileFinding extends NonStandardWhitespaceFinding {
   /** The version id this finding belongs to (e.g. `YLT1898`). */
@@ -1815,6 +2077,8 @@ export interface VersionAudit {
   mergeableSiblingPairs: readonly MergeableSiblingsFileFinding[];
   /** The non-standard-whitespace check's findings, corpus-wide for this version — a node whose own text still carries a non-breaking space, an exotic Unicode space, a zero-width/joining control, a tab, or a bare newline. Report-only; there is no auto-fix for this one (see {@link hasNonStandardWhitespace}'s own doc comment for why). */
   nonStandardWhitespaceFindings: readonly NonStandardWhitespaceFileFinding[];
+  /** The detached-punctuation check's findings, corpus-wide for this version — a node whose own text opens with whitespace and then a closing mark, leaving that mark a space away from the word it binds to. Report-only; there is no auto-fix for this one (see {@link hasDetachedPunctuation}'s own doc comment for why). */
+  detachedPunctuationFindings: readonly DetachedPunctuationFileFinding[];
 }
 
 /**
@@ -1837,10 +2101,12 @@ export function auditVersion(version: string): VersionAudit {
   const ellipsisFindings: EllipsisFinding[] = [];
   const straightQuoteFindings: StraightQuoteFileFinding[] = [];
   const dialytikaFindings: DialytikaFinding[] = [];
-  const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] = [];
+  const footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFileFinding[] =
+    [];
   const untaggedScriptRuns: UntaggedScriptRunFinding[] = [];
   const mergeableSiblingPairs: MergeableSiblingsFileFinding[] = [];
   const nonStandardWhitespaceFindings: NonStandardWhitespaceFileFinding[] = [];
+  const detachedPunctuationFindings: DetachedPunctuationFileFinding[] = [];
 
   for (const file of verseFiles(version)) {
     const verses = JSON.parse(
@@ -1888,6 +2154,8 @@ export function auditVersion(version: string): VersionAudit {
         mergeableSiblingPairs.push({ ...identity, ...finding });
       for (const finding of findings.nonStandardWhitespaceFindings)
         nonStandardWhitespaceFindings.push({ ...identity, ...finding });
+      for (const finding of findings.detachedPunctuationFindings)
+        detachedPunctuationFindings.push({ ...identity, ...finding });
     }
 
     for (const finding of findHeadingParagraphMismatches(verses))
@@ -1913,6 +2181,7 @@ export function auditVersion(version: string): VersionAudit {
     untaggedScriptRuns,
     mergeableSiblingPairs,
     nonStandardWhitespaceFindings,
+    detachedPunctuationFindings,
   };
 }
 
@@ -1950,7 +2219,8 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
       summary.footnoteMarkerAfterWhitespace.length > 0 ||
       summary.untaggedScriptRuns.length > 0 ||
       summary.mergeableSiblingPairs.length > 0 ||
-      summary.nonStandardWhitespaceFindings.length > 0,
+      summary.nonStandardWhitespaceFindings.length > 0 ||
+      summary.detachedPunctuationFindings.length > 0,
   )
     ? 1
     : 0;
@@ -1963,7 +2233,10 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
  * Exported so `validate.ts` can render the same per-check breakdown inline in
  * its own report instead of maintaining a second copy of this formatting.
  */
-export function printFindingLines(summary: VersionAudit, verbose: boolean): void {
+export function printFindingLines(
+  summary: VersionAudit,
+  verbose: boolean,
+): void {
   const cap = verbose ? Infinity : 10;
 
   console.log(
@@ -2186,6 +2459,19 @@ export function printFindingLines(summary: VersionAudit, verbose: boolean): void
     console.log(
       `    … ${summary.nonStandardWhitespaceFindings.length - cap} more (--verbose to list all)`,
     );
+
+  console.log(
+    `  ${summary.detachedPunctuationFindings.length} node(s) whose own text opens with whitespace and then a closing punctuation mark`,
+  );
+  for (const finding of summary.detachedPunctuationFindings.slice(0, cap)) {
+    console.log(
+      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} text=${JSON.stringify(finding.text)}`,
+    );
+  }
+  if (!verbose && summary.detachedPunctuationFindings.length > cap)
+    console.log(
+      `    … ${summary.detachedPunctuationFindings.length - cap} more (--verbose to list all)`,
+    );
 }
 
 /**
@@ -2214,7 +2500,7 @@ export function isClean(summary: VersionAudit): boolean {
     summary.footnoteMarkerAfterWhitespace.length === 0 &&
     summary.untaggedScriptRuns.length === 0 &&
     summary.mergeableSiblingPairs.length === 0 &&
-    summary.nonStandardWhitespaceFindings.length === 0
+    summary.nonStandardWhitespaceFindings.length === 0 &&
+    summary.detachedPunctuationFindings.length === 0
   );
 }
-

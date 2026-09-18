@@ -46,8 +46,15 @@ import Content from "../../types/Content";
 import Footnote from "../../types/Footnote";
 import { classifyFootnote, WITNESS_SIGLA_NAMES } from "./footnoteTypeRules";
 import { normalizeFractionText } from "../../functions/normalizeFractions";
-import { buildRunNodes, collapseContentNodes, InlineTextPiece } from "./inlineMarks";
-import { buildReferenceOnlyContent, linkEmbeddedReferences } from "./references";
+import {
+  buildRunNodes,
+  collapseContentNodes,
+  InlineTextPiece,
+} from "./inlineMarks";
+import {
+  buildReferenceOnlyContent,
+  linkEmbeddedReferences,
+} from "./references";
 import { splitNonLatinScriptRuns } from "./splitScriptRuns";
 import { Token } from "./tokenize";
 
@@ -68,7 +75,10 @@ const LOWERCASE_OR_EXCEPTION = /^or,/i;
  * (Acts 4:27's "nu adds...") comes out matching the corpus's real "NU
  * adds...", not the "Nu adds..." a bare first-letter rule would produce.
  */
-const LEADING_WITNESS_SIGLON = new RegExp(`^(?:${WITNESS_SIGLA_NAMES})\\b`, "i");
+const LEADING_WITNESS_SIGLON = new RegExp(
+  `^(?:${WITNESS_SIGLA_NAMES})\\b`,
+  "i",
+);
 
 /**
  * Capitalizes a footnote body's own leading character, matching the
@@ -86,7 +96,8 @@ export function capitalizeFootnoteOpening(text: string): string {
   if (LOWERCASE_OR_EXCEPTION.test(text)) return text;
 
   const siglon = LEADING_WITNESS_SIGLON.exec(text);
-  if (siglon !== null) return siglon[0].toUpperCase() + text.slice(siglon[0].length);
+  if (siglon !== null)
+    return siglon[0].toUpperCase() + text.slice(siglon[0].length);
 
   return leadingChar.toUpperCase() + text.slice(1);
 }
@@ -132,7 +143,11 @@ function piecesForPlainText(text: string, italic: boolean): InlineTextPiece[] {
   return split.map((segment) =>
     typeof segment === "string"
       ? { text: segment, ...(italic ? { marks: ["i"] } : {}) }
-      : { text: segment.text, script: segment.script, ...(italic ? { marks: ["i"] } : {}) },
+      : {
+          text: segment.text,
+          script: segment.script,
+          ...(italic ? { marks: ["i"] } : {}),
+        },
   );
 }
 
@@ -185,7 +200,10 @@ export function buildFootnoteContent(
       break;
     }
 
-    if (token.type === "marker" && (token.name === "fr" || KEPT_SUB_MARKERS.has(token.name))) {
+    if (
+      token.type === "marker" &&
+      (token.name === "fr" || KEPT_SUB_MARKERS.has(token.name))
+    ) {
       currentSubMarker = token.name;
       index++;
       continue;
@@ -214,7 +232,8 @@ export function buildFootnoteContent(
     }
 
     if (token.type === "text") {
-      const keeping = currentSubMarker !== undefined && currentSubMarker !== "fr";
+      const keeping =
+        currentSubMarker !== undefined && currentSubMarker !== "fr";
       if (keeping) {
         // Normalized once, right here, where this raw token's text first
         // becomes part of the footnote's own text representation — the
@@ -227,9 +246,14 @@ export function buildFootnoteContent(
         // sub-marker is active — a real `\bk` citation always sits inside
         // plain `\ft` prose in this corpus, never inside `\fq`/`\fqa`, but
         // nothing here assumes that stays true.
-        const italic = QUOTED_SUB_MARKERS.has(currentSubMarker as string) || insideBk;
+        const italic =
+          QUOTED_SUB_MARKERS.has(currentSubMarker as string) || insideBk;
         if (insideWh) {
-          pieces.push({ text, script: "H", ...(italic ? { marks: ["i"] } : {}) });
+          pieces.push({
+            text,
+            script: "H",
+            ...(italic ? { marks: ["i"] } : {}),
+          });
         } else {
           pieces.push(...piecesForPlainText(text, italic));
         }
@@ -253,7 +277,10 @@ export function buildFootnoteContent(
   // raw, un-recapitalized body.
   const firstPiece = pieces[0];
   if (firstPiece !== undefined && firstPiece.text !== undefined) {
-    pieces[0] = { ...firstPiece, text: capitalizeFootnoteOpening(firstPiece.text) };
+    pieces[0] = {
+      ...firstPiece,
+      text: capitalizeFootnoteOpening(firstPiece.text),
+    };
   }
 
   const type = classifyFootnote(classificationText);
@@ -269,7 +296,11 @@ export function buildFootnoteContent(
       ? buildReferenceOnlyContent(classificationText, canonBookIds)
       : linkEmbeddedReferences(collapseContentNodes(buildRunNodes(pieces)));
 
-  return { footnote: { type, content }, plainText: classificationText, nextIndex: index };
+  return {
+    footnote: { type, content },
+    plainText: classificationText,
+    nextIndex: index,
+  };
 }
 
 /** The result of walking one `\ip` block's own text. */

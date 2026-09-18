@@ -2,7 +2,6 @@
 
 ### BOOK ONE (Psalms 1–41)
 
-
 ### The Two Paths<sup>a</sup>
 
 <sup>1</sup> Blessed is the man<br>who does not walk in the counsel of the wicked,<br>or set foot on the path of sinners,<br>or sit in the seat of mockers.<br>
@@ -1251,11 +1250,11 @@ Amen and Amen.
 
 ### BOOK TWO (Psalms 42–72)
 
-
 ### As the Deer Pants for the Water
-<sup>1</sup> > _For the choirmaster. A Maskil of the sons of Korah.<sup>a</sup>_
 
-As the deer pants for streams of water,<br>so my soul longs after You, O God.<br>
+> _For the choirmaster. A Maskil of the sons of Korah.<sup>a</sup>_
+
+<sup>1</sup> As the deer pants for streams of water,<br>so my soul longs after You, O God.<br>
 <sup>2</sup> My soul thirsts for God, the living God.<br>When shall I come and appear in God’s presence?<sup>b</sup><br>
 <sup>3</sup> My tears have been my food<br>both day and night,<br>while men ask me all day long,<br>“Where is your God?”<br>
 <sup>4</sup> These things come to mind as I pour out my soul:<br>how I walked with the multitude,<br>leading the festive procession to the house of God<br>with shouts of joy and praise.
@@ -2159,11 +2158,11 @@ Amen and amen.
 
 ### BOOK THREE (Psalms 73–89)
 
-
 ### Surely God Is Good to Israel
-<sup>1</sup> > _A Psalm of Asaph._
 
-Surely God is good to Israel,<br>to those who are pure in heart.<br>
+> _A Psalm of Asaph._
+
+<sup>1</sup> Surely God is good to Israel,<br>to those who are pure in heart.<br>
 <sup>2</sup> But as for me, my feet had almost stumbled;<br>my steps had nearly slipped.<br>
 <sup>3</sup> For I envied the arrogant<br>when I saw the prosperity of the wicked.
 
@@ -2780,11 +2779,11 @@ Amen and amen.
 
 ### BOOK FOUR (Psalms 90–106)
 
-
 ### From Everlasting to Everlasting
-<sup>1</sup> > _A prayer of Moses the man of God._
 
-Lord, You have been our dwelling place<br>through all generations.<br>
+> _A prayer of Moses the man of God._
+
+<sup>1</sup> Lord, You have been our dwelling place<br>through all generations.<br>
 <sup>2</sup> Before the mountains were born<br>or You brought forth the earth and the world,<br>from everlasting to everlasting<br>You are God.
 
 <sup>3</sup> You return man to dust,<br>saying, “Return, O sons of mortals.”<br>
@@ -3348,7 +3347,6 @@ Hallelujah!
 
 ### BOOK FIVE (Psalms 107–150)
 
-
 ### Thanksgiving for Deliverance<sup>a</sup>
 
 <sup>1</sup> Give thanks to the LORD, for He is good;<br>His loving devotion endures forever.<br>
@@ -3713,14 +3711,13 @@ Hallelujah!<sup>b</sup>
 > - <sup>c</sup> 6. Cited in Hebrews 13:6
 > - <sup>d</sup> 22. Hebrew _the head of the corner_; cited in Matthew 21:42, Mark 12:10, Luke 20:17, Acts 4:11, and 1 Peter 2:7
 > - <sup>e</sup> 23. Cited in Matthew 21:42 and Mark 12:11
-> - <sup>f</sup> 25. Hebrew _hosia-na_, meaning _save, we pray_ or _save now_; see Matthew 21:9, Matthew 21:15, Mark 11:9, and John 12:13.
+> - <sup>f</sup> 25. Hebrew _hosia-na_, meaning _save, we pray_ or _save now_; see Matthew 21:9, 15, Mark 11:9, and John 12:13.
 > - <sup>g</sup> 26. Cited in Matthew 21:9, Matthew 23:39, Mark 11:9, Luke 13:35, Luke 19:38, and John 12:13
 > - <sup>h</sup> 27. Or _Join in the festal procession with boughs in hand, up to the horns of the altar._
 
 ## Chapter 119
 
 ### Your Word Is a Lamp to My Feet
-
 
 #### א ALEPH
 

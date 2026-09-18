@@ -24,6 +24,7 @@ function App() {
     showStrongs: true,
     showMorph: true,
     showLemma: false,
+    showTransliteration: false,
     showFootnotes: true,
     showHeadings: true,
     showSubtitles: true,
@@ -312,7 +313,11 @@ function App() {
 
           <FootnoteModal
             content={activeAbbr?.description}
-            heading={getFootnoteText(activeAbbr?.name, abbreviations)}
+            heading={getFootnoteText(
+              activeAbbr?.name,
+              abbreviations,
+              settings.showTransliteration,
+            )}
             onClose={() => setActiveAbbr(null)}
             settings={settings}
             onBibleLinkClick={handleBibleLink}

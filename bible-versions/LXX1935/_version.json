@@ -1,0 +1,782 @@
+{
+  "_id": "LXX1935",
+  "name": "Septuagint",
+  "copyright": "Scripture quotations and versification from Septuaginta, edited by Alfred Rahlfs (Stuttgart: Württembergische Bibelanstalt, 1935). It is in the public domain.",
+  "license": "CC0-1.0",
+  "script": "G",
+  "morphology": "robinson",
+  "books": [
+    {
+      "_id": "GEN",
+      "name": {
+        "text": "Γένεσις",
+        "script": "G",
+        "transliteration": "Génesis"
+      },
+      "title": {
+        "text": "ΓΕΝΕΣΙΣ",
+        "script": "G",
+        "transliteration": "GENESIS"
+      },
+      "order": 1,
+      "chapters": 50
+    },
+    {
+      "_id": "EXO",
+      "name": { "text": "Ἔξοδος", "script": "G", "transliteration": "Éxodos" },
+      "title": { "text": "ΕΞΟΔΟΣ", "script": "G", "transliteration": "EXODOS" },
+      "order": 2,
+      "chapters": 40
+    },
+    {
+      "_id": "LEV",
+      "name": {
+        "text": "Λευιτικόν",
+        "script": "G",
+        "transliteration": "Leuitikón"
+      },
+      "title": {
+        "text": "ΛΕΥΙΤΙΚΟΝ",
+        "script": "G",
+        "transliteration": "LEUITIKON"
+      },
+      "order": 3,
+      "chapters": 27
+    },
+    {
+      "_id": "NUM",
+      "name": {
+        "text": "Ἀριθμοί",
+        "script": "G",
+        "transliteration": "Arithmoí"
+      },
+      "title": {
+        "text": "ΑΡΙΘΜΟΙ",
+        "script": "G",
+        "transliteration": "ARITHMOI"
+      },
+      "order": 4,
+      "chapters": 36
+    },
+    {
+      "_id": "DEU",
+      "name": {
+        "text": "Δευτερονόμιον",
+        "script": "G",
+        "transliteration": "Deuteronómion"
+      },
+      "title": {
+        "text": "ΔΕΥΤΕΡΟΝΟΜΙΟΝ",
+        "script": "G",
+        "transliteration": "DEUTERONOMION"
+      },
+      "order": 5,
+      "chapters": 34
+    },
+    {
+      "_id": "JSH",
+      "name": {
+        "text": "Ἰησοῦς (Β)",
+        "script": "G",
+        "transliteration": "Iēsoûs (B)"
+      },
+      "title": {
+        "text": "ΙΗΣΟΥΣ (Β)",
+        "script": "G",
+        "transliteration": "IĒSOUS (B)"
+      },
+      "order": 6,
+      "chapters": 24
+    },
+    {
+      "_id": "JSA",
+      "name": {
+        "text": "Ἰησοῦς (Α)",
+        "script": "G",
+        "transliteration": "Iēsoûs (A)"
+      },
+      "title": {
+        "text": "ΙΗΣΟΥΣ (Α)",
+        "script": "G",
+        "transliteration": "IĒSOUS (A)"
+      },
+      "order": 7,
+      "chapters": 19
+    },
+    {
+      "_id": "JDG",
+      "name": {
+        "text": "Κριταί (Α)",
+        "script": "G",
+        "transliteration": "Kritaí (A)"
+      },
+      "title": {
+        "text": "ΚΡΙΤΑΙ (Α)",
+        "script": "G",
+        "transliteration": "KRITAI (A)"
+      },
+      "order": 8,
+      "chapters": 21
+    },
+    {
+      "_id": "JDB",
+      "name": {
+        "text": "Κριταί (Β)",
+        "script": "G",
+        "transliteration": "Kritaí (B)"
+      },
+      "title": {
+        "text": "ΚΡΙΤΑΙ (Β)",
+        "script": "G",
+        "transliteration": "KRITAI (B)"
+      },
+      "order": 9,
+      "chapters": 21
+    },
+    {
+      "_id": "RTH",
+      "name": { "text": "Ῥούθ", "script": "G", "transliteration": "Rhoúth" },
+      "title": { "text": "ΡΟΥΘ", "script": "G", "transliteration": "ROUTH" },
+      "order": 10,
+      "chapters": 4
+    },
+    {
+      "_id": "1SM",
+      "name": {
+        "text": "Βασιλειῶν Α΄",
+        "script": "G",
+        "transliteration": "Basileiō̂n A΄"
+      },
+      "title": {
+        "text": "ΒΑΣΙΛΕΙΩΝ Α΄",
+        "script": "G",
+        "transliteration": "BASILEIŌN A΄"
+      },
+      "order": 11,
+      "chapters": 31
+    },
+    {
+      "_id": "2SM",
+      "name": {
+        "text": "Βασιλειῶν Β΄",
+        "script": "G",
+        "transliteration": "Basileiō̂n B΄"
+      },
+      "title": {
+        "text": "ΒΑΣΙΛΕΙΩΝ Β΄",
+        "script": "G",
+        "transliteration": "BASILEIŌN B΄"
+      },
+      "order": 12,
+      "chapters": 24
+    },
+    {
+      "_id": "1KG",
+      "name": {
+        "text": "Βασιλειῶν Γ΄",
+        "script": "G",
+        "transliteration": "Basileiō̂n G΄"
+      },
+      "title": {
+        "text": "ΒΑΣΙΛΕΙΩΝ Γ΄",
+        "script": "G",
+        "transliteration": "BASILEIŌN G΄"
+      },
+      "order": 13,
+      "chapters": 22
+    },
+    {
+      "_id": "2KG",
+      "name": {
+        "text": "Βασιλειῶν Δ΄",
+        "script": "G",
+        "transliteration": "Basileiō̂n D΄"
+      },
+      "title": {
+        "text": "ΒΑΣΙΛΕΙΩΝ Δ΄",
+        "script": "G",
+        "transliteration": "BASILEIŌN D΄"
+      },
+      "order": 14,
+      "chapters": 25
+    },
+    {
+      "_id": "1CH",
+      "name": {
+        "text": "Παραλειπομένων Α΄",
+        "script": "G",
+        "transliteration": "Paraleipoménōn A΄"
+      },
+      "title": {
+        "text": "ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Α΄",
+        "script": "G",
+        "transliteration": "PARALEIPOMENŌN A΄"
+      },
+      "order": 15,
+      "chapters": 29
+    },
+    {
+      "_id": "2CH",
+      "name": {
+        "text": "Παραλειπομένων Β΄",
+        "script": "G",
+        "transliteration": "Paraleipoménōn B΄"
+      },
+      "title": {
+        "text": "ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Β΄",
+        "script": "G",
+        "transliteration": "PARALEIPOMENŌN B΄"
+      },
+      "order": 16,
+      "chapters": 36
+    },
+    {
+      "_id": "1ES",
+      "name": {
+        "text": "Ἔσδρας Α΄",
+        "script": "G",
+        "transliteration": "Ésdras A΄"
+      },
+      "title": {
+        "text": "ΕΣΔΡΑΣ Α΄",
+        "script": "G",
+        "transliteration": "ESDRAS A΄"
+      },
+      "order": 17,
+      "chapters": 9
+    },
+    {
+      "_id": "2ES",
+      "name": {
+        "text": "Ἔσδρας Β΄",
+        "script": "G",
+        "transliteration": "Ésdras B΄"
+      },
+      "title": {
+        "text": "ΕΣΔΡΑΣ Β΄",
+        "script": "G",
+        "transliteration": "ESDRAS B΄"
+      },
+      "order": 18,
+      "chapters": 23
+    },
+    {
+      "_id": "ESG",
+      "name": { "text": "Ἐσθήρ", "script": "G", "transliteration": "Esthḗr" },
+      "title": { "text": "ΕΣΘΗΡ", "script": "G", "transliteration": "ESTHĒR" },
+      "order": 19,
+      "chapters": 10
+    },
+    {
+      "_id": "JDT",
+      "name": { "text": "Ἰουδίθ", "script": "G", "transliteration": "Ioudíth" },
+      "title": {
+        "text": "ΙΟΥΔΙΘ",
+        "script": "G",
+        "transliteration": "IOUDITH"
+      },
+      "order": 20,
+      "chapters": 16
+    },
+    {
+      "_id": "TOB",
+      "name": { "text": "Τωβίτ", "script": "G", "transliteration": "Tōbít" },
+      "title": { "text": "ΤΩΒΙΤ", "script": "G", "transliteration": "TŌBIT" },
+      "order": 21,
+      "chapters": 14
+    },
+    {
+      "_id": "TBS",
+      "name": {
+        "text": "Τωβίτ (Σ)",
+        "script": "G",
+        "transliteration": "Tōbít (S)"
+      },
+      "title": {
+        "text": "ΤΩΒΙΤ (Σ)",
+        "script": "G",
+        "transliteration": "TŌBIT (S)"
+      },
+      "order": 22,
+      "chapters": 14
+    },
+    {
+      "_id": "1MC",
+      "name": {
+        "text": "Μακκαβαίων Α΄",
+        "script": "G",
+        "transliteration": "Makkabaíōn A΄"
+      },
+      "title": {
+        "text": "ΜΑΚΚΑΒΑΙΩΝ Α΄",
+        "script": "G",
+        "transliteration": "MAKKABAIŌN A΄"
+      },
+      "order": 23,
+      "chapters": 16
+    },
+    {
+      "_id": "2MC",
+      "name": {
+        "text": "Μακκαβαίων Β΄",
+        "script": "G",
+        "transliteration": "Makkabaíōn B΄"
+      },
+      "title": {
+        "text": "ΜΑΚΚΑΒΑΙΩΝ Β΄",
+        "script": "G",
+        "transliteration": "MAKKABAIŌN B΄"
+      },
+      "order": 24,
+      "chapters": 15
+    },
+    {
+      "_id": "3MC",
+      "name": {
+        "text": "Μακκαβαίων Γ΄",
+        "script": "G",
+        "transliteration": "Makkabaíōn G΄"
+      },
+      "title": {
+        "text": "ΜΑΚΚΑΒΑΙΩΝ Γ΄",
+        "script": "G",
+        "transliteration": "MAKKABAIŌN G΄"
+      },
+      "order": 25,
+      "chapters": 7
+    },
+    {
+      "_id": "4MC",
+      "name": {
+        "text": "Μακκαβαίων Δ΄",
+        "script": "G",
+        "transliteration": "Makkabaíōn D΄"
+      },
+      "title": {
+        "text": "ΜΑΚΚΑΒΑΙΩΝ Δ΄",
+        "script": "G",
+        "transliteration": "MAKKABAIŌN D΄"
+      },
+      "order": 26,
+      "chapters": 18
+    },
+    {
+      "_id": "PSA",
+      "name": { "text": "Ψαλμοί", "script": "G", "transliteration": "Psalmoí" },
+      "title": {
+        "text": "ΨΑΛΜΟΙ",
+        "script": "G",
+        "transliteration": "PSALMOI"
+      },
+      "order": 27,
+      "chapters": 151
+    },
+    {
+      "_id": "ODS",
+      "name": { "text": "Ὠδαί", "script": "G", "transliteration": "Ōdaí" },
+      "title": { "text": "ΩΔΑΙ", "script": "G", "transliteration": "ŌDAI" },
+      "order": 28,
+      "chapters": 14
+    },
+    {
+      "_id": "PRV",
+      "name": {
+        "text": "Παροιμίαι",
+        "script": "G",
+        "transliteration": "Paroimíai"
+      },
+      "title": {
+        "text": "ΠΑΡΟΙΜΙΑΙ",
+        "script": "G",
+        "transliteration": "PAROIMIAI"
+      },
+      "order": 29,
+      "chapters": 31
+    },
+    {
+      "_id": "ECC",
+      "name": {
+        "text": "Ἐκκλησιαστής",
+        "script": "G",
+        "transliteration": "Ekklēsiastḗs"
+      },
+      "title": {
+        "text": "ΕΚΚΛΗΣΙΑΣΤΗΣ",
+        "script": "G",
+        "transliteration": "EKKLĒSIASTĒS"
+      },
+      "order": 30,
+      "chapters": 12
+    },
+    {
+      "_id": "SOS",
+      "name": {
+        "text": "Ἆσμα Ἀσμάτων",
+        "script": "G",
+        "transliteration": "Âsma Asmátōn"
+      },
+      "title": {
+        "text": "ΑΣΜΑ ΑΣΜΑΤΩΝ",
+        "script": "G",
+        "transliteration": "ASMA ASMATŌN"
+      },
+      "order": 31,
+      "chapters": 8
+    },
+    {
+      "_id": "JOB",
+      "name": { "text": "Ἰώβ", "script": "G", "transliteration": "Iṓb" },
+      "title": { "text": "ΙΩΒ", "script": "G", "transliteration": "IŌB" },
+      "order": 32,
+      "chapters": 42
+    },
+    {
+      "_id": "WIS",
+      "name": {
+        "text": "Σοφία Σαλωμῶνος",
+        "script": "G",
+        "transliteration": "Sophía Salōmō̂nos"
+      },
+      "title": {
+        "text": "ΣΟΦΙΑ ΣΑΛΩΜΩΝΟΣ",
+        "script": "G",
+        "transliteration": "SOPHIA SALŌMŌNOS"
+      },
+      "order": 33,
+      "chapters": 19
+    },
+    {
+      "_id": "SRP",
+      "name": {
+        "text": "Πρόλογος Σοφίας Σιράχ",
+        "script": "G",
+        "transliteration": "Prólogos Sophías Sirách"
+      },
+      "title": {
+        "text": "ΠΡΟΛΟΓΟΣ ΣΟΦΙΑΣ ΣΙΡΑΧ",
+        "script": "G",
+        "transliteration": "PROLOGOS SOPHIAS SIRACH"
+      },
+      "order": 34,
+      "chapters": 1
+    },
+    {
+      "_id": "SIR",
+      "name": {
+        "text": "Σοφία Σιράχ",
+        "script": "G",
+        "transliteration": "Sophía Sirách"
+      },
+      "title": {
+        "text": "ΣΟΦΙΑ ΣΙΡΑΧ",
+        "script": "G",
+        "transliteration": "SOPHIA SIRACH"
+      },
+      "order": 35,
+      "chapters": 51
+    },
+    {
+      "_id": "PSS",
+      "name": {
+        "text": "Ψαλμοὶ Σαλωμῶντος",
+        "script": "G",
+        "transliteration": "Psalmoì Salōmō̂ntos"
+      },
+      "title": {
+        "text": "ΨΑΛΜΟΙ ΣΑΛΩΜΩΝΤΟΣ",
+        "script": "G",
+        "transliteration": "PSALMOI SALŌMŌNTOS"
+      },
+      "order": 36,
+      "chapters": 18
+    },
+    {
+      "_id": "HOS",
+      "name": { "text": "Ὡσηέ", "script": "G", "transliteration": "Hōsēé" },
+      "title": { "text": "ΩΣΗΕ", "script": "G", "transliteration": "ŌSĒE" },
+      "order": 37,
+      "chapters": 14
+    },
+    {
+      "_id": "AMS",
+      "name": { "text": "Ἀμώς", "script": "G", "transliteration": "Amṓs" },
+      "title": { "text": "ΑΜΩΣ", "script": "G", "transliteration": "AMŌS" },
+      "order": 38,
+      "chapters": 9
+    },
+    {
+      "_id": "MIC",
+      "name": {
+        "text": "Μιχαίας",
+        "script": "G",
+        "transliteration": "Michaías"
+      },
+      "title": {
+        "text": "ΜΙΧΑΙΑΣ",
+        "script": "G",
+        "transliteration": "MICHAIAS"
+      },
+      "order": 39,
+      "chapters": 7
+    },
+    {
+      "_id": "JOL",
+      "name": { "text": "Ἰωήλ", "script": "G", "transliteration": "Iōḗl" },
+      "title": { "text": "ΙΩΗΛ", "script": "G", "transliteration": "IŌĒL" },
+      "order": 40,
+      "chapters": 4
+    },
+    {
+      "_id": "OBD",
+      "name": { "text": "Ὀβδιού", "script": "G", "transliteration": "Obdioú" },
+      "title": { "text": "ΟΒΔΙΟΥ", "script": "G", "transliteration": "OBDIOU" },
+      "order": 41,
+      "chapters": 1
+    },
+    {
+      "_id": "JNA",
+      "name": { "text": "Ἰωνᾶς", "script": "G", "transliteration": "Iōnâs" },
+      "title": { "text": "ΙΩΝΑΣ", "script": "G", "transliteration": "IŌNAS" },
+      "order": 42,
+      "chapters": 4
+    },
+    {
+      "_id": "NAH",
+      "name": { "text": "Ναούμ", "script": "G", "transliteration": "Naoúm" },
+      "title": { "text": "ΝΑΟΥΜ", "script": "G", "transliteration": "NAOUM" },
+      "order": 43,
+      "chapters": 3
+    },
+    {
+      "_id": "HAB",
+      "name": {
+        "text": "Ἀμβακούμ",
+        "script": "G",
+        "transliteration": "Ambakoúm"
+      },
+      "title": {
+        "text": "ΑΜΒΑΚΟΥΜ",
+        "script": "G",
+        "transliteration": "AMBAKOUM"
+      },
+      "order": 44,
+      "chapters": 3
+    },
+    {
+      "_id": "ZPH",
+      "name": {
+        "text": "Σοφονίας",
+        "script": "G",
+        "transliteration": "Sophonías"
+      },
+      "title": {
+        "text": "ΣΟΦΟΝΙΑΣ",
+        "script": "G",
+        "transliteration": "SOPHONIAS"
+      },
+      "order": 45,
+      "chapters": 3
+    },
+    {
+      "_id": "HAG",
+      "name": {
+        "text": "Ἁγγαῖος",
+        "script": "G",
+        "transliteration": "Hangaîos"
+      },
+      "title": {
+        "text": "ΑΓΓΑΙΟΣ",
+        "script": "G",
+        "transliteration": "ANGAIOS"
+      },
+      "order": 46,
+      "chapters": 2
+    },
+    {
+      "_id": "ZEC",
+      "name": {
+        "text": "Ζαχαρίας",
+        "script": "G",
+        "transliteration": "Zacharías"
+      },
+      "title": {
+        "text": "ΖΑΧΑΡΙΑΣ",
+        "script": "G",
+        "transliteration": "ZACHARIAS"
+      },
+      "order": 47,
+      "chapters": 14
+    },
+    {
+      "_id": "MAL",
+      "name": {
+        "text": "Μαλαχίας",
+        "script": "G",
+        "transliteration": "Malachías"
+      },
+      "title": {
+        "text": "ΜΑΛΑΧΙΑΣ",
+        "script": "G",
+        "transliteration": "MALACHIAS"
+      },
+      "order": 48,
+      "chapters": 3
+    },
+    {
+      "_id": "ISA",
+      "name": { "text": "Ἠσαΐας", "script": "G", "transliteration": "Ēsaḯas" },
+      "title": { "text": "ΗΣΑΙΑΣ", "script": "G", "transliteration": "ĒSAIAS" },
+      "order": 49,
+      "chapters": 66
+    },
+    {
+      "_id": "JER",
+      "name": {
+        "text": "Ἰερεμίας",
+        "script": "G",
+        "transliteration": "Ieremías"
+      },
+      "title": {
+        "text": "ΙΕΡΕΜΙΑΣ",
+        "script": "G",
+        "transliteration": "IEREMIAS"
+      },
+      "order": 50,
+      "chapters": 52
+    },
+    {
+      "_id": "BAR",
+      "name": { "text": "Βαρούχ", "script": "G", "transliteration": "Baroúch" },
+      "title": {
+        "text": "ΒΑΡΟΥΧ",
+        "script": "G",
+        "transliteration": "BAROUCH"
+      },
+      "order": 51,
+      "chapters": 5
+    },
+    {
+      "_id": "LAM",
+      "name": { "text": "Θρῆνοι", "script": "G", "transliteration": "Thrē̂noi" },
+      "title": {
+        "text": "ΘΡΗΝΟΙ",
+        "script": "G",
+        "transliteration": "THRĒNOI"
+      },
+      "order": 52,
+      "chapters": 5
+    },
+    {
+      "_id": "EPJ",
+      "name": {
+        "text": "Ἐπιστολὴ Ἰερεμίου",
+        "script": "G",
+        "transliteration": "Epistolḕ Ieremíou"
+      },
+      "title": {
+        "text": "ΕΠΙΣΤΟΛΗ ΙΕΡΕΜΙΟΥ",
+        "script": "G",
+        "transliteration": "EPISTOLĒ IEREMIOU"
+      },
+      "order": 53,
+      "chapters": 1
+    },
+    {
+      "_id": "EZK",
+      "name": {
+        "text": "Ἰεζεκιήλ",
+        "script": "G",
+        "transliteration": "Iezekiḗl"
+      },
+      "title": {
+        "text": "ΙΕΖΕΚΙΗΛ",
+        "script": "G",
+        "transliteration": "IEZEKIĒL"
+      },
+      "order": 54,
+      "chapters": 48
+    },
+    {
+      "_id": "SUS",
+      "name": {
+        "text": "Σουσάννα",
+        "script": "G",
+        "transliteration": "Sousánna"
+      },
+      "title": {
+        "text": "ΣΟΥΣΑΝΝΑ",
+        "script": "G",
+        "transliteration": "SOUSANNA"
+      },
+      "order": 55,
+      "chapters": 1
+    },
+    {
+      "_id": "SST",
+      "name": {
+        "text": "Σουσάννα (Θ)",
+        "script": "G",
+        "transliteration": "Sousánna (Th)"
+      },
+      "title": {
+        "text": "ΣΟΥΣΑΝΝΑ (Θ)",
+        "script": "G",
+        "transliteration": "SOUSANNA (Th)"
+      },
+      "order": 56,
+      "chapters": 1
+    },
+    {
+      "_id": "DOG",
+      "name": { "text": "Δανιήλ", "script": "G", "transliteration": "Daniḗl" },
+      "title": { "text": "ΔΑΝΙΗΛ", "script": "G", "transliteration": "DANIĒL" },
+      "order": 57,
+      "chapters": 12
+    },
+    {
+      "_id": "DNT",
+      "name": {
+        "text": "Δανιήλ (Θ)",
+        "script": "G",
+        "transliteration": "Daniḗl (Th)"
+      },
+      "title": {
+        "text": "ΔΑΝΙΗΛ (Θ)",
+        "script": "G",
+        "transliteration": "DANIĒL (Th)"
+      },
+      "order": 58,
+      "chapters": 12
+    },
+    {
+      "_id": "BEL",
+      "name": {
+        "text": "Βὴλ καὶ Δράκων",
+        "script": "G",
+        "transliteration": "Bḕl kaì Drákōn"
+      },
+      "title": {
+        "text": "ΒΗΛ ΚΑΙ ΔΡΑΚΩΝ",
+        "script": "G",
+        "transliteration": "BĒL KAI DRAKŌN"
+      },
+      "order": 59,
+      "chapters": 1
+    },
+    {
+      "_id": "BLT",
+      "name": {
+        "text": "Βὴλ καὶ Δράκων (Θ)",
+        "script": "G",
+        "transliteration": "Bḕl kaì Drákōn (Th)"
+      },
+      "title": {
+        "text": "ΒΗΛ ΚΑΙ ΔΡΑΚΩΝ (Θ)",
+        "script": "G",
+        "transliteration": "BĒL KAI DRAKŌN (Th)"
+      },
+      "order": 60,
+      "chapters": 1
+    }
+  ]
+}

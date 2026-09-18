@@ -36,11 +36,11 @@ A small Node HTTP server in [web/server.ts](../../../web/server.ts) does two thi
 
 ## The API
 
-| Endpoint                              | Returns                                                   |
-| ------------------------------------- | --------------------------------------------------------- |
-| `GET /api/versions`                   | All available translations with their book registries     |
-| `GET /api/books`                      | The canonical book registry from `bible-books.json`       |
-| `GET /api/content/{version}/{bookId}` | Verse array for one book in one version                   |
+| Endpoint                              | Returns                                               |
+| ------------------------------------- | ----------------------------------------------------- |
+| `GET /api/versions`                   | All available translations with their book registries |
+| `GET /api/books`                      | The canonical book registry from `bible-books.json`   |
+| `GET /api/content/{version}/{bookId}` | Verse array for one book in one version               |
 
 The endpoints map directly to filesystem paths. There's no caching, no auth, and no database. The server is a thin file reader with a routing layer. Restarting it picks up data edits immediately.
 
@@ -64,21 +64,22 @@ The interesting work happens in **[ContentNode.js](../../../web/public/js/Conten
 
 ## Settings and toggles
 
-The reader carries a settings panel with toggles for the various annotations:
+The reader carries a settings panel with toggles for the various annotations. The table follows the panel's own three sections and the order within each, so a row is where the reader will look for it.
 
-| Toggle           | Effect                                                                     |
-| ---------------- | -------------------------------------------------------------------------- |
-| Paragraph mode   | Lay out text by paragraph (vs. verse-by-verse, one per line)               |
-| Verse numbers    | Show/hide verse number superscripts                                        |
-| Strong's         | Show concordance numbers as outbound links to the EGP lexicon              |
-| Morphology       | Show parsing codes inline                                                  |
-| Lemma            | Show the lexical lemma in the original script                              |
-| Footnotes        | Show clickable footnote markers (opens a modal)                            |
-| Headings         | Show editorial section headings                                            |
-| Subtitles        | Show psalm superscriptions and similar text-internal titles                |
-| Words of Christ  | Tint Jesus' words: choice of off, red, blue, or purple                     |
-| Dark mode        | Light/dark theme (defaults to system preference)                           |
-| Font size        | Scales the reading column proportionally                                   |
+| Section     | Toggle          | Effect                                                         |
+| ----------- | --------------- | -------------------------------------------------------------- |
+| Appearance  | Dark mode       | Light/dark theme (defaults to system preference)               |
+| Appearance  | Font size       | Scales the reading column proportionally                       |
+| Layout      | Subtitles       | Show psalm superscriptions and similar text-internal titles    |
+| Layout      | Headings        | Show editorial section headings                                |
+| Layout      | Paragraph mode  | Lay out text by paragraph (vs. verse-by-verse, one per line)   |
+| Layout      | Verse numbers   | Show/hide verse number superscripts                            |
+| Layout      | Footnotes       | Show clickable footnote markers (opens a modal)                |
+| Layout      | Words of Christ | Tint Jesus' words: choice of off, red, blue, or purple         |
+| Study Tools | Strong's        | Show concordance numbers as outbound links to the EGP lexicon  |
+| Study Tools | Transliteration | Romanize Greek and Hebrew, where a node carries a romanization |
+| Study Tools | Lemma           | Show the lexical lemma in the original script                  |
+| Study Tools | Morphology      | Show parsing codes inline                                      |
 
 Acrostic headings (Hebrew stanza markers, e.g. Psalm 119) render one size smaller than standard headings but share the same Headings toggle. See [content-model.md](./content-model.md#why-these-particular-shapes).
 
@@ -92,11 +93,23 @@ The frontend uses no module bundler. Each component file ends with:
 window.ComponentName = ComponentName;
 ```
 
-That's how cross-file references resolve. When you add a new component, register it the same way; otherwise other files won't see it. This is a deliberate trade-off: no build pipeline at the cost of explicit registration boilerplate.
+That's how cross-file references resolve. When you add a new component, register it the same way and add its `<script type="text/babel">` tag to `index.html` ahead of whatever uses it; otherwise other files won't see it. This is a deliberate trade-off: no build pipeline at the cost of explicit registration boilerplate.
+
+The two files that hold logic rather than markup — [footnoteText.js](../../../web/public/js/footnoteText.js) and [printedText.js](../../../web/public/js/printedText.js) — register the same way and add a `module.exports` guard and a hand-written `.d.ts` beside them. That is what lets vitest import them directly, and it is the only way reader logic gets a unit test here: the JSX files cannot be imported outside the browser, since nothing compiles them but Babel-standalone at load time.
 
 ## Rendering original-language script
 
 Greek and Hebrew text uses the `script` property on text nodes (`"G"` or `"H"`). The reader applies a CSS class and, for Hebrew, sets `dir="rtl"` so the browser handles bidirectional text correctly. Fonts are loaded via the page's stylesheet. Latin text uses the default body font, Greek and Hebrew get their own script-specific stacks.
+
+The Transliteration toggle changes which of a node's own strings prints: its `transliteration` when it has one, its `text` when it doesn't. The choice is per node, not per version, so a translation that quotes a Hebrew word in a footnote romanizes that word and leaves its English alone, and a version nothing has romanized yet reads exactly as it does with the toggle off.
+
+[printedText.js](../../../web/public/js/printedText.js) is where that choice is made, and it answers with the script alongside the text, because a romanization is Latin: it takes neither the script font nor `dir="rtl"`. Both would be wrong on the romanized string, and the RTL one visibly so, putting the punctuation on the wrong end of the line.
+
+Book names go through the same function. `ContentNode.js` asks it for verse text and `BookName.js` asks it for a book's `name`, so the sidebar, the mobile book drawer and the chapter-nav header all switch with the chapter rather than staying in Greek beside a romanized page. The sidebar's tooltip prints the book's `title`, which is a `Content` node rather than a string, so it goes through `getFootnoteText` with the same flag. Nothing here is a second setting: `settings.showTransliteration` is handed to `BookName` as a `transliterate` prop at each of its three call sites.
+
+This is the browser's counterpart to `textOf` in [exportContent.ts](../../../utils/exportContent.ts), which is how the exporter builds the `-Transliterated` markdown tree from the same field. Both make the choice in exactly one place, so the toggle is a fair way to eyeball that export before running it.
+
+One thing that looks like a bug and isn't: Greek alphabetic numerals store their transliteration equal to their own text, which is how `utils/transliterateScriptRuns.ts` marks a form that does not romanize. Those print as Greek letters in an otherwise romanized chapter, most visibly in the Psalm acrostic headings.
 
 ## Bible reference links
 

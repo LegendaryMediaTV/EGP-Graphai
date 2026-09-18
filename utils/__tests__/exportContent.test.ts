@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { convertVerseToText, convertVerseToMarkdown } from "../exportContent";
+import {
+  MARKDOWN_TRANSLITERATED_OPTIONS,
+  convertVerseToMarkdown,
+  convertVerseToText,
+} from "../exportContent";
+import { formatMarkdownText } from "../../functions/writeJsonFile";
 import VerseSchema from "../../types/VerseSchema";
 
 /** Unicode whitespace, as CommonMark defines it for the flanking rules. */
@@ -23,11 +28,12 @@ function flankingRoles(
   line: string,
   at: number,
   length: number,
-  character: string
+  character: string,
 ): { opens: boolean; closes: boolean } {
   const before: string | undefined = line[at - 1];
   const after: string | undefined = line[at + length];
-  const beforeIsSpace = before === undefined || FLANKING_WHITESPACE.test(before);
+  const beforeIsSpace =
+    before === undefined || FLANKING_WHITESPACE.test(before);
   const afterIsSpace = after === undefined || FLANKING_WHITESPACE.test(after);
   const beforeIsPunctuation =
     before !== undefined && FLANKING_PUNCTUATION.test(before);
@@ -87,13 +93,13 @@ function expectWellFormedEmphasis(markdown: string): void {
       for (const run of runs) {
         if (run.length !== runLength) {
           failures.push(
-            `run of ${run.length} "${character}" at ${run.at} in ${JSON.stringify(line)}`
+            `run of ${run.length} "${character}" at ${run.at} in ${JSON.stringify(line)}`,
           );
         }
       }
       if (runs.length % 2 !== 0) {
         failures.push(
-          `odd number of "${character}" runs in ${JSON.stringify(line)}`
+          `odd number of "${character}" runs in ${JSON.stringify(line)}`,
         );
       }
 
@@ -105,12 +111,12 @@ function expectWellFormedEmphasis(markdown: string): void {
         }
         if (!flankingRoles(line, open.at, open.length, character).opens) {
           failures.push(
-            `"${character}" at ${open.at} cannot open a span in ${JSON.stringify(line)}`
+            `"${character}" at ${open.at} cannot open a span in ${JSON.stringify(line)}`,
           );
         }
         if (!flankingRoles(line, close.at, close.length, character).closes) {
           failures.push(
-            `"${character}" at ${close.at} cannot close a span in ${JSON.stringify(line)}`
+            `"${character}" at ${close.at} cannot close a span in ${JSON.stringify(line)}`,
           );
         }
       }
@@ -130,7 +136,7 @@ describe("exportContent", () => {
         content: "In the beginning God created the heavens and the earth.",
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 In the beginning God created the heavens and the earth."
+        "001:001 In the beginning God created the heavens and the earth.",
       );
     });
 
@@ -146,7 +152,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 In the beginning H7225 God H430 created H1254 (8804)"
+        "001:001 In the beginning H7225 God H430 created H1254 (8804)",
       );
     });
 
@@ -189,7 +195,7 @@ describe("exportContent", () => {
         content: [{ heading: "The Creation" }, { text: "In the beginning" }],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 [[The Creation]] In the beginning"
+        "001:001 [[The Creation]] In the beginning",
       );
     });
 
@@ -204,7 +210,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "119:001 [[[ALEPH]]] Blessed are those"
+        "119:001 [[[ALEPH]]] Blessed are those",
       );
     });
 
@@ -219,7 +225,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 [[The Creation]] In the beginning"
+        "001:001 [[The Creation]] In the beginning",
       );
     });
 
@@ -231,7 +237,7 @@ describe("exportContent", () => {
         content: { paragraph: "And the earth was without form" },
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:002 And the earth was without form"
+        "001:002 And the earth was without form",
       );
     });
 
@@ -245,7 +251,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 ¶ In the beginning H7225"
+        "001:001 ¶ In the beginning H7225",
       );
     });
 
@@ -260,7 +266,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 Blessed is the man␤ that walketh not"
+        "001:001 Blessed is the man␤ that walketh not",
       );
     });
 
@@ -326,7 +332,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:002 and darkness H2822 was upon the face H6440"
+        "001:002 and darkness H2822 was upon the face H6440",
       );
     });
 
@@ -335,10 +341,13 @@ describe("exportContent", () => {
         book: "PSA",
         chapter: 1,
         verse: 1,
-        content: [{ text: "Blessed", strong: "H835", morph: "8803", break: true }, "is the man"],
+        content: [
+          { text: "Blessed", strong: "H835", morph: "8803", break: true },
+          "is the man",
+        ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 Blessed H835 (8803)␤is the man"
+        "001:001 Blessed H835 (8803)␤is the man",
       );
     });
 
@@ -369,7 +378,7 @@ describe("exportContent", () => {
       };
       const footnotes: string[] = [];
       expect(convertVerseToMarkdown(verse, footnotes)).toBe(
-        "<sup>1</sup> In the beginning God created the heavens and the earth."
+        "<sup>1</sup> In the beginning God created the heavens and the earth.",
       );
     });
 
@@ -398,7 +407,7 @@ describe("exportContent", () => {
       };
       const footnotes: string[] = [];
       expect(convertVerseToMarkdown(verse, footnotes)).toBe(
-        "\n<sup>1</sup> In the beginning"
+        "\n<sup>1</sup> In the beginning",
       );
     });
 
@@ -467,6 +476,57 @@ describe("exportContent", () => {
       expect(result).toBe("<sup>1</sup> In the beginning _God_ created");
     });
 
+    it("should keep a node's own space before a comma, rather than closing it up — the LXX1935 closing-dash shape, where the space is the source edition's own typography", () => {
+      // Rahlfs closes a parenthetical with a spaced en dash and the clause's
+      // comma follows it, all inside one node's own text. The space is the
+      // source edition's typography, so closing that gap would make the
+      // markdown export disagree with the plain-text one.
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 44,
+        verse: 30,
+        content: [{ text: "μου – ,", script: "G" }],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>30</sup> μου – ,",
+      );
+    });
+
+    it("should keep a node's own space before an ano teleia, the shape that only the transliterated edition used to move", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 42,
+        verse: 18,
+        content: [{ text: "μου – \u0387", script: "G" }],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>18</sup> μου – \u0387",
+      );
+    });
+
+    it("should render an italic supplied word followed by its own punctuation with no gap, once the punctuation node carries no leading space — the repaired KJV1769 MRK 12:29", () => {
+      const verse: VerseSchema = {
+        book: "MRK",
+        chapter: 12,
+        verse: 29,
+        content: [
+          {
+            content: [
+              { text: "is", marks: ["i", "woc"] },
+              { text: ", Hear,", marks: ["woc"] },
+            ],
+            strong: "G191",
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      expect(convertVerseToMarkdown(verse, footnotes)).toBe(
+        "<sup>29</sup> _is_, Hear,",
+      );
+    });
+
     it("should nest bold inside italic as _**text**_ when both marks are present", () => {
       const verse: VerseSchema = {
         book: "GEN",
@@ -530,10 +590,7 @@ describe("exportContent", () => {
         book: "JUD",
         chapter: 1,
         verse: 1,
-        content: [
-          { text: "the servant ", marks: ["b"] },
-          { text: "of Jesus" },
-        ],
+        content: [{ text: "the servant ", marks: ["b"] }, { text: "of Jesus" }],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -665,6 +722,230 @@ describe("exportContent", () => {
     });
   });
 
+  describe("convertVerseToMarkdown's leading heading run", () => {
+    /**
+     * Renders a chapter the way `convertBibleVersionToMarkdown` renders one —
+     * the chapter line, a blank line, then every verse — and formats it, so
+     * each assertion below reads against the document that actually lands in
+     * `exports/markdown-par/`. Every expected string in this block is a
+     * hand-written ideal that `formatMarkdownText` leaves untouched.
+     */
+    async function renderChapter(
+      chapterNum: number,
+      verses: VerseSchema[],
+    ): Promise<string> {
+      const footnotes: string[] = [];
+      const lines = [`## Chapter ${chapterNum}`, ""];
+      for (const verse of verses) {
+        lines.push(convertVerseToMarkdown(verse, footnotes));
+      }
+      return formatMarkdownText(lines.join("\n") + "\n");
+    }
+
+    /** A verse whose content is `content`, in a book/chapter the shape doesn't depend on. */
+    function verseOf(
+      verse: number,
+      content: VerseSchema["content"],
+    ): VerseSchema {
+      return { book: "PSA", chapter: 111, verse, content };
+    }
+
+    it("should hoist both headings above the verse number when two lead a mid-chapter verse", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(1, [{ text: "Praise ye the LORD." }]),
+        verseOf(2, [
+          { heading: "ג Gimel" },
+          { heading: "ד Dalet" },
+          { text: "The works of the LORD are great," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n<sup>1</sup> Praise ye the LORD.\n\n" +
+          "### ג Gimel\n\n### ד Dalet\n\n" +
+          "<sup>2</sup> The works of the LORD are great,\n",
+      );
+    });
+
+    it("should hoist all three headings above the verse number when three lead a verse", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(9, [
+          { heading: "ק Qof" },
+          { heading: "ר Resh" },
+          { heading: "ש Shin" },
+          { text: "He sent redemption unto his people:" },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n### ק Qof\n\n### ר Resh\n\n### ש Shin\n\n" +
+          "<sup>9</sup> He sent redemption unto his people:\n",
+      );
+    });
+
+    it("should hoist both headings above the verse number when two open a chapter", async () => {
+      const markdown = await renderChapter(20, [
+        verseOf(22, [
+          { heading: "The Book of the Covenant" },
+          { heading: "Worship and Justice" },
+          { text: "And the LORD said unto Moses," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 20\n\n### The Book of the Covenant\n\n### Worship and Justice\n\n" +
+          "<sup>22</sup> And the LORD said unto Moses,\n",
+      );
+    });
+
+    it("should hoist a heading and the subtitle after it, in source order, leaving no blockquote marker mid-verse", async () => {
+      const markdown = await renderChapter(42, [
+        verseOf(1, [
+          { heading: "Book Two" },
+          { subtitle: "To the chief Musician" },
+          { text: "As the hart panteth after the water brooks," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 42\n\n### Book Two\n\n> _To the chief Musician_\n\n" +
+          "<sup>1</sup> As the hart panteth after the water brooks,\n",
+      );
+    });
+
+    it("should hoist a subtitle and the heading after it, in source order, leaving no blockquote marker mid-verse", async () => {
+      const markdown = await renderChapter(42, [
+        verseOf(1, [
+          { subtitle: "To the chief Musician" },
+          { heading: "Book Two" },
+          { text: "As the hart panteth after the water brooks," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 42\n\n> _To the chief Musician_\n\n### Book Two\n\n" +
+          "<sup>1</sup> As the hart panteth after the water brooks,\n",
+      );
+    });
+
+    it("should never leave a stray blockquote marker inside a verse line, whatever the run's order", async () => {
+      for (const run of [
+        [{ heading: "H" }, { subtitle: "S" }],
+        [{ subtitle: "S" }, { heading: "H" }],
+        [{ subtitle: "S1" }, { subtitle: "S2" }],
+      ]) {
+        const markdown = await renderChapter(42, [
+          verseOf(1, [
+            ...run,
+            { text: "verse text" },
+          ] as VerseSchema["content"]),
+        ]);
+
+        const verseLine = markdown
+          .split("\n")
+          .find((line) => line.includes("<sup>1</sup>"));
+        expect(verseLine).toBe("<sup>1</sup> verse text");
+      }
+    });
+
+    it("should hoist both acrostic markers as #### above the verse number", async () => {
+      const markdown = await renderChapter(111, [
+        verseOf(2, [
+          { heading: "ג Gimel", type: "acrostic" },
+          { heading: "ד Dalet", type: "acrostic" },
+          { text: "The works of the LORD are great," },
+        ]),
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 111\n\n#### ג Gimel\n\n#### ד Dalet\n\n" +
+          "<sup>2</sup> The works of the LORD are great,\n",
+      );
+    });
+
+    it("should leave the common one-block and no-block verses reading exactly as they do today", async () => {
+      const singleHeading = await renderChapter(2, [
+        {
+          book: "GEN",
+          chapter: 2,
+          verse: 1,
+          content: [
+            { heading: "The Seventh Day" },
+            { text: "Thus the heavens" },
+          ],
+        },
+      ]);
+      const singleSubtitle = await renderChapter(3, [
+        {
+          book: "PSA",
+          chapter: 3,
+          verse: 1,
+          content: [
+            { subtitle: "A Psalm of David" },
+            { text: " LORD, how are they increased" },
+          ],
+        },
+      ]);
+      const noLeadingBlock = await renderChapter(1, [
+        {
+          book: "GEN",
+          chapter: 1,
+          verse: 1,
+          content: [{ text: "In the beginning" }],
+        },
+      ]);
+
+      expect(singleHeading).toBe(
+        "## Chapter 2\n\n### The Seventh Day\n\n<sup>1</sup> Thus the heavens\n",
+      );
+      expect(singleSubtitle).toBe(
+        "## Chapter 3\n\n> _A Psalm of David_\n\n<sup>1</sup> LORD, how are they increased\n",
+      );
+      expect(noLeadingBlock).toBe(
+        "## Chapter 1\n\n<sup>1</sup> In the beginning\n",
+      );
+    });
+
+    it("should keep the paragraph blank line when the node after a two-heading run opens a paragraph", async () => {
+      const markdown = await renderChapter(2, [
+        {
+          book: "GEN",
+          chapter: 2,
+          verse: 1,
+          content: [
+            { heading: "The Seventh Day" },
+            { heading: "Rest" },
+            { paragraph: true, text: "Thus the heavens" },
+          ],
+        },
+      ]);
+
+      expect(markdown).toBe(
+        "## Chapter 2\n\n### The Seventh Day\n\n### Rest\n\n<sup>1</sup> Thus the heavens\n",
+      );
+    });
+
+    it("should label a footnote raised from the second heading of a run as a heading footnote", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 1,
+        content: [
+          { heading: "The Seventh Day" },
+          {
+            heading: [{ text: "Rest", foot: { content: "Or repose." } }],
+          },
+          { text: "Thus the heavens" },
+        ],
+      };
+      const footnotes: string[] = [];
+
+      convertVerseToMarkdown(verse, footnotes);
+
+      expect(footnotes).toEqual(["- <sup>a</sup> Heading. Or repose."]);
+    });
+  });
+
   describe("real-world verses from KJV1769", () => {
     it("should match expected text export for Genesis 1:1", () => {
       const verse: VerseSchema = {
@@ -680,7 +961,7 @@ describe("exportContent", () => {
         ],
       };
       expect(convertVerseToText(verse)).toBe(
-        "001:001 In the beginning H7225 God H430 created H1254 (8804) the heaven H8064 and the earth. H776"
+        "001:001 In the beginning H7225 God H430 created H1254 (8804) the heaven H8064 and the earth. H776",
       );
     });
 
@@ -718,7 +999,7 @@ describe("exportContent", () => {
       const result = convertVerseToText(verse);
       expect(result).toMatch(/^009:001/);
       expect(result).toContain(
-        "«To the chief Musician H5329 (8764) upon Muthlabben, H4192 H1121 A Psalm H4210 of David. H1732»"
+        "«To the chief Musician H5329 (8764) upon Muthlabben, H4192 H1121 A Psalm H4210 of David. H1732»",
       );
       expect(result).toContain("¶ I will praise H3034 (8686)");
     });
@@ -840,7 +1121,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Footnote content sits before Strong's/morph.
         expect(result).toMatch(/Βοὸζ°\{N Βοὸζ ἐκ ⇒ Βόες ἐκ\} G1003 \(N-PRI\)/);
       });
 
@@ -898,10 +1178,8 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // The footnote introduces the phrase that follows it, with no gap on
-        // either side of the marker.
         expect(result).toBe(
-          "050:023 °{Originally verse 50:22.}et vidit Ephraim filios"
+          "050:023 °{Originally verse 50:22.}et vidit Ephraim filios",
         );
         expect(result).toContain("}et vidit");
       });
@@ -925,7 +1203,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "003:014 ¶ Yahweh God said to the serpent,␤\u201CBecause you have done this,␤you are cursed above all livestock,␤"
+          "003:014 ¶ Yahweh God said to the serpent,␤\u201CBecause you have done this,␤you are cursed above all livestock,␤",
         );
         expect(result).not.toMatch(/, ␤/);
         expect(result).not.toMatch(/␤ \u201C/);
@@ -948,7 +1226,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "\n<sup>14</sup> Yahweh God said to the serpent,<br>\u201CBecause you have done this,<br>"
+          "\n<sup>14</sup> Yahweh God said to the serpent,<br>\u201CBecause you have done this,<br>",
         );
         expect(result).not.toMatch(/,<br> /); // No space after br when next text has no leading space
       });
@@ -972,7 +1250,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει}°{N διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)"
+          "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει}°{N διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)",
         );
         expect(result).not.toMatch(/ $/);
       });
@@ -1000,7 +1278,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "001:001 ¶ In the beginning°{The clause opens the narrative.}°{The verse begins the account of creation.} H7225 God H430"
+          "001:001 ¶ In the beginning°{The clause opens the narrative.}°{The verse begins the account of creation.} H7225 God H430",
         );
       });
 
@@ -1025,7 +1303,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "010:010 shall fall.°{Or, shall be beaten.}°{Or, shall be beaten.} H3832 (NiphImpf)␤"
+          "010:010 shall fall.°{Or, shall be beaten.}°{Or, shall be beaten.} H3832 (NiphImpf)␤",
         );
       });
     });
@@ -1046,7 +1324,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
+          "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro",
         );
         expect(result).not.toMatch(/° \{/);
         expect(result).toMatch(/°\{/);
@@ -1058,14 +1336,16 @@ describe("exportContent", () => {
           chapter: 20,
           verse: 28,
           content: [
-            { text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius " },
+            {
+              text: "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+            },
             { foot: { type: "var", content: "Originally verse 20:29." } },
             "illo mortuo in montis supercilio descendit cum Eleazaro",
           ],
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
+          "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro",
         );
         expect(result).not.toMatch(/°\{Originally verse 20:29\.\} illo/);
       });
@@ -1079,12 +1359,19 @@ describe("exportContent", () => {
             {
               text: "And the earth was waste and void; and darkness was upon the face of the deep: and the Spirit of God ",
             },
-            { foot: { type: "trn", content: ["Or, ", { text: "was brooding upon", marks: ["i"] }] } },
+            {
+              foot: {
+                type: "trn",
+                content: ["Or, ", { text: "was brooding upon", marks: ["i"] }],
+              },
+            },
             "moved upon the face of the waters.",
           ],
         };
         const result = convertVerseToText(verse);
-        expect(result).toContain("God °{Or, was brooding upon}moved upon the face of the waters.");
+        expect(result).toContain(
+          "God °{Or, was brooding upon}moved upon the face of the waters.",
+        );
         expect(result).not.toContain("God °{Or, was brooding upon} moved");
       });
 
@@ -1100,7 +1387,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "020:029 °{Originally verse 20:30.}omnis autem multitudo videns occubuisse Aaron"
+          "020:029 °{Originally verse 20:30.}omnis autem multitudo videns occubuisse Aaron",
         );
         expect(result).not.toMatch(/° \{/);
         expect(result).toMatch(/°\{/);
@@ -1164,7 +1451,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "049:018 I have waited for H6960 (8765) thy salvation, H3444 O LORD. H3068"
+          "049:018 I have waited for H6960 (8765) thy salvation, H3444 O LORD. H3068",
         );
       });
 
@@ -1203,7 +1490,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>18</sup> I have waited for thy salvation, O LORD."
+          "<sup>18</sup> I have waited for thy salvation, O LORD.",
         );
       });
 
@@ -1225,9 +1512,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe(
-          "<sup>58</sup> before Abraham was, **the Lord**"
-        );
+        expect(result).toBe("<sup>58</sup> before Abraham was, **the Lord**");
       });
 
       it("should reattach a nested content wrapper's leading space outside ** rather than wrapping it (real WEBUS2020 JHN 8:58 shape with a leading-space run)", () => {
@@ -1246,9 +1531,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe(
-          "<sup>58</sup> before Abraham was, **the Lord**"
-        );
+        expect(result).toBe("<sup>58</sup> before Abraham was, **the Lord**");
         expectWellFormedEmphasis(result);
       });
 
@@ -1414,7 +1697,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>1</sup> For the music director, according to the _yonath-elem-rekhoqim_ style;<sup>a</sup>"
+          "<sup>1</sup> For the music director, according to the _yonath-elem-rekhoqim_ style;<sup>a</sup>",
         );
         expectWellFormedEmphasis(result);
       });
@@ -1428,7 +1711,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "056:001 For the music director H5329, according to H5921 the yonath H3123-elem H482-rekhoqim H7350 style;°{The literal meaning is “silent dove, distant ones.”}"
+          "056:001 For the music director H5329, according to H5921 the yonath H3123-elem H482-rekhoqim H7350 style;°{The literal meaning is “silent dove, distant ones.”}",
         );
       });
     });
@@ -1455,9 +1738,9 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>3</sup> _**The voice**_<sup>a</sup> _**of one shouting in**_"
+          "<sup>3</sup> _**The voice**_<sup>a</sup> _**of one shouting in**_",
         );
-        expect(footnotes).toEqual(['- <sup>a</sup> 3. Or “A voice.”']);
+        expect(footnotes).toEqual(["- <sup>a</sup> 3. Or “A voice.”"]);
         expectWellFormedEmphasis(result);
       });
 
@@ -1470,7 +1753,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "003:003 The voice°{Or “A voice.”} G5456 of one shouting G994 in G1722"
+          "003:003 The voice°{Or “A voice.”} G5456 of one shouting G994 in G1722",
         );
       });
     });
@@ -1574,7 +1857,8 @@ describe("exportContent", () => {
           {
             foot: {
               type: "stu",
-              content: "The BHS editors suggest this bicolon is a late addition.",
+              content:
+                "The BHS editors suggest this bicolon is a late addition.",
             },
           },
           { text: "from hunger", strong: "H7458", break: true },
@@ -1582,7 +1866,7 @@ describe("exportContent", () => {
       };
       const result = convertVerseToText(verse);
       expect(result).toBe(
-        "002:019 they are fainting°{Heb “who are fainting.”}°{The BHS editors suggest this bicolon is a late addition.} H5848 from hunger H7458␤"
+        "002:019 they are fainting°{Heb “who are fainting.”}°{The BHS editors suggest this bicolon is a late addition.} H5848 from hunger H7458␤",
       );
       expect(result).not.toMatch(/H5848from/);
     });
@@ -1597,7 +1881,12 @@ describe("exportContent", () => {
       ];
 
       it("should merge 'the' and 'LORD' into one continuous italic span across the lone blank between them, in markdown, even though the two nodes disagree in marks (['i'] vs ['i','sc']) — auditNodes.ts's mark-boundary-space and mark-boundary-embedded-space checks both correctly leave this source shape alone, so the fix belongs here in the renderer", () => {
-        const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
+        const verse: VerseSchema = {
+          book: "EXO",
+          chapter: 33,
+          verse: 9,
+          content: exodus339Excerpt,
+        };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe("<sup>9</sup> and _the LORD_ talked");
@@ -1606,7 +1895,12 @@ describe("exportContent", () => {
       });
 
       it("should leave convertVerseToText's output byte-identical, since TEXT_OPTIONS's italicWrapper is the identity function and only markdown's visible delimiters move", () => {
-        const verse: VerseSchema = { book: "EXO", chapter: 33, verse: 9, content: exodus339Excerpt };
+        const verse: VerseSchema = {
+          book: "EXO",
+          chapter: 33,
+          verse: 9,
+          content: exodus339Excerpt,
+        };
         expect(convertVerseToText(verse)).toBe("033:009 and the LORD talked");
       });
 
@@ -1615,7 +1909,13 @@ describe("exportContent", () => {
           book: "EXO",
           chapter: 33,
           verse: 9,
-          content: [" and ", { text: "the", marks: ["i"] }, " ", { text: "Lord" }, " talked"],
+          content: [
+            " and ",
+            { text: "the", marks: ["i"] },
+            " ",
+            { text: "Lord" },
+            " talked",
+          ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
@@ -1631,9 +1931,15 @@ describe("exportContent", () => {
           chapter: 2,
           verse: 16,
           content: [
-            { bibleLink: "Deuteronomy 33:12", content: { text: "deut. 33.12", marks: ["i"] } },
+            {
+              bibleLink: "Deuteronomy 33:12",
+              content: { text: "deut. 33.12", marks: ["i"] },
+            },
             { text: " ", marks: ["i"] },
-            { bibleLink: "Isaiah 8:8", content: { text: "Isai. 8.8", marks: ["i"] } },
+            {
+              bibleLink: "Isaiah 8:8",
+              content: { text: "Isai. 8.8", marks: ["i"] },
+            },
           ],
         };
         const footnotes: string[] = [];
@@ -1648,24 +1954,39 @@ describe("exportContent", () => {
     describe("a bibleLink node whose display override is a single mark-bearing object participates in the surrounding emphasis run (KJV1769 2 Samuel 7:7's real footnote)", () => {
       const samuel77Footnote: VerseSchema["content"] = [
         { text: "In the ", marks: ["i"] },
-        { bibleLink: "1 Chronicles 17:6", content: { text: "1. Chro. 17.6", marks: ["i"] } },
+        {
+          bibleLink: "1 Chronicles 17:6",
+          content: { text: "1. Chro. 17.6", marks: ["i"] },
+        },
         { text: ". any of the judges", marks: ["i"] },
       ];
 
       it("should render one continuous italic span with no redundant '_ _' and no broken '__', in markdown", () => {
-        const verse: VerseSchema = { book: "2SM", chapter: 7, verse: 7, content: samuel77Footnote };
+        const verse: VerseSchema = {
+          book: "2SM",
+          chapter: 7,
+          verse: 7,
+          content: samuel77Footnote,
+        };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("<sup>7</sup> _In the 1. Chro. 17.6. any of the judges_");
+        expect(result).toBe(
+          "<sup>7</sup> _In the 1. Chro. 17.6. any of the judges_",
+        );
         expect(result).not.toContain("__");
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
       });
 
       it("should leave convertVerseToText's output byte-identical to today's", () => {
-        const verse: VerseSchema = { book: "2SM", chapter: 7, verse: 7, content: samuel77Footnote };
+        const verse: VerseSchema = {
+          book: "2SM",
+          chapter: 7,
+          verse: 7,
+          content: samuel77Footnote,
+        };
         expect(convertVerseToText(verse)).toBe(
-          "007:007 In the 1. Chro. 17.6. any of the judges"
+          "007:007 In the 1. Chro. 17.6. any of the judges",
         );
       });
 
@@ -1702,18 +2023,18 @@ describe("exportContent", () => {
           ],
         };
         expect(convertVerseToMarkdown(stringOverride, footnotes)).toBe(
-          "<sup>1</sup> _before_ Ps 1 _after_"
+          "<sup>1</sup> _before_ Ps 1 _after_",
         );
         expect(convertVerseToMarkdown(noOverride, footnotes)).toBe(
-          "<sup>1</sup> _before_ Psalm 1 _after_"
+          "<sup>1</sup> _before_ Psalm 1 _after_",
         );
         expect(convertVerseToMarkdown(arrayOverride, footnotes)).toBe(
-          "<sup>1</sup> _before_ Ps. 1 _after_"
+          "<sup>1</sup> _before_ Ps. 1 _after_",
         );
       });
     });
 
-    describe("the markdown subtitle wrapper does not double-wrap an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — the leading-subtitle describe block below covers the [heading, subtitle] chapter-opening combination the real verse carries, which the chapter-level hoist handles)", () => {
+    describe("the markdown subtitle wrapper does not double-wrap an inner italic mark (ASV1901 Psalm 25:1's real subtitle, minus its leading heading — the leading-subtitle describe block below covers the [heading, subtitle] chapter-opening combination the real verse carries, which convertVerseToMarkdown's own leading-run hoist renders together)", () => {
       it("should render one italic wrapper around the whole subtitle instead of a broken '__' where the inner and outer delimiters collide — hoisted above the verse line, since a lone leading subtitle also qualifies for the verse-level subtitle fallback", () => {
         const verse: VerseSchema = {
           book: "PSA",
@@ -1721,13 +2042,17 @@ describe("exportContent", () => {
           verse: 1,
           content: [
             { subtitle: [{ text: "A Psalm", marks: ["i"] }, " of David."] },
-            { paragraph: true, text: "Unto thee, O Jehovah, do I lift up my soul.", break: true },
+            {
+              paragraph: true,
+              text: "Unto thee, O Jehovah, do I lift up my soul.",
+              break: true,
+            },
           ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "\n> _A Psalm of David._\n\n<sup>1</sup> Unto thee, O Jehovah, do I lift up my soul.<br>"
+          "\n> _A Psalm of David._\n\n<sup>1</sup> Unto thee, O Jehovah, do I lift up my soul.<br>",
         );
         expect(result).not.toContain("__");
         expectWellFormedEmphasis(result);
@@ -1745,7 +2070,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _**A Psalm** of David._\n\n<sup>1</sup> Unto thee.<br>");
+        expect(result).toBe(
+          "\n> _**A Psalm** of David._\n\n<sup>1</sup> Unto thee.<br>",
+        );
         expectWellFormedEmphasis(result);
       });
 
@@ -1755,14 +2082,20 @@ describe("exportContent", () => {
           chapter: 3,
           verse: 1,
           content: [
-            { subtitle: "A Psalm of David, when he fled from Absalom his son." },
-            { paragraph: true, text: "Lord, how are they increased that trouble me!", break: true },
+            {
+              subtitle: "A Psalm of David, when he fled from Absalom his son.",
+            },
+            {
+              paragraph: true,
+              text: "Lord, how are they increased that trouble me!",
+              break: true,
+            },
           ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "\n> _A Psalm of David, when he fled from Absalom his son._\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
+          "\n> _A Psalm of David, when he fled from Absalom his son._\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>",
         );
       });
     });
@@ -1777,7 +2110,12 @@ describe("exportContent", () => {
             {
               subtitle: [
                 "a ",
-                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: ["b ", { text: "c", marks: ["i"] }],
+                  },
+                },
                 " d",
               ],
             },
@@ -1786,7 +2124,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1800,7 +2140,12 @@ describe("exportContent", () => {
             {
               subtitle: [
                 "a ",
-                { foot: { type: "trn", content: [{ content: ["b c"], marks: ["i"] }] } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: [{ content: ["b c"], marks: ["i"] }],
+                  },
+                },
                 " d",
               ],
             },
@@ -1809,7 +2154,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1832,7 +2179,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1846,7 +2195,12 @@ describe("exportContent", () => {
             {
               subtitle: [
                 "a ",
-                { foot: { type: "trn", content: { content: ["b c"], marks: ["i"] } } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: { content: ["b c"], marks: ["i"] },
+                  },
+                },
                 " d",
               ],
             },
@@ -1855,7 +2209,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. _b c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1872,7 +2228,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a c d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a c d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -1885,7 +2241,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _c_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _c_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -1894,11 +2250,14 @@ describe("exportContent", () => {
           book: "Bk",
           chapter: 1,
           verse: 1,
-          content: [{ subtitle: { content: ["b c"], marks: ["i"] } }, "verse text"],
+          content: [
+            { subtitle: { content: ["b c"], marks: ["i"] } },
+            "verse text",
+          ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _b c_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _b c_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -1922,7 +2281,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a c e d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a c e d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -1938,7 +2297,7 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a **c** d_\n<sup>1</sup> verse text");
+        expect(result).toBe("\n> _a **c** d_\n\n<sup>1</sup> verse text");
         expectWellFormedEmphasis(result);
       });
 
@@ -1951,7 +2310,12 @@ describe("exportContent", () => {
             {
               subtitle: [
                 "a ",
-                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["b"] }] } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: ["b ", { text: "c", marks: ["b"] }],
+                  },
+                },
                 " d",
               ],
             },
@@ -1960,7 +2324,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n> _a <sup>a</sup> d_\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n> _a <sup>a</sup> d_\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Subtitle. b **c**"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1974,7 +2340,12 @@ describe("exportContent", () => {
             {
               heading: [
                 "a ",
-                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: ["b ", { text: "c", marks: ["i"] }],
+                  },
+                },
                 " d",
               ],
             },
@@ -1983,7 +2354,9 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        expect(result).toBe("\n### a <sup>a</sup> d\n<sup>1</sup> verse text");
+        expect(result).toBe(
+          "\n### a <sup>a</sup> d\n\n<sup>1</sup> verse text",
+        );
         expect(footnotes).toEqual(["- <sup>a</sup> Heading. b _c_"]);
         expectWellFormedEmphasis(footnotes[0]);
       });
@@ -1997,7 +2370,10 @@ describe("exportContent", () => {
             "a ",
             {
               text: "x",
-              foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] },
+              foot: {
+                type: "trn",
+                content: ["b ", { text: "c", marks: ["i"] }],
+              },
             },
             " d",
           ],
@@ -2018,7 +2394,12 @@ describe("exportContent", () => {
             {
               subtitle: [
                 "a ",
-                { foot: { type: "trn", content: ["b ", { text: "c", marks: ["i"] }] } },
+                {
+                  foot: {
+                    type: "trn",
+                    content: ["b ", { text: "c", marks: ["i"] }],
+                  },
+                },
                 " d",
               ],
             },
@@ -2035,10 +2416,10 @@ describe("exportContent", () => {
           ],
         };
         expect(convertVerseToText(footnoteCase)).toBe(
-          "001:001 «a °{b c} d» verse text"
+          "001:001 «a °{b c} d» verse text",
         );
         expect(convertVerseToText(suppressionCase)).toBe(
-          "001:001 «a c d» verse text"
+          "001:001 «a c d» verse text",
         );
       });
     });
@@ -2058,19 +2439,25 @@ describe("exportContent", () => {
             { text: " unto him", strong: "G846" },
             { text: " one by one,", strong: "G1527" },
             { strong: "G3385" },
-            { content: [" ", { text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            {
+              content: [" ", { text: "Is", marks: ["i"] }, " it I?"],
+              strong: "G1473",
+            },
             { text: " and", strong: "G2532" },
             { text: " another", strong: "G243" },
             " ",
             { text: "said,", marks: ["i"], strong: "G3385" },
             " ",
-            { content: [{ text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            {
+              content: [{ text: "Is", marks: ["i"] }, " it I?"],
+              strong: "G1473",
+            },
           ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>19</sup> And they began to be sorrowful, and to say unto him one by one, _Is_ it I? and another _said, Is_ it I?"
+          "<sup>19</sup> And they began to be sorrowful, and to say unto him one by one, _Is_ it I? and another _said, Is_ it I?",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2090,17 +2477,23 @@ describe("exportContent", () => {
             { text: " unto him", strong: "G846" },
             { text: " one by one,", strong: "G1527" },
             { strong: "G3385" },
-            { content: [" ", { text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            {
+              content: [" ", { text: "Is", marks: ["i"] }, " it I?"],
+              strong: "G1473",
+            },
             { text: " and", strong: "G2532" },
             { text: " another", strong: "G243" },
             " ",
             { text: "said,", marks: ["i"], strong: "G3385" },
             " ",
-            { content: [{ text: "Is", marks: ["i"] }, " it I?"], strong: "G1473" },
+            {
+              content: [{ text: "Is", marks: ["i"] }, " it I?"],
+              strong: "G1473",
+            },
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "014:019 And G1161 they began G756 (AorMidDepInd) to be sorrowful, G3076 (PresPasInf) and to G2532 say G3004 (PresActInf) unto him G846 one by one, G1527 G3385 Is it I? G1473 and G2532 another G243 said, G3385 Is it I? G1473"
+          "014:019 And G1161 they began G756 (AorMidDepInd) to be sorrowful, G3076 (PresPasInf) and to G2532 say G3004 (PresActInf) unto him G846 one by one, G1527 G3385 Is it I? G1473 and G2532 another G243 said, G3385 Is it I? G1473",
         );
       });
 
@@ -2123,20 +2516,31 @@ describe("exportContent", () => {
             { text: " Jesus", strong: "G2424" },
             { text: " stooped", strong: "G2955", morph: "AorActPtc" },
             { text: " down,", strong: "G2736" },
-            { content: [" and with ", { text: "his", marks: ["i"] }, " finger"], strong: "G1147" },
+            {
+              content: [" and with ", { text: "his", marks: ["i"] }, " finger"],
+              strong: "G1147",
+            },
             { text: " wrote", strong: "G1125", morph: "ImpfActInd" },
             { text: " on", strong: "G1519" },
             { text: " the ground,", strong: "G1093" },
             " ",
-            { text: "as though he heard", marks: ["i"], strong: "G4364", morph: "PresMidPasDepPtc" },
+            {
+              text: "as though he heard",
+              marks: ["i"],
+              strong: "G4364",
+              morph: "PresMidPasDepPtc",
+            },
             " ",
-            { content: [{ text: "them not", marks: ["i"] }, "."], strong: "G3361" },
+            {
+              content: [{ text: "them not", marks: ["i"] }, "."],
+              strong: "G3361",
+            },
           ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>6</sup> This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with _his_ finger wrote on the ground, _as though he heard them not_."
+          "<sup>6</sup> This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with _his_ finger wrote on the ground, _as though he heard them not_.",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2161,18 +2565,29 @@ describe("exportContent", () => {
             { text: " Jesus", strong: "G2424" },
             { text: " stooped", strong: "G2955", morph: "AorActPtc" },
             { text: " down,", strong: "G2736" },
-            { content: [" and with ", { text: "his", marks: ["i"] }, " finger"], strong: "G1147" },
+            {
+              content: [" and with ", { text: "his", marks: ["i"] }, " finger"],
+              strong: "G1147",
+            },
             { text: " wrote", strong: "G1125", morph: "ImpfActInd" },
             { text: " on", strong: "G1519" },
             { text: " the ground,", strong: "G1093" },
             " ",
-            { text: "as though he heard", marks: ["i"], strong: "G4364", morph: "PresMidPasDepPtc" },
+            {
+              text: "as though he heard",
+              marks: ["i"],
+              strong: "G4364",
+              morph: "PresMidPasDepPtc",
+            },
             " ",
-            { content: [{ text: "them not", marks: ["i"] }, "."], strong: "G3361" },
+            {
+              content: [{ text: "them not", marks: ["i"] }, "."],
+              strong: "G3361",
+            },
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "008:006 G1161 This G5124 they said, G3004 (ImpfActInd) tempting G3985 (PresActPtc) him, G846 that G2443 they might have G2192 (PresActSubj) to accuse G2723 (PresActInf) him. G846 But G1161 Jesus G2424 stooped G2955 (AorActPtc) down, G2736 and with his finger G1147 wrote G1125 (ImpfActInd) on G1519 the ground, G1093 as though he heard G4364 (PresMidPasDepPtc) them not. G3361"
+          "008:006 G1161 This G5124 they said, G3004 (ImpfActInd) tempting G3985 (PresActPtc) him, G846 that G2443 they might have G2192 (PresActSubj) to accuse G2723 (PresActInf) him. G846 But G1161 Jesus G2424 stooped G2955 (AorActPtc) down, G2736 and with his finger G1147 wrote G1125 (ImpfActInd) on G1519 the ground, G1093 as though he heard G4364 (PresMidPasDepPtc) them not. G3361",
         );
       });
 
@@ -2193,7 +2608,10 @@ describe("exportContent", () => {
             " ",
             { text: "which", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "ye have", marks: ["i"] }, " to"], strong: "G1519" },
+            {
+              content: [{ text: "ye have", marks: ["i"] }, " to"],
+              strong: "G1519",
+            },
             { text: " all", strong: "G3956" },
             { text: " the saints,", strong: "G40" },
           ],
@@ -2201,7 +2619,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>4</sup> since we heard of your faith in Christ Jesus, and of the love _which ye have_ to all the saints,"
+          "<sup>4</sup> since we heard of your faith in Christ Jesus, and of the love _which ye have_ to all the saints,",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2224,13 +2642,16 @@ describe("exportContent", () => {
             " ",
             { text: "which", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "ye have", marks: ["i"] }, " to"], strong: "G1519" },
+            {
+              content: [{ text: "ye have", marks: ["i"] }, " to"],
+              strong: "G1519",
+            },
             { text: " all", strong: "G3956" },
             { text: " the saints,", strong: "G40" },
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "001:004 since we heard G191 (AorActPtc) of your G5216 faith G4102 in G1722 Christ G5547 Jesus, G2424 and G2532 of the love G26 which G3588 ye have to G1519 all G3956 the saints, G40"
+          "001:004 since we heard G191 (AorActPtc) of your G5216 faith G4102 in G1722 Christ G5547 Jesus, G2424 and G2532 of the love G26 which G3588 ye have to G1519 all G3956 the saints, G40",
         );
       });
 
@@ -2256,14 +2677,17 @@ describe("exportContent", () => {
             " ",
             { text: "which", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "is", marks: ["i"] }, " our"], strong: "G2257" },
+            {
+              content: [{ text: "is", marks: ["i"] }, " our"],
+              strong: "G2257",
+            },
             { text: " hope;", strong: "G1680" },
           ],
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "\n<sup>1</sup> Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, _which is_ our hope;"
+          "\n<sup>1</sup> Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, _which is_ our hope;",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2291,12 +2715,15 @@ describe("exportContent", () => {
             " ",
             { text: "which", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "is", marks: ["i"] }, " our"], strong: "G2257" },
+            {
+              content: [{ text: "is", marks: ["i"] }, " our"],
+              strong: "G2257",
+            },
             { text: " hope;", strong: "G1680" },
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "001:001 ¶ Paul, G3972 an apostle G652 of Jesus G2424 Christ G5547 by G2596 the commandment G2003 of God G2316 our G2257 Saviour, G4990 and G2532 Lord G2962 Jesus G2424 Christ, G5547 which G3588 is our G2257 hope; G1680"
+          "001:001 ¶ Paul, G3972 an apostle G652 of Jesus G2424 Christ G5547 by G2596 the commandment G2003 of God G2316 our G2257 Saviour, G4990 and G2532 Lord G2962 Jesus G2424 Christ, G5547 which G3588 is our G2257 hope; G1680",
         );
       });
 
@@ -2313,7 +2740,10 @@ describe("exportContent", () => {
             " ",
             { text: "who", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "is", marks: ["i"] }, " the blessed"], strong: "G3107" },
+            {
+              content: [{ text: "is", marks: ["i"] }, " the blessed"],
+              strong: "G3107",
+            },
             { text: " and", strong: "G2532" },
             { text: " only", strong: "G3441" },
             { text: " Potentate,", strong: "G1413" },
@@ -2327,7 +2757,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>15</sup> which in his times he shall shew, _who is_ the blessed and only Potentate, the King of kings, and Lord of lords;"
+          "<sup>15</sup> which in his times he shall shew, _who is_ the blessed and only Potentate, the King of kings, and Lord of lords;",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2346,7 +2776,10 @@ describe("exportContent", () => {
             " ",
             { text: "who", marks: ["i"], strong: "G3588" },
             " ",
-            { content: [{ text: "is", marks: ["i"] }, " the blessed"], strong: "G3107" },
+            {
+              content: [{ text: "is", marks: ["i"] }, " the blessed"],
+              strong: "G3107",
+            },
             { text: " and", strong: "G2532" },
             { text: " only", strong: "G3441" },
             { text: " Potentate,", strong: "G1413" },
@@ -2358,7 +2791,7 @@ describe("exportContent", () => {
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "006:015 which G3739 in his G2398 times G2540 he shall shew, G1166 (FutActInd) who G3588 is the blessed G3107 and G2532 only G3441 Potentate, G1413 the King G935 of kings, G936 (PresActPtc) and G2532 Lord G2962 of lords; G2961 (PresActPtc)"
+          "006:015 which G3739 in his G2398 times G2540 he shall shew, G1166 (FutActInd) who G3588 is the blessed G3107 and G2532 only G3441 Potentate, G1413 the King G935 of kings, G936 (PresActPtc) and G2532 Lord G2962 of lords; G2961 (PresActPtc)",
         );
       });
 
@@ -2375,9 +2808,19 @@ describe("exportContent", () => {
             { text: " not", strong: "G3761" },
             { text: " the Father:", strong: "G3962" },
             " ",
-            { text: "(but) he that acknowledgeth", marks: ["i"], strong: "G3670", morph: "PresActPtc" },
+            {
+              text: "(but) he that acknowledgeth",
+              marks: ["i"],
+              strong: "G3670",
+              morph: "PresActPtc",
+            },
             { text: " the Son", marks: ["i"], strong: "G5207" },
-            { text: " hath", marks: ["i"], strong: "G2192", morph: "PresActInd" },
+            {
+              text: " hath",
+              marks: ["i"],
+              strong: "G2192",
+              morph: "PresActInd",
+            },
             { text: " the Father", marks: ["i"], strong: "G3962" },
             " ",
             { content: [{ text: "also", marks: ["i"] }, "."], strong: "G2532" },
@@ -2386,7 +2829,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>23</sup> Whosoever denieth the Son, the same hath not the Father: _(but) he that acknowledgeth the Son hath the Father also_."
+          "<sup>23</sup> Whosoever denieth the Son, the same hath not the Father: _(but) he that acknowledgeth the Son hath the Father also_.",
         );
         expect(result).not.toContain("_ _");
         expectWellFormedEmphasis(result);
@@ -2405,16 +2848,26 @@ describe("exportContent", () => {
             { text: " not", strong: "G3761" },
             { text: " the Father:", strong: "G3962" },
             " ",
-            { text: "(but) he that acknowledgeth", marks: ["i"], strong: "G3670", morph: "PresActPtc" },
+            {
+              text: "(but) he that acknowledgeth",
+              marks: ["i"],
+              strong: "G3670",
+              morph: "PresActPtc",
+            },
             { text: " the Son", marks: ["i"], strong: "G5207" },
-            { text: " hath", marks: ["i"], strong: "G2192", morph: "PresActInd" },
+            {
+              text: " hath",
+              marks: ["i"],
+              strong: "G2192",
+              morph: "PresActInd",
+            },
             { text: " the Father", marks: ["i"], strong: "G3962" },
             " ",
             { content: [{ text: "also", marks: ["i"] }, "."], strong: "G2532" },
           ],
         };
         expect(convertVerseToText(verse)).toBe(
-          "002:023 Whosoever G3956 denieth G720 (PresMidPasDepPtc) the Son, G5207 the same hath G2192 (PresActInd) not G3761 the Father: G3962 (but) he that acknowledgeth G3670 (PresActPtc) the Son G5207 hath G2192 (PresActInd) the Father G3962 also. G2532"
+          "002:023 Whosoever G3956 denieth G720 (PresMidPasDepPtc) the Son, G5207 the same hath G2192 (PresActInd) not G3761 the Father: G3962 (but) he that acknowledgeth G3670 (PresActPtc) the Son G5207 hath G2192 (PresActInd) the Father G3962 also. G2532",
         );
       });
 
@@ -2430,7 +2883,10 @@ describe("exportContent", () => {
               { text: " without form,", strong: "H8414" },
               { text: " and void;", strong: "H922" },
               { text: " and darkness", strong: "H2822" },
-              { content: [" ", { text: "was", marks: ["i"] }, " upon the face"], strong: "H6440" },
+              {
+                content: [" ", { text: "was", marks: ["i"] }, " upon the face"],
+                strong: "H6440",
+              },
               { text: " of the deep.", strong: "H8415" },
               { text: " And the Spirit", strong: "H7307" },
               { text: " of God", strong: "H430" },
@@ -2443,7 +2899,7 @@ describe("exportContent", () => {
           const footnotes: string[] = [];
           const result = convertVerseToMarkdown(verse, footnotes);
           expect(result).toBe(
-            "<sup>2</sup> And the earth was without form, and void; and darkness _was_ upon the face of the deep. And the Spirit of God moved upon the face of the waters."
+            "<sup>2</sup> And the earth was without form, and void; and darkness _was_ upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
           );
           expectWellFormedEmphasis(result);
         });
@@ -2461,7 +2917,12 @@ describe("exportContent", () => {
               { text: " unto", strong: "G4314" },
               { text: " him,", strong: "G846" },
               " ",
-              { text: "Suffer", marks: ["woc"], strong: "G863", morph: "Aor2ActImpr" },
+              {
+                text: "Suffer",
+                marks: ["woc"],
+                strong: "G863",
+                morph: "Aor2ActImpr",
+              },
               " ",
               {
                 content: [
@@ -2474,10 +2935,20 @@ describe("exportContent", () => {
               " ",
               { text: "for", marks: ["woc"], strong: "G1063" },
               { text: " thus", marks: ["woc"], strong: "G3779" },
-              { text: " it becometh", marks: ["woc"], strong: "G4241", morph: "PresActPtc" },
+              {
+                text: " it becometh",
+                marks: ["woc"],
+                strong: "G4241",
+                morph: "PresActPtc",
+              },
               { strong: "G2076", morph: "PresInd" },
               { text: " us", marks: ["woc"], strong: "G2254" },
-              { text: " to fulfil", marks: ["woc"], strong: "G4137", morph: "AorActInf" },
+              {
+                text: " to fulfil",
+                marks: ["woc"],
+                strong: "G4137",
+                morph: "AorActInf",
+              },
               { text: " all", marks: ["woc"], strong: "G3956" },
               { text: " righteousness.", marks: ["woc"], strong: "G1343" },
               { text: " Then", strong: "G5119" },
@@ -2488,7 +2959,7 @@ describe("exportContent", () => {
           const footnotes: string[] = [];
           const result = convertVerseToMarkdown(verse, footnotes);
           expect(result).toBe(
-            "<sup>15</sup> And Jesus answering said unto him, Suffer _it to be so_ now: for thus it becometh us to fulfil all righteousness. Then he suffered him."
+            "<sup>15</sup> And Jesus answering said unto him, Suffer _it to be so_ now: for thus it becometh us to fulfil all righteousness. Then he suffered him.",
           );
           expectWellFormedEmphasis(result);
         });
@@ -2538,11 +3009,8 @@ describe("exportContent", () => {
   });
 
   describe("held whitespace stays outside a closing emphasis delimiter when the node after it renders a marker but no text of its own", () => {
-    // The shape under test throughout: a marked node, a whitespace-only
-    // sibling, then a node that renders a marker but contributes no text of
-    // its own. The held whitespace must land after the closing delimiter,
-    // never inside it — CommonMark requires a closing "_"/"**" to be
-    // right-flanking.
+    // CommonMark requires a closing "_"/"**" to be right-flanking, so the held
+    // whitespace has to land after the delimiter, never inside it.
     const footnote = { type: "xrf" as const, content: "note" };
 
     it("should close the italic delimiter before the held whitespace when a whitespace-only bare string separates a marked node from a node that renders only a marker", () => {
@@ -2550,7 +3018,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { foot: footnote },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2563,7 +3037,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["b"] }, " ", { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["b"] },
+          " ",
+          { foot: footnote },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2576,7 +3056,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, { text: " ", marks: ["i"] }, { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          { text: " ", marks: ["i"] },
+          { foot: footnote },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2602,7 +3088,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, { text: " ", marks: ["i"] }, { text: "c", marks: ["b"] }, " d"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          { text: " ", marks: ["i"] },
+          { text: "c", marks: ["b"] },
+          " d",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2615,7 +3107,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i", "b"] }, " ", { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i", "b"] },
+          " ",
+          { foot: footnote },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2680,7 +3178,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote, break: true }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { foot: footnote, break: true },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2693,7 +3197,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { paragraph: true, foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { paragraph: true, foot: footnote },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2726,7 +3236,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { text: "c", marks: ["i"] }, " d"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { text: "c", marks: ["i"] },
+          " d",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2739,7 +3255,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { content: [{ text: "c", marks: ["i"] }] }, " d"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { content: [{ text: "c", marks: ["i"] }] },
+          " d",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -2752,13 +3274,25 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { foot: footnote },
+          "c",
+        ],
       };
       const boldVerse: VerseSchema = {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["b"] }, " ", { foot: footnote }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["b"] },
+          " ",
+          { foot: footnote },
+          "c",
+        ],
       };
       expect(convertVerseToText(italicVerse)).toBe("001:001 a b °{note}c");
       expect(convertVerseToText(boldVerse)).toBe("001:001 a b °{note}c");
@@ -2827,7 +3361,10 @@ describe("exportContent", () => {
         chapter: 1,
         verse: 1,
         content: [
-          { text: "a", foot: { type: "trn", content: { text: " x ", marks: ["i"] } } },
+          {
+            text: "a",
+            foot: { type: "trn", content: { text: " x ", marks: ["i"] } },
+          },
           " b",
         ],
       };
@@ -2844,7 +3381,10 @@ describe("exportContent", () => {
         chapter: 1,
         verse: 1,
         content: [
-          { text: "a", foot: { type: "trn", content: { text: " ", marks: ["i"] } } },
+          {
+            text: "a",
+            foot: { type: "trn", content: { text: " ", marks: ["i"] } },
+          },
           " b",
         ],
       };
@@ -2860,7 +3400,10 @@ describe("exportContent", () => {
         chapter: 1,
         verse: 1,
         content: [
-          { text: "a", foot: { type: "trn", content: { text: " x ", marks: ["b", "i"] } } },
+          {
+            text: "a",
+            foot: { type: "trn", content: { text: " x ", marks: ["b", "i"] } },
+          },
           " b",
         ],
       };
@@ -2875,7 +3418,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " c ", { text: "d", marks: ["b"] }, " e"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " c ",
+          { text: "d", marks: ["b"] },
+          " e",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -3032,8 +3581,12 @@ describe("exportContent", () => {
         content: ["a ", { text: "b", marks: ["b"] }, " c"],
       };
       const footnotes: string[] = [];
-      expect(convertVerseToMarkdown(italic, footnotes)).toBe("<sup>1</sup> a _b_ c");
-      expect(convertVerseToMarkdown(bold, footnotes)).toBe("<sup>1</sup> a **b** c");
+      expect(convertVerseToMarkdown(italic, footnotes)).toBe(
+        "<sup>1</sup> a _b_ c",
+      );
+      expect(convertVerseToMarkdown(bold, footnotes)).toBe(
+        "<sup>1</sup> a **b** c",
+      );
     });
 
     // The inner bold survives because a tag's angle brackets are punctuation
@@ -3069,7 +3622,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " Hallelu", { text: "jah", marks: ["i"] }, ")"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " Hallelu",
+          { text: "jah", marks: ["i"] },
+          ")",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -3082,7 +3641,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["Hallelu", { text: "jah", marks: ["i"] }, ", ", { text: "z", marks: ["i"] }, " y"],
+        content: [
+          "Hallelu",
+          { text: "jah", marks: ["i"] },
+          ", ",
+          { text: "z", marks: ["i"] },
+          " y",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -3111,7 +3676,13 @@ describe("exportContent", () => {
         book: "XXX",
         chapter: 1,
         verse: 1,
-        content: ["a ", { text: "b", marks: ["i"] }, " ", { foot: { type: "xrf", content: "n" } }, "c"],
+        content: [
+          "a ",
+          { text: "b", marks: ["i"] },
+          " ",
+          { foot: { type: "xrf", content: "n" } },
+          "c",
+        ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
@@ -3139,8 +3710,7 @@ describe("exportContent", () => {
 
   describe("a shared mark stays open across a neighbor that only drops the OTHER mark (independent nested 'b'/'i' delimiters, not whole-mark-set equality)", () => {
     describe("real Matthew 1:23 shape (Isaiah 7:14 quotation: bold+italic throughout except 'they', a supplied word carrying italic only)", () => {
-      // The real footnote's own long body text is abbreviated here for
-      // readability.
+      // The real footnote's body text is abbreviated here for readability.
       const matthew123Quotation: VerseSchema["content"] = [
         "“",
         { text: "Look", marks: ["b", "i"], strong: "G2400" },
@@ -3171,7 +3741,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>23</sup> “_**Look! The virgin will conceive and give birth to a son, and** they **will name him Emmanuel**_,”<sup>a</sup>"
+          "<sup>23</sup> “_**Look! The virgin will conceive and give birth to a son, and** they **will name him Emmanuel**_,”<sup>a</sup>",
         );
         expectWellFormedEmphasis(result);
       });
@@ -3185,7 +3755,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "001:023 “Look G2400! The G3588 virgin G3933 will conceive G1064 and G2532 give birth G5088 to a son G5207, and G2532 they will name G2564 him G846 Emmanuel G1694,”°{A quotation from Isaiah 7:14.}"
+          "001:023 “Look G2400! The G3588 virgin G3933 will conceive G1064 and G2532 give birth G5088 to a son G5207, and G2532 they will name G2564 him G846 Emmanuel G1694,”°{A quotation from Isaiah 7:14.}",
         );
         expect(result).not.toContain("*");
         expect(result).not.toContain("_");
@@ -3193,8 +3763,7 @@ describe("exportContent", () => {
     });
 
     describe("real Romans 4:9 shape (Genesis 15:6 quotation: bold toggles off only for 'faith' and 'Abraham', italic spans the whole thing)", () => {
-      // The real footnote's own body text is abbreviated here for
-      // readability.
+      // The real footnote's body text is abbreviated here for readability.
       const romans49Quotation: VerseSchema["content"] = [
         ", “",
         { text: "faith", marks: ["i"], strong: "G4102" },
@@ -3219,7 +3788,7 @@ describe("exportContent", () => {
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
         expect(result).toBe(
-          "<sup>9</sup> , “_faith **was credited to** Abraham **as righteousness**_.”<sup>a</sup>"
+          "<sup>9</sup> , “_faith **was credited to** Abraham **as righteousness**_.”<sup>a</sup>",
         );
         expectWellFormedEmphasis(result);
       });
@@ -3233,7 +3802,7 @@ describe("exportContent", () => {
         };
         const result = convertVerseToText(verse);
         expect(result).toBe(
-          "004:009 , “faith G4102 was credited G3049 to Abraham G11 as G1519 righteousness G1343.”°{A quotation from Genesis 15:6.}"
+          "004:009 , “faith G4102 was credited G3049 to Abraham G11 as G1519 righteousness G1343.”°{A quotation from Genesis 15:6.}",
         );
         expect(result).not.toContain("*");
         expect(result).not.toContain("_");
@@ -3242,20 +3811,23 @@ describe("exportContent", () => {
   });
 
   describe("a leading subtitle does not strand a stray mid-line '> ' blockquote marker inside a verse line", () => {
-    it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a non-chapter-opening verse (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, so no chapter-level hoist can ever reach it)", () => {
+    it("should hoist a lone leading subtitle above the <sup>N</sup> line, mirroring the existing leading-heading treatment, for a verse deep in its chapter (real CLV1880 Psalm 147:12 shape — the subtitle opens verse 12, not verse 1, exercising the same leading-run rule a chapter-opening verse also uses)", () => {
       const verse: VerseSchema = {
         book: "PSA",
         chapter: 147,
         verse: 12,
         content: [
           { subtitle: "alleluia" },
-          { paragraph: true, text: "lauda Hierusalem Dominum lauda Deum tuum Sion" },
+          {
+            paragraph: true,
+            text: "lauda Hierusalem Dominum lauda Deum tuum Sion",
+          },
         ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toBe(
-        "\n> _alleluia_\n\n<sup>12</sup> lauda Hierusalem Dominum lauda Deum tuum Sion"
+        "\n> _alleluia_\n\n<sup>12</sup> lauda Hierusalem Dominum lauda Deum tuum Sion",
       );
       expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
     });
@@ -3267,36 +3839,50 @@ describe("exportContent", () => {
         verse: 1,
         content: [
           { heading: "A Psalm of David." },
-          { paragraph: true, text: "Lord, how are they increased that trouble me!", break: true },
-        ],
-      };
-      const footnotes: string[] = [];
-      const result = convertVerseToMarkdown(verse, footnotes);
-      expect(result).toBe(
-        "\n### A Psalm of David.\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>"
-      );
-      expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
-    });
-
-    it("regression: the acrostic marker in a [heading, heading] chapter opening (real ASV1901 Psalm 119:1, content shown here as convertVerseToMarkdown receives it once the chapter-level hoist has already consumed the first heading) still hoists via the pre-existing verse-level heading fallback exactly as today", () => {
-      const verse: VerseSchema = {
-        book: "PSA",
-        chapter: 119,
-        verse: 1,
-        content: [
-          { heading: [{ text: "א", script: "H" }, " ALEPH."], type: "acrostic" },
-          { paragraph: true, text: "Blessed are they that are perfect in the way,", break: true },
           {
-            text: "Who walk in the law of Jehovah.",
+            paragraph: true,
+            text: "Lord, how are they increased that trouble me!",
             break: true,
-            foot: { type: "trn", content: ["Or, ", { text: "upright in way", marks: ["i"] }] },
           },
         ],
       };
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toBe(
-        "\n#### א ALEPH.\n\n<sup>1</sup> Blessed are they that are perfect in the way,<br>Who walk in the law of Jehovah.<sup>a</sup><br>"
+        "\n### A Psalm of David.\n\n<sup>1</sup> Lord, how are they increased that trouble me!<br>",
+      );
+      expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
+    });
+
+    it("regression: a single acrostic heading before verse 1's own paragraph still hoists and keeps the paragraph's blank line (real ASV1901 Psalm 119:1's acrostic marker; the multi-heading runs above already cover a [heading, heading] chapter opening)", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 119,
+        verse: 1,
+        content: [
+          {
+            heading: [{ text: "א", script: "H" }, " ALEPH."],
+            type: "acrostic",
+          },
+          {
+            paragraph: true,
+            text: "Blessed are they that are perfect in the way,",
+            break: true,
+          },
+          {
+            text: "Who walk in the law of Jehovah.",
+            break: true,
+            foot: {
+              type: "trn",
+              content: ["Or, ", { text: "upright in way", marks: ["i"] }],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe(
+        "\n#### א ALEPH.\n\n<sup>1</sup> Blessed are they that are perfect in the way,<br>Who walk in the law of Jehovah.<sup>a</sup><br>",
       );
       expect(footnotes).toEqual(["- <sup>a</sup> 1. Or, _upright in way_"]);
       expect(result).not.toMatch(/^<sup>\d+<\/sup> > /);
@@ -3402,7 +3988,10 @@ describe("exportContent", () => {
           {
             text: " τεσσαράκοντα",
             strong: "G5062",
-            foot: { type: "var", content: "B τεσσαράκοντα καὶ δύο ⇒ τεσσαράκοντα δύο = _*M*B" },
+            foot: {
+              type: "var",
+              content: "B τεσσαράκοντα καὶ δύο ⇒ τεσσαράκοντα δύο = _*M*B",
+            },
           },
         ],
       };
@@ -3470,7 +4059,13 @@ describe("exportContent", () => {
         book: "ROM",
         chapter: 3,
         verse: 25,
-        content: [{ text: "αλλα", script: "G", foot: { type: "var", content: [{ abbr: "SBL" }] } }],
+        content: [
+          {
+            text: "αλλα",
+            script: "G",
+            foot: { type: "var", content: [{ abbr: "SBL" }] },
+          },
+        ],
       };
       const footnotes: string[] = [];
       convertVerseToMarkdown(verse, footnotes, REGISTRY);
@@ -3522,7 +4117,9 @@ describe("exportContent", () => {
       expect(footnotes[0]).toContain("_om. here but add at 16:25–27_");
       expect(footnotes[0]).not.toContain("_om._ _here");
       // The text export carries no delimiters either way.
-      expect(convertVerseToText(verse, REGISTRY)).toContain("om. here but add at 16:25–27");
+      expect(convertVerseToText(verse, REGISTRY)).toContain(
+        "om. here but add at 16:25–27",
+      );
     });
 
     it("should leave a bare-string registry name outside the run, opening no span of its own", () => {
@@ -3565,6 +4162,395 @@ describe("exportContent", () => {
       const footnotes: string[] = [];
       convertVerseToMarkdown(verse, footnotes, REGISTRY);
       expect(footnotes[0]).toContain("NA<sup>27</sup> _adds_");
+    });
+  });
+
+  describe("the transliterated markdown export renders the stored romanization in place of the original script", () => {
+    /**
+     * A verse carrying every structural feature the markdown export knows how
+     * to emit: a chapter-opening heading, a subtitle, a paragraph flag, a line
+     * break, a footnote, and all three emphasis marks. Rendered both ways, the
+     * two results must differ in their words and in nothing else.
+     */
+    function richVerse(): VerseSchema {
+      return {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          {
+            heading: [{ text: "Ἀρχή", script: "G", transliteration: "Archḗ" }],
+          },
+          {
+            subtitle: [
+              { text: "Ψαλμός", script: "G", transliteration: "Psalmós" },
+            ],
+          },
+          {
+            paragraph: true,
+            text: "Βίβλος",
+            script: "G",
+            transliteration: "Bíblos",
+            marks: ["b"],
+          },
+          {
+            text: " γενέσεως",
+            script: "G",
+            transliteration: " genéseōs",
+            marks: ["i"],
+            foot: {
+              type: "var",
+              content: [
+                { text: "Δαυίδ", script: "G", transliteration: "Dauíd" },
+              ],
+            },
+          },
+          {
+            text: " Ἰησοῦ",
+            script: "G",
+            transliteration: " Iēsoû",
+            marks: ["sc"],
+            break: true,
+          },
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+    }
+
+    /** Every `<sup>...</sup>` marker in `line`, in the order it appears. */
+    function supMarkers(line: string): string[] {
+      return line.match(/<sup>[^<]*<\/sup>/g) ?? [];
+    }
+
+    /** How many times `delimiter` appears in `line`. */
+    function countOf(line: string, delimiter: string): number {
+      return line.split(delimiter).length - 1;
+    }
+
+    it("should render a node's transliteration instead of its text", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(
+          verse,
+          [],
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS,
+        ),
+      ).toBe("<sup>1</sup> christoû,");
+    });
+
+    it("should keep the space a romanized ano teleia sits behind, the three lines where the two markdown editions used to disagree with each other", () => {
+      // An ano teleia romanizes to an ASCII semicolon, which put the
+      // transliterated edition's own copy of this node inside the strip
+      // rule's character class while the Greek edition's stayed outside it.
+      // Written as escapes: an ano teleia and an ASCII middle dot look
+      // identical in a terminal and in a diff.
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 42,
+        verse: 18,
+        content: [
+          { text: "μου – \u0387", script: "G", transliteration: "mou – ;" },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(
+          verse,
+          [],
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS,
+        ),
+      ).toBe("<sup>18</sup> mou – ;");
+    });
+
+    it("should fall back to a node's text when it carries no transliteration, so an unenriched version exports its own script rather than blanks", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "Βίβλος", script: "G" }, { text: " γενέσεως" }],
+      };
+      expect(
+        convertVerseToMarkdown(
+          verse,
+          [],
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS,
+        ),
+      ).toBe("<sup>1</sup> Βίβλος γενέσεως");
+    });
+
+    it("should leave the normal markdown export reading a node's text, transliteration present or not", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: " χριστοῦ,", script: "G", transliteration: " christoû," },
+        ],
+      };
+      expect(convertVerseToMarkdown(verse, [])).toBe("<sup>1</sup> χριστοῦ,");
+    });
+
+    it("should render a verse carrying every structural feature to a known string", () => {
+      const footnotes: string[] = [];
+      expect(
+        convertVerseToMarkdown(
+          richVerse(),
+          footnotes,
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS,
+        ),
+      ).toBe(
+        // Both leading wrappers are hoisted above the verse number, in source
+        // order, wherever the verse sits in its chapter.
+        "\n### Archḗ\n\n> _Psalmós_\n\n<sup>1</sup> **Bíblos** _genéseōs_<sup>a</sup> IĒSOÛ<br> christoû,",
+      );
+      expect(footnotes).toEqual(["- <sup>a</sup> 1. Dauíd"]);
+    });
+
+    it("should match the normal render's structure line for line, differing only in the words", () => {
+      const plainFootnotes: string[] = [];
+      const plain = convertVerseToMarkdown(richVerse(), plainFootnotes);
+      const romanFootnotes: string[] = [];
+      const roman = convertVerseToMarkdown(
+        richVerse(),
+        romanFootnotes,
+        undefined,
+        MARKDOWN_TRANSLITERATED_OPTIONS,
+      );
+
+      const plainLines = plain.split("\n");
+      const romanLines = roman.split("\n");
+      expect(romanLines).toHaveLength(plainLines.length);
+      plainLines.forEach((line, index) => {
+        expect(supMarkers(romanLines[index])).toEqual(supMarkers(line));
+        expect(countOf(romanLines[index], "**")).toBe(countOf(line, "**"));
+        expect(countOf(romanLines[index], "_")).toBe(countOf(line, "_"));
+        expect(countOf(romanLines[index], "<br>")).toBe(countOf(line, "<br>"));
+        expect(romanLines[index].startsWith("### ")).toBe(
+          line.startsWith("### "),
+        );
+      });
+      expect(romanFootnotes).toHaveLength(plainFootnotes.length);
+      expect(supMarkers(romanFootnotes[0])).toEqual(
+        supMarkers(plainFootnotes[0]),
+      );
+    });
+
+    it("should transliterate a footnote body's Greek, which carries no strong or morph and so looks like nothing the enrichment touched", () => {
+      // BYZ2026's apparatus shape: a variant-reading node inside
+      // `foot.content`, tagged `script` and nothing else.
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 5,
+        content: [
+          {
+            text: "Βοόζ",
+            script: "G",
+            strong: "G1003",
+            morph: "N-PRI",
+            transliteration: "Boóz",
+            foot: {
+              type: "var",
+              content: [
+                {
+                  text: "Βοὸζ … Βοὸζ",
+                  script: "G",
+                  transliteration: "Boòz … Boòz",
+                },
+              ],
+            },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(
+        verse,
+        footnotes,
+        undefined,
+        MARKDOWN_TRANSLITERATED_OPTIONS,
+      );
+      expect(footnotes[0]).toBe("- <sup>a</sup> 5. Boòz … Boòz");
+    });
+
+    it("should print a Greek-lettered registry name unromanized, because a manuscript siglum names a manuscript rather than a word", () => {
+      // "Δ" is Codex Bezae's companion siglum, not the letter delta as text.
+      // Romanized to "D" it would name a different manuscript, so the
+      // registry name renders exactly as the registry writes it.
+      const SIGLA = new Map<string, any>([["MS-DELTA", "Δ"]]);
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 6,
+        content: [
+          {
+            text: "βασιλεύς",
+            script: "G",
+            transliteration: "basileús",
+            foot: { type: "var", content: [{ abbr: "MS-DELTA" }] },
+          },
+        ],
+      };
+      const footnotes: string[] = [];
+      convertVerseToMarkdown(
+        verse,
+        footnotes,
+        SIGLA,
+        MARKDOWN_TRANSLITERATED_OPTIONS,
+      );
+      expect(footnotes[0]).toBe("- <sup>a</sup> 6. Δ");
+      expect(footnotes[0]).not.toContain("D");
+    });
+
+    it("should render a bare string in a content array unchanged, since a string cannot carry a transliteration", () => {
+      const verse: VerseSchema = {
+        book: "MAT",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "Βίβλος", script: "G", transliteration: "Bíblos" },
+          " and ",
+          { text: "γενέσεως", script: "G", transliteration: "genéseōs" },
+        ],
+      };
+      expect(
+        convertVerseToMarkdown(
+          verse,
+          [],
+          undefined,
+          MARKDOWN_TRANSLITERATED_OPTIONS,
+        ),
+      ).toBe("<sup>1</sup> Bíblos and genéseōs");
+    });
+  });
+
+  describe("the markdown export is handed to Prettier before it reaches disk", () => {
+    /**
+     * The characters a reader would see, with everything Prettier is free to
+     * rewrite taken away: block markers, emphasis delimiters, backslash
+     * escapes and every whitespace difference. Two markdown documents that
+     * reduce to the same string say the same words, in the same order, with
+     * the same punctuation.
+     */
+    function markdownTextOnly(markdown: string): string {
+      const unmarked = markdown
+        .split("\n")
+        .map((line) =>
+          line.replace(/^\s*(?:[#>]+\s*|[-*+]\s+|\d+[.)]\s+)*/, ""),
+        )
+        .join("\n");
+
+      let text = "";
+      for (let at = 0; at < unmarked.length; at++) {
+        const character = unmarked[at];
+        if (
+          character === "\\" &&
+          /[!-/:-@[-`{-~]/.test(unmarked[at + 1] ?? "")
+        ) {
+          text += unmarked[++at];
+          continue;
+        }
+        if (character === "*" || character === "_") continue;
+        text += character;
+      }
+
+      return text.replace(/\s+/g, " ").trim();
+    }
+
+    /** Verses covering every construct the markdown renderer emits. */
+    const verses: VerseSchema[] = [
+      {
+        book: "GAL",
+        chapter: 5,
+        verse: 1,
+        content: [
+          { heading: "Paul Defends His Authority" },
+          {
+            paragraph: true,
+            text: "Paul, an apostle—not from men, nor through man,",
+          },
+          { text: " but through ", marks: ["i"] },
+          { text: "Jesus Christ", marks: ["b", "i"] },
+          { text: ", who did raise him out of the dead—" },
+        ],
+      },
+      {
+        book: "GAL",
+        chapter: 5,
+        verse: 2,
+        content: [
+          { text: "to whom " },
+          { text: "is", marks: ["i"] },
+          { text: " the glory to the ages of the ages. Amen." },
+        ],
+      },
+      {
+        book: "JHN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          {
+            text: "ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν,",
+            script: "G",
+            transliteration: "en archē̂ ên ho lógos",
+          },
+          { text: " καὶ θεὸς ἦν ὁ λόγος.", script: "G" },
+        ],
+      },
+      {
+        book: "PSA",
+        chapter: 9,
+        verse: 1,
+        content: [
+          { subtitle: "To the chief Musician upon Muth_labben*" },
+          { paragraph: true, text: "I will praise “thee”, O LORD…" },
+        ],
+      },
+    ];
+
+    /** Renders `verses` the way `convertBibleVersionToMarkdown` renders a chapter. */
+    function renderChapter(): string {
+      const footnotes: string[] = [];
+      const lines = ["## Chapter 1", ""];
+      for (const verse of verses) {
+        lines.push(convertVerseToMarkdown(verse, footnotes));
+      }
+      if (footnotes.length > 0) {
+        lines.push("");
+        for (const footnote of footnotes) lines.push(`> ${footnote}`);
+      }
+      return lines.join("\n") + "\n";
+    }
+
+    it("should leave the formatted markdown settled, so prettier --check passes on the export tree", async () => {
+      const formatted = await formatMarkdownText(renderChapter());
+
+      expect(await formatMarkdownText(formatted)).toBe(formatted);
+    });
+
+    it("should keep every verse's words, punctuation and Greek unchanged through formatting", async () => {
+      const rendered = renderChapter();
+
+      const formatted = await formatMarkdownText(rendered);
+
+      expect(markdownTextOnly(formatted)).toBe(markdownTextOnly(rendered));
+    });
+
+    it("should keep a literal underscore and asterisk from source text out of the emphasis it did not mean", async () => {
+      const rendered = renderChapter();
+
+      const formatted = await formatMarkdownText(rendered);
+
+      expect(markdownTextOnly(formatted)).toContain("Muth_labben*");
     });
   });
 });

@@ -5,15 +5,16 @@
  * ({@link canJoinForward}), wherever that neighbor's own eligibility already
  * makes the fold unambiguous.
  *
- * `auditNodes.ts` ships no detection-side fix of its own — see its domain
- * doc (`_specs/ai-context/4-domains/strongs-node-audit.md`)'s "Read-only by
- * design" note — because a mechanical fixer risks getting the fold direction
- * wrong on real Bible text. This module does not reimplement that judgment:
- * it imports `describeNode`/`isMergeableConnector`/`canJoinForward` directly
- * from `auditNodes.ts` and only acts where those functions already say the
- * fold is safe, keeping exactly one "is this safe" decision in the repo.
- * What this module adds is purely mechanical: building the merged node once
- * eligibility says yes. `utils/validate.ts` calls
+ * `auditNodes.ts` is read-only by design. It ships no detection-side fix of
+ * its own, because a mechanical fixer risks getting the fold direction wrong
+ * on real Bible text. `_specs/documentation/EGP-Graphai/data-pipeline.md`
+ * covers which of its checks repair themselves in `validate.ts`'s auto-fix
+ * pass and which stay report-only. This module does not reimplement that
+ * judgment: it imports `describeNode`/`isMergeableConnector`/`canJoinForward`
+ * directly from `auditNodes.ts` and only acts where those functions already
+ * say the fold is safe, keeping exactly one "is this safe" decision in the
+ * repo. What this module adds is purely mechanical: building the merged node
+ * once eligibility says yes. `utils/validate.ts` calls
  * {@link mergeUnmergedNodesInContent} directly, on every run, with no flag
  * to opt in or out.
  *
@@ -23,7 +24,12 @@
  * `strong`/`break` end up living on.
  */
 
-import { canJoinForward, describeNode, isMergeableConnector, NodeShape } from "./auditNodes";
+import {
+  canJoinForward,
+  describeNode,
+  isMergeableConnector,
+  NodeShape,
+} from "./auditNodes";
 import Content from "../types/Content";
 
 /**
@@ -58,7 +64,10 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
     if (end > at && target !== undefined && canJoinForward(run, target)) {
       const mergedText = run.map((shape) => shape.text).join("") + target.text;
       const targetNode = nodes[end] as Record<string, unknown>;
-      const merged: Record<string, unknown> = { ...targetNode, text: mergedText };
+      const merged: Record<string, unknown> = {
+        ...targetNode,
+        text: mergedText,
+      };
       if (shapes[at].opensParagraph) merged.paragraph = true;
       result.push(merged);
       at = end + 1;
@@ -82,12 +91,20 @@ function mergeSiblings(nodes: readonly unknown[]): unknown[] {
  * object, has no nested levels to rewrite and passes through unchanged.
  */
 function rewriteNode(node: unknown): unknown {
-  if (node === null || typeof node !== "object" || Array.isArray(node)) return node;
+  if (node === null || typeof node !== "object" || Array.isArray(node))
+    return node;
   const record = { ...(node as Record<string, unknown>) };
 
-  if (record.heading !== undefined) record.heading = rewriteLevel(record.heading);
-  if (record.subtitle !== undefined) record.subtitle = rewriteLevel(record.subtitle);
-  if (record.heading === undefined && record.subtitle === undefined && record.bibleLink === undefined && record.content !== undefined) {
+  if (record.heading !== undefined)
+    record.heading = rewriteLevel(record.heading);
+  if (record.subtitle !== undefined)
+    record.subtitle = rewriteLevel(record.subtitle);
+  if (
+    record.heading === undefined &&
+    record.subtitle === undefined &&
+    record.bibleLink === undefined &&
+    record.content !== undefined
+  ) {
     record.content = rewriteLevel(record.content);
   }
 
@@ -141,9 +158,10 @@ function rewriteLevel(content: unknown): unknown {
  * @returns The rewritten tree (the original reference when nothing merged)
  *   and whether anything did
  */
-export function mergeUnmergedNodesInContent(
-  content: Content,
-): { content: Content; changed: boolean } {
+export function mergeUnmergedNodesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   const rewritten = rewriteLevel(content) as Content;
   if (JSON.stringify(rewritten) === JSON.stringify(content)) {
     return { content, changed: false };

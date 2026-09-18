@@ -3522,7 +3522,6 @@
 
 ### Meditations and prayers relating to the law of God.
 
-
 #### א ALEPH.
 
 <sup>1</sup> Blessed are they that are perfect in the way,<br>Who walk in the law of Jehovah.<sup>a</sup><br>

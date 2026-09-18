@@ -17,7 +17,11 @@ describe("relocateMarkBoundarySpacesInContent", () => {
       { text: " Eli,", marks: ["woc"], strong: "G2241" },
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -47,7 +51,11 @@ describe("relocateMarkBoundarySpacesInContent", () => {
       { text: " Lord", marks: ["sc"] },
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -71,11 +79,18 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // deleted rather than relocated.
     const content = [
       { paragraph: true, text: "He said to them, " },
-      { text: "“Why are you fearful, O you of little faith?” ", marks: ["woc"] },
+      {
+        text: "“Why are you fearful, O you of little faith?” ",
+        marks: ["woc"],
+      },
       " Then he got up, rebuked the wind and the sea, and there was a great calm.",
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -99,7 +114,11 @@ describe("relocateMarkBoundarySpacesInContent", () => {
       { text: " word", marks: ["b"] },
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(false);
     expect(skipped).toEqual(["doubled-whitespace", "doubled-whitespace"]);
@@ -145,11 +164,19 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // unformatted node inserted between the two.
     const content = [
       { paragraph: true, text: "Then he " },
-      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      {
+        text: "kept ",
+        marks: ["sc"],
+        foot: { type: "xrf", content: "see note" },
+      },
       "moving forward.",
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -174,17 +201,29 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // the old one.
     const content = [
       { paragraph: true, text: "Then he " },
-      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      {
+        text: "kept ",
+        marks: ["sc"],
+        foot: { type: "xrf", content: "see note" },
+      },
       " moving forward.",
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
     expect(result).toEqual([
       { paragraph: true, text: "Then he " },
-      { text: "kept", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      {
+        text: "kept",
+        marks: ["sc"],
+        foot: { type: "xrf", content: "see note" },
+      },
       " moving forward.",
     ]);
   });
@@ -200,7 +239,11 @@ describe("relocateMarkBoundarySpacesInContent", () => {
       "moving forward.",
     ];
 
-    const { content: result, changed, skipped } = relocateMarkBoundarySpacesInContent(content as never);
+    const {
+      content: result,
+      changed,
+      skipped,
+    } = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(changed).toBe(true);
     expect(skipped).toEqual([]);
@@ -220,12 +263,20 @@ describe("relocateMarkBoundarySpacesInContent", () => {
     // further change needed from either fixer after that.
     const content = [
       { paragraph: true, text: "Then he " },
-      { text: "kept ", marks: ["sc"], foot: { type: "xrf", content: "see note" } },
+      {
+        text: "kept ",
+        marks: ["sc"],
+        foot: { type: "xrf", content: "see note" },
+      },
       "moving forward.",
     ];
 
-    const afterMarkBoundary = relocateMarkBoundarySpacesInContent(content as never);
-    const afterFootnoteSpacing = relocateFootnoteMarkerSpacesInContent(afterMarkBoundary.content);
+    const afterMarkBoundary = relocateMarkBoundarySpacesInContent(
+      content as never,
+    );
+    const afterFootnoteSpacing = relocateFootnoteMarkerSpacesInContent(
+      afterMarkBoundary.content,
+    );
 
     expect(afterFootnoteSpacing.changed).toBe(true);
     expect(afterFootnoteSpacing.skipped).toEqual([]);
@@ -318,22 +369,34 @@ describe("relocateMarkBoundarySpacesInContent", () => {
   });
 
   it("should still relocate onto an unformatted neighbor rather than standing the run on its own", () => {
-    const content = [{ text: "Lord ", marks: ["sc"] }, { text: "said,", strong: "H559" }];
+    const content = [
+      { text: "Lord ", marks: ["sc"] },
+      { text: "said,", strong: "H559" },
+    ];
 
     const result = relocateMarkBoundarySpacesInContent(content as never);
 
     expect(result.changed).toBe(true);
-    expect(result.content).toEqual([{ text: "Lord", marks: ["sc"] }, { text: " said,", strong: "H559" }]);
+    expect(result.content).toEqual([
+      { text: "Lord", marks: ["sc"] },
+      { text: " said,", strong: "H559" },
+    ]);
   });
 
   it("should decline both edges rather than double the whitespace when two formatted nodes each already carry a space", () => {
-    const content = [{ text: "the word ", marks: ["i"] }, { text: " καί", script: "G" }];
+    const content = [
+      { text: "the word ", marks: ["i"] },
+      { text: " καί", script: "G" },
+    ];
 
     const result = relocateMarkBoundarySpacesInContent(content as never);
 
     // One decline per edge: the first node's trailing run has nowhere to go,
     // and neither does the second node's leading run.
-    expect(result.skipped).toEqual(["doubled-whitespace", "doubled-whitespace"]);
+    expect(result.skipped).toEqual([
+      "doubled-whitespace",
+      "doubled-whitespace",
+    ]);
     expect(result.changed).toBe(false);
     expect(result.content).toEqual(content);
   });

@@ -20,13 +20,11 @@ function ContentNode({
   onBibleLinkClick,
   onAbbrClick,
 }) {
-  // Read before any early return: a hook may not sit behind a condition.
+  /** Version abbreviation registry, read before any early return since a hook may not sit behind a condition. */
   const abbreviations = React.useContext(AbbreviationContext);
 
-  // Handle null/undefined
   if (!node) return null;
 
-  // Handle array (recursive)
   if (Array.isArray(node)) {
     return node.map((child, i) => (
       <ContentNode
@@ -40,7 +38,6 @@ function ContentNode({
     ));
   }
 
-  // Handle string
   if (typeof node === "string") {
     return <span>{node}</span>;
   }
@@ -76,15 +73,19 @@ function ContentNode({
     }
 
     // --- Abbreviation Reference ---
-    // The id is all the content carries; what prints and what it means come
-    // from the version registry, so an unknown id degrades to the bare id
-    // rather than rendering nothing. `validate` is what reports it.
+    // What prints and what it means come from the version registry, so an
+    // unknown id degrades to the bare id rather than rendering nothing.
+    // `validate` is what reports it.
     if (node.abbr) {
       const entry = abbreviations && abbreviations.get(node.abbr);
       if (!entry) return <span>{node.abbr}</span>;
 
       const description = entry.description
-        ? getFootnoteText(entry.description, abbreviations)
+        ? getFootnoteText(
+            entry.description,
+            abbreviations,
+            settings.showTransliteration,
+          )
         : "";
       const display = (
         <ContentNode
@@ -112,7 +113,6 @@ function ContentNode({
     // --- Structural Wrappers ---
 
     if (node.paragraph) {
-      // If it's a wrapper object { paragraph: ... }
       if (
         typeof node.paragraph === "object" ||
         typeof node.paragraph === "string" ||
@@ -193,7 +193,6 @@ function ContentNode({
         />
       );
 
-      // Apply formatting marks to the entire nested content
       if (node.marks) {
         if (node.marks.includes("b")) nestedContent = <b>{nestedContent}</b>;
         if (node.marks.includes("i")) nestedContent = <i>{nestedContent}</i>;
@@ -216,7 +215,6 @@ function ContentNode({
           nestedContent = <sup>{nestedContent}</sup>;
       }
 
-      // Handle parsing info for the nested content
       let parsingInfo = [];
       if (settings.showStrongs && node.strong) {
         const strongsLink = node.strong.startsWith("H")
@@ -263,17 +261,23 @@ function ContentNode({
           </span>
         ) : null;
 
-      // Handle footnotes for nested content
+      const footnoteText = node.foot
+        ? getFootnoteText(
+            node.foot.content,
+            abbreviations,
+            settings.showTransliteration,
+          )
+        : "";
       const footnote =
         settings.showFootnotes && node.foot ? (
           <span
             className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-            title={getFootnoteText(node.foot.content, abbreviations)}
+            title={footnoteText}
             onClick={() => {
               if (onFootnoteClick) {
                 onFootnoteClick(node.foot.content);
               } else {
-                alert(getFootnoteText(node.foot.content, abbreviations));
+                alert(footnoteText);
               }
             }}
           >
@@ -300,27 +304,30 @@ function ContentNode({
     }
 
     // --- Text Node ---
+    const { text: printedText, script: printedScript } = printedTextOf(
+      node,
+      settings.showTransliteration,
+    );
     const scriptClass =
-      node.script === "H"
+      printedScript === "H"
         ? "script-hebrew"
-        : node.script === "G"
+        : printedScript === "G"
           ? "script-greek"
           : "";
 
     let content = null;
 
-    if (node.text) {
+    if (printedText) {
       content = (
         <span
           className={scriptClass}
-          {...(node.script === "H" ? { dir: "rtl" } : {})}
+          {...(printedScript === "H" ? { dir: "rtl" } : {})}
         >
-          {node.text}
+          {printedText}
         </span>
       );
     }
 
-    // Formatting Marks
     if (node.marks) {
       if (node.marks.includes("b")) content = <b>{content}</b>;
       if (node.marks.includes("i")) content = <i>{content}</i>;
@@ -342,20 +349,25 @@ function ContentNode({
       if (node.marks.includes("sup")) content = <sup>{content}</sup>;
     }
 
-    // Paragraph break (boolean flag on text node)
     const isBlock = node.paragraph === true;
 
-    // Footnotes
+    const footnoteText = node.foot
+      ? getFootnoteText(
+          node.foot.content,
+          abbreviations,
+          settings.showTransliteration,
+        )
+      : "";
     const footnote =
       settings.showFootnotes && node.foot ? (
         <span
           className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
-          title={getFootnoteText(node.foot.content, abbreviations)}
+          title={footnoteText}
           onClick={() => {
             if (onFootnoteClick) {
               onFootnoteClick(node.foot.content);
             } else {
-              alert(getFootnoteText(node.foot.content, abbreviations));
+              alert(footnoteText);
             }
           }}
         >
@@ -363,7 +375,6 @@ function ContentNode({
         </span>
       ) : null;
 
-    // Strongs / Parsing
     let parsingInfo = [];
     if (settings.showStrongs && node.strong) {
       const strongsLink = node.strong.startsWith("H")

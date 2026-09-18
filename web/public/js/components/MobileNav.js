@@ -1,3 +1,13 @@
+/**
+ * Mobile book drawer: a version picker and the same book list {@link Sidebar}
+ * shows on desktop, behind a scrim that closes it. Switching to a version that
+ * does not carry the open book moves the reader to that version's first book
+ * rather than leaving them on a book it has no file for.
+ *
+ * @param {object} props
+ * @param {object} props.settings - Reader settings; `darkMode` and
+ *   `showTransliteration` are the two read here
+ */
 function MobileNav({
   isOpen,
   onClose,
@@ -30,7 +40,6 @@ function MobileNav({
           </button>
         </div>
 
-        {/* Mobile Version Selector */}
         <div className="p-4 border-b dark:border-gray-700">
           <label className="block text-xs text-gray-500 mb-1">Version</label>
           <select
@@ -74,7 +83,10 @@ function MobileNav({
                   : ""
               }`}
             >
-              <BookName book={book} />
+              <BookName
+                book={book}
+                transliterate={settings.showTransliteration}
+              />
             </button>
           ))}
         </div>

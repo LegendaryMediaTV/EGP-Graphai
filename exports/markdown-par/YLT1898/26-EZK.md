@@ -90,9 +90,6 @@
 
 ## Chapter 4
 
-### Before the fall of Jerusalem
-
-
 ### Symbols of its Fall
 
 <sup>1</sup> “And thou, son of man, take to thee a brick, and thou hast put it before thee, and hast graven on it a city—Jerusalem,
@@ -838,9 +835,6 @@
 
 ## Chapter 25
 
-### Judgement upon the Nations
-
-
 ### Ammon
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -1377,8 +1371,6 @@
 <sup>29</sup> And I hide not any more My face from them, In that I have poured out My spirit on the house of Israel, An affirmation of the Lord Jehovah!”
 
 ## Chapter 40
-
-### The Temple of the Holy City
 
 <sup>1</sup> In the twenty and fifth year of our removal, in the beginning of the year, in the tenth of the month, in the fourteenth year after that the city was smitten, in this self-same day hath a hand of Jehovah been upon me, and He bringeth me in thither;
 <sup>2</sup> in visions of God He hath brought me in unto the land of Israel, and causeth me to rest on a very high mountain, and upon it _is_ as the frame of a city on the south.

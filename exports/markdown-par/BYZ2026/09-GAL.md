@@ -38,7 +38,7 @@
 > - <sup>h</sup> 12. οὔτε ¦ TH οὐδὲ
 > - <sup>i</sup> 12. Ἰησοῦ ¦ PCK _om._
 > - <sup>j</sup> 15. ὁ θεὸς ¦ [NA WH] ¦ SBL _om._
-> - <sup>k</sup> 17. ἀλλὰ ¦ NA<sup>28</sup> TR ἀλλ
+> - <sup>k</sup> 17. ἀλλὰ ¦ NA<sup>28</sup> TR ἀλλ’
 > - <sup>l</sup> 18. ἔτη τρία ¦ WH τρία ἔτη
 > - <sup>m</sup> 18. Πέτρον ¦ CT Κηφᾶν
 > - <sup>n</sup> 21. τῆς ¦ [WH]
@@ -124,7 +124,7 @@
 > - <sup>e</sup> 8. Ἐνευλογηθήσονται ¦ SCR Ευλογηθήσονται
 > - <sup>f</sup> 10. γάρ ¦ CT γὰρ ὅτι
 > - <sup>g</sup> 10. ἐν ¦ CT _om._
-> - <sup>h</sup> 12. ἀλλ ¦ TH ἀλλὰ
+> - <sup>h</sup> 12. ἀλλ’ ¦ TH ἀλλὰ
 > - <sup>i</sup> 12. ἄνθρωπος ¦ CT _om._
 > - <sup>j</sup> 13. γέγραπται γάρ ¦ CT ὅτι γέγραπται
 > - <sup>k</sup> 14. χριστῷ Ἰησοῦ ¦ WH Ἰησοῦ χριστῷ
@@ -175,24 +175,24 @@
 <sup>30</sup> Ἀλλὰ τί λέγει ἡ γραφή; Ἔκβαλε τὴν παιδίσκην καὶ τὸν υἱὸν αὐτῆς, οὐ <sup>aa</sup>γὰρ μὴ <sup>ab</sup>κληρονομήσῃ ὁ υἱὸς τῆς παιδίσκης μετὰ τοῦ υἱοῦ τῆς ἐλευθέρας.
 <sup>31</sup> <sup>ac</sup>Ἄρα, ἀδελφοί, οὐκ ἐσμὲν παιδίσκης τέκνα, ἀλλὰ τῆς ἐλευθέρας.
 
-> - <sup>a</sup> 2. ἀλλὰ ¦ NA<sup>28</sup> PCK ἀλλ
+> - <sup>a</sup> 2. ἀλλὰ ¦ NA<sup>28</sup> PCK ἀλλ’
 > - <sup>b</sup> 3. ἦμεν ¦ NA SBL WH ἤμεθα
 > - <sup>c</sup> 6. ὑμῶν ¦ CT ἡμῶν
-> - <sup>d</sup> 7. ἀλλ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
+> - <sup>d</sup> 7. ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
 > - <sup>e</sup> 7. θεοῦ διὰ χριστοῦ ¦ CT διὰ θεοῦ
 > - <sup>f</sup> 8. μὴ φύσει ¦ CT φύσει μὴ
 > - <sup>g</sup> 9. δουλεύειν ¦ WH δουλεύσαι
 > - <sup>h</sup> 12. Γίνεσθε ¦ TH Γείνεσθε
 > - <sup>i</sup> 14. μου τὸν ¦ CT ὑμῶν
-> - <sup>j</sup> 14. ἀλλ ¦ NA<sup>27</sup> SBL WH ἀλλὰ
-> - <sup>k</sup> 15. Τὶς οὖν ἦν ¦ CT Ποῦ οὖν
+> - <sup>j</sup> 14. ἀλλ’ ¦ NA<sup>27</sup> SBL WH ἀλλὰ
+> - <sup>k</sup> 15. Τίς οὖν ἦν ¦ CT Ποῦ οὖν
 > - <sup>l</sup> 15. ἂν ¦ CT _om._
-> - <sup>m</sup> 17. ἀλλὰ ¦ NA<sup>28</sup> ἀλλ
+> - <sup>m</sup> 17. ἀλλὰ ¦ NA<sup>28</sup> ἀλλ’
 > - <sup>n</sup> 18. τὸ ¦ CT _om._
 > - <sup>o</sup> 19. Τεκνία ¦ NA SBL Τέκνα
 > - <sup>p</sup> 19. ἄχρι ¦ CT μέχρις
 > - <sup>q</sup> 23. μὲν ¦ [WH]
-> - <sup>r</sup> 23. διὰ τῆς ¦ CT δι
+> - <sup>r</sup> 23. διὰ τῆς ¦ CT δι’
 > - <sup>s</sup> 24. δύο ¦ TR αἱ δύο
 > - <sup>t</sup> 24. Σινᾶ ¦ TH Σεινᾶ
 > - <sup>u</sup> 25. γὰρ ¦ NA SBL WH δὲ
@@ -247,7 +247,7 @@
 > - <sup>g</sup> 10. ἂν ¦ CT ἐὰν
 > - <sup>h</sup> 14. πληροῦται ¦ CT πεπλήρωται
 > - <sup>i</sup> 14. ἑαυτόν ¦ CT HF PCK PT RP<sup>mg</sup> σεαυτόν
-> - <sup>j</sup> 15. ὑπὸ ¦ CT PT ὑπ
+> - <sup>j</sup> 15. ὑπὸ ¦ CT PT ὑπ’
 > - <sup>k</sup> 17. δὲ ἀντίκειται ἀλλήλοις ¦ CT γὰρ ἀλλήλοις ἀντίκειται
 > - <sup>l</sup> 17. ἂν ¦ CT ἐὰν
 > - <sup>m</sup> 19. μοιχεία ¦ CT _om._

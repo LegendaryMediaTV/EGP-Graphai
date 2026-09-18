@@ -83,12 +83,19 @@ export function normalizeQuoteText(text: string): QuoteNormalization {
 
     const previous = i > 0 ? original[i - 1] : undefined;
     const previousIsQuote = previous === "'" || previous === '"';
-    const opener = previousIsQuote ? openers[i - 1] : isOpeningContext(previous);
+    const opener = previousIsQuote
+      ? openers[i - 1]
+      : isOpeningContext(previous);
     openers[i] = opener;
 
-    output[i] = character === "'"
-      ? (opener ? OPENING_SINGLE : CLOSING_SINGLE)
-      : (opener ? OPENING_DOUBLE : CLOSING_DOUBLE);
+    output[i] =
+      character === "'"
+        ? opener
+          ? OPENING_SINGLE
+          : CLOSING_SINGLE
+        : opener
+          ? OPENING_DOUBLE
+          : CLOSING_DOUBLE;
     changes += 1;
   }
 
@@ -106,9 +113,10 @@ export function normalizeQuoteText(text: string): QuoteNormalization {
  *   changed, otherwise the original reference) and whether anything changed
  *   at all
  */
-export function normalizeQuotesInContent(
-  content: Content
-): { content: Content; changed: boolean } {
+export function normalizeQuotesInContent(content: Content): {
+  content: Content;
+  changed: boolean;
+} {
   return mapContentText(content, (text) => {
     const rewritten = normalizeQuoteText(text);
     return rewritten.changes > 0 ? rewritten.value : undefined;

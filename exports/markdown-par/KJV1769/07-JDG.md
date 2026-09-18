@@ -542,8 +542,6 @@ And the land had rest forty years.
 
 ## Chapter 11
 
-### Jephthah
-
 <sup>1</sup> Now Jephthah the Gileadite was a mighty man of valour, and he _was_ the son of an harlot:<sup>a</sup> and Gilead begat Jephthah.
 <sup>2</sup> And Gilead’s wife bare him sons; and his wife’s sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father’s house; for thou _art_ the son of a strange woman.
 <sup>3</sup> Then Jephthah fled from<sup>b</sup> his brethren, and dwelt in the land of Tob: and there were gathered vain men to Jephthah, and went out with him.

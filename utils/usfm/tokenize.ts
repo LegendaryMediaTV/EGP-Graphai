@@ -75,15 +75,24 @@ export type Token = TextToken | MarkerToken | OpenToken | CloseToken;
  * `add` — USFM's own standard "translator-supplied words" character
  * marker (the KJV-tradition italics convention for words with no
  * equivalent in the source language) — joined ASV1901's own real Genesis
- * 1:11 ("`...seed, \add and\add* fruit-trees...`", 4,316 real pairs
- * corpus-wide) once this importer's own generality test ran a second real
+ * 1:11 ("`...seed, \add and\add* fruit-trees...`", real pairs throughout
+ * that corpus) once this importer's own generality test ran a second real
  * source through it; WEB's own corpus carries zero, so this was never
  * exercised until then. `imports/kjv/kjvContent.ts:195`'s own
  * already-shipped `add: "i"` mapping for KJV1769's HTML-sourced equivalent
  * construct is the cross-version confirmation this is USFM/repo
  * convention, not a guess.
  */
-const PAIRED_MARKER_NAMES = new Set(["w", "wh", "wj", "f", "x", "bk", "qs", "add"]);
+const PAIRED_MARKER_NAMES = new Set([
+  "w",
+  "wh",
+  "wj",
+  "f",
+  "x",
+  "bk",
+  "qs",
+  "add",
+]);
 
 /** Unpaired markers whose own USFM definition carries a numeric argument immediately after the marker, before any prose. */
 const NUMBERED_MARKERS = new Set(["v", "c"]);
@@ -100,7 +109,10 @@ const ATTRIBUTE_PATTERN = /\|([a-zA-Z]+)="([^"]*)"/g;
  * undefined` when `text` carries no pipe at all, so a close token with
  * nothing to attach stays free of an empty object.
  */
-function splitAttributes(text: string): { text: string; attributes?: Record<string, string> } {
+function splitAttributes(text: string): {
+  text: string;
+  attributes?: Record<string, string>;
+} {
   const pipeIndex = text.indexOf("|");
   if (pipeIndex === -1) return { text };
 
@@ -179,7 +191,9 @@ export function tokenize(source: string): Token[] {
     if (NUMBERED_MARKERS.has(name)) {
       const numberMatch = /^\s*(\d+)/.exec(source.slice(cursor));
       if (numberMatch === null) {
-        throw new Error(`\\${name} with no numeric argument at position ${match.index}`);
+        throw new Error(
+          `\\${name} with no numeric argument at position ${match.index}`,
+        );
       }
       cursor += numberMatch[0].length;
       tokens.push({ type: "marker", name, value: numberMatch[1] });

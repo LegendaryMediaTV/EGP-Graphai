@@ -80,7 +80,11 @@
           "type": "trn",
           "content": [
             "Greek ",
-            { "text": "παρακλητον", "script": "G" },
+            {
+              "text": "παρακλητον",
+              "script": "G",
+              "transliteration": "paraklēton"
+            },
             ": Counselor, Helper, Intercessor, Advocate, and Comforter."
           ]
         }
@@ -99,7 +103,7 @@
           "type": "stu",
           "content": [
             "“atoning sacrifice” is from the Greek “",
-            { "text": "ιλασμος", "script": "G" },
+            { "text": "ιλασμος", "script": "G", "transliteration": "ilasmos" },
             "”, an appeasing, propitiating, or the means of appeasement or propitiation—the sacrifice that turns away God’s wrath because of our sin."
           ]
         }
@@ -554,7 +558,11 @@
           "type": "trn",
           "content": [
             "The phrase “only born” is from the Greek word “",
-            { "text": "μονογενη", "script": "G" },
+            {
+              "text": "μονογενη",
+              "script": "G",
+              "transliteration": "monogenē"
+            },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
         }
@@ -573,7 +581,7 @@
           "type": "stu",
           "content": [
             "“atoning sacrifice” is from the Greek “",
-            { "text": "ιλασμος", "script": "G" },
+            { "text": "ιλασμος", "script": "G", "transliteration": "ilasmos" },
             "”, an appeasing, propitiating, or the means of appeasement or propitiation—the sacrifice that turns away God’s wrath because of our sin."
           ]
         }

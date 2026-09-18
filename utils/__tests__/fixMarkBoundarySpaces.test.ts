@@ -9,7 +9,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: "us", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -26,7 +28,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: "us", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -38,7 +42,10 @@ describe("mergeMarkBoundarySpacesInContent", () => {
 
   it("should leave a stranded space exactly where it is when a textless footnote sibling sits between it and the real next node — merging it forward would carry it past a marker that renders, changing which word that marker hugs", () => {
     const content = [
-      { text: "walked with God, and he was not,", foot: { type: "trn", content: "x" } },
+      {
+        text: "walked with God, and he was not,",
+        foot: { type: "trn", content: "x" },
+      },
       { text: " " },
       { foot: { type: "trn", content: "y" } },
       "for God took him.",
@@ -73,7 +80,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: " the second word.", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -85,7 +94,11 @@ describe("mergeMarkBoundarySpacesInContent", () => {
 
   it("should leave an already-tagged blank exactly where it is when the smaller (wrapper) side would otherwise be backward but the real previous node carries its own foot, real YLT1898 Revelation 2:13 shape — neither direction is safe: backward would manufacture a footnote-marker-spacing finding fixFootnoteMarkerSpacing.ts would re-extract on the next pass, and forward would bundle the blank into target's own larger, unrelated mark set", () => {
     const content = [
-      { text: "...Antipas", marks: ["woc"], foot: { type: "stu", content: "Antipater" } },
+      {
+        text: "...Antipas",
+        marks: ["woc"],
+        foot: { type: "stu", content: "Antipater" },
+      },
       { text: " ", marks: ["woc"] },
       { text: "was", marks: ["i", "woc"] },
     ];
@@ -98,15 +111,28 @@ describe("mergeMarkBoundarySpacesInContent", () => {
 
   it("should roll a stranded space BACKWARD onto the real previous node when that side is the smaller (wrapper) mark set of a subset pair, not always forward (real KJV1769 1 Samuel 16:7 shape: ['i'] is the wrapper, 'sc' is Lord's own local addition)", () => {
     const content = {
-      content: [" him: for ", { text: "the", marks: ["i"] }, " ", { text: "Lord", marks: ["i", "sc"] }, " not as man"],
+      content: [
+        " him: for ",
+        { text: "the", marks: ["i"] },
+        " ",
+        { text: "Lord", marks: ["i", "sc"] },
+        " not as man",
+      ],
       strong: "H120",
     };
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({
-      content: [" him: for ", { text: "the ", marks: ["i"] }, { text: "Lord", marks: ["i", "sc"] }, " not as man"],
+      content: [
+        " him: for ",
+        { text: "the ", marks: ["i"] },
+        { text: "Lord", marks: ["i", "sc"] },
+        " not as man",
+      ],
       strong: "H120",
     });
   });
@@ -118,7 +144,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: "easy,", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -133,16 +161,24 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       " ",
       { text: "and,", marks: ["woc"] },
       " ",
-      { text: "Anyone who curses a parent is to be put to death.", marks: ["b", "woc"] },
+      {
+        text: "Anyone who curses a parent is to be put to death.",
+        marks: ["b", "woc"],
+      },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
       { text: "Honor your father and your mother;", marks: ["b", "woc"] },
       { text: " and, ", marks: ["woc"] },
-      { text: "Anyone who curses a parent is to be put to death.", marks: ["b", "woc"] },
+      {
+        text: "Anyone who curses a parent is to be put to death.",
+        marks: ["b", "woc"],
+      },
     ]);
   });
 
@@ -153,7 +189,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: "Lord", marks: ["sc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(false);
     expect(result).toBe(content);
@@ -166,7 +204,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: " us", marks: ["woc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -182,7 +222,9 @@ describe("mergeMarkBoundarySpacesInContent", () => {
       { text: "Lord", marks: ["i", "sc"] },
     ];
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual([
@@ -219,14 +261,23 @@ describe("mergeMarkBoundarySpacesInContent", () => {
 
   it("should descend into heading, subtitle, and foot.content — a stranded space there merges exactly as it does inside content", () => {
     const content = {
-      heading: [{ text: "The Angel of the", marks: ["sc"] }, " ", { text: "Lord", marks: ["sc"] }],
+      heading: [
+        { text: "The Angel of the", marks: ["sc"] },
+        " ",
+        { text: "Lord", marks: ["sc"] },
+      ],
     };
 
-    const { content: result, changed } = mergeMarkBoundarySpacesInContent(content as never);
+    const { content: result, changed } = mergeMarkBoundarySpacesInContent(
+      content as never,
+    );
 
     expect(changed).toBe(true);
     expect(result).toEqual({
-      heading: [{ text: "The Angel of the", marks: ["sc"] }, { text: " Lord", marks: ["sc"] }],
+      heading: [
+        { text: "The Angel of the", marks: ["sc"] },
+        { text: " Lord", marks: ["sc"] },
+      ],
     });
   });
 

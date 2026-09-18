@@ -1136,9 +1136,7 @@
         "foot": {
           "type": "xrf",
           "content": [
-            { "bibleLink": "Exodus 13:2", "content": "Ex. 13:2" },
-            ", ",
-            { "bibleLink": "Exodus 13:12", "content": "12" },
+            { "bibleLink": "Exodus 13:2, 12", "content": "Ex. 13:2, 12" },
             "."
           ]
         }
@@ -2164,9 +2162,7 @@
         "foot": {
           "type": "xrf",
           "content": [
-            { "bibleLink": "Psalm 91:11", "content": "Ps. 91:11" },
-            ", ",
-            { "bibleLink": "Psalm 91:12", "content": "12" },
+            { "bibleLink": "Psalm 91:11, 12", "content": "Ps. 91:11, 12" },
             "."
           ]
         }
@@ -3931,9 +3927,7 @@
             "Some ancient authorities read ",
             { "text": "the prophet", "marks": ["i"] },
             ". See ",
-            { "bibleLink": "John 1:21", "content": "Jn. 1:21" },
-            ", ",
-            { "bibleLink": "John 1:25", "content": "25" },
+            { "bibleLink": "John 1:21, 25", "content": "Jn. 1:21, 25" },
             "."
           ]
         }
@@ -7381,9 +7375,7 @@
             "Greek ",
             { "text": "recline", "marks": ["i"] },
             ". Compare ",
-            { "bibleLink": "Luke 7:36", "content": "7:36" },
-            ", ",
-            { "bibleLink": "Luke 7:37", "content": "37" },
+            { "bibleLink": "Luke 7:36, 37", "content": "7:36, 37" },
             " margin."
           ]
         }
@@ -7435,9 +7427,7 @@
             "Greek ",
             { "text": "reclined", "marks": ["i"] },
             ". Compare ",
-            { "bibleLink": "Luke 7:36", "content": "7:36" },
-            ", ",
-            { "bibleLink": "Luke 7:37", "content": "37" },
+            { "bibleLink": "Luke 7:36, 37", "content": "7:36, 37" },
             " margin."
           ]
         }
@@ -7824,9 +7814,7 @@
             "Greek ",
             { "text": "kissed him much", "marks": ["i"] },
             ". See ",
-            { "bibleLink": "Luke 7:38", "content": "7:38" },
-            ", ",
-            { "bibleLink": "Luke 7:45", "content": "45" },
+            { "bibleLink": "Luke 7:38, 45", "content": "7:38, 45" },
             "."
           ]
         }
@@ -7998,11 +7986,10 @@
             "Greek ",
             { "text": "baths", "marks": ["i"] },
             ", the bath being a Hebrew measure. See ",
-            { "bibleLink": "Ezekiel 45:10", "content": "Ezek. 45:10" },
-            ", ",
-            { "bibleLink": "Ezekiel 45:11", "content": "11" },
-            ", ",
-            { "bibleLink": "Ezekiel 45:14", "content": "14" },
+            {
+              "bibleLink": "Ezekiel 45:10, 11, 14",
+              "content": "Ezek. 45:10, 11, 14"
+            },
             "."
           ]
         }
@@ -8715,11 +8702,7 @@
             "Or, ",
             { "text": "Do me justice of", "marks": ["i"] },
             ": and so in verses ",
-            { "bibleLink": "Luke 18:5", "content": "5" },
-            ", ",
-            { "bibleLink": "Luke 18:7", "content": "7" },
-            ", ",
-            { "bibleLink": "Luke 18:8", "content": "8" },
+            { "bibleLink": "Luke 18:5, 7, 8", "content": "5, 7, 8" },
             "."
           ]
         }
@@ -10906,9 +10889,7 @@
           "type": "var",
           "content": [
             "Many ancient authorities omit verses ",
-            { "bibleLink": "Luke 22:43", "content": "43" },
-            ", ",
-            { "bibleLink": "Luke 22:44", "content": "44" }
+            { "bibleLink": "Luke 22:43, 44", "content": "43, 44" }
           ]
         }
       },

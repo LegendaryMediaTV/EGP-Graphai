@@ -1,7 +1,5 @@
 ## Chapter 1
 
-### Sacrifices
-
 <sup>1</sup> And Jehovah calleth unto Moses, and speaketh unto him out of the tent of meeting, saying,
 <sup>2</sup> “Speak unto the sons of Israel, and thou hast said unto them, Any man of you when he doth bring near an offering to Jehovah, out of the cattle—out of the herd, or out of the flock—ye do bring near your offering.
 
@@ -345,8 +343,6 @@
 
 ## Chapter 11
 
-### Things Clean and Unclean
-
 <sup>1</sup> And Jehovah speaketh unto Moses and unto Aaron, saying unto them,
 <sup>2</sup> “Speak unto the sons of Israel, saying, This _is_ the beast which ye do eat out of all the beasts which _are_ on the earth:
 
@@ -627,8 +623,6 @@
 <sup>34</sup> “And this hath been to you for a statute age-during, to make atonement for the sons of Israel, because of all their sins, once in a year;” and he doth as Jehovah hath commanded Moses.
 
 ## Chapter 17
-
-### Law of Holiness
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
 

@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { normalizeQuoteText, normalizeQuotesInContent } from "../normalizeStraightQuotes";
+import {
+  normalizeQuoteText,
+  normalizeQuotesInContent,
+} from "../normalizeStraightQuotes";
 import Content from "../../types/Content";
 
 describe("normalizeQuoteText — basic direction", () => {
@@ -26,8 +29,12 @@ describe("normalizeQuoteText — apostrophes fall out of the closing rule for fr
   });
 
   it("should render a possessive apostrophe after a word ending in s as the closing glyph", () => {
-    expect(normalizeQuoteText("the servant's word").value).toBe("the servant’s word");
-    expect(normalizeQuoteText("the witnesses' report").value).toBe("the witnesses’ report");
+    expect(normalizeQuoteText("the servant's word").value).toBe(
+      "the servant’s word",
+    );
+    expect(normalizeQuoteText("the witnesses' report").value).toBe(
+      "the witnesses’ report",
+    );
   });
 });
 
@@ -81,7 +88,9 @@ describe("normalizeQuoteText — idempotency and no-op", () => {
 
 describe("normalizeQuotesInContent", () => {
   it("should normalize a straight quote in a node's own text", () => {
-    expect(normalizeQuotesInContent([{ text: "the servant's word", marks: ["i"] }])).toEqual({
+    expect(
+      normalizeQuotesInContent([{ text: "the servant's word", marks: ["i"] }]),
+    ).toEqual({
       content: [{ text: "the servant’s word", marks: ["i"] }],
       changed: true,
     });
@@ -90,11 +99,17 @@ describe("normalizeQuotesInContent", () => {
   it("should reach a nested foot.content node — proving the tree-walking half is wired to the rewriter", () => {
     expect(
       normalizeQuotesInContent([
-        { text: "word", foot: { type: "trn", content: [{ text: "the servant's word" }] } },
+        {
+          text: "word",
+          foot: { type: "trn", content: [{ text: "the servant's word" }] },
+        },
       ]),
     ).toEqual({
       content: [
-        { text: "word", foot: { type: "trn", content: [{ text: "the servant’s word" }] } },
+        {
+          text: "word",
+          foot: { type: "trn", content: [{ text: "the servant’s word" }] },
+        },
       ],
       changed: true,
     });

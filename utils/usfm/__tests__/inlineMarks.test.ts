@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { buildRunNodes, collapseContentNodes, mergeConnectors, moveTrailingPunctuationBackward } from "../inlineMarks";
+import {
+  buildRunNodes,
+  collapseContentNodes,
+  mergeConnectors,
+  moveTrailingPunctuationBackward,
+} from "../inlineMarks";
 
 /**
  * `mergeConnectors` is tested directly against synthetic `ContentObject[]`
@@ -15,31 +20,48 @@ import { buildRunNodes, collapseContentNodes, mergeConnectors, moveTrailingPunct
  */
 
 describe("mergeConnectors — forward-default, backward-fallback, matching KJV1769 Genesis 1:1 exactly", () => {
-  it("should merge an untagged leading connector forward into the strong-carrying node it precedes (KJV1769 01-GEN.json 1:1: \"In the beginning\"/H7225)", () => {
-    const result = mergeConnectors([{ text: "In the " }, { text: "beginning", strong: "H7225" }]);
+  it('should merge an untagged leading connector forward into the strong-carrying node it precedes (KJV1769 01-GEN.json 1:1: "In the beginning"/H7225)', () => {
+    const result = mergeConnectors([
+      { text: "In the " },
+      { text: "beginning", strong: "H7225" },
+    ]);
     expect(result).toEqual([{ text: "In the beginning", strong: "H7225" }]);
   });
 
-  it("should fall back to merging backward when nothing strong-carrying follows in the same run (John 14:16's own bare \"Counselor,\" after \"another\"/G3588)", () => {
+  it('should fall back to merging backward when nothing strong-carrying follows in the same run (John 14:16\'s own bare "Counselor," after "another"/G3588)', () => {
     const result = mergeConnectors([
       { text: "another", strong: "G3588", marks: ["woc"] },
       { text: " Counselor,", marks: ["woc"] },
     ]);
-    expect(result).toEqual([{ text: "another Counselor,", strong: "G3588", marks: ["woc"] }]);
+    expect(result).toEqual([
+      { text: "another Counselor,", strong: "G3588", marks: ["woc"] },
+    ]);
   });
 
   it("should never merge across a marks mismatch, leaving both nodes split (guide §6's own Genesis 2:4 example)", () => {
-    const result = mergeConnectors([{ text: "the " }, { text: "Lord", strong: "H3068", marks: ["sc"] }]);
-    expect(result).toEqual([{ text: "the " }, { text: "Lord", strong: "H3068", marks: ["sc"] }]);
+    const result = mergeConnectors([
+      { text: "the " },
+      { text: "Lord", strong: "H3068", marks: ["sc"] },
+    ]);
+    expect(result).toEqual([
+      { text: "the " },
+      { text: "Lord", strong: "H3068", marks: ["sc"] },
+    ]);
   });
 
-  it("should never merge a connector that already carries its own foot into a neighbor (guide §6's own Job 19:10 example: \"like an uprooted\" itself carries the footnote, not \"tree\" beside it)", () => {
+  it('should never merge a connector that already carries its own foot into a neighbor (guide §6\'s own Job 19:10 example: "like an uprooted" itself carries the footnote, not "tree" beside it)', () => {
     const result = mergeConnectors([
-      { text: "like an uprooted", foot: { type: "trn", content: "or, a fallen" } },
+      {
+        text: "like an uprooted",
+        foot: { type: "trn", content: "or, a fallen" },
+      },
       { text: "tree", strong: "H6131" },
     ]);
     expect(result).toEqual([
-      { text: "like an uprooted", foot: { type: "trn", content: "or, a fallen" } },
+      {
+        text: "like an uprooted",
+        foot: { type: "trn", content: "or, a fallen" },
+      },
       { text: "tree", strong: "H6131" },
     ]);
   });
@@ -47,13 +69,23 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
   it("should still merge a plain connector forward into a strong-carrying node that already carries its own foot (the target's own foot is untouched by the merge, and moveTrailingPunctuationBackward still needs to be able to peel leading punctuation back off a footnoted node)", () => {
     const result = mergeConnectors([
       { text: ", " },
-      { text: "God", strong: "H8064", foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." } },
+      {
+        text: "God",
+        strong: "H8064",
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
+      },
     ]);
     expect(result).toEqual([
       {
         text: ", God",
         strong: "H8064",
-        foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." },
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
       },
     ]);
   });
@@ -61,20 +93,44 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
   it("should merge a plain connector forward into a node carrying only foot, no strong at all — the real WEBUS2020 Genesis 1:1 regression once Strong's numbers are suppressed", () => {
     const result = mergeConnectors([
       { text: "In the beginning, " },
-      { text: "God", foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." } },
+      {
+        text: "God",
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
+      },
     ]);
     expect(result).toEqual([
-      { text: "In the beginning, God", foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." } },
+      {
+        text: "In the beginning, God",
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
+      },
     ]);
   });
 
-  it("should not fall back and merge a trailing connector backward into a foot-only node once nothing follows it — appending text after a foot's own anchor would push real, un-footnoted prose past the footnote's own marker (the real Genesis 1:1 shape: \"created the heavens and the earth.\" must stay its own node, not get absorbed into \"God\"+foot)", () => {
+  it('should not fall back and merge a trailing connector backward into a foot-only node once nothing follows it — appending text after a foot\'s own anchor would push real, un-footnoted prose past the footnote\'s own marker (the real Genesis 1:1 shape: "created the heavens and the earth." must stay its own node, not get absorbed into "God"+foot)', () => {
     const result = mergeConnectors([
-      { text: "God", foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." } },
+      {
+        text: "God",
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
+      },
       { text: " created the heavens and the earth." },
     ]);
     expect(result).toEqual([
-      { text: "God", foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." } },
+      {
+        text: "God",
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
+      },
       { text: " created the heavens and the earth." },
     ]);
   });
@@ -84,7 +140,10 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
       { text: "In the beginning, " },
       {
         text: "God",
-        foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." },
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
         paragraph: true,
       },
     ]);
@@ -92,7 +151,10 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
       { text: "In the beginning, " },
       {
         text: "God",
-        foot: { type: "stu", content: "The Hebrew word rendered “God” is “Elohim”." },
+        foot: {
+          type: "stu",
+          content: "The Hebrew word rendered “God” is “Elohim”.",
+        },
         paragraph: true,
       },
     ]);
@@ -101,17 +163,35 @@ describe("mergeConnectors — forward-default, backward-fallback, matching KJV17
   it("should never merge a connector forward into a foot-only node across a marks mismatch, the same guide §6 rule that already applies to a strong-carrying target", () => {
     const result = mergeConnectors([
       { text: "the ", marks: ["woc"] },
-      { text: "Lord", foot: { type: "stu", content: "The word translated “Lord” is “Adonai.”" } },
+      {
+        text: "Lord",
+        foot: {
+          type: "stu",
+          content: "The word translated “Lord” is “Adonai.”",
+        },
+      },
     ]);
     expect(result).toEqual([
       { text: "the ", marks: ["woc"] },
-      { text: "Lord", foot: { type: "stu", content: "The word translated “Lord” is “Adonai.”" } },
+      {
+        text: "Lord",
+        foot: {
+          type: "stu",
+          content: "The word translated “Lord” is “Adonai.”",
+        },
+      },
     ]);
   });
 
   it("should leave a foot-only node's own break flag alone (this module's own real call sites never hand it one — break is attached by usfm/blockStructure.ts strictly after buildRunNodes/mergeConnectors have already produced their final nodes, and InlineTextPiece itself has no break field to carry one through pieceToNode in the first place); confirmed empirically too — auditNodes.ts's own unmerged-connector check finds zero \"break present, foot/strong absent\" targets anywhere in the real WEBUS2020 corpus, every finding foot-carrying, none break-only — so this stays a locking test: break needs no entry in isMergeTarget", () => {
-    const result = mergeConnectors([{ text: "In the beginning, " }, { text: "God", break: true }]);
-    expect(result).toEqual([{ text: "In the beginning, " }, { text: "God", break: true }]);
+    const result = mergeConnectors([
+      { text: "In the beginning, " },
+      { text: "God", break: true },
+    ]);
+    expect(result).toEqual([
+      { text: "In the beginning, " },
+      { text: "God", break: true },
+    ]);
   });
 
   it("should let a textless Strong's-only sibling stop a forward scan outright, never skipping past it to a later strong-carrying node", () => {
@@ -172,7 +252,11 @@ describe("buildRunNodes — the leading-space convention, whitespace folding, an
   });
 
   it("should trim the run's own outer edges but never an internal joining space", () => {
-    const nodes = buildRunNodes([{ text: "  " }, { text: "Selah." }, { text: "  " }]);
+    const nodes = buildRunNodes([
+      { text: "  " },
+      { text: "Selah." },
+      { text: "  " },
+    ]);
     expect(nodes).toEqual([{ text: "Selah." }]);
   });
 
@@ -187,7 +271,7 @@ describe("buildRunNodes — the leading-space convention, whitespace folding, an
 });
 
 describe("buildRunNodes — convention #3: tight (closing) punctuation trails the word it ends, never leads the word after it", () => {
-  it("should move a comma off the leading edge of the following strong-carrying node onto the trailing edge of the one before it (KJV1769/utils/auditNodes.ts's own illustrative shape, and the real Genesis 1:1: \"beginning,\"/H7225 + \" God\"/H8064, not \"beginning\"/H7225 + \", God\"/H8064)", () => {
+  it('should move a comma off the leading edge of the following strong-carrying node onto the trailing edge of the one before it (KJV1769/utils/auditNodes.ts\'s own illustrative shape, and the real Genesis 1:1: "beginning,"/H7225 + " God"/H8064, not "beginning"/H7225 + ", God"/H8064)', () => {
     const nodes = buildRunNodes([
       { text: "beginning", strong: "H7225" },
       { text: ", " },
@@ -200,13 +284,16 @@ describe("buildRunNodes — convention #3: tight (closing) punctuation trails th
   });
 
   it("should leave the punctuation leading the following node when no real attachment point precedes it at all", () => {
-    const nodes = buildRunNodes([{ text: ", " }, { text: "beginning", strong: "H7225" }]);
+    const nodes = buildRunNodes([
+      { text: ", " },
+      { text: "beginning", strong: "H7225" },
+    ]);
     expect(nodes).toEqual([{ text: ", beginning", strong: "H7225" }]);
   });
 });
 
-describe("moveTrailingPunctuationBackward — tested directly against synthetic ContentObject[] input for shapes buildRunNodes's own piece-level interface cannot construct (a textless sibling, an \"sc\" mark)", () => {
-  it("should skip over a textless Strong's-only sibling to find the real attachment point behind it, exactly as utils/auditNodes.ts's own check does (its own real corpus example: \"... and female\"/H5347, a bare {strong: H1961} sibling, then \", to keep ...\"/H2421)", () => {
+describe('moveTrailingPunctuationBackward — tested directly against synthetic ContentObject[] input for shapes buildRunNodes\'s own piece-level interface cannot construct (a textless sibling, an "sc" mark)', () => {
+  it('should skip over a textless Strong\'s-only sibling to find the real attachment point behind it, exactly as utils/auditNodes.ts\'s own check does (its own real corpus example: "... and female"/H5347, a bare {strong: H1961} sibling, then ", to keep ..."/H2421)', () => {
     const result = moveTrailingPunctuationBackward([
       { text: "female", strong: "H5347" },
       { strong: "H1961" },
@@ -219,7 +306,7 @@ describe("moveTrailingPunctuationBackward — tested directly against synthetic 
     ]);
   });
 
-  it("should never move punctuation across a marks mismatch, leaving it leading the node it was already on (guide §6's own \"stays split\" rule applies here too)", () => {
+  it('should never move punctuation across a marks mismatch, leaving it leading the node it was already on (guide §6\'s own "stays split" rule applies here too)', () => {
     const result = moveTrailingPunctuationBackward([
       { text: "Lord", strong: "H3068", marks: ["sc"] },
       { text: ", God", strong: "H430" },
@@ -252,7 +339,7 @@ describe("moveTrailingPunctuationBackward — tested directly against synthetic 
 });
 
 describe("buildRunNodes — coalescing two connector runs a dropped construct (footnote, cross-reference) split apart", () => {
-  it("should coalesce a leading connector and a trailing connector that became adjacent once the aside between them was dropped, then merge the combined connector forward (Genesis 30:24's own real shape: \"Joseph\"/H3130 + \",\" + [footnote dropped] + \" saying, “\" + \"May\"/H3068)", () => {
+  it('should coalesce a leading connector and a trailing connector that became adjacent once the aside between them was dropped, then merge the combined connector forward (Genesis 30:24\'s own real shape: "Joseph"/H3130 + "," + [footnote dropped] + " saying, “" + "May"/H3068)', () => {
     const nodes = buildRunNodes([
       { text: "Joseph", strong: "H3130" },
       { text: "," },
@@ -279,12 +366,17 @@ describe("collapseContentNodes — the three content-schema.json shapes", () => 
   });
 
   it("should keep a textless Strong's-only node as a bare object, never collapsing it to an empty string", () => {
-    expect(collapseContentNodes([{ strong: "H853" }])).toEqual({ strong: "H853" });
+    expect(collapseContentNodes([{ strong: "H853" }])).toEqual({
+      strong: "H853",
+    });
   });
 
   it("should return an array, mixing bare strings and objects, for more than one node", () => {
     expect(
-      collapseContentNodes([{ text: "God" }, { text: " created", strong: "H1254" }]),
+      collapseContentNodes([
+        { text: "God" },
+        { text: " created", strong: "H1254" },
+      ]),
     ).toEqual(["God", { text: " created", strong: "H1254" }]);
   });
 });

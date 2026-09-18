@@ -17,9 +17,14 @@ import type { Abbreviation } from "../../../types/Version";
  * tooltip. Omitted at call sites with no version in scope, where an
  * abbreviation falls back to its bare id.
  *
+ * `transliterate` mirrors the reader's transliteration setting, so a tooltip
+ * reads in the same script as the text it describes rather than reverting to
+ * Greek or Hebrew under a romanized chapter.
+ *
  * @returns The joined display text, or `""` if none can be derived
  */
 export function getFootnoteText(
   content: Content | null | undefined,
-  abbreviations?: ReadonlyMap<string, Abbreviation> | null
+  abbreviations?: ReadonlyMap<string, Abbreviation> | null,
+  transliterate?: boolean,
 ): string;
