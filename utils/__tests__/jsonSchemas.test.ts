@@ -61,6 +61,12 @@ describe("governanceOf", () => {
     expect(governanceOf("package.json")).toEqual({ owner: "npm" });
     expect(governanceOf("package-lock.json")).toEqual({ owner: "npm" });
     expect(governanceOf("tsconfig.json")).toEqual({ owner: "TypeScript" });
+    expect(governanceOf("exports/bb/AMP1987/01-GEN.json")).toEqual({
+      owner: "npm run export",
+    });
+    expect(
+      governanceOf("panta/functions/__tests__/fixtures/nlt2-samples.json"),
+    ).toEqual({ owner: "vitest" });
   });
 
   it("should govern nothing it has no rule for", () => {

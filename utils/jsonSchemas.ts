@@ -136,6 +136,17 @@ const SCHEMA_RULES: SchemaRule[] = [
   },
   { claims: (file) => file === "tsconfig.json", owner: "TypeScript" },
   { claims: (file) => file === ".claude/launch.json", owner: "Claude Code" },
+  {
+    claims: (file) => file === "exports" || file.startsWith("exports/"),
+    owner: "npm run export",
+  },
+  {
+    claims: (file) =>
+      file === "__tests__" ||
+      file.startsWith("__tests__/") ||
+      file.includes("/__tests__/"),
+    owner: "vitest",
+  },
 ];
 
 /**
