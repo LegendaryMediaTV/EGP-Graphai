@@ -718,8 +718,6 @@
 <sup>20</sup> And Moses saith unto the people, “Fear not, for to try you hath God come, and in order that His fear may be before your faces—that ye sin not.”
 <sup>21</sup> And the people stand afar off, and Moses hath drawn nigh unto the thick darkness where God _is_.
 
-### The Book of the Covenant
-
 ### Worship and Justice
 
 <sup>22</sup> And Jehovah saith unto Moses, “Thus dost thou say unto the sons of Israel: Ye—ye have seen that from the heavens I have spoken with you;

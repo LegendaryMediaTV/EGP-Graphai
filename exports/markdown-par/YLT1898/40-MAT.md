@@ -84,8 +84,6 @@ And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king
 
 <sup>1</sup> <sup>a</sup>
 
-### His Baptism and Temptation
-
 ### John the Baptist
 
 And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,
@@ -169,8 +167,6 @@ Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devi
 ## Chapter 5
 
 <sup>1</sup> <sup>a</sup>
-
-### Sermon on the Mount
 
 And having seen the multitudes,<sup>b</sup> he went up to the mount, and he having sat down, his disciples came to him,
 <sup>2</sup> and having opened his mouth, he was teaching them, saying:
@@ -355,8 +351,6 @@ And when he came down from the mount, great multitudes<sup>b</sup> did follow hi
 <sup>3</sup> and having stretched forth the hand, Jesus touched him, saying, “I will, be thou cleansed,” and immediately his leprosy was cleansed.
 <sup>4</sup> And Jesus saith to him, “See, thou mayest tell no one, but go, thyself shew to the priest, and bring the gift that Moses commanded for a testimony to them.”
 
-### Marvellous Deeds
-
 ### Power Over Disease
 
 <sup>5</sup> And Jesus having entered into Capernaum, there came to him a centurion calling upon him,
@@ -464,8 +458,6 @@ And having gone to the boat, he passed over, and came to his own city,
 <sup>33</sup> and the demon having been cast out, the dumb spake, and the multitude did wonder, saying that “It was never so seen in Israel:”
 <sup>34</sup> but the Pharisees said, “By the ruler of the demons he doth cast out the demons.”
 <sup>35</sup> And Jesus was going up and down all the cities and the villages, teaching in their synagogues,<sup>c</sup> and proclaiming the good news of the reign, and healing every sickness and every malady among the people.
-
-### Jesus and His Apostles
 
 <sup>36</sup> And having seen the multitudes, he was moved with compassion for them, that they were faint and cast aside, as sheep not having a shepherd,<sup>d</sup>
 <sup>37</sup> then saith he to his disciples, “The harvest indeed _is_ abundant, but the workmen few;
@@ -681,8 +673,6 @@ At that time did Jesus go on the sabbaths through the corn, and his disciples we
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-
-### Parables of the Kingdom
 
 And in that day Jesus, having gone forth from the house, was sitting by the sea,
 <sup>2</sup> and gathered together unto him were many multitudes, so that he having gone into the boat did sit down, and all the multitude on the beach did stand,
@@ -1165,8 +1155,6 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 ## Chapter 21
 
 <sup>1</sup> <sup>a</sup>
-
-### In Jerusalem
 
 ### Triumphal Entry
 

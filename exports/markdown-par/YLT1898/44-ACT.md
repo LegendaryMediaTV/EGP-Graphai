@@ -13,8 +13,6 @@
 <sup>10</sup> and as they were looking stedfastly to the heaven in his going on, then, lo, two men stood by them in white apparel,
 <sup>11</sup> who also said, “Men, Galileans, why do ye stand gazing into the heaven? this Jesus who was received up from you into the heaven, shall so come in what manner ye saw him going on to the heaven.”
 
-### The Church in Jerusalem
-
 <sup>12</sup> Then did they return to Jerusalem from the mount that is called of Olives, that is near Jerusalem, a sabbath’s journey;
 <sup>13</sup> and when they came in, they went up to the upper room, where were abiding both Peter, and James, and John, and Andrew, Philip, and Thomas, Bartholomew, and Matthew, James, of Alphaeus, and Simon the Zelotes, and Judas, of James;
 <sup>14</sup> these all were continuing with one accord in prayer and supplication,<sup>c</sup> with women, and Mary the mother of Jesus, and with his brethren.
@@ -1021,8 +1019,6 @@ And after these things, Paul having departed out of Athens, came to Corinth,
 <sup>21</sup> but took leave of them, saying, “It behoveth me by all means the coming feast to keep at Jerusalem, and again I will return unto you—God willing.” And he sailed from Ephesus,
 <sup>22</sup> and having come down to Caesarea, having gone up, and having saluted the assembly, he went down to Antioch.
 
-### Third Missionary Journey
-
 <sup>23</sup> And having made some stay he went forth, going through in order the region of Galatia and Phrygia, strengthening all the disciples.
 
 <sup>24</sup> And a certain Jew, Apollos by name, an Alexandrian by birth, a man of eloquence, being mighty in the Writings, came to Ephesus,
@@ -1210,8 +1206,6 @@ And it came to pass, at our sailing, having been parted from them, having run di
 
 <sup>15</sup> And after these days, having taken _our_ vessels, we were going up to Jerusalem,
 <sup>16</sup> and there went also of the disciples from Caesarea with us, bringing with them him with whom we may lodge, a certain Mnason of Cyprus, an aged disciple.
-
-### Paul in Jerusalem
 
 <sup>17</sup> And we having come to Jerusalem, the brethren did gladly receive us,
 <sup>18</sup> and on the morrow Paul was going in with us unto James, all the elders also came,

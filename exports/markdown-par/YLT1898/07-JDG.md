@@ -434,8 +434,6 @@
 
 ## Chapter 11
 
-### Jephthah
-
 <sup>1</sup> And Jephthah the Gileadite hath been a mighty man of valour, and he _is_ son of a woman, a harlot; and Gilead begetteth Jephthah,
 <sup>2</sup> and the wife of Gilead beareth to him sons, and the wife’s sons grow up and cast out Jephthah, and say to him, “Thou dost not inherit in the house of our father; for son of another woman _art_ thou.”
 <sup>3</sup> And Jephthah fleeth from the face of his brethren, and dwelleth in the land of Tob; and vain men gather themselves together unto Jephthah, and they go out with him.

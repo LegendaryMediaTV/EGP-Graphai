@@ -313,8 +313,6 @@ After these things there was a feast of the Jews, and Jesus went up to Jerusalem
 
 <sup>1</sup> <sup>a</sup>
 
-### The Second Passover
-
 After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 <sup>2</sup> and there was following him a great multitude, because they were seeing his signs that he was doing on the ailing;
 <sup>3</sup> and Jesus went up to the mount, and he was there sitting with his disciples,
@@ -806,8 +804,6 @@ And there was a certain one ailing, Lazarus, from Bethany, of the village of Mar
 ## Chapter 13
 
 <sup>1</sup> <sup>a</sup>
-
-### The Third Passover
 
 And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
 

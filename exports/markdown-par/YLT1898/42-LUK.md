@@ -285,8 +285,6 @@
 
 <sup>13</sup> And having ended all temptation, the Devil departed from him till a convenient season.
 
-### His Message and Mission
-
 <sup>14</sup> And Jesus turned back in the power of the Spirit to Galilee, and a fame went forth through all the region round about concerning him,
 <sup>15</sup> and he was teaching in their synagogues, being glorified by all.
 
@@ -1367,8 +1365,6 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 <sup>26</sup> for I say to you, that to every one having<sup>e</sup> shall be given, and from him not having, also what he hath shall be taken from him,
 <sup>27</sup> but those my enemies, who did not wish me to reign over them, bring hither and slay before me.”
 
-### In Jerusalem
-
 ### Triumphal Entry
 
 <sup>28</sup> And having said these things, he went on before, going up to Jerusalem.
@@ -1544,8 +1540,6 @@ And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 > - <sup>e</sup> 34. Lit., _hold off for yourselves…may be burdened by (in, with) a moving of the head,…cares (lit. partings, distractions) of living,…may stand over (or fully) upon you_
 
 ## Chapter 22
-
-### His Death and Resurrection
 
 <sup>1</sup> <sup>a</sup>And the feast of the unleavened food was coming nigh, that is called Passover,
 <sup>2</sup> and the chief priests and the scribes were seeking how they may take him up, for they were afraid of the people.

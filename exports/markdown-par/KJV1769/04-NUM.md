@@ -1022,8 +1022,6 @@
 
 ## Chapter 20
 
-### Wandering in the Wilderness
-
 <sup>1</sup> Then came the children of Israel, _even_ the whole congregation, into the desert of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there.
 
 ### Water from the Rock

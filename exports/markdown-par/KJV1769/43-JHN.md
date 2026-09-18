@@ -295,8 +295,6 @@
 
 ## Chapter 6
 
-### The Second Passover
-
 <sup>1</sup> After these things Jesus went over the sea of Galilee, which is _the sea_ of Tiberias.
 <sup>2</sup> And a great multitude followed him, because they saw his miracles which he did on them that were diseased.
 <sup>3</sup> And Jesus went up into a mountain, and there he sat with his disciples.
@@ -768,8 +766,6 @@
 <sup>50</sup> And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.
 
 ## Chapter 13
-
-### The Third Passover
 
 <sup>1</sup> Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
 

@@ -19,8 +19,6 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 <sup>12</sup> And immediately doth the Spirit put him forth to the wilderness,<sup>d</sup>
 <sup>13</sup> and he was there in the wilderness forty days, being tempted by the Adversary, and he was with the beasts, and the messengers were ministering to him.
 
-### Jesus in Galilee
-
 <sup>14</sup> And after the delivering up of John, Jesus came to Galilee, proclaiming the good news of the reign of God,<sup>e</sup>
 <sup>15</sup> and saying—“Fulfilled hath been the time, and the reign of God hath come nigh, reform ye, and believe in the good news.”
 
@@ -576,8 +574,6 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 
 ## Chapter 10
 
-### Jesus in Judea
-
 ### Beyond Jordan
 
 <sup>1</sup> And having risen thence, he doth come to the coasts of Judea, through the other side of the Jordan, and again do multitudes come together unto him, and, as he had been accustomed, again he was teaching them.<sup>a</sup>
@@ -656,8 +652,6 @@ A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 > - <sup>g</sup> 46. Matthew 20:29–34
 
 ## Chapter 11
-
-### Holy Week
 
 ### Sunday
 

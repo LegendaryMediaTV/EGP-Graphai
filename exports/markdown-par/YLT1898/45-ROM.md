@@ -348,8 +348,6 @@ There is, then, now no condemnation to those in Christ Jesus, who walk not accor
 
 <sup>1</sup> <sup>a</sup>
 
-### The Problem of the Jews
-
 ### The Rejection of Israel
 
 Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,

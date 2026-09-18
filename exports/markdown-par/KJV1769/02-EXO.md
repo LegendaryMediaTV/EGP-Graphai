@@ -815,8 +815,6 @@
 <sup>20</sup> And Moses said unto the people, Fear not: for God is come to prove you, and that his fear may be before your faces, that ye sin not.
 <sup>21</sup> And the people stood afar off, and Moses drew near unto the thick darkness where God _was_.
 
-### The Book of the Covenant
-
 ### Worship and Justice
 
 <sup>22</sup> And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Ye have seen that I have talked with you from heaven.

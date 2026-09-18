@@ -1332,8 +1332,6 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 
 ## Chapter 36
 
-### Isaiah and Hezekiah
-
 <sup>1</sup> Now it came to pass in the fourteenth year of king Hezekiah, _that_ Sennacherib king of Assyria came up against all the defenced cities of Judah, and took them.
 <sup>2</sup> And the king of Assyria sent Rabshakeh from Lachish to Jerusalem unto king Hezekiah with a great army. And he stood by the conduit of the upper pool in the highway of the fuller’s field.
 <sup>3</sup> Then came forth unto him Eliakim, Hilkiah’s son, which was over the house, and Shebna the scribe,<sup>a</sup> and Joah, Asaph’s son, the recorder.

@@ -1,7 +1,5 @@
 ## Chapter 1
 
-### Sacrifices
-
 <sup>1</sup> And the LORD called unto Moses, and spake unto him out of the tabernacle of the congregation, saying,
 <sup>2</sup> Speak unto the children of Israel, and say unto them, If any man of you bring an offering unto the LORD, ye shall bring your offering of the cattle, _even_ of the herd, and of the flock.
 
@@ -373,8 +371,6 @@
 
 ## Chapter 11
 
-### Things Clean and Unclean
-
 <sup>1</sup> And the LORD spake unto Moses and to Aaron, saying unto them,
 <sup>2</sup> Speak unto the children of Israel, saying, These _are_ the beasts which ye shall eat among all the beasts that _are_ on the earth.
 
@@ -689,8 +685,6 @@
 > - <sup>e</sup> 32. Heb. _fill his hand_
 
 ## Chapter 17
-
-### Law of Holiness
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
 

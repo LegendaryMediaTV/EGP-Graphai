@@ -10,8 +10,6 @@
 <sup>5</sup> Your fathers, where _are_ they? and the prophets, do they live for ever?
 <sup>6</sup> But my words and my statutes, which I commanded my servants the prophets, did they not take hold<sup>b</sup> of your fathers? and they returned and said, Like as the LORD of hosts thought to do unto us, according to our ways, and according to our doings, so hath he dealt with us.
 
-### Visions of the Night
-
 ### Among the Myrtle Trees
 
 <sup>7</sup> Upon the four and twentieth day of the eleventh month, which _is_ the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,
@@ -149,8 +147,6 @@
 
 <sup>8</sup> Then cried he upon me, and spake unto me, saying, Behold, these that go toward the north country have quieted my spirit in the north country.
 
-### The New Jerusalem
-
 ### A Coronation
 
 <sup>9</sup> And the word of the LORD came unto me, saying,
@@ -238,8 +234,6 @@
 > - <sup>i</sup> 21. Heb. _to intreat the face_
 
 ## Chapter 9
-
-### The City of God
 
 ### Look to the LORD
 

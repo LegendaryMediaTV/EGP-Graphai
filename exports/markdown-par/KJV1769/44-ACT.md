@@ -13,8 +13,6 @@
 <sup>10</sup> And while they looked stedfastly toward heaven as he went up, behold, two men stood by them in white apparel;
 <sup>11</sup> which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
 
-### The Church in Jerusalem
-
 <sup>12</sup> Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day’s journey.
 <sup>13</sup> And when they were come in, they went up into an upper room, where abode both Peter, and James, and John, and Andrew, Philip, and Thomas, Bartholomew, and Matthew, James _the son_ of Alphæus, and Simon Zelotes, and Judas _the brother_ of James.
 <sup>14</sup> These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.
@@ -954,8 +952,6 @@ _Ye_ men of Athens, I perceive that in all things ye are too superstitious.
 <sup>21</sup> but bade them farewell, saying, I must by all means keep this feast that cometh in Jerusalem: but I will return again unto you, if God will. And he sailed from Ephesus.
 <sup>22</sup> And when he had landed at Cæsarea, and gone up, and saluted the church, he went down to Antioch.
 
-### Third Missionary Journey
-
 <sup>23</sup> And after he had spent some time _there_, he departed, and went over _all_ the country of Galatia and Phrygia in order, strengthening all the disciples.
 
 <sup>24</sup> And a certain Jew named Apollos, born at Alexandria, an eloquent man, _and_ mighty in the scriptures, came to Ephesus.
@@ -1114,8 +1110,6 @@ _Ye_ men of Athens, I perceive that in all things ye are too superstitious.
 
 <sup>15</sup> And after those days we took up our carriages, and went up to Jerusalem.
 <sup>16</sup> There went with us also _certain_ of the disciples of Cæsarea, and brought with them one Mnason of Cyprus, an old disciple, with whom we should lodge.
-
-### Paul in Jerusalem
 
 <sup>17</sup> And when we were come to Jerusalem, the brethren received us gladly.
 <sup>18</sup> And the _day_ following Paul went in with us unto James; and all the elders were present.

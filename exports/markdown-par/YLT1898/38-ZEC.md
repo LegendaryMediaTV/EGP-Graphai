@@ -10,8 +10,6 @@
 <sup>5</sup> Your fathers—where _are_ they? And the prophets—to the age do they live?
 <sup>6</sup> Only, My words, and My statutes, That I commanded My servants the prophets, Have they not overtaken your fathers, And they turn back and say: As Jehovah of Hosts designed to do to us, According to our ways, and according to our doings, So He hath done to us?”
 
-### Visions of the Night
-
 ### Among the Myrtle Trees
 
 <sup>7</sup> On the twenty and fourth day of the eleventh month, (it _is_ the month of Sebat,) in the second year of Darius, hath a word of Jehovah been unto Zechariah, son of Berechiah, son of Iddo, the prophet, saying:
@@ -125,8 +123,6 @@
 
 <sup>8</sup> And he calleth me, and speaketh unto me, saying, “See, those coming forth unto the land of the north have caused My Spirit to rest in the land of the north.”
 
-### The New Jerusalem
-
 ### A Coronation
 
 <sup>9</sup> And there is a word of Jehovah unto me, saying,
@@ -190,8 +186,6 @@
 <sup>23</sup> Thus said Jehovah of Hosts: In those days take hold do ten men of all languages of the nations, Yea, they have taken hold on the skirt of a man, a Jew, saying: We go with you, for we heard God _is_ with you!
 
 ## Chapter 9
-
-### The City of God
 
 ### Look to the Jehovah
 

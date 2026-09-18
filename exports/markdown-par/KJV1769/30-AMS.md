@@ -1,7 +1,5 @@
 ## Chapter 1
 
-### God and the Nations
-
 <sup>1</sup> The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.
 <sup>2</sup> And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.
 
@@ -220,8 +218,6 @@
 
 ## Chapter 7
 
-### Visions of Judgement
-
 ### Locusts
 
 <sup>1</sup> Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers<sup>a</sup> in the beginning of the shooting up of the latter growth; and, lo, _it was_ the latter growth after the king’s mowings.
@@ -239,8 +235,6 @@
 <sup>7</sup> Thus he shewed me: and, behold, the Lord stood upon a wall _made_ by a plumbline, with a plumbline in his hand.
 <sup>8</sup> And the LORD said unto me, Amos, what seest thou? And I said, A plumbline. Then said the Lord, Behold, I will set a plumbline in the midst of my people Israel: I will not again pass by them any more:
 <sup>9</sup> and the high places of Isaac shall be desolate, and the sanctuaries of Israel shall be laid waste; and I will rise against the house of Jeroboam with the sword.
-
-### Amos at Beth-el
 
 <sup>10</sup> Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words.
 <sup>11</sup> For thus Amos saith, Jeroboam shall die by the sword, and Israel shall surely be led away captive out of their own land.

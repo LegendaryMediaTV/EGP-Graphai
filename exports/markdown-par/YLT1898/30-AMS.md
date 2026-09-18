@@ -1,7 +1,5 @@
 ## Chapter 1
 
-### God and the Nations
-
 <sup>1</sup> Words of Amos—who hath been among herdsmen of Tekoa—that he hath seen concerning Israel, in the days of Uzziah king of Judah, and in the days of Jeroboam son of Joash king of Israel, two years before the shaking;
 <sup>2</sup> and he saith: Jehovah from Zion doth roar, And from Jerusalem giveth forth His voice, And mourned have pastures of the shepherds, And withered hath the top of Carmel!
 
@@ -171,8 +169,6 @@
 
 ## Chapter 7
 
-### Visions of Judgement
-
 ### Locusts
 
 <sup>1</sup> Thus hath the Lord Jehovah shewed me, and lo, He is forming locusts at the beginning of the ascending of the latter growth, and lo, the latter growth _is_ after the mowings of the king;
@@ -190,8 +186,6 @@
 <sup>7</sup> Thus hath He shewed me, and lo, the Lord is standing by a wall _made according to_ a plumb-line, and in His hand a plumb-line;
 <sup>8</sup> and Jehovah saith unto me, “What art thou seeing, Amos?” And I say, “A plumb-line;” and the Lord saith: “Lo, I am setting a plumb-line in the midst of My people Israel, I do not add any more to pass over to it.
 <sup>9</sup> And desolated have been high places of Isaac, And sanctuaries of Israel are wasted, And I have risen against the house of Jeroboam with a sword.”
-
-### Amos at Beth-El
 
 <sup>10</sup> And Amaziah priest of Beth-El sendeth unto Jeroboam king of Israel, saying, “Amos hath conspired against thee in the midst of the house of Israel; the land is not able to bear all his words,
 <sup>11</sup> for thus said Amos: By sword die doth Jeroboam, And Israel certainly removeth from off its land.”

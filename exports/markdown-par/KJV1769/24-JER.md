@@ -1091,8 +1091,6 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 
 ## Chapter 26
 
-### Events in the Life of the Prophet
-
 ### Attacked in the Temple
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim the son of Josiah king of Judah came this word from the LORD, saying,
