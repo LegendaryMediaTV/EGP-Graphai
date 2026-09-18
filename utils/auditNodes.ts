@@ -1582,13 +1582,12 @@ const DETACHABLE_PUNCTUATION = /[.,;:!?\u2019\u201D]/;
  * deliberately is not: the two shapes resolve differently — that fixer moves a
  * mark onto an earlier node, this one deletes a space — and a single fixer
  * holding two answers is how a fix pass comes to apply the wrong one. The
- * curly quotes make that concrete twice over. The downstream fork's NKJV1982
- * spaces every one of its closing clusters as house style, so a fixer would
- * rewrite a whole translation's typography; and its NET2019 EZK 13:8 carries
- * `{text: " ’"}` where the U+2019 is an aleph inside the Hebrew
- * transliteration `hinnenî ’êlékâ` and the space is a word boundary, so a
- * fixer would corrupt the word. A person reading the report gets both right;
- * a rewrite rule gets both wrong.
+ * curly quotes make that concrete twice over. A translation whose house
+ * style spaces every closing cluster would have a fixer rewrite that
+ * translation's typography wholesale; and a node carrying `{text: " ’"}`
+ * where the U+2019 is a mid-word letter in a transliteration and the space
+ * is a genuine word boundary would have a fixer corrupt the word. A person
+ * reading the report gets both right; a rewrite rule gets both wrong.
  */
 function hasDetachedPunctuation(shape: NodeShape): boolean {
   const text = shape.text;
@@ -1637,6 +1636,7 @@ interface LevelFindings {
   ellipsisFindings: string[];
   /** The straight-quote check's findings. */
   straightQuoteFindings: StraightQuoteFinding[];
+  /** The dialytika check's findings — each entry is the offending node's own path, not a full finding object. */
   dialytikaFindings: string[];
   /** The footnote-marker-spacing check's findings. */
   footnoteMarkerAfterWhitespace: FootnoteMarkerAfterWhitespaceFinding[];
@@ -1654,7 +1654,7 @@ interface LevelFindings {
  * Walk one array level and every node's own nested levels — `heading`,
  * `subtitle`, a `{paragraph: <content>}` wrapper, a `ContentNested`
  * wrapper's own `content`, and a footnote body's own `foot.content` —
- * collecting all fourteen of the checks findable this way (every check in
+ * collecting all sixteen of the checks findable this way (every check in
  * {@link LevelFindings} except the verse-initial-space check, which only ever looks at a verse's
  * own outermost content) into `sink` as it goes.
  */
@@ -2227,8 +2227,10 @@ export function exitCodeFor(summaries: readonly VersionAudit[]): number {
 }
 
 /**
- * Prints one version's own findings across every check — the first `cap`
- * per check, or every one when `verbose`.
+ * Prints one version's own findings across every check that found something
+ * — the first `cap` per check, or every one when `verbose`. A check with
+ * zero findings prints nothing at all, so a version with one real problem
+ * isn't buried under seventeen "0 ..." lines for the other checks.
  *
  * Exported so `validate.ts` can render the same per-check breakdown inline in
  * its own report instead of maintaining a second copy of this formatting.
@@ -2239,245 +2241,280 @@ export function printFindingLines(
 ): void {
   const cap = verbose ? Infinity : 10;
 
-  console.log(
-    `  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-, foot-, or break-carrying node but didn't`,
-  );
-  for (const finding of summary.unmergedPairs.slice(0, cap)) {
+  if (summary.unmergedPairs.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} plain=${JSON.stringify(finding.plain)} target=${JSON.stringify(finding.target)}`,
+      `  ${summary.unmergedPairs.length} adjacent node pair(s) that should have merged into one strong-, foot-, or break-carrying node but didn't`,
     );
+    for (const finding of summary.unmergedPairs.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} plain=${JSON.stringify(finding.plain)} target=${JSON.stringify(finding.target)}`,
+      );
+    }
+    if (!verbose && summary.unmergedPairs.length > cap)
+      console.log(
+        `    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.unmergedPairs.length > cap)
-    console.log(
-      `    … ${summary.unmergedPairs.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.duplicateFootnoteAnchors.length} textless node(s) whose own foot byte-for-byte repeats an earlier node's`,
-  );
-  for (const finding of summary.duplicateFootnoteAnchors.slice(0, cap)) {
+  if (summary.duplicateFootnoteAnchors.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} target=${JSON.stringify(finding.target)}`,
+      `  ${summary.duplicateFootnoteAnchors.length} textless node(s) whose own foot byte-for-byte repeats an earlier node's`,
     );
+    for (const finding of summary.duplicateFootnoteAnchors.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} target=${JSON.stringify(finding.target)}`,
+      );
+    }
+    if (!verbose && summary.duplicateFootnoteAnchors.length > cap)
+      console.log(
+        `    … ${summary.duplicateFootnoteAnchors.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.duplicateFootnoteAnchors.length > cap)
-    console.log(
-      `    … ${summary.duplicateFootnoteAnchors.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.trailingWhitespace.length} strong-carrying node(s) whose own text ends in trailing whitespace`,
-  );
-  for (const finding of summary.trailingWhitespace.slice(0, cap)) {
+  if (summary.trailingWhitespace.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      `  ${summary.trailingWhitespace.length} strong-carrying node(s) whose own text ends in trailing whitespace`,
     );
+    for (const finding of summary.trailingWhitespace.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      );
+    }
+    if (!verbose && summary.trailingWhitespace.length > cap)
+      console.log(
+        `    … ${summary.trailingWhitespace.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.trailingWhitespace.length > cap)
-    console.log(
-      `    … ${summary.trailingWhitespace.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.leadingPunctuation.length} node(s) whose own text starts with punctuation glued to the wrong node`,
-  );
-  for (const finding of summary.leadingPunctuation.slice(0, cap)) {
+  if (summary.leadingPunctuation.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} attachTo=${JSON.stringify(finding.attachTo)}`,
+      `  ${summary.leadingPunctuation.length} node(s) whose own text starts with punctuation glued to the wrong node`,
     );
+    for (const finding of summary.leadingPunctuation.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} attachTo=${JSON.stringify(finding.attachTo)}`,
+      );
+    }
+    if (!verbose && summary.leadingPunctuation.length > cap)
+      console.log(
+        `    … ${summary.leadingPunctuation.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.leadingPunctuation.length > cap)
-    console.log(
-      `    … ${summary.leadingPunctuation.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.markBoundarySpaces.length} bare joining space(s) stranded between two same-formatting nodes instead of leading the second`,
-  );
-  for (const finding of summary.markBoundarySpaces.slice(0, cap)) {
+  if (summary.markBoundarySpaces.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} space=${JSON.stringify(finding.space)} target=${JSON.stringify(finding.target)}`,
+      `  ${summary.markBoundarySpaces.length} bare joining space(s) stranded between two same-formatting nodes instead of leading the second`,
     );
+    for (const finding of summary.markBoundarySpaces.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} space=${JSON.stringify(finding.space)} target=${JSON.stringify(finding.target)}`,
+      );
+    }
+    if (!verbose && summary.markBoundarySpaces.length > cap)
+      console.log(
+        `    … ${summary.markBoundarySpaces.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.markBoundarySpaces.length > cap)
-    console.log(
-      `    … ${summary.markBoundarySpaces.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.verseInitialSpaces.length} verse(s) whose own content starts with a space`,
-  );
-  for (const finding of summary.verseInitialSpaces.slice(0, cap)) {
+  if (summary.verseInitialSpaces.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) first=${JSON.stringify(finding.first)} next=${JSON.stringify(finding.next)}`,
+      `  ${summary.verseInitialSpaces.length} verse(s) whose own content starts with a space`,
     );
+    for (const finding of summary.verseInitialSpaces.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) first=${JSON.stringify(finding.first)} next=${JSON.stringify(finding.next)}`,
+      );
+    }
+    if (!verbose && summary.verseInitialSpaces.length > cap)
+      console.log(
+        `    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.verseInitialSpaces.length > cap)
-    console.log(
-      `    … ${summary.verseInitialSpaces.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.headingParagraphMismatches.length} heading/subtitle run(s) not immediately followed by a real paragraph start`,
-  );
-  for (const finding of summary.headingParagraphMismatches.slice(0, cap)) {
+  if (summary.headingParagraphMismatches.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) run=${JSON.stringify(finding.run)} next=${JSON.stringify(finding.next)}`,
+      `  ${summary.headingParagraphMismatches.length} heading/subtitle run(s) not immediately followed by a real paragraph start`,
     );
+    for (const finding of summary.headingParagraphMismatches.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) run=${JSON.stringify(finding.run)} next=${JSON.stringify(finding.next)}`,
+      );
+    }
+    if (!verbose && summary.headingParagraphMismatches.length > cap)
+      console.log(
+        `    … ${summary.headingParagraphMismatches.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.headingParagraphMismatches.length > cap)
-    console.log(
-      `    … ${summary.headingParagraphMismatches.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.fractionFindings.length} node(s) whose own text still carries an un-normalized fraction`,
-  );
-  for (const finding of summary.fractionFindings.slice(0, cap)) {
+  if (summary.fractionFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      `  ${summary.fractionFindings.length} node(s) whose own text still carries an un-normalized fraction`,
     );
+    for (const finding of summary.fractionFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      );
+    }
+    if (!verbose && summary.fractionFindings.length > cap)
+      console.log(
+        `    … ${summary.fractionFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.fractionFindings.length > cap)
-    console.log(
-      `    … ${summary.fractionFindings.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.footnotePunctuationOrder.length} footnote marker(s) rendering before punctuation that belongs to the same span`,
-  );
-  for (const finding of summary.footnotePunctuationOrder.slice(0, cap)) {
+  if (summary.footnotePunctuationOrder.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+      `  ${summary.footnotePunctuationOrder.length} footnote marker(s) rendering before punctuation that belongs to the same span`,
     );
+    for (const finding of summary.footnotePunctuationOrder.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} leading=${JSON.stringify(finding.leading)} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+      );
+    }
+    if (!verbose && summary.footnotePunctuationOrder.length > cap)
+      console.log(
+        `    … ${summary.footnotePunctuationOrder.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.footnotePunctuationOrder.length > cap)
-    console.log(
-      `    … ${summary.footnotePunctuationOrder.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.markBoundaryEmbeddedSpaces.length} mark-boundary space(s) embedded inside a node's own text at a boundary where the two real sides disagree`,
-  );
-  for (const finding of summary.markBoundaryEmbeddedSpaces.slice(0, cap)) {
+  if (summary.markBoundaryEmbeddedSpaces.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} side=${finding.side} node=${JSON.stringify(finding.node)} neighbor=${JSON.stringify(finding.neighbor)}`,
+      `  ${summary.markBoundaryEmbeddedSpaces.length} mark-boundary space(s) embedded inside a node's own text at a boundary where the two real sides disagree`,
     );
+    for (const finding of summary.markBoundaryEmbeddedSpaces.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} side=${finding.side} node=${JSON.stringify(finding.node)} neighbor=${JSON.stringify(finding.neighbor)}`,
+      );
+    }
+    if (!verbose && summary.markBoundaryEmbeddedSpaces.length > cap)
+      console.log(
+        `    … ${summary.markBoundaryEmbeddedSpaces.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.markBoundaryEmbeddedSpaces.length > cap)
-    console.log(
-      `    … ${summary.markBoundaryEmbeddedSpaces.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.ellipsisFindings.length} node(s) whose own text still carries an un-normalized ellipsis`,
-  );
-  for (const finding of summary.ellipsisFindings.slice(0, cap)) {
+  if (summary.ellipsisFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      `  ${summary.ellipsisFindings.length} node(s) whose own text still carries an un-normalized ellipsis`,
     );
+    for (const finding of summary.ellipsisFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      );
+    }
+    if (!verbose && summary.ellipsisFindings.length > cap)
+      console.log(
+        `    … ${summary.ellipsisFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.ellipsisFindings.length > cap)
-    console.log(
-      `    … ${summary.ellipsisFindings.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.straightQuoteFindings.length} node(s) whose own text still carries an ASCII straight quote or apostrophe`,
-  );
-  for (const finding of summary.straightQuoteFindings.slice(0, cap)) {
+  if (summary.straightQuoteFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} character=${JSON.stringify(finding.character)} excerpt=${JSON.stringify(finding.excerpt)}`,
+      `  ${summary.straightQuoteFindings.length} node(s) whose own text still carries an ASCII straight quote or apostrophe`,
     );
+    for (const finding of summary.straightQuoteFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} character=${JSON.stringify(finding.character)} excerpt=${JSON.stringify(finding.excerpt)}`,
+      );
+    }
+    if (!verbose && summary.straightQuoteFindings.length > cap)
+      console.log(
+        `    … ${summary.straightQuoteFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.straightQuoteFindings.length > cap)
-    console.log(
-      `    … ${summary.straightQuoteFindings.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.dialytikaFindings.length} node(s) whose own text carries a Greek dialytika written after its accent, or left uncomposed`,
-  );
-  for (const finding of summary.dialytikaFindings.slice(0, cap)) {
+  if (summary.dialytikaFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      `  ${summary.dialytikaFindings.length} node(s) whose own text carries a Greek dialytika written after its accent, or left uncomposed`,
     );
+    for (const finding of summary.dialytikaFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      );
+    }
+    if (!verbose && summary.dialytikaFindings.length > cap)
+      console.log(
+        `    … ${summary.dialytikaFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.dialytikaFindings.length > cap)
-    console.log(
-      `    … ${summary.dialytikaFindings.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.footnoteMarkerAfterWhitespace.length} footnote marker(s) rendering immediately after whitespace`,
-  );
-  for (const finding of summary.footnoteMarkerAfterWhitespace.slice(0, cap)) {
+  if (summary.footnoteMarkerAfterWhitespace.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+      `  ${summary.footnoteMarkerAfterWhitespace.length} footnote marker(s) rendering immediately after whitespace`,
     );
+    for (const finding of summary.footnoteMarkerAfterWhitespace.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} node=${JSON.stringify(finding.node)} next=${JSON.stringify(finding.next)}`,
+      );
+    }
+    if (!verbose && summary.footnoteMarkerAfterWhitespace.length > cap)
+      console.log(
+        `    … ${summary.footnoteMarkerAfterWhitespace.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.footnoteMarkerAfterWhitespace.length > cap)
-    console.log(
-      `    … ${summary.footnoteMarkerAfterWhitespace.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.untaggedScriptRuns.length} node(s) whose own text mixes a Latin letter with an untagged Hebrew or Greek letter`,
-  );
-  for (const finding of summary.untaggedScriptRuns.slice(0, cap)) {
+  if (summary.untaggedScriptRuns.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      `  ${summary.untaggedScriptRuns.length} node(s) whose own text mixes a Latin letter with an untagged Hebrew or Greek letter`,
     );
+    for (const finding of summary.untaggedScriptRuns.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path}`,
+      );
+    }
+    if (!verbose && summary.untaggedScriptRuns.length > cap)
+      console.log(
+        `    … ${summary.untaggedScriptRuns.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.untaggedScriptRuns.length > cap)
-    console.log(
-      `    … ${summary.untaggedScriptRuns.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.mergeableSiblingPairs.length} adjacent node pair(s) that carry nothing but text (optionally agreeing marks/script) and should have merged into one`,
-  );
-  for (const finding of summary.mergeableSiblingPairs.slice(0, cap)) {
+  if (summary.mergeableSiblingPairs.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} first=${JSON.stringify(finding.first)} second=${JSON.stringify(finding.second)}`,
+      `  ${summary.mergeableSiblingPairs.length} adjacent node pair(s) that carry nothing but text (optionally agreeing marks/script) and should have merged into one`,
     );
+    for (const finding of summary.mergeableSiblingPairs.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.where} first=${JSON.stringify(finding.first)} second=${JSON.stringify(finding.second)}`,
+      );
+    }
+    if (!verbose && summary.mergeableSiblingPairs.length > cap)
+      console.log(
+        `    … ${summary.mergeableSiblingPairs.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.mergeableSiblingPairs.length > cap)
-    console.log(
-      `    … ${summary.mergeableSiblingPairs.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.nonStandardWhitespaceFindings.length} node(s) whose own text still carries a non-standard whitespace character`,
-  );
-  for (const finding of summary.nonStandardWhitespaceFindings.slice(0, cap)) {
+  if (summary.nonStandardWhitespaceFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} codePoint=${finding.codePoint} excerpt=${JSON.stringify(finding.excerpt)}`,
+      `  ${summary.nonStandardWhitespaceFindings.length} node(s) whose own text still carries a non-standard whitespace character`,
     );
+    for (const finding of summary.nonStandardWhitespaceFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} codePoint=${finding.codePoint} excerpt=${JSON.stringify(finding.excerpt)}`,
+      );
+    }
+    if (!verbose && summary.nonStandardWhitespaceFindings.length > cap)
+      console.log(
+        `    … ${summary.nonStandardWhitespaceFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.nonStandardWhitespaceFindings.length > cap)
-    console.log(
-      `    … ${summary.nonStandardWhitespaceFindings.length - cap} more (--verbose to list all)`,
-    );
 
-  console.log(
-    `  ${summary.detachedPunctuationFindings.length} node(s) whose own text opens with whitespace and then a closing punctuation mark`,
-  );
-  for (const finding of summary.detachedPunctuationFindings.slice(0, cap)) {
+  if (summary.detachedPunctuationFindings.length > 0) {
     console.log(
-      `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} text=${JSON.stringify(finding.text)}`,
+      `  ${summary.detachedPunctuationFindings.length} node(s) whose own text opens with whitespace and then a closing punctuation mark`,
     );
+    for (const finding of summary.detachedPunctuationFindings.slice(0, cap)) {
+      console.log(
+        `    ${finding.book} ${finding.chapter}:${finding.verse} (${finding.file}) ${finding.path} text=${JSON.stringify(finding.text)}`,
+      );
+    }
+    if (!verbose && summary.detachedPunctuationFindings.length > cap)
+      console.log(
+        `    … ${summary.detachedPunctuationFindings.length - cap} more (--verbose to list all)`,
+      );
   }
-  if (!verbose && summary.detachedPunctuationFindings.length > cap)
-    console.log(
-      `    … ${summary.detachedPunctuationFindings.length - cap} more (--verbose to list all)`,
-    );
 }
 
 /**
- * True when a version's audit found nothing across any check — printed as a
- * single skipped line rather than an empty block, so a report over every
- * version on disk stays readable.
+ * True when a version's audit found nothing across any check — lets a caller
+ * skip a clean version's output entirely instead of printing anything for it.
  *
  * Exported so `validate.ts` can reuse this same clean/dirty test rather than
  * re-deriving it from `VersionAudit`'s own finding arrays itself.

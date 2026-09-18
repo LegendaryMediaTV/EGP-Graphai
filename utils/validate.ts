@@ -255,6 +255,8 @@ async function normalizeBibleLinkDashesInFile(
 
 /** One truncated-range finding {@link reconstructTruncatedRangesInFile} declined to complete, with enough identity to report it. */
 interface TruncatedRangeSkip {
+  /** Version id the skipped verse belongs to. */
+  version: string;
   /** Book id the skipped verse belongs to. */
   book: string;
   /** Chapter number of the skipped verse. */
@@ -296,6 +298,7 @@ async function reconstructTruncatedRangesInFile(
     );
     for (const reason of rewritten.skipped) {
       skipped.push({
+        version: versionId,
         book: verse.book as string,
         chapter: verse.chapter as number,
         verse: verse.verse as number,
@@ -418,6 +421,8 @@ async function normalizeQuotesInFile(filePath: string): Promise<boolean> {
 
 /** One script-run-check finding {@link tagScriptRunsInFile} declined to fix, with enough identity to report it. */
 interface UntaggedScriptRunSkip {
+  /** Version id the skipped verse belongs to. */
+  version: string;
   /** Book id the skipped verse belongs to. */
   book: string;
   /** Chapter number of the skipped verse. */
@@ -442,6 +447,7 @@ interface UntaggedScriptRunSkip {
 async function tagScriptRunsInFile(
   filePath: string,
 ): Promise<{ changed: boolean; skipped: UntaggedScriptRunSkip[] }> {
+  const versionId = path.basename(path.dirname(filePath));
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -451,6 +457,7 @@ async function tagScriptRunsInFile(
     const rewritten = tagScriptRunsInContent(verse.content as Content);
     for (const reason of rewritten.skipped) {
       skipped.push({
+        version: versionId,
         book: verse.book as string,
         chapter: verse.chapter as number,
         verse: verse.verse as number,
@@ -530,6 +537,8 @@ async function reattachLeadingPunctuationInFile(
 
 /** One footnote-punctuation-order-check finding {@link reorderFootnotePunctuationInFile} declined to fix, with enough identity to report it. */
 interface FootnotePunctuationSkip {
+  /** Version id the skipped verse belongs to. */
+  version: string;
   /** Book id the skipped verse belongs to. */
   book: string;
   /** Chapter number of the skipped verse. */
@@ -555,6 +564,7 @@ interface FootnotePunctuationSkip {
 async function reorderFootnotePunctuationInFile(
   filePath: string,
 ): Promise<{ changed: boolean; skipped: FootnotePunctuationSkip[] }> {
+  const versionId = path.basename(path.dirname(filePath));
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -566,6 +576,7 @@ async function reorderFootnotePunctuationInFile(
     );
     for (const reason of rewritten.skipped) {
       skipped.push({
+        version: versionId,
         book: verse.book as string,
         chapter: verse.chapter as number,
         verse: verse.verse as number,
@@ -585,6 +596,8 @@ async function reorderFootnotePunctuationInFile(
 
 /** One mark-boundary-embedded-space-check finding {@link relocateMarkBoundarySpacesInFile} declined to fix, with enough identity to report it. */
 interface MarkBoundarySpaceSkip {
+  /** Version id the skipped verse belongs to. */
+  version: string;
   /** Book id the skipped verse belongs to. */
   book: string;
   /** Chapter number of the skipped verse. */
@@ -606,6 +619,7 @@ interface MarkBoundarySpaceSkip {
 async function relocateMarkBoundarySpacesInFile(
   filePath: string,
 ): Promise<{ changed: boolean; skipped: MarkBoundarySpaceSkip[] }> {
+  const versionId = path.basename(path.dirname(filePath));
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -617,6 +631,7 @@ async function relocateMarkBoundarySpacesInFile(
     );
     for (const reason of rewritten.skipped) {
       skipped.push({
+        version: versionId,
         book: verse.book as string,
         chapter: verse.chapter as number,
         verse: verse.verse as number,
@@ -636,6 +651,8 @@ async function relocateMarkBoundarySpacesInFile(
 
 /** One footnote-marker-spacing-check finding {@link relocateFootnoteMarkerSpacesInFile} declined to fix, with enough identity to report it. */
 interface FootnoteMarkerSpacingSkip {
+  /** Version id the skipped verse belongs to. */
+  version: string;
   /** Book id the skipped verse belongs to. */
   book: string;
   /** Chapter number of the skipped verse. */
@@ -660,6 +677,7 @@ interface FootnoteMarkerSpacingSkip {
 async function relocateFootnoteMarkerSpacesInFile(
   filePath: string,
 ): Promise<{ changed: boolean; skipped: FootnoteMarkerSpacingSkip[] }> {
+  const versionId = path.basename(path.dirname(filePath));
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -671,6 +689,7 @@ async function relocateFootnoteMarkerSpacesInFile(
     );
     for (const reason of rewritten.skipped) {
       skipped.push({
+        version: versionId,
         book: verse.book as string,
         chapter: verse.chapter as number,
         verse: verse.verse as number,
@@ -937,8 +956,8 @@ async function addMissingHeadingParagraphsInFile(
  * `transliterateScriptRuns.ts`'s own top doc comment gives.
  *
  * Reports the `script` code of each node it left as printed, not the verse it
- * sits in; `main` tallies the codes across the run and prints one line per
- * code.
+ * sits in; `main` tags each one with its own version and tallies the codes
+ * per version.
  */
 async function transliterateScriptRunsInFile(
   filePath: string,
@@ -1715,6 +1734,41 @@ function collectLexicalMapFiles(): string[] {
 }
 
 /**
+ * Prints one `⚠️` block for a flat, cross-version list of book/chapter/verse
+ * skip findings the auto-fix pass left for the audit below to report,
+ * grouped by version so a finding is easy to spot under the version it
+ * belongs to instead of buried in an undifferentiated flat list. A no-op
+ * when `skipped` is empty.
+ */
+function printGroupedByVersion(
+  label: string,
+  skipped: readonly {
+    version: string;
+    book: string;
+    chapter: number;
+    verse: number;
+    reason: string;
+  }[],
+): void {
+  if (skipped.length === 0) return;
+
+  console.log(
+    `⚠️  ${skipped.length} ${label} finding(s) left for the audit below to report:`,
+  );
+  for (const [version, findings] of Object.entries(
+    _.groupBy(skipped, "version"),
+  ).sort()) {
+    console.log(`  ${version}:`);
+    for (const skip of findings) {
+      console.log(
+        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
+      );
+    }
+  }
+  console.log("");
+}
+
+/**
  * Validates (and normalizes) one version, or every version when none is
  * requested. The auto-fix pass below runs its steps in a fixed order, each
  * announced by its own console banner; each step's `…InFile` doc comment gives
@@ -1753,9 +1807,8 @@ function collectLexicalMapFiles(): string[] {
  *
  * After that, `main` checks bible-books, each version's `_version.json`,
  * book ordering, and every verse file's schema and content, then runs the
- * report-only audits: declared chapter counts, cross-chapter links,
- * truncated ranges, node conventions, unresolvable `bibleLink` targets,
- * `bibleLink` display prose, and abbreviation references.
+ * report-only corpus-wide audits (see their own `console.log("\nAuditing
+ * ...")` banners below for the current list).
  *
  * **The report-only audits run after the fix pass on purpose.** Several fix
  * steps have a gate that can decline a real finding rather than guess at it.
@@ -1795,7 +1848,7 @@ async function main(requestedVersion?: string) {
     preFixPassSnapshot.set(file, fs.readFileSync(file, "utf-8"));
   }
 
-  console.log("🔑 Sorting keys in verse files...\n");
+  console.log("Sorting keys in verse files...\n");
 
   let sortedCount = 0;
 
@@ -1804,18 +1857,16 @@ async function main(requestedVersion?: string) {
       const wasSorted = await sortVerseFileKeys(file);
       if (wasSorted) {
         sortedCount++;
-        console.log(`  🔄 Sorted keys: ${file}`);
+        console.log(`  ℹ️  Sorted keys: ${file}`);
       }
     }
   }
 
   if (sortedCount > 0) {
-    console.log(`\n✅ Sorted keys in ${sortedCount} file(s)\n`);
-  } else {
-    console.log("✅ All verse files already have correct key order\n");
+    console.log(`\nℹ️  Sorted keys in ${sortedCount} file(s)\n`);
   }
 
-  console.log("🎨 Formatting JSON files with Prettier...\n");
+  console.log("Formatting JSON files with Prettier...\n");
 
   let formattedCount = 0;
 
@@ -1846,18 +1897,16 @@ async function main(requestedVersion?: string) {
       const wasFormatted = await formatJsonFile(file);
       if (wasFormatted) {
         formattedCount++;
-        console.log(`  📝 Formatted: ${file}`);
+        console.log(`  ℹ️  Formatted: ${file}`);
       }
     }
   }
 
   if (formattedCount > 0) {
-    console.log(`\n✅ Formatted ${formattedCount} file(s)\n`);
-  } else {
-    console.log("✅ All JSON files already formatted\n");
+    console.log(`\nℹ️  Formatted ${formattedCount} file(s)\n`);
   }
 
-  console.log("✂️  Hoisting non-reference prose out of bibleLink nodes...\n");
+  console.log("Hoisting non-reference prose out of bibleLink nodes...\n");
 
   let displayProseHoistedCount = 0;
 
@@ -1866,22 +1915,18 @@ async function main(requestedVersion?: string) {
       const wasHoisted = await hoistBibleLinkDisplayProseInFile(file);
       if (wasHoisted) {
         displayProseHoistedCount++;
-        console.log(`  🔄 Hoisted bibleLink display prose: ${file}`);
+        console.log(`  ℹ️  Hoisted bibleLink display prose: ${file}`);
       }
     }
   }
 
   if (displayProseHoistedCount > 0) {
     console.log(
-      `\n✅ Hoisted bibleLink display prose in ${displayProseHoistedCount} file(s)\n`,
-    );
-  } else {
-    console.log(
-      "✅ Every bibleLink already links its reference and nothing else\n",
+      `\nℹ️  Hoisted bibleLink display prose in ${displayProseHoistedCount} file(s)\n`,
     );
   }
 
-  console.log("🔧 Normalizing bibleLink dashes...\n");
+  console.log("Normalizing bibleLink dashes...\n");
 
   let dashNormalizedCount = 0;
 
@@ -1890,21 +1935,19 @@ async function main(requestedVersion?: string) {
       const wasNormalized = await normalizeBibleLinkDashesInFile(file);
       if (wasNormalized) {
         dashNormalizedCount++;
-        console.log(`  🔄 Normalized bibleLink dashes: ${file}`);
+        console.log(`  ℹ️  Normalized bibleLink dashes: ${file}`);
       }
     }
   }
 
   if (dashNormalizedCount > 0) {
     console.log(
-      `\n✅ Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`,
+      `\nℹ️  Normalized bibleLink dashes in ${dashNormalizedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ All bibleLink dashes already normalized\n");
   }
 
   console.log(
-    "1️⃣  Writing the implied chapter into single-chapter shorthand targets...\n",
+    "Writing the implied chapter into single-chapter shorthand targets...\n",
   );
 
   let singleChapterShorthandCount = 0;
@@ -1914,7 +1957,7 @@ async function main(requestedVersion?: string) {
       if (await normalizeSingleChapterShorthandInFile(file)) {
         singleChapterShorthandCount++;
         console.log(
-          `  🔄 Wrote implied chapter into single-chapter shorthand target(s): ${file}`,
+          `  ℹ️  Wrote implied chapter into single-chapter shorthand target(s): ${file}`,
         );
       }
     }
@@ -1922,13 +1965,11 @@ async function main(requestedVersion?: string) {
 
   if (singleChapterShorthandCount > 0) {
     console.log(
-      `\n✅ Wrote implied chapter into single-chapter shorthand targets in ${singleChapterShorthandCount} file(s)\n`,
+      `\nℹ️  Wrote implied chapter into single-chapter shorthand targets in ${singleChapterShorthandCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No single-chapter shorthand targets to rewrite\n");
   }
 
-  console.log("📏 Reconstructing truncated bibleLink ranges...\n");
+  console.log("Reconstructing truncated bibleLink ranges...\n");
 
   let truncatedRangesFixedCount = 0;
   const truncatedRangesSkipped: TruncatedRangeSkip[] = [];
@@ -1938,7 +1979,7 @@ async function main(requestedVersion?: string) {
       const { changed, skipped } = await reconstructTruncatedRangesInFile(file);
       if (changed) {
         truncatedRangesFixedCount++;
-        console.log(`  🔄 Reconstructed truncated bibleLink range(s): ${file}`);
+        console.log(`  ℹ️  Reconstructed truncated bibleLink range(s): ${file}`);
       }
       truncatedRangesSkipped.push(...skipped);
     }
@@ -1946,24 +1987,12 @@ async function main(requestedVersion?: string) {
 
   if (truncatedRangesFixedCount > 0) {
     console.log(
-      `\n✅ Reconstructed truncated bibleLink ranges in ${truncatedRangesFixedCount} file(s)\n`,
+      `\nℹ️  Reconstructed truncated bibleLink ranges in ${truncatedRangesFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No truncated bibleLink ranges found\n");
   }
-  if (truncatedRangesSkipped.length > 0) {
-    console.log(
-      `⚠️  ${truncatedRangesSkipped.length} truncated-range finding(s) left for the audit below to report:`,
-    );
-    for (const skip of truncatedRangesSkipped) {
-      console.log(
-        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
-      );
-    }
-    console.log("");
-  }
+  printGroupedByVersion("truncated-range", truncatedRangesSkipped);
 
-  console.log("✂️  Splitting cross-chapter bibleLink ranges...\n");
+  console.log("Splitting cross-chapter bibleLink ranges...\n");
 
   // Version-scoped rather than file-scoped, unlike the steps around it:
   // fixCrossChapterLinks needs a whole version's chapter-length index, built
@@ -1981,20 +2010,18 @@ async function main(requestedVersion?: string) {
       crossChapterFilesFixedCount++;
       crossChapterSplitsCount += splits;
       console.log(
-        `  🔄 Split ${splits} cross-chapter bibleLink(s): ${versionDir}/${file}`,
+        `  ℹ️  Split ${splits} cross-chapter bibleLink(s): ${versionDir}/${file}`,
       );
     }
   }
 
   if (crossChapterFilesFixedCount > 0) {
     console.log(
-      `\n✅ Split ${crossChapterSplitsCount} cross-chapter bibleLink range(s) across ${crossChapterFilesFixedCount} file(s)\n`,
+      `\nℹ️  Split ${crossChapterSplitsCount} cross-chapter bibleLink range(s) across ${crossChapterFilesFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No cross-chapter bibleLink ranges to split\n");
   }
 
-  console.log("🪢 Merging comma-split verse lists...\n");
+  console.log("Merging comma-split verse lists...\n");
 
   let splitVerseListsMergedCount = 0;
 
@@ -2002,20 +2029,18 @@ async function main(requestedVersion?: string) {
     if (fs.existsSync(file) && isVerseFile(file)) {
       if (await mergeSplitVerseListsInFile(file)) {
         splitVerseListsMergedCount++;
-        console.log(`  🔄 Merged comma-split verse list(s): ${file}`);
+        console.log(`  ℹ️  Merged comma-split verse list(s): ${file}`);
       }
     }
   }
 
   if (splitVerseListsMergedCount > 0) {
     console.log(
-      `\n✅ Merged comma-split verse lists in ${splitVerseListsMergedCount} file(s)\n`,
+      `\nℹ️  Merged comma-split verse lists in ${splitVerseListsMergedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No comma-split verse lists to merge\n");
   }
 
-  console.log("➗ Normalizing fractions...\n");
+  console.log("Normalizing fractions...\n");
 
   let fractionsNormalizedCount = 0;
 
@@ -2024,20 +2049,18 @@ async function main(requestedVersion?: string) {
       const wasNormalized = await normalizeFractionsInFile(file);
       if (wasNormalized) {
         fractionsNormalizedCount++;
-        console.log(`  🔄 Normalized fractions: ${file}`);
+        console.log(`  ℹ️  Normalized fractions: ${file}`);
       }
     }
   }
 
   if (fractionsNormalizedCount > 0) {
     console.log(
-      `\n✅ Normalized fractions in ${fractionsNormalizedCount} file(s)\n`,
+      `\nℹ️  Normalized fractions in ${fractionsNormalizedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ All fractions already normalized\n");
   }
 
-  console.log("🔤 Normalizing ellipses...\n");
+  console.log("Normalizing ellipses...\n");
 
   let ellipsesNormalizedCount = 0;
 
@@ -2046,20 +2069,18 @@ async function main(requestedVersion?: string) {
       const wasNormalized = await normalizeEllipsesInFile(file);
       if (wasNormalized) {
         ellipsesNormalizedCount++;
-        console.log(`  🔄 Normalized ellipses: ${file}`);
+        console.log(`  ℹ️  Normalized ellipses: ${file}`);
       }
     }
   }
 
   if (ellipsesNormalizedCount > 0) {
     console.log(
-      `\n✅ Normalized ellipses in ${ellipsesNormalizedCount} file(s)\n`,
+      `\nℹ️  Normalized ellipses in ${ellipsesNormalizedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ All ellipses already normalized\n");
   }
 
-  console.log("❝ Normalizing straight quotes...\n");
+  console.log("Normalizing straight quotes...\n");
 
   let quotesNormalizedCount = 0;
 
@@ -2068,20 +2089,18 @@ async function main(requestedVersion?: string) {
       const wasNormalized = await normalizeQuotesInFile(file);
       if (wasNormalized) {
         quotesNormalizedCount++;
-        console.log(`  🔄 Normalized straight quotes: ${file}`);
+        console.log(`  ℹ️  Normalized straight quotes: ${file}`);
       }
     }
   }
 
   if (quotesNormalizedCount > 0) {
     console.log(
-      `\n✅ Normalized straight quotes in ${quotesNormalizedCount} file(s)\n`,
+      `\nℹ️  Normalized straight quotes in ${quotesNormalizedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ All quotes already normalized\n");
   }
 
-  console.log("◌̈  Repairing misplaced Greek dialytika...\n");
+  console.log("Repairing misplaced Greek dialytika...\n");
 
   let dialytikaRepairedCount = 0;
 
@@ -2090,20 +2109,18 @@ async function main(requestedVersion?: string) {
       const wasRepaired = await normalizeDiacriticsInFile(file);
       if (wasRepaired) {
         dialytikaRepairedCount++;
-        console.log(`  🔄 Repaired misplaced dialytika: ${file}`);
+        console.log(`  ℹ️  Repaired misplaced dialytika: ${file}`);
       }
     }
   }
 
   if (dialytikaRepairedCount > 0) {
     console.log(
-      `\n✅ Repaired misplaced dialytika in ${dialytikaRepairedCount} file(s)\n`,
+      `\nℹ️  Repaired misplaced dialytika in ${dialytikaRepairedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ All Greek dialytika already well-formed\n");
   }
 
-  console.log("🈯 Tagging untagged script runs...\n");
+  console.log("Tagging untagged script runs...\n");
 
   let scriptRunsTaggedCount = 0;
   const untaggedScriptRunsSkipped: UntaggedScriptRunSkip[] = [];
@@ -2113,7 +2130,7 @@ async function main(requestedVersion?: string) {
       const { changed, skipped } = await tagScriptRunsInFile(file);
       if (changed) {
         scriptRunsTaggedCount++;
-        console.log(`  🔄 Tagged script runs: ${file}`);
+        console.log(`  ℹ️  Tagged script runs: ${file}`);
       }
       untaggedScriptRunsSkipped.push(...skipped);
     }
@@ -2121,24 +2138,12 @@ async function main(requestedVersion?: string) {
 
   if (scriptRunsTaggedCount > 0) {
     console.log(
-      `\n✅ Tagged script runs in ${scriptRunsTaggedCount} file(s)\n`,
+      `\nℹ️  Tagged script runs in ${scriptRunsTaggedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No untagged script runs found\n");
   }
-  if (untaggedScriptRunsSkipped.length > 0) {
-    console.log(
-      `⚠️  ${untaggedScriptRunsSkipped.length} untagged-script-run finding(s) left for the audit below to report:`,
-    );
-    for (const skip of untaggedScriptRunsSkipped) {
-      console.log(
-        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
-      );
-    }
-    console.log("");
-  }
+  printGroupedByVersion("untagged-script-run", untaggedScriptRunsSkipped);
 
-  console.log("🧵 Merging unmerged node pairs...\n");
+  console.log("Merging unmerged node pairs...\n");
 
   let unmergedNodesFixedCount = 0;
 
@@ -2147,20 +2152,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await mergeUnmergedNodesInFile(file);
       if (wasFixed) {
         unmergedNodesFixedCount++;
-        console.log(`  🔄 Merged unmerged node pairs: ${file}`);
+        console.log(`  ℹ️  Merged unmerged node pairs: ${file}`);
       }
     }
   }
 
   if (unmergedNodesFixedCount > 0) {
     console.log(
-      `\n✅ Merged unmerged node pairs in ${unmergedNodesFixedCount} file(s)\n`,
+      `\nℹ️  Merged unmerged node pairs in ${unmergedNodesFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No unmerged node pairs found\n");
   }
 
-  console.log("📎 Reattaching misplaced leading punctuation...\n");
+  console.log("Reattaching misplaced leading punctuation...\n");
 
   let leadingPunctuationFixedCount = 0;
 
@@ -2169,20 +2172,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await reattachLeadingPunctuationInFile(file);
       if (wasFixed) {
         leadingPunctuationFixedCount++;
-        console.log(`  🔄 Reattached leading punctuation: ${file}`);
+        console.log(`  ℹ️  Reattached leading punctuation: ${file}`);
       }
     }
   }
 
   if (leadingPunctuationFixedCount > 0) {
     console.log(
-      `\n✅ Reattached leading punctuation in ${leadingPunctuationFixedCount} file(s)\n`,
+      `\nℹ️  Reattached leading punctuation in ${leadingPunctuationFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No misplaced leading punctuation found\n");
   }
 
-  console.log("🔀 Reordering footnote punctuation...\n");
+  console.log("Reordering footnote punctuation...\n");
 
   let footnotePunctuationFixedCount = 0;
   const footnotePunctuationSkipped: FootnotePunctuationSkip[] = [];
@@ -2192,7 +2193,7 @@ async function main(requestedVersion?: string) {
       const { changed, skipped } = await reorderFootnotePunctuationInFile(file);
       if (changed) {
         footnotePunctuationFixedCount++;
-        console.log(`  🔄 Reordered footnote punctuation: ${file}`);
+        console.log(`  ℹ️  Reordered footnote punctuation: ${file}`);
       }
       footnotePunctuationSkipped.push(...skipped);
     }
@@ -2200,24 +2201,12 @@ async function main(requestedVersion?: string) {
 
   if (footnotePunctuationFixedCount > 0) {
     console.log(
-      `\n✅ Reordered footnote punctuation in ${footnotePunctuationFixedCount} file(s)\n`,
+      `\nℹ️  Reordered footnote punctuation in ${footnotePunctuationFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No footnote punctuation to reorder\n");
   }
-  if (footnotePunctuationSkipped.length > 0) {
-    console.log(
-      `⚠️  ${footnotePunctuationSkipped.length} footnote-punctuation finding(s) left for the audit below to report:`,
-    );
-    for (const skip of footnotePunctuationSkipped) {
-      console.log(
-        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
-      );
-    }
-    console.log("");
-  }
+  printGroupedByVersion("footnote-punctuation", footnotePunctuationSkipped);
 
-  console.log("↔️  Relocating mark-boundary embedded spaces...\n");
+  console.log("Relocating mark-boundary embedded spaces...\n");
 
   let markBoundarySpacesFixedCount = 0;
   const markBoundarySpacesSkipped: MarkBoundarySpaceSkip[] = [];
@@ -2227,7 +2216,7 @@ async function main(requestedVersion?: string) {
       const { changed, skipped } = await relocateMarkBoundarySpacesInFile(file);
       if (changed) {
         markBoundarySpacesFixedCount++;
-        console.log(`  🔄 Relocated mark-boundary embedded spaces: ${file}`);
+        console.log(`  ℹ️  Relocated mark-boundary embedded spaces: ${file}`);
       }
       markBoundarySpacesSkipped.push(...skipped);
     }
@@ -2235,24 +2224,12 @@ async function main(requestedVersion?: string) {
 
   if (markBoundarySpacesFixedCount > 0) {
     console.log(
-      `\n✅ Relocated mark-boundary embedded spaces in ${markBoundarySpacesFixedCount} file(s)\n`,
+      `\nℹ️  Relocated mark-boundary embedded spaces in ${markBoundarySpacesFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No mark-boundary embedded spaces found\n");
   }
-  if (markBoundarySpacesSkipped.length > 0) {
-    console.log(
-      `⚠️  ${markBoundarySpacesSkipped.length} mark-boundary-space finding(s) left for the audit below to report:`,
-    );
-    for (const skip of markBoundarySpacesSkipped) {
-      console.log(
-        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
-      );
-    }
-    console.log("");
-  }
+  printGroupedByVersion("mark-boundary-space", markBoundarySpacesSkipped);
 
-  console.log("🔖 Relocating footnote-marker spacing...\n");
+  console.log("Relocating footnote-marker spacing...\n");
 
   let footnoteMarkerSpacingFixedCount = 0;
   const footnoteMarkerSpacingSkipped: FootnoteMarkerSpacingSkip[] = [];
@@ -2263,7 +2240,7 @@ async function main(requestedVersion?: string) {
         await relocateFootnoteMarkerSpacesInFile(file);
       if (changed) {
         footnoteMarkerSpacingFixedCount++;
-        console.log(`  🔄 Relocated footnote-marker spacing: ${file}`);
+        console.log(`  ℹ️  Relocated footnote-marker spacing: ${file}`);
       }
       footnoteMarkerSpacingSkipped.push(...skipped);
     }
@@ -2271,24 +2248,12 @@ async function main(requestedVersion?: string) {
 
   if (footnoteMarkerSpacingFixedCount > 0) {
     console.log(
-      `\n✅ Relocated footnote-marker spacing in ${footnoteMarkerSpacingFixedCount} file(s)\n`,
+      `\nℹ️  Relocated footnote-marker spacing in ${footnoteMarkerSpacingFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No footnote-marker spacing to relocate\n");
   }
-  if (footnoteMarkerSpacingSkipped.length > 0) {
-    console.log(
-      `⚠️  ${footnoteMarkerSpacingSkipped.length} footnote-marker-spacing finding(s) left for the audit below to report:`,
-    );
-    for (const skip of footnoteMarkerSpacingSkipped) {
-      console.log(
-        `    ${skip.book} ${skip.chapter}:${skip.verse} skipped — ${skip.reason}`,
-      );
-    }
-    console.log("");
-  }
+  printGroupedByVersion("footnote-marker-spacing", footnoteMarkerSpacingSkipped);
 
-  console.log("🗑️  Dropping empty text keys...\n");
+  console.log("Dropping empty text keys...\n");
 
   let emptyTextKeysDroppedCount = 0;
 
@@ -2297,20 +2262,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await dropEmptyTextKeysInFile(file);
       if (wasFixed) {
         emptyTextKeysDroppedCount++;
-        console.log(`  🔄 Dropped empty text key(s): ${file}`);
+        console.log(`  ℹ️  Dropped empty text key(s): ${file}`);
       }
     }
   }
 
   if (emptyTextKeysDroppedCount > 0) {
     console.log(
-      `\n✅ Dropped empty text key(s) in ${emptyTextKeysDroppedCount} file(s)\n`,
+      `\nℹ️  Dropped empty text key(s) in ${emptyTextKeysDroppedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No empty text keys to drop\n");
   }
 
-  console.log("🔖 Removing duplicate footnote anchors...\n");
+  console.log("Removing duplicate footnote anchors...\n");
 
   let duplicateFootnoteAnchorsRemovedCount = 0;
 
@@ -2319,20 +2282,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await removeDuplicateFootnoteAnchorsInFile(file);
       if (wasFixed) {
         duplicateFootnoteAnchorsRemovedCount++;
-        console.log(`  🔄 Removed duplicate footnote anchor(s): ${file}`);
+        console.log(`  ℹ️  Removed duplicate footnote anchor(s): ${file}`);
       }
     }
   }
 
   if (duplicateFootnoteAnchorsRemovedCount > 0) {
     console.log(
-      `\n✅ Removed duplicate footnote anchor(s) in ${duplicateFootnoteAnchorsRemovedCount} file(s)\n`,
+      `\nℹ️  Removed duplicate footnote anchor(s) in ${duplicateFootnoteAnchorsRemovedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No duplicate footnote anchors to remove\n");
   }
 
-  console.log("🔗 Merging equivalent siblings...\n");
+  console.log("Merging equivalent siblings...\n");
 
   let mergeEquivalentSiblingsCount = 0;
 
@@ -2341,20 +2302,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await mergeEquivalentSiblingsInFile(file);
       if (wasFixed) {
         mergeEquivalentSiblingsCount++;
-        console.log(`  🔄 Merged equivalent sibling(s): ${file}`);
+        console.log(`  ℹ️  Merged equivalent sibling(s): ${file}`);
       }
     }
   }
 
   if (mergeEquivalentSiblingsCount > 0) {
     console.log(
-      `\n✅ Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`,
+      `\nℹ️  Merged equivalent sibling(s) in ${mergeEquivalentSiblingsCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No equivalent siblings to merge\n");
   }
 
-  console.log("␣ Merging mark-boundary spaces...\n");
+  console.log("Merging mark-boundary spaces...\n");
 
   let markBoundarySpaceMergeCount = 0;
 
@@ -2363,20 +2322,18 @@ async function main(requestedVersion?: string) {
       const wasFixed = await mergeMarkBoundarySpacesInFile(file);
       if (wasFixed) {
         markBoundarySpaceMergeCount++;
-        console.log(`  🔄 Merged mark-boundary space(s): ${file}`);
+        console.log(`  ℹ️  Merged mark-boundary space(s): ${file}`);
       }
     }
   }
 
   if (markBoundarySpaceMergeCount > 0) {
     console.log(
-      `\n✅ Merged mark-boundary space(s) in ${markBoundarySpaceMergeCount} file(s)\n`,
+      `\nℹ️  Merged mark-boundary space(s) in ${markBoundarySpaceMergeCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ No mark-boundary spaces to merge\n");
   }
 
-  console.log("🧱 Adding missing heading/subtitle paragraph flags...\n");
+  console.log("Adding missing heading/subtitle paragraph flags...\n");
 
   let headingParagraphsFixedCount = 0;
 
@@ -2386,7 +2343,7 @@ async function main(requestedVersion?: string) {
       if (wasFixed) {
         headingParagraphsFixedCount++;
         console.log(
-          `  🔄 Added missing heading/subtitle paragraph flags: ${file}`,
+          `  ℹ️  Added missing heading/subtitle paragraph flags: ${file}`,
         );
       }
     }
@@ -2394,16 +2351,14 @@ async function main(requestedVersion?: string) {
 
   if (headingParagraphsFixedCount > 0) {
     console.log(
-      `\n✅ Added missing heading/subtitle paragraph flags in ${headingParagraphsFixedCount} file(s)\n`,
+      `\nℹ️  Added missing heading/subtitle paragraph flags in ${headingParagraphsFixedCount} file(s)\n`,
     );
-  } else {
-    console.log("✅ Every heading/subtitle run already opens a paragraph\n");
   }
 
-  console.log("🔡 Transliterating script-tagged text...\n");
+  console.log("Transliterating script-tagged text...\n");
 
   let transliteratedCount = 0;
-  const undeclaredScripts: string[] = [];
+  const undeclaredScripts: { version: string; script: string }[] = [];
 
   // The one content step that also reaches `_version.json`, whose own content
   // feeds the same tally and the same undeclared-script list — one story per
@@ -2414,40 +2369,44 @@ async function main(requestedVersion?: string) {
     const isVersionFile = path.basename(file) === "_version.json";
     if (!isVerseFile(file) && !isVersionFile) continue;
 
+    const versionId = path.basename(path.dirname(file));
     const { changed, undeclaredScripts: undeclared } = isVersionFile
       ? await transliterateScriptRunsInVersionFile(file)
       : await transliterateScriptRunsInFile(file);
     if (changed) {
       transliteratedCount++;
-      console.log(`  🔄 Transliterated script-tagged text: ${file}`);
+      console.log(`  ℹ️  Transliterated script-tagged text: ${file}`);
     }
-    undeclaredScripts.push(...undeclared);
+    undeclaredScripts.push(
+      ...undeclared.map((script) => ({ version: versionId, script })),
+    );
   }
 
   if (transliteratedCount > 0) {
     console.log(
-      `\n✅ Transliterated script-tagged text in ${transliteratedCount} file(s)\n`,
-    );
-  } else {
-    console.log(
-      "✅ Every script-tagged node already carries the transliteration its text implies\n",
+      `\nℹ️  Transliterated script-tagged text in ${transliteratedCount} file(s)\n`,
     );
   }
   if (undeclaredScripts.length > 0) {
     console.log(
       `⚠️  ${undeclaredScripts.length} script-tagged node(s) left as printed, no registry declaring how their script romanizes:`,
     );
-    for (const [script, count] of Object.entries(
-      _.countBy(undeclaredScripts),
+    for (const [version, versionScripts] of Object.entries(
+      _.groupBy(undeclaredScripts, "version"),
     ).sort()) {
-      console.log(
-        `    script "${script}" — ${count} node(s); add a lexical-maps registry declaring it to transliterate them`,
-      );
+      console.log(`  ${version}:`);
+      for (const [script, count] of Object.entries(
+        _.countBy(versionScripts, "script"),
+      ).sort()) {
+        console.log(
+          `    script "${script}" — ${count} node(s); add a lexical-maps registry declaring it to transliterate them`,
+        );
+      }
     }
     console.log("");
   }
 
-  console.log("🔖 Resolving lexical annotations...\n");
+  console.log("Resolving lexical annotations...\n");
 
   let annotationsResolvedCount = 0;
 
@@ -2456,22 +2415,18 @@ async function main(requestedVersion?: string) {
       const wasResolved = await resolveLexicalAnnotationsInFile(file);
       if (wasResolved) {
         annotationsResolvedCount++;
-        console.log(`  🔄 Resolved lexical annotations: ${file}`);
+        console.log(`  ℹ️  Resolved lexical annotations: ${file}`);
       }
     }
   }
 
   if (annotationsResolvedCount > 0) {
     console.log(
-      `\n✅ Resolved lexical annotations in ${annotationsResolvedCount} file(s)\n`,
-    );
-  } else {
-    console.log(
-      "✅ Every word node already carries the lemma and Strong's number the map resolves for it\n",
+      `\nℹ️  Resolved lexical annotations in ${annotationsResolvedCount} file(s)\n`,
     );
   }
 
-  console.log("🪞 Checking the auto-fix pass is a fixed point of itself...\n");
+  console.log("Checking the auto-fix pass is a fixed point of itself...\n");
 
   const changedFiles = verseFilesInScope.filter(
     (file) => fs.readFileSync(file, "utf-8") !== preFixPassSnapshot.get(file),
@@ -2495,15 +2450,9 @@ async function main(requestedVersion?: string) {
     console.log(
       `✅ Re-checked ${changedFiles.length} changed file(s) — the auto-fix pass is a fixed point of itself\n`,
     );
-  } else {
-    console.log(
-      "✅ No files changed in the auto-fix pass — nothing to re-check\n",
-    );
   }
 
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
-
-  console.log("Schema validation result:", result);
 
   if (!result.valid) {
     console.error("\n❌ Bible books schema validation failed:");
@@ -2523,15 +2472,13 @@ async function main(requestedVersion?: string) {
   const books = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
   const validBookIds = new Set(books.map((book: any) => book._id));
 
-  console.log("\n🔍 Validating Bible version files...");
+  console.log("\nValidating Bible version files...");
 
   const versions: BibleVersion[] = [];
   let versionsValidationPassed = true;
 
   for (const versionDir of versionDirs) {
     const versionFilePath = `${bibleVersionsDir}/${versionDir}/_version.json`;
-
-    console.log(`\n📖 Validating version: ${versionDir}`);
 
     const versionResult = validateJsonAgainstSchema(
       versionsSchemaPath,
@@ -2566,18 +2513,14 @@ async function main(requestedVersion?: string) {
       );
       versionsValidationPassed = false;
     }
-
-    console.log(`✅ ${versionDir}/_version.json validated`);
   }
 
   if (!versionsValidationPassed) {
     console.error("\n❌ Version schema validation failed!");
     process.exit(1);
-  } else {
-    console.log("\n✅ All version files validated against schema!");
   }
 
-  console.log("\n🔍 Validating book ordering...");
+  console.log("\nValidating book ordering...");
   let booksValidationPassed = true;
 
   // Declared-vs-actual chapter counts, collected here because this loop
@@ -2594,7 +2537,6 @@ async function main(requestedVersion?: string) {
   for (const version of versions) {
     const versionBooks = version.books || [];
     if (versionBooks.length === 0) {
-      console.log(`✅ ${version._id}: no books specified`);
       continue;
     }
 
@@ -2653,26 +2595,14 @@ async function main(requestedVersion?: string) {
         booksValidationPassed = false;
       }
     }
-
-    if (
-      sortedOrders[0] === 1 &&
-      sortedOrders.length === expectedCount &&
-      duplicates.length === 0
-    ) {
-      console.log(
-        `✅ ${version._id}: ${sortedOrders.length} books, numbered 1–${expectedCount}`,
-      );
-    }
   }
 
   if (!booksValidationPassed) {
     console.error("\n❌ Books validation failed!");
     process.exit(1);
-  } else {
-    console.log("\n✅ All order validations passed!");
   }
 
-  console.log("\n🔍 Validating Bible verse files...");
+  console.log("\nValidating Bible verse files...");
 
   const verseSchemaPath = "./bible-versions/bible-verses-schema.json";
 
@@ -2697,8 +2627,6 @@ async function main(requestedVersion?: string) {
     const verseFiles = fs
       .readdirSync(versionPath)
       .filter((file) => file.endsWith(".json") && file !== "_version.json");
-
-    console.log(`\n📖 Checking version: ${versionDir}`);
 
     const versionObj = versionMap.get(versionDir);
     const expectedFiles = new Set(
@@ -2778,31 +2706,24 @@ async function main(requestedVersion?: string) {
           verseValidationPassed = false;
         }
       }
-
-      console.log(`✅ ${file}: ${verses.length} verses validated`);
     }
   }
 
   if (!verseValidationPassed) {
     console.error("\n❌ Verse file validation failed!");
     process.exit(1);
-  } else {
-    console.log("\n✅ All verse file validations passed!");
   }
 
   // Declared-chapter-count audit (report-only): every book whose
   // `_version.json` declares a chapter count its own verse file does not
   // actually carry. No check can supply missing chapters, so this only
   // reports.
-  console.log("\n📐 Auditing declared chapter counts...");
+  console.log("\nAuditing declared chapter counts...");
   let declaredChapterMismatchesPassed = true;
 
   for (const versionDir of versionDirs) {
     const mismatches = declaredChapterMismatchesByVersion.get(versionDir) ?? [];
     if (mismatches.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every declared chapter count matches its file`,
-      );
       continue;
     }
 
@@ -2829,7 +2750,7 @@ async function main(requestedVersion?: string) {
   //
   // Prints each version's own `scanned` count, so a walk that silently stops
   // descending is caught rather than under-reporting a clean bill of health.
-  console.log("\n🔗 Auditing cross-chapter bibleLink targets...");
+  console.log("\nAuditing cross-chapter bibleLink targets...");
   let crossChapterLinksPassed = true;
   let crossChapterLinksScanned = 0;
 
@@ -2837,9 +2758,6 @@ async function main(requestedVersion?: string) {
     const { findings, unreadable, scanned } = findCrossChapterLinks(versionDir);
     crossChapterLinksScanned += scanned;
     if (findings.length === 0 && unreadable.length === 0) {
-      console.log(
-        `✅ ${versionDir}: no unsplit cross-chapter links, no unreadable targets (${scanned} bibleLink node(s) scanned)`,
-      );
       continue;
     }
 
@@ -2869,7 +2787,7 @@ async function main(requestedVersion?: string) {
   // its own display names — a different finding from the unsplit-range one
   // above (see crossChapterLinks.ts). Report-only, for the same reason, and
   // prints its own `scanned` count for the identical reason.
-  console.log("\n📏 Auditing truncated bibleLink ranges...");
+  console.log("\nAuditing truncated bibleLink ranges...");
   let truncatedRangesPassed = true;
   let truncatedRangesScanned = 0;
 
@@ -2877,9 +2795,6 @@ async function main(requestedVersion?: string) {
     const { findings, scanned } = findTruncatedRanges(versionDir);
     truncatedRangesScanned += scanned;
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: no truncated bibleLink ranges (${scanned} bibleLink node(s) scanned)`,
-      );
       continue;
     }
 
@@ -2897,13 +2812,12 @@ async function main(requestedVersion?: string) {
 
   // Node-placement and content-convention audit: the checks
   // auditNodes.ts owns. Also report-only here.
-  console.log("\n🧩 Auditing node-placement and content conventions...");
+  console.log("\nAuditing node-placement and content conventions...");
   let nodeConventionsPassed = true;
 
   for (const versionDir of versionDirs) {
     const summary = auditNodeConventions(versionDir);
     if (nodeConventionsAreClean(summary)) {
-      console.log(`✅ ${versionDir}: no node/content convention findings`);
       continue;
     }
 
@@ -2917,7 +2831,7 @@ async function main(requestedVersion?: string) {
   // wrong or it isn't, and both a mis-imported shorthand and a plain
   // mistake want a person's attention rather than a quiet rewrite. Prints its
   // own `scanned` count, matching the audits above.
-  console.log("\n🔓 Auditing unresolvable bibleLink targets...");
+  console.log("\nAuditing unresolvable bibleLink targets...");
   let unresolvableTargetsPassed = true;
   let unresolvableTargetsScanned = 0;
 
@@ -2925,9 +2839,6 @@ async function main(requestedVersion?: string) {
     const { findings, scanned } = findUnresolvableTargets(versionDir);
     unresolvableTargetsScanned += scanned;
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: no unresolvable bibleLink targets (${scanned} bibleLink node(s) scanned)`,
-      );
       continue;
     }
 
@@ -2949,7 +2860,7 @@ async function main(requestedVersion?: string) {
   // display override that isn't a plain string), which needs a person to say
   // how the prose half should be marked. Prints its own `scanned` count for
   // the same reason the audits above do.
-  console.log("\n✂️  Auditing bibleLink display prose...");
+  console.log("\nAuditing bibleLink display prose...");
   let displayProsePassed = true;
   let displayProseScanned = 0;
 
@@ -2968,9 +2879,6 @@ async function main(requestedVersion?: string) {
     displayProseScanned += scanned;
 
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every bibleLink links its reference and nothing else (${scanned} bibleLink node(s) scanned)`,
-      );
       continue;
     }
 
@@ -2990,7 +2898,7 @@ async function main(requestedVersion?: string) {
   // registry defines, and no registry defining an id twice. Report-only for
   // the same reason as its peers: a bad id is either a typo in the content or
   // a missing registry entry, and only a person can say which.
-  console.log("\n🔤 Auditing abbreviation references...");
+  console.log("\nAuditing abbreviation references...");
   let abbreviationsPassed = true;
   let abbreviationsScanned = 0;
 
@@ -3000,9 +2908,6 @@ async function main(requestedVersion?: string) {
     );
     abbreviationsScanned += scanned;
     if (findings.length === 0 && duplicates.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every abbreviation resolves (${scanned} abbr node(s) scanned)`,
-      );
       continue;
     }
 
@@ -3044,15 +2949,11 @@ async function main(requestedVersion?: string) {
   //
   // Report-only, like its peers. A new file with no schema needs someone to
   // write one, and only a person can say what shape it should describe.
-  console.log("\n🗂️  Auditing JSON schema coverage...");
+  console.log("\nAuditing JSON schema coverage...");
   const schemaCoverage = auditJsonSchemas();
   const schemaCoveragePassed = schemaCoverage.findings.length === 0;
   const coverageScanned = `${schemaCoverage.scanned} committable JSON file(s), ${schemaCoverage.checked} validated here`;
-  if (schemaCoveragePassed) {
-    console.log(
-      `✅ every committable JSON file is governed by a schema (${coverageScanned})`,
-    );
-  } else {
+  if (!schemaCoveragePassed) {
     console.error(
       `❌ ${schemaCoverage.findings.length} JSON schema finding(s) (${coverageScanned}):`,
     );
@@ -3071,16 +2972,13 @@ async function main(requestedVersion?: string) {
   // code is either a typo in the codex or a missing registry entry, and only a
   // person can say which. Prints its own scanned counts for the same reason
   // the audits above do.
-  console.log("\n📚 Auditing lexical maps...");
+  console.log("\nAuditing lexical maps...");
   let lexicalMapsPassed = true;
 
   for (const language of lexicalMapLanguages()) {
     const { findings, rootsScanned, cellsScanned } = auditLexicalMaps(language);
     const scanned = `${rootsScanned} root(s), ${cellsScanned} cell(s) scanned`;
     if (findings.length === 0) {
-      console.log(
-        `✅ ${language}: every parse resolves in the registry (${scanned})`,
-      );
       continue;
     }
 
@@ -3109,21 +3007,15 @@ async function main(requestedVersion?: string) {
   //
   // Report-only, like its peers. A gap here is either a cell to add or a code
   // to correct, and only a person can say which.
-  console.log("\n🔠 Auditing corpus morphology against the lexical map...");
+  console.log("\nAuditing corpus morphology against the lexical map...");
   let corpusMorphologyPassed = true;
 
   for (const versionDir of versionDirs) {
     const { scheme, findings, scanned } = auditCorpusMorphology(versionDir);
     if (!scheme) {
-      console.log(
-        `➖ ${versionDir}: declares no morphology scheme, so nothing to check`,
-      );
       continue;
     }
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every ${scheme} code resolves through the map (${scanned} token(s) scanned)`,
-      );
       continue;
     }
 
@@ -3150,7 +3042,7 @@ async function main(requestedVersion?: string) {
   // The stored transliteration is the one thing that does gate. It is derived
   // data with one right answer and the fix pass recomputes it every run, so a
   // value still disagreeing afterwards means the fixer declined to write it.
-  console.log("\n📖 Auditing lexical enrichment...");
+  console.log("\nAuditing lexical enrichment...");
   let enrichmentPassed = true;
 
   /** The reasons one annotation is missing, commonest first, capped like its peers. */
@@ -3174,19 +3066,10 @@ async function main(requestedVersion?: string) {
     const { scanned, lemma, strongs, disagreements, held } =
       auditCorpusEnrichment(versionDir);
     if (scanned === 0) {
-      console.log(
-        `➖ ${versionDir}: no script-tagged text, so the lexical map has nothing to say about it`,
-      );
       continue;
     }
 
-    if (disagreements.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every stored transliteration is what its own text romanizes to${
-          held > 0 ? ", or its own text verbatim" : ""
-        } (${scanned} script-tagged node(s) scanned)`,
-      );
-    } else {
+    if (disagreements.length > 0) {
       console.error(
         `❌ ${versionDir}: ${disagreements.length} stored transliteration(s) the registry's table does not produce (${scanned} script-tagged node(s) scanned):`,
       );
@@ -3224,23 +3107,17 @@ async function main(requestedVersion?: string) {
   // marks nothing else, settled from the printed ending without consulting the
   // map. Fails the run, because the ending cannot be read two ways and leaves a
   // reader nothing to overrule. `utils/corpusOrthography.ts` has the reasoning.
-  console.log("\n🔠 Auditing parses against the words as printed...");
+  console.log("\nAuditing parses against the words as printed...");
   let orthographyPassed = true;
 
   for (const versionDir of versionDirs) {
     const { findings, scanned } = auditCorpusOrthography(versionDir);
     if (scanned === 0) {
-      console.log(
-        `➖ ${versionDir}: no parse states both a case and a number, so nothing to check`,
-      );
       continue;
     }
 
     const counted = `${scanned} case-bearing reading(s) scanned`;
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every parse is one the word's ending allows (${counted})`,
-      );
       continue;
     }
 
@@ -3261,23 +3138,17 @@ async function main(requestedVersion?: string) {
   // fails the run, because only a person can say which of the two words in a
   // finding is wrong. `utils/corpusAgreement.ts` has the three rules and what
   // each deliberately leaves alone.
-  console.log("\n🔗 Auditing word agreement...");
+  console.log("\nAuditing word agreement...");
 
   for (const versionDir of versionDirs) {
     const { scheme, findings, pairs, reconcilable } =
       auditCorpusAgreement(versionDir);
     if (!scheme) {
-      console.log(
-        `➖ ${versionDir}: declares no morphology scheme this repo can read, so nothing to compare`,
-      );
       continue;
     }
 
     const scanned = `${pairs} article/noun pair(s) scanned, ${reconcilable} of them the map can reconcile`;
     if (findings.length === 0) {
-      console.log(
-        `✅ ${versionDir}: every neighbouring word agrees with the one beside it (${scanned})`,
-      );
       continue;
     }
 
@@ -3303,16 +3174,12 @@ async function main(requestedVersion?: string) {
   // rather than to an edition. Deliberately not a cross-part-of-speech rule: a
   // registry's `posReadings` permits a verb root to carry noun cells and is
   // right to, `οὐαί (inj) / οὐαί [noun indecl-other]` among them.
-  console.log("\n🧭 Auditing codex cells against the corpus's own index...");
+  console.log("\nAuditing codex cells against the corpus's own index...");
 
   const attestation = auditCodexAttestation();
   const attestationPassed = attestation.contradictions.length === 0;
   const attested = `${attestation.cellsAttested} cell(s) attested by ${attestation.nodesScanned} tagged word(s) across ${attestation.versions.join(", ") || "no version"}`;
-  if (attestationPassed) {
-    console.log(
-      `✅ every attested cell agrees with the index on at least one of its words (${attested})`,
-    );
-  } else {
+  if (!attestationPassed) {
     const sole = attestation.contradictions.filter(
       (finding) => finding.sole > 0,
     ).length;

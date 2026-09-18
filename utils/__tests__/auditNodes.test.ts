@@ -1022,7 +1022,7 @@ describe("findStrongsNodeIssues — detached punctuation", () => {
     expect(findings[0].text).toBe(" .");
   });
 
-  it("should flag a bare string in a content array — the shape most of the downstream fork's own hits take", () => {
+  it("should flag a bare string in a content array — the shape most real-world hits take", () => {
     const content: Content = [{ text: "adultery", strong: "G3431" }, " ;"];
     const findings = findStrongsNodeIssues(content).detachedPunctuationFindings;
     expect(findings).toHaveLength(1);
