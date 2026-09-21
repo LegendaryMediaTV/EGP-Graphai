@@ -1302,6 +1302,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1317,7 +1318,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "And working together also we call upon " },
+      "And working together also we call upon ",
       { "text": "you", "marks": ["i"] },
       " that ye receive not in vain the grace of God—"
     ]
@@ -1850,6 +1851,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1865,10 +1867,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "For, indeed, concerning the ministration that "
-      },
+      "For, indeed, concerning the ministration that ",
       { "text": "is", "marks": ["i"] },
       " for the saints, it is superfluous for me to write to you,"
     ]

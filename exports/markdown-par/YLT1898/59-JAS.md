@@ -110,9 +110,7 @@
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>
-
-Whence _are_ wars and fightings among you? not thence—out of your passions, that are as soldiers in your members?
+<sup>1</sup> <sup>a</sup>Whence _are_ wars and fightings among you? not thence—out of your passions, that are as soldiers in your members?
 <sup>2</sup> ye desire, and ye have not; ye murder,<sup>b</sup> and are zealous, and are not able to attain; ye fight and war, and ye have not, because of your not asking;
 <sup>3</sup> ye ask, and ye receive not, because evilly ye ask, that in your pleasures ye may spend _it_.
 <sup>4</sup> Adulterers and adulteresses! have ye not known that friendship of the world is enmity with God? whoever, then, may counsel to be a friend of the world, an enemy of God he is set.
@@ -141,9 +139,7 @@ Whence _are_ wars and fightings among you? not thence—out of your passions, th
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
-Go, now, ye rich! weep, howling over your miseries that are coming upon _you_;
+<sup>1</sup> <sup>a</sup>Go, now, ye rich! weep, howling over your miseries that are coming upon _you_;
 <sup>2</sup> your riches have rotted, and your garments have become moth-eaten;
 <sup>3</sup> your gold and silver have rotted, and the rust of them for a testimony shall be to you, and shall eat your flesh as fire. Ye made treasure in the last days!<sup>b</sup>
 <sup>4</sup> lo, the reward of the workmen, of those who in-gathered your fields, which hath been fraudulently kept back<sup>c</sup> by you—doth cry out, and the exclamations of those who did reap into the ears of the Lord of Sabaoth have entered;

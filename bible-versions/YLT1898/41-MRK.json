@@ -5,6 +5,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -60,7 +61,6 @@
         }
       },
       {
-        "paragraph": true,
         "text": "A beginning of the good news of Jesus Christ, Son of God.",
         "foot": { "type": "xrf", "content": { "bibleLink": "Matthew 3:1–12" } }
       }

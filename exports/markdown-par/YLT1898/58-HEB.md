@@ -41,9 +41,7 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>
-
-Because of this it behoveth _us_ more abundantly to take heed to the things heard, lest we may glide aside,
+<sup>1</sup> <sup>a</sup>Because of this it behoveth _us_ more abundantly to take heed to the things heard, lest we may glide aside,
 <sup>2</sup> for if the word being spoken through messengers<sup>b</sup> did become stedfast, and every transgression and disobedience did receive a just recompense,
 <sup>3</sup> how shall we escape, having neglected so great salvation? which a beginning receiving—to be spoken through the Lord—by those having heard was confirmed to us,
 <sup>4</sup> God also bearing joint-witness both with signs and wonders,<sup>c</sup> and manifold powers, and distributions of the Holy Spirit, according to His will.
@@ -82,9 +80,7 @@ Because of this it behoveth _us_ more abundantly to take heed to the things hear
 
 ### Jesus and Moses
 
-<sup>1</sup> <sup>a</sup>
-
-Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider the apostle<sup>c</sup> and chief priest of our profession, Christ Jesus,
+<sup>1</sup> <sup>a</sup>Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider the apostle<sup>c</sup> and chief priest of our profession, Christ Jesus,
 <sup>2</sup> being stedfast to Him who did appoint him, as also Moses in all his house,
 <sup>3</sup> for of more glory than Moses hath this one been counted worthy, inasmuch as more honour than the house hath he who doth build it,
 <sup>4</sup> for every house is builded by some one, and He who the all things did build _is_ God,
@@ -150,9 +146,7 @@ Wherefore, holy brethren, partakers<sup>b</sup> of a heavenly calling, consider 
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
-For every chief priest—out of men taken—in behalf of men is set in things _pertaining_ to God, that he may offer both gifts and sacrifices for sins,
+<sup>1</sup> <sup>a</sup>For every chief priest—out of men taken—in behalf of men is set in things _pertaining_ to God, that he may offer both gifts and sacrifices for sins,
 <sup>2</sup> able to be gentle to those ignorant and going astray, since himself also is compassed with infirmity;
 <sup>3</sup> and because of this infirmity he ought, as for the people, so also for himself to offer for sins;
 <sup>4</sup> and no one to himself doth take the honour, but he who is called by God, as also Aaron:
@@ -262,9 +256,7 @@ For every chief priest—out of men taken—in behalf of men is set in things _p
 
 ### The Greatness of His Ministry
 
-<sup>1</sup> <sup>a</sup>
-
-And the sum concerning the things spoken of _is_: we have such a chief priest, who did sit down at the right hand of the throne of the greatness in the heavens,
+<sup>1</sup> <sup>a</sup>And the sum concerning the things spoken of _is_: we have such a chief priest, who did sit down at the right hand of the throne of the greatness in the heavens,
 <sup>2</sup> of the holy places a servant,<sup>b</sup> and of the true tabernacle, which the Lord did set up, and not man,
 <sup>3</sup> for every chief priest to offer both gifts and sacrifices is appointed, whence _it is_ necessary for this one to have also something that he may offer;
 <sup>4</sup> for if, indeed, he were upon earth, he would not be a priest—(there being the priests who are offering according to the law, the gifts,
@@ -507,9 +499,7 @@ And the sum concerning the things spoken of _is_: we have such a chief priest, w
 
 ### Perfect in Every Good Work
 
-<sup>1</sup> <sup>a</sup>
-
-Let brotherly love remain;
+<sup>1</sup> <sup>a</sup>Let brotherly love remain;
 <sup>2</sup> of the hospitality<sup>b</sup> be not forgetful, for through this unawares<sup>c</sup> certain did entertain messengers;
 <sup>3</sup> be mindful of those in bonds, as having been bound with them, of those maltreated, as also yourselves being in the body;
 <sup>4</sup> honourable<sup>d</sup> _is_ the marriage in all, and the bed undefiled, and whoremongers and adulterers God shall judge.

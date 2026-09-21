@@ -36,11 +36,9 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>
-
 ### Wise Men from the East
 
-And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,
+<sup>1</sup> <sup>a</sup>And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,
 <sup>2</sup> saying, “Where is he who was born king of the Jews? for we saw his star in the east, and we came to bow to him.”
 
 <sup>3</sup> And Herod the king having heard, was stirred, and all Jerusalem with him,
@@ -82,11 +80,9 @@ And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
 ### John the Baptist
 
-And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,
+<sup>1</sup> <sup>a</sup>And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,
 <sup>2</sup> and saying, “Reform, for come nigh hath the reign of the heavens,”
 <sup>3</sup> for this is he who was spoken of by Isaiah the prophet, saying, “A voice of one crying in the wilderness, Prepare ye the way of the Lord, straight make ye His paths.”<br>
 
@@ -115,11 +111,9 @@ And in those days cometh John the Baptist, proclaiming in the wilderness of Jude
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>
-
 ### His Temptation
 
-Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,
+<sup>1</sup> <sup>a</sup>Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,
 <sup>2</sup> and having fasted forty days and forty nights, afterwards he did hunger.
 <sup>3</sup> And the Tempter<sup>b</sup> having come to him said, “If Son thou art of God—speak that these stones may become loaves.”
 <sup>4</sup> But he answering said, “It hath been written, Not upon bread alone doth man live, but upon every word coming forth from the mouth of God.”
@@ -166,9 +160,7 @@ Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devi
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
-And having seen the multitudes,<sup>b</sup> he went up to the mount, and he having sat down, his disciples came to him,
+<sup>1</sup> <sup>a</sup>And having seen the multitudes,<sup>b</sup> he went up to the mount, and he having sat down, his disciples came to him,
 <sup>2</sup> and having opened his mouth, he was teaching them, saying:
 
 <sup>3</sup> “Happy the poor in spirit—because theirs is the reign of the heavens.
@@ -248,11 +240,9 @@ And having seen the multitudes,<sup>b</sup> he went up to the mount, and he havi
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
 ### Real Religion
 
-“Take heed your kindness not to do before men, to be seen by them, and if not—reward ye have not from your Father who _is_ in the heavens;
+<sup>1</sup> <sup>a</sup>“Take heed your kindness not to do before men, to be seen by them, and if not—reward ye have not from your Father who _is_ in the heavens;
 <sup>2</sup> whenever, therefore, thou mayest do kindness, thou mayest not sound a trumpet before thee as the hypocrites do, in the synagogues, and in the streets, that they may have glory from men; verily I say to you—they have their reward!
 <sup>3</sup> “But thou, doing kindness, let not thy left hand know what thy right hand doth,
 <sup>4</sup> that thy kindness may be in secret, and thy Father who is seeing in secret Himself shall reward thee manifestly.<sup>b</sup>
@@ -300,9 +290,7 @@ And having seen the multitudes,<sup>b</sup> he went up to the mount, and he havi
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup>
-
-“Judge not, that ye may not be judged,
+<sup>1</sup> <sup>a</sup>“Judge not, that ye may not be judged,
 <sup>2</sup> for in what judgment ye judge, ye shall be judged, and in what measure ye measure, it shall be measured to you.
 <sup>3</sup> “And why dost thou behold the mote that _is_ in thy brother’s eye, and the beam that _is_ in thine own eye dost not consider?
 <sup>4</sup> or, how wilt thou say to thy brother, Suffer I may cast out the mote from thine eye, and lo, the beam _is_ in thine own eye?
@@ -344,9 +332,7 @@ And having seen the multitudes,<sup>b</sup> he went up to the mount, and he havi
 
 ## Chapter 8
 
-<sup>1</sup> <sup>a</sup>
-
-And when he came down from the mount, great multitudes<sup>b</sup> did follow him,
+<sup>1</sup> <sup>a</sup>And when he came down from the mount, great multitudes<sup>b</sup> did follow him,
 <sup>2</sup> and lo, a leper having come, was bowing<sup>c</sup> to him, saying, “Sir, if thou art willing, thou art able to cleanse me;”
 <sup>3</sup> and having stretched forth the hand, Jesus touched him, saying, “I will, be thou cleansed,” and immediately his leprosy was cleansed.
 <sup>4</sup> And Jesus saith to him, “See, thou mayest tell no one, but go, thyself shew to the priest, and bring the gift that Moses commanded for a testimony to them.”
@@ -406,11 +392,9 @@ And when he came down from the mount, great multitudes<sup>b</sup> did follow hi
 
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>
-
 ### Forgives Sin
 
-And having gone to the boat, he passed over, and came to his own city,
+<sup>1</sup> <sup>a</sup>And having gone to the boat, he passed over, and came to his own city,
 <sup>2</sup> and lo, they were bringing to him a paralytic, laid upon a couch, and Jesus having seen their faith, said to the paralytic, “Be of good courage, child, thy sins have been forgiven thee.”
 <sup>3</sup> And lo, certain of the scribes said within themselves, “This one doth speak evil.”
 <sup>4</sup> And Jesus, having known their thoughts, said, “Why think ye evil in your hearts?
@@ -470,11 +454,9 @@ And having gone to the boat, he passed over, and came to his own city,
 
 ## Chapter 10
 
-<sup>1</sup> <sup>a</sup>
-
 ### Names of the Twelve
 
-And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady.
+<sup>1</sup> <sup>a</sup>And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady.
 <sup>2</sup> And of the twelve apostles the names are these: first, Simon, who is called Peter, and Andrew his brother; James of Zebedee, and John his brother;
 <sup>3</sup> Philip, and Bartholomew; Thomas, and Matthew the tax-gatherer; James of Alpheus, and Lebbeus who was surnamed Thaddeus;
 <sup>4</sup> Simon the Cananite, and Judas Iscariot, who did also deliver him up.
@@ -534,9 +516,7 @@ And having called to him his twelve disciples, he gave to them power over unclea
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>
-
-And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities.
+<sup>1</sup> <sup>a</sup>And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities.
 
 ### Jesus and the Baptist
 
@@ -591,11 +571,9 @@ And it came to pass, when Jesus ended directing his twelve disciples, he departe
 
 ## Chapter 12
 
-<sup>1</sup> <sup>a</sup>
-
 ### Jesus Challenged
 
-At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,
+<sup>1</sup> <sup>a</sup>At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,
 <sup>2</sup> and the Pharisees having seen, said to him, “Lo, thy disciples do that which it is not lawful to do on a sabbath.”
 <sup>3</sup> And he said to them, “Did ye not read what David did, when he was hungry, himself and those with him—
 <sup>4</sup> how he went into the house of God, and the loaves of the presentation did eat, which it is not lawful to him to eat, nor to those with him, except to the priests alone?
@@ -672,9 +650,7 @@ At that time did Jesus go on the sabbaths through the corn, and his disciples we
 
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
-
-And in that day Jesus, having gone forth from the house, was sitting by the sea,
+<sup>1</sup> <sup>a</sup>And in that day Jesus, having gone forth from the house, was sitting by the sea,
 <sup>2</sup> and gathered together unto him were many multitudes, so that he having gone into the boat did sit down, and all the multitude on the beach did stand,
 
 ### The Sower
@@ -773,11 +749,9 @@ And in that day Jesus, having gone forth from the house, was sitting by the sea,
 
 ## Chapter 14
 
-<sup>1</sup> <sup>a</sup>
-
 ### From Place to Place
 
-At that time did Herod the tetrarch hear the fame of Jesus,
+<sup>1</sup> <sup>a</sup>At that time did Herod the tetrarch hear the fame of Jesus,
 <sup>2</sup> and said to his servants,<sup>b</sup> “This is John the Baptist, he did rise from the dead, and because of this the mighty energies are working in him.”
 
 <sup>3</sup> For Herod having laid hold on John, did bind him, and did put him in prison, because of Herodias his brother Philip’s wife,
@@ -836,9 +810,7 @@ At that time did Herod the tetrarch hear the fame of Jesus,
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
-Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,
+<sup>1</sup> <sup>a</sup>Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,
 <sup>2</sup> “Wherefore do thy disciples transgress<sup>b</sup> the tradition of the elders? for they do not wash their hands when they may eat bread.”
 <sup>3</sup> And he answering said to them, “Wherefore also do ye transgress the command of God because of your tradition?
 <sup>4</sup> for God did command, saying, Honour<sup>c</sup> thy father and mother; and, He who is speaking evil of father or mother—let him die the death;
@@ -903,9 +875,7 @@ Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,
 
 ## Chapter 16
 
-<sup>1</sup> <sup>a</sup>
-
-And the Pharisees and Sadducees having come, tempting, did question him, to shew<sup>b</sup> to them a sign from the heaven,
+<sup>1</sup> <sup>a</sup>And the Pharisees and Sadducees having come, tempting, did question him, to shew<sup>b</sup> to them a sign from the heaven,
 <sup>2</sup> and he answering said to them, “Evening having come, ye say, Fair weather, for the heaven is red,
 <sup>3</sup> and at morning, Foul weather to-day, for the heaven is red—gloomy; hypocrites, the face of the heavens indeed ye do know to discern, but the signs of the times ye are not able!
 <sup>4</sup> “A generation evil and adulterous doth seek a sign, and a sign shall not be given to it, except the sign of Jonah the prophet;” and having left them he went away.
@@ -950,11 +920,9 @@ And the Pharisees and Sadducees having come, tempting, did question him, to shew
 
 ## Chapter 17
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Transfiguration
 
-And after six days Jesus taketh<sup>b</sup> Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,
+<sup>1</sup> <sup>a</sup>And after six days Jesus taketh<sup>b</sup> Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,
 <sup>2</sup> and he was transfigured before them, and his face shone as the sun, and his garments did become white as the light,
 <sup>3</sup> and lo, appear to them did Moses and Elijah, talking together with him.
 <sup>4</sup> And Peter answering said to Jesus, “Sir, it is good to us to be here; if thou wilt, we may make here three booths—for thee one, and for Moses one, and one for Elijah.”
@@ -999,11 +967,9 @@ And after six days Jesus taketh<sup>b</sup> Peter, and James, and John his broth
 
 ## Chapter 18
 
-<sup>1</sup> <sup>a</sup>
-
 ### Jesus and His Disciples
 
-At that hour came the disciples near to Jesus, saying, “Who, now, is greater in the reign of the heavens?”
+<sup>1</sup> <sup>a</sup>At that hour came the disciples near to Jesus, saying, “Who, now, is greater in the reign of the heavens?”
 <sup>2</sup> And Jesus having called near a child, did set him in the midst of them,
 <sup>3</sup> and said, “Verily I say to you, if ye may not be turned and become as the children, ye may not enter into the reign of the heavens;
 <sup>4</sup> whoever then may humble himself as this child, he is the greater in the reign of the heavens.
@@ -1047,11 +1013,9 @@ At that hour came the disciples near to Jesus, saying, “Who, now, is greater i
 
 ## Chapter 19
 
-<sup>1</sup> <sup>a</sup>
-
 ### Beyond Jordan
 
-And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,
+<sup>1</sup> <sup>a</sup>And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,
 <sup>2</sup> and great multitudes followed him, and he healed<sup>b</sup> them there.
 
 <sup>3</sup> And the Pharisees came near to him, tempting him, and saying to him, “Is it lawful for a man to put away his wife for every cause?”
@@ -1097,11 +1061,9 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>
-
 ### Labourers in the Vineyard
 
-“For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,
+<sup>1</sup> <sup>a</sup>“For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,
 <sup>2</sup> and having agreed with the workmen for a denary a day, he sent them into his vineyard.
 <sup>3</sup> “And having gone forth about the third hour, he saw others standing in the marketplace idle,<sup>b</sup>
 <sup>4</sup> and to these he said, Go ye—also ye—to the vineyard, and whatever may be righteous I will give you;
@@ -1154,11 +1116,9 @@ And it came to pass, when Jesus finished these words, he removed from Galilee, a
 
 ## Chapter 21
 
-<sup>1</sup> <sup>a</sup>
-
 ### Triumphal Entry
 
-And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,
+<sup>1</sup> <sup>a</sup>And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,
 <sup>2</sup> saying to them, “Go on to the village over-against you, and immediately ye shall find an ass bound, and a colt with her—having loosed, bring ye to me;
 <sup>3</sup> and if any one may say anything to you, ye shall say, that the lord hath need of them, and immediately he will send them.”
 <sup>4</sup> And all this came to pass, that it might be fulfilled that was spoken through the prophet, saying,<br>
@@ -1230,11 +1190,9 @@ And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of t
 
 ## Chapter 22
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Wedding Garment
 
-And Jesus answering, again spake to them in similes, saying,
+<sup>1</sup> <sup>a</sup>And Jesus answering, again spake to them in similes, saying,
 <sup>2</sup> “The reign of the heavens was likened to a man, a king, who made marriage-feasts for his son,
 <sup>3</sup> and he sent forth his servants to call those having been called to the marriage-feasts, and they were not willing to come.
 <sup>4</sup> “Again he sent forth other servants, saying, Say to those who have been called: Lo, my dinner I prepared, my oxen and the fatlings have been killed, and all things _are_ ready, come ye to the marriage-feasts;
@@ -1304,11 +1262,9 @@ And Jesus answering, again spake to them in similes, saying,
 
 ## Chapter 23
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Great Denunciation
 
-Then Jesus spake to the multitudes,<sup>b</sup> and to his disciples,
+<sup>1</sup> <sup>a</sup>Then Jesus spake to the multitudes,<sup>b</sup> and to his disciples,
 <sup>2</sup> saying, “On the seat of Moses sat down the scribes and the Pharisees;
 <sup>3</sup> all, then, as much as they may say to you to observe, observe and do, but according to their works do not, for they say, and do not;
 <sup>4</sup> for they bind together burdens heavy and grievous to be borne, and lay upon the shoulders of men, but with their finger they will not move them.
@@ -1361,11 +1317,9 @@ Then Jesus spake to the multitudes,<sup>b</sup> and to his disciples,
 
 ## Chapter 24
 
-<sup>1</sup> <sup>a</sup>
-
 ### Destruction of the Temple
 
-And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,
+<sup>1</sup> <sup>a</sup>And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,
 <sup>2</sup> and Jesus said to them, “Do ye not see all these? verily I say to you, There may not be left here a stone upon a stone, that shall not be thrown down.”
 
 <sup>3</sup> And when he is sitting on the mount of the Olives, the disciples came near to him by himself, saying, “Tell us, when shall these be? and what _is_ the sign of thy presence, and of the full end of the age?”
@@ -1439,11 +1393,9 @@ And having gone forth, Jesus departed from the temple, and his disciples came ne
 
 ## Chapter 25
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Ten Virgins
 
-“Then shall the reign of the heavens be likened to ten virgins, who, having taken their lamps, went forth to meet the bridegroom;
+<sup>1</sup> <sup>a</sup>“Then shall the reign of the heavens be likened to ten virgins, who, having taken their lamps, went forth to meet the bridegroom;
 <sup>2</sup> and five of them were prudent, and five foolish;
 <sup>3</sup> they who were foolish having taken their lamps, did not take with themselves oil;
 <sup>4</sup> and the prudent took oil in their vessels, with their lamps.
@@ -1504,11 +1456,9 @@ And having gone forth, Jesus departed from the temple, and his disciples came ne
 
 ## Chapter 26
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Death of Jesus
 
-And it came to pass, when Jesus finished all these words, he said to his disciples,
+<sup>1</sup> <sup>a</sup>And it came to pass, when Jesus finished all these words, he said to his disciples,
 <sup>2</sup> “Ye have known that after two days the passover cometh, and the Son of Man is delivered up to be crucified.”
 <sup>3</sup> Then were gathered together the chief priests, and the scribes, and the elders of the people, to the court of the chief priest who was called Caiaphas;
 <sup>4</sup> and they consulted together that they might take Jesus by guile, and kill<sup>b</sup> _him_,
@@ -1620,9 +1570,7 @@ And it came to pass, when Jesus finished all these words, he said to his discipl
 
 ## Chapter 27
 
-<sup>1</sup> <sup>a</sup>
-
-And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;
+<sup>1</sup> <sup>a</sup>And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;
 <sup>2</sup> and having bound him, they did lead away, and delivered him up to Pontius Pilate, the governor.
 
 <sup>3</sup> Then Judas—he who delivered him up—having seen that he was condemned, having repented, brought back the thirty silverlings to the chief priests, and to the elders, saying,
@@ -1721,11 +1669,9 @@ And morning having come, all the chief priests and the elders of the people took
 
 ## Chapter 28
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Resurrection
 
-And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,
+<sup>1</sup> <sup>a</sup>And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,
 <sup>2</sup> and lo, there came a great earthquake, for a messenger of the Lord, having come down out of heaven, having come, did roll away the stone from the door, and was sitting upon it,
 <sup>3</sup> and his countenance<sup>b</sup> was as lightning, and his clothing white as snow,
 <sup>4</sup> and from the fear of him did the keepers shake, and they became as dead men.

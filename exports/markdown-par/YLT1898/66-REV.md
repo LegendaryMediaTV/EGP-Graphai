@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>
-
-A revelation<sup>c</sup> of Jesus Christ,<sup>d</sup> that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify _it_, having sent through his messenger to his servant<sup>e</sup> John,<sup>f</sup>
+<sup>1</sup> <sup>a</sup><sup>b</sup>A revelation<sup>c</sup> of Jesus Christ,<sup>d</sup> that God gave to him, to shew to his servants what things it behoveth to come to pass quickly; and he did signify _it_, having sent through his messenger to his servant<sup>e</sup> John,<sup>f</sup>
 <sup>2</sup> who did testify the word of God, and the testimony of Jesus Christ, as many things also as he did see.
 <sup>3</sup> Happy is he who is reading, and those hearing, the words of the prophecy, and keeping the things written in it—for the time is nigh!<sup>g</sup>
 
@@ -52,9 +50,7 @@ A revelation<sup>c</sup> of Jesus Christ,<sup>d</sup> that God gave to him, to s
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>
-
-“To the messenger<sup>b</sup> of the Ephesian assembly<sup>c</sup> write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands—the golden:
+<sup>1</sup> <sup>a</sup>“To the messenger<sup>b</sup> of the Ephesian assembly<sup>c</sup> write: These things saith he who is holding the seven stars in his right hand, who is walking in the midst of the seven lamp-stands—the golden:
 <sup>2</sup> I have known thy works, and thy labour, and thy endurance, and that thou art not able to bear evil ones, and that thou hast tried those saying themselves to be apostles and are not, and hast found them liars,
 <sup>3</sup> and thou didst bear, and hast endurance, and because of my name hast toiled, and hast not been weary.
 <sup>4</sup> “But I have against thee: That thy first love thou didst leave!
@@ -102,9 +98,7 @@ A revelation<sup>c</sup> of Jesus Christ,<sup>d</sup> that God gave to him, to s
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
-And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;
+<sup>1</sup> <sup>a</sup>And to the messenger of the assembly in Sardis write: These things saith he who is having the Seven Spirits of God, and the seven stars: I have known thy works, and that thou hast the name that thou dost live, and thou art dead;
 <sup>2</sup> become watching, and strengthen the rest of the things that are about to die, for I have not found thy works fulfilled before God.
 <sup>3</sup> “Remember, then, how thou hast received, and heard, and be keeping, and reform: if, then, thou mayest not watch, I will come upon thee as a thief, and thou mayest not know what hour I will come upon thee.
 <sup>4</sup> Thou hast a few names even in Sardis who did not defile their garments, and they shall walk with me in white, because they are worthy.
@@ -137,11 +131,9 @@ And to the messenger of the assembly in Sardis write: These things saith he who 
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>
-
 ### A Vision of Heaven
 
-After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard _is_ as of a trumpet speaking with me, saying, “Come up hither, and I will shew thee what it behoveth to come to pass after these things;”
+<sup>1</sup> <sup>a</sup>After these things I saw, and lo, a door opened in the heaven, and the first voice that I heard _is_ as of a trumpet speaking with me, saying, “Come up hither, and I will shew thee what it behoveth to come to pass after these things;”
 
 <sup>2</sup> and immediately I was in the Spirit, and lo, a throne was set in the heaven, and upon the throne is _one_ sitting,
 <sup>3</sup> and He who is sitting was in sight like a stone, jasper and sardine: and a rainbow was round the throne in sight like an emerald.
@@ -159,11 +151,9 @@ After these things I saw, and lo, a door opened in the heaven, and the first voi
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Sealed Book
 
-And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;
+<sup>1</sup> <sup>a</sup>And I saw upon the right hand of Him who is sitting upon the throne a scroll, written within and on the back, sealed with seven seals;
 <sup>2</sup> and I saw a strong messenger crying with a great voice, “Who is worthy to open the scroll and to loose the seals of it?”
 <sup>3</sup> and no one was able in the heaven, nor upon the earth, nor under the earth, to open the scroll, nor to behold it.
 <sup>4</sup> And I was weeping much, because no one was found worthy to open and to read the scroll, nor to behold it,
@@ -183,11 +173,9 @@ And I saw upon the right hand of Him who is sitting upon the throne a scroll, wr
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
 ### Opening of the Seals
 
-And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”
+<sup>1</sup> <sup>a</sup>And I saw when the Lamb opened one of the seals, and I heard one of the four living creatures saying, as it were a voice of thunder, “Come and behold!”
 <sup>2</sup> and I saw, and lo, a white horse, and he who is sitting upon it is having a bow, and there was given to him a crown, and he went forth overcoming, and that he may overcome.
 
 <sup>3</sup> And when he opened the second seal, I heard the second living creature saying, “Come and behold!”
@@ -220,11 +208,9 @@ And I saw when the Lamb opened one of the seals, and I heard one of the four liv
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup>
-
 ### Sealing the Servants of God
 
-And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;
+<sup>1</sup> <sup>a</sup>And after these things I saw four messengers, standing upon the four corners of the land, holding the four winds of the land, that the wind may not blow upon the land, nor upon the sea, nor upon any tree;
 <sup>2</sup> and I saw another messenger going up from the rising of the sun, having a seal of the living God, and he did cry with a great voice to the four messengers, to whom it was given to injure the land and the sea, saying,
 <sup>3</sup> “Do not injure the land, nor the sea, nor the trees, till we may seal the servants of our God upon their foreheads.”
 <sup>4</sup> And I heard the number of those sealed, (one hundred and forty four thousands were sealed out of all the tribes of the sons of Israel):
@@ -252,9 +238,7 @@ And after these things I saw four messengers, standing upon the four corners of 
 
 ## Chapter 8
 
-<sup>1</sup> <sup>a</sup>
-
-And when he openeth the seventh seal, there came silence in the heaven about half-an-hour,
+<sup>1</sup> <sup>a</sup>And when he openeth the seventh seal, there came silence in the heaven about half-an-hour,
 
 ### Trumpet Peals
 
@@ -285,9 +269,7 @@ And when he openeth the seventh seal, there came silence in the heaven about hal
 
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>
-
-And the fifth messenger did sound, and I saw a star out of the heaven having fallen to the earth, and there was given to it the key of the pit of the abyss,<sup>b</sup>
+<sup>1</sup> <sup>a</sup>And the fifth messenger did sound, and I saw a star out of the heaven having fallen to the earth, and there was given to it the key of the pit of the abyss,<sup>b</sup>
 <sup>2</sup> and he did open the pit of the abyss, and there came up a smoke out of the pit as smoke of a great furnace, and darkened was the sun and the air, from the smoke of the pit.
 <sup>3</sup> And out of the smoke came forth locusts to the earth, and there was given to them authority, as scorpions of the earth have authority,
 <sup>4</sup> and it was said to them that they may not injure the grass of the earth, nor any green thing, nor any tree, but—the men only who have not the seal of God upon their foreheads,
@@ -320,11 +302,9 @@ And the fifth messenger did sound, and I saw a star out of the heaven having fal
 
 ## Chapter 10
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Angel and the Book
 
-And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,
+<sup>1</sup> <sup>a</sup>And I saw another strong messenger coming down out of the heaven, arrayed with a cloud, and a rainbow upon the head, and his face as the sun, and his feet as pillars of fire,
 <sup>2</sup> and he had in his hand a little scroll opened, and he did place his right foot upon the sea, and the left upon the land,
 <sup>3</sup> and he cried with a great voice, as a lion doth roar, and when he cried, speak out did the seven thunders their voices;
 <sup>4</sup> and when the seven thunders spake their voices, I was about to write, and I heard a voice out of the heaven saying to me, “Seal the things that the seven thunders spake,” and, “Thou mayest not write these things.”
@@ -340,11 +320,9 @@ And I saw another strong messenger coming down out of the heaven, arrayed with a
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Angel and the Temple
 
-And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;
+<sup>1</sup> <sup>a</sup>And there was given to me a reed like to a rod, and the messenger stood, saying, “Rise, and measure the sanctuary of God, and the altar, and those worshipping in it;
 <sup>2</sup> and the court that is without the sanctuary leave out, and thou mayest not measure it, because it was given to the nations, and the holy city they shall tread down forty-two months;<sup>b</sup>
 <sup>3</sup> and I will give to My two witnesses,<sup>c</sup> and they shall prophesy days, a thousand, two hundred, sixty,<sup>d</sup> arrayed with sackcloth;
 <sup>4</sup> these are the two olive _trees_, and the two lamp-stands<sup>e</sup> that before the God of the earth do stand;
@@ -379,11 +357,9 @@ And there was given to me a reed like to a rod, and the messenger stood, saying,
 
 ## Chapter 12
 
-<sup>1</sup> <sup>a</sup>
-
 ### War in Heaven
 
-And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,
+<sup>1</sup> <sup>a</sup>And a great sign was seen in the heaven, a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars,
 <sup>2</sup> and being with child she doth cry out, travailing and pained to bring forth.
 <sup>3</sup> And there was seen another sign in the heaven, and, lo, a great red dragon, having seven heads and ten horns, and upon his head seven diadems,
 <sup>4</sup> and his tail doth draw the third of the stars of the heaven, and he did cast them to the earth; and the dragon did stand before the woman who is about to bring forth, that when she may bring forth, her child he may devour;
@@ -410,11 +386,9 @@ And a great sign was seen in the heaven, a woman arrayed with the sun, and the m
 
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
-
 ### War in the Sea and on Land
 
-And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,
+<sup>1</sup> <sup>a</sup>And I stood upon the sand of the sea, and I saw out of the sea a beast coming up, having seven heads and ten horns, and upon its horns ten diadems, and upon its heads a name of evil speaking,
 <sup>2</sup> and the beast that I saw was like to a leopard, and its feet as of a bear, and its mouth as the mouth of a lion, and the dragon did give to it his power, and his throne, and great authority.
 <sup>3</sup> And I saw one of its heads as slain to death, and its deadly stroke was healed, and all the earth did wonder after the beast,
 <sup>4</sup> and they did bow before the dragon who did give authority to the beast, and they did bow before the beast, saying, “Who _is_ like to the beast? who is able to war with it?”
@@ -440,11 +414,9 @@ And I stood upon the sand of the sea, and I saw out of the sea a beast coming up
 
 ## Chapter 14
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Church Triumphant
 
-And I saw, and lo, a Lamb having stood upon the mount Sion,<sup>b</sup> and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;
+<sup>1</sup> <sup>a</sup>And I saw, and lo, a Lamb having stood upon the mount Sion,<sup>b</sup> and with him an hundred forty-four thousands, having the name of his Father written upon their foreheads;
 <sup>2</sup> and I heard a voice out of the heaven, as a voice of many waters, and as a voice of great thunder, and a voice I heard of harpers harping with their harps,
 <sup>3</sup> and they sing, as it were, a new song before the throne, and before the four living creatures, and the elders, and no one was able to learn the song except the hundred forty-four thousands, who have been bought from the earth;
 <sup>4</sup> these are they who with women were not defiled, for they are virgin;<sup>c</sup> these are they who are following the Lamb whithersoever he may go; these were bought from among men—a first-fruit to God and to the Lamb—
@@ -478,9 +450,7 @@ And I saw, and lo, a Lamb having stood upon the mount Sion,<sup>b</sup> and with
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
-And I saw another sign in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,
+<sup>1</sup> <sup>a</sup>And I saw another sign in the heaven, great and wonderful, seven messengers having the seven last plagues, because in these was completed the wrath of God,
 
 <sup>2</sup> and I saw as a sea of glass mingled with fire, and those who do gain the victory over the beast, and his image, and his mark, _and_ the number of his name, standing by the sea of the glass, having harps of God,
 <sup>3</sup> and they sing the song of Moses, servant of God, and the song of the Lamb, saying, “Great and wonderful _are_ Thy works, O Lord God, the Almighty, righteous and true _are_ Thy ways, O King of saints,
@@ -495,11 +465,9 @@ And I saw another sign in the heaven, great and wonderful, seven messengers havi
 
 ## Chapter 16
 
-<sup>1</sup> <sup>a</sup>
-
 ### Visions of Judgement
 
-And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”
+<sup>1</sup> <sup>a</sup>And I heard a great voice out of the sanctuary saying to the seven messengers, “Go away, and pour out the vials of the wrath of God to the earth;”
 
 <sup>2</sup> and the first did go away, and did pour out his vial upon the land, and there came a sore—bad and grievous—to men, those having the mark of the beast, and those bowing to his image.
 
@@ -535,11 +503,9 @@ And I heard a great voice out of the sanctuary saying to the seven messengers, �
 
 ## Chapter 17
 
-<sup>1</sup> <sup>a</sup>
-
 ### Visions of Doom
 
-And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,
+<sup>1</sup> <sup>a</sup>And there came one of the seven messengers, who were having the seven vials, and he spake with me, saying to me, “Come, I will shew to thee the judgment of the great whore, who is sitting upon the many waters,
 <sup>2</sup> with whom the kings of the earth did commit whoredom; and made drunk from the wine of her whoredom were those inhabiting the earth;”
 <sup>3</sup> and he carried me away to a wilderness in the Spirit, and I saw a woman sitting upon a scarlet-coloured beast, full of names of evil-speaking, having seven heads and ten horns,
 <sup>4</sup> and the woman was arrayed with purple and scarlet-colour, and gilded with gold, and precious stone, and pearls, having a golden cup in her hand full of abominations and uncleanness of her whoredom,
@@ -568,9 +534,7 @@ And there came one of the seven messengers, who were having the seven vials, and
 
 ## Chapter 18
 
-<sup>1</sup> <sup>a</sup>
-
-And after these things I saw another messenger coming down out of the heaven, having great authority, and the earth was lightened from his glory,
+<sup>1</sup> <sup>a</sup>And after these things I saw another messenger coming down out of the heaven, having great authority, and the earth was lightened from his glory,
 <sup>2</sup> and he did cry in might—a great voice, saying, “Fall, fall did Babylon the great, and she became a habitation of demons, and a hold of every unclean spirit, and a hold of every unclean and hateful bird,
 <sup>3</sup> because of the wine of the wrath of her whoredom have all the nations drunk, and the kings of the earth with her did commit whoredom, and merchants of the earth from the power of her revel were made rich.
 
@@ -608,11 +572,9 @@ And after these things I saw another messenger coming down out of the heaven, ha
 
 ## Chapter 19
 
-<sup>1</sup> <sup>a</sup>
-
 ### Songs of Deliverance
 
-And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia!<sup>b</sup> the salvation, and the glory, and the honour, and the power, _is_ to the Lord our God;
+<sup>1</sup> <sup>a</sup>And after these things I heard a great voice of a great multitude in the heaven, saying, “Alleluia!<sup>b</sup> the salvation, and the glory, and the honour, and the power, _is_ to the Lord our God;
 <sup>2</sup> because true and righteous _are_ His judgments, because He did judge the great whore who did corrupt the earth in her whoredom, and He did avenge the blood of His servants at her hand;”
 <sup>3</sup> and a second time they said, “Alleluia;” and her smoke doth come up—to the ages of the ages!
 <sup>4</sup> And fall down did the elders—the twenty and four—and the four living creatures, and they did bow before God who is sitting upon the throne, saying, “Amen, Alleluia.”
@@ -643,9 +605,7 @@ And after these things I heard a great voice of a great multitude in the heaven,
 
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>
-
-And I saw a messenger coming down out of the heaven, having the key of the abyss, and a great chain over his hand,
+<sup>1</sup> <sup>a</sup>And I saw a messenger coming down out of the heaven, having the key of the abyss, and a great chain over his hand,
 <sup>2</sup> and he laid hold on the dragon, the old serpent, who is Devil and Adversary,<sup>b</sup> and did bind him a thousand years,
 <sup>3</sup> and he cast him to the abyss, and did shut him up, and put a seal upon him, that he may not lead astray the nations any more, till the thousand years may be finished; and after these it behoveth him to be loosed a little time.
 
@@ -673,11 +633,9 @@ And I saw a messenger coming down out of the heaven, having the key of the abyss
 
 ## Chapter 21
 
-<sup>1</sup> <sup>a</sup>
-
 ### A New Heaven and Earth
 
-And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;
+<sup>1</sup> <sup>a</sup>And I saw a new heaven and a new earth, for the first heaven and the first earth did pass away, and the sea is not any more;
 <sup>2</sup> and I, John,<sup>b</sup> saw the holy city—new Jerusalem—coming down from God out of the heaven, made ready as a bride adorned for her husband;
 <sup>3</sup> and I heard a great voice out of the heaven, saying, “Lo, the tabernacle of God _is_ with men, and He will tabernacle with them, and they shall be His peoples, and God Himself shall be with them—their God,
 <sup>4</sup> and God shall wipe away every tear from their eyes, and the death shall not be any more, nor sorrow, nor crying, nor shall there be any more pain, because the first things did go away.”
@@ -715,9 +673,7 @@ And I saw a new heaven and a new earth, for the first heaven and the first earth
 
 ## Chapter 22
 
-<sup>1</sup> <sup>a</sup>
-
-And he shewed me a pure river of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:
+<sup>1</sup> <sup>a</sup>And he shewed me a pure river of water of life, bright as crystal, going forth out of the throne of God and of the Lamb:
 <sup>2</sup> in the midst of its broad place, and of the river on this side and on that, _is_ a tree of life, yielding twelve fruits, in each several month rendering its fruits, and the leaves of the tree _are_ for the service of the nations;
 <sup>3</sup> and any curse<sup>b</sup> there shall not be any more, and the throne of God and of the Lamb shall be in it, and His servants shall serve Him,
 <sup>4</sup> and they shall see His face, and His name _is_ upon their foreheads,

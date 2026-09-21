@@ -130,7 +130,9 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "Their Ties With the Apostle" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -146,11 +148,7 @@
           ]
         }
       },
-      { "heading": "Their Ties With the Apostle" },
-      {
-        "paragraph": true,
-        "text": "For yourselves have known, brethren, our entrance in unto you, that it did not become vain,"
-      }
+      "For yourselves have known, brethren, our entrance in unto you, that it did not become vain,"
     ]
   },
   {
@@ -312,7 +310,9 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      { "heading": "Timothy’s Visit" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -326,11 +326,7 @@
           ]
         }
       },
-      { "heading": "Timothy’s Visit" },
-      {
-        "paragraph": true,
-        "text": "Wherefore no longer forbearing, we thought good to be left in Athens alone,"
-      }
+      "Wherefore no longer forbearing, we thought good to be left in Athens alone,"
     ]
   },
   {
@@ -421,7 +417,9 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      { "heading": "The New Life" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -435,11 +433,7 @@
           ]
         }
       },
-      { "heading": "The New Life" },
-      {
-        "paragraph": true,
-        "text": "As to the rest, then, brethren, we request you, and call upon you in the Lord Jesus, as ye did receive from us how it behoveth you to walk and to please God, that ye may abound the more,"
-      }
+      "As to the rest, then, brethren, we request you, and call upon you in the Lord Jesus, as ye did receive from us how it behoveth you to walk and to please God, that ye may abound the more,"
     ]
   },
   {
@@ -588,6 +582,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -605,10 +600,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And concerning the times and the seasons, brethren, ye have no need of my writing to you,"
-      }
+      "And concerning the times and the seasons, brethren, ye have no need of my writing to you,"
     ]
   },
   {

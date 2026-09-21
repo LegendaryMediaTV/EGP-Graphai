@@ -1,8 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>
-
-A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
+<sup>1</sup> <sup>a</sup>A beginning of the good news of Jesus Christ, Son of God.<sup>b</sup>
 <sup>2</sup> As it hath been written in the prophets, “Lo, I send My messenger before thy face, who shall prepare thy way before thee,”—<br>
 <sup>3</sup> “A voice of one calling in the wilderness, Prepare ye the way of the Lord, straight make ye his paths,”—<br>
 

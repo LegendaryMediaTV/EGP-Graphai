@@ -283,7 +283,9 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "Wise Men from the East" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -299,11 +301,7 @@
           ]
         }
       },
-      { "heading": "Wise Men from the East" },
-      {
-        "paragraph": true,
-        "text": "And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,"
-      }
+      "And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,"
     ]
   },
   {
@@ -513,7 +511,9 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      { "heading": "John the Baptist" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -525,11 +525,7 @@
           ]
         }
       },
-      { "heading": "John the Baptist" },
-      {
-        "paragraph": true,
-        "text": "And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,"
-      }
+      "And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,"
     ]
   },
   {
@@ -687,7 +683,9 @@
     "chapter": 4,
     "verse": 1,
     "content": [
+      { "heading": "His Temptation" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -709,11 +707,7 @@
           ]
         }
       },
-      { "heading": "His Temptation" },
-      {
-        "paragraph": true,
-        "text": "Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,"
-      }
+      "Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,"
     ]
   },
   {
@@ -1001,6 +995,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1017,7 +1012,6 @@
         }
       },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And having seen the multitudes,",
@@ -1586,7 +1580,9 @@
     "chapter": 6,
     "verse": 1,
     "content": [
+      { "heading": "Real Religion" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1606,9 +1602,7 @@
           ]
         }
       },
-      { "heading": "Real Religion" },
       {
-        "paragraph": true,
         "text": "“Take heed your kindness not to do before men, to be seen by them, and if not—reward ye have not from your Father who ",
         "marks": ["woc"]
       },
@@ -1987,6 +1981,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -2008,11 +2003,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "“Judge not, that ye may not be judged,",
-        "marks": ["woc"]
-      }
+      { "text": "“Judge not, that ye may not be judged,", "marks": ["woc"] }
     ]
   },
   {
@@ -2337,6 +2328,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -2361,7 +2353,6 @@
         }
       },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And when he came down from the mount, great multitudes",
@@ -2738,7 +2729,9 @@
     "chapter": 9,
     "verse": 1,
     "content": [
+      { "heading": "Forgives Sin" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -2766,11 +2759,7 @@
           ]
         }
       },
-      { "heading": "Forgives Sin" },
-      {
-        "paragraph": true,
-        "text": "And having gone to the boat, he passed over, and came to his own city,"
-      }
+      "And having gone to the boat, he passed over, and came to his own city,"
     ]
   },
   {
@@ -3144,7 +3133,9 @@
     "chapter": 10,
     "verse": 1,
     "content": [
+      { "heading": "Names of the Twelve" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -3188,11 +3179,7 @@
           ]
         }
       },
-      { "heading": "Names of the Twelve" },
-      {
-        "paragraph": true,
-        "text": "And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady."
-      }
+      "And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady."
     ]
   },
   {
@@ -3637,6 +3624,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -3654,10 +3642,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities."
-      }
+      "And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities."
     ]
   },
   {
@@ -4023,7 +4008,9 @@
     "chapter": 12,
     "verse": 1,
     "content": [
+      { "heading": "Jesus Challenged" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -4043,11 +4030,7 @@
           ]
         }
       },
-      { "heading": "Jesus Challenged" },
-      {
-        "paragraph": true,
-        "text": "At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,"
-      }
+      "At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,"
     ]
   },
   {
@@ -4577,6 +4560,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -4610,10 +4594,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And in that day Jesus, having gone forth from the house, was sitting by the sea,"
-      }
+      "And in that day Jesus, having gone forth from the house, was sitting by the sea,"
     ]
   },
   {
@@ -5239,7 +5220,9 @@
     "chapter": 14,
     "verse": 1,
     "content": [
+      { "heading": "From Place to Place" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -5255,11 +5238,7 @@
           ]
         }
       },
-      { "heading": "From Place to Place" },
-      {
-        "paragraph": true,
-        "text": "At that time did Herod the tetrarch hear the fame of Jesus,"
-      }
+      "At that time did Herod the tetrarch hear the fame of Jesus,"
     ]
   },
   {
@@ -5578,6 +5557,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -5593,10 +5573,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,"
-      }
+      "Then come unto Jesus do they from Jerusalem—scribes and Pharisees—saying,"
     ]
   },
   {
@@ -6079,6 +6056,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -6097,7 +6075,6 @@
         }
       },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And the Pharisees and Sadducees having come, tempting, did question him, to shew",
@@ -6404,7 +6381,9 @@
     "chapter": 17,
     "verse": 1,
     "content": [
+      { "heading": "The Transfiguration" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -6422,9 +6401,7 @@
           ]
         }
       },
-      { "heading": "The Transfiguration" },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And after six days Jesus taketh",
@@ -6703,7 +6680,9 @@
     "chapter": 18,
     "verse": 1,
     "content": [
+      { "heading": "Jesus and His Disciples" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -6725,11 +6704,7 @@
           ]
         }
       },
-      { "heading": "Jesus and His Disciples" },
-      {
-        "paragraph": true,
-        "text": "At that hour came the disciples near to Jesus, saying, “Who, now, is greater in the reign of the heavens?”"
-      }
+      "At that hour came the disciples near to Jesus, saying, “Who, now, is greater in the reign of the heavens?”"
     ]
   },
   {
@@ -7061,7 +7036,9 @@
     "chapter": 19,
     "verse": 1,
     "content": [
+      { "heading": "Beyond Jordan" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7083,11 +7060,7 @@
           ]
         }
       },
-      { "heading": "Beyond Jordan" },
-      {
-        "paragraph": true,
-        "text": "And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,"
-      }
+      "And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,"
     ]
   },
   {
@@ -7426,7 +7399,9 @@
     "chapter": 20,
     "verse": 1,
     "content": [
+      { "heading": "Labourers in the Vineyard" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7444,9 +7419,7 @@
           ]
         }
       },
-      { "heading": "Labourers in the Vineyard" },
       {
-        "paragraph": true,
         "text": "“For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,",
         "marks": ["woc"]
       }
@@ -7829,7 +7802,9 @@
     "chapter": 21,
     "verse": 1,
     "content": [
+      { "heading": "Triumphal Entry" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7849,11 +7824,7 @@
           ]
         }
       },
-      { "heading": "Triumphal Entry" },
-      {
-        "paragraph": true,
-        "text": "And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,"
-      }
+      "And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,"
     ]
   },
   {
@@ -8365,7 +8336,9 @@
     "chapter": 22,
     "verse": 1,
     "content": [
+      { "heading": "The Wedding Garment" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -8383,11 +8356,7 @@
           ]
         }
       },
-      { "heading": "The Wedding Garment" },
-      {
-        "paragraph": true,
-        "text": "And Jesus answering, again spake to them in similes, saying,"
-      }
+      "And Jesus answering, again spake to them in similes, saying,"
     ]
   },
   {
@@ -8890,7 +8859,9 @@
     "chapter": 23,
     "verse": 1,
     "content": [
+      { "heading": "The Great Denunciation" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -8904,9 +8875,7 @@
           ]
         }
       },
-      { "heading": "The Great Denunciation" },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "Then Jesus spake to the multitudes,",
@@ -9341,7 +9310,9 @@
     "chapter": 24,
     "verse": 1,
     "content": [
+      { "heading": "Destruction of the Temple" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -9353,11 +9324,7 @@
           ]
         }
       },
-      { "heading": "Destruction of the Temple" },
-      {
-        "paragraph": true,
-        "text": "And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,"
-      }
+      "And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,"
     ]
   },
   {
@@ -9917,7 +9884,9 @@
     "chapter": 25,
     "verse": 1,
     "content": [
+      { "heading": "The Ten Virgins" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -9931,9 +9900,7 @@
           ]
         }
       },
-      { "heading": "The Ten Virgins" },
       {
-        "paragraph": true,
         "text": "“Then shall the reign of the heavens be likened to ten virgins, who, having taken their lamps, went forth to meet the bridegroom;",
         "marks": ["woc"]
       }
@@ -10407,7 +10374,9 @@
     "chapter": 26,
     "verse": 1,
     "content": [
+      { "heading": "The Death of Jesus" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -10439,11 +10408,7 @@
           ]
         }
       },
-      { "heading": "The Death of Jesus" },
-      {
-        "paragraph": true,
-        "text": "And it came to pass, when Jesus finished all these words, he said to his disciples,"
-      }
+      "And it came to pass, when Jesus finished all these words, he said to his disciples,"
     ]
   },
   {
@@ -11270,6 +11235,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -11291,10 +11257,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;"
-      }
+      "And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;"
     ]
   },
   {
@@ -11881,7 +11844,9 @@
     "chapter": 28,
     "verse": 1,
     "content": [
+      { "heading": "The Resurrection" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -11897,11 +11862,7 @@
           ]
         }
       },
-      { "heading": "The Resurrection" },
-      {
-        "paragraph": true,
-        "text": "And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,"
-      }
+      "And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,"
     ]
   },
   {

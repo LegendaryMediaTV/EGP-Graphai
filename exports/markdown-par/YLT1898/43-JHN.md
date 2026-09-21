@@ -76,11 +76,9 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>
-
 ### His First Miracle
 
-And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,
+<sup>1</sup> <sup>a</sup>And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,
 <sup>2</sup> and also Jesus was called, and his disciples, to the marriage;
 <sup>3</sup> and wine having failed,<sup>b</sup> the mother of Jesus saith unto him, “Wine they have not;”
 <sup>4</sup> Jesus saith to her, “What—to me and to thee, woman? not yet is mine hour come.”
@@ -121,11 +119,9 @@ And the third day a marriage happened in Cana of Galilee, and the mother of Jesu
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
 ### Nicodemus
 
-And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of the Jews,
+<sup>1</sup> <sup>a</sup>And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of the Jews,
 <sup>2</sup> this one came unto him by night, and said to him, “Rabbi, we have known that from God thou hast come—a teacher, for no one these signs is able to do that thou dost, if God may not be with him.”
 <sup>3</sup> Jesus answered and said to him, “Verily, verily, I say to thee, If any one may not be born from above, he is not able to see the reign of God;”
 
@@ -250,11 +246,9 @@ And<sup>b</sup> there was a man of the Pharisees, Nicodemus his name, a ruler of
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
 ### At Another Festival
 
-After these things there was a feast of the Jews, and Jesus went up to Jerusalem,
+<sup>1</sup> <sup>a</sup>After these things there was a feast of the Jews, and Jesus went up to Jerusalem,
 <sup>2</sup> and there is in Jerusalem by the sheep-_gate_ a pool that is called in Hebrew Bethesda, having five porches,
 <sup>3</sup> in these were lying a great multitude of the ailing, blind, lame, withered, waiting for the moving of the water,
 <sup>4</sup> for a messenger at a set time was going down in the pool, and was troubling the water, the first then having gone in after the troubling of the water, became whole of whatever sickness he was held.
@@ -311,9 +305,7 @@ After these things there was a feast of the Jews, and Jesus went up to Jerusalem
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
-After these things Jesus went away beyond the sea of Galilee (of Tiberias),
+<sup>1</sup> <sup>a</sup>After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 <sup>2</sup> and there was following him a great multitude, because they were seeing his signs that he was doing on the ailing;
 <sup>3</sup> and Jesus went up to the mount, and he was there sitting with his disciples,
 <sup>4</sup> and the passover was nigh, the feast of the Jews.
@@ -401,11 +393,9 @@ After these things Jesus went away beyond the sea of Galilee (of Tiberias),
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Feast of Tabernacles
 
-And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,
+<sup>1</sup> <sup>a</sup>And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,
 <sup>2</sup> and the feast of the Jews was nigh—that of tabernacles—
 <sup>3</sup> his brethren, therefore, said unto him, “Remove hence, and go away to Judea, that thy disciples also may behold thy works that thou dost;
 <sup>4</sup> for no one in secret doth anything, and himself seeketh to be in public; if thou dost these things—manifest thyself to the world;”
@@ -597,11 +587,9 @@ And Jesus was walking after these things in Galilee, for he did not wish to walk
 
 ## Chapter 10
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Good Shepherd
 
-“Verily, verily,<sup>b</sup> I say to you, He who is not entering through the door to the fold of the sheep, but is going up from another side, that one is a thief and a robber;
+<sup>1</sup> <sup>a</sup>“Verily, verily,<sup>b</sup> I say to you, He who is not entering through the door to the fold of the sheep, but is going up from another side, that one is a thief and a robber;
 <sup>2</sup> and he who is entering through the door is shepherd of the sheep;
 <sup>3</sup> to this one the doorkeeper doth open, and the sheep hear his voice, and his own sheep he doth call by name, and doth lead them forth;
 <sup>4</sup> and when his own sheep he may put forth, before them he goeth on, and the sheep follow him, because they have known his voice;
@@ -657,11 +645,9 @@ And Jesus was walking after these things in Galilee, for he did not wish to walk
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Lord of Life
 
-And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—
+<sup>1</sup> <sup>a</sup>And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—
 <sup>2</sup> and it was Mary who did anoint the Lord with ointment, and did wipe his feet with her hair, whose brother Lazarus was ailing—<sup>b</sup>
 <sup>3</sup> therefore sent the sisters unto him, saying, “Sir, lo, he whom thou dost love is ailing;”
 <sup>4</sup> and Jesus having heard, said, “This ailment is not unto death, but for the glory of God, that the Son of God may be glorified through it.”
@@ -803,9 +789,7 @@ And there was a certain one ailing, Lazarus, from Bethany, of the village of Mar
 
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
-
-And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
+<sup>1</sup> <sup>a</sup>And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who _are_ in the world—to the end he loved them.
 
 ### The Last Supper
 
@@ -898,11 +882,9 @@ And before the feast of the passover, Jesus knowing that his hour hath come, tha
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
 ### The True Vine
 
-“I am the true vine, and my Father is the husbandman;
+<sup>1</sup> <sup>a</sup>“I am the true vine, and my Father is the husbandman;
 <sup>2</sup> every branch in me not bearing fruit, He doth take it away, and every one bearing fruit, He doth cleanse by pruning it, that it may bear more fruit;
 <sup>3</sup> already ye are clean, because of the word that I have spoken to you;
 <sup>4</sup> remain in me, and I in you, as the branch is not able to bear fruit of itself, if it may not remain in the vine, so neither ye, if ye may not remain in me.
@@ -982,11 +964,9 @@ And before the feast of the passover, Jesus knowing that his hour hath come, tha
 
 ## Chapter 17
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Prayer of Jesus
 
-These things spake Jesus, and lifted up his eyes to the heaven, and said—“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,
+<sup>1</sup> <sup>a</sup>These things spake Jesus, and lifted up his eyes to the heaven, and said—“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,
 <sup>2</sup> according as Thou didst give to him authority over all flesh, that—all that Thou hast given to him—he may give to them life age-during;
 <sup>3</sup> and this is the life age-during, that they may know Thee, the only true God, and him whom Thou didst send—Jesus Christ;
 <sup>4</sup> I did glorify Thee on the earth, the work I did finish that Thou hast given me, that I may do _it_.
@@ -1018,11 +998,9 @@ These things spake Jesus, and lifted up his eyes to the heaven, and said—“Fa
 
 ## Chapter 18
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Betrayal
 
-These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,
+<sup>1</sup> <sup>a</sup>These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,
 <sup>2</sup> and Judas also, who delivered him up, had known the place, because many times did Jesus assemble there with his disciples.
 <sup>3</sup> Judas, therefore, having taken the band and officers out of the chief priests and Pharisees, doth come thither with torches and lamps, and weapons;
 <sup>4</sup> Jesus, therefore, knowing all things that are coming upon him, having gone forth, said to them, “Whom do ye seek?”
@@ -1081,11 +1059,9 @@ These things having said, Jesus went forth with his disciples beyond the brook o
 
 ## Chapter 19
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Crucifixion
 
-Then, therefore, did Pilate take Jesus and scourge _him_,
+<sup>1</sup> <sup>a</sup>Then, therefore, did Pilate take Jesus and scourge _him_,
 <sup>2</sup> and the soldiers having plaited a crown of thorns, did place _it_ on his head, and a purple garment they put around him,
 <sup>3</sup> and said, “Hail! the king of the Jews;” and they were giving him slaps.
 <sup>4</sup> Pilate, therefore, again went forth without, and saith to them, “Lo, I do bring him to you without, that ye may know that in him I find no fault;”
@@ -1145,11 +1121,9 @@ Then, therefore, did Pilate take Jesus and scourge _him_,
 
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Resurrection
 
-And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,
+<sup>1</sup> <sup>a</sup>And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,
 <sup>2</sup> she runneth, therefore, and cometh unto Simon Peter, and unto the other disciple whom Jesus was loving, and saith to them, “They took away the Lord out of the tomb, and we have not known where they laid him.”
 <sup>3</sup> Peter, therefore, went forth, and the other disciple, and they were coming to the tomb,
 <sup>4</sup> and the two were running together, and the other disciple did run forward more quickly than Peter, and came first to the tomb,

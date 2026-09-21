@@ -340,7 +340,9 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "False Teachers" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -356,9 +358,7 @@
           ]
         }
       },
-      { "heading": "False Teachers" },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And there did come also false prophets among the people, as also among you there shall be false teachers, who shall bring in besides destructive sects, and the Master",
@@ -615,6 +615,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -632,10 +633,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding "
-      },
+      "This, now, beloved, a second letter to you I write, in both which I stir up your pure mind in reminding ",
       { "text": "you", "marks": ["i"] },
       ","
     ]
