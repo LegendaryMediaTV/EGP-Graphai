@@ -48,11 +48,9 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>
-
 ### Jews as Well as Gentiles
 
-Therefore, thou art inexcusable, O man—every one who is judging—for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,
+<sup>1</sup> <sup>a</sup>Therefore, thou art inexcusable, O man—every one who is judging—for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,
 <sup>2</sup> and we have known that the judgment of God is according to truth, upon those practising such things.
 <sup>3</sup> And dost thou think this, O man, who art judging those who such things are practising, and art doing them, that thou shalt escape the judgment of God?
 <sup>4</sup> or the riches of His goodness, and forbearance, and long-suffering, dost thou despise?<sup>b</sup>—not knowing that the goodness of God doth lead thee to reformation!
@@ -91,11 +89,9 @@ Therefore, thou art inexcusable, O man—every one who is judging—for in that 
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
 ### They Are All Under Sin
 
-What, then, _is_ the superiority of the Jew? or what the profit of the circumcision?
+<sup>1</sup> <sup>a</sup>What, then, _is_ the superiority of the Jew? or what the profit of the circumcision?
 <sup>2</sup> much in every way; for first, indeed, that they were intrusted with the oracles of God;
 <sup>3</sup> for what, if certain were faithless? shall their faithlessness the faithfulness of god make useless?
 <sup>4</sup> let it not be! and let God become true, and every man false, according as it hath been written, “That Thou mayest be declared righteous in Thy words, and mayest overcome in Thy being judged.”<br>
@@ -143,11 +139,9 @@ What, then, _is_ the superiority of the Jew? or what the profit of the circumcis
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>
-
 ### Grasped by Faith
 
-What, then, shall we say Abraham our father, to have found, according to flesh?
+<sup>1</sup> <sup>a</sup>What, then, shall we say Abraham our father, to have found, according to flesh?
 <sup>2</sup> for if Abraham by works was declared righteous, he hath to boast—but not before god;
 <sup>3</sup> for what doth the writing say? “And Abraham did believe God, and it was reckoned to him—to righteousness;”
 <sup>4</sup> and to him who is working, the reward is not reckoned of grace, but of debt;
@@ -180,11 +174,9 @@ What, then, shall we say Abraham our father, to have found, according to flesh?
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
 ### Peace with God
 
-Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,
+<sup>1</sup> <sup>a</sup>Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,
 <sup>2</sup> through whom also we have the access by the faith into this grace in which we have stood, and we boast on the hope of the glory of God.
 <sup>3</sup> And not only _so_, but we also boast in the tribulations, knowing that the tribulation doth work endurance;
 <sup>4</sup> and the endurance, experience; and the experience, hope;
@@ -213,11 +205,9 @@ Having been declared righteous, then, by faith, we have peace toward God through
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
 ### Complete Renewal
 
-What, then, shall we say? shall we continue in the sin that the grace may abound?
+<sup>1</sup> <sup>a</sup>What, then, shall we say? shall we continue in the sin that the grace may abound?
 <sup>2</sup> let it not be! we who died to the sin—how shall we still live in it?
 <sup>3</sup> are ye ignorant that we, as many as were baptized to Christ Jesus, to his death were baptized?
 <sup>4</sup> we were buried together, then, with him through the baptism to the death, that even as Christ was raised up out of the dead through the glory of the Father, so also we in newness of life might walk.
@@ -249,11 +239,9 @@ What, then, shall we say? shall we continue in the sin that the grace may abound
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup>
-
 ### A Change of Masters
 
-Are ye ignorant, brethren—for to those knowing law I speak—that the law hath lordship over the man as long as he liveth?
+<sup>1</sup> <sup>a</sup>Are ye ignorant, brethren—for to those knowing law I speak—that the law hath lordship over the man as long as he liveth?
 <sup>2</sup> for the married woman to the living husband hath been bound by law, and if the husband may die, she hath been free from the law of the husband;
 <sup>3</sup> so, then, the husband being alive, an adulteress she shall be called if she may become another man’s; and if the husband may die, she is free from the law, so as not to be an adulteress, having become another man’s.
 <sup>4</sup> So that, my brethren, ye also were made dead to the law through the body of the Christ, for your becoming another’s, who out of the dead was raised up, that we might bear fruit to God;
@@ -285,11 +273,9 @@ Are ye ignorant, brethren—for to those knowing law I speak—that the law hath
 
 ## Chapter 8
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Spirit of God Within You
 
-There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;
+<sup>1</sup> <sup>a</sup>There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;
 <sup>2</sup> for the law of the Spirit of the life in Christ Jesus did set me free from the law of the sin and of the death;
 <sup>3</sup> for what the law was not able to do, in that it was weak through the flesh, God, His own Son having sent in the likeness of sinful flesh, and for sin, did condemn the sin in the flesh,
 <sup>4</sup> that the righteousness of the law may be fulfilled in us, who do not walk according to the flesh, but according to the Spirit.
@@ -346,11 +332,9 @@ There is, then, now no condemnation to those in Christ Jesus, who walk not accor
 
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Rejection of Israel
 
-Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,
+<sup>1</sup> <sup>a</sup>Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,
 <sup>2</sup> that I have great grief and unceasing pain in my heart—
 <sup>3</sup> for I was wishing, I myself, to be anathema from the Christ—for my brethren, my kindred, according to the flesh,
 <sup>4</sup> who are Israelites, whose _is_ the adoption, and the glory, and the covenants, and the lawgiving, and the service, and the promises,
@@ -401,9 +385,7 @@ Truth I say in Christ, I lie not, my conscience bearing testimony with me in the
 
 ## Chapter 10
 
-<sup>1</sup> <sup>a</sup>
-
-Brethren, the pleasure indeed of my heart, and my supplication that _is_ to God for Israel, is—for salvation;
+<sup>1</sup> <sup>a</sup>Brethren, the pleasure indeed of my heart, and my supplication that _is_ to God for Israel, is—for salvation;
 <sup>2</sup> for I bear them testimony that they have a zeal of God, but not according to knowledge,
 <sup>3</sup> for not knowing the righteousness of God, and their own righteousness seeking to establish, to the righteousness of God they did not submit.
 <sup>4</sup> For Christ is an end of law for righteousness to every one who is believing,
@@ -434,11 +416,9 @@ Brethren, the pleasure indeed of my heart, and my supplication that _is_ to God 
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Divine Purpose in It
 
-I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:
+<sup>1</sup> <sup>a</sup>I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:
 <sup>2</sup> God did not cast away His people whom He knew before; have ye not known—in Elijah—what the Writing saith? how he doth plead with God concerning Israel, saying,
 <sup>3</sup> “Lord, Thy prophets they did kill, and Thy altars they dug down, and I was left alone, and they seek my life;”
 <sup>4</sup> but what saith the divine answer to him? “I left to Myself seven thousand men, who did not bow a knee to Baal.”
@@ -492,11 +472,9 @@ I say, then, Did God cast away His people? let it not be! for I also am an Israe
 
 ## Chapter 12
 
-<sup>1</sup> <sup>a</sup>
-
 ### Christian Living
 
-I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice—living, sanctified, acceptable to God—your intelligent service;
+<sup>1</sup> <sup>a</sup>I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice—living, sanctified, acceptable to God—your intelligent service;
 <sup>2</sup> and be not conformed to this age, but be transformed by the renewing of your mind, for your proving what _is_ the will of God—the good, and acceptable, and perfect.
 
 <sup>3</sup> For I say, through the grace that was given to me, to every one who is among you, not to think above what it behoveth to think; but to think so as to think wisely, as to each God did deal a measure of faith,
@@ -527,11 +505,9 @@ I call upon you, therefore, brethren, through the compassions of God, to present
 
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
-
 ### Civil and Social Duties
 
-Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,
+<sup>1</sup> <sup>a</sup>Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,
 <sup>2</sup> so that he who is setting himself against the authority, against God’s ordinance hath resisted; and those resisting, to themselves shall receive judgment.
 <sup>3</sup> For those ruling are not a terror to the good works, but to the evil; and dost thou wish not to be afraid of the authority? that which is good be doing, and thou shalt have praise from it,
 <sup>4</sup> for of God it is a ministrant to thee for good; and if that which is evil thou mayest do, be fearing, for not in vain doth it bear the sword; for of God it is a ministrant, an avenger for wrath to him who is doing that which is evil.
@@ -551,11 +527,9 @@ Let every soul to the higher authorities be subject, for there is no authority e
 
 ## Chapter 14
 
-<sup>1</sup> <sup>a</sup>
-
 ### Christian Charity and Unity
 
-And him who is weak in the faith receive ye—not to determinations of reasonings;
+<sup>1</sup> <sup>a</sup>And him who is weak in the faith receive ye—not to determinations of reasonings;
 <sup>2</sup> one doth believe that he may eat all things—and he who is weak doth eat herbs;<sup>b</sup>
 <sup>3</sup> let not him who is eating despise him who is not eating: and let not him who is not eating judge him who is eating, for God did receive him.
 <sup>4</sup> Thou—who art thou that art judging another’s domestic? to his own master he doth stand or fall; and he shall be made to stand, for God is able to make him stand.
@@ -590,9 +564,7 @@ And him who is weak in the faith receive ye—not to determinations of reasoning
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
-And we ought—we who are strong—to bear the infirmities of the weak, and not to please ourselves;
+<sup>1</sup> <sup>a</sup>And we ought—we who are strong—to bear the infirmities of the weak, and not to please ourselves;
 <sup>2</sup> for let each one of us please the neighbour for good, unto edification,
 <sup>3</sup> for even the Christ did not please himself, but, according as it hath been written, “The reproaches of those reproaching Thee fell upon me;”
 <sup>4</sup> for, as many things as were written before, for our instruction were written before, that through the endurance, and the exhortation of the Writings, we might have the hope.
@@ -642,9 +614,7 @@ And we ought—we who are strong—to bear the infirmities of the weak, and not 
 
 ## Chapter 16
 
-<sup>1</sup> <sup>a</sup>
-
-And I commend you to Phebe our sister—being a ministrant of the assembly that _is_ in Cenchrea—
+<sup>1</sup> <sup>a</sup>And I commend you to Phebe our sister—being a ministrant of the assembly that _is_ in Cenchrea—
 <sup>2</sup> that ye may receive her in the Lord, as doth become saints, and may assist her in whatever matter she may have need of you—for she also became a leader of many, and of myself.
 
 <sup>3</sup> Salute Priscilla and Aquilas, my fellow-workmen in Christ Jesus—

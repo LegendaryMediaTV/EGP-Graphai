@@ -1090,9 +1090,7 @@
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
-And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
+<sup>1</sup> <sup>a</sup>And all the tax-gatherers and the sinners were coming nigh to him, to hear him,
 <sup>2</sup> and the Pharisees and the scribes were murmuring, saying—This one doth receive sinners, and doth eat with them.”
 
 ### The Lost Sheep

@@ -373,6 +373,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -388,7 +389,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "Because of this it behoveth " },
+      "Because of this it behoveth ",
       { "text": "us", "marks": ["i"] },
       " more abundantly to take heed to the things heard, lest we may glide aside,"
     ]
@@ -637,6 +638,7 @@
     "content": [
       { "heading": "Jesus and Moses" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -649,7 +651,6 @@
         }
       },
       {
-        "paragraph": true,
         "text": "Wherefore, holy brethren, partakers",
         "foot": {
           "type": "trn",
@@ -1085,6 +1086,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1098,10 +1100,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "For every chief priest—out of men taken—in behalf of men is set in things "
-      },
+      "For every chief priest—out of men taken—in behalf of men is set in things ",
       { "text": "pertaining", "marks": ["i"] },
       " to God, that he may offer both gifts and sacrifices for sins,"
     ]
@@ -1810,6 +1809,7 @@
     "content": [
       { "heading": "The Greatness of His Ministry" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1821,10 +1821,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And the sum concerning the things spoken of "
-      },
+      "And the sum concerning the things spoken of ",
       { "text": "is", "marks": ["i"] },
       ": we have such a chief priest, who did sit down at the right hand of the throne of the greatness in the heavens,"
     ]
@@ -3490,6 +3487,7 @@
     "content": [
       { "heading": "Perfect in Every Good Work" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -3505,7 +3503,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "Let brotherly love remain;" }
+      "Let brotherly love remain;"
     ]
   },
   {

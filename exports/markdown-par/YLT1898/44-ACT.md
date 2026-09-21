@@ -108,11 +108,9 @@
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
 ### At the Gate of the Temple
 
-And Peter and John were going up at the same time to the temple, at the hour of the prayer, the ninth _hour_,
+<sup>1</sup> <sup>a</sup>And Peter and John were going up at the same time to the temple, at the hour of the prayer, the ninth _hour_,
 <sup>2</sup> and a certain man, being lame from the womb of his mother, was being carried, whom they were laying every day at the gate of the temple, called Beautiful, to ask a kindness from those entering into the temple,
 <sup>3</sup> who, having seen Peter and John about to go into the temple, was begging to receive a kindness.
 <sup>4</sup> And Peter, having looked stedfastly toward him with John, said, “Look toward us;”
@@ -150,11 +148,9 @@ And Peter and John were going up at the same time to the temple, at the hour of 
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>
-
 ### Peter and John Imprisoned
 
-And as they are speaking unto the people, there came to them the priests, and the magistrate of the temple, and the Sadducees—
+<sup>1</sup> <sup>a</sup>And as they are speaking unto the people, there came to them the priests, and the magistrate of the temple, and the Sadducees—
 <sup>2</sup> being grieved because of their teaching the people, and preaching in Jesus the rising again out of the dead—
 <sup>3</sup> and they laid hands upon them, and did put them in custody unto the morrow, for it was evening already;
 <sup>4</sup> and many of those hearing the word did believe, and the number of the men became, as it were, five thousand.
@@ -211,11 +207,9 @@ And as they are speaking unto the people, there came to them the priests, and th
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
 ### Ananias and Sapphira
 
-And a certain man, Ananias by name, with Sapphira his wife, sold a possession,
+<sup>1</sup> <sup>a</sup>And a certain man, Ananias by name, with Sapphira his wife, sold a possession,
 <sup>2</sup> and did keep back of the price<sup>b</sup>—his wife also knowing—and having brought a certain part, at the feet of the apostles he laid _it_.
 <sup>3</sup> And Peter said, “Ananias, wherefore did the Adversary fill thy heart, for thee to lie to the Holy Spirit, and to keep back of the price of the place?
 <sup>4</sup> while it remained, did it not remain thine? and having been sold, in thy authority was it not? why _is_ it that thou didst put in thy heart this thing? thou didst not lie to men, but to God;”
@@ -278,11 +272,9 @@ And a certain man, Ananias by name, with Sapphira his wife, sold a possession,
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
 ### The Appointment of Stephen
 
-And in these days, the disciples multiplying, there came a murmuring of the Hellenists at the Hebrews, because their widows were being overlooked in the daily ministration,
+<sup>1</sup> <sup>a</sup>And in these days, the disciples multiplying, there came a murmuring of the Hellenists at the Hebrews, because their widows were being overlooked in the daily ministration,
 <sup>2</sup> and the twelve, having called near the multitude of the disciples, said, “It is not pleasing that we, having left the word of God, do minister at tables;
 <sup>3</sup> look out,<sup>b</sup> therefore, brethren, seven men of you who are well testified of, full of the Holy Spirit and wisdom, whom we may set over this necessity,
 <sup>4</sup> and we to prayer, and to the ministration of the word, will give ourselves continually.”
@@ -306,11 +298,9 @@ And in these days, the disciples multiplying, there came a murmuring of the Hell
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup>
-
 ### Stephen’s Speech
 
-And the chief priest said, “Are then these things so?”<sup>b</sup>
+<sup>1</sup> <sup>a</sup>And the chief priest said, “Are then these things so?”<sup>b</sup>
 <sup>2</sup> and he said, “Men, brethren, and fathers, hearken: The God of the glory did appear to our father Abraham, being in Mesopotamia, before his dwelling in Haran,
 <sup>3</sup> and He said to him, Go forth out of thy land, and out of thy kindred, and come to a land that I shall shew thee.
 <sup>4</sup> “Then having come forth out of the land of the Chaldeans, he dwelt in Haran, and from thence, after the death of his father, He did remove him to this land wherein ye now dwell,
@@ -454,11 +444,9 @@ And the chief priest said, “Are then these things so?”<sup>b</sup>
 
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>
-
 ### Conversion of Saul
 
-And Saul, yet breathing of threatening and slaughter to the disciples of the Lord, having gone to the chief priest,
+<sup>1</sup> <sup>a</sup>And Saul, yet breathing of threatening and slaughter to the disciples of the Lord, having gone to the chief priest,
 <sup>2</sup> did ask from him letters to Damascus, unto the synagogues, that if he may find any being of the way, both men and women, he may bring them bound to Jerusalem.
 <sup>3</sup> And in the going, he came nigh to Damascus, and suddenly there shone round about him a light from the heaven,
 <sup>4</sup> and having fallen upon the earth, he heard a voice saying to him, “Saul, Saul, why me dost thou persecute?”
@@ -519,11 +507,9 @@ And Saul, yet breathing of threatening and slaughter to the disciples of the Lor
 
 ## Chapter 10
 
-<sup>1</sup> <sup>a</sup>
-
 ### Conversion of Cornelius
 
-And there was a certain man in Caesarea, by name Cornelius, a centurion from a band called Italian,
+<sup>1</sup> <sup>a</sup>And there was a certain man in Caesarea, by name Cornelius, a centurion from a band called Italian,
 <sup>2</sup> pious, and fearing God with all his house, doing also many kind acts to the people, and beseeching God always,
 <sup>3</sup> he saw in a vision manifestly, as it were the ninth hour of the day, a messenger of God coming in unto him, and saying to him, “Cornelius;”
 <sup>4</sup> and he having looked earnestly on him, and becoming afraid, said, “What is it, Lord?” And he said to him, “Thy prayers and thy kind acts came up for a memorial before God,
@@ -583,11 +569,9 @@ And there was a certain man in Caesarea, by name Cornelius, a centurion from a b
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>
-
 ### Peter Interviewed by Council
 
-And the apostles and the brethren who are in Judea heard that also the nations did receive the word of God,
+<sup>1</sup> <sup>a</sup>And the apostles and the brethren who are in Judea heard that also the nations did receive the word of God,
 <sup>2</sup> and when Peter came up to Jerusalem, those of the circumcision were contending with him,
 <sup>3</sup> saying—“Unto men uncircumcised thou didst go in, and didst eat with them!”
 <sup>4</sup> And Peter having begun, did expound to them in order<sup>b</sup> saying,
@@ -630,11 +614,9 @@ And the apostles and the brethren who are in Judea heard that also the nations d
 
 ## Chapter 12
 
-<sup>1</sup> <sup>a</sup>
-
 ### Peter Imprisoned in Jerusalem
 
-And about that time, Herod the king put forth his hands, to do evil to certain of those of the assembly,
+<sup>1</sup> <sup>a</sup>And about that time, Herod the king put forth his hands, to do evil to certain of those of the assembly,
 <sup>2</sup> and he killed<sup>b</sup> James, the brother of John, with the sword,
 <sup>3</sup> and having seen that it is pleasing to the Jews, he added to lay hold of Peter also—and they were the days of the unleavened food—
 <sup>4</sup> whom also having seized, he did put in prison, having delivered _him_ to four quaternions of soldiers to guard him, intending after the passover to bring him forth to the people.
@@ -759,11 +741,9 @@ And about that time, Herod the king put forth his hands, to do evil to certain o
 
 ## Chapter 14
 
-<sup>1</sup> <sup>a</sup>
-
 ### Iconium
 
-And it came to pass in Iconium, that they did enter together into the synagogue of the Jews, and spake, so that there believed both of Jews and Greeks a great multitude;
+<sup>1</sup> <sup>a</sup>And it came to pass in Iconium, that they did enter together into the synagogue of the Jews, and spake, so that there believed both of Jews and Greeks a great multitude;
 <sup>2</sup> and the unbelieving Jews did stir up and made evil the souls of the nations against the brethren;
 <sup>3</sup> long time, indeed, therefore, did they abide speaking boldly in the Lord, who is testifying to the word of His grace, and granting signs and wonders to come to pass through their hands.
 <sup>4</sup> And the multitude of the city was divided, and some were with the Jews, and some with the apostles,
@@ -807,11 +787,9 @@ And it came to pass in Iconium, that they did enter together into the synagogue 
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>
-
 ### Council at Jerusalem
 
-And certain having come down from Judea, were teaching the brethren—“If ye be not circumcised after the custom of Moses, ye are not able to be saved;”
+<sup>1</sup> <sup>a</sup>And certain having come down from Judea, were teaching the brethren—“If ye be not circumcised after the custom of Moses, ye are not able to be saved;”
 <sup>2</sup> there having been, therefore, not a little dissension and disputation to Paul and Barnabas with them, they arranged for Paul and Barnabas, and certain others of them, to go up unto the apostles and elders to Jerusalem about this question,
 <sup>3</sup> they indeed, then, having been sent forward by the assembly, were passing through Phenice and Samaria, declaring the conversion of the nations, and they were causing great joy to all the brethren.
 
@@ -933,11 +911,9 @@ And certain having come down from Judea, were teaching the brethren—“If ye b
 
 ## Chapter 17
 
-<sup>1</sup> <sup>a</sup>
-
 ### Thessalonica and Berea
 
-And having passed through Amphipolis, and Apollonia, they came to Thessalonica, where was the synagogue of the Jews,
+<sup>1</sup> <sup>a</sup>And having passed through Amphipolis, and Apollonia, they came to Thessalonica, where was the synagogue of the Jews,
 <sup>2</sup> and according to the custom of Paul, he went in unto them, and for three sabbaths he was reasoning with them from the Writings,
 <sup>3</sup> opening and alleging, “That the Christ it behoved to suffer, and to rise again out of the dead, and that this is the Christ—Jesus whom I proclaim to you.”
 <sup>4</sup> And certain of them did believe, and attached themselves to<sup>b</sup> Paul and to Silas, also of the worshipping Greeks a great multitude, of the principal women also not a few.
@@ -987,11 +963,9 @@ And having passed through Amphipolis, and Apollonia, they came to Thessalonica, 
 
 ## Chapter 18
 
-<sup>1</sup> <sup>a</sup>
-
 ### Corinth
 
-And after these things, Paul having departed out of Athens, came to Corinth,
+<sup>1</sup> <sup>a</sup>And after these things, Paul having departed out of Athens, came to Corinth,
 <sup>2</sup> and having found a certain Jew, by name Aquilas, of Pontus by birth, lately come from Italy, and Priscilla his wife—because of Claudius having directed all the Jews to depart out of Rome—he came to them,
 <sup>3</sup> and because of being of the same craft, he did remain with them, and was working, for they were tent-makers as to craft;
 <sup>4</sup> and he was reasoning in the synagogue every sabbath, persuading both Jews and Greeks.
@@ -1033,11 +1007,9 @@ And after these things, Paul having departed out of Athens, came to Corinth,
 
 ## Chapter 19
 
-<sup>1</sup> <sup>a</sup>
-
 ### Ephesus
 
-And it came to pass, in Apollos’ being in Corinth, Paul having gone through the upper parts, came to Ephesus, and having found certain disciples,
+<sup>1</sup> <sup>a</sup>And it came to pass, in Apollos’ being in Corinth, Paul having gone through the upper parts, came to Ephesus, and having found certain disciples,
 <sup>2</sup> he said unto them, “The Holy Spirit did ye receive—having believed?” and they said unto him, “But we did not even hear whether there is any Holy Spirit;”
 <sup>3</sup> and he said unto them, “To what, then, were ye baptized?” and they said, “To John’s baptism.”
 <sup>4</sup> And Paul said, “John, indeed, did baptize with a baptism of reformation,<sup>b</sup> saying to the people that in him who is coming after him they should believe—that is, in the Christ—Jesus;”
@@ -1114,11 +1086,9 @@ And it came to pass, in Apollos’ being in Corinth, Paul having gone through th
 
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>
-
 ### Macedonia
 
-And after the ceasing of the tumult, Paul having called near the disciples, and having embraced _them_, went forth to go on to Macedonia;
+<sup>1</sup> <sup>a</sup>And after the ceasing of the tumult, Paul having called near the disciples, and having embraced _them_, went forth to go on to Macedonia;
 <sup>2</sup> and having gone through those parts, and having exhorted them with many words, he came to Greece;
 <sup>3</sup> having made also three months’ _stay_—a counsel of the Jews having been against him—being about to set forth to Syria, there came _to him_ a resolution of returning through Macedonia.
 <sup>4</sup> And there were accompanying him unto Asia, Sopater of Berea, and of Thessalonians Aristarchus and Secundus, and Gaius of Derbe, and Timotheus, and of Asiatics Tychicus and Trophimus;
@@ -1176,9 +1146,7 @@ And after the ceasing of the tumult, Paul having called near the disciples, and 
 
 ## Chapter 21
 
-<sup>1</sup> <sup>a</sup>
-
-And it came to pass, at our sailing, having been parted from them, having run direct, we came to Coos, and the succeeding _day_ to Rhodes, and thence to Patara,
+<sup>1</sup> <sup>a</sup>And it came to pass, at our sailing, having been parted from them, having run direct, we came to Coos, and the succeeding _day_ to Rhodes, and thence to Patara,
 <sup>2</sup> and having found a ship passing over to Phenicia, having gone on board, we sailed,
 
 ### Tyre
@@ -1345,11 +1313,9 @@ And it came to pass, at our sailing, having been parted from them, having run di
 
 ## Chapter 24
 
-<sup>1</sup> <sup>a</sup>
-
 ### Paul before Felix
 
-And after five days came down the chief priest Ananias, with the elders, and a certain orator—Tertullus, and they made manifest to the governor _the things_ against Paul;
+<sup>1</sup> <sup>a</sup>And after five days came down the chief priest Ananias, with the elders, and a certain orator—Tertullus, and they made manifest to the governor _the things_ against Paul;
 <sup>2</sup> and he having been called, Tertullus began to accuse _him_, saying, “Much peace enjoying through thee,<sup>b</sup> and worthy deeds being done to this nation through thy forethought,
 <sup>3</sup> always, also, and everywhere we receive it, most noble Felix, with all thankfulness;<sup>c</sup>
 <sup>4</sup> and that I may not be further tedious to thee, I pray thee to hear us concisely in thy gentleness;<sup>d</sup>
@@ -1391,11 +1357,9 @@ And after five days came down the chief priest Ananias, with the elders, and a c
 
 ## Chapter 25
 
-<sup>1</sup> <sup>a</sup>
-
 ### Appeal to Caesar
 
-Festus, therefore, having come into the province, after three days went up to Jerusalem from Caesarea,
+<sup>1</sup> <sup>a</sup>Festus, therefore, having come into the province, after three days went up to Jerusalem from Caesarea,
 <sup>2</sup> and the chief priest and the principal men of the Jews made manifest to him _the things_ against Paul, and were calling on him,
 <sup>3</sup> asking favour against him, that he may send for him to Jerusalem, making an ambush to put him to death in the way.
 <sup>4</sup> Then, indeed, Festus answered that Paul is kept in Caesarea, and himself is about speedily to go on thither,
@@ -1434,11 +1398,9 @@ Festus, therefore, having come into the province, after three days went up to Je
 
 ## Chapter 26
 
-<sup>1</sup> <sup>a</sup>
-
 ### Paul’s Speech
 
-And Agrippa said unto Paul, “It is permitted to thee to speak for thyself;” then Paul having stretched forth the hand, was making a defence:
+<sup>1</sup> <sup>a</sup>And Agrippa said unto Paul, “It is permitted to thee to speak for thyself;” then Paul having stretched forth the hand, was making a defence:
 <sup>2</sup> “Concerning all things of which I am accused by Jews, king Agrippa, I have thought myself happy, being about to make a defence before thee to-day,
 <sup>3</sup> especially knowing thee to be acquainted with all things—both customs and questions—among Jews; wherefore, I beseech thee, patiently to hear me.
 <sup>4</sup> “The manner of my life then, indeed, from youth—which from the beginning was among my nation, in Jerusalem—know do all the Jews,
@@ -1485,11 +1447,9 @@ And Agrippa said unto Paul, “It is permitted to thee to speak for thyself;” 
 
 ## Chapter 27
 
-<sup>1</sup> <sup>a</sup>
-
 ### Paul’s Journey to Rome
 
-And when our sailing to Italy was determined, they were delivering up both Paul and certain others, prisoners, to a centurion, by name Julius, of the band of Sebastus,
+<sup>1</sup> <sup>a</sup>And when our sailing to Italy was determined, they were delivering up both Paul and certain others, prisoners, to a centurion, by name Julius, of the band of Sebastus,
 <sup>2</sup> and having embarked in a ship of Adramyttium, we, being about to sail by the coasts of Asia, did set sail, there being with us Aristarchus, a Macedonian of Thessalonica,
 <sup>3</sup> on the next _day_ also we touched at Sidon,<sup>b</sup> and Julius, courteously treating Paul, did permit _him_, having gone on unto friends, to receive _their_ care.
 <sup>4</sup> And thence, having set sail, we sailed under Cyprus, because of the winds being contrary,
@@ -1557,11 +1517,9 @@ And when our sailing to Italy was determined, they were delivering up both Paul 
 
 ## Chapter 28
 
-<sup>1</sup> <sup>a</sup>
-
 ### Malta
 
-And having been saved, then they knew that the island is called Melita,
+<sup>1</sup> <sup>a</sup>And having been saved, then they knew that the island is called Melita,
 <sup>2</sup> and the foreigners<sup>b</sup> were shewing us no ordinary kindness, for having kindled a fire, they received us all, because of the pressing rain, and because of the cold;
 
 <sup>3</sup> but Paul having gathered together a quantity of sticks, and having laid _them_ upon the fire, a viper—out of the heat having come—did fasten on his hand.

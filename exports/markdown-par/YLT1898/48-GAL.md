@@ -70,11 +70,9 @@
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
-
 ### Defends the Truth of His Message
 
-O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?
+<sup>1</sup> <sup>a</sup>O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?
 <sup>2</sup> this only do I wish to learn from you—by works of law the Spirit did ye receive, or by the hearing of faith?
 <sup>3</sup> so thoughtless are ye! having begun in the Spirit, now in the flesh do ye end?
 <sup>4</sup> so many things did ye suffer in vain! if, indeed, even in vain.
@@ -156,11 +154,9 @@ O thoughtless Galatians, who did bewitch you, not to obey the truth—before who
 
 ## Chapter 5
 
-<sup>1</sup> <sup>a</sup>
-
 ### Commends the New Life
 
-In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;
+<sup>1</sup> <sup>a</sup>In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;
 
 <sup>2</sup> lo, I Paul do say to you, that if ye be circumcised, Christ shall profit you nothing;
 <sup>3</sup> and I testify again to every man circumcised, that he is a debtor to do the whole law;
@@ -199,9 +195,7 @@ In the freedom, then, with which Christ did make you free—stand ye, and be not
 
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>
-
-Brethren, if a man also may be overtaken in any trespass, ye who _are_ spiritual restore such a one in a spirit of meekness, considering thyself—lest thou also may be tempted;
+<sup>1</sup> <sup>a</sup>Brethren, if a man also may be overtaken in any trespass, ye who _are_ spiritual restore such a one in a spirit of meekness, considering thyself—lest thou also may be tempted;
 <sup>2</sup> of one another the burdens<sup>b</sup> bear ye, and so fill up the law of the Christ,
 <sup>3</sup> for if any one doth think _himself_ to be something—being nothing—himself he doth deceive;<sup>c</sup>
 <sup>4</sup> and his own work let each one prove, and then in regard to himself alone the glorying he shall have, and not in regard to the other,

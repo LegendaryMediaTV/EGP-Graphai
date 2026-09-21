@@ -763,6 +763,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -778,7 +779,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "Whence " },
+      "Whence ",
       { "text": "are", "marks": ["i"] },
       " wars and fightings among you? not thence—out of your passions, that are as soldiers in your members?"
     ]
@@ -942,6 +943,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -963,10 +965,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "Go, now, ye rich! weep, howling over your miseries that are coming upon "
-      },
+      "Go, now, ye rich! weep, howling over your miseries that are coming upon ",
       { "text": "you", "marks": ["i"] },
       ";"
     ]

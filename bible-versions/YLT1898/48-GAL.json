@@ -546,7 +546,9 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      { "heading": "Defends the Truth of His Message" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -568,11 +570,7 @@
           ]
         }
       },
-      { "heading": "Defends the Truth of His Message" },
-      {
-        "paragraph": true,
-        "text": "O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?"
-      }
+      "O thoughtless Galatians, who did bewitch you, not to obey the truth—before whose eyes Jesus Christ was described before among you crucified?"
     ]
   },
   {
@@ -1057,7 +1055,9 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      { "heading": "Commends the New Life" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1077,11 +1077,7 @@
           ]
         }
       },
-      { "heading": "Commends the New Life" },
-      {
-        "paragraph": true,
-        "text": "In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;"
-      }
+      "In the freedom, then, with which Christ did make you free—stand ye, and be not held fast again by a yoke of servitude;"
     ]
   },
   {
@@ -1295,6 +1291,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1312,10 +1309,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "Brethren, if a man also may be overtaken in any trespass, ye who "
-      },
+      "Brethren, if a man also may be overtaken in any trespass, ye who ",
       { "text": "are", "marks": ["i"] },
       " spiritual restore such a one in a spirit of meekness, considering thyself—lest thou also may be tempted;"
     ]

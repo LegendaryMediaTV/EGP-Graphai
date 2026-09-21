@@ -1108,6 +1108,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1125,7 +1126,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "Elders who " },
+      "Elders who ",
       { "text": "are", "marks": ["i"] },
       " among you, I exhort, who ",
       { "text": "am", "marks": ["i"] },

@@ -656,7 +656,9 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "His First Miracle" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -670,11 +672,7 @@
           ]
         }
       },
-      { "heading": "His First Miracle" },
-      {
-        "paragraph": true,
-        "text": "And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,"
-      }
+      "And the third day a marriage happened in Cana of Galilee, and the mother of Jesus was there,"
     ]
   },
   {
@@ -920,7 +918,9 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      { "heading": "Nicodemus" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -936,9 +936,7 @@
           ]
         }
       },
-      { "heading": "Nicodemus" },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "And",
@@ -1776,7 +1774,9 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      { "heading": "At Another Festival" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -1796,11 +1796,7 @@
           ]
         }
       },
-      { "heading": "At Another Festival" },
-      {
-        "paragraph": true,
-        "text": "After these things there was a feast of the Jews, and Jesus went up to Jerusalem,"
-      }
+      "After these things there was a feast of the Jews, and Jesus went up to Jerusalem,"
     ]
   },
   {
@@ -2210,6 +2206,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -2227,10 +2224,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "After these things Jesus went away beyond the sea of Galilee (of Tiberias),"
-      }
+      "After these things Jesus went away beyond the sea of Galilee (of Tiberias),"
     ]
   },
   {
@@ -2840,7 +2834,9 @@
     "chapter": 7,
     "verse": 1,
     "content": [
+      { "heading": "The Feast of Tabernacles" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -2860,11 +2856,7 @@
           ]
         }
       },
-      { "heading": "The Feast of Tabernacles" },
-      {
-        "paragraph": true,
-        "text": "And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,"
-      }
+      "And Jesus was walking after these things in Galilee, for he did not wish to walk in Judea, because the Jews were seeking to kill him,"
     ]
   },
   {
@@ -4222,7 +4214,9 @@
     "chapter": 10,
     "verse": 1,
     "content": [
+      { "heading": "The Good Shepherd" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -4236,9 +4230,7 @@
           ]
         }
       },
-      { "heading": "The Good Shepherd" },
       {
-        "paragraph": true,
         "content": [
           {
             "text": "“Verily, verily,",
@@ -4633,7 +4625,9 @@
     "chapter": 11,
     "verse": 1,
     "content": [
+      { "heading": "The Lord of Life" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -4659,11 +4653,7 @@
           ]
         }
       },
-      { "heading": "The Lord of Life" },
-      {
-        "paragraph": true,
-        "text": "And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—"
-      }
+      "And there was a certain one ailing, Lazarus, from Bethany, of the village of Mary and Martha her sister—"
     ]
   },
   {
@@ -5615,6 +5605,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -5630,10 +5621,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who "
-      },
+      "And before the feast of the passover, Jesus knowing that his hour hath come, that he may remove out of this world unto the Father, having loved his own who ",
       { "text": "are", "marks": ["i"] },
       " in the world—to the end he loved them."
     ]
@@ -6348,7 +6336,9 @@
     "chapter": 15,
     "verse": 1,
     "content": [
+      { "heading": "The True Vine" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -6360,9 +6350,7 @@
           ]
         }
       },
-      { "heading": "The True Vine" },
       {
-        "paragraph": true,
         "text": "“I am the true vine, and my Father is the husbandman;",
         "marks": ["woc"]
       }
@@ -6994,7 +6982,9 @@
     "chapter": 17,
     "verse": 1,
     "content": [
+      { "heading": "The Prayer of Jesus" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7006,11 +6996,7 @@
           ]
         }
       },
-      { "heading": "The Prayer of Jesus" },
-      {
-        "paragraph": true,
-        "text": "These things spake Jesus, and lifted up his eyes to the heaven, and said—"
-      },
+      "These things spake Jesus, and lifted up his eyes to the heaven, and said—",
       {
         "text": "“Father, the hour hath come, glorify Thy Son, that Thy Son also may glorify Thee,",
         "marks": ["woc"]
@@ -7266,7 +7252,9 @@
     "chapter": 18,
     "verse": 1,
     "content": [
+      { "heading": "The Betrayal" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7284,11 +7272,7 @@
           ]
         }
       },
-      { "heading": "The Betrayal" },
-      {
-        "paragraph": true,
-        "text": "These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,"
-      }
+      "These things having said, Jesus went forth with his disciples beyond the brook of Kedron, where was a garden, into which he entered, himself and his disciples,"
     ]
   },
   {
@@ -7686,7 +7670,9 @@
     "chapter": 19,
     "verse": 1,
     "content": [
+      { "heading": "The Crucifixion" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -7704,11 +7690,7 @@
           ]
         }
       },
-      { "heading": "The Crucifixion" },
-      {
-        "paragraph": true,
-        "text": "Then, therefore, did Pilate take Jesus and scourge "
-      },
+      "Then, therefore, did Pilate take Jesus and scourge ",
       { "text": "him", "marks": ["i"] },
       ","
     ]
@@ -8085,7 +8067,9 @@
     "chapter": 20,
     "verse": 1,
     "content": [
+      { "heading": "The Resurrection" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -8103,11 +8087,7 @@
           ]
         }
       },
-      { "heading": "The Resurrection" },
-      {
-        "paragraph": true,
-        "text": "And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,"
-      }
+      "And on the first of the sabbaths, Mary the Magdalene doth come early (there being yet darkness) to the tomb, and she seeth the stone having been taken away out of the tomb,"
     ]
   },
   {

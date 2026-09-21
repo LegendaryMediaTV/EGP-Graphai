@@ -31,9 +31,7 @@
 
 ### Sound Doctrine
 
-<sup>1</sup> <sup>a</sup>
-
-And thou—be speaking what doth become the sound teaching;
+<sup>1</sup> <sup>a</sup>And thou—be speaking what doth become the sound teaching;
 <sup>2</sup> aged men to be temperate, grave, sober, sound in the faith, in the love, in the endurance;
 <sup>3</sup> aged women, in like manner, in deportment as doth become sacred persons, not false accusers, to much wine not enslaved, of good things teachers,
 <sup>4</sup> that they may make the young women sober-minded, to be lovers of _their_ husbands, lovers of _their_ children,
@@ -56,9 +54,7 @@ And thou—be speaking what doth become the sound teaching;
 
 ### Social Service
 
-<sup>1</sup> <sup>a</sup>
-
-Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,
+<sup>1</sup> <sup>a</sup>Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,
 <sup>2</sup> of no one to speak evil, not to be quarrelsome—gentle, showing all meekness to all men,<sup>b</sup>
 <sup>3</sup> for we were once—also we—thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious—hating one another;<sup>c</sup>
 <sup>4</sup> and when the kindness and the love to men of God our Saviour did appear

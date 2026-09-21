@@ -384,6 +384,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -397,7 +398,7 @@
           ]
         }
       },
-      { "paragraph": true, "text": "Stedfast " },
+      "Stedfast ",
       { "text": "is", "marks": ["i"] },
       " the word: If any one the oversight doth long for, a right work he desireth;"
     ]
@@ -526,6 +527,7 @@
     "content": [
       { "heading": "The Good Minister" },
       {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": [
@@ -537,10 +539,7 @@
           ]
         }
       },
-      {
-        "paragraph": true,
-        "text": "And the Spirit expressly speaketh, that in latter times shall certain fall away from the faith, giving heed to seducing spirits and teachings of demons,"
-      }
+      "And the Spirit expressly speaketh, that in latter times shall certain fall away from the faith, giving heed to seducing spirits and teachings of demons,"
     ]
   },
   {
