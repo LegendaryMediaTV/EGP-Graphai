@@ -28554,11 +28554,11 @@
       }
     }
   },
-  "σύνειμι": {
+  "σύνειμι¹": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "listed",
-    "stems": { "aor": "συνιοντο", "fut": "συν" },
+    "indices": { "strongs": "G4895" },
     "inflections": {
       "συνέστω": {
         "transliteration": "synéstō",
@@ -28578,11 +28578,9 @@
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
         ]
       },
-      "συνιόντων": {
-        "transliteration": "synióntōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
-        ]
+      "συνῆσαν": {
+        "transliteration": "synē̂san",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "συνόντα": {
         "transliteration": "synónta",
@@ -28591,6 +28589,12 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
+      "συνόντων": {
+        "transliteration": "synóntōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "συνούσης": {
@@ -28603,24 +28607,6 @@
         "transliteration": "synoûsin",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"] }
-        ]
-      }
-    }
-  },
-  "σύνειμι¹": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "listed",
-    "indices": { "strongs": "G4895" },
-    "inflections": {
-      "συνῆσαν": {
-        "transliteration": "synē̂san",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "συνόντων": {
-        "transliteration": "synóntōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -31140,6 +31126,12 @@
         "transliteration": "syníontas",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "συνιόντων": {
+        "transliteration": "synióntōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "συνιοῦσιν": {

@@ -45544,51 +45544,6 @@
       }
     }
   },
-  "ἄπειμι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "listed",
-    "stems": { "aor": "απιοντο", "fut": "απη" },
-    "inflections": {
-      "ἀπέσται": {
-        "transliteration": "apéstai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "ἄπεστιν": {
-        "transliteration": "ápestin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἀπῄει": {
-        "transliteration": "apḗei",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἀπιέναι": {
-        "transliteration": "apiénai",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
-      },
-      "ἀπιόντος": {
-        "transliteration": "apióntos",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
-        ]
-      },
-      "ἀπόντα": {
-        "transliteration": "apónta",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
-        ]
-      },
-      "ἀπούσης": {
-        "transliteration": "apoúsēs",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "ἄπειμι¹": {
     "language": "greek",
     "pos": "verb",
@@ -45599,11 +45554,34 @@
         "transliteration": "ápeimi",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
+      "ἀπέσται": {
+        "transliteration": "apéstai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἄπεστιν": {
+        "transliteration": "ápestin",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἀπόντα": {
+        "transliteration": "apónta",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+        ]
+      },
       "ἀπόντες": {
         "transliteration": "apóntes",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἀπούσης": {
+        "transliteration": "apoúsēs",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
       "ἀπών": {
@@ -45620,9 +45598,23 @@
     "conjugation": "listed",
     "indices": { "strongs": "G549" },
     "inflections": {
+      "ἀπῄει": {
+        "transliteration": "apḗei",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἀπῄεσαν": {
         "transliteration": "apḗesan",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἀπιέναι": {
+        "transliteration": "apiénai",
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+      },
+      "ἀπιόντος": {
+        "transliteration": "apióntos",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
+        ]
       }
     }
   },

@@ -18,7 +18,7 @@ Strong's numbering is a concordance index, and an excellent one. Every number an
 
 What a concordance index cannot also be is a lexical inventory. Its unit is the concordance entry, not the dictionary word, and the two line up only most of the time. Where they part company, it happens in both directions.
 
-**One word, many numbers.** Strong's assigns separate numbers to the principal parts of defective verbs, which is the right call for a concordance, since the KJV renders those parts differently. εἰμί accordingly occupies G1488, G1498, G1510, G1511, G1526, G2070, G2071, G2075, G2076, G2258, G2468, G5600 and G5607. A text tagged at the lexical level resolves all of them to G1510, piling thousands of tokens onto one entry and leaving the other twelve unreferenced. Across the Greek lexicon, a hundred-odd entries have occurrences to their name and appear nowhere in such an edition.
+**One word, many numbers.** Strong's assigns separate numbers to the principal parts of defective verbs, which is the right call for a concordance, since the KJV renders those parts differently. εἰμί accordingly occupies over a dozen numbers, which the worked example below lists in full. A text tagged at the lexical level resolves all of them to G1510, piling thousands of tokens onto one entry and leaving the rest unreferenced. Across the Greek lexicon, a hundred-odd entries have occurrences to their name and appear nowhere in such an edition.
 
 **One number, many words.** Strong's also files several headwords under a single number, again reasonably, since the KJV renders them alike. G3588 covers ὁ, ἡ and τό, which between them are the commonest word in the language. G3739 covers ὅς, ἥ and ὅ. G4341 covers both προσκαλέω and προσκαλέομαι. Scores of Greek entries carry more than one headword in their lexicon `name`.
 
@@ -196,43 +196,68 @@ One file per language, split by letter, keyed by root. Each root carries `inflec
   "εἰμί": {
     "language": "greek",
     "pos": "verb",
-    "shortDefinition": "to be, exist",
-    "indices": { "strongs": "G1510" },
-    "inflections": {
-      "ἐστίν": [
-        {
-          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G1510" }
-        }
-      ],
-      "ἐστιν": [
-        {
-          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G1510" }
-        }
-      ],
-      "ἔστιν": [
-        {
-          "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
-          "indices": { "strongs": "G1510" }
-        }
-      ],
-      "ἦτε": [
-        {
-          "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
-          "indices": { "strongs": "G1510" }
-        },
-        {
-          "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
-          "indices": { "strongs": "G1510" }
-        }
+    "shortDefinition": "I am",
+    "indices": {
+      "strongs": [
+        "G1488",
+        "G1498",
+        "G1510",
+        "G1511",
+        "G1526",
+        "G2070",
+        "G2071",
+        "G2075",
+        "G2076",
+        "G2077",
+        "G2252",
+        "G2258",
+        "G2277",
+        "G2468",
+        "G5600",
+        "G5607"
       ]
     },
-    "transliterations": {
-      "ἐστίν": "estín",
-      "ἐστιν": "estin",
-      "ἔστιν": "éstin",
-      "ἦτε": "ē̂te"
+    "inflections": {
+      "ἐστίν": {
+        "transliteration": "estín",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2076" }
+          }
+        ]
+      },
+      "ἐστιν": {
+        "transliteration": "estin",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2076" }
+          }
+        ]
+      },
+      "ἔστιν": {
+        "transliteration": "éstin",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2076" }
+          }
+        ]
+      },
+      "ἦτε": {
+        "transliteration": "ē̂te",
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2258" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"],
+            "indices": { "strongs": "G5600" }
+          }
+        ]
+      }
     }
   }
 }
@@ -264,7 +289,7 @@ Omit it when the root is its own only citation form, as εἰμί is.
 
 Flattening the attributes into a single array would produce `["verb", "impf", "pres", "act", "ind", "subj", "pers-2", "pl"]`, which reads as four possible parses rather than two, breaks the one-code-per-category rule, and leaves nowhere to put the second Strong's number.
 
-The scale of this is not marginal. Around one key in twenty-five carries more than one parse, and they fall out like this:
+Spellings carrying more than one parse are common rather than exceptional, and they fall out like this:
 
 | Collision type                         | Survives a flat array? |
 | -------------------------------------- | ---------------------- |

@@ -133,7 +133,11 @@
     { "n": "G4236", "root": "πρᾳότης", "spelling": "πρᾳότητι" },
     { "n": "G4236", "root": "πρᾳότης", "spelling": "πρᾳότητος" },
     { "n": "G3063", "root": "λοιπός", "requires": ["acc", "sg", "neut"] },
-    { "n": "G3064", "root": "λοιπός", "requires": ["gen", "sg", "neut"] }
+    { "n": "G3064", "root": "λοιπός", "requires": ["gen", "sg", "neut"] },
+    { "n": "G2566", "root": "καλός", "requires": ["adv", "comp"] },
+    { "n": "G3755", "root": "ὅστις", "requires": ["attic"] },
+    { "n": "G4412", "root": "πρῶτος", "requires": ["adv"] },
+    { "n": "G1452", "root": "ἐγγύς", "requires": ["comp"] }
   ],
   "unplaced": [
     { "n": "G4054", "reason": "sense split, not a parse cell" },
@@ -310,6 +314,10 @@
     {
       "n": "G1275",
       "reason": "compound adverb διά+παντός (διαπαντός) never attested as a single word in BYZ2026"
+    },
+    {
+      "n": "G5315",
+      "reason": "the split is by suppletive stem, which no parse states: G5315 is the φαγ- forms, which are the second aorist and also the future middle φάγομαι, so the second-aorist codes alone would miss the future and would claim ἤσθοσαν, ἐσθίω's own aorist"
     }
   ]
 }
