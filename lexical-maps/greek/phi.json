@@ -507,6 +507,18 @@
       }
     }
   },
+  "Φακαρεθ-σαβιη": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Φακαρεθ-σαβιη": {
+        "transliteration": "Phakareth-sabiē",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "Φακεε": {
     "language": "greek",
     "pos": "noun",
@@ -2306,6 +2318,18 @@
     "inflections": {
       "Φαχαραθ": {
         "transliteration": "Phacharath",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "Φαχεραθ-ασεβωιν": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Φαχεραθ-ασεβωιν": {
+        "transliteration": "Phacherath-asebōin",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }

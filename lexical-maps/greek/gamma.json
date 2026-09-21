@@ -287,6 +287,18 @@
       }
     }
   },
+  "Γαβηρωθ-χαμααμ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Γαβηρωθ-χαμααμ": {
+        "transliteration": "Gabērōth-chamaam",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "γαβης": {
     "language": "greek",
     "pos": "noun",
@@ -863,6 +875,18 @@
           { "parse": ["noun", "indecl-proper", "masc"] },
           { "parse": ["noun", "indecl-proper", "neut"] }
         ]
+      }
+    }
+  },
+  "Γαι-βαναι-εννομ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Γαι-βαναι-εννομ": {
+        "transliteration": "Gai-banai-ennom",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },

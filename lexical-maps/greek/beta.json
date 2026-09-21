@@ -5630,11 +5630,10 @@
       }
     }
   },
-  "βάτος": {
+  "βάτος¹": {
     "language": "greek",
     "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "indices": { "strongs": "G942" },
     "inflections": {
       "βάτος": {
         "transliteration": "bátos",
@@ -5642,14 +5641,7 @@
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "βάτος¹": {
-    "language": "greek",
-    "pos": "noun",
-    "indices": { "strongs": "G942" },
-    "inflections": {
+      },
       "βάτου": {
         "transliteration": "bátou",
         "cells": [
@@ -7869,6 +7861,18 @@
       "βήματος": {
         "transliteration": "bḗmatos",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      }
+    }
+  },
+  "Βην-Ιωνάθας": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-as",
+    "inflections": {
+      "Βην-Ιωναθου": {
+        "transliteration": "Bēn-Iōnathou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },

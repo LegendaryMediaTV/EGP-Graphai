@@ -732,7 +732,7 @@
 <sup>14</sup> Anangeílate eis Mágdōlon kaì parangeílate eis Mémphin, eípate Epístēthi kaì hetoímason, hóti katéphagen máchaira tḕn smílaká sou.
 <sup>15</sup> Dià tí éphygen ho Âpis? Ho móschos ho eklektós sou ouk émeinen, hóti kýrios parélysen autón.
 <sup>16</sup> Kaì tò plē̂thós sou ēsthénēsen kaì épesen, kaì hékastos pròs tòn plēsíon autoû elálei Anastō̂men kaì anastrépsōmen pròs tòn laòn hēmō̂n eis tḕn patrída hēmō̂n apò prosṓpou machaíras Hellēnikē̂s.
-<sup>17</sup> Kalésate tò ónoma Pharaō Nechaō basiléōs Aigýptou Saōn—esbi—emōēd.
+<sup>17</sup> Kalésate tò ónoma Pharaō Nechaō basiléōs Aigýptou Saōn-esbi-emōēd.
 <sup>18</sup> Zō̂ egṓ, légei kýrios ho theós, hóti hōs tò Itabýrion en toîs óresin kaì hōs ho Kármēlos en tē̂ thalássē hḗxei.
 <sup>19</sup> Skeúē apoikismoû poíēson seautē̂, katoikoûsa thýgater Aigýptou, hóti Mémphis eis aphanismòn éstai kaì klēthḗsetai ouaì dià tò mḕ hypárchein katoikoûntas en autē̂.
 <sup>20</sup> Dámalis kekallōpisménē Aígyptos, apóspasma apò borrâ ē̂lthen ep’ autḗn.
@@ -958,7 +958,7 @@ Hoútōs eîpen kýrios Ouaì epì Nabau, hóti ṓleto; elḗmphthē Kariathaim
 <sup>31</sup> Dià toûto epì Mōab ololýzete pántothen, boḗsate ep’ ándras Kiradas auchmoû.
 <sup>32</sup> Hōs klauthmòn Iazēr apoklaúsomaí soi, ámpelos Sebēma; klḗmatá sou diē̂lthen thálassan, Iazēr hḗpsanto; epì opṓran sou, epì trygētaîs sou ólethros epépesen.
 <sup>33</sup> Synepsḗsthē charmosýnē kaì euphrosýnē ek tē̂s Mōabítidos, kaì oînos ē̂n epì lēnoîs sou; prōï̀ ouk epátēsan oudè deílēs, ouk epoíēsan aidad.
-<sup>34</sup> Apò kraugē̂s Esebōn héōs Elealē hai póleis autō̂n édōkan phōnḕn autō̂n, apò Zogor héōs Ōrōnaim kaì Aglath—salisia, hóti kaì tò hýdōr Nebrim eis katákauma éstai.
+<sup>34</sup> Apò kraugē̂s Esebōn héōs Elealē hai póleis autō̂n édōkan phōnḕn autō̂n, apò Zogor héōs Ōrōnaim kaì Aglath-salisia, hóti kaì tò hýdōr Nebrim eis katákauma éstai.
 <sup>35</sup> Kaì apolō̂ tòn Mōab, phēsìn kýrios, anabaínonta epì bōmòn kaì thymiō̂nta theoîs autoû.
 <sup>36</sup> Dià toûto kardía mou, Mōab, hṓsper auloì bombḗsousin, kardía mou ep’ anthrṓpous Kiradas hṓsper aulòs bombḗsei; dià toûto hà periepoiḗsato, apṓleto apò anthrṓpou.
 <sup>37</sup> Pâsan kephalḕn en pantì tópō xyrḗsontai, kaì pâs pṓgōn xyrēthḗsetai, kaì pâsai cheîres kópsontai, kaì epì pásēs osphýos sákkos.
@@ -1464,7 +1464,7 @@ Hoútōs eîpen kýrios Ouaì epì Nabau, hóti ṓleto; elḗmphthē Kariathaim
 <sup>14</sup> kaì anéstrepsan pròs Iōanan.
 <sup>15</sup> Kaì Ismaēl esṓthē sỳn oktṑ anthrṓpois kaì ṓcheto pròs toùs hyioùs Ammōn. —
 <sup>16</sup> kaì élaben Iōanan kaì pántes hoi hēgemónes tē̂s dynámeōs hoi met’ autoû pántas toùs kataloípous toû laoû, hoús apéstrepsen apò Ismaēl, dynatoùs ándras en polémō kaì tàs gynaîkas kaì tà loipà kaì toùs eunoúchous, hoùs apéstrepsen apò Gabaōn,
-<sup>17</sup> kaì ṓchonto kaì ekáthisan en Gabērōth—chamaam tḕn pròs Bēthleem toû poreuthē̂nai eiseltheîn eis Aígypton
+<sup>17</sup> kaì ṓchonto kaì ekáthisan en Gabērōth-chamaam tḕn pròs Bēthleem toû poreuthē̂nai eiseltheîn eis Aígypton
 <sup>18</sup> apò prosṓpou tō̂n Chaldaíōn, hóti ephobḗthēsan apò prosṓpou autō̂n, hóti epátaxen Ismaēl tòn Godolian, hòn katéstēsen basileùs Babylō̂nos en tē̂ gē̂.
 
 ## Chapter 49

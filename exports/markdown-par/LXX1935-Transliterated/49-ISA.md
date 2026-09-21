@@ -461,7 +461,7 @@ Idoù kýrios káthētai epì nephélēs koúphēs kaì hḗxei eis Aígypton, k
 
 <sup>16</sup> Tē̂ dè hēméra ekeínē ésontai hoi Aigýptioi hōs gynaîkes en phóbō kaì en trómō apò prosṓpou tē̂s cheiròs kyríou sabaōth, hḕn autòs epibaleî autoîs.
 <sup>17</sup> Kaì éstai hē chṓra tō̂n Ioudaíōn toîs Aigyptíois eis phóbētron; pâs, hòs eàn onomásē autḕn autoîs, phobēthḗsontai dià tḕn boulḗn, hḕn beboúleutai kýrios ep’ autḗn. —
-<sup>18</sup> tē̂ hēméra ekeínē ésontai pénte póleis en Aigýptō laloûsai tē̂ glṓssē tē̂ Chananítidi kaì omnýousai tō̂ onómati kyríou; Pólis—asedek klēthḗsetai hē mía pólis. —
+<sup>18</sup> tē̂ hēméra ekeínē ésontai pénte póleis en Aigýptō laloûsai tē̂ glṓssē tē̂ Chananítidi kaì omnýousai tō̂ onómati kyríou; Pólis-asedek klēthḗsetai hē mía pólis. —
 <sup>19</sup> tē̂ hēméra ekeínē éstai thysiastḗrion tō̂ kyríō en chṓra Aigyptíōn kaì stḗlē pròs tò hórion autē̂s tō̂ kyríō
 <sup>20</sup> kaì éstai eis sēmeîon eis tòn aiō̂na kyríō en chṓra Aigýptou, hóti kekráxontai pròs kýrion dià toùs thlíbontas autoús, kaì aposteleî autoîs kýrios ánthrōpon, hòs sṓsei autoús, krínōn sṓsei autoús.
 <sup>21</sup> Kaì gnōstòs éstai kýrios toîs Aigyptíois, kaì gnṓsontai hoi Aigýptioi tòn kýrion en tē̂ hēméra ekeínē kaì poiḗsousin thysías kaì eúxontai euchàs tō̂ kyríō kaì apodṓsousin.

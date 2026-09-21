@@ -14877,34 +14877,6 @@
       }
     }
   },
-  "μήν": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3-cons",
-    "shortDefinition": "a month",
-    "inflections": {
-      "μῆνες": {
-        "transliteration": "mē̂nes",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
-      "μηνός": {
-        "transliteration": "mēnós",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
-      "μηνῶν": {
-        "transliteration": "mēnō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      },
-      "μησίν": {
-        "transliteration": "mēsín",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      }
-    }
-  },
   "μήν¹": {
     "language": "greek",
     "pos": "prt",
@@ -14918,6 +14890,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a month",
     "indices": { "strongs": "G3376" },
     "inflections": {
       "μήν": {
@@ -14932,9 +14905,28 @@
         "transliteration": "mē̂nas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
+      "μῆνες": {
+        "transliteration": "mē̂nes",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
       "μηνί": {
         "transliteration": "mēní",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "μηνός": {
+        "transliteration": "mēnós",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
+      "μηνῶν": {
+        "transliteration": "mēnō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "μησίν": {
+        "transliteration": "mēsín",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },

@@ -156,6 +156,7 @@ export function gendersOf(entry: { gender?: unknown }): string[] {
 
 export function auditLexicalMaps(language: string): LexicalMapAudit {
   const findings: LexicalMapFinding[] = [];
+  const rootFiles = new Map<string, string>();
   let rootsScanned = 0;
   let cellsScanned = 0;
 
@@ -203,13 +204,63 @@ export function auditLexicalMaps(language: string): LexicalMapAudit {
     const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     for (const [root, entry] of Object.entries<any>(data)) {
       rootsScanned++;
+      rootFiles.set(root, file);
       findings.push(
         ...auditRoot(file, root, entry, registry, () => cellsScanned++),
       );
     }
   }
 
+  findings.push(...findBareSuperscriptDuplicates(rootFiles));
+
   return { language, findings, rootsScanned, cellsScanned };
+}
+
+/** Every superscript a root key can carry, stripped to leave the bare spelling. */
+const SUPERSCRIPT = /[¹²³⁴-⁹]/g;
+
+/**
+ * Bare root keys that duplicate a superscripted root's own spelling.
+ *
+ * A superscript says two words derive to the same citation form and the map is
+ * holding them apart: `ἄπειμι¹` is 'be absent' from εἰμί and `ἄπειμι²` is 'go
+ * away' from εἶμι. A bare `ἄπειμι` beside them undoes that. It is a third root
+ * for a word the map has already said is two, it carries no index number of its
+ * own, and a corpus tagging the bare spelling lands there and never reaches
+ * either real one — which is how 175 Septuagint words came to sit under four
+ * such keys, each holding forms of both words at once.
+ *
+ * Cross-root rather than per-root, which is why it runs here instead of in
+ * {@link auditRoot}: nothing about the bare key is wrong on its own inspection,
+ * and only the presence of its numbered siblings makes it a finding.
+ *
+ * Report-only, like everything else here. Which numbered root each of the bare
+ * root's forms belongs to is a reading of the forms rather than something a rule
+ * settles: `ἀπούσης` is εἰμί's participle and `ἀπιόντος` is εἶμι's, and only the
+ * stem says which.
+ *
+ * @param rootFiles - Every root key in one language's codex, mapped to the file
+ *   it sits in.
+ * @returns One finding per offending bare key, naming its numbered siblings.
+ *   Never one finding per sibling, which would report the same key twice.
+ */
+export function findBareSuperscriptDuplicates(
+  rootFiles: ReadonlyMap<string, string>,
+): LexicalMapFinding[] {
+  const siblings = new Map<string, string[]>();
+  for (const root of rootFiles.keys()) {
+    const bare = root.replace(SUPERSCRIPT, "");
+    if (bare === root || !rootFiles.has(bare)) continue;
+    const found = siblings.get(bare);
+    if (found) found.push(root);
+    else siblings.set(bare, [root]);
+  }
+
+  return [...siblings].map(([bare, numbered]) => ({
+    file: rootFiles.get(bare)!,
+    root: bare,
+    message: `bare key beside ${numbered.join(" and ")}, which the superscript exists to keep apart`,
+  }));
 }
 
 /** Every check that applies to one root. */

@@ -5203,6 +5203,18 @@
       }
     }
   },
+  "Ιεχονια-ασιρ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ιεχονια-ασιρ": {
+        "transliteration": "Iechonia-asir",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "Ἰεχονίας": {
     "language": "greek",
     "pos": "noun",

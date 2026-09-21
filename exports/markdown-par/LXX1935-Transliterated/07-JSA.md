@@ -56,8 +56,6 @@
 <sup>61</sup> Baddargis kaì Bētharaba kaì Madōn kaì Sochocha
 <sup>62</sup> kaì Nebsan kaì hai póleis halō̂n kaì Ēngaddi, póleis heptà kaì hai kō̂mai autō̂n.
 
-Bēthagla kaì Amekkasis
-
 ## Chapter 18
 
 <sup>22</sup> kaì Baitharaba kaì Semrim kaì Bēthēl

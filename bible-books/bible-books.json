@@ -607,7 +607,7 @@
     "name": "2 Esdras",
     "title": "2 Esdras",
     "testament": "OT",
-    "alt": ["2Esd", "2Es"]
+    "alt": ["2Esd", "2Es", "4 Esdras", "4Esd", "4 Ezra", "4Ezra"]
   },
   {
     "_id": "ODS",
@@ -636,6 +636,13 @@
     "title": "Judges B",
     "testament": "OT",
     "alt": ["JudgB", "JdB", "Judges Vaticanus", "Vaticanus Judges"]
+  },
+  {
+    "_id": "ESB",
+    "name": "Esdras B",
+    "title": "Esdras B",
+    "testament": "OT",
+    "alt": ["EsdB", "EsB", "Esdras Beta", "Greek Ezra-Nehemiah"]
   },
   {
     "_id": "TBS",

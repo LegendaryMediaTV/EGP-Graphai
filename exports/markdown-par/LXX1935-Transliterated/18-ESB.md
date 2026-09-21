@@ -45,7 +45,7 @@
 <sup>28</sup> Ándres Baithēl kaì Aia tetrakósioi eíkosi treîs.
 <sup>29</sup> Hyioì Nabou pentḗkonta dýo.
 <sup>30</sup> Hyioì Magebōs hekatòn pentḗkonta héx.
-<sup>31</sup> Hyioì Ēlam—ar chílioi diakósioi pentḗkonta téssares.
+<sup>31</sup> Hyioì Ēlam-ar chílioi diakósioi pentḗkonta téssares.
 <sup>32</sup> Hyioì Ēram triakósioi eíkosi.
 <sup>33</sup> Hyioì Lod, Arōth kaì Ōnō heptakósioi eíkosi pénte.
 <sup>34</sup> Hyioì Ierichō triakósioi tessarákonta pénte.
@@ -71,7 +71,7 @@
 <sup>54</sup> hyioì Nasoue, hyioì Atoupha.
 <sup>55</sup> Hyioì Abdēselma; hyioì Sati, hyioì Asephērath, hyioì Phadoura,
 <sup>56</sup> hyioì Ieēla, hyioì Darkōn, hyioì Gedēl,
-<sup>57</sup> hyioì Saphatia, hyioì Atil, hyioì Phacherath—asebōin, hyioì Ēmi.
+<sup>57</sup> hyioì Saphatia, hyioì Atil, hyioì Phacherath-asebōin, hyioì Ēmi.
 <sup>58</sup> Pántes hoi nathinin kaì hyioì Abdēselma triakósioi enenḗkonta dýo. —
 <sup>59</sup> kaì hoûtoi hoi anabántes apò Thelmeleth, Thelarēsa, Charoub, Ēdan, Emmēr kaì ouk ēdynásthēsan toû anangeîlai oîkon patriâs autō̂n kaì spérma autō̂n ei ex Israēl eisín;
 <sup>60</sup> hyioì Dalaia, hyioì Boua, hyioì Tōbia, hyioì Nekōda, hexakósioi pentḗkonta dýo.
@@ -514,8 +514,8 @@ Kaì egéneto en mēnì Chaseēlou étous eikostoû kaì egṑ ḗmēn en Sousan
 <sup>30</sup> Ándres Arama kaì Gabaa hexakósioi eíkosi heîs.
 <sup>31</sup> Ándres Machemas hekatòn eíkosi dýo.
 <sup>32</sup> Ándres Bēthēl kaì Aia hekatòn eíkosi treîs.
-<sup>33</sup> Ándres Nabi—aar pentḗkonta dýo.
-<sup>34</sup> Ándres Ēlam—aar chílioi diakósioi pentḗkonta téssares.
+<sup>33</sup> Ándres Nabi-aar pentḗkonta dýo.
+<sup>34</sup> Ándres Ēlam-aar chílioi diakósioi pentḗkonta téssares.
 <sup>35</sup> Hyioì Ēram triakósioi eíkosi.
 <sup>36</sup> Hyioì Ierichō triakósioi tessarákonta pénte.
 <sup>37</sup> Hyioì Lod, Adid kaì Ōnō heptakósioi eíkosi heîs.
