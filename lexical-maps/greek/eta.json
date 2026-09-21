@@ -1157,6 +1157,30 @@
       }
     }
   },
+  "Ηλαμ-ααρ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ηλαμ-ααρ": {
+        "transliteration": "Ēlam-aar",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "Ηλαμ-αρ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Ηλαμ-αρ": {
+        "transliteration": "Ēlam-ar",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "Ηλαμαῖοι": {
     "language": "greek",
     "pos": "noun",

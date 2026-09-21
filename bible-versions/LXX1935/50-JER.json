@@ -113405,9 +113405,11 @@
         "lemma": "Αἴγυπτος"
       },
       {
-        "text": " Σαων—εσβι—εμωηδ.",
+        "text": " Σαων-εσβι-εμωηδ.",
         "script": "G",
-        "transliteration": " Saōn—esbi—emōēd."
+        "transliteration": " Saōn-esbi-emōēd.",
+        "morph": "N-PRI",
+        "lemma": "Σαων-εσβι-εμωηδ"
       }
     ]
   },
@@ -144504,9 +144506,11 @@
         "lemma": "καί"
       },
       {
-        "text": " Αγλαθ—σαλισια,",
+        "text": " Αγλαθ-σαλισια,",
         "script": "G",
-        "transliteration": " Aglath—salisia,"
+        "transliteration": " Aglath-salisia,",
+        "morph": "N-PRI",
+        "lemma": "Αγλαθ-σαλισια"
       },
       {
         "text": " ὅτι",
@@ -218753,13 +218757,12 @@
         "morph": "PREP",
         "lemma": "ἐν"
       },
-      { "text": " Γαβηρωθ—", "script": "G", "transliteration": " Gabērōth—" },
       {
-        "text": "χαμααμ",
+        "text": " Γαβηρωθ-χαμααμ",
         "script": "G",
-        "transliteration": "chamaam",
+        "transliteration": " Gabērōth-chamaam",
         "morph": "N-PRI",
-        "lemma": "Χαμααμ"
+        "lemma": "Γαβηρωθ-χαμααμ"
       },
       {
         "text": " τὴν",

@@ -33737,6 +33737,18 @@
       }
     }
   },
+  "Πόλις-ασεδεκ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "indeclinable",
+    "inflections": {
+      "Πόλις-ασεδεκ": {
+        "transliteration": "Pólis-asedek",
+        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+      }
+    }
+  },
   "πολιτάρχης": {
     "language": "greek",
     "pos": "noun",

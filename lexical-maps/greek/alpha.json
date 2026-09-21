@@ -4389,6 +4389,18 @@
       }
     }
   },
+  "Αγλαθ-σαλισια": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "inflections": {
+      "Αγλαθ-σαλισια": {
+        "transliteration": "Aglath-salisia",
+        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
   "Αγλων": {
     "language": "greek",
     "pos": "noun",
