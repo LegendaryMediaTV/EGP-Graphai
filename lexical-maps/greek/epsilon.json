@@ -1205,7 +1205,7 @@
   "ἐγγύς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "to be near, soon",
+    "shortDefinition": "near, soon",
     "indices": { "strongs": ["G1451", "G1452"] },
     "inflections": {
       "ἔγγιστα": {
@@ -4764,7 +4764,7 @@
   "ἐθνικός": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "a foreigner; fig. an unbeliever",
+    "shortDefinition": "to be ethnic, foreign; fig. to be unbelieving",
     "indices": { "strongs": "G1482" },
     "inflections": {
       "ἐθνικοί": {
@@ -5544,7 +5544,7 @@
     "pos": "verb",
     "conjugation": "listed",
     "deponent": true,
-    "shortDefinition": "I am",
+    "shortDefinition": "to be",
     "indices": {
       "strongs": [
         "G1488",
@@ -6733,7 +6733,7 @@
     "language": "greek",
     "pos": "adj",
     "citationForms": ["εἷς", "μία", "ἕν"],
-    "shortDefinition": "one; fig. to be united",
+    "shortDefinition": "one; fig. united",
     "indices": { "strongs": ["G1520", "G3391"] },
     "inflections": {
       "εἷς": {
@@ -9224,7 +9224,7 @@
     "pos": "adj",
     "citationForms": ["ἕκαστος", "ἑκάστη", "ἕκαστον"],
     "declension": "2-1-2",
-    "shortDefinition": "to be each, every",
+    "shortDefinition": "each, every",
     "indices": { "strongs": "G1538" },
     "inflections": {
       "ἕκαστα": {
@@ -9383,7 +9383,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "a hundred",
+    "shortDefinition": "one hundred",
     "indices": { "strongs": "G1540" },
     "inflections": {
       "ἑκατόν": {
@@ -60307,7 +60307,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "a seven",
+    "shortDefinition": "seven",
     "indices": { "strongs": "G2033" },
     "inflections": {
       "ἑπτά": {
@@ -65358,7 +65358,7 @@
     "conjugation": "thematic",
     "deponent": true,
     "stems": { "aor": "εφαγ" },
-    "shortDefinition": "to eat [act]",
+    "shortDefinition": "to eat",
     "indices": { "strongs": ["G2068", "G5315"] },
     "inflections": {
       "ἔδεσθε": {
@@ -67583,7 +67583,7 @@
   "εὖ": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "to be well off, prosperously",
+    "shortDefinition": "well off; fig. prosperously",
     "indices": { "strongs": "G2095" },
     "inflections": {
       "εὖ": { "transliteration": "eû", "cells": [{ "parse": ["adv"] }] }
@@ -71606,7 +71606,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "shortDefinition": "to do good",
+    "shortDefinition": "a beneficence",
     "indices": { "strongs": "G2140" },
     "inflections": {
       "εὐποιΐας": {
@@ -76103,7 +76103,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "shortDefinition": "to be hostile; fig. an enemy",
+    "shortDefinition": "to be hostile; fig. to be an enemy",
     "indices": { "strongs": "G2190" },
     "inflections": {
       "ἔχθιστα": {

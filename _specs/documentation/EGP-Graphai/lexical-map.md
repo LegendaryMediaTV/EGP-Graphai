@@ -196,7 +196,7 @@ One file per language, split by letter, keyed by root. Each root carries `inflec
   "εἰμί": {
     "language": "greek",
     "pos": "verb",
-    "shortDefinition": "I am",
+    "shortDefinition": "to be",
     "indices": {
       "strongs": [
         "G1488",
@@ -282,6 +282,10 @@ A root can have more than one headword. The article is one word with one paradig
 ```
 
 Omit it when the root is its own only citation form, as εἰμί is.
+
+### Short definitions
+
+`shortDefinition` is a brief English gloss for the root, written so a reader can put it in place of the word and read it beside the cell's parse. It belongs to the root rather than to a cell, and it states no tense, person, case or degree, since the parse already does: εἰμί is "to be", not "I am". How to write one is defined in [short-definitions.md](./short-definitions.md).
 
 ### Why the parses are an array
 

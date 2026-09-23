@@ -116,7 +116,7 @@
         },
         "shortDefinition": {
           "type": "string",
-          "description": "Optional brief gloss for the root."
+          "description": "Optional brief English gloss for the root, written to _specs/documentation/EGP-Graphai/short-definitions.md: tense-, person-, case- and degree-neutral, since each cell's parse states those, and opening with the frame for the root's part of speech (\"a/an\" for a noun, \"to\" for a verb, \"to be\" for an adjective)."
         },
         "indices": {
           "$ref": "#/$defs/indices",
