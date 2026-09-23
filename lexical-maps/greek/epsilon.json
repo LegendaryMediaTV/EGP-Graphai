@@ -3,7 +3,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "five",
     "inflections": {
       "ε": {
         "transliteration": "e",
@@ -1012,7 +1011,6 @@
   "ἔγγιστα": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "nearest, very near",
     "inflections": {
       "ἔγγιστά": {
         "transliteration": "éngistá",
@@ -1142,7 +1140,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "shortDefinition": "surety, a pledge",
     "inflections": {
       "ἐγγύη": {
         "transliteration": "engýē",
@@ -1164,7 +1161,6 @@
   "ἐγγύθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from near by, close at hand",
     "inflections": {
       "ἐγγύθεν": {
         "transliteration": "engýthen",
@@ -2303,7 +2299,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to persevere, endure",
     "inflections": {
       "ἐνεκαρτέρουν": {
         "transliteration": "enekartéroun",
@@ -2809,7 +2804,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to lie in, be intent on",
     "inflections": {
       "ἔγκειται": {
         "transliteration": "énkeitai",
@@ -2857,7 +2851,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to bury in, be buried in",
     "inflections": {
       "ἐγκεκήδευνται": {
         "transliteration": "enkekḗdeuntai",
@@ -2901,7 +2894,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to shut in, confine",
     "inflections": {
       "ἐγκλείσθητι": {
         "transliteration": "enkleísthēti",
@@ -2996,7 +2988,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
-    "shortDefinition": "carved, engraved",
     "inflections": {
       "ἐγκολαπτά": {
         "transliteration": "enkolaptá",
@@ -3012,7 +3003,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to carve, engrave in",
     "inflections": {
       "ἐγκεκολαμμένα": {
         "transliteration": "enkekolamména",
@@ -3144,7 +3134,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to bear a grudge",
     "inflections": {
       "ἐνεκότει": {
         "transliteration": "enekótei",
@@ -3517,7 +3506,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to stoop and peer into",
     "inflections": {
       "ἐγκύψας": {
         "transliteration": "enkýpsas",
@@ -3651,7 +3639,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to gape at, mock at",
     "inflections": {
       "ἐγκέχηναν": {
         "transliteration": "enkéchēnan",
@@ -3665,7 +3652,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to undertake, attempt",
     "inflections": {
       "ἐνεχείρησαν": {
         "transliteration": "enecheírēsan",
@@ -4148,7 +4134,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Eden, Eran",
     "inflections": {
       "Εδεμ": {
         "transliteration": "Edem",
@@ -4400,7 +4385,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Edom",
     "inflections": {
       "Εδωμ": {
         "transliteration": "Edōm",
@@ -4753,7 +4737,6 @@
   "ἐθνηδόν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "nation by nation, in a body",
     "inflections": {
       "ἐθνηδόν": {
         "transliteration": "ethnēdón",
@@ -4906,7 +4889,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to be accustomed",
     "inflections": {
       "εἴωθα": {
         "transliteration": "eíōtha",
@@ -5284,7 +5266,6 @@
   "εἴθε": {
     "language": "greek",
     "pos": "prt",
-    "shortDefinition": "would that, if only",
     "inflections": {
       "εἴθε": { "transliteration": "eíthe", "cells": [{ "parse": ["prt"] }] }
     }
@@ -5409,7 +5390,6 @@
   "εἰκότως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with good reason, fittingly",
     "inflections": {
       "εἰκότως": {
         "transliteration": "eikótōs",
@@ -5482,7 +5462,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to roll up, wrap",
     "inflections": {
       "εἰλημένος": {
         "transliteration": "eilēménos",
@@ -6371,7 +6350,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to go, come",
     "inflections": {
       "ἴθι": {
         "transliteration": "íthi",
@@ -6636,7 +6614,6 @@
   "εἰρηνικῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "peaceably",
     "inflections": {
       "εἰρηνικῶς": {
         "transliteration": "eirēnikō̂s",
@@ -7506,7 +7483,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to enter, slip into",
     "inflections": {
       "εἰσέδυ": {
         "transliteration": "eisédy",
@@ -9151,7 +9127,6 @@
   "εἴτοι": {
     "language": "greek",
     "pos": "conj",
-    "shortDefinition": "whether, or",
     "inflections": {
       "εἴτοι": { "transliteration": "eítoi", "cells": [{ "parse": ["conj"] }] }
     }
@@ -9371,7 +9346,6 @@
   "ἑκατέρωθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "on each side, from both sides",
     "inflections": {
       "ἑκατέρωθεν": {
         "transliteration": "hekatérōthen",
@@ -10041,7 +10015,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to cry aloud",
     "inflections": {
       "ἐξεβόησεν": {
         "transliteration": "exebóēsen",
@@ -10083,7 +10056,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to cast out, drive away",
     "inflections": {
       "ἐξέβρασα": {
         "transliteration": "exébrasa",
@@ -10190,7 +10162,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to beget",
     "inflections": {
       "ἐξεγέννησά": {
         "transliteration": "exegénnēsá",
@@ -10250,7 +10221,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to copy out, transcribe",
     "inflections": {
       "ἐξεγράψαντο": {
         "transliteration": "exegrápsanto",
@@ -10302,7 +10272,6 @@
   "ἐκδεκτέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must take it, one must understand",
     "inflections": {
       "ἐκδεκτέον": {
         "transliteration": "ekdektéon",
@@ -12165,7 +12134,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "a sixteen",
     "inflections": {
       "ἑκκαίδεκα": {
         "transliteration": "hekkaídeka",
@@ -12533,7 +12501,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to stir up, be agitated",
     "inflections": {
       "ἐξεκινήθη": {
         "transliteration": "exekinḗthē",
@@ -12995,7 +12962,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to carve out, engrave",
     "inflections": {
       "ἐκκεκολαμμένους": {
         "transliteration": "ekkekolamménous",
@@ -13242,7 +13208,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to strike out, knock away",
     "inflections": {
       "ἐκκρουσθῇ": {
         "transliteration": "ekkrousthē̂",
@@ -13409,7 +13374,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to hew out of rock",
     "inflections": {
       "ἐξελατόμησαν": {
         "transliteration": "exelatómēsan",
@@ -14080,7 +14044,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to make white, whiten",
     "inflections": {
       "ἐκλευκανθῶσιν": {
         "transliteration": "ekleukanthō̂sin",
@@ -14177,7 +14140,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to reckon up, take account of",
     "inflections": {
       "ἐξελογίζοντο": {
         "transliteration": "exelogízonto",
@@ -14224,7 +14186,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to pick out, single out",
     "inflections": {
       "ἐκλελοχισμένος": {
         "transliteration": "eklelochisménos",
@@ -14476,7 +14437,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to bear witness openly",
     "inflections": {
       "ἐξεμαρτύρει": {
         "transliteration": "exemartýrei",
@@ -14533,7 +14493,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to practise thoroughly",
     "inflections": {
       "ἐκμεμελετηκότα": {
         "transliteration": "ekmemeletēkóta",
@@ -14633,7 +14592,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to defile utterly",
     "inflections": {
       "ἐκμιανθῆναι": {
         "transliteration": "ekmianthē̂nai",
@@ -14645,7 +14603,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to suck out the marrow",
     "inflections": {
       "ἐκμυελιεῖ": {
         "transliteration": "ekmyelieî",
@@ -15045,7 +15002,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to carry across, bring over",
     "inflections": {
       "ἐξεπέρασεν": {
         "transliteration": "exepérasen",
@@ -15164,7 +15120,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to fly out, fly away",
     "inflections": {
       "ἐξέπτησαν": {
         "transliteration": "exéptēsan",
@@ -15798,7 +15753,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to change the manner of life",
     "inflections": {
       "ἐξεπολίτευσεν": {
         "transliteration": "exepolíteusen",
@@ -16392,7 +16346,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to break out, burst forth",
     "inflections": {
       "ἐκραγείη": {
         "transliteration": "ekrageíē",
@@ -16567,7 +16520,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to strip the flesh from a bone",
     "inflections": {
       "ἐκσεσαρκισμένα": {
         "transliteration": "eksesarkisména",
@@ -16594,7 +16546,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to scare away, drive off in fright",
     "inflections": {
       "ἐκσεσοβημένοι": {
         "transliteration": "eksesobēménoi",
@@ -16692,7 +16643,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to emit seed, conceive seed",
     "inflections": {
       "ἐκσπερματιεῖ": {
         "transliteration": "ekspermatieî",
@@ -16798,7 +16748,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to hiss at, whistle at",
     "inflections": {
       "ἐκσυριεῖ": {
         "transliteration": "eksyrieî",
@@ -16810,7 +16759,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to sweep away, drag out",
     "inflections": {
       "ἐξέσυρεν": {
         "transliteration": "exésyren",
@@ -17540,7 +17488,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to bring forth, bear",
     "inflections": {
       "ἐκτέκῃ": {
         "transliteration": "ektékē",
@@ -17740,7 +17687,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to pay in full, repay",
     "inflections": {
       "ἐκτείσει": {
         "transliteration": "ekteísei",
@@ -17752,7 +17698,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to lend at interest",
     "inflections": {
       "ἐκτοκιεῖς": {
         "transliteration": "ektokieîs",
@@ -17775,7 +17720,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to remove, go away",
     "inflections": {
       "ἐξετόπιζον": {
         "transliteration": "exetópizon",
@@ -18884,7 +18828,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to defile, befoul",
     "inflections": {
       "ἐξεφύρθης": {
         "transliteration": "exephýrthēs",
@@ -19260,7 +19203,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to become enraged",
     "inflections": {
       "ἐξεχόλησεν": {
         "transliteration": "exechólēsen",
@@ -19316,7 +19258,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to remove, set apart",
     "inflections": {
       "ἐξεχώρισεν": {
         "transliteration": "exechṓrisen",
@@ -19443,7 +19384,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to gather olives",
     "inflections": {
       "ἐλαιαλογήσῃς": {
         "transliteration": "elaialogḗsēs",
@@ -20387,7 +20327,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Elaleh",
     "inflections": {
       "Ελεαλη": {
         "transliteration": "Elealē",
@@ -21453,7 +21392,6 @@
   "ἐλευστέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must come, one must proceed",
     "inflections": {
       "ἐλευστέον": {
         "transliteration": "eleustéon",
@@ -22082,7 +22020,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "tendril, vine branch",
     "inflections": {
       "ἕλικι": {
         "transliteration": "héliki",
@@ -22141,7 +22078,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Elishah",
     "inflections": {
       "Ελισα": {
         "transliteration": "Elisa",
@@ -22423,7 +22359,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Eliphaz",
     "inflections": {
       "Ελιφας": {
         "transliteration": "Eliphas",
@@ -22779,7 +22714,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Ellasar",
     "inflections": {
       "Ελλασαρ": {
         "transliteration": "Ellasar",
@@ -23025,7 +22959,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Almodad",
     "inflections": {
       "Ελμωδαδ": {
         "transliteration": "Elmōdad",
@@ -23395,7 +23328,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Eldaah",
     "inflections": {
       "Ελραγα": {
         "transliteration": "Elraga",
@@ -23533,7 +23465,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Hamath",
     "inflections": {
       "Εμαθ": {
         "transliteration": "Emath",
@@ -24990,7 +24921,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to fix in, drive in",
     "inflections": {
       "ἐμπαγῆναι": {
         "transliteration": "empagē̂nai",
@@ -25073,7 +25003,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to leap in upon",
     "inflections": {
       "ἐνεπήδησεν": {
         "transliteration": "enepḗdēsen",
@@ -25696,7 +25625,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to plaster over, smear on",
     "inflections": {
       "ἔμπλασον": {
         "transliteration": "émplason",
@@ -25996,7 +25924,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to stand in the way, hinder",
     "inflections": {
       "ἐμπεποδοστάτηκάς": {
         "transliteration": "empepodostátēkás",
@@ -26328,7 +26255,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to buckle on, fasten with a brooch",
     "inflections": {
       "ἐμπεπορπημένοι": {
         "transliteration": "empeporpēménoi",
@@ -26678,7 +26604,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
-    "shortDefinition": "one who sets on fire",
     "inflections": {
       "ἐμπυριστήν": {
         "transliteration": "empyristḗn",
@@ -26843,7 +26768,6 @@
   "ἐμφανῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "openly, manifestly",
     "inflections": {
       "ἐμφανῶς": {
         "transliteration": "emphanō̂s",
@@ -26920,7 +26844,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to stop up, block",
     "inflections": {
       "ἐμπεφραγμένοι": {
         "transliteration": "empephragménoi",
@@ -27270,7 +27193,6 @@
   "ἐναλλάξ": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "crosswise, alternately",
     "inflections": {
       "ἐναλλάξ": {
         "transliteration": "enalláx",
@@ -28266,7 +28188,6 @@
   "ἐνδελεχῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "continually, without break",
     "inflections": {
       "ἐνδελεχῶς": {
         "transliteration": "endelechō̂s",
@@ -28344,7 +28265,6 @@
   "ἐνδεχομένως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "as well as may be, plausibly",
     "inflections": {
       "ἐνδεχομένως": {
         "transliteration": "endechoménōs",
@@ -28637,7 +28557,6 @@
   "ἔνδοθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from within, inside",
     "inflections": {
       "ἔνδοθεν": {
         "transliteration": "éndothen",
@@ -28660,7 +28579,6 @@
   "ἔνδον": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "within, inside",
     "inflections": {
       "ἔνδον": { "transliteration": "éndon", "cells": [{ "parse": ["adv"] }] }
     }
@@ -28824,7 +28742,6 @@
   "ἐνδόξως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "gloriously, in honour",
     "inflections": {
       "ἐνδόξως": {
         "transliteration": "endóxōs",
@@ -29410,7 +29327,6 @@
   "ἐνεῖδον": {
     "language": "greek",
     "pos": "verb",
-    "shortDefinition": "to look at, notice",
     "inflections": {
       "ἐνιδών": {
         "transliteration": "enidṓn",
@@ -29502,7 +29418,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to string together, fasten in",
     "inflections": {
       "ἐνεῖρας": {
         "transliteration": "eneîras",
@@ -29577,7 +29492,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Anamim",
     "inflections": {
       "Ενεμετιιμ": {
         "transliteration": "Enemetiim",
@@ -29856,7 +29770,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to take delight in",
     "inflections": {
       "ἐνευφραίνετο": {
         "transliteration": "eneuphraíneto",
@@ -30029,7 +29942,6 @@
   "ἐνῆλιξ": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "of full age, grown up",
     "inflections": {
       "ἐνηλίκων": {
         "transliteration": "enēlíkōn",
@@ -30055,7 +29967,6 @@
   "ἔνθα": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "there, where",
     "inflections": {
       "ἔνθα": { "transliteration": "éntha", "cells": [{ "parse": ["adv"] }] }
     }
@@ -30110,7 +30021,6 @@
   "ἔνθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from here",
     "indices": { "strongs": "G1782" },
     "inflections": {
       "ἔνθεν": { "transliteration": "énthen", "cells": [{ "parse": ["adv"] }] }
@@ -30159,7 +30069,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to crumble into",
     "inflections": {
       "ἐνέθρυψεν": {
         "transliteration": "enéthrypsen",
@@ -30583,7 +30492,6 @@
   "ἐνίοτε": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "sometimes, now and then",
     "inflections": {
       "ἐνίοτε": { "transliteration": "eníote", "cells": [{ "parse": ["adv"] }] }
     }
@@ -31176,7 +31084,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "a nineteen",
     "inflections": {
       "ἐννεακαίδεκα": {
         "transliteration": "enneakaídeka",
@@ -31216,7 +31123,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "shortDefinition": "dumb, speechless",
     "inflections": {
       "ἐνεόν": {
         "transliteration": "eneón",
@@ -31252,7 +31158,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
-    "shortDefinition": "a nod, a sign",
     "inflections": {
       "ἐννεύμασιν": {
         "transliteration": "enneúmasin",
@@ -31425,7 +31330,6 @@
   "ἐννόμως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "lawfully, by rule",
     "inflections": {
       "ἐννόμως": {
         "transliteration": "ennómōs",
@@ -31725,7 +31629,6 @@
   "ἐνόρκως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "under oath, by oath",
     "inflections": {
       "ἐνόρκως": {
         "transliteration": "enórkōs",
@@ -32004,7 +31907,6 @@
   "ἐνταῦθα": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "here, in this place",
     "inflections": {
       "ἐνταῦθα": {
         "transliteration": "entaûtha",
@@ -32735,7 +32637,6 @@
   "ἐντίμως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "honourably, with honour",
     "inflections": {
       "ἐντίμως": {
         "transliteration": "entímōs",
@@ -33572,7 +33473,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to subject within, subordinate",
     "inflections": {
       "ἐνυποταγήσεται": {
         "transliteration": "enypotagḗsetai",
@@ -33853,7 +33753,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
-    "shortDefinition": "an earring",
     "inflections": {
       "ἐνώτια": {
         "transliteration": "enṓtia",
@@ -34071,7 +33970,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to make savage, enrage",
     "inflections": {
       "ἐξηγριάνθη": {
         "transliteration": "exēgriánthē",
@@ -35115,7 +35013,6 @@
   "ἑξάκις": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "six times",
     "inflections": {
       "ἑξάκις": {
         "transliteration": "hexákis",
@@ -36130,7 +36027,6 @@
   "ἐξαπίνης": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "suddenly, all at once",
     "inflections": {
       "ἐξαπίνης": {
         "transliteration": "exapínēs",
@@ -36142,7 +36038,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to destroy utterly",
     "inflections": {
       "ἐξαπολλυμένων": {
         "transliteration": "exapollyménōn",
@@ -36664,7 +36559,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to hang from, fasten to",
     "inflections": {
       "ἐξηρτημέναι": {
         "transliteration": "exērtēménai",
@@ -36811,7 +36705,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
-    "shortDefinition": "to be utterly dishonoured",
     "inflections": {
       "ἐξατιμωθήσῃ": {
         "transliteration": "exatimōthḗsē",
@@ -40475,7 +40368,6 @@
   "ἐξόπισθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from behind, behind",
     "inflections": {
       "ἐξόπισθεν": {
         "transliteration": "exópisthen",
@@ -40488,7 +40380,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a",
-    "shortDefinition": "muster under arms, review of troops",
     "inflections": {
       "ἐξοπλησίαν": {
         "transliteration": "exoplēsían",
@@ -41145,7 +41036,6 @@
   "ἐξόχως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "especially, above all",
     "inflections": {
       "ἐξόχως": {
         "transliteration": "exóchōs",
@@ -43093,7 +42983,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "very painful, grievous",
     "inflections": {
       "ἐπαλγέστερον": {
         "transliteration": "epalgésteron",
@@ -44066,7 +43955,6 @@
   "ἐπάνωθε": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from above, above",
     "inflections": {
       "ἐπάνωθεν": {
         "transliteration": "epánōthen",
@@ -44081,7 +43969,6 @@
   "ἐπάνωθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from above, above",
     "inflections": {
       "ἐπάνωθεν": {
         "transliteration": "epánōthen",
@@ -44746,7 +44633,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to look upon, regard",
     "inflections": {
       "ἐπεῖδες": {
         "transliteration": "epeîdes",
@@ -48549,7 +48435,6 @@
   "ἐπιδόξως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "conspicuously, in a place of honour",
     "inflections": {
       "ἐπιδόξως": {
         "transliteration": "epidóxōs",
@@ -48617,7 +48502,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to show forbearance, deal graciously",
     "inflections": {
       "ἐπιεικεύσατο": {
         "transliteration": "epieikeúsato",
@@ -48630,7 +48514,6 @@
   "ἐπιεικέως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "graciously, kindly",
     "inflections": {
       "ἐπιεικέως": {
         "transliteration": "epieikéōs",
@@ -48694,7 +48577,6 @@
   "ἐπιεικῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "kindly, graciously",
     "inflections": {
       "ἐπιεικέως": {
         "transliteration": "epieikéōs",
@@ -48730,7 +48612,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to fasten upon, join",
     "inflections": {
       "ἐπιζεύξαντες": {
         "transliteration": "epizeúxantes",
@@ -50106,7 +49987,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to overtake, catch up with",
     "inflections": {
       "ἐπικαταλήμψεταί": {
         "transliteration": "epikatalḗmpsetaí",
@@ -50324,7 +50204,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to stir up against",
     "inflections": {
       "ἐπεκινοῦντο": {
         "transliteration": "epekinoûnto",
@@ -50667,7 +50546,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to hang over, be suspended",
     "inflections": {
       "ἐπικρεμάμενοι": {
         "transliteration": "epikremámenoi",
@@ -50771,7 +50649,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to roll upon",
     "inflections": {
       "ἐπεκύλισαν": {
         "transliteration": "epekýlisan",
@@ -51742,7 +51619,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-2",
-    "shortDefinition": "epileptic, mad",
     "inflections": {
       "ἐπίλημπτον": {
         "transliteration": "epílēmpton",
@@ -52237,7 +52113,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to call to mind, make mention of",
     "inflections": {
       "ἐπεμνήσθησαν": {
         "transliteration": "epemnḗsthēsan",
@@ -52248,7 +52123,6 @@
   "ἐπιμίξ": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "confusedly, all mixed together",
     "inflections": {
       "ἐπιμίξ": { "transliteration": "epimíx", "cells": [{ "parse": ["adv"] }] }
     }
@@ -52544,7 +52418,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to come up besides, arrive",
     "inflections": {
       "ἐπιπαρεγένετο": {
         "transliteration": "epiparegéneto",
@@ -52608,7 +52481,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to fly upon, settle on",
     "inflections": {
       "ἐφίπτανται": {
         "transliteration": "ephíptantai",
@@ -52831,7 +52703,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
-    "shortDefinition": "to fill up, be filled full",
     "inflections": {
       "ἐπεπληροῦτο": {
         "transliteration": "epeplēroûto",
@@ -52976,7 +52847,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to come to the surface, float",
     "inflections": {
       "ἐπεπόλασεν": {
         "transliteration": "epepólasen",
@@ -52987,7 +52857,6 @@
   "ἐπιπολαίως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "superficially, lightly",
     "inflections": {
       "ἐπιπολαίως": {
         "transliteration": "epipolaíōs",
@@ -53097,7 +52966,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to sprinkle upon",
     "inflections": {
       "ἐπιρρᾶναι": {
         "transliteration": "epirrânai",
@@ -53280,7 +53148,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to strengthen, encourage",
     "inflections": {
       "ἐπερρώσθησαν": {
         "transliteration": "eperrṓsthēsan",
@@ -53308,7 +53175,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to saddle",
     "inflections": {
       "ἐπέσαξαν": {
         "transliteration": "epésaxan",
@@ -53441,7 +53307,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to provision oneself",
     "inflections": {
       "ἐπεσιτίσαντο": {
         "transliteration": "epesitísanto",
@@ -53472,7 +53337,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to limp",
     "inflections": {
       "ἐπέσκαζεν": {
         "transliteration": "epéskazen",
@@ -53484,7 +53348,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to cover over, screen",
     "inflections": {
       "ἐπεσκέπασας": {
         "transliteration": "epesképasas",
@@ -54061,7 +53924,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-2",
-    "shortDefinition": "equal to, a match for",
     "inflections": {
       "ἔφισον": {
         "transliteration": "éphison",
@@ -55947,7 +55809,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to have charge of, preside over",
     "inflections": {
       "ἐπεστάτουν": {
         "transliteration": "epestátoun",
@@ -56338,7 +56199,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to encamp against",
     "inflections": {
       "ἐπεστρατοπέδευσαν": {
         "transliteration": "epestratopédeusan",
@@ -57159,7 +57019,6 @@
   "ἐπισφαλῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "precariously, insecurely",
     "inflections": {
       "ἐπισφαλῶς": {
         "transliteration": "episphalō̂s",
@@ -57283,7 +57142,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
-    "shortDefinition": "command, injunction",
     "inflections": {
       "ἐπιτάγμασιν": {
         "transliteration": "epitágmasin",
@@ -57690,7 +57548,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to cut short, abridge",
     "inflections": {
       "ἐπιτεμεῖν": {
         "transliteration": "epitemeîn",
@@ -59660,7 +59517,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
-    "shortDefinition": "undertaking, attempt",
     "inflections": {
       "ἐπιχειρήμασιν": {
         "transliteration": "epicheirḗmasin",
@@ -59885,7 +59741,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to play the harp to",
     "inflections": {
       "ἐπέψαλλον": {
         "transliteration": "epépsallon",
@@ -59900,7 +59755,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to stamp, make a noise with the foot",
     "inflections": {
       "ἐπεψόφησας": {
         "transliteration": "epepsóphēsas",
@@ -60291,7 +60145,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "a hoopoe",
     "inflections": {
       "ἔποπα": {
         "transliteration": "épopa",
@@ -60337,7 +60190,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "a seventeen",
     "inflections": {
       "ἑπτακαίδεκα": {
         "transliteration": "heptakaídeka",
@@ -60369,7 +60221,6 @@
   "ἑπτάκι": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "seven times",
     "inflections": {
       "ἑπτάκι": {
         "transliteration": "heptáki",
@@ -60540,7 +60391,6 @@
   "ἑπταπλασίως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "sevenfold, seven times over",
     "inflections": {
       "ἑπταπλασίως": {
         "transliteration": "heptaplasíōs",
@@ -60962,7 +60812,6 @@
   "ἐπώπιον": {
     "language": "greek",
     "pos": "prep",
-    "shortDefinition": "before, in the sight of",
     "inflections": {
       "ἐπώπιον": {
         "transliteration": "epṓpion",
@@ -61743,7 +61592,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a",
-    "shortDefinition": "contract work, profit-seeking",
     "inflections": {
       "ἐργολαβίας": {
         "transliteration": "ergolabías",
@@ -61988,7 +61836,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
-    "shortDefinition": "bruised, crushed",
     "inflections": {
       "ἐρικτά": {
         "transliteration": "eriktá",
@@ -62210,7 +62057,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to say, speak",
     "inflections": {
       "εἶπαί": {
         "transliteration": "eîpaí",
@@ -63324,7 +63170,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to redden, make red",
     "inflections": {
       "ἐρυθήνας": {
         "transliteration": "erythḗnas",
@@ -63472,7 +63317,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to draw to oneself, rescue",
     "inflections": {
       "ἐρρύσθη": {
         "transliteration": "errýsthē",
@@ -65085,7 +64929,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Heshbon",
     "inflections": {
       "Εσεβων": {
         "transliteration": "Esebōn",
@@ -66408,7 +66251,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-attic",
-    "shortDefinition": "in extreme old age",
     "inflections": {
       "ἐσχατογήρως": {
         "transliteration": "eschatogḗrōs",
@@ -66547,7 +66389,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Eshkol",
     "inflections": {
       "Εσχωλ": {
         "transliteration": "Eschōl",
@@ -66920,7 +66761,6 @@
   "ἑτεροκλινῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "leaning to one side, with a divided mind",
     "inflections": {
       "ἑτεροκλινῶς": {
         "transliteration": "heteroklinō̂s",
@@ -67037,7 +66877,6 @@
   "ἑτέρωθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from the other side",
     "inflections": {
       "ἑτέρωθεν": {
         "transliteration": "hetérōthen",
@@ -68203,7 +68042,6 @@
   "εὖγε": {
     "language": "greek",
     "pos": "inj",
-    "shortDefinition": "well done!; aha!",
     "inflections": {
       "εὖγε": { "transliteration": "eûge", "cells": [{ "parse": ["inj"] }] }
     }
@@ -68278,7 +68116,6 @@
   "εὐγενῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "nobly",
     "inflections": {
       "εὐγενῶς": {
         "transliteration": "eugenō̂s",
@@ -68604,7 +68441,6 @@
   "εὔελπις": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "hopeful, of good hope",
     "inflections": {
       "εὐέλπιδας": {
         "transliteration": "euélpidas",
@@ -69024,7 +68860,6 @@
   "εὐθαρσῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with good courage, boldly",
     "inflections": {
       "εὐθαρσῶς": {
         "transliteration": "eutharsō̂s",
@@ -69219,7 +69054,6 @@
   "εὐθίκτως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "aptly, to the point",
     "inflections": {
       "εὐθίκτως": {
         "transliteration": "euthíktōs",
@@ -69544,7 +69378,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Havilah",
     "inflections": {
       "Ευιλα": {
         "transliteration": "Euila",
@@ -69557,7 +69390,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Havilah",
     "inflections": {
       "Ευιλατ": {
         "transliteration": "Euilat",
@@ -70252,7 +70084,6 @@
   "εὐλαβῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "cautiously, with scruple",
     "inflections": {
       "εὐλαβῶς": {
         "transliteration": "eulabō̂s",
@@ -70856,7 +70687,6 @@
   "εὐμαθῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "skilfully, with ready skill",
     "inflections": {
       "εὐμαθῶς": {
         "transliteration": "eumathō̂s",
@@ -70917,7 +70747,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "kindly disposed, gracious",
     "inflections": {
       "εὐμενεῖς": {
         "transliteration": "eumeneîs",
@@ -70936,7 +70765,6 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "shortDefinition": "Eumenes, king of Pergamum",
     "inflections": {
       "Εὐμένει": {
         "transliteration": "Euménei",
@@ -70947,7 +70775,6 @@
   "εὐμενῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "kindly, graciously",
     "inflections": {
       "εὐμενῶς": {
         "transliteration": "eumenō̂s",
@@ -71459,7 +71286,6 @@
   "εὐόδως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "easily, prosperously",
     "inflections": {
       "εὐόδως": { "transliteration": "euódōs", "cells": [{ "parse": ["adv"] }] }
     }
@@ -71762,7 +71588,6 @@
   "εὐπρεπῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "becomingly, in fitting order",
     "inflections": {
       "εὐπρεπῶς": {
         "transliteration": "euprepō̂s",
@@ -72849,7 +72674,6 @@
   "εὐρώστως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "vigorously, stoutly",
     "inflections": {
       "εὐρώστως": {
         "transliteration": "eurṓstōs",
@@ -73049,7 +72873,6 @@
   "εὐσήμως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "clearly, plainly",
     "inflections": {
       "εὐσήμως": {
         "transliteration": "eusḗmōs",
@@ -73193,7 +73016,6 @@
   "εὐστόχως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with good aim",
     "inflections": {
       "εὐστόχως": {
         "transliteration": "eustóchōs",
@@ -73214,7 +73036,6 @@
   "εὐσυναλλάκτως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "amicably, dealing fairly",
     "inflections": {
       "εὐσυναλλάκτως": {
         "transliteration": "eusynalláktōs",
@@ -73305,7 +73126,6 @@
   "εὐτάκτως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in good order, orderly",
     "inflections": {
       "εὐτάκτως": {
         "transliteration": "eutáktōs",
@@ -73376,7 +73196,6 @@
   "εὐτελῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "cheaply, poorly",
     "inflections": {
       "εὐτελῶς": {
         "transliteration": "eutelō̂s",
@@ -74137,7 +73956,6 @@
   "εὔχαρις": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "graceful, charming",
     "inflections": {
       "εὔχαρι": {
         "transliteration": "eúchari",
@@ -74322,7 +74140,6 @@
   "εὐχερῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "easily, readily",
     "inflections": {
       "εὐχερῶς": {
         "transliteration": "eucherō̂s",
@@ -74804,7 +74621,6 @@
   "εὐψύχως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with good courage",
     "inflections": {
       "εὐψύχως": {
         "transliteration": "eupsýchōs",
@@ -75021,7 +74837,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to sin against, lead into sin",
     "inflections": {
       "ἐφαμαρτεῖν": {
         "transliteration": "ephamarteîn",
@@ -75823,7 +75638,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Ephrathah",
     "inflections": {
       "Εφραθα": {
         "transliteration": "Ephratha",
@@ -75836,7 +75650,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "an Ephrathite",
     "inflections": {
       "Εφραθαῖοι": {
         "transliteration": "Ephrathaîoi",
@@ -75888,7 +75701,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Ephron",
     "inflections": {
       "Εφρων": {
         "transliteration": "Ephrōn",
@@ -76263,7 +76075,6 @@
   "ἐχομένως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "next in order, immediately after",
     "inflections": {
       "ἐχομένως": {
         "transliteration": "echoménōs",

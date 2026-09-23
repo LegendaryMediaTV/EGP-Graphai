@@ -35,7 +35,7 @@ There are five labels, and no others.
 | `refl.` | reflexively   | The sense the word takes when reflexive (middle)                                                        | πείθω "to persuade, convince; refl. to trust"                  |
 | `pl.`   | plurally      | The sense the word takes in the plural                                                                  | γένος "a relative; pl. a family"                               |
 | `fig.`  | figuratively  | Any sense extended or derived from the literal one, not only metaphor                                   | ἀνήρ "a man; fig. a husband"                                   |
-| `trad.` | traditionally | The rendering familiar from traditional English Bibles, when the lead departs from it                   | πραΰς "to be serene; trad. to be meek"                         |
+| `trad.` | traditionally | A rendering traditional English Bibles carried over, when the lead departs from it                      | πραΰς "to be serene; trad. to be meek"                         |
 
 Clauses appear in that order: the lead, then `lit.`, then `refl.` or `pl.`, then `fig.`, then `trad.` last. A label is lowercase, ends in a period, follows a semicolon and a space, and is followed by a space. It is never written with a colon or a comma.
 
@@ -70,6 +70,8 @@ A word the map files as a Hebrew or Aramaic transliteration (`pos` `hebrew` or `
 Use `a` or `an` by the sound that follows. Every common noun takes one, including abstract nouns and nouns English treats as uncountable: "a peace", "a knowledge", "a bread", "a blood". The article is what tells the reader the word is a noun. A bare gloss is the frame for adverbs, prepositions, conjunctions and particles, so a bare "blood" would read as one of those. A rule with no exception for countability also saves the writer from judging countability, which English leaves unclear ("a knowledge" or "knowledge"?). The article can read as "a kind of", which does no harm: a reader adjusts articles every time they swap a noun gloss into a sentence, since Greek has no indefinite article.
 
 Use `the` only for something there is one of, or a title: "the earth", "the gospel", "the Christ".
+
+When a common noun narrows to a single referent with the Greek article, the lead stays the common noun and the narrowed sense follows as `fig.`, written as a name: θεός "a god/goddess; fig. God". The article in the text does the narrowing, so the lead still swaps in where the word is used without it.
 
 A sense that names a particular place is written as a name: capitalized, with no article. οὐρανός is "a sky; fig. Heaven".
 

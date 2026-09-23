@@ -3,7 +3,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "six",
     "inflections": {
       "ϛ": {
         "transliteration": "ϛ",
@@ -16,7 +15,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsohar",
     "inflections": {
       "Σααρ": {
         "transliteration": "Saar",
@@ -64,7 +62,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Seba, Sheba",
     "inflections": {
       "Σαβα": {
         "transliteration": "Saba",
@@ -77,7 +74,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Sabtah",
     "inflections": {
       "Σαβαθα": {
         "transliteration": "Sabatha",
@@ -138,7 +134,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Sabteka",
     "inflections": {
       "Σαβακαθα": {
         "transliteration": "Sabakatha",
@@ -198,7 +193,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shebat",
     "inflections": {
       "Σαβατ": {
         "transliteration": "Sabat",
@@ -432,7 +426,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Sheba",
     "inflections": {
       "Σαβευ": {
         "transliteration": "Sabeu",
@@ -1300,7 +1293,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shaleph",
     "inflections": {
       "Σαλεφ": {
         "transliteration": "Saleph",
@@ -1818,8 +1810,7 @@
         "transliteration": "Salōmō̂ntos",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    },
-    "shortDefinition": "Solomon"
+    }
   },
   "Σαμα": {
     "language": "greek",
@@ -1965,7 +1956,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Samlah",
     "inflections": {
       "Σαμαλα": {
         "transliteration": "Samala",
@@ -2001,7 +1991,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Tsemarite",
     "inflections": {
       "Σαμαραῖον": {
         "transliteration": "Samaraîon",
@@ -2864,7 +2853,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to make rotten, spoil",
     "inflections": {
       "σαπριοῦσιν": {
         "transliteration": "saprioûsin",
@@ -3155,7 +3143,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Sharetser",
     "inflections": {
       "Σαρασαρ": {
         "transliteration": "Sarasar",
@@ -3921,7 +3908,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Shua",
     "inflections": {
       "Σαυα": {
         "transliteration": "Saua",
@@ -3946,7 +3932,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Shaveh",
     "inflections": {
       "Σαυη": {
         "transliteration": "Sauē",
@@ -3995,7 +3980,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shuni",
     "inflections": {
       "Σαυνις": {
         "transliteration": "Saunis",
@@ -4302,7 +4286,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsiphyon",
     "inflections": {
       "Σαφων": {
         "transliteration": "Saphōn",
@@ -4325,7 +4308,6 @@
   "σαφῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "clearly, plainly",
     "inflections": {
       "σαφῶς": { "transliteration": "saphō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -4622,7 +4604,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Sibmah",
     "inflections": {
       "Σεβαμα": {
         "transliteration": "Sebama",
@@ -4708,7 +4689,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsibon",
     "inflections": {
       "Σεβεγων": {
         "transliteration": "Sebegōn",
@@ -4955,7 +4935,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Tseboim",
     "inflections": {
       "Σεβωιμ": {
         "transliteration": "Sebōim",
@@ -5096,7 +5075,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Hadrak",
     "inflections": {
       "Σεδραχ": {
         "transliteration": "Sedrach",
@@ -5643,7 +5621,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Tsillah",
     "inflections": {
       "Σελλα": {
         "transliteration": "Sella",
@@ -6119,7 +6096,6 @@
   "σεμνῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "reverently, with dignity",
     "inflections": {
       "σεμνῶς": { "transliteration": "semnō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -6194,7 +6170,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Shinar",
     "inflections": {
       "Σεννααρ": {
         "transliteration": "Sennaar",
@@ -6365,7 +6340,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Sered",
     "inflections": {
       "Σερεδ": {
         "transliteration": "Sered",
@@ -6692,7 +6666,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsoar",
     "inflections": {
       "Σηγωρ": {
         "transliteration": "Sēgōr",
@@ -6733,7 +6706,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Seir",
     "inflections": {
       "Σηιρ": {
         "transliteration": "Sēir",
@@ -6796,7 +6768,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Shelah",
     "inflections": {
       "Σηλωμ": {
         "transliteration": "Sēlōm",
@@ -7656,7 +7627,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "shortDefinition": "made of iron",
     "inflections": {
       "σιδηραῖ": {
         "transliteration": "sidēraî",
@@ -7957,7 +7927,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shekem",
     "inflections": {
       "Σικιμα": {
         "transliteration": "Sikima",
@@ -9362,7 +9331,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to look out, consider",
     "inflections": {
       "σκέψαι": {
         "transliteration": "sképsai",
@@ -10343,7 +10311,6 @@
   "σκληρῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "harshly, severely",
     "inflections": {
       "σκληρῶς": {
         "transliteration": "sklērō̂s",
@@ -10356,7 +10323,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "a gnat, louse",
     "inflections": {
       "σκνῖπα": {
         "transliteration": "sknîpa",
@@ -10494,7 +10460,6 @@
   "σκολιῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "crookedly, perversely",
     "inflections": {
       "σκολιῶς": {
         "transliteration": "skoliō̂s",
@@ -11282,7 +11247,6 @@
   "σκυθρωπῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with a gloomy face, sullenly",
     "inflections": {
       "σκυθρωπῶς": {
         "transliteration": "skythrōpō̂s",
@@ -11940,7 +11904,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "a Sodomite",
     "inflections": {
       "Σοδομῖται": {
         "transliteration": "Sodomîtai",
@@ -11953,7 +11916,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Sodom",
     "inflections": {
       "Σοδομων": {
         "transliteration": "Sodomōn",
@@ -12065,7 +12027,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shammah",
     "inflections": {
       "Σομε": {
         "transliteration": "Some",
@@ -12133,7 +12094,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Samaria",
     "inflections": {
       "Σομορων": {
         "transliteration": "Somorōn",
@@ -12149,7 +12109,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "indeclinable",
-    "shortDefinition": "onyx, a precious stone",
     "inflections": {
       "σοομ": {
         "transliteration": "soom",
@@ -12560,7 +12519,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shur",
     "inflections": {
       "Σουρ": {
         "transliteration": "Sour",
@@ -12750,7 +12708,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shuthelah",
     "inflections": {
       "Σουταλααμ": {
         "transliteration": "Soutalaam",
@@ -12811,7 +12768,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Ophir",
     "inflections": {
       "Σουφιρ": {
         "transliteration": "Souphir",
@@ -13096,7 +13052,6 @@
   "σοφῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "wisely",
     "inflections": {
       "σοφῶς": { "transliteration": "sophō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -13117,7 +13072,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "a eunuch",
     "inflections": {
       "σπάδοντας": {
         "transliteration": "spádontas",
@@ -13603,7 +13557,6 @@
   "σπειρηδόν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in companies, by cohorts",
     "inflections": {
       "σπειρηδόν": {
         "transliteration": "speirēdón",
@@ -15224,7 +15177,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to drip, let fall in drops",
     "inflections": {
       "ἐστάλαξέν": {
         "transliteration": "estálaxén",
@@ -15745,7 +15697,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "shortDefinition": "barren",
     "inflections": {
       "στεῖραν": {
         "transliteration": "steîran",
@@ -16232,7 +16183,6 @@
   "στενῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "narrowly, straitly",
     "inflections": {
       "στενῶς": { "transliteration": "stenō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -16722,7 +16672,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
-    "shortDefinition": "crown, wreath",
     "inflections": {
       "στεφέων": {
         "transliteration": "stephéōn",
@@ -17254,7 +17203,6 @@
   "στιβαρῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "stoutly, heavily",
     "inflections": {
       "στιβαρῶς": {
         "transliteration": "stibarō̂s",
@@ -17424,7 +17372,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
-    "shortDefinition": "of tow, made of flax",
     "inflections": {
       "στιππυίνου": {
         "transliteration": "stippyínou",
@@ -17466,7 +17413,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to set in rows, range in order",
     "inflections": {
       "ἐστιχισμέναι": {
         "transliteration": "estichisménai",
@@ -17949,7 +17895,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to spread, strew",
     "inflections": {
       "ἐστρωμέναι": {
         "transliteration": "estrōménai",
@@ -18095,7 +18040,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to drain out, squeeze out",
     "inflections": {
       "στραγγιεῖ": {
         "transliteration": "strangieî",
@@ -19246,7 +19190,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "pivot, hinge",
     "inflections": {
       "στρόφιγγος": {
         "transliteration": "stróphingos",
@@ -19867,7 +19810,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to pardon, be forgiving",
     "inflections": {
       "συγγνωμονήσειεν": {
         "transliteration": "syngnōmonḗseien",
@@ -20045,7 +19987,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to weave in together",
     "inflections": {
       "συγκαθυφασμένα": {
         "transliteration": "synkathyphasména",
@@ -20425,7 +20366,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to mix up together with",
     "inflections": {
       "συγκαταμιγῆτε": {
         "transliteration": "synkatamigē̂te",
@@ -20521,7 +20461,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to be agreed, conspire",
     "inflections": {
       "σύγκεισθε": {
         "transliteration": "sýnkeisthe",
@@ -20601,7 +20540,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
-    "shortDefinition": "to strike down with lightning, shatter",
     "inflections": {
       "συνεκεραύνωσαν": {
         "transliteration": "synekeraúnōsan",
@@ -20682,7 +20620,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to shatter, break in pieces",
     "inflections": {
       "συνέκλασεν": {
         "transliteration": "synéklasen",
@@ -21281,7 +21218,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to strike together, knock together",
     "inflections": {
       "συνεκρότησεν": {
         "transliteration": "synekrótēsen",
@@ -21314,7 +21250,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to hide away, conceal oneself",
     "inflections": {
       "συνεκρύπτετο": {
         "transliteration": "synekrýpteto",
@@ -21340,7 +21275,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to create together with",
     "inflections": {
       "συνεκτίσθη": {
         "transliteration": "synektísthē",
@@ -21601,7 +21535,6 @@
   "συγχωρητέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must concede, it must be granted",
     "inflections": {
       "συγχωρητέον": {
         "transliteration": "synchōrētéon",
@@ -21750,7 +21683,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to gird, gird up",
     "inflections": {
       "συνεζώσατο": {
         "transliteration": "synezṓsato",
@@ -22642,7 +22574,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shillem",
     "inflections": {
       "Συλλημ": {
         "transliteration": "Syllēm",
@@ -22655,7 +22586,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
-    "shortDefinition": "a conceiving, conception",
     "inflections": {
       "συλλήμψει": {
         "transliteration": "syllḗmpsei",
@@ -22763,7 +22693,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to join in reviling",
     "inflections": {
       "συνελοιδορήσατε": {
         "transliteration": "syneloidorḗsate",
@@ -22778,7 +22707,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to muster, gather into companies",
     "inflections": {
       "συνελόχησεν": {
         "transliteration": "synelóchēsen",
@@ -23184,7 +23112,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to weigh against, match in value",
     "inflections": {
       "συμβασταχθήσεται": {
         "transliteration": "symbastachthḗsetai",
@@ -23445,7 +23372,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to graze together, feed with",
     "inflections": {
       "συμβοσκηθήσεται": {
         "transliteration": "symboskēthḗsetai",
@@ -23687,7 +23613,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to decide jointly, act as fellow judge",
     "inflections": {
       "συνεβράβευσαν": {
         "transliteration": "synebrábeusan",
@@ -23920,7 +23845,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to share in along with",
     "inflections": {
       "συμμετασχών": {
         "transliteration": "symmetaschṓn",
@@ -23996,7 +23920,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to defile along with",
     "inflections": {
       "συνεμιάνθης": {
         "transliteration": "synemiánthēs",
@@ -24008,7 +23931,6 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "mingled, mixed together",
     "inflections": {
       "συμμειγεῖς": {
         "transliteration": "symmeigeîs",
@@ -24313,7 +24235,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shemeber",
     "inflections": {
       "Συμοβορ": {
         "transliteration": "Symobor",
@@ -24420,7 +24341,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to play with",
     "inflections": {
       "σύμπαιξον": {
         "transliteration": "sýmpaixon",
@@ -24732,7 +24652,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to persuade, prevail upon",
     "inflections": {
       "συνέπεισαν": {
         "transliteration": "synépeisan",
@@ -24760,7 +24679,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to bring to an end, finish off",
     "inflections": {
       "συνεπέρανας": {
         "transliteration": "synepéranas",
@@ -25134,7 +25052,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to fight alongside",
     "inflections": {
       "συνεπολέμει": {
         "transliteration": "synepolémei",
@@ -25424,7 +25341,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to be buckled together",
     "inflections": {
       "συμπεπορπημένους": {
         "transliteration": "sympeporpēménous",
@@ -25566,7 +25482,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to grapple with, close with",
     "inflections": {
       "συμπροσπλακήσεται": {
         "transliteration": "symprosplakḗsetai",
@@ -25604,7 +25519,6 @@
   "συμφερόντως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "profitably, advantageously",
     "inflections": {
       "συμφερόντως": {
         "transliteration": "sympheróntōs",
@@ -25799,7 +25713,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to burn up together",
     "inflections": {
       "συνεφλογίσθησαν": {
         "transliteration": "synephlogísthēsan",
@@ -25868,7 +25781,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to block up, fence in",
     "inflections": {
       "συμφράξει": {
         "transliteration": "symphráxei",
@@ -26110,7 +26022,6 @@
   "συμφώνως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in agreement, harmoniously",
     "inflections": {
       "συμφώνως": {
         "transliteration": "symphṓnōs",
@@ -27199,7 +27110,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
-    "shortDefinition": "an intermingling, association",
     "inflections": {
       "συναναμείξεων": {
         "transliteration": "synanameíxeōn",
@@ -27663,14 +27573,12 @@
           { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg", "second"] }
         ]
       }
-    },
-    "shortDefinition": "to die together with"
+    }
   },
   "συναποκρύπτω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to hide away together",
     "inflections": {
       "συναποκρυβῶσι": {
         "transliteration": "synapokrybō̂si",
@@ -27926,7 +27834,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to fight side by side, make common cause",
     "inflections": {
       "συνασπιεῖν": {
         "transliteration": "synaspieîn",
@@ -27977,7 +27884,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
-    "shortDefinition": "to revolt along with",
     "inflections": {
       "συναποστᾶσαι": {
         "transliteration": "synapostâsai",
@@ -28012,7 +27918,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to bite together, be stung",
     "inflections": {
       "συνεδήχθησαν": {
         "transliteration": "synedḗchthēsan",
@@ -28304,7 +28209,6 @@
   "σύνεγγυς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "close by, near",
     "inflections": {
       "σύνεγγυς": {
         "transliteration": "sýnengys",
@@ -28646,7 +28550,6 @@
   "συνεῖπον": {
     "language": "greek",
     "pos": "verb",
-    "shortDefinition": "to agree together, concur in saying",
     "inflections": {
       "συνειπάμεθα": {
         "transliteration": "syneipámetha",
@@ -28746,7 +28649,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to stab through together",
     "inflections": {
       "συνεξεκέντησεν": {
         "transliteration": "synexekéntēsen",
@@ -28811,7 +28713,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to bring up together with",
     "inflections": {
       "συνεκτραφέντων": {
         "transliteration": "synektraphéntōn",
@@ -28915,7 +28816,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to drag along with",
     "inflections": {
       "συνελκύσῃς": {
         "transliteration": "synelkýsēs",
@@ -29002,7 +28902,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to follow along with",
     "inflections": {
       "συνεπηκολούθησαν": {
         "transliteration": "synepēkoloúthēsan",
@@ -29032,7 +28931,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to number along with, muster with",
     "inflections": {
       "συνεπεσκέπησαν": {
         "transliteration": "synepesképēsan",
@@ -30115,7 +30013,6 @@
   "συνετῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "intelligently, with understanding",
     "inflections": {
       "συνετῶς": {
         "transliteration": "synetō̂s",
@@ -34746,7 +34643,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "pipe, flute",
     "inflections": {
       "σύριγγος": {
         "transliteration": "sýringos",
@@ -35047,7 +34943,6 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
-    "shortDefinition": "tent companions, those sharing a tent",
     "inflections": {
       "συσκηνίοις": {
         "transliteration": "syskēníois",
@@ -35192,7 +35087,6 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "shortDefinition": "to draw together, shrivel",
     "inflections": {
       "συνεσπάσθησαν": {
         "transliteration": "synespásthēsan",
@@ -36296,7 +36190,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "wasp",
     "inflections": {
       "σφῆκας": {
         "transliteration": "sphē̂kas",
@@ -36860,7 +36753,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "split wood, kindling",
     "inflections": {
       "σχίδακας": {
         "transliteration": "schídakas",
@@ -37346,7 +37238,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shobal",
     "inflections": {
       "Σωβαλ": {
         "transliteration": "Sōbal",
@@ -38129,7 +38020,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "a bodyguard",
     "inflections": {
       "σωματοφύλακες": {
         "transliteration": "sōmatophýlakes",
@@ -38239,7 +38129,6 @@
   "σωρηδόν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in heaps",
     "inflections": {
       "σωρηδόν": {
         "transliteration": "sōrēdón",
@@ -38558,7 +38447,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shuah",
     "inflections": {
       "Σωυε": {
         "transliteration": "Sōye",
@@ -38571,7 +38459,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shepho",
     "inflections": {
       "Σωφ": {
         "transliteration": "Sōph",
@@ -38620,7 +38507,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsepho",
     "inflections": {
       "Σωφαρ": {
         "transliteration": "Sōphar",
@@ -38682,7 +38568,6 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Sephar",
     "inflections": {
       "Σωφηρα": {
         "transliteration": "Sōphēra",
