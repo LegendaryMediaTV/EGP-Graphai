@@ -2546,7 +2546,6 @@
       "θεῖον": {
         "transliteration": "theîon",
         "cells": [
-          { "parse": ["adj", "voc", "sg", "neut"] },
           { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
@@ -3294,8 +3293,8 @@
   "θεμέλιος": {
     "language": "greek",
     "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-es",
+    "gender": "masc",
+    "declension": "2m",
     "shortDefinition": "a foundation",
     "indices": { "strongs": "G2310" },
     "inflections": {
@@ -6589,10 +6588,7 @@
       },
       "θλίψεις": {
         "transliteration": "thlípseis",
-        "cells": [
-          { "parse": ["noun", "voc", "pl", "fem"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "θλίψετε": {
         "transliteration": "thlípsete",

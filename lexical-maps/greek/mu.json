@@ -2038,20 +2038,6 @@
       }
     }
   },
-  "μακράν": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G3112" },
-    "inflections": {
-      "μακράν": {
-        "transliteration": "makrán",
-        "cells": [
-          { "parse": ["adv"] },
-          { "parse": ["adj", "acc", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "μακρόβιος": {
     "language": "greek",
     "pos": "adj",
@@ -2272,103 +2258,213 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
-    "indices": { "strongs": "G3117" },
+    "indices": { "strongs": ["G3112", "G3117"] },
     "inflections": {
       "μακρά": {
         "transliteration": "makrá",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
+          {
+            "parse": ["adj", "acc", "pl", "neut"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "neut"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "neut"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρᾷ": {
         "transliteration": "makrâ",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          }
+        ]
       },
       "μακράν": {
         "transliteration": "makrán",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G3112" } }
+        ]
       },
       "μακράς": {
         "transliteration": "makrás",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
+          {
+            "parse": ["adj", "acc", "pl", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρᾶς": {
         "transliteration": "makrâs",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
+          {
+            "parse": ["adj", "acc", "pl", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρόν": {
         "transliteration": "makrón",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρός": {
         "transliteration": "makrós",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "masc"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακροτέρα": {
         "transliteration": "makrotéra",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut", "comp"] }
+          {
+            "parse": ["adj", "acc", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρότερα": {
         "transliteration": "makrótera",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "pl", "neut", "comp"] },
-          { "parse": ["adj", "voc", "pl", "neut", "comp"] }
+          {
+            "parse": ["adj", "acc", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρότερον": {
         "transliteration": "makróteron",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "masc", "comp"] },
-          { "parse": ["adj", "acc", "sg", "neut", "comp"] },
-          { "parse": ["adj", "nom", "sg", "neut", "comp"] },
-          { "parse": ["adj", "voc", "sg", "neut", "comp"] },
-          { "parse": ["adv", "comp"] }
+          {
+            "parse": ["adj", "acc", "sg", "masc", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut", "comp"],
+            "indices": { "strongs": "G3117" }
+          },
+          { "parse": ["adv", "comp"], "indices": { "strongs": "G3117" } }
         ]
       },
       "μακρούς": {
         "transliteration": "makroús",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "acc", "pl", "masc"] }
+          {
+            "parse": ["adj", "acc", "pl", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "acc", "pl", "masc"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρῷ": {
         "transliteration": "makrō̂",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
+          {
+            "parse": ["adj", "dat", "sg", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       },
       "μακρῶν": {
         "transliteration": "makrō̂n",
         "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
+          {
+            "parse": ["adj", "gen", "pl", "fem"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "gen", "pl", "masc"],
+            "indices": { "strongs": "G3117" }
+          },
+          {
+            "parse": ["adj", "gen", "pl", "neut"],
+            "indices": { "strongs": "G3117" }
+          }
         ]
       }
     }
@@ -8659,9 +8755,8 @@
   },
   "μέθυσος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-1-2",
     "indices": { "strongs": "G3183" },
     "inflections": {
       "μέθυσοι": {
@@ -9067,22 +9162,6 @@
       }
     }
   },
-  "μέλαν": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "an ink",
-    "indices": { "strongs": "G3188" },
-    "inflections": {
-      "μέλανι": {
-        "transliteration": "mélani",
-        "cells": [{ "parse": ["adj", "dat", "sg", "neut"] }]
-      },
-      "μέλανος": {
-        "transliteration": "mélanos",
-        "cells": [{ "parse": ["adj", "gen", "sg", "neut"] }]
-      }
-    }
-  },
   "μελάνθιον": {
     "language": "greek",
     "pos": "noun",
@@ -9142,31 +9221,75 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-nt",
-    "shortDefinition": "to be black",
-    "indices": { "strongs": "G3189" },
+    "shortDefinition": "to be black; fig. to be inky",
+    "indices": { "strongs": ["G3188", "G3189"] },
     "inflections": {
       "μέλαινα": {
         "transliteration": "mélaina",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3189" }
+          }
+        ]
       },
       "μέλαινά": {
         "transliteration": "mélainá",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3189" }
+          }
+        ]
       },
       "μέλαιναν": {
         "transliteration": "mélainan",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3189" }
+          }
+        ]
       },
       "μέλανες": {
         "transliteration": "mélanes",
         "cells": [
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G3189" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3189" }
+          }
+        ]
+      },
+      "μέλανι": {
+        "transliteration": "mélani",
+        "cells": [
+          {
+            "parse": ["adj", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3188" }
+          }
+        ]
+      },
+      "μέλανος": {
+        "transliteration": "mélanos",
+        "cells": [
+          {
+            "parse": ["adj", "gen", "sg", "neut"],
+            "indices": { "strongs": "G3188" }
+          }
         ]
       },
       "μέλας": {
         "transliteration": "mélas",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "masc"],
+            "indices": { "strongs": "G3189" }
+          }
+        ]
       }
     }
   },
@@ -11015,7 +11138,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "shortDefinition": "the Messiah; lit. an anointed person/thing; fig. an appointed person/thing",
+    "shortDefinition": "Messiah; lit. an anointed person/thing; fig. an appointed person/thing",
     "indices": { "strongs": "G3323" },
     "inflections": {
       "Μεσίαν": {
@@ -19245,21 +19368,6 @@
       }
     }
   },
-  "μόνον": {
-    "language": "greek",
-    "pos": "adv",
-    "shortDefinition": "only",
-    "indices": { "strongs": "G3440" },
-    "inflections": {
-      "μόνον": {
-        "transliteration": "mónon",
-        "cells": [
-          { "parse": ["adv"] },
-          { "parse": ["adj", "acc", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "μόνορχις": {
     "language": "greek",
     "pos": "noun",
@@ -19278,111 +19386,227 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be the only, alone",
-    "indices": { "strongs": "G3441" },
+    "indices": { "strongs": ["G3440", "G3441"] },
     "inflections": {
       "μόνα": {
         "transliteration": "móna",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
+          {
+            "parse": ["adj", "acc", "pl", "neut"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "neut"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "neut"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μόνας": {
         "transliteration": "mónas",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
+          {
+            "parse": ["adj", "acc", "pl", "fem"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μόνη": {
         "transliteration": "mónē",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μόνῃ": {
         "transliteration": "mónē",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μονήν": {
         "transliteration": "monḗn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνην": {
         "transliteration": "mónēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνης": {
         "transliteration": "mónēs",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνοι": {
         "transliteration": "mónoi",
         "cells": [
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μόνοις": {
         "transliteration": "mónois",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "pl", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνον": {
         "transliteration": "mónon",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G3441" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G3440" } }
+        ]
       },
       "μόνος": {
         "transliteration": "mónos",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνου": {
         "transliteration": "mónou",
-        "cells": [{ "parse": ["adj", "gen", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "gen", "sg", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνους": {
         "transliteration": "mónous",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "pl", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνῳ": {
         "transliteration": "mónō",
-        "cells": [{ "parse": ["adj", "dat", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       },
       "μόνων": {
         "transliteration": "mónōn",
         "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
+          {
+            "parse": ["adj", "gen", "pl", "fem"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "gen", "pl", "masc"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "gen", "pl", "neut"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μονωτάτη": {
         "transliteration": "monōtátē",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "super"] },
-          { "parse": ["adj", "voc", "sg", "fem", "super"] }
+          {
+            "parse": ["adj", "nom", "sg", "fem", "super"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "fem", "super"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μονώτατοι": {
         "transliteration": "monṓtatoi",
         "cells": [
-          { "parse": ["adj", "nom", "pl", "masc", "super"] },
-          { "parse": ["adj", "voc", "pl", "masc", "super"] }
+          {
+            "parse": ["adj", "nom", "pl", "masc", "super"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc", "super"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μονώτατον": {
         "transliteration": "monṓtaton",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "masc", "super"] },
-          { "parse": ["adj", "acc", "sg", "neut", "super"] },
-          { "parse": ["adj", "nom", "sg", "neut", "super"] },
-          { "parse": ["adj", "voc", "sg", "neut", "super"] }
+          {
+            "parse": ["adj", "acc", "sg", "masc", "super"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "neut", "super"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut", "super"],
+            "indices": { "strongs": "G3441" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut", "super"],
+            "indices": { "strongs": "G3441" }
+          }
         ]
       },
       "μονώτατος": {
         "transliteration": "monṓtatos",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc", "super"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "masc", "super"],
+            "indices": { "strongs": "G3441" }
+          }
+        ]
       }
     }
   },

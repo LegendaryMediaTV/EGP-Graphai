@@ -14779,10 +14779,7 @@
     "inflections": {
       "καταλύσει": {
         "transliteration": "katalýsei",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "κατάλυσιν": {
         "transliteration": "katálysin",
@@ -33302,14 +33299,15 @@
   },
   "κομψός": {
     "language": "greek",
-    "pos": "adv",
+    "pos": "adj",
     "indices": { "strongs": "G2866" },
     "inflections": {
       "κομψότερον": {
         "transliteration": "kompsóteron",
         "cells": [{ "parse": ["adv", "comp"] }]
       }
-    }
+    },
+    "declension": "2-1-2"
   },
   "κόνδυ": {
     "language": "greek",
@@ -34449,7 +34447,7 @@
   },
   "Κορίνθιος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G2881" },
     "inflections": {
       "Κορίνθιοι": {

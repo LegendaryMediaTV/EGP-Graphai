@@ -2305,28 +2305,6 @@
       }
     }
   },
-  "τάχιον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5032" },
-    "inflections": {
-      "τάχιον": {
-        "transliteration": "táchion",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      }
-    }
-  },
-  "τάχιστα": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5033" },
-    "inflections": {
-      "τάχιστα": {
-        "transliteration": "táchista",
-        "cells": [{ "parse": ["adv", "super"] }]
-      }
-    }
-  },
   "τάχος": {
     "language": "greek",
     "pos": "noun",
@@ -2350,14 +2328,6 @@
         "transliteration": "táchous",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
-    }
-  },
-  "ταχύ": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5035" },
-    "inflections": {
-      "ταχύ": { "transliteration": "tachý", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "ταχύνω": {
@@ -2457,61 +2427,140 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
-    "indices": { "strongs": "G5036" },
+    "indices": { "strongs": ["G5032", "G5033", "G5035", "G5036"] },
     "inflections": {
       "θᾶττον": {
         "transliteration": "thâtton",
         "cells": [
-          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
-          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
-          { "parse": ["adj", "comp", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "comp", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "comp", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "comp", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          }
         ]
       },
       "τάχει": {
         "transliteration": "táchei",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
+          {
+            "parse": ["adj", "dat", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          }
         ]
       },
       "ταχεῖα": {
         "transliteration": "tacheîa",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "fem"],
+            "indices": { "strongs": "G5036" }
+          }
         ]
       },
       "ταχεῖς": {
         "transliteration": "tacheîs",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "masc"] },
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
+          {
+            "parse": ["adj", "acc", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "acc", "pl", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "neut"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
+      },
+      "τάχιον": {
+        "transliteration": "táchion",
+        "cells": [
+          { "parse": ["adv", "comp"], "indices": { "strongs": "G5032" } }
+        ]
+      },
+      "τάχιστα": {
+        "transliteration": "táchista",
+        "cells": [
+          { "parse": ["adv", "super"], "indices": { "strongs": "G5033" } }
         ]
       },
       "ταχίστην": {
         "transliteration": "tachístēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem", "super"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem", "super"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       },
       "ταχύ": {
         "transliteration": "tachý",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "masc"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G5035" } }
         ]
       },
       "ταχύν": {
         "transliteration": "tachýn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       },
       "ταχύς": {
         "transliteration": "tachýs",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       }
     }
   },
@@ -8971,11 +9020,19 @@
   },
   "τολμηρός": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
     "inflections": {
       "τολμηρά": {
         "transliteration": "tolmērá",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "τολμηρότερον": {
+        "transliteration": "tolmēróteron",
+        "cells": [{ "parse": ["adv", "comp"] }]
+      },
+      "τολμηρότερος": {
+        "transliteration": "tolmēróteros",
+        "cells": [{ "parse": ["adv", "comp"] }]
       },
       "τολμηροῦ": {
         "transliteration": "tolmēroû",
@@ -8984,22 +9041,9 @@
           { "parse": ["noun", "gen", "sg", "masc"] }
         ]
       }
-    }
-  },
-  "τολμηρότερον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5112" },
-    "inflections": {
-      "τολμηρότερον": {
-        "transliteration": "tolmēróteron",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      },
-      "τολμηρότερος": {
-        "transliteration": "tolmēróteros",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      }
-    }
+    },
+    "declension": "2-1-2-a",
+    "indices": { "strongs": "G5112" }
   },
   "τολμητής": {
     "language": "greek",

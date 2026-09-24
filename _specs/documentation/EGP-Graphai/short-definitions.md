@@ -46,7 +46,7 @@ The first gloss of every clause opens with a frame, a fixed opening that marks t
 - ἀγγεῖον "a container, flask, vessel"
 - ἀβαρής "to be weightless, light-weight, non-burdensome; fig. to be easy-going"
 
-The frame follows the root's own `pos`, with exceptions for cardinal numbers and some quantifiers (see [Numerals and quantifiers](#numerals-and-quantifiers)). A root's cells may be tagged with other parts of speech, since a corpus tags each token by how it is used, but the gloss is written once for the word, so it follows the root.
+The frame follows the root's own `pos`, with exceptions for cardinal numbers and some quantifiers (see [Numerals and quantifiers](#numerals-and-quantifiers)). The root's `pos` is the word's lexical part of speech, so the frame is too. A spelling may also carry parses of another part of speech where it has more than one honest reading, but the gloss is written once for the word, so it follows the root. That holds even when an adjective used as a noun has a sense of its own. The gloss states that sense adjectivally, and the noun use makes the rest plain: μέλας "to be black; fig. to be inky" covers τὸ μέλαν, ink.
 
 | Part of speech                  | Frame                   | Examples                                                                                     |
 | ------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ A word the map files as a Hebrew or Aramaic transliteration (`pos` `hebrew` or `
 
 Use `a` or `an` by the sound that follows. Every common noun takes one, including abstract nouns and nouns English treats as uncountable: "a peace", "a knowledge", "a bread", "a blood". The article is what tells the reader the word is a noun. A bare gloss is the frame for adverbs, prepositions, conjunctions and particles, so a bare "blood" would read as one of those. A rule with no exception for countability also saves the writer from judging countability, which English leaves unclear ("a knowledge" or "knowledge"?). The article can read as "a kind of", which does no harm: a reader adjusts articles every time they swap a noun gloss into a sentence, since Greek has no indefinite article.
 
-Use `the` only for something there is one of, or a title: "the earth", "the gospel", "the Christ".
+Use `the` only for something there is one of: "the earth", "the gospel".
 
 When a common noun narrows to a single referent with the Greek article, the lead stays the common noun and the narrowed sense follows as `fig.`, written as a name: θεός "a god/goddess; fig. God". The article in the text does the narrowing, so the lead still swaps in where the word is used without it.
 
@@ -119,6 +119,8 @@ Some words have a received English rendering that has become a technical term or
 - εὐαγγέλιον "the gospel; lit. a victorious message/news"
 - κόσμος "the cosmos, world; lit. a decoration"
 - διάκονος "a deacon; lit. an assistant, minister"
+
+A title the text uses like a name is written as a name, capitalized and with no article: Χριστός "Christ; lit. an anointed person/thing; fig. an appointed person/thing". Μεσσίας, the same title from Hebrew, follows the same template with "Messiah".
 
 ## Punctuation inside a clause
 

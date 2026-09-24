@@ -554,8 +554,7 @@
   },
   "Ἑβραῖος": {
     "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
+    "pos": "noun",
     "indices": { "strongs": "G1445" },
     "inflections": {
       "Εβραία": {
@@ -3484,9 +3483,8 @@
   },
   "ἔγκυος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "2f",
+    "pos": "adj",
+    "declension": "2-2",
     "indices": { "strongs": "G1471" },
     "inflections": {
       "ἔγκυος": {
@@ -4807,7 +4805,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
-    "shortDefinition": "an ethnic group, nation, world",
+    "shortDefinition": "an ethnic group, nation; pl. the world",
     "indices": { "strongs": "G1484" },
     "inflections": {
       "ἔθνει": {
@@ -9399,7 +9397,13 @@
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
-      },
+      }
+    }
+  },
+  "ἑκατονταπλασίως": {
+    "language": "greek",
+    "pos": "adv",
+    "inflections": {
       "ἑκατονταπλασίως": {
         "transliteration": "hekatontaplasíōs",
         "cells": [{ "parse": ["adv"] }]
@@ -17230,41 +17234,59 @@
       }
     }
   },
-  "ἐκτενέστερον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G1617" },
-    "inflections": {
-      "ἐκτενέστερον": {
-        "transliteration": "ektenésteron",
-        "cells": [{ "parse": ["adv"] }]
-      }
-    }
-  },
   "ἐκτενής": {
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
     "shortDefinition": "to be fervent",
-    "indices": { "strongs": "G1618" },
+    "indices": { "strongs": ["G1617", "G1618"] },
     "inflections": {
       "ἐκτενές": {
         "transliteration": "ektenés",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "masc"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G1618" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G1618" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "fem"],
+            "indices": { "strongs": "G1618" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "masc"],
+            "indices": { "strongs": "G1618" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G1618" }
+          }
         ]
+      },
+      "ἐκτενέστερον": {
+        "transliteration": "ektenésteron",
+        "cells": [{ "parse": ["adv"], "indices": { "strongs": "G1617" } }]
       },
       "ἐκτενῆ": {
         "transliteration": "ektenē̂",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G1618" }
+          }
+        ]
       },
       "ἐκτενής": {
         "transliteration": "ektenḗs",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G1618" }
+          }
+        ]
       }
     }
   },
@@ -22237,6 +22259,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to roll up",
     "indices": { "strongs": ["G1507", "G1667"] },
     "inflections": {
       "ἑλιγήσεται": {
@@ -68026,15 +68049,15 @@
       }
     }
   },
-  "εὔβουλος": {
+  "Εὔβουλος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
     "indices": { "strongs": "G2103" },
     "inflections": {
-      "εὔβουλος": {
-        "transliteration": "eúboulos",
+      "Εὔβουλος": {
+        "transliteration": "Eúboulos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
@@ -76782,17 +76805,25 @@
       }
     }
   },
-  "ἕως": {
+  "ἕως¹": {
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "until",
     "indices": { "strongs": "G2193" },
     "inflections": {
+      "ἕως": { "transliteration": "héōs", "cells": [{ "parse": ["adv"] }] }
+    }
+  },
+  "ἕως²": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "2-attic",
+    "inflections": {
       "ἕω": {
         "transliteration": "héō",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      },
-      "ἕως": { "transliteration": "héōs", "cells": [{ "parse": ["adv"] }] }
+      }
     }
   },
   "ἑωσφόρος": {

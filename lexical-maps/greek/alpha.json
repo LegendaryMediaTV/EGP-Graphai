@@ -2150,7 +2150,7 @@
   "ἄγαμος": {
     "language": "greek",
     "pos": "noun",
-    "shortDefinition": "to be unmarried, single",
+    "shortDefinition": "an unmarried/single person",
     "indices": { "strongs": "G22" },
     "inflections": {
       "ἄγαμοι": {
@@ -35998,8 +35998,8 @@
   },
   "ἀνθρωποκτόνος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be homicidal",
+    "pos": "noun",
+    "shortDefinition": "a manslayer",
     "indices": { "strongs": "G443" },
     "inflections": {
       "ἀνθρωποκτόνος": {
@@ -45124,10 +45124,7 @@
       },
       "ἀπειθεῖς": {
         "transliteration": "apeitheîs",
-        "cells": [
-          { "parse": ["adj", "voc", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
       },
       "ἀπειθείτω": {
         "transliteration": "apeitheítō",
@@ -67444,15 +67441,15 @@
       }
     }
   },
-  "ἀσύγκριτος": {
+  "Ἀσύγκριτος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
     "indices": { "strongs": "G799" },
     "inflections": {
-      "ἀσύγκριτον": {
-        "transliteration": "asýnkriton",
+      "Ἀσύγκριτον": {
+        "transliteration": "Asýnkriton",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }

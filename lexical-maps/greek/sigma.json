@@ -7720,21 +7720,6 @@
         "transliteration": "sidḗrou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
-      "σιδηροῦς": {
-        "transliteration": "sidēroûs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      },
-      "σιδηρῷ": {
-        "transliteration": "sidērō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
-      },
       "σιδήρῳ": {
         "transliteration": "sidḗrō",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
@@ -7766,7 +7751,18 @@
       },
       "σιδηροῦς": {
         "transliteration": "sidēroûs",
-        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
+      },
+      "σιδηρῷ": {
+        "transliteration": "sidērō̂",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "masc"] },
+          { "parse": ["noun", "dat", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -14058,7 +14054,7 @@
   },
   "σπερμολόγος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G4691" },
     "inflections": {
       "σπερμολόγος": {
@@ -21670,7 +21666,7 @@
   },
   "σύζυγος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G4805" },
     "inflections": {
       "σύζυγε": {
@@ -26811,7 +26807,7 @@
   },
   "συναιχμάλωτος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G4869" },
     "inflections": {
       "συναιχμάλωτός": {
@@ -29337,8 +29333,8 @@
   },
   "συνεργός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be coworking",
+    "pos": "noun",
+    "shortDefinition": "a coworker; trad. a fellow worker",
     "indices": { "strongs": "G4904" },
     "inflections": {
       "συνεργοί": {
@@ -34336,7 +34332,7 @@
   },
   "σύντροφος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G4939" },
     "inflections": {
       "σύντροφοι": {

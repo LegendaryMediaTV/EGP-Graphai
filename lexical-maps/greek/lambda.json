@@ -4923,27 +4923,6 @@
       }
     }
   },
-  "λεπτόν": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "indices": { "strongs": "G3016" },
-    "inflections": {
-      "λεπτά": {
-        "transliteration": "leptá",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      },
-      "λεπτόν": {
-        "transliteration": "leptón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      }
-    }
-  },
   "λεπτός": {
     "language": "greek",
     "pos": "adj",
@@ -4956,7 +4935,10 @@
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "λεπταί": {
@@ -4997,7 +4979,8 @@
           { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
         ]
       },
       "λεπτοτάτων": {
@@ -5017,7 +5000,8 @@
           { "parse": ["adj", "voc", "sg", "neut", "comp"] }
         ]
       }
-    }
+    },
+    "indices": { "strongs": "G3016" }
   },
   "λεπτύνω": {
     "language": "greek",
@@ -7948,7 +7932,7 @@
   },
   "λοίδορος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
     "indices": { "strongs": "G3060" },
     "inflections": {
       "λοίδοροι": {

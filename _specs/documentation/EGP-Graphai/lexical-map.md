@@ -49,7 +49,10 @@ flowchart LR
         Conc[Concordance]
     end
 
-    Sources -->|attested forms + parses| Codex
+    Standard[["Standard grammars and lexica<br/>headwords, parts of speech, paradigms"]]
+
+    Standard -->|decides| Codex
+    Sources -->|attested forms: coverage and evidence| Codex
     Registry --> Codex
     Codex --> Lex
     Codex --> Strongs
@@ -57,7 +60,13 @@ flowchart LR
     Codex --> Conc
 ```
 
-The map is derived from the source corpora, not from any translation. A translation inherits tags by declaring which source it follows, so the KJV's partial morphology and the NET's absent morphology stop being ceilings on what those editions can carry.
+The map is a standard reference: the parsing chart a seminary student learns from, made into data. What it says about a word, its headword, its part of speech and the parses each spelling can take, is what the established grammars and lexica say. None of that is new or open to a corpus's opinion.
+
+The source corpora built it and keep it complete, since every form they attest needs a home, but they do not decide what it says. The direction runs the other way. The map is what a corpus is checked against, and what fills in a text that has no parsing or no accents. The established corpora largely agree with it, and where they do not, one of the two needs reading.
+
+Where a spelling can honestly be read more than one way, the map holds every reading, so a single inflected form can carry several parses. Choosing among them is interpretation, and that choice belongs to the corpus, verse by verse. The map is the range of readings; a corpus is one choice within it.
+
+A translation inherits tags by declaring which source it follows, so the KJV's partial morphology and the NET's absent morphology stop being ceilings on what those editions can carry.
 
 ## The language registry
 
@@ -329,7 +338,7 @@ Index entries do not line up with this, and they are not meant to. A concordance
 
 ### How roots are derived
 
-Roots come from the forms. For each index number in the corpus, the attested spellings and their parses are put in front of something that reads Greek, with the number reduced to an opaque label and no lexicon in reach, and it returns the citation form. Nothing about the derivation depends on which numbering system tagged the text or on what any index calls the word.
+Roots come from the forms. For each index number in the corpus, the attested spellings and their parses are put in front of something that reads Greek, with the number reduced to an opaque label and no lexicon in reach, and it returns the citation form. Nothing about the derivation depends on which numbering system tagged the text or on what any index calls the word. That is how the map was first built from nothing; what makes a root right is the check against the standard lexica described below.
 
 The Greek map's roots were produced that way. Set against roots taken from index headwords, about one in fifteen came out differently. Most were Byzantine spellings the headwords do not carry: breathings, accents, single against double consonants, iota subscripts, omicron for omega. The rest were headwords that are not citation forms at all, a plural (ἀμφότεροι), a superlative (ἀκριβέστατος), a frozen accusative (ἀκμήν), a verb cited active that only occurs in the middle, two typos, and two proper names filed as common nouns (Τύραννος at Acts 19:9, Φιλητός at 2 Timothy 2:17).
 
@@ -337,7 +346,7 @@ Where two numbers derive to the same citation form and the same word, the root c
 
 Where two numbers derive to the same citation form and different words, the root takes a superscript, the convention the lexicon already uses. ἄπειμι¹ is 'be absent' from εἰμί and ἄπειμι² is 'go away' from εἶμι. σύνειμι splits the same way. βάτος¹ is a bramble and βάτος² a liquid measure. μήν¹ is a particle and μήν² a month.
 
-Part of speech on the root follows the corpus tag rather than the deriver's judgment, since Ἀθηναῖος can be argued as an adjective or a noun and the tagger already argued it.
+Part of speech on the root is the word's lexical part of speech, the class the standard grammars and lexica put it in and a parsing chart would file it under. A corpus tags each token by how its verse uses the word, and those tags belong on the cells; they never decide the root. πτωχός is an adjective even where a tagger calls a token a noun, because an adjective with the article in front of it, "the poor", is still an adjective, and the translation is what supplies the English noun. Where the standard lexica themselves disagree, as they do over some adjectives that became nouns, the lexicon of record for the body of literature the word belongs to decides. A corpus tag never does.
 
 ### The root is the word as the language used it
 
@@ -351,9 +360,9 @@ The check on all of this is independent lexica keyed by headword, never by numbe
 
 ### When cells disagree about part of speech
 
-A root carries its own part of speech and each cell carries the one it was tagged with. They can differ, and the difference is information rather than an error.
+A root carries its lexical part of speech, and a spelling carries every parse it can take. The two can differ, and the difference is information rather than an error.
 
-δεύτερος is an adjective. Its neuter accusative δεύτερον is tagged as an adjective in some verses and as an adverb in others, because the word is being used both ways. One root, one paradigm, cells that disagree.
+δεύτερος is an adjective. Its neuter accusative δεύτερον is also a standard adverb, "secondly", so that spelling holds both readings, and a corpus picks the one its verse uses. One root, one paradigm, and a spelling with two honest readings.
 
 The same holds for τρίτος, μέγας, ὀλίγος, δοῦλος and πρῶτος. Reading the root's part of speech as authoritative for every cell would flatten exactly the distinction a reader wants.
 
@@ -387,7 +396,7 @@ The defective-verb numbers are parse-level facts by definition. Strong's G2076 _
 
 ## What the root knows that no ending can tell you
 
-Five facts sit on the root rather than on a cell, because they belong to the word rather than to any one of its forms. None is derivable from a spelling, and each is read off a corpus rather than guessed.
+Five facts sit on the root rather than on a cell, because they belong to the word rather than to any one of its forms. None is derivable from a spelling. Each is what the standard grammars and lexica say, with the corpora as supporting evidence, and none is guessed.
 
 ```json
 "λόγος": { "pos": "noun", "gender": "masc", "declension": "2m", … }
@@ -409,7 +418,7 @@ A noun of common gender takes either article according to what it names, and sto
 
 Because the map is meant to hold what is known, and these are known. A consumer that wants to inflect a word the map has not attested needs the class; one that wants to render a scheme Robinson cannot express needs it too. Storing them is also what lets the map be checked: a root claiming a gender its own cells contradict is a real error, and the audit above catches it.
 
-They are stated only where a corpus settles them. Same discipline the schema already applies to gender, and the reason `declension` is absent on the roots no corpus settles.
+They are stated only where the evidence settles them: the standard reference works, or a text's own spellings where those decide it. Same discipline the schema already applies to gender, and the reason `declension` is absent on the roots nothing settles yet.
 
 ## Keys
 

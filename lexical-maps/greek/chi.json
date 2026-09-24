@@ -4631,7 +4631,6 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "indices": { "strongs": "G5514" },
     "inflections": {
       "χλόη": {
         "transliteration": "chlóē",
@@ -4650,6 +4649,19 @@
       },
       "χλόης": {
         "transliteration": "chlóēs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "Χλόη": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "indices": { "strongs": "G5514" },
+    "inflections": {
+      "Χλόης": {
+        "transliteration": "Chlóēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
@@ -7039,7 +7051,7 @@
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     },
-    "shortDefinition": "the Christ; lit. an anointed person/thing; fig. an appointed person/thing",
+    "shortDefinition": "Christ; lit. an anointed person/thing; fig. an appointed person/thing",
     "indices": { "strongs": "G5547" }
   },
   "χρίω": {

@@ -8416,63 +8416,108 @@
       }
     }
   },
-  "ὕστερον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5305" },
-    "inflections": {
-      "ὕστερον": {
-        "transliteration": "hýsteron",
-        "cells": [{ "parse": ["adv"] }]
-      }
-    }
-  },
   "ὕστερος": {
     "language": "greek",
     "pos": "adj",
-    "indices": { "strongs": "G5306" },
+    "indices": { "strongs": ["G5305", "G5306"] },
     "inflections": {
       "ὑστάτην": {
         "transliteration": "hystátēn",
-        "cells": [{ "parse": ["adj", "super", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "super", "acc", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          }
+        ]
       },
       "ὕστεροι": {
         "transliteration": "hýsteroi",
         "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
+          {
+            "parse": ["adj", "nom", "pl", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       },
       "ὑστέροις": {
         "transliteration": "hystérois",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          }
+        ]
       },
       "ὕστερον": {
         "transliteration": "hýsteron",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G5305" } }
         ]
       },
       "ὑστέρου": {
         "transliteration": "hystérou",
         "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       },
       "ὑστέρῳ": {
         "transliteration": "hystérō",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
+          {
+            "parse": ["adj", "dat", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       }
     }

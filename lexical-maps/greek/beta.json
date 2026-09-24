@@ -4800,11 +4800,10 @@
       }
     }
   },
-  "βασίλειον": {
+  "βασίλειος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
+    "pos": "adj",
+    "indices": { "strongs": "G934" },
     "inflections": {
       "βασίλεια": {
         "transliteration": "basíleia",
@@ -4817,13 +4816,15 @@
       "βασιλείοις": {
         "transliteration": "basileíois",
         "cells": [
-          { "parse": ["noun", "dat", "pl", "neut"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
+          { "parse": ["adj", "dat", "pl", "neut"] },
+          { "parse": ["noun", "dat", "pl", "neut"] }
         ]
       },
       "βασίλειον": {
         "transliteration": "basíleion",
         "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
           { "parse": ["adj", "voc", "sg", "neut"] },
@@ -4843,34 +4844,9 @@
       "βασιλείων": {
         "transliteration": "basileíōn",
         "cells": [
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["adj", "gen", "pl", "masc"] }
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "βασίλειος": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G934" },
-    "inflections": {
-      "βασιλείοις": {
-        "transliteration": "basileíois",
-        "cells": [{ "parse": ["adj", "dat", "pl", "neut"] }]
-      },
-      "βασίλειον": {
-        "transliteration": "basíleion",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      },
-      "βασιλείων": {
-        "transliteration": "basileíōn",
-        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -7052,17 +7028,6 @@
       }
     }
   },
-  "βέλτιον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G957" },
-    "inflections": {
-      "βέλτιον": {
-        "transliteration": "béltion",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      }
-    }
-  },
   "βελτίων": {
     "language": "greek",
     "pos": "adj",
@@ -7074,7 +7039,8 @@
           { "parse": ["adj", "nom", "sg", "neut", "comp"] },
           { "parse": ["adj", "voc", "sg", "fem", "comp"] },
           { "parse": ["adj", "voc", "sg", "masc", "comp"] },
-          { "parse": ["adj", "voc", "sg", "neut", "comp"] }
+          { "parse": ["adj", "voc", "sg", "neut", "comp"] },
+          { "parse": ["adv", "comp"] }
         ]
       },
       "βέλτιόν": {
@@ -7124,7 +7090,8 @@
           { "parse": ["adj", "nom", "sg", "masc", "comp"] }
         ]
       }
-    }
+    },
+    "indices": { "strongs": "G957" }
   },
   "Βεναμιουδ": {
     "language": "greek",
@@ -8900,7 +8867,6 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
-    "indices": { "strongs": "G986" },
     "inflections": {
       "βλαστοί": {
         "transliteration": "blastoí",
@@ -8911,10 +8877,6 @@
       },
       "βλαστόν": {
         "transliteration": "blastón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "βλάστον": {
-        "transliteration": "bláston",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "βλαστός": {
@@ -8928,6 +8890,19 @@
       "βλαστούς": {
         "transliteration": "blastoús",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      }
+    }
+  },
+  "Βλάστος": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "indices": { "strongs": "G986" },
+    "inflections": {
+      "Βλάστον": {
+        "transliteration": "Bláston",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -9966,10 +9941,9 @@
   },
   "βοηθός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a helper",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be helpful",
     "indices": { "strongs": "G998" },
     "inflections": {
       "βοηθέ": {

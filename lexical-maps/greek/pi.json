@@ -2182,9 +2182,8 @@
   },
   "πανοῦργος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-2",
     "indices": { "strongs": "G3835" },
     "inflections": {
       "πανοῦργοι": {
@@ -7782,16 +7781,17 @@
       }
     }
   },
-  "παραπλήσιον": {
+  "παραπλήσιος": {
     "language": "greek",
-    "pos": "adv",
+    "pos": "adj",
     "indices": { "strongs": "G3897" },
     "inflections": {
       "παραπλήσιον": {
         "transliteration": "paraplḗsion",
         "cells": [{ "parse": ["adv"] }]
       }
-    }
+    },
+    "declension": "2-1-2-a"
   },
   "παραπλησίως": {
     "language": "greek",
@@ -8254,8 +8254,7 @@
   },
   "πάρασημος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
+    "pos": "adj",
     "indices": { "strongs": "G3902" },
     "inflections": {
       "παρασήμῳ": {
@@ -14840,14 +14839,6 @@
       }
     }
   },
-  "πεζῇ": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G3979" },
-    "inflections": {
-      "πεζῇ": { "transliteration": "pezē̂", "cells": [{ "parse": ["adv"] }] }
-    }
-  },
   "πεζικός": {
     "language": "greek",
     "pos": "adj",
@@ -14887,6 +14878,7 @@
     "language": "greek",
     "pos": "adj",
     "inflections": {
+      "πεζῇ": { "transliteration": "pezē̂", "cells": [{ "parse": ["adv"] }] },
       "πεζοί": {
         "transliteration": "pezoí",
         "cells": [
@@ -14919,7 +14911,8 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       }
-    }
+    },
+    "indices": { "strongs": "G3979" }
   },
   "πειθαρχέω": {
     "language": "greek",
@@ -28204,26 +28197,6 @@
       }
     }
   },
-  "πλείων": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "comparative",
-    "inflections": {
-      "πλείω": {
-        "transliteration": "pleíō",
-        "cells": [
-          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
-          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
-          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
-          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
-          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
-          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
-          { "parse": ["adj", "comp", "voc", "pl", "neut"] },
-          { "parse": ["adj", "comp", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "πλέκω": {
     "language": "greek",
     "pos": "verb",
@@ -28650,9 +28623,6 @@
       "πλέον": {
         "transliteration": "pléon",
         "cells": [
-          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
-          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
-          { "parse": ["adj", "comp", "voc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
@@ -34596,6 +34566,19 @@
         "transliteration": "pleístō",
         "cells": [{ "parse": ["adj", "super", "dat", "sg", "masc"] }]
       },
+      "πλείω": {
+        "transliteration": "pleíō",
+        "cells": [
+          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
+          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
+          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
+          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
+          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
+          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
+          { "parse": ["adj", "comp", "voc", "pl", "neut"] },
+          { "parse": ["adj", "comp", "voc", "sg", "neut"] }
+        ]
+      },
       "πλείων": {
         "transliteration": "pleíōn",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
@@ -37283,16 +37266,17 @@
       }
     }
   },
-  "πότερον": {
+  "πότερος": {
     "language": "greek",
-    "pos": "adv",
+    "pos": "adj",
     "indices": { "strongs": "G4220" },
     "inflections": {
       "πότερον": {
         "transliteration": "póteron",
         "cells": [{ "parse": ["adv", "interr"] }]
       }
-    }
+    },
+    "declension": "2-1-2-a"
   },
   "πότημα": {
     "language": "greek",
@@ -40117,9 +40101,8 @@
   },
   "πρόγονος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-2",
     "indices": { "strongs": "G4269" },
     "inflections": {
       "πρόγονοί": {

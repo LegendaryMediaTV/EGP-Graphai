@@ -568,10 +568,22 @@
   "ἡδέως": {
     "language": "greek",
     "pos": "adv",
-    "indices": { "strongs": "G2234" },
+    "indices": { "strongs": ["G2234", "G2236"] },
     "inflections": {
-      "ἡδέως": { "transliteration": "hēdéōs", "cells": [{ "parse": ["adv"] }] },
-      "ἥδιον": { "transliteration": "hḗdion", "cells": [{ "parse": ["adv"] }] }
+      "ἡδέως": {
+        "transliteration": "hēdéōs",
+        "cells": [{ "parse": ["adv"], "indices": { "strongs": "G2234" } }]
+      },
+      "ἥδιον": {
+        "transliteration": "hḗdion",
+        "cells": [{ "parse": ["adv"], "indices": { "strongs": "G2234" } }]
+      },
+      "ἥδιστα": {
+        "transliteration": "hḗdista",
+        "cells": [
+          { "parse": ["adv", "super"], "indices": { "strongs": "G2236" } }
+        ]
+      }
     }
   },
   "ἤδη": {
@@ -746,8 +758,7 @@
   },
   "ἡδύς": {
     "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G2236" },
+    "pos": "adj",
     "inflections": {
       "ἡδεῖ": {
         "transliteration": "hēdeî",
@@ -777,10 +788,6 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       },
-      "ἥδιστα": {
-        "transliteration": "hḗdista",
-        "cells": [{ "parse": ["adv", "super"] }]
-      },
       "ἡδίστου": {
         "transliteration": "hēdístou",
         "cells": [
@@ -809,7 +816,8 @@
         "transliteration": "hēdýs",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
       }
-    }
+    },
+    "declension": "3-1-3-us"
   },
   "ἥδυσμα": {
     "language": "greek",

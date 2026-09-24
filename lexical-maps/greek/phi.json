@@ -6093,9 +6093,7 @@
   },
   "φλέγω": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "indices": { "strongs": "G5393" },
+    "pos": "verb",
     "inflections": {
       "φλέγει": {
         "transliteration": "phlégei",
@@ -6144,16 +6142,26 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
-      "φλέγοντα": {
-        "transliteration": "phlégonta",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "φλέξει": {
         "transliteration": "phléxei",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg", "masc"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg", "masc"] }
         ]
+      }
+    },
+    "conjugation": "thematic"
+  },
+  "Φλέγων": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "indices": { "strongs": "G5393" },
+    "inflections": {
+      "Φλέγοντα": {
+        "transliteration": "Phlégonta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
