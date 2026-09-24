@@ -1,0 +1,3561 @@
+[
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Παῦλος",
+        "strong": "G3972",
+        "morph": "N-NSM"
+      },
+      { "text": " ἀπόστολος", "strong": "G652", "morph": "N-NSM" },
+      { "text": " Ἰησοῦ", "strong": "G2424", "morph": "N-GSM" },
+      {
+        "text": " Χριστοῦ",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "Ἰησοῦ Χριστοῦ",
+              "script": "G",
+              "transliteration": "Iēsoû Christoû"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " Χριστοῦ Ἰησοῦ",
+              "script": "G",
+              "transliteration": " Christoû Iēsoû"
+            }
+          ]
+        },
+        "strong": "G5547",
+        "morph": "N-GSM"
+      },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " θελήματος", "strong": "G2307", "morph": "N-GSN" },
+      { "text": " Θεοῦ,", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Τιμόθεος", "strong": "G5095", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἀδελφός,", "strong": "G80", "morph": "N-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 2,
+    "content": [
+      { "text": "τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      {
+        "text": " Κολοσσαῖς",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "Κολοσσαῖς",
+              "script": "G",
+              "transliteration": "Kolossaîs"
+            },
+            " ¦ ",
+            { "abbr": "ST" },
+            {
+              "text": " Κολασσαῖς",
+              "script": "G",
+              "transliteration": " Kolassaîs"
+            }
+          ]
+        },
+        "strong": "G2857",
+        "morph": "N-DPF"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "Κολοσσαῖς",
+              "script": "G",
+              "transliteration": "Kolossaîs"
+            },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            {
+              "text": " Κολοσσαῖς,",
+              "script": "G",
+              "transliteration": " Kolossaîs,"
+            }
+          ]
+        }
+      },
+      { "text": " ἁγίοις", "strong": "G40", "morph": "A-DPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " πιστοῖς", "strong": "G4103", "morph": "A-DPM" },
+      { "text": " ἀδελφοῖς", "strong": "G80", "morph": "N-DPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      {
+        "text": " Χριστῷ·",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Χριστῷ", "script": "G", "transliteration": "Christō̂" },
+            " ¦ ",
+            { "abbr": "BEZ" },
+            {
+              "text": " Χριστῷ Ἰησοῦ",
+              "script": "G",
+              "transliteration": " Christō̂ Iēsoû"
+            }
+          ]
+        },
+        "strong": "G5547",
+        "morph": "N-DSM"
+      },
+      { "text": " χάρις", "strong": "G5485", "morph": "N-NSF" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " εἰρήνη", "strong": "G1515", "morph": "N-NSF" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " πατρὸς", "strong": "G3962", "morph": "N-GSM" },
+      { "text": " ἡμῶν", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Κυρίου", "strong": "G2962", "morph": "N-GSM" },
+      { "text": " Ἰησοῦ", "strong": "G2424", "morph": "N-GSM" },
+      {
+        "text": " Χριστοῦ.",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "καὶ Κυρίου Ἰησοῦ Χριστοῦ",
+              "script": "G",
+              "transliteration": "kaì Kyríou Iēsoû Christoû"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G5547",
+        "morph": "N-GSM"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 3,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Εὐχαριστοῦμεν",
+        "strong": "G2168",
+        "morph": "V-PAI-1P"
+      },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Θεῷ", "strong": "G2316", "morph": "N-DSM" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " πατρὶ", "strong": "G3962", "morph": "N-DSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Κυρίου", "strong": "G2962", "morph": "N-GSM" },
+      { "text": " ἡμῶν", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " Ἰησοῦ", "strong": "G2424", "morph": "N-GSM" },
+      { "text": " Χριστοῦ,", "strong": "G5547", "morph": "N-GSM" },
+      { "text": " πάντοτε", "strong": "G3842", "morph": "ADV" },
+      { "text": " περὶ", "strong": "G4012", "morph": "PREP" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " προσευχόμενοι,", "strong": "G4336", "morph": "V-PNP-NPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 4,
+    "content": [
+      { "text": "ἀκούσαντες", "strong": "G191", "morph": "V-AAP-NPM" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " πίστιν", "strong": "G4102", "morph": "N-ASF" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Χριστῷ", "strong": "G5547", "morph": "N-DSM" },
+      { "text": " Ἰησοῦ,", "strong": "G2424", "morph": "N-DSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἀγάπην", "strong": "G26", "morph": "N-ASF" },
+      {
+        "text": " τὴν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τὴν", "script": "G", "transliteration": "tḕn" },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " ἣν ἔχετε",
+              "script": "G",
+              "transliteration": " hḕn échete"
+            }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-ASF"
+      },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " πάντας", "strong": "G3956", "morph": "A-APM" },
+      { "text": " τοὺς", "strong": "G3588", "morph": "T-APM" },
+      { "text": " ἁγίους,", "strong": "G40", "morph": "A-APM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 5,
+    "content": [
+      { "text": "διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἐλπίδα", "strong": "G1680", "morph": "N-ASF" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἀποκειμένην", "strong": "G606", "morph": "V-PNP-ASF" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " οὐρανοῖς,", "strong": "G3772", "morph": "N-DPM" },
+      { "text": " ἣν", "strong": "G3739", "morph": "R-ASF" },
+      { "text": " προηκούσατε", "strong": "G4257", "morph": "V-AAI-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " λόγῳ", "strong": "G3056", "morph": "N-DSM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἀληθείας", "strong": "G225", "morph": "N-GSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " εὐαγγελίου,", "strong": "G2098", "morph": "N-GSN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 6,
+    "content": [
+      { "text": "τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " παρόντος", "strong": "G3918", "morph": "V-PAP-GSN" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ὑμᾶς,", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " καθὼς", "strong": "G2531", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " παντὶ", "strong": "G3956", "morph": "A-DSM" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " κόσμῳ,", "strong": "G2889", "morph": "N-DSM" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "text": "om.,", "marks": ["i"] },
+            " ",
+            {
+              "text": "καὶ (ἐστὶ)",
+              "script": "G",
+              "transliteration": "kaì (estì)"
+            }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " ἔστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      {
+        "text": " καρποφορούμενον,",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "καρποφορούμενον",
+              "script": "G",
+              "transliteration": "karpophoroúmenon"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " καρποφορούμενον καὶ αὐξανόμενον",
+              "script": "G",
+              "transliteration": " karpophoroúmenon kaì auxanómenon"
+            }
+          ]
+        },
+        "strong": "G2592",
+        "morph": "V-PMP-NSN"
+      },
+      { "text": " καθὼς", "strong": "G2531", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ὑμῖν,", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " ἀφ’", "strong": "G575", "morph": "PREP" },
+      { "text": " ἧς", "strong": "G3739", "morph": "R-GSF" },
+      { "text": " ἡμέρας", "strong": "G2250", "morph": "N-GSF" },
+      { "text": " ἠκούσατε", "strong": "G191", "morph": "V-AAI-2P" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐπέγνωτε", "strong": "G1921", "morph": "V-2AAI-2P" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " χάριν", "strong": "G5485", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἀληθείᾳ·", "strong": "G225", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 7,
+    "content": [
+      { "text": "καθὼς", "strong": "G2531", "morph": "ADV" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " ἐμάθετε", "strong": "G3129", "morph": "V-2AAI-2P" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " Ἐπαφρᾶ", "strong": "G1889", "morph": "N-GSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " ἀγαπητοῦ", "strong": "G27", "morph": "A-GSM" },
+      { "text": " συνδούλου", "strong": "G4889", "morph": "N-GSM" },
+      { "text": " ἡμῶν,", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " ὅς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " πιστὸς", "strong": "G4103", "morph": "A-NSM" },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      {
+        "text": " ὑμῶν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὑμῶν", "script": "G", "transliteration": "hymō̂n" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ἡμῶν", "script": "G", "transliteration": " hēmō̂n" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " ὑμῶν", "script": "G", "transliteration": " hymō̂n" }
+          ]
+        },
+        "strong": "G4771",
+        "morph": "P-2GP"
+      },
+      { "text": " διάκονος", "strong": "G1249", "morph": "N-NSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ,", "strong": "G5547", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 8,
+    "content": [
+      { "text": "ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " δηλώσας", "strong": "G1213", "morph": "V-AAP-NSM" },
+      { "text": " ἡμῖν", "strong": "G1473", "morph": "P-1DP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " ἀγάπην", "strong": "G26", "morph": "N-ASF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Πνεύματι.", "strong": "G4151", "morph": "N-DSN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 9,
+    "content": [
+      { "paragraph": true, "text": "Διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τοῦτο", "strong": "G3778", "morph": "D-ASN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἡμεῖς,", "strong": "G1473", "morph": "P-1NP" },
+      { "text": " ἀφ’", "strong": "G575", "morph": "PREP" },
+      { "text": " ἧς", "strong": "G3739", "morph": "R-GSF" },
+      { "text": " ἡμέρας", "strong": "G2250", "morph": "N-GSF" },
+      { "text": " ἠκούσαμεν,", "strong": "G191", "morph": "V-AAI-1P" },
+      { "text": " οὐ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " παυόμεθα", "strong": "G3973", "morph": "V-PMI-1P" },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " προσευχόμενοι,", "strong": "G4336", "morph": "V-PNP-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " αἰτούμενοι", "strong": "G154", "morph": "V-PMP-NPM" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " πληρωθῆτε", "strong": "G4137", "morph": "V-APS-2P" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἐπίγνωσιν", "strong": "G1922", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " θελήματος", "strong": "G2307", "morph": "N-GSN" },
+      { "text": " αὐτοῦ", "strong": "G846", "morph": "P-GSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πάσῃ", "strong": "G3956", "morph": "A-DSF" },
+      { "text": " σοφίᾳ", "strong": "G4678", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " συνέσει", "strong": "G4907", "morph": "N-DSF" },
+      { "text": " πνευματικῇ,", "strong": "G4152", "morph": "A-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 10,
+    "content": [
+      { "text": "περιπατῆσαι", "strong": "G4043", "morph": "V-AAN" },
+      {
+        "text": " ὑμᾶς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὑμᾶς", "script": "G", "transliteration": "hymâs" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G4771",
+        "morph": "P-2AP"
+      },
+      { "text": " ἀξίως", "strong": "G516", "morph": "ADV" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Κυρίου", "strong": "G2962", "morph": "N-GSM" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " πᾶσαν", "strong": "G3956", "morph": "A-ASF" },
+      { "text": " ἀρέσκειαν,", "strong": "G699", "morph": "N-ASF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " παντὶ", "strong": "G3956", "morph": "A-DSN" },
+      { "text": " ἔργῳ", "strong": "G2041", "morph": "N-DSN" },
+      {
+        "text": " ἀγαθῷ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἀγαθῷ", "script": "G", "transliteration": "agathō̂" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " ἀγαθῷ,", "script": "G", "transliteration": " agathō̂," }
+          ]
+        },
+        "strong": "G18",
+        "morph": "A-DSN"
+      },
+      { "text": " καρποφοροῦντες", "strong": "G2592", "morph": "V-PAP-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " αὐξανόμενοι", "strong": "G837", "morph": "V-PPP-NPM" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      {
+        "text": " ἐπίγνωσιν",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "εἰς τὴν ἐπίγνωσιν",
+              "script": "G",
+              "transliteration": "eis tḕn epígnōsin"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " τῇ ἐπιγνώσει",
+              "script": "G",
+              "transliteration": " tē̂ epignṓsei"
+            }
+          ]
+        },
+        "strong": "G1922",
+        "morph": "N-ASF"
+      },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ·", "strong": "G2316", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 11,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πάσῃ", "strong": "G3956", "morph": "A-DSF" },
+      { "text": " δυνάμει", "strong": "G1411", "morph": "N-DSF" },
+      { "text": " δυναμούμενοι", "strong": "G1412", "morph": "V-PPP-NPM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " κράτος", "strong": "G2904", "morph": "N-ASN" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " δόξης", "strong": "G1391", "morph": "N-GSF" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " πᾶσαν", "strong": "G3956", "morph": "A-ASF" },
+      { "text": " ὑπομονὴν", "strong": "G5281", "morph": "N-ASF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " μακροθυμίαν", "strong": "G3115", "morph": "N-ASF" },
+      { "text": " μετὰ", "strong": "G3326", "morph": "PREP" },
+      { "text": " χαρᾶς·", "strong": "G5479", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 12,
+    "content": [
+      { "text": "εὐχαριστοῦντες", "strong": "G2168", "morph": "V-PAP-NPM" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " πατρὶ", "strong": "G3962", "morph": "N-DSM" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " ἱκανώσαντι", "strong": "G2427", "morph": "V-AAP-DSM" },
+      {
+        "text": " ἡμᾶς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἡμᾶς", "script": "G", "transliteration": "hēmâs" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " ὑμᾶς", "script": "G", "transliteration": " hymâs" }
+          ]
+        },
+        "strong": "G1473",
+        "morph": "P-1AP"
+      },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " μερίδα", "strong": "G3310", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " κλήρου", "strong": "G2819", "morph": "N-GSM" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἁγίων", "strong": "G40", "morph": "A-GPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSN" },
+      { "text": " φωτί,", "strong": "G5457", "morph": "N-DSN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 13,
+    "content": [
+      { "text": "ὃς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐρρύσατο", "strong": "G4506", "morph": "V-ANI-3S" },
+      { "text": " ἡμᾶς", "strong": "G1473", "morph": "P-1AP" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἐξουσίας", "strong": "G1849", "morph": "N-GSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " σκότους,", "strong": "G4655", "morph": "N-GSN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " μετέστησεν", "strong": "G3179", "morph": "V-AAI-3S" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " βασιλείαν", "strong": "G932", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " υἱοῦ", "strong": "G5207", "morph": "N-GSM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἀγάπης", "strong": "G26", "morph": "N-GSF" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 14,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ᾧ", "strong": "G3739", "morph": "R-DSM" },
+      { "text": " ἔχομεν", "strong": "G2192", "morph": "V-PAI-1P" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἀπολύτρωσιν", "strong": "G629", "morph": "N-ASF" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " αἵματος", "strong": "G129", "morph": "N-GSN" },
+      {
+        "text": " αὐτοῦ,",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "διὰ τοῦ αἵματος αὐτοῦ",
+              "script": "G",
+              "transliteration": "dià toû haímatos autoû"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G846",
+        "morph": "P-GSM"
+      },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἄφεσιν", "strong": "G859", "morph": "N-ASF" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPF" },
+      { "text": " ἁμαρτιῶν·", "strong": "G266", "morph": "N-GPF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 15,
+    "content": [
+      { "text": "ὅς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " εἰκὼν", "strong": "G1504", "morph": "N-NSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " ἀοράτου,", "strong": "G517", "morph": "A-GSM" },
+      { "text": " πρωτότοκος", "strong": "G4416", "morph": "A-NSM-S" },
+      { "text": " πάσης", "strong": "G3956", "morph": "A-GSF" },
+      { "text": " κτίσεως·", "strong": "G2937", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 16,
+    "content": [
+      { "text": "ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " ἐκτίσθη", "strong": "G2936", "morph": "V-API-3S" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " πάντα,", "strong": "G3956", "morph": "A-NPN" },
+      {
+        "text": " τὰ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τὰ", "script": "G", "transliteration": "tà" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-NPN"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " οὐρανοῖς", "strong": "G3772", "morph": "N-DPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      {
+        "text": " τὰ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τὰ", "script": "G", "transliteration": "tà" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-NPN"
+      },
+      { "text": " ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " γῆς,", "strong": "G1093", "morph": "N-GSF" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " ὁρατὰ", "strong": "G3707", "morph": "A-NPN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " ἀόρατα,", "strong": "G517", "morph": "A-NPN" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " θρόνοι,", "strong": "G2362", "morph": "N-NPM" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " κυριότητες,", "strong": "G2963", "morph": "N-NPF" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " ἀρχαί,", "strong": "G746", "morph": "N-NPF" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " ἐξουσίαι·", "strong": "G1849", "morph": "N-NPF" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-NPN" },
+      { "text": " δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " αὐτοῦ", "strong": "G846", "morph": "P-GSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " αὐτὸν", "strong": "G846", "morph": "P-ASM" },
+      { "text": " ἔκτισται·", "strong": "G2936", "morph": "V-RPI-3S" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 17,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " αὐτός", "strong": "G846", "morph": "P-NSM" },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " πρὸ", "strong": "G4253", "morph": "PREP" },
+      { "text": " πάντων,", "strong": "G3956", "morph": "A-GPN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-NPN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " συνέστηκε.", "strong": "G4921", "morph": "V-RAI-3S" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 18,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " αὐτός", "strong": "G846", "morph": "P-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " κεφαλὴ", "strong": "G2776", "morph": "N-NSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " σώματος,", "strong": "G4983", "morph": "N-GSN" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἐκκλησίας·", "strong": "G1577", "morph": "N-GSF" },
+      { "text": " ὅς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἀρχή,", "strong": "G746", "morph": "N-NSF" },
+      { "text": " πρωτότοκος", "strong": "G4416", "morph": "A-NSM-S" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " νεκρῶν,", "strong": "G3498", "morph": "A-GPM" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " γένηται", "strong": "G1096", "morph": "V-2ADS-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πᾶσιν", "strong": "G3956", "morph": "A-DPN" },
+      { "text": " αὐτὸς", "strong": "G846", "morph": "P-NSM" },
+      { "text": " πρωτεύων·", "strong": "G4409", "morph": "V-PAP-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 19,
+    "content": [
+      { "text": "ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " εὐδόκησε", "strong": "G2106", "morph": "V-AAI-3S" },
+      { "text": " πᾶν", "strong": "G3956", "morph": "A-NSN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-NSN" },
+      { "text": " πλήρωμα", "strong": "G4138", "morph": "N-NSN" },
+      { "text": " κατοικῆσαι,", "strong": "G2730", "morph": "V-AAN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 20,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " αὐτοῦ", "strong": "G846", "morph": "P-GSM" },
+      { "text": " ἀποκαταλλάξαι", "strong": "G604", "morph": "V-AAN" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " αὐτόν,", "strong": "G846", "morph": "P-ASM" },
+      { "text": " εἰρηνοποιήσας", "strong": "G1517", "morph": "V-AAP-NSM" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " αἵματος", "strong": "G129", "morph": "N-GSN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " σταυροῦ", "strong": "G4716", "morph": "N-GSM" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" },
+      { "text": " δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " γῆς,", "strong": "G1093", "morph": "N-GSF" },
+      { "text": " εἴτε", "strong": "G1535", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " οὐρανοῖς.", "strong": "G3772", "morph": "N-DPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 21,
+    "content": [
+      { "paragraph": true, "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " ποτὲ", "strong": "G4218", "morph": "PRT" },
+      { "text": " ὄντας", "strong": "G1510", "morph": "V-PAP-APM" },
+      { "text": " ἀπηλλοτριωμένους", "strong": "G526", "morph": "V-RPP-APM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐχθροὺς", "strong": "G2190", "morph": "A-APM" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " διανοίᾳ", "strong": "G1271", "morph": "N-DSF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " ἔργοις", "strong": "G2041", "morph": "N-DPN" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " πονηροῖς,", "strong": "G4190", "morph": "A-DPN" },
+      { "text": " νυνὶ", "strong": "G3570", "morph": "ADV" },
+      { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
+      {
+        "text": " ἀποκατήλλαξεν",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ἀποκατήλλαξεν",
+              "script": "G",
+              "transliteration": "apokatḗllaxen"
+            },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            {
+              "text": " ἀποκατηλλάγητε",
+              "script": "G",
+              "transliteration": " apokatēllágēte"
+            }
+          ]
+        },
+        "strong": "G604",
+        "morph": "V-AAI-3S"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 22,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSN" },
+      { "text": " σώματι", "strong": "G4983", "morph": "N-DSN" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σαρκὸς", "strong": "G4561", "morph": "N-GSF" },
+      { "text": " αὐτοῦ", "strong": "G846", "morph": "P-GSM" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " θανάτου,", "strong": "G2288", "morph": "N-GSM" },
+      { "text": " παραστῆσαι", "strong": "G3936", "morph": "V-AAN" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " ἁγίους", "strong": "G40", "morph": "A-APM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀμώμους", "strong": "G299", "morph": "A-APM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀνεγκλήτους", "strong": "G410", "morph": "A-APM" },
+      { "text": " κατενώπιον", "strong": "G2714", "morph": "PREP" },
+      { "text": " αὐτοῦ·", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 23,
+    "content": [
+      { "text": "εἴγε", "strong": "G1489", "morph": "COND" },
+      { "text": " ἐπιμένετε", "strong": "G1961", "morph": "V-PAI-2P" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " πίστει", "strong": "G4102", "morph": "N-DSF" },
+      { "text": " τεθεμελιωμένοι", "strong": "G2311", "morph": "V-RPP-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἑδραῖοι,", "strong": "G1476", "morph": "A-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " μετακινούμενοι", "strong": "G3334", "morph": "V-PPP-NPM" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἐλπίδος", "strong": "G1680", "morph": "N-GSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " εὐαγγελίου", "strong": "G2098", "morph": "N-GSN" },
+      { "text": " οὗ", "strong": "G3739", "morph": "R-GSN" },
+      { "text": " ἠκούσατε,", "strong": "G191", "morph": "V-AAI-2P" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " κηρυχθέντος", "strong": "G2784", "morph": "V-APP-GSN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πάσῃ", "strong": "G3956", "morph": "A-DSF" },
+      {
+        "text": " τῇ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τῇ", "script": "G", "transliteration": "tē̂" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-DSF"
+      },
+      { "text": " κτίσει", "strong": "G2937", "morph": "N-DSF" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " ὑπὸ", "strong": "G5259", "morph": "PREP" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " οὐρανόν,", "strong": "G3772", "morph": "N-ASM" },
+      { "text": " οὗ", "strong": "G3739", "morph": "R-GSN" },
+      { "text": " ἐγενόμην", "strong": "G1096", "morph": "V-2ADI-1S" },
+      { "text": " ἐγὼ", "strong": "G1473", "morph": "P-1NS" },
+      { "text": " Παῦλος", "strong": "G3972", "morph": "N-NSM" },
+      { "text": " διάκονος.", "strong": "G1249", "morph": "N-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 24,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ὃς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Ὃς", "script": "G", "transliteration": "Hòs" },
+            " ¦ ",
+            { "abbr": "ELZ" },
+            " ",
+            { "abbr": "ST" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3739",
+        "morph": "R-NSM"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Ὃς", "script": "G", "transliteration": "Hòs" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "text": "om.", "marks": ["i"] },
+            " ",
+            {
+              "text": "Ὅς (Νῦν)",
+              "script": "G",
+              "transliteration": "Hós (Nŷn)"
+            }
+          ]
+        }
+      },
+      { "text": " νῦν", "strong": "G3568", "morph": "ADV" },
+      { "text": " χαίρω", "strong": "G5463", "morph": "V-PAI-1S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " παθήμασί", "strong": "G3804", "morph": "N-DPN" },
+      {
+        "text": " μου",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "παθήμασί μου",
+              "script": "G",
+              "transliteration": "pathḗmasí mou"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " παθήμασι",
+              "script": "G",
+              "transliteration": " pathḗmasi"
+            }
+          ]
+        },
+        "strong": "G1473",
+        "morph": "P-1GS"
+      },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      { "text": " ὑμῶν,", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀνταναπληρῶ", "strong": "G466", "morph": "V-PAI-1S" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ὑστερήματα", "strong": "G5303", "morph": "N-APN" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPF" },
+      { "text": " θλίψεων", "strong": "G2347", "morph": "N-GPF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ", "strong": "G5547", "morph": "N-GSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " σαρκί", "strong": "G4561", "morph": "N-DSF" },
+      { "text": " μου", "strong": "G1473", "morph": "P-1GS" },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " σώματος", "strong": "G4983", "morph": "N-GSN" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" },
+      { "text": " ὅ", "strong": "G3739", "morph": "R-NSN" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ἐκκλησία·", "strong": "G1577", "morph": "N-NSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 25,
+    "content": [
+      { "text": "ἧς", "strong": "G3739", "morph": "R-GSF" },
+      { "text": " ἐγενόμην", "strong": "G1096", "morph": "V-2ADI-1S" },
+      { "text": " ἐγὼ", "strong": "G1473", "morph": "P-1NS" },
+      { "text": " διάκονος,", "strong": "G1249", "morph": "N-NSM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " οἰκονομίαν", "strong": "G3622", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " δοθεῖσάν", "strong": "G1325", "morph": "V-APP-ASF" },
+      { "text": " μοι", "strong": "G1473", "morph": "P-1DS" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ὑμᾶς,", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " πληρῶσαι", "strong": "G4137", "morph": "V-AAN" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " λόγον", "strong": "G3056", "morph": "N-ASM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ,", "strong": "G2316", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 26,
+    "content": [
+      { "text": "τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " μυστήριον", "strong": "G3466", "morph": "N-ASN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " ἀποκεκρυμμένον", "strong": "G613", "morph": "V-RPP-ASN" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " αἰώνων", "strong": "G165", "morph": "N-GPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPF" },
+      { "text": " γενεῶν·", "strong": "G1074", "morph": "N-GPF" },
+      {
+        "text": " νυνὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "νυνὶ", "script": "G", "transliteration": "nynì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " νῦν", "script": "G", "transliteration": " nŷn" }
+          ]
+        },
+        "strong": "G3570",
+        "morph": "ADV"
+      },
+      { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
+      { "text": " ἐφανερώθη", "strong": "G5319", "morph": "V-API-3S" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " ἁγίοις", "strong": "G40", "morph": "A-DPM" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 27,
+    "content": [
+      { "text": "οἷς", "strong": "G3739", "morph": "R-DPM" },
+      { "text": " ἠθέλησεν", "strong": "G2309", "morph": "V-AAI-3S" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " Θεὸς", "strong": "G2316", "morph": "N-NSM" },
+      { "text": " γνωρίσαι", "strong": "G1107", "morph": "V-AAN" },
+      { "text": " τίς", "strong": "G5101", "morph": "I-NSM" },
+      {
+        "text": " ὁ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τίς ὁ", "script": "G", "transliteration": "tís ho" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " τί τὸ", "script": "G", "transliteration": " tí tò" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-NSM"
+      },
+      { "text": " πλοῦτος", "strong": "G4149", "morph": "N-NSM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " δόξης", "strong": "G1391", "morph": "N-GSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " μυστηρίου", "strong": "G3466", "morph": "N-GSN" },
+      { "text": " τούτου", "strong": "G3778", "morph": "D-GSN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " ἔθνεσιν,", "strong": "G1484", "morph": "N-DPN" },
+      {
+        "text": " ὅς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὅς", "script": "G", "transliteration": "hós" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ὅ", "script": "G", "transliteration": " hó" }
+          ]
+        },
+        "strong": "G3739",
+        "morph": "R-NSM"
+      },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " Χριστὸς", "strong": "G5547", "morph": "N-NSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ὑμῖν,", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ἐλπὶς", "strong": "G1680", "morph": "N-NSF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " δόξης·", "strong": "G1391", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 28,
+    "content": [
+      { "text": "ὃν", "strong": "G3739", "morph": "R-ASM" },
+      { "text": " ἡμεῖς", "strong": "G1473", "morph": "P-1NP" },
+      { "text": " καταγγέλλομεν,", "strong": "G2605", "morph": "V-PAI-1P" },
+      { "text": " νουθετοῦντες", "strong": "G3560", "morph": "V-PAP-NPM" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-ASM" },
+      { "text": " ἄνθρωπον,", "strong": "G444", "morph": "N-ASM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " διδάσκοντες", "strong": "G1321", "morph": "V-PAP-NPM" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-ASM" },
+      { "text": " ἄνθρωπον", "strong": "G444", "morph": "N-ASM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πάσῃ", "strong": "G3956", "morph": "A-DSF" },
+      { "text": " σοφίᾳ,", "strong": "G4678", "morph": "N-DSF" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " παραστήσωμεν", "strong": "G3936", "morph": "V-AAS-1P" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-ASM" },
+      { "text": " ἄνθρωπον", "strong": "G444", "morph": "N-ASM" },
+      { "text": " τέλειον", "strong": "G5046", "morph": "A-ASM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Χριστῷ", "strong": "G5547", "morph": "N-DSM" },
+      {
+        "text": " Ἰησοῦ·",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Ἰησοῦ", "script": "G", "transliteration": "Iēsoû" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2424",
+        "morph": "N-DSM"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 1,
+    "verse": 29,
+    "content": [
+      { "text": "εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ὃ", "strong": "G3739", "morph": "R-ASN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " κοπιῶ,", "strong": "G2872", "morph": "V-PAI-1S" },
+      { "text": " ἀγωνιζόμενος", "strong": "G75", "morph": "V-PNP-NSM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἐνέργειαν", "strong": "G1753", "morph": "N-ASF" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἐνεργουμένην", "strong": "G1754", "morph": "V-PMP-ASF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἐμοὶ", "strong": "G1473", "morph": "P-1DS" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " δυνάμει.", "strong": "G1411", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 1,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Θέλω",
+        "strong": "G2309",
+        "morph": "V-PAI-1S"
+      },
+      { "text": " γὰρ", "strong": "G1063", "morph": "CONJ" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " εἰδέναι", "strong": "G1492", "morph": "V-RAN" },
+      { "text": " ἡλίκον", "strong": "G2245", "morph": "A-ASM" },
+      { "text": " ἀγῶνα", "strong": "G73", "morph": "N-ASM" },
+      { "text": " ἔχω", "strong": "G2192", "morph": "V-PAI-1S" },
+      {
+        "text": " περὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "περὶ", "script": "G", "transliteration": "perì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ὑπὲρ", "script": "G", "transliteration": " hypèr" }
+          ]
+        },
+        "strong": "G4012",
+        "morph": "PREP"
+      },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Λαοδικείᾳ,", "strong": "G2993", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὅσοι", "strong": "G3745", "morph": "K-NPM" },
+      { "text": " οὐχ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " ἑωράκασι", "strong": "G3708", "morph": "V-RAI-3P-ATT" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " πρόσωπόν", "strong": "G4383", "morph": "N-ASN" },
+      { "text": " μου", "strong": "G1473", "morph": "P-1GS" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " σαρκί,", "strong": "G4561", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 2,
+    "content": [
+      { "text": "ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " παρακληθῶσιν", "strong": "G3870", "morph": "V-APS-3P" },
+      { "text": " αἱ", "strong": "G3588", "morph": "T-NPF" },
+      { "text": " καρδίαι", "strong": "G2588", "morph": "N-NPF" },
+      { "text": " αὐτῶν,", "strong": "G846", "morph": "P-GPM" },
+      {
+        "text": " συμβιβασθέντων",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "συμβιβασθέντων",
+              "script": "G",
+              "transliteration": "symbibasthéntōn"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " συμβιβασθέντες",
+              "script": "G",
+              "transliteration": " symbibasthéntes"
+            }
+          ]
+        },
+        "strong": "G4822",
+        "morph": "V-APP-GPM"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἀγάπῃ,", "strong": "G26", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-ASM" },
+      {
+        "text": " πλοῦτον",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "πάντα πλοῦτον",
+              "script": "G",
+              "transliteration": "pánta ploûton"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " πᾶν πλοῦτος",
+              "script": "G",
+              "transliteration": " pân ploûtos"
+            }
+          ]
+        },
+        "strong": "G4149",
+        "morph": "N-ASM"
+      },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " πληροφορίας", "strong": "G4136", "morph": "N-GSF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " συνέσεως,", "strong": "G4907", "morph": "N-GSF" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ἐπίγνωσιν", "strong": "G1922", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " μυστηρίου", "strong": "G3466", "morph": "N-GSN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      {
+        "text": " Θεοῦ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Θεοῦ", "script": "G", "transliteration": "Theoû" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " Θεοῦ,", "script": "G", "transliteration": " Theoû," }
+          ]
+        },
+        "strong": "G2316",
+        "morph": "N-GSM"
+      },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " πατρὸς", "strong": "G3962", "morph": "N-GSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      {
+        "text": " τοῦ",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "καὶ πατρὸς καὶ τοῦ",
+              "script": "G",
+              "transliteration": "kaì patròs kaì toû"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-GSM"
+      },
+      { "text": " Χριστοῦ,", "strong": "G5547", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 3,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ᾧ", "strong": "G3739", "morph": "R-DSM" },
+      { "text": " εἰσὶ", "strong": "G1510", "morph": "V-PAI-3P" },
+      { "text": " πάντες", "strong": "G3956", "morph": "A-NPM" },
+      { "text": " οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " θησαυροὶ", "strong": "G2344", "morph": "N-NPM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σοφίας", "strong": "G4678", "morph": "N-GSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      {
+        "text": " τῆς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τῆς", "script": "G", "transliteration": "tē̂s" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-GSF"
+      },
+      { "text": " γνώσεως", "strong": "G1108", "morph": "N-GSF" },
+      { "text": " ἀπόκρυφοι.", "strong": "G614", "morph": "A-NPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 4,
+    "content": [
+      { "text": "τοῦτο", "strong": "G3778", "morph": "D-ASN" },
+      {
+        "text": " δὲ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "δὲ", "script": "G", "transliteration": "dè" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G1161",
+        "morph": "CONJ"
+      },
+      { "text": " λέγω,", "strong": "G3004", "morph": "V-PAI-1S" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " μή", "strong": "G3361", "morph": "PRT-N" },
+      {
+        "text": " τις",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "μή τις", "script": "G", "transliteration": "mḗ tis" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " μηδεὶς", "script": "G", "transliteration": " mēdeìs" }
+          ]
+        },
+        "strong": "G5100",
+        "morph": "X-NSM"
+      },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " παραλογίζηται", "strong": "G3884", "morph": "V-PNS-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πιθανολογίᾳ.", "strong": "G4086", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 5,
+    "content": [
+      { "text": "εἰ", "strong": "G1487", "morph": "COND" },
+      { "text": " γὰρ", "strong": "G1063", "morph": "CONJ" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " σαρκὶ", "strong": "G4561", "morph": "N-DSF" },
+      { "text": " ἄπειμι,", "strong": "G548", "morph": "V-PAI-1S" },
+      { "text": " ἀλλὰ", "strong": "G235", "morph": "CONJ" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSN" },
+      { "text": " πνεύματι", "strong": "G4151", "morph": "N-DSN" },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " εἰμί,", "strong": "G1510", "morph": "V-PAI-1S" },
+      { "text": " χαίρων", "strong": "G5463", "morph": "V-PAP-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " βλέπων", "strong": "G991", "morph": "V-PAP-NSM" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " τάξιν,", "strong": "G5010", "morph": "N-ASF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " στερέωμα", "strong": "G4733", "morph": "N-ASN" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " Χριστὸν", "strong": "G5547", "morph": "N-ASM" },
+      { "text": " πίστεως", "strong": "G4102", "morph": "N-GSF" },
+      { "text": " ὑμῶν.", "strong": "G4771", "morph": "P-2GP" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 6,
+    "content": [
+      { "paragraph": true, "text": "Ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " οὖν", "strong": "G3767", "morph": "CONJ" },
+      { "text": " παρελάβετε", "strong": "G3880", "morph": "V-2AAI-2P" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " Χριστὸν", "strong": "G5547", "morph": "N-ASM" },
+      { "text": " Ἰησοῦν", "strong": "G2424", "morph": "N-ASM" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " Κύριον,", "strong": "G2962", "morph": "N-ASM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " περιπατεῖτε,", "strong": "G4043", "morph": "V-PAM-2P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 7,
+    "content": [
+      { "text": "ἐρριζωμένοι", "strong": "G4492", "morph": "V-RPP-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐποικοδομούμενοι", "strong": "G2026", "morph": "V-PPP-NPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ,", "strong": "G846", "morph": "P-DSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " βεβαιούμενοι", "strong": "G950", "morph": "V-PPP-NPM" },
+      {
+        "text": " ἐν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἐν", "script": "G", "transliteration": "en" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G1722",
+        "morph": "PREP"
+      },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " πίστει,", "strong": "G4102", "morph": "N-DSF" },
+      { "text": " καθὼς", "strong": "G2531", "morph": "ADV" },
+      { "text": " ἐδιδάχθητε,", "strong": "G1321", "morph": "V-API-2P" },
+      { "text": " περισσεύοντες", "strong": "G4052", "morph": "V-PAP-NPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      {
+        "text": " αὐτῇ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἐν αὐτῇ", "script": "G", "transliteration": "en autē̂" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " ἐν αὐτῇ", "script": "G", "transliteration": " en autē̂" }
+          ]
+        },
+        "strong": "G846",
+        "morph": "P-DSF"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " εὐχαριστίᾳ.", "strong": "G2169", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 8,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "βλέπετε",
+        "strong": "G991",
+        "morph": "V-PAM-2P"
+      },
+      { "text": " μή", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " τις", "strong": "G5100", "morph": "X-NSM" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " ἔσται", "strong": "G1510", "morph": "V-FDI-3S" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " συλαγωγῶν", "strong": "G4812", "morph": "V-PAP-NSM" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " φιλοσοφίας", "strong": "G5385", "morph": "N-GSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " κενῆς", "strong": "G2756", "morph": "A-GSF" },
+      { "text": " ἀπάτης,", "strong": "G539", "morph": "N-GSF" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " παράδοσιν", "strong": "G3862", "morph": "N-ASF" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἀνθρώπων,", "strong": "G444", "morph": "N-GPM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " στοιχεῖα", "strong": "G4747", "morph": "N-APN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " κόσμου,", "strong": "G2889", "morph": "N-GSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " οὐ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " Χριστόν·", "strong": "G5547", "morph": "N-ASM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 9,
+    "content": [
+      { "text": "ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " κατοικεῖ", "strong": "G2730", "morph": "V-PAI-3S" },
+      { "text": " πᾶν", "strong": "G3956", "morph": "A-NSN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-NSN" },
+      { "text": " πλήρωμα", "strong": "G4138", "morph": "N-NSN" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " θεότητος", "strong": "G2320", "morph": "N-GSF" },
+      { "text": " σωματικῶς,", "strong": "G4985", "morph": "ADV" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 10,
+    "content": [
+      { "text": "καί", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐστε", "strong": "G1510", "morph": "V-PAI-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " πεπληρωμένοι,", "strong": "G4137", "morph": "V-RPP-NPM" },
+      { "text": " ὅς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " κεφαλὴ", "strong": "G2776", "morph": "N-NSF" },
+      { "text": " πάσης", "strong": "G3956", "morph": "A-GSF" },
+      { "text": " ἀρχῆς", "strong": "G746", "morph": "N-GSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐξουσίας·", "strong": "G1849", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 11,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ᾧ", "strong": "G3739", "morph": "R-DSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " περιετμήθητε", "strong": "G4059", "morph": "V-API-2P" },
+      { "text": " περιτομῇ", "strong": "G4061", "morph": "N-DSF" },
+      { "text": " ἀχειροποιήτῳ,", "strong": "G886", "morph": "A-DSF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " ἀπεκδύσει", "strong": "G555", "morph": "N-DSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " σώματος", "strong": "G4983", "morph": "N-GSN" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPF" },
+      {
+        "text": " ἁμαρτιῶν",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "τῶν ἁμαρτιῶν",
+              "script": "G",
+              "transliteration": "tō̂n hamartiō̂n"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G266",
+        "morph": "N-GPF"
+      },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σαρκός,", "strong": "G4561", "morph": "N-GSF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " περιτομῇ", "strong": "G4061", "morph": "N-DSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ,", "strong": "G5547", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 12,
+    "content": [
+      { "text": "συνταφέντες", "strong": "G4916", "morph": "V-2APP-NPM" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSN" },
+      { "text": " βαπτίσματι,", "strong": "G908", "morph": "N-DSN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ᾧ", "strong": "G3739", "morph": "R-DSN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " συνηγέρθητε", "strong": "G4891", "morph": "V-API-2P" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " πίστεως", "strong": "G4102", "morph": "N-GSF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " ἐνεργείας", "strong": "G1753", "morph": "N-GSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ,", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " ἐγείραντος", "strong": "G1453", "morph": "V-AAP-GSM" },
+      { "text": " αὐτὸν", "strong": "G846", "morph": "P-ASM" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " νεκρῶν.", "strong": "G3498", "morph": "A-GPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 13,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμᾶς,", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " νεκροὺς", "strong": "G3498", "morph": "A-APM" },
+      { "text": " ὄντας", "strong": "G1510", "morph": "V-PAP-APM" },
+      {
+        "text": " ἐν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἐν", "script": "G", "transliteration": "en" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G1722",
+        "morph": "PREP"
+      },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " παραπτώμασι", "strong": "G3900", "morph": "N-DPN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " ἀκροβυστίᾳ", "strong": "G203", "morph": "N-DSF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σαρκὸς", "strong": "G4561", "morph": "N-GSF" },
+      { "text": " ὑμῶν,", "strong": "G4771", "morph": "P-2GP" },
+      {
+        "text": " συνεζωοποίησε",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "συνεζωοποίησε",
+              "script": "G",
+              "transliteration": "synezōopoíēse"
+            },
+            " ¦ ",
+            { "abbr": "ELZ" },
+            " ",
+            { "abbr": "ST" },
+            {
+              "text": " συνεζωποίησε",
+              "script": "G",
+              "transliteration": " synezōpoíēse"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " συνεζωοποίησεν ὑμᾶς",
+              "script": "G",
+              "transliteration": " synezōopoíēsen hymâs"
+            }
+          ]
+        },
+        "strong": "G4806",
+        "morph": "V-AAI-3S"
+      },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " αὐτῷ,", "strong": "G846", "morph": "P-DSM" },
+      { "text": " χαρισάμενος", "strong": "G5483", "morph": "V-ADP-NSM" },
+      {
+        "text": " ὑμῖν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὑμῖν", "script": "G", "transliteration": "hymîn" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "ST" },
+            { "text": " ἡμῖν", "script": "G", "transliteration": " hēmîn" }
+          ]
+        },
+        "strong": "G4771",
+        "morph": "P-2DP"
+      },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " παραπτώματα,", "strong": "G3900", "morph": "N-APN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 14,
+    "content": [
+      { "text": "ἐξαλείψας", "strong": "G1813", "morph": "V-AAP-NSM" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " καθ’", "strong": "G2596", "morph": "PREP" },
+      { "text": " ἡμῶν", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " χειρόγραφον", "strong": "G5498", "morph": "N-ASN" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPN" },
+      { "text": " δόγμασιν,", "strong": "G1378", "morph": "N-DPN" },
+      { "text": " ὃ", "strong": "G3739", "morph": "R-NSN" },
+      { "text": " ἦν", "strong": "G1510", "morph": "V-IAI-3S" },
+      { "text": " ὑπεναντίον", "strong": "G5227", "morph": "A-NSN" },
+      { "text": " ἡμῖν·", "strong": "G1473", "morph": "P-1DP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " αὐτὸ", "strong": "G846", "morph": "P-ASN" },
+      { "text": " ἦρκεν", "strong": "G142", "morph": "V-RAI-3S" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " μέσου,", "strong": "G3319", "morph": "A-GSN" },
+      { "text": " προσηλώσας", "strong": "G4338", "morph": "V-AAP-NSM" },
+      { "text": " αὐτὸ", "strong": "G846", "morph": "P-ASN" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " σταυρῷ·", "strong": "G4716", "morph": "N-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 15,
+    "content": [
+      { "text": "ἀπεκδυσάμενος", "strong": "G554", "morph": "V-ADP-NSM" },
+      { "text": " τὰς", "strong": "G3588", "morph": "T-APF" },
+      { "text": " ἀρχὰς", "strong": "G746", "morph": "N-APF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὰς", "strong": "G3588", "morph": "T-APF" },
+      { "text": " ἐξουσίας,", "strong": "G1849", "morph": "N-APF" },
+      {
+        "text": " ἐδειγμάτισεν",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ἀπεκδυσάμενος τὰς ἀρχὰς καὶ τὰς ἐξουσίας, ἐδειγμάτισεν",
+              "script": "G",
+              "transliteration": "apekdysámenos tàs archàs kaì tàs exousías, edeigmátisen"
+            },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            {
+              "text": " ἀπεκδυσάμενος, τὰς ἀρχὰς καὶ τὰς ἐξουσίας ἐδειγμάτισεν",
+              "script": "G",
+              "transliteration": " apekdysámenos, tàs archàs kaì tàs exousías edeigmátisen"
+            }
+          ]
+        },
+        "strong": "G1165",
+        "morph": "V-AAI-3S"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " παρρησίᾳ,", "strong": "G3954", "morph": "N-DSF" },
+      { "text": " θριαμβεύσας", "strong": "G2358", "morph": "V-AAP-NSM" },
+      { "text": " αὐτοὺς", "strong": "G846", "morph": "P-APM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῷ.", "strong": "G846", "morph": "P-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 16,
+    "content": [
+      { "paragraph": true, "text": "Μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " οὖν", "strong": "G3767", "morph": "CONJ" },
+      { "text": " τις", "strong": "G5100", "morph": "X-NSM" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " κρινέτω", "strong": "G2919", "morph": "V-PAM-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " βρώσει", "strong": "G1035", "morph": "N-DSF" },
+      { "text": " ἢ", "strong": "G2228", "morph": "PRT" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πόσει,", "strong": "G4213", "morph": "N-DSF" },
+      { "text": " ἢ", "strong": "G2228", "morph": "PRT" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " μέρει", "strong": "G3313", "morph": "N-DSN" },
+      { "text": " ἑορτῆς", "strong": "G1859", "morph": "N-GSF" },
+      { "text": " ἢ", "strong": "G2228", "morph": "PRT" },
+      { "text": " νουμηνίας", "strong": "G3561", "morph": "N-GSF" },
+      { "text": " ἢ", "strong": "G2228", "morph": "PRT" },
+      { "text": " σαββάτων·", "strong": "G4521", "morph": "N-GPN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 17,
+    "content": [
+      { "text": "ἅ", "strong": "G3739", "morph": "R-NPN" },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " σκιὰ", "strong": "G4639", "morph": "N-NSF" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPN" },
+      { "text": " μελλόντων,", "strong": "G3195", "morph": "V-PAP-GPN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-NSN" },
+      { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
+      { "text": " σῶμα", "strong": "G4983", "morph": "N-NSN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ.", "strong": "G5547", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 18,
+    "content": [
+      { "text": "μηδεὶς", "strong": "G3367", "morph": "A-NSM-N" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " καταβραβευέτω", "strong": "G2603", "morph": "V-PAM-3S" },
+      {
+        "text": " θέλων",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "θέλων", "script": "G", "transliteration": "thélōn" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " θέλων,", "script": "G", "transliteration": " thélōn," }
+          ]
+        },
+        "strong": "G2309",
+        "morph": "V-PAP-NSM"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ταπεινοφροσύνῃ", "strong": "G5012", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " θρησκείᾳ", "strong": "G2356", "morph": "N-DSF" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἀγγέλων,", "strong": "G32", "morph": "N-GPM" },
+      { "text": " ἃ", "strong": "G3739", "morph": "R-APN" },
+      {
+        "text": " μὴ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "μὴ", "script": "G", "transliteration": "mḕ" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3361",
+        "morph": "PRT-N"
+      },
+      { "text": " ἑώρακεν", "strong": "G3708", "morph": "V-RAI-3S-ATT" },
+      { "text": " ἐμβατεύων,", "strong": "G1687", "morph": "V-PAP-NSM" },
+      { "text": " εἰκῇ", "strong": "G1500", "morph": "ADV" },
+      { "text": " φυσιούμενος", "strong": "G5448", "morph": "V-PPP-NSM" },
+      { "text": " ὑπὸ", "strong": "G5259", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " νοὸς", "strong": "G3563", "morph": "N-GSM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σαρκὸς", "strong": "G4561", "morph": "N-GSF" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 19,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " οὐ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " κρατῶν", "strong": "G2902", "morph": "V-PAP-NSM" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " κεφαλήν,", "strong": "G2776", "morph": "N-ASF" },
+      { "text": " ἐξ", "strong": "G1537", "morph": "PREP" },
+      { "text": " οὗ", "strong": "G3739", "morph": "R-GSM" },
+      { "text": " πᾶν", "strong": "G3956", "morph": "A-NSN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-NSN" },
+      { "text": " σῶμα,", "strong": "G4983", "morph": "N-NSN" },
+      { "text": " διὰ", "strong": "G1223", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPF" },
+      { "text": " ἁφῶν", "strong": "G860", "morph": "N-GPF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " συνδέσμων", "strong": "G4886", "morph": "N-GPM" },
+      { "text": " ἐπιχορηγούμενον", "strong": "G2023", "morph": "V-PPP-NSN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " συμβιβαζόμενον,", "strong": "G4822", "morph": "V-PPP-NSN" },
+      { "text": " αὔξει", "strong": "G837", "morph": "V-PAI-3S" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " αὔξησιν", "strong": "G838", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ.", "strong": "G2316", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 20,
+    "content": [
+      { "paragraph": true, "text": "Εἰ", "strong": "G1487", "morph": "COND" },
+      {
+        "text": " οὖν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "οὖν", "script": "G", "transliteration": "oûn" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3767",
+        "morph": "CONJ"
+      },
+      { "text": " ἀπεθάνετε", "strong": "G599", "morph": "V-2AAI-2P" },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      {
+        "text": " τῷ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τῷ", "script": "G", "transliteration": "tō̂" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-DSM"
+      },
+      { "text": " Χριστῷ,", "strong": "G5547", "morph": "N-DSM" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPN" },
+      { "text": " στοιχείων", "strong": "G4747", "morph": "N-GPN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " κόσμου,", "strong": "G2889", "morph": "N-GSM" },
+      { "text": " τί", "strong": "G5101", "morph": "I-ASN" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " ζῶντες", "strong": "G2198", "morph": "V-PAP-NPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " κόσμῳ", "strong": "G2889", "morph": "N-DSM" },
+      { "text": " δογματίζεσθε,", "strong": "G1379", "morph": "V-PPI-2P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 21,
+    "content": [
+      { "text": "Μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " ἅψῃ,", "strong": "G680", "morph": "V-AMS-2S" },
+      { "text": " μηδὲ", "strong": "G3366", "morph": "CONJ-N" },
+      { "text": " γεύσῃ,", "strong": "G1089", "morph": "V-ADS-2S" },
+      { "text": " μηδὲ", "strong": "G3366", "morph": "CONJ-N" },
+      { "text": " θίγῃς", "strong": "G2345", "morph": "V-2AAS-2S" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 22,
+    "content": [
+      { "text": "(ἅ", "strong": "G3739", "morph": "R-NPN" },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-NPN" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " φθορὰν", "strong": "G5356", "morph": "N-ASF" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " ἀποχρήσει),", "strong": "G671", "morph": "N-DSF" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἐντάλματα", "strong": "G1778", "morph": "N-APN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " διδασκαλίας", "strong": "G1319", "morph": "N-APF" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἀνθρώπων;", "strong": "G444", "morph": "N-GPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 2,
+    "verse": 23,
+    "content": [
+      { "text": "ἅτινά", "strong": "G3748", "morph": "R-NPN" },
+      { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " λόγον", "strong": "G3056", "morph": "N-ASM" },
+      { "text": " μὲν", "strong": "G3303", "morph": "PRT" },
+      { "text": " ἔχοντα", "strong": "G2192", "morph": "V-PAP-NPN" },
+      { "text": " σοφίας", "strong": "G4678", "morph": "N-GSF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἐθελοθρησκείᾳ", "strong": "G1479", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ταπεινοφροσύνῃ", "strong": "G5012", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀφειδίᾳ", "strong": "G857", "morph": "N-DSF" },
+      { "text": " σώματος,", "strong": "G4983", "morph": "N-GSN" },
+      { "text": " οὐκ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τιμῇ", "strong": "G5092", "morph": "N-DSF" },
+      { "text": " τινὶ", "strong": "G5100", "morph": "X-DSF" },
+      { "text": " πρὸς", "strong": "G4314", "morph": "PREP" },
+      { "text": " πλησμονὴν", "strong": "G4140", "morph": "N-ASF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " σαρκός.", "strong": "G4561", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 1,
+    "content": [
+      { "paragraph": true, "text": "Εἰ", "strong": "G1487", "morph": "COND" },
+      { "text": " οὖν", "strong": "G3767", "morph": "CONJ" },
+      { "text": " συνηγέρθητε", "strong": "G4891", "morph": "V-API-2P" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Χριστῷ,", "strong": "G5547", "morph": "N-DSM" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἄνω", "strong": "G507", "morph": "ADV" },
+      { "text": " ζητεῖτε,", "strong": "G2212", "morph": "V-PAM-2P" },
+      { "text": " οὗ", "strong": "G3757", "morph": "ADV" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " Χριστός", "strong": "G5547", "morph": "N-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " δεξιᾷ", "strong": "G1188", "morph": "A-DSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " καθήμενος.", "strong": "G2521", "morph": "V-PNP-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 2,
+    "content": [
+      { "text": "τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἄνω", "strong": "G507", "morph": "ADV" },
+      { "text": " φρονεῖτε,", "strong": "G5426", "morph": "V-PAM-2P" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " γῆς.", "strong": "G1093", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 3,
+    "content": [
+      { "text": "ἀπεθάνετε", "strong": "G599", "morph": "V-2AAI-2P" },
+      { "text": " γάρ,", "strong": "G1063", "morph": "CONJ" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ζωὴ", "strong": "G2222", "morph": "N-NSF" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " κέκρυπται", "strong": "G2928", "morph": "V-RPI-3S" },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Χριστῷ", "strong": "G5547", "morph": "N-DSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Θεῷ.", "strong": "G2316", "morph": "N-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 4,
+    "content": [
+      { "text": "ὅταν", "strong": "G3752", "morph": "CONJ" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " Χριστὸς", "strong": "G5547", "morph": "N-NSM" },
+      { "text": " φανερωθῇ,", "strong": "G5319", "morph": "V-APS-3S" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ζωὴ", "strong": "G2222", "morph": "N-NSF" },
+      {
+        "text": " ἡμῶν,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἡμῶν", "script": "G", "transliteration": "hēmō̂n" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " ὑμῶν", "script": "G", "transliteration": " hymō̂n" }
+          ]
+        },
+        "strong": "G1473",
+        "morph": "P-1GP"
+      },
+      { "text": " τότε", "strong": "G5119", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς", "strong": "G4771", "morph": "P-2NP" },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " φανερωθήσεσθε", "strong": "G5319", "morph": "V-FPI-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " δόξῃ.", "strong": "G1391", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 5,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Νεκρώσατε",
+        "strong": "G3499",
+        "morph": "V-AAM-2P"
+      },
+      { "text": " οὖν", "strong": "G3767", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " μέλη", "strong": "G3196", "morph": "N-APN" },
+      {
+        "text": " ὑμῶν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὑμῶν", "script": "G", "transliteration": "hymō̂n" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G4771",
+        "morph": "P-2GP"
+      },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " γῆς,", "strong": "G1093", "morph": "N-GSF" },
+      { "text": " πορνείαν,", "strong": "G4202", "morph": "N-ASF" },
+      { "text": " ἀκαθαρσίαν,", "strong": "G167", "morph": "N-ASF" },
+      { "text": " πάθος,", "strong": "G3806", "morph": "N-ASN" },
+      { "text": " ἐπιθυμίαν", "strong": "G1939", "morph": "N-ASF" },
+      { "text": " κακήν,", "strong": "G2556", "morph": "A-ASF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " πλεονεξίαν,", "strong": "G4124", "morph": "N-ASF" },
+      { "text": " ἥτις", "strong": "G3748", "morph": "R-NSF" },
+      { "text": " ἐστὶν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " εἰδωλολατρεία,", "strong": "G1495", "morph": "N-NSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 6,
+    "content": [
+      { "text": "δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " ἃ", "strong": "G3739", "morph": "R-APN" },
+      { "text": " ἔρχεται", "strong": "G2064", "morph": "V-PNI-3S" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ὀργὴ", "strong": "G3709", "morph": "N-NSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " τοὺς", "strong": "G3588", "morph": "T-APM" },
+      { "text": " υἱοὺς", "strong": "G5207", "morph": "N-APM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      {
+        "text": " ἀπειθείας·",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ἐπὶ τοὺς υἱοὺς τῆς ἀπειθείας",
+              "script": "G",
+              "transliteration": "epì toùs hyioùs tē̂s apeitheías"
+            },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G543",
+        "morph": "N-GSF"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 7,
+    "content": [
+      { "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " οἷς", "strong": "G3739", "morph": "R-DPN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς", "strong": "G4771", "morph": "P-2NP" },
+      { "text": " περιεπατήσατέ", "strong": "G4043", "morph": "V-AAI-2P" },
+      { "text": " ποτε,", "strong": "G4218", "morph": "PRT" },
+      { "text": " ὅτε", "strong": "G3753", "morph": "ADV" },
+      { "text": " ἐζῆτε", "strong": "G2198", "morph": "V-IAI-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      {
+        "text": " αὐτοῖς.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "αὐτοῖς", "script": "G", "transliteration": "autoîs" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " τούτοις", "script": "G", "transliteration": " toútois" }
+          ]
+        },
+        "strong": "G846",
+        "morph": "P-DPN"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 8,
+    "content": [
+      { "text": "νυνὶ", "strong": "G3570", "morph": "ADV" },
+      { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
+      { "text": " ἀπόθεσθε", "strong": "G659", "morph": "V-2AMM-2P" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς", "strong": "G4771", "morph": "P-2NP" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " πάντα,", "strong": "G3956", "morph": "A-APN" },
+      { "text": " ὀργήν,", "strong": "G3709", "morph": "N-ASF" },
+      { "text": " θυμόν,", "strong": "G2372", "morph": "N-ASM" },
+      { "text": " κακίαν,", "strong": "G2549", "morph": "N-ASF" },
+      { "text": " βλασφημίαν,", "strong": "G988", "morph": "N-ASF" },
+      { "text": " αἰσχρολογίαν", "strong": "G148", "morph": "N-ASF" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSN" },
+      { "text": " στόματος", "strong": "G4750", "morph": "N-GSN" },
+      { "text": " ὑμῶν·", "strong": "G4771", "morph": "P-2GP" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 9,
+    "content": [
+      { "text": "μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " ψεύδεσθε", "strong": "G5574", "morph": "V-PNM-2P" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ἀλλήλους,", "strong": "G240", "morph": "C-APM" },
+      { "text": " ἀπεκδυσάμενοι", "strong": "G554", "morph": "V-ADP-NPM" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " παλαιὸν", "strong": "G3820", "morph": "A-ASM" },
+      { "text": " ἄνθρωπον", "strong": "G444", "morph": "N-ASM" },
+      { "text": " σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " ταῖς", "strong": "G3588", "morph": "T-DPF" },
+      { "text": " πράξεσιν", "strong": "G4234", "morph": "N-DPF" },
+      { "text": " αὐτοῦ,", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 10,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐνδυσάμενοι", "strong": "G1746", "morph": "V-AMP-NPM" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " νέον,", "strong": "G3501", "morph": "A-ASM" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " ἀνακαινούμενον", "strong": "G341", "morph": "V-PPP-ASM" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ἐπίγνωσιν", "strong": "G1922", "morph": "N-ASF" },
+      { "text": " κατ’", "strong": "G2596", "morph": "PREP" },
+      { "text": " εἰκόνα", "strong": "G1504", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " κτίσαντος", "strong": "G2936", "morph": "V-AAP-GSM" },
+      { "text": " αὐτόν·", "strong": "G846", "morph": "P-ASM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 11,
+    "content": [
+      { "text": "ὅπου", "strong": "G3699", "morph": "ADV" },
+      { "text": " οὐκ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " ἔνι", "strong": "G1762", "morph": "V-PAI-3S" },
+      { "text": " Ἕλλην", "strong": "G1672", "morph": "N-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Ἰουδαῖος,", "strong": "G2453", "morph": "A-NSM" },
+      { "text": " περιτομὴ", "strong": "G4061", "morph": "N-NSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀκροβυστία,", "strong": "G203", "morph": "N-NSF" },
+      { "text": " βάρβαρος,", "strong": "G915", "morph": "A-NSM" },
+      { "text": " Σκύθης,", "strong": "G4658", "morph": "N-NSM" },
+      { "text": " δοῦλος,", "strong": "G1401", "morph": "N-NSM" },
+      { "text": " ἐλεύθερος·", "strong": "G1658", "morph": "A-NSM" },
+      { "text": " ἀλλὰ", "strong": "G235", "morph": "CONJ" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-NPN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πᾶσι", "strong": "G3956", "morph": "A-DPN" },
+      { "text": " Χριστός.", "strong": "G5547", "morph": "N-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 12,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἐνδύσασθε",
+        "strong": "G1746",
+        "morph": "V-AMM-2P"
+      },
+      { "text": " οὖν,", "strong": "G3767", "morph": "CONJ" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " ἐκλεκτοὶ", "strong": "G1588", "morph": "A-NPM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ,", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " ἅγιοι", "strong": "G40", "morph": "A-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἠγαπημένοι,", "strong": "G25", "morph": "V-RPP-NPM" },
+      { "text": " σπλάγχνα", "strong": "G4698", "morph": "N-APN" },
+      {
+        "text": " οἰκτιρμῶν,",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "οἰκτιρμῶν",
+              "script": "G",
+              "transliteration": "oiktirmō̂n"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " οἰκτιρμοῦ",
+              "script": "G",
+              "transliteration": " oiktirmoû"
+            }
+          ]
+        },
+        "strong": "G3628",
+        "morph": "N-GPM"
+      },
+      { "text": " χρηστότητα,", "strong": "G5544", "morph": "N-ASF" },
+      { "text": " ταπεινοφροσύνην,", "strong": "G5012", "morph": "N-ASF" },
+      { "text": " πρᾳότητα,", "strong": "G4240", "morph": "N-ASF" },
+      { "text": " μακροθυμίαν·", "strong": "G3115", "morph": "N-ASF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 13,
+    "content": [
+      { "text": "ἀνεχόμενοι", "strong": "G430", "morph": "V-PNP-NPM" },
+      { "text": " ἀλλήλων,", "strong": "G240", "morph": "C-GPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " χαριζόμενοι", "strong": "G5483", "morph": "V-PNP-NPM" },
+      { "text": " ἑαυτοῖς,", "strong": "G1438", "morph": "F-2DPM" },
+      { "text": " ἐάν", "strong": "G1437", "morph": "COND" },
+      { "text": " τις", "strong": "G5100", "morph": "X-NSM" },
+      { "text": " πρός", "strong": "G4314", "morph": "PREP" },
+      { "text": " τινα", "strong": "G5100", "morph": "X-ASM" },
+      { "text": " ἔχῃ", "strong": "G2192", "morph": "V-PAS-3S" },
+      { "text": " μομφήν·", "strong": "G3437", "morph": "N-ASF" },
+      { "text": " καθὼς", "strong": "G2531", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      {
+        "text": " Χριστὸς",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Χριστὸς", "script": "G", "transliteration": "Christòs" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " Κύριος", "script": "G", "transliteration": " Kýrios" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            {
+              "text": " Χριστὸς",
+              "script": "G",
+              "transliteration": " Christòs"
+            }
+          ]
+        },
+        "strong": "G5547",
+        "morph": "N-NSM"
+      },
+      { "text": " ἐχαρίσατο", "strong": "G5483", "morph": "V-ADI-3S" },
+      { "text": " ὑμῖν,", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " οὕτω", "strong": "G3779", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς·", "strong": "G4771", "morph": "P-2NP" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 14,
+    "content": [
+      { "text": "ἐπὶ", "strong": "G1909", "morph": "PREP" },
+      { "text": " πᾶσι", "strong": "G3956", "morph": "A-DPN" },
+      { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
+      { "text": " τούτοις", "strong": "G3778", "morph": "D-DPN" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἀγάπην,", "strong": "G26", "morph": "N-ASF" },
+      {
+        "text": " ἥτις",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἥτις", "script": "G", "transliteration": "hḗtis" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            {
+              "text": "ὅ (ἐστι)",
+              "script": "G",
+              "transliteration": "hó (esti)"
+            }
+          ]
+        },
+        "strong": "G3748",
+        "morph": "R-NSF"
+      },
+      { "text": " ἐστὶ", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " σύνδεσμος", "strong": "G4886", "morph": "N-NSM" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " τελειότητος.", "strong": "G5047", "morph": "N-GSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 15,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " εἰρήνη", "strong": "G1515", "morph": "N-NSF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      {
+        "text": " Θεοῦ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Θεοῦ", "script": "G", "transliteration": "Theoû" },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " Χριστοῦ",
+              "script": "G",
+              "transliteration": " Christoû"
+            }
+          ]
+        },
+        "strong": "G2316",
+        "morph": "N-GSM"
+      },
+      { "text": " βραβευέτω", "strong": "G1018", "morph": "V-PAM-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ταῖς", "strong": "G3588", "morph": "T-DPF" },
+      { "text": " καρδίαις", "strong": "G2588", "morph": "N-DPF" },
+      { "text": " ὑμῶν,", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " ἣν", "strong": "G3739", "morph": "R-ASF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐκλήθητε", "strong": "G2564", "morph": "V-API-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἑνὶ", "strong": "G1520", "morph": "A-DSN" },
+      { "text": " σώματι·", "strong": "G4983", "morph": "N-DSN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " εὐχάριστοι", "strong": "G2170", "morph": "A-NPM" },
+      { "text": " γίνεσθε.", "strong": "G1096", "morph": "V-PNM-2P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 16,
+    "content": [
+      { "text": "ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " λόγος", "strong": "G3056", "morph": "N-NSM" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ", "strong": "G5547", "morph": "N-GSM" },
+      { "text": " ἐνοικείτω", "strong": "G1774", "morph": "V-PAM-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " πλουσίως", "strong": "G4146", "morph": "ADV" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " πάσῃ", "strong": "G3956", "morph": "A-DSF" },
+      { "text": " σοφίᾳ·", "strong": "G4678", "morph": "N-DSF" },
+      { "text": " διδάσκοντες", "strong": "G1321", "morph": "V-PAP-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " νουθετοῦντες", "strong": "G3560", "morph": "V-PAP-NPM" },
+      { "text": " ἑαυτούς,", "strong": "G1438", "morph": "F-2APM" },
+      { "text": " ψαλμοῖς,", "strong": "G5568", "morph": "N-DPM" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            " ",
+            { "text": "Marg.", "marks": ["i"] },
+            " ",
+            { "text": "Κυρίου", "script": "G", "transliteration": "Kyríou" },
+            " ",
+            { "text": "or", "marks": ["i"] },
+            " ",
+            { "text": "Θεοῦ", "script": "G", "transliteration": "Theoû" }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " ὕμνοις,", "strong": "G5215", "morph": "N-DPM" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " ᾠδαῖς", "strong": "G5603", "morph": "N-DPF" },
+      { "text": " πνευματικαῖς,", "strong": "G4152", "morph": "A-DPF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " χάριτι", "strong": "G5485", "morph": "N-DSF" },
+      { "text": " ᾄδοντες", "strong": "G103", "morph": "V-PAP-NPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      {
+        "text": " καρδίᾳ",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "τῇ καρδίᾳ",
+              "script": "G",
+              "transliteration": "tē̂ kardía"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " ταῖς καρδίαις",
+              "script": "G",
+              "transliteration": " taîs kardíais"
+            }
+          ]
+        },
+        "strong": "G2588",
+        "morph": "N-DSF"
+      },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      {
+        "text": " Κυρίῳ.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Κυρίῳ", "script": "G", "transliteration": "Kyríō" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " Θεῷ", "script": "G", "transliteration": " Theō̂" }
+          ]
+        },
+        "strong": "G2962",
+        "morph": "N-DSM"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 17,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " πᾶν", "strong": "G3956", "morph": "A-ASN" },
+      { "text": " ὅ", "strong": "G3739", "morph": "R-ASN" },
+      { "text": " τι", "strong": "G5100", "morph": "X-ASN" },
+      { "text": " ἂν", "strong": "G302", "morph": "PRT" },
+      { "text": " ποιῆτε,", "strong": "G4160", "morph": "V-PAS-2P" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " λόγῳ", "strong": "G3056", "morph": "N-DSM" },
+      { "text": " ἢ", "strong": "G2228", "morph": "PRT" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἔργῳ,", "strong": "G2041", "morph": "N-DSN" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ὀνόματι", "strong": "G3686", "morph": "N-DSN" },
+      { "text": " Κυρίου", "strong": "G2962", "morph": "N-GSM" },
+      { "text": " Ἰησοῦ,", "strong": "G2424", "morph": "N-GSM" },
+      { "text": " εὐχαριστοῦντες", "strong": "G2168", "morph": "V-PAP-NPM" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Θεῷ", "strong": "G2316", "morph": "N-DSM" },
+      {
+        "text": " καὶ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "καὶ", "script": "G", "transliteration": "kaì" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2532",
+        "morph": "CONJ"
+      },
+      { "text": " πατρὶ", "strong": "G3962", "morph": "N-DSM" },
+      { "text": " δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " αὐτοῦ.", "strong": "G846", "morph": "P-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 18,
+    "content": [
+      { "paragraph": true, "text": "Αἱ", "strong": "G3588", "morph": "T-NPF" },
+      { "text": " γυναῖκες,", "strong": "G1135", "morph": "N-NPF" },
+      { "text": " ὑποτάσσεσθε", "strong": "G5293", "morph": "V-PMM-2P" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      {
+        "text": " ἰδίοις",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἰδίοις", "script": "G", "transliteration": "idíois" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G2398",
+        "morph": "A-DPM"
+      },
+      { "text": " ἀνδράσιν,", "strong": "G435", "morph": "N-DPM" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " ἀνῆκεν", "strong": "G433", "morph": "V-IAI-3S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Κυρίῳ.", "strong": "G2962", "morph": "N-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 19,
+    "content": [
+      { "text": "οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " ἄνδρες,", "strong": "G435", "morph": "N-NPM" },
+      { "text": " ἀγαπᾶτε", "strong": "G25", "morph": "V-PAM-2P" },
+      { "text": " τὰς", "strong": "G3588", "morph": "T-APF" },
+      { "text": " γυναῖκας,", "strong": "G1135", "morph": "N-APF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " πικραίνεσθε", "strong": "G4087", "morph": "V-PPM-2P" },
+      { "text": " πρὸς", "strong": "G4314", "morph": "PREP" },
+      { "text": " αὐτάς.", "strong": "G846", "morph": "P-APF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 20,
+    "content": [
+      { "text": "τὰ", "strong": "G3588", "morph": "T-NPN" },
+      { "text": " τέκνα,", "strong": "G5043", "morph": "N-NPN" },
+      { "text": " ὑπακούετε", "strong": "G5219", "morph": "V-PAM-2P" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " γονεῦσι", "strong": "G1118", "morph": "N-DPM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " πάντα·", "strong": "G3956", "morph": "A-APN" },
+      { "text": " τοῦτο", "strong": "G3778", "morph": "D-NSN" },
+      { "text": " γάρ", "strong": "G1063", "morph": "CONJ" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      {
+        "text": " εὐάρεστον",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "γάρ ἐστιν εὐάρεστον",
+              "script": "G",
+              "transliteration": "gár estin euáreston"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " γὰρ εὐάρεστόν ἐστιν",
+              "script": "G",
+              "transliteration": " gàr euárestón estin"
+            }
+          ]
+        },
+        "strong": "G2101",
+        "morph": "A-NSN"
+      },
+      {
+        "text": " τῷ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "τῷ", "script": "G", "transliteration": "tō̂" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ἐν", "script": "G", "transliteration": " en" }
+          ]
+        },
+        "strong": "G3588",
+        "morph": "T-DSM"
+      },
+      { "text": " Κυρίῳ.", "strong": "G2962", "morph": "N-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 21,
+    "content": [
+      { "text": "οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " πατέρες,", "strong": "G3962", "morph": "N-NPM" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " ἐρεθίζετε", "strong": "G2042", "morph": "V-PAM-2P" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " τέκνα", "strong": "G5043", "morph": "N-APN" },
+      { "text": " ὑμῶν,", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " ἀθυμῶσιν.", "strong": "G120", "morph": "V-PAS-3P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 22,
+    "content": [
+      { "text": "Οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " δοῦλοι,", "strong": "G1401", "morph": "N-NPM" },
+      { "text": " ὑπακούετε", "strong": "G5219", "morph": "V-PAM-2P" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " κατὰ", "strong": "G2596", "morph": "PREP" },
+      { "text": " σάρκα", "strong": "G4561", "morph": "N-ASF" },
+      { "text": " κυρίοις,", "strong": "G2962", "morph": "N-DPM" },
+      { "text": " μὴ", "strong": "G3361", "morph": "PRT-N" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ὀφθαλμοδουλείαις", "strong": "G3787", "morph": "N-DPF" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " ἀνθρωπάρεσκοι,", "strong": "G441", "morph": "A-NPM" },
+      { "text": " ἀλλ’", "strong": "G235", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ἁπλότητι", "strong": "G572", "morph": "N-DSF" },
+      { "text": " καρδίας,", "strong": "G2588", "morph": "N-GSF" },
+      { "text": " φοβούμενοι", "strong": "G5399", "morph": "V-PNP-NPM" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      {
+        "text": " Θεόν·",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Θεόν", "script": "G", "transliteration": "Theón" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " Κύριον", "script": "G", "transliteration": " Kýrion" }
+          ]
+        },
+        "strong": "G2316",
+        "morph": "N-ASM"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 23,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " πᾶν", "strong": "G3956", "morph": "A-ASN" },
+      { "text": " ὅ", "strong": "G3739", "morph": "R-ASN" },
+      {
+        "text": " τι",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "καὶ πᾶν ὅ τι",
+              "script": "G",
+              "transliteration": "kaì pân hó ti"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ὅ", "script": "G", "transliteration": " hó" }
+          ]
+        },
+        "strong": "G5100",
+        "morph": "X-ASN"
+      },
+      { "text": " ἐὰν", "strong": "G1437", "morph": "COND" },
+      { "text": " ποιῆτε,", "strong": "G4160", "morph": "V-PAS-2P" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " ψυχῆς", "strong": "G5590", "morph": "N-GSF" },
+      { "text": " ἐργάζεσθε,", "strong": "G2038", "morph": "V-PNM-2P" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " Κυρίῳ", "strong": "G2962", "morph": "N-DSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " οὐκ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " ἀνθρώποις·", "strong": "G444", "morph": "N-DPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 24,
+    "content": [
+      { "text": "εἰδότες", "strong": "G1492", "morph": "V-RAP-NPM" },
+      { "text": " ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " ἀπὸ", "strong": "G575", "morph": "PREP" },
+      { "text": " Κυρίου", "strong": "G2962", "morph": "N-GSM" },
+      { "text": " ἀπολήψεσθε", "strong": "G618", "morph": "V-FDI-2P" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἀνταπόδοσιν", "strong": "G469", "morph": "N-ASF" },
+      { "text": " τῆς", "strong": "G3588", "morph": "T-GSF" },
+      { "text": " κληρονομίας·", "strong": "G2817", "morph": "N-GSF" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      {
+        "text": " γὰρ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "γὰρ", "script": "G", "transliteration": "gàr" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G1063",
+        "morph": "CONJ"
+      },
+      { "text": " Κυρίῳ", "strong": "G2962", "morph": "N-DSM" },
+      { "text": " Χριστῷ", "strong": "G5547", "morph": "N-DSM" },
+      { "text": " δουλεύετε.", "strong": "G1398", "morph": "V-PAM-2P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 3,
+    "verse": 25,
+    "content": [
+      { "text": "ὁ", "strong": "G3588", "morph": "T-NSM" },
+      {
+        "text": " δὲ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "δὲ", "script": "G", "transliteration": "dè" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " γὰρ", "script": "G", "transliteration": " gàr" }
+          ]
+        },
+        "strong": "G1161",
+        "morph": "CONJ"
+      },
+      { "text": " ἀδικῶν", "strong": "G91", "morph": "V-PAP-NSM" },
+      { "text": " κομιεῖται", "strong": "G2865", "morph": "V-FDI-3S-ATT" },
+      { "text": " ὃ", "strong": "G3739", "morph": "R-ASN" },
+      { "text": " ἠδίκησε·", "strong": "G91", "morph": "V-AAI-3S" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " οὐκ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " ἔστι", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " προσωποληψία.", "strong": "G4382", "morph": "N-NSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 1,
+    "content": [
+      { "text": "οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " κύριοι,", "strong": "G2962", "morph": "N-NPM" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " δίκαιον", "strong": "G1342", "morph": "A-ASN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἰσότητα", "strong": "G2471", "morph": "N-ASF" },
+      { "text": " τοῖς", "strong": "G3588", "morph": "T-DPM" },
+      { "text": " δούλοις", "strong": "G1401", "morph": "N-DPM" },
+      { "text": " παρέχεσθε,", "strong": "G3930", "morph": "V-PMM-2P" },
+      { "text": " εἰδότες", "strong": "G1492", "morph": "V-RAP-NPM" },
+      { "text": " ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς", "strong": "G4771", "morph": "P-2NP" },
+      { "text": " ἔχετε", "strong": "G2192", "morph": "V-PAI-2P" },
+      { "text": " Κύριον", "strong": "G2962", "morph": "N-ASM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      {
+        "text": " οὐρανοῖς.",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "οὐρανοῖς",
+              "script": "G",
+              "transliteration": "ouranoîs"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " οὐρανῷ", "script": "G", "transliteration": " ouranō̂" }
+          ]
+        },
+        "strong": "G3772",
+        "morph": "N-DPM"
+      }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 2,
+    "content": [
+      { "paragraph": true, "text": "Τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " προσευχῇ", "strong": "G4335", "morph": "N-DSF" },
+      { "text": " προσκαρτερεῖτε,", "strong": "G4342", "morph": "V-PAM-2P" },
+      { "text": " γρηγοροῦντες", "strong": "G1127", "morph": "V-PAP-NPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " αὐτῇ", "strong": "G846", "morph": "P-DSF" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " εὐχαριστίᾳ·", "strong": "G2169", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 3,
+    "content": [
+      { "text": "προσευχόμενοι", "strong": "G4336", "morph": "V-PNP-NPM" },
+      { "text": " ἅμα", "strong": "G260", "morph": "ADV" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " περὶ", "strong": "G4012", "morph": "PREP" },
+      { "text": " ἡμῶν,", "strong": "G1473", "morph": "P-1GP" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " Θεὸς", "strong": "G2316", "morph": "N-NSM" },
+      { "text": " ἀνοίξῃ", "strong": "G455", "morph": "V-AAS-3S" },
+      { "text": " ἡμῖν", "strong": "G1473", "morph": "P-1DP" },
+      { "text": " θύραν", "strong": "G2374", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " λόγου,", "strong": "G3056", "morph": "N-GSM" },
+      { "text": " λαλῆσαι", "strong": "G2980", "morph": "V-AAN" },
+      { "text": " τὸ", "strong": "G3588", "morph": "T-ASN" },
+      { "text": " μυστήριον", "strong": "G3466", "morph": "N-ASN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Χριστοῦ,", "strong": "G5547", "morph": "N-GSM" },
+      { "text": " δι’", "strong": "G1223", "morph": "PREP" },
+      { "text": " ὃ", "strong": "G3739", "morph": "R-ASN" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " δέδεμαι·", "strong": "G1210", "morph": "V-RPI-1S" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 4,
+    "content": [
+      { "text": "ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " φανερώσω", "strong": "G5319", "morph": "V-AAS-1S" },
+      { "text": " αὐτό,", "strong": "G846", "morph": "P-ASN" },
+      { "text": " ὡς", "strong": "G5613", "morph": "ADV" },
+      { "text": " δεῖ", "strong": "G1163", "morph": "V-PAI-3S" },
+      { "text": " με", "strong": "G1473", "morph": "P-1AS" },
+      { "text": " λαλῆσαι.", "strong": "G2980", "morph": "V-AAN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 5,
+    "content": [
+      { "paragraph": true, "text": "ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " σοφίᾳ", "strong": "G4678", "morph": "N-DSF" },
+      { "text": " περιπατεῖτε", "strong": "G4043", "morph": "V-PAM-2P" },
+      { "text": " πρὸς", "strong": "G4314", "morph": "PREP" },
+      { "text": " τοὺς", "strong": "G3588", "morph": "T-APM" },
+      { "text": " ἔξω,", "strong": "G1854", "morph": "ADV" },
+      { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
+      { "text": " καιρὸν", "strong": "G2540", "morph": "N-ASM" },
+      { "text": " ἐξαγοραζόμενοι.", "strong": "G1805", "morph": "V-PMP-NPM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 6,
+    "content": [
+      { "text": "ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " λόγος", "strong": "G3056", "morph": "N-NSM" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " πάντοτε", "strong": "G3842", "morph": "ADV" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " χάριτι,", "strong": "G5485", "morph": "N-DSF" },
+      { "text": " ἅλατι", "strong": "G217", "morph": "N-DSN" },
+      { "text": " ἠρτυμένος,", "strong": "G741", "morph": "V-RPP-NSM" },
+      { "text": " εἰδέναι", "strong": "G1492", "morph": "V-RAN" },
+      { "text": " πῶς", "strong": "G4459", "morph": "ADV" },
+      { "text": " δεῖ", "strong": "G1163", "morph": "V-PAI-3S" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " ἑνὶ", "strong": "G1520", "morph": "A-DSM" },
+      { "text": " ἑκάστῳ", "strong": "G1538", "morph": "A-DSM" },
+      { "text": " ἀποκρίνεσθαι.", "strong": "G611", "morph": "V-PNN" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 7,
+    "content": [
+      { "paragraph": true, "text": "Τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " κατ’", "strong": "G2596", "morph": "PREP" },
+      { "text": " ἐμὲ", "strong": "G1473", "morph": "P-1AS" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " γνωρίσει", "strong": "G1107", "morph": "V-FAI-3S" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " Τυχικός,", "strong": "G5190", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἀγαπητὸς", "strong": "G27", "morph": "A-NSM" },
+      { "text": " ἀδελφὸς", "strong": "G80", "morph": "N-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " πιστὸς", "strong": "G4103", "morph": "A-NSM" },
+      { "text": " διάκονος", "strong": "G1249", "morph": "N-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " σύνδουλος", "strong": "G4889", "morph": "N-NSM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Κυρίῳ·", "strong": "G2962", "morph": "N-DSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 8,
+    "content": [
+      { "text": "ὃν", "strong": "G3739", "morph": "R-ASM" },
+      { "text": " ἔπεμψα", "strong": "G3992", "morph": "V-AAI-1S" },
+      { "text": " πρὸς", "strong": "G4314", "morph": "PREP" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " αὐτὸ", "strong": "G846", "morph": "P-ASN" },
+      { "text": " τοῦτο,", "strong": "G3778", "morph": "D-ASN" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      {
+        "text": " γνῷ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "γνῷ", "script": "G", "transliteration": "gnō̂" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " γνῶτε", "script": "G", "transliteration": " gnō̂te" }
+          ]
+        },
+        "strong": "G1097",
+        "morph": "V-2AAS-3S"
+      },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " περὶ", "strong": "G4012", "morph": "PREP" },
+      {
+        "text": " ὑμῶν",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ὑμῶν", "script": "G", "transliteration": "hymō̂n" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " ἡμῶν", "script": "G", "transliteration": " hēmō̂n" }
+          ]
+        },
+        "strong": "G4771",
+        "morph": "P-2GP"
+      },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " παρακαλέσῃ", "strong": "G3870", "morph": "V-AAS-3S" },
+      { "text": " τὰς", "strong": "G3588", "morph": "T-APF" },
+      { "text": " καρδίας", "strong": "G2588", "morph": "N-APF" },
+      { "text": " ὑμῶν·", "strong": "G4771", "morph": "P-2GP" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 9,
+    "content": [
+      { "text": "σὺν", "strong": "G4862", "morph": "PREP" },
+      { "text": " Ὀνησίμῳ", "strong": "G3682", "morph": "N-DSM" },
+      { "text": " τῷ", "strong": "G3588", "morph": "T-DSM" },
+      { "text": " πιστῷ", "strong": "G4103", "morph": "A-DSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἀγαπητῷ", "strong": "G27", "morph": "A-DSM" },
+      { "text": " ἀδελφῷ,", "strong": "G80", "morph": "N-DSM" },
+      { "text": " ὅς", "strong": "G3739", "morph": "R-NSM" },
+      { "text": " ἐστιν", "strong": "G1510", "morph": "V-PAI-3S" },
+      { "text": " ἐξ", "strong": "G1537", "morph": "PREP" },
+      { "text": " ὑμῶν.", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " πάντα", "strong": "G3956", "morph": "A-APN" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " γνωριοῦσι", "strong": "G1107", "morph": "V-FAI-3P" },
+      { "text": " τὰ", "strong": "G3588", "morph": "T-APN" },
+      { "text": " ὧδε.", "strong": "G5602", "morph": "ADV" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 10,
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ἀσπάζεται",
+        "strong": "G782",
+        "morph": "V-PNI-3S"
+      },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " Ἀρίσταρχος", "strong": "G708", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " συναιχμάλωτός", "strong": "G4869", "morph": "A-NSM" },
+      { "text": " μου,", "strong": "G1473", "morph": "P-1GS" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Μάρκος", "strong": "G3138", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἀνεψιὸς", "strong": "G431", "morph": "N-NSM" },
+      {
+        "text": " Βαρνάβᾳ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Βαρνάβᾳ", "script": "G", "transliteration": "Barnába" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " Βαρνάβα", "script": "G", "transliteration": " Barnába" }
+          ]
+        },
+        "strong": "G921",
+        "morph": "N-DSM"
+      },
+      { "text": " (περὶ", "strong": "G4012", "morph": "PREP" },
+      { "text": " οὗ", "strong": "G3739", "morph": "R-GSM" },
+      { "text": " ἐλάβετε", "strong": "G2983", "morph": "V-2AAI-2P" },
+      { "text": " ἐντολάς·", "strong": "G1785", "morph": "N-APF" },
+      { "text": " ἐὰν", "strong": "G1437", "morph": "COND" },
+      { "text": " ἔλθῃ", "strong": "G2064", "morph": "V-2AAS-3S" },
+      { "text": " πρὸς", "strong": "G4314", "morph": "PREP" },
+      { "text": " ὑμᾶς,", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " δέξασθε", "strong": "G1209", "morph": "V-ADM-2P" },
+      { "text": " αὐτόν),", "strong": "G846", "morph": "P-ASM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 11,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Ἰησοῦς", "strong": "G2424", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " λεγόμενος", "strong": "G3004", "morph": "V-PPP-NSM" },
+      { "text": " Ἰοῦστος,", "strong": "G2459", "morph": "N-NSM" },
+      { "text": " οἱ", "strong": "G3588", "morph": "T-NPM" },
+      { "text": " ὄντες", "strong": "G1510", "morph": "V-PAP-NPM" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " περιτομῆς·", "strong": "G4061", "morph": "N-GSF" },
+      { "text": " οὗτοι", "strong": "G3778", "morph": "D-NPM" },
+      { "text": " μόνοι", "strong": "G3441", "morph": "A-NPM" },
+      { "text": " συνεργοὶ", "strong": "G4904", "morph": "A-NPM" },
+      { "text": " εἰς", "strong": "G1519", "morph": "PREP" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " βασιλείαν", "strong": "G932", "morph": "N-ASF" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " Θεοῦ,", "strong": "G2316", "morph": "N-GSM" },
+      { "text": " οἵτινες", "strong": "G3748", "morph": "R-NPM" },
+      { "text": " ἐγενήθησάν", "strong": "G1096", "morph": "V-AOI-3P" },
+      { "text": " μοι", "strong": "G1473", "morph": "P-1DS" },
+      { "text": " παρηγορία.", "strong": "G3931", "morph": "N-NSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 12,
+    "content": [
+      { "text": "ἀσπάζεται", "strong": "G782", "morph": "V-PNI-3S" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " Ἐπαφρᾶς", "strong": "G1889", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἐξ", "strong": "G1537", "morph": "PREP" },
+      { "text": " ὑμῶν,", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " δοῦλος", "strong": "G1401", "morph": "N-NSM" },
+      {
+        "text": " Χριστοῦ,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Χριστοῦ", "script": "G", "transliteration": "Christoû" },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " Χριστοῦ Ἰησοῦ",
+              "script": "G",
+              "transliteration": " Christoû Iēsoû"
+            }
+          ]
+        },
+        "strong": "G5547",
+        "morph": "N-GSM"
+      },
+      { "text": " πάντοτε", "strong": "G3842", "morph": "ADV" },
+      { "text": " ἀγωνιζόμενος", "strong": "G75", "morph": "V-PNP-NSM" },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " ταῖς", "strong": "G3588", "morph": "T-DPF" },
+      { "text": " προσευχαῖς,", "strong": "G4335", "morph": "N-DPF" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " στῆτε", "strong": "G2476", "morph": "V-2AAS-2P" },
+      { "text": " τέλειοι", "strong": "G5046", "morph": "A-NPM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      {
+        "text": " πεπληρωμένοι",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "πεπληρωμένοι",
+              "script": "G",
+              "transliteration": "peplērōménoi"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " πεπληροφορημένοι",
+              "script": "G",
+              "transliteration": " peplērophorēménoi"
+            }
+          ]
+        },
+        "strong": "G4137",
+        "morph": "V-RPP-NPM"
+      },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " παντὶ", "strong": "G3956", "morph": "A-DSN" },
+      { "text": " θελήματι", "strong": "G2307", "morph": "N-DSN" },
+      { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
+      { "text": " θεοῦ.", "strong": "G2316", "morph": "N-GSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 13,
+    "content": [
+      { "text": "μαρτυρῶ", "strong": "G3140", "morph": "V-PAI-1S" },
+      { "text": " γὰρ", "strong": "G1063", "morph": "CONJ" },
+      { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
+      { "text": " ὅτι", "strong": "G3754", "morph": "CONJ" },
+      { "text": " ἔχει", "strong": "G2192", "morph": "V-PAI-3S" },
+      { "text": " ζῆλον", "strong": "G2205", "morph": "N-ASM" },
+      {
+        "text": " πολὺν",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ζῆλον πολὺν",
+              "script": "G",
+              "transliteration": "zē̂lon polỳn"
+            },
+            " ¦ ",
+            { "abbr": "RV" },
+            {
+              "text": " πολὺν πόνον",
+              "script": "G",
+              "transliteration": " polỳn pónon"
+            }
+          ]
+        },
+        "strong": "G4183",
+        "morph": "A-ASM"
+      },
+      { "text": " ὑπὲρ", "strong": "G5228", "morph": "PREP" },
+      { "text": " ὑμῶν", "strong": "G4771", "morph": "P-2GP" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Λαοδικείᾳ", "strong": "G2993", "morph": "N-DSF" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Ἱεραπόλει.", "strong": "G2404", "morph": "N-DSF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 14,
+    "content": [
+      { "text": "ἀσπάζεται", "strong": "G782", "morph": "V-PNI-3S" },
+      { "text": " ὑμᾶς", "strong": "G4771", "morph": "P-2AP" },
+      { "text": " Λουκᾶς", "strong": "G3065", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἰατρὸς", "strong": "G2395", "morph": "N-NSM" },
+      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἀγαπητός,", "strong": "G27", "morph": "A-NSM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " Δημᾶς.", "strong": "G1214", "morph": "N-NSM" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 15,
+    "content": [
+      { "text": "ἀσπάσασθε", "strong": "G782", "morph": "V-ADM-2P" },
+      { "text": " τοὺς", "strong": "G3588", "morph": "T-APM" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Λαοδικείᾳ", "strong": "G2993", "morph": "N-DSF" },
+      { "text": " ἀδελφούς,", "strong": "G80", "morph": "N-APM" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      {
+        "text": " Νυμφᾶν,",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "Νυμφᾶν", "script": "G", "transliteration": "Nymphân" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " Νύμφαν", "script": "G", "transliteration": " Nýmphan" }
+          ]
+        },
+        "strong": "G3564",
+        "morph": "N-ASM"
+      },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " κατ’", "strong": "G2596", "morph": "PREP" },
+      { "text": " οἶκον", "strong": "G3624", "morph": "N-ASM" },
+      {
+        "text": " αὐτοῦ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "αὐτοῦ", "script": "G", "transliteration": "autoû" },
+            " ¦ ",
+            { "abbr": "RV" },
+            { "text": " αὐτῶν", "script": "G", "transliteration": " autō̂n" },
+            " ¦ ",
+            { "abbr": "RV-MG" },
+            { "text": " αὐτῆς", "script": "G", "transliteration": " autē̂s" }
+          ]
+        },
+        "strong": "G846",
+        "morph": "P-GSM"
+      },
+      { "text": " ἐκκλησίαν.", "strong": "G1577", "morph": "N-ASF" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 16,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὅταν", "strong": "G3752", "morph": "CONJ" },
+      { "text": " ἀναγνωσθῇ", "strong": "G314", "morph": "V-APS-3S" },
+      { "text": " παρ’", "strong": "G3844", "morph": "PREP" },
+      { "text": " ὑμῖν", "strong": "G4771", "morph": "P-2DP" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " ἐπιστολή,", "strong": "G1992", "morph": "N-NSF" },
+      { "text": " ποιήσατε", "strong": "G4160", "morph": "V-AAM-2P" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " Λαοδικέων", "strong": "G2994", "morph": "N-GPM" },
+      { "text": " ἐκκλησίᾳ", "strong": "G1577", "morph": "N-DSF" },
+      { "text": " ἀναγνωσθῇ,", "strong": "G314", "morph": "V-APS-3S" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " ἐκ", "strong": "G1537", "morph": "PREP" },
+      { "text": " Λαοδικείας", "strong": "G2993", "morph": "N-GSF" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " ὑμεῖς", "strong": "G4771", "morph": "P-2NP" },
+      { "text": " ἀναγνῶτε.", "strong": "G314", "morph": "V-2AAS-2P" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 17,
+    "content": [
+      { "text": "καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " εἴπατε", "strong": "G3004", "morph": "V-2AAM-2P" },
+      { "text": " Ἀρχίππῳ,", "strong": "G751", "morph": "N-DSM" },
+      { "text": " Βλέπε", "strong": "G991", "morph": "V-PAM-2S" },
+      { "text": " τὴν", "strong": "G3588", "morph": "T-ASF" },
+      { "text": " διακονίαν", "strong": "G1248", "morph": "N-ASF" },
+      { "text": " ἣν", "strong": "G3739", "morph": "R-ASF" },
+      { "text": " παρέλαβες", "strong": "G3880", "morph": "V-2AAI-2S" },
+      { "text": " ἐν", "strong": "G1722", "morph": "PREP" },
+      { "text": " Κυρίῳ,", "strong": "G2962", "morph": "N-DSM" },
+      { "text": " ἵνα", "strong": "G2443", "morph": "CONJ" },
+      { "text": " αὐτὴν", "strong": "G846", "morph": "P-ASF" },
+      { "text": " πληροῖς.", "strong": "G4137", "morph": "V-PAS-2S" }
+    ]
+  },
+  {
+    "book": "COL",
+    "chapter": 4,
+    "verse": 18,
+    "content": [
+      { "paragraph": true, "text": "Ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " ἀσπασμὸς", "strong": "G783", "morph": "N-NSM" },
+      { "text": " τῇ", "strong": "G3588", "morph": "T-DSF" },
+      { "text": " ἐμῇ", "strong": "G1699", "morph": "S-1SDSF" },
+      { "text": " χειρὶ", "strong": "G5495", "morph": "N-DSF" },
+      { "text": " Παύλου.", "strong": "G3972", "morph": "N-GSM" },
+      { "text": " μνημονεύετέ", "strong": "G3421", "morph": "V-PAM-2P" },
+      { "text": " μου", "strong": "G1473", "morph": "P-1GS" },
+      { "text": " τῶν", "strong": "G3588", "morph": "T-GPM" },
+      { "text": " δεσμῶν.", "strong": "G1199", "morph": "N-GPM" },
+      { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
+      { "text": " χάρις", "strong": "G5485", "morph": "N-NSF" },
+      { "text": " μεθ’", "strong": "G3326", "morph": "PREP" },
+      { "text": " ὑμῶν.", "strong": "G4771", "morph": "P-2GP" },
+      {
+        "text": " ἀμήν.",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἀμήν", "script": "G", "transliteration": "amḗn" },
+            " ¦ ",
+            { "abbr": "RV" },
+            " ",
+            { "abbr": "OM" }
+          ]
+        },
+        "strong": "G281",
+        "morph": "HEB"
+      }
+    ]
+  }
+]
