@@ -1374,7 +1374,7 @@
       { "text": " Εὑρήκαμεν", "strong": "G2147", "morph": "V-RAI-1P" },
       { "text": " τὸν", "strong": "G3588", "morph": "T-ASM" },
       { "text": " Μεσσίαν", "strong": "G3323", "morph": "N-ASM" },
-      { "text": " ὅ", "strong": "G3739", "morph": "R-NSN" },
+      { "text": " (ὅ", "strong": "G3739", "morph": "R-NSN" },
       { "text": " ἐστι", "strong": "G1510", "morph": "V-PAI-3S" },
       { "text": " μεθερμηνευόμενον,", "strong": "G3177", "morph": "V-PPP-NSN" },
       {
@@ -1392,7 +1392,7 @@
         "strong": "G3588",
         "morph": "T-NSM"
       },
-      { "text": " Χριστός.", "strong": "G5547", "morph": "N-NSM" }
+      { "text": " Χριστός).", "strong": "G5547", "morph": "N-NSM" }
     ]
   },
   {
@@ -1462,9 +1462,9 @@
       { "text": " σὺ", "strong": "G4771", "morph": "P-2NS" },
       { "text": " κληθήσῃ", "strong": "G2564", "morph": "V-FPI-2S" },
       { "text": " Κηφᾶς", "strong": "G2786", "morph": "N-NSM" },
-      { "text": " ὃ", "strong": "G3739", "morph": "R-NSN" },
+      { "text": " (ὃ", "strong": "G3739", "morph": "R-NSN" },
       { "text": " ἑρμηνεύεται", "strong": "G2059", "morph": "V-PPI-3S" },
-      { "text": " Πέτρος.", "strong": "G4074", "morph": "N-NSM" }
+      { "text": " Πέτρος).", "strong": "G4074", "morph": "N-NSM" }
     ]
   },
   {
@@ -4059,12 +4059,12 @@
       { "text": " οὔσης", "strong": "G1510", "morph": "V-PAP-GSF" },
       { "text": " γυναικὸς", "strong": "G1135", "morph": "N-GSF" },
       { "text": " Σαμαρείτιδος;", "strong": "G4542", "morph": "N-GSF" },
-      { "text": " οὐ", "strong": "G3756", "morph": "PRT-N" },
+      { "text": " (οὐ", "strong": "G3756", "morph": "PRT-N" },
       { "text": " γὰρ", "strong": "G1063", "morph": "CONJ" },
       { "text": " συγχρῶνται", "strong": "G4798", "morph": "V-PNI-3P" },
       { "text": " Ἰουδαῖοι", "strong": "G2453", "morph": "A-NPM" },
       {
-        "text": " Σαμαρείταις.",
+        "text": " Σαμαρείταις.)",
         "foot": {
           "type": "var",
           "content": [
@@ -4591,9 +4591,9 @@
       { "text": " ὅτι", "strong": "G3754", "morph": "CONJ" },
       { "text": " Μεσσίας", "strong": "G3323", "morph": "N-NSM" },
       { "text": " ἔρχεται", "strong": "G2064", "morph": "V-PNI-3S" },
-      { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
+      { "text": " (ὁ", "strong": "G3588", "morph": "T-NSM" },
       { "text": " λεγόμενος", "strong": "G3004", "morph": "V-PPP-NSM" },
-      { "text": " Χριστός·", "strong": "G5547", "morph": "N-NSM" },
+      { "text": " Χριστός)·", "strong": "G5547", "morph": "N-NSM" },
       { "text": " ὅταν", "strong": "G3752", "morph": "CONJ" },
       { "text": " ἔλθῃ", "strong": "G2064", "morph": "V-2AAS-3S" },
       { "text": " ἐκεῖνος,", "strong": "G1565", "morph": "D-NSM" },
@@ -17218,12 +17218,12 @@
       { "text": " τοῦ", "strong": "G3588", "morph": "T-GSM" },
       { "text": " Θεοῦ", "strong": "G2316", "morph": "N-GSM" },
       { "text": " ἐγένετο", "strong": "G1096", "morph": "V-2ADI-3S" },
-      { "text": " καὶ", "strong": "G2532", "morph": "CONJ" },
+      { "text": " (καὶ", "strong": "G2532", "morph": "CONJ" },
       { "text": " οὐ", "strong": "G3756", "morph": "PRT-N" },
       { "text": " δύναται", "strong": "G1410", "morph": "V-PNI-3S" },
       { "text": " λυθῆναι", "strong": "G3089", "morph": "V-APN" },
       { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
-      { "text": " γραφή,", "strong": "G1124", "morph": "N-NSF" }
+      { "text": " γραφή),", "strong": "G1124", "morph": "N-NSF" }
     ]
   },
   {
@@ -18337,7 +18337,7 @@
     "chapter": 11,
     "verse": 30,
     "content": [
-      { "text": "οὔπω", "strong": "G3768", "morph": "ADV-N" },
+      { "text": "(οὔπω", "strong": "G3768", "morph": "ADV-N" },
       { "text": " δὲ", "strong": "G1161", "morph": "CONJ" },
       { "text": " ἐληλύθει", "strong": "G2064", "morph": "V-2LAI-3S" },
       { "text": " ὁ", "strong": "G3588", "morph": "T-NSM" },
@@ -18367,7 +18367,7 @@
       { "text": " ὑπήντησεν", "strong": "G5221", "morph": "V-AAI-3S" },
       { "text": " αὐτῷ", "strong": "G846", "morph": "P-DSM" },
       { "text": " ἡ", "strong": "G3588", "morph": "T-NSF" },
-      { "text": " Μάρθα.", "strong": "G3136", "morph": "N-NSF" }
+      { "text": " Μάρθα.)", "strong": "G3136", "morph": "N-NSF" }
     ]
   },
   {
