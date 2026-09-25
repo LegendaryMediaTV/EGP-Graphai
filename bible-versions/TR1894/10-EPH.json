@@ -1637,7 +1637,11 @@
         "foot": {
           "type": "var",
           "content": [
-            { "text": "ἐγνώρισέ", "script": "G" },
+            {
+              "text": "ἐγνώρισέ",
+              "script": "G",
+              "transliteration": "egnṓrisé"
+            },
             " ¦ ",
             { "abbr": "RV" },
             {

@@ -1190,21 +1190,6 @@
       }
     }
   },
-  "ἀβουλέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "ἠβούλετο": {
-        "transliteration": "ēboúleto",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἠβουλήθην": {
-        "transliteration": "ēboulḗthēn",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
   "ἀβουλία": {
     "language": "greek",
     "pos": "noun",
@@ -21806,6 +21791,10 @@
     "shortDefinition": "an alpha; fig. to be first; negating prefix",
     "indices": { "strongs": "G1" },
     "inflections": {
+      "α": {
+        "transliteration": "a",
+        "cells": [{ "parse": ["noun", "indecl-letter"] }]
+      },
       "ἄλφα": {
         "transliteration": "álpha",
         "cells": [{ "parse": ["noun", "indecl-letter"] }]
@@ -76532,7 +76521,10 @@
       },
       "ἄψινθος": {
         "transliteration": "ápsinthos",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "fem"] }
+        ]
       }
     }
   },

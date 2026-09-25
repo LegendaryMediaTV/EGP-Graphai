@@ -29262,7 +29262,10 @@
       },
       "κλαύσονται": {
         "transliteration": "klaúsontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "κλαύσουσιν": {
         "transliteration": "klaúsousin",

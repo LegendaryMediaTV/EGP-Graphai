@@ -12990,7 +12990,8 @@
         "cells": [
           { "parse": ["adj", "gen", "pl", "fem"] },
           { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
+          { "parse": ["adj", "gen", "pl", "neut"] },
+          { "parse": ["pron-corr", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -14317,6 +14318,10 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὠσί": {
+        "transliteration": "ōsí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ὠσίν": {
         "transliteration": "ōsín",

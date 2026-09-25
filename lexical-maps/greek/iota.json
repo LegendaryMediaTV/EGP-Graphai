@@ -8638,7 +8638,8 @@
       "ἑστώς": {
         "transliteration": "hestṓs",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "neut"] }
         ]
       },
       "ἑστῶσα": {

@@ -16138,6 +16138,12 @@
           { "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "fem"] }
         ]
       },
+      "ἐκπορευομένῃ": {
+        "transliteration": "ekporeuoménē",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "sg", "fem"] }
+        ]
+      },
       "ἐκπορευομένης": {
         "transliteration": "ekporeuoménēs",
         "cells": [
@@ -67762,7 +67768,10 @@
       },
       "ἑτοιμάσω": {
         "transliteration": "hetoimásō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] }
+        ]
       },
       "ἑτοιμάσωμεν": {
         "transliteration": "hetoimásōmen",

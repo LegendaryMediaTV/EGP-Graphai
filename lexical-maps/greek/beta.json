@@ -3304,6 +3304,14 @@
       }
     }
   },
+  "βάρ": {
+    "language": "greek",
+    "pos": "aramaic",
+    "indices": { "strongs": "G920" },
+    "inflections": {
+      "βάρ": { "transliteration": "bár", "cells": [{ "parse": ["aramaic"] }] }
+    }
+  },
   "Βαραββᾶς": {
     "language": "greek",
     "pos": "noun",
@@ -11668,6 +11676,15 @@
         "transliteration": "ēboúleto",
         "cells": [
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἠβουλήθην": {
+        "transliteration": "ēboulḗthēn",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] },
+          {
+            "parse": ["verb", "attic", "aor", "pas-dep", "ind", "pers-1", "sg"]
+          }
         ]
       },
       "ἠβουλόμεθα": {
