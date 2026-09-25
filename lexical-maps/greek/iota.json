@@ -1884,9 +1884,14 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "indices": { "strongs": "G1427" },
     "inflections": {
       "ιβ": {
         "transliteration": "ib",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      },
+      "ιβʹ": {
+        "transliteration": "ibʹ",
         "cells": [{ "parse": ["adj", "indecl-numeral"] }]
       }
     }
@@ -2905,6 +2910,10 @@
     "inflections": {
       "Ἰεζάβελ": {
         "transliteration": "Iezábel",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Ἰεζαβήλ": {
+        "transliteration": "Iezabḗl",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -6429,12 +6438,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "indices": { "strongs": "G2442" },
     "inflections": {
-      "ὁμείρονται": {
-        "transliteration": "homeírontai",
+      "ἱμειρόμενοι": {
+        "transliteration": "himeirómenoi",
         "cells": [
-          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] }
         ]
       }
     }
@@ -7381,6 +7390,7 @@
   "ἱππικός": {
     "language": "greek",
     "pos": "adj",
+    "indices": { "strongs": "G2461" },
     "inflections": {
       "ἱππικαῖς": {
         "transliteration": "hippikaîs",
@@ -7392,6 +7402,10 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "gen", "sg", "fem"] }
         ]
+      },
+      "ἱππικοῦ": {
+        "transliteration": "hippikoû",
+        "cells": [{ "parse": ["adj", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -8472,6 +8486,10 @@
         "transliteration": "héstēkas",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἑστήκασι": {
+        "transliteration": "hestḗkasi",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
       "ἑστήκασιν": {
         "transliteration": "hestḗkasin",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
@@ -8494,6 +8512,12 @@
       "ἕστηκεν": {
         "transliteration": "héstēken",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἑστήκεσαν": {
+        "transliteration": "hestḗkesan",
+        "cells": [
+          { "parse": ["verb", "attic", "plup", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἑστηκός": {
         "transliteration": "hestēkós",
@@ -9859,6 +9883,10 @@
         "transliteration": "ischysátōsan",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
       },
+      "ἴσχυσε": {
+        "transliteration": "íschyse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἰσχύσει": {
         "transliteration": "ischýsei",
         "cells": [
@@ -10206,6 +10234,10 @@
       "ἴχνει": {
         "transliteration": "íchnei",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "ἴχνεσι": {
+        "transliteration": "íchnesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ἴχνεσιν": {
         "transliteration": "íchnesin",

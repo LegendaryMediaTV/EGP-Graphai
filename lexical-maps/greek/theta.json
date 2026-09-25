@@ -540,6 +540,12 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "acc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"] }
         ]
+      },
+      "θαμβῶν": {
+        "transliteration": "thambō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -1058,6 +1064,10 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
+      },
+      "θανατώσωσι": {
+        "transliteration": "thanatṓsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "θανατώσωσιν": {
         "transliteration": "thanatṓsōsin",
@@ -1799,6 +1809,10 @@
     "shortDefinition": "to amaze, wonder, marvel",
     "indices": { "strongs": "G2296" },
     "inflections": {
+      "ἐθαύμαζε": {
+        "transliteration": "ethaúmaze",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐθαύμαζεν": {
         "transliteration": "ethaúmazen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -3042,6 +3056,10 @@
         "transliteration": "ēthelḗsate",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"] }]
       },
+      "ἠθέλησε": {
+        "transliteration": "ēthélēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἠθέλησεν": {
         "transliteration": "ēthélēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -3122,6 +3140,10 @@
         "transliteration": "thelḗsō",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] }]
       },
+      "θελήσωσι": {
+        "transliteration": "thelḗsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "θελήσωσιν": {
         "transliteration": "thelḗsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -3201,6 +3223,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "fem"] }
         ]
       },
+      "θέλουσι": {
+        "transliteration": "thélousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "θέλουσιν": {
         "transliteration": "thélousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3217,6 +3243,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "θέλωσι": {
+        "transliteration": "thélōsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "θέλωσιν": {
         "transliteration": "thélōsin",
@@ -3431,6 +3461,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
+      },
+      "θεμελιώσαι": {
+        "transliteration": "themeliṓsai",
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "θεμελιώσαντα": {
         "transliteration": "themeliṓsanta",
@@ -3945,6 +3979,10 @@
       "ἐθεραπεύοντο": {
         "transliteration": "etherapeúonto",
         "cells": [{ "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "ἐθεράπευσε": {
+        "transliteration": "etherápeuse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐθεράπευσεν": {
         "transliteration": "etherápeusen",
@@ -5018,6 +5056,10 @@
         "transliteration": "theōrḗsē",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
       },
+      "θεωρήσωσι": {
+        "transliteration": "theōrḗsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "θεωρήσωσιν": {
         "transliteration": "theōrḗsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -5105,6 +5147,13 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
+      "θεωροῦσι": {
+        "transliteration": "theōroûsi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "θεωροῦσιν": {
         "transliteration": "theōroûsin",
         "cells": [
@@ -5121,6 +5170,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "θεωρῶσι": {
+        "transliteration": "theōrō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "θεωρῶσιν": {
         "transliteration": "theōrō̂sin",
@@ -6670,6 +6723,14 @@
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
+      "θλίψεσι": {
+        "transliteration": "thlípsesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "θλίψεσί": {
+        "transliteration": "thlípsesí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "θλίψεσιν": {
         "transliteration": "thlípsesin",
         "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
@@ -7759,6 +7820,10 @@
       "θρίξ": {
         "transliteration": "thríx",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "θριξί": {
+        "transliteration": "thrixí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "θριξίν": {
         "transliteration": "thrixín",
@@ -9130,6 +9195,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ἐθύθη": {
+        "transliteration": "ethýthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
       },
       "ἔθυον": {
         "transliteration": "éthyon",

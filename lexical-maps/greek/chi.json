@@ -207,6 +207,10 @@
         "transliteration": "échairen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἔχαιρον": {
+        "transliteration": "échairon",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      },
       "ἐχάρη": {
         "transliteration": "echárē",
         "cells": [
@@ -384,6 +388,10 @@
       "χαροῦνται": {
         "transliteration": "charoûntai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "χαροῦσιν": {
+        "transliteration": "charoûsin",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -562,6 +570,10 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"] }
         ]
+      },
+      "χαλῶσι": {
+        "transliteration": "chalō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "χαλῶσιν": {
         "transliteration": "chalō̂sin",
@@ -1553,6 +1565,10 @@
       "χαράγματι": {
         "transliteration": "charágmati",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "χαράγματος": {
+        "transliteration": "charágmatos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -2694,6 +2710,10 @@
     "declension": "3n-es",
     "indices": { "strongs": "G5491" },
     "inflections": {
+      "χείλεσί": {
+        "transliteration": "cheílesí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "χείλεσιν": {
         "transliteration": "cheílesin",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -5175,6 +5195,10 @@
       "Χοραζίν": {
         "transliteration": "Chorazín",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Χωραζίν": {
+        "transliteration": "Chōrazín",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -6832,6 +6856,10 @@
     "citationForms": ["χρηστός", "χρηστόν"],
     "indices": { "strongs": "G5543" },
     "inflections": {
+      "χρησθ’": {
+        "transliteration": "chrēsth’",
+        "cells": [{ "parse": ["adj", "acc", "pl", "neut"] }]
+      },
       "χρηστά": {
         "transliteration": "chrēstá",
         "cells": [
@@ -7085,6 +7113,10 @@
       "ἐχρίσατο": {
         "transliteration": "echrísato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἔχρισέ": {
+        "transliteration": "échrisé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔχρισεν": {
         "transliteration": "échrisen",
@@ -8517,6 +8549,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
+      },
+      "χωροῦσι": {
+        "transliteration": "chōroûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "χωροῦσιν": {
         "transliteration": "chōroûsin",

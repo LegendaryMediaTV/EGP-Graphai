@@ -321,6 +321,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] }
         ]
       },
+      "φαίνῃ": {
+        "transliteration": "phaínē",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
+      },
       "φαίνηται": {
         "transliteration": "phaínētai",
         "cells": [
@@ -469,6 +473,12 @@
         "transliteration": "phanō̂men",
         "cells": [
           { "parse": ["verb", "second", "aor", "pas", "subj", "pers-1", "pl"] }
+        ]
+      },
+      "φανῶσι": {
+        "transliteration": "phanō̂si",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "pl"] }
         ]
       },
       "φανῶσιν": {
@@ -990,6 +1000,10 @@
       "ἐφανέρωσά": {
         "transliteration": "ephanérōsá",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐφανέρωσε": {
+        "transliteration": "ephanérōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφανέρωσεν": {
         "transliteration": "ephanérōsen",
@@ -1570,6 +1584,19 @@
       }
     }
   },
+  "φαρμακεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "indices": { "strongs": "G5332" },
+    "inflections": {
+      "φαρμακεῦσι": {
+        "transliteration": "pharmakeûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      }
+    }
+  },
   "φαρμακεύω": {
     "language": "greek",
     "pos": "verb",
@@ -1892,6 +1919,12 @@
       "ἔφασκεν": {
         "transliteration": "éphasken",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "φάσκοντας": {
+        "transliteration": "pháskontas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
       },
       "φάσκοντες": {
         "transliteration": "pháskontes",
@@ -3183,6 +3216,10 @@
         "transliteration": "oísomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
+      "οἴσουσι": {
+        "transliteration": "oísousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "οἴσουσιν": {
         "transliteration": "oísousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -3422,6 +3459,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
+      },
+      "φέρουσι": {
+        "transliteration": "phérousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φέρουσιν": {
         "transliteration": "phérousin",
@@ -3916,6 +3957,10 @@
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "φασί": {
+        "transliteration": "phasí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "φασιν": {
         "transliteration": "phasin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3931,6 +3976,14 @@
       "φημι": {
         "transliteration": "phēmi",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
+      "φησι": {
+        "transliteration": "phēsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "φησί": {
+        "transliteration": "phēsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "φησιν": {
         "transliteration": "phēsin",
@@ -4004,6 +4057,10 @@
       "ἔφθασαν": {
         "transliteration": "éphthasan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἔφθασε": {
+        "transliteration": "éphthase",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔφθασεν": {
         "transliteration": "éphthasen",
@@ -4359,6 +4416,14 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ἔφθειρε": {
+        "transliteration": "éphtheire",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "ἔφθειρέν": {
@@ -5009,6 +5074,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
+      },
+      "φιλοῦσί": {
+        "transliteration": "philoûsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φιλοῦσιν": {
         "transliteration": "philoûsin",
@@ -5957,6 +6026,10 @@
       "ἐφίμωσαν": {
         "transliteration": "ephímōsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐφίμωσε": {
+        "transliteration": "ephímōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφίμωσεν": {
         "transliteration": "ephímōsen",
@@ -7457,6 +7530,10 @@
         "transliteration": "phoneús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "φονεῦσι": {
+        "transliteration": "phoneûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "φονεῦσιν": {
         "transliteration": "phoneûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -7815,6 +7892,10 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
+      "φορέσομεν": {
+        "transliteration": "phorésomen",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
       "φορέσωμεν": {
         "transliteration": "phorésōmen",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
@@ -8066,6 +8147,19 @@
       "φορτίου": {
         "transliteration": "phortíou",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      }
+    }
+  },
+  "φόρτος": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "indices": { "strongs": "G5414" },
+    "inflections": {
+      "φόρτου": {
+        "transliteration": "phórtou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -8504,6 +8598,10 @@
         "transliteration": "phrenō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       },
+      "φρεσί": {
+        "transliteration": "phresí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "φρεσίν": {
         "transliteration": "phresín",
         "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
@@ -8614,6 +8712,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
+      },
+      "φρίσσουσι": {
+        "transliteration": "phríssousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φρίσσουσιν": {
         "transliteration": "phríssousin",
@@ -8979,6 +9081,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
+      },
+      "φροντίζωσι": {
+        "transliteration": "phrontízōsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "φροντίζωσιν": {
         "transliteration": "phrontízōsin",
@@ -9450,6 +9556,10 @@
     "declension": "2m",
     "indices": { "strongs": "G5436" },
     "inflections": {
+      "Φύγελλος": {
+        "transliteration": "Phýgellos",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
       "Φύγελος": {
         "transliteration": "Phýgelos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
@@ -9756,6 +9866,10 @@
         "cells": [
           { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
         ]
+      },
+      "ἐφύλαξε": {
+        "transliteration": "ephýlaxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφύλαξεν": {
         "transliteration": "ephýlaxen",
@@ -11200,6 +11314,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
+      },
+      "φωνοῦσι": {
+        "transliteration": "phōnoûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φωνοῦσιν": {
         "transliteration": "phōnoûsin",

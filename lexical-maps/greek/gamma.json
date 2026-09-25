@@ -1806,6 +1806,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
+      "γαμοῦσι": {
+        "transliteration": "gamoûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "γαμοῦσιν": {
         "transliteration": "gamoûsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -1814,6 +1818,12 @@
         "transliteration": "gamō̂n",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γεγαμηκόσι": {
+        "transliteration": "gegamēkósi",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "γεγαμηκόσιν": {
@@ -3926,6 +3936,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "γεννῶσι": {
+        "transliteration": "gennō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "γεννῶσιν": {
         "transliteration": "gennō̂sin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -4037,6 +4051,10 @@
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
         ]
+      },
+      "γεννήματος": {
+        "transliteration": "gennḗmatos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -4505,6 +4523,12 @@
         "transliteration": "geúsētai",
         "cells": [
           { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "γεύσονται": {
+        "transliteration": "geúsontai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
         ]
       },
       "γεύσωνται": {
@@ -6802,6 +6826,13 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "γινώσκουσι": {
+        "transliteration": "ginṓskousi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "γινώσκουσιν": {
         "transliteration": "ginṓskousin",
         "cells": [
@@ -6829,6 +6860,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "γινώσκωσί": {
+        "transliteration": "ginṓskōsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "γινώσκωσίν": {
         "transliteration": "ginṓskōsín",
@@ -7024,6 +7059,12 @@
         "transliteration": "gnōsthō̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "sg"] }]
       },
+      "γνῶσι": {
+        "transliteration": "gnō̂si",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
+        ]
+      },
       "γνῶσιν": {
         "transliteration": "gnō̂sin",
         "cells": [
@@ -7068,6 +7109,10 @@
           { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] }
         ]
       },
+      "ἐγίνωσκε": {
+        "transliteration": "egínōske",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐγίνωσκεν": {
         "transliteration": "egínōsken",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -7108,6 +7153,10 @@
       "ἐγνώκατε": {
         "transliteration": "egnṓkate",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ἔγνωκε": {
+        "transliteration": "égnōke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐγνώκειτε": {
         "transliteration": "egnṓkeite",
@@ -7993,6 +8042,10 @@
         "transliteration": "gnōrioûmen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
+      "γνωριοῦσι": {
+        "transliteration": "gnōrioûsi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "γνωριοῦσιν": {
         "transliteration": "gnōrioûsin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -8093,6 +8146,10 @@
       "ἐγνώρισάς": {
         "transliteration": "egnṓrisás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἐγνώρισέ": {
+        "transliteration": "egnṓrisé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐγνώρισεν": {
         "transliteration": "egnṓrisen",
@@ -8361,6 +8418,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
+      },
+      "γογγύζουσι": {
+        "transliteration": "gongýzousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "γογγύζουσιν": {
         "transliteration": "gongýzousin",
@@ -8830,6 +8891,10 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
+      "γονεῦσι": {
+        "transliteration": "goneûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "γονεῦσιν": {
         "transliteration": "goneûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -8901,6 +8966,13 @@
     "declension": "3n-u",
     "indices": { "strongs": "G1119" },
     "inflections": {
+      "γόνασι": {
+        "transliteration": "gónasi",
+        "cells": [
+          { "parse": ["noun", "dat", "pl", "neut"] },
+          { "parse": ["noun", "dat", "sg", "neut"] }
+        ]
+      },
       "γόνασιν": {
         "transliteration": "gónasin",
         "cells": [
@@ -9197,6 +9269,10 @@
       "γραμματεύς": {
         "transliteration": "grammateús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "γραμματεῦσι": {
+        "transliteration": "grammateûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "γραμματεῦσιν": {
         "transliteration": "grammateûsin",

@@ -150,6 +150,10 @@
     "pos": "aramaic",
     "indices": { "strongs": "G4462" },
     "inflections": {
+      "ῥαββονί": {
+        "transliteration": "rhabboní",
+        "cells": [{ "parse": ["aramaic"] }]
+      },
       "ῥαββουνί": {
         "transliteration": "rhabbouní",
         "cells": [{ "parse": ["aramaic"] }]
@@ -187,6 +191,10 @@
       "ἐρράβδισεν": {
         "transliteration": "errábdisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐρραβδίσθην": {
+        "transliteration": "errabdísthēn",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
       },
       "ῥαβδίζειν": {
         "transliteration": "rhabdízein",
@@ -635,6 +643,10 @@
       "ῥαιδῶν": {
         "transliteration": "rhaidō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      },
+      "ῥεδῶν": {
+        "transliteration": "rhedō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -943,6 +955,10 @@
     "stems": { "aor": "ερραντι" },
     "indices": { "strongs": "G4472" },
     "inflections": {
+      "ἐρράντισε": {
+        "transliteration": "errántise",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐρράντισεν": {
         "transliteration": "errántisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -2275,6 +2291,10 @@
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
+      "ῥήμασι": {
+        "transliteration": "rhḗmasi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "ῥήμασιν": {
         "transliteration": "rhḗmasin",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -3015,6 +3035,18 @@
       "Ριφαθ": {
         "transliteration": "Riphath",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "ρμδʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "indices": { "strongs": "G1540" },
+    "inflections": {
+      "ρμδʹ": {
+        "transliteration": "rmdʹ",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
       }
     }
   },
@@ -4112,6 +4144,24 @@
       "ῥύπῳ": {
         "transliteration": "rhýpō",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
+  "ῥυπόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "indices": { "strongs": "G4510" },
+    "inflections": {
+      "ῥυπῶν": {
+        "transliteration": "rhypō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ῥυπωσάτω": {
+        "transliteration": "rhypōsátō",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] }]
       }
     }
   },

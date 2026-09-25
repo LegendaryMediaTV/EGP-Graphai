@@ -524,6 +524,10 @@
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
+      "δάκρυσι": {
+        "transliteration": "dákrysi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "δάκρυσιν": {
         "transliteration": "dákrysin",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -1660,6 +1664,10 @@
     "shortDefinition": "David; lit. Loving",
     "indices": { "strongs": "G1138" },
     "inflections": {
+      "Δαβίδ": {
+        "transliteration": "Dabíd",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
       "Δαυιδ": {
         "transliteration": "Dauid",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
@@ -1859,6 +1867,14 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
+      },
+      "δεήσεσι": {
+        "transliteration": "deḗsesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "δεήσεσί": {
+        "transliteration": "deḗsesí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "δεήσεσιν": {
         "transliteration": "deḗsesin",
@@ -2074,6 +2090,14 @@
       "ἔδειξα": {
         "transliteration": "édeixa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἔδειξε": {
+        "transliteration": "édeixe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔδειξέ": {
+        "transliteration": "édeixé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔδειξεν": {
         "transliteration": "édeixen",
@@ -3188,6 +3212,10 @@
     "stems": { "perf": "δεδεκατω" },
     "indices": { "strongs": "G1183" },
     "inflections": {
+      "δεδεκάτωκε": {
+        "transliteration": "dedekátōke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+      },
       "δεδεκάτωκεν": {
         "transliteration": "dedekátōken",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
@@ -4067,6 +4095,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "δεσμεύουσι": {
+        "transliteration": "desmeúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "δεσμεύουσιν": {
         "transliteration": "desmeúousin",
@@ -7385,6 +7417,10 @@
         "transliteration": "diadídōsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
+      "διαδιδώσουσιν": {
+        "transliteration": "diadidṓsousin",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "διαδοθείσης": {
         "transliteration": "diadotheísēs",
         "cells": [
@@ -7438,6 +7474,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
         ]
+      },
+      "διέδωκε": {
+        "transliteration": "diédōke",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "διέδωκεν": {
         "transliteration": "diédōken",
@@ -8289,6 +8329,10 @@
         "transliteration": "diēkonḗsamén",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "pl"] }]
       },
+      "διηκόνησε": {
+        "transliteration": "diēkónēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "διηκόνησεν": {
         "transliteration": "diēkónēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -8766,6 +8810,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
       },
+      "διέκρινε": {
+        "transliteration": "diékrine",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "διέκρινεν": {
         "transliteration": "diékrinen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -9133,6 +9181,12 @@
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "διέλιπε": {
+        "transliteration": "diélipe",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "διέλιπεν": {
@@ -10060,6 +10114,10 @@
         "transliteration": "diémeinen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "διέμενε": {
+        "transliteration": "diémene",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "διέμενεν": {
         "transliteration": "diémenen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -10951,6 +11009,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
       },
+      "διήνοιξε": {
+        "transliteration": "diḗnoixe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "διήνοιξεν": {
         "transliteration": "diḗnoixen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -11223,6 +11285,10 @@
       "διεπέρασαν": {
         "transliteration": "diepérasan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "διεπέρασε": {
+        "transliteration": "diepérase",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "διεπέρασεν": {
         "transliteration": "diepérasen",
@@ -12240,6 +12306,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
       },
+      "διέρρηξε": {
+        "transliteration": "diérrēxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "διέρρηξεν": {
         "transliteration": "diérrēxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -12702,6 +12772,10 @@
       "διεσκορπίσατε": {
         "transliteration": "dieskorpísate",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"] }]
+      },
+      "διεσκόρπισε": {
+        "transliteration": "dieskórpise",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "διεσκόρπισεν": {
         "transliteration": "dieskórpisen",
@@ -13836,6 +13910,10 @@
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
       },
+      "διασώσωσι": {
+        "transliteration": "diasṓsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "διασώσωσιν": {
         "transliteration": "diasṓsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -14105,6 +14183,10 @@
           { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "masc"] }
         ]
       },
+      "διατεταχέναι": {
+        "transliteration": "diatetachénai",
+        "cells": [{ "parse": ["verb", "perf", "act", "inf"] }]
+      },
       "διέταξα": {
         "transliteration": "diétaxa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -14129,6 +14211,10 @@
       "διετάξατο": {
         "transliteration": "dietáxato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "διέταξε": {
+        "transliteration": "diétaxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "διέταξεν": {
         "transliteration": "diétaxen",
@@ -14872,6 +14958,10 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
+      "διέτριβε": {
+        "transliteration": "diétribe",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "διέτριβεν": {
         "transliteration": "diétriben",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -14972,6 +15062,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "indices": { "strongs": "G1307" },
     "inflections": {
       "διαφανεῖς": {
         "transliteration": "diaphaneîs",
@@ -14993,6 +15084,10 @@
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
+      },
+      "διαφανής": {
+        "transliteration": "diaphanḗs",
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -15178,6 +15273,12 @@
         "transliteration": "diaphýgēs",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] }
+        ]
+      },
+      "διαφύγοι": {
+        "transliteration": "diaphýgoi",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "διαφυγόντες": {
@@ -16572,6 +16673,14 @@
         "transliteration": "edídaxás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἐδίδαξε": {
+        "transliteration": "edídaxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐδίδαξέ": {
+        "transliteration": "edídaxé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐδίδαξεν": {
         "transliteration": "edídaxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -16579,6 +16688,10 @@
       "ἐδίδαξέν": {
         "transliteration": "edídaxén",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐδίδασκε": {
+        "transliteration": "edídaske",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐδίδασκεν": {
         "transliteration": "edídasken",
@@ -16894,6 +17007,14 @@
       "δεδώκατε": {
         "transliteration": "dedṓkate",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
+      },
+      "δέδωκε": {
+        "transliteration": "dédōke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "δέδωκέ": {
+        "transliteration": "dédōké",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
       "δεδώκει": {
         "transliteration": "dedṓkei",
@@ -17310,6 +17431,14 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
         ]
+      },
+      "δίδωσι": {
+        "transliteration": "dídōsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "δίδωσί": {
+        "transliteration": "dídōsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "διδῶσιν": {
         "transliteration": "didō̂sin",
@@ -18274,6 +18403,10 @@
         "cells": [
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] }
         ]
+      },
+      "διερμηνεύουσι": {
+        "transliteration": "diermēneúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "διερμηνεύουσιν": {
         "transliteration": "diermēneúousin",
@@ -19814,6 +19947,10 @@
         "transliteration": "dikaiōthḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       },
+      "δικαιωθήτω": {
+        "transliteration": "dikaiōthḗtō",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"] }]
+      },
       "δικαιωθήτωσαν": {
         "transliteration": "dikaiōthḗtōsan",
         "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "pl"] }]
@@ -19913,6 +20050,10 @@
         "transliteration": "edikaíōsas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἐδικαίωσε": {
+        "transliteration": "edikaíōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐδικαίωσεν": {
         "transliteration": "edikaíōsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -19942,6 +20083,10 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "δικαιώμασι": {
+        "transliteration": "dikaiṓmasi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "δικαιώμασιν": {
         "transliteration": "dikaiṓmasin",
@@ -20397,6 +20542,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "διώδευε": {
+        "transliteration": "diṓdeue",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "διώδευεν": {
         "transliteration": "diṓdeuen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -20823,6 +20972,10 @@
       "διόρυξον": {
         "transliteration": "dióryxon",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+      },
+      "διορύσσουσι": {
+        "transliteration": "diorýssousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "διορύσσουσιν": {
         "transliteration": "diorýssousin",
@@ -22023,6 +22176,10 @@
         "transliteration": "diṓxontaí",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       },
+      "διώξουσι": {
+        "transliteration": "diṓxousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "διώξουσιν": {
         "transliteration": "diṓxousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -22034,6 +22191,10 @@
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
+      },
+      "διώξωσι": {
+        "transliteration": "diṓxōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "διώξωσιν": {
         "transliteration": "diṓxōsin",
@@ -22179,6 +22340,10 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "δόγμασι": {
+        "transliteration": "dógmasi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "δόγμασιν": {
         "transliteration": "dógmasin",
@@ -22346,6 +22511,13 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
+        ]
+      },
+      "δοκοῦσι": {
+        "transliteration": "dokoûsi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "δοκοῦσιν": {
@@ -23443,9 +23615,17 @@
         "transliteration": "doxásōmén",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
       },
+      "δοξάσωσι": {
+        "transliteration": "doxásōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "δοξάσωσιν": {
         "transliteration": "doxásōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
+      "ἐδόξαζε": {
+        "transliteration": "edóxaze",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐδόξαζεν": {
         "transliteration": "edóxazen",
@@ -23474,6 +23654,10 @@
       "ἐδόξασάς": {
         "transliteration": "edóxasás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἐδόξασε": {
+        "transliteration": "edóxase",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐδόξασεν": {
         "transliteration": "edóxasen",
@@ -24103,6 +24287,10 @@
       "δουλεύσωμεν": {
         "transliteration": "douleúsōmen",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
+      },
+      "δουλεύσωσι": {
+        "transliteration": "douleúsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "δουλεύσωσιν": {
         "transliteration": "douleúsōsin",
@@ -25508,6 +25696,22 @@
           }
         ]
       },
+      "ἠδύνασθε": {
+        "transliteration": "ēdýnasthe",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "attic",
+              "impf",
+              "midpas-dep",
+              "ind",
+              "pers-2",
+              "pl"
+            ]
+          }
+        ]
+      },
       "ἠδυνάσθη": {
         "transliteration": "ēdynásthē",
         "cells": [
@@ -25623,6 +25827,10 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
+      },
+      "δυνάμεσι": {
+        "transliteration": "dynámesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "δυνάμεσιν": {
         "transliteration": "dynámesin",

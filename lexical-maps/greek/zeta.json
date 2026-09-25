@@ -749,6 +749,10 @@
         "transliteration": "ézēsás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἔζησε": {
+        "transliteration": "ézēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔζησεν": {
         "transliteration": "ézēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -1009,6 +1013,12 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "ζώσας": {
+        "transliteration": "zṓsas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "fem"] }
+        ]
+      },
       "ζώσῃ": {
         "transliteration": "zṓsē",
         "cells": [
@@ -1019,6 +1029,13 @@
         "transliteration": "zṓsēs",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
+        ]
+      },
+      "ζῶσι": {
+        "transliteration": "zō̂si",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }
         ]
       },
       "ζῶσιν": {

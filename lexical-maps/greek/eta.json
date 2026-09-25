@@ -1104,6 +1104,10 @@
         "transliteration": "hḗxete",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] }]
       },
+      "ἥξῃ": {
+        "transliteration": "hḗxē",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
+      },
       "ἥξομεν": {
         "transliteration": "hḗxomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
@@ -1132,6 +1136,10 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "ἥξωσι": {
+        "transliteration": "hḗxōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "ἥξωσιν": {
         "transliteration": "hḗxōsin",
@@ -2370,6 +2378,10 @@
     "declension": "3-cons",
     "indices": { "strongs": "G2267" },
     "inflections": {
+      "Ἡροδίωνα": {
+        "transliteration": "Hērodíōna",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "Ἡρῳδίωνα": {
         "transliteration": "Hērōdíōna",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]

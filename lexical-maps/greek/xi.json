@@ -62,6 +62,10 @@
     "shortDefinition": "to astonish, be strange; fig. to host",
     "indices": { "strongs": "G3579" },
     "inflections": {
+      "ἐξένισε": {
+        "transliteration": "exénise",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐξένισεν": {
         "transliteration": "exénisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -359,6 +363,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
+      },
+      "ἐξήρανε": {
+        "transliteration": "exḗrane",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐξήρανεν": {
         "transliteration": "exḗranen",

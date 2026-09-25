@@ -255,6 +255,12 @@
     "stems": { "aor": "ελαχ" },
     "indices": { "strongs": "G2975" },
     "inflections": {
+      "ἔλαχε": {
+        "transliteration": "élache",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἔλαχεν": {
         "transliteration": "élachen",
         "cells": [
@@ -300,6 +306,23 @@
               "sg",
               "neut",
               "second"
+            ]
+          }
+        ]
+      },
+      "λαχοῦσι": {
+        "transliteration": "lachoûsi",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "dat",
+              "pl",
+              "masc"
             ]
           }
         ]
@@ -925,6 +948,10 @@
           { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
+      "λαλήσουσι": {
+        "transliteration": "lalḗsousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "λαλήσουσιν": {
         "transliteration": "lalḗsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -1056,6 +1083,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
+      },
+      "λαλοῦσι": {
+        "transliteration": "laloûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "λαλοῦσιν": {
         "transliteration": "laloûsin",
@@ -1627,6 +1658,12 @@
           }
         ]
       },
+      "λάβωσι": {
+        "transliteration": "lábōsi",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
+        ]
+      },
       "λάβωσιν": {
         "transliteration": "lábōsin",
         "cells": [
@@ -1659,6 +1696,10 @@
       "λαμβάνετέ": {
         "transliteration": "lambáneté",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }]
+      },
+      "λαμβανέτω": {
+        "transliteration": "lambanétō",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
       },
       "λαμβάνῃ": {
         "transliteration": "lambánē",
@@ -1717,6 +1758,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "fem"] }
         ]
+      },
+      "λαμβάνουσι": {
+        "transliteration": "lambánousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "λαμβάνουσιν": {
         "transliteration": "lambánousin",
@@ -2107,6 +2152,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
       },
+      "ἔλαμψε": {
+        "transliteration": "élampse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔλαμψεν": {
         "transliteration": "élampsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -2171,6 +2220,12 @@
     "shortDefinition": "to hide, conceal",
     "indices": { "strongs": "G2990" },
     "inflections": {
+      "ἔλαθε": {
+        "transliteration": "élathe",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἔλαθεν": {
         "transliteration": "élathen",
         "cells": [
@@ -2412,6 +2467,19 @@
       }
     }
   },
+  "Λαοδικεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "indices": { "strongs": "G2994" },
+    "inflections": {
+      "Λαοδικέων": {
+        "transliteration": "Laodikéōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      }
+    }
+  },
   "λαός": {
     "language": "greek",
     "pos": "noun",
@@ -2583,6 +2651,10 @@
     "stems": { "aor": "ελακη" },
     "indices": { "strongs": "G2997" },
     "inflections": {
+      "ἐλάκησε": {
+        "transliteration": "elákēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐλάκησεν": {
         "transliteration": "elákēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -2841,6 +2913,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
         ]
       },
+      "λατρεύουσι": {
+        "transliteration": "latreúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "λατρεύουσιν": {
         "transliteration": "latreúousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -2892,6 +2968,10 @@
         "transliteration": "latreúsomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
+      "λατρεύσουσί": {
+        "transliteration": "latreúsousí",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "λατρεύσουσιν": {
         "transliteration": "latreúsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -2926,6 +3006,10 @@
       "λατρεύω": {
         "transliteration": "latreúō",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
+      "λατρεύωμεν": {
+        "transliteration": "latreúōmen",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"] }]
       }
     }
   },
@@ -3616,6 +3700,15 @@
           }
         ]
       },
+      "εἴπωσι": {
+        "transliteration": "eípōsi",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
       "εἴπωσιν": {
         "transliteration": "eípōsin",
         "cells": [
@@ -3631,6 +3724,15 @@
           {
             "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
             "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "ἔλεγε": {
+        "transliteration": "élege",
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
           }
         ]
       },
@@ -4148,6 +4250,15 @@
         "cells": [
           {
             "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
+      },
+      "λέγωσι": {
+        "transliteration": "légōsi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
             "indices": { "strongs": "G3004" }
           }
         ]
@@ -6503,6 +6614,11 @@
     "pos": "hebrew",
     "indices": { "strongs": "G2982" },
     "inflections": {
+      "λαμά": { "transliteration": "lamá", "cells": [{ "parse": ["hebrew"] }] },
+      "λαμμᾶ": {
+        "transliteration": "lammâ",
+        "cells": [{ "parse": ["aramaic"] }]
+      },
       "λιμά": {
         "transliteration": "limá",
         "cells": [{ "parse": ["hebrew"] }, { "parse": ["aramaic"] }]
@@ -9792,6 +9908,10 @@
     "shortDefinition": "to loosen, untie; fig. to release, dismantle",
     "indices": { "strongs": "G3089" },
     "inflections": {
+      "ἔλυε": {
+        "transliteration": "élye",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔλυεν": {
         "transliteration": "élyen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]

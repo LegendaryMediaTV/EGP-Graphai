@@ -1159,6 +1159,10 @@
     "stems": { "aor": "εμαθητευ" },
     "indices": { "strongs": "G3100" },
     "inflections": {
+      "ἐμαθήτευσε": {
+        "transliteration": "emathḗteuse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐμαθήτευσεν": {
         "transliteration": "emathḗteusen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -1421,6 +1425,10 @@
       "Μαϊνάν": {
         "transliteration": "Maïnán",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Μενάμ": {
+        "transliteration": "Menám",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -1661,6 +1669,12 @@
       "μακαριοῦμεν": {
         "transliteration": "makarioûmen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
+      "μακαριοῦσί": {
+        "transliteration": "makarioûsí",
+        "cells": [
+          { "parse": ["verb", "attic", "fut", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "μακαριοῦσιν": {
         "transliteration": "makarioûsin",
@@ -3161,6 +3175,10 @@
     "declension": "1m-as",
     "indices": { "strongs": "G3126" },
     "inflections": {
+      "μαμμωνᾷ": {
+        "transliteration": "mammōnâ",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
       "μαμωνᾶ": {
         "transliteration": "mamōnâ",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
@@ -3694,9 +3712,17 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
       },
+      "μανθάνουσι": {
+        "transliteration": "manthánousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "μανθάνουσιν": {
         "transliteration": "manthánousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
+      "μανθάνωσι": {
+        "transliteration": "manthánōsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "μανθάνωσιν": {
         "transliteration": "manthánōsin",
@@ -4651,6 +4677,10 @@
         "transliteration": "emartýrēsán",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
+      "ἐμαρτύρησε": {
+        "transliteration": "emartýrēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐμαρτύρησεν": {
         "transliteration": "emartýrēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -4726,6 +4756,12 @@
         "transliteration": "martyrouménē",
         "cells": [
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
+      "μαρτυρούμενοι": {
+        "transliteration": "martyroúmenoi",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] }
         ]
       },
       "μαρτυρούμενος": {
@@ -4823,6 +4859,10 @@
       "μεμαρτύρηκας": {
         "transliteration": "memartýrēkas",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }]
+      },
+      "μεμαρτύρηκε": {
+        "transliteration": "memartýrēke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
       "μεμαρτύρηκεν": {
         "transliteration": "memartýrēken",
@@ -5023,6 +5063,14 @@
         "transliteration": "mártys",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "μάρτυσι": {
+        "transliteration": "mártysi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "μάρτυσί": {
+        "transliteration": "mártysí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "μάρτυσιν": {
         "transliteration": "mártysin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -5189,6 +5237,12 @@
     "deponent": true,
     "indices": { "strongs": "G3145" },
     "inflections": {
+      "ἐμασσῶντο": {
+        "transliteration": "emassō̂nto",
+        "cells": [
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
       "ἐμασῶντο": {
         "transliteration": "emasō̂nto",
         "cells": [
@@ -5524,6 +5578,10 @@
       "ἐμαστίγωσας": {
         "transliteration": "emastígōsas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἐμαστίγωσε": {
+        "transliteration": "emastígōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐμαστίγωσεν": {
         "transliteration": "emastígōsen",
@@ -7344,6 +7402,13 @@
         "transliteration": "emegálynas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἐμεγάλυνε": {
+        "transliteration": "emegályne",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἐμεγάλυνεν": {
         "transliteration": "emegálynen",
         "cells": [
@@ -7512,6 +7577,10 @@
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }
         ]
+      },
+      "μεγαλύνουσι": {
+        "transliteration": "megalýnousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "μεγαλύνουσιν": {
         "transliteration": "megalýnousin",
@@ -8894,6 +8963,10 @@
           { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
         ]
       },
+      "μεθυσθῶσι": {
+        "transliteration": "methysthō̂si",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
+      },
       "μεθυσθῶσιν": {
         "transliteration": "methysthō̂sin",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
@@ -9605,6 +9678,10 @@
     "shortDefinition": "to approach, be about to",
     "indices": { "strongs": "G3195" },
     "inflections": {
+      "ἔμελλε": {
+        "transliteration": "émelle",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔμελλεν": {
         "transliteration": "émellen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -9618,6 +9695,12 @@
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἤμελλε": {
+        "transliteration": "ḗmelle",
+        "cells": [
+          { "parse": ["verb", "attic", "impf", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "ἤμελλεν": {
@@ -9728,6 +9811,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
+      "μέλλουσι": {
+        "transliteration": "méllousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "μέλλουσιν": {
         "transliteration": "méllousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -9770,6 +9857,10 @@
       "μέλει": {
         "transliteration": "mélei",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "μέλεσί": {
+        "transliteration": "mélesí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "μέλεσιν": {
         "transliteration": "mélesin",
@@ -10292,9 +10383,17 @@
         "transliteration": "émeinan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
+      "ἔμεινε": {
+        "transliteration": "émeine",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔμεινεν": {
         "transliteration": "émeinen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔμενε": {
+        "transliteration": "émene",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔμενεν": {
         "transliteration": "émenen",
@@ -10594,6 +10693,10 @@
         "transliteration": "emerísató",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       },
+      "ἐμέρισε": {
+        "transliteration": "emérise",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐμέρισεν": {
         "transliteration": "emérisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -10824,6 +10927,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
         ]
+      },
+      "μεριμνῶσι": {
+        "transliteration": "merimnō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "μεριμνῶσιν": {
         "transliteration": "merimnō̂sin",
@@ -11147,6 +11254,14 @@
       },
       "Μεσίας": {
         "transliteration": "Mesías",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "Μεσσίαν": {
+        "transliteration": "Messían",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Μεσσίας": {
+        "transliteration": "Messías",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
@@ -12763,6 +12878,10 @@
         "transliteration": "metamorphoûsthai",
         "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
       },
+      "μεταμορφοῦσθε": {
+        "transliteration": "metamorphoûsthe",
+        "cells": [{ "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"] }]
+      },
       "μετεμορφώθη": {
         "transliteration": "metemorphṓthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
@@ -12891,6 +13010,10 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
+      },
+      "μετανοήσωσι": {
+        "transliteration": "metanoḗsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "μετανοήσωσιν": {
         "transliteration": "metanoḗsōsin",
@@ -13853,6 +13976,12 @@
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
+      "μετέσχε": {
+        "transliteration": "metésche",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "μετέσχεν": {
         "transliteration": "metéschen",
         "cells": [
@@ -14242,6 +14371,10 @@
     "shortDefinition": "to measure",
     "indices": { "strongs": "G3354" },
     "inflections": {
+      "ἐμέτρησε": {
+        "transliteration": "emétrēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐμέτρησεν": {
         "transliteration": "emétrēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -14574,6 +14707,10 @@
     "pos": "conj",
     "indices": { "strongs": "G3366" },
     "inflections": {
+      "μηδ’": {
+        "transliteration": "mēd’",
+        "cells": [{ "parse": ["conj", "neg"] }]
+      },
       "μηδέ": {
         "transliteration": "mēdé",
         "cells": [{ "parse": ["conj", "neg"] }]
@@ -15429,6 +15566,10 @@
     "declension": "1m-as",
     "indices": { "strongs": "G3389" },
     "inflections": {
+      "μητραλῴαις": {
+        "transliteration": "mētralṓais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "μητρολῴαις": {
         "transliteration": "mētrolṓais",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -15738,6 +15879,10 @@
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "fem"] }
         ]
       },
+      "μιαίνουσι": {
+        "transliteration": "miaínousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "μιαίνουσιν": {
         "transliteration": "miaínousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -15802,6 +15947,10 @@
       "μιανθήσονται": {
         "transliteration": "mianthḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "μιανθῶσι": {
+        "transliteration": "mianthō̂si",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
       },
       "μιανθῶσιν": {
         "transliteration": "mianthō̂sin",
@@ -16125,6 +16274,10 @@
         "cells": [
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
         ]
+      },
+      "ἔμιξε": {
+        "transliteration": "émixe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔμιξεν": {
         "transliteration": "émixen",
@@ -17153,6 +17306,10 @@
         "transliteration": "memísēkás",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }]
       },
+      "μεμισήκασι": {
+        "transliteration": "memisḗkasi",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
       "μεμισήκασιν": {
         "transliteration": "memisḗkasin",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
@@ -17272,6 +17429,10 @@
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
         ]
+      },
+      "μισήσουσι": {
+        "transliteration": "misḗsousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "μισήσουσιν": {
         "transliteration": "misḗsousin",
@@ -18236,6 +18397,10 @@
         "transliteration": "emnēmóneuón",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
+      "ἐμνημόνευσε": {
+        "transliteration": "emnēmóneuse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐμνημόνευσεν": {
         "transliteration": "emnēmóneusen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -18498,6 +18663,10 @@
     "inflections": {
       "μογγιλάλον": {
         "transliteration": "mongilálon",
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+      },
+      "μογιλάλον": {
+        "transliteration": "mogilálon",
         "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
       }
     }
@@ -21931,6 +22100,10 @@
       "Μωσέα": {
         "transliteration": "Mōséa",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Μωσεῖ": {
+        "transliteration": "Mōseî",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "Μωσέως": {
         "transliteration": "Mōséōs",

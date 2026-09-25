@@ -555,6 +555,10 @@
     "declension": "indeclinable",
     "indices": { "strongs": "G3478" },
     "inflections": {
+      "Ναζαρέθ": {
+        "transliteration": "Nazaréth",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
       "Ναζαρέτ": {
         "transliteration": "Nazarét",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
@@ -3610,6 +3614,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       },
+      "νηστεύουσι": {
+        "transliteration": "nēsteúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "νηστεύουσιν": {
         "transliteration": "nēsteúousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3704,6 +3712,17 @@
       },
       "νηφαλέους": {
         "transliteration": "nēphaléous",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] }
+        ]
+      },
+      "νηφάλιον": {
+        "transliteration": "nēphálion",
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+      },
+      "νηφαλίους": {
+        "transliteration": "nēphalíous",
         "cells": [
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] }
@@ -4120,6 +4139,10 @@
         "transliteration": "enípsato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       },
+      "ἔνιψε": {
+        "transliteration": "énipse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔνιψεν": {
         "transliteration": "énipsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -4478,6 +4501,10 @@
         "transliteration": "noḗsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
+      "νοήσωσι": {
+        "transliteration": "noḗsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "νοήσωσιν": {
         "transliteration": "noḗsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -4703,6 +4730,10 @@
     "conjugation": "thematic",
     "indices": { "strongs": "G3543" },
     "inflections": {
+      "ἐνόμιζε": {
+        "transliteration": "enómize",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐνόμιζεν": {
         "transliteration": "enómizen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -6104,6 +6135,10 @@
     "stems": { "aor": "ενυξ" },
     "indices": { "strongs": "G3572" },
     "inflections": {
+      "ἔνυξε": {
+        "transliteration": "ényxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔνυξεν": {
         "transliteration": "ényxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -6175,6 +6210,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
+      },
+      "νυστάζει": {
+        "transliteration": "nystázei",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "νυστάζεις": {
         "transliteration": "nystázeis",
