@@ -2437,10 +2437,11 @@
       }
     }
   },
-  "ὑπεραίρομαι": {
+  "ὑπεραίρω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "stems": { "aor": "υπερηρ", "fut": "υπεραρ", "perf": "υπερηρ" },
     "indices": { "strongs": "G5229" },
     "inflections": {
       "ὑπεραιρόμενος": {
@@ -2452,15 +2453,7 @@
       "ὑπεραίρωμαι": {
         "transliteration": "hyperaírōmai",
         "cells": [{ "parse": ["verb", "pres", "pas", "subj", "pers-1", "sg"] }]
-      }
-    }
-  },
-  "ὑπεραίρω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "υπερηρ", "fut": "υπεραρ", "perf": "υπερηρ" },
-    "inflections": {
+      },
       "ὑπεραρθήσεται": {
         "transliteration": "hyperarthḗsetai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
@@ -2907,18 +2900,6 @@
       }
     }
   },
-  "ὑπερεῖδον": {
-    "language": "greek",
-    "pos": "verb",
-    "inflections": {
-      "ὑπερείδομεν": {
-        "transliteration": "hypereídomen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
-        ]
-      }
-    }
-  },
   "ὑπερείδω": {
     "language": "greek",
     "pos": "verb",
@@ -3133,29 +3114,6 @@
       }
     }
   },
-  "ὑπερηφανεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ὑπερηφανεύου": {
-        "transliteration": "hyperēphaneúou",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "ὑπερηφανεύσασθαι": {
-        "transliteration": "hyperēphaneúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
   "ὑπερηφανεύω": {
     "language": "greek",
     "pos": "verb",
@@ -3177,9 +3135,25 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
       },
+      "ὑπερηφανεύου": {
+        "transliteration": "hyperēphaneúou",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
+        ]
+      },
       "ὑπερηφανεύσαντο": {
         "transliteration": "hyperēphaneúsanto",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "ὑπερηφανεύσασθαι": {
+        "transliteration": "hyperēphaneúsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       },
       "ὑπερηφανεύσατο": {
         "transliteration": "hyperēphaneúsato",
@@ -3597,6 +3571,12 @@
         "transliteration": "hypereîdes",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
+      "ὑπερείδομεν": {
+        "transliteration": "hypereídomen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
         ]
       },
       "ὑπερεῖδον": {

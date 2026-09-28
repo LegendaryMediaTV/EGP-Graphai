@@ -1556,7 +1556,7 @@
         "transliteration": "Emnḗsthē",
         "strong": "G3415",
         "morph": "V-API-3S",
-        "lemma": "μιμνῄσκομαι"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " Ιερουσαλημ",
@@ -2146,7 +2146,7 @@
         "transliteration": " emnḗsthē",
         "strong": "G3415",
         "morph": "V-API-3S",
-        "lemma": "μιμνῄσκομαι"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " ἔσχατα",
@@ -5372,7 +5372,7 @@
         "transliteration": " emnḗsthē",
         "strong": "G3415",
         "morph": "V-API-3S",
-        "lemma": "μιμνῄσκομαι"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " ὑποποδίου",
@@ -6541,7 +6541,7 @@
         "transliteration": "Apṓsato",
         "strong": "G683",
         "morph": "V-ADI-3S",
-        "lemma": "ἀπωθέομαι"
+        "lemma": "ἀπωθέω"
       },
       {
         "text": " κύριος",
@@ -8458,7 +8458,7 @@
         "transliteration": " eroûsin",
         "strong": "G2046",
         "morph": "V-FAI-3P",
-        "lemma": "ἐρῶ"
+        "lemma": "λέγω"
       },
       {
         "text": " Στέφανος",
@@ -11230,7 +11230,7 @@
         "transliteration": " apṓsato",
         "strong": "G683",
         "morph": "V-ADI-3S",
-        "lemma": "ἀπωθέομαι"
+        "lemma": "ἀπωθέω"
       },
       {
         "text": " ἐξ",
@@ -11388,7 +11388,7 @@
         "transliteration": "Emnḗsthēn",
         "strong": "G3415",
         "morph": "V-API-1S",
-        "lemma": "μιμνῄσκομαι"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " ἀπὸ",
@@ -11490,7 +11490,7 @@
         "script": "G",
         "transliteration": "mnēsthḗsetai",
         "morph": "V-FPI-3S",
-        "lemma": "μιμνήσκω"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " καὶ",
@@ -12051,6 +12051,7 @@
         "text": " ἀπώσεται",
         "script": "G",
         "transliteration": " apṓsetai",
+        "strong": "G683",
         "morph": "V-FMI-3S",
         "lemma": "ἀπωθέω"
       },
@@ -13069,6 +13070,7 @@
         "text": " ἀπωσθῆναι",
         "script": "G",
         "transliteration": " apōsthē̂nai",
+        "strong": "G683",
         "morph": "V-APN",
         "lemma": "ἀπωθέω"
       },
@@ -13887,6 +13889,7 @@
         "text": " Ἀπῶσμαι.",
         "script": "G",
         "transliteration": " Apō̂smai.",
+        "strong": "G683",
         "morph": "V-PMI-1S",
         "lemma": "ἀπωθέω"
       }
@@ -14178,6 +14181,7 @@
         "text": " φοβοῦ.",
         "script": "G",
         "transliteration": " phoboû.",
+        "strong": "G5399",
         "morph": "V-PEM-2S",
         "lemma": "φοβέω"
       }
@@ -16910,7 +16914,7 @@
         "transliteration": " hḗpsanto",
         "strong": "G680",
         "morph": "V-ADI-3P",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " ἐνδυμάτων",
@@ -17000,7 +17004,7 @@
         "transliteration": " háptesthe,",
         "strong": "G680",
         "morph": "V-PMM-2P",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " ὅτι",
@@ -17558,7 +17562,7 @@
         "transliteration": " párestin",
         "strong": "G3918",
         "morph": "V-PAI-3S",
-        "lemma": "πάρειμι"
+        "lemma": "πάρειμι¹"
       },
       {
         "text": " ὁ",
@@ -18248,7 +18252,7 @@
         "transliteration": "Mnḗsthēti,",
         "strong": "G3415",
         "morph": "V-APM-2S",
-        "lemma": "μιμνῄσκομαι"
+        "lemma": "μιμνῄσκω"
       },
       {
         "text": " κύριε,",
@@ -18617,8 +18621,9 @@
         "text": " ἐκοπιάσαμεν,",
         "script": "G",
         "transliteration": " ekopiásamen,",
+        "strong": "G2872",
         "morph": "V-AAI-1P",
-        "lemma": "κοπιάζω"
+        "lemma": "κοπιάω"
       },
       {
         "text": " οὐκ",
@@ -20086,6 +20091,7 @@
         "text": " ἀπωθούμενος",
         "script": "G",
         "transliteration": " apōthoúmenos",
+        "strong": "G683",
         "morph": "V-PEP-NSM",
         "lemma": "ἀπωθέω"
       },
@@ -20093,6 +20099,7 @@
         "text": " ἀπώσω",
         "script": "G",
         "transliteration": " apṓsō",
+        "strong": "G683",
         "morph": "V-AMI-2S",
         "lemma": "ἀπωθέω"
       },

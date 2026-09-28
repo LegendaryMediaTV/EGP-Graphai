@@ -1160,10 +1160,11 @@
       }
     }
   },
-  "φαντάζομαι": {
+  "φαντάζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "indices": { "strongs": "G5324" },
     "inflections": {
       "φαντάζεται": {
         "transliteration": "phantázetai",
@@ -1172,15 +1173,7 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
-      }
-    }
-  },
-  "φαντάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "indices": { "strongs": "G5324" },
-    "inflections": {
+      },
       "φανταζόμενον": {
         "transliteration": "phantazómenon",
         "cells": [
@@ -3111,12 +3104,6 @@
       "ἐνήνοχεν": {
         "transliteration": "enḗnochen",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἐξένεγκε": {
-        "transliteration": "exénenke",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] }
-        ]
       },
       "ἔφερεν": {
         "transliteration": "épheren",
@@ -6447,189 +6434,6 @@
     },
     "gender": "fem"
   },
-  "φοβέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "deponent": true,
-    "shortDefinition": "to fear; fig. to revere, respect, venerate",
-    "indices": { "strongs": "G5399" },
-    "inflections": {
-      "ἐφοβεῖτο": {
-        "transliteration": "ephobeîto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐφοβήθη": {
-        "transliteration": "ephobḗthē",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐφοβήθησαν": {
-        "transliteration": "ephobḗthēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐφοβούμην": {
-        "transliteration": "ephoboúmēn",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ἐφοβοῦντο": {
-        "transliteration": "ephoboûnto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "φοβεῖσθαι": {
-        "transliteration": "phobeîsthai",
-        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
-      },
-      "φοβεῖσθε": {
-        "transliteration": "phobeîsthe",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "φοβῇ": {
-        "transliteration": "phobē̂",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "φοβηθείς": {
-        "transliteration": "phobētheís",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "φοβηθεῖσα": {
-        "transliteration": "phobētheîsa",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "fem"] }
-        ]
-      },
-      "φοβηθέντες": {
-        "transliteration": "phobēthéntes",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "φοβηθῇ": {
-        "transliteration": "phobēthē̂",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "φοβηθῇς": {
-        "transliteration": "phobēthē̂s",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
-        ]
-      },
-      "φοβηθήσομαι": {
-        "transliteration": "phobēthḗsomai",
-        "cells": [
-          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "φοβηθῆτε": {
-        "transliteration": "phobēthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
-        ]
-      },
-      "φοβήθητε": {
-        "transliteration": "phobḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "φοβηθῶμεν": {
-        "transliteration": "phobēthō̂men",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"] }
-        ]
-      },
-      "φοβῆται": {
-        "transliteration": "phobē̂tai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "φοβοῦ": {
-        "transliteration": "phoboû",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "φοβοῦμαι": {
-        "transliteration": "phoboûmai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "φοβούμεθα": {
-        "transliteration": "phoboúmetha",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "φοβούμεναι": {
-        "transliteration": "phoboúmenai",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "fem"]
-          },
-          { "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "fem"] }
-        ]
-      },
-      "φοβούμενοι": {
-        "transliteration": "phoboúmenoi",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβούμενοί": {
-        "transliteration": "phoboúmenoí",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβουμένοις": {
-        "transliteration": "phobouménois",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβούμενος": {
-        "transliteration": "phoboúmenos",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          }
-        ]
-      }
-    }
-  },
   "φοβερίζω": {
     "language": "greek",
     "pos": "verb",
@@ -6789,6 +6593,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "φοβηθη", "aor": "φοβηθη" },
+    "shortDefinition": "to fear; fig. to revere, respect, venerate",
+    "indices": { "strongs": "G5399" },
     "inflections": {
       "ἐφόβει": {
         "transliteration": "ephóbei",
@@ -6807,12 +6613,16 @@
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐφοβήθη": {
         "transliteration": "ephobḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐφοβήθημεν": {
         "transliteration": "ephobḗthēmen",
@@ -6828,7 +6638,10 @@
       },
       "ἐφοβήθησαν": {
         "transliteration": "ephobḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐφοβήθησάν": {
         "transliteration": "ephobḗthēsán",
@@ -6846,12 +6659,19 @@
           { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] }
         ]
       },
+      "ἐφοβούμην": {
+        "transliteration": "ephoboúmēn",
+        "cells": [
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "ἐφοβοῦντο": {
         "transliteration": "ephoboûnto",
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
       },
       "πεφόβησθε": {
@@ -6867,7 +6687,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
+          { "parse": ["verb", "pres", "pas", "inf"] },
+          { "parse": ["verb", "pres", "midpas-dep", "inf"] }
         ]
       },
       "φοβεῖσθαί": {
@@ -6886,7 +6707,8 @@
           { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] },
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "φοβεῖσθέ": {
@@ -6925,14 +6747,22 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "φοβηθείς": {
         "transliteration": "phobētheís",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "φοβηθεῖσα": {
+        "transliteration": "phobētheîsa",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "fem"] }
         ]
       },
       "φοβηθεῖσιν": {
@@ -6960,12 +6790,17 @@
         "transliteration": "phobēthéntes",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "φοβηθῇ": {
         "transliteration": "phobēthē̂",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"] }
+        ]
       },
       "φοβηθῆναί": {
         "transliteration": "phobēthē̂naí",
@@ -6973,7 +6808,10 @@
       },
       "φοβηθῇς": {
         "transliteration": "phobēthē̂s",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
+        ]
       },
       "φοβηθήσεσθε": {
         "transliteration": "phobēthḗsesthe",
@@ -7000,7 +6838,8 @@
         "transliteration": "phobēthḗsomai",
         "cells": [
           { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }
+          { "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"] }
         ]
       },
       "φοβηθησόμεθα": {
@@ -7028,14 +6867,17 @@
         "transliteration": "phobēthē̂te",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
         ]
       },
       "φοβήθητε": {
         "transliteration": "phobḗthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "φοβήθητι": {
@@ -7056,7 +6898,10 @@
       },
       "φοβηθῶμεν": {
         "transliteration": "phobēthō̂men",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"] }
+        ]
       },
       "φοβηθῶσιν": {
         "transliteration": "phobēthō̂sin",
@@ -7078,12 +6923,19 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-2", "pl"] }
         ]
       },
+      "φοβῆται": {
+        "transliteration": "phobē̂tai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"] }
+        ]
+      },
       "φοβοῦ": {
         "transliteration": "phoboû",
         "cells": [
           { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"] }
         ]
       },
       "φοβοῦμαι": {
@@ -7091,7 +6943,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
         ]
       },
       "φοβούμεθα": {
@@ -7099,7 +6952,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ind", "pers-1", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
         ]
       },
       "φοβούμεθά": {
@@ -7118,7 +6972,11 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "fem"]
+          },
+          { "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "φοβουμένη": {
@@ -7140,7 +6998,13 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
         ]
       },
       "φοβούμενοί": {
@@ -7151,7 +7015,13 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
         ]
       },
       "φοβουμένοις": {
@@ -7162,7 +7032,10 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "dat", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "dat", "pl", "neut"] },
           { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "pl", "masc"]
+          }
         ]
       },
       "φοβούμενον": {
@@ -7187,7 +7060,10 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
         ]
       },
       "φοβουμένου": {
@@ -9666,17 +9542,6 @@
       }
     }
   },
-  "φυλακίζομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "φυλακισθῆναι": {
-        "transliteration": "phylakisthē̂nai",
-        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
-      }
-    }
-  },
   "φυλακίζω": {
     "language": "greek",
     "pos": "verb",
@@ -9688,6 +9553,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "φυλακισθῆναι": {
+        "transliteration": "phylakisthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       }
     }
   },
@@ -10540,10 +10409,10 @@
       }
     }
   },
-  "φύρομαι": {
+  "φύρω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
     "inflections": {
       "πέφυρμαι": {
         "transliteration": "péphyrmai",
@@ -10600,6 +10469,14 @@
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
+      "πεφυρμένος": {
+        "transliteration": "pephyrménos",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "φύρεται": {
         "transliteration": "phýretai",
         "cells": [
@@ -10614,21 +10491,6 @@
           { "parse": ["verb", "pres", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }
-        ]
-      }
-    }
-  },
-  "φύρω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "πεφυρμένος": {
-        "transliteration": "pephyrménos",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       }
     }

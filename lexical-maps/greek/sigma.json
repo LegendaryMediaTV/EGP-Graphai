@@ -7140,26 +7140,19 @@
       }
     }
   },
-  "σημειόομαι": {
+  "σημειόω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
     "indices": { "strongs": "G4593" },
     "inflections": {
-      "σημειοῦσθε": {
-        "transliteration": "sēmeioûsthe",
-        "cells": [{ "parse": ["verb", "pres", "mid", "imp", "pers-2", "pl"] }]
-      }
-    }
-  },
-  "σημειόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
       "ἐσημειώθη": {
         "transliteration": "esēmeiṓthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "σημειοῦσθε": {
+        "transliteration": "sēmeioûsthe",
+        "cells": [{ "parse": ["verb", "pres", "mid", "imp", "pers-2", "pl"] }]
       }
     }
   },
@@ -14466,11 +14459,10 @@
       }
     }
   },
-  "σπλαγχνίζομαι": {
+  "σπλαγχνίζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
+    "conjugation": "thematic",
     "indices": { "strongs": "G4697" },
     "inflections": {
       "ἐσπλαγχνίσθη": {
@@ -14478,6 +14470,10 @@
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
         ]
+      },
+      "σπλαγχνίζειν": {
+        "transliteration": "splanchnízein",
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
       "σπλαγχνίζομαι": {
         "transliteration": "splanchnízomai",
@@ -14490,17 +14486,6 @@
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "σπλαγχνίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "σπλαγχνίζειν": {
-        "transliteration": "splanchnízein",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       }
     }
   },
@@ -15915,10 +15900,6 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
-      },
-      "συστέλλεσθαι": {
-        "transliteration": "systéllesthai",
-        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
       }
     }
   },
@@ -18035,24 +18016,6 @@
       }
     }
   },
-  "στόρνυμι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "athematic",
-    "inflections": {
-      "ἐστρωμέναι": {
-        "transliteration": "estrōménai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "fem"] }
-        ]
-      }
-    }
-  },
   "στοχάζομαι": {
     "language": "greek",
     "pos": "verb",
@@ -18074,17 +18037,6 @@
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
-      "στοχάσασθαι": {
-        "transliteration": "stochásasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
-  "στοχάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
       "στόχασαί": {
         "transliteration": "stóchasaí",
         "cells": [
@@ -18092,6 +18044,10 @@
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
+      },
+      "στοχάσασθαι": {
+        "transliteration": "stochásasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       }
     }
   },
@@ -19102,16 +19058,6 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
-      },
-      "στροφῆς": {
-        "transliteration": "strophē̂s",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }]
-      },
-      "συστρέψας": {
-        "transliteration": "systrépsas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
-        ]
       }
     }
   },
@@ -19323,6 +19269,10 @@
       "στροφάς": {
         "transliteration": "strophás",
         "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+      },
+      "στροφῆς": {
+        "transliteration": "strophē̂s",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -19428,6 +19378,17 @@
       "ἔστρωκα": {
         "transliteration": "éstrōka",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐστρωμέναι": {
+        "transliteration": "estrōménai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "fem"] }
+        ]
       },
       "ἐστρωμένης": {
         "transliteration": "estrōménēs",
@@ -20714,27 +20675,6 @@
       }
     }
   },
-  "συγκλάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "συνεκλασ" },
-    "inflections": {
-      "συνέκλασας": {
-        "transliteration": "synéklasas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
-        ]
-      },
-      "συνεκλάσθη": {
-        "transliteration": "syneklásthē",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "συγκλαίω": {
     "language": "greek",
     "pos": "verb",
@@ -20771,10 +20711,24 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "stems": { "aor": "συνεκλασ" },
     "inflections": {
+      "συνέκλασας": {
+        "transliteration": "synéklasas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
       "συνέκλασεν": {
         "transliteration": "synéklasen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "συνεκλάσθη": {
+        "transliteration": "syneklásthē",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
+        ]
       }
     }
   },
@@ -22198,6 +22152,10 @@
         "transliteration": "syllaleîn",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
+      "συλλαλῇ": {
+        "transliteration": "syllalē̂",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
+      },
       "συλλαλήσαντες": {
         "transliteration": "syllalḗsantes",
         "cells": [
@@ -22918,28 +22876,12 @@
       }
     }
   },
-  "συλλυπέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "deponent": true,
-    "indices": { "strongs": "G4818" },
-    "inflections": {
-      "συλλυπούμενος": {
-        "transliteration": "syllypoúmenos",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          }
-        ]
-      }
-    }
-  },
   "συλλυπέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "συλλυπηθη", "aor": "συλελυπη", "perf": "συλλελυπη" },
+    "indices": { "strongs": "G4818" },
     "inflections": {
       "συλλυπηθήσεται": {
         "transliteration": "syllypēthḗsetai",
@@ -22963,6 +22905,14 @@
           { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
+        ]
+      },
+      "συλλυπούμενος": {
+        "transliteration": "syllypoúmenos",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
         ]
       }
     }
@@ -23917,6 +23867,12 @@
         "transliteration": "symmachḗsousín",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
+      "συμμαχοῦντα": {
+        "transliteration": "symmachoûnta",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] }
+        ]
+      },
       "συμμαχοῦντος": {
         "transliteration": "symmachoûntos",
         "cells": [
@@ -23974,29 +23930,6 @@
       }
     }
   },
-  "συμμάχομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "stems": { "aor": "συμμαχουντ" },
-    "inflections": {
-      "συμμάχου": {
-        "transliteration": "symmáchou",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "συμμαχοῦντα": {
-        "transliteration": "symmachoûnta",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "σύμμαχος": {
     "language": "greek",
     "pos": "noun",
@@ -24023,6 +23956,10 @@
           { "parse": ["noun", "acc", "sg", "fem"] },
           { "parse": ["noun", "acc", "sg", "masc"] }
         ]
+      },
+      "συμμάχου": {
+        "transliteration": "symmáchou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "συμμάχους": {
         "transliteration": "symmáchous",
@@ -24818,10 +24755,6 @@
       "συμπάσχομεν": {
         "transliteration": "sympáschomen",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }]
-      },
-      "συμπατήθητι": {
-        "transliteration": "sympatḗthēti",
-        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
       }
     }
   },
@@ -24834,6 +24767,10 @@
       "συμπατηθήσεται": {
         "transliteration": "sympatēthḗsetai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "συμπατήθητι": {
+        "transliteration": "sympatḗthēti",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
       },
       "συμπατήσει": {
         "transliteration": "sympatḗsei",
@@ -25124,10 +25061,6 @@
       "συμπληροῦσθαι": {
         "transliteration": "symplēroûsthai",
         "cells": [{ "parse": ["verb", "pres", "pas", "inf"] }]
-      },
-      "συμπλήρωσιν": {
-        "transliteration": "symplḗrōsin",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "συνεπληροῦντο": {
         "transliteration": "syneplēroûnto",
@@ -26336,13 +26269,6 @@
     "shortDefinition": "to gather together",
     "indices": { "strongs": "G4863" },
     "inflections": {
-      "ἐπισυνηγμένοι": {
-        "transliteration": "episynēgménoi",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
       "συνάγαγε": {
         "transliteration": "synágage",
         "cells": [
@@ -29166,6 +29092,13 @@
     "conjugation": "athematic",
     "stems": { "fut": "συνεπιθη", "perf": "συνεπεθη", "aor": "συνεπεθε" },
     "inflections": {
+      "συνεπέθεντο": {
+        "transliteration": "synepéthento",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "sg"] }
+        ]
+      },
       "συνεπιθῇ": {
         "transliteration": "synepithē̂",
         "cells": [
@@ -33688,13 +33621,6 @@
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] }
         ]
       },
-      "συνεπέθεντο": {
-        "transliteration": "synepéthento",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
-      },
       "συνετέθειντο": {
         "transliteration": "synetétheinto",
         "cells": [{ "parse": ["verb", "plup", "mid", "ind", "pers-3", "pl"] }]
@@ -34045,12 +33971,6 @@
           { "parse": ["verb", "pres", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "συστρέφων": {
-        "transliteration": "systréphōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -34885,6 +34805,10 @@
     "language": "greek",
     "pos": "noun",
     "inflections": {
+      "συριγμοῖς": {
+        "transliteration": "syrigmoîs",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "συριγμόν": {
         "transliteration": "syrigmón",
         "cells": [
@@ -34955,10 +34879,6 @@
     "language": "greek",
     "pos": "noun",
     "inflections": {
-      "συριγμοῖς": {
-        "transliteration": "syrigmoîs",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      },
       "συρισμόν": {
         "transliteration": "syrismón",
         "cells": [
@@ -35621,6 +35541,10 @@
       "συνέστειλεν": {
         "transliteration": "synésteilen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "συστέλλεσθαι": {
+        "transliteration": "systéllesthai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
       }
     }
   },
@@ -35842,10 +35766,22 @@
           { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"] }
         ]
       },
+      "συστρέφων": {
+        "transliteration": "systréphōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "συστρέψαντος": {
         "transliteration": "systrépsantos",
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
+      "συστρέψας": {
+        "transliteration": "systrépsas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
       }
     }

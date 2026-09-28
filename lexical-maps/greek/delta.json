@@ -11170,10 +11170,6 @@
     "conjugation": "athematic-middle",
     "stems": { "aor": "διιπταντο" },
     "inflections": {
-      "διεπέτασα": {
-        "transliteration": "diepétasa",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
-      },
       "διιπτάντος": {
         "transliteration": "diiptántos",
         "cells": [
@@ -11231,6 +11227,10 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
+      },
+      "διεπέτασα": {
+        "transliteration": "diepétasa",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
       "διεπετάσαμεν": {
         "transliteration": "diepetásamen",
@@ -11373,12 +11373,11 @@
       }
     }
   },
-  "διαπονέομαι": {
+  "διαπονέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "deponent": true,
-    "shortDefinition": "to exasperate",
+    "shortDefinition": "to thoroughly pain; fig. to exasperate, behave meticulously",
     "indices": { "strongs": "G1278" },
     "inflections": {
       "διαπονηθείς": {
@@ -11386,6 +11385,10 @@
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "διαπονηθήσεται": {
+        "transliteration": "diaponēthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "διαπονούμενοι": {
         "transliteration": "diaponoúmenoi",
@@ -11397,17 +11400,6 @@
             "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
           }
         ]
-      }
-    }
-  },
-  "διαπονέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "διαπονηθήσεται": {
-        "transliteration": "diaponēthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "διαπονοῦντες": {
         "transliteration": "diaponoûntes",
@@ -12186,7 +12178,9 @@
         "transliteration": "dierrēchótes",
         "cells": [
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "διερρηχώς": {
@@ -12207,20 +12201,6 @@
         "transliteration": "dierrōgótas",
         "cells": [
           { "parse": ["verb", "perf", "act", "ptc", "acc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
-  "διαρρήσσω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "διερρηχότες": {
-        "transliteration": "dierrēchótes",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }
@@ -16007,24 +15987,12 @@
       }
     }
   },
-  "διαχωρίζομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "indices": { "strongs": "G1316" },
-    "inflections": {
-      "διαχωρίζεσθαι": {
-        "transliteration": "diachōrízesthai",
-        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
-      }
-    }
-  },
   "διαχωρίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "διακεχωρισμενο", "fut": "διαχωρι" },
+    "indices": { "strongs": "G1316" },
     "inflections": {
       "διακεχωρισμένοι": {
         "transliteration": "diakechōrisménoi",
@@ -16057,6 +16025,10 @@
       "διαχωρίζειν": {
         "transliteration": "diachōrízein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+      },
+      "διαχωρίζεσθαι": {
+        "transliteration": "diachōrízesthai",
+        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
       },
       "διαχωρίζον": {
         "transliteration": "diachōrízon",
@@ -18103,6 +18075,14 @@
         "transliteration": "diexélthoi",
         "cells": [
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg", "second"] }
+        ]
+      },
+      "διεξελθοῦσα": {
+        "transliteration": "diexelthoûsa",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ptc", "nom", "sg", "fem"]
+          }
         ]
       },
       "διεξῆλθεν": {
@@ -25537,6 +25517,10 @@
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
+      "ἐδυνήθησαν": {
+        "transliteration": "edynḗthēsan",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+      },
       "ἠδύναντο": {
         "transliteration": "ēdýnanto",
         "cells": [
@@ -26083,17 +26067,6 @@
       }
     }
   },
-  "δύνομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ἐδυνήθησαν": {
-        "transliteration": "edynḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "δύνω": {
     "language": "greek",
     "pos": "verb",
@@ -26164,10 +26137,6 @@
       "ἔδυσαν": {
         "transliteration": "édysan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      },
-      "ἐνεδιδύσκοντο": {
-        "transliteration": "enedidýskonto",
-        "cells": [{ "parse": ["verb", "plup", "mid", "ind", "pers-3", "pl"] }]
       }
     }
   },

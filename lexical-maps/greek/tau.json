@@ -570,17 +570,6 @@
     },
     "gender": "masc"
   },
-  "ταμιεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ταμιεύσεταί": {
-        "transliteration": "tamieúsetaí",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
   "ταμιεύω": {
     "language": "greek",
     "pos": "verb",
@@ -593,6 +582,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ταμιεύσεταί": {
+        "transliteration": "tamieúsetaí",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -4440,18 +4433,6 @@
         "transliteration": "terébinthos",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
-      "τερεμίνθου": {
-        "transliteration": "teremínthou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "τερέμινθος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "2f",
-    "inflections": {
       "τερέμινθον": {
         "transliteration": "teréminthon",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -4462,6 +4443,10 @@
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "masc"] }
         ]
+      },
+      "τερεμίνθου": {
+        "transliteration": "teremínthou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -6340,10 +6325,6 @@
       "ἐτίθουν": {
         "transliteration": "etíthoun",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "ἠθέτηκα": {
-        "transliteration": "ēthétēka",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
       },
       "θείη": {
         "transliteration": "theíē",

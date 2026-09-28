@@ -477,23 +477,16 @@
       }
     }
   },
-  "θαμβέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "ἐθαμβήθη": {
-        "transliteration": "ethambḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
   "θαμβέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
     "indices": { "strongs": "G2284" },
     "inflections": {
+      "ἐθαμβήθη": {
+        "transliteration": "ethambḗthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἐθαμβήθην": {
         "transliteration": "ethambḗthēn",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
@@ -1528,49 +1521,6 @@
       }
     }
   },
-  "θαρρέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "indices": { "strongs": "G2292" },
-    "inflections": {
-      "θάρρει": {
-        "transliteration": "thárrei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "θαρρῆσαι": {
-        "transliteration": "tharrē̂sai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
-      },
-      "θαρροῦμεν": {
-        "transliteration": "tharroûmen",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }]
-      },
-      "θαρροῦντας": {
-        "transliteration": "tharroûntas",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "θαρροῦντες": {
-        "transliteration": "tharroûntes",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "θαρρῶ": {
-        "transliteration": "tharrō̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
   "Θαρσα": {
     "language": "greek",
     "pos": "noun",
@@ -1611,39 +1561,143 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "indices": { "strongs": "G2293" },
+    "indices": { "strongs": ["G2292", "G2293"] },
     "inflections": {
+      "θάρρει": {
+        "transliteration": "thárrei",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+            "indices": { "strongs": "G2292" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2292" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2292" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2292" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2292" }
+          }
+        ]
+      },
+      "θαρρῆσαι": {
+        "transliteration": "tharrē̂sai",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "inf"],
+            "indices": { "strongs": "G2292" }
+          }
+        ]
+      },
+      "θαρροῦμεν": {
+        "transliteration": "tharroûmen",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"],
+            "indices": { "strongs": "G2292" }
+          }
+        ]
+      },
+      "θαρροῦντας": {
+        "transliteration": "tharroûntas",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"],
+            "indices": { "strongs": "G2292" }
+          }
+        ]
+      },
+      "θαρροῦντες": {
+        "transliteration": "tharroûntes",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+            "indices": { "strongs": "G2292" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G2292" }
+          }
+        ]
+      },
       "θαρροῦσα": {
         "transliteration": "tharroûsa",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"],
+            "indices": { "strongs": "G2293" }
+          }
+        ]
+      },
+      "θαρρῶ": {
+        "transliteration": "tharrō̂",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2292" }
+          }
         ]
       },
       "θαρσεῖ": {
         "transliteration": "tharseî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
+          {
+            "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+            "indices": { "strongs": "G2293" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2293" }
+          }
         ]
       },
       "θάρσει": {
         "transliteration": "thársei",
-        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
+            "indices": { "strongs": "G2293" }
+          }
+        ]
       },
       "θαρσεῖτε": {
         "transliteration": "tharseîte",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
+          {
+            "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
+            "indices": { "strongs": "G2293" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2293" }
+          }
         ]
       },
       "θαρσήσατε": {
         "transliteration": "tharsḗsate",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"],
+            "indices": { "strongs": "G2293" }
+          }
+        ]
       },
       "θάρσησον": {
         "transliteration": "thársēson",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"],
+            "indices": { "strongs": "G2293" }
+          }
+        ]
       }
     }
   },
@@ -5526,18 +5580,6 @@
       }
     }
   },
-  "θημωνία": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-a",
-    "inflections": {
-      "θιμωνιάν": {
-        "transliteration": "thimōnián",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "Θηνασα": {
     "language": "greek",
     "pos": "noun",
@@ -5630,23 +5672,6 @@
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      }
-    }
-  },
-  "θηρεύσω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "θηρεύσει": {
-        "transliteration": "thēreúsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       }
     }
@@ -5754,6 +5779,16 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      },
+      "θηρεύσει": {
+        "transliteration": "thēreúsei",
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       },
       "θηρεύσεις": {
@@ -6186,6 +6221,8 @@
   "θιμωνιά": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
     "inflections": {
       "θιμωνιά": {
         "transliteration": "thimōniá",
@@ -6193,6 +6230,10 @@
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "voc", "sg", "fem"] }
         ]
+      },
+      "θιμωνιάν": {
+        "transliteration": "thimōnián",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "θιμωνιάς": {
         "transliteration": "thimōniás",

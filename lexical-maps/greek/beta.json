@@ -4129,10 +4129,6 @@
       "ἐβαρύνθησαν": {
         "transliteration": "ebarýnthēsan",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "καταβαρυνθῶμεν": {
-        "transliteration": "katabarynthō̂men",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
       }
     }
   },
@@ -5942,34 +5938,12 @@
       }
     }
   },
-  "βδελύσσομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "indices": { "strongs": "G948" },
-    "inflections": {
-      "βδελυσσόμενος": {
-        "transliteration": "bdelyssómenos",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          }
-        ]
-      },
-      "ἐβδελυγμένοις": {
-        "transliteration": "ebdelygménois",
-        "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "βδελύσσω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "βδελυξ", "perf": "εβδελυκ", "fut": "βδελυχ" },
+    "indices": { "strongs": "G948" },
     "inflections": {
       "βδελύξαι": {
         "transliteration": "bdelýxai",
@@ -6082,7 +6056,10 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
         ]
       },
       "βδελύσσονται": {
@@ -6119,6 +6096,12 @@
         "transliteration": "ebdelygménoi",
         "cells": [
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ἐβδελυγμένοις": {
+        "transliteration": "ebdelygménois",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "ἐβδελυγμένον": {
@@ -9726,10 +9709,6 @@
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
         ]
       },
-      "ἐβοήθησαν": {
-        "transliteration": "eboḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
       "ἐβόησα": {
         "transliteration": "ebóēsa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -10032,6 +10011,10 @@
       "ἐβοήθησά": {
         "transliteration": "eboḗthēsá",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐβοήθησαν": {
+        "transliteration": "eboḗthēsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐβοήθησας": {
         "transliteration": "eboḗthēsas",
@@ -10982,53 +10965,6 @@
       }
     }
   },
-  "βουλεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "indices": { "strongs": "G1011" },
-    "inflections": {
-      "βουλεύεται": {
-        "transliteration": "bouleúetai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "βουλεύομαι": {
-        "transliteration": "bouleúomai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "βουλευόμενος": {
-        "transliteration": "bouleuómenos",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          }
-        ]
-      },
-      "ἐβουλεύοντο": {
-        "transliteration": "ebouleúonto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐβουλεύσαντο": {
-        "transliteration": "ebouleúsanto",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐβουλεύσατο": {
-        "transliteration": "ebouleúsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "βουλευτήριον": {
     "language": "greek",
     "pos": "noun",
@@ -11085,6 +11021,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "indices": { "strongs": "G1011" },
     "inflections": {
       "βεβούλευμαι": {
         "transliteration": "beboúleumai",
@@ -11121,6 +11058,18 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] }
         ]
       },
+      "βουλεύεται": {
+        "transliteration": "bouleúetai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "βουλεύομαι": {
+        "transliteration": "bouleúomai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "βουλευόμενοι": {
         "transliteration": "bouleuómenoi",
         "cells": [
@@ -11130,6 +11079,14 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "βουλευόμενος": {
+        "transliteration": "bouleuómenos",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
         ]
       },
       "βουλευομένων": {
@@ -11216,12 +11173,16 @@
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
       },
       "ἐβουλεύσαντο": {
         "transliteration": "ebouleúsanto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐβουλεύσασθε": {
         "transliteration": "ebouleúsasthe",
@@ -11229,7 +11190,10 @@
       },
       "ἐβουλεύσατο": {
         "transliteration": "ebouleúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐβούλευσεν": {
         "transliteration": "eboúleusen",

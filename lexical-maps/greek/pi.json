@@ -3987,7 +3987,7 @@
       }
     }
   },
-  "παραδεικύω": {
+  "παραδείκνυμι": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
@@ -5372,10 +5372,6 @@
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
         ]
-      },
-      "παρεκατέθετο": {
-        "transliteration": "parekatétheto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -5894,6 +5890,10 @@
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }
         ]
+      },
+      "παρεκατέθετο": {
+        "transliteration": "parekatétheto",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       },
       "παρεκατετιθέμην": {
         "transliteration": "parekatetithémēn",
@@ -9497,150 +9497,7 @@
       }
     }
   },
-  "παρεῖδον": {
-    "language": "greek",
-    "pos": "verb",
-    "stems": { "aor": "παριδ", "fut": "παρορ" },
-    "inflections": {
-      "παρεωραμένος": {
-        "transliteration": "pareōraménos",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "παρεωραμένῳ": {
-        "transliteration": "pareōraménō",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"] }
-        ]
-      },
-      "πάριδε": {
-        "transliteration": "páride",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
-      "παριδεῖν": {
-        "transliteration": "parideîn",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf", "second"] }]
-      },
-      "παρίδῃ": {
-        "transliteration": "parídē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
-      "παρίδῃς": {
-        "transliteration": "parídēs",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg", "second"] }
-        ]
-      },
-      "παριδόντα": {
-        "transliteration": "paridónta",
-        "cells": [
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "pl",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "sg",
-              "masc",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "pl",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "pl",
-              "neut",
-              "second"
-            ]
-          }
-        ]
-      },
-      "παριδών": {
-        "transliteration": "paridṓn",
-        "cells": [
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "sg",
-              "masc",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "sg",
-              "masc",
-              "second"
-            ]
-          }
-        ]
-      },
-      "παροραθήσεσθαι": {
-        "transliteration": "parorathḗsesthai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "inf"] }]
-      },
-      "παρορᾷς": {
-        "transliteration": "parorâs",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
-      },
-      "παρορῶ": {
-        "transliteration": "parorō̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
-      },
-      "παρόψεται": {
-        "transliteration": "parópsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "πάρειμι": {
+  "πάρειμι¹": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "listed",
@@ -9719,12 +9576,6 @@
         "transliteration": "parē̂san",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
-      "παριόντας": {
-        "transliteration": "parióntas",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
       "παρόν": {
         "transliteration": "parón",
         "cells": [
@@ -9800,6 +9651,25 @@
         "transliteration": "parṓn",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      }
+    }
+  },
+  "πάρειμι²": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "listed",
+    "inflections": {
+      "παριόντας": {
+        "transliteration": "parióntas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "παριόντων": {
+        "transliteration": "parióntōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -11473,12 +11343,6 @@
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
-      },
-      "παριόντων": {
-        "transliteration": "parióntōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
-        ]
       }
     }
   },
@@ -12701,6 +12565,149 @@
       "παρόρασις": {
         "transliteration": "parórasis",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      }
+    }
+  },
+  "παροράω": {
+    "language": "greek",
+    "pos": "verb",
+    "stems": { "aor": "παριδ", "fut": "παρορ" },
+    "inflections": {
+      "παρεωραμένος": {
+        "transliteration": "pareōraménos",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "παρεωραμένῳ": {
+        "transliteration": "pareōraménō",
+        "cells": [
+          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"] }
+        ]
+      },
+      "πάριδε": {
+        "transliteration": "páride",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "παριδεῖν": {
+        "transliteration": "parideîn",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf", "second"] }]
+      },
+      "παρίδῃ": {
+        "transliteration": "parídē",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
+          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "παρίδῃς": {
+        "transliteration": "parídēs",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
+      "παριδόντα": {
+        "transliteration": "paridónta",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "pl",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "sg",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "pl",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "pl",
+              "neut",
+              "second"
+            ]
+          }
+        ]
+      },
+      "παριδών": {
+        "transliteration": "paridṓn",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "sg",
+              "masc",
+              "second"
+            ]
+          }
+        ]
+      },
+      "παροραθήσεσθαι": {
+        "transliteration": "parorathḗsesthai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "inf"] }]
+      },
+      "παρορᾷς": {
+        "transliteration": "parorâs",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "παρορῶ": {
+        "transliteration": "parorō̂",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
+      "παρόψεται": {
+        "transliteration": "parópsetai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -14757,6 +14764,13 @@
           { "parse": ["verb", "aor", "act", "ptc", "acc", "pl", "masc"] }
         ]
       },
+      "πεδήσας": {
+        "transliteration": "pedḗsas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      },
       "πεπεδημένοι": {
         "transliteration": "pepedēménoi",
         "cells": [
@@ -14788,20 +14802,6 @@
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
-  "πεδέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "πεδήσας": {
-        "transliteration": "pedḗsas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       }
     }
@@ -15712,13 +15712,6 @@
         "transliteration": "epeírazon",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
-      "ἐπειράθη": {
-        "transliteration": "epeiráthē",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
-        ]
-      },
       "ἐπείρασα": {
         "transliteration": "epeírasa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -15905,33 +15898,6 @@
       }
     }
   },
-  "πειράομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "deponent": true,
-    "indices": { "strongs": "G3987" },
-    "inflections": {
-      "ἐπειρᾶτο": {
-        "transliteration": "epeirâto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐπειρῶντο": {
-        "transliteration": "epeirō̂nto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "πεπειραμένον": {
-        "transliteration": "pepeiraménon",
-        "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "πειρασμός": {
     "language": "greek",
     "pos": "noun",
@@ -16044,7 +16010,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "indices": { "strongs": "G3987" },
     "inflections": {
+      "ἐπειράθη": {
+        "transliteration": "epeiráthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἐπειράθημεν": {
         "transliteration": "epeiráthēmen",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"] }]
@@ -16054,7 +16025,8 @@
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐπειρῶντο": {
@@ -16062,12 +16034,9 @@
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
-      },
-      "πεῖραν": {
-        "transliteration": "peîran",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
       "πειράσομαι": {
         "transliteration": "peirásomai",
@@ -16076,6 +16045,12 @@
       "πειρασόμεθα": {
         "transliteration": "peirasómetha",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }]
+      },
+      "πεπειραμένον": {
+        "transliteration": "pepeiraménon",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -20496,27 +20471,12 @@
       }
     }
   },
-  "περιλείπομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "indices": { "strongs": "G4035" },
-    "inflections": {
-      "περιλειπόμενοι": {
-        "transliteration": "perileipómenoi",
-        "cells": [
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "περιλείπω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "περιλελειμμεν" },
+    "indices": { "strongs": "G4035" },
     "inflections": {
       "περιλειπόμενοι": {
         "transliteration": "perileipómenoi",
@@ -20526,7 +20486,9 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "περιλειπόμενον": {
@@ -25681,61 +25643,6 @@
           { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"] }
         ]
       },
-      "ἐπιόντα": {
-        "transliteration": "epiónta",
-        "cells": [
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "pl",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "sg",
-              "masc",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "pl",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "pl",
-              "neut",
-              "second"
-            ]
-          },
-          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] }
-        ]
-      },
       "ἐπίοσαν": {
         "transliteration": "epíosan",
         "cells": [
@@ -27219,6 +27126,14 @@
       "ἐπιστοποίει": {
         "transliteration": "epistopoíei",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐπιστοποίησας": {
+        "transliteration": "epistopoíēsas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -31586,10 +31501,6 @@
     "conjugation": "contract-e",
     "stems": { "aor": "επεποθη" },
     "inflections": {
-      "ἐπεπόθησεν": {
-        "transliteration": "epepóthēsen",
-        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
-      },
       "ποθεῖ": {
         "transliteration": "potheî",
         "cells": [
@@ -33995,36 +33906,28 @@
       }
     }
   },
-  "πολιτεύομαι": {
+  "πολιτεύω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
+    "conjugation": "thematic",
     "indices": { "strongs": "G4176" },
     "inflections": {
       "πεπολίτευμαι": {
         "transliteration": "pepolíteumai",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-1", "sg"] }]
       },
-      "πολιτεύεσθε": {
-        "transliteration": "politeúesthe",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
-        ]
-      }
-    }
-  },
-  "πολιτεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
       "πολιτεύεσθαι": {
         "transliteration": "politeúesthai",
         "cells": [
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
           { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
+      },
+      "πολιτεύεσθε": {
+        "transliteration": "politeúesthe",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "πολιτευόμενοι": {
@@ -38070,22 +37973,15 @@
           { "parse": ["verb", "impf", "pas-dep", "ind", "pers-1", "sg"] }
         ]
       },
+      "ἐπραγματεύσατο": {
+        "transliteration": "epragmateúsato",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
       "πραγματεύσασθε": {
         "transliteration": "pragmateúsasthe",
         "cells": [
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl"] }
         ]
-      }
-    }
-  },
-  "πραγματεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐπραγματεύσατο": {
-        "transliteration": "epragmateúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -39445,21 +39341,6 @@
       }
     }
   },
-  "προαιρέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "deponent": true,
-    "indices": { "strongs": "G4255" },
-    "inflections": {
-      "προαιρεῖται": {
-        "transliteration": "proaireîtai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "προαίρεσις": {
     "language": "greek",
     "pos": "noun",
@@ -39497,7 +39378,14 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "προειλ", "fut": "προειλ" },
+    "indices": { "strongs": "G4255" },
     "inflections": {
+      "προαιρεῖται": {
+        "transliteration": "proaireîtai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
       "προαιρούμεθα": {
         "transliteration": "proairoúmetha",
         "cells": [
@@ -41901,10 +41789,11 @@
       }
     }
   },
-  "προκαλέομαι": {
+  "προκαλέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "stems": { "fut": "προκλη", "aor": "προεκαλε", "perf": "προκεκλη" },
     "indices": { "strongs": "G4292" },
     "inflections": {
       "προκαλούμενοι": {
@@ -41913,15 +41802,7 @@
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] }
         ]
-      }
-    }
-  },
-  "προκαλέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "stems": { "fut": "προκλη", "aor": "προεκαλε", "perf": "προκεκλη" },
-    "inflections": {
+      },
       "προκαλούμενος": {
         "transliteration": "prokaloúmenos",
         "cells": [
@@ -43962,6 +43843,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "stems": { "aor": "προσειπ" },
     "indices": { "strongs": "G4316" },
     "inflections": {
       "προσαγορευθείς": {
@@ -43992,6 +43874,18 @@
       "προσαγορεύσεις": {
         "transliteration": "prosagoreúseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "προσεῖπας": {
+        "transliteration": "proseîpas",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
+        ]
+      },
+      "προσεῖπεν": {
+        "transliteration": "proseîpen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
       },
       "προσηγόρευνται": {
         "transliteration": "prosēgóreuntai",
@@ -45529,25 +45423,6 @@
       }
     }
   },
-  "προσεῖπον": {
-    "language": "greek",
-    "pos": "verb",
-    "stems": { "aor": "προσειπ" },
-    "inflections": {
-      "προσεῖπας": {
-        "transliteration": "proseîpas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
-        ]
-      },
-      "προσεῖπεν": {
-        "transliteration": "proseîpen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
-      }
-    }
-  },
   "προσεκκαίω": {
     "language": "greek",
     "pos": "verb",
@@ -46917,73 +46792,12 @@
       }
     }
   },
-  "προσκαλέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "deponent": true,
-    "indices": { "strongs": "G4341" },
-    "inflections": {
-      "προσεκλήθη": {
-        "transliteration": "proseklḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "προσκαλεῖται": {
-        "transliteration": "proskaleîtai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "προσκαλεσάμενοι": {
-        "transliteration": "proskalesámenoi",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "προσκαλεσάμενος": {
-        "transliteration": "proskalesámenos",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "προσκαλεσάμενός": {
-        "transliteration": "proskalesámenós",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "προσκαλεσάσθω": {
-        "transliteration": "proskalesásthō",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-3", "sg"] }
-        ]
-      },
-      "προσκαλέσηται": {
-        "transliteration": "proskalésētai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "προσκέκλημαι": {
-        "transliteration": "proskéklēmai",
-        "cells": [
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "προσκέκληται": {
-        "transliteration": "proskéklētai",
-        "cells": [
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "προσκαλέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "προσκληθ", "aor": "προσεκλη", "perf": "προσκεκλη" },
+    "indices": { "strongs": "G4341" },
     "inflections": {
       "προσεκαλέσαντο": {
         "transliteration": "prosekalésanto",
@@ -47013,7 +46827,8 @@
         "transliteration": "proseklḗthē",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "προσεκλήθησαν": {
@@ -47022,10 +46837,30 @@
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
         ]
       },
+      "προσκαλεῖται": {
+        "transliteration": "proskaleîtai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "προσκαλεσάμενοι": {
+        "transliteration": "proskalesámenoi",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
       "προσκαλεσάμενος": {
         "transliteration": "proskalesámenos",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "προσκαλεσάμενός": {
+        "transliteration": "proskalesámenós",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "προσκαλεσαμένου": {
@@ -47035,9 +46870,21 @@
           { "parse": ["verb", "aor", "mid", "ptc", "gen", "sg", "neut"] }
         ]
       },
+      "προσκαλεσάσθω": {
+        "transliteration": "proskalesásthō",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-3", "sg"] }
+        ]
+      },
       "προσκαλέσεται": {
         "transliteration": "proskalésetai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "προσκαλέσηται": {
+        "transliteration": "proskalésētai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
+        ]
       },
       "προσκαλουμένη": {
         "transliteration": "proskalouménē",
@@ -47058,12 +46905,19 @@
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "προσκέκλημαι": {
+        "transliteration": "proskéklēmai",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "προσκέκληται": {
         "transliteration": "proskéklētai",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "προσκληθείς": {
@@ -51784,25 +51638,11 @@
       }
     }
   },
-  "προτρέπομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "indices": { "strongs": "G4389" },
-    "inflections": {
-      "προτρεψάμενοι": {
-        "transliteration": "protrepsámenoi",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "προτρέπω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "indices": { "strongs": "G4389" },
     "inflections": {
       "προετρέπετο": {
         "transliteration": "proetrépeto",
@@ -51820,6 +51660,13 @@
         "transliteration": "protrepsaménēs",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ptc", "gen", "sg", "fem"] }
+        ]
+      },
+      "προτρεψάμενοι": {
+        "transliteration": "protrepsámenoi",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
         ]
       }
     }

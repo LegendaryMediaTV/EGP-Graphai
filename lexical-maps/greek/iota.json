@@ -7229,10 +7229,10 @@
       }
     }
   },
-  "ἱππάζομαι": {
+  "ἱππάζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
     "inflections": {
       "ἱππαζόμενοι": {
         "transliteration": "hippazómenoi",
@@ -7252,14 +7252,7 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "acc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"] }
         ]
-      }
-    }
-  },
-  "ἱππάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
+      },
       "ἱππάσονται": {
         "transliteration": "hippásontai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]

@@ -3,7 +3,6 @@
   "language": "greek",
   "description": "Cell-level Strong's numbers. The corpus tags at the lexical level, so every form of εἰμί arrives as G1510; the index also has finer numbers (G2076 for the third singular present, G2258 for the imperfect) that belong on particular cells. Each rule names a root and the parse codes a cell must carry, or a single spelling, to take the number. Numbers listed as unplaced are real index entries whose word does not occur in this corpus, or whose split is by sense rather than by parse and so cannot be a rule.",
   "rules": [
-    { "n": "G2036", "root": "λέγω", "requires": ["aor"] },
     {
       "n": "G2076",
       "root": "εἰμί",
@@ -53,7 +52,7 @@
       "requires": ["pres", "imp", "pers-3", "sg"],
       "spelling": "ἤτω"
     },
-    { "n": "G4483", "root": "ἐρῶ", "requires": ["aor", "pas"] },
+    { "n": "G4483", "root": "λέγω", "requires": ["aor", "pas"] },
     { "n": "G4280", "root": "προλέγω", "requires": ["perf"] },
     { "n": "G4277", "root": "προλέγω", "requires": ["aor"] },
     { "n": "G471", "root": "ἀντιλέγω", "requires": ["aor", "inf"] },
@@ -67,8 +66,8 @@
     { "n": "G3700", "root": "ὁράω", "requires": ["fut"] },
     { "n": "G3700", "root": "ὁράω", "requires": ["aor", "pas"] },
     { "n": "G3700", "root": "ὁράω", "requires": ["aor", "mid-dep"] },
-    { "n": "G3415", "root": "μιμνῄσκομαι", "requires": ["aor", "pas"] },
-    { "n": "G3415", "root": "μιμνῄσκομαι", "requires": ["perf", "pas"] },
+    { "n": "G3415", "root": "μιμνῄσκω", "requires": ["aor", "pas"] },
+    { "n": "G3415", "root": "μιμνῄσκω", "requires": ["perf", "pas"] },
     { "n": "G1507", "root": "ἑλίσσω", "requires": ["pres", "pas", "ptc"] },
     {
       "n": "G2467",
@@ -136,7 +135,16 @@
     { "n": "G2566", "root": "καλός", "requires": ["adv", "comp"] },
     { "n": "G3755", "root": "ὅστις", "requires": ["attic"] },
     { "n": "G4412", "root": "πρῶτος", "requires": ["adv"] },
-    { "n": "G1452", "root": "ἐγγύς", "requires": ["comp"] }
+    { "n": "G1452", "root": "ἐγγύς", "requires": ["comp"] },
+    { "n": "G2036", "root": "λέγω", "requires": ["aor", "act"] },
+    { "n": "G4483", "root": "λέγω", "requires": ["fut", "pas"] },
+    { "n": "G2046", "root": "λέγω", "requires": ["fut", "act"] },
+    { "n": "G2046", "root": "λέγω", "requires": ["perf"] },
+    { "n": "G2046", "root": "λέγω", "requires": ["plup"] },
+    { "n": "G3004", "root": "λέγω", "requires": ["pres"] },
+    { "n": "G3004", "root": "λέγω", "requires": ["impf"] },
+    { "n": "G2903", "root": "κρείσσων", "requires": ["adj", "super"] },
+    { "n": "G1646", "root": "ἐλάσσων", "requires": ["adj", "super"] }
   ],
   "unplaced": [
     { "n": "G4054", "reason": "sense split, not a parse cell" },

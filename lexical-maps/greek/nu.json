@@ -5426,12 +5426,19 @@
       }
     }
   },
-  "νοσφίζομαι": {
+  "νοσφίζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
     "indices": { "strongs": "G3557" },
     "inflections": {
+      "ἐνοσφίσαντο": {
+        "transliteration": "enosphísanto",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
+        ]
+      },
       "ἐνοσφίσατο": {
         "transliteration": "enosphísato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
@@ -5442,30 +5449,20 @@
           { "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "masc"] }
         ]
       },
-      "νοσφίσασθαί": {
-        "transliteration": "nosphísasthaí",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
-  "νοσφίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐνοσφίσαντο": {
-        "transliteration": "enosphísanto",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
-      },
       "νοσφισάμενος": {
         "transliteration": "nosphisámenos",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ptc", "gen", "sg", "neut"] },
           { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "νοσφίσασθαι": {
+        "transliteration": "nosphísasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+      },
+      "νοσφίσασθαί": {
+        "transliteration": "nosphísasthaí",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       }
     }
   },

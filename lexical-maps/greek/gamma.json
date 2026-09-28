@@ -1302,22 +1302,6 @@
       }
     }
   },
-  "Γαλάται": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
-    "inflections": {
-      "Γαλάταις": {
-        "transliteration": "Galátais",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      },
-      "Γαλάτας": {
-        "transliteration": "Galátas",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
-      }
-    }
-  },
   "Γαλάτης": {
     "language": "greek",
     "pos": "noun",
@@ -1331,6 +1315,14 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "Γαλάταις": {
+        "transliteration": "Galátais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
+      "Γαλάτας": {
+        "transliteration": "Galátas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -3478,6 +3470,13 @@
     "declension": "3n-ma",
     "indices": { "strongs": "G1081" },
     "inflections": {
+      "γένημα": {
+        "transliteration": "génēma",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
+      },
       "γενήμασίν": {
         "transliteration": "genḗmasín",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -4001,14 +4000,6 @@
     "declension": "3n-ma",
     "indices": { "strongs": "G1081" },
     "inflections": {
-      "γένημα": {
-        "transliteration": "génēma",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      },
       "γένημά": {
         "transliteration": "génēmá",
         "cells": [
@@ -4472,80 +4463,6 @@
       }
     }
   },
-  "γεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "shortDefinition": "to taste; fig. to eat, experience",
-    "indices": { "strongs": "G1089" },
-    "inflections": {
-      "γευσάμενος": {
-        "transliteration": "geusámenos",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "γευσαμένους": {
-        "transliteration": "geusaménous",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "γεύσασθαι": {
-        "transliteration": "geúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "γεύσεται": {
-        "transliteration": "geúsetai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "γεύσεταί": {
-        "transliteration": "geúsetaí",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "γεύσῃ": {
-        "transliteration": "geúsē",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "sg"] }
-        ]
-      },
-      "γεύσηται": {
-        "transliteration": "geúsētai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "γεύσονται": {
-        "transliteration": "geúsontai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "γεύσωνται": {
-        "transliteration": "geúsōntai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"] }
-        ]
-      },
-      "ἐγεύσασθε": {
-        "transliteration": "egeúsasthe",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἐγεύσατο": {
-        "transliteration": "egeúsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "γεῦσις": {
     "language": "greek",
     "pos": "noun",
@@ -4570,6 +4487,8 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to taste; fig. to eat, experience",
+    "indices": { "strongs": "G1089" },
     "inflections": {
       "γεύεται": {
         "transliteration": "geúetai",
@@ -4582,12 +4501,22 @@
       "γευσάμενος": {
         "transliteration": "geusámenos",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γευσαμένους": {
+        "transliteration": "geusaménous",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "γεύσασθαι": {
         "transliteration": "geúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "inf"] },
+          { "parse": ["verb", "aor", "mid-dep", "inf"] }
+        ]
       },
       "γεύσασθαί": {
         "transliteration": "geúsasthaí",
@@ -4603,7 +4532,28 @@
       },
       "γεύσεται": {
         "transliteration": "geúsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "γεύσεταί": {
+        "transliteration": "geúsetaí",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "γεύσῃ": {
+        "transliteration": "geúsē",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "sg"] }
+        ]
+      },
+      "γεύσηται": {
+        "transliteration": "geúsētai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
+        ]
       },
       "γεύσομαι": {
         "transliteration": "geúsomai",
@@ -4613,17 +4563,38 @@
         "transliteration": "geûsón",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
       },
+      "γεύσονται": {
+        "transliteration": "geúsontai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
       "γεύσωμαι": {
         "transliteration": "geúsōmai",
         "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-1", "sg"] }]
+      },
+      "γεύσωνται": {
+        "transliteration": "geúsōntai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"] }
+        ]
       },
       "ἐγευσάμην": {
         "transliteration": "egeusámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
       },
+      "ἐγεύσασθε": {
+        "transliteration": "egeúsasthe",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἐγεύσατο": {
         "transliteration": "egeúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },

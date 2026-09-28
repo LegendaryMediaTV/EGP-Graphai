@@ -2066,10 +2066,6 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
-      "ῥήσεις": {
-        "transliteration": "rhḗseis",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
-      },
       "ῥυήσεται": {
         "transliteration": "rhyḗsetai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
@@ -3788,7 +3784,8 @@
       "ἐρρύσθη": {
         "transliteration": "errýsthē",
         "cells": [
-          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐρρύσθημεν": {
@@ -3821,7 +3818,10 @@
       "ῥύεται": {
         "transliteration": "rhýetai",
         "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "ῥυόμενοι": {
@@ -4205,21 +4205,6 @@
       "ῥυτίδα": {
         "transliteration": "rhytída",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "ῥύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ῥύεται": {
-        "transliteration": "rhýetai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
-        ]
       }
     }
   },

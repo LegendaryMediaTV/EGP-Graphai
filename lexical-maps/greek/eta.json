@@ -2500,6 +2500,71 @@
       }
     }
   },
+  "ἥσσων": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "comparative",
+    "indices": { "strongs": "G2276" },
+    "inflections": {
+      "ἡσσόνων": {
+        "transliteration": "hēssónōn",
+        "cells": [
+          { "parse": ["adj", "comp", "gen", "pl", "fem"] },
+          { "parse": ["adj", "comp", "gen", "pl", "masc"] },
+          { "parse": ["adj", "comp", "gen", "pl", "neut"] }
+        ]
+      },
+      "ἥσσων": {
+        "transliteration": "hḗssōn",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
+          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
+        ]
+      },
+      "ἧττον": {
+        "transliteration": "hē̂tton",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "ἥττονα": {
+        "transliteration": "hḗttona",
+        "cells": [
+          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
+          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
+          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
+          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
+          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
+        ]
+      },
+      "ἥττονες": {
+        "transliteration": "hḗttones",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "pl", "fem"] },
+          { "parse": ["adj", "comp", "nom", "pl", "masc"] },
+          { "parse": ["adj", "comp", "voc", "pl", "fem"] },
+          { "parse": ["adj", "comp", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἥττονι": {
+        "transliteration": "hḗttoni",
+        "cells": [
+          { "parse": ["adj", "comp", "dat", "sg", "fem"] },
+          { "parse": ["adj", "comp", "dat", "sg", "masc"] },
+          { "parse": ["adj", "comp", "dat", "sg", "neut"] }
+        ]
+      },
+      "ἥττων": {
+        "transliteration": "hḗttōn",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
+          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
+        ]
+      }
+    }
+  },
   "Ησυηλος": {
     "language": "greek",
     "pos": "noun",
@@ -2715,33 +2780,11 @@
       "ἤτοι": { "transliteration": "ḗtoi", "cells": [{ "parse": ["conj"] }] }
     }
   },
-  "ἡττάομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "deponent": true,
-    "indices": { "strongs": "G2274" },
-    "inflections": {
-      "ἡττήθητε": {
-        "transliteration": "hēttḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἥττηται": {
-        "transliteration": "hḗttētai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "ἡττῶνται": {
-        "transliteration": "hēttō̂ntai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "ἡττάω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "indices": { "strongs": "G2274" },
     "inflections": {
       "ἡττᾶσθε": {
         "transliteration": "hēttâsthe",
@@ -2807,6 +2850,12 @@
         "transliteration": "hēttēthḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       },
+      "ἡττήθητε": {
+        "transliteration": "hēttḗthēte",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἡττήσεις": {
         "transliteration": "hēttḗseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
@@ -2815,6 +2864,10 @@
         "transliteration": "hēttḗsōsi",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
+      "ἥττηται": {
+        "transliteration": "hḗttētai",
+        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἡττώμενος": {
         "transliteration": "hēttṓmenos",
         "cells": [
@@ -2822,6 +2875,10 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "ἡττῶνται": {
+        "transliteration": "hēttō̂ntai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -2838,77 +2895,6 @@
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
-  "ἥττον": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "comparative",
-    "inflections": {
-      "ἡσσόνων": {
-        "transliteration": "hēssónōn",
-        "cells": [
-          { "parse": ["adj", "comp", "gen", "pl", "fem"] },
-          { "parse": ["adj", "comp", "gen", "pl", "masc"] },
-          { "parse": ["adj", "comp", "gen", "pl", "neut"] }
-        ]
-      },
-      "ἥσσων": {
-        "transliteration": "hḗssōn",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
-          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
-        ]
-      },
-      "ἥττονα": {
-        "transliteration": "hḗttona",
-        "cells": [
-          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
-          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
-          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
-          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
-          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
-        ]
-      },
-      "ἥττονες": {
-        "transliteration": "hḗttones",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "pl", "fem"] },
-          { "parse": ["adj", "comp", "nom", "pl", "masc"] },
-          { "parse": ["adj", "comp", "voc", "pl", "fem"] },
-          { "parse": ["adj", "comp", "voc", "pl", "masc"] }
-        ]
-      },
-      "ἥττονι": {
-        "transliteration": "hḗttoni",
-        "cells": [
-          { "parse": ["adj", "comp", "dat", "sg", "fem"] },
-          { "parse": ["adj", "comp", "dat", "sg", "masc"] },
-          { "parse": ["adj", "comp", "dat", "sg", "neut"] }
-        ]
-      },
-      "ἥττων": {
-        "transliteration": "hḗttōn",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
-          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "ἥττων": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G2276" },
-    "inflections": {
-      "ἧττον": {
-        "transliteration": "hē̂tton",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -3006,6 +2992,12 @@
         "transliteration": "ēchḗsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
+      "ἠχοῦντι": {
+        "transliteration": "ēchoûnti",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
+        ]
+      },
       "ἠχοῦσαν": {
         "transliteration": "ēchoûsan",
         "cells": [
@@ -3072,21 +3064,12 @@
   },
   "ἠχώ": {
     "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
+    "pos": "noun",
+    "gender": "fem",
     "inflections": {
-      "ἠχοῦντι": {
-        "transliteration": "ēchoûnti",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
-        ]
-      },
       "ἠχώ": {
         "transliteration": "ēchṓ",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   }

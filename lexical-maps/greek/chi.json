@@ -2062,24 +2062,6 @@
       }
     }
   },
-  "χαριτόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "κεχαριτωμένῳ": {
-        "transliteration": "kecharitōménō",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "neut"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "χαριτόω": {
     "language": "greek",
     "pos": "verb",
@@ -2095,6 +2077,17 @@
         "transliteration": "kecharitōménē",
         "cells": [
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
+      "κεχαριτωμένῳ": {
+        "transliteration": "kecharitōménō",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "masc"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "dat", "sg", "neut"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "dat", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "dat", "sg", "neut"] }
         ]
       }
     }
@@ -3066,21 +3059,6 @@
       }
     }
   },
-  "χειρόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "χειρώσασθαι": {
-        "transliteration": "cheirṓsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      },
-      "χειρώσηται": {
-        "transliteration": "cheirṓsētai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
-      }
-    }
-  },
   "χειροπέδη": {
     "language": "greek",
     "pos": "noun",
@@ -3185,6 +3163,14 @@
           { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "χειρώσασθαι": {
+        "transliteration": "cheirṓsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+      },
+      "χειρώσηται": {
+        "transliteration": "cheirṓsētai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
       }
     }
   },
@@ -3201,6 +3187,10 @@
           { "parse": ["adj", "nom", "pl", "neut", "super"] },
           { "parse": ["adj", "voc", "pl", "neut", "super"] }
         ]
+      },
+      "χειρίστους": {
+        "transliteration": "cheirístous",
+        "cells": [{ "parse": ["adj", "super", "acc", "pl", "masc"] }]
       },
       "χειρίστῳ": {
         "transliteration": "cheirístō",
@@ -3693,17 +3683,6 @@
       }
     }
   },
-  "χερσόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "χερσωθήσονται": {
-        "transliteration": "chersōthḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "χέρσος": {
     "language": "greek",
     "pos": "noun",
@@ -3742,6 +3721,10 @@
       "χερσωθήσεται": {
         "transliteration": "chersōthḗsetai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "χερσωθήσονται": {
+        "transliteration": "chersōthḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },

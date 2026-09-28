@@ -464,22 +464,6 @@
       }
     }
   },
-  "ᾠκοδομέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "ᾠκοδομημένην": {
-        "transliteration": "ōkodomēménēn",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "acc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "Ωλα": {
     "language": "greek",
     "pos": "noun",
