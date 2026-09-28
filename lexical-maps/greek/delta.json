@@ -610,23 +610,12 @@
       }
     }
   },
-  "δακτύλιον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "indices": { "strongs": "G1146" },
-    "inflections": {
-      "δακτύλιον": {
-        "transliteration": "daktýlion",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      }
-    }
-  },
   "δακτύλιος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "indices": { "strongs": "G1146" },
     "inflections": {
       "δακτύλιοι": {
         "transliteration": "daktýlioi",
@@ -1949,6 +1938,12 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
         ]
       },
+      "δέοντά": {
+        "transliteration": "déontá",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] }
+        ]
+      },
       "ἔδει": {
         "transliteration": "édei",
         "cells": [
@@ -2031,90 +2026,6 @@
     "shortDefinition": "to show, reveal",
     "indices": { "strongs": "G1166" },
     "inflections": {
-      "δεικνύειν": {
-        "transliteration": "deiknýein",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
-      },
-      "δεικνύεις": {
-        "transliteration": "deiknýeis",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
-      },
-      "δείκνυμι": {
-        "transliteration": "deíknymi",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
-      },
-      "δεικνύοντός": {
-        "transliteration": "deiknýontós",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
-        ]
-      },
-      "δείκνυσιν": {
-        "transliteration": "deíknysin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
-      },
-      "δεῖξαι": {
-        "transliteration": "deîxai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
-      },
-      "δεῖξαί": {
-        "transliteration": "deîxaí",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
-      },
-      "δειξάτω": {
-        "transliteration": "deixátō",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] }]
-      },
-      "δείξει": {
-        "transliteration": "deíxei",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
-      },
-      "δεῖξον": {
-        "transliteration": "deîxon",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
-      },
-      "δεῖξόν": {
-        "transliteration": "deîxón",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
-      },
-      "δείξω": {
-        "transliteration": "deíxō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      },
-      "δειχθέντα": {
-        "transliteration": "deichthénta",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"] }
-        ]
-      },
-      "ἔδειξα": {
-        "transliteration": "édeixa",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
-      },
-      "ἔδειξε": {
-        "transliteration": "édeixe",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἔδειξέ": {
-        "transliteration": "édeixé",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἔδειξεν": {
-        "transliteration": "édeixen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ἔδειξέν": {
-        "transliteration": "édeixén",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "δεικνύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "δειξ", "fut": "δειξ" },
-    "inflections": {
       "δεδειγμένον": {
         "transliteration": "dedeigménon",
         "cells": [
@@ -2129,10 +2040,28 @@
         "transliteration": "dédeichá",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
       },
+      "δεικνύειν": {
+        "transliteration": "deiknýein",
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+      },
+      "δεικνύεις": {
+        "transliteration": "deiknýeis",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "δείκνυμι": {
+        "transliteration": "deíknymi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
       "δεικνύντας": {
         "transliteration": "deiknýntas",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "δεικνύοντός": {
+        "transliteration": "deiknýontós",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
       },
       "δεικνύουσιν": {
@@ -2145,6 +2074,10 @@
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "δείκνυσιν": {
+        "transliteration": "deíknysin",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "δεικνύω": {
         "transliteration": "deiknýō",
@@ -2160,6 +2093,14 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "δεῖξαι": {
+        "transliteration": "deîxai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
+      "δεῖξαί": {
+        "transliteration": "deîxaí",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+      },
       "δείξας": {
         "transliteration": "deíxas",
         "cells": [
@@ -2172,6 +2113,14 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"] }
         ]
+      },
+      "δειξάτω": {
+        "transliteration": "deixátō",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] }]
+      },
+      "δείξει": {
+        "transliteration": "deíxei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "δείξεις": {
         "transliteration": "deíxeis",
@@ -2292,14 +2241,20 @@
       "δείξω": {
         "transliteration": "deíxō",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] }
         ]
       },
       "δείξωσιν": {
         "transliteration": "deíxōsin",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl", "second"] }
+        ]
+      },
+      "δειχθέντα": {
+        "transliteration": "deichthénta",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"] }
         ]
       },
       "δειχθῆναι": {
@@ -2313,6 +2268,7 @@
       "ἔδειξα": {
         "transliteration": "édeixa",
         "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
         ]
       },
@@ -2334,15 +2290,25 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
       },
+      "ἔδειξε": {
+        "transliteration": "édeixe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔδειξέ": {
+        "transliteration": "édeixé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔδειξεν": {
         "transliteration": "édeixen",
         "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
       "ἔδειξέν": {
         "transliteration": "édeixén",
         "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
@@ -3638,22 +3604,111 @@
     "shortDefinition": "to beg",
     "indices": { "strongs": "G1189" },
     "inflections": {
+      "δεδέημαι": {
+        "transliteration": "dedéēmai",
+        "cells": [
+          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "δέεσθαί": {
+        "transliteration": "déesthaí",
+        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
+      },
+      "δεηθείς": {
+        "transliteration": "deētheís",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "δεηθέντος": {
+        "transliteration": "deēthéntos",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
       "δεηθέντων": {
         "transliteration": "deēthéntōn",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ptc", "gen", "pl", "masc"] }
         ]
       },
+      "δεηθῆναι": {
+        "transliteration": "deēthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas-dep", "inf"] }]
+      },
+      "δεηθῆναί": {
+        "transliteration": "deēthē̂naí",
+        "cells": [{ "parse": ["verb", "aor", "pas-dep", "inf"] }]
+      },
+      "δεηθήσεται": {
+        "transliteration": "deēthḗsetai",
+        "cells": [
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "δεηθήσῃ": {
+        "transliteration": "deēthḗsē",
+        "cells": [
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "δεηθήσομαι": {
+        "transliteration": "deēthḗsomai",
+        "cells": [
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "δεηθήσονται": {
+        "transliteration": "deēthḗsontai",
+        "cells": [
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
       "δεήθητε": {
         "transliteration": "deḗthēte",
         "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
         ]
       },
       "δεήθητι": {
         "transliteration": "deḗthēti",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "sg"] }
+        ]
+      },
+      "δεηθῶμεν": {
+        "transliteration": "deēthō̂men",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"] }
+        ]
+      },
+      "δεηθῶσιν": {
+        "transliteration": "deēthō̂sin",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "pl"] }
+        ]
+      },
+      "δεηθῶσίν": {
+        "transliteration": "deēthō̂sín",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "pl"] }
+        ]
+      },
+      "δέηται": {
+        "transliteration": "déētai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"] }
+        ]
+      },
+      "δεῖσθαι": {
+        "transliteration": "deîsthai",
+        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
+      },
+      "δεῖται": {
+        "transliteration": "deîtai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "δέομαι": {
@@ -3751,6 +3806,22 @@
           }
         ]
       },
+      "δεόμενός": {
+        "transliteration": "deómenós",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
+        ]
+      },
+      "δεομένου": {
+        "transliteration": "deoménou",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "gen", "sg", "masc"]
+          }
+        ]
+      },
       "δεομένων": {
         "transliteration": "deoménōn",
         "cells": [
@@ -3792,10 +3863,34 @@
           { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
         ]
       },
+      "ἐδεήθημεν": {
+        "transliteration": "edeḗthēmen",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-1", "pl"] }
+        ]
+      },
       "ἐδεήθην": {
         "transliteration": "edeḗthēn",
         "cells": [
           { "parse": ["verb", "aor", "pas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἐδεήθης": {
+        "transliteration": "edeḗthēs",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ἐδεήθησαν": {
+        "transliteration": "edeḗthēsan",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ἐδεήθησάν": {
+        "transliteration": "edeḗthēsán",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
         ]
       },
       "ἐδεῖτο": {
@@ -3807,6 +3902,12 @@
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐδέοντο": {
+        "transliteration": "edéonto",
+        "cells": [
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
       }
     }
@@ -4981,14 +5082,6 @@
     "shortDefinition": "to bind",
     "indices": { "strongs": "G1210" },
     "inflections": {
-      "δεδέημαι": {
-        "transliteration": "dedéēmai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-1", "sg"] }
-        ]
-      },
       "δεδεκώς": {
         "transliteration": "dedekṓs",
         "cells": [
@@ -5062,86 +5155,6 @@
           { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
         ]
       },
-      "δέεσθαί": {
-        "transliteration": "déesthaí",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "inf"] },
-          { "parse": ["verb", "pres", "midpas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
-        ]
-      },
-      "δεηθείς": {
-        "transliteration": "deētheís",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] }
-        ]
-      },
-      "δεηθέντος": {
-        "transliteration": "deēthéntos",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "neut"] }
-        ]
-      },
-      "δεηθῆναι": {
-        "transliteration": "deēthē̂nai",
-        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
-      },
-      "δεηθῆναί": {
-        "transliteration": "deēthē̂naí",
-        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
-      },
-      "δεηθήσεται": {
-        "transliteration": "deēthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "δεηθήσῃ": {
-        "transliteration": "deēthḗsē",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] }]
-      },
-      "δεηθήσομαι": {
-        "transliteration": "deēthḗsomai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }]
-      },
-      "δεηθήσονται": {
-        "transliteration": "deēthḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "δεήθητε": {
-        "transliteration": "deḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
-      },
-      "δεήθητι": {
-        "transliteration": "deḗthēti",
-        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
-      },
-      "δεηθῶμεν": {
-        "transliteration": "deēthō̂men",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
-      },
-      "δεηθῶσιν": {
-        "transliteration": "deēthō̂sin",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
-      },
-      "δεηθῶσίν": {
-        "transliteration": "deēthō̂sín",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
-      },
-      "δέηται": {
-        "transliteration": "déētai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"] }
-        ]
-      },
       "δεθῆναι": {
         "transliteration": "dethē̂nai",
         "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
@@ -5153,103 +5166,6 @@
       "δεθήσονται": {
         "transliteration": "dethḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "δεῖσθαι": {
-        "transliteration": "deîsthai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "inf"] },
-          { "parse": ["verb", "pres", "midpas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
-        ]
-      },
-      "δεῖται": {
-        "transliteration": "deîtai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "δέομαι": {
-        "transliteration": "déomai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "δεόμεθα": {
-        "transliteration": "deómetha",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "δεόμενον": {
-        "transliteration": "deómenon",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
-        ]
-      },
-      "δεόμενος": {
-        "transliteration": "deómenos",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "δεόμενός": {
-        "transliteration": "deómenós",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "δεομένου": {
-        "transliteration": "deoménou",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "neut"] }
-        ]
-      },
-      "δεομένων": {
-        "transliteration": "deoménōn",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"] }
-        ]
-      },
-      "δέοντά": {
-        "transliteration": "déontá",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
-        ]
       },
       "δῆσαι": {
         "transliteration": "dē̂sai",
@@ -5320,38 +5236,6 @@
         "transliteration": "dḗsōsín",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
-      "ἐδέετο": {
-        "transliteration": "edéeto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐδεήθη": {
-        "transliteration": "edeḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "ἐδεήθημεν": {
-        "transliteration": "edeḗthēmen",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"] }]
-      },
-      "ἐδεήθην": {
-        "transliteration": "edeḗthēn",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
-      },
-      "ἐδεήθης": {
-        "transliteration": "edeḗthēs",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
-      },
-      "ἐδεήθησαν": {
-        "transliteration": "edeḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "ἐδεήθησάν": {
-        "transliteration": "edeḗthēsán",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
       "ἐδέθη": {
         "transliteration": "edéthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
@@ -5359,22 +5243,6 @@
       "ἐδέθησαν": {
         "transliteration": "edéthēsan",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "ἐδεῖτο": {
-        "transliteration": "edeîto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐδέοντο": {
-        "transliteration": "edéonto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
-        ]
       },
       "ἔδησαν": {
         "transliteration": "édēsan",
@@ -13138,40 +13006,13 @@
       }
     }
   },
-  "διαστέλλομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "shortDefinition": "to order",
-    "indices": { "strongs": "G1291" },
-    "inflections": {
-      "διαστελλόμενον": {
-        "transliteration": "diastellómenon",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
-        ]
-      },
-      "διεστειλάμεθα": {
-        "transliteration": "diesteilámetha",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
-      },
-      "διεστείλατο": {
-        "transliteration": "diesteílato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "διεστέλλετο": {
-        "transliteration": "diestélleto",
-        "cells": [{ "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
   "διαστέλλω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "διαστελ" },
+    "shortDefinition": "to order",
+    "indices": { "strongs": "G1291" },
     "inflections": {
       "διασταλήσεται": {
         "transliteration": "diastalḗsetai",
@@ -13230,6 +13071,14 @@
         "transliteration": "diastéllein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
+      "διαστελλόμενον": {
+        "transliteration": "diastellómenon",
+        "cells": [
+          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
+        ]
+      },
       "διαστέλλουσα": {
         "transliteration": "diastéllousa",
         "cells": [
@@ -13278,6 +13127,10 @@
         "transliteration": "diésteila",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
+      "διεστειλάμεθα": {
+        "transliteration": "diesteilámetha",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
+      },
       "διέστειλαν": {
         "transliteration": "diésteilan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
@@ -13301,6 +13154,10 @@
       "διέστελλεν": {
         "transliteration": "diéstellen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "διεστέλλετο": {
+        "transliteration": "diestélleto",
+        "cells": [{ "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] }]
       },
       "διέστελλον": {
         "transliteration": "diéstellon",
@@ -25757,7 +25614,8 @@
         "cells": [
           {
             "parse": ["verb", "attic", "aor", "pas-dep", "ind", "pers-3", "sg"]
-          }
+          },
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "ἠδυνήθημεν": {
@@ -26578,18 +26436,6 @@
       }
     }
   },
-  "δυσμαί": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "indices": { "strongs": "G1424" },
-    "inflections": {
-      "δυσμῶν": {
-        "transliteration": "dysmō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
   "δυσμένεια": {
     "language": "greek",
     "pos": "noun",
@@ -26666,6 +26512,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "indices": { "strongs": "G1424" },
     "inflections": {
       "δυσμαῖς": {
         "transliteration": "dysmaîs",

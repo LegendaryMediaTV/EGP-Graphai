@@ -2793,6 +2793,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "stems": { "perf": "μαλακισ" },
     "inflections": {
       "ἐμαλακίσθη": {
         "transliteration": "emalakísthē",
@@ -2816,18 +2817,6 @@
       "μαλακίσθητι": {
         "transliteration": "malakísthēti",
         "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
-      }
-    }
-  },
-  "μαλακίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "perf": "μαλακισ" },
-    "inflections": {
-      "ἐμαλακίσθη": {
-        "transliteration": "emalakísthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
       },
       "μεμαλάκισται": {
         "transliteration": "memalákistai",
@@ -13137,10 +13126,11 @@
       }
     }
   },
-  "μεταπέμπομαι": {
+  "μεταπέμπω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "stems": { "aor": "μεταεπεμψ", "fut": "μεταπεμψ" },
     "shortDefinition": "to send for",
     "indices": { "strongs": "G3343" },
     "inflections": {
@@ -13168,25 +13158,13 @@
         "transliteration": "metapémpsētai",
         "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
       },
-      "μετεπέμψασθέ": {
-        "transliteration": "metepémpsasthé",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "pl"] }]
-      },
-      "μετεπέμψατο": {
-        "transliteration": "metepémpsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "μεταπέμπω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "μεταεπεμψ", "fut": "μεταπεμψ" },
-    "inflections": {
       "μεταπέμψομαί": {
         "transliteration": "metapémpsomaí",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+      },
+      "μετεπέμψασθέ": {
+        "transliteration": "metepémpsasthé",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "pl"] }]
       },
       "μετεπέμψατο": {
         "transliteration": "metepémpsato",
@@ -14809,17 +14787,6 @@
       }
     }
   },
-  "Μήδης": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μήδων": {
-        "transliteration": "Mḗdōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Μηδία": {
     "language": "greek",
     "pos": "noun",
@@ -14878,26 +14845,12 @@
       }
     }
   },
-  "Μῆδοι": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "indices": { "strongs": "G3370" },
-    "inflections": {
-      "Μῆδοι": {
-        "transliteration": "Mē̂doi",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "Μῆδος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "indices": { "strongs": "G3370" },
     "inflections": {
       "Μῆδοι": {
         "transliteration": "Mē̂doi",
@@ -14923,18 +14876,10 @@
       },
       "Μήδων": {
         "transliteration": "Mḗdōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      }
-    }
-  },
-  "Μήδων": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μήδων": {
-        "transliteration": "Mḗdōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "indecl-proper"] }
+        ]
       }
     }
   },
@@ -16551,66 +16496,6 @@
       }
     }
   },
-  "μικρύνω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "σμικρυν", "fut": "σμικρυν" },
-    "inflections": {
-      "ἐσμικρύνθημεν": {
-        "transliteration": "esmikrýnthēmen",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "pl"] }]
-      },
-      "σμικρυνθήσεται": {
-        "transliteration": "smikrynthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "σμίκρυνον": {
-        "transliteration": "smíkrynon",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          }
-        ]
-      }
-    }
-  },
   "μικρῶς": {
     "language": "greek",
     "pos": "adv",
@@ -17706,23 +17591,6 @@
       }
     }
   },
-  "μισθόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "shortDefinition": "to hire",
-    "indices": { "strongs": "G3409" },
-    "inflections": {
-      "ἐμισθώσατο": {
-        "transliteration": "emisthṓsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "μισθώσασθαι": {
-        "transliteration": "misthṓsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
   "μισθός": {
     "language": "greek",
     "pos": "noun",
@@ -17757,6 +17625,8 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to hire",
+    "indices": { "strongs": "G3409" },
     "inflections": {
       "ἐμισθωσάμην": {
         "transliteration": "emisthōsámēn",
@@ -18759,34 +18629,27 @@
       }
     }
   },
-  "μοιχάομαι": {
+  "μοιχάω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
-    "deponent": true,
     "shortDefinition": "to commit adultery",
     "indices": { "strongs": "G3429" },
     "inflections": {
       "ἐμοιχᾶτο": {
         "transliteration": "emoichâto",
         "cells": [
-          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "mid-dep", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas-dep", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐμοιχῶντο": {
         "transliteration": "emoichō̂nto",
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "mid-dep", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "mid-dep", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "pas-dep", "ind", "pers-3", "pl"] }
         ]
       },
@@ -18872,21 +18735,6 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "pas-dep", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "pas-dep", "subj", "pers-3", "pl"] }
-        ]
-      }
-    }
-  },
-  "μοιχάω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "inflections": {
-      "ἐμοιχῶντο": {
-        "transliteration": "emoichō̂nto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
         ]
       }
     }
@@ -21531,17 +21379,6 @@
       }
     }
   },
-  "Μωαβείτης": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μωαβιτῶν": {
-        "transliteration": "Mōabitō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Μωαβι": {
     "language": "greek",
     "pos": "noun",
@@ -21580,7 +21417,10 @@
       },
       "Μωαβιτῶν": {
         "transliteration": "Mōabitō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "indecl-proper"] }
+        ]
       }
     }
   },
@@ -21616,17 +21456,6 @@
       "Μωαβῖτίς": {
         "transliteration": "Mōabîtís",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      }
-    }
-  },
-  "Μωάβιτος": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μωαβιτῶν": {
-        "transliteration": "Mōabitō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -22124,6 +21953,10 @@
       "Μωσῆς": {
         "transliteration": "Mōsē̂s",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "Μωϋσεῖ": {
+        "transliteration": "Mōÿseî",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "Μωυσέως": {
         "transliteration": "Mōyséōs",

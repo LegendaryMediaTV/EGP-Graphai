@@ -3520,7 +3520,9 @@
   "Ῥουβήν": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "3-cons",
+    "indices": { "strongs": "G4502" },
     "inflections": {
       "Ρουβην": {
         "transliteration": "Roubēn",
@@ -3528,9 +3530,12 @@
           { "parse": ["noun", "indecl-proper"] },
           { "parse": ["noun", "nom", "sg", "masc"] }
         ]
+      },
+      "Ῥουβήν": {
+        "transliteration": "Rhoubḗn",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "Ρουβηνι": {
     "language": "greek",
@@ -3673,17 +3678,6 @@
       "ῥύδην": {
         "transliteration": "rhýdēn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "ῥυέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "ῥυήσεται": {
-        "transliteration": "rhyḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },

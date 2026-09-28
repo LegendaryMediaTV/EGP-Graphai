@@ -120,6 +120,7 @@
   "ὕαλος": {
     "language": "greek",
     "pos": "noun",
+    "indices": { "strongs": "G5194" },
     "inflections": {
       "ὕαλος": {
         "transliteration": "hýalos",
@@ -130,6 +131,10 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὑάλῳ": {
+        "transliteration": "hyálō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -950,10 +955,6 @@
     "declension": "2m",
     "indices": { "strongs": "G5194" },
     "inflections": {
-      "ὑάλῳ": {
-        "transliteration": "hyálō",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
-      },
       "ὕελος": {
         "transliteration": "hýelos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]

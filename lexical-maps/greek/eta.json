@@ -1581,6 +1581,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "1f-a",
     "shortDefinition": "a day; fig. a time period",
     "indices": { "strongs": "G2250" },
     "inflections": {
@@ -1617,18 +1618,6 @@
       "ἡμερῶν": {
         "transliteration": "hēmerō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
-  "Ἡμέρα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-a",
-    "inflections": {
-      "Ἡμέραν": {
-        "transliteration": "Hēméran",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },

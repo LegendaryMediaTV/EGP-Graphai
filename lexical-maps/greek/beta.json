@@ -7010,9 +7010,14 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "indices": { "strongs": "G955" },
     "inflections": {
       "Βελιαλ": {
         "transliteration": "Belial",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Βελίαλ": {
+        "transliteration": "Belíal",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -8114,25 +8119,11 @@
       }
     }
   },
-  "βιάζομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "indices": { "strongs": "G971" },
-    "inflections": {
-      "βιάζεται": {
-        "transliteration": "biázetai",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "βιάζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "indices": { "strongs": "G971" },
     "inflections": {
       "βιαζέσθωσαν": {
         "transliteration": "biazésthōsan",
@@ -10309,6 +10300,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "indices": { "strongs": "G1002" },
     "inflections": {
       "βολίδα": {
         "transliteration": "bolída",

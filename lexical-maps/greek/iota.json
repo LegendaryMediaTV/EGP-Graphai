@@ -2032,25 +2032,6 @@
       }
     }
   },
-  "ἴδε": {
-    "language": "greek",
-    "pos": "verb",
-    "indices": { "strongs": "G1492" },
-    "inflections": {
-      "ἰδέ": {
-        "transliteration": "idé",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "ἴδε": {
-        "transliteration": "íde",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"] }
-        ]
-      }
-    }
-  },
   "ἰδέα": {
     "language": "greek",
     "pos": "noun",
@@ -5963,10 +5944,6 @@
     "shortDefinition": "to reconcile",
     "indices": { "strongs": "G2433" },
     "inflections": {
-      "ἐξιλασθήσεται": {
-        "transliteration": "exilasthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
-      },
       "ἱλάσεται": {
         "transliteration": "hilásetai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
@@ -10460,6 +10437,10 @@
       },
       "Ἰωανάν": {
         "transliteration": "Iōanán",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Ἰωαννᾶ": {
+        "transliteration": "Iōannâ",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }

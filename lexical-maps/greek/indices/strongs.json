@@ -64,7 +64,6 @@
       "requires": ["second", "aor", "mid", "imp"]
     },
     { "n": "G1492", "root": "ὁράω", "requires": ["aor", "act"] },
-    { "n": "G1492", "root": "ἴδε", "requires": ["verb"] },
     { "n": "G3700", "root": "ὁράω", "requires": ["fut"] },
     { "n": "G3700", "root": "ὁράω", "requires": ["aor", "pas"] },
     { "n": "G3700", "root": "ὁράω", "requires": ["aor", "mid-dep"] },

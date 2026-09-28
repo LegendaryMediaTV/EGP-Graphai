@@ -9368,18 +9368,6 @@
       },
       "σκέπης": {
         "transliteration": "sképēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "σκέπης": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3-cons",
-    "inflections": {
-      "σκέπης": {
-        "transliteration": "sképēs",
         "cells": [
           { "parse": ["noun", "gen", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "fem"] }
@@ -9488,16 +9476,6 @@
     "declension": "1f-e",
     "indices": { "strongs": "G4631" },
     "inflections": {
-      "σκεύη": {
-        "transliteration": "skeúē",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "pl", "neut"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      },
       "σκευήν": {
         "transliteration": "skeuḗn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -10029,17 +10007,6 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "σκιρτέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "ἐσκίρτησαν": {
-        "transliteration": "eskírtēsan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -11741,6 +11708,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "stems": { "aor": "σμικρυν", "fut": "σμικρυν" },
     "inflections": {
       "ἐσμίκρυνας": {
         "transliteration": "esmíkrynas",
@@ -11772,6 +11740,10 @@
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
         ]
       },
+      "σμικρυνθήσεται": {
+        "transliteration": "smikrynthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
       "σμικρυνθῆτε": {
         "transliteration": "smikrynthē̂te",
         "cells": [
@@ -11782,6 +11754,50 @@
       "σμικρυνθῶσιν": {
         "transliteration": "smikrynthō̂sin",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
+      },
+      "σμίκρυνον": {
+        "transliteration": "smíkrynon",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "sg",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "neut",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "sg",
+              "neut",
+              "second"
+            ]
+          }
+        ]
       }
     }
   },
@@ -18234,12 +18250,24 @@
       }
     }
   },
-  "στρατεύομαι": {
+  "στρατεύω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
     "indices": { "strongs": "G4754" },
     "inflections": {
+      "ἐστράτευσεν": {
+        "transliteration": "estráteusen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "στρατεύεσθαι": {
+        "transliteration": "strateúesthai",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "inf"] },
+          { "parse": ["verb", "pres", "midpas", "inf"] },
+          { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
+      },
       "στρατεύεται": {
         "transliteration": "strateúetai",
         "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }]
@@ -18247,6 +18275,18 @@
       "στρατεύῃ": {
         "transliteration": "strateúē",
         "cells": [{ "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] }]
+      },
+      "στρατεύθητι": {
+        "transliteration": "strateúthēti",
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
+      },
+      "στρατεύομαι": {
+        "transliteration": "strateúomai",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
+        ]
       },
       "στρατευόμεθα": {
         "transliteration": "strateuómetha",
@@ -18269,41 +18309,6 @@
         "transliteration": "strateuoménōn",
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "fem"] }
-        ]
-      },
-      "στρατεύονται": {
-        "transliteration": "strateúontai",
-        "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
-  "στρατεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐστράτευσεν": {
-        "transliteration": "estráteusen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "στρατεύεσθαι": {
-        "transliteration": "strateúesthai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "inf"] },
-          { "parse": ["verb", "pres", "midpas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
-        ]
-      },
-      "στρατεύθητι": {
-        "transliteration": "strateúthēti",
-        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
-      },
-      "στρατεύομαι": {
-        "transliteration": "strateúomai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
         ]
       },
       "στρατεύονται": {
@@ -20746,10 +20751,6 @@
       "συγκλάσω": {
         "transliteration": "synklásō",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      },
-      "συνέκλασεν": {
-        "transliteration": "synéklasen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -21966,10 +21967,6 @@
       },
       "συκῶν": {
         "transliteration": "sykō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      },
-      "σύκων": {
-        "transliteration": "sýkōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
@@ -28632,53 +28629,6 @@
       }
     }
   },
-  "συνείδω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "συνοιδ" },
-    "inflections": {
-      "σύνοιδα": {
-        "transliteration": "sýnoida",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "σύνοιδεν": {
-        "transliteration": "sýnoiden",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "συνορῶν": {
-        "transliteration": "synorō̂n",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "συνορῶντες": {
-        "transliteration": "synorō̂ntes",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "συνορώντων": {
-        "transliteration": "synorṓntōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
-        ]
-      },
-      "συνορῶσα": {
-        "transliteration": "synorō̂sa",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "συνείκω": {
     "language": "greek",
     "pos": "verb",
@@ -32479,6 +32429,10 @@
       "σύνοιδα": {
         "transliteration": "sýnoida",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
+      },
+      "σύνοιδεν": {
+        "transliteration": "sýnoiden",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -32695,6 +32649,39 @@
     "inflections": {
       "συνομοροῦσα": {
         "transliteration": "synomoroûsa",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
+        ]
+      }
+    }
+  },
+  "συνοράω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "stems": { "aor": "συνοιδ" },
+    "inflections": {
+      "συνορῶν": {
+        "transliteration": "synorō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "συνορῶντες": {
+        "transliteration": "synorō̂ntes",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "συνορώντων": {
+        "transliteration": "synorṓntōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
+        ]
+      },
+      "συνορῶσα": {
+        "transliteration": "synorō̂sa",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
         ]
@@ -33655,36 +33642,12 @@
       }
     }
   },
-  "συντίθεμαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "athematic-middle",
-    "indices": { "strongs": "G4934" },
-    "inflections": {
-      "συνέθεντο": {
-        "transliteration": "synéthento",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "συνεπέθεντο": {
-        "transliteration": "synepéthento",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "συνετέθειντο": {
-        "transliteration": "synetétheinto",
-        "cells": [{ "parse": ["verb", "plup", "mid", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "συντίθημι": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
     "stems": { "fut": "συνθη", "perf": "συνηθετη", "aor": "συνεθ" },
+    "indices": { "strongs": "G4934" },
     "inflections": {
       "συνέθεντο": {
         "transliteration": "synéthento",
@@ -33724,6 +33687,17 @@
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] }
         ]
+      },
+      "συνεπέθεντο": {
+        "transliteration": "synepéthento",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
+          { "parse": ["verb", "second", "aor", "mid", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "συνετέθειντο": {
+        "transliteration": "synetétheinto",
+        "cells": [{ "parse": ["verb", "plup", "mid", "ind", "pers-3", "pl"] }]
       },
       "συνθέμενοι": {
         "transliteration": "synthémenoi",
@@ -37249,20 +37223,6 @@
       }
     }
   },
-  "σχισμάς": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "σχισμάς": {
-        "transliteration": "schismás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "σχισμή": {
     "language": "greek",
     "pos": "noun",
@@ -37271,7 +37231,11 @@
     "inflections": {
       "σχισμάς": {
         "transliteration": "schismás",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       }
     }
   },

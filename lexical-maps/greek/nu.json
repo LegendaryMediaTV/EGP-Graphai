@@ -350,18 +350,6 @@
       }
     }
   },
-  "Ναβουζαρδας": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "inflections": {
-      "Ναβουζαρδαν": {
-        "transliteration": "Nabouzardan",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
   "Ναβουθαι": {
     "language": "greek",
     "pos": "noun",
@@ -2303,10 +2291,6 @@
     "shortDefinition": "to be new, young",
     "indices": { "strongs": "G3501" },
     "inflections": {
-      "ἐνεόν": {
-        "transliteration": "eneón",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
-      },
       "νέα": {
         "transliteration": "néa",
         "cells": [
@@ -3414,17 +3398,6 @@
       "Νηριγελ": {
         "transliteration": "Nērigel",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
-      }
-    }
-  },
-  "Νηριος": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Νηριου": {
-        "transliteration": "Nēriou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },

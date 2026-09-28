@@ -777,9 +777,14 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "indices": { "strongs": "G5317" },
     "inflections": {
       "Φαλεκ": {
         "transliteration": "Phalek",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Φαλέκ": {
+        "transliteration": "Phalék",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -1673,10 +1678,7 @@
       },
       "φαρμάκοις": {
         "transliteration": "pharmákois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "neut"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "φάρμακον": {
         "transliteration": "phármakon",
@@ -2725,17 +2727,6 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "Φεισών": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Φισων": {
-        "transliteration": "Phisōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -7398,13 +7389,6 @@
       "Φοινίκης": {
         "transliteration": "Phoiníkēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "Φοινίκων": {
-        "transliteration": "Phoiníkōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] }
-        ]
       }
     }
   },
@@ -7449,6 +7433,10 @@
         "transliteration": "phoínikas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
+      "φοίνικες": {
+        "transliteration": "phoínikes",
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+      },
       "φοίνικι": {
         "transliteration": "phoíniki",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
@@ -7476,6 +7464,10 @@
       "Φοίνικα": {
         "transliteration": "Phoínika",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Φοινίκων": {
+        "transliteration": "Phoiníkōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -8699,6 +8691,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "stems": { "aor": "φριξ" },
     "indices": { "strongs": "G5425" },
     "inflections": {
       "ἔφριξαν": {
@@ -8713,6 +8706,13 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
+      "ἔφριττον": {
+        "transliteration": "éphritton",
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
+        ]
+      },
       "φρίσσουσι": {
         "transliteration": "phríssousi",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -8720,27 +8720,6 @@
       "φρίσσουσιν": {
         "transliteration": "phríssousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
-  "φρίττω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "φριξ" },
-    "inflections": {
-      "ἔφριξαν": {
-        "transliteration": "éphrixan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
-        ]
-      },
-      "ἔφριττον": {
-        "transliteration": "éphritton",
-        "cells": [
-          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
       },
       "φρίττει": {
         "transliteration": "phríttei",

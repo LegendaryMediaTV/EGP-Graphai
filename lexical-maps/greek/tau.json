@@ -2600,57 +2600,6 @@
       }
     }
   },
-  "τέθνηκα": {
-    "language": "greek",
-    "pos": "verb",
-    "stems": { "plup": "ετεθνη", "perf": "τεθνη" },
-    "shortDefinition": "to die",
-    "indices": { "strongs": "G2348" },
-    "inflections": {
-      "ἐτεθνήκει": {
-        "transliteration": "etethnḗkei",
-        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
-      },
-      "τεθνάναι": {
-        "transliteration": "tethnánai",
-        "cells": [{ "parse": ["verb", "second", "perf", "act", "inf"] }]
-      },
-      "τεθνήκασι": {
-        "transliteration": "tethnḗkasi",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "τεθνήκασιν": {
-        "transliteration": "tethnḗkasin",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "τέθνηκε": {
-        "transliteration": "téthnēke",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "τέθνηκεν": {
-        "transliteration": "téthnēken",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "τεθνηκότα": {
-        "transliteration": "tethnēkóta",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
-        ]
-      },
-      "τεθνηκότος": {
-        "transliteration": "tethnēkótos",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"] }
-        ]
-      },
-      "τεθνηκώς": {
-        "transliteration": "tethnēkṓs",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "τεθνήκω": {
     "language": "greek",
     "pos": "verb",
@@ -4823,10 +4772,6 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       },
-      "τετράδι": {
-        "transliteration": "tetrádi",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
-      },
       "τέτρασιν": {
         "transliteration": "tétrasin",
         "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
@@ -5601,25 +5546,15 @@
       },
       "τηγάνου": {
         "transliteration": "tēgánou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "neut"] },
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
+        ]
       },
       "τηγάνων": {
         "transliteration": "tēgánōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
-      }
-    }
-  },
-  "τηγάνος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "τηγάνου": {
-        "transliteration": "tēgánou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
       }
     }
   },

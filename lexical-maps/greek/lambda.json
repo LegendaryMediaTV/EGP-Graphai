@@ -3325,6 +3325,51 @@
           }
         ]
       },
+      "εἴπαμεν": {
+        "transliteration": "eípamen",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἶπαν": {
+        "transliteration": "eîpan",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἶπάν": {
+        "transliteration": "eîpán",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπας": {
+        "transliteration": "eípas",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "masc"
+            ],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
       "εἶπας": {
         "transliteration": "eîpas",
         "cells": [
@@ -3362,6 +3407,10 @@
           {
             "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
             "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3396,7 +3445,7 @@
         "transliteration": "eîpe",
         "cells": [
           {
-            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3404,11 +3453,7 @@
       "εἶπέ": {
         "transliteration": "eîpé",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
-          {
-            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
-            "indices": { "strongs": "G2036" }
-          }
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
       "εἰπεῖν": {
@@ -3498,6 +3543,45 @@
           {
             "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
             "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3510,6 +3594,10 @@
           },
           {
             "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3540,6 +3628,45 @@
               "acc",
               "sg",
               "masc"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "pl",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "pl",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "pl",
+              "neut"
             ],
             "indices": { "strongs": "G2036" }
           }
@@ -3693,6 +3820,19 @@
               "act",
               "ptc",
               "nom",
+              "sg",
+              "masc"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
               "sg",
               "masc"
             ],
@@ -4341,24 +4481,6 @@
       }
     }
   },
-  "λεία": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G3006" },
-    "inflections": {
-      "λειας": {
-        "transliteration": "leias",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
-      },
-      "λείας": {
-        "transliteration": "leías",
-        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
-      }
-    }
-  },
   "λεῖμμα": {
     "language": "greek",
     "pos": "noun",
@@ -4383,6 +4505,7 @@
   "λεῖος": {
     "language": "greek",
     "pos": "adj",
+    "indices": { "strongs": "G3006" },
     "inflections": {
       "λεῖα": {
         "transliteration": "leîa",
@@ -4392,6 +4515,13 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "λειας": {
+        "transliteration": "leias",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
         ]
       },
       "λείας": {
@@ -5231,15 +5361,25 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "indices": { "strongs": "G3017" },
+    "indices": { "strongs": ["G3017", "G3018"] },
     "inflections": {
       "Λευι": {
         "transliteration": "Leui",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [
+          {
+            "parse": ["noun", "indecl-proper", "masc"],
+            "indices": { "strongs": "G3017" }
+          }
+        ]
       },
       "Λευΐ": {
         "transliteration": "Leuḯ",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          {
+            "parse": ["noun", "indecl-proper"],
+            "indices": { "strongs": "G3017" }
+          }
+        ]
       }
     }
   },
@@ -5250,10 +5390,6 @@
     "declension": "3-cons",
     "indices": { "strongs": "G3018" },
     "inflections": {
-      "Λευΐ": {
-        "transliteration": "Leuḯ",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
       "Λευιν": {
         "transliteration": "Leuin",
         "cells": [
@@ -6036,18 +6172,20 @@
       }
     }
   },
-  "Λίβευς": {
+  "Λιβύη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
+    "declension": "1f-e",
+    "indices": { "strongs": "G3033" },
     "inflections": {
-      "Λίβυες": {
-        "transliteration": "Líbyes",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "Λιβύης": {
+        "transliteration": "Libýēs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
-  "Λίβυες": {
+  "Λίβυς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
@@ -6059,19 +6197,6 @@
       "Λιβύων": {
         "transliteration": "Libýōn",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "Λιβύη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "indices": { "strongs": "G3033" },
-    "inflections": {
-      "Λιβύης": {
-        "transliteration": "Libýēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -8727,17 +8852,6 @@
       }
     }
   },
-  "Λυδοί": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Λυδοί": {
-        "transliteration": "Lydoí",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Λυδός": {
     "language": "greek",
     "pos": "noun",
@@ -9500,31 +9614,16 @@
       }
     }
   },
-  "λυτροῦμαι": {
+  "λυτρόω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "contract-o",
     "indices": { "strongs": "G3084" },
     "inflections": {
       "ἐλυτρώθητε": {
         "transliteration": "elytrṓthēte",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"] }]
       },
-      "λυτροῦσθαι": {
-        "transliteration": "lytroûsthai",
-        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
-      },
-      "λυτρώσηται": {
-        "transliteration": "lytrṓsētai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "λυτρόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
       "ἐλυτρωσάμην": {
         "transliteration": "elytrōsámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
@@ -9654,6 +9753,10 @@
           { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"] }
         ]
+      },
+      "λυτροῦσθαι": {
+        "transliteration": "lytroûsthai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
       },
       "λυτροῦται": {
         "transliteration": "lytroûtai",

@@ -5420,20 +5420,6 @@
       }
     }
   },
-  "θηλάω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "inflections": {
-      "θηλάσει": {
-        "transliteration": "thēlásei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      }
-    }
-  },
   "θηλυκός": {
     "language": "greek",
     "pos": "adj",
@@ -6828,6 +6814,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "perf": "θνη", "plup": "θνη", "fut": "θαν" },
+    "shortDefinition": "to die",
+    "indices": { "strongs": "G2348" },
     "inflections": {
       "ἔθνῃσκον": {
         "transliteration": "éthnēskon",
@@ -6835,6 +6823,10 @@
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
+      },
+      "ἐτεθνήκει": {
+        "transliteration": "etethnḗkei",
+        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
       },
       "θανεῖν": {
         "transliteration": "thaneîn",
@@ -6901,6 +6893,10 @@
           }
         ]
       },
+      "τεθνάναι": {
+        "transliteration": "tethnánai",
+        "cells": [{ "parse": ["verb", "second", "perf", "act", "inf"] }]
+      },
       "τεθνᾶσιν": {
         "transliteration": "tethnâsin",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
@@ -6911,6 +6907,18 @@
           { "parse": ["verb", "perf", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "perf", "act", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "τεθνήκασι": {
+        "transliteration": "tethnḗkasi",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
+      "τεθνήκασιν": {
+        "transliteration": "tethnḗkasin",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
+      "τέθνηκε": {
+        "transliteration": "téthnēke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
       "τεθνήκει": {
         "transliteration": "tethnḗkei",
@@ -6926,6 +6934,12 @@
       },
       "τεθνηκός": {
         "transliteration": "tethnēkós",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
+        ]
+      },
+      "τεθνηκότα": {
+        "transliteration": "tethnēkóta",
         "cells": [
           { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
         ]
@@ -6949,11 +6963,23 @@
           { "parse": ["verb", "perf", "act", "ptc", "dat", "sg", "masc"] }
         ]
       },
+      "τεθνηκότος": {
+        "transliteration": "tethnēkótos",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
       "τεθνηκότων": {
         "transliteration": "tethnēkótōn",
         "cells": [
           { "parse": ["verb", "perf", "act", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "perf", "act", "ptc", "gen", "pl", "neut"] }
+        ]
+      },
+      "τεθνηκώς": {
+        "transliteration": "tethnēkṓs",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "τεθνήξῃ": {
@@ -8263,36 +8289,6 @@
       }
     }
   },
-  "θυμιάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "θυμι" },
-    "inflections": {
-      "ἐθυμία": {
-        "transliteration": "ethymía",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐθυμίασαν": {
-        "transliteration": "ethymíasan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      },
-      "ἐθυμίασεν": {
-        "transliteration": "ethymíasen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "θυμιᾶν": {
-        "transliteration": "thymiân",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
-          { "parse": ["verb", "pres", "act", "inf"] }
-        ]
-      }
-    }
-  },
   "θυμίαμα": {
     "language": "greek",
     "pos": "noun",
@@ -8367,11 +8363,15 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "stems": { "aor": "θυμι" },
     "indices": { "strongs": "G2370" },
     "inflections": {
       "ἐθυμία": {
         "transliteration": "ethymía",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
+        ]
       },
       "ἐθυμίασαν": {
         "transliteration": "ethymíasan",
@@ -8413,7 +8413,10 @@
       },
       "θυμιᾶν": {
         "transliteration": "thymiân",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "pres", "act", "inf"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
+        ]
       },
       "θυμιάσαι": {
         "transliteration": "thymiásai",
@@ -8488,17 +8491,6 @@
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
-      }
-    }
-  },
-  "θυμιόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "ἐθυμιῶσαν": {
-        "transliteration": "ethymiō̂san",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },

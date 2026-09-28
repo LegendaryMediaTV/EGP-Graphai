@@ -2077,17 +2077,6 @@
       }
     }
   },
-  "Γαριζει": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Γαριζιν": {
-        "transliteration": "Garizin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Γαριζιν": {
     "language": "greek",
     "pos": "noun",
@@ -4950,6 +4939,10 @@
     "gender": "neut",
     "indices": { "strongs": "G1094" },
     "inflections": {
+      "γήρᾳ": {
+        "transliteration": "gḗra",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
       "γῆρας": {
         "transliteration": "gē̂ras",
         "cells": [
@@ -10497,17 +10490,6 @@
       },
       "Γώγ": {
         "transliteration": "Gṓg",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "Γωζα": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Γωζαν": {
-        "transliteration": "Gōzan",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }

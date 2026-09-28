@@ -48,6 +48,14 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "pl", "second"] }
         ]
       },
+      "ψαλάτωσαν": {
+        "transliteration": "psalátōsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
+      },
+      "ψαλάτωσάν": {
+        "transliteration": "psalátōsán",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
+      },
       "ψαλεῖ": {
         "transliteration": "psaleî",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
@@ -279,25 +287,6 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] }
         ]
-      }
-    }
-  },
-  "ψάλω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ψάλατε": {
-        "transliteration": "psálate",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
-      },
-      "ψαλάτωσαν": {
-        "transliteration": "psalátōsan",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
-      },
-      "ψαλάτωσάν": {
-        "transliteration": "psalátōsán",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
       }
     }
   },
@@ -623,143 +612,6 @@
       }
     }
   },
-  "ψεύδομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "shortDefinition": "to lie",
-    "indices": { "strongs": "G5574" },
-    "inflections": {
-      "ἔψευσαι": {
-        "transliteration": "épseusai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ἐψεύσαντο": {
-        "transliteration": "epseúsanto",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐψεύσαντό": {
-        "transliteration": "epseúsantó",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐψεύσατο": {
-        "transliteration": "epseúsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐψεύσω": {
-        "transliteration": "epseúsō",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ψεύδει": {
-        "transliteration": "pseúdei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ψεύδεσθε": {
-        "transliteration": "pseúdesthe",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "ψεύδομαι": {
-        "transliteration": "pseúdomai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ψευδόμεθα": {
-        "transliteration": "pseudómetha",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "ψευδόμενοι": {
-        "transliteration": "pseudómenoi",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "ψευδόμενος": {
-        "transliteration": "pseudómenos",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "ψεύδονται": {
-        "transliteration": "pseúdontai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ψεύσασθαι": {
-        "transliteration": "pseúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "ψεύσασθαί": {
-        "transliteration": "pseúsasthaí",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "ψεύσεται": {
-        "transliteration": "pseúsetai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ψεύσομαι": {
-        "transliteration": "pseúsomai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ψεύσονταί": {
-        "transliteration": "pseúsontaí",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      }
-    }
-  },
   "ψευδομαρτυρέω": {
     "language": "greek",
     "pos": "verb",
@@ -930,7 +782,20 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to deceive; refl. to lie",
+    "indices": { "strongs": "G5574" },
     "inflections": {
+      "ἔψευσαι": {
+        "transliteration": "épseusai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
       "ἐψευσάμεθα": {
         "transliteration": "epseusámetha",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
@@ -941,27 +806,30 @@
       },
       "ἐψεύσαντο": {
         "transliteration": "epseúsanto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐψεύσαντό": {
         "transliteration": "epseúsantó",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐψεύσατο": {
         "transliteration": "epseúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐψεύσω": {
         "transliteration": "epseúsō",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] }]
-      },
-      "ψεύδει": {
-        "transliteration": "pseúdei",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "ψεύδεσθαι": {
@@ -970,6 +838,12 @@
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
           { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
+      },
+      "ψεύδεσθε": {
+        "transliteration": "pseúdesthe",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "ψεύδεται": {
@@ -992,21 +866,70 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
         ]
       },
+      "ψεύδομαι": {
+        "transliteration": "pseúdomai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ψευδόμεθα": {
+        "transliteration": "pseudómetha",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
+        ]
+      },
+      "ψευδόμενοι": {
+        "transliteration": "pseudómenoi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
+        ]
+      },
+      "ψευδόμενος": {
+        "transliteration": "pseudómenos",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ψεύδονται": {
+        "transliteration": "pseúdontai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ψεύσασθαι": {
+        "transliteration": "pseúsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
+      },
+      "ψεύσασθαί": {
+        "transliteration": "pseúsasthaí",
+        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
+      },
       "ψεύσεσθε": {
         "transliteration": "pseúsesthe",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "pl"] }]
       },
       "ψεύσεται": {
         "transliteration": "pseúsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ψεύσῃ": {
         "transliteration": "pseúsē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] }]
       },
       "ψεύσησθε": {
         "transliteration": "pseúsēsthe",
@@ -1025,7 +948,10 @@
       },
       "ψεύσομαι": {
         "transliteration": "pseúsomai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
+        ]
       },
       "ψεύσομαί": {
         "transliteration": "pseúsomaí",
@@ -1033,7 +959,10 @@
       },
       "ψεύσονταί": {
         "transliteration": "pseúsontaí",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ψεύσωνται": {
         "transliteration": "pseúsōntai",

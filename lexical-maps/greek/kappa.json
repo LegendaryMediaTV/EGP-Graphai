@@ -704,10 +704,6 @@
         "transliteration": "kathaírei",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
-      "καθαιρεῖν": {
-        "transliteration": "kathaireîn",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
-      },
       "καθαίρεται": {
         "transliteration": "kathaíretai",
         "cells": [
@@ -1548,10 +1544,7 @@
       },
       "καθῆκεν": {
         "transliteration": "kathē̂ken",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "καθῆκον": {
         "transliteration": "kathē̂kon",
@@ -2033,6 +2026,10 @@
           { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
         ]
       },
+      "καθήσονται": {
+        "transliteration": "kathḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+      },
       "καθήσονταί": {
         "transliteration": "kathḗsontaí",
         "cells": [
@@ -2374,38 +2371,6 @@
       "καθῆκεν": {
         "transliteration": "kathē̂ken",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "καθήσεσθε": {
-        "transliteration": "kathḗsesthe",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "pl"] }]
-      },
-      "καθήσεται": {
-        "transliteration": "kathḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "καθήσῃ": {
-        "transliteration": "kathḗsē",
-        "cells": [
-          {
-            "parse": ["verb", "aor", "act", "ptc", "dat", "sg", "fem", "second"]
-          },
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "fem"] }
-        ]
-      },
-      "καθήσομαι": {
-        "transliteration": "kathḗsomai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
-      },
-      "καθήσονται": {
-        "transliteration": "kathḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
-      },
-      "καθήσονταί": {
-        "transliteration": "kathḗsontaí",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       },
       "καθιεμένην": {
         "transliteration": "kathieménēn",
@@ -3604,10 +3569,7 @@
       },
       "Καινήν": {
         "transliteration": "Kainḗn",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -18081,24 +18043,6 @@
       }
     }
   },
-  "καταράω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "inflections": {
-      "καταρᾶται": {
-        "transliteration": "katarâtai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "καταργέω": {
     "language": "greek",
     "pos": "verb",
@@ -19140,21 +19084,6 @@
       }
     }
   },
-  "κατασκηνάω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "inflections": {
-      "κατασκηνῶσαι": {
-        "transliteration": "kataskēnō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
-        ]
-      }
-    }
-  },
   "κατασκηνόω": {
     "language": "greek",
     "pos": "verb",
@@ -19227,7 +19156,9 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "κατασκηνώσας": {
@@ -20540,6 +20471,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "indices": { "strongs": "G2700" },
     "inflections": {
       "κατατοξευθήσεται": {
         "transliteration": "katatoxeuthḗsetai",
@@ -24613,16 +24545,6 @@
       }
     }
   },
-  "κατόπισθε": {
-    "language": "greek",
-    "pos": "adv",
-    "inflections": {
-      "κατόπισθέν": {
-        "transliteration": "katópisthén",
-        "cells": [{ "parse": ["adv"] }]
-      }
-    }
-  },
   "κατόπισθεν": {
     "language": "greek",
     "pos": "adv",
@@ -26616,13 +26538,6 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "inflections": {
-      "ἐκκεκεντημένοι": {
-        "transliteration": "ekkekentēménoi",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
       "κεντοῦσί": {
         "transliteration": "kentoûsí",
         "cells": [
@@ -28915,17 +28830,6 @@
     },
     "gender": "masc"
   },
-  "Κίτιοι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Κίτιοι": {
-        "transliteration": "Kítioi",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Κίτιος": {
     "language": "greek",
     "pos": "noun",
@@ -28986,9 +28890,17 @@
     "shortDefinition": "to give for use, loan",
     "indices": { "strongs": "G5531" },
     "inflections": {
+      "ἔχρησαν": {
+        "transliteration": "échrēsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
       "χρῆσόν": {
         "transliteration": "chrē̂són",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
+      },
+      "χρήσωμεν": {
+        "transliteration": "chrḗsōmen",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
       }
     }
   },
@@ -31605,80 +31517,12 @@
       }
     }
   },
-  "κοιμάομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "indices": { "strongs": "G2837" },
-    "inflections": {
-      "ἐκοιμήθη": {
-        "transliteration": "ekoimḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "ἐκοιμήθησαν": {
-        "transliteration": "ekoimḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
-      },
-      "κεκοιμημένων": {
-        "transliteration": "kekoimēménōn",
-        "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"] }
-        ]
-      },
-      "κεκοίμηται": {
-        "transliteration": "kekoímētai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "κοιμηθέντας": {
-        "transliteration": "koimēthéntas",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "κοιμηθέντες": {
-        "transliteration": "koimēthéntes",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "κοιμηθῇ": {
-        "transliteration": "koimēthē̂",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
-      },
-      "κοιμηθησόμεθα": {
-        "transliteration": "koimēthēsómetha",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "pl"] }]
-      },
-      "κοιμώμενος": {
-        "transliteration": "koimṓmenos",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "κοιμωμένους": {
-        "transliteration": "koimōménous",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "κοιμωμένων": {
-        "transliteration": "koimōménōn",
-        "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"] }
-        ]
-      },
-      "κοιμῶνται": {
-        "transliteration": "koimō̂ntai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "κοιμάω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "fut": "κοιμηθη", "aor": "κοιμηθη" },
+    "indices": { "strongs": "G2837" },
     "inflections": {
       "ἐκοιμήθη": {
         "transliteration": "ekoimḗthē",
@@ -31717,6 +31561,12 @@
           { "parse": ["verb", "perf", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
+      "κεκοιμημένων": {
+        "transliteration": "kekoimēménōn",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "κεκοίμησαι": {
@@ -31792,6 +31642,19 @@
           { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "neut"] }
         ]
       },
+      "κοιμηθέντας": {
+        "transliteration": "koimēthéntas",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "κοιμηθέντες": {
+        "transliteration": "koimēthéntes",
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
+        ]
+      },
       "κοιμηθῇ": {
         "transliteration": "koimēthē̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
@@ -31827,6 +31690,10 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }
         ]
+      },
+      "κοιμηθησόμεθα": {
+        "transliteration": "koimēthēsómetha",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-1", "pl"] }]
       },
       "κοιμηθήσονται": {
         "transliteration": "koimēthḗsontai",
@@ -31915,6 +31782,12 @@
           { "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "acc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
+      "κοιμωμένων": {
+        "transliteration": "koimōménōn",
+        "cells": [
+          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "κοιμῶνται": {
@@ -34281,10 +34154,6 @@
     "shortDefinition": "to chop; fig. to lament",
     "indices": { "strongs": "G2875" },
     "inflections": {
-      "ἐκκόψαισαν": {
-        "transliteration": "ekkópsaisan",
-        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "pl"] }]
-      },
       "ἔκοπτον": {
         "transliteration": "ékopton",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
@@ -41982,21 +41851,6 @@
       }
     },
     "gender": "masc"
-  },
-  "κωθωνίζομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ἐκωθωνίζοντο": {
-        "transliteration": "ekōthōnízonto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
-        ]
-      }
-    }
   },
   "κωθωνίζω": {
     "language": "greek",

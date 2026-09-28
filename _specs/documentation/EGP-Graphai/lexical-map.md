@@ -20,9 +20,21 @@ What a concordance index cannot also be is a lexical inventory. Its unit is the 
 
 **One word, many numbers.** Strong's assigns separate numbers to the principal parts of defective verbs, which is the right call for a concordance, since the KJV renders those parts differently. εἰμί accordingly occupies over a dozen numbers, which the worked example below lists in full. A text tagged at the lexical level resolves all of them to G1510, piling thousands of tokens onto one entry and leaving the rest unreferenced. Across the Greek lexicon, a hundred-odd entries have occurrences to their name and appear nowhere in such an edition.
 
-**One number, many words.** Strong's also files several headwords under a single number, again reasonably, since the KJV renders them alike. G3588 covers ὁ, ἡ and τό, which between them are the commonest word in the language. G3739 covers ὅς, ἥ and ὅ. G4341 covers both προσκαλέω and προσκαλέομαι. Scores of Greek entries carry more than one headword in their lexicon `name`.
+**One number, many words.** Strong's also files different words under a single number, again reasonably, since the KJV renders them alike. G1492 covers οἶδα, "know", and εἶδον, "saw", the aorist of ὁράω. G3700 covers ὀπτάνομαι beside ὄψομαι, the future of ὁράω. Scores of Greek entries carry more than one headword in their lexicon `name`.
 
-Neither direction is a tagging error to be corrected, and neither is a defect in Strong's. They are what happens when a concordance index is asked to serve as a primary key. The map asks it to do its own job instead: the word is the key, the parse selects the cell, and the Strong's number is a value on the cell, where it is free to be many-to-one or one-to-many without conflict.
+Neither direction is a tagging error to be corrected, and neither is a defect in Strong's. They are what happens when a concordance index is asked to serve as a primary key. The map asks it to do its own job instead: the lemma is the key, the parse selects the cell, and the Strong's number is a value on the root, or on a cell where the index splits the lemma, so it is free to be many-to-one or one-to-many without conflict.
+
+### The map is lemma-based
+
+The key is the lemma, the dictionary word, which this document calls the root. Three rules follow, and the rest of this document applies them.
+
+**A lemma holds all of its own inflections.** Forms that share a lemma trace back to it and sit under its one root, whatever tense, voice, mood, case, number, gender or degree they carry, and whatever stem a tense is built on.
+
+**A lemma holds nothing else.** Words that inflect from different lemmas are different entries, even when they mean the same thing, share a stem or share a Strong's number. Meaning never decides which lemma a form belongs to. Filing one word's forms under another word's root merges two words, and filing one word's forms under two roots splits one; either way the map stops saying which forms belong together.
+
+**A Strong's number sits on the root, or on an inflection where Strong's splits the lemma.** The root is the place for it. A cell carries a number only where Strong's gives one lemma's inflections different numbers, and then it names which of the root's numbers that inflection takes. One lemma can therefore carry several numbers, and one number can sit on several lemmas.
+
+οἶδα and ὁράω show all three. Strong's files οἶδα, "know", and εἶδον, "saw", under one entry, G1492. They belong to two lemmas: εἶδον is ὁράω's aorist and sits under ὁράω, and οἶδα is a verb with a paradigm of its own. οἶδα carries G1492 on its root. ὁράω's root carries G1492, G2400, G3700 and G3708, and its aorist active cells name G1492, because Strong's splits ὁράω's inflections across those numbers.
 
 ## What the map is
 
@@ -332,7 +344,11 @@ Each language states its citation convention in the registry, because the conven
 
 The root need not appear in the corpus. ἔλαβον and λαβών both belong to λαμβάνω whether or not λαμβάνω is ever written, because the paradigm decides the root, not the attestation.
 
-A frozen case form is not a root. πρῶτον used adverbially is the accusative singular neuter of πρῶτος; χάριν used as a preposition is the accusative of χάρις; μακράν is the accusative of μακρός. Each belongs to the paradigm it inflects from, and the parse on its cell records that it was used adverbially.
+A suppletive tense is part of the paradigm it fills, even though it is built on a different stem. ἔφαγον is the aorist of ἐσθίω, εἶπον the aorist of λέγω and εἶδον the aorist of ὁράω, the way English "went" is the past of "go". Their forms sit under those verbs, and `stems` records the stem each tense is built on.
+
+A frozen case form is not a root. πρῶτον used adverbially is the accusative singular neuter of πρῶτος; χάριν used as a preposition is the accusative of χάρις; μακράν is the accusative of μακρός. Each belongs to the paradigm it inflects from, and the parse on its cell records that it was used adverbially. A frozen verb form follows the same rule: ἴδε and ἰδού, used as "look!", are the second aorist imperatives of ὁράω, active and middle, and sit under ὁράω.
+
+A fixed name or phrase that Strong's numbers as one entry is the one kind of root that spans more than one word. Ἄρειος Πάγος holds Ἀρείου and Πάγου, and μαρὰν ἀθά holds μαράν and ἀθά, each under the one root and its one number.
 
 Index entries do not line up with this, and they are not meant to. A concordance gives πρῶτον its own number because the adverbial use earns an entry, and gives δεύτερον none because it does not. That difference belongs to the concordance. It has no bearing on how many Greek words there are, so the map records one root in both cases and hangs the numbers on the cells.
 
@@ -352,7 +368,7 @@ Part of speech on the root is the word's lexical part of speech, the class the s
 
 Two questions come up on almost every uncertain lemma, and one principle answers both: the root belongs to the language, not to this text and not to any one lexicon.
 
-**Voice.** A verb is cited in the active if it had active forms in first-century Greek at large, whatever this corpus happens to attest. Only a verb that was deponent across the language is cited in the middle. ἀναβάλλω and περικρύπτω are active even though the corpus shows only the middle; φρυάσσομαι is middle because no active exists anywhere.
+**Voice.** Voice is a parse, never a second lemma. ἄρξομαι, "I will begin", is the future middle of ἄρχω and sits under ἄρχω; where Strong's gives the middle a number of its own, as G756 beside ἄρχω's G757, that number goes on the middle cells. A verb is cited in the active if it had active forms in first-century Greek at large, whatever this corpus happens to attest. Only a verb that was deponent across the language is cited in the middle. ἀναβάλλω and περικρύπτω are active even though the corpus shows only the middle; φρυάσσομαι is middle because no active exists anywhere.
 
 **Spelling.** Variant spellings of one word are both right, the way John and Jon are. Where the corpus is consistent, its spelling is the attested one and stands, so Πύθων keeps its capital and Ἄβελ its smooth breathing. Where the corpus is split or never writes the form in question, the wider language decides, and the standard lexica are the best sample of it available: Βαρσαββᾶς takes the double beta the text splits on, and ῥαῖδα takes LSJ's accent because the corpus only ever writes the genitive plural.
 
@@ -558,7 +574,7 @@ flowchart TD
     Match -->|one match| Cell[Cell]
     Match -->|no match| Flag
     Cell --> Root["Root, for the lexicon link"]
-    Cell --> Strong["Strong's number on the cell"]
+    Cell --> Strong["Strong's number, from the root<br/>or from the cell where the index splits the lemma"]
     Cell --> Human["Readable parse, from the registry"]
 ```
 
