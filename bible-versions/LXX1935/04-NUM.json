@@ -18034,8 +18034,8 @@
         "text": " κάλους",
         "script": "G",
         "transliteration": " kálous",
-        "morph": "A-APM",
-        "lemma": "καλός"
+        "morph": "N-APM",
+        "lemma": "κάλος"
       },
       {
         "text": " αὐτῶν.",
@@ -21457,9 +21457,17 @@
         "lemma": "ὁ"
       },
       {
-        "text": " τρυβλία",
+        "text": " τρύβλια",
         "script": "G",
-        "transliteration": " tryblía",
+        "transliteration": " trýblia",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
+            "."
+          ]
+        },
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"
@@ -26754,8 +26762,8 @@
         "text": " κάλους",
         "script": "G",
         "transliteration": " kálous",
-        "morph": "A-APM",
-        "lemma": "καλός"
+        "morph": "N-APM",
+        "lemma": "κάλος"
       },
       {
         "text": " αὐτῶν",
@@ -36003,7 +36011,7 @@
         "script": "G",
         "transliteration": " stemphýlōn",
         "morph": "N-GPN",
-        "lemma": "στεμφυλόν"
+        "lemma": "στέμφυλον"
       },
       {
         "text": " ἕως",
@@ -40048,7 +40056,7 @@
         "script": "G",
         "transliteration": " anastē̂sai",
         "strong": "G450",
-        "morph": "V-REI-2S",
+        "morph": "V-AAN",
         "lemma": "ἀνίστημι"
       },
       {
@@ -50303,9 +50311,17 @@
         "lemma": "Ἰσραήλ"
       },
       {
-        "text": " τρυβλία",
+        "text": " τρύβλια",
         "script": "G",
-        "transliteration": " tryblía",
+        "transliteration": " trýblia",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
+            "."
+          ]
+        },
         "strong": "G5165",
         "morph": "N-NPN",
         "lemma": "τρύβλιον"
@@ -60072,8 +60088,8 @@
         "text": " ἐλατὰς",
         "script": "G",
         "transliteration": " elatàs",
-        "morph": "N-APF",
-        "lemma": "ἐλάτη"
+        "morph": "A-APF",
+        "lemma": "ἐλατός"
       },
       {
         "text": " ποιήσεις",
@@ -64617,7 +64633,7 @@
         "text": " προτέρα",
         "script": "G",
         "transliteration": " protéra",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "πρότερος"
       },
       {
@@ -73843,7 +73859,7 @@
         "script": "G",
         "transliteration": " íasai",
         "strong": "G2390",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "ἰάομαι"
       },
       {
@@ -80404,7 +80420,7 @@
         "script": "G",
         "transliteration": " phobēthē̂te",
         "strong": "G5399",
-        "morph": "V-APM-2P",
+        "morph": "V-APS-2P",
         "lemma": "φοβέω"
       },
       {
@@ -100029,8 +100045,8 @@
         "text": " ἐλατάς,",
         "script": "G",
         "transliteration": " elatás,",
-        "morph": "N-APF",
-        "lemma": "ἐλάτη"
+        "morph": "A-APF",
+        "lemma": "ἐλατός"
       },
       {
         "text": " περίθεμα",
@@ -108031,9 +108047,17 @@
         "lemma": "εἴκοσι"
       },
       {
-        "text": " ὄβολοί",
+        "text": " ὀβολοί",
         "script": "G",
-        "transliteration": " óboloí",
+        "transliteration": " oboloí",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "ὄβολοί", "script": "G", "transliteration": "óboloí" },
+            "."
+          ]
+        },
         "morph": "N-NPM",
         "lemma": "ὀβολός"
       },
@@ -127504,7 +127528,7 @@
         "text": " ἐκλείξαι",
         "script": "G",
         "transliteration": " ekleíxai",
-        "morph": "V-AAN",
+        "morph": "V-AAO-3S",
         "lemma": "ἐκλείχω"
       },
       {
@@ -139398,9 +139422,21 @@
         "lemma": "καί"
       },
       {
-        "text": " καταρᾶσαί",
+        "text": " κατάρασαί",
         "script": "G",
-        "transliteration": " katarâsaí",
+        "transliteration": " katárasaí",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "καταρᾶσαί",
+              "script": "G",
+              "transliteration": "katarâsaí"
+            },
+            "."
+          ]
+        },
         "strong": "G2672",
         "morph": "V-AMM-2S",
         "lemma": "καταράομαι"
@@ -171786,7 +171822,7 @@
         "script": "G",
         "transliteration": " menoûsin",
         "strong": "G3306",
-        "morph": "V-PAI-3P",
+        "morph": "V-FAI-3P",
         "lemma": "μένω"
       },
       {
@@ -180955,7 +180991,7 @@
         "script": "G",
         "transliteration": " chlidō̂na",
         "morph": "N-ASM",
-        "lemma": "χλίδων"
+        "lemma": "χλιδών"
       },
       {
         "text": " καὶ",
@@ -188144,7 +188180,7 @@
         "script": "G",
         "transliteration": " perikekyklōménas,",
         "strong": "G4033",
-        "morph": "V-2AAI-2S",
+        "morph": "V-RMP-APF",
         "lemma": "περικυκλόω"
       },
       {
@@ -202494,7 +202530,7 @@
         "script": "G",
         "transliteration": " synantē̂sai",
         "strong": "G4876",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "συναντάω"
       },
       {

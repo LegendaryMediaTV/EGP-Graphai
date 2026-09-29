@@ -305,8 +305,7 @@
         "transliteration": "sabbatísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -1264,7 +1263,7 @@
       },
       "σαλεύσαι": {
         "transliteration": "saleúsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "σαλεῦσαι": {
         "transliteration": "saleûsai",
@@ -6884,8 +6883,6 @@
       "σημαίνει": {
         "transliteration": "sēmaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -9094,8 +9091,7 @@
         "transliteration": "skepásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "σκεπάσει": {
@@ -9146,10 +9142,7 @@
       },
       "σκεπασθῆτε": {
         "transliteration": "skepasthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }]
       },
       "σκεπάσω": {
         "transliteration": "skepásō",
@@ -9974,17 +9967,11 @@
       },
       "σκληράς": {
         "transliteration": "sklērás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
       },
       "σκληρᾶς": {
         "transliteration": "sklērâs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       },
       "σκληροί": {
         "transliteration": "sklēroí",
@@ -10227,12 +10214,7 @@
       },
       "σκληρυνῶ": {
         "transliteration": "sklērynō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -10317,10 +10299,7 @@
       },
       "σκολιάς": {
         "transliteration": "skoliás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
       },
       "σκολιᾶς": {
         "transliteration": "skoliâs",
@@ -10536,17 +10515,11 @@
       },
       "σκοπιάς": {
         "transliteration": "skopiás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "σκοπιᾶς": {
         "transliteration": "skopiâs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "σκοπιῶν": {
         "transliteration": "skopiō̂n",
@@ -10709,8 +10682,7 @@
         "transliteration": "skorpísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "σκορπισθείησαν": {
@@ -11206,11 +11178,7 @@
       },
       "σκυλεῦσαι": {
         "transliteration": "skyleûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "σκυλεύσαντα": {
         "transliteration": "skyleúsanta",
@@ -11614,10 +11582,7 @@
       },
       "σμικρυνθῆτε": {
         "transliteration": "smikrynthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }]
       },
       "σμικρυνθῶσιν": {
         "transliteration": "smikrynthō̂sin",
@@ -12937,13 +12902,6 @@
           { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
-      "σοφοῖ": {
-        "transliteration": "sophoî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      },
       "σοφοῖς": {
         "transliteration": "sophoîs",
         "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
@@ -13006,6 +12964,17 @@
       "σοφωτέρους": {
         "transliteration": "sophōtérous",
         "cells": [{ "parse": ["adj", "acc", "pl", "masc", "comp"] }]
+      }
+    }
+  },
+  "σοφόω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-o",
+    "inflections": {
+      "σοφοῖ": {
+        "transliteration": "sophoî",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -13100,8 +13069,7 @@
         "transliteration": "spanísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -14953,7 +14921,7 @@
       }
     }
   },
-  "σταθμίον": {
+  "στάθμιον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
@@ -15512,8 +15480,7 @@
         "transliteration": "stegásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -15738,7 +15705,7 @@
       }
     }
   },
-  "στεμφυλόν": {
+  "στέμφυλον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
@@ -16083,7 +16050,6 @@
       "στένουσι": {
         "transliteration": "sténousi",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"] }
@@ -16091,10 +16057,7 @@
       },
       "στένουσιν": {
         "transliteration": "sténousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "στένων": {
         "transliteration": "sténōn",
@@ -16297,14 +16260,6 @@
         "transliteration": "sterēthē̂nai",
         "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       },
-      "στερῆσαι": {
-        "transliteration": "sterē̂sai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
-      },
       "στερήσει": {
         "transliteration": "sterḗsei",
         "cells": [
@@ -16346,6 +16301,10 @@
       "στερηθήσονται": {
         "transliteration": "sterēthḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "στερῆσαι": {
+        "transliteration": "sterē̂sai",
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "στερήσῃς": {
         "transliteration": "sterḗsēs",
@@ -17074,8 +17033,7 @@
         "transliteration": "stērísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "στηρίσατέ": {
@@ -17646,8 +17604,7 @@
         "transliteration": "stolísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "στολισάτω": {
@@ -17823,19 +17780,11 @@
       },
       "στόχασαι": {
         "transliteration": "stóchasai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "στόχασαί": {
         "transliteration": "stóchasaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "στοχάσασθαι": {
         "transliteration": "stochásasthai",
@@ -18518,11 +18467,7 @@
       },
       "στρεβλῶσαι": {
         "transliteration": "streblō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -19759,11 +19704,7 @@
         "transliteration": "syngrápsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -19834,9 +19775,7 @@
         "transliteration": "synkathísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συγκαθισάντων": {
@@ -20115,7 +20054,6 @@
       "συγκάμψας": {
         "transliteration": "synkámpsas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
@@ -20203,11 +20141,7 @@
     "inflections": {
       "συγκαταγηρᾶσαι": {
         "transliteration": "synkatagērâsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -20557,9 +20491,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -20654,11 +20586,7 @@
       },
       "συγκλεῖσαι": {
         "transliteration": "synkleîsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συγκλείσαντες": {
         "transliteration": "synkleísantes",
@@ -21720,7 +21648,6 @@
       "συκοφαντεῖ": {
         "transliteration": "sykophanteî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -21729,11 +21656,7 @@
       },
       "συκοφαντῆσαι": {
         "transliteration": "sykophantē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συκοφαντησάτωσάν": {
         "transliteration": "sykophantēsátōsán",
@@ -22368,8 +22291,7 @@
         "transliteration": "sylléxai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συλλέξατε": {
@@ -22869,8 +22791,6 @@
       "συμβάλλει": {
         "transliteration": "symbállei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -22879,10 +22799,7 @@
       },
       "συμβάλλεις": {
         "transliteration": "symbálleis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
       },
       "συμβαλλόμενοι": {
         "transliteration": "symballómenoi",
@@ -23024,8 +22941,7 @@
         "transliteration": "symbibásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συμβιβασάτω": {
@@ -23544,11 +23460,7 @@
     "inflections": {
       "συμμαχῆσαι": {
         "transliteration": "symmachē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συμμαχήσει": {
         "transliteration": "symmachḗsei",
@@ -23817,7 +23729,6 @@
       "συμμείξας": {
         "transliteration": "symmeíxas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
@@ -24128,7 +24039,6 @@
       "συμπαθεῖ": {
         "transliteration": "sympatheî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -24337,9 +24247,6 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       },
@@ -24930,7 +24837,6 @@
       "συμπονεῖ": {
         "transliteration": "symponeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -25304,8 +25210,7 @@
         "transliteration": "sympropémpsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -25459,7 +25364,6 @@
       "συμφυγόντας": {
         "transliteration": "symphygóntas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           {
             "parse": [
               "verb",
@@ -25579,17 +25483,11 @@
       },
       "συμφοράς": {
         "transliteration": "symphorás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "συμφορᾶς": {
         "transliteration": "symphorâs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -27106,7 +27004,6 @@
       "συναντᾷ": {
         "transliteration": "synantâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -27131,11 +27028,7 @@
       },
       "συναντῆσαι": {
         "transliteration": "synantē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συναντήσας": {
         "transliteration": "synantḗsas",
@@ -27452,11 +27345,7 @@
       },
       "συναπολῇ": {
         "transliteration": "synapolē̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
       },
       "συναπόλῃ": {
         "transliteration": "synapólē",
@@ -27499,10 +27388,7 @@
       },
       "συναποστελῶ": {
         "transliteration": "synapostelō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -27862,10 +27748,7 @@
       },
       "συνδέθητε": {
         "transliteration": "syndéthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "συνδεθήτω": {
         "transliteration": "syndethḗtō",
@@ -28466,11 +28349,7 @@
     "inflections": {
       "συνεκπολεμῆσαι": {
         "transliteration": "synekpolemē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συνεκπολεμήσει": {
         "transliteration": "synekpolemḗsei",
@@ -28543,11 +28422,7 @@
     "inflections": {
       "συνεκτρῖψαι": {
         "transliteration": "synektrîpsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -29627,13 +29502,6 @@
     "gender": "masc",
     "declension": "2m",
     "inflections": {
-      "συνεταῖροι": {
-        "transliteration": "synetaîroi",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
       "συνέταιροι": {
         "transliteration": "synétairoi",
         "cells": [
@@ -29672,8 +29540,7 @@
         "transliteration": "synetísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συνετίσαντά": {
@@ -29835,10 +29702,7 @@
       },
       "συνευδόκει": {
         "transliteration": "syneudókei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "συνευδοκεῖτε": {
         "transliteration": "syneudokeîte",
@@ -29916,21 +29780,6 @@
         "transliteration": "synepéstē",
         "cells": [
           { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
-  "συνεχής": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "3-3-es",
-    "inflections": {
-      "συνέχων": {
-        "transliteration": "synéchōn",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -30254,9 +30103,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -30668,7 +30515,6 @@
       "συνιείς": {
         "transliteration": "synieís",
         "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
           {
             "parse": [
               "verb",
@@ -30693,49 +30539,18 @@
               "second"
             ]
           },
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "συνίεις": {
         "transliteration": "syníeis",
         "cells": [
           { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "sg",
-              "masc",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "sg",
-              "masc",
-              "second"
-            ]
-          },
           { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
         ]
       },
@@ -31666,9 +31481,7 @@
       },
       "συνίστων": {
         "transliteration": "synístōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] }]
       },
       "συνιστῶντες": {
         "transliteration": "synistō̂ntes",
@@ -31846,7 +31659,7 @@
       }
     }
   },
-  "συννυμφός": {
+  "σύννυμφος": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
@@ -31877,11 +31690,7 @@
       },
       "συνοδεύσαι": {
         "transliteration": "synodeúsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "συνοδεύσω": {
         "transliteration": "synodeúsō",
@@ -32017,11 +31826,7 @@
     "inflections": {
       "συνοικῆσαι": {
         "transliteration": "synoikē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συνοικήσει": {
         "transliteration": "synoikḗsei",
@@ -32755,8 +32560,7 @@
         "transliteration": "syntelésai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συντελέσας": {
@@ -33118,11 +32922,7 @@
       },
       "συντηρῆσαι": {
         "transliteration": "syntērē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συντηρήσατε": {
         "transliteration": "syntērḗsate",
@@ -33977,19 +33777,11 @@
       },
       "συντρῖψαι": {
         "transliteration": "syntrîpsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συντρῖψαί": {
         "transliteration": "syntrîpsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "συντρίψας": {
         "transliteration": "syntrípsas",
@@ -34809,8 +34601,7 @@
         "transliteration": "syskotásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "συσκοτασάτω": {
@@ -35534,8 +35325,7 @@
         "transliteration": "sphagiásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "σφαγιασθῆναι": {
@@ -35817,7 +35607,6 @@
       "σφαλῇ": {
         "transliteration": "sphalē̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
@@ -36232,17 +36021,12 @@
         "transliteration": "sphragísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "σφράγισαι": {
         "transliteration": "sphrágisai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "σφραγισάμενος": {
         "transliteration": "sphragisámenos",
@@ -37457,7 +37241,7 @@
       },
       "σώσαι": {
         "transliteration": "sṓsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "σῶσαι": {
         "transliteration": "sō̂sai",

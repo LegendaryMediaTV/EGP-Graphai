@@ -5036,9 +5036,17 @@
         "lemma": "Μωσῆς"
       },
       {
-        "text": " ἐξήλθεν",
+        "text": " ἐξῆλθεν",
         "script": "G",
-        "transliteration": " exḗlthen",
+        "transliteration": " exē̂lthen",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "ἐξήλθεν", "script": "G", "transliteration": "exḗlthen" },
+            "."
+          ]
+        },
         "strong": "G1831",
         "morph": "V-2AAI-3S",
         "lemma": "ἐξέρχομαι"
@@ -9094,7 +9102,7 @@
         "script": "G",
         "transliteration": " ergodiōktō̂n;",
         "morph": "N-GPM",
-        "lemma": "ἐργοδιωκτής"
+        "lemma": "ἐργοδιώκτης"
       },
       {
         "text": " οἶδα",
@@ -15283,7 +15291,7 @@
         "script": "G",
         "transliteration": " procheírisai",
         "strong": "G4400",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "προχειρίζομαι"
       },
       {
@@ -19872,7 +19880,7 @@
         "script": "G",
         "transliteration": " ergodiṓktais",
         "morph": "N-DPM",
-        "lemma": "ἐργοδιωκτής"
+        "lemma": "ἐργοδιώκτης"
       },
       {
         "text": " τοῦ",
@@ -20488,7 +20496,7 @@
         "script": "G",
         "transliteration": " ergodiō̂ktai",
         "morph": "N-NPM",
-        "lemma": "ἐργοδιωκτής"
+        "lemma": "ἐργοδιώκτης"
       },
       {
         "text": " καὶ",
@@ -20883,7 +20891,7 @@
         "script": "G",
         "transliteration": " ergodiō̂ktai",
         "morph": "N-NPM",
-        "lemma": "ἐργοδιωκτής"
+        "lemma": "ἐργοδιώκτης"
       },
       {
         "text": " κατέσπευδον",
@@ -25041,8 +25049,9 @@
         "text": " πατριῶν",
         "script": "G",
         "transliteration": " patriō̂n",
-        "morph": "A-GPM",
-        "lemma": "πάτριος"
+        "strong": "G3965",
+        "morph": "N-GPF",
+        "lemma": "πατριά"
       },
       {
         "text": " αὐτῶν.",
@@ -25844,8 +25853,9 @@
         "text": " πατριῶν",
         "script": "G",
         "transliteration": " patriō̂n",
-        "morph": "A-GPM",
-        "lemma": "πάτριος"
+        "strong": "G3965",
+        "morph": "N-GPF",
+        "lemma": "πατριά"
       },
       {
         "text": " Λευι",
@@ -35954,9 +35964,21 @@
     "verse": 14,
     "content": [
       {
-        "text": "Ἐποιήσαν",
+        "text": "Ἐποίησαν",
         "script": "G",
-        "transliteration": "Epoiḗsan",
+        "transliteration": "Epoíēsan",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "ἐποιήσαν",
+              "script": "G",
+              "transliteration": "epoiḗsan"
+            },
+            "."
+          ]
+        },
         "strong": "G4160",
         "morph": "V-AAI-3P",
         "lemma": "ποιέω"
@@ -49312,7 +49334,7 @@
         "text": " προτέρα",
         "script": "G",
         "transliteration": " protéra",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "πρότερος"
       },
       {
@@ -54587,8 +54609,9 @@
         "text": " πατριῶν,",
         "script": "G",
         "transliteration": " patriō̂n,",
-        "morph": "A-GPM",
-        "lemma": "πάτριος"
+        "strong": "G3965",
+        "morph": "N-GPF",
+        "lemma": "πατριά"
       },
       {
         "text": " ἕκαστος",
@@ -55532,9 +55555,8 @@
         "text": " ὠμὸν",
         "script": "G",
         "transliteration": " ōmòn",
-        "strong": "G5606",
-        "morph": "N-ASM",
-        "lemma": "ὦμος"
+        "morph": "A-ASN",
+        "lemma": "ὠμός"
       },
       {
         "text": " οὐδὲ",
@@ -57165,7 +57187,7 @@
         "script": "G",
         "transliteration": " hagía,",
         "strong": "G40",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἅγιος"
       },
       {
@@ -58306,9 +58328,17 @@
         "lemma": "δέ"
       },
       {
-        "text": " δεσμὴν",
+        "text": " δέσμην",
         "script": "G",
-        "transliteration": " desmḕn",
+        "transliteration": " désmēn",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "δεσμὴν", "script": "G", "transliteration": "desmḕn" },
+            "."
+          ]
+        },
         "strong": "G1197",
         "morph": "N-ASF",
         "lemma": "δέσμη"
@@ -82526,7 +82556,7 @@
         "script": "G",
         "transliteration": " hagía",
         "strong": "G40",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἅγιος"
       },
       {
@@ -90602,9 +90632,8 @@
         "text": " δείλης;",
         "script": "G",
         "transliteration": " deílēs?",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       }
     ]
   },
@@ -104346,7 +104375,7 @@
         "script": "G",
         "transliteration": " exanastàs",
         "strong": "G1817",
-        "morph": "V-2AAI-2S",
+        "morph": "V-2AAP-NSM",
         "lemma": "ἐξανίστημι"
       },
       {
@@ -108066,7 +108095,7 @@
         "text": " καταβοσκῆσαι",
         "script": "G",
         "transliteration": " kataboskē̂sai",
-        "morph": "V-REI-2S",
+        "morph": "V-AAN",
         "lemma": "καταβόσκω"
       },
       {
@@ -125094,9 +125123,17 @@
         "lemma": "ὁ"
       },
       {
-        "text": " τρυβλία",
+        "text": " τρύβλια",
         "script": "G",
-        "transliteration": " tryblía",
+        "transliteration": " trýblia",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
+            "."
+          ]
+        },
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"
@@ -194207,9 +194244,17 @@
         "lemma": "τε"
       },
       {
-        "text": " τρυβλία",
+        "text": " τρύβλια",
         "script": "G",
-        "transliteration": " tryblía",
+        "transliteration": " trýblia",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
+            "."
+          ]
+        },
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"
@@ -201909,7 +201954,7 @@
         "script": "G",
         "transliteration": " hagía.",
         "strong": "G40",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἅγιος"
       }
     ]

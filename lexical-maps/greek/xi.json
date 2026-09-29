@@ -40,13 +40,6 @@
     "gender": "fem",
     "indices": { "strongs": "G3578" },
     "inflections": {
-      "ξένια": {
-        "transliteration": "xénia",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      },
       "ξενίαν": {
         "transliteration": "xenían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -908,8 +901,6 @@
       "ξύρησαι": {
         "transliteration": "xýrēsai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]

@@ -50399,7 +50399,7 @@
         "script": "G",
         "transliteration": " mnḗsthēte",
         "strong": "G3415",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "μιμνῄσκω"
       },
       {
@@ -55027,9 +55027,17 @@
         "lemma": "καί"
       },
       {
-        "text": " ἦλπισαν",
+        "text": " ἤλπισαν",
         "script": "G",
-        "transliteration": " ē̂lpisan",
+        "transliteration": " ḗlpisan",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "ἦλπισαν", "script": "G", "transliteration": "ē̂lpisan" },
+            "."
+          ]
+        },
         "strong": "G1679",
         "morph": "V-AAI-3P",
         "lemma": "ἐλπίζω"
@@ -71888,9 +71896,8 @@
         "text": " παρθένιά",
         "script": "G",
         "transliteration": " parthéniá",
-        "strong": "G3932",
-        "morph": "N-NSF",
-        "lemma": "παρθενία"
+        "morph": "N-APN",
+        "lemma": "παρθένια"
       },
       {
         "text": " μου,",
@@ -72109,9 +72116,8 @@
         "text": " παρθένια",
         "script": "G",
         "transliteration": " parthénia",
-        "strong": "G3932",
-        "morph": "N-NSF",
-        "lemma": "παρθενία"
+        "morph": "N-APN",
+        "lemma": "παρθένια"
       },
       {
         "text": " αὐτῆς",
@@ -97480,9 +97486,9 @@
         "text": " ὠσί",
         "script": "G",
         "transliteration": " ōsí",
-        "strong": "G5600",
-        "morph": "V-PAS-3P",
-        "lemma": "εἰμί"
+        "strong": "G3775",
+        "morph": "N-DPN",
+        "lemma": "οὖς"
       },
       {
         "text": " μου,",
@@ -99708,7 +99714,7 @@
         "text": " ἀγαθυνεῖ",
         "script": "G",
         "transliteration": " agathyneî",
-        "morph": "V-PAI-3S",
+        "morph": "V-FAI-3S",
         "lemma": "ἀγαθύνω"
       },
       {

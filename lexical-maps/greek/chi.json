@@ -2202,6 +2202,10 @@
       "χαρμοσύνης": {
         "transliteration": "charmosýnēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
+      "χαρμοσυνῶν": {
+        "transliteration": "charmosynō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -2224,14 +2228,6 @@
       "χαρμοσύνης": {
         "transliteration": "charmosýnēs",
         "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
-      },
-      "χαρμοσυνῶν": {
-        "transliteration": "charmosynō̂n",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
       }
     }
   },
@@ -3529,7 +3525,7 @@
       }
     }
   },
-  "χελώνις": {
+  "χελωνίς": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
@@ -3904,13 +3900,7 @@
       },
       "χεεῖ": {
         "transliteration": "cheeî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "χέει": {
         "transliteration": "chéei",
@@ -4559,7 +4549,7 @@
       }
     }
   },
-  "χλίδων": {
+  "χλιδών": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
@@ -5191,11 +5181,7 @@
       },
       "χορεῦσαι": {
         "transliteration": "choreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -5766,7 +5752,6 @@
         "transliteration": "chō̂sai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       }
@@ -6491,9 +6476,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χρησίμης": {
@@ -6975,7 +6958,6 @@
         "transliteration": "chrîsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -6983,7 +6965,6 @@
         "transliteration": "chrîsaí",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -8448,10 +8429,7 @@
       },
       "χωρίσθητε": {
         "transliteration": "chōrísthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       }
     }
   },
@@ -8504,7 +8482,7 @@
       "χωρίς": { "transliteration": "chōrís", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "χωρίσμος": {
+  "χωρισμός": {
     "language": "greek",
     "pos": "noun",
     "inflections": {
@@ -8533,11 +8511,7 @@
       },
       "χωροβατῆσαι": {
         "transliteration": "chōrobatē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "χωροβατήσατε": {
         "transliteration": "chōrobatḗsate",

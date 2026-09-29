@@ -149,13 +149,15 @@
 <sup>16</sup> Hoûtoi hoi lógoi, hoùs poiḗsete; laleîte alḗtheian hékastos pròs tòn plēsíon autoû kaì kríma eirēnikòn krínate en taîs pýlais hymō̂n
 <sup>17</sup> kaì hékastos tḕn kakían toû plēsíon autoû mḕ logízesthe en taîs kardíais hymō̂n kaì hórkon pseudē̂ mḕ agapâte, dióti taûta pánta emísēsa, légei kýrios pantokrátōr.
 
-<sup>18</sup> Kaì egéneto lógos kýriou pantokrátoros prós me légōn
+<sup>18</sup> Kaì egéneto lógos kyríou<sup>a</sup> pantokrátoros prós me légōn
 
 <sup>19</sup> Táde légei kýrios pantokrátōr Nēsteía hē tetràs kaì nēsteía hē pémptē kaì nēsteía hē hebdómē kaì nēsteía hē dekátē ésontai tō̂ oíkō Iouda eis charàn kaì eis euphrosýnēn kaì eis heortàs agathàs kaì euphranthḗsesthe, kaì tḕn alḗtheian kaì tḕn eirḗnēn agapḗsate.
 <sup>20</sup> Táde légei kýrios pantokrátōr Éti hḗxousin laoì polloì kaì katoikoûntes póleis pollás;
 <sup>21</sup> kaì syneleúsontai katoikoûntes pénte póleis eis mían pólin légontes Poreuthō̂men deēthē̂nai toû prosṓpou kyríou kaì ekzētē̂sai tò prósōpon kyríou pantokrátoros; poreúsomai kagṓ.
 <sup>22</sup> Kaì hḗxousin laoì polloì kaì éthnē pollà ekzētē̂sai tò prósōpon kyríou pantokrátoros en Ierousalēm kaì toû exiláskesthai tò prósōpon kyríou.
 <sup>23</sup> Táde légei kýrios pantokrátōr En taîs hēmérais ekeínais eàn epilábōntai déka ándres ek pasō̂n tō̂n glōssō̂n tō̂n ethnō̂n kaì epilábōntai toû kraspédou andròs Ioudaíou légontes Poreusómetha metà soû, dióti akēkóamen hóti ho theòs meth’ hymō̂n estin.
+
+> - <sup>a</sup> 18. Corrected from kýriou.
 
 ## Chapter 9
 

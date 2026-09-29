@@ -1342,7 +1342,7 @@
         "script": "G",
         "transliteration": " hippárchai",
         "morph": "N-NPM",
-        "lemma": "ἵππαρχης"
+        "lemma": "ἱππάρχης"
       },
       {
         "text": " συνῆψαν",
@@ -2006,7 +2006,7 @@
         "script": "G",
         "transliteration": " chlidō̂na",
         "morph": "N-ASM",
-        "lemma": "χλίδων"
+        "lemma": "χλιδών"
       },
       {
         "text": " τὸν",
@@ -2338,9 +2338,8 @@
         "text": " δείλης",
         "script": "G",
         "transliteration": " deílēs",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       },
       {
         "text": " ἐπὶ",
@@ -7988,16 +7987,15 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPF",
+        "morph": "T-GPM",
         "lemma": "ὁ"
       },
       {
         "text": " ἐπιβούλων,",
         "script": "G",
         "transliteration": " epiboúlōn,",
-        "strong": "G1917",
-        "morph": "N-GPF",
-        "lemma": "ἐπιβουλή"
+        "morph": "A-GPM",
+        "lemma": "ἐπίβουλος"
       },
       {
         "text": " ἥ",
@@ -38959,7 +38957,7 @@
         "script": "G",
         "transliteration": " chlidō̂nas",
         "morph": "N-APM",
-        "lemma": "χλίδων"
+        "lemma": "χλιδών"
       },
       {
         "text": " τοὺς",
@@ -70913,7 +70911,7 @@
         "script": "G",
         "transliteration": " éndysai",
         "strong": "G1746",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "ἐνδύω"
       },
       {
@@ -117806,7 +117804,7 @@
         "script": "G",
         "transliteration": " hýbrisás",
         "strong": "G5195",
-        "morph": "V-AAP-NSM",
+        "morph": "V-AAI-2S",
         "lemma": "ὑβρίζω"
       },
       {
@@ -119674,7 +119672,7 @@
         "script": "G",
         "transliteration": " diō̂xai",
         "strong": "G1377",
-        "morph": "V-AAO-3S",
+        "morph": "V-AAN",
         "lemma": "διώκω"
       },
       {
@@ -121192,7 +121190,7 @@
         "script": "G",
         "transliteration": " diō̂xai",
         "strong": "G1377",
-        "morph": "V-AAO-3S",
+        "morph": "V-AAN",
         "lemma": "διώκω"
       },
       {
@@ -126412,7 +126410,7 @@
         "script": "G",
         "transliteration": " katapaûsai",
         "strong": "G2664",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "καταπαύω"
       },
       {

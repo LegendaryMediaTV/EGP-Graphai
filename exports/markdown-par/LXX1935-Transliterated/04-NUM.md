@@ -178,7 +178,7 @@
 <sup>4</sup> Kaì taûta tà érga tō̂n hyiō̂n Kaath en tē̂ skēnē̂ toû martyríou; hágion tō̂n hagíōn.
 <sup>5</sup> Kaì eiseleúsetai Aarōn kaì hoi hyioì autoû, hótan exaírē hē parembolḗ, kaì katheloûsin tò katapétasma tò syskiázon kaì katakalýpsousin en autō̂ tḕn kibōtòn toû martyríou
 <sup>6</sup> kaì epithḗsousin ep’ autò katakálymma dérma hyakínthinon kaì epibaloûsin ep’ autḕn himátion hólon hyakínthinon ánōthen kaì diembaloûsin toùs anaphoreîs.
-<sup>7</sup> Kaì epì tḕn trápezan tḕn prokeiménēn epibaloûsin ep’ autḕn himátion holopórphyron kaì tà tryblía kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs spéndei, kaì hoi ártoi hoi dià pantòs ep’ autē̂s ésontai.
+<sup>7</sup> Kaì epì tḕn trápezan tḕn prokeiménēn epibaloûsin ep’ autḕn himátion holopórphyron kaì tà trýblia<sup>a</sup> kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs spéndei, kaì hoi ártoi hoi dià pantòs ep’ autē̂s ésontai.
 <sup>8</sup> Kaì epibaloûsin ep’ autḕn himátion kókkinon kaì kalýpsousin autḕn kalýmmati dermatínō hyakinthínō kaì diembaloûsin di’ autē̂s toùs anaphoreîs.
 <sup>9</sup> Kaì lḗmpsontai himátion hyakínthinon kaì kalýpsousin tḕn lychnían tḕn phōtízousan kaì toùs lýchnous autē̂s kaì tàs labídas autē̂s kaì tàs eparystrídas autē̂s kaì pánta tà angeîa toû elaíou, hoîs leitourgoûsin en autoîs,
 <sup>10</sup> kaì embaloûsin autḕn kaì pánta tà skeúē autē̂s eis kálymma dermátinon hyakínthinon kaì epithḗsousin autḕn ep’ anaphoréōn.
@@ -229,6 +229,8 @@
 <sup>47</sup> apò pentekaieikosaetoûs kaì epánō héōs pentēkontaetoûs, pâs ho eisporeuómenos pròs tò érgon tō̂n érgōn kaì tà érga tà airómena en tē̂ skēnē̂ toû martyríou,
 <sup>48</sup> kaì egenḗthēsan hoi episkepéntes oktakischílioi pentakósioi ogdoḗkonta.
 <sup>49</sup> Dià phōnē̂s kyríou epesképsato autoùs en cheirì Mōysē̂ ándra kat’ ándra epì tō̂n érgōn autō̂n kaì epì hō̂n aírousin autoí; kaì epesképēsan, hòn trópon synétaxen kýrios tō̂ Mōysē̂.
+
+> - <sup>a</sup> 7. Corrected from tryblía.
 
 ## Chapter 5
 
@@ -403,12 +405,14 @@
 <sup>82</sup> kaì chímaron ex aigō̂n héna perì hamartías;
 <sup>83</sup> kaì eis thysían sōtēríou damáleis dýo, krioùs pénte, trágous pénte, amnádas eniausías pénte. Toûto tò dō̂ron Achire hyioû Ainan.
 
-<sup>84</sup> Hoûtos ho enkainismòs toû thysiastēríou, hē̂ hēméra échrisen autó, parà tō̂n archóntōn tō̂n hyiō̂n Israēl; tryblía argyrâ dṓdeka, phiálai argyraî dṓdeka, thyískai chrysaî dṓdeka,
+<sup>84</sup> Hoûtos ho enkainismòs toû thysiastēríou, hē̂ hēméra échrisen autó, parà tō̂n archóntōn tō̂n hyiō̂n Israēl; trýblia<sup>a</sup> argyrâ dṓdeka, phiálai argyraî dṓdeka, thyískai chrysaî dṓdeka,
 <sup>85</sup> triákonta kaì hekatòn síklōn tò tryblíon tò hén kaì hebdomḗkonta síklōn hē phiálē hē mía, pân tò argýrion tō̂n skeuō̂n dischílioi kaì tetrakósioi síkloi en tō̂ síklō tō̂ hagíō.
 <sup>86</sup> Thyískai chrysaî dṓdeka plḗreis thymiámatos; pân tò chrysíon tō̂n thyiskō̂n eíkosi kaì hekatòn chrysoî.
 <sup>87</sup> Pâsai hai bóes eis holokaútōsin móschoi dṓdeka, krioì dṓdeka, amnoì eniaúsioi dṓdeka kaì hai thysíai autō̂n kaì hai spondaì autō̂n; kaì chímaroi ex aigō̂n dṓdeka perì hamartías.
 <sup>88</sup> Pâsai hai bóes eis thysían sōtēríou damáleis eíkosi téssares, krioì hexḗkonta, trágoi hexḗkonta, amnádes hexḗkonta eniaúsiai ámōmoi. Haútē hē enkaínōsis toû thysiastēríou metà tò plērō̂sai tàs cheîras autoû kaì metà tò chrîsai autón. —
 <sup>89</sup> en tō̂ eisporeúesthai Mōysē̂n eis tḕn skēnḕn toû martyríou lalē̂sai autō̂ kaì ḗkousen tḕn phōnḕn kyríou laloûntos pròs autòn ánōthen toû hilastēríou, hó estin epì tē̂s kibōtoû toû martyríou, anà méson tō̂n dýo cheroubim; kaì elálei pròs autón.
+
+> - <sup>a</sup> 84. Corrected from tryblía.
 
 ## Chapter 8
 
@@ -815,7 +819,7 @@
 <sup>13</sup> Tà prōtogenḗmata pánta, hósa en tē̂ gē̂ autō̂n, hósa àn enénkōsin kyríō, soì éstai; pâs katharòs en tō̂ oíkō sou édetai autá.
 <sup>14</sup> Pân anatethematisménon en hyioîs Israēl soì éstai.
 <sup>15</sup> Kaì pân dianoîgon mḗtran apò pásēs sarkós, hà prosphérousin kyríō apò anthrṓpou héōs ktḗnous, soì éstai; all’ ḕ lýtrois lytrōthḗsetai tà prōtótoka tō̂n anthrṓpōn, kaì tà prōtótoka tō̂n ktēnō̂n tō̂n akathártōn lytrṓsē.
-<sup>16</sup> Kaì hē lýtrōsis autoû apò mēniaíou; hē syntímēsis pénte síklōn katà tòn síklon tòn hágion [eíkosi óboloí eisin].
+<sup>16</sup> Kaì hē lýtrōsis autoû apò mēniaíou; hē syntímēsis pénte síklōn katà tòn síklon tòn hágion [eíkosi oboloí<sup>a</sup> eisin].
 <sup>17</sup> Plḕn prōtótoka móschōn kaì prōtótoka probátōn kaì prōtótoka aigō̂n ou lytrṓsē; hágiá estin; kaì tò haîma autō̂n proscheeîs pròs tò thysiastḗrion kaì tò stéar anoíseis kárpōma eis osmḕn euōdías kyríō;
 <sup>18</sup> kaì tà kréa éstai soí; kathà kaì tò stēthýnion toû epithématos kaì katà tòn brachíona tòn dexiòn soì éstai.
 <sup>19</sup> Pân aphaírema tō̂n hagíōn, hósa àn aphélōsin hoi hyioì Israēl kyríō, soì dédōka kaì toîs hyioîs sou kaì taîs thygatrásin sou metà soû, nómimon aiṓnion; diathḗkē halòs aiōníou estìn énanti kyríou soì kaì tō̂ spérmatí sou metà sé.
@@ -835,6 +839,8 @@
 <sup>30</sup> Kaì ereîs pròs autoús Hótan aphairē̂te tḕn aparchḕn ap’ autoû, kaì logisthḗsetai toîs Leuítais hōs génēma apò hálō kaì hōs génēma apò lēnoû.
 <sup>31</sup> Kaì édesthe autò en pantì tópō hymeîs kaì hoi oîkoi hymō̂n, hóti misthòs hoûtos hymîn estin antì tō̂n leitourgiō̂n hymō̂n tō̂n en tē̂ skēnē̂ toû martyríou;
 <sup>32</sup> kaì ou lḗmpsesthe di’ autò hamartían, hóti àn aphairē̂te tḕn aparchḕn ap’ autoû; kaì tà hágia tō̂n hyiō̂n Israēl ou bebēlṓsete, hína mḕ apothánēte.
+
+> - <sup>a</sup> 16. Corrected from óboloí.
 
 ## Chapter 19
 
@@ -1021,10 +1027,12 @@
 <sup>25</sup> Kaì eîpen Balak pròs Balaam Oúte katárais katarásē moi autòn oúte eulogō̂n mḕ eulogḗsēs autón.
 <sup>26</sup> Kaì apokritheìs Balaam eîpen tō̂ Balak Ouk elálēsá soi légōn Tò rhē̂ma, hò eàn lalḗsē ho theós, toûto poiḗsō?
 
-<sup>27</sup> Kaì eîpen Balak pròs Balaam Deûro paralábō se eis tópon állon, ei arései tō̂ theō̂ kaì katarâsaí moi autòn ekeîthen.
+<sup>27</sup> Kaì eîpen Balak pròs Balaam Deûro paralábō se eis tópon állon, ei arései tō̂ theō̂ kaì katárasaí<sup>a</sup> moi autòn ekeîthen.
 <sup>28</sup> Kaì parélaben Balak tòn Balaam epì koryphḕn toû Phogōr tò parateînon eis tḕn érēmon.
 <sup>29</sup> Kaì eîpen Balaam pròs Balak Oikodómēsón moi hō̂de heptà bōmoùs kaì hetoímasón moi hō̂de heptà móschous kaì heptà krioús.
 <sup>30</sup> Kaì epoíēsen Balak katháper eîpen autō̂ Balaam, kaì anḗnenken móschon kaì kriòn epì tòn bōmón.
+
+> - <sup>a</sup> 27. Corrected from katarâsaí.
 
 ## Chapter 24
 

@@ -16080,7 +16080,7 @@
         "script": "G",
         "transliteration": " mnḗsthēte",
         "strong": "G3415",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "μιμνῄσκω"
       },
       {
@@ -17026,7 +17026,7 @@
         "text": " ἐννοήθητε",
         "script": "G",
         "transliteration": " ennoḗthēte",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "ἐννοέω"
       },
       {
@@ -19935,9 +19935,9 @@
         "text": " πολεμῶν",
         "script": "G",
         "transliteration": " polemō̂n",
-        "strong": "G4171",
-        "morph": "N-GPM",
-        "lemma": "πόλεμος"
+        "strong": "G4170",
+        "morph": "V-PAP-NSM",
+        "lemma": "πολεμέω"
       },
       {
         "text": " ἐν",
@@ -20921,9 +20921,8 @@
         "text": " διαφορὰ",
         "script": "G",
         "transliteration": " diaphorà",
-        "strong": "G1313",
-        "morph": "A-NSF",
-        "lemma": "διάφορος"
+        "morph": "N-NSF",
+        "lemma": "διαφορά"
       },
       {
         "text": " ἐναντίον",
@@ -43473,9 +43472,8 @@
         "text": " κατασκοπεῦσαι",
         "script": "G",
         "transliteration": " kataskopeûsai",
-        "strong": "G2684",
         "morph": "V-AAN",
-        "lemma": "κατασκοπέω"
+        "lemma": "κατασκοπεύω"
       },
       {
         "text": " τὴν",
@@ -56499,8 +56497,8 @@
         "text": " θράσει",
         "script": "G",
         "transliteration": " thrásei",
-        "morph": "A-DSM",
-        "lemma": "θρασύς"
+        "morph": "N-DSN",
+        "lemma": "θράσος"
       },
       {
         "text": " εἰς",
@@ -66203,9 +66201,9 @@
         "text": " μονήν.",
         "script": "G",
         "transliteration": " monḗn.",
-        "strong": "G3441",
-        "morph": "A-ASF",
-        "lemma": "μόνος"
+        "strong": "G3438",
+        "morph": "N-ASF",
+        "lemma": "μονή"
       }
     ]
   },
@@ -90559,9 +90557,9 @@
         "text": " δεκάται",
         "script": "G",
         "transliteration": " dekátai",
-        "strong": "G1182",
+        "strong": "G1181",
         "morph": "A-NPF",
-        "lemma": "δέκατος"
+        "lemma": "δεκάτη"
       },
       {
         "text": " καὶ",
@@ -95081,7 +95079,7 @@
         "script": "G",
         "transliteration": " áxiá",
         "strong": "G514",
-        "morph": "A-NSF",
+        "morph": "A-APN",
         "lemma": "ἄξιος"
       },
       {
@@ -99520,9 +99518,8 @@
         "text": " δείλης·",
         "script": "G",
         "transliteration": " deílēs;",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       }
     ]
   },
@@ -102884,9 +102881,9 @@
         "text": " ἔχθρα",
         "script": "G",
         "transliteration": " échthra",
-        "strong": "G2190",
-        "morph": "A-NSF",
-        "lemma": "ἐχθρός"
+        "strong": "G2189",
+        "morph": "N-NSF",
+        "lemma": "ἔχθρα"
       },
       {
         "text": " αὐτῶν.",
@@ -106520,9 +106517,9 @@
         "text": " δεκατῶν",
         "script": "G",
         "transliteration": " dekatō̂n",
-        "strong": "G1182",
-        "morph": "A-GPN",
-        "lemma": "δέκατος"
+        "strong": "G1181",
+        "morph": "A-GPF",
+        "lemma": "δεκάτη"
       },
       {
         "text": " καὶ",
@@ -107779,9 +107776,9 @@
         "text": " ἔχθραν,",
         "script": "G",
         "transliteration": " échthran,",
-        "strong": "G2190",
-        "morph": "A-ASF",
-        "lemma": "ἐχθρός"
+        "strong": "G2189",
+        "morph": "N-ASF",
+        "lemma": "ἔχθρα"
       },
       {
         "text": " ἣν",
@@ -120354,7 +120351,7 @@
         "script": "G",
         "transliteration": " epílexai",
         "strong": "G1951",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "ἐπιλέγω"
       },
       {
@@ -129462,9 +129459,9 @@
         "text": " ὑμνῶν",
         "script": "G",
         "transliteration": " hymnō̂n",
-        "strong": "G5215",
-        "morph": "N-GPM",
-        "lemma": "ὕμνος"
+        "strong": "G5214",
+        "morph": "V-PAP-NSM",
+        "lemma": "ὑμνέω"
       },
       {
         "text": " καὶ",
@@ -132843,9 +132840,9 @@
         "text": " πολεμῶν",
         "script": "G",
         "transliteration": " polemō̂n",
-        "strong": "G4171",
-        "morph": "N-GPM",
-        "lemma": "πόλεμος"
+        "strong": "G4170",
+        "morph": "V-PAP-NSM",
+        "lemma": "πολεμέω"
       },
       {
         "text": " αὐτοὺς",

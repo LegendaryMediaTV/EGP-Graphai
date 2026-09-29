@@ -6562,7 +6562,7 @@
         "script": "G",
         "transliteration": " Epitimḗsai",
         "strong": "G2008",
-        "morph": "V-AAN",
+        "morph": "V-AAO-3S",
         "lemma": "ἐπιτιμάω"
       },
       {
@@ -6610,7 +6610,7 @@
         "script": "G",
         "transliteration": " epitimḗsai",
         "strong": "G2008",
-        "morph": "V-AAN",
+        "morph": "V-AAO-3S",
         "lemma": "ἐπιτιμάω"
       },
       {
@@ -21383,9 +21383,17 @@
         "lemma": "λόγος"
       },
       {
-        "text": " κύριου",
+        "text": " κυρίου",
         "script": "G",
-        "transliteration": " kýriou",
+        "transliteration": " kyríou",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "κύριου", "script": "G", "transliteration": "kýriou" },
+            "."
+          ]
+        },
         "strong": "G2962",
         "morph": "N-GSM",
         "lemma": "κύριος"
@@ -28776,7 +28784,7 @@
         "script": "G",
         "transliteration": " poimanō̂",
         "strong": "G4165",
-        "morph": "V-2AAS-1S",
+        "morph": "V-FAI-1S",
         "lemma": "ποιμαίνω"
       },
       {
@@ -28959,7 +28967,7 @@
         "script": "G",
         "transliteration": " poimanō̂",
         "strong": "G4165",
-        "morph": "V-2AAS-1S",
+        "morph": "V-FAI-1S",
         "lemma": "ποιμαίνω"
       },
       {

@@ -464,13 +464,9 @@
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
-      "ψεύδεσι": {
-        "transliteration": "pseúdesi",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "fem"] },
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
+      "ψευδέσι": {
+        "transliteration": "pseudési",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       },
       "ψευδέσιν": {
         "transliteration": "pseudésin",
@@ -478,16 +474,6 @@
       },
       "ψευδῆ": {
         "transliteration": "pseudē̂",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
-        ]
-      },
-      "ψεύδη": {
-        "transliteration": "pseúdē",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "acc", "sg", "fem"] },
@@ -505,14 +491,6 @@
       },
       "ψευδοῦς": {
         "transliteration": "pseudoûs",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
-        ]
-      },
-      "ψεύδους": {
-        "transliteration": "pseúdous",
         "cells": [
           { "parse": ["adj", "gen", "sg", "fem"] },
           { "parse": ["adj", "gen", "sg", "masc"] },
@@ -714,6 +692,10 @@
       "ψεύδει": {
         "transliteration": "pseúdei",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "ψεύδεσι": {
+        "transliteration": "pseúdesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ψεύδεσιν": {
         "transliteration": "pseúdesin",
@@ -1031,19 +1013,11 @@
       },
       "ψηλαφήσαι": {
         "transliteration": "psēlaphḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ψηλαφῆσαί": {
         "transliteration": "psēlaphē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ψηλαφήσαισαν": {
         "transliteration": "psēlaphḗsaisan",
@@ -1374,8 +1348,7 @@
         "transliteration": "psogísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }

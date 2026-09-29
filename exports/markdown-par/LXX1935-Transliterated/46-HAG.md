@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> En tō̂ deutérō étei epì Dareíou toû basiléōs en tō̂ mēnì tō̂ héktō miâ toû mēnòs egéneto lógos kýriou en cheirì Angaiou toû prophḗtou légōn Eipòn dḕ pròs Zorobabel tòn toû Salathiēl ek phylē̂s Iouda kaì pròs Iēsoûn tòn toû Iōsedek tòn hieréa tòn mégan légōn
+<sup>1</sup> En tō̂ deutérō étei epì Dareíou toû basiléōs en tō̂ mēnì tō̂ héktō miâ toû mēnòs egéneto lógos kyríou<sup>a</sup> en cheirì Angaiou toû prophḗtou légōn Eipòn dḕ pròs Zorobabel tòn toû Salathiēl ek phylē̂s Iouda kaì pròs Iēsoûn tòn toû Iōsedek tòn hieréa tòn mégan légōn
 
 <sup>2</sup> Táde légei kýrios pantokrátōr légōn Ho laòs hoûtos légousin Ouch hḗkei ho kairòs toû oikodomē̂sai tòn oîkon kyríou.
 <sup>3</sup> Kaì egéneto lógos kyríou en cheirì Angaiou toû prophḗtou légōn
@@ -17,6 +17,8 @@
 <sup>13</sup> Kaì eîpen Angaios ho ángelos kyríou tō̂ laō̂ Egṓ eimi meth’ hymō̂n, légei kýrios.
 <sup>14</sup> Kaì exḗgeiren kýrios tò pneûma Zorobabel toû Salathiēl ek phylē̂s Iouda kaì tò pneûma Iēsoû toû Iōsedek toû hieréōs toû megálou kaì tò pneûma tō̂n kataloípōn pantòs toû laoû, kaì eisē̂lthon kaì epoíoun érga en tō̂ oíkō kyríou pantokrátoros theoû autō̂n
 <sup>15</sup> tē̂ tetrádi kaì eikádi toû mēnòs toû héktou tō̂ deutérō étei epì Dareíou toû basiléōs.
+
+> - <sup>a</sup> 1. Corrected from kýriou.
 
 ## Chapter 2
 

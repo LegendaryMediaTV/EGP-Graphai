@@ -1672,8 +1672,7 @@
         "transliteration": "makarísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "μακαρίσαιμ": {
@@ -2225,14 +2224,6 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
-      },
-      "μακροθυμῶν": {
-        "transliteration": "makrothymō̂n",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
       }
     }
   },
@@ -2295,20 +2286,12 @@
           {
             "parse": ["adj", "acc", "pl", "fem"],
             "indices": { "strongs": "G3117" }
-          },
-          {
-            "parse": ["adj", "gen", "sg", "fem"],
-            "indices": { "strongs": "G3117" }
           }
         ]
       },
       "μακρᾶς": {
         "transliteration": "makrâs",
         "cells": [
-          {
-            "parse": ["adj", "acc", "pl", "fem"],
-            "indices": { "strongs": "G3117" }
-          },
           {
             "parse": ["adj", "gen", "sg", "fem"],
             "indices": { "strongs": "G3117" }
@@ -2356,18 +2339,6 @@
       "μακροτέρα": {
         "transliteration": "makrotéra",
         "cells": [
-          {
-            "parse": ["adj", "acc", "pl", "neut", "comp"],
-            "indices": { "strongs": "G3117" }
-          },
-          {
-            "parse": ["adj", "nom", "pl", "neut", "comp"],
-            "indices": { "strongs": "G3117" }
-          },
-          {
-            "parse": ["adj", "voc", "pl", "neut", "comp"],
-            "indices": { "strongs": "G3117" }
-          },
           {
             "parse": ["adj", "comp", "nom", "sg", "fem"],
             "indices": { "strongs": "G3117" }
@@ -2581,18 +2552,12 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       },
       "μακρυνεῖς": {
         "transliteration": "makryneîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "μακρύνης": {
         "transliteration": "makrýnēs",
@@ -3977,8 +3942,6 @@
       "μάντευσαι": {
         "transliteration": "mánteusai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -4833,10 +4796,6 @@
     "inflections": {
       "μαρτυρία": {
         "transliteration": "martyría",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "μαρτύρια": {
-        "transliteration": "martýria",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μαρτυρίαι": {
@@ -5900,7 +5859,6 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
@@ -5909,7 +5867,6 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
@@ -6930,11 +6887,7 @@
       },
       "μεγαλαυχῆσαι": {
         "transliteration": "megalauchē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -7414,7 +7367,7 @@
       },
       "μεγαλυνεῖ": {
         "transliteration": "megalyneî",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "μεγαλύνει": {
         "transliteration": "megalýnei",
@@ -7525,12 +7478,7 @@
       },
       "μεγαλυνῶ": {
         "transliteration": "megalynō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "μεγαλύνωμεν": {
         "transliteration": "megalýnōmen",
@@ -8280,11 +8228,7 @@
       },
       "μεθερμηνεῦσαι": {
         "transliteration": "methermēneûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -8530,15 +8474,7 @@
       },
       "μεταστῆσαι": {
         "transliteration": "metastē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "μεταστήσας": {
         "transliteration": "metastḗsas",
@@ -9421,10 +9357,7 @@
       "μελέα": {
         "transliteration": "meléa",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       }
@@ -9458,10 +9391,7 @@
       },
       "μελετᾷ": {
         "transliteration": "meletâ",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "μελέτα": {
         "transliteration": "meléta",
@@ -10464,10 +10394,7 @@
       },
       "μενεῖ": {
         "transliteration": "meneî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "μένει": {
         "transliteration": "ménei",
@@ -10479,10 +10406,7 @@
       },
       "μενεῖς": {
         "transliteration": "meneîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "μένεις": {
         "transliteration": "méneis",
@@ -10553,10 +10477,7 @@
       },
       "μενοῦσιν": {
         "transliteration": "menoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "μένουσιν": {
         "transliteration": "ménousin",
@@ -11369,9 +11290,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "μεσοπορφύρου": {
@@ -11829,8 +11748,6 @@
       "μεταβάλλει": {
         "transliteration": "metabállei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -12117,8 +12034,7 @@
         "transliteration": "metáxai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "μεταχθέντες": {
@@ -12371,8 +12287,7 @@
         "transliteration": "metakalésai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "μετακάλεσαι": {
@@ -12520,12 +12435,6 @@
       "μεταλαβοῦσαι": {
         "transliteration": "metalaboûsai",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] },
           {
             "parse": ["verb", "second", "aor", "act", "ptc", "nom", "pl", "fem"]
           }
@@ -12874,11 +12783,7 @@
       },
       "μεταναστεύσαι": {
         "transliteration": "metanasteúsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "μεταναστεύσω": {
         "transliteration": "metanasteúsō",
@@ -12924,7 +12829,6 @@
         "transliteration": "metanóei",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -13100,11 +13004,7 @@
     "inflections": {
       "μεταπεῖσαι": {
         "transliteration": "metapeîsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -13740,8 +13640,7 @@
         "transliteration": "metatrépsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "μετετράπη": {
@@ -14084,9 +13983,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "μετέωροι": {
@@ -14216,8 +14113,7 @@
         "transliteration": "metoikísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "μετοικιῶ": {
@@ -14913,7 +14809,6 @@
         "transliteration": "mēkýnō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -15900,10 +15795,7 @@
       },
       "μιανῶ": {
         "transliteration": "mianō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -16043,11 +15935,7 @@
       },
       "μιαροφαγῆσαι": {
         "transliteration": "miarophagē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "μιαροφαγήσαιεν": {
         "transliteration": "miarophagḗsaien",
@@ -16324,17 +16212,11 @@
       },
       "μικράς": {
         "transliteration": "mikrás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
       },
       "μικρᾶς": {
         "transliteration": "mikrâs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       },
       "μικροί": {
         "transliteration": "mikroí",
@@ -16918,10 +16800,6 @@
         "transliteration": "mnēsthē̂te",
         "cells": [
           {
-            "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"],
-            "indices": { "strongs": "G3415" }
-          },
-          {
             "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
             "indices": { "strongs": "G3415" }
           }
@@ -16932,10 +16810,6 @@
         "cells": [
           {
             "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"],
-            "indices": { "strongs": "G3415" }
-          },
-          {
-            "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"],
             "indices": { "strongs": "G3415" }
           }
         ]
@@ -17269,11 +17143,7 @@
       },
       "μισῆσαι": {
         "transliteration": "misē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "μισήσας": {
         "transliteration": "misḗsas",
@@ -17790,11 +17660,7 @@
     "inflections": {
       "μισοπονηρῆσαι": {
         "transliteration": "misoponērē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "μισοπονηρήσαντες": {
         "transliteration": "misoponērḗsantes",
@@ -18394,7 +18260,6 @@
       "μνησικακεῖ": {
         "transliteration": "mnēsikakeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -19014,8 +18879,6 @@
       "μολύνει": {
         "transliteration": "molýnei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -19040,12 +18903,7 @@
       },
       "μολυνῶ": {
         "transliteration": "molynō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -19406,15 +19264,6 @@
         "cells": [
           {
             "parse": ["adj", "dat", "sg", "fem"],
-            "indices": { "strongs": "G3441" }
-          }
-        ]
-      },
-      "μονήν": {
-        "transliteration": "monḗn",
-        "cells": [
-          {
-            "parse": ["adj", "acc", "sg", "fem"],
             "indices": { "strongs": "G3441" }
           }
         ]
@@ -20122,7 +19971,6 @@
       "μοχθεῖ": {
         "transliteration": "mochtheî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -20323,7 +20171,7 @@
       }
     }
   },
-  "μυγάλη": {
+  "μυγαλῆ": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",

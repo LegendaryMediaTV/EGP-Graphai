@@ -5464,9 +5464,17 @@
         "lemma": "εἰμί"
       },
       {
-        "text": " ἶσα",
+        "text": " ἴσα",
         "script": "G",
-        "transliteration": " îsa",
+        "transliteration": " ísa",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "ἶσα", "script": "G", "transliteration": "îsa" },
+            "."
+          ]
+        },
         "strong": "G2470",
         "morph": "A-APN",
         "lemma": "ἴσος"

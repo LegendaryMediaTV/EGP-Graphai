@@ -12270,9 +12270,8 @@
         "text": " ἐλάττων",
         "script": "G",
         "transliteration": " eláttōn",
-        "strong": "G1642",
-        "morph": "V-PAP-NSM",
-        "lemma": "ἐλαττόω"
+        "morph": "A-NSF-C",
+        "lemma": "ἐλάσσων"
       },
       {
         "text": " σου,",
@@ -15245,7 +15244,7 @@
         "script": "G",
         "transliteration": " topárchas",
         "morph": "N-APM",
-        "lemma": "τοπαρχής"
+        "lemma": "τοπάρχης"
       },
       {
         "text": " καὶ",
@@ -22425,7 +22424,7 @@
         "script": "G",
         "transliteration": " teleiṓsai",
         "strong": "G5048",
-        "morph": "V-AAN",
+        "morph": "V-AAO-3S",
         "lemma": "τελειόω"
       },
       {
@@ -29946,7 +29945,7 @@
         "script": "G",
         "transliteration": " topárchai",
         "morph": "N-NPM",
-        "lemma": "τοπαρχής"
+        "lemma": "τοπάρχης"
       },
       {
         "text": " καὶ",
@@ -34878,7 +34877,7 @@
         "text": " ἐξερήμωσας",
         "script": "G",
         "transliteration": " exerḗmōsas",
-        "morph": "V-AAP-NSM",
+        "morph": "V-AAI-2S",
         "lemma": "ἐξερημόω"
       },
       {
@@ -35897,7 +35896,7 @@
         "script": "G",
         "transliteration": " lýtrōsai,",
         "strong": "G3084",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "λυτρόω"
       },
       {
@@ -40374,7 +40373,7 @@
         "text": " ἀλλοιῶσαι",
         "script": "G",
         "transliteration": " alloiō̂sai",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "ἀλλοιόω"
       },
       {
@@ -44082,9 +44081,21 @@
         "lemma": "ὁ"
       },
       {
-        "text": " συνεταῖροι",
+        "text": " συνέταιροι",
         "script": "G",
-        "transliteration": " synetaîroi",
+        "transliteration": " synétairoi",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "συνεταῖροι",
+              "script": "G",
+              "transliteration": "synetaîroi"
+            },
+            "."
+          ]
+        },
         "morph": "N-NPM",
         "lemma": "συνέταιρος"
       },
@@ -50404,7 +50415,7 @@
         "script": "G",
         "transliteration": " meneî",
         "strong": "G3306",
-        "morph": "V-PAI-3S",
+        "morph": "V-FAI-3S",
         "lemma": "μένω"
       },
       {
@@ -77203,7 +77214,7 @@
         "script": "G",
         "transliteration": " enischŷsai",
         "strong": "G1765",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "ἐνισχύω"
       },
       {
@@ -86346,16 +86357,16 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
         "text": " πλάτει",
         "script": "G",
         "transliteration": " plátei",
-        "strong": "G4116",
-        "morph": "A-DSM",
-        "lemma": "πλατύς"
+        "strong": "G4114",
+        "morph": "N-DSN",
+        "lemma": "πλάτος"
       },
       {
         "text": " τῆς",
@@ -86775,7 +86786,7 @@
         "script": "G",
         "transliteration": " sphrágisai",
         "strong": "G4972",
-        "morph": "V-AAO-3S",
+        "morph": "V-AMM-2S",
         "lemma": "σφραγίζω"
       },
       {

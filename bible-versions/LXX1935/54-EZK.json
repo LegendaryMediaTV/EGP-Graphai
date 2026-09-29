@@ -15634,7 +15634,7 @@
         "script": "G",
         "transliteration": " stathmíōn",
         "morph": "N-GPN",
-        "lemma": "σταθμίον"
+        "lemma": "στάθμιον"
       },
       {
         "text": " καὶ",
@@ -27455,7 +27455,7 @@
         "script": "G",
         "transliteration": " mátaia",
         "strong": "G3152",
-        "morph": "A-NSF",
+        "morph": "A-NPN",
         "lemma": "μάταιος"
       },
       {
@@ -79970,15 +79970,15 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
         "text": " θράσει",
         "script": "G",
         "transliteration": " thrásei",
-        "morph": "A-DSM",
-        "lemma": "θρασύς"
+        "morph": "N-DSN",
+        "lemma": "θράσος"
       },
       {
         "text": " αὐτοῦ",
@@ -90856,9 +90856,17 @@
         "lemma": "ἐν"
       },
       {
-        "text": " πᾶσαις",
+        "text": " πάσαις",
         "script": "G",
-        "transliteration": " pâsais",
+        "transliteration": " pásais",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "πᾶσαις", "script": "G", "transliteration": "pâsais" },
+            "."
+          ]
+        },
         "strong": "G3956",
         "morph": "A-DPF",
         "lemma": "πᾶς"
@@ -125318,16 +125326,15 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPF",
+        "morph": "T-GPM",
         "lemma": "ὁ"
       },
       {
         "text": " ὅρμων",
         "script": "G",
         "transliteration": " hórmōn",
-        "strong": "G3730",
-        "morph": "N-GPF",
-        "lemma": "ὁρμή"
+        "morph": "N-GPM",
+        "lemma": "ὅρμος"
       },
       {
         "text": " σου",
@@ -128786,9 +128793,9 @@
         "text": " βάθει",
         "script": "G",
         "transliteration": " báthei",
-        "strong": "G901",
-        "morph": "A-DSM",
-        "lemma": "βαθύς"
+        "strong": "G899",
+        "morph": "N-DSN",
+        "lemma": "βάθος"
       },
       {
         "text": " ὕδατος·",
@@ -134995,9 +135002,9 @@
         "text": " τάχει",
         "script": "G",
         "transliteration": " táchei",
-        "strong": "G5036",
-        "morph": "A-DSM",
-        "lemma": "ταχύς"
+        "strong": "G5034",
+        "morph": "N-DSN",
+        "lemma": "τάχος"
       },
       {
         "text": " καὶ",
@@ -149982,9 +149989,9 @@
         "text": " βάθει",
         "script": "G",
         "transliteration": " báthei",
-        "strong": "G901",
-        "morph": "A-DSM",
-        "lemma": "βαθύς"
+        "strong": "G899",
+        "morph": "N-DSN",
+        "lemma": "βάθος"
       },
       {
         "text": " βόθρου",
@@ -150233,9 +150240,9 @@
         "text": " βάθει",
         "script": "G",
         "transliteration": " báthei",
-        "strong": "G901",
-        "morph": "A-DSM",
-        "lemma": "βαθύς"
+        "strong": "G899",
+        "morph": "N-DSN",
+        "lemma": "βάθος"
       },
       {
         "text": " βόθρου,",
@@ -165191,9 +165198,9 @@
         "text": " ἐχθρὰν",
         "script": "G",
         "transliteration": " echthràn",
-        "strong": "G2189",
-        "morph": "N-ASF",
-        "lemma": "ἔχθρα"
+        "strong": "G2190",
+        "morph": "A-ASF",
+        "lemma": "ἐχθρός"
       },
       {
         "text": " αἰωνίαν",
@@ -213120,9 +213127,21 @@
         "lemma": "ὁ"
       },
       {
-        "text": " ἱλαστῆριον",
+        "text": " ἱλαστήριον",
         "script": "G",
-        "transliteration": " hilastē̂rion",
+        "transliteration": " hilastḗrion",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "ἱλαστῆριον",
+              "script": "G",
+              "transliteration": "hilastē̂rion"
+            },
+            "."
+          ]
+        },
         "strong": "G2435",
         "morph": "N-ASN",
         "lemma": "ἱλαστήριον"
@@ -219229,8 +219248,8 @@
         "text": " ἐρεᾶ",
         "script": "G",
         "transliteration": " ereâ",
-        "morph": "N-ASF",
-        "lemma": "ἐρέα"
+        "morph": "A-APN",
+        "lemma": "ἐρεοῦς"
       },
       {
         "text": " ἐν",
@@ -224583,7 +224602,7 @@
         "script": "G",
         "transliteration": " státhmion",
         "morph": "N-NSN",
-        "lemma": "σταθμίον"
+        "lemma": "στάθμιον"
       },
       {
         "text": " εἴκοσι",
@@ -240527,16 +240546,16 @@
         "script": "G",
         "transliteration": " tō̂",
         "strong": "G3588",
-        "morph": "T-DSM",
+        "morph": "T-DSN",
         "lemma": "ὁ"
       },
       {
         "text": " πλάτει",
         "script": "G",
         "transliteration": " plátei",
-        "strong": "G4116",
-        "morph": "A-DSM",
-        "lemma": "πλατύς"
+        "strong": "G4114",
+        "morph": "N-DSN",
+        "lemma": "πλάτος"
       },
       {
         "text": " ἐπὶ",

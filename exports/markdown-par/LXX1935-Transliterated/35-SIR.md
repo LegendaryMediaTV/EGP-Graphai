@@ -101,7 +101,7 @@
 <sup>9</sup> Exeloû adikoúmenon ek cheiròs adikoûntos kaì mḕ oligopsychḗsēs en tō̂ krínein se.
 <sup>10</sup> Gínou orphanoîs hōs patḕr kaì antì andròs tē̂ mētrì autō̂n; kaì ésē hōs hyiòs hypsístou, kaì agapḗsei se mâllon ḕ mḗtēr sou.
 
-<sup>11</sup> Hē sophía hyioùs autē̂s anýpsōsen kaì epilambánetai tō̂n zētoûntōn autḗn.
+<sup>11</sup> Hē sophía hyioùs autē̂s anýpsōsen kaì epilambánetai tō̂n zētoúntōn<sup>a</sup> autḗn.
 <sup>12</sup> Ho agapō̂n autḕn agapâ zōḗn, kaì hoi orthrízontes pròs autḕn emplēsthḗsontai euphrosýnēs.
 <sup>13</sup> Ho kratō̂n autē̂s klēronomḗsei dóxan, kaì hoû eisporeúetai, eulogeî kýrios.
 <sup>14</sup> Hoi latreúontes autē̂ leitourgḗsousin hagíō, kaì toùs agapō̂ntas autḕn agapâ ho kýrios.
@@ -123,6 +123,8 @@
 <sup>29</sup> Mḕ gínou thrasỳs en glṓssē sou kaì nōthròs kaì pareiménos en toîs érgois sou.
 <sup>30</sup> Mḕ ísthi hōs léōn en tō̂ oíkō sou kaì phantasiokopō̂n en toîs oikétais sou.
 <sup>31</sup> Mḕ éstō hē cheír sou ektetaménē eis tò labeîn kaì en tō̂ apodidónai synestalménē.
+
+> - <sup>a</sup> 11. Corrected from zētoûntōn.
 
 ## Chapter 5
 

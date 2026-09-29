@@ -170,7 +170,6 @@
       "ἐᾷ": {
         "transliteration": "eâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -190,11 +189,7 @@
       },
       "ἐᾶσαι": {
         "transliteration": "eâsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐάσαντες": {
         "transliteration": "eásantes",
@@ -404,9 +399,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἑβδόμαις": {
@@ -1412,7 +1405,6 @@
         "transliteration": "egeírō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -1470,10 +1462,7 @@
       },
       "ἐγέρθητε": {
         "transliteration": "egérthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἐγέρθητι": {
         "transliteration": "egérthēti",
@@ -2155,8 +2144,7 @@
         "transliteration": "enkainísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐγκαίνισον": {
@@ -2895,11 +2883,7 @@
     "inflections": {
       "ἐγκισσῆσαι": {
         "transliteration": "enkissē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐγκισσήσωσιν": {
         "transliteration": "enkissḗsōsin",
@@ -2970,11 +2954,7 @@
     "inflections": {
       "ἐγκλοίωσαι": {
         "transliteration": "enkloíōsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       }
     }
   },
@@ -2987,9 +2967,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -3436,9 +3414,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔγκτητον": {
@@ -3761,11 +3737,7 @@
     "inflections": {
       "ἐγχρῖσαι": {
         "transliteration": "enchrîsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐγχρίσῃ": {
         "transliteration": "enchrísē",
@@ -5276,8 +5248,7 @@
         "transliteration": "eikásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "εἰκασθῇ": {
@@ -5429,7 +5400,6 @@
         "transliteration": "eîxai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -5670,7 +5640,10 @@
       "ἔσει": {
         "transliteration": "ései",
         "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] }
+          {
+            "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2071" }
+          }
         ]
       },
       "ἔσεσθαι": {
@@ -5821,7 +5794,10 @@
       "ἐσόμενον": {
         "transliteration": "esómenon",
         "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ptc", "acc", "sg", "masc"] },
+          {
+            "parse": ["verb", "fut", "mid-dep", "ptc", "acc", "sg", "masc"],
+            "indices": { "strongs": "G2071" }
+          },
           {
             "parse": ["verb", "fut", "mid-dep", "ptc", "acc", "sg", "neut"],
             "indices": { "strongs": "G2071" }
@@ -5830,7 +5806,10 @@
             "parse": ["verb", "fut", "mid-dep", "ptc", "nom", "sg", "neut"],
             "indices": { "strongs": "G2071" }
           },
-          { "parse": ["verb", "fut", "mid-dep", "ptc", "voc", "sg", "neut"] }
+          {
+            "parse": ["verb", "fut", "mid-dep", "ptc", "voc", "sg", "neut"],
+            "indices": { "strongs": "G2071" }
+          }
         ]
       },
       "ἐσόμενος": {
@@ -5991,7 +5970,10 @@
             "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"],
             "indices": { "strongs": "G2258" }
           },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2258" }
+          },
           {
             "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"],
             "indices": { "strongs": "G5600" }
@@ -6161,7 +6143,10 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"],
             "indices": { "strongs": "G5607" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G5607" }
+          }
         ]
       },
       "ὄντας": {
@@ -6180,7 +6165,10 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
             "indices": { "strongs": "G5607" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G5607" }
+          }
         ]
       },
       "ὄντι": {
@@ -6234,7 +6222,10 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
             "indices": { "strongs": "G5607" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"],
+            "indices": { "strongs": "G5607" }
+          }
         ]
       },
       "οὖσαν": {
@@ -6328,15 +6319,6 @@
           {
             "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"],
             "indices": { "strongs": "G5607" }
-          }
-        ]
-      },
-      "ὠσί": {
-        "transliteration": "ōsí",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
-            "indices": { "strongs": "G5600" }
           }
         ]
       },
@@ -6493,11 +6475,7 @@
       },
       "εἰρηνεῦσαι": {
         "transliteration": "eirēneûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εἰρηνεύσει": {
         "transliteration": "eirēneúsei",
@@ -6661,7 +6639,6 @@
       "εἰρηνοποιεῖ": {
         "transliteration": "eirēnopoieî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -7151,30 +7128,15 @@
       },
       "εἰσακούσαι": {
         "transliteration": "eisakoúsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "εἰσακοῦσαι": {
         "transliteration": "eisakoûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εἰσακοῦσαί": {
         "transliteration": "eisakoûsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εἰσακούσας": {
         "transliteration": "eisakoúsas",
@@ -9149,9 +9111,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἑκάστη": {
@@ -9483,8 +9443,6 @@
       "ἐκβαίνει": {
         "transliteration": "ekbaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -9930,8 +9888,7 @@
         "transliteration": "ekbiásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐξεβιάζοντο": {
@@ -9956,12 +9913,7 @@
     "inflections": {
       "ἐκβλαστῆσαι": {
         "transliteration": "ekblastē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκβλαστήσει": {
         "transliteration": "ekblastḗsei",
@@ -10295,8 +10247,6 @@
       "ἔκδεξαι": {
         "transliteration": "ékdexai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -10703,8 +10653,6 @@
       "ἐκδιήγησαι": {
         "transliteration": "ekdiḗgēsai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -10802,7 +10750,6 @@
       "ἐκδικεῖ": {
         "transliteration": "ekdikeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -10811,13 +10758,7 @@
       },
       "ἐκδίκει": {
         "transliteration": "ekdíkei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ἐκδικεῖς": {
         "transliteration": "ekdikeîs",
@@ -10852,10 +10793,7 @@
       },
       "ἐκδικήσαι": {
         "transliteration": "ekdikḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐκδικῆσαι": {
         "transliteration": "ekdikē̂sai",
@@ -11105,11 +11043,7 @@
       },
       "ἐκδιῶξαι": {
         "transliteration": "ekdiō̂xai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκδιωξάντων": {
         "transliteration": "ekdiōxántōn",
@@ -11198,11 +11132,7 @@
       },
       "ἔκδυσαι": {
         "transliteration": "ékdysai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐκδύσαντες": {
         "transliteration": "ekdýsantes",
@@ -11461,7 +11391,6 @@
       "ἐκζητεῖ": {
         "transliteration": "ekzēteî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -11493,27 +11422,15 @@
       },
       "ἐκζητήσαι": {
         "transliteration": "ekzētḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐκζητῆσαι": {
         "transliteration": "ekzētē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκζητῆσαί": {
         "transliteration": "ekzētē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκζητήσαντες": {
         "transliteration": "ekzētḗsantes",
@@ -11798,8 +11715,7 @@
         "transliteration": "ektherísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐκθερίσεις": {
@@ -12011,10 +11927,7 @@
       },
       "ἐκκαθαρῶ": {
         "transliteration": "ekkatharō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐξεκάθαρα": {
         "transliteration": "exekáthara",
@@ -12125,12 +12038,7 @@
       },
       "ἐκκαῦσαι": {
         "transliteration": "ekkaûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκκαύσας": {
         "transliteration": "ekkaúsas",
@@ -12590,18 +12498,12 @@
         "transliteration": "ekklineî",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "ἐκκλίνει": {
         "transliteration": "ekklínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -12614,10 +12516,7 @@
       },
       "ἐκκλινεῖς": {
         "transliteration": "ekklineîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "ἐκκλινεῖτε": {
         "transliteration": "ekklineîte",
@@ -12705,32 +12604,20 @@
       },
       "ἐκκλινοῦσιν": {
         "transliteration": "ekklinoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐκκλίνουσιν": {
         "transliteration": "ekklínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐκκλινῶ": {
         "transliteration": "ekklinō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐκκλίνω": {
         "transliteration": "ekklínō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -13772,11 +13659,7 @@
     "inflections": {
       "ἐκλείξαι": {
         "transliteration": "ekleíxai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐκλείξει": {
         "transliteration": "ekleíxei",
@@ -14233,10 +14116,7 @@
       },
       "ἐκλύθητε": {
         "transliteration": "eklýthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἐκλυθῶσιν": {
         "transliteration": "eklythō̂sin",
@@ -14697,9 +14577,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἑκουσίοις": {
@@ -14764,11 +14642,7 @@
     "inflections": {
       "ἐκπαιδεῦσαι": {
         "transliteration": "ekpaideûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -14860,8 +14734,7 @@
         "transliteration": "ekpémpsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐκπέμψατέ": {
@@ -15427,11 +15300,7 @@
       },
       "ἐκπληρῶσαι": {
         "transliteration": "ekplērō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκπληρώσειν": {
         "transliteration": "ekplērṓsein",
@@ -15523,9 +15392,6 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       }
@@ -15562,7 +15428,6 @@
       "ἐκποιεῖ": {
         "transliteration": "ekpoieî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -15606,11 +15471,7 @@
     "inflections": {
       "ἐκπολεμῆσαι": {
         "transliteration": "ekpolemē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκπολεμήσαντες": {
         "transliteration": "ekpolemḗsantes",
@@ -16077,19 +15938,11 @@
       },
       "ἐκπορνεῦσαι": {
         "transliteration": "ekporneûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκπορνεῦσαί": {
         "transliteration": "ekporneûsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκπορνεύσασαι": {
         "transliteration": "ekporneúsasai",
@@ -16318,11 +16171,7 @@
       },
       "ἐκριζῶσαι": {
         "transliteration": "ekrizō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκριζώσητε": {
         "transliteration": "ekrizṓsēte",
@@ -16359,7 +16208,6 @@
       "ἐκριπτεῖ": {
         "transliteration": "ekripteî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -16487,8 +16335,7 @@
         "transliteration": "ekspásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐκσπάσας": {
@@ -16816,8 +16663,6 @@
       "ἐκτείνει": {
         "transliteration": "ekteínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -16886,7 +16731,6 @@
         "transliteration": "ekteínō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -17062,7 +16906,7 @@
         "transliteration": "ektelésai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐκτετελεκότες": {
@@ -17967,11 +17811,7 @@
       },
       "ἐκτρῖψαι": {
         "transliteration": "ektrîpsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκτρίψει": {
         "transliteration": "ektrípsei",
@@ -18208,8 +18048,6 @@
       "ἐκφαίνει": {
         "transliteration": "ekphaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -18237,10 +18075,7 @@
       },
       "ἐκφανῶ": {
         "transliteration": "ekphanō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐκφάνωσιν": {
         "transliteration": "ekphánōsin",
@@ -18539,6 +18374,12 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] }
         ]
       },
+      "ἐκφύγῃς": {
+        "transliteration": "ekphýgēs",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"] }
+        ]
+      },
       "ἐκφυγόντα": {
         "transliteration": "ekphygónta",
         "cells": [
@@ -18736,10 +18577,6 @@
       "ἐκφυγῆς": {
         "transliteration": "ekphygē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "ἐκφύγῃς": {
-        "transliteration": "ekphýgēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -18776,11 +18613,7 @@
       },
       "ἐκφυσῆσαι": {
         "transliteration": "ekphysē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐκφυσήσω": {
         "transliteration": "ekphysḗsō",
@@ -18886,13 +18719,7 @@
       },
       "ἐκχεεῖ": {
         "transliteration": "ekcheeî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐκχέει": {
         "transliteration": "ekchéei",
@@ -19012,10 +18839,7 @@
       },
       "ἐκχεοῦσιν": {
         "transliteration": "ekcheoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐκχέουσιν": {
         "transliteration": "ekchéousin",
@@ -19027,10 +18851,7 @@
       },
       "ἐκχέω": {
         "transliteration": "ekchéō",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐκχέων": {
         "transliteration": "ekchéōn",
@@ -19542,6 +19363,10 @@
           }
         ]
       },
+      "ἐλάττων": {
+        "transliteration": "eláttōn",
+        "cells": [{ "parse": ["adj", "comp", "nom", "sg", "fem"] }]
+      },
       "ἐλάχιστα": {
         "transliteration": "eláchista",
         "cells": [
@@ -19704,14 +19529,6 @@
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
       },
-      "ἐλαταῖς": {
-        "transliteration": "elataîs",
-        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      },
-      "ἐλατάς": {
-        "transliteration": "elatás",
-        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
-      },
       "ἐλάτης": {
         "transliteration": "elátēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
@@ -19744,6 +19561,14 @@
           { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
+      },
+      "ἐλαταῖς": {
+        "transliteration": "elataîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
+      },
+      "ἐλατάς": {
+        "transliteration": "elatás",
+        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
       },
       "ἐλατούς": {
         "transliteration": "elatoús",
@@ -19939,20 +19764,9 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
-      "ἐλάττων": {
-        "transliteration": "eláttōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
-        ]
-      },
       "ἐλαττῶσαι": {
         "transliteration": "elattō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐλαττώσει": {
         "transliteration": "elattṓsei",
@@ -20386,7 +20200,6 @@
       "ἐλεᾷ": {
         "transliteration": "eleâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -20792,10 +20605,7 @@
       },
       "ἐλεήσαι": {
         "transliteration": "eleḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐλεῆσαι": {
         "transliteration": "eleē̂sai",
@@ -21214,7 +21024,6 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
@@ -21317,11 +21126,7 @@
       },
       "ἐλευθερῶσαι": {
         "transliteration": "eleutherō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐλευθερώσει": {
         "transliteration": "eleutherṓsei",
@@ -23216,10 +23021,6 @@
         "transliteration": "ḗlpisan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
-      "ἦλπισαν": {
-        "transliteration": "ē̂lpisan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      },
       "ἤλπισας": {
         "transliteration": "ḗlpisas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
@@ -23843,11 +23644,7 @@
       },
       "ἐμβατεῦσαι": {
         "transliteration": "embateûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐμβατεύων": {
         "transliteration": "embateúōn",
@@ -24275,10 +24072,7 @@
       },
       "ἐμμενεῖ": {
         "transliteration": "emmeneî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐμμένει": {
         "transliteration": "emménei",
@@ -24758,6 +24552,29 @@
       }
     }
   },
+  "ἐμπειρέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "inflections": {
+      "ἐμπειρεῖ": {
+        "transliteration": "empeireî",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ἐμπειρῶ": {
+        "transliteration": "empeirō̂",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
+        ]
+      }
+    }
+  },
   "ἐμπειρία": {
     "language": "greek",
     "pos": "noun",
@@ -24789,33 +24606,6 @@
       }
     }
   },
-  "ἐμπείρω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐμπειρεῖ": {
-        "transliteration": "empeireî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ἐμπειρῶ": {
-        "transliteration": "empeirō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
-      }
-    }
-  },
   "ἐμπεριπατέω": {
     "language": "greek",
     "pos": "verb",
@@ -24826,7 +24616,6 @@
       "ἐμπεριπατεῖ": {
         "transliteration": "emperipateî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -25493,11 +25282,7 @@
       },
       "ἐμπιστεύσαι": {
         "transliteration": "empisteúsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐμπιστεύσαντας": {
         "transliteration": "empisteúsantas",
@@ -25579,8 +25364,6 @@
       "ἐμπλατύνει": {
         "transliteration": "emplatýnei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -25613,7 +25396,6 @@
         "transliteration": "emplatýnō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -26221,11 +26003,7 @@
     "inflections": {
       "ἐμπρῆσαι": {
         "transliteration": "emprē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐμπρήσαντας": {
         "transliteration": "emprḗsantas",
@@ -26829,11 +26607,7 @@
     "inflections": {
       "ἐμφυσῆσαι": {
         "transliteration": "emphysē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐμφυσήσαντα": {
         "transliteration": "emphysḗsanta",
@@ -27367,8 +27141,6 @@
       "ἔναρξαι": {
         "transliteration": "énarxai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -27850,8 +27622,6 @@
       "ἐνδείκνυσαι": {
         "transliteration": "endeíknysai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           {
             "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem", "second"]
           },
@@ -28415,7 +28185,6 @@
         "transliteration": "endō̂sin",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl", "second"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }
         ]
       },
@@ -28553,9 +28322,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔνδοξά": {
@@ -28563,9 +28330,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔνδοξοι": {
@@ -28919,11 +28684,7 @@
       },
       "ἔνδυσαι": {
         "transliteration": "éndysai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐνδύσαιντο": {
         "transliteration": "endýsainto",
@@ -29076,13 +28837,6 @@
       "ἐνέδρᾳ": {
         "transliteration": "enédra",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      },
-      "ἔνεδρα": {
-        "transliteration": "énedra",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
       },
       "ἐνέδραν": {
         "transliteration": "enédran",
@@ -30793,19 +30547,11 @@
       },
       "ἐνισχῦσαι": {
         "transliteration": "enischŷsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐνισχῦσαί": {
         "transliteration": "enischŷsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐνίσχυσαν": {
         "transliteration": "eníschysan",
@@ -30819,7 +30565,6 @@
       "ἐνισχύσας": {
         "transliteration": "enischýsas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
@@ -30828,17 +30573,12 @@
         "transliteration": "eníschysas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ἐνίσχυσάς": {
         "transliteration": "eníschysás",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
       "ἐνισχύσατε": {
         "transliteration": "enischýsate",
@@ -31106,10 +30846,7 @@
       },
       "ἐννοήθητε": {
         "transliteration": "ennoḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἐννοήθητι": {
         "transliteration": "ennoḗthēti",
@@ -31374,13 +31111,6 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
-      "ἐνοίκων": {
-        "transliteration": "enoíkōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
-        ]
-      },
       "ἐνῴκησε": {
         "transliteration": "enṓkēse",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -31419,6 +31149,10 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] }
         ]
+      },
+      "ἐνοίκων": {
+        "transliteration": "enoíkōn",
+        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -31603,11 +31337,7 @@
       },
       "ἐνοχλῆσαι": {
         "transliteration": "enochlē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐνοχλῆται": {
         "transliteration": "enochlē̂tai",
@@ -33113,9 +32843,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐνύδρων": {
@@ -33443,9 +33171,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐνώπιον": {
@@ -33588,8 +33314,6 @@
       "ἐνώτισαι": {
         "transliteration": "enṓtisai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -33729,8 +33453,6 @@
       "ἐξαγγέλλει": {
         "transliteration": "exangéllei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -33803,11 +33525,7 @@
       },
       "ἐξαγορεῦσαι": {
         "transliteration": "exagoreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαγορεύσει": {
         "transliteration": "exagoreúsei",
@@ -34343,6 +34061,10 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] }
         ]
       },
+      "ἐξαιρῇ": {
+        "transliteration": "exairē̂",
+        "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] }]
+      },
       "ἐξαιρούμενος": {
         "transliteration": "exairoúmenos",
         "cells": [
@@ -34525,8 +34247,6 @@
       "ἐξαίρει": {
         "transliteration": "exaírei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -34543,19 +34263,6 @@
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
           { "parse": ["verb", "pres", "pas", "inf"] }
-        ]
-      },
-      "ἐξαιρῇ": {
-        "transliteration": "exairē̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
         ]
       },
       "ἐξαίρῃ": {
@@ -34848,9 +34555,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐξαίσιον": {
@@ -34948,7 +34653,6 @@
         "transliteration": "exakoloúthei",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -34956,11 +34660,7 @@
       },
       "ἐξακολουθῆσαί": {
         "transliteration": "exakolouthē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξακολουθήσαντες": {
         "transliteration": "exakolouthḗsantes",
@@ -35155,11 +34855,7 @@
       },
       "ἐξαλεῖψαι": {
         "transliteration": "exaleîpsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαλείψας": {
         "transliteration": "exaleípsas",
@@ -35274,11 +34970,7 @@
     "inflections": {
       "ἐξαλλοιῶσαι": {
         "transliteration": "exalloiō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -35325,9 +35017,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔξαλλοι": {
@@ -35404,12 +35094,7 @@
       },
       "ἐξαμαρτῆσαι": {
         "transliteration": "examartē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξήμαρτεν": {
         "transliteration": "exḗmarten",
@@ -35503,12 +35188,7 @@
       },
       "ἐξαναλῶσαι": {
         "transliteration": "exanalō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαναλώσει": {
         "transliteration": "exanalṓsei",
@@ -35609,7 +35289,6 @@
       "ἐξανθεῖ": {
         "transliteration": "exantheî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -35718,7 +35397,6 @@
       "ἐξαναστάς": {
         "transliteration": "exanastás",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           {
             "parse": [
               "verb",
@@ -35849,11 +35527,7 @@
     "inflections": {
       "ἐξαντλῆσαι": {
         "transliteration": "exantlē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαντλήσει": {
         "transliteration": "exantlḗsei",
@@ -35877,11 +35551,7 @@
       },
       "ἐξαπατῆσαι": {
         "transliteration": "exapatē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαπατήσῃ": {
         "transliteration": "exapatḗsē",
@@ -36216,15 +35886,11 @@
       },
       "ἐξαποστέλλουσιν": {
         "transliteration": "exapostéllousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐξαποστέλλω": {
         "transliteration": "exapostéllō",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -36347,11 +36013,7 @@
       },
       "ἐξαριθμῆσαι": {
         "transliteration": "exarithmē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξαριθμήσασθαι": {
         "transliteration": "exarithmḗsasthai",
@@ -36425,8 +36087,7 @@
         "transliteration": "exarpásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -36543,7 +36204,6 @@
       "ἐξασκεῖ": {
         "transliteration": "exaskeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -36644,8 +36304,6 @@
       "ἐξεγείρει": {
         "transliteration": "exegeírei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -36733,7 +36391,6 @@
         "transliteration": "exegeírō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -36774,10 +36431,7 @@
       },
       "ἐξεγέρθητε": {
         "transliteration": "exegérthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἐξεγέρθητι": {
         "transliteration": "exegérthēti",
@@ -37387,17 +37041,13 @@
       },
       "ἐξερημῶσαι": {
         "transliteration": "exerēmō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξερήμωσας": {
         "transliteration": "exerḗmōsas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
+          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }
         ]
       },
       "ἐξερημώσει": {
@@ -37421,7 +37071,6 @@
       "ἐξηρημωμένας": {
         "transliteration": "exērēmōménas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "fem"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "acc", "pl", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "fem"] }
@@ -38075,12 +37724,6 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
-      "ἐξήλθεν": {
-        "transliteration": "exḗlthen",
-        "cells": [
-          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐξῆλθεν": {
@@ -38845,12 +38488,7 @@
     "inflections": {
       "ἐξιλάσαι": {
         "transliteration": "exilásai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξίλασαι": {
         "transliteration": "exílasai",
@@ -39290,8 +38928,7 @@
         "transliteration": "exichniásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐξιχνιάσαμεν": {
@@ -39302,7 +38939,6 @@
         "transliteration": "exichníasas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
@@ -39643,10 +39279,7 @@
       },
       "ἐξολεθρευθῆτε": {
         "transliteration": "exolethreuthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }]
       },
       "ἐξολεθρευθῶσιν": {
         "transliteration": "exolethreuthō̂sin",
@@ -39715,21 +39348,11 @@
       },
       "ἐξολεθρεύσαι": {
         "transliteration": "exolethreúsai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐξολεθρεῦσαι": {
         "transliteration": "exolethreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐξολεθρεύσας": {
         "transliteration": "exolethreúsas",
@@ -40434,17 +40057,12 @@
         "transliteration": "exoudénōsas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ἐξουδένωσάς": {
         "transliteration": "exoudénōsás",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
       "ἐξουδενώσει": {
         "transliteration": "exoudenṓsei",
@@ -40859,7 +40477,6 @@
         "transliteration": "exýbrisas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       }
@@ -41215,8 +40832,7 @@
         "transliteration": "heortásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἑορτάσατέ": {
@@ -41565,8 +41181,7 @@
         "transliteration": "epáxai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐπάξας": {
@@ -41844,7 +41459,6 @@
       "ἐπαινεῖ": {
         "transliteration": "epaineî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -41853,13 +41467,7 @@
       },
       "ἐπαίνει": {
         "transliteration": "epaínei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ἐπαινεῖν": {
         "transliteration": "epaineîn",
@@ -42028,8 +41636,6 @@
       "ἐπαίρει": {
         "transliteration": "epaírei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -42204,10 +41810,7 @@
       },
       "ἐπάρθητε": {
         "transliteration": "epárthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἐπάρθητι": {
         "transliteration": "epárthēti",
@@ -42443,11 +42046,7 @@
       },
       "ἐπακολουθῆσαι": {
         "transliteration": "epakolouthē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπακολουθήσαντες": {
         "transliteration": "epakolouthḗsantes",
@@ -42559,21 +42158,11 @@
       },
       "ἐπακούσαι": {
         "transliteration": "epakoúsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐπακοῦσαι": {
         "transliteration": "epakoûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπακούσαντί": {
         "transliteration": "epakoúsantí",
@@ -43144,11 +42733,7 @@
     "inflections": {
       "ἐπανδρῶσαι": {
         "transliteration": "epandrō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -43630,11 +43215,7 @@
     "inflections": {
       "ἐπανορθῶσαι": {
         "transliteration": "epanorthō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπανωρθώθη": {
         "transliteration": "epanōrthṓthē",
@@ -43794,17 +43375,13 @@
       "ἐπαποστέλλω": {
         "transliteration": "epapostéllō",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
       },
       "ἐπαποστελῶ": {
         "transliteration": "epapostelō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -44235,7 +43812,6 @@
         "transliteration": "epegeírō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -44254,10 +43830,7 @@
       },
       "ἐπεγερῶ": {
         "transliteration": "epegerō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐπήγειραν": {
         "transliteration": "epḗgeiran",
@@ -45044,7 +44617,6 @@
       "ἐπερωτᾷ": {
         "transliteration": "eperōtâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -45469,9 +45041,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -45587,8 +45157,6 @@
       "ἐπιβαίνει": {
         "transliteration": "epibaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -45611,16 +45179,12 @@
       },
       "ἐπιβαίνουσιν": {
         "transliteration": "epibaínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐπιβαίνω": {
         "transliteration": "epibaínō",
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
         ]
@@ -46223,10 +45787,7 @@
       },
       "ἐπιβλέψαι": {
         "transliteration": "epiblépsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπίβλεψαι": {
         "transliteration": "epíblepsai",
@@ -46444,10 +46005,6 @@
       "ἐπιβουλῆς": {
         "transliteration": "epiboulē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "ἐπιβούλων": {
-        "transliteration": "epiboúlōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -46557,11 +46114,7 @@
       },
       "ἐπιγαμβρεῦσαι": {
         "transliteration": "epigambreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπιγαμβρεύσασθε": {
         "transliteration": "epigambreúsasthe",
@@ -47523,9 +47076,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπιδέκατον": {
@@ -47613,8 +47164,6 @@
       "ἐπίδεξαι": {
         "transliteration": "epídexai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -48291,11 +47840,7 @@
       },
       "ἐπιζητῆσαι": {
         "transliteration": "epizētē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπιζητήσας": {
         "transliteration": "epizētḗsas",
@@ -48512,10 +48057,7 @@
       },
       "ἐπιθύμει": {
         "transliteration": "epithýmei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ἐπιθυμεῖν": {
         "transliteration": "epithymeîn",
@@ -48826,11 +48368,7 @@
       },
       "ἐπιθῦσαι": {
         "transliteration": "epithŷsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -49152,19 +48690,11 @@
       },
       "ἐπικάλεσαι": {
         "transliteration": "epikálesai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐπικάλεσαί": {
         "transliteration": "epikálesaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐπικαλεσαμένη": {
         "transliteration": "epikalesaménē",
@@ -49552,11 +49082,7 @@
     "inflections": {
       "ἐπικατάρασαί": {
         "transliteration": "epikatárasaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐπικαταράσομαι": {
         "transliteration": "epikatarásomai",
@@ -49606,9 +49132,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπικατάρατοι": {
@@ -50006,7 +49530,6 @@
       "ἐπικρατεῖ": {
         "transliteration": "epikrateî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -50019,11 +49542,7 @@
       },
       "ἐπικρατῆσαι": {
         "transliteration": "epikratē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπικρατήσας": {
         "transliteration": "epikratḗsas",
@@ -50139,7 +49658,6 @@
       "ἐπικροτεῖ": {
         "transliteration": "epikroteî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -51022,11 +50540,7 @@
       },
       "ἐπίλεξαι": {
         "transliteration": "epílexai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἐπιλεξάμενος": {
         "transliteration": "epilexámenos",
@@ -51073,9 +50587,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπίλεκτά": {
@@ -51083,9 +50595,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπίλεκτοι": {
@@ -51234,9 +50744,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπίλοιποι": {
@@ -51794,9 +51302,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -51822,7 +51328,6 @@
         "transliteration": "epinóei",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -52020,8 +51525,7 @@
         "transliteration": "epipémpsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐπιπέμψας": {
@@ -52310,11 +51814,7 @@
       },
       "ἐπιποθῆσαι": {
         "transliteration": "epipothē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπιποθήσατε": {
         "transliteration": "epipothḗsate",
@@ -52823,9 +52323,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἐπίσημοι": {
@@ -53271,8 +52769,7 @@
         "transliteration": "episkeuásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐπισκευασάμενοι": {
@@ -53512,8 +53009,6 @@
       "ἐπίσπασαι": {
         "transliteration": "epíspasai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -55197,8 +54692,6 @@
       "ἐπίστασαι": {
         "transliteration": "epístasai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           {
             "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem", "second"]
           },
@@ -55374,13 +54867,6 @@
       },
       "ἐπιστάται": {
         "transliteration": "epistátai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
-      "ἐπίσταται": {
-        "transliteration": "epístatai",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
@@ -55684,11 +55170,7 @@
       },
       "ἐπιστρατεῦσαι": {
         "transliteration": "epistrateûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐπιστρατεύσαντα": {
         "transliteration": "epistrateúsanta",
@@ -56572,11 +56054,7 @@
       },
       "ἐπισφράγισαι": {
         "transliteration": "episphrágisai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       }
     }
   },
@@ -56930,7 +56408,6 @@
       "ἐπιτελεῖ": {
         "transliteration": "epiteleî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -56939,13 +56416,7 @@
       },
       "ἐπιτέλει": {
         "transliteration": "epitélei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ἐπιτελεῖν": {
         "transliteration": "epiteleîn",
@@ -57993,10 +57464,7 @@
       },
       "ἐπιτιμήσαι": {
         "transliteration": "epitimḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐπιτιμήσας": {
         "transliteration": "epitimḗsas",
@@ -58363,7 +57831,6 @@
       "ἐπιφάνας": {
         "transliteration": "epiphánas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           {
             "parse": [
@@ -58394,7 +57861,6 @@
       "ἐπιφανῇ": {
         "transliteration": "epiphanē̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
@@ -58869,8 +58335,6 @@
       "ἐπιχαίρει": {
         "transliteration": "epichaírei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -58913,17 +58377,13 @@
       "ἐπιχαρῇ": {
         "transliteration": "epicharē̂",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }
         ]
       },
       "ἐπιχαρῇς": {
         "transliteration": "epicharē̂s",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }]
       },
       "ἐπιχαρούμεθα": {
         "transliteration": "epicharoúmetha",
@@ -58935,10 +58395,7 @@
       },
       "ἐπιχαρῶσίν": {
         "transliteration": "epicharō̂sín",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl", "second"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
       }
     }
   },
@@ -59468,8 +58925,7 @@
         "transliteration": "eponomásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐπονομάσας": {
@@ -59903,9 +59359,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἑπταπλάσιον": {
@@ -60444,8 +59898,6 @@
       "ἔργασαι": {
         "transliteration": "érgasai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
@@ -60738,7 +60190,7 @@
       }
     }
   },
-  "ἐργοδιωκτής": {
+  "ἐργοδιώκτης": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
@@ -60819,20 +60271,6 @@
       "ἔργων": {
         "transliteration": "érgōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
-      }
-    }
-  },
-  "ἐρέα": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "ἐρεᾶ": {
-        "transliteration": "ereâ",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
       }
     }
   },
@@ -60982,11 +60420,7 @@
       },
       "ἐρείσαι": {
         "transliteration": "ereísai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ἐρείσασα": {
         "transliteration": "ereísasa",
@@ -61054,6 +60488,10 @@
     "pos": "adj",
     "declension": "2-1-2-contract",
     "inflections": {
+      "ἐρεᾶ": {
+        "transliteration": "ereâ",
+        "cells": [{ "parse": ["adj", "acc", "pl", "neut"] }]
+      },
       "ἐρεοῖς": {
         "transliteration": "ereoîs",
         "cells": [{ "parse": ["adj", "dat", "pl", "neut"] }]
@@ -61320,9 +60758,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔρημά": {
@@ -61330,9 +60766,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἔρημοι": {
@@ -61485,11 +60919,7 @@
       },
       "ἐρημῶσαι": {
         "transliteration": "erēmō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐρημώσαντές": {
         "transliteration": "erēmṓsantés",
@@ -63951,9 +63381,7 @@
         "transliteration": "ésthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"] }
         ]
       },
@@ -65147,9 +64575,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -65171,10 +64597,7 @@
       "ἐσωτέρα": {
         "transliteration": "esōtéra",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
@@ -65244,8 +64667,7 @@
         "transliteration": "etásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἐτάσητε": {
@@ -65479,12 +64901,7 @@
     "inflections": {
       "ἑτέρα": {
         "transliteration": "hetéra",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
       "ἑτέρᾳ": {
         "transliteration": "hetéra",
@@ -65726,7 +65143,7 @@
       },
       "ἑτοίμασαι": {
         "transliteration": "hetoímasai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "ἑτοιμάσας": {
         "transliteration": "hetoimásas",
@@ -65783,10 +65200,7 @@
       },
       "ἑτοιμάσθητε": {
         "transliteration": "hetoimásthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "ἑτοιμάσθητι": {
         "transliteration": "hetoimásthēti",
@@ -66310,11 +65724,7 @@
       },
       "εὐαγγέλισαι": {
         "transliteration": "euangélisai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "εὐαγγελισάμενοί": {
         "transliteration": "euangelisámenoí",
@@ -66573,7 +65983,6 @@
         "transliteration": "euaréstei",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -66869,19 +66278,11 @@
       },
       "εὐδοκῆσαι": {
         "transliteration": "eudokē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εὐδοκῆσαί": {
         "transliteration": "eudokē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εὐδοκήσαμεν": {
         "transliteration": "eudokḗsamen",
@@ -67370,9 +66771,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "εὐήκοον": {
@@ -67587,11 +66986,7 @@
     "inflections": {
       "εὐθηνῆσαί": {
         "transliteration": "euthēnē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εὐθήνησαν": {
         "transliteration": "euthḗnēsan",
@@ -67837,18 +67232,12 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
         ]
       },
       "εὐθυνεῖς": {
         "transliteration": "euthyneîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "εὐθύνεται": {
         "transliteration": "euthýnetai",
@@ -68081,11 +67470,7 @@
       },
       "εὐιλατεῦσαι": {
         "transliteration": "euilateûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εὐιλατεύσεις": {
         "transliteration": "euilateúseis",
@@ -68614,10 +67999,8 @@
         "transliteration": "eulabḗthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
         ]
       },
       "εὐλαβοῦ": {
@@ -68958,25 +68341,11 @@
       },
       "εὐλογήσαι": {
         "transliteration": "eulogḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "εὐλογῆσαι": {
         "transliteration": "eulogē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "εὐλογήσαισάν": {
         "transliteration": "eulogḗsaisán",
@@ -69015,10 +68384,7 @@
       },
       "εὐλόγησας": {
         "transliteration": "eulógēsas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
       "εὐλογήσατε": {
         "transliteration": "eulogḗsate",
@@ -69721,9 +69087,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "εὔοδοι": {
@@ -69884,11 +69248,7 @@
       },
       "εὐοδώσαι": {
         "transliteration": "euodṓsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "εὐοδώσαντα": {
         "transliteration": "euodṓsanta",
@@ -70008,9 +69368,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -70310,9 +69668,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -70429,8 +69785,7 @@
       "εὑρέ": {
         "transliteration": "heuré",
         "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] }
         ]
       },
       "εὗρε": {
@@ -71416,7 +70771,6 @@
       "εὐσεβεῖ": {
         "transliteration": "eusebeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -71794,7 +71148,6 @@
         "transliteration": "eutáktei",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -72070,8 +71423,6 @@
       "εὐφραίνει": {
         "transliteration": "euphraínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -72252,10 +71603,7 @@
       },
       "εὐφραίνουσιν": {
         "transliteration": "euphraínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "εὐφραίνων": {
         "transliteration": "euphraínōn",
@@ -72376,10 +71724,7 @@
       },
       "εὐφράνθητε": {
         "transliteration": "euphránthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "εὐφράνθητι": {
         "transliteration": "euphránthēti",
@@ -72455,10 +71800,7 @@
       },
       "εὐφρανῶ": {
         "transliteration": "euphranō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ηὐφραίνεσθε": {
         "transliteration": "ēuphraínesthe",
@@ -72879,7 +72221,6 @@
         "transliteration": "eûxai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -73386,9 +72727,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "εὐώνυμον": {
@@ -74173,11 +73512,7 @@
     "inflections": {
       "ἐφοδεῦσαι": {
         "transliteration": "ephodeûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐφοδευσάτωσαν": {
         "transliteration": "ephodeusátōsan",
@@ -74554,10 +73889,6 @@
     "gender": "fem",
     "indices": { "strongs": "G2189" },
     "inflections": {
-      "ἐχθρά": {
-        "transliteration": "echthrá",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
       "ἔχθρα": {
         "transliteration": "échthra",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
@@ -74572,10 +73903,6 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
-      },
-      "ἐχθράν": {
-        "transliteration": "echthrán",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "ἔχθραν": {
         "transliteration": "échthran",
@@ -74631,7 +73958,6 @@
       "ἐχθραίνουσιν": {
         "transliteration": "echthraínousin",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
@@ -74656,11 +73982,7 @@
     "inflections": {
       "ἐχθρεῦσαι": {
         "transliteration": "echthreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἐχθρεύσουσιν": {
         "transliteration": "echthreúsousin",
@@ -74715,30 +74037,13 @@
         "transliteration": "echthístōn",
         "cells": [{ "parse": ["adj", "super", "gen", "pl", "masc"] }]
       },
-      "ἔχθρα": {
-        "transliteration": "échthra",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+      "ἐχθρά": {
+        "transliteration": "echthrá",
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
-      "ἔχθρᾳ": {
-        "transliteration": "échthra",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
-      },
-      "ἔχθραν": {
-        "transliteration": "échthran",
+      "ἐχθράν": {
+        "transliteration": "echthrán",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "ἔχθρας": {
-        "transliteration": "échthras",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
       },
       "ἐχθρέ": {
         "transliteration": "echthré",

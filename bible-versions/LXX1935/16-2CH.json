@@ -1238,7 +1238,7 @@
         "script": "G",
         "transliteration": " Aítēsai",
         "strong": "G154",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "αἰτέω"
       },
       {
@@ -4291,9 +4291,8 @@
         "text": " δείλης",
         "script": "G",
         "transliteration": " deílēs",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       },
       {
         "text": " καὶ",
@@ -7941,7 +7940,7 @@
         "script": "G",
         "transliteration": " ergodiṓktas",
         "morph": "N-APM",
-        "lemma": "ἐργοδιωκτής"
+        "lemma": "ἐργοδιώκτης"
       },
       {
         "text": " ἐπὶ",
@@ -23376,7 +23375,7 @@
         "script": "G",
         "transliteration": " krineîs",
         "strong": "G2919",
-        "morph": "V-PAI-2S",
+        "morph": "V-FAI-2S",
         "lemma": "κρίνω"
       },
       {
@@ -23504,7 +23503,7 @@
         "script": "G",
         "transliteration": " dikaiō̂sai",
         "strong": "G1344",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "δικαιόω"
       },
       {
@@ -40575,8 +40574,8 @@
         "text": " ἐλατὰς",
         "script": "G",
         "transliteration": " elatàs",
-        "morph": "N-APF",
-        "lemma": "ἐλάτη"
+        "morph": "A-APF",
+        "lemma": "ἐλατός"
       },
       {
         "text": " χρυσᾶς,",
@@ -56180,9 +56179,8 @@
         "text": " δείλης",
         "script": "G",
         "transliteration": " deílēs",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       },
       {
         "text": " καὶ",
@@ -56328,9 +56326,17 @@
         "lemma": "ὁ"
       },
       {
-        "text": " λυχνοὶ",
+        "text": " λύχνοι",
         "script": "G",
-        "transliteration": " lychnoì",
+        "transliteration": " lýchnoi",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "λυχνοὶ", "script": "G", "transliteration": "lychnoì" },
+            "."
+          ]
+        },
         "strong": "G3088",
         "morph": "N-NPM",
         "lemma": "λύχνος"
@@ -56363,9 +56369,8 @@
         "text": " δείλης,",
         "script": "G",
         "transliteration": " deílēs,",
-        "strong": "G1169",
-        "morph": "A-GSF",
-        "lemma": "δειλός"
+        "morph": "N-GSF",
+        "lemma": "δείλη"
       },
       {
         "text": " ὅτι",
@@ -171056,7 +171061,7 @@
         "script": "G",
         "transliteration": " apostē̂sai",
         "strong": "G868",
-        "morph": "V-REI-2S",
+        "morph": "V-AAN",
         "lemma": "ἀφίστημι"
       },
       {
@@ -171298,7 +171303,7 @@
         "script": "G",
         "transliteration": " exolethreûsai",
         "strong": "G1842",
-        "morph": "V-REI-2S",
+        "morph": "V-AAN",
         "lemma": "ἐξολοθρεύω"
       },
       {

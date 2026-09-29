@@ -583,9 +583,24 @@
     "pos": "adj",
     "declension": "2-1-2",
     "inflections": {
+      "ὠμοῖς": {
+        "transliteration": "ōmoîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+      },
+      "ὠμόν": {
+        "transliteration": "ōmón",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "acc", "sg", "masc"] }
+        ]
+      },
       "ὠμότατε": {
         "transliteration": "ōmótate",
         "cells": [{ "parse": ["adj", "super", "voc", "sg", "masc"] }]
+      },
+      "ὠμοῦ": {
+        "transliteration": "ōmoû",
+        "cells": [{ "parse": ["adj", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -603,17 +618,9 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
-      "ὠμοῖς": {
-        "transliteration": "ōmoîs",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      },
       "ὤμοις": {
         "transliteration": "ṓmois",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      },
-      "ὠμόν": {
-        "transliteration": "ōmón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ὦμον": {
         "transliteration": "ō̂mon",
@@ -630,10 +637,6 @@
       "ὦμός": {
         "transliteration": "ō̂mós",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "ὠμοῦ": {
-        "transliteration": "ōmoû",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "ὤμου": {
         "transliteration": "ṓmou",
@@ -931,12 +934,7 @@
     "inflections": {
       "ὡραία": {
         "transliteration": "hōraía",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
       "ὡραίᾳ": {
         "transliteration": "hōraía",
@@ -1666,14 +1664,7 @@
       },
       "ὠφελῆσαι": {
         "transliteration": "ōphelē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ὠφέλησαν": {
         "transliteration": "ōphélēsan",
@@ -1795,13 +1786,15 @@
       }
     }
   },
-  "ὠχρός": {
+  "ὤχρα": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
     "inflections": {
       "ὤχρᾳ": {
         "transliteration": "ṓchra",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   }

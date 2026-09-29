@@ -821,7 +821,7 @@
       },
       "λαλήσαι": {
         "transliteration": "lalḗsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "λαλῆσαι": {
         "transliteration": "lalē̂sai",
@@ -2679,11 +2679,7 @@
       },
       "λατομῆσαι": {
         "transliteration": "latomē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "λατομήσῃ": {
         "transliteration": "latomḗsē",
@@ -2691,13 +2687,6 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "λατόμων": {
-        "transliteration": "latómōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "λελατομημένον": {
@@ -2718,7 +2707,7 @@
       }
     }
   },
-  "λατόμητος": {
+  "λατομητός": {
     "language": "greek",
     "pos": "adj",
     "inflections": {
@@ -2734,28 +2723,20 @@
   "λατόμος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
     "inflections": {
       "λατόμοις": {
         "transliteration": "latómois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "λατόμους": {
         "transliteration": "latómous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "λατόμων": {
         "transliteration": "latómōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -2911,11 +2892,7 @@
       },
       "λατρεῦσαι": {
         "transliteration": "latreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "λατρεύσατε": {
         "transliteration": "latreúsate",
@@ -3158,10 +3135,7 @@
       },
       "λεανῶ": {
         "transliteration": "leanō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -5835,8 +5809,7 @@
         "transliteration": "lepísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -5901,7 +5874,6 @@
       "λεπρᾷ": {
         "transliteration": "leprâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -6081,18 +6053,12 @@
         "transliteration": "leptyneî",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "λεπτύνει": {
         "transliteration": "leptýnei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -6101,10 +6067,7 @@
       },
       "λεπτυνεῖς": {
         "transliteration": "leptyneîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "λεπτῦνον": {
         "transliteration": "leptŷnon",
@@ -6117,19 +6080,11 @@
       },
       "λεπτυνοῦσιν": {
         "transliteration": "leptynoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "λεπτυνῶ": {
         "transliteration": "leptynō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -6330,10 +6285,7 @@
       },
       "λευκανῶ": {
         "transliteration": "leukanō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -6351,6 +6303,22 @@
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
         ]
+      }
+    }
+  },
+  "λεύκη": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "inflections": {
+      "λεύκην": {
+        "transliteration": "leúkēn",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "λεύκης": {
+        "transliteration": "leúkēs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -6403,14 +6371,6 @@
       "λευκήν": {
         "transliteration": "leukḗn",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "λεύκην": {
-        "transliteration": "leúkēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "λεύκης": {
-        "transliteration": "leúkēs",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       },
       "λευκοί": {
         "transliteration": "leukoí",
@@ -7327,11 +7287,7 @@
     "inflections": {
       "λιθουργῆσαι": {
         "transliteration": "lithourgē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -7356,7 +7312,7 @@
       }
     }
   },
-  "λιθούργος": {
+  "λιθουργός": {
     "language": "greek",
     "pos": "noun",
     "inflections": {
@@ -7412,7 +7368,6 @@
       "λικμᾷ": {
         "transliteration": "likmâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -7790,8 +7745,6 @@
       "λιπαίνει": {
         "transliteration": "lipaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -9441,7 +9394,6 @@
         "transliteration": "loûsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -9531,6 +9483,19 @@
       }
     }
   },
+  "λοχάω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-a",
+    "inflections": {
+      "λοχῶν": {
+        "transliteration": "lochō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      }
+    }
+  },
   "λοχεύω": {
     "language": "greek",
     "pos": "verb",
@@ -9557,16 +9522,6 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }
         ]
-      }
-    }
-  },
-  "λόχος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "λοχῶν": {
-        "transliteration": "lochō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9942,7 +9897,6 @@
       "λυπεῖ": {
         "transliteration": "lypeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -10027,10 +9981,7 @@
       },
       "λυπήθητε": {
         "transliteration": "lypḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "λυπήσει": {
         "transliteration": "lypḗsei",
@@ -10540,19 +10491,11 @@
       },
       "λύτρωσαι": {
         "transliteration": "lýtrōsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "λύτρωσαί": {
         "transliteration": "lýtrōsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "λυτρωσάμενος": {
         "transliteration": "lytrōsámenos",
@@ -10720,13 +10663,6 @@
     "shortDefinition": "a lamp",
     "indices": { "strongs": "G3088" },
     "inflections": {
-      "λυχνοί": {
-        "transliteration": "lychnoí",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
       "λύχνοι": {
         "transliteration": "lýchnoi",
         "cells": [

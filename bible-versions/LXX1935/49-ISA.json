@@ -7602,9 +7602,8 @@
         "text": " θέαν",
         "script": "G",
         "transliteration": " théan",
-        "strong": "G2299",
         "morph": "N-ASF",
-        "lemma": "θεά"
+        "lemma": "θέα"
       },
       {
         "text": " πλοίων",
@@ -7877,15 +7876,16 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPM",
+        "morph": "T-GPF",
         "lemma": "ὁ"
       },
       {
         "text": " πετρῶν",
         "script": "G",
         "transliteration": " petrō̂n",
-        "morph": "N-GPM",
-        "lemma": "πέτρος"
+        "strong": "G4073",
+        "morph": "N-GPF",
+        "lemma": "πέτρα"
       },
       {
         "text": " καὶ",
@@ -8358,15 +8358,16 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPM",
+        "morph": "T-GPF",
         "lemma": "ὁ"
       },
       {
         "text": " πετρῶν",
         "script": "G",
         "transliteration": " petrō̂n",
-        "morph": "N-GPM",
-        "lemma": "πέτρος"
+        "strong": "G4073",
+        "morph": "N-GPF",
+        "lemma": "πέτρα"
       },
       {
         "text": " ἀπὸ",
@@ -11658,7 +11659,7 @@
         "script": "G",
         "transliteration": " chlidō̂nas",
         "morph": "N-APM",
-        "lemma": "χλίδων"
+        "lemma": "χλιδών"
       },
       {
         "text": " καὶ",
@@ -22104,7 +22105,7 @@
         "text": " πολιορκῆσαι",
         "script": "G",
         "transliteration": " poliorkē̂sai",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "πολιορκέω"
       },
       {
@@ -25046,15 +25047,16 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPM",
+        "morph": "T-GPF",
         "lemma": "ὁ"
       },
       {
         "text": " πετρῶν",
         "script": "G",
         "transliteration": " petrō̂n",
-        "morph": "N-GPM",
-        "lemma": "πέτρος"
+        "strong": "G4073",
+        "morph": "N-GPF",
+        "lemma": "πέτρα"
       },
       {
         "text": " καὶ",
@@ -31548,7 +31550,7 @@
         "text": " κατορθῶσαι",
         "script": "G",
         "transliteration": " katorthō̂sai",
-        "morph": "V-AMM-2S",
+        "morph": "V-AAN",
         "lemma": "κατορθόω"
       },
       {
@@ -33175,7 +33177,7 @@
         "script": "G",
         "transliteration": " ádika.",
         "strong": "G94",
-        "morph": "A-NSF",
+        "morph": "A-APN",
         "lemma": "ἄδικος"
       },
       {
@@ -35806,9 +35808,9 @@
         "text": " ποιῶν",
         "script": "G",
         "transliteration": " poiō̂n",
-        "strong": "G4169",
-        "morph": "A-GPM",
-        "lemma": "ποῖος"
+        "strong": "G4160",
+        "morph": "V-PAP-NSM",
+        "lemma": "ποιέω"
       },
       {
         "text": " ἐν",
@@ -43856,7 +43858,7 @@
         "script": "G",
         "transliteration": " homoía",
         "strong": "G3664",
-        "morph": "A-NPN",
+        "morph": "A-NSF",
         "lemma": "ὅμοιος"
       },
       {
@@ -54766,7 +54768,7 @@
         "script": "G",
         "transliteration": " planḗthēte",
         "strong": "G4105",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "πλανάω"
       },
       {
@@ -66664,7 +66666,7 @@
         "text": " Ἀκρόασαι",
         "script": "G",
         "transliteration": " Akróasai",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "ἀκροάομαι"
       },
       {
@@ -79179,7 +79181,7 @@
         "script": "G",
         "transliteration": " ischýsas,",
         "strong": "G2480",
-        "morph": "V-2AAP-NSM",
+        "morph": "V-AAP-NSM",
         "lemma": "ἰσχύω"
       },
       {
@@ -84858,9 +84860,8 @@
         "text": " θέας,",
         "script": "G",
         "transliteration": " théas,",
-        "strong": "G2299",
         "morph": "N-GSF",
-        "lemma": "θεά"
+        "lemma": "θέα"
       },
       {
         "text": " δεῦτε·",
@@ -91772,7 +91773,7 @@
         "script": "G",
         "transliteration": "Eklýthēte",
         "strong": "G1590",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "ἐκλύω"
       },
       {
@@ -94679,9 +94680,17 @@
         "lemma": "ὁ"
       },
       {
-        "text": " γλώσσαι",
+        "text": " γλῶσσαι",
         "script": "G",
-        "transliteration": " glṓssai",
+        "transliteration": " glō̂ssai",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "γλώσσαι", "script": "G", "transliteration": "glṓssai" },
+            "."
+          ]
+        },
         "strong": "G1100",
         "morph": "N-NPF",
         "lemma": "γλῶσσα"
@@ -95793,7 +95802,7 @@
         "script": "G",
         "transliteration": " mátaia",
         "strong": "G3152",
-        "morph": "A-NSF",
+        "morph": "A-APN",
         "lemma": "μάταιος"
       },
       {
@@ -108853,7 +108862,7 @@
         "script": "G",
         "transliteration": " plousía,",
         "strong": "G4145",
-        "morph": "A-NPN",
+        "morph": "A-NSF",
         "lemma": "πλούσιος"
       },
       {
@@ -115859,7 +115868,7 @@
         "script": "G",
         "transliteration": " topárchou",
         "morph": "N-GSM",
-        "lemma": "τοπαρχής"
+        "lemma": "τοπάρχης"
       },
       {
         "text": " ἑνός;",
@@ -137920,9 +137929,8 @@
         "text": " λεύκην,",
         "script": "G",
         "transliteration": " leúkēn,",
-        "strong": "G3022",
-        "morph": "A-ASF",
-        "lemma": "λευκός"
+        "morph": "N-ASF",
+        "lemma": "λεύκη"
       }
     ]
   },
@@ -142232,7 +142240,7 @@
         "script": "G",
         "transliteration": " aischýnthēte",
         "strong": "G153",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "αἰσχύνω"
       },
       {
@@ -151840,7 +151848,7 @@
         "script": "G",
         "transliteration": "Euphránthēte,",
         "strong": "G2165",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "εὐφραίνω"
       },
       {
@@ -156249,7 +156257,7 @@
         "text": " καταδείξας",
         "script": "G",
         "transliteration": " katadeíxas",
-        "morph": "V-2AAI-2S",
+        "morph": "V-AAP-NSM",
         "lemma": "καταδείκνυμι"
       },
       {
@@ -160932,7 +160940,7 @@
         "script": "G",
         "transliteration": " hetéra;",
         "strong": "G2087",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἕτερος"
       },
       {
@@ -161342,7 +161350,7 @@
         "script": "G",
         "transliteration": " hetéra.",
         "strong": "G2087",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἕτερος"
       },
       {
@@ -161526,7 +161534,7 @@
         "script": "G",
         "transliteration": " hetéra.",
         "strong": "G2087",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἕτερος"
       }
     ]
@@ -162343,7 +162351,7 @@
         "script": "G",
         "transliteration": " káthisai",
         "strong": "G2523",
-        "morph": "V-AAN",
+        "morph": "V-AMM-2S",
         "lemma": "καθίζω"
       },
       {
@@ -178757,7 +178765,7 @@
         "script": "G",
         "transliteration": " hagía;",
         "strong": "G40",
-        "morph": "A-APN",
+        "morph": "A-NSF",
         "lemma": "ἅγιος"
       },
       {
@@ -191710,15 +191718,16 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPM",
+        "morph": "T-GPF",
         "lemma": "ὁ"
       },
       {
         "text": " πετρῶν.",
         "script": "G",
         "transliteration": " petrō̂n.",
-        "morph": "N-GPM",
-        "lemma": "πέτρος"
+        "strong": "G4073",
+        "morph": "N-GPF",
+        "lemma": "πέτρα"
       }
     ]
   },

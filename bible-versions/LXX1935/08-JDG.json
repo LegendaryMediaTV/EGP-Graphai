@@ -27393,8 +27393,8 @@
         "text": " κατακόπων",
         "script": "G",
         "transliteration": " katakópōn",
-        "morph": "N-GPF",
-        "lemma": "κατακοπή"
+        "morph": "A-GPM",
+        "lemma": "κατάκοπος"
       },
       {
         "text": " καὶ",
@@ -50911,7 +50911,7 @@
         "script": "G",
         "transliteration": " mnḗsthēte",
         "strong": "G3415",
-        "morph": "V-APS-2P",
+        "morph": "V-APM-2P",
         "lemma": "μιμνῄσκω"
       },
       {
@@ -52125,7 +52125,7 @@
         "script": "G",
         "transliteration": " akoúsai",
         "strong": "G191",
-        "morph": "V-ADM-2S",
+        "morph": "V-AAO-3S",
         "lemma": "ἀκούω"
       },
       {
@@ -73015,9 +73015,8 @@
         "text": " παρθένιά",
         "script": "G",
         "transliteration": " parthéniá",
-        "strong": "G3932",
-        "morph": "N-NSF",
-        "lemma": "παρθενία"
+        "morph": "N-APN",
+        "lemma": "παρθένια"
       },
       {
         "text": " μου,",
@@ -73236,9 +73235,8 @@
         "text": " παρθένια",
         "script": "G",
         "transliteration": " parthénia",
-        "strong": "G3932",
-        "morph": "N-NSF",
-        "lemma": "παρθενία"
+        "morph": "N-APN",
+        "lemma": "παρθένια"
       },
       {
         "text": " αὐτῆς",
@@ -82903,9 +82901,17 @@
         "lemma": "αὐτός"
       },
       {
-        "text": " πνεύμα",
+        "text": " πνεῦμα",
         "script": "G",
-        "transliteration": " pneúma",
+        "transliteration": " pneûma",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "πνεύμα", "script": "G", "transliteration": "pneúma" },
+            "."
+          ]
+        },
         "strong": "G4151",
         "morph": "N-NSN",
         "lemma": "πνεῦμα"
@@ -109023,9 +109029,9 @@
         "text": " παροικῶν",
         "script": "G",
         "transliteration": " paroikō̂n",
-        "strong": "G3941",
-        "morph": "A-GPM",
-        "lemma": "πάροικος"
+        "strong": "G3939",
+        "morph": "V-PAP-NSM",
+        "lemma": "παροικέω"
       },
       {
         "text": " ἐν",

@@ -7189,9 +7189,9 @@
         "text": " ἔχθρας",
         "script": "G",
         "transliteration": " échthras",
-        "strong": "G2190",
-        "morph": "A-GSF",
-        "lemma": "ἐχθρός"
+        "strong": "G2189",
+        "morph": "N-GSF",
+        "lemma": "ἔχθρα"
       },
       {
         "text": " ἐπικρατεῖν",
@@ -14929,9 +14929,9 @@
         "text": " πολεμῶν",
         "script": "G",
         "transliteration": " polemō̂n",
-        "strong": "G4171",
-        "morph": "N-GPM",
-        "lemma": "πόλεμος"
+        "strong": "G4170",
+        "morph": "V-PAP-NSM",
+        "lemma": "πολεμέω"
       },
       {
         "text": " ἦν",
@@ -20037,7 +20037,7 @@
         "script": "G",
         "transliteration": " kataischynō̂",
         "strong": "G2617",
-        "morph": "V-PAI-1S",
+        "morph": "V-FAI-1S",
         "lemma": "καταισχύνω"
       },
       {
@@ -20100,7 +20100,7 @@
         "script": "G",
         "transliteration": " timía",
         "strong": "G5093",
-        "morph": "A-APN",
+        "morph": "A-VSF",
         "lemma": "τίμιος"
       },
       {
@@ -27488,9 +27488,8 @@
         "text": " φιλοσοφῶν",
         "script": "G",
         "transliteration": " philosophō̂n",
-        "strong": "G5386",
-        "morph": "N-GPM",
-        "lemma": "φιλόσοφος"
+        "morph": "V-PAP-NSM",
+        "lemma": "φιλοσοφέω"
       },
       {
         "text": " καὶ",
@@ -43387,9 +43386,21 @@
         "lemma": "ἀναιτίως"
       },
       {
-        "text": " ἀποκτεῖνας.",
+        "text": " ἀποκτείνας.",
         "script": "G",
-        "transliteration": " apokteînas.",
+        "transliteration": " apokteínas.",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "ἀποκτεῖνας",
+              "script": "G",
+              "transliteration": "apokteînas"
+            },
+            "."
+          ]
+        },
         "strong": "G615",
         "morph": "V-AAP-NSM",
         "lemma": "ἀποκτείνω"
@@ -45711,9 +45722,21 @@
         "lemma": "λογισμός"
       },
       {
-        "text": " παθοκρατείαν.",
+        "text": " παθοκράτειαν.",
         "script": "G",
-        "transliteration": " pathokrateían.",
+        "transliteration": " pathokráteian.",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "παθοκρατείαν",
+              "script": "G",
+              "transliteration": "pathokrateían"
+            },
+            "."
+          ]
+        },
         "morph": "N-ASF",
         "lemma": "παθοκράτεια"
       }
@@ -47784,9 +47807,17 @@
     "verse": 4,
     "content": [
       {
-        "text": "Οὐδεῖς",
+        "text": "Οὐδεὶς",
         "script": "G",
-        "transliteration": "Oudeîs",
+        "transliteration": "Oudeìs",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "οὐδεῖς", "script": "G", "transliteration": "oudeîs" },
+            "."
+          ]
+        },
         "strong": "G3762",
         "morph": "A-NSM-N",
         "lemma": "οὐδείς"
@@ -64677,9 +64708,8 @@
         "text": " ὠμοῖς",
         "script": "G",
         "transliteration": " ōmoîs",
-        "strong": "G5606",
-        "morph": "N-DPM",
-        "lemma": "ὦμος"
+        "morph": "A-DPM",
+        "lemma": "ὠμός"
       },
       {
         "text": " καὶ",

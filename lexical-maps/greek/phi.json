@@ -2542,7 +2542,6 @@
         "transliteration": "pheîsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -2551,7 +2550,6 @@
         "transliteration": "pheîsaí",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -3723,6 +3721,12 @@
           { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
+      "φύγῃς": {
+        "transliteration": "phýgēs",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"] }
+        ]
+      },
       "φύγητε": {
         "transliteration": "phýgēte",
         "cells": [
@@ -4811,9 +4815,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "φιλάνθρωπον": {
@@ -5652,6 +5654,12 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "φιλοσοφῶν": {
+        "transliteration": "philosophō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -5689,10 +5697,6 @@
       "φιλοσόφους": {
         "transliteration": "philosóphous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
-      },
-      "φιλοσοφῶν": {
-        "transliteration": "philosophō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       },
       "φιλοσόφων": {
         "transliteration": "philosóphōn",
@@ -5774,9 +5778,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "φιλοτεκνοτέρα": {
@@ -6204,17 +6206,11 @@
       },
       "φλιάς": {
         "transliteration": "phliás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "φλιᾶς": {
         "transliteration": "phliâs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "φλιῶν": {
         "transliteration": "phliō̂n",
@@ -6413,8 +6409,7 @@
         "transliteration": "phoberísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "φοβέρισον": {
@@ -6819,9 +6814,7 @@
       "φοβηθῆτε": {
         "transliteration": "phobēthē̂te",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
         ]
       },
@@ -6829,7 +6822,6 @@
         "transliteration": "phobḗthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
           { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
         ]
       },
@@ -6862,11 +6854,7 @@
       },
       "φοβῆσαι": {
         "transliteration": "phobē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φοβῆσθε": {
         "transliteration": "phobē̂sthe",
@@ -7464,19 +7452,11 @@
       },
       "φονεῦσαι": {
         "transliteration": "phoneûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φονεῦσαί": {
         "transliteration": "phoneûsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φονεύσαντα": {
         "transliteration": "phoneúsanta",
@@ -7576,7 +7556,6 @@
       "φονοκτονεῖ": {
         "transliteration": "phonoktoneî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -8601,11 +8580,7 @@
       },
       "φρονῆσαι": {
         "transliteration": "phronē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φρονήσαιμεν": {
         "transliteration": "phronḗsaimen",
@@ -8894,8 +8869,7 @@
         "transliteration": "phrontísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "φροντίσας": {
@@ -9390,10 +9364,6 @@
       },
       "φυγῆς": {
         "transliteration": "phygē̂s",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "φύγῃς": {
-        "transliteration": "phýgēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
@@ -10735,11 +10705,7 @@
       },
       "φυτεῦσαι": {
         "transliteration": "phyteûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φυτεύσας": {
         "transliteration": "phyteúsas",
@@ -11424,10 +11390,7 @@
       },
       "φωτίσθητε": {
         "transliteration": "phōtísthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "φώτισον": {
         "transliteration": "phṓtison",

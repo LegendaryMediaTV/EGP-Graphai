@@ -149,9 +149,17 @@
         "lemma": "λόγος"
       },
       {
-        "text": " κύριου",
+        "text": " κυρίου",
         "script": "G",
-        "transliteration": " kýriou",
+        "transliteration": " kyríou",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "κύριου", "script": "G", "transliteration": "kýriou" },
+            "."
+          ]
+        },
         "strong": "G2962",
         "morph": "N-GSM",
         "lemma": "κύριος"
