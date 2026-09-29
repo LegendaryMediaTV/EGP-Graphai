@@ -157,7 +157,7 @@
 <sup>22</sup> Kaì hḗxousin laoì polloì kaì éthnē pollà ekzētē̂sai tò prósōpon kyríou pantokrátoros en Ierousalēm kaì toû exiláskesthai tò prósōpon kyríou.
 <sup>23</sup> Táde légei kýrios pantokrátōr En taîs hēmérais ekeínais eàn epilábōntai déka ándres ek pasō̂n tō̂n glōssō̂n tō̂n ethnō̂n kaì epilábōntai toû kraspédou andròs Ioudaíou légontes Poreusómetha metà soû, dióti akēkóamen hóti ho theòs meth’ hymō̂n estin.
 
-> - <sup>a</sup> 18. Corrected from kýriou.
+> - <sup>a</sup> 18. Corrected from kýriou, as seen in RH and SW. The genitive ending ou is long, and a long last syllable keeps the accent off the third syllable from the end. This edition prints kyríou at its 2,564 other occurrences.
 
 ## Chapter 9
 

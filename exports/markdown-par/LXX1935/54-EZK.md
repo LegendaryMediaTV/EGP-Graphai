@@ -564,7 +564,7 @@
 <sup>43</sup> Καὶ μνησθήσεσθε ἐκεῖ τὰς ὁδοὺς ὑμῶν καὶ τὰ ἐπιτηδεύματα ὑμῶν, ἐν οἷς ἐμιαίνεσθε ἐν αὐτοῖς, καὶ κόψεσθε τὰ πρόσωπα ὑμῶν ἐν πάσαις<sup>a</sup> ταῖς κακίαις ὑμῶν.
 <sup>44</sup> Καὶ ἐπιγνώσεσθε διότι ἐγὼ κύριος ἐν τῷ ποιῆσαί με οὕτως ὑμῖν ὅπως τὸ ὄνομά μου μὴ βεβηλωθῇ κατὰ τὰς ὁδοὺς ὑμῶν τὰς κακὰς καὶ κατὰ τὰ ἐπιτηδεύματα ὑμῶν τὰ διεφθαρμένα, λέγει κύριος.
 
-> - <sup>a</sup> 43. Corrected from πᾶσαις.
+> - <sup>a</sup> 43. Corrected from πᾶσαις, as seen in RH and SW. The dative plural ending αις is long, and a long last syllable rules out the circumflex on the next-to-last. This edition prints πάσαις at its 91 other occurrences.
 
 ## Chapter 21
 
@@ -1357,7 +1357,7 @@
 <sup>26</sup> ἑπτὰ ἡμέρας· καὶ ἐξιλάσονται τὸ θυσιαστήριον καὶ καθαριοῦσιν αὐτὸ καὶ πλήσουσιν χεῖρας αὐτῶν.
 <sup>27</sup> Καὶ ἔσται ἀπὸ τῆς ἡμέρας τῆς ὀγδόης καὶ ἐπέκεινα ποιήσουσιν οἱ ἱερεῖς ἐπὶ τὸ θυσιαστήριον τὰ ὁλοκαυτώματα ὑμῶν καὶ τὰ τοῦ σωτηρίου ὑμῶν. Καὶ προσδέξομαι ὑμᾶς, λέγει κύριος.
 
-> - <sup>a</sup> 17. Corrected from ἱλαστῆριον.
+> - <sup>a</sup> 17. Corrected from ἱλαστῆριον, as seen in RH and SW. The circumflex can stand only on one of the last two syllables, so the third syllable from the end takes the acute. This edition prints ἱλαστήριον at its 13 other occurrences.
 
 ## Chapter 44
 

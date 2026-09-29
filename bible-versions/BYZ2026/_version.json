@@ -121,6 +121,17 @@
       "description": "Robinson and Pierpont’s alternate Byzantine readings as of April 26, 2026."
     },
     {
+      "_id": "RP2005",
+      "name": ["RP", { "text": "2005", "marks": ["sup"] }],
+      "description": [
+        {
+          "text": "The New Testament in the Original Greek: Byzantine Textform 2005.",
+          "marks": ["i"]
+        },
+        " Maurice A. Robinson and William G. Pierpont, eds. Southborough, MA: Chilton Book Publishing, 2005."
+      ]
+    },
+    {
       "_id": "SBL",
       "name": "SBL",
       "description": [

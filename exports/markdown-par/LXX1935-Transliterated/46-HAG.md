@@ -18,7 +18,7 @@
 <sup>14</sup> Kaì exḗgeiren kýrios tò pneûma Zorobabel toû Salathiēl ek phylē̂s Iouda kaì tò pneûma Iēsoû toû Iōsedek toû hieréōs toû megálou kaì tò pneûma tō̂n kataloípōn pantòs toû laoû, kaì eisē̂lthon kaì epoíoun érga en tō̂ oíkō kyríou pantokrátoros theoû autō̂n
 <sup>15</sup> tē̂ tetrádi kaì eikádi toû mēnòs toû héktou tō̂ deutérō étei epì Dareíou toû basiléōs.
 
-> - <sup>a</sup> 1. Corrected from kýriou.
+> - <sup>a</sup> 1. Corrected from kýriou, as seen in RH and SW. The genitive ending ou is long, and a long last syllable keeps the accent off the third syllable from the end. This edition prints kyríou at its 2,564 other occurrences.
 
 ## Chapter 2
 

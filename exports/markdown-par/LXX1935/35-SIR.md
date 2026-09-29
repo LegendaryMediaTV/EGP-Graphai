@@ -124,7 +124,7 @@
 <sup>30</sup> Μὴ ἴσθι ὡς λέων ἐν τῷ οἴκῳ σου καὶ φαντασιοκοπῶν ἐν τοῖς οἰκέταις σου.
 <sup>31</sup> Μὴ ἔστω ἡ χείρ σου ἐκτεταμένη εἰς τὸ λαβεῖν καὶ ἐν τῷ ἀποδιδόναι συνεσταλμένη.
 
-> - <sup>a</sup> 11. Corrected from ζητοῦντων.
+> - <sup>a</sup> 11. Corrected from ζητοῦντων, as seen in RH. The genitive plural ending ων is long, and a long last syllable rules out the circumflex on the next-to-last. This edition prints ζητούντων at its 10 other occurrences.
 
 ## Chapter 5
 

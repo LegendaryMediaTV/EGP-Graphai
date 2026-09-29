@@ -5044,7 +5044,13 @@
           "content": [
             "Corrected from ",
             { "text": "ἐξήλθεν", "script": "G", "transliteration": "exḗlthen" },
-            "."
+            ", as seen in ",
+            { "abbr": "RH" },
+            " and ",
+            { "abbr": "SW" },
+            ". A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints ",
+            { "text": "ἐξῆλθεν", "script": "G", "transliteration": "exē̂lthen" },
+            " at its 270 other occurrences."
           ]
         },
         "strong": "G1831",
@@ -35976,7 +35982,17 @@
               "script": "G",
               "transliteration": "epoiḗsan"
             },
-            "."
+            ", as seen in ",
+            { "abbr": "RH" },
+            " and ",
+            { "abbr": "SW" },
+            ". A finite verb is accented as far from the end as its last syllable allows, here on the third syllable from the end. This edition prints ",
+            {
+              "text": "ἐποίησαν",
+              "script": "G",
+              "transliteration": "epoíēsan"
+            },
+            " at its 288 other occurrences."
           ]
         },
         "strong": "G4160",
@@ -58336,6 +58352,18 @@
           "content": [
             "Corrected from ",
             { "text": "δεσμὴν", "script": "G", "transliteration": "desmḕn" },
+            ", as seen in ",
+            { "abbr": "RH" },
+            " and ",
+            { "abbr": "SW" },
+            ". The noun is ",
+            { "text": "δέσμη", "script": "G", "transliteration": "désmē" },
+            ", accented on its first syllable, as the plural ",
+            { "text": "δέσμας", "script": "G", "transliteration": "désmas" },
+            " at ",
+            { "bibleLink": "Matthew 13:30" },
+            " shows; with the accent on its last syllable that plural would be ",
+            { "text": "δεσμάς", "script": "G", "transliteration": "desmás" },
             "."
           ]
         },
@@ -125123,17 +125151,9 @@
         "lemma": "ὁ"
       },
       {
-        "text": " τρύβλια",
+        "text": " τρυβλία",
         "script": "G",
-        "transliteration": " trýblia",
-        "foot": {
-          "type": "var",
-          "content": [
-            "Corrected from ",
-            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
-            "."
-          ]
-        },
+        "transliteration": " tryblía",
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"
@@ -194244,17 +194264,9 @@
         "lemma": "τε"
       },
       {
-        "text": " τρύβλια",
+        "text": " τρυβλία",
         "script": "G",
-        "transliteration": " trýblia",
-        "foot": {
-          "type": "var",
-          "content": [
-            "Corrected from ",
-            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
-            "."
-          ]
-        },
+        "transliteration": " tryblía",
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"

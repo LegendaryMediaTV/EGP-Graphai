@@ -363,7 +363,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>56</sup> Kaì epéstrepsen ho theòs tḕn ponērían Abimelech, hḕn epoíēsen tō̂ patrì autoû apokteînai toùs hebdomḗkonta adelphoùs autoû.
 <sup>57</sup> Kaì tḕn pâsan ponērían andrō̂n Sychem epéstrepsen ho theòs eis kephalḕn autō̂n, kaì epē̂lthen ep’ autoùs hē katára Iōathan hyioû Ierobaal.
 
-> - <sup>a</sup> 26. Corrected from ē̂lpisan.
+> - <sup>a</sup> 26. Corrected from ē̂lpisan, as seen in SW. The circumflex can stand only on one of the last two syllables, so a verb accented on the third syllable from the end takes the acute. This edition prints ḗlpisan at its 13 other occurrences.
 
 ## Chapter 10
 
@@ -623,7 +623,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>30</sup> Kaì éstēsan heautoîs hoi hyioì Dan tò glyptón; kaì Iōnatham hyiòs Gērsom hyiòs Manassē, autòs kaì hoi hyioì autoû ē̂san hiereîs tē̂ phylē̂ Dan héōs hēméras apoikías tē̂s gē̂s.
 <sup>31</sup> Kaì éthēkan autoîs tò glyptón, hò epoíēsen Michaias, pásas tàs hēméras, hàs ē̂n ho oîkos toû theoû en Sēlōm.
 
-> - <sup>a</sup> 26. Corrected from epóstrepsen.
+> - <sup>a</sup> 26. Corrected from epóstrepsen, as seen in SW. The augment of epistréphō is e, placed after the prefix ep, which gives epéstrepsen. This edition prints epéstrepsen at its 103 other occurrences.
 
 ## Chapter 19
 

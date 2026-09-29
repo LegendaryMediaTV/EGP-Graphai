@@ -59,7 +59,7 @@
 <sup>24</sup> Kaì eisḗkousen ho theòs tòn stenagmòn autō̂n, kaì emnḗsthē ho theòs tē̂s diathḗkēs autoû tē̂s pròs Abraam kaì Isaak kaì Iakōb.
 <sup>25</sup> Kaì epeîden ho theòs toùs hyioùs Israēl kaì egnṓsthē autoîs.
 
-> - <sup>a</sup> 11. Corrected from exḗlthen.
+> - <sup>a</sup> 11. Corrected from exḗlthen, as seen in RH and SW. A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints exē̂lthen at its 270 other occurrences.
 
 ## Chapter 3
 
@@ -258,7 +258,7 @@
 <sup>27</sup> epoíēsen dè kýrios katháper eîpen Mōÿsē̂s, kaì perieîlen tḕn kynómyian apò Pharaō kaì tō̂n therapóntōn autoû kaì toû laoû autoû, kaì ou kateleíphthē oudemía.
 <sup>28</sup> Kaì ebárynen Pharaō tḕn kardían autoû kaì epì toû kairoû toútou kaì ouk ēthélēsen exaposteîlai tòn laón.
 
-> - <sup>a</sup> 14. Corrected from epoiḗsan.
+> - <sup>a</sup> 14. Corrected from epoiḗsan, as seen in RH and SW. A finite verb is accented as far from the end as its last syllable allows, here on the third syllable from the end. This edition prints epoíēsan at its 288 other occurrences.
 
 ## Chapter 9
 
@@ -407,7 +407,7 @@
 <sup>50</sup> Kaì epoíēsan hoi hyioì Israēl kathà eneteílato kýrios tō̂ Mōysē̂ kaì Aarōn pròs autoús, hoútōs epoíēsan. —
 <sup>51</sup> kaì egéneto en tē̂ hēméra ekeínē exḗgagen kýrios toùs hyioùs Israēl ek gē̂s Aigýptou sỳn dynámei autō̂n.
 
-> - <sup>a</sup> 22. Corrected from desmḕn.
+> - <sup>a</sup> 22. Corrected from desmḕn, as seen in RH and SW. The noun is désmē, accented on its first syllable, as the plural désmas at Matthew 13:30 shows; with the accent on its last syllable that plural would be desmás.
 
 ## Chapter 13
 
@@ -831,7 +831,7 @@ Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ e
 <sup>26</sup> Kaì poiḗseis téssaras daktylíous chrysoûs kaì epithḗseis toùs daktylíous epì tà téssara mérē tō̂n podō̂n autē̂s
 <sup>27</sup> hypò tḕn stephánēn, kaì ésontai hoi daktýlioi eis thḗkas toîs anaphoreûsin hṓste aírein en autoîs tḕn trápezan.
 <sup>28</sup> Kaì poiḗseis toùs anaphoreîs ek xýlōn asḗptōn kaì katachrysṓseis autoùs chrysíō katharō̂, kaì arthḗsetai en autoîs hē trápeza.
-<sup>29</sup> Kaì poiḗseis tà trýblia<sup>a</sup> autē̂s kaì tàs thyískas kaì tà spondeîa kaì toùs kyáthous, en hoîs speíseis en autoîs; chrysíou katharoû poiḗseis autá.
+<sup>29</sup> Kaì poiḗseis tà tryblía autē̂s kaì tàs thyískas kaì tà spondeîa kaì toùs kyáthous, en hoîs speíseis en autoîs; chrysíou katharoû poiḗseis autá.
 <sup>30</sup> Kaì epithḗseis epì tḕn trápezan ártous enōpíous enantíon mou dià pantós.
 
 <sup>31</sup> Kaì poiḗseis lychnían ek chrysíou katharoû, toreutḕn poiḗseis tḕn lychnían; ho kaulòs autē̂s kaì hoi kalamískoi kaì hoi kratē̂res kaì hoi sphairōtē̂res kaì tà krína ex autē̂s éstai.
@@ -844,8 +844,6 @@ Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ e
 <sup>38</sup> Kaì tòn eparystē̂ra autē̂s kaì tà hypothémata autē̂s ek chrysíou katharoû poiḗseis.
 <sup>39</sup> Pánta tà skeúē taûta tálanton chrysíou katharoû.
 <sup>40</sup> Hóra poiḗseis katà tòn týpon tòn dedeigménon soi en tō̂ órei.
-
-> - <sup>a</sup> 29. Corrected from tryblía.
 
 ## Chapter 26
 
@@ -1306,7 +1304,7 @@ Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ e
 <sup>9</sup> Kaì epoíēsen tḕn trápezan tḕn prokeiménēn ek chrysíou katharoû;
 <sup>10</sup> kaì echṓneusen autē̂ téssaras daktylíous, dýo epì toû klítous toû henòs kaì dýo epì toû klítous toû deutérou, eureîs hṓste aírein toîs diōstē̂rsin en autoîs.
 <sup>11</sup> Kaì toùs diōstē̂ras tē̂s kibōtoû kaì tē̂s trapézēs epoíēsen kaì katechrýsōsen autoùs chrysíō.
-<sup>12</sup> Kaì epoíēsen tà skeúē tē̂s trapézēs, tá te trýblia<sup>a</sup> kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs speísei en autoîs, chrysâ.
+<sup>12</sup> Kaì epoíēsen tà skeúē tē̂s trapézēs, tá te tryblía kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs speísei en autoîs, chrysâ.
 
 <sup>13</sup> Kaì epoíēsen tḕn lychnían, hḕ phōtízei, chrysē̂n, stereàn tòn kaulón,
 <sup>14</sup> kaì toùs kalamískous ex amphotérōn tō̂n merō̂n autē̂s;
@@ -1324,8 +1322,6 @@ Kaì ónoma theō̂n hetérōn ouk anamnēsthḗsesthe, oudè mḕ akousthē̂ e
 <sup>25</sup> Hoûtos epoíēsen tò élaion tē̂s chríseōs tò hágion kaì tḕn sýnthesin toû thymiámatos, katharòn érgon myrepsoû.
 <sup>26</sup> Hoûtos epoíēsen tòn loutē̂ra chalkoûn kaì tḕn básin autoû chalkē̂n ek tō̂n katóptrōn tō̂n nēsteusasō̂n, haì enḗsteusan parà tàs thýras tē̂s skēnē̂s toû martyríou en hē̂ hēméra épēxen autḗn;
 <sup>27</sup> kaì epoíēsen tòn loutē̂ra, hína níptōntai ex autoû Mōÿsē̂s kaì Aarōn kaì hoi hyioì autoû tàs cheîras autō̂n kaì toùs pódas; eisporeuoménōn autō̂n eis tḕn skēnḕn toû martyríou ḕ hótan prosporeúōntai pròs tò thysiastḗrion leitourgeîn, eníptonto ex autoû, katháper synétaxen kýrios tō̂ Mōysē̂.
-
-> - <sup>a</sup> 12. Corrected from tryblía.
 
 ## Chapter 39
 

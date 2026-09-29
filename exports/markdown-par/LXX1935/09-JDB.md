@@ -363,7 +363,7 @@
 <sup>56</sup> Καὶ ἐπέστρεψεν ὁ θεὸς τὴν πονηρίαν Αβιμελεχ, ἣν ἐποίησεν τῷ πατρὶ αὐτοῦ ἀποκτεῖναι τοὺς ἑβδομήκοντα ἀδελφοὺς αὐτοῦ.
 <sup>57</sup> Καὶ τὴν πᾶσαν πονηρίαν ἀνδρῶν Συχεμ ἐπέστρεψεν ὁ θεὸς εἰς κεφαλὴν αὐτῶν, καὶ ἐπῆλθεν ἐπ’ αὐτοὺς ἡ κατάρα Ιωαθαν υἱοῦ Ιεροβααλ.
 
-> - <sup>a</sup> 26. Corrected from ἦλπισαν.
+> - <sup>a</sup> 26. Corrected from ἦλπισαν, as seen in SW. The circumflex can stand only on one of the last two syllables, so a verb accented on the third syllable from the end takes the acute. This edition prints ἤλπισαν at its 13 other occurrences.
 
 ## Chapter 10
 
@@ -623,7 +623,7 @@
 <sup>30</sup> Καὶ ἔστησαν ἑαυτοῖς οἱ υἱοὶ Δαν τὸ γλυπτόν· καὶ Ιωναθαμ υἱὸς Γηρσομ υἱὸς Μανασση, αὐτὸς καὶ οἱ υἱοὶ αὐτοῦ ἦσαν ἱερεῖς τῇ φυλῇ Δαν ἕως ἡμέρας ἀποικίας τῆς γῆς.
 <sup>31</sup> Καὶ ἔθηκαν αὐτοῖς τὸ γλυπτόν, ὃ ἐποίησεν Μιχαιας, πάσας τὰς ἡμέρας, ἃς ἦν ὁ οἶκος τοῦ θεοῦ ἐν Σηλωμ.
 
-> - <sup>a</sup> 26. Corrected from ἐπόστρεψεν.
+> - <sup>a</sup> 26. Corrected from ἐπόστρεψεν, as seen in SW. The augment of ἐπιστρέφω is ε, placed after the prefix ἐπ, which gives ἐπέστρεψεν. This edition prints ἐπέστρεψεν at its 103 other occurrences.
 
 ## Chapter 19
 

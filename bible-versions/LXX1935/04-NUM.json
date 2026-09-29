@@ -21457,17 +21457,9 @@
         "lemma": "ὁ"
       },
       {
-        "text": " τρύβλια",
+        "text": " τρυβλία",
         "script": "G",
-        "transliteration": " trýblia",
-        "foot": {
-          "type": "var",
-          "content": [
-            "Corrected from ",
-            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
-            "."
-          ]
-        },
+        "transliteration": " tryblía",
         "strong": "G5165",
         "morph": "N-APN",
         "lemma": "τρύβλιον"
@@ -50311,17 +50303,9 @@
         "lemma": "Ἰσραήλ"
       },
       {
-        "text": " τρύβλια",
+        "text": " τρυβλία",
         "script": "G",
-        "transliteration": " trýblia",
-        "foot": {
-          "type": "var",
-          "content": [
-            "Corrected from ",
-            { "text": "τρυβλία", "script": "G", "transliteration": "tryblía" },
-            "."
-          ]
-        },
+        "transliteration": " tryblía",
         "strong": "G5165",
         "morph": "N-NPN",
         "lemma": "τρύβλιον"
@@ -108055,6 +108039,16 @@
           "content": [
             "Corrected from ",
             { "text": "ὄβολοί", "script": "G", "transliteration": "óboloí" },
+            ", as seen in ",
+            { "abbr": "RH" },
+            " and ",
+            { "abbr": "SW" },
+            ". The noun ",
+            { "text": "ὀβολός", "script": "G", "transliteration": "obolós" },
+            " is accented only on its last syllable, as this edition prints it at its six other occurrences, ",
+            { "text": "ὀβολοί", "script": "G", "transliteration": "oboloí" },
+            " among them at ",
+            { "bibleLink": "Exodus 30:13" },
             "."
           ]
         },
@@ -139434,6 +139428,33 @@
               "script": "G",
               "transliteration": "katarâsaí"
             },
+            ", as seen in ",
+            { "abbr": "RH" },
+            " and ",
+            { "abbr": "SW" },
+            ". The aorist middle imperative ",
+            {
+              "text": "κατάρασαι",
+              "script": "G",
+              "transliteration": "katárasai"
+            },
+            " is accented on the third syllable from the end, and the enclitic ",
+            { "text": "μοι", "script": "G", "transliteration": "moi" },
+            " after it adds a second acute. This edition prints the same command, ",
+            {
+              "text": "κατάρασαί",
+              "script": "G",
+              "transliteration": "katárasaí"
+            },
+            { "text": " μοι", "script": "G", "transliteration": " moi" },
+            { "text": " αὐτὸν", "script": "G", "transliteration": " autòn" },
+            {
+              "text": " ἐκεῖθεν",
+              "script": "G",
+              "transliteration": " ekeîthen"
+            },
+            ", at ",
+            { "bibleLink": "Numbers 23:13" },
             "."
           ]
         },

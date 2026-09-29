@@ -11850,6 +11850,14 @@
     "declension": "2n",
     "indices": { "strongs": "G5165" },
     "inflections": {
+      "τρυβλία": {
+        "transliteration": "tryblía",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
       "τρύβλια": {
         "transliteration": "trýblia",
         "cells": [

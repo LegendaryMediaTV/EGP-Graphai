@@ -240,7 +240,7 @@
 <sup>29</sup> Tóte Baltasar ho basileùs enédyse tòn Daniēl porphýran kaì maniákēn chrysoûn periéthēken autō̂ kaì édōken exousían autō̂ toû trítou mérous tē̂s basileías autoû.
 <sup>30</sup> Kaì tò sýnkrima epē̂lthe Baltasar tō̂ basileî, kaì tò basíleion exē̂rtai apò tō̂n Chaldaíōn kaì edóthē toîs Mḗdois kaì toîs Pérsais.
 
-> - <sup>a</sup> 6. Corrected from synetaîroi.
+> - <sup>a</sup> 6. Corrected from synetaîroi, as seen in RH. The compound synétairos is accented on the third syllable from the end, as this edition prints synétairoi at 1 Esdras 6:3, 7 and 7:1.
 
 ## Chapter 6
 

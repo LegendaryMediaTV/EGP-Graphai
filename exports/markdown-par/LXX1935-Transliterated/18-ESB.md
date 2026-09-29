@@ -807,4 +807,4 @@ Kaì éphthasen ho mḕn ho hébdomos—kaì hoi hyioì Israēl en pólesin aut�
 <sup>30</sup> kaì ekathárisa autoùs apò pásēs allotriṓseōs kaì éstēsa ephēmerías toîs hiereûsin kaì toîs Leuítais, anḕr hōs tò érgon autoû,
 <sup>31</sup> kaì tò dō̂ron tō̂n xylophórōn en kairoîs apò chrónōn kaì en toîs bakchouríois. Mnḗsthētí mou, ho theòs hēmō̂n, eis agathōsýnēn.
 
-> - <sup>a</sup> 25. Corrected from thygetéras.
+> - <sup>a</sup> 25. Corrected from thygetéras, as seen in RH and SW. The noun is thygátēr, as this verse prints it again in thygatérōn, and this edition prints thygatéras at its 111 other occurrences.

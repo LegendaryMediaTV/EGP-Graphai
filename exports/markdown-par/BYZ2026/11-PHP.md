@@ -100,7 +100,7 @@
 > - <sup>g</sup> 4. καὶ τὰ ¦ NA [καὶ] τὰ ¦ PCK καὶ τὸ
 > - <sup>h</sup> 4. ἕκαστος ¦ CT ἕκαστοι
 > - <sup>i</sup> 5. γὰρ φρονείσθω ¦ CT φρονεῖτε
-> - <sup>j</sup> 6. Corrected from ἶσα.
+> - <sup>j</sup> 6. Corrected from ἶσα, as seen in NA<sup>28</sup>, PT, RP<sup>2005</sup>, SBL, TR, and WH. The iota of ἴσος is short, so ἴσα takes the acute, as this edition prints it at Luke 6:34 and Revelation 21:16. The Septuagint prints the same ἴσα with a dative at Job 11:12.
 > - <sup>k</sup> 7. ἀλλ’ ¦ NA<sup>27</sup> SBL TH WH ἀλλὰ
 > - <sup>l</sup> 9. ὄνομα ¦ CT τὸ ὄνομα
 > - <sup>m</sup> 12. ὡς ¦ [WH]

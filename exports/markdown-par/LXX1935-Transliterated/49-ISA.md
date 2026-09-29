@@ -703,7 +703,7 @@ Ololýzete, ploîa Karchēdónos, hóti apṓleto, kaì oukéti érchontai ek g�
 <sup>23</sup> all’ hótan ídōsin tà tékna autō̂n tà érga mou, di’ emè hagiásousin tò ónomá mou kaì hagiásousin tòn hágion Iakōb kaì tòn theòn toû Israēl phobēthḗsontai.
 <sup>24</sup> Kaì gnṓsontai hoi tō̂ pneúmati planṓmenoi sýnesin, hoi dè gongýzontes mathḗsontai hypakoúein, kaì hai glō̂ssai<sup>a</sup> hai psellízousai mathḗsontai laleîn eirḗnēn.
 
-> - <sup>a</sup> 24. Corrected from glṓssai.
+> - <sup>a</sup> 24. Corrected from glṓssai, as seen in RH and SW. A final ai counts as short for the accent, so the long ō of the next-to-last syllable takes the circumflex. This edition prints glō̂ssai at its 12 other occurrences.
 
 ## Chapter 30
 
@@ -1229,7 +1229,7 @@ Pâsa sàrx chórtos, kaì pâsa dóxa anthrṓpou hōs ánthos chórtou;
 <sup>21</sup> Kaì eàn dipsḗsōsin, di’ erḗmou áxei autoús, hýdōr ek pétras exáxei autoîs; schisthḗsetai pétra, kaì rhyḗsetai hýdōr, kaì píetai ho laós mou.
 <sup>22</sup> Ouk éstin chaírein toîs asebésin, légei kýrios.
 
-> - <sup>a</sup> 8. Corrected from kēlthḗsē.
+> - <sup>a</sup> 8. Corrected from kēlthḗsē, as seen in RH and SW. The future passive of kaléō is klēthḗsē, which this edition prints at its seven other occurrences.
 
 ## Chapter 49
 

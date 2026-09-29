@@ -228,7 +228,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>39</sup> Kaì eîpen Gedeōn pròs tòn theón Mḕ orgisthḗtō ho thymós sou en emoí, kaì lalḗsō éti hápax; kaì peirásō éti hápax en tō̂ pókō, kaì genēthḗtō xērasía epì tòn pókon mónon, epì dè pâsan tḕn gē̂n genēthḗtō drósos.
 <sup>40</sup> Kaì epoíēsen ho theòs hoútōs en tē̂ nyktì ekeínē, kaì egéneto xērasía epì tòn pókon mónon, epì dè pâsan tḕn gē̂n egéneto drósos.
 
-> - <sup>a</sup> 5. Corrected from ktḗnēn.
+> - <sup>a</sup> 5. Corrected from ktḗnēn, as seen in RH. The neuter plural of ktē̂nos is ktḗnē, with no final n, as this edition prints it at its 103 other occurrences.
 
 ## Chapter 7
 
@@ -301,7 +301,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>34</sup> Kaì ouk emnḗsthēsan hoi hyioì Israēl kyríou toû theoû autō̂n toû rhysaménou autoùs ek cheiròs pántōn tō̂n echthrō̂n autō̂n kyklóthen.
 <sup>35</sup> Kaì ouk epoíēsan éleos metà toû oíkou Ierobaal Gedeōn katà pâsan tḕn agathōsýnēn, hḕn epoíēsen metà Israēl.
 
-> - <sup>a</sup> 32. Corrected from tatròs.
+> - <sup>a</sup> 32. Corrected from tatròs, as seen in RH. The genitive of patḗr is patrós, which this verse already prints once and this edition prints at its 410 other occurrences.
 
 ## Chapter 9
 
@@ -513,7 +513,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>19</sup> Kaì kateúthynen ep’ autòn pneûma kyríou, kaì katébē eis Askalō̂na kaì épaisen ekeîthen triákonta ándras kaì élaben tàs stolàs autō̂n kaì édōken toîs apangeílasin tò próblēma. Kaì ethymṓthē orgē̂ Sampsōn kaì anébē eis tòn oîkon toû patròs autoû.
 <sup>20</sup> Kaì synṓkēsen hē gynḕ Sampsōn tō̂ nymphagōgō̂ autoû, hòs ē̂n hetaîros autoû.
 
-> - <sup>a</sup> 6. Corrected from pneúma.
+> - <sup>a</sup> 6. Corrected from pneúma, as seen in RH. A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints pneûma at its 238 other occurrences.
 
 ## Chapter 15
 

@@ -178,7 +178,7 @@
 <sup>4</sup> Kaì taûta tà érga tō̂n hyiō̂n Kaath en tē̂ skēnē̂ toû martyríou; hágion tō̂n hagíōn.
 <sup>5</sup> Kaì eiseleúsetai Aarōn kaì hoi hyioì autoû, hótan exaírē hē parembolḗ, kaì katheloûsin tò katapétasma tò syskiázon kaì katakalýpsousin en autō̂ tḕn kibōtòn toû martyríou
 <sup>6</sup> kaì epithḗsousin ep’ autò katakálymma dérma hyakínthinon kaì epibaloûsin ep’ autḕn himátion hólon hyakínthinon ánōthen kaì diembaloûsin toùs anaphoreîs.
-<sup>7</sup> Kaì epì tḕn trápezan tḕn prokeiménēn epibaloûsin ep’ autḕn himátion holopórphyron kaì tà trýblia<sup>a</sup> kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs spéndei, kaì hoi ártoi hoi dià pantòs ep’ autē̂s ésontai.
+<sup>7</sup> Kaì epì tḕn trápezan tḕn prokeiménēn epibaloûsin ep’ autḕn himátion holopórphyron kaì tà tryblía kaì tàs thyískas kaì toùs kyáthous kaì tà spondeîa, en hoîs spéndei, kaì hoi ártoi hoi dià pantòs ep’ autē̂s ésontai.
 <sup>8</sup> Kaì epibaloûsin ep’ autḕn himátion kókkinon kaì kalýpsousin autḕn kalýmmati dermatínō hyakinthínō kaì diembaloûsin di’ autē̂s toùs anaphoreîs.
 <sup>9</sup> Kaì lḗmpsontai himátion hyakínthinon kaì kalýpsousin tḕn lychnían tḕn phōtízousan kaì toùs lýchnous autē̂s kaì tàs labídas autē̂s kaì tàs eparystrídas autē̂s kaì pánta tà angeîa toû elaíou, hoîs leitourgoûsin en autoîs,
 <sup>10</sup> kaì embaloûsin autḕn kaì pánta tà skeúē autē̂s eis kálymma dermátinon hyakínthinon kaì epithḗsousin autḕn ep’ anaphoréōn.
@@ -229,8 +229,6 @@
 <sup>47</sup> apò pentekaieikosaetoûs kaì epánō héōs pentēkontaetoûs, pâs ho eisporeuómenos pròs tò érgon tō̂n érgōn kaì tà érga tà airómena en tē̂ skēnē̂ toû martyríou,
 <sup>48</sup> kaì egenḗthēsan hoi episkepéntes oktakischílioi pentakósioi ogdoḗkonta.
 <sup>49</sup> Dià phōnē̂s kyríou epesképsato autoùs en cheirì Mōysē̂ ándra kat’ ándra epì tō̂n érgōn autō̂n kaì epì hō̂n aírousin autoí; kaì epesképēsan, hòn trópon synétaxen kýrios tō̂ Mōysē̂.
-
-> - <sup>a</sup> 7. Corrected from tryblía.
 
 ## Chapter 5
 
@@ -405,14 +403,12 @@
 <sup>82</sup> kaì chímaron ex aigō̂n héna perì hamartías;
 <sup>83</sup> kaì eis thysían sōtēríou damáleis dýo, krioùs pénte, trágous pénte, amnádas eniausías pénte. Toûto tò dō̂ron Achire hyioû Ainan.
 
-<sup>84</sup> Hoûtos ho enkainismòs toû thysiastēríou, hē̂ hēméra échrisen autó, parà tō̂n archóntōn tō̂n hyiō̂n Israēl; trýblia<sup>a</sup> argyrâ dṓdeka, phiálai argyraî dṓdeka, thyískai chrysaî dṓdeka,
+<sup>84</sup> Hoûtos ho enkainismòs toû thysiastēríou, hē̂ hēméra échrisen autó, parà tō̂n archóntōn tō̂n hyiō̂n Israēl; tryblía argyrâ dṓdeka, phiálai argyraî dṓdeka, thyískai chrysaî dṓdeka,
 <sup>85</sup> triákonta kaì hekatòn síklōn tò tryblíon tò hén kaì hebdomḗkonta síklōn hē phiálē hē mía, pân tò argýrion tō̂n skeuō̂n dischílioi kaì tetrakósioi síkloi en tō̂ síklō tō̂ hagíō.
 <sup>86</sup> Thyískai chrysaî dṓdeka plḗreis thymiámatos; pân tò chrysíon tō̂n thyiskō̂n eíkosi kaì hekatòn chrysoî.
 <sup>87</sup> Pâsai hai bóes eis holokaútōsin móschoi dṓdeka, krioì dṓdeka, amnoì eniaúsioi dṓdeka kaì hai thysíai autō̂n kaì hai spondaì autō̂n; kaì chímaroi ex aigō̂n dṓdeka perì hamartías.
 <sup>88</sup> Pâsai hai bóes eis thysían sōtēríou damáleis eíkosi téssares, krioì hexḗkonta, trágoi hexḗkonta, amnádes hexḗkonta eniaúsiai ámōmoi. Haútē hē enkaínōsis toû thysiastēríou metà tò plērō̂sai tàs cheîras autoû kaì metà tò chrîsai autón. —
 <sup>89</sup> en tō̂ eisporeúesthai Mōysē̂n eis tḕn skēnḕn toû martyríou lalē̂sai autō̂ kaì ḗkousen tḕn phōnḕn kyríou laloûntos pròs autòn ánōthen toû hilastēríou, hó estin epì tē̂s kibōtoû toû martyríou, anà méson tō̂n dýo cheroubim; kaì elálei pròs autón.
-
-> - <sup>a</sup> 84. Corrected from tryblía.
 
 ## Chapter 8
 
@@ -840,7 +836,7 @@
 <sup>31</sup> Kaì édesthe autò en pantì tópō hymeîs kaì hoi oîkoi hymō̂n, hóti misthòs hoûtos hymîn estin antì tō̂n leitourgiō̂n hymō̂n tō̂n en tē̂ skēnē̂ toû martyríou;
 <sup>32</sup> kaì ou lḗmpsesthe di’ autò hamartían, hóti àn aphairē̂te tḕn aparchḕn ap’ autoû; kaì tà hágia tō̂n hyiō̂n Israēl ou bebēlṓsete, hína mḕ apothánēte.
 
-> - <sup>a</sup> 16. Corrected from óboloí.
+> - <sup>a</sup> 16. Corrected from óboloí, as seen in RH and SW. The noun obolós is accented only on its last syllable, as this edition prints it at its six other occurrences, oboloí among them at Exodus 30:13.
 
 ## Chapter 19
 
@@ -1032,7 +1028,7 @@
 <sup>29</sup> Kaì eîpen Balaam pròs Balak Oikodómēsón moi hō̂de heptà bōmoùs kaì hetoímasón moi hō̂de heptà móschous kaì heptà krioús.
 <sup>30</sup> Kaì epoíēsen Balak katháper eîpen autō̂ Balaam, kaì anḗnenken móschon kaì kriòn epì tòn bōmón.
 
-> - <sup>a</sup> 27. Corrected from katarâsaí.
+> - <sup>a</sup> 27. Corrected from katarâsaí, as seen in RH and SW. The aorist middle imperative katárasai is accented on the third syllable from the end, and the enclitic moi after it adds a second acute. This edition prints the same command, katárasaí moi autòn ekeîthen, at Numbers 23:13.
 
 ## Chapter 24
 

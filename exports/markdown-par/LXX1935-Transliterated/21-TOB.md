@@ -143,7 +143,7 @@ Nōe, Abraam, Isaak, Iakōb hoi patéres hēmō̂n apò toû aiō̂nos mnḗsth�
 <sup>18</sup> Hótan dè prosporeúē autē̂, egérthēte amphóteroi kaì boḗsate pròs tòn eleḗmona theón, kaì sṓsei hymâs kaì eleḗsei; mḕ phoboû, hóti soì autḕ hētoimasménē ē̂n apò toû aiō̂nos, kaì sỳ autḕn sṓseis, kaì poreúsetai metà soû, kaì hypolambánō hóti soì éstai ex autē̂s paidía.
 <sup>19</sup> Kaì hōs ḗkousen Tōbias taûta, ephílēsen autḗn, kaì hē psychḕ autoû ekollḗthē autē̂ sphódra.
 
-> - <sup>a</sup> 8. Corrected from paneûma.
+> - <sup>a</sup> 8. Corrected from paneûma, as seen in RH. The noun is pneûma, which this edition prints at its 238 other occurrences.
 
 ## Chapter 7
 

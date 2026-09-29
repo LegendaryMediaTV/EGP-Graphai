@@ -18,7 +18,7 @@
 <sup>14</sup> Καὶ ἐξήγειρεν κύριος τὸ πνεῦμα Ζοροβαβελ τοῦ Σαλαθιηλ ἐκ φυλῆς Ιουδα καὶ τὸ πνεῦμα Ἰησοῦ τοῦ Ιωσεδεκ τοῦ ἱερέως τοῦ μεγάλου καὶ τὸ πνεῦμα τῶν καταλοίπων παντὸς τοῦ λαοῦ, καὶ εἰσῆλθον καὶ ἐποίουν ἔργα ἐν τῷ οἴκῳ κυρίου παντοκράτορος θεοῦ αὐτῶν
 <sup>15</sup> τῇ τετράδι καὶ εἰκάδι τοῦ μηνὸς τοῦ ἕκτου τῷ δευτέρῳ ἔτει ἐπὶ Δαρείου τοῦ βασιλέως.
 
-> - <sup>a</sup> 1. Corrected from κύριου.
+> - <sup>a</sup> 1. Corrected from κύριου, as seen in RH and SW. The genitive ending ου is long, and a long last syllable keeps the accent off the third syllable from the end. This edition prints κυρίου at its 2,564 other occurrences.
 
 ## Chapter 2
 

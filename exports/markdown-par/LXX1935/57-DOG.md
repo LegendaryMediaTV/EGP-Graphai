@@ -240,7 +240,7 @@
 <sup>29</sup> Τότε Βαλτασαρ ὁ βασιλεὺς ἐνέδυσε τὸν Δανιηλ πορφύραν καὶ μανιάκην χρυσοῦν περιέθηκεν αὐτῷ καὶ ἔδωκεν ἐξουσίαν αὐτῷ τοῦ τρίτου μέρους τῆς βασιλείας αὐτοῦ.
 <sup>30</sup> Καὶ τὸ σύγκριμα ἐπῆλθε Βαλτασαρ τῷ βασιλεῖ, καὶ τὸ βασίλειον ἐξῆρται ἀπὸ τῶν Χαλδαίων καὶ ἐδόθη τοῖς Μήδοις καὶ τοῖς Πέρσαις.
 
-> - <sup>a</sup> 6. Corrected from συνεταῖροι.
+> - <sup>a</sup> 6. Corrected from συνεταῖροι, as seen in RH. The compound συνέταιρος is accented on the third syllable from the end, as this edition prints συνέταιροι at 1 Esdras 6:3, 7 and 7:1.
 
 ## Chapter 6
 

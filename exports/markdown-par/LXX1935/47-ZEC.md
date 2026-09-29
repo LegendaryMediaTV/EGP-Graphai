@@ -157,7 +157,7 @@
 <sup>22</sup> Καὶ ἥξουσιν λαοὶ πολλοὶ καὶ ἔθνη πολλὰ ἐκζητῆσαι τὸ πρόσωπον κυρίου παντοκράτορος ἐν Ιερουσαλημ καὶ τοῦ ἐξιλάσκεσθαι τὸ πρόσωπον κυρίου.
 <sup>23</sup> Τάδε λέγει κύριος παντοκράτωρ Ἐν ταῖς ἡμέραις ἐκείναις ἐὰν ἐπιλάβωνται δέκα ἄνδρες ἐκ πασῶν τῶν γλωσσῶν τῶν ἐθνῶν καὶ ἐπιλάβωνται τοῦ κρασπέδου ἀνδρὸς Ιουδαίου λέγοντες Πορευσόμεθα μετὰ σοῦ, διότι ἀκηκόαμεν ὅτι ὁ θεὸς μεθ’ ὑμῶν ἐστιν.
 
-> - <sup>a</sup> 18. Corrected from κύριου.
+> - <sup>a</sup> 18. Corrected from κύριου, as seen in RH and SW. The genitive ending ου is long, and a long last syllable keeps the accent off the third syllable from the end. This edition prints κυρίου at its 2,564 other occurrences.
 
 ## Chapter 9
 

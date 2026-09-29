@@ -703,7 +703,7 @@
 <sup>23</sup> ἀλλ’ ὅταν ἴδωσιν τὰ τέκνα αὐτῶν τὰ ἔργα μου, δι’ ἐμὲ ἁγιάσουσιν τὸ ὄνομά μου καὶ ἁγιάσουσιν τὸν ἅγιον Ιακωβ καὶ τὸν θεὸν τοῦ Ισραηλ φοβηθήσονται.
 <sup>24</sup> Καὶ γνώσονται οἱ τῷ πνεύματι πλανώμενοι σύνεσιν, οἱ δὲ γογγύζοντες μαθήσονται ὑπακούειν, καὶ αἱ γλῶσσαι<sup>a</sup> αἱ ψελλίζουσαι μαθήσονται λαλεῖν εἰρήνην.
 
-> - <sup>a</sup> 24. Corrected from γλώσσαι.
+> - <sup>a</sup> 24. Corrected from γλώσσαι, as seen in RH and SW. A final αι counts as short for the accent, so the long ω of the next-to-last syllable takes the circumflex. This edition prints γλῶσσαι at its 12 other occurrences.
 
 ## Chapter 30
 
@@ -1229,7 +1229,7 @@
 <sup>21</sup> Καὶ ἐὰν διψήσωσιν, δι’ ἐρήμου ἄξει αὐτούς, ὕδωρ ἐκ πέτρας ἐξάξει αὐτοῖς· σχισθήσεται πέτρα, καὶ ῥυήσεται ὕδωρ, καὶ πίεται ὁ λαός μου.
 <sup>22</sup> Οὐκ ἔστιν χαίρειν τοῖς ἀσεβέσιν, λέγει κύριος.
 
-> - <sup>a</sup> 8. Corrected from κηλθήσῃ.
+> - <sup>a</sup> 8. Corrected from κηλθήσῃ, as seen in RH and SW. The future passive of καλέω is κληθήσῃ, which this edition prints at its seven other occurrences.
 
 ## Chapter 49
 

@@ -564,7 +564,7 @@ Kaì ereîs pantì oíkō Israēl
 <sup>43</sup> Kaì mnēsthḗsesthe ekeî tàs hodoùs hymō̂n kaì tà epitēdeúmata hymō̂n, en hoîs emiaínesthe en autoîs, kaì kópsesthe tà prósōpa hymō̂n en pásais<sup>a</sup> taîs kakíais hymō̂n.
 <sup>44</sup> Kaì epignṓsesthe dióti egṑ kýrios en tō̂ poiē̂saí me hoútōs hymîn hópōs tò ónomá mou mḕ bebēlōthē̂ katà tàs hodoùs hymō̂n tàs kakàs kaì katà tà epitēdeúmata hymō̂n tà diephtharména, légei kýrios.
 
-> - <sup>a</sup> 43. Corrected from pâsais.
+> - <sup>a</sup> 43. Corrected from pâsais, as seen in RH and SW. The dative plural ending ais is long, and a long last syllable rules out the circumflex on the next-to-last. This edition prints pásais at its 91 other occurrences.
 
 ## Chapter 21
 
@@ -1357,7 +1357,7 @@ Assour kaì Charman émporoí sou
 <sup>26</sup> heptà hēméras; kaì exilásontai tò thysiastḗrion kaì katharioûsin autò kaì plḗsousin cheîras autō̂n.
 <sup>27</sup> Kaì éstai apò tē̂s hēméras tē̂s ogdóēs kaì epékeina poiḗsousin hoi hiereîs epì tò thysiastḗrion tà holokautṓmata hymō̂n kaì tà toû sōtēríou hymō̂n. Kaì prosdéxomai hymâs, légei kýrios.
 
-> - <sup>a</sup> 17. Corrected from hilastē̂rion.
+> - <sup>a</sup> 17. Corrected from hilastē̂rion, as seen in RH and SW. The circumflex can stand only on one of the last two syllables, so the third syllable from the end takes the acute. This edition prints hilastḗrion at its 13 other occurrences.
 
 ## Chapter 44
 

@@ -55035,7 +55035,11 @@
           "content": [
             "Corrected from ",
             { "text": "ἦλπισαν", "script": "G", "transliteration": "ē̂lpisan" },
-            "."
+            ", as seen in ",
+            { "abbr": "SW" },
+            ". The circumflex can stand only on one of the last two syllables, so a verb accented on the third syllable from the end takes the acute. This edition prints ",
+            { "text": "ἤλπισαν", "script": "G", "transliteration": "ḗlpisan" },
+            " at its 13 other occurrences."
           ]
         },
         "strong": "G1679",
@@ -105262,7 +105266,31 @@
               "script": "G",
               "transliteration": "epóstrepsen"
             },
-            "."
+            ", as seen in ",
+            { "abbr": "SW" },
+            ". The augment of ",
+            {
+              "text": "ἐπιστρέφω",
+              "script": "G",
+              "transliteration": "epistréphō"
+            },
+            " is ",
+            { "text": "ε", "script": "G", "transliteration": "e" },
+            ", placed after the prefix ",
+            { "text": "ἐπ", "script": "G", "transliteration": "ep" },
+            ", which gives ",
+            {
+              "text": "ἐπέστρεψεν",
+              "script": "G",
+              "transliteration": "epéstrepsen"
+            },
+            ". This edition prints ",
+            {
+              "text": "ἐπέστρεψεν",
+              "script": "G",
+              "transliteration": "epéstrepsen"
+            },
+            " at its 103 other occurrences."
           ]
         },
         "strong": "G1994",

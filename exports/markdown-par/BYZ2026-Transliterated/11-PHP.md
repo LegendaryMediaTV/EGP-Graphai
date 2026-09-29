@@ -100,7 +100,7 @@
 > - <sup>g</sup> 4. kaì tà ¦ NA [kaì] tà ¦ PCK kaì tò
 > - <sup>h</sup> 4. hékastos ¦ CT hékastoi
 > - <sup>i</sup> 5. gàr phroneísthō ¦ CT phroneîte
-> - <sup>j</sup> 6. Corrected from îsa.
+> - <sup>j</sup> 6. Corrected from îsa, as seen in NA<sup>28</sup>, PT, RP<sup>2005</sup>, SBL, TR, and WH. The iota of ísos is short, so ísa takes the acute, as this edition prints it at Luke 6:34 and Revelation 21:16. The Septuagint prints the same ísa with a dative at Job 11:12.
 > - <sup>k</sup> 7. all’ ¦ NA<sup>27</sup> SBL TH WH allà
 > - <sup>l</sup> 9. ónoma ¦ CT tò ónoma
 > - <sup>m</sup> 12. hōs ¦ [WH]

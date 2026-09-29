@@ -124,7 +124,7 @@
 <sup>30</sup> Mḕ ísthi hōs léōn en tō̂ oíkō sou kaì phantasiokopō̂n en toîs oikétais sou.
 <sup>31</sup> Mḕ éstō hē cheír sou ektetaménē eis tò labeîn kaì en tō̂ apodidónai synestalménē.
 
-> - <sup>a</sup> 11. Corrected from zētoûntōn.
+> - <sup>a</sup> 11. Corrected from zētoûntōn, as seen in RH. The genitive plural ending ōn is long, and a long last syllable rules out the circumflex on the next-to-last. This edition prints zētoúntōn at its 10 other occurrences.
 
 ## Chapter 5
 

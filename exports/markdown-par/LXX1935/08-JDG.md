@@ -228,7 +228,7 @@
 <sup>39</sup> Καὶ εἶπεν Γεδεων πρὸς τὸν θεόν Μὴ ὀργισθήτω ὁ θυμός σου ἐν ἐμοί, καὶ λαλήσω ἔτι ἅπαξ· καὶ πειράσω ἔτι ἅπαξ ἐν τῷ πόκῳ, καὶ γενηθήτω ξηρασία ἐπὶ τὸν πόκον μόνον, ἐπὶ δὲ πᾶσαν τὴν γῆν γενηθήτω δρόσος.
 <sup>40</sup> Καὶ ἐποίησεν ὁ θεὸς οὕτως ἐν τῇ νυκτὶ ἐκείνῃ, καὶ ἐγένετο ξηρασία ἐπὶ τὸν πόκον μόνον, ἐπὶ δὲ πᾶσαν τὴν γῆν ἐγένετο δρόσος.
 
-> - <sup>a</sup> 5. Corrected from κτήνην.
+> - <sup>a</sup> 5. Corrected from κτήνην, as seen in RH. The neuter plural of κτῆνος is κτήνη, with no final ν, as this edition prints it at its 103 other occurrences.
 
 ## Chapter 7
 
@@ -301,7 +301,7 @@
 <sup>34</sup> Καὶ οὐκ ἐμνήσθησαν οἱ υἱοὶ Ισραηλ κυρίου τοῦ θεοῦ αὐτῶν τοῦ ῥυσαμένου αὐτοὺς ἐκ χειρὸς πάντων τῶν ἐχθρῶν αὐτῶν κυκλόθεν.
 <sup>35</sup> Καὶ οὐκ ἐποίησαν ἔλεος μετὰ τοῦ οἴκου Ιεροβααλ Γεδεων κατὰ πᾶσαν τὴν ἀγαθωσύνην, ἣν ἐποίησεν μετὰ Ισραηλ.
 
-> - <sup>a</sup> 32. Corrected from τατρὸς.
+> - <sup>a</sup> 32. Corrected from τατρὸς, as seen in RH. The genitive of πατήρ is πατρός, which this verse already prints once and this edition prints at its 410 other occurrences.
 
 ## Chapter 9
 
@@ -513,7 +513,7 @@
 <sup>19</sup> Καὶ κατεύθυνεν ἐπ’ αὐτὸν πνεῦμα κυρίου, καὶ κατέβη εἰς Ἀσκαλῶνα καὶ ἔπαισεν ἐκεῖθεν τριάκοντα ἄνδρας καὶ ἔλαβεν τὰς στολὰς αὐτῶν καὶ ἔδωκεν τοῖς ἀπαγγείλασιν τὸ πρόβλημα. Καὶ ἐθυμώθη ὀργῇ Σαμψων καὶ ἀνέβη εἰς τὸν οἶκον τοῦ πατρὸς αὐτοῦ.
 <sup>20</sup> Καὶ συνῴκησεν ἡ γυνὴ Σαμψων τῷ νυμφαγωγῷ αὐτοῦ, ὃς ἦν ἑταῖρος αὐτοῦ.
 
-> - <sup>a</sup> 6. Corrected from πνεύμα.
+> - <sup>a</sup> 6. Corrected from πνεύμα, as seen in RH. A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints πνεῦμα at its 238 other occurrences.
 
 ## Chapter 15
 
