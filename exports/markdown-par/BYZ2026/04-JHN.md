@@ -806,7 +806,7 @@
 > - <sup>bo</sup> 52. Ἐρεύνησον ¦ CT Ἐραύνησον
 > - <sup>bp</sup> 52. προφήτης ἐκ τῆς Γαλιλαίας ¦ CT ἐκ τῆς Γαλιλαίας προφήτης
 > - <sup>bq</sup> 52. ἐγήγερται ¦ CT ἐγείρεται
-> - <sup>br</sup> 53. Καὶ … ἁμάρτανε _(_**Pericope Adulterae**_: See Appendix C of this volume for an alternative Byzantine reading that shares near-equal support with the main text)_ ¦ [[NA PT]] ¦ [[WH]] _places 7:53–8:11 after 21:25 as an appendix_ ¦ SBL TH _om._
+> - <sup>br</sup> 53. Καὶ … ἁμάρτανε _(_**Pericope Adulterae**_: See Appendix C of this volume for an alternative Byzantine reading that shares near-equal support with the main text)_ ¦ [[NA]] ¦ «PT» ¦ [[WH]] _places 7:53–8:11 after 21:25 as an appendix_ ¦ SBL TH _om._
 > - <sup>bs</sup> 53. Guardian Press: _Retain verses 7:53–8:11, variants ignored_ D E F G H K M S U Γ Λ Π Ω (047) 0233 399 461<sup>c</sup> 892 1143 1424<sup>c</sup> 2224 2500 (047: _adds only 8:3–11_) ¦ _om._ 𝔓<sup>66</sup> 𝔓<sup>75</sup> ℵ A<sup>vid</sup> B C<sup>vid</sup> L N T W X Y Δ Θ Ψ 0141 0211 0250<sup>vid</sup> 33 461∗ 565 1080 1295 1424∗
 > - <sup>bt</sup> 53. **Guardian Press, Appendix C: Alternate Readings & Lengthy Variants**<br><br>_**μ<sup>6</sup> alternative to main text μ<sup>5</sup> in the Pericope Adulterae (John 7:53–8:11):**_<br><br>**<sup>53</sup>** Καὶ ἀπῆλθεν ἕκαστος εἰς τὸν οἶκον αὐτοῦ· **<sup>1</sup>** καὶ ὁ Ἰησοῦς ἐπορεύθη εἰς τὸ ὄρος τῶν Ἐλαιῶν. **<sup>2</sup>** Ὄρθρου δὲ πάλιν <sup>a</sup>βαθέος ἦλθεν ὁ Ἰησοῦς εἰς τὸ ἱερόν, καὶ πᾶς ὁ λαὸς ἤρχετο πρὸς αὐτόν, καὶ καθίσας ἐδίδασκεν αὐτούς. **<sup>3</sup>** Ἄγουσιν δὲ οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι <sup>b</sup>πρὸς αὐτὸν γυναῖκα ἐπὶ μοιχείᾳ κατειλημμένην, καὶ στήσαντες αὐτὴν ἐν τῷ μέσῳ, **<sup>4</sup>** εἶπον αὐτῷ, Διδάσκαλε, ταύτην εὕρομεν ἐπ’ <sup>c</sup>αὐτοφώρῳ μοιχευομένην. **<sup>5</sup>** Ἐν δὲ τῷ νόμῳ ἡμῶν <sup>d</sup>Μωϋσῆς ἐνετείλατο τὰς τοιαύτας λιθάζειν· σὺ οὖν τί λέγεις <sup>e</sup>περὶ αὐτῆς; **<sup>6</sup>** Τοῦτο δὲ ἔλεγον πειράζοντες αὐτόν, ἵνα ἔχωσιν κατηγορίαν κατ’ αὐτοῦ. Ὁ δὲ Ἰησοῦς κάτω κύψας, τῷ δακτύλῳ ἔγραφεν εἰς τὴν γῆν. **<sup>7</sup>** Ὡς δὲ ἐπέμενον ἐπερωτῶντες αὐτόν, ἀναβλέψας εἶπεν αὐτοῖς, Ὁ ἀναμάρτητος ὑμῶν, πρῶτος λίθον βαλέτω ἐπ’ αὐτήν. **<sup>8</sup>** Καὶ πάλιν κάτω κύψας ἔγραφεν εἰς τὴν γῆν. **<sup>9</sup>** Οἱ δέ, ἀκούσαντες, <sup>f</sup>ἐξήρχοντο εἷς καθ’ εἷς, ἀρξάμενοι ἀπὸ τῶν πρεσβυτέρων ἕως τῶν ἐσχάτων· καὶ κατελείφθη <sup>g</sup>μόνος ὁ Ἰησοῦς, καὶ ἡ γυνὴ ἐν μέσῳ οὖσα. **<sup>10</sup>** Ἀνακύψας δὲ ὁ Ἰησοῦς, εἶδεν αὐτὴν καὶ εἶπεν, Γύναι, ποῦ <sup>h</sup>εἰσιν; Οὐδείς σε κατέκρινεν; **<sup>11</sup>** Ἡ δὲ εἶπεν, Οὐδείς, κύριε. Εἶπεν δὲ αὐτῇ ὁ Ἰησοῦς, Οὐδὲ ἐγώ σε κατακρίνω· πορεύου <sup>i</sup>καὶ ἀπὸ τοῦ νῦν μηκέτι ἁμάρτανε.<br><br><sup>a</sup>βαθέος ¦ βαθέως <sup>b</sup>πρὸς αὐτὸν ¦ _om._ <sup>c</sup>αὐτοφώρῳ ¦ αὐτοφόρῳ <sup>d</sup>Μωϋσῆς ¦ Μωσῆς <sup>e</sup>περὶ αὐτῆς ¦ _om._ <sup>f</sup>ἐξήρχοντο ¦ καὶ ὑπὸ τῆς συνειδήσεως ἐλεγχόμενοι ἐξήρχοντο <sup>g</sup>μόνος ὁ Ἰησοῦς ¦ ὁ Ἰησοῦς μόνος <sup>h</sup>εἰσιν ¦ εἰσιν οἱ κατήγοροί σου <sup>i</sup>καὶ ἀπὸ τοῦ νῦν ¦ ἀπὸ τοῦ νῦν καὶ
 > - <sup>bu</sup> 53. ἐπορεύθη ¦ NA WH ἐπορεύθησαν ¦ HF PCK PT ἀπῆλθεν
@@ -2041,7 +2041,7 @@
 > - <sup>bn</sup> 36. ἀπ’ ¦ CT HF PT TR _om._
 > - <sup>bo</sup> 38. Μετὰ ¦ CT PT TR Μετὰ δὲ
 > - <sup>bp</sup> 38. Πιλάτον ¦ TH WH Πειλάτον
-> - <sup>bq</sup> 38. Ἰωσὴφ ¦ RP<sup>mg</sup> TR ὁ Ἰωσὴφ
+> - <sup>bq</sup> 38. Ἰωσὴφ ¦ HF RP<sup>mg</sup> TR ὁ Ἰωσὴφ
 > - <sup>br</sup> 38. ὁ ¦ [NA] ¦ SBL TH WH _om._
 > - <sup>bs</sup> 38. τοῦ ¦ [WH]
 > - <sup>bt</sup> 38. Πιλάτος ¦ TH WH Πειλάτος

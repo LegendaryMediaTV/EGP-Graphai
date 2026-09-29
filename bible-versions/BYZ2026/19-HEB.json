@@ -14024,32 +14024,10 @@
         "morph": "R-GSF",
         "lemma": "ὅς"
       },
-      " ",
       {
-        "foot": {
-          "type": "var",
-          "content": [
-            {
-              "text": "ἐνεδείξασθε",
-              "script": "G",
-              "transliteration": "enedeíxasthe"
-            },
-            " ¦ ",
-            { "abbr": "HF" },
-            " ",
-            { "abbr": "SCR" },
-            {
-              "text": " ἐνδείξασθε",
-              "script": "G",
-              "transliteration": " endeíxasthe"
-            }
-          ]
-        }
-      },
-      {
-        "text": "ἐνεδείξασθε",
+        "text": " ἐνεδείξασθε",
         "script": "G",
-        "transliteration": "enedeíxasthe",
+        "transliteration": " enedeíxasthe",
         "strong": "G1731",
         "morph": "V-AMI-2P",
         "lemma": "ἐνδείκνυμι"
@@ -20598,13 +20576,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " τετευχε",
+              "text": " τετευχε(ν)",
               "script": "G",
-              "transliteration": " teteuche"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " teteuche(n)"
+            }
           ]
         }
       },

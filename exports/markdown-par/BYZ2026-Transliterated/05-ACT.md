@@ -493,16 +493,16 @@
 <sup>5</sup> Kaì ḗresen ho lógos enṓpion pantòs toû plḗthous; kaì exeléxanto Stéphanon, ándra <sup>f</sup>plḗrēs písteōs kaì pneúmatos hagíou, kaì Phílippon, kaì Próchoron, kaì Nikánora, kaì Tímōna, kaì Parmenân, kaì Nikólaon prosḗlyton Antiochéa,
 <sup>6</sup> hoùs éstēsan enṓpion tō̂n apostólōn; kaì proseuxámenoi epéthēkan autoîs tàs cheîras.
 
-<sup>7</sup> Kaì ho lógos toû theoû ēúxanen, kaì eplēthýneto ho arithmòs tō̂n mathētō̂n en Hierousalḕm sphódra, polýs te óchlos tō̂n hieréōn hypḗkouon tē̂ pístei.
+<sup>7</sup> Kaì ho lógos toû theoû ēúxanen, kaì eplēthýneto ho arithmòs tō̂n mathētō̂n en Hierousalḕm sphódra, polýs te óchlos tō̂n <sup>g</sup>hieréōn hypḗkouon tē̂ pístei.
 
-<sup>8</sup> Stéphanos dè plḗrēs <sup>g</sup>písteōs kaì dynámeōs epoíei térata kaì sēmeîa megála en tō̂ laō̂.
-<sup>9</sup> Anéstēsan dé tines tō̂n ek tē̂s synagōgē̂s tē̂s legoménēs Libertínōn, kaì Kyrēnaíōn, kaì Alexandréōn, kaì tō̂n apò Kilikías kaì Asías, <sup>h</sup>syzētoûntes tō̂ Stephánō.
+<sup>8</sup> Stéphanos dè plḗrēs <sup>h</sup>písteōs kaì dynámeōs epoíei térata kaì sēmeîa megála en tō̂ laō̂.
+<sup>9</sup> Anéstēsan dé tines tō̂n ek tē̂s synagōgē̂s tē̂s legoménēs Libertínōn, kaì Kyrēnaíōn, kaì Alexandréōn, kaì tō̂n apò Kilikías kaì Asías, <sup>i</sup>syzētoûntes tō̂ Stephánō.
 <sup>10</sup> Kaì ouk íschyon antistē̂nai tē̂ sophía kaì tō̂ pneúmati hō̂ elálei.
-<sup>11</sup> Tóte hypébalon ándras légontas hóti Akēkóamen autoû laloûntos rhḗmata blásphēma eis <sup>i</sup>Mōsē̂n kaì tòn theón.
-<sup>12</sup> <sup>j</sup>Synekínēsán te tòn laòn kaì toùs presbytérous kaì toùs grammateîs, kaì epistántes synḗrpasan autón, kaì ḗgagon eis tò synédrion,
-<sup>13</sup> éstēsán te mártyras pseudeîs légontas, Ho ánthrōpos hoûtos ou paúetai <sup>k</sup>rhḗmata blásphēma lalō̂n katà toû tópou toû <sup>l</sup>hagíou kaì toû nómou;
-<sup>14</sup> akēkóamen gàr autoû légontos hóti Iēsoûs ho Nazōraîos hoûtos katalýsei tòn tópon toûton, kaì alláxei tà éthē hà parédōken hēmîn <sup>m</sup>Mōsē̂s.
-<sup>15</sup> Kaì atenísantes eis autòn <sup>n</sup>hápantes hoi kathezómenoi en tō̂ synedríō, <sup>o</sup>eîdon tò prósōpon autoû hōseì prósōpon angélou.
+<sup>11</sup> Tóte hypébalon ándras légontas hóti Akēkóamen autoû laloûntos rhḗmata blásphēma eis <sup>j</sup>Mōsē̂n kaì tòn theón.
+<sup>12</sup> <sup>k</sup>Synekínēsán te tòn laòn kaì toùs presbytérous kaì toùs grammateîs, kaì epistántes synḗrpasan autón, kaì ḗgagon eis tò synédrion,
+<sup>13</sup> éstēsán te mártyras pseudeîs légontas, Ho ánthrōpos hoûtos ou paúetai <sup>l</sup>rhḗmata blásphēma lalō̂n katà toû tópou toû <sup>m</sup>hagíou kaì toû nómou;
+<sup>14</sup> akēkóamen gàr autoû légontos hóti Iēsoûs ho Nazōraîos hoûtos katalýsei tòn tópon toûton, kaì alláxei tà éthē hà parédōken hēmîn <sup>n</sup>Mōsē̂s.
+<sup>15</sup> Kaì atenísantes eis autòn <sup>o</sup>hápantes hoi kathezómenoi en tō̂ synedríō, <sup>p</sup>eîdon tò prósōpon autoû hōseì prósōpon angélou.
 
 > - <sup>a</sup> 2. eîpon ¦ CT eîpan
 > - <sup>b</sup> 3. oûn ¦ ECM NA SBL WH dé
@@ -510,15 +510,16 @@
 > - <sup>d</sup> 3. katastḗsōmen ¦ CT PCK PT RP<sup>mg</sup> TR katastḗsomen
 > - <sup>e</sup> 4. proskarterḗsomen ¦ CT<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> proskarterḗsōmen
 > - <sup>f</sup> 5. plḗrēs ¦ PCK PT RP<sup>mg</sup> TR WH plḗrē
-> - <sup>g</sup> 8. písteōs ¦ CT cháritos
-> - <sup>h</sup> 9. syzētoûntes ¦ TH WH synzētoûntes
-> - <sup>i</sup> 11. Mōsē̂n ¦ CT PT Mōÿsē̂n
-> - <sup>j</sup> 12. Synekínēsán ¦ TH Synekeínēsán
-> - <sup>k</sup> 13. rhḗmata blásphēma lalō̂n ¦ CT lalō̂n rhḗmata
-> - <sup>l</sup> 13. hagíou ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> TR hagíou toútou ¦ NA WH hagíou [toútou]
-> - <sup>m</sup> 14. Mōsē̂s ¦ CT PT TR Mōÿsē̂s
-> - <sup>n</sup> 15. hápantes ¦ CT pántes
-> - <sup>o</sup> 15. eîdon ¦ WH eîdan
+> - <sup>g</sup> 7. hieréōn ¦ PT Ioudaíōn
+> - <sup>h</sup> 8. písteōs ¦ CT cháritos
+> - <sup>i</sup> 9. syzētoûntes ¦ TH WH synzētoûntes
+> - <sup>j</sup> 11. Mōsē̂n ¦ CT PT Mōÿsē̂n
+> - <sup>k</sup> 12. Synekínēsán ¦ TH Synekeínēsán
+> - <sup>l</sup> 13. rhḗmata blásphēma lalō̂n ¦ CT lalō̂n rhḗmata
+> - <sup>m</sup> 13. hagíou ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> TR hagíou toútou ¦ NA WH hagíou [toútou]
+> - <sup>n</sup> 14. Mōsē̂s ¦ CT PT TR Mōÿsē̂s
+> - <sup>o</sup> 15. hápantes ¦ CT pántes
+> - <sup>p</sup> 15. eîdon ¦ WH eîdan
 
 ## Chapter 7
 
@@ -881,7 +882,7 @@ Egéneto dè <sup>ae</sup>ho Saûlos metà <sup>af</sup>tō̂n en Damaskō̂ mat
 > - <sup>bc</sup> 31. Samareías ¦ WH Samarías
 > - <sup>bd</sup> 32. Lýddan ¦ CT Lýdda
 > - <sup>be</sup> 33. Ainéan onómati ¦ CT onómati Ainéan
-> - <sup>bf</sup> 33. krabbátō ¦ ECM<sup>†</sup> _txt_ ¦ RP<sup>mg</sup> krabbátou ¦ PT krabáttō ¦ CT<sup>†</sup> krabáttou
+> - <sup>bf</sup> 33. krabbátō ¦ RP<sup>mg</sup> krabbátou ¦ ECM<sup>†</sup> PT krabáttō ¦ CT<sup>†</sup> krabáttou
 > - <sup>bg</sup> 34. ho ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
 > - <sup>bh</sup> 35. eîdon ¦ CT eîdan
 > - <sup>bi</sup> 35. Lýddan ¦ CT Lýdda
@@ -1014,7 +1015,7 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 > - <sup>bd</sup> 37. Iōánnēs ¦ WH Iōánēs
 > - <sup>be</sup> 38. Nazarét ¦ CT SCR Nazaréth
 > - <sup>bf</sup> 39. esmen ¦ CT _om._
-> - <sup>bg</sup> 39. en ¦ [NA] ¦ SBL WH _om._
+> - <sup>bg</sup> 39. en ¦ ECM<sup>†</sup> _txt_ ¦ [NA] ¦ ECM<sup>†</sup> SBL WH _om._
 > - <sup>bh</sup> 39. kaì ¦ TR _om._
 > - <sup>bi</sup> 39. aneîlon ¦ CT aneîlan
 > - <sup>bj</sup> 40. tē̂ ¦ NA [en] tē̂
@@ -1845,7 +1846,7 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 <sup>38</sup> Ei mèn oûn Dēmḗtrios kaì hoi sỳn autō̂ technîtai <sup>bg</sup>échousin prós tina lógon, agoraîoi ágontai, kaì anthýpatoí eisin; enkaleítōsan allḗlois.
 <sup>39</sup> Ei dé ti <sup>bh</sup>perì hetérōn epizēteîte, en tē̂ ennómō ekklēsía epilythḗsetai.
 <sup>40</sup> Kaì gàr kindyneúomen enkaleîsthai stáseōs perì tē̂s sḗmeron, mēdenòs aitíou hypárchontos perì hoû <sup>bi</sup>ou dynēsómetha <sup>bj</sup>doûnai lógon tē̂s systrophē̂s taútēs.
-<sup>41</sup> <sup>bk</sup>Kaì taûta eipṓn, apélysen tḕn ekklēsían.
+<sup>41</sup> Kaì taûta eipṓn, apélysen tḕn ekklēsían.
 
 > - <sup>a</sup> 1. eltheîn ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> kateltheîn ¦ NA [kat]elthein
 > - <sup>b</sup> 1. heurṓn tinas mathētàs eîpen ¦ PT heurṑn mathētás tinas eipè ¦ CT heureîn tinas mathētàs eîpén te
@@ -1909,7 +1910,6 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 > - <sup>bh</sup> 39. perì hetérōn ¦ CT peraitérō
 > - <sup>bi</sup> 40. ou ¦ [NA] ¦ PT TR _om._
 > - <sup>bj</sup> 40. doûnai lógon ¦ PCK PT RP<sup>mg</sup> TR apodoûnai lógon ¦ CT apodoûnai lógon perì
-> - <sup>bk</sup> 41. Kaì … ekklēsían ¦ [SBL]
 
 ## Chapter 20
 
@@ -2101,7 +2101,7 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 > - <sup>aj</sup> 24. gnō̂sin ¦ CT gnṓsontai
 > - <sup>ak</sup> 24. tòn nómon phylássōn ¦ CT phylássōn tòn nómon
 > - <sup>al</sup> 25. epesteílamen ¦ SBL WH apesteílamen
-> - <sup>am</sup> 25. mēdèn toioûton tēreîn autoùs ei mḕ ¦ CT _om._
+> - <sup>am</sup> 25. mēdèn toioûton tēreîn autoùs ei mḕ ¦ HF mēdèn toioûto tēreîn autoùs ei mḕ ¦ CT _om._
 > - <sup>an</sup> 25. tò ¦ CT _om._
 > - <sup>ao</sup> 27. émellon ¦ PCK ḗmellon
 > - <sup>ap</sup> 27. epébalon ¦ WH epébalan
@@ -2491,8 +2491,8 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 <sup>28</sup> Ho dè Agríppas pròs tòn Paûlon <sup>ar</sup>éphē, En olígō me peítheis Christianòn <sup>as</sup>genésthai.
 <sup>29</sup> Ho dè Paûlos <sup>at</sup>eîpen, Euxaímēn àn tō̂ theō̂, kaì en olígō kaì en <sup>au</sup>pollō̂ ou mónon se, allà kaì pántas toùs akoúontás mou sḗmeron, genésthai toioútous hopoîos <sup>av</sup>kagṓ eimi, parektòs tō̂n desmō̂n toútōn.
 
-<sup>30</sup> <sup>aw</sup>Kaì taûta eipóntos autoû, anéstē ho basileùs kaì ho hēgemṓn, hḗ te <sup>ax</sup>Berníkē, kaì hoi <sup>ay</sup>synkathḗmenoi autoîs;
-<sup>31</sup> kaì anachōrḗsantes eláloun pròs allḗlous, légontes hóti Oudèn thanátou <sup>az</sup>áxion ḕ desmō̂n prássei ho ánthrōpos hoûtos.
+<sup>30</sup> <sup>aw</sup>Kaì taûta eipóntos autoû, anéstē ho basileùs kaì ho hēgemṓn, hḗ te Berníkē, kaì hoi <sup>ax</sup>synkathḗmenoi autoîs;
+<sup>31</sup> kaì anachōrḗsantes eláloun pròs allḗlous, légontes hóti Oudèn thanátou <sup>ay</sup>áxion ḕ desmō̂n prássei ho ánthrōpos hoûtos.
 <sup>32</sup> Agríppas dè tō̂ Phḗstō éphē, Apolelýsthai edýnato ho ánthrōpos hoûtos, ei mḕ epekéklēto Kaísara.
 
 > - <sup>a</sup> 1. hypèr ¦ ECM NA perì
@@ -2544,9 +2544,8 @@ Tē̂ dè epaúrion <sup>aj</sup>ho Pétros exē̂lthen sỳn autoîs, kaí tine
 > - <sup>au</sup> 29. pollō̂ ¦ CT megálō
 > - <sup>av</sup> 29. kagṓ ¦ ECM NA SBL WH kaì egṓ
 > - <sup>aw</sup> 30. Kaì taûta eipóntos autoû anéstē ¦ CT Anéstē te
-> - <sup>ax</sup> 30. Berníkē ¦ PT Bereníkē
-> - <sup>ay</sup> 30. synkathḗmenoi ¦ TH WH synkathḗmenoi
-> - <sup>az</sup> 31. áxion ḕ desmō̂n ¦ WH ḕ desmō̂n áxion ¦ ECM SBL TH ḕ desmō̂n áxión ti ¦ NA ḕ desmō̂n áxión [ti]
+> - <sup>ax</sup> 30. synkathḗmenoi ¦ TH WH synkathḗmenoi
+> - <sup>ay</sup> 31. áxion ḕ desmō̂n ¦ WH ḕ desmō̂n áxion ¦ ECM SBL TH ḕ desmō̂n áxión ti ¦ NA ḕ desmō̂n áxión [ti]
 
 ## Chapter 27
 

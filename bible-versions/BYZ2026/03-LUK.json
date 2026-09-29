@@ -43391,14 +43391,10 @@
             { "abbr": "PCK" },
             " ",
             { "abbr": "TR" },
-            { "text": " ουτω", "script": "G", "transliteration": " outō" },
-            "(",
-            { "text": "ς", "script": "G", "transliteration": "s" },
-            ") ",
             {
-              "text": "καὶ ἀποκατεστάθη",
+              "text": " ουτω(ς) καὶ ἀποκατεστάθη",
               "script": "G",
-              "transliteration": "kaì apokatestáthē"
+              "transliteration": " outō(s) kaì apokatestáthē"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -51203,10 +51199,11 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TR" },
-            { "text": " ημελλε", "script": "G", "transliteration": " ēmelle" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " ημελλε(ν)",
+              "script": "G",
+              "transliteration": " ēmelle(n)"
+            }
           ]
         }
       },
@@ -78127,13 +78124,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " μοι εστι",
+              "text": " μοι εστι(ν)",
               "script": "G",
-              "transliteration": " moi esti"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " moi esti(n)"
+            }
           ]
         }
       },
@@ -80041,10 +80035,7 @@
             { "abbr": "CT" },
             " ",
             { "abbr": "PT" },
-            { "text": " εστι", "script": "G", "transliteration": " esti" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            { "text": " εστι(ν)", "script": "G", "transliteration": " esti(n)" }
           ]
         }
       },
@@ -90735,13 +90726,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " κατελιπε",
+              "text": " κατελιπε(ν)",
               "script": "G",
-              "transliteration": " katelipe"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " katelipe(n)"
+            }
           ]
         }
       },
@@ -108639,11 +108627,11 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TH" },
-            { "text": " ουτω", "script": "G", "transliteration": " outō" },
-            "(",
-            { "text": "ς", "script": "G", "transliteration": "s" },
-            ") ",
-            { "text": "ποιοῦντα", "script": "G", "transliteration": "poioûnta" }
+            {
+              "text": " ουτω(ς) ποιοῦντα",
+              "script": "G",
+              "transliteration": " outō(s) poioûnta"
+            }
           ]
         }
       },
@@ -148624,10 +148612,11 @@
             { "abbr": "PT" },
             " ",
             { "abbr": "TR" },
-            { "text": " ημελλε", "script": "G", "transliteration": " ēmelle" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " ημελλε(ν)",
+              "script": "G",
+              "transliteration": " ēmelle(n)"
+            }
           ]
         }
       },
@@ -160831,17 +160820,9 @@
             " ",
             { "abbr": "SCR" },
             {
-              "text": " πάντων απεθανε",
+              "text": " πάντων απεθανε(ν) καὶ ἡ γυνή",
               "script": "G",
-              "transliteration": " pántōn apethane"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "καὶ ἡ γυνή",
-              "script": "G",
-              "transliteration": "kaì hē gynḗ"
+              "transliteration": " pántōn apethane(n) kaì hē gynḗ"
             },
             " ¦ ",
             { "abbr": "CT" },

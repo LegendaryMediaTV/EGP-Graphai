@@ -1749,7 +1749,7 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 <sup>1</sup> Kaì apokritheìs ho Iēsoûs pálin eîpen <sup>a</sup>autoîs en parabolaîs, légōn,
 <sup>2</sup> Hōmoiṓthē hē basileía tō̂n ouranō̂n anthrṓpō basileî, hóstis epoíēsen gámous tō̂ hyiō̂ autoû;
 <sup>3</sup> kaì apésteilen toùs doúlous autoû kalésai toùs keklēménous eis toùs gámous, kaì ouk ḗthelon eltheîn.
-<sup>4</sup> Pálin apésteilen állous doúlous, légōn, Eípate toîs keklēménois. Idoú, tò áristón mou <sup>b</sup>hētoímasa, hoi taûroí mou kaì tà sitistà tethyména, kaì pánta hétoima; deûte eis toùs gámous.
+<sup>4</sup> Pálin apésteilen állous doúlous, légōn, Eípate toîs keklēménois, Idoú, tò áristón mou <sup>b</sup>hētoímasa, hoi taûroí mou kaì tà sitistà tethyména, kaì pánta hétoima; deûte eis toùs gámous.
 <sup>5</sup> Hoi dè amelḗsantes apē̂lthon, <sup>c</sup>ho mèn eis tòn ídion agrón, ho dè <sup>d</sup>eis tḕn emporían autoû;
 <sup>6</sup> hoi dè loipoì kratḗsantes toùs doúlous autoû hýbrisan kaì apékteinan.
 <sup>7</sup> <sup>e</sup>Kaì akoúsas ho basileùs ekeînos ōrgísthē, kaì pémpsas tà strateúmata autoû apṓlesen toùs phoneîs ekeínous, kaì tḕn pólin autō̂n enéprēsen.
@@ -1906,10 +1906,10 @@ Dauìd dè <sup>e</sup>ho basileùs egénnēsen tòn <sup>f</sup>Solomō̂na ek 
 > - <sup>q</sup> 10. heîs gàr hymō̂n estin ho kathēgētḗs ¦ PCK heîs gár estin hymō̂n ho kathēgētḗs ¦ CT hóti kathēgētḕs hymō̂n estin heîs
 > - <sup>r</sup> 10. ho ¦ [PT]
 > - <sup>s</sup> 11. éstai ¦ PCK éstō
-> - <sup>t</sup> 13. Ouaì dè hymîn … kríma ¦ SCR [23:14] ouaì hymîn … kríma ¦ NA SBL TH [23:14] _om._ ¦ WH _om. (cf. next note, and see Appendix C)_
+> - <sup>t</sup> 13. Ouaì dè hymîn … kríma ¦ SCR (23:14) ouaì hymîn … kríma ¦ NA SBL TH (23:14) _om._ ¦ WH _om. (cf. next note, and see Appendix C)_
 > - <sup>u</sup> 13. Guardian Press: (23:14) Ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma E F G H K M O S U W Y Γ Δ Π Σ Φ Ω 047 0102 0104 0107 0211 (0233) 399 461 565 (566) 892<sup>c</sup> 1080 1143 1295 1424 1500 2500 (0233 566: _place verse after 23:14 (23:13)_? 566: _om._ dè) ¦ _om._ ℵ B D L Z<sup>vid</sup> Θ 33 892<sup>∗</sup> ¦ 0133 0257 _unreadable_
 > - <sup>v</sup> 13. **Guardian Press, Appendix C: Alternate Readings & Lengthy Variants**<br><br>Five editions (NA SBL SCR TH WH) contain lengthy variant units for Matthew 23:13–14. Variations are presented here in full for each comparison edition. Robinson-Pierpont 2026 (RP) is given for reference.<br><br>**RP: <sup>13</sup>** Ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn<br>**SCR: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** ouaì hymîn grammateîs kaì Pharisaîoi hypokritaì hóti katesthíete tàs oikías tō̂n chērō̂n kaì prophásei makrà proseuchómenoi dià toûto lḗpsesthe perissóteron kríma<br>**NA SBL TH: <sup>13</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn **<sup>14</sup>** _om._<br>**WH: <sup>13</sup>** _om._ **<sup>14</sup>** ouaì dè hymîn grammateîs kaì Pharisaîoi hypokritaì hóti kleíete tḕn basileían tō̂n ouranō̂n émprosthen tō̂n anthrṓpōn hymeîs gàr ouk eisérchesthe oudè toùs eiserchoménous aphíete eiseltheîn
-> - <sup>w</sup> 14. Ouaì hymîn … eiseltheîn ¦ WH ouaì dè hymîn … eiseltheîn ¦ NA SBL SCR TH [23:13] ouaì dè hymîn … eiseltheîn _(cf. last note, and see Appendix C)_
+> - <sup>w</sup> 14. Ouaì hymîn … eiseltheîn ¦ WH ouaì dè hymîn … eiseltheîn ¦ NA SBL SCR TH (23:13) ouaì dè hymîn … eiseltheîn _(cf. last note, and see Appendix C)_
 > - <sup>x</sup> 17. hagiázōn ¦ CT hagiásas
 > - <sup>y</sup> 18. eàn ¦ CT PT àn
 > - <sup>z</sup> 19. Mōroì kaì ¦ CT _om._

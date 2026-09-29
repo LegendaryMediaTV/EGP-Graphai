@@ -46282,13 +46282,10 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " επιμενωσι",
+              "text": " επιμενωσι(ν)",
               "script": "G",
-              "transliteration": " epimenōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " epimenōsi(n)"
+            }
           ]
         }
       },
@@ -57313,15 +57310,15 @@
               "script": "G",
               "transliteration": "Tō̂ … amḕn"
             },
-            " ¦ ",
+            " ¦ [",
             { "abbr": "NA" },
-            " ",
+            "] ",
             { "abbr": "TH" },
             " ",
             { "abbr": "TR" },
             " ",
             { "abbr": "WH" },
-            " [16:25–27] ",
+            " (16:25–27) ",
             {
               "text": "Τῷ … ἀμὴν",
               "script": "G",
@@ -57810,11 +57807,11 @@
             { "text": "(cf. last note)", "marks": ["i"] },
             " ¦ ",
             { "abbr": "WH" },
-            " [16:27] [",
+            " (16:27) [",
             { "text": "ᾧ", "script": "G", "transliteration": "hō̂" },
             "] ¦ ",
             { "abbr": "SCR" },
-            " [16:27] ",
+            " (16:27) ",
             { "abbr": "OM" }
           ]
         }
@@ -59213,11 +59210,11 @@
             { "abbr": "PCK" },
             " ",
             { "abbr": "PT" },
-            { "text": " εθνεσι", "script": "G", "transliteration": " ethnesi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "κύριε", "script": "G", "transliteration": "kýrie" }
+            {
+              "text": " εθνεσι(ν) κύριε",
+              "script": "G",
+              "transliteration": " ethnesi(n) kýrie"
+            }
           ]
         }
       },
@@ -66978,15 +66975,15 @@
         "foot": {
           "type": "var",
           "content": [
-            "[14:24–26] ¦ ",
+            "(14:24–26) ¦ [",
             { "abbr": "NA" },
-            " ",
+            "] ",
             { "abbr": "TH" },
             " ",
             { "abbr": "TR" },
             " ",
             { "abbr": "WH" },
-            " [16:25–27] (",
+            " (16:25–27) (",
             { "text": "cf.", "marks": ["i"] },
             " 14:24–26) ¦ ",
             { "abbr": "SBL" },

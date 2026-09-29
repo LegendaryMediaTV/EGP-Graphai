@@ -170,16 +170,16 @@
 <sup>8</sup> ekphérousa dè akánthas kaì tribólous, adókimos kaì katáras engýs, hē̂s tò télos eis kaûsin.
 
 <sup>9</sup> Pepeísmetha dè perì hymō̂n, agapētoí, tà <sup>e</sup>kreíssona kaì echómena sōtērías, ei kaì hoútōs laloûmen;
-<sup>10</sup> ou gàr ádikos ho theòs epilathésthai toû érgou hymō̂n, kaì <sup>f</sup>toû kópou tē̂s agápēs hē̂s <sup>g</sup>enedeíxasthe eis tò ónoma autoû, diakonḗsantes toîs hagíois kaì diakonoûntes.
+<sup>10</sup> ou gàr ádikos ho theòs epilathésthai toû érgou hymō̂n, kaì <sup>f</sup>toû kópou tē̂s agápēs hē̂s enedeíxasthe eis tò ónoma autoû, diakonḗsantes toîs hagíois kaì diakonoûntes.
 <sup>11</sup> Epithymoûmen dè hékaston hymō̂n tḕn autḕn endeíknysthai spoudḕn pròs tḕn plērophorían tē̂s elpídos áchri télous;
 <sup>12</sup> hína mḕ nōthroì génēsthe, mimētaì dè tō̂n dià písteōs kaì makrothymías klēronomoúntōn tàs epangelías.
 
 <sup>13</sup> Tō̂ gàr Abraàm epangeilámenos ho theós, epeì kat’ oudenòs eîchen meízonos omósai, ṓmosen kath’ heautoû,
-<sup>14</sup> légōn, <sup>h</sup>Ē̂ mḕn eulogō̂n eulogḗsō se, kaì plēthýnōn plēthynō̂ se.
+<sup>14</sup> légōn, <sup>g</sup>Ē̂ mḕn eulogō̂n eulogḗsō se, kaì plēthýnōn plēthynō̂ se.
 <sup>15</sup> Kaì hoútōs makrothymḗsas epétychen tē̂s epangelías.
-<sup>16</sup> Ánthrōpoi <sup>i</sup>mèn gàr katà toû meízonos omnýousin, kaì pásēs autoîs antilogías péras eis bebaíōsin ho hórkos.
+<sup>16</sup> Ánthrōpoi <sup>h</sup>mèn gàr katà toû meízonos omnýousin, kaì pásēs autoîs antilogías péras eis bebaíōsin ho hórkos.
 <sup>17</sup> En hō̂ perissóteron boulómenos ho theòs epideîxai toîs klēronómois tē̂s epangelías tò ametátheton tē̂s boulē̂s autoû, emesíteusen hórkō,
-<sup>18</sup> hína dià dýo pragmátōn ametathétōn, en hoîs adýnaton pseúsasthai <sup>j</sup>theón, ischyràn paráklēsin échōmen hoi kataphygóntes kratē̂sai tē̂s prokeiménēs elpídos;
+<sup>18</sup> hína dià dýo pragmátōn ametathétōn, en hoîs adýnaton pseúsasthai <sup>i</sup>theón, ischyràn paráklēsin échōmen hoi kataphygóntes kratē̂sai tē̂s prokeiménēs elpídos;
 <sup>19</sup> hḕn hōs ánkyran échomen tē̂s psychē̂s asphalē̂ te kaì bebaían, kaì eiserchoménēn eis tò esṓteron toû katapetásmatos;
 <sup>20</sup> hópou pródromos hypèr hēmō̂n eisē̂lthen Iēsoûs, katà tḕn táxin Melchisedèk archiereùs genómenos eis tòn aiō̂na.
 
@@ -189,10 +189,9 @@
 > - <sup>d</sup> 7. pollákis erchómenon ¦ CT erchómenon pollákis
 > - <sup>e</sup> 9. kreíssona ¦ PT TR kreíttona
 > - <sup>f</sup> 10. toû kópou ¦ CT _om._
-> - <sup>g</sup> 10. enedeíxasthe ¦ HF SCR endeíxasthe
-> - <sup>h</sup> 14. Ē̂ ¦ CT Ei
-> - <sup>i</sup> 16. mèn ¦ CT _om._
-> - <sup>j</sup> 18. theón ¦ NA [tòn] theón
+> - <sup>g</sup> 14. Ē̂ ¦ CT Ei
+> - <sup>h</sup> 16. mèn ¦ CT _om._
+> - <sup>i</sup> 18. theón ¦ NA [tòn] theón
 
 ## Chapter 7
 

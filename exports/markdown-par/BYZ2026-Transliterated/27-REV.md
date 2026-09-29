@@ -53,7 +53,7 @@
 > - <sup>aa</sup> 11. Philadélpheian ¦ ECM TH WH philadelphían
 > - <sup>ab</sup> 11. Laodíkeian ¦ TH WH Laodíkian
 > - <sup>ac</sup> 12. ekeî ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
-> - <sup>ad</sup> 12. elálei ¦ TR elálēse
+> - <sup>ad</sup> 12. elálei ¦ TR elálēse(n)
 > - <sup>ae</sup> 13. heptà ¦ ECM NA SBL WH _om._
 > - <sup>af</sup> 13. hyiō̂ ¦ HF NA RP<sup>mg</sup> SBL WH hyiòn
 > - <sup>ag</sup> 13. mastoîs ¦ PCK mazoîs
@@ -202,7 +202,7 @@
 > - <sup>b</sup> 1. ónoma ¦ TR tò ónoma
 > - <sup>c</sup> 1. hóti ¦ HF RP<sup>mg</sup> kaì
 > - <sup>d</sup> 2. stḗrison ¦ RP<sup>mg</sup> TR stḗrixon ¦ HF RP<sup>mg</sup> tḗrēson
-> - <sup>e</sup> 2. émelles apobállein ¦ CT RP<sup>mg</sup> émellon apothaneîn ¦ RP<sup>mg</sup> ēmelles apobállein ¦ PCK émelles apobálein ¦ TR méllei apothaneîn ¦ PT émellon apothnḗskein
+> - <sup>e</sup> 2. émelles apobállein ¦ CT RP<sup>mg</sup> émellon apothaneîn ¦ RP<sup>mg</sup> ēmelles apobállein ¦ PCK RP<sup>mg</sup> émelles apobálein ¦ TR méllei apothaneîn ¦ PT émellon apothnḗskein
 > - <sup>f</sup> 2. tà ¦ WH _om._
 > - <sup>g</sup> 2. mou ¦ TR _om._
 > - <sup>h</sup> 3. kaì ḗkousas kaì tḗrei ¦ [PT] ¦ RP<sup>mg</sup> _om._
@@ -836,7 +836,7 @@ ek phylē̂s <sup>o</sup>Beniamín, dṓdeka chiliádes <sup>p</sup>esphragismé
 <sup>17</sup> <sup>au</sup>kaì hína mḗ tis <sup>av</sup>dýnatai agorásai ḕ pōlē̂sai, ei mḕ ho échōn tò cháragma, <sup>aw</sup>tò ónoma toû thēríou ḕ tòn arithmòn toû onómatos autoû.
 <sup>18</sup> Hō̂de hē sophía estín. Ho échōn <sup>ax</sup>noûn psēphisátō tòn arithmòn toû thēríou; arithmòs gàr anthrṓpou estín, <sup>ay</sup>kaì ho arithmòs autoû <sup>az</sup>estìn <sup>ba</sup>hexakósia hexḗkonta héx.
 
-> - <sup>a</sup> 1. Kaì estáthēn epì tḕn ámmon tē̂s thalássēs ¦ ECM<sup>†</sup> [12:18] _txt_ ¦ CT<sup>†</sup> [12:18] Kaì estáthē epì tḕn ámmon tē̂s thalássēs
+> - <sup>a</sup> 1. Kaì estáthēn epì tḕn ámmon tē̂s thalássēs ¦ ECM<sup>†</sup> (12:18) _txt_ ¦ CT<sup>†</sup> (12:18) Kaì estáthē epì tḕn ámmon tē̂s thalássēs
 > - <sup>b</sup> 1. kérata déka kaì kephalàs heptá ¦ TR kephalàs heptà kaì kérata déka
 > - <sup>c</sup> 1. onómata ¦ NA onoma[ta] ¦ ECM TH TR onóma
 > - <sup>d</sup> 2. árkou ¦ PCK TR árktou
@@ -1317,7 +1317,7 @@ ek phylē̂s <sup>o</sup>Beniamín, dṓdeka chiliádes <sup>p</sup>esphragismé
 > - <sup>ap</sup> 17. phōnē̂ ¦ ECM<sup>†</sup> _txt_ ¦ ECM<sup>†</sup> HF en phōnē̂ ¦ NA PT WH [en] phōnē̂
 > - <sup>aq</sup> 17. petoménois ¦ TR petōménois
 > - <sup>ar</sup> 17. synáchthēte ¦ TR kaì synágesthe
-> - <sup>as</sup> 17. tò deîpnon tò méga toû ¦ RP<sup>mg</sup> TR tò deîpnon toû megálou ¦ HF RP<sup>mg</sup> tòn deîpnon tòn mégan toû
+> - <sup>as</sup> 17. tò deîpnon tò méga toû ¦ TR tò deîpnon toû megálou ¦ HF RP<sup>mg</sup> tòn deîpnon tòn mégan toû
 > - <sup>at</sup> 18. autō̂n ¦ WH autoús
 > - <sup>au</sup> 18. te ¦ [PT] ¦ ST _om._
 > - <sup>av</sup> 18. te ¦ [PT] ¦ CT RP<sup>mg</sup> TR _om._
@@ -1334,20 +1334,20 @@ ek phylē̂s <sup>o</sup>Beniamín, dṓdeka chiliádes <sup>p</sup>esphragismé
 <sup>2</sup> Kaì ekrátēsen tòn drákonta, <sup>b</sup>tòn óphin tòn archaîon, hós estin diábolos kaì <sup>c</sup>ho Satanâs, <sup>d</sup>ho planō̂n tḕn oikouménēn hólēn, kaì édēsen autòn chília étē,
 <sup>3</sup> kaì ébalen autòn eis tḕn ábysson, kaì <sup>e</sup>ékleisen kaì esphrágisen epánō autoû, hína mḕ <sup>f</sup>planâ <sup>g</sup>éti tà éthnē, áchri telesthē̂ tà chília étē; <sup>h</sup>kaì metà taûta deî <sup>i</sup>autòn lythē̂nai mikròn chrónon.
 
-<sup>4</sup> Kaì eîdon thrónous, kaì ekáthisan ep’ autoús, kaì kríma edóthē autoîs; kaì tàs psychàs tō̂n pepelekisménōn dià tḕn martyrían Iēsoû, kaì dià tòn lógon toû theoû, kaì hoítines ou prosekýnēsan <sup>j</sup>tò thēríon, oudè <sup>k</sup>tḕn eikóna autoû, kaì ouk élabon tò cháragma epì tò <sup>l</sup>métōpon, kaì epì tḕn cheîra autō̂n; kaì ézēsan, kaì ebasíleusan metà <sup>m</sup>toû christoû <sup>n</sup>tà chília étē.
-<sup>5</sup> <sup>o</sup>Kaì hoi <sup>p</sup>loipoì tō̂n nekrō̂n ouk <sup>q</sup>ézēsan áchri telesthē̂ tà chília étē. Haútē hē anástasis hē prṓtē.
-<sup>6</sup> Makários kaì hágios ho échōn méros en tē̂ anastásei tē̂ prṓtē; epì toútōn ho <sup>r</sup>deúteros thánatos ouk échei exousían, all’ ésontai hiereîs toû theoû kaì toû christoû, kaì basileúsousin met’ autoû <sup>s</sup>chília étē.
+<sup>4</sup> Kaì eîdon thrónous, kaì ekáthisan ep’ autoús, kaì kríma edóthē autoîs; kaì tàs psychàs tō̂n pepelekisménōn dià tḕn martyrían Iēsoû, kaì dià tòn lógon toû theoû, kaì hoítines ou prosekýnēsan <sup>j</sup>tò thēríon, <sup>k</sup>oudè <sup>l</sup>tḕn eikóna autoû, kaì ouk élabon tò cháragma epì tò <sup>m</sup>métōpon, kaì epì tḕn cheîra autō̂n; kaì ézēsan, kaì ebasíleusan metà <sup>n</sup>toû christoû <sup>o</sup>tà chília étē.
+<sup>5</sup> <sup>p</sup>Kaì hoi <sup>q</sup>loipoì tō̂n nekrō̂n ouk <sup>r</sup>ézēsan áchri telesthē̂ tà chília étē. Haútē hē anástasis hē prṓtē.
+<sup>6</sup> Makários kaì hágios ho échōn méros en tē̂ anastásei tē̂ prṓtē; epì toútōn ho <sup>s</sup>deúteros thánatos ouk échei exousían, all’ ésontai hiereîs toû theoû kaì toû christoû, kaì basileúsousin met’ autoû <sup>t</sup>chília étē.
 
-<sup>7</sup> Kaì <sup>t</sup>hótan telesthē̂ tà chília étē, lythḗsetai ho Satanâs ek tē̂s phylakē̂s autoû,
-<sup>8</sup> kaì exeleúsetai planē̂sai tà éthnē tà en taîs téssarsin gōníais tē̂s gē̂s, tòn Gṑg kaì <sup>u</sup>tòn Magṓg, synagageîn autoùs eis <sup>v</sup>tòn pólemon; hō̂n ho <sup>w</sup>arithmòs hōs hē ámmos tē̂s thalássēs.
-<sup>9</sup> Kaì anébēsan epì tò plátos tē̂s gē̂s, kaì <sup>x</sup>ekýklōsan tḕn parembolḕn tō̂n hagíōn kaì tḕn pólin tḕn ēgapēménēn; kaì katébē pŷr <sup>y</sup>ek toû ouranoû apò toû theoû, kaì katéphagen autoús.
-<sup>10</sup> Kaì ho diábolos ho planō̂n autoùs eblḗthē eis tḕn límnēn toû pyròs kaì <sup>z</sup>theíou, hópou <sup>aa</sup>kaì tò thēríon kaì ho pseudoprophḗtēs; kaì basanisthḗsontai hēméras kaì nyktòs eis toùs aiō̂nas tō̂n aiṓnōn.
+<sup>7</sup> Kaì <sup>u</sup>hótan telesthē̂ tà chília étē, lythḗsetai ho Satanâs ek tē̂s phylakē̂s autoû,
+<sup>8</sup> kaì exeleúsetai planē̂sai tà éthnē tà en taîs téssarsin gōníais tē̂s gē̂s, tòn Gṑg kaì <sup>v</sup>tòn Magṓg, synagageîn autoùs eis <sup>w</sup>tòn pólemon; hō̂n ho <sup>x</sup>arithmòs hōs hē ámmos tē̂s thalássēs.
+<sup>9</sup> Kaì anébēsan epì tò plátos tē̂s gē̂s, kaì <sup>y</sup>ekýklōsan tḕn parembolḕn tō̂n hagíōn kaì tḕn pólin tḕn ēgapēménēn; kaì katébē pŷr <sup>z</sup>ek toû ouranoû apò toû theoû, kaì katéphagen autoús.
+<sup>10</sup> Kaì ho diábolos ho planō̂n autoùs eblḗthē eis tḕn límnēn toû pyròs kaì <sup>aa</sup>theíou, hópou <sup>ab</sup>kaì tò thēríon kaì ho pseudoprophḗtēs; kaì basanisthḗsontai hēméras kaì nyktòs eis toùs aiō̂nas tō̂n aiṓnōn.
 
-<sup>11</sup> Kaì eîdon thrónon <sup>ab</sup>mégan leukón, kaì tòn kathḗmenon ep’ <sup>ac</sup>autón, hoû apò <sup>ad</sup>prosṓpou éphygen <sup>ae</sup>hē gē̂ kaì ho ouranós, kaì tópos ouch heuréthē autoîs.
-<sup>12</sup> Kaì eîdon toùs nekroús, <sup>af</sup>toùs megálous kaì toùs mikroús, hestō̂tas enṓpion toû <sup>ag</sup>thrónou, kaì biblía <sup>ah</sup>ēneṓchthēsan; kaì <sup>ai</sup>állo biblíon <sup>aj</sup>ēneṓchthē, hó estin tē̂s zōē̂s; kaì ekríthēsan hoi nekroì ek tō̂n gegramménōn en toîs biblíois, katà tà érga autō̂n.
-<sup>13</sup> Kaì édōken hē thálassa toùs <sup>ak</sup>nekroùs toùs en autē̂, kaì ho Thánatos kaì ho Hádēs édōkan toùs nekroùs toùs en autoîs; kaì ekríthēsan hékastos katà tà érga <sup>al</sup>autō̂n.
-<sup>14</sup> Kaì ho Thánatos kaì ho Hádēs eblḗthēsan eis tḕn límnēn toû pyrós; hoûtos <sup>am</sup>ho thánatos ho deúterós estin, <sup>an</sup>hē límnē toû pyrós.
-<sup>15</sup> Kaì eí tis ouch heuréthē en <sup>ao</sup>tō̂ biblíō tē̂s zōē̂s gegramménos, eblḗthē eis tḕn límnēn toû pyrós.
+<sup>11</sup> Kaì eîdon thrónon <sup>ac</sup>mégan leukón, kaì tòn kathḗmenon ep’ <sup>ad</sup>autón, hoû apò <sup>ae</sup>prosṓpou éphygen <sup>af</sup>hē gē̂ kaì ho ouranós, kaì tópos ouch heuréthē autoîs.
+<sup>12</sup> Kaì eîdon toùs nekroús, <sup>ag</sup>toùs megálous kaì toùs mikroús, hestō̂tas enṓpion toû <sup>ah</sup>thrónou, kaì biblía <sup>ai</sup>ēneṓchthēsan; kaì <sup>aj</sup>állo biblíon <sup>ak</sup>ēneṓchthē, hó estin tē̂s zōē̂s; kaì ekríthēsan hoi nekroì ek tō̂n gegramménōn en toîs biblíois, katà tà érga autō̂n.
+<sup>13</sup> Kaì édōken hē thálassa toùs <sup>al</sup>nekroùs toùs en autē̂, kaì ho Thánatos kaì ho Hádēs édōkan toùs nekroùs toùs en autoîs; kaì ekríthēsan hékastos katà tà érga <sup>am</sup>autō̂n.
+<sup>14</sup> Kaì ho Thánatos kaì ho Hádēs eblḗthēsan eis tḕn límnēn toû pyrós; hoûtos <sup>an</sup>ho thánatos ho deúterós estin, <sup>ao</sup>hē límnē toû pyrós.
+<sup>15</sup> Kaì eí tis ouch heuréthē en <sup>ap</sup>tō̂ biblíō tē̂s zōē̂s gegramménos, eblḗthē eis tḕn límnēn toû pyrós.
 
 > - <sup>a</sup> 1. kleîn ¦ TR kleîda
 > - <sup>b</sup> 2. tòn óphin tòn archaîon ¦ NA SBL TH WH ho óphis ho archaîos
@@ -1358,38 +1358,39 @@ ek phylē̂s <sup>o</sup>Beniamín, dṓdeka chiliádes <sup>p</sup>esphragismé
 > - <sup>g</sup> 3. éti tà éthnē ¦ TR tà éthnē éti
 > - <sup>h</sup> 3. kaì ¦ CT HF PT RP<sup>mg</sup> _om._
 > - <sup>i</sup> 3. autòn lythē̂nai ¦ CT HF RP<sup>mg</sup> lythē̂nai autòn
-> - <sup>j</sup> 4. tò thēríon oudè ¦ PT tò thēríon oúte ¦ PCK RP<sup>mg</sup> TR tō̂ thēríō oúte
-> - <sup>k</sup> 4. tḕn eikóna ¦ PCK tē̂ eikóni
-> - <sup>l</sup> 4. métōpon ¦ PCK PT RP<sup>mg</sup> TR métōpon autō̂n
-> - <sup>m</sup> 4. toû ¦ TR _om._
-> - <sup>n</sup> 4. tà ¦ CT PCK PT RP<sup>mg</sup> SCR _om._
-> - <sup>o</sup> 5. Kaì hoi ¦ NA SBL TH WH Hoi ¦ TR Hoi dè ¦ ECM _om._
-> - <sup>p</sup> 5. loipoì … étē ¦ ECM _om._
-> - <sup>q</sup> 5. ézēsan áchri ¦ PT ézēsan héōs ¦ TR anézēsan héōs
-> - <sup>r</sup> 6. deúteros thánatos ¦ TR thánatos ho deúteros
-> - <sup>s</sup> 6. chília ¦ TH tà chília ¦ NA WH [tà] chília
-> - <sup>t</sup> 7. hótan telesthē̂ ¦ HF RP<sup>mg</sup> metà
-> - <sup>u</sup> 8. tòn ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
-> - <sup>v</sup> 8. tòn ¦ TR _om._
-> - <sup>w</sup> 8. arithmòs ¦ CT HF PT RP<sup>mg</sup> arithmòs autō̂n
-> - <sup>x</sup> 9. ekýklōsan ¦ CT HF PCK PT RP<sup>mg</sup> ekýkleusan
-> - <sup>y</sup> 9. ek toû ouranoû apò toû theoû ¦ ECM TR apò toû theoû ek toû ouranoû ¦ NA SBL TH WH ek toû ouranoû
-> - <sup>z</sup> 10. theíou ¦ PT toû theíou
-> - <sup>aa</sup> 10. kaì ¦ TR _om._
-> - <sup>ab</sup> 11. mégan leukón ¦ RP<sup>mg</sup> TR leukòn mégan
-> - <sup>ac</sup> 11. autón ¦ SBL TH TR WH autoû ¦ PT autō̂
-> - <sup>ad</sup> 11. prosṓpou ¦ CT toû prosṓpou
-> - <sup>ae</sup> 11. hē gē̂ kaì ho ouranós ¦ PCK ho ouranòs kaì hē gē̂
-> - <sup>af</sup> 12. toùs megálous kaì toùs mikroús ¦ TR mikroùs kaì megálous
-> - <sup>ag</sup> 12. thrónou ¦ TR theoû
-> - <sup>ah</sup> 12. ēneṓchthēsan ¦ PCK aneṓchthēsan ¦ CT PT ēnoíchthēsan ¦ HF RP<sup>mg</sup> ḗnoixan
-> - <sup>ai</sup> 12. állo biblíon ¦ TR biblíon állo
-> - <sup>aj</sup> 12. ēneṓchthē ¦ PCK Aneṓchthē ¦ NA PT SBL TH WH ēnoíchthē
-> - <sup>ak</sup> 13. nekroùs toùs en autē̂ … nekroùs toùs en autoîs ¦ PCK RP<sup>mg</sup> TR en autē̂ nekroùs … en autoîs nekroús
-> - <sup>al</sup> 13. autō̂n ¦ HF autoû
-> - <sup>am</sup> 14. ho thánatos ho deúterós estin ¦ PCK estin ho thánatos ho deúteros ¦ TR estin ho deúteros thánatos
-> - <sup>an</sup> 14. hē límnē toû pyrós ¦ PT TR _om._
-> - <sup>ao</sup> 15. tō̂ biblíō ¦ CT PCK PT RP<sup>mg</sup> TR tē̂ bíblō
+> - <sup>j</sup> 4. tò thēríon ¦ PCK RP<sup>mg</sup> TR tō̂ thēríō
+> - <sup>k</sup> 4. oudè ¦ PCK PT RP<sup>mg</sup> TR oúte
+> - <sup>l</sup> 4. tḕn eikóna ¦ PCK tē̂ eikóni
+> - <sup>m</sup> 4. métōpon ¦ PCK PT RP<sup>mg</sup> TR métōpon autō̂n
+> - <sup>n</sup> 4. toû ¦ TR _om._
+> - <sup>o</sup> 4. tà ¦ CT PCK PT RP<sup>mg</sup> SCR _om._
+> - <sup>p</sup> 5. Kaì hoi ¦ NA SBL TH WH Hoi ¦ TR Hoi dè ¦ ECM _om._
+> - <sup>q</sup> 5. loipoì … étē ¦ ECM _om._
+> - <sup>r</sup> 5. ézēsan áchri ¦ PT ézēsan héōs ¦ TR anézēsan héōs
+> - <sup>s</sup> 6. deúteros thánatos ¦ TR thánatos ho deúteros
+> - <sup>t</sup> 6. chília ¦ TH tà chília ¦ NA WH [tà] chília
+> - <sup>u</sup> 7. hótan telesthē̂ ¦ HF RP<sup>mg</sup> metà
+> - <sup>v</sup> 8. tòn ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> _om._
+> - <sup>w</sup> 8. tòn ¦ TR _om._
+> - <sup>x</sup> 8. arithmòs ¦ CT HF PT RP<sup>mg</sup> arithmòs autō̂n
+> - <sup>y</sup> 9. ekýklōsan ¦ CT HF PCK PT RP<sup>mg</sup> ekýkleusan
+> - <sup>z</sup> 9. ek toû ouranoû apò toû theoû ¦ ECM TR apò toû theoû ek toû ouranoû ¦ NA SBL TH WH ek toû ouranoû
+> - <sup>aa</sup> 10. theíou ¦ PT toû theíou
+> - <sup>ab</sup> 10. kaì ¦ TR _om._
+> - <sup>ac</sup> 11. mégan leukón ¦ RP<sup>mg</sup> TR leukòn mégan
+> - <sup>ad</sup> 11. autón ¦ SBL TH TR WH autoû ¦ PT autō̂
+> - <sup>ae</sup> 11. prosṓpou ¦ CT toû prosṓpou
+> - <sup>af</sup> 11. hē gē̂ kaì ho ouranós ¦ PCK ho ouranòs kaì hē gē̂
+> - <sup>ag</sup> 12. toùs megálous kaì toùs mikroús ¦ TR mikroùs kaì megálous
+> - <sup>ah</sup> 12. thrónou ¦ TR theoû
+> - <sup>ai</sup> 12. ēneṓchthēsan ¦ PCK aneṓchthēsan ¦ CT PT ēnoíchthēsan ¦ HF RP<sup>mg</sup> ḗnoixan
+> - <sup>aj</sup> 12. állo biblíon ¦ TR biblíon állo
+> - <sup>ak</sup> 12. ēneṓchthē ¦ PCK Aneṓchthē ¦ NA PT SBL TH WH ēnoíchthē
+> - <sup>al</sup> 13. nekroùs toùs en autē̂ … nekroùs toùs en autoîs ¦ PCK RP<sup>mg</sup> TR en autē̂ nekroùs … en autoîs nekroús
+> - <sup>am</sup> 13. autō̂n ¦ HF autoû
+> - <sup>an</sup> 14. ho thánatos ho deúterós estin ¦ PCK estin ho thánatos ho deúteros ¦ TR estin ho deúteros thánatos
+> - <sup>ao</sup> 14. hē límnē toû pyrós ¦ PT TR _om._
+> - <sup>ap</sup> 15. tō̂ biblíō ¦ CT PCK PT RP<sup>mg</sup> TR tē̂ bíblō
 
 ## Chapter 21
 
@@ -1488,7 +1489,7 @@ ek phylē̂s <sup>o</sup>Beniamín, dṓdeka chiliádes <sup>p</sup>esphragismé
 > - <sup>bl</sup> 21. diaugḗs ¦ TR diaphanḗs
 > - <sup>bm</sup> 23. autē̂ hē gàr ¦ PCK TR en autē̂ hē gàr ¦ HF autḕ gàr hē
 > - <sup>bn</sup> 24. peripatḗsousin tà éthnē dià toû phōtòs autē̂s ¦ TR tà éthnē tō̂n sōzoménōn en tō̂ phōtì autē̂s peripatēsousi(n)
-> - <sup>bo</sup> 24. autō̂ dóxan kaì timḕn tō̂n ethnō̂n ¦ PCK TR tḕn dóxan kaì tḕn timḕn autō̂n ¦ RP<sup>mg</sup> tḕn dóxan [kaì tḕn timḕn] autō̂n ¦ PT tḕn dóxan kaì [tḕn] timḕn autō̂n ¦ CT tḕn dóxan autō̂n
+> - <sup>bo</sup> 24. autō̂ dóxan kaì timḕn tō̂n ethnō̂n ¦ PCK RP<sup>mg</sup> TR tḕn dóxan kaì tḕn timḕn autō̂n ¦ PT tḕn dóxan kaì [tḕn] timḕn autō̂n ¦ CT tḕn dóxan autō̂n
 > - <sup>bp</sup> 26. autḗn ¦ HF RP<sup>mg</sup> autḕn hína eiselthōsi(n)
 > - <sup>bq</sup> 27. koinón ¦ TR koinoûn
 > - <sup>br</sup> 27. poioûn ¦ ECM<sup>†</sup> _txt_ ¦ SBL TH poiō̂n ¦ ECM<sup>†</sup> HF RP<sup>mg</sup> ho poiō̂n ¦ NA PT WH [ho] poiō̂n

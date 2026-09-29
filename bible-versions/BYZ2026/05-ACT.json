@@ -1771,14 +1771,10 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " εσθησεσι",
+              "text": " εσθησεσι(ν) λευκαῖς",
               "script": "G",
-              "transliteration": " esthēsesi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "λευκαῖς", "script": "G", "transliteration": "leukaîs" }
+              "transliteration": " esthēsesi(n) leukaîs"
+            }
           ]
         }
       },
@@ -34167,10 +34163,26 @@
         "morph": "T-GPM",
         "lemma": "ὁ"
       },
+      " ",
       {
-        "text": " ἱερέων",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "ἱερέων", "script": "G", "transliteration": "hieréōn" },
+            " ¦ ",
+            { "abbr": "PT" },
+            {
+              "text": " Ἰουδαίων",
+              "script": "G",
+              "transliteration": " Ioudaíōn"
+            }
+          ]
+        }
+      },
+      {
+        "text": "ἱερέων",
         "script": "G",
-        "transliteration": " hieréōn",
+        "transliteration": "hieréōn",
         "strong": "G2409",
         "morph": "N-GPM",
         "lemma": "ἱερεύς"
@@ -41212,13 +41224,10 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " εθαυμασε",
+              "text": " εθαυμασε(ν)",
               "script": "G",
-              "transliteration": " ethaumase"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " ethaumase(n)"
+            }
           ]
         }
       },
@@ -59583,10 +59592,6 @@
               "transliteration": "krabbátō"
             },
             " ¦ ",
-            { "abbr": "ECM-SPLIT" },
-            " ",
-            { "abbr": "TXT" },
-            " ¦ ",
             { "abbr": "RP-MG" },
             {
               "text": " κραββάτου",
@@ -59594,6 +59599,8 @@
               "transliteration": " krabbátou"
             },
             " ¦ ",
+            { "abbr": "ECM-SPLIT" },
+            " ",
             { "abbr": "PT" },
             {
               "text": " κραβάττῳ",
@@ -68484,9 +68491,15 @@
           "type": "var",
           "content": [
             { "text": "ἐν", "script": "G", "transliteration": "en" },
+            " ¦ ",
+            { "abbr": "ECM-SPLIT" },
+            " ",
+            { "abbr": "TXT" },
             " ¦ [",
             { "abbr": "NA" },
             "] ¦ ",
+            { "abbr": "ECM-SPLIT" },
+            " ",
             { "abbr": "SBL" },
             " ",
             { "abbr": "WH" },
@@ -83976,17 +83989,9 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " Ὡς ετεσι",
+              "text": " Ὡς ετεσι(ν) τετρακοσίοις καὶ πεντήκοντα καὶ μετὰ ταῦτα",
               "script": "G",
-              "transliteration": " Hōs etesi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τετρακοσίοις καὶ πεντήκοντα καὶ μετὰ ταῦτα",
-              "script": "G",
-              "transliteration": "tetrakosíois kaì pentḗkonta kaì metà taûta"
+              "transliteration": " Hōs etesi(n) tetrakosíois kaì pentḗkonta kaì metà taûta"
             }
           ]
         }
@@ -86027,23 +86032,18 @@
             " ",
             { "abbr": "SBL" },
             {
-              "text": " νῦν εισι",
+              "text": " νῦν εισι(ν)",
               "script": "G",
-              "transliteration": " nŷn eisi"
+              "transliteration": " nŷn eisi(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "WH" },
             " [",
             { "text": "νῦν", "script": "G", "transliteration": "nŷn" },
             "] ",
-            { "text": "εισι", "script": "G", "transliteration": "eisi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            { "text": "εισι(ν)", "script": "G", "transliteration": "eisi(n)" }
           ]
         }
       },
@@ -91125,10 +91125,11 @@
             { "abbr": "TR" },
             " ",
             { "abbr": "WH" },
-            { "text": " ηκουε", "script": "G", "transliteration": " ēkoue" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " ηκουε(ν)",
+              "script": "G",
+              "transliteration": " ēkoue(n)"
+            }
           ]
         }
       },
@@ -100410,14 +100411,10 @@
             { "abbr": "PT" },
             "] ",
             { "abbr": "TR" },
-            { "text": " εδοξε", "script": "G", "transliteration": " edoxe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "δὲ τῷ Σίλᾳ ἐπιμεῖναι αὐτοῦ",
+              "text": " εδοξε(ν) δὲ τῷ Σίλᾳ ἐπιμεῖναι αὐτοῦ",
               "script": "G",
-              "transliteration": "dè tō̂ Síla epimeînai autoû"
+              "transliteration": " edoxe(n) dè tō̂ Síla epimeînai autoû"
             }
           ]
         }
@@ -128473,21 +128470,6 @@
     "verse": 41,
     "content": [
       {
-        "foot": {
-          "type": "var",
-          "content": [
-            {
-              "text": "Καὶ … ἐκκλησίαν",
-              "script": "G",
-              "transliteration": "Kaì … ekklēsían"
-            },
-            " ¦ [",
-            { "abbr": "SBL" },
-            "]"
-          ]
-        }
-      },
-      {
         "text": "Καὶ",
         "script": "G",
         "transliteration": "Kaì",
@@ -140046,6 +140028,13 @@
               "transliteration": "mēdèn toioûton tēreîn autoùs ei mḕ"
             },
             " ¦ ",
+            { "abbr": "HF" },
+            {
+              "text": " μηδὲν τοιοῦτο τηρεῖν αὐτοὺς εἰ μὴ",
+              "script": "G",
+              "transliteration": " mēdèn toioûto tēreîn autoùs ei mḕ"
+            },
+            " ¦ ",
             { "abbr": "CT" },
             " ",
             { "abbr": "OM" }
@@ -143329,13 +143318,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " προσεφωνησε",
+              "text": " προσεφωνησε(ν)",
               "script": "G",
-              "transliteration": " prosephōnēse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " prosephōnēse(n)"
+            }
           ]
         }
       },
@@ -155492,17 +155478,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " εκελευσε",
+              "text": " εκελευσε(ν) Τε αὐτὸν ἐν τῷ πραιτωρίῳ τοῦ Ἡρῴδου φυλάσσεσθαι",
               "script": "G",
-              "transliteration": " ekeleuse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "Τε αὐτὸν ἐν τῷ πραιτωρίῳ τοῦ Ἡρῴδου φυλάσσεσθαι",
-              "script": "G",
-              "transliteration": "Te autòn en tō̂ praitōríō toû Hērṓdou phylássesthai"
+              "transliteration": " ekeleuse(n) Te autòn en tō̂ praitōríō toû Hērṓdou phylássesthai"
             },
             " ¦ ",
             { "abbr": "CT" },
@@ -171391,26 +171369,10 @@
         "morph": "PRT",
         "lemma": "τε"
       },
-      " ",
       {
-        "foot": {
-          "type": "var",
-          "content": [
-            { "text": "Βερνίκη", "script": "G", "transliteration": "Berníkē" },
-            " ¦ ",
-            { "abbr": "PT" },
-            {
-              "text": " Βερενίκη",
-              "script": "G",
-              "transliteration": " Bereníkē"
-            }
-          ]
-        }
-      },
-      {
-        "text": "Βερνίκη,",
+        "text": " Βερνίκη,",
         "script": "G",
-        "transliteration": "Berníkē,",
+        "transliteration": " Berníkē,",
         "strong": "G959",
         "morph": "N-NSF",
         "lemma": "Βερνίκη"
@@ -182037,17 +181999,9 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ὁ ἑκατόνταρχος παρεδωκε",
+              "text": " ὁ ἑκατόνταρχος παρεδωκε(ν) τοὺς δεσμίους τῷ στρατοπεδάρχῳ τῷ δὲ Παύλῳ ἐπετράπη",
               "script": "G",
-              "transliteration": " ho hekatóntarchos paredōke"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τοὺς δεσμίους τῷ στρατοπεδάρχῳ τῷ δὲ Παύλῳ ἐπετράπη",
-              "script": "G",
-              "transliteration": "toùs desmíous tō̂ stratopedárchō tō̂ dè Paúlō epetrápē"
+              "transliteration": " ho hekatóntarchos paredōke(n) toùs desmíous tō̂ stratopedárchō tō̂ dè Paúlō epetrápē"
             },
             " ¦ ",
             { "abbr": "PT" },

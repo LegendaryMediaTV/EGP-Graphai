@@ -2910,7 +2910,11 @@
             { "text": "ἐλάλει", "script": "G", "transliteration": "elálei" },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ἐλάλησε", "script": "G", "transliteration": " elálēse" }
+            {
+              "text": " ἐλάλησε(ν)",
+              "script": "G",
+              "transliteration": " elálēse(n)"
+            }
           ]
         }
       },
@@ -3966,17 +3970,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " επεθηκε",
+              "text": " επεθηκε(ν) τὴν δεξιὰν αὐτοῦ χεῖρα",
               "script": "G",
-              "transliteration": " epethēke"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τὴν δεξιὰν αὐτοῦ χεῖρα",
-              "script": "G",
-              "transliteration": "tḕn dexiàn autoû cheîra"
+              "transliteration": " epethēke(n) tḕn dexiàn autoû cheîra"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -8248,13 +8244,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " εδιδασκε",
+              "text": " εδιδασκε(ν)",
               "script": "G",
-              "transliteration": " edidaske"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " edidaske(n)"
+            }
           ]
         }
       },
@@ -11812,6 +11805,8 @@
             },
             " ¦ ",
             { "abbr": "PCK" },
+            " ",
+            { "abbr": "RP-MG" },
             {
               "text": " ἔμελλες ἀποβάλειν",
               "script": "G",
@@ -13747,10 +13742,11 @@
             { "abbr": "PCK" },
             " ",
             { "abbr": "PT" },
-            { "text": " ηξουσι", "script": "G", "transliteration": " ēxousi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " ηξουσι(ν)",
+              "script": "G",
+              "transliteration": " ēxousi(n)"
+            }
           ]
         }
       },
@@ -17979,14 +17975,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " αἳ εισι",
+              "text": " αἳ εισι(ν) τὰ",
               "script": "G",
-              "transliteration": " haì eisi"
+              "transliteration": " haì eisi(n) tà"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "τὰ", "script": "G", "transliteration": "tà" },
             " ¦ ",
             { "abbr": "CT" },
             {
@@ -19100,13 +19092,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " δωσουσι",
+              "text": " δωσουσι(ν)",
               "script": "G",
-              "transliteration": " dōsousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " dōsousi(n)"
+            }
           ]
         }
       },
@@ -19430,21 +19419,10 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " προσκυνουσι",
+              "text": " προσκυνουσι(ν) … βαλλουσι(ν)",
               "script": "G",
-              "transliteration": " proskynousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "… βαλλουσι",
-              "script": "G",
-              "transliteration": "… ballousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " proskynousi(n) … ballousi(n)"
+            }
           ]
         }
       },
@@ -19881,10 +19859,7 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " εισι", "script": "G", "transliteration": " eisi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            { "text": " εισι(ν)", "script": "G", "transliteration": " eisi(n)" }
           ]
         }
       },
@@ -21476,14 +21451,10 @@
             { "text": "εἴληφεν", "script": "G", "transliteration": "eílēphen" },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ειληφε", "script": "G", "transliteration": " eilēphe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "τὸ βιβλίον",
+              "text": " ειληφε(ν) τὸ βιβλίον",
               "script": "G",
-              "transliteration": "tò biblíon"
+              "transliteration": " eilēphe(n) tò biblíon"
             }
           ]
         }
@@ -23095,10 +23066,12 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " ἅ εστι", "script": "G", "transliteration": " há esti" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            {
+              "text": " ἅ εστι(ν)",
+              "script": "G",
+              "transliteration": " há esti(n)"
+            },
+            " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "SBL" },
@@ -44996,22 +44969,17 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ἐν πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι",
+              "text": " ἐν πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι(ν)",
               "script": "G",
-              "transliteration": " en pásē plēgē̂ hosákis eán thelēsōsi"
+              "transliteration": " en pásē plēgē̂ hosákis eán thelēsōsi(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι",
+              "text": " πάσῃ πληγῇ ὁσάκις ἐάν θελησωσι(ν)",
               "script": "G",
-              "transliteration": " pásē plēgē̂ hosákis eán thelēsōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " pásē plēgē̂ hosákis eán thelēsōsi(n)"
+            }
           ]
         }
       },
@@ -51669,17 +51637,9 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " τοῖς κατοικουσι",
+              "text": " τοῖς κατοικουσι(ν) τὴν γῆν καὶ τὴν θάλασσαν",
               "script": "G",
-              "transliteration": " toîs katoikousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τὴν γῆν καὶ τὴν θάλασσαν",
-              "script": "G",
-              "transliteration": "tḕn gē̂n kaì tḕn thálassan"
+              "transliteration": " toîs katoikousi(n) tḕn gē̂n kaì tḕn thálassan"
             }
           ]
         }
@@ -52955,11 +52915,11 @@
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
-            " [12:18] ",
+            " (12:18) ",
             { "abbr": "TXT" },
             " ¦ ",
             { "abbr": "CT-SPLIT" },
-            " [12:18] ",
+            " (12:18) ",
             {
               "text": "Καὶ ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης",
               "script": "G",
@@ -56625,13 +56585,11 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " τῆς μαχαίρας καί εζησε",
+              "text": " τῆς μαχαίρας καί εζησε(ν)",
               "script": "G",
-              "transliteration": " tē̂s machaíras kaí ezēse"
+              "transliteration": " tē̂s machaíras kaí ezēse(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "CT" },
             {
               "text": " τῆς μαχαίρης καὶ ἔζησεν",
@@ -60209,13 +60167,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " Ἔπεσεν επεσε",
+              "text": " Ἔπεσεν επεσε(ν)",
               "script": "G",
-              "transliteration": " Épesen epese"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " Épesen epese(n)"
+            }
           ]
         }
       },
@@ -62359,11 +62314,11 @@
             { "text": "ἦλθεν", "script": "G", "transliteration": "ē̂lthen" },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ηλθε", "script": "G", "transliteration": " ēlthe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "σοὶ", "script": "G", "transliteration": "soì" }
+            {
+              "text": " ηλθε(ν) σοὶ",
+              "script": "G",
+              "transliteration": " ēlthe(n) soì"
+            }
           ]
         }
       },
@@ -74134,13 +74089,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " γνώμην εχουσι",
+              "text": " γνώμην εχουσι(ν)",
               "script": "G",
-              "transliteration": " gnṓmēn echousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " gnṓmēn echousi(n)"
+            }
           ]
         }
       },
@@ -75711,13 +75663,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " Ἔπεσεν επεσε",
+              "text": " Ἔπεσεν επεσε(ν)",
               "script": "G",
-              "transliteration": " Épesen epese"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " Épesen epese(n)"
+            }
           ]
         }
       },
@@ -76084,13 +76033,11 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " πεπωκασι",
+              "text": " πεπωκασι(ν)",
               "script": "G",
-              "transliteration": " pepōkasi"
+              "transliteration": " pepōkasi(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "NA" },
             " ",
             { "abbr": "PT" },
@@ -76105,10 +76052,11 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " πεπωκε", "script": "G", "transliteration": " pepōke" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " πεπωκε(ν)",
+              "script": "G",
+              "transliteration": " pepōke(n)"
+            }
           ]
         }
       },
@@ -78190,17 +78138,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " κλαιουσι",
+              "text": " κλαιουσι(ν) καὶ πενθοῦσιν",
               "script": "G",
-              "transliteration": " klaiousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "καὶ πενθοῦσιν",
-              "script": "G",
-              "transliteration": "kaì penthoûsin"
+              "transliteration": " klaiousi(n) kaì penthoûsin"
             }
           ]
         }
@@ -82342,13 +82282,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " εφθειρε",
+              "text": " εφθειρε(ν)",
               "script": "G",
-              "transliteration": " ephtheire"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " ephtheire(n)"
+            }
           ]
         }
       },
@@ -83816,14 +83753,10 @@
             },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " εστι", "script": "G", "transliteration": " esti" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "τῶν ἁγίων",
+              "text": " εστι(ν) τῶν ἁγίων",
               "script": "G",
-              "transliteration": "tō̂n hagíōn"
+              "transliteration": " esti(n) tō̂n hagíōn"
             }
           ]
         }
@@ -84055,14 +83988,10 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " εισι", "script": "G", "transliteration": " eisi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "τοῦ θεοῦ",
+              "text": " εισι(ν) τοῦ θεοῦ",
               "script": "G",
-              "transliteration": "toû theoû"
+              "transliteration": " eisi(n) toû theoû"
             }
           ]
         }
@@ -86137,8 +86066,6 @@
               "transliteration": "tò deîpnon tò méga toû"
             },
             " ¦ ",
-            { "abbr": "RP-MG" },
-            " ",
             { "abbr": "TR" },
             {
               "text": " τὸ δεῖπνον τοῦ μεγάλου",
@@ -88478,16 +88405,9 @@
           "type": "var",
           "content": [
             {
-              "text": "τὸ θηρίον οὐδὲ",
+              "text": "τὸ θηρίον",
               "script": "G",
-              "transliteration": "tò thēríon oudè"
-            },
-            " ¦ ",
-            { "abbr": "PT" },
-            {
-              "text": " τὸ θηρίον οὔτε",
-              "script": "G",
-              "transliteration": " tò thēríon oúte"
+              "transliteration": "tò thēríon"
             },
             " ¦ ",
             { "abbr": "PCK" },
@@ -88496,9 +88416,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " τῷ θηρίῳ οὔτε",
+              "text": " τῷ θηρίῳ",
               "script": "G",
-              "transliteration": " tō̂ thēríō oúte"
+              "transliteration": " tō̂ thēríō"
             }
           ]
         }
@@ -88519,10 +88439,28 @@
         "morph": "N-ASN",
         "lemma": "θηρίον"
       },
+      " ",
       {
-        "text": " οὐδὲ",
+        "foot": {
+          "type": "var",
+          "content": [
+            { "text": "οὐδὲ", "script": "G", "transliteration": "oudè" },
+            " ¦ ",
+            { "abbr": "PCK" },
+            " ",
+            { "abbr": "PT" },
+            " ",
+            { "abbr": "RP-MG" },
+            " ",
+            { "abbr": "TR" },
+            { "text": " οὔτε", "script": "G", "transliteration": " oúte" }
+          ]
+        }
+      },
+      {
+        "text": "οὐδὲ",
         "script": "G",
-        "transliteration": " oudè",
+        "transliteration": "oudè",
         "strong": "G3761",
         "morph": "CONJ-N",
         "lemma": "οὐδέ"
@@ -91896,13 +91834,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " παρηλθε",
+              "text": " παρηλθε(ν)",
               "script": "G",
-              "transliteration": " parēlthe"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " parēlthe(n)"
+            }
           ]
         }
       },
@@ -93263,11 +93198,11 @@
             { "text": "εἰμι", "script": "G", "transliteration": "eimi" },
             "] ¦ ",
             { "abbr": "TR" },
-            { "text": " γεγονε", "script": "G", "transliteration": " gegone" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "Ἐγώ εἰμι", "script": "G", "transliteration": "Egṓ eimi" }
+            {
+              "text": " γεγονε(ν) Ἐγώ εἰμι",
+              "script": "G",
+              "transliteration": " gegone(n) Egṓ eimi"
+            }
           ]
         }
       },
@@ -93849,13 +93784,10 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " φαρμακευσι",
+              "text": " φαρμακευσι(ν)",
               "script": "G",
-              "transliteration": " pharmakeusi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " pharmakeusi(n)"
+            }
           ]
         }
       },
@@ -94118,14 +94050,10 @@
             },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ηλθε", "script": "G", "transliteration": " ēlthe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "πρὸς μὲ εἷς",
+              "text": " ηλθε(ν) πρὸς μὲ εἷς",
               "script": "G",
-              "transliteration": "pròs mè heîs"
+              "transliteration": " ēlthe(n) pròs mè heîs"
             }
           ]
         }
@@ -97720,13 +97648,10 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " τὰ ἔθνη τῶν σωζομένων ἐν τῷ φωτὶ αὐτῆς περιπατησουσι",
+              "text": " τὰ ἔθνη τῶν σωζομένων ἐν τῷ φωτὶ αὐτῆς περιπατησουσι(ν)",
               "script": "G",
-              "transliteration": " tà éthnē tō̂n sōzoménōn en tō̂ phōtì autē̂s peripatēsousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " tà éthnē tō̂n sōzoménōn en tō̂ phōtì autē̂s peripatēsousi(n)"
+            }
           ]
         }
       },
@@ -97847,27 +97772,14 @@
             " ¦ ",
             { "abbr": "PCK" },
             " ",
+            { "abbr": "RP-MG" },
+            " ",
             { "abbr": "TR" },
             {
               "text": " τὴν δόξαν καὶ τὴν τιμὴν αὐτῶν",
               "script": "G",
               "transliteration": " tḕn dóxan kaì tḕn timḕn autō̂n"
             },
-            " ¦ ",
-            { "abbr": "RP-MG" },
-            {
-              "text": " τὴν δόξαν",
-              "script": "G",
-              "transliteration": " tḕn dóxan"
-            },
-            " [",
-            {
-              "text": "καὶ τὴν τιμὴν",
-              "script": "G",
-              "transliteration": "kaì tḕn timḕn"
-            },
-            "] ",
-            { "text": "αὐτῶν", "script": "G", "transliteration": "autō̂n" },
             " ¦ ",
             { "abbr": "PT" },
             {
@@ -98166,13 +98078,10 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " αὐτὴν ἵνα εισελθωσι",
+              "text": " αὐτὴν ἵνα εισελθωσι(ν)",
               "script": "G",
-              "transliteration": " autḕn hína eiselthōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " autḕn hína eiselthōsi(n)"
+            }
           ]
         }
       },
@@ -99719,10 +99628,7 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " ειπε", "script": "G", "transliteration": " eipe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            { "text": " ειπε(ν)", "script": "G", "transliteration": " eipe(n)" }
           ]
         }
       },

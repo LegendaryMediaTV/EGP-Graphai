@@ -18914,11 +18914,11 @@
             { "abbr": "CT" },
             " ",
             { "abbr": "TR" },
-            { "text": " απηλθε", "script": "G", "transliteration": " apēlthe" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "πάλιν", "script": "G", "transliteration": "pálin" }
+            {
+              "text": " απηλθε(ν) πάλιν",
+              "script": "G",
+              "transliteration": " apēlthe(n) pálin"
+            }
           ]
         }
       },
@@ -26471,10 +26471,11 @@
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },
-            { "text": " ημελλε", "script": "G", "transliteration": " ēmelle" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " ημελλε(ν)",
+              "script": "G",
+              "transliteration": " ēmelle(n)"
+            }
           ]
         }
       },
@@ -38241,14 +38242,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " ανεχωρησε",
+              "text": " ανεχωρησε(ν) πάλιν",
               "script": "G",
-              "transliteration": " anechōrēse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "πάλιν", "script": "G", "transliteration": "pálin" }
+              "transliteration": " anechōrēse(n) pálin"
+            }
           ]
         }
       },
@@ -56717,9 +56714,9 @@
             },
             " ¦ [[",
             { "abbr": "NA" },
-            " ",
+            "]] ¦ «",
             { "abbr": "PT" },
-            "]] ¦ [[",
+            "» ¦ [[",
             { "abbr": "WH" },
             "]] ",
             {
@@ -58253,14 +58250,10 @@
             { "abbr": "HF" },
             " ",
             { "abbr": "PCK" },
-            { "text": " εχωσι", "script": "G", "transliteration": " echōsi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
             {
-              "text": "κατηγορίαν κατ’",
+              "text": " εχωσι(ν) κατηγορίαν κατ’",
               "script": "G",
-              "transliteration": "katēgorían kat’"
+              "transliteration": " echōsi(n) katēgorían kat’"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -58546,17 +58539,9 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " ανεκυψε",
+              "text": " ανεκυψε(ν) καὶ εἶπεν αὐτοῖς",
               "script": "G",
-              "transliteration": " anekypse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "καὶ εἶπεν αὐτοῖς",
-              "script": "G",
-              "transliteration": "kaì eîpen autoîs"
+              "transliteration": " anekypse(n) kaì eîpen autoîs"
             },
             " ¦ ",
             { "abbr": "WH" },
@@ -59696,13 +59681,10 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " ὁ Ἰησοῦς αὐτοῖς ελαλησε",
+              "text": " ὁ Ἰησοῦς αὐτοῖς ελαλησε(ν)",
               "script": "G",
-              "transliteration": " ho Iēsoûs autoîs elalēse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " ho Iēsoûs autoîs elalēse(n)"
+            }
           ]
         }
       },
@@ -69558,13 +69540,10 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " ἔλεγον οὐχὶ αλλ",
+              "text": " ἔλεγον οὐχὶ αλλ(α)",
               "script": "G",
-              "transliteration": " élegon ouchì all"
-            },
-            "(",
-            { "text": "α", "script": "G", "transliteration": "a" },
-            ")"
+              "transliteration": " élegon ouchì all(a)"
+            }
           ]
         }
       },
@@ -77502,17 +77481,9 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " γινωσκουσι",
+              "text": " γινωσκουσι(ν) με τὰ ἐμά",
               "script": "G",
-              "transliteration": " ginōskousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "με τὰ ἐμά",
-              "script": "G",
-              "transliteration": "me tà emá"
+              "transliteration": " ginōskousi(n) me tà emá"
             },
             " ¦ ",
             { "abbr": "TH" },
@@ -98143,13 +98114,10 @@
             " ¦ ",
             { "abbr": "CT" },
             {
-              "text": " στραφωσι",
+              "text": " στραφωσι(ν)",
               "script": "G",
-              "transliteration": " straphōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " straphōsi(n)"
+            }
           ]
         }
       },
@@ -142239,6 +142207,8 @@
           "content": [
             { "text": "Ἰωσὴφ", "script": "G", "transliteration": "Iōsḕph" },
             " ¦ ",
+            { "abbr": "HF" },
+            " ",
             { "abbr": "RP-MG" },
             " ",
             { "abbr": "TR" },

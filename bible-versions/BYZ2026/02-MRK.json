@@ -6381,14 +6381,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " ζητουσι",
+              "text": " ζητουσι(ν) σε",
               "script": "G",
-              "transliteration": " zētousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "σε", "script": "G", "transliteration": "se" }
+              "transliteration": " zētousi(n) se"
+            }
           ]
         }
       },
@@ -23755,54 +23751,42 @@
         "morph": "CONJ",
         "lemma": "γάρ"
       },
-      {
-        "text": " ἐστίν",
-        "script": "G",
-        "transliteration": " estín",
-        "strong": "G2076",
-        "morph": "V-PAI-3S",
-        "lemma": "εἰμί"
-      },
       " ",
       {
         "foot": {
           "type": "var",
           "content": [
             {
-              "text": "τι κρυπτὸν ὃ ἐὰν μὴ",
+              "text": "ἐστίν τι",
               "script": "G",
-              "transliteration": "ti kryptòn hò eàn mḕ"
-            },
-            " ¦ ",
-            { "abbr": "PCK" },
-            " ",
-            { "abbr": "PT" },
-            {
-              "text": " κρυπτὸν ὃ ἐὰν μὴ",
-              "script": "G",
-              "transliteration": " kryptòn hò eàn mḕ"
-            },
-            " ¦ ",
-            { "abbr": "CT-SPLIT" },
-            {
-              "text": " κρυπτὸν ἐὰν μὴ ἵνα",
-              "script": "G",
-              "transliteration": " kryptòn eàn mḕ hína"
+              "transliteration": "estín ti"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
-            {
-              "text": " τι κρυπτὸν εἰ μὴ ἵνα",
-              "script": "G",
-              "transliteration": " ti kryptòn ei mḕ hína"
-            }
+            " ",
+            { "abbr": "TXT" },
+            " ¦ ",
+            { "abbr": "CT-SPLIT" },
+            " ",
+            { "abbr": "PCK" },
+            " ",
+            { "abbr": "PT" },
+            { "text": " ἐστι(ν)", "script": "G", "transliteration": " esti(n)" }
           ]
         }
       },
       {
-        "text": "τι",
+        "text": "ἐστίν",
         "script": "G",
-        "transliteration": "ti",
+        "transliteration": "estín",
+        "strong": "G2076",
+        "morph": "V-PAI-3S",
+        "lemma": "εἰμί"
+      },
+      {
+        "text": " τι",
+        "script": "G",
+        "transliteration": " ti",
         "strong": "G5100",
         "morph": "X-NSN",
         "lemma": "τις"
@@ -23815,10 +23799,37 @@
         "morph": "A-NSN",
         "lemma": "κρυπτός"
       },
+      " ",
       {
-        "text": " ὃ",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ὃ ἐὰν μὴ",
+              "script": "G",
+              "transliteration": "hò eàn mḕ"
+            },
+            " ¦ ",
+            { "abbr": "CT-SPLIT" },
+            {
+              "text": " ἐὰν μὴ ἵνα",
+              "script": "G",
+              "transliteration": " eàn mḕ hína"
+            },
+            " ¦ ",
+            { "abbr": "ECM-SPLIT" },
+            {
+              "text": " εἰ μὴ ἵνα",
+              "script": "G",
+              "transliteration": " ei mḕ hína"
+            }
+          ]
+        }
+      },
+      {
+        "text": "ὃ",
         "script": "G",
-        "transliteration": " hò",
+        "transliteration": "hò",
         "strong": "G3739",
         "morph": "R-NSN",
         "lemma": "ὅς"
@@ -27946,17 +27957,9 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " μνημασι",
+              "text": " μνημασι(ν) καὶ ἐν τοῖς ὄρεσιν",
               "script": "G",
-              "transliteration": " mnēmasi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "καὶ ἐν τοῖς ὄρεσιν",
-              "script": "G",
-              "transliteration": "kaì en toîs óresin"
+              "transliteration": " mnēmasi(n) kaì en toîs óresin"
             }
           ]
         }
@@ -30471,7 +30474,11 @@
             },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ἐποίησε", "script": "G", "transliteration": " epoíēse" }
+            {
+              "text": " ἐποίησε(ν)",
+              "script": "G",
+              "transliteration": " epoíēse(n)"
+            }
           ]
         }
       },
@@ -40017,26 +40024,10 @@
         "morph": "PREP",
         "lemma": "ἐν"
       },
-      " ",
       {
-        "foot": {
-          "type": "var",
-          "content": [
-            { "text": "μνημείῳ", "script": "G", "transliteration": "mnēmeíō" },
-            " ¦ ",
-            { "abbr": "ST" },
-            {
-              "text": " τῷ μνημείῳ",
-              "script": "G",
-              "transliteration": " tō̂ mnēmeíō"
-            }
-          ]
-        }
-      },
-      {
-        "text": "μνημείῳ.",
+        "text": " μνημείῳ.",
         "script": "G",
-        "transliteration": "mnēmeíō.",
+        "transliteration": " mnēmeíō.",
         "strong": "G3419",
         "morph": "N-DSN",
         "lemma": "μνημεῖον"
@@ -49511,11 +49502,11 @@
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
-            { "text": " εστι", "script": "G", "transliteration": " esti" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "καλὸν", "script": "G", "transliteration": "kalòn" }
+            {
+              "text": " εστι(ν) καλὸν",
+              "script": "G",
+              "transliteration": " esti(n) kalòn"
+            }
           ]
         }
       },
@@ -51891,10 +51882,12 @@
             { "abbr": "TH" },
             " ",
             { "abbr": "TR" },
-            { "text": " ηκασι", "script": "G", "transliteration": " ēkasi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            {
+              "text": " ηκασι(ν)",
+              "script": "G",
+              "transliteration": " ēkasi(n)"
+            },
+            " ¦ ",
             { "abbr": "WH" },
             { "text": " εἰσιν", "script": "G", "transliteration": " eisin" }
           ]
@@ -52388,13 +52381,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " παρατιθωσι",
+              "text": " παρατιθωσι(ν)",
               "script": "G",
-              "transliteration": " paratithōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " paratithōsi(n)"
+            }
           ]
         }
       },
@@ -55480,13 +55470,11 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ανεβλεψε",
+              "text": " ανεβλεψε(ν)",
               "script": "G",
-              "transliteration": " aneblepse"
+              "transliteration": " aneblepse(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "CT" },
             {
               "text": " ἐνέβλεπεν",
@@ -58999,13 +58987,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " δύναται ουτω",
+              "text": " δύναται ουτω(ς)",
               "script": "G",
-              "transliteration": " dýnatai outō"
-            },
-            "(",
-            { "text": "ς", "script": "G", "transliteration": "s" },
-            ")"
+              "transliteration": " dýnatai outō(s)"
+            }
           ]
         }
       },
@@ -68634,14 +68619,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " επετρεψε",
+              "text": " επετρεψε(ν) Μωϋσῆς",
               "script": "G",
-              "transliteration": " epetrepse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "Μωϋσῆς", "script": "G", "transliteration": "Mōÿsē̂s" }
+              "transliteration": " epetrepse(n) Mōÿsē̂s"
+            }
           ]
         }
       },
@@ -82695,17 +82676,9 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " Ἤ τίς σοι εδωκε",
+              "text": " Ἤ τίς σοι εδωκε(ν) τὴν ἐξουσίαν ταύτην",
               "script": "G",
-              "transliteration": " Ḗ tís soi edōke"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τὴν ἐξουσίαν ταύτην",
-              "script": "G",
-              "transliteration": "tḕn exousían taútēn"
+              "transliteration": " Ḗ tís soi edōke(n) tḕn exousían taútēn"
             }
           ]
         }
@@ -87749,9 +87722,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " οὖν ἀναστάσει ὅταν ἀναστῶσί",
+              "text": " οὖν ἀναστάσει ὅταν ἀναστῶσί(ν)",
               "script": "G",
-              "transliteration": " oûn anastásei hótan anastō̂sí"
+              "transliteration": " oûn anastásei hótan anastō̂sí(n)"
             },
             " ¦ ",
             { "abbr": "TH" },
@@ -89819,9 +89792,9 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " ἔστι θεός",
+              "text": " ἔστι(ν) θεός",
               "script": "G",
-              "transliteration": " ésti theós"
+              "transliteration": " ésti(n) theós"
             }
           ]
         }
@@ -90651,13 +90624,11 @@
             " ",
             { "abbr": "SBL" },
             {
-              "text": " Δαυίδ εστι",
+              "text": " Δαυίδ εστι(ν)",
               "script": "G",
-              "transliteration": " Dauíd esti"
+              "transliteration": " Dauíd esti(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
@@ -92161,10 +92132,11 @@
             { "abbr": "CT" },
             " ",
             { "abbr": "PT" },
-            { "text": " εβαλε", "script": "G", "transliteration": " ebale" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " εβαλε(ν)",
+              "script": "G",
+              "transliteration": " ebale(n)"
+            }
           ]
         }
       },
@@ -96083,14 +96055,10 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " εκολοβωσε",
+              "text": " εκολοβωσε(ν) κύριος",
               "script": "G",
-              "transliteration": " ekolobōse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "κύριος", "script": "G", "transliteration": "kýrios" }
+              "transliteration": " ekolobōse(n) kýrios"
+            }
           ]
         }
       },
@@ -113644,14 +113612,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " εποιησε",
+              "text": " εποιησε(ν) κακόν",
               "script": "G",
-              "transliteration": " epoiēse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "κακόν", "script": "G", "transliteration": "kakón" }
+              "transliteration": " epoiēse(n) kakón"
+            }
           ]
         }
       },

@@ -46900,10 +46900,7 @@
             { "abbr": "PCK" },
             " ",
             { "abbr": "PT" },
-            { "text": " εισι", "script": "G", "transliteration": " eisi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            { "text": " εισι(ν)", "script": "G", "transliteration": " eisi(n)" }
           ]
         }
       },
@@ -55878,17 +55875,9 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " καὶ προσφωνουσι",
+              "text": " καὶ προσφωνουσι(ν) τοῖς ἑτέροις αὐτῶν καὶ",
               "script": "G",
-              "transliteration": " kaì prosphōnousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τοῖς ἑτέροις αὐτῶν καὶ",
-              "script": "G",
-              "transliteration": "toîs hetérois autō̂n kaì"
+              "transliteration": " kaì prosphōnousi(n) toîs hetérois autō̂n kaì"
             },
             " ¦ ",
             { "abbr": "PT" },
@@ -110821,13 +110810,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " δυνατά εστι",
+              "text": " δυνατά εστι(ν)",
               "script": "G",
-              "transliteration": " dynatá esti"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " dynatá esti(n)"
+            }
           ]
         }
       },
@@ -122557,13 +122543,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " τὶς ειχε",
+              "text": " τὶς ειχε(ν)",
               "script": "G",
-              "transliteration": " tìs eiche"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " tìs eiche(n)"
+            }
           ]
         }
       },
@@ -126133,9 +126116,9 @@
         "lemma": "ὁ"
       },
       {
-        "text": " κεκλημένοις.",
+        "text": " κεκλημένοις,",
         "script": "G",
-        "transliteration": " keklēménois.",
+        "transliteration": " keklēménois,",
         "strong": "G2564",
         "morph": "V-RPP-DPM",
         "lemma": "καλέω"
@@ -134009,7 +133992,7 @@
             },
             " ¦ ",
             { "abbr": "SCR" },
-            " [23:14] ",
+            " (23:14) ",
             {
               "text": "οὐαὶ ὑμῖν … κρίμα",
               "script": "G",
@@ -134021,7 +134004,7 @@
             { "abbr": "SBL" },
             " ",
             { "abbr": "TH" },
-            " [23:14] ",
+            " (23:14) ",
             { "abbr": "OM" },
             " ¦ ",
             { "abbr": "WH" },
@@ -134448,7 +134431,7 @@
             { "abbr": "SCR" },
             " ",
             { "abbr": "TH" },
-            " [23:13] ",
+            " (23:13) ",
             {
               "text": "οὐαὶ δὲ ὑμῖν … εἰσελθεῖν",
               "script": "G",
@@ -163835,13 +163818,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " αὐτόν θανατωσωσι",
+              "text": " αὐτόν θανατωσωσι(ν)",
               "script": "G",
-              "transliteration": " autón thanatōsōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " autón thanatōsōsi(n)"
+            }
           ]
         }
       },
