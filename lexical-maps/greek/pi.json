@@ -1451,11 +1451,10 @@
       }
     }
   },
-  "παλαιστή": {
+  "παλαιστής": {
     "language": "greek",
     "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
+    "gender": ["fem", "masc"],
     "inflections": {
       "παλαιστάς": {
         "transliteration": "palaistás",
@@ -1467,7 +1466,7 @@
       },
       "παλαιστής": {
         "transliteration": "palaistḗs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "παλαιστῆς": {
         "transliteration": "palaistē̂s",
@@ -1475,7 +1474,7 @@
       },
       "παλαιστοῦ": {
         "transliteration": "palaistoû",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -14067,11 +14066,10 @@
   "Πάτροκλος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Πατρόκλου": {
         "transliteration": "Patróklou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -16037,11 +16035,11 @@
   "πέλυξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
     "inflections": {
       "πέλυξ": {
         "transliteration": "pélyx",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -16926,11 +16924,10 @@
   "Πεντάπολις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Πενταπόλεως": {
         "transliteration": "Pentapóleōs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -17327,11 +17324,11 @@
   "πέρδιξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "πέρδιξ": {
         "transliteration": "pérdix",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -23374,11 +23371,10 @@
   "Περσέπολις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Περσέπολιν": {
         "transliteration": "Persépolin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -23423,11 +23419,10 @@
   "Περσική": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Περσικήν": {
         "transliteration": "Persikḗn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -36752,11 +36747,10 @@
   "Ποσιδώνιος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ποσιδώνιον": {
         "transliteration": "Posidṓnion",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -52611,10 +52605,6 @@
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
-      "πρωτοτόκος": {
-        "transliteration": "prōtotókos",
-        "cells": [{ "parse": ["adj", "super", "nom", "sg", "masc"] }]
-      },
       "πρωτότοκος": {
         "transliteration": "prōtótokos",
         "cells": [{ "parse": ["adj", "super", "nom", "sg", "masc"] }]
@@ -52928,7 +52918,7 @@
       },
       "πτέρυξ": {
         "transliteration": "ptéryx",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "πτέρυξιν": {
         "transliteration": "ptéryxin",

@@ -632,11 +632,10 @@
   "Ὑδάσπης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ὑδάσπην": {
         "transliteration": "Hydáspēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -8129,11 +8128,10 @@
   "Ὑρκανός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ὑρκανοῦ": {
         "transliteration": "Hyrkanoû",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },

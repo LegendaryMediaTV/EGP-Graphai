@@ -2107,23 +2107,25 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
     "inflections": {
       "ἧπαρ": {
         "transliteration": "hē̂par",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
+        ]
       },
       "ἥπατά": {
         "transliteration": "hḗpatá",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
       },
       "ἥπατι": {
         "transliteration": "hḗpati",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "ἥπατος": {
         "transliteration": "hḗpatos",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },

@@ -604,11 +604,10 @@
   "Θαμναθαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Θαμναθαίου": {
         "transliteration": "Thamnathaíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1532,11 +1531,10 @@
   "Θαρσεας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Θαρσεου": {
         "transliteration": "Tharseou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -6204,11 +6202,10 @@
   "Θίσβη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Θισβης": {
         "transliteration": "Thisbēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -7258,11 +7255,10 @@
   "Θράξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Θρᾳκῶν": {
         "transliteration": "Thrakō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -8040,6 +8036,10 @@
         "transliteration": "thygátēr",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
+      "θυγατράσιν": {
+        "transliteration": "thygatrásin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "θυγατρί": {
         "transliteration": "thygatrí",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
@@ -8047,17 +8047,6 @@
       "θυγατρός": {
         "transliteration": "thygatrós",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "θυγατράσιν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "θυγατράσιν": {
-        "transliteration": "thygatrásin",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },

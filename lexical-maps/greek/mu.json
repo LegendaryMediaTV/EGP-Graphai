@@ -195,11 +195,10 @@
   "Μαασαιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μαασαιου": {
         "transliteration": "Maasaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -871,11 +870,14 @@
   "Μαδιανίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μαδιανίτῃ": {
         "transliteration": "Madianítē",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "Μαδιανιτῶν": {
+        "transliteration": "Madianitō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -896,17 +898,6 @@
       "Μαδιανῖτιν": {
         "transliteration": "Madianîtin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "Μαδιανιτῶν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μαδιανιτῶν": {
-        "transliteration": "Madianitō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -5253,11 +5244,10 @@
   "Μασεκκα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μασεκκας": {
         "transliteration": "Masekkas",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -5760,7 +5750,7 @@
       },
       "μάστιξ": {
         "transliteration": "mástix",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "μάστιξιν": {
         "transliteration": "mástixin",
@@ -8131,6 +8121,14 @@
     "gender": "masc",
     "indices": { "strongs": "G3175" },
     "inflections": {
+      "μεγιστάν": {
+        "transliteration": "megistán",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "μεγιστᾶνας": {
+        "transliteration": "megistânas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
       "μεγιστᾶνες": {
         "transliteration": "megistânes",
         "cells": [
@@ -8138,41 +8136,21 @@
           { "parse": ["noun", "super", "voc", "pl", "masc"] }
         ]
       },
-      "μεγιστᾶσιν": {
-        "transliteration": "megistâsin",
-        "cells": [{ "parse": ["noun", "super", "dat", "pl", "masc"] }]
-      }
-    }
-  },
-  "μεγιστᾶνες": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "inflections": {
-      "μεγιστάν": {
-        "transliteration": "megistán",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
-      },
-      "μεγιστᾶνας": {
-        "transliteration": "megistânas",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
-      },
-      "μεγιστᾶνες": {
-        "transliteration": "megistânes",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
-      },
       "μεγιστᾶνές": {
         "transliteration": "megistânés",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       },
       "μεγιστᾶνι": {
         "transliteration": "megistâni",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "μεγιστάνων": {
         "transliteration": "megistánōn",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "μεγιστᾶσιν": {
+        "transliteration": "megistâsin",
+        "cells": [{ "parse": ["noun", "super", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -10332,28 +10310,20 @@
           { "parse": ["noun", "indecl-proper", "masc"] },
           { "parse": ["noun", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "Μενελάου": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
+      },
       "Μενελάου": {
         "transliteration": "Meneláou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "Μενεσθεύς": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μενεσθέως": {
         "transliteration": "Menesthéōs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -14826,28 +14796,6 @@
       }
     }
   },
-  "Μηδίαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μηδίαν": {
-        "transliteration": "Mēdían",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "Μηδίας": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μηδίας": {
-        "transliteration": "Mēdías",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Μηδική": {
     "language": "greek",
     "pos": "noun",
@@ -14890,10 +14838,7 @@
       },
       "Μήδων": {
         "transliteration": "Mḗdōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "indecl-proper"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -17030,17 +16975,6 @@
             "indices": { "strongs": "G3415" }
           }
         ]
-      }
-    }
-  },
-  "Μιναῖοι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Μιναίων": {
-        "transliteration": "Minaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -20728,11 +20662,10 @@
   "Μύνδος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μύνδον": {
         "transliteration": "Mýndon",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -21167,11 +21100,10 @@
   "Μυσάρχης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Μυσάρχην": {
         "transliteration": "Mysárchēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -21383,10 +21315,7 @@
       },
       "Μωαβιτῶν": {
         "transliteration": "Mōabitō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "indecl-proper"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -21556,7 +21485,7 @@
       },
       "μώλωψ": {
         "transliteration": "mṓlōps",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },

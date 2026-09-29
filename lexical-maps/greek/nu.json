@@ -231,11 +231,10 @@
   "Ναβαταῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ναβαταίους": {
         "transliteration": "Nabataíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -504,11 +503,10 @@
   "Ναδαβαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ναδαβαίων": {
         "transliteration": "Nadabaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -744,11 +742,10 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
     "inflections": {
       "ναθιναῖοι": {
         "transliteration": "nathinaîoi",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -928,11 +925,10 @@
   "Ναμεσσιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ναμεσσιου": {
         "transliteration": "Namessiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -993,11 +989,10 @@
   "Ναναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ναναίου": {
         "transliteration": "Nanaíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1464,11 +1459,10 @@
   "Ναφισαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ναφισαίων": {
         "transliteration": "Naphisaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -1868,11 +1862,10 @@
   "Νεεμείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Νεεμιου": {
         "transliteration": "Neemiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2125,11 +2118,10 @@
   "Νελαμίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Νελαμίτην": {
         "transliteration": "Nelamítēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -3360,11 +3352,10 @@
   "Νηριας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Νηριου": {
         "transliteration": "Nēriou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -4032,7 +4023,7 @@
     "inflections": {
       "Νινευητῶν": {
         "transliteration": "Nineuētō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       },
       "Νινευῖται": {
         "transliteration": "Nineuîtai",
@@ -5130,11 +5121,10 @@
   "νομοφύλαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "νομοφύλαξ": {
         "transliteration": "nomophýlax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -5840,15 +5830,15 @@
   "νυκτικόραξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
     "inflections": {
       "νυκτικόρακα": {
         "transliteration": "nyktikóraka",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "νυκτικόραξ": {
         "transliteration": "nyktikórax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },

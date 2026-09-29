@@ -3497,11 +3497,10 @@
   "Καιναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Καιναίους": {
         "transliteration": "Kainaíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -5818,11 +5817,10 @@
   "Καλλισθένης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Καλλισθένην": {
         "transliteration": "Kallisthénēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -7439,11 +7437,10 @@
   "Καρία": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Καρίαν": {
         "transliteration": "Karían",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -25415,11 +25412,10 @@
   "Κεδμωναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κεδμωναίους": {
         "transliteration": "Kedmōnaíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -27964,23 +27960,16 @@
       }
     }
   },
-  "Κιναῖοι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Κιναῖοι": {
-        "transliteration": "Kinaîoi",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Κιναῖος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
     "inflections": {
+      "Κιναῖοι": {
+        "transliteration": "Kinaîoi",
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+      },
       "Κιναῖον": {
         "transliteration": "Kinaîon",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -28547,11 +28536,10 @@
   "Κισαιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κισαιου": {
         "transliteration": "Kisaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -28610,11 +28598,10 @@
   "Κιτιαῖοι": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κιτιαίων": {
         "transliteration": "Kitiaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -28640,11 +28627,10 @@
   "Κίτιος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κίτιοι": {
         "transliteration": "Kítioi",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -30359,23 +30345,23 @@
   "κλῖμαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "κλίμακας": {
         "transliteration": "klímakas",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "κλίμακος": {
         "transliteration": "klímakos",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "κλιμάκων": {
         "transliteration": "klimákōn",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       },
       "κλίμαξ": {
         "transliteration": "klímax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -31163,19 +31149,15 @@
   "Κοίλη": {
     "language": "greek",
     "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "Κοίλῃ": {
         "transliteration": "Koílē",
-        "cells": [
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "indecl-proper", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
       },
       "Κοίλης": {
         "transliteration": "Koílēs",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -33383,17 +33365,6 @@
       }
     }
   },
-  "Κονιορτόν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Κονιορτόν": {
-        "transliteration": "Koniortón",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "κονιορτός": {
     "language": "greek",
     "pos": "noun",
@@ -34195,7 +34166,7 @@
       },
       "κόραξ": {
         "transliteration": "kórax",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "κόραξιν": {
         "transliteration": "kóraxin",
@@ -34444,11 +34415,10 @@
   "Κορίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κορῖται": {
         "transliteration": "Korîtai",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -35253,15 +35223,15 @@
   "κόχλαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
     "inflections": {
       "κόχλαξ": {
         "transliteration": "kóchlax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "κόχλαξιν": {
         "transliteration": "kóchlaxin",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -36334,11 +36304,10 @@
   "Κράτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Κράτητα": {
         "transliteration": "Krátēta",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -37108,12 +37077,20 @@
     "declension": "3-cons",
     "indices": { "strongs": "G2912" },
     "inflections": {
+      "Κρῆτας": {
+        "transliteration": "Krē̂tas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
       "Κρῆτες": {
         "transliteration": "Krē̂tes",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "Κρητῶν": {
+        "transliteration": "Krētō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -37126,25 +37103,6 @@
       "Κρήσκης": {
         "transliteration": "Krḗskēs",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "Κρῆτες": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Κρῆτας": {
-        "transliteration": "Krē̂tas",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
-      "Κρῆτες": {
-        "transliteration": "Krē̂tes",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
-      "Κρητῶν": {
-        "transliteration": "Krētō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -40959,7 +40917,7 @@
       },
       "Κυπρίων": {
         "transliteration": "Kypríōn",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },

@@ -314,17 +314,6 @@
       }
     }
   },
-  "Βαβυλωνίαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Βαβυλωνίαν": {
-        "transliteration": "Babylōnían",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Βαβυλώνιος": {
     "language": "greek",
     "pos": "noun",
@@ -1810,11 +1799,10 @@
   "Βακήνωρ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βακήνορος": {
         "transliteration": "Bakḗnoros",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2907,11 +2895,10 @@
   "Βάννας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βαννου": {
         "transliteration": "Bannou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3892,11 +3879,10 @@
   "Βάρτακος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βαρτάκου": {
         "transliteration": "Bartákou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -6775,11 +6761,10 @@
   "Βεέλτεθμος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βεελτεέμῳ": {
         "transliteration": "Beelteémō",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -7203,11 +7188,10 @@
   "Βερεα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βερεαν": {
         "transliteration": "Berean",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -7682,11 +7666,10 @@
   "Βηθλεεμίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βηθλεεμίτην": {
         "transliteration": "Bēthleemítēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -7798,11 +7781,10 @@
   "Βήλιον": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βηλίου": {
         "transliteration": "Bēlíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -10308,10 +10290,6 @@
       "Βοος": {
         "transliteration": "Boos",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      },
-      "Βοός": {
-        "transliteration": "Boós",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },
@@ -10365,11 +10343,10 @@
   "Βορολείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βορολιου": {
         "transliteration": "Boroliou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -10580,11 +10557,10 @@
   "Βοσορρα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βοσορρας": {
         "transliteration": "Bosorras",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -10732,11 +10708,10 @@
   "Βούβαστος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Βουβάστου": {
         "transliteration": "Boubástou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -11661,6 +11636,10 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "βοός": {
+        "transliteration": "boós",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "βοῦν": {
         "transliteration": "boûn",

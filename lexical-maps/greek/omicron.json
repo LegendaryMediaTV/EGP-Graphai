@@ -1050,11 +1050,10 @@
   "Ὀζείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Οζιου": {
         "transliteration": "Oziou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -5687,11 +5686,10 @@
   "Ὀλύμπιος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ὀλυμπίου": {
         "transliteration": "Olympíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -6058,11 +6056,10 @@
   "Ομμαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ομμαίους": {
         "transliteration": "Ommaíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -7132,15 +7129,15 @@
   "ὄμφαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "ὄμφακα": {
         "transliteration": "ómphaka",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "ὄμφαξ": {
         "transliteration": "ómphax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -11320,11 +11317,10 @@
   "Ὀρθωσία": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ὀρθωσίαν": {
         "transliteration": "Orthōsían",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },

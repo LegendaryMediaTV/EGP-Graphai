@@ -2622,11 +2622,10 @@
   "Λασθενής": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Λασθένει": {
         "transliteration": "Lasthénei",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -6989,11 +6988,10 @@
   "Λίβυς": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Λίβυες": {
         "transliteration": "Líbyes",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       },
       "Λιβύων": {
         "transliteration": "Libýōn",
@@ -8035,7 +8033,7 @@
       },
       "λίψ": {
         "transliteration": "líps",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -9624,11 +9622,10 @@
   "Λυδός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Λυδοί": {
         "transliteration": "Lydoí",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -9678,7 +9675,7 @@
     "inflections": {
       "Λυκίαν": {
         "transliteration": "Lykían",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Λυκίας": {
         "transliteration": "Lykías",

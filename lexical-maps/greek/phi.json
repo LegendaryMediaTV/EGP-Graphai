@@ -608,27 +608,26 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "declension": "indeclinable",
     "inflections": {
       "φάλαγγα": {
         "transliteration": "phálanga",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "φάλαγγας": {
         "transliteration": "phálangas",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "φάλαγγος": {
         "transliteration": "phálangos",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "φάλαγξ": {
         "transliteration": "phálanx",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "φάλαγξιν": {
         "transliteration": "phálanxin",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       }
     }
   },
@@ -1778,29 +1777,22 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
     "inflections": {
       "φάρυγγα": {
         "transliteration": "phárynga",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φάρυγγά": {
         "transliteration": "pháryngá",
-        "cells": [
-          { "parse": ["noun", "indecl-other", "fem"] },
-          { "parse": ["noun", "indecl-other", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φάρυγγος": {
         "transliteration": "pháryngos",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "φάρυγξ": {
         "transliteration": "phárynx",
-        "cells": [
-          { "parse": ["noun", "indecl-other", "fem"] },
-          { "parse": ["noun", "indecl-other", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -1869,11 +1861,10 @@
   "Φασῆλις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Φασηλίδα": {
         "transliteration": "Phasēlída",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -7249,11 +7240,10 @@
   "Φοινικών": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Φοινικῶνος": {
         "transliteration": "Phoinikō̂nos",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -7289,7 +7279,7 @@
       },
       "φοῖνιξ": {
         "transliteration": "phoînix",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -7312,11 +7302,10 @@
   "Φοίνισσα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Φοινίσσης": {
         "transliteration": "Phoiníssēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -9217,11 +9206,10 @@
   "Φρύξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Φρύγα": {
         "transliteration": "Phrýga",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -9577,7 +9565,7 @@
       },
       "φύλαξ": {
         "transliteration": "phýlax",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },

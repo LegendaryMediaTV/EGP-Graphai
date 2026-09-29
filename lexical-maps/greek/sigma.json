@@ -853,11 +853,10 @@
   "Σάις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σάιν": {
         "transliteration": "Sáin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -2008,11 +2007,10 @@
   "Σαμαραῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σαμαραῖον": {
         "transliteration": "Samaraîon",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -2095,7 +2093,7 @@
       },
       "Σαμαρῖται": {
         "transliteration": "Samarîtai",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -2967,15 +2965,14 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
     "inflections": {
       "σαράβαρα": {
         "transliteration": "sarábara",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "neut"] }]
       },
       "σαραβάροις": {
         "transliteration": "sarabárois",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       }
     }
   },
@@ -3994,11 +3991,10 @@
   "Σαυχαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σαυχαίων": {
         "transliteration": "Sauchaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -5442,11 +5438,10 @@
   "Σελεμιος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σελεμιου": {
         "transliteration": "Selemiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -5474,7 +5469,7 @@
       },
       "Σελευκείας": {
         "transliteration": "Seleukeías",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -6308,11 +6303,10 @@
   "Σερεβιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σερεβιαν": {
         "transliteration": "Serebian",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -7595,11 +7589,10 @@
   "Σίδη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σίδην": {
         "transliteration": "Sídēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -7930,11 +7923,10 @@
   "Σικιμῖται": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σικιμίτας": {
         "transliteration": "Sikimítas",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -8017,11 +8009,10 @@
   "Σικυών": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σικυῶνα": {
         "transliteration": "Sikyō̂na",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -9181,14 +9172,14 @@
       }
     }
   },
-  "σκεπάρνῳ": {
+  "σκέπαρνον": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "neut",
     "inflections": {
       "σκεπάρνῳ": {
         "transliteration": "skepárnō",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       }
     }
   },
@@ -9916,14 +9907,14 @@
       }
     }
   },
-  "σκληρίαν": {
+  "σκληρία": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "σκληρίαν": {
         "transliteration": "sklērían",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -11085,7 +11076,7 @@
       },
       "Σκυθῶν": {
         "transliteration": "Skythō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -11681,15 +11672,15 @@
   "σμῖλαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "σμίλακά": {
         "transliteration": "smílaká",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "σμῖλαξ": {
         "transliteration": "smîlax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -11876,11 +11867,10 @@
   "Σοδομίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σοδομῖται": {
         "transliteration": "Sodomîtai",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -11899,11 +11889,10 @@
   "Σοήνη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σοήνην": {
         "transliteration": "Soḗnēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -12392,11 +12381,10 @@
   "Σουδίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σουδιου": {
         "transliteration": "Soudiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -12656,11 +12644,10 @@
   "Σουσίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σουσίτου": {
         "transliteration": "Sousítou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -13081,7 +13068,7 @@
       },
       "Σπανίας": {
         "transliteration": "Spanías",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -13238,18 +13225,16 @@
   "Σπάρτη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σπάρτης": {
         "transliteration": "Spártēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
   "Σπαρτιᾶται": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Σπαρτιᾶται": {
         "transliteration": "Spartiâtai",
@@ -13257,15 +13242,15 @@
       },
       "Σπαρτιάταις": {
         "transliteration": "Spartiátais",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "Σπαρτιάτας": {
         "transliteration": "Spartiátas",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "Σπαρτιατῶν": {
         "transliteration": "Spartiatō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -15459,31 +15444,33 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
     "inflections": {
       "στέαρ": {
         "transliteration": "stéar",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
+        ]
       },
       "στέασιν": {
         "transliteration": "stéasin",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "στέατα": {
         "transliteration": "stéata",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
       },
       "στέατι": {
         "transliteration": "stéati",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "στέατος": {
         "transliteration": "stéatos",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       },
       "στεάτων": {
         "transliteration": "steátōn",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -18266,11 +18253,11 @@
   "στρατοκῆρυξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
     "inflections": {
       "στρατοκῆρυξ": {
         "transliteration": "stratokē̂ryx",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -18618,10 +18605,6 @@
     "shortDefinition": "to turn (around)",
     "indices": { "strongs": "G4762" },
     "inflections": {
-      "ἐπόστρεψεν": {
-        "transliteration": "epóstrepsen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
       "ἐστράφη": {
         "transliteration": "estráphē",
         "cells": [
@@ -34707,17 +34690,6 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "Σύρων": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Σύρων": {
-        "transliteration": "Sýrōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },

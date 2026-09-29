@@ -141,11 +141,10 @@
   "Γαβαήλος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γαβαήλῳ": {
         "transliteration": "Gabaḗlō",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -1631,11 +1630,10 @@
   "Γαμαριος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γαμαριου": {
         "transliteration": "Gamariou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2346,11 +2344,10 @@
   "Γεβωθίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γεβωθίτου": {
         "transliteration": "Gebōthítou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2491,14 +2488,16 @@
       }
     }
   },
-  "Γεδωρίτη": {
+  "Γεδωρίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γεδωρίτης": {
         "transliteration": "Gedōrítēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -3041,11 +3040,10 @@
   "Γελωνίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γελωνίτου": {
         "transliteration": "Gelōnítou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -4308,11 +4306,10 @@
   "Γερρηνοί": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γερρηνῶν": {
         "transliteration": "Gerrēnō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -4864,13 +4861,6 @@
       "Γηρα": {
         "transliteration": "Gēra",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      },
-      "Γήρᾳ": {
-        "transliteration": "Gḗra",
-        "cells": [
-          { "parse": ["noun", "indecl-proper", "masc"] },
-          { "parse": ["noun", "indecl-proper", "neut"] }
-        ]
       }
     }
   },
@@ -8606,11 +8596,10 @@
   "Γοθολίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γοθολιου": {
         "transliteration": "Gotholiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -9005,11 +8994,10 @@
   "Γόρτυνα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Γόρτυναν": {
         "transliteration": "Górtynan",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -10353,23 +10341,22 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
     "inflections": {
       "γύπα": {
         "transliteration": "gýpa",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "γυπός": {
         "transliteration": "gypós",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "γύψ": {
         "transliteration": "gýps",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "γυψίν": {
         "transliteration": "gypsín",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },

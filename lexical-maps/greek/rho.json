@@ -411,11 +411,10 @@
   "Ραγουῆλος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ραγουήλου": {
         "transliteration": "Ragouḗlou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2351,11 +2350,10 @@
   "Ρησαίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ρησαιου": {
         "transliteration": "Rēsaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3132,21 +3130,6 @@
       }
     }
   },
-  "Ῥόδιοι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Ῥόδιοι": {
-        "transliteration": "Rhódioi",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
-      "Ῥοδίων": {
-        "transliteration": "Rhodíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Ῥόδιος": {
     "language": "greek",
     "pos": "noun",
@@ -3159,6 +3142,10 @@
           { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "Ῥοδίων": {
+        "transliteration": "Rhodíōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -4350,19 +4337,18 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
     "inflections": {
       "ῥῶγας": {
         "transliteration": "rhō̂gas",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "ῥῶγες": {
         "transliteration": "rhō̂ges",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       },
       "ῥώξ": {
         "transliteration": "rhṓx",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },

@@ -8152,7 +8152,7 @@
         "text": " Σικιμίτας",
         "script": "G",
         "transliteration": " Sikimítas",
-        "morph": "N-PRI",
+        "morph": "N-APM",
         "lemma": "Σικιμῖται"
       },
       {
@@ -12312,7 +12312,7 @@
         "text": " Ἀπολλώνιος",
         "script": "G",
         "transliteration": " Apollṓnios",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀπολλώνιος"
       },
       {
@@ -12985,7 +12985,7 @@
         "text": " Ἀπολλώνιος",
         "script": "G",
         "transliteration": " Apollṓnios",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀπολλώνιος"
       },
       {
@@ -13445,7 +13445,7 @@
         "text": " Ἀπολλώνιος",
         "script": "G",
         "transliteration": " Apollṓnios",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀπολλώνιος"
       },
       {
@@ -13844,7 +13844,7 @@
         "text": " Ονιας",
         "script": "G",
         "transliteration": " Onias",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ονιας"
       },
       {
@@ -13923,7 +13923,7 @@
         "text": " Σέλευκος",
         "script": "G",
         "transliteration": " Séleukos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Σέλευκος"
       },
       {
@@ -16189,7 +16189,7 @@
         "text": " Ελεαζαρος,",
         "script": "G",
         "transliteration": " Eleazaros,",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἐλεάζαρος"
       },
       {
@@ -17756,7 +17756,7 @@
         "text": " Ελεαζαρος",
         "script": "G",
         "transliteration": " Eleazaros",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἐλεάζαρος"
       }
     ]
@@ -20892,7 +20892,7 @@
         "text": " Ελεαζαρος",
         "script": "G",
         "transliteration": " Eleazaros",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἐλεάζαρος"
       },
       {
@@ -22187,7 +22187,7 @@
         "text": " Ελεαζαρος",
         "script": "G",
         "transliteration": " Eleazaros",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἐλεάζαρος"
       },
       {
@@ -35445,7 +35445,7 @@
         "text": " ὄνυξιν",
         "script": "G",
         "transliteration": " ónyxin",
-        "morph": "N-OI",
+        "morph": "N-DPM",
         "lemma": "ὄνυξ"
       },
       {
@@ -44868,7 +44868,7 @@
         "text": " Ἀσσυρίας",
         "script": "G",
         "transliteration": " Assyrías",
-        "morph": "N-PRI",
+        "morph": "N-GSF",
         "lemma": "Ἀσσυρία"
       },
       {
@@ -52750,9 +52750,21 @@
         "lemma": "σύ"
       },
       {
-        "text": " πρωτοτόκος",
+        "text": " πρωτότοκος",
         "script": "G",
-        "transliteration": " prōtotókos",
+        "transliteration": " prōtótokos",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "πρωτοτόκος",
+              "script": "G",
+              "transliteration": "prōtotókos"
+            },
+            "."
+          ]
+        },
         "strong": "G4416",
         "morph": "A-NSM-S",
         "lemma": "πρωτότοκος"
@@ -54657,7 +54669,7 @@
         "text": " νομοφύλαξ",
         "script": "G",
         "transliteration": " nomophýlax",
-        "morph": "N-OI",
+        "morph": "N-NSF",
         "lemma": "νομοφύλαξ"
       },
       {
@@ -57894,7 +57906,7 @@
         "text": " Αζαριας",
         "script": "G",
         "transliteration": " Azarias",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀζαρίας"
       },
       {
@@ -64800,7 +64812,7 @@
         "text": " Αβρααμίτιδος",
         "script": "G",
         "transliteration": " Abraamítidos",
-        "morph": "N-PRI",
+        "morph": "N-GSF",
         "lemma": "Ἀβρααμίτις"
       }
     ]

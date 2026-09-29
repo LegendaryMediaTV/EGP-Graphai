@@ -42,19 +42,22 @@
   "ἔαρ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "neut",
     "inflections": {
       "ἔαρ": {
         "transliteration": "éar",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
+        ]
       },
       "ἔαρι": {
         "transliteration": "éari",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "ἔαρος": {
         "transliteration": "éaros",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -2328,11 +2331,13 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
     "inflections": {
       "ἔγκατα": {
         "transliteration": "énkata",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] }
+        ]
       }
     }
   },
@@ -4537,11 +4542,10 @@
   "Ἐζερίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Εζεριου": {
         "transliteration": "Ezeriou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -4560,11 +4564,10 @@
   "Εζραΐτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Εζραίτην": {
         "transliteration": "Ezraítēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -19280,17 +19283,6 @@
       }
     }
   },
-  "ἐλαίαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "ἐλαίαν": {
-        "transliteration": "elaían",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "ἐλάϊνος": {
     "language": "greek",
     "pos": "adj",
@@ -21409,17 +21401,6 @@
       }
     }
   },
-  "ἐλέφαντι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "ἐλέφαντι": {
-        "transliteration": "eléphanti",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "ἐλεφάντινος": {
     "language": "greek",
     "pos": "adj",
@@ -21490,6 +21471,10 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "ἐλέφαντι": {
+        "transliteration": "eléphanti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
       "ἐλέφαντος": {
         "transliteration": "eléphantos",
@@ -22810,7 +22795,7 @@
     "inflections": {
       "Ἑλληνίδας": {
         "transliteration": "Hellēnídas",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "Ἑλληνίδων": {
         "transliteration": "Hellēnídōn",
@@ -22825,11 +22810,10 @@
   "Ἑλληνισμός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ἑλληνισμοῦ": {
         "transliteration": "Hellēnismoû",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -23307,25 +23291,13 @@
       }
     }
   },
-  "Ἐλυμαΐδα": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Ἐλυμαίδα": {
-        "transliteration": "Elymaída",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Ἐλυμαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ἐλυμαίων": {
         "transliteration": "Elymaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -28686,19 +28658,18 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
     "inflections": {
       "ἐνδόσθια": {
         "transliteration": "endósthia",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
       },
       "ἐνδοσθίοις": {
         "transliteration": "endosthíois",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ἐνδοσθίων": {
         "transliteration": "endosthíōn",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -63639,11 +63610,10 @@
   "Εσδρις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Εσδριν": {
         "transliteration": "Esdrin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -63688,11 +63658,10 @@
   "Εσεβωνείτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Εσεβωνίτας": {
         "transliteration": "Esebōnítas",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -63722,11 +63691,10 @@
   "Εσελιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Εσελιου": {
         "transliteration": "Eseliou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },

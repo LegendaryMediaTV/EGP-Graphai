@@ -8188,7 +8188,7 @@
         "script": "G",
         "transliteration": " ánthrax",
         "strong": "G440",
-        "morph": "N-OI",
+        "morph": "N-NSM",
         "lemma": "ἄνθραξ"
       },
       {
@@ -8493,7 +8493,7 @@
         "script": "G",
         "transliteration": " Euphrátēs.",
         "strong": "G2166",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Εὐφράτης"
       }
     ]
@@ -15930,7 +15930,7 @@
         "text": " στεάτων",
         "script": "G",
         "transliteration": " steátōn",
-        "morph": "N-OI",
+        "morph": "N-GPN",
         "lemma": "στέαρ"
       },
       {
@@ -16912,7 +16912,7 @@
         "script": "G",
         "transliteration": " phýlax",
         "strong": "G5441",
-        "morph": "N-OI",
+        "morph": "N-NSM",
         "lemma": "φύλαξ"
       },
       {
@@ -36632,7 +36632,7 @@
         "text": " ἔαρ",
         "script": "G",
         "transliteration": " éar",
-        "morph": "N-OI",
+        "morph": "N-NSN",
         "lemma": "ἔαρ"
       },
       {
@@ -41798,7 +41798,7 @@
         "text": " Κίτιοι,",
         "script": "G",
         "transliteration": " Kítioi,",
-        "morph": "N-PRI",
+        "morph": "N-NPM",
         "lemma": "Κίτιος"
       },
       {
@@ -43281,7 +43281,7 @@
         "text": " Αρουκαῖον",
         "script": "G",
         "transliteration": " Aroukaîon",
-        "morph": "N-PRI",
+        "morph": "N-ASM",
         "lemma": "Αρουκαῖος"
       },
       {
@@ -43304,7 +43304,7 @@
         "text": " Ασενναῖον",
         "script": "G",
         "transliteration": " Asennaîon",
-        "morph": "N-PRI",
+        "morph": "N-ASM",
         "lemma": "Ασενναῖος"
       }
     ]
@@ -43357,7 +43357,7 @@
         "text": " Σαμαραῖον",
         "script": "G",
         "transliteration": " Samaraîon",
-        "morph": "N-PRI",
+        "morph": "N-ASM",
         "lemma": "Σαμαραῖος"
       },
       {
@@ -57768,7 +57768,7 @@
         "text": " Ομμαίους",
         "script": "G",
         "transliteration": " Ommaíous",
-        "morph": "N-PRI",
+        "morph": "N-APM",
         "lemma": "Ομμαῖος"
       },
       {
@@ -61572,7 +61572,7 @@
         "script": "G",
         "transliteration": " Damaskòs",
         "strong": "G1154",
-        "morph": "N-PRI",
+        "morph": "N-NSF",
         "lemma": "Δαμασκός"
       },
       {
@@ -63991,7 +63991,7 @@
         "text": " Καιναίους",
         "script": "G",
         "transliteration": " Kainaíous",
-        "morph": "N-PRI",
+        "morph": "N-APM",
         "lemma": "Καιναῖος"
       },
       {
@@ -64037,7 +64037,7 @@
         "text": " Κεδμωναίους",
         "script": "G",
         "transliteration": " Kedmōnaíous",
-        "morph": "N-PRI",
+        "morph": "N-APM",
         "lemma": "Κεδμωναῖος"
       }
     ]
@@ -78194,7 +78194,7 @@
         "text": " Σοδομῖται",
         "script": "G",
         "transliteration": " Sodomîtai",
-        "morph": "N-PRI",
+        "morph": "N-NPM",
         "lemma": "Σοδομίτης"
       },
       {
@@ -84708,7 +84708,7 @@
         "text": " Μωαβιτῶν",
         "script": "G",
         "transliteration": " Mōabitō̂n",
-        "morph": "N-PRI",
+        "morph": "N-GPM",
         "lemma": "Μωαβίτης"
       },
       {
@@ -100041,7 +100041,7 @@
         "text": " Χετταῖος",
         "script": "G",
         "transliteration": " Chettaîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Χετταῖος"
       },
       {
@@ -136762,7 +136762,7 @@
         "text": " κλίμαξ",
         "script": "G",
         "transliteration": " klímax",
-        "morph": "N-OI",
+        "morph": "N-NSF",
         "lemma": "κλῖμαξ"
       },
       {
@@ -162310,8 +162310,9 @@
         "text": " θυγατράσιν",
         "script": "G",
         "transliteration": " thygatrásin",
-        "morph": "N-OI",
-        "lemma": "θυγατράσιν"
+        "strong": "G2364",
+        "morph": "N-DPF",
+        "lemma": "θυγάτηρ"
       },
       {
         "text": " μου,",
@@ -172462,7 +172463,7 @@
         "text": " Χορραῖος",
         "script": "G",
         "transliteration": " Chorraîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Χορραῖος"
       },
       {
@@ -185295,7 +185296,7 @@
         "script": "G",
         "transliteration": " Idoumaía;",
         "strong": "G2401",
-        "morph": "N-PRI",
+        "morph": "N-DSF",
         "lemma": "Ἰδουμαία"
       },
       {
@@ -196874,7 +196875,7 @@
         "text": " Οδολλαμίτης,",
         "script": "G",
         "transliteration": " Odollamítēs,",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Οδολλαμίτης"
       },
       {
@@ -204697,7 +204698,7 @@
         "text": " ἀρχιδεσμοφύλακος,",
         "script": "G",
         "transliteration": " archidesmophýlakos,",
-        "morph": "N-OI",
+        "morph": "N-GSM",
         "lemma": "ἀρχιδεσμοφύλαξ"
       }
     ]
@@ -204735,7 +204736,7 @@
         "text": " ἀρχιδεσμοφύλαξ",
         "script": "G",
         "transliteration": " archidesmophýlax",
-        "morph": "N-OI",
+        "morph": "N-NSM",
         "lemma": "ἀρχιδεσμοφύλαξ"
       },
       {
@@ -204917,7 +204918,7 @@
         "text": " ἀρχιδεσμοφύλαξ",
         "script": "G",
         "transliteration": " archidesmophýlax",
-        "morph": "N-OI",
+        "morph": "N-NSM",
         "lemma": "ἀρχιδεσμοφύλαξ"
       },
       {
@@ -246336,7 +246337,7 @@
         "text": " Σύρα,",
         "script": "G",
         "transliteration": " Sýra,",
-        "morph": "N-PRI",
+        "morph": "N-NSF",
         "lemma": "Σύρα"
       },
       {
@@ -261171,7 +261172,7 @@
         "text": " ἥπατά",
         "script": "G",
         "transliteration": " hḗpatá",
-        "morph": "N-OI",
+        "morph": "N-APN",
         "lemma": "ἧπαρ"
       },
       {

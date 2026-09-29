@@ -1467,17 +1467,6 @@
       }
     }
   },
-  "Δαρεῖον": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Δαρεῖον": {
-        "transliteration": "Dareîon",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Δαρεῖος": {
     "language": "greek",
     "pos": "noun",
@@ -1485,6 +1474,10 @@
       "Δαρεῖε": {
         "transliteration": "Dareîe",
         "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
+      },
+      "Δαρεῖον": {
+        "transliteration": "Dareîon",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Δαρεῖος": {
         "transliteration": "Dareîos",
@@ -1639,11 +1632,10 @@
   "Δάφνη": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Δάφνης": {
         "transliteration": "Dáphnēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -4423,11 +4415,10 @@
   "Δεσσαος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Δεσσαου": {
         "transliteration": "Dessaou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -20651,11 +20642,10 @@
   "Διόσπολις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Διοσπόλει": {
         "transliteration": "Diospólei",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -21103,11 +21093,11 @@
   "δίφραξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "fem",
     "inflections": {
       "δίφραξ": {
         "transliteration": "díphrax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -21923,23 +21913,22 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "declension": "indeclinable",
     "inflections": {
       "διώρυγας": {
         "transliteration": "diṓrygas",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "διώρυγες": {
         "transliteration": "diṓryges",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
       },
       "διώρυγος": {
         "transliteration": "diṓrygos",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "διῶρυξ": {
         "transliteration": "diō̂ryx",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -23536,11 +23525,10 @@
   "Δορυμένης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Δορυμένους": {
         "transliteration": "Doryménous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -24284,23 +24272,22 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "declension": "indeclinable",
     "inflections": {
       "δράκα": {
         "transliteration": "dráka",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "δράκας": {
         "transliteration": "drákas",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "δρακί": {
         "transliteration": "drakí",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "δρακός": {
         "transliteration": "drakós",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "δρακῶν": {
         "transliteration": "drakō̂n",
@@ -24308,7 +24295,7 @@
       },
       "δράξ": {
         "transliteration": "dráx",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -24497,11 +24484,10 @@
   "Δρίμυλος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Δριμύλου": {
         "transliteration": "Drimýlou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -26447,11 +26433,10 @@
   "Δύστρος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Δύστρου": {
         "transliteration": "Dýstrou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },

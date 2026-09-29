@@ -36,11 +36,10 @@
   "Ζαβαδαῖοι": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Ζαβαδαίους": {
         "transliteration": "Zabadaíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -357,7 +356,7 @@
       },
       "Ζακχαῖον": {
         "transliteration": "Zakchaîon",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Ζακχαῖος": {
         "transliteration": "Zakchaîos",

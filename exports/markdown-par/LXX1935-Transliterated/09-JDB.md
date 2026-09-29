@@ -613,13 +613,15 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>23</sup> Kaì epéstrepsan tò prósōpon autō̂n hyioì Dan kaì eîpan tō̂ Michaia Tí estín soi, hóti ebóēsas?
 <sup>24</sup> Kaì eîpen Michaias Hóti tò glyptón mou, hò epoíēsa, elábete kaì tòn hieréa kaì eporeúthēte; kaì tí emoì éti? Kaì tí toûto légete prós me Tí krázeis?
 <sup>25</sup> Kaì eîpon pròs autòn hoi hyioì Dan Mḕ akousthḗtō dḕ phōnḗ sou meth’ hēmō̂n, mḗpote synantḗsōsin en hēmîn ándres pikroì psychē̂ kaì prosthḗsousin psychḕn kaì tḕn psychḕn toû oíkou sou.
-<sup>26</sup> Kaì eporeúthēsan hoi hyioì Dan eis hodòn autō̂n; kaì eîden Michaias hóti dynatṓteroí eisin hypèr autón, kaì epóstrepsen eis tòn oîkon autoû.
+<sup>26</sup> Kaì eporeúthēsan hoi hyioì Dan eis hodòn autō̂n; kaì eîden Michaias hóti dynatṓteroí eisin hypèr autón, kaì epéstrepsen<sup>a</sup> eis tòn oîkon autoû.
 
 <sup>27</sup> Kaì hoi hyioì Dan élabon hò epoíēsen Michaias, kaì tòn hieréa, hòs ē̂n autō̂, kaì ē̂lthon epì Laisa epì laòn hēsycházonta kaì pepoithóta ep’ elpídi kaì epátaxan autoùs en stómati rhomphaías kaì tḕn pólin enéprēsan en pyrí;
 <sup>28</sup> kaì ouk ē̂n ho rhyómenos, hóti makrán estin apò Sidōníōn, kaì lógos ouk éstin autoîs metà anthrṓpou, kaì autḕ en tē̂ koiládi toû oíkou Raab. Kaì ōkodómēsan tḕn pólin kaì kateskḗnōsan en autē̂
 <sup>29</sup> kaì ekálesan tò ónoma tē̂s póleōs Dan en onómati Dan patròs autō̂n, hòs etéchthē tō̂ Israēl; kaì Oulamais tò ónoma tē̂s póleōs tò próteron.
 <sup>30</sup> Kaì éstēsan heautoîs hoi hyioì Dan tò glyptón; kaì Iōnatham hyiòs Gērsom hyiòs Manassē, autòs kaì hoi hyioì autoû ē̂san hiereîs tē̂ phylē̂ Dan héōs hēméras apoikías tē̂s gē̂s.
 <sup>31</sup> Kaì éthēkan autoîs tò glyptón, hò epoíēsen Michaias, pásas tàs hēméras, hàs ē̂n ho oîkos toû theoû en Sēlōm.
+
+> - <sup>a</sup> 26. Corrected from epóstrepsen.
 
 ## Chapter 19
 

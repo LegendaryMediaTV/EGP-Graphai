@@ -4316,7 +4316,7 @@
         "text": " Ιεβουσαῖος",
         "script": "G",
         "transliteration": " Iebousaîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ιεβουσαῖος"
       },
       {
@@ -5843,7 +5843,7 @@
         "script": "G",
         "transliteration": " Chananaîos",
         "strong": "G5478",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Χαναναῖος"
       },
       {
@@ -6137,7 +6137,7 @@
         "script": "G",
         "transliteration": " Chananaîos",
         "strong": "G5478",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Χαναναῖος"
       },
       {
@@ -6335,7 +6335,7 @@
         "script": "G",
         "transliteration": " Chananaîos",
         "strong": "G5478",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Χαναναῖος"
       },
       {
@@ -7138,7 +7138,7 @@
         "text": " Αμορραῖος",
         "script": "G",
         "transliteration": " Amorraîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀμορραῖος"
       },
       {
@@ -7286,7 +7286,7 @@
         "text": " Αμορραῖος",
         "script": "G",
         "transliteration": " Amorraîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Ἀμορραῖος"
       },
       {
@@ -16644,7 +16644,7 @@
         "text": " στέαρ",
         "script": "G",
         "transliteration": " stéar",
-        "morph": "N-OI",
+        "morph": "N-ASN",
         "lemma": "στέαρ"
       },
       {
@@ -20881,7 +20881,7 @@
         "text": " Κιναῖος",
         "script": "G",
         "transliteration": " Kinaîos",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Κιναῖος"
       },
       {
@@ -64363,7 +64363,7 @@
         "text": " Γαλααδίτης",
         "script": "G",
         "transliteration": " Galaadítēs",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Γαλααδίτης"
       },
       {
@@ -74268,7 +74268,7 @@
         "text": " Γαλααδίτης",
         "script": "G",
         "transliteration": " Galaadítēs",
-        "morph": "N-PRI",
+        "morph": "N-NSM",
         "lemma": "Γαλααδίτης"
       },
       {
@@ -105244,12 +105244,24 @@
         "lemma": "καί"
       },
       {
-        "text": " ἐπόστρεψεν",
+        "text": " ἐπέστρεψεν",
         "script": "G",
-        "transliteration": " epóstrepsen",
-        "strong": "G4762",
+        "transliteration": " epéstrepsen",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            {
+              "text": "ἐπόστρεψεν",
+              "script": "G",
+              "transliteration": "epóstrepsen"
+            },
+            "."
+          ]
+        },
+        "strong": "G1994",
         "morph": "V-AAI-3S",
-        "lemma": "στρέφω"
+        "lemma": "ἐπιστρέφω"
       },
       {
         "text": " εἰς",

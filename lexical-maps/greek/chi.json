@@ -1449,11 +1449,10 @@
   "Χανουναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Χανουναιου": {
         "transliteration": "Chanounaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1653,6 +1652,10 @@
     "gender": "masc",
     "indices": { "strongs": "G5482" },
     "inflections": {
+      "χάρακα": {
+        "transliteration": "cháraka",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "χάρακά": {
         "transliteration": "cháraká",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -3388,11 +3391,10 @@
   "Χελκείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
     "inflections": {
       "Χελκιου": {
         "transliteration": "Chelkiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -7657,7 +7659,7 @@
     "inflections": {
       "χρώς": {
         "transliteration": "chrṓs",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "χρῶτα": {
         "transliteration": "chrō̂ta",
