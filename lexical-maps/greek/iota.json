@@ -738,8 +738,7 @@
         "transliteration": "Iamneías",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
+          { "parse": ["noun", "gen", "sg", "fem"] }
         ]
       }
     }
@@ -3088,10 +3087,7 @@
       },
       "Ιεζραηλίτιδος": {
         "transliteration": "Iezraēlítidos",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "Ιεζραηλῖτις": {
         "transliteration": "Iezraēlîtis",
@@ -4485,10 +4481,7 @@
     "inflections": {
       "ἱεροσυλημάτων": {
         "transliteration": "hierosylēmátōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -4640,7 +4633,6 @@
       "ἱερώματα": {
         "transliteration": "hierṓmata",
         "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
@@ -5756,10 +5748,7 @@
     "inflections": {
       "ἰκμάδα": {
         "transliteration": "ikmáda",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -5794,27 +5783,15 @@
     "inflections": {
       "ἴκτερον": {
         "transliteration": "íkteron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ἴκτερος": {
         "transliteration": "íkteros",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "ἰκτέρῳ": {
         "transliteration": "iktérō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -5977,10 +5954,7 @@
       },
       "ἱλάσθητι": {
         "transliteration": "hilásthēti",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
       },
       "ἱλάσθητί": {
         "transliteration": "hilásthētí",
@@ -6009,12 +5983,7 @@
       },
       "ἱλασμόν": {
         "transliteration": "hilasmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ἱλασμός": {
         "transliteration": "hilasmós",
@@ -6292,10 +6261,7 @@
       },
       "ἱμᾶσι": {
         "transliteration": "himâsi",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "ἱμᾶσιν": {
         "transliteration": "himâsin",
@@ -6469,13 +6435,12 @@
     "inflections": {
       "ἰνδάλμασιν": {
         "transliteration": "indálmasin",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ἰνδάλματα": {
         "transliteration": "indálmata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
         ]
@@ -8143,10 +8108,7 @@
       },
       "ἰσότητα": {
         "transliteration": "isótēta",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "ἰσότητι": {
         "transliteration": "isótēti",
@@ -8780,6 +8742,12 @@
         "transliteration": "histō̂men",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }]
       },
+      "ἱστῶν": {
+        "transliteration": "histō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ἱστῶσιν": {
         "transliteration": "histō̂sin",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
@@ -9271,10 +9239,7 @@
       },
       "ἱστῶν": {
         "transliteration": "histō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9701,7 +9666,6 @@
               "second"
             ]
           },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
@@ -9887,10 +9851,7 @@
       },
       "ἰσχύσομεν": {
         "transliteration": "ischýsomen",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
       "ἰσχύσουσιν": {
         "transliteration": "ischýsousin",
@@ -9898,10 +9859,7 @@
       },
       "ἰσχύω": {
         "transliteration": "ischýō",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
       "ἰσχύων": {
         "transliteration": "ischýōn",
@@ -10177,7 +10135,6 @@
       "ἴχνευον": {
         "transliteration": "íchneuon",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
@@ -11116,20 +11073,13 @@
     "inflections": {
       "Ιωριβον": {
         "transliteration": "Iōribon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Ιωριβος": {
         "transliteration": "Iōribos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -11261,20 +11211,13 @@
     "inflections": {
       "Ιωσηπον": {
         "transliteration": "Iōsēpon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Ιωσηπος": {
         "transliteration": "Iōsēpos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }

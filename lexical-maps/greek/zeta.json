@@ -926,6 +926,10 @@
           { "parse": ["verb", "pres", "act", "subj", "pers-2", "pl"] }
         ]
       },
+      "ζήτω": {
+        "transliteration": "zḗtō",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
+      },
       "ζῶ": {
         "transliteration": "zō̂",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
@@ -1539,10 +1543,7 @@
       },
       "ἐζήλωκα": {
         "transliteration": "ezḗlōka",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "plup", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
       },
       "ἐζήλωσα": {
         "transliteration": "ezḗlōsa",
@@ -1555,10 +1556,6 @@
       "ἐζήλωσεν": {
         "transliteration": "ezḗlōsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "ζήλει": {
-        "transliteration": "zḗlei",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "ζηλοῖ": {
         "transliteration": "zēloî",
@@ -1714,10 +1711,7 @@
       },
       "ζηλωτήν": {
         "transliteration": "zēlōtḗn",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ζηλωτής": {
         "transliteration": "zēlōtḗs",
@@ -2166,14 +2160,6 @@
         "transliteration": "zētō̂",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
-      "ζήτω": {
-        "transliteration": "zḗtō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }
-        ]
-      },
       "ζητῶν": {
         "transliteration": "zētō̂n",
         "cells": [
@@ -2473,11 +2459,8 @@
       "ζυγοί": {
         "transliteration": "zygoí",
         "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
+          { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "ζυγοῖς": {
@@ -2703,10 +2686,7 @@
     "inflections": {
       "ζωγρείαν": {
         "transliteration": "zōgreían",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -2909,7 +2889,6 @@
         "transliteration": "zō̂sai",
         "cells": [
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
@@ -2965,10 +2944,7 @@
     "inflections": {
       "ἐζωογόνει": {
         "transliteration": "ezōogónei",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐζωογονεῖτε": {
         "transliteration": "ezōogoneîte",
@@ -2976,7 +2952,7 @@
       },
       "ἐζωογονήκειτε": {
         "transliteration": "ezōogonḗkeite",
-        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
+        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-2", "pl"] }]
       },
       "ἐζωογονήσατε": {
         "transliteration": "ezōogonḗsate",

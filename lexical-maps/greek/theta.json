@@ -253,10 +253,7 @@
     "inflections": {
       "θαλάμοις": {
         "transliteration": "thalámois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -341,11 +338,7 @@
     "inflections": {
       "θαλλῶν": {
         "transliteration": "thallō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -411,7 +404,6 @@
       "θάλπουσα": {
         "transliteration": "thálpousa",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "fem"] }
         ]
@@ -545,7 +537,7 @@
   "θάμβος": {
     "language": "greek",
     "pos": "noun",
-    "gender": "neut",
+    "gender": ["masc", "neut"],
     "declension": "3n-es",
     "indices": { "strongs": "G2285" },
     "inflections": {
@@ -821,7 +813,6 @@
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] }
         ]
@@ -1037,19 +1028,11 @@
       },
       "θανάτωσόν": {
         "transliteration": "thanátōsón",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
       },
       "θανατώσουσιν": {
         "transliteration": "thanatṓsousin",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "θανατώσω": {
         "transliteration": "thanatṓsō",
@@ -1568,22 +1551,6 @@
         "cells": [
           {
             "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"],
-            "indices": { "strongs": "G2292" }
-          },
-          {
-            "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"],
-            "indices": { "strongs": "G2292" }
-          },
-          {
-            "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"],
-            "indices": { "strongs": "G2292" }
-          },
-          {
-            "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"],
-            "indices": { "strongs": "G2292" }
-          },
-          {
-            "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"],
             "indices": { "strongs": "G2292" }
           }
         ]
@@ -2190,7 +2157,6 @@
           { "parse": ["adj", "acc", "sg", "masc", "super"] },
           { "parse": ["adj", "acc", "sg", "neut", "super"] },
           { "parse": ["adj", "nom", "sg", "neut", "super"] },
-          { "parse": ["adj", "super", "nom", "sg", "masc"] },
           { "parse": ["adj", "voc", "sg", "neut", "super"] }
         ]
       }
@@ -2202,17 +2168,11 @@
     "inflections": {
       "θαυμασμοῦ": {
         "transliteration": "thaumasmoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "θαυμασμῷ": {
         "transliteration": "thaumasmō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -2614,7 +2574,6 @@
       "θεῖον": {
         "transliteration": "theîon",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
@@ -2964,10 +2923,7 @@
       },
       "θελήματι": {
         "transliteration": "thelḗmati",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "neut"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "θελήματί": {
         "transliteration": "thelḗmatí",
@@ -3677,20 +3633,13 @@
     "inflections": {
       "Θεόδοτον": {
         "transliteration": "Theódoton",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Θεόδοτος": {
         "transliteration": "Theódotos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -4900,26 +4849,15 @@
     "inflections": {
       "θεσμόν": {
         "transliteration": "thesmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "θεσμούς": {
         "transliteration": "thesmoús",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "θεσμῶν": {
         "transliteration": "thesmō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -5352,10 +5290,7 @@
       },
       "ἐθήλασαν": {
         "transliteration": "ethḗlasan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐθήλασας": {
         "transliteration": "ethḗlasas",
@@ -5783,20 +5718,11 @@
       },
       "θηρεύσει": {
         "transliteration": "thēreúsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "θηρεύσεις": {
         "transliteration": "thēreúseis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "θηρεύσῃ": {
         "transliteration": "thēreúsē",
@@ -6038,8 +5964,7 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "inf"] },
           { "parse": ["verb", "perf", "midpas", "inf"] },
-          { "parse": ["verb", "perf", "pas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
+          { "parse": ["verb", "perf", "pas", "inf"] }
         ]
       },
       "τεθησαυρισμένοι": {
@@ -6129,17 +6054,11 @@
     "inflections": {
       "θίασον": {
         "transliteration": "thíason",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "θιάσου": {
         "transliteration": "thiásou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -6345,6 +6264,10 @@
         "transliteration": "ethlásthēs",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
       },
+      "ἔθλων": {
+        "transliteration": "éthlōn",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      },
       "θλάσον": {
         "transliteration": "thláson",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
@@ -6359,8 +6282,7 @@
       "τεθλασμένην": {
         "transliteration": "tethlasménēn",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "fem"] }
         ]
       },
       "τεθλασμένον": {
@@ -6404,7 +6326,7 @@
               "second"
             ]
           },
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"] }
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "masc"] }
         ]
       }
     }
@@ -6441,14 +6363,12 @@
       "ἐθλίβησαν": {
         "transliteration": "ethlíbēsan",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
         ]
       },
       "ἐθλίβητε": {
         "transliteration": "ethlíbēte",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl", "second"] },
           { "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl", "second"] }
         ]
       },
@@ -6474,7 +6394,7 @@
       "θλιβέντων": {
         "transliteration": "thlibéntōn",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "gen", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "gen", "pl", "masc"] }
         ]
       },
       "θλίβεσθαι": {
@@ -6497,7 +6417,7 @@
       },
       "θλιβῆναι": {
         "transliteration": "thlibē̂nai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       },
       "θλιβήσεται": {
         "transliteration": "thlibḗsetai",
@@ -6713,7 +6633,7 @@
         "cells": [
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "masc"] }
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "sg", "masc"] }
         ]
       }
     }
@@ -6963,7 +6883,7 @@
       },
       "τεθνήκει": {
         "transliteration": "tethnḗkei",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
       },
       "τέθνηκεν": {
         "transliteration": "téthnēken",
@@ -6976,7 +6896,7 @@
       "τεθνηκός": {
         "transliteration": "tethnēkós",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
+          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "neut"] }
         ]
       },
       "τεθνηκότα": {
@@ -7240,10 +7160,7 @@
     "inflections": {
       "ἐθορυβήθην": {
         "transliteration": "ethorybḗthēn",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
       },
       "ἐθορύβουν": {
         "transliteration": "ethorýboun",
@@ -7507,13 +7424,7 @@
     "inflections": {
       "θραυσμός": {
         "transliteration": "thrausmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -7656,10 +7567,7 @@
       },
       "ἐθρηνοῦσαν": {
         "transliteration": "ethrēnoûsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "θρηνεῖν": {
         "transliteration": "thrēneîn",
@@ -7688,8 +7596,7 @@
         "transliteration": "thrēnḗsei",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "θρηνήσεις": {
@@ -8276,10 +8183,7 @@
     "inflections": {
       "θυλάκοις": {
         "transliteration": "thylákois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -8439,10 +8343,7 @@
       },
       "ἐθυμιῶσαν": {
         "transliteration": "ethymiō̂san",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "θυμιαθῆναι": {
         "transliteration": "thymiathē̂nai",
@@ -8883,11 +8784,7 @@
     "inflections": {
       "θύρσους": {
         "transliteration": "thýrsous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -9573,11 +9470,7 @@
     "inflections": {
       "θωρακισμούς": {
         "transliteration": "thōrakismoús",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -9589,19 +9482,11 @@
     "inflections": {
       "θώρακα": {
         "transliteration": "thṓraka",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "θώρακας": {
         "transliteration": "thṓrakas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "θώρακες": {
         "transliteration": "thṓrakes",

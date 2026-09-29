@@ -144,7 +144,19 @@
     { "n": "G3004", "root": "λέγω", "requires": ["pres"] },
     { "n": "G3004", "root": "λέγω", "requires": ["impf"] },
     { "n": "G2903", "root": "κρείσσων", "requires": ["adj", "super"] },
-    { "n": "G1646", "root": "ἐλάσσων", "requires": ["adj", "super"] }
+    { "n": "G1646", "root": "ἐλάσσων", "requires": ["adj", "super"] },
+    {
+      "n": "G3184",
+      "root": "μεθύσκω",
+      "requires": ["aor", "pas", "subj", "pers-3", "pl"],
+      "spelling": "μεθυσθῶσι"
+    },
+    {
+      "n": "G3184",
+      "root": "μεθύσκω",
+      "requires": ["aor", "pas", "subj", "pers-3", "pl"],
+      "spelling": "μεθυσθῶσιν"
+    }
   ],
   "unplaced": [
     { "n": "G4054", "reason": "sense split, not a parse cell" },

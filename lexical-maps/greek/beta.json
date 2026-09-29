@@ -277,10 +277,7 @@
       },
       "Βαβυλῶνα": {
         "transliteration": "Babylō̂na",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Βαβυλῶνι": {
         "transliteration": "Babylō̂ni",
@@ -574,7 +571,6 @@
       "βαδίσας": {
         "transliteration": "badísas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
@@ -826,10 +822,7 @@
       },
       "βαθεῖ": {
         "transliteration": "batheî",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["adj", "dat", "sg", "masc"] }]
       },
       "βάθει": {
         "transliteration": "báthei",
@@ -1533,7 +1526,7 @@
         "transliteration": "Baithsourois",
         "cells": [
           { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
+          { "parse": ["noun", "dat", "pl", "neut"] }
         ]
       },
       "Βαιθσουρων": {
@@ -2457,10 +2450,7 @@
       },
       "βαλῶ": {
         "transliteration": "balō̂",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "βάλω": {
         "transliteration": "bálō",
@@ -3710,6 +3700,30 @@
       }
     }
   },
+  "βάρις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "inflections": {
+      "βάρει": {
+        "transliteration": "bárei",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "βάρεις": {
+        "transliteration": "báreis",
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+      },
+      "βάρεσιν": {
+        "transliteration": "báresin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "βάρεων": {
+        "transliteration": "báreōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      }
+    }
+  },
   "Βαριωνᾶ": {
     "language": "greek",
     "pos": "noun",
@@ -3792,18 +3806,7 @@
     "inflections": {
       "βάρει": {
         "transliteration": "bárei",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
-      },
-      "βάρεσιν": {
-        "transliteration": "báresin",
-        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      },
-      "βάρεων": {
-        "transliteration": "báreōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "βάρη": {
         "transliteration": "bárē",
@@ -4093,7 +4096,6 @@
       "βεβάρυνται": {
         "transliteration": "bebáryntai",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
@@ -4197,14 +4199,6 @@
           { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
-      "βάρεις": {
-        "transliteration": "báreis",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      },
       "βαρέος": {
         "transliteration": "baréos",
         "cells": [
@@ -4235,11 +4229,7 @@
       },
       "βαρυτέρα": {
         "transliteration": "barytéra",
-        "cells": [
-          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
-          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
-          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["adj", "comp", "nom", "sg", "fem"] }]
       },
       "βαρύτερα": {
         "transliteration": "barýtera",
@@ -4688,8 +4678,7 @@
         "transliteration": "Basanîtis",
         "cells": [
           { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["noun", "nom", "sg", "fem"] }
         ]
       }
     }
@@ -5064,15 +5053,11 @@
       },
       "βασιλεύσεις": {
         "transliteration": "basileúseis",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "βασιλεύσῃ": {
         "transliteration": "basileúsē",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
@@ -5276,7 +5261,6 @@
       "βασιλίσκος": {
         "transliteration": "basilískos",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
@@ -5877,20 +5861,11 @@
     "inflections": {
       "βδελυγμόν": {
         "transliteration": "bdelygmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "βδελυγμός": {
         "transliteration": "bdelygmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -5972,7 +5947,6 @@
       "βδελύξῃ": {
         "transliteration": "bdelýxē",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
@@ -6095,7 +6069,7 @@
       "ἐβδελυγμένοι": {
         "transliteration": "ebdelygménoi",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "masc"] }
         ]
       },
       "ἐβδελυγμένοις": {
@@ -6120,8 +6094,8 @@
       "ἐβδελυγμένων": {
         "transliteration": "ebdelygménōn",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "ἐβδέλυκται": {
@@ -6538,9 +6512,7 @@
               "second"
             ]
           },
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "neut"] }
         ]
       },
       "βεβηλωμένου": {
@@ -6548,7 +6520,7 @@
         "cells": [
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "neut"] }
         ]
       },
       "βεβηλῶν": {
@@ -6626,10 +6598,7 @@
       },
       "ἐβεβηλοῦσαν": {
         "transliteration": "ebebēloûsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐβεβηλώθη": {
         "transliteration": "ebebēlṓthē",
@@ -7843,20 +7812,13 @@
     "inflections": {
       "Βῆλον": {
         "transliteration": "Bē̂lon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Βῆλος": {
         "transliteration": "Bē̂los",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -8186,10 +8148,7 @@
       },
       "βιασώμεθα": {
         "transliteration": "biasṓmetha",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-1", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-1", "pl"] }]
       },
       "ἐβιάσατο": {
         "transliteration": "ebiásato",
@@ -8229,7 +8188,7 @@
       },
       "βιαιοτέραν": {
         "transliteration": "biaiotéran",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [{ "parse": ["adj", "comp", "acc", "sg", "fem"] }]
       },
       "βιαιότερε": {
         "transliteration": "biaiótere",
@@ -8469,7 +8428,7 @@
       },
       "βύβλος": {
         "transliteration": "býblos",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "βύβλῳ": {
         "transliteration": "býblō",
@@ -8493,7 +8452,7 @@
       },
       "βεβρώκει": {
         "transliteration": "bebrṓkei",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
       },
       "βέβρωκεν": {
         "transliteration": "bébrōken",
@@ -8601,10 +8560,7 @@
     "inflections": {
       "βῖκον": {
         "transliteration": "bîkon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -9101,10 +9057,7 @@
       },
       "ἐβλασφήμησαν": {
         "transliteration": "eblasphḗmēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐβλασφήμησας": {
         "transliteration": "eblasphḗmēsas",
@@ -9490,10 +9443,7 @@
       },
       "βλεφάροις": {
         "transliteration": "blephárois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "βλεφάρων": {
         "transliteration": "blephárōn",
@@ -9704,10 +9654,7 @@
       },
       "ἐβόα": {
         "transliteration": "ebóa",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐβόησα": {
         "transliteration": "ebóēsa",
@@ -9936,7 +9883,6 @@
       "βοηθήσων": {
         "transliteration": "boēthḗsōn",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
@@ -10115,34 +10061,19 @@
     "inflections": {
       "βόθροις": {
         "transliteration": "bóthrois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "βόθρον": {
         "transliteration": "bóthron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "βόθρος": {
         "transliteration": "bóthros",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "βόθρου": {
         "transliteration": "bóthrou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -10664,28 +10595,20 @@
       "βόστρυχοι": {
         "transliteration": "bóstrychoi",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "βόστρυχοί": {
         "transliteration": "bóstrychoí",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "βοστρύχους": {
         "transliteration": "bostrýchous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -10835,28 +10758,18 @@
     "inflections": {
       "Βουγαῖον": {
         "transliteration": "Bougaîon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Βουγαῖος": {
         "transliteration": "Bougaîos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       },
       "Βουγαίου": {
         "transliteration": "Bougaíou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -11646,13 +11559,12 @@
       "ἠβουλόμεθα": {
         "transliteration": "ēboulómetha",
         "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "pl"] }
         ]
       },
       "ἠβούλοντο": {
         "transliteration": "ēboúlonto",
         "cells": [
-          { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
       }
@@ -12747,12 +12659,9 @@
       "βυθοτρεφοῦς": {
         "transliteration": "bythotrephoûs",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "gen", "sg", "fem"] },
           { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "gen", "sg", "neut"] }
         ]
       }
     }
@@ -12899,8 +12808,7 @@
       "βυούσης": {
         "transliteration": "byoúsēs",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       }
     }

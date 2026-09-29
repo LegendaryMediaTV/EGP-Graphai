@@ -849,10 +849,7 @@
     "inflections": {
       "ἡδυσμοῦ": {
         "transliteration": "hēdysmoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -977,38 +974,23 @@
     "inflections": {
       "ἥκαμεν": {
         "transliteration": "hḗkamen",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "pl"] }]
       },
       "ἥκασι": {
         "transliteration": "hḗkasi",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκασί": {
         "transliteration": "hḗkasí",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκασιν": {
         "transliteration": "hḗkasin",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκατε": {
         "transliteration": "hḗkate",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
       },
       "ἥκει": {
         "transliteration": "hḗkei",
@@ -1846,11 +1828,8 @@
       "ἡμίονος": {
         "transliteration": "hēmíonos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       },
       "ἡμιόνου": {
@@ -1864,16 +1843,14 @@
         "transliteration": "hēmiónous",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
+          { "parse": ["noun", "acc", "pl", "masc"] }
         ]
       },
       "ἡμιόνων": {
         "transliteration": "hēmiónōn",
         "cells": [
           { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
+          { "parse": ["noun", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -2665,7 +2642,6 @@
       "ἡσυχάσει": {
         "transliteration": "hēsychásei",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
@@ -2983,10 +2959,7 @@
       },
       "ἤχησεν": {
         "transliteration": "ḗchēsen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἠχήσουσιν": {
         "transliteration": "ēchḗsousin",
@@ -3045,13 +3018,6 @@
         "transliteration": "ḗchou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
-      "ἠχοῦς": {
-        "transliteration": "ēchoûs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
-      },
       "ἤχους": {
         "transliteration": "ḗchous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -3067,6 +3033,10 @@
     "pos": "noun",
     "gender": "fem",
     "inflections": {
+      "ἠχοῦς": {
+        "transliteration": "ēchoûs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
       "ἠχώ": {
         "transliteration": "ēchṓ",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]

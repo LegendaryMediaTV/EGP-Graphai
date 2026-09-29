@@ -298,7 +298,6 @@
         "transliteration": "ṓdinon",
         "cells": [
           { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
@@ -315,15 +314,13 @@
       "ὠδίνουσαν": {
         "transliteration": "ōdínousan",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
       "ὠδινούσης": {
         "transliteration": "ōdinoúsēs",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
+          { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
       "ὠδίνω": {
@@ -495,20 +492,13 @@
       "Ωλαμος": {
         "transliteration": "Ōlamos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       },
       "Ωλαμου": {
         "transliteration": "Ōlamou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -588,6 +578,17 @@
       }
     }
   },
+  "ὠμός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "inflections": {
+      "ὠμότατε": {
+        "transliteration": "ōmótate",
+        "cells": [{ "parse": ["adj", "super", "voc", "sg", "masc"] }]
+      }
+    }
+  },
   "ὦμος": {
     "language": "greek",
     "pos": "noun",
@@ -629,10 +630,6 @@
       "ὦμός": {
         "transliteration": "ō̂mós",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "ὠμότατε": {
-        "transliteration": "ōmótate",
-        "cells": [{ "parse": ["noun", "super", "voc", "sg", "masc"] }]
       },
       "ὠμοῦ": {
         "transliteration": "ōmoû",
@@ -690,8 +687,8 @@
       "ὠμόφρων": {
         "transliteration": "ōmóphrōn",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -1008,17 +1005,11 @@
     "inflections": {
       "ὡραιότης": {
         "transliteration": "hōraiótēs",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "ὡραιότητα": {
         "transliteration": "hōraiótēta",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "ὡραιότητι": {
         "transliteration": "hōraiótēti",
@@ -1059,13 +1050,7 @@
     "inflections": {
       "ὡραισμός": {
         "transliteration": "hōraismós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -1111,11 +1096,8 @@
       "ὥριμος": {
         "transliteration": "hṓrimos",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "masc"] }
         ]
       }
     }

@@ -3621,7 +3621,7 @@
         "text": " διηνθισμέναι,",
         "script": "G",
         "transliteration": " diēnthisménai,",
-        "morph": "V-AMP-NPF",
+        "morph": "V-RMP-NPF",
         "lemma": "διανθίζω"
       },
       {
@@ -14560,7 +14560,7 @@
         "text": " γέρας",
         "script": "G",
         "transliteration": " géras",
-        "morph": "N-APM",
+        "morph": "N-ASN",
         "lemma": "γέρας"
       },
       {
@@ -16127,7 +16127,7 @@
         "script": "G",
         "transliteration": " spodòn",
         "strong": "G4700",
-        "morph": "N-ASM",
+        "morph": "N-ASF",
         "lemma": "σποδός"
       },
       {
@@ -16421,7 +16421,7 @@
         "script": "G",
         "transliteration": " spodón.",
         "strong": "G4700",
-        "morph": "N-ASM",
+        "morph": "N-ASF",
         "lemma": "σποδός"
       }
     ]
@@ -16580,7 +16580,7 @@
         "script": "G",
         "transliteration": " spodòn",
         "strong": "G4700",
-        "morph": "N-ASM",
+        "morph": "N-ASF",
         "lemma": "σποδός"
       },
       {
@@ -16933,7 +16933,7 @@
         "script": "G",
         "transliteration": " pareistḗkei",
         "strong": "G3936",
-        "morph": "V-RAI-3S",
+        "morph": "V-LAI-3S",
         "lemma": "παρίστημι"
       },
       {
@@ -22140,7 +22140,7 @@
         "text": " πικρασμῷ",
         "script": "G",
         "transliteration": " pikrasmō̂",
-        "morph": "N-DSF",
+        "morph": "N-DSM",
         "lemma": "πικρασμός"
       },
       {
@@ -26782,7 +26782,7 @@
         "script": "G",
         "transliteration": " pótō",
         "strong": "G4224",
-        "morph": "A-DSN",
+        "morph": "N-DSM",
         "lemma": "πότος"
       },
       {
@@ -28050,7 +28050,7 @@
         "script": "G",
         "transliteration": " Kopḗtō",
         "strong": "G2875",
-        "morph": "V-AAM-3S",
+        "morph": "V-2APM-3S",
         "lemma": "κόπτω"
       },
       {
@@ -30614,7 +30614,7 @@
         "script": "G",
         "transliteration": " ekḗryssen",
         "strong": "G2784",
-        "morph": "V-AAI-3S",
+        "morph": "V-IAI-3S",
         "lemma": "κηρύσσω"
       },
       {
@@ -31094,7 +31094,7 @@
         "script": "G",
         "transliteration": " pesē̂;",
         "strong": "G4098",
-        "morph": "V-2AAS-3S",
+        "morph": "V-FDI-2S",
         "lemma": "πίπτω"
       },
       {
@@ -31472,7 +31472,7 @@
         "script": "G",
         "transliteration": " pótō",
         "strong": "G4224",
-        "morph": "A-DSN",
+        "morph": "N-DSM",
         "lemma": "πότος"
       },
       {
@@ -32640,7 +32640,7 @@
         "script": "G",
         "transliteration": " epipeptṓkei",
         "strong": "G1968",
-        "morph": "V-RAI-3S",
+        "morph": "V-LAI-3S",
         "lemma": "ἐπιπίπτω"
       },
       {
@@ -33018,7 +33018,7 @@
         "text": " ὤρθωται",
         "script": "G",
         "transliteration": " ṓrthōtai",
-        "morph": "V-AMI-3S",
+        "morph": "V-RMI-3S",
         "lemma": "ὀρθόω"
       },
       {
@@ -37707,7 +37707,7 @@
         "text": " μεθόδων",
         "script": "G",
         "transliteration": " methódōn",
-        "morph": "N-GPM",
+        "morph": "N-GPF",
         "lemma": "μέθοδος"
       },
       {
@@ -47406,9 +47406,8 @@
         "text": " Πτολεμαίου",
         "script": "G",
         "transliteration": " Ptolemaíou",
-        "strong": "G4424",
         "morph": "N-GSM",
-        "lemma": "Πτολεμαΐς"
+        "lemma": "Πτολεμαῖος"
       },
       {
         "text": " καὶ",
@@ -47500,9 +47499,8 @@
         "text": " Πτολεμαῖος",
         "script": "G",
         "transliteration": " Ptolemaîos",
-        "strong": "G4424",
-        "morph": "N-GSF",
-        "lemma": "Πτολεμαΐς"
+        "morph": "N-NSM",
+        "lemma": "Πτολεμαῖος"
       },
       {
         "text": " ὁ",
@@ -47618,9 +47616,8 @@
         "text": " Πτολεμαίου",
         "script": "G",
         "transliteration": " Ptolemaíou",
-        "strong": "G4424",
         "morph": "N-GSM",
-        "lemma": "Πτολεμαΐς"
+        "lemma": "Πτολεμαῖος"
       },
       {
         "text": " τῶν",

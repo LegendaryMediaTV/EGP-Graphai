@@ -581,7 +581,7 @@
         "text": " ἐξανθοῦντα",
         "script": "G",
         "transliteration": " exanthoûnta",
-        "morph": "V-PAP-NSN",
+        "morph": "V-PAP-NPN",
         "lemma": "ἐξανθέω"
       },
       {
@@ -1840,7 +1840,7 @@
         "script": "G",
         "transliteration": " enteleîtai",
         "strong": "G1781",
-        "morph": "V-PDI-3S",
+        "morph": "V-FDI-3S",
         "lemma": "ἐντέλλομαι"
       },
       {
@@ -2030,7 +2030,7 @@
         "script": "G",
         "transliteration": " tacheîs.",
         "strong": "G5036",
-        "morph": "A-APN",
+        "morph": "A-NPM",
         "lemma": "ταχύς"
       }
     ]
@@ -2276,9 +2276,8 @@
         "text": " παλαίωσιν",
         "script": "G",
         "transliteration": " palaíōsin",
-        "strong": "G3822",
-        "morph": "V-2AAS-3P",
-        "lemma": "παλαιόω"
+        "morph": "N-ASF",
+        "lemma": "παλαίωσις"
       },
       {
         "text": " Συντετέλεσται,",
@@ -3643,7 +3642,7 @@
         "script": "G",
         "transliteration": " bebáryntai",
         "strong": "G925",
-        "morph": "V-RAI-3P",
+        "morph": "V-RMI-3S",
         "lemma": "βαρύνω"
       },
       {
@@ -5589,7 +5588,7 @@
         "text": " ἀποπηδήσεται",
         "script": "G",
         "transliteration": " apopēdḗsetai",
-        "morph": "V-FAI-3S",
+        "morph": "V-FMI-3S",
         "lemma": "ἀποπηδάω"
       },
       {
@@ -6322,9 +6321,9 @@
         "text": " μεθυσθήσῃ",
         "script": "G",
         "transliteration": " methysthḗsē",
-        "strong": "G3184",
+        "strong": "G3182",
         "morph": "V-FPI-2S",
-        "lemma": "μεθύω"
+        "lemma": "μεθύσκω"
       },
       {
         "text": " καὶ",
@@ -6797,7 +6796,7 @@
         "script": "G",
         "transliteration": " émbēthi",
         "strong": "G1684",
-        "morph": "V-APM-2S",
+        "morph": "V-2AAM-2S",
         "lemma": "ἐμβαίνω"
       },
       {
@@ -7334,7 +7333,7 @@
         "script": "G",
         "transliteration": "Enýstaxan",
         "strong": "G3573",
-        "morph": "V-2AAI-3S",
+        "morph": "V-AAI-3P",
         "lemma": "νυστάζω"
       },
       {
