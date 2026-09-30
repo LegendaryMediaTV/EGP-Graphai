@@ -3,6 +3,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be yellowish, turn yellow",
     "inflections": {
       "ξανθίζουσα": {
         "transliteration": "xanthízousa",
@@ -16,6 +17,7 @@
   "Ξανθικός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Xanthicus",
     "inflections": {
       "Ξανθικοῦ": {
         "transliteration": "Xanthikoû",
@@ -27,6 +29,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be yellow, blond",
     "inflections": {
       "ξανθῆς": {
         "transliteration": "xanthē̂s",
@@ -38,6 +41,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a hospitality; fig. a lodging",
     "indices": { "strongs": "G3578" },
     "inflections": {
       "ξενίαν": {
@@ -116,6 +120,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a guest gift, present; fig. a tribute",
     "inflections": {
       "ξένια": {
         "transliteration": "xénia",
@@ -134,6 +139,7 @@
   "Ξένιος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Protector of Foreigners (title of Zeus)",
     "inflections": {
       "Ξενίου": {
         "transliteration": "Xeníou",
@@ -144,6 +150,7 @@
   "ξενισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an entertaining (of guests), hospitable fare",
     "inflections": {
       "ξενισμός": {
         "transliteration": "xenismós",
@@ -154,6 +161,7 @@
   "ξενιτεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a sojourn abroad",
     "inflections": {
       "ξενιτείας": {
         "transliteration": "xeniteías",
@@ -169,6 +177,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "εξενοδοχη" },
+    "shortDefinition": "to receive strangers, show hospitality",
     "indices": { "strongs": "G3580" },
     "inflections": {
       "ἐξενοδόχησεν": {
@@ -181,6 +190,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to enlist mercenaries",
     "inflections": {
       "ἐξενολόγει": {
         "transliteration": "exenológei",
@@ -282,6 +292,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to maintain mercenaries",
     "inflections": {
       "ἐξενοτρόφει": {
         "transliteration": "exenotróphei",
@@ -292,6 +303,7 @@
   "Ξέρξης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Ahasuerus, Xerxes",
     "inflections": {
       "Ξέρξου": {
         "transliteration": "Xérxou",
@@ -304,6 +316,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a wooden pitcher, jug; lit. a pint measure",
     "indices": { "strongs": "G3582" },
     "inflections": {
       "ξεστῶν": {
@@ -315,6 +328,7 @@
   "ξεστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be hewn, polished (of stone)",
     "inflections": {
       "ξεστῷ": {
         "transliteration": "xestō̂",
@@ -331,6 +345,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εξηραν" },
+    "shortDefinition": "to dry up; fig. to wither, shrivel",
     "indices": { "strongs": "G3583" },
     "inflections": {
       "ἐξηραμμένην": {
@@ -421,6 +436,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a drought, drying up",
     "inflections": {
       "ξηρασία": {
         "transliteration": "xērasía",
@@ -446,6 +462,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be dry; fig. to be withered, shriveled",
     "indices": { "strongs": "G3584" },
     "inflections": {
       "ξηρά": {
@@ -510,6 +527,7 @@
   "ξιφηφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sword-bearing",
     "inflections": {
       "ξιφηφόρον": {
         "transliteration": "xiphēphóron",
@@ -528,6 +546,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a sword, two-edged blade",
     "inflections": {
       "ξίφει": {
         "transliteration": "xíphei",
@@ -560,6 +579,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a stick, bit of wood",
     "inflections": {
       "ξυλάρια": {
         "transliteration": "xylária",
@@ -575,6 +595,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be wooden, of wood",
     "indices": { "strongs": "G3585" },
     "inflections": {
       "ξύλινα": {
@@ -674,6 +695,7 @@
   "ξυλοκόπος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a woodcutter",
     "inflections": {
       "ξυλοκόποι": {
         "transliteration": "xylokópoi",
@@ -716,6 +738,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a timber, wood; fig. a tree, club, cross",
     "indices": { "strongs": "G3586" },
     "inflections": {
       "ξύλα": {
@@ -755,6 +778,7 @@
   "ξυλοφορία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wood-bearing, wood offering",
     "inflections": {
       "ξυλοφορίας": {
         "transliteration": "xylophorías",
@@ -768,6 +792,7 @@
   "ξυλοφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wood-bearing",
     "inflections": {
       "ξυλοφόρων": {
         "transliteration": "xylophórōn",
@@ -783,6 +808,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to panel with wood, board",
     "inflections": {
       "ἐξυλωμένα": {
         "transliteration": "exylōména",
@@ -809,6 +835,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "deponent": true,
+    "shortDefinition": "to shave; refl. to shave oneself",
     "indices": { "strongs": "G3587" },
     "inflections": {
       "ἐξυρήθη": {
@@ -958,6 +985,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a shaving (in mourning)",
     "inflections": {
       "ξύρησιν": {
         "transliteration": "xýrēsin",
@@ -970,6 +998,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a razor",
     "inflections": {
       "ξυρόν": {
         "transliteration": "xyrón",
@@ -988,6 +1017,7 @@
   "ξυστός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a dressed stone, polished surface",
     "inflections": {
       "ξυστοῦ": {
         "transliteration": "xystoû",
@@ -1018,6 +1048,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to scrape",
     "inflections": {
       "ξύῃ": {
         "transliteration": "xýē",

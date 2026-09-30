@@ -127,6 +127,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Jehubbah; lit. Hidden",
     "inflections": {
       "Οβα": {
         "transliteration": "Oba",
@@ -139,6 +140,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Habaiah, Obdia; lit. YH/Yah/Jah Has Hidden",
     "inflections": {
       "Οββια": {
         "transliteration": "Obbia",
@@ -151,6 +153,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Obadiah; lit. Serving YH/Yah/Jah",
     "inflections": {
       "Οβδια": {
         "transliteration": "Obdia",
@@ -161,6 +164,7 @@
   "ὀβελίσκος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a spit, skewer",
     "inflections": {
       "ὀβελίσκοι": {
         "transliteration": "obelískoi",
@@ -178,6 +182,7 @@
   "ὀβολός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an obol (smallest coin or weight)",
     "inflections": {
       "ὀβολοί": {
         "transliteration": "oboloí",
@@ -204,6 +209,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "shortDefinition": "eighty",
     "indices": { "strongs": "G3589" },
     "inflections": {
       "ὀγδοήκοντα": {
@@ -215,6 +221,7 @@
   "ὀγδοηκοντατέσσαρες": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "eighty-four",
     "indices": { "strongs": "G3589" },
     "inflections": {
       "ὀγδοηκοντατεσσάρων": {
@@ -226,6 +233,7 @@
   "ὀγδοηκοστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be eightieth",
     "inflections": {
       "ὀγδοηκοστοῦ": {
         "transliteration": "ogdoēkostoû",
@@ -241,6 +249,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be eighth",
     "indices": { "strongs": "G3590" },
     "inflections": {
       "ὀγδόη": {
@@ -295,6 +304,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a bulk, mass; fig. an encumbrance",
     "indices": { "strongs": "G3591" },
     "inflections": {
       "ὄγκον": {
@@ -308,6 +318,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Athaliah; lit. YH/Yah/Jah Has Constrained",
     "inflections": {
       "Ογοθολια": {
         "transliteration": "Ogotholia",
@@ -318,6 +329,7 @@
   "ὅδε": {
     "language": "greek",
     "pos": "pron-dem",
+    "shortDefinition": "this here, the following; fig. thus",
     "indices": { "strongs": "G3592" },
     "inflections": {
       "ἥδε": {
@@ -380,6 +392,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to journey, be on the road",
     "indices": { "strongs": "G3593" },
     "inflections": {
       "ὁδεύων": {
@@ -402,6 +415,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "οδηγη" },
+    "shortDefinition": "to show the way, guide",
     "indices": { "strongs": "G3594" },
     "inflections": {
       "ὁδηγεῖ": {
@@ -488,6 +502,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a way-leader, guide",
     "indices": { "strongs": "G3595" },
     "inflections": {
       "ὁδηγοί": {
@@ -515,6 +530,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be a wayfarer, journey",
     "indices": { "strongs": "G3596" },
     "inflections": {
       "ὁδοιπορούντων": {
@@ -529,6 +545,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a journey, march",
     "indices": { "strongs": "G3597" },
     "inflections": {
       "ὁδοιπορίαις": {
@@ -553,6 +570,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a traveler, wayfarer",
     "inflections": {
       "ὁδοιπόροι": {
         "transliteration": "hodoipóroi",
@@ -583,6 +601,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Adullam",
     "inflections": {
       "Οδολλαμ": {
         "transliteration": "Odollam",
@@ -595,6 +614,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an Adullamite",
     "inflections": {
       "Οδολλαμίτην": {
         "transliteration": "Odollamítēn",
@@ -618,6 +638,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Eden; lit. Pleasure",
     "inflections": {
       "Οδομ": {
         "transliteration": "Odom",
@@ -630,6 +651,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Odomera",
     "inflections": {
       "Οδομηρα": {
         "transliteration": "Odomēra",
@@ -641,6 +663,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to make a road, prepare a way",
     "inflections": {
       "ὁδοποιήσατε": {
         "transliteration": "hodopoiḗsate",
@@ -665,6 +688,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hadoram",
     "inflections": {
       "Οδορρα": {
         "transliteration": "Odorra",
@@ -722,6 +746,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hodaviah, Hodiah; lit. Majesty of YH/Yah/Jah",
     "inflections": {
       "Οδουια": {
         "transliteration": "Odouia",
@@ -733,6 +758,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ira",
     "inflections": {
       "Οδουιας": {
         "transliteration": "Odouias",
@@ -793,6 +819,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to pain, torment; fig. to grieve",
     "indices": { "strongs": "G3600" },
     "inflections": {
       "ὀδυνᾷ": {
@@ -874,6 +901,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an anguish, pain; fig. a sorrow",
     "indices": { "strongs": "G3601" },
     "inflections": {
       "ὀδύναι": {
@@ -917,6 +945,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be anguishing, painful",
     "inflections": {
       "ὀδυνηρά": {
         "transliteration": "odynērá",
@@ -950,6 +979,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a moaning, mourning",
     "indices": { "strongs": "G3602" },
     "inflections": {
       "ὀδυρμόν": {
@@ -974,6 +1004,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to moan, lament",
     "inflections": {
       "ὀδυρομένου": {
         "transliteration": "odyroménou",
@@ -993,6 +1024,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzzah, Uzza; lit. Strength",
     "inflections": {
       "Οζα": {
         "transliteration": "Oza",
@@ -1005,6 +1037,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Zaza; lit. Prominent",
     "inflections": {
       "Οζαζα": {
         "transliteration": "Ozaza",
@@ -1016,6 +1049,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Azaziah; lit. YH/Yah/Jah Has Strengthened",
     "inflections": {
       "Οζαζιας": {
         "transliteration": "Ozazias",
@@ -1028,6 +1062,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzzen",
     "inflections": {
       "Οζαν": {
         "transliteration": "Ozan",
@@ -1038,6 +1073,7 @@
   "Ὀζείας": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Uzzi, Ozias; lit. Forceful",
     "inflections": {
       "Οζιου": {
         "transliteration": "Oziou",
@@ -1050,6 +1086,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzzi; lit. Forceful",
     "inflections": {
       "Οζι": {
         "transliteration": "Ozi",
@@ -1062,6 +1099,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzziah; lit. Strength of YH/Yah/Jah",
     "inflections": {
       "Οζια": {
         "transliteration": "Ozia",
@@ -1111,6 +1149,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ziph; lit. Flowing",
     "inflections": {
       "Οζιβ": {
         "transliteration": "Ozib",
@@ -1123,6 +1162,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Aziza; lit. Strengthfulness",
     "inflections": {
       "Οζιζα": {
         "transliteration": "Oziza",
@@ -1135,6 +1175,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzziel, Oziel; lit. Strength of God",
     "inflections": {
       "Οζιηλ": {
         "transliteration": "Oziēl",
@@ -1147,6 +1188,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "an Uzzielite",
     "inflections": {
       "Οζιηλις": {
         "transliteration": "Oziēlis",
@@ -1159,6 +1201,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzziah; lit. Strength of YH/Yah/Jah",
     "inflections": {
       "Οζιου": {
         "transliteration": "Oziou",
@@ -1171,6 +1214,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Onam; lit. Strong",
     "inflections": {
       "Οζομ": {
         "transliteration": "Ozom",
@@ -1181,6 +1225,7 @@
   "ὄζος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a knot (in wood), knob",
     "inflections": {
       "ὄζοις": {
         "transliteration": "ózois",
@@ -1193,6 +1238,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Azaz; lit. Strong",
     "inflections": {
       "Οζουζ": {
         "transliteration": "Ozouz",
@@ -1205,6 +1251,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Azarel; lit. God Has Helped",
     "inflections": {
       "Οζριηλ": {
         "transliteration": "Ozriēl",
@@ -1216,6 +1263,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to smell, stink",
     "indices": { "strongs": "G3605" },
     "inflections": {
       "ὄζει": {
@@ -1233,6 +1281,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Athlai",
     "inflections": {
       "Οθαλι": {
         "transliteration": "Othali",
@@ -1253,6 +1302,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Etham",
     "inflections": {
       "Οθομ": {
         "transliteration": "Othom",
@@ -1265,6 +1315,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a linen sheet, sailcloth",
     "indices": { "strongs": "G3607" },
     "inflections": {
       "ὀθόνην": {
@@ -1277,6 +1328,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Mattaniah, Othonias; lit. Gift of YH/Yah/Jah",
     "inflections": {
       "Οθονιας": {
         "transliteration": "Othonias",
@@ -1289,6 +1341,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a linen strip, small linen cloth",
     "indices": { "strongs": "G3608" },
     "inflections": {
       "ὀθόνια": {
@@ -1321,6 +1374,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to steer, govern",
     "inflections": {
       "οἰακίζει": {
         "transliteration": "oiakízei",
@@ -1338,6 +1392,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a helm, tiller",
     "inflections": {
       "οἴακας": {
         "transliteration": "oíakas",
@@ -1723,6 +1778,7 @@
   "οἰκειακός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a household member",
     "indices": { "strongs": "G3615" },
     "inflections": {
       "οἰκειακοί": {
@@ -1749,6 +1805,7 @@
   "οἰκεῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the household, akin",
     "indices": { "strongs": "G3609" },
     "inflections": {
       "οἰκεία": {
@@ -1835,6 +1892,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a kinship, close relationship",
     "inflections": {
       "οἰκειότητα": {
         "transliteration": "oikeiótēta",
@@ -1847,6 +1905,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to make akin; fig. to be suited (to)",
     "inflections": {
       "οἰκειωθησόμενα": {
         "transliteration": "oikeiōthēsómena",
@@ -1863,6 +1922,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a household servant, domestic",
     "indices": { "strongs": "G3610" },
     "inflections": {
       "οἰκέται": {
@@ -1907,6 +1967,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a slave status, servile condition",
     "inflections": {
       "οἰκετικήν": {
         "transliteration": "oiketikḗn",
@@ -1919,6 +1980,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a female domestic, household maid",
     "inflections": {
       "οἰκέτιν": {
         "transliteration": "oikétin",
@@ -2107,6 +2169,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a room, dwelling; fig. a prison cell",
     "indices": { "strongs": "G3612" },
     "inflections": {
       "οἴκημα": {
@@ -2128,6 +2191,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a dwelling, residence",
     "inflections": {
       "οἰκήσεις": {
         "transliteration": "oikḗseis",
@@ -2152,6 +2216,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a residence, dwelling place",
     "indices": { "strongs": "G3613" },
     "inflections": {
       "οἰκητήριον": {
@@ -2168,6 +2233,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be habitable, inhabited",
     "inflections": {
       "οἰκητήν": {
         "transliteration": "oikētḗn",
@@ -2196,6 +2262,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "an inhabitant, dweller",
     "inflections": {
       "οἰκήτορας": {
         "transliteration": "oikḗtoras",
@@ -2259,6 +2326,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a small house, outbuilding",
     "inflections": {
       "οἰκίδιον": {
         "transliteration": "oikídion",
@@ -2279,6 +2347,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ωκι" },
+    "shortDefinition": "to settle, populate",
     "inflections": {
       "οἰκισθήσεται": {
         "transliteration": "oikisthḗsetai",
@@ -2294,6 +2363,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be homebred (of a servant)",
     "inflections": {
       "οἰκογενεῖς": {
         "transliteration": "oikogeneîs",
@@ -2331,6 +2401,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to manage a household, rule the home",
     "indices": { "strongs": "G3616" },
     "inflections": {
       "οἰκοδεσποτεῖν": {
@@ -2344,6 +2415,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a householder, master of the house",
     "indices": { "strongs": "G3617" },
     "inflections": {
       "οἰκοδεσπότῃ": {
@@ -2825,6 +2897,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a",
+    "shortDefinition": "a building up; fig. an edification",
     "indices": { "strongs": "G3620" },
     "inflections": {
       "οἰκοδομίαν": {
@@ -2838,6 +2911,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a builder, mason",
     "inflections": {
       "οἰκοδόμοι": {
         "transliteration": "oikodómoi",
@@ -2956,6 +3030,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a building site, homestead",
     "inflections": {
       "οἰκόπεδα": {
         "transliteration": "oikópeda",
@@ -3033,6 +3108,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "the inhabited world, earth; fig. the empire",
     "indices": { "strongs": "G3625" },
     "inflections": {
       "οἰκουμένη": {
@@ -3056,6 +3132,7 @@
   "οἰκουρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be home-keeping, domestic",
     "indices": { "strongs": "G3626" },
     "inflections": {
       "οἰκουρούς": {
@@ -3068,6 +3145,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to pity, have compassion on",
     "indices": { "strongs": "G3627" },
     "inflections": {
       "οἰκτειρήσω": {
@@ -3179,6 +3257,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an act of compassion, mercy",
     "inflections": {
       "οἰκτίρημα": {
         "transliteration": "oiktírēma",
@@ -3195,6 +3274,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a compassion, pity",
     "indices": { "strongs": "G3628" },
     "inflections": {
       "οἰκτιρμοί": {
@@ -3237,6 +3317,7 @@
   "οἰκτίρμων": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be pitying, compassionate",
     "indices": { "strongs": "G3629" },
     "inflections": {
       "οἰκτίρμονες": {
@@ -3263,6 +3344,7 @@
   "οἴκτιστος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be most pitiable",
     "inflections": {
       "οἰκτίστῳ": {
         "transliteration": "oiktístō",
@@ -3277,6 +3359,7 @@
   "οἶκτος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a pity, sympathy; fig. a lament",
     "inflections": {
       "οἶκτον": {
         "transliteration": "oîkton",
@@ -3291,6 +3374,7 @@
   "οἰκτρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be piteous, lamentable",
     "inflections": {
       "οἰκτρά": {
         "transliteration": "oiktrá",
@@ -3321,6 +3405,7 @@
   "οἴμμοι": {
     "language": "greek",
     "pos": "inj",
+    "shortDefinition": "alas!, woe is me!",
     "inflections": {
       "οἴμμοι": { "transliteration": "oímmoi", "cells": [{ "parse": ["inj"] }] }
     }
@@ -3330,6 +3415,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a loud wailing, groaning",
     "inflections": {
       "οἰμωγήν": {
         "transliteration": "oimōgḗn",
@@ -3341,6 +3427,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to wail aloud, cry woe",
     "inflections": {
       "οἰμώξεις": {
         "transliteration": "oimṓxeis",
@@ -3352,6 +3439,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to drink wine",
     "inflections": {
       "οἰνοπότει": {
         "transliteration": "oinopótei",
@@ -3368,6 +3456,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a wine drinker, drunkard; trad. a winebibber",
     "indices": { "strongs": "G3630" },
     "inflections": {
       "οἰνοπότης": {
@@ -3381,6 +3470,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a wine",
     "indices": { "strongs": "G3631" },
     "inflections": {
       "οἴνοις": {
@@ -3425,6 +3515,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be a drunkard, be besotted with wine",
     "inflections": {
       "οἰνοφλυγεῖ": {
         "transliteration": "oinophlygeî",
@@ -3441,6 +3532,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an excess of wine, drunken bout",
     "indices": { "strongs": "G3632" },
     "inflections": {
       "οἰνοφλυγίαις": {
@@ -3453,6 +3545,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to pour wine, serve as cupbearer",
     "inflections": {
       "οἰνοχοῆσαι": {
         "transliteration": "oinochoē̂sai",
@@ -3469,6 +3562,7 @@
   "οἰνοχόος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wine-pouring (as a cupbearer)",
     "inflections": {
       "οἰνοχόας": {
         "transliteration": "oinochóas",
@@ -3508,6 +3602,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to suppose, imagine",
     "indices": { "strongs": "G3633" },
     "inflections": {
       "οἴει": {
@@ -3617,6 +3712,7 @@
     "language": "greek",
     "pos": "pron-corr",
     "citationForms": ["οἷος", "οἵα", "οἷον"],
+    "shortDefinition": "such as, of what sort",
     "indices": { "strongs": "G3634" },
     "inflections": {
       "οἵα": {
@@ -3685,6 +3781,7 @@
   "οἰστρηλασία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a frenzied passion, goading impulse",
     "inflections": {
       "οἰστρηλασίαν": {
         "transliteration": "oistrēlasían",
@@ -3695,6 +3792,7 @@
   "οἶστρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a frenzy, raging passion; lit. a gadfly",
     "inflections": {
       "οἶστρον": {
         "transliteration": "oîstron",
@@ -3710,6 +3808,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "an ephah (dry measure)",
     "inflections": {
       "οιφι": {
         "transliteration": "oiphi",
@@ -3722,6 +3821,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "stems": { "aor": "ωχ", "fut": "οιχη" },
+    "shortDefinition": "to depart, be gone",
     "inflections": {
       "οἰχήσεται": {
         "transliteration": "oichḗsetai",
@@ -3784,6 +3884,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "stems": { "aor": "οιωνι", "fut": "οιωνι" },
+    "shortDefinition": "to divine by omens, practice augury",
     "inflections": {
       "οἰωνιεῖσθε": {
         "transliteration": "oiōnieîsthe",
@@ -3832,6 +3933,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an omen, augury",
     "inflections": {
       "οἰώνισμά": {
         "transliteration": "oiṓnismá",
@@ -3858,6 +3960,7 @@
   "οἰωνισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a divination by omens",
     "inflections": {
       "οἰωνισμοί": {
         "transliteration": "oiōnismoí",
@@ -3879,6 +3982,7 @@
   "οἰωνόβρωτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be bird-eaten, carrion for birds",
     "inflections": {
       "οἰωνοβρώτους": {
         "transliteration": "oiōnobrṓtous",
@@ -3892,6 +3996,7 @@
   "οἰωνός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a bird omen, portent",
     "inflections": {
       "οἰωνοῖς": {
         "transliteration": "oiōnoîs",
@@ -3903,6 +4008,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ocina",
     "inflections": {
       "Οκινα": {
         "transliteration": "Okina",
@@ -3915,6 +4021,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "οκλακω" },
+    "shortDefinition": "to crouch, kneel down",
     "inflections": {
       "ὀκλακώς": {
         "transliteration": "oklakṓs",
@@ -3936,6 +4043,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to hesitate, delay, be reluctant",
     "indices": { "strongs": "G3635" },
     "inflections": {
       "ὄκνει": {
@@ -3983,6 +4091,7 @@
   "ὀκνηρία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a laziness, sloth",
     "inflections": {
       "ὀκνηρίαις": {
         "transliteration": "oknēríais",
@@ -3993,6 +4102,7 @@
   "ὀκνηρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be lazy, hesitant; fig. to be irksome",
     "indices": { "strongs": "G3636" },
     "inflections": {
       "ὀκνηρά": {
@@ -4052,6 +4162,7 @@
   "ὀκταήμερος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be eighth-day, eight days old",
     "indices": { "strongs": "G3637" },
     "inflections": {
       "ὀκταήμερος": {
@@ -4064,6 +4175,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "eight thousand",
     "inflections": {
       "ὀκτακισχίλια": {
         "transliteration": "oktakischília",
@@ -4089,6 +4201,7 @@
   "ὀκτακισχιλίος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "eight thousand",
     "inflections": {
       "ὀκτακισχιλία": {
         "transliteration": "oktakischilía",
@@ -4106,6 +4219,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "eight hundred",
     "inflections": {
       "ὀκτακόσια": {
         "transliteration": "oktakósia",
@@ -4143,6 +4257,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
+    "shortDefinition": "to be eight cubits long",
     "inflections": {
       "ὀκταπήχεσιν": {
         "transliteration": "oktapḗchesin",
@@ -4158,6 +4273,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "shortDefinition": "eight",
     "indices": { "strongs": "G3638" },
     "inflections": {
       "ὀκτώ": {
@@ -4170,6 +4286,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "shortDefinition": "eighteen",
     "inflections": {
       "ὀκτωκαίδεκα": {
         "transliteration": "oktōkaídeka",
@@ -4181,6 +4298,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be eighteenth",
     "inflections": {
       "ὀκτωκαιδεκάτῃ": {
         "transliteration": "oktōkaidekátē",
@@ -4214,6 +4332,7 @@
   "ὄλβος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a prosperity, (worldly) wealth",
     "inflections": {
       "ὄλβος": {
         "transliteration": "ólbos",
@@ -4226,6 +4345,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Huldah; lit. Weasel",
     "inflections": {
       "Ολδαν": {
         "transliteration": "Oldan",
@@ -4238,6 +4358,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ωλεθρευ" },
+    "shortDefinition": "to bring ruin on, destroy",
     "inflections": {
       "ὀλεθρευθήσεται": {
         "transliteration": "olethreuthḗsetai",
@@ -4351,6 +4472,7 @@
   "ὀλεθρία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a ruination, destruction",
     "inflections": {
       "ὀλεθρίαν": {
         "transliteration": "olethrían",
@@ -4368,6 +4490,7 @@
   "ὀλέθριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be doomed, deadly",
     "inflections": {
       "ὀλεθρίας": {
         "transliteration": "olethrías",
@@ -4417,6 +4540,7 @@
   "ὀλεθροφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be ruin-bringing, destructive",
     "inflections": {
       "ὀλεθροφόρον": {
         "transliteration": "olethrophóron",
@@ -4434,6 +4558,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to slay, bring to ruin",
     "inflections": {
       "ὀλέκει": {
         "transliteration": "olékei",
@@ -4461,6 +4586,7 @@
   "ὀλιγόβιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of few days, short-lived",
     "inflections": {
       "ὀλιγόβιος": {
         "transliteration": "oligóbios",
@@ -4474,6 +4600,7 @@
   "ὀλιγόπιστος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of little faith",
     "indices": { "strongs": "G3640" },
     "inflections": {
       "ὀλιγόπιστε": {
@@ -4493,6 +4620,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to reduce in number, decimate",
     "inflections": {
       "ὠλιγοποίησεν": {
         "transliteration": "ōligopoíēsen",
@@ -4600,6 +4728,7 @@
   "ὀλιγοστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be fewest, very few",
     "inflections": {
       "ὀλιγοστοί": {
         "transliteration": "oligostoí",
@@ -4648,6 +4777,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a fewness, shortness",
     "inflections": {
       "ὀλιγότητα": {
         "transliteration": "oligótēta",
@@ -4659,6 +4789,7 @@
   "ὀλιγοχρόνιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of few years, brief",
     "inflections": {
       "ὀλιγοχρόνιος": {
         "transliteration": "oligochrónios",
@@ -4674,6 +4805,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "ωλιγοψυχη" },
+    "shortDefinition": "to be faint-hearted, discouraged",
     "inflections": {
       "ὀλιγοψυχήσῃς": {
         "transliteration": "oligopsychḗsēs",
@@ -4699,6 +4831,7 @@
   "ὀλιγοψυχία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a faint-heartedness, discouragement",
     "inflections": {
       "ὀλιγοψυχίαν": {
         "transliteration": "oligopsychían",
@@ -4716,6 +4849,7 @@
   "ὀλιγόψυχος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be small-souled, faint-hearted",
     "indices": { "strongs": "G3642" },
     "inflections": {
       "ὀλιγόψυχοι": {
@@ -4762,6 +4896,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to make few, lessen",
     "inflections": {
       "ὀλιγωθήσεται": {
         "transliteration": "oligōthḗsetai",
@@ -4807,6 +4942,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a slighting, neglect",
     "inflections": {
       "ὀλιγωρήσει": {
         "transliteration": "oligōrḗsei",
@@ -4819,6 +4955,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "ολισθη" },
+    "shortDefinition": "to slip; fig. to fall",
     "inflections": {
       "ὀλισθάνειν": {
         "transliteration": "olisthánein",
@@ -4853,6 +4990,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a slip, slippery place; fig. a downfall",
     "inflections": {
       "ὀλίσθημα": {
         "transliteration": "olísthēma",
@@ -4877,6 +5015,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a slipperiness; fig. a smooth intrigue",
     "inflections": {
       "ὀλισθρήμασιν": {
         "transliteration": "olisthrḗmasin",
@@ -4889,6 +5028,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a large bowl, basin",
     "inflections": {
       "ὁλκεῖα": {
         "transliteration": "holkeîa",
@@ -4905,6 +5045,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a scale weight, weighing",
     "inflections": {
       "ὁλκή": {
         "transliteration": "holkḗ",
@@ -4927,6 +5068,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
+    "shortDefinition": "to ruin, destroy; refl. to perish",
     "inflections": {
       "ὀλεῖ": {
         "transliteration": "oleî",
@@ -5013,6 +5155,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a destroyer",
     "indices": { "strongs": "G3644" },
     "inflections": {
       "ὀλοθρευτοῦ": {
@@ -5025,6 +5168,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to bring ruin on, destroy",
     "indices": { "strongs": "G3645" },
     "inflections": {
       "ὀλοθρεύων": {
@@ -5039,6 +5183,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to be offered whole (by fire)",
     "inflections": {
       "ὁλοκαρπούμενον": {
         "transliteration": "holokarpoúmenon",
@@ -5068,6 +5213,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a whole fire offering",
     "inflections": {
       "ὁλοκάρπωμα": {
         "transliteration": "holokárpōma",
@@ -5084,6 +5230,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an offering up whole by fire",
     "inflections": {
       "ὁλοκαρπώσεις": {
         "transliteration": "holokarpṓseis",
@@ -5110,6 +5257,7 @@
   "ὁλόκαυτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wholly burnt",
     "inflections": {
       "ὁλόκαυτος": {
         "transliteration": "holókautos",
@@ -5125,6 +5273,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a whole burnt offering",
     "indices": { "strongs": "G3646" },
     "inflections": {
       "ὁλοκαύτωμα": {
@@ -5182,6 +5331,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a whole burning, whole burnt offering",
     "inflections": {
       "ὁλοκαυτώσεις": {
         "transliteration": "holokautṓseis",
@@ -5209,6 +5359,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a wholeness, complete soundness",
     "indices": { "strongs": "G3647" },
     "inflections": {
       "ὁλοκληρίαν": {
@@ -5220,6 +5371,7 @@
   "ὁλόκληρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be intact, complete, sound",
     "indices": { "strongs": "G3648" },
     "inflections": {
       "ὁλόκληροι": {
@@ -5273,6 +5425,7 @@
   "ὀλολυγμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a shrieking, ululation",
     "inflections": {
       "ὀλολυγμός": {
         "transliteration": "ololygmós",
@@ -5284,6 +5437,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to howl, shriek",
     "indices": { "strongs": "G3649" },
     "inflections": {
       "ὀλολύζετε": {
@@ -5389,6 +5543,7 @@
   "ὁλοπόρφυρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be all purple",
     "inflections": {
       "ὁλοπόρφυρον": {
         "transliteration": "holopórphyron",
@@ -5405,6 +5560,7 @@
   "ὁλορριζί": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "root and all, utterly",
     "inflections": {
       "ὁλορριζεί": {
         "transliteration": "holorrizeí",
@@ -5415,6 +5571,7 @@
   "ὁλόρριζος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be whole-rooted (i.e., root and all)",
     "inflections": {
       "ὁλόρριζοι": {
         "transliteration": "holórrizoi",
@@ -5503,6 +5660,7 @@
   "ὁλοσφύρητος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of solid beaten metal",
     "inflections": {
       "ὁλοσφύρητον": {
         "transliteration": "holosphýrēton",
@@ -5520,6 +5678,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be entire, full, thoroughgoing",
     "inflections": {
       "ὁλοσχερῆ": {
         "transliteration": "holoscherē̂",
@@ -5536,6 +5695,7 @@
   "ὁλοσχερῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "fully, completely",
     "inflections": {
       "ὁλοσχερῶς": {
         "transliteration": "holoscherō̂s",
@@ -5547,6 +5707,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be wholly complete, through and through",
     "indices": { "strongs": "G3651" },
     "inflections": {
       "ὁλοτελεῖς": {
@@ -5560,6 +5721,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "Holofernes",
     "inflections": {
       "Ολοφέρνη": {
         "transliteration": "Olophérnē",
@@ -5590,6 +5752,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to bewail, mourn over",
     "inflections": {
       "ὀλοφυρομένων": {
         "transliteration": "olophyroménōn",
@@ -5619,6 +5782,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "Olympas; lit. Heavenly",
     "indices": { "strongs": "G3652" },
     "inflections": {
       "Ὀλυμπᾶν": {
@@ -5630,6 +5794,7 @@
   "Ὀλύμπιος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Olympian (title of Zeus)",
     "inflections": {
       "Ὀλυμπίου": {
         "transliteration": "Olympíou",
@@ -5642,6 +5807,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "an unripe (winter) fig",
     "indices": { "strongs": "G3653" },
     "inflections": {
       "ὀλύνθους": {
@@ -5653,6 +5819,7 @@
   "ὄλυρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an emmer (wheat), coarse grain",
     "inflections": {
       "ὀλύρα": {
         "transliteration": "olýra",
@@ -5670,6 +5837,7 @@
   "ὀλυρίτης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an emmer cake, coarse-grain loaf",
     "inflections": {
       "ὀλυρίτης": {
         "transliteration": "olyrítēs",
@@ -5680,6 +5848,7 @@
   "ὅλως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "at all, wholly; fig. actually",
     "indices": { "strongs": "G3654" },
     "inflections": {
       "ὅλως": { "transliteration": "hólōs", "cells": [{ "parse": ["adv"] }] }
@@ -5690,6 +5859,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ωμαλισμεν", "fut": "ομαλι" },
+    "shortDefinition": "to level, make smooth",
     "inflections": {
       "ὁμαλίσῃ": {
         "transliteration": "homalísē",
@@ -5721,6 +5891,7 @@
   "ὁμαλισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a leveling, flattening",
     "inflections": {
       "ὁμαλισμόν": {
         "transliteration": "homalismón",
@@ -5732,6 +5903,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Maacathite",
     "inflections": {
       "Ομαχαθι": {
         "transliteration": "Omachathi",
@@ -5744,6 +5916,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a rainwater, rain-fed stream",
     "inflections": {
       "ὀμβρήματα": {
         "transliteration": "ombrḗmata",
@@ -5760,6 +5933,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a thundershower, rainstorm",
     "indices": { "strongs": "G3655" },
     "inflections": {
       "ὄμβροις": {
@@ -5781,6 +5955,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to long for, yearn for",
     "indices": { "strongs": "G2442" },
     "inflections": {
       "ὁμειρόμενοι": {
@@ -5806,6 +5981,7 @@
   "ὅμηρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be held hostage",
     "inflections": {
       "ὅμηρα": {
         "transliteration": "hómēra",
@@ -5821,6 +5997,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to converse, keep company with",
     "indices": { "strongs": "G3656" },
     "inflections": {
       "ὁμίλει": {
@@ -5895,6 +6072,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a companionship, company; fig. a conversation",
     "indices": { "strongs": "G3657" },
     "inflections": {
       "ὁμιλίᾳ": {
@@ -5926,6 +6104,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a throng, company",
     "indices": { "strongs": "G3658" },
     "inflections": {
       "ὅμιλος": {
@@ -5939,6 +6118,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a fog, mist; fig. a gloom",
     "inflections": {
       "ὁμίχλη": {
         "transliteration": "homíchlē",
@@ -5966,6 +6146,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an eye [poetic]",
     "indices": { "strongs": "G3659" },
     "inflections": {
       "ὄμμα": {
@@ -5997,6 +6178,7 @@
   "Ομμαῖος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an Emite",
     "inflections": {
       "Ομμαίους": {
         "transliteration": "Ommaíous",
@@ -6009,6 +6191,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "an Emite",
     "inflections": {
       "Ομμιν": {
         "transliteration": "Ommin",
@@ -6021,6 +6204,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ommoth; lit. Peoples",
     "inflections": {
       "Ομμωθ": {
         "transliteration": "Ommōth",
@@ -6240,6 +6424,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be of the same nation, compatriot",
     "inflections": {
       "ὁμοεθνεῖς": {
         "transliteration": "homoethneîs",
@@ -6275,6 +6460,7 @@
   "ὁμοζηλία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a shared zeal",
     "inflections": {
       "ὁμοζηλία": {
         "transliteration": "homozēlía",
@@ -6301,6 +6487,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be similar, resemble",
     "indices": { "strongs": "G3662" },
     "inflections": {
       "ὁμοιάζει": {
@@ -6313,6 +6500,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be of like nature/feelings",
     "indices": { "strongs": "G3663" },
     "inflections": {
       "ὁμοιοπαθεῖς": {
@@ -6432,6 +6620,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a similarity, likeness",
     "indices": { "strongs": "G3665" },
     "inflections": {
       "ὁμοιότητα": {
@@ -6556,6 +6745,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a representation, likeness; fig. a form",
     "indices": { "strongs": "G3667" },
     "inflections": {
       "ὁμοίωμα": {
@@ -6587,6 +6777,7 @@
   "ὁμοίως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "likewise, in like manner",
     "indices": { "strongs": "G3668" },
     "inflections": {
       "ὁμοίως": {
@@ -6600,6 +6791,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a likening, resemblance",
     "indices": { "strongs": "G3669" },
     "inflections": {
       "ὁμοιώσεως": {
@@ -6760,6 +6952,7 @@
   "ὁμόλογος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be agreeing, self-convicted",
     "inflections": {
       "ὁμολόγους": {
         "transliteration": "homológous",
@@ -6773,6 +6966,7 @@
   "ὁμολογουμένως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "admittedly, undeniably",
     "indices": { "strongs": "G3672" },
     "inflections": {
       "ὁμολογουμένως": {
@@ -6784,6 +6978,7 @@
   "ὁμολόγως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "openly, freely",
     "inflections": {
       "ὁμολόγως": {
         "transliteration": "homológōs",
@@ -6794,6 +6989,7 @@
   "ὁμομήτριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the same mother",
     "inflections": {
       "ὁμομήτριον": {
         "transliteration": "homomḗtrion",
@@ -6811,6 +7007,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be of one mind, agree",
     "inflections": {
       "ὁμονοοῦντας": {
         "transliteration": "homonooûntas",
@@ -6838,6 +7035,7 @@
   "ὁμόνοια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a concord, harmony",
     "inflections": {
       "ὁμονοίᾳ": {
         "transliteration": "homonoía",
@@ -6859,6 +7057,7 @@
   "ὁμοπάτριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the same father",
     "inflections": {
       "ὁμοπατρία": {
         "transliteration": "homopatría",
@@ -6873,6 +7072,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to adjoin, border on",
     "inflections": {
       "ὁμοροῦντάς": {
         "transliteration": "homoroûntás",
@@ -6898,6 +7098,7 @@
   "ὅμορος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be adjoining, neighboring",
     "inflections": {
       "ὅμορα": {
         "transliteration": "hómora",
@@ -6919,6 +7120,7 @@
   "ὁμόσπονδος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be libation-sharing; fig. to be allied",
     "inflections": {
       "ὁμοσπόνδους": {
         "transliteration": "homospóndous",
@@ -6932,6 +7134,7 @@
   "ὁμότεχνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the same trade",
     "indices": { "strongs": "G3673" },
     "inflections": {
       "ὁμότεχνον": {
@@ -6943,6 +7146,7 @@
   "ὁμοῦ": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "in company, together",
     "indices": { "strongs": "G3674" },
     "inflections": {
       "ὁμοῦ": { "transliteration": "homoû", "cells": [{ "parse": ["adv"] }] }
@@ -6953,6 +7157,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Mushi; lit. Sensitive",
     "inflections": {
       "Ομουσι": {
         "transliteration": "Omousi",
@@ -6963,6 +7168,7 @@
   "ὁμόφρων": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be like-minded",
     "indices": { "strongs": "G3675" },
     "inflections": {
       "ὁμόφρονες": {
@@ -6977,6 +7183,7 @@
   "ὁμόφυλος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the same race, kindred",
     "inflections": {
       "ὁμοφύλους": {
         "transliteration": "homophýlous",
@@ -6990,6 +7197,7 @@
   "ὁμόψηφος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be voting alike, unanimous",
     "inflections": {
       "ὁμοψήφου": {
         "transliteration": "homopsḗphou",
@@ -7004,6 +7212,7 @@
   "ὁμόψυχος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of one soul, like-souled",
     "inflections": {
       "ὁμόψυχον": {
         "transliteration": "homópsychon",
@@ -7021,6 +7230,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to form unripe grapes, turn sour",
     "inflections": {
       "ὀμφακίζουσα": {
         "transliteration": "omphakízousa",
@@ -7034,6 +7244,7 @@
   "ὀμφαλός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a navel; fig. a center",
     "inflections": {
       "ὀμφαλόν": {
         "transliteration": "omphalón",
@@ -7053,6 +7264,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an unripe/sour grape",
     "inflections": {
       "ὄμφακα": {
         "transliteration": "ómphaka",
@@ -7067,6 +7279,7 @@
   "ὅμως": {
     "language": "greek",
     "pos": "conj",
+    "shortDefinition": "nevertheless, yet, even so",
     "indices": { "strongs": "G3676" },
     "inflections": {
       "ὅμως": { "transliteration": "hómōs", "cells": [{ "parse": ["conj"] }] }
@@ -7075,6 +7288,7 @@
   "ὄναγρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wild donkey",
     "inflections": {
       "ὄναγροι": {
         "transliteration": "ónagroi",
@@ -7113,6 +7327,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a little/young donkey",
     "indices": { "strongs": "G3678" },
     "inflections": {
       "ὀνάριον": {
@@ -7129,6 +7344,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Onias",
     "inflections": {
       "Ονιου": {
         "transliteration": "Oniou",
@@ -7318,6 +7534,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an insult, reproach [result]",
     "inflections": {
       "ὀνείδισμα": {
         "transliteration": "oneídisma",
@@ -7419,6 +7636,7 @@
   "ὄνειρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a dream",
     "inflections": {
       "ὄνειροι": {
         "transliteration": "óneiroi",
@@ -7454,6 +7672,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Onesimus; lit. Profitable",
     "indices": { "strongs": "G3682" },
     "inflections": {
       "Ὀνήσιμον": {
@@ -7471,6 +7690,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a profiting, enjoyment",
     "inflections": {
       "ὄνησιν": {
         "transliteration": "ónēsin",
@@ -7483,6 +7703,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Onesiphorus; lit. Profit-Bearer",
     "indices": { "strongs": "G3683" },
     "inflections": {
       "Ὀνησιφόρου": {
@@ -7496,6 +7717,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Onias",
     "inflections": {
       "Ονια": {
         "transliteration": "Onia",
@@ -7528,6 +7750,7 @@
   "ὀνικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be donkey-turned, of a donkey",
     "indices": { "strongs": "G3684" },
     "inflections": {
       "ὀνικός": {
@@ -7574,6 +7797,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hinnom",
     "inflections": {
       "Ονναμ": {
         "transliteration": "Onnam",
@@ -7584,6 +7808,7 @@
   "ὀνοκένταυρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a donkey-centaur (mythical beast); trad. a satyr",
     "inflections": {
       "ὀνοκένταυροι": {
         "transliteration": "onokéntauroi",
@@ -7602,6 +7827,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hinnom",
     "inflections": {
       "Ονομ": {
         "transliteration": "Onom",
@@ -7680,6 +7906,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ωνομα" },
+    "shortDefinition": "to name, call; fig. to mention, utter (a name)",
     "indices": { "strongs": "G3687" },
     "inflections": {
       "ὀνομάζει": {
@@ -7813,6 +8040,7 @@
   "ὀνομασία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a naming, uttering of a name",
     "inflections": {
       "ὀνομασίᾳ": {
         "transliteration": "onomasía",
@@ -7824,6 +8052,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be famous, of renown",
     "inflections": {
       "ὀνομαστή": {
         "transliteration": "onomastḗ",
@@ -7879,6 +8108,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a list of names, name roster",
     "inflections": {
       "ὀνοματογραφία": {
         "transliteration": "onomatographía",
@@ -7962,6 +8192,7 @@
   "ὄντως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "actually, really, indeed",
     "indices": { "strongs": "G3689" },
     "inflections": {
       "ὄντως": { "transliteration": "óntōs", "cells": [{ "parse": ["adv"] }] }
@@ -7972,6 +8203,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a fingernail, claw, hoof; fig. an onyx, onycha",
     "inflections": {
       "ὄνυξ": {
         "transliteration": "ónyx",
@@ -8020,6 +8252,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to split into claws (of hooves); refl. to pare one’s nails",
     "inflections": {
       "ὀνυχίζει": {
         "transliteration": "onychízei",
@@ -8057,6 +8290,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an onyx stone",
     "inflections": {
       "ὀνύχιον": {
         "transliteration": "onýchion",
@@ -8072,6 +8306,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a hoof cleft, split hoof",
     "inflections": {
       "ὀνυχιστῆρας": {
         "transliteration": "onychistē̂ras",
@@ -8083,6 +8318,7 @@
   "ὀξέως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "swiftly, quickly; lit. sharply",
     "inflections": {
       "ὀξέως": { "transliteration": "oxéōs", "cells": [{ "parse": ["adv"] }] }
     }
@@ -8092,6 +8328,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a vinegar, sour wine",
     "indices": { "strongs": "G3690" },
     "inflections": {
       "ὄξει": {
@@ -8115,6 +8352,7 @@
   "ὀξυγράφος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be swift-writing",
     "inflections": {
       "ὀξυγράφου": {
         "transliteration": "oxygráphou",
@@ -8129,6 +8367,7 @@
   "ὀξύθυμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be quick-tempered, hot-tempered",
     "inflections": {
       "ὀξύθυμος": {
         "transliteration": "oxýthymos",
@@ -8143,6 +8382,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to make sharp, sharpen",
     "inflections": {
       "ὀξῦναι": {
         "transliteration": "oxŷnai",
@@ -8190,6 +8430,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
+    "shortDefinition": "to be sharp; fig. to be swift, keen",
     "indices": { "strongs": "G3691" },
     "inflections": {
       "ὀξεῖ": {
@@ -8256,6 +8497,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a sharpness; fig. a swiftness",
     "inflections": {
       "ὀξύτητος": {
         "transliteration": "oxýtētos",
@@ -8268,6 +8510,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ohel; lit. Tent",
     "inflections": {
       "Οολ": {
         "transliteration": "Ool",
@@ -8279,6 +8522,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Oholah, Aholah; lit. Her Tent",
     "inflections": {
       "Οολα": {
         "transliteration": "Oola",
@@ -8299,6 +8543,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hali; lit. Ornament",
     "inflections": {
       "Οολι": {
         "transliteration": "Ooli",
@@ -8310,6 +8555,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Oholibah, Aholibah; lit. My Tent Is in Her",
     "inflections": {
       "Οολιβα": {
         "transliteration": "Ooliba",
@@ -8331,6 +8577,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a hole, opening, cleft",
     "indices": { "strongs": "G3692" },
     "inflections": {
       "ὀπαῖς": {
@@ -8358,6 +8605,7 @@
   "ὁπηνίκα": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "at which time, whenever, when",
     "inflections": {
       "ὁπηνίκα": {
         "transliteration": "hopēníka",
@@ -8370,6 +8618,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a small awl",
     "inflections": {
       "ὀπήτιον": {
         "transliteration": "opḗtion",
@@ -8408,6 +8657,7 @@
   "ὀπίσθιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be rear, hind, at the back",
     "inflections": {
       "ὀπίσθια": {
         "transliteration": "opísthia",
@@ -8454,6 +8704,7 @@
   "ὀπισθίως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "backward, on one’s back",
     "inflections": {
       "ὀπισθίως": {
         "transliteration": "opisthíōs",
@@ -8464,6 +8715,7 @@
   "ὀπισθότονος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be tetanic, convulsed backward",
     "inflections": {
       "ὀπισθότονος": {
         "transliteration": "opisthótonos",
@@ -8478,6 +8730,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be facing away, turned backward",
     "inflections": {
       "ὀπισθοφανές": {
         "transliteration": "opisthophanés",
@@ -8494,6 +8747,7 @@
   "ὀπισθοφανῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "facing away, backward",
     "inflections": {
       "ὀπισθοφανῶς": {
         "transliteration": "opisthophanō̂s",
@@ -8504,6 +8758,7 @@
   "ὀπίσω": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "after, behind, back(ward)",
     "indices": { "strongs": "G3694" },
     "inflections": {
       "ὀπίσω": { "transliteration": "opísō", "cells": [{ "parse": ["adv"] }] }
@@ -8514,6 +8769,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a hoof",
     "inflections": {
       "ὁπλαῖς": {
         "transliteration": "hoplaîs",
@@ -8541,6 +8797,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to arm (oneself), equip",
     "indices": { "strongs": "G3695" },
     "inflections": {
       "ὁπλίσασθε": {
@@ -8552,6 +8809,7 @@
   "ὁπλίτης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a heavy-armed soldier, hoplite",
     "inflections": {
       "ὁπλίτης": {
         "transliteration": "hoplítēs",
@@ -8563,6 +8821,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to supply with weapons, arm",
     "inflections": {
       "ὁπλοδότησεν": {
         "transliteration": "hoplodótēsen",
@@ -8575,6 +8834,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an arsenal, armory",
     "inflections": {
       "ὁπλοθήκας": {
         "transliteration": "hoplothḗkas",
@@ -8586,6 +8846,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to collect weapons (from), disarm",
     "inflections": {
       "ὁπλολογήσαντες": {
         "transliteration": "hoplologḗsantes",
@@ -8599,6 +8860,7 @@
   "ὁπλομάχος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an armed warrior, man-at-arms",
     "inflections": {
       "ὁπλομάχοι": {
         "transliteration": "hoplomáchoi",
@@ -8623,6 +8885,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a weapon, tool, implement; pl. an armor",
     "indices": { "strongs": "G3696" },
     "inflections": {
       "ὅπλα": {
@@ -8663,6 +8926,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to make into weapons, arm with",
     "inflections": {
       "ὁπλοποιήσει": {
         "transliteration": "hoplopoiḗsei",
@@ -8676,6 +8940,7 @@
   "ὁπλοφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be weapon-bearing, armed",
     "inflections": {
       "ὁπλοφόρων": {
         "transliteration": "hoplophórōn",
@@ -8692,6 +8957,7 @@
     "pos": "adj",
     "citationForms": ["ὁποῖος", "ὁποῖόν"],
     "declension": "2-1-2-a",
+    "shortDefinition": "to be of what sort/kind, such as",
     "indices": { "strongs": "G3697" },
     "inflections": {
       "ὁποίαν": {
@@ -8729,6 +8995,7 @@
   "ὁπόταν": {
     "language": "greek",
     "pos": "conj",
+    "shortDefinition": "at whatever time, whenever",
     "inflections": {
       "ὁπόταν": {
         "transliteration": "hopótan",
@@ -8739,6 +9006,7 @@
   "ὁπότε": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "at what time, when",
     "indices": { "strongs": "G3698" },
     "inflections": {
       "ὁπότε": { "transliteration": "hopóte", "cells": [{ "parse": ["adv"] }] }
@@ -8757,6 +9025,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to be seen, appear",
     "inflections": {
       "ὀπτάζῃ": {
         "transliteration": "optázē",
@@ -8810,6 +9079,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a manifestation, appearing; fig. a vision",
     "indices": { "strongs": "G3701" },
     "inflections": {
       "ὀπτασίᾳ": {
@@ -8830,6 +9100,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to roast, bake",
     "inflections": {
       "ὀπτῆσαι": {
         "transliteration": "optē̂sai",
@@ -8870,6 +9141,7 @@
   "ὀπτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be roasted, broiled",
     "indices": { "strongs": "G3702" },
     "inflections": {
       "ὀπτά": {
@@ -8892,6 +9164,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a ripe/autumn fruit",
     "indices": { "strongs": "G3703" },
     "inflections": {
       "ὀπώρα": {
@@ -8909,6 +9182,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a fruit-watcher’s hut, orchard shelter",
     "inflections": {
       "ὀπωροφυλάκιον": {
         "transliteration": "opōrophylákion",
@@ -8923,6 +9197,7 @@
   "ὅπως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "in what way, how; fig. so that, in order that",
     "indices": { "strongs": "G3704" },
     "inflections": {
       "ὅπως": { "transliteration": "hópōs", "cells": [{ "parse": ["adv"] }] }
@@ -8983,6 +9258,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a seeing, sight; fig. a vision, appearance",
     "indices": { "strongs": "G3706" },
     "inflections": {
       "ὁράσει": {
@@ -9018,6 +9294,7 @@
   "ὁρατής": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a beholder, one who sees",
     "inflections": {
       "ὁρατής": {
         "transliteration": "horatḗs",
@@ -9028,6 +9305,7 @@
   "ὁρατικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be observant, perceptive",
     "inflections": {
       "ὁρατικόν": {
         "transliteration": "horatikón",
@@ -10392,6 +10670,7 @@
   "ὀργανικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be instrumental, mechanical",
     "inflections": {
       "ὀργανικῶν": {
         "transliteration": "organikō̂n",
@@ -10408,6 +10687,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an instrument, tool, device",
     "inflections": {
       "ὄργανα": {
         "transliteration": "órgana",
@@ -10488,6 +10768,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to anger, provoke to wrath",
     "indices": { "strongs": "G3710" },
     "inflections": {
       "ὀργίζεσθε": {
@@ -10608,6 +10889,7 @@
   "ὀργίλος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be prone to anger, irascible",
     "indices": { "strongs": "G3711" },
     "inflections": {
       "ὀργίλον": {
@@ -10650,6 +10932,7 @@
   "ὀργίλως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "angrily, wrathfully",
     "inflections": {
       "ὀργίλως": {
         "transliteration": "orgílōs",
@@ -10661,6 +10944,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a fathom (arm-span)",
     "indices": { "strongs": "G3712" },
     "inflections": {
       "ὀργυιάς": {
@@ -10697,6 +10981,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be mountainous, hilly",
     "indices": { "strongs": "G3714" },
     "inflections": {
       "ὀρεινή": {
@@ -10738,6 +11023,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a craving, longing; fig. an appetite, lust",
     "indices": { "strongs": "G3715" },
     "inflections": {
       "ὀρέξει": {
@@ -10771,6 +11057,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Erech; lit. Length",
     "inflections": {
       "Ορεχ": {
         "transliteration": "Orech",
@@ -10783,6 +11070,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "indeclinable",
+    "shortDefinition": "a hill, mountain",
     "inflections": {
       "Ορη": {
         "transliteration": "Orē",
@@ -10793,6 +11081,7 @@
   "ὄρθιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be erect, straight up",
     "inflections": {
       "ὄρθιον": {
         "transliteration": "órthion",
@@ -10921,6 +11210,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to cut straight; fig. to handle correctly; trad. to rightly divide",
     "indices": { "strongs": "G3718" },
     "inflections": {
       "ὀρθοτομεῖ": {
@@ -10957,6 +11247,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "aor": "κατορθω" },
+    "shortDefinition": "to set upright, straighten; fig. to establish",
     "inflections": {
       "ὀρθωθῇ": {
         "transliteration": "orthōthē̂",
@@ -10999,6 +11290,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be up before dawn",
     "inflections": {
       "ὤρθρευσαν": {
         "transliteration": "ṓrthreusan",
@@ -11010,6 +11302,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to rise early, come at dawn; fig. to seek eagerly",
     "indices": { "strongs": "G3719" },
     "inflections": {
       "ὀρθριεῖς": {
@@ -11141,6 +11434,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be of the dawn, early-morning",
     "indices": { "strongs": "G3720" },
     "inflections": {
       "ὀρθρινή": {
@@ -11167,6 +11461,7 @@
   "ὄρθριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be early, up at daybreak",
     "indices": { "strongs": "G3721" },
     "inflections": {
       "ὄρθριαι": {
@@ -11214,6 +11509,7 @@
   "ὀρθῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "correctly, rightly",
     "indices": { "strongs": "G3723" },
     "inflections": {
       "ὀρθῶς": { "transliteration": "orthō̂s", "cells": [{ "parse": ["adv"] }] }
@@ -11222,6 +11518,7 @@
   "Ὀρθωσία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Orthosia",
     "inflections": {
       "Ὀρθωσίαν": {
         "transliteration": "Orthōsían",
@@ -11321,6 +11618,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a boundary, frontier; pl. a territory, region",
     "indices": { "strongs": "G3725" },
     "inflections": {
       "ὅρια": {
@@ -11370,6 +11668,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a setting of limits, fixed term; fig. a decree, binding vow",
     "inflections": {
       "ὁρισμοί": {
         "transliteration": "horismoí",
@@ -11404,6 +11703,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to make swear, bind by oath; fig. to adjure",
     "indices": { "strongs": "G3726" },
     "inflections": {
       "ὁρκιεῖ": {
@@ -11465,6 +11765,7 @@
   "ὁρκισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a binding by oath, adjuration",
     "inflections": {
       "ὁρκισμόν": {
         "transliteration": "horkismón",
@@ -11543,6 +11844,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "aor": "ωρμη" },
+    "shortDefinition": "to rush headlong, dash, charge",
     "indices": { "strongs": "G3729" },
     "inflections": {
       "ὁρμησάντων": {
@@ -11601,6 +11903,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an impulse, rush; fig. an onset, assault",
     "indices": { "strongs": "G3730" },
     "inflections": {
       "ὁρμάς": {
@@ -11630,6 +11933,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an onrush, surge; fig. a violence, fury",
     "indices": { "strongs": "G3731" },
     "inflections": {
       "ὅρμημα": {
@@ -11667,6 +11971,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a small necklace, pendant cord",
     "inflections": {
       "ὁρμίσκοι": {
         "transliteration": "hormískoi",
@@ -11700,6 +12005,7 @@
   "ὅρμος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an anchorage, mooring",
     "inflections": {
       "ὅρμον": {
         "transliteration": "hórmon",
@@ -11716,6 +12022,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ornan, Araunah; lit. Strong",
     "inflections": {
       "Ορνα": {
         "transliteration": "Orna",
@@ -11728,6 +12035,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ornan, Araunah; lit. Strong",
     "inflections": {
       "Ορναν": {
         "transliteration": "Ornan",
@@ -11740,6 +12048,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a fowl, bird",
     "indices": { "strongs": "G3732" },
     "inflections": {
       "ὄρνεα": {
@@ -11781,6 +12090,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Adonijah; lit. My Lord Is YH/Yah/Jah",
     "inflections": {
       "Ορνια": {
         "transliteration": "Ornia",
@@ -11793,6 +12103,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a small bird",
     "inflections": {
       "ὀρνίθια": {
         "transliteration": "orníthia",
@@ -11824,6 +12135,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to watch birds for omens, practice augury",
     "inflections": {
       "ὀρνιθοσκοπήσεσθε": {
         "transliteration": "ornithoskopḗsesthe",
@@ -11836,6 +12148,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Azariah",
     "inflections": {
       "Ορνιου": {
         "transliteration": "Orniou",
@@ -11847,6 +12160,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a bird; fig. a hen",
     "indices": { "strongs": "G3733" },
     "inflections": {
       "ὀρνέων": {
@@ -11873,6 +12187,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a fixing of bounds; fig. a boundary",
     "indices": { "strongs": "G3734" },
     "inflections": {
       "ὁροθεσίας": {
@@ -11930,6 +12245,7 @@
   "ὅρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a set time, limit",
     "inflections": {
       "ὅρον": {
         "transliteration": "hóron",
@@ -11943,6 +12259,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to frequent rooftops",
     "inflections": {
       "ὀροφοιτοῦντα": {
         "transliteration": "orophoitoûnta",
@@ -11958,6 +12275,7 @@
   "ὄροφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a roof covering, ceiling",
     "inflections": {
       "ὀρόφοις": {
         "transliteration": "oróphois",
@@ -11970,6 +12288,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a paneled ceiling, roofing",
     "inflections": {
       "ὀροφώματα": {
         "transliteration": "orophṓmata",
@@ -11984,6 +12303,7 @@
   "ὀρτυγομήτρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a quail; lit. a quail-mother",
     "inflections": {
       "ὀρτυγομήτρα": {
         "transliteration": "ortygomḗtra",
@@ -12003,6 +12323,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "an oryx, wild antelope",
     "inflections": {
       "ὄρυγα": {
         "transliteration": "óryga",
@@ -12015,6 +12336,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ωρυξ" },
+    "shortDefinition": "to dig, dig out",
     "indices": { "strongs": "G3736" },
     "inflections": {
       "ὀρυγῇ": {
@@ -12096,6 +12418,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Orpah; lit. Mane",
     "inflections": {
       "Ορφα": {
         "transliteration": "Orpha",
@@ -12106,6 +12429,7 @@
   "ὀρφανία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an orphanhood, bereavement",
     "inflections": {
       "ὀρφανείαν": {
         "transliteration": "orphaneían",
@@ -12120,6 +12444,7 @@
   "ὀρφανός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be orphaned, parentless; fig. to be bereft",
     "indices": { "strongs": "G3737" },
     "inflections": {
       "ὀρφανά": {
@@ -12201,6 +12526,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "deponent": true,
+    "shortDefinition": "to dance",
     "indices": { "strongs": "G3738" },
     "inflections": {
       "ὀρχησαμένης": {
@@ -12427,6 +12753,7 @@
   "ὁσάκις": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "as often as, as many times as",
     "indices": { "strongs": "G3740" },
     "inflections": {
       "ὁσάκις": {
@@ -12438,6 +12765,7 @@
   "ὅσιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be pious, godly; fig. to be holy",
     "indices": { "strongs": "G3741" },
     "inflections": {
       "ὁσία": {
@@ -12550,6 +12878,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a piety, godliness",
     "indices": { "strongs": "G3742" },
     "inflections": {
       "ὁσιότητα": {
@@ -12571,6 +12900,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "fut": "οσιωθη", "aor": "οσιωθη" },
+    "shortDefinition": "to make pious, hallow",
     "inflections": {
       "ὁσιωθήσῃ": {
         "transliteration": "hosiōthḗsē",
@@ -12591,6 +12921,7 @@
   "ὁσίως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "devoutly, in holiness",
     "indices": { "strongs": "G3743" },
     "inflections": {
       "ὁσίως": { "transliteration": "hosíōs", "cells": [{ "parse": ["adv"] }] }
@@ -12601,6 +12932,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a smell, scent, odor",
     "indices": { "strongs": "G3744" },
     "inflections": {
       "ὀσμή": {
@@ -12626,6 +12958,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hashem",
     "inflections": {
       "Οσομ": {
         "transliteration": "Osom",
@@ -12706,6 +13039,7 @@
   "ὅσπερ": {
     "language": "greek",
     "pos": "pron-rel",
+    "shortDefinition": "who/which indeed, the very one who",
     "indices": { "strongs": "G3746" },
     "inflections": {
       "ἅπερ": {
@@ -12730,6 +13064,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a legume, pulse",
     "inflections": {
       "ὀσπρίων": {
         "transliteration": "ospríōn",
@@ -12742,6 +13077,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hosah; lit. Hopeful",
     "inflections": {
       "Οσσα": {
         "transliteration": "Ossa",
@@ -12754,6 +13090,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a bone",
     "indices": { "strongs": "G3747" },
     "inflections": {
       "ὀστᾶ": {
@@ -12883,6 +13220,7 @@
   "ὁστισοῦν": {
     "language": "greek",
     "pos": "pron-rel",
+    "shortDefinition": "whoever/whatever at all",
     "inflections": {
       "ἡστινοσοῦν": {
         "transliteration": "hēstinosoûn",
@@ -12911,6 +13249,7 @@
   "ὀστράκινος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be earthenware, of baked clay",
     "indices": { "strongs": "G3749" },
     "inflections": {
       "ὀστράκινα": {
@@ -12965,6 +13304,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a potsherd, clay shard",
     "inflections": {
       "ὄστρακον": {
         "transliteration": "óstrakon",
@@ -12988,6 +13328,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be shard-strewn, full of potsherds",
     "inflections": {
       "ὀστρακώδει": {
         "transliteration": "ostrakṓdei",
@@ -13004,6 +13345,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "stems": { "aor": "οσφραν", "fut": "οσφραν" },
+    "shortDefinition": "to catch the scent of, smell",
     "inflections": {
       "ὀσφραίνεσθαι": {
         "transliteration": "osphraínesthai",
@@ -13058,6 +13400,7 @@
   "ὀσφρασία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an aroma, scent",
     "inflections": {
       "ὀσφρασία": {
         "transliteration": "osphrasía",
@@ -13072,6 +13415,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a sense of smell, smelling",
     "indices": { "strongs": "G3750" },
     "inflections": {
       "ὄσφρησις": {
@@ -13085,6 +13429,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-us",
+    "shortDefinition": "a waist, hips; fig. a procreative power; trad. the loins",
     "inflections": {
       "ὀσφήν": {
         "transliteration": "osphḗn",
@@ -13155,6 +13500,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to urge on, spur on",
     "inflections": {
       "ὤτρυνε": {
         "transliteration": "ṓtryne",
@@ -13200,6 +13546,7 @@
   "οὐά": {
     "language": "greek",
     "pos": "inj",
+    "shortDefinition": "aha! (mocking)",
     "indices": { "strongs": "G3758" },
     "inflections": {
       "οὐά": { "transliteration": "ouá", "cells": [{ "parse": ["inj"] }] }
@@ -13208,6 +13555,7 @@
   "οὐαί": {
     "language": "greek",
     "pos": "inj",
+    "shortDefinition": "woe!, alas!",
     "indices": { "strongs": "G3759" },
     "inflections": {
       "οὐαί": {
@@ -13221,6 +13569,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-u",
+    "shortDefinition": "a waw",
     "inflections": {
       "ουαυ": {
         "transliteration": "ouau",
@@ -13237,6 +13586,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hophra",
     "inflections": {
       "Ουαφρη": {
         "transliteration": "Ouaphrē",
@@ -13248,6 +13598,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ubal; lit. Stream",
     "inflections": {
       "Ουβαλ": {
         "transliteration": "Oubal",
@@ -13259,6 +13610,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ivvah, Avva",
     "inflections": {
       "Ουγαυα": {
         "transliteration": "Ougaua",
@@ -13271,6 +13623,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Dedan",
     "inflections": {
       "Ουδαδαν": {
         "transliteration": "Oudadan",
@@ -13281,6 +13634,7 @@
   "οὐδαμοῦ": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely nowhere",
     "inflections": {
       "οὐδαμοῦ": {
         "transliteration": "oudamoû",
@@ -13291,6 +13645,7 @@
   "οὐδαμῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely in no way, by no means",
     "indices": { "strongs": "G3760" },
     "inflections": {
       "οὐδαμῶς": {
@@ -13303,6 +13658,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Udan",
     "inflections": {
       "Ουδαν": {
         "transliteration": "Oudan",
@@ -13406,6 +13762,7 @@
   "οὐδέποτε": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely never",
     "indices": { "strongs": "G3763" },
     "inflections": {
       "οὐδέποτε": {
@@ -13417,6 +13774,7 @@
   "οὐδέπω": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely not even yet",
     "indices": { "strongs": "G3764" },
     "inflections": {
       "οὐδέπω": {
@@ -13430,6 +13788,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Azariah",
     "inflections": {
       "Ουδια": {
         "transliteration": "Oudia",
@@ -13442,6 +13801,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hodevah; lit. Majesty of YH/Yah/Jah",
     "inflections": {
       "Ουδουια": {
         "transliteration": "Oudouia",
@@ -13454,6 +13814,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Shobi; lit. Captor",
     "inflections": {
       "Ουεσβι": {
         "transliteration": "Ouesbi",
@@ -13466,6 +13827,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uel; lit. Wish of God",
     "inflections": {
       "Ουηλ": {
         "transliteration": "Ouēl",
@@ -13478,6 +13840,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uthai, Uthi; lit. Succoring",
     "inflections": {
       "Ουθι": {
         "transliteration": "Outhi",
@@ -13490,6 +13853,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Vaniah",
     "inflections": {
       "Ουιεχωα": {
         "transliteration": "Ouiechōa",
@@ -13502,6 +13866,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Akan; lit. Tortuous",
     "inflections": {
       "Ουκαν": {
         "transliteration": "Oukan",
@@ -13512,6 +13877,7 @@
   "οὐκέτι": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely no longer, no more",
     "indices": { "strongs": "G3765" },
     "inflections": {
       "οὐκέτι": {
@@ -13523,6 +13889,7 @@
   "οὐκοῦν": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "therefore then, so [inferential]",
     "indices": { "strongs": "G3766" },
     "inflections": {
       "οὐκοῦν": {
@@ -13536,6 +13903,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hul; lit. Circle",
     "inflections": {
       "Ουλ": {
         "transliteration": "Oul",
@@ -13548,6 +13916,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ulai",
     "inflections": {
       "Ουλαι": {
         "transliteration": "Oulai",
@@ -13560,6 +13929,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Evilmerodach; lit. Soldier of Merodach",
     "inflections": {
       "Ουλαιμαραδαχ": {
         "transliteration": "Oulaimaradach",
@@ -13572,6 +13942,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ulam; lit. Solitary",
     "inflections": {
       "Ουλαμ": {
         "transliteration": "Oulam",
@@ -13583,6 +13954,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Laish; lit. Lion",
     "inflections": {
       "Ουλαμαις": {
         "transliteration": "Oulamais",
@@ -13594,6 +13966,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Luz",
     "inflections": {
       "Ουλαμλους": {
         "transliteration": "Oulamlous",
@@ -13606,6 +13979,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a scar, skin mark",
     "inflections": {
       "οὐλή": {
         "transliteration": "oulḗ",
@@ -13636,6 +14010,7 @@
   "οὗπερ": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "just where, the very place where",
     "inflections": {
       "οὗπερ": { "transliteration": "hoûper", "cells": [{ "parse": ["adv"] }] }
     }
@@ -13643,6 +14018,7 @@
   "οὔπω": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "absolutely/definitely not yet",
     "indices": { "strongs": "G3768" },
     "inflections": {
       "οὔπω": {
@@ -13656,6 +14032,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hur; lit. White Linen",
     "inflections": {
       "Ουρ": {
         "transliteration": "Our",
@@ -13667,6 +14044,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a tail; fig. a lowest rank",
     "indices": { "strongs": "G3769" },
     "inflections": {
       "οὐρά": {
@@ -13706,6 +14084,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to bring up the rear; fig. to lag behind",
     "inflections": {
       "οὐράγει": {
         "transliteration": "ourágei",
@@ -13729,6 +14108,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a rear guard",
     "inflections": {
       "οὐραγίαν": {
         "transliteration": "ouragían",
@@ -13739,6 +14119,7 @@
   "οὐράνιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the sky; fig. to be heavenly",
     "indices": { "strongs": "G3770" },
     "inflections": {
       "οὐράνιον": {
@@ -13786,6 +14167,7 @@
   "οὐρανόθεν": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "from the sky; fig. from Heaven",
     "indices": { "strongs": "G3771" },
     "inflections": {
       "οὐρανόθεν": {
@@ -13848,6 +14230,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Urbanus; lit. of the City",
     "indices": { "strongs": "G3773" },
     "inflections": {
       "Οὐρβανόν": {
@@ -13860,6 +14243,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to urinate",
     "inflections": {
       "οὐροῦντα": {
         "transliteration": "ouroûnta",
@@ -13877,6 +14261,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uri; lit. Fiery",
     "inflections": {
       "Ουρι": {
         "transliteration": "Ouri",
@@ -13887,6 +14272,7 @@
   "Ουρια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Uriah, Urijah; lit. Flame of YH/Yah/Jah",
     "inflections": {
       "Ουρια": {
         "transliteration": "Ouria",
@@ -13945,6 +14331,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uriel; lit. Flame of God",
     "inflections": {
       "Ουριηλ": {
         "transliteration": "Ouriēl",
@@ -13955,6 +14342,7 @@
   "οὔριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be addled (of an egg); lit. to be of the wind",
     "inflections": {
       "οὔριον": {
         "transliteration": "oúrion",
@@ -13973,6 +14361,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a urine",
     "inflections": {
       "οὖρον": {
         "transliteration": "oûron",
@@ -13988,6 +14377,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
+    "shortDefinition": "an ear",
     "indices": { "strongs": "G3775" },
     "inflections": {
       "οὖς": {
@@ -14037,6 +14427,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uzza; lit. Strength",
     "inflections": {
       "Ουσα": {
         "transliteration": "Ousa",
@@ -14049,6 +14440,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hushathite",
     "inflections": {
       "Ουσαθι": {
         "transliteration": "Ousathi",
@@ -14060,6 +14452,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a property, estate; trad. a substance",
     "indices": { "strongs": "G3776" },
     "inflections": {
       "οὐσίαν": {
@@ -14077,6 +14470,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uta",
     "inflections": {
       "Ουτα": {
         "transliteration": "Outa",
@@ -14413,6 +14807,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ephod",
     "inflections": {
       "Ουφι": {
         "transliteration": "Ouphi",
@@ -14425,6 +14820,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ophir",
     "inflections": {
       "Ουφιρ": {
         "transliteration": "Ouphir",
@@ -14435,6 +14831,7 @@
   "οὐχί": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "no indeed!, certainly not!; fig. is it not?",
     "indices": { "strongs": "G3780" },
     "inflections": {
       "οὐχί": {
@@ -14448,6 +14845,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hepher; lit. Pit of Shame",
     "inflections": {
       "Οφαρ": {
         "transliteration": "Ophar",
@@ -14485,6 +14883,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a due, amount owed; fig. a duty",
     "indices": { "strongs": "G3782" },
     "inflections": {
       "ὀφειλάς": {
@@ -14502,6 +14901,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a debt, what is owed; fig. a sin, offense",
     "indices": { "strongs": "G3783" },
     "inflections": {
       "ὀφείλημα": {
@@ -14844,6 +15244,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hepher; lit. Pit of Shame",
     "inflections": {
       "Οφερ": {
         "transliteration": "Opher",
@@ -14856,6 +15257,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hepherite",
     "inflections": {
       "Οφερι": {
         "transliteration": "Opheri",
@@ -14867,6 +15269,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an eye-service (i.e., working only when watched)",
     "indices": { "strongs": "G3787" },
     "inflections": {
       "ὀφθαλμοδουλείαις": {
@@ -14927,6 +15330,7 @@
   "ὀφθαλμοφανῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "in plain view, before one’s eyes",
     "inflections": {
       "ὀφθαλμοφανῶς": {
         "transliteration": "ophthalmophanō̂s",
@@ -14939,6 +15343,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Huppim; lit. Canopies",
     "inflections": {
       "Οφιμιν": {
         "transliteration": "Ophimin",
@@ -14949,6 +15354,7 @@
   "ὀφιόδηκτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be snake-bitten",
     "inflections": {
       "ὀφιόδηκτον": {
         "transliteration": "ophiódēkton",
@@ -14967,6 +15373,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a snake-fighter (edible locust)",
     "inflections": {
       "ὀφιομάχην": {
         "transliteration": "ophiomáchēn",
@@ -14979,6 +15386,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a snake, serpent",
     "indices": { "strongs": "G3789" },
     "inflections": {
       "ὄφει": {
@@ -15019,6 +15427,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ophel; lit. Mound",
     "inflections": {
       "Οφλα": {
         "transliteration": "Ophla",
@@ -15031,6 +15440,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a penalty incurred, liability",
     "inflections": {
       "ὄφλησιν": {
         "transliteration": "óphlēsin",
@@ -15043,6 +15453,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hophni",
     "inflections": {
       "Οφνι": {
         "transliteration": "Ophni",
@@ -15055,6 +15466,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-us",
+    "shortDefinition": "an eyebrow; fig. a brow (of a hill)",
     "indices": { "strongs": "G3790" },
     "inflections": {
       "ὀφρύας": {
@@ -15070,6 +15482,7 @@
   "ὀχεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a mating, mounting (for breeding)",
     "inflections": {
       "ὀχείαν": {
         "transliteration": "ocheían",
@@ -15082,6 +15495,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Jeiel, Ochielus; lit. Carried Away by God",
     "inflections": {
       "Οχιηλος": {
         "transliteration": "Ochiēlos",
@@ -15093,6 +15507,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to lead a mob, stir up the crowd",
     "inflections": {
       "ὀχλαγωγήσῃς": {
         "transliteration": "ochlagōgḗsēs",
@@ -15151,6 +15566,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to gather a crowd, form a mob",
     "indices": { "strongs": "G3792" },
     "inflections": {
       "ὀχλοποιήσαντες": {
@@ -15212,6 +15628,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ahuzzath; lit. Possession",
     "inflections": {
       "Οχοζαθ": {
         "transliteration": "Ochozath",
@@ -15223,6 +15640,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ahaziah; lit. YH/Yah/Jah Has Seized",
     "inflections": {
       "Οχοζια": {
         "transliteration": "Ochozia",
@@ -15235,6 +15653,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ahaziah; lit. YH/Yah/Jah Has Seized",
     "inflections": {
       "Οχοζιαν": {
         "transliteration": "Ochozian",
@@ -15247,6 +15666,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Ahaziah; lit. YH/Yah/Jah Has Seized",
     "inflections": {
       "Οχοζια": {
         "transliteration": "Ochozia",
@@ -15281,6 +15701,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be strongly fortified, firm, secure",
     "inflections": {
       "ὀχυρά": {
         "transliteration": "ochyrá",
@@ -15378,6 +15799,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to fortify, secure",
     "inflections": {
       "ὀχυροῦσιν": {
         "transliteration": "ochyroûsin",
@@ -15432,6 +15854,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a fortified place, stronghold, fortress",
     "indices": { "strongs": "G3794" },
     "inflections": {
       "ὀχύρωμα": {
@@ -15493,6 +15916,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a small fort, fortlet",
     "inflections": {
       "ὀχυρωμάτιον": {
         "transliteration": "ochyrōmátion",
@@ -15509,6 +15933,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a fortifying, fortification",
     "inflections": {
       "ὀχυρώσεως": {
         "transliteration": "ochyrṓseōs",
@@ -15525,6 +15950,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Huppah; lit. Canopy",
     "inflections": {
       "Οχχοφφα": {
         "transliteration": "Ochchophpha",
@@ -15537,6 +15963,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a side dish, relish; fig. a (cooked) fish",
     "indices": { "strongs": "G3795" },
     "inflections": {
       "ὀψάρια": {
@@ -15564,6 +15991,7 @@
   "ὀψέ": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "late (in the day), at evening; fig. after",
     "indices": { "strongs": "G3796" },
     "inflections": {
       "ὀψέ": { "transliteration": "opsé", "cells": [{ "parse": ["adv"] }] }
@@ -15572,6 +16000,7 @@
   "ὀψία": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be late (in the day), of evening",
     "indices": { "strongs": "G3798" },
     "inflections": {
       "ὀψία": {
@@ -15589,6 +16018,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Hephzibah; lit. My Delight Is in Her",
     "inflections": {
       "Οψιβα": {
         "transliteration": "Opsiba",
@@ -15600,6 +16030,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to arrive at nightfall, come late",
     "inflections": {
       "ὀψίσῃ": {
         "transliteration": "opsísē",
@@ -15614,6 +16045,7 @@
   "ὄψιμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be late(-season), late-ripening; trad. to be latter",
     "indices": { "strongs": "G3797" },
     "inflections": {
       "ὄψιμα": {
@@ -15648,6 +16080,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an outward appearance, look; fig. a face, countenance",
     "indices": { "strongs": "G3799" },
     "inflections": {
       "ὄψει": {
@@ -15681,6 +16114,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a cooked dish, fare",
     "inflections": {
       "ὄψα": {
         "transliteration": "ópsa",
@@ -15697,6 +16131,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a prepared dish, delicacy",
     "inflections": {
       "ὀψοποιημάτων": {
         "transliteration": "opsopoiēmátōn",
@@ -15707,6 +16142,7 @@
   "ὄψος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a seafood, fish (collectively)",
     "inflections": {
       "ὄψος": {
         "transliteration": "ópsos",
@@ -15725,6 +16161,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a ration, soldier’s pay; fig. a wage",
     "indices": { "strongs": "G3800" },
     "inflections": {
       "ὀψώνια": {

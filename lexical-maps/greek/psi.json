@@ -4,6 +4,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a band, fillet (of a pillar)",
     "inflections": {
       "ψαλίδας": {
         "transliteration": "psalídas",
@@ -177,6 +178,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a psaltery, plucked harp",
     "inflections": {
       "ψαλτήρια": {
         "transliteration": "psaltḗria",
@@ -213,6 +215,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a harpist, string musician",
     "inflections": {
       "ψάλται": {
         "transliteration": "psáltai",
@@ -226,6 +229,7 @@
   "ψαλτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sung (to the harp)",
     "inflections": {
       "ψαλτά": {
         "transliteration": "psaltá",
@@ -243,6 +247,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to sing to strings, sing psalms",
     "inflections": {
       "ψαλτῳδεῖν": {
         "transliteration": "psaltōdeîn",
@@ -253,6 +258,7 @@
   "ψαλτῳδός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be psalm-singing",
     "inflections": {
       "ψαλτῳδοί": {
         "transliteration": "psaltōdoí",
@@ -292,6 +298,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a sand",
     "inflections": {
       "ψάμμος": {
         "transliteration": "psámmos",
@@ -306,6 +313,7 @@
   "ψαμμωτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sand-plastered, stuccoed",
     "inflections": {
       "ψαμμωτός": {
         "transliteration": "psammōtós",
@@ -319,6 +327,7 @@
   "ψαρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dapple-gray",
     "inflections": {
       "ψαροί": {
         "transliteration": "psaroí",
@@ -335,6 +344,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to touch lightly, lay hands on",
     "inflections": {
       "ψαύσειέν": {
         "transliteration": "psaúseién",
@@ -346,6 +356,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a drizzle, (rain)drop, mist",
     "inflections": {
       "ψεκάδων": {
         "transliteration": "psekádōn",
@@ -359,6 +370,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a bracelet, armlet",
     "inflections": {
       "ψέλια": {
         "transliteration": "psélia",
@@ -386,6 +398,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to stammer, stutter",
     "inflections": {
       "ψελλίζουσαι": {
         "transliteration": "psellízousai",
@@ -401,6 +414,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false brother; fig. a false Christian/Believer",
     "indices": { "strongs": "G5569" },
     "inflections": {
       "ψευδαδέλφοις": {
@@ -418,6 +432,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false apostle",
     "indices": { "strongs": "G5570" },
     "inflections": {
       "ψευδαπόστολοι": {
@@ -512,6 +527,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false teacher",
     "indices": { "strongs": "G5572" },
     "inflections": {
       "ψευδοδιδάσκαλοι": {
@@ -528,6 +544,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a secret door, hidden entrance",
     "inflections": {
       "ψευδοθύρια": {
         "transliteration": "pseudothýria",
@@ -543,6 +560,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a secret door, hidden entrance",
     "inflections": {
       "ψευδοθυρίδων": {
         "transliteration": "pseudothyrídōn",
@@ -555,6 +573,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to speak falsely, tell lies",
     "inflections": {
       "ψευδολογήσουσι": {
         "transliteration": "pseudologḗsousi",
@@ -565,6 +584,7 @@
   "ψευδολόγος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be false-speaking, telling lies",
     "indices": { "strongs": "G5573" },
     "inflections": {
       "ψευδολόγων": {
@@ -577,6 +597,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to testify falsely, bear false witness",
     "indices": { "strongs": "G5576" },
     "inflections": {
       "ἐψευδομαρτύρουν": {
@@ -603,6 +624,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a false testimony, perjury",
     "indices": { "strongs": "G5577" },
     "inflections": {
       "ψευδομαρτυρίαι": {
@@ -622,6 +644,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a false witness",
     "indices": { "strongs": "G5575" },
     "inflections": {
       "ψευδομάρτυρας": {
@@ -687,6 +710,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a lie, falsehood",
     "indices": { "strongs": "G5579" },
     "inflections": {
       "ψεύδει": {
@@ -736,6 +760,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false Christ/Messiah",
     "indices": { "strongs": "G5580" },
     "inflections": {
       "ψευδόχριστοι": {
@@ -942,6 +967,7 @@
   "ψευδώνυμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be falsely named, so-called",
     "indices": { "strongs": "G5581" },
     "inflections": {
       "ψευδωνύμου": {
@@ -955,6 +981,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a fabrication, lie",
     "indices": { "strongs": "G5582" },
     "inflections": {
       "ψεύσματι": {
@@ -1073,6 +1100,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a handling, touching",
     "inflections": {
       "ψηλάφησιν": {
         "transliteration": "psēláphēsin",
@@ -1083,6 +1111,7 @@
   "ψηλαφητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be touchable, tangible",
     "inflections": {
       "ψηλαφητόν": {
         "transliteration": "psēlaphētón",
@@ -1100,6 +1129,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to calculate, compute; lit. to count with pebbles",
     "indices": { "strongs": "G5585" },
     "inflections": {
       "ψηφίζει": {
@@ -1117,6 +1147,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a (voted) resolution, decree",
     "inflections": {
       "ψήφισμα": {
         "transliteration": "psḗphisma",
@@ -1136,6 +1167,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to pave with mosaic",
     "inflections": {
       "ψηφολογηθήσονται": {
         "transliteration": "psēphologēthḗsontai",
@@ -1173,6 +1205,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to whisper; fig. to whisper against, gossip",
     "inflections": {
       "ἐψιθύριζον": {
         "transliteration": "epsithýrizon",
@@ -1199,6 +1232,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a whispering; fig. a gossip, slander",
     "indices": { "strongs": "G5587" },
     "inflections": {
       "ψιθυρισμοί": {
@@ -1219,6 +1253,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a whisperer; fig. a gossip, slanderer",
     "indices": { "strongs": "G5588" },
     "inflections": {
       "ψιθυριστάς": {
@@ -1230,6 +1265,7 @@
   "ψίθυρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be whispering; fig. to be backbiting",
     "inflections": {
       "ψιθύροις": {
         "transliteration": "psithýrois",
@@ -1278,6 +1314,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be bare, smooth",
     "inflections": {
       "ψιλήν": {
         "transliteration": "psilḗn",
@@ -1289,6 +1326,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to make bare, strip (of hair)",
     "inflections": {
       "ψιλώσουσιν": {
         "transliteration": "psilṓsousin",
@@ -1301,6 +1339,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a crumb, tiny morsel",
     "indices": { "strongs": "G5589" },
     "inflections": {
       "ψιχίων": {
@@ -1313,6 +1352,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a loin muscle, flank",
     "inflections": {
       "ψόαις": {
         "transliteration": "psóais",
@@ -1328,6 +1368,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a loin muscle, flank",
     "inflections": {
       "ψόαν": {
         "transliteration": "psóan",
@@ -1339,6 +1380,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to decry, blame",
     "inflections": {
       "ἐψόγισεν": {
         "transliteration": "epsógisen",
@@ -1356,6 +1398,7 @@
   "ψόγος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a blame, censure",
     "inflections": {
       "ψόγον": {
         "transliteration": "psógon",
@@ -1372,6 +1415,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Zaphenath-Paneah, Zaphnath-Paaneah",
     "inflections": {
       "Ψονθομφανηχ": {
         "transliteration": "Psonthomphanēch",
@@ -1383,6 +1427,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to make a noise, stamp (the foot)",
     "inflections": {
       "ψόφησον": {
         "transliteration": "psóphēson",
@@ -1393,6 +1438,7 @@
   "ψόφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a noise, clatter",
     "inflections": {
       "ψόφος": {
         "transliteration": "psóphos",
@@ -1403,6 +1449,7 @@
   "ψύα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a loin muscle, flank",
     "inflections": {
       "ψύαι": {
         "transliteration": "psýai",
@@ -1416,6 +1463,7 @@
   "ψυγμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a drying place, spreading ground",
     "inflections": {
       "ψυγμός": {
         "transliteration": "psygmós",
@@ -1431,6 +1479,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a wine-cooler, cooling vessel",
     "inflections": {
       "ψυκτῆρες": {
         "transliteration": "psyktē̂res",
@@ -1445,6 +1494,7 @@
   "ψύλλος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a flea",
     "inflections": {
       "ψύλλου": {
         "transliteration": "psýllou",
@@ -1455,6 +1505,7 @@
   "ψυχαγωγία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an entertainment, amusement",
     "inflections": {
       "ψυχαγωγίαν": {
         "transliteration": "psychagōgían",
@@ -1515,6 +1566,7 @@
     "pos": "adj",
     "citationForms": ["ψυχικός", "ψυχική", "ψυχικόν"],
     "declension": "2-1-2",
+    "shortDefinition": "to be of the soul, natural; fig. to be unspiritual",
     "indices": { "strongs": "G5591" },
     "inflections": {
       "ψυχικαί": {
@@ -1552,6 +1604,7 @@
   "ψυχικῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "heartily, from the soul",
     "inflections": {
       "ψυχικῶς": {
         "transliteration": "psychikō̂s",
@@ -1562,6 +1615,7 @@
   "ψῦχος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a coldness, chill, cold (weather)",
     "inflections": {
       "ψύχει": {
         "transliteration": "psýchei",
@@ -1596,6 +1650,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to gasp for life, breathe one’s last",
     "inflections": {
       "ψυχουλκούμενοι": {
         "transliteration": "psychoulkoúmenoi",
@@ -1613,6 +1668,7 @@
   "ψυχρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be cold, cool",
     "indices": { "strongs": "G5593" },
     "inflections": {
       "ψυχρόν": {
@@ -1679,6 +1735,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to feed (with morsels), give as food",
     "indices": { "strongs": "G5595" },
     "inflections": {
       "ἐψώμιζον": {
@@ -1770,6 +1827,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a little morsel, bit (of bread); trad. a sop",
     "indices": { "strongs": "G5596" },
     "inflections": {
       "ψωμίον": {
@@ -1787,6 +1845,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a morsel, mouthful",
     "inflections": {
       "ψωμόν": {
         "transliteration": "psōmón",
@@ -1813,6 +1872,7 @@
   "ψώρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a mange, scab",
     "inflections": {
       "ψώρα": {
         "transliteration": "psṓra",
@@ -1835,6 +1895,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to have (severe) mange",
     "inflections": {
       "ψωραγριῶντα": {
         "transliteration": "psōragriō̂nta",
