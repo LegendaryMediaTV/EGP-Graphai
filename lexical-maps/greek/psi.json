@@ -4,6 +4,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a band, fillet (of a pillar)",
     "inflections": {
       "ψαλίδας": {
         "transliteration": "psalídas",
@@ -47,6 +48,14 @@
           { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "pl", "second"] }
         ]
+      },
+      "ψαλάτωσαν": {
+        "transliteration": "psalátōsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
+      },
+      "ψαλάτωσάν": {
+        "transliteration": "psalátōsán",
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
       },
       "ψαλεῖ": {
         "transliteration": "psaleî",
@@ -119,10 +128,7 @@
       },
       "ψάλω": {
         "transliteration": "psálō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] }]
       }
     }
   },
@@ -172,6 +178,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a psaltery, plucked harp",
     "inflections": {
       "ψαλτήρια": {
         "transliteration": "psaltḗria",
@@ -208,6 +215,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a harpist, string musician",
     "inflections": {
       "ψάλται": {
         "transliteration": "psáltai",
@@ -221,6 +229,7 @@
   "ψαλτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sung (to the harp)",
     "inflections": {
       "ψαλτά": {
         "transliteration": "psaltá",
@@ -238,6 +247,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to sing to strings, sing psalms",
     "inflections": {
       "ψαλτῳδεῖν": {
         "transliteration": "psaltōdeîn",
@@ -247,7 +257,10 @@
   },
   "ψαλτῳδός": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a psalm-singer",
     "inflections": {
       "ψαλτῳδοί": {
         "transliteration": "psaltōdoí",
@@ -282,51 +295,27 @@
       }
     }
   },
-  "ψάλω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ψάλατε": {
-        "transliteration": "psálate",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
-      },
-      "ψαλάτωσαν": {
-        "transliteration": "psalátōsan",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
-      },
-      "ψαλάτωσάν": {
-        "transliteration": "psalátōsán",
-        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "pl"] }]
-      }
-    }
-  },
   "ψάμμος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "fem",
+    "declension": "2f",
+    "shortDefinition": "a sand",
     "inflections": {
       "ψάμμος": {
         "transliteration": "psámmos",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "ψάμμου": {
         "transliteration": "psámmou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
   "ψαμμωτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sand-plastered, stuccoed",
     "inflections": {
       "ψαμμωτός": {
         "transliteration": "psammōtós",
@@ -340,6 +329,7 @@
   "ψαρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dapple-gray",
     "inflections": {
       "ψαροί": {
         "transliteration": "psaroí",
@@ -356,7 +346,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to touch",
+    "shortDefinition": "to touch lightly, lay hands on",
     "inflections": {
       "ψαύσειέν": {
         "transliteration": "psaúseién",
@@ -368,6 +358,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a drizzle, (rain)drop, mist",
     "inflections": {
       "ψεκάδων": {
         "transliteration": "psekádōn",
@@ -381,6 +372,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a bracelet, armlet",
     "inflections": {
       "ψέλια": {
         "transliteration": "psélia",
@@ -408,6 +400,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to stammer, stutter",
     "inflections": {
       "ψελλίζουσαι": {
         "transliteration": "psellízousai",
@@ -423,6 +416,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false brother; fig. a false Christian/Believer",
     "indices": { "strongs": "G5569" },
     "inflections": {
       "ψευδαδέλφοις": {
@@ -440,6 +434,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false apostle",
     "indices": { "strongs": "G5570" },
     "inflections": {
       "ψευδαπόστολοι": {
@@ -486,37 +481,16 @@
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
-      "ψεύδεσι": {
-        "transliteration": "pseúdesi",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "fem"] },
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
+      "ψευδέσι": {
+        "transliteration": "pseudési",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       },
       "ψευδέσιν": {
         "transliteration": "pseudésin",
         "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       },
-      "ψεύδεσιν": {
-        "transliteration": "pseúdesin",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
-      },
       "ψευδῆ": {
         "transliteration": "pseudē̂",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
-        ]
-      },
-      "ψεύδη": {
-        "transliteration": "pseúdē",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "acc", "sg", "fem"] },
@@ -540,14 +514,6 @@
           { "parse": ["adj", "gen", "sg", "neut"] }
         ]
       },
-      "ψεύδους": {
-        "transliteration": "pseúdous",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
-        ]
-      },
       "ψευδῶν": {
         "transliteration": "pseudō̂n",
         "cells": [
@@ -563,6 +529,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false teacher",
     "indices": { "strongs": "G5572" },
     "inflections": {
       "ψευδοδιδάσκαλοι": {
@@ -579,6 +546,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a secret door, hidden entrance",
     "inflections": {
       "ψευδοθύρια": {
         "transliteration": "pseudothýria",
@@ -594,6 +562,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a secret door, hidden entrance",
     "inflections": {
       "ψευδοθυρίδων": {
         "transliteration": "pseudothyrídōn",
@@ -606,6 +575,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to speak falsely, tell lies",
     "inflections": {
       "ψευδολογήσουσι": {
         "transliteration": "pseudologḗsousi",
@@ -616,6 +586,7 @@
   "ψευδολόγος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be false-speaking, telling lies",
     "indices": { "strongs": "G5573" },
     "inflections": {
       "ψευδολόγων": {
@@ -624,147 +595,11 @@
       }
     }
   },
-  "ψεύδομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "shortDefinition": "to lie",
-    "indices": { "strongs": "G5574" },
-    "inflections": {
-      "ἔψευσαι": {
-        "transliteration": "épseusai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ἐψεύσαντο": {
-        "transliteration": "epseúsanto",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐψεύσαντό": {
-        "transliteration": "epseúsantó",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐψεύσατο": {
-        "transliteration": "epseúsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐψεύσω": {
-        "transliteration": "epseúsō",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ψεύδει": {
-        "transliteration": "pseúdei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "ψεύδεσθε": {
-        "transliteration": "pseúdesthe",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "ψεύδομαι": {
-        "transliteration": "pseúdomai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ψευδόμεθα": {
-        "transliteration": "pseudómetha",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "ψευδόμενοι": {
-        "transliteration": "pseudómenoi",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "ψευδόμενος": {
-        "transliteration": "pseudómenos",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "ψεύδονται": {
-        "transliteration": "pseúdontai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ψεύσασθαι": {
-        "transliteration": "pseúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "ψεύσασθαί": {
-        "transliteration": "pseúsasthaí",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "ψεύσεται": {
-        "transliteration": "pseúsetai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ψεύσομαι": {
-        "transliteration": "pseúsomai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ψεύσονταί": {
-        "transliteration": "pseúsontaí",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
-        ]
-      }
-    }
-  },
   "ψευδομαρτυρέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to testify falsely, bear false witness",
     "indices": { "strongs": "G5576" },
     "inflections": {
       "ἐψευδομαρτύρουν": {
@@ -791,6 +626,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a false testimony, perjury",
     "indices": { "strongs": "G5577" },
     "inflections": {
       "ψευδομαρτυρίαι": {
@@ -810,6 +646,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a false witness",
     "indices": { "strongs": "G5575" },
     "inflections": {
       "ψευδομάρτυρας": {
@@ -875,11 +712,20 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a lie, falsehood",
     "indices": { "strongs": "G5579" },
     "inflections": {
       "ψεύδει": {
         "transliteration": "pseúdei",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "ψεύδεσι": {
+        "transliteration": "pseúdesi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
+      "ψεύδεσιν": {
+        "transliteration": "pseúdesin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ψεύδη": {
         "transliteration": "pseúdē",
@@ -916,6 +762,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a false Christ/Messiah",
     "indices": { "strongs": "G5580" },
     "inflections": {
       "ψευδόχριστοι": {
@@ -931,7 +778,20 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to deceive; refl. to lie",
+    "indices": { "strongs": "G5574" },
     "inflections": {
+      "ἔψευσαι": {
+        "transliteration": "épseusai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "mid-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
       "ἐψευσάμεθα": {
         "transliteration": "epseusámetha",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
@@ -942,27 +802,30 @@
       },
       "ἐψεύσαντο": {
         "transliteration": "epseúsanto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐψεύσαντό": {
         "transliteration": "epseúsantó",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐψεύσατο": {
         "transliteration": "epseúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐψεύσω": {
         "transliteration": "epseúsō",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] }]
-      },
-      "ψεύδει": {
-        "transliteration": "pseúdei",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "ψεύδεσθαι": {
@@ -971,6 +834,12 @@
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
           { "parse": ["verb", "pres", "pas", "inf"] }
+        ]
+      },
+      "ψεύδεσθε": {
+        "transliteration": "pseúdesthe",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "ψεύδεται": {
@@ -993,21 +862,70 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
         ]
       },
+      "ψεύδομαι": {
+        "transliteration": "pseúdomai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ψευδόμεθα": {
+        "transliteration": "pseudómetha",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
+        ]
+      },
+      "ψευδόμενοι": {
+        "transliteration": "pseudómenoi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
+        ]
+      },
+      "ψευδόμενος": {
+        "transliteration": "pseudómenos",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "mid-dep", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "ψεύδονται": {
+        "transliteration": "pseúdontai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
+      "ψεύσασθαι": {
+        "transliteration": "pseúsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
+      },
+      "ψεύσασθαί": {
+        "transliteration": "pseúsasthaí",
+        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
+      },
       "ψεύσεσθε": {
         "transliteration": "pseúsesthe",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "pl"] }]
       },
       "ψεύσεται": {
         "transliteration": "pseúsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ψεύσῃ": {
         "transliteration": "pseúsē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] }]
       },
       "ψεύσησθε": {
         "transliteration": "pseúsēsthe",
@@ -1026,7 +944,10 @@
       },
       "ψεύσομαι": {
         "transliteration": "pseúsomai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
+        ]
       },
       "ψεύσομαί": {
         "transliteration": "pseúsomaí",
@@ -1034,7 +955,10 @@
       },
       "ψεύσονταί": {
         "transliteration": "pseúsontaí",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ψεύσωνται": {
         "transliteration": "pseúsōntai",
@@ -1045,6 +969,7 @@
   "ψευδώνυμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be falsely named, so-called",
     "indices": { "strongs": "G5581" },
     "inflections": {
       "ψευδωνύμου": {
@@ -1058,6 +983,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a fabrication, lie",
     "indices": { "strongs": "G5582" },
     "inflections": {
       "ψεύσματι": {
@@ -1116,19 +1042,11 @@
       },
       "ψηλαφήσαι": {
         "transliteration": "psēlaphḗsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "ψηλαφῆσαί": {
         "transliteration": "psēlaphē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ψηλαφήσαισαν": {
         "transliteration": "psēlaphḗsaisan",
@@ -1184,6 +1102,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a handling, touching",
     "inflections": {
       "ψηλάφησιν": {
         "transliteration": "psēláphēsin",
@@ -1194,6 +1113,7 @@
   "ψηλαφητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be touchable, tangible",
     "inflections": {
       "ψηλαφητόν": {
         "transliteration": "psēlaphētón",
@@ -1211,6 +1131,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to calculate, compute; lit. to count with pebbles",
     "indices": { "strongs": "G5585" },
     "inflections": {
       "ψηφίζει": {
@@ -1228,6 +1149,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a (voted) resolution, decree",
     "inflections": {
       "ψήφισμα": {
         "transliteration": "psḗphisma",
@@ -1247,6 +1169,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to pave with mosaic",
     "inflections": {
       "ψηφολογηθήσονται": {
         "transliteration": "psēphologēthḗsontai",
@@ -1284,6 +1207,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to whisper; fig. to whisper against, gossip",
     "inflections": {
       "ἐψιθύριζον": {
         "transliteration": "epsithýrizon",
@@ -1310,6 +1234,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a whispering; fig. a gossip, slander",
     "indices": { "strongs": "G5587" },
     "inflections": {
       "ψιθυρισμοί": {
@@ -1330,6 +1255,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a whisperer; fig. a gossip, slanderer",
     "indices": { "strongs": "G5588" },
     "inflections": {
       "ψιθυριστάς": {
@@ -1341,6 +1267,7 @@
   "ψίθυρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be whispering; fig. to be backbiting",
     "inflections": {
       "ψιθύροις": {
         "transliteration": "psithýrois",
@@ -1389,6 +1316,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be bare, smooth",
     "inflections": {
       "ψιλήν": {
         "transliteration": "psilḗn",
@@ -1400,6 +1328,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to make bare, strip (of hair)",
     "inflections": {
       "ψιλώσουσιν": {
         "transliteration": "psilṓsousin",
@@ -1412,6 +1341,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a crumb, tiny morsel",
     "indices": { "strongs": "G5589" },
     "inflections": {
       "ψιχίων": {
@@ -1424,6 +1354,8 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "indeclinable",
+    "shortDefinition": "a loin muscle, flank",
     "inflections": {
       "ψόαις": {
         "transliteration": "psóais",
@@ -1431,18 +1363,17 @@
       },
       "ψόαν": {
         "transliteration": "psóan",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "ψόαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "ψόαν": {
-        "transliteration": "psóan",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "indecl-other"] }
+        ]
+      },
+      "ψύαι": {
+        "transliteration": "psýai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -1450,6 +1381,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to decry, blame",
     "inflections": {
       "ἐψόγισεν": {
         "transliteration": "epsógisen",
@@ -1459,8 +1391,7 @@
         "transliteration": "psogísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -1468,20 +1399,15 @@
   "ψόγος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a blame, censure",
     "inflections": {
       "ψόγον": {
         "transliteration": "psógon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ψόγῳ": {
         "transliteration": "psógō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -1490,7 +1416,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tsaphnath Paneah",
+    "shortDefinition": "Zaphenath-Paneah, Zaphnath-Paaneah",
     "inflections": {
       "Ψονθομφανηχ": {
         "transliteration": "Psonthomphanēch",
@@ -1502,6 +1428,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to make a noise, stamp (the foot)",
     "inflections": {
       "ψόφησον": {
         "transliteration": "psóphēson",
@@ -1512,53 +1439,26 @@
   "ψόφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a noise, clatter",
     "inflections": {
       "ψόφος": {
         "transliteration": "psóphos",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
-  "ψύα": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "ψύαι": {
-        "transliteration": "psýai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
   "ψυγμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a drying place, spreading ground",
     "inflections": {
       "ψυγμός": {
         "transliteration": "psygmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "ψυγμούς": {
         "transliteration": "psygmoús",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -1566,6 +1466,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a wine-cooler, cooling vessel",
     "inflections": {
       "ψυκτῆρες": {
         "transliteration": "psyktē̂res",
@@ -1580,19 +1481,18 @@
   "ψύλλος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a flea",
     "inflections": {
       "ψύλλου": {
         "transliteration": "psýllou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "ψυχαγωγία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an entertainment, amusement",
     "inflections": {
       "ψυχαγωγίαν": {
         "transliteration": "psychagōgían",
@@ -1605,7 +1505,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "shortDefinition": "a gentle breath; fig. a light breeze, life-breath, living creature, a soul",
+    "shortDefinition": "a gentle breath; fig. a light breeze, life-breath, living creature, soul",
     "indices": { "strongs": "G5590" },
     "inflections": {
       "ψυχαί": {
@@ -1653,6 +1553,7 @@
     "pos": "adj",
     "citationForms": ["ψυχικός", "ψυχική", "ψυχικόν"],
     "declension": "2-1-2",
+    "shortDefinition": "to be of the soul, natural; fig. to be unspiritual",
     "indices": { "strongs": "G5591" },
     "inflections": {
       "ψυχικαί": {
@@ -1701,6 +1602,7 @@
   "ψῦχος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a coldness, chill, cold (weather)",
     "inflections": {
       "ψύχει": {
         "transliteration": "psýchei",
@@ -1724,11 +1626,7 @@
       },
       "ψύχους": {
         "transliteration": "psýchous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     },
     "gender": "neut",
@@ -1739,6 +1637,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to gasp for life, breathe one’s last",
     "inflections": {
       "ψυχουλκούμενοι": {
         "transliteration": "psychoulkoúmenoi",
@@ -1756,6 +1655,7 @@
   "ψυχρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be cold, cool",
     "indices": { "strongs": "G5593" },
     "inflections": {
       "ψυχρόν": {
@@ -1822,14 +1722,14 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to feed (with morsels), give as food",
     "indices": { "strongs": "G5595" },
     "inflections": {
       "ἐψώμιζον": {
         "transliteration": "epsṓmizon",
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
       "ἐψώμισά": {
@@ -1914,6 +1814,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a little morsel, bit (of bread); trad. a sop",
     "indices": { "strongs": "G5596" },
     "inflections": {
       "ψωμίον": {
@@ -1931,6 +1832,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a morsel, mouthful",
     "inflections": {
       "ψωμόν": {
         "transliteration": "psōmón",
@@ -1957,6 +1859,7 @@
   "ψώρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a mange, scab",
     "inflections": {
       "ψώρα": {
         "transliteration": "psṓra",
@@ -1979,6 +1882,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to have (severe) mange",
     "inflections": {
       "ψωραγριῶντα": {
         "transliteration": "psōragriō̂nta",

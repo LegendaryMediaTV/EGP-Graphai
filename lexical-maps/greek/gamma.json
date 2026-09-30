@@ -3,7 +3,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "three",
+    "shortDefinition": "to be third",
     "inflections": {
       "γ": {
         "transliteration": "g",
@@ -16,6 +16,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gaal; lit. Loathing",
     "inflections": {
       "Γααλ": {
         "transliteration": "Gaal",
@@ -28,6 +29,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Silla; lit. Embankment",
     "inflections": {
       "Γααλλα": {
         "transliteration": "Gaalla",
@@ -40,7 +42,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Gaham",
+    "shortDefinition": "Gaham; lit. Flame",
     "inflections": {
       "Γααμ": {
         "transliteration": "Gaam",
@@ -53,6 +55,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gahar; lit. Lurker",
     "inflections": {
       "Γααρ": {
         "transliteration": "Gaar",
@@ -64,6 +67,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gaash; lit. Quaking",
     "inflections": {
       "Γαας": {
         "transliteration": "Gaas",
@@ -76,6 +80,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geba; lit. Hillock",
     "inflections": {
       "Γαβα": {
         "transliteration": "Gaba",
@@ -88,6 +93,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gibeah; lit. Hillock",
     "inflections": {
       "Γαβαα": {
         "transliteration": "Gabaa",
@@ -99,6 +105,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gibeath; lit. Hilliness",
     "inflections": {
       "Γαβααθ": {
         "transliteration": "Gabaath",
@@ -111,6 +118,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Geba; lit. Hillock",
     "inflections": {
       "Γαβαε": {
         "transliteration": "Gabae",
@@ -122,6 +130,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gibeah; lit. Hillock",
     "inflections": {
       "Γαβαεθ": {
         "transliteration": "Gabaeth",
@@ -133,6 +142,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gabael",
     "inflections": {
       "Γαβαηλ": {
         "transliteration": "Gabaēl",
@@ -143,11 +153,11 @@
   "Γαβαήλος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Gabael",
     "inflections": {
       "Γαβαήλῳ": {
         "transliteration": "Gabaḗlō",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -156,6 +166,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gabatha",
     "inflections": {
       "Γαβαθα": {
         "transliteration": "Gabatha",
@@ -168,6 +179,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gibbethon; lit. Hilly Spot",
     "inflections": {
       "Γαβαθων": {
         "transliteration": "Gabathōn",
@@ -179,6 +191,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gabaothiarim",
     "inflections": {
       "Γαβαωθιαριμ": {
         "transliteration": "Gabaōthiarim",
@@ -191,6 +204,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gibeon; lit. Hilly",
     "inflections": {
       "Γαβαων": {
         "transliteration": "Gabaōn",
@@ -203,6 +217,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a Gibeonite",
     "inflections": {
       "Γαβαωνῖται": {
         "transliteration": "Gabaōnîtai",
@@ -232,6 +247,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gabbatha; lit. Knoll",
     "indices": { "strongs": "G1042" },
     "inflections": {
       "Γαββαθᾶ": {
@@ -245,6 +261,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geba, Gabbe; lit. Hillock",
     "inflections": {
       "Γαββης": {
         "transliteration": "Gabbēs",
@@ -256,7 +273,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Geba",
+    "shortDefinition": "Geba; lit. Hillock",
     "inflections": {
       "Γαβε": {
         "transliteration": "Gabe",
@@ -268,6 +285,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Geba; lit. Hillock",
     "inflections": {
       "Γαβεε": {
         "transliteration": "Gabee",
@@ -280,6 +298,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geber; lit. Valiant Man",
     "inflections": {
       "Γαβερ": {
         "transliteration": "Gaber",
@@ -292,6 +311,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geruth Chimham",
     "inflections": {
       "Γαβηρωθ-χαμααμ": {
         "transliteration": "Gabērōth-chamaam",
@@ -302,6 +322,7 @@
   "γαβης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a pang, pain",
     "inflections": {
       "γαβης": {
         "transliteration": "gabēs",
@@ -316,6 +337,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a field laborer, digger",
     "inflections": {
       "γαβιν": {
         "transliteration": "gabin",
@@ -326,6 +348,7 @@
   "γαβις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a crystal",
     "inflections": {
       "γαβις": {
         "transliteration": "gabis",
@@ -337,6 +360,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Gebalite",
     "inflections": {
       "Γαβλι": {
         "transliteration": "Gabli",
@@ -348,6 +372,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gabrias",
     "inflections": {
       "Γαβρια": {
         "transliteration": "Gabria",
@@ -360,6 +385,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gabrias",
     "inflections": {
       "Γαβρι": {
         "transliteration": "Gabri",
@@ -372,6 +398,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gabriel; lit. Man of God",
     "indices": { "strongs": "G1043" },
     "inflections": {
       "Γαβριηλ": {
@@ -388,6 +415,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a gangrene; trad. a canker",
     "indices": { "strongs": "G1044" },
     "inflections": {
       "γάγγραινα": {
@@ -401,6 +429,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gad; lit. Troop, Fortune",
     "indices": { "strongs": "G1045" },
     "inflections": {
       "Γαδ": {
@@ -417,6 +446,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gidom; lit. Cutting",
     "inflections": {
       "Γαδααμ": {
         "transliteration": "Gadaam",
@@ -429,6 +459,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gedaliah; lit. YH/Yah/Jah Has Become Great",
     "inflections": {
       "Γαδαλια": {
         "transliteration": "Gadalia",
@@ -441,6 +472,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gederathite",
     "inflections": {
       "Γαδαραθι": {
         "transliteration": "Gadarathi",
@@ -451,6 +483,7 @@
   "Γαδαρηνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be Gadarene",
     "indices": { "strongs": "G1046" },
     "inflections": {
       "Γαδαρηνῶν": {
@@ -463,6 +496,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gudgodah, Haggidgad; lit. Cleft",
     "inflections": {
       "Γαδγαδ": {
         "transliteration": "Gadgad",
@@ -475,6 +509,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gadite",
     "inflections": {
       "Γαδδι": {
         "transliteration": "Gaddi",
@@ -486,7 +521,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Geder",
+    "shortDefinition": "Geder; lit. Wall",
     "inflections": {
       "Γαδερ": {
         "transliteration": "Gader",
@@ -499,6 +534,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gideoni; lit. Warlike",
     "inflections": {
       "Γαδεωνι": {
         "transliteration": "Gadeōni",
@@ -511,6 +547,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Giddel; lit. Stout",
     "inflections": {
       "Γαδηλ": {
         "transliteration": "Gadēl",
@@ -522,6 +559,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gederah; lit. Enclosure",
     "inflections": {
       "Γαδηρα": {
         "transliteration": "Gadēra",
@@ -534,6 +572,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gederoth; lit. Walls",
     "inflections": {
       "Γαδηρωθ": {
         "transliteration": "Gadērōth",
@@ -546,6 +585,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gahar; lit. Lurker",
     "inflections": {
       "Γαερ": {
         "transliteration": "Gaer",
@@ -558,6 +598,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "a treasure, royal treasury",
     "indices": { "strongs": "G1047" },
     "inflections": {
       "γάζα": {
@@ -586,6 +627,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "Gaza; lit. Strong",
     "indices": { "strongs": "G1048" },
     "inflections": {
       "Γάζα": {
@@ -613,6 +655,7 @@
   "Γαζαῖος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a Gazite",
     "inflections": {
       "Γαζαίοις": {
         "transliteration": "Gazaíois",
@@ -625,8 +668,7 @@
         "transliteration": "Gazaíō",
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "gen", "pl", "masc"] }
+          { "parse": ["noun", "dat", "sg", "masc"] }
         ]
       }
     }
@@ -634,6 +676,7 @@
   "Γάζαρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Gezer, Gazara; lit. Portion",
     "inflections": {
       "Γαζαρα": {
         "transliteration": "Gazara",
@@ -662,6 +705,7 @@
   "γαζαρηνός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a diviner, soothsayer",
     "inflections": {
       "γαζαρηνοί": {
         "transliteration": "gazarēnoí",
@@ -694,6 +738,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gezer, Gazara; lit. Portion",
     "inflections": {
       "Γαζαρων": {
         "transliteration": "Gazarōn",
@@ -706,6 +751,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gazzam; lit. Devourer",
     "inflections": {
       "Γαζεμ": {
         "transliteration": "Gazem",
@@ -718,6 +764,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gezer; lit. Portion",
     "inflections": {
       "Γαζερ": {
         "transliteration": "Gazer",
@@ -730,6 +777,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gezer, Gazara; lit. Portion",
     "inflections": {
       "Γαζηρα": {
         "transliteration": "Gazēra",
@@ -741,6 +789,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gezer, Gazara; lit. Portion",
     "inflections": {
       "Γαζηρων": {
         "transliteration": "Gazērōn",
@@ -753,6 +802,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Azmaveth; lit. Strong One of Death",
     "inflections": {
       "Γαζμωθ": {
         "transliteration": "Gazmōth",
@@ -765,6 +815,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Azubah; lit. Desertion",
     "inflections": {
       "Γαζουβα": {
         "transliteration": "Gazouba",
@@ -777,6 +828,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a treasury, treasure room",
     "indices": { "strongs": "G1049" },
     "inflections": {
       "γαζοφυλάκια": {
@@ -818,7 +870,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "a treasurer, keeper of the treasury",
+    "shortDefinition": "a treasury keeper, treasurer",
     "inflections": {
       "γαζοφύλακας": {
         "transliteration": "gazophýlakas",
@@ -842,6 +894,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Geba; lit. Hillock",
     "inflections": {
       "Γαθεθ": {
         "transliteration": "Gatheth",
@@ -862,11 +915,25 @@
       }
     }
   },
+  "γαι": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
+    "shortDefinition": "a valley",
+    "inflections": {
+      "γαι": {
+        "transliteration": "gai",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Γαι": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Ai; lit. Ruin",
     "inflections": {
       "Γαι": {
         "transliteration": "Gai",
@@ -883,6 +950,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of the Son of Hinnom",
     "inflections": {
       "Γαι-βαναι-εννομ": {
         "transliteration": "Gai-banai-ennom",
@@ -893,6 +961,7 @@
   "γαῖα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a land, country",
     "inflections": {
       "γαιῶν": {
         "transliteration": "gaiō̂n",
@@ -905,6 +974,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Azzah",
     "inflections": {
       "Γαιαν": {
         "transliteration": "Gaian",
@@ -917,6 +987,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gibea; lit. Hill",
     "inflections": {
       "Γαιβαα": {
         "transliteration": "Gaibaa",
@@ -928,6 +999,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Geba",
     "inflections": {
       "Γαιβαι": {
         "transliteration": "Gaibai",
@@ -939,6 +1011,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ebal",
     "inflections": {
       "Γαιβαλ": {
         "transliteration": "Gaibal",
@@ -950,6 +1023,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of the Son of Hinnom",
     "inflections": {
       "Γαιβενενομ": {
         "transliteration": "Gaibenenom",
@@ -975,7 +1049,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Irad",
+    "shortDefinition": "Irad; lit. Fugitive",
     "inflections": {
       "Γαιδαδ": {
         "transliteration": "Gaidad",
@@ -987,6 +1061,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of Hinnom, Gehenna",
     "inflections": {
       "Γαιεννα": {
         "transliteration": "Gaienna",
@@ -999,6 +1074,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ethan; lit. Permanent",
     "inflections": {
       "Γαιθαν": {
         "transliteration": "Gaithan",
@@ -1010,6 +1086,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tabor; lit. Broken Region",
     "inflections": {
       "Γαιθβωρ": {
         "transliteration": "Gaithbōr",
@@ -1021,6 +1098,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of Iphtah El",
     "inflections": {
       "Γαιιεφθαηλ": {
         "transliteration": "Gaiiephthaēl",
@@ -1032,6 +1110,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of Salt",
     "inflections": {
       "Γαιμελε": {
         "transliteration": "Gaimele",
@@ -1044,6 +1123,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Gaius",
     "indices": { "strongs": "G1050" },
     "inflections": {
       "Γάϊον": {
@@ -1063,20 +1143,15 @@
   "γαῖσος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a lance, heavy javelin",
     "inflections": {
       "γαῖσον": {
         "transliteration": "gaîson",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "γαίσῳ": {
         "transliteration": "gaísō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -1084,7 +1159,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Ephah",
+    "shortDefinition": "Ephah; lit. Obscurity",
     "inflections": {
       "Γαιφα": {
         "transliteration": "Gaipha",
@@ -1096,6 +1171,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Valley of Iphtah El",
     "inflections": {
       "Γαιφαηλ": {
         "transliteration": "Gaiphaēl",
@@ -1107,6 +1183,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
+    "shortDefinition": "a milk",
     "indices": { "strongs": "G1051" },
     "inflections": {
       "γάλα": {
@@ -1135,7 +1212,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Gilad",
+    "shortDefinition": "Gilead",
     "inflections": {
       "Γαλααδ": {
         "transliteration": "Galaad",
@@ -1147,6 +1224,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Gileadite",
     "inflections": {
       "Γαλααδι": {
         "transliteration": "Galaadi",
@@ -1159,6 +1237,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a Gileadite",
     "inflections": {
       "Γαλααδίτης": {
         "transliteration": "Galaadítēs",
@@ -1170,6 +1249,10 @@
       "Γαλααδίτου": {
         "transliteration": "Galaadítou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
+      "Γαλααδιτῶν": {
+        "transliteration": "Galaaditō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -1177,6 +1260,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gilead",
     "inflections": {
       "Γαλααδίτιδος": {
         "transliteration": "Galaadítidos",
@@ -1189,6 +1273,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gilead",
     "inflections": {
       "Γαλααδῖτιν": {
         "transliteration": "Galaadîtin",
@@ -1201,6 +1286,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Gilead",
     "inflections": {
       "Γαλααδίτιδα": {
         "transliteration": "Galaadítida",
@@ -1221,16 +1307,13 @@
       "Γαλααδῖτιν": {
         "transliteration": "Galaadîtin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      },
-      "Γαλααδιτῶν": {
-        "transliteration": "Galaaditō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
   "γαλαθηνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be suckling, unweaned",
     "inflections": {
       "γαλαθηνά": {
         "transliteration": "galathēná",
@@ -1266,6 +1349,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to drink milk, nurse",
     "inflections": {
       "γαλακτοποτοῦντες": {
         "transliteration": "galaktopotoûntes",
@@ -1279,6 +1363,7 @@
   "γαλακτοτροφία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a breastfeeding, nursing",
     "inflections": {
       "γαλακτοτροφίαι": {
         "transliteration": "galaktotrophíai",
@@ -1294,6 +1379,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Galal; lit. Great",
     "inflections": {
       "Γαλαλ": {
         "transliteration": "Galal",
@@ -1305,6 +1391,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Solomon; lit. Peaceful",
     "inflections": {
       "Γαλαμααν": {
         "transliteration": "Galamaan",
@@ -1312,13 +1399,21 @@
       }
     }
   },
-  "Γαλάται": {
+  "Γαλάτης": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
-    "shortDefinition": "Galatians, Gauls",
+    "shortDefinition": "a Galatian, Gaul",
+    "indices": { "strongs": "G1052" },
     "inflections": {
+      "Γαλάται": {
+        "transliteration": "Galátai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
       "Γαλάταις": {
         "transliteration": "Galátais",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -1329,26 +1424,11 @@
       }
     }
   },
-  "Γαλάτης": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
-    "indices": { "strongs": "G1052" },
-    "inflections": {
-      "Γαλάται": {
-        "transliteration": "Galátai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "Γαλατία": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Galatia",
     "indices": { "strongs": "G1053" },
     "inflections": {
       "Γαλατίαν": {
@@ -1365,6 +1445,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be Galatian",
     "indices": { "strongs": "G1054" },
     "inflections": {
       "Γαλατικήν": {
@@ -1378,6 +1459,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gilgal; lit. Wheel",
     "inflections": {
       "Γαλγαλ": {
         "transliteration": "Galgal",
@@ -1389,6 +1471,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Gilgal; lit. Wheel",
     "inflections": {
       "Γαλγαλα": {
         "transliteration": "Galgala",
@@ -1405,16 +1488,14 @@
       },
       "Γαλγαλων": {
         "transliteration": "Galgalōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
   "γαλεάγρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a (beast) cage; lit. a weasel trap",
     "inflections": {
       "γαλεάγρᾳ": {
         "transliteration": "galeágra",
@@ -1426,6 +1507,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gallim; lit. Springs",
     "inflections": {
       "Γαλεμ": {
         "transliteration": "Galem",
@@ -1438,6 +1520,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Alemeth; lit. Covering",
     "inflections": {
       "Γαλεμαθ": {
         "transliteration": "Galemath",
@@ -1450,6 +1533,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Alemeth, Allemeth; lit. Covering",
     "inflections": {
       "Γαλεμεθ": {
         "transliteration": "Galemeth",
@@ -1462,6 +1546,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a weasel",
     "inflections": {
       "γαλῆ": {
         "transliteration": "galē̂",
@@ -1477,6 +1562,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a calm, stillness (of the sea)",
     "indices": { "strongs": "G1055" },
     "inflections": {
       "γαλήνη": {
@@ -1488,6 +1574,7 @@
   "γαληνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be calm, tranquil",
     "inflections": {
       "γαληνόν": {
         "transliteration": "galēnón",
@@ -1505,6 +1592,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Galilee; lit. Circuit",
     "indices": { "strongs": "G1056" },
     "inflections": {
       "Γαλιλαία": {
@@ -1530,9 +1618,9 @@
   },
   "Γαλιλαῖος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-1-2-a",
+    "shortDefinition": "to be Galilean",
     "indices": { "strongs": "G1057" },
     "inflections": {
       "Γαλιλαῖοι": {
@@ -1568,6 +1656,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Geliloth; lit. Circles",
     "inflections": {
       "Γαλιλωθ": {
         "transliteration": "Galilōth",
@@ -1579,7 +1668,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Gallim",
+    "shortDefinition": "Gallim; lit. Springs",
     "inflections": {
       "Γαλλιμ": {
         "transliteration": "Gallim",
@@ -1592,6 +1681,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Gallio",
     "indices": { "strongs": "G1058" },
     "inflections": {
       "Γαλλίων": {
@@ -1612,6 +1702,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Almon; lit. Hidden",
     "inflections": {
       "Γαμαλα": {
         "transliteration": "Gamala",
@@ -1624,6 +1715,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gemalli; lit. Camel-Driver",
     "inflections": {
       "Γαμαλι": {
         "transliteration": "Gamali",
@@ -1636,6 +1728,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gamaliel; lit. Reward of God",
     "indices": { "strongs": "G1059" },
     "inflections": {
       "Γαμαλιηλ": {
@@ -1652,6 +1745,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gemariah; lit. YH/Yah/Jah Has Perfected",
     "inflections": {
       "Γαμαριας": {
         "transliteration": "Gamarias",
@@ -1662,11 +1756,11 @@
   "Γαμαριος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Gemariah; lit. YH/Yah/Jah Has Perfected",
     "inflections": {
       "Γαμαριου": {
         "transliteration": "Gamariou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1675,6 +1769,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gemariah; lit. YH/Yah/Jah Has Perfected",
     "inflections": {
       "Γαμαριου": {
         "transliteration": "Gamariou",
@@ -1686,14 +1781,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to intermarry; refl. to marry (a brother’s widow)",
     "inflections": {
       "γάμβρευσαι": {
         "transliteration": "gámbreusai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "γαμβρεύσητε": {
         "transliteration": "gambreúsēte",
@@ -1706,6 +1798,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "an in-law (son- or father-in-law)",
     "inflections": {
       "γαμβροί": {
         "transliteration": "gambroí",
@@ -1745,7 +1838,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Gomer",
+    "shortDefinition": "Gomer; lit. Completion",
     "inflections": {
       "Γαμερ": {
         "transliteration": "Gamer",
@@ -1758,6 +1851,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a married woman, wife",
     "inflections": {
       "γαμετήν": {
         "transliteration": "gametḗn",
@@ -1820,6 +1914,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
+      "γαμοῦσι": {
+        "transliteration": "gamoûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "γαμοῦσιν": {
         "transliteration": "gamoûsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -1828,6 +1926,12 @@
         "transliteration": "gamō̂n",
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γεγαμηκόσι": {
+        "transliteration": "gegamēkósi",
+        "cells": [
+          { "parse": ["verb", "perf", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "γεγαμηκόσιν": {
@@ -1879,6 +1983,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gimzo",
     "inflections": {
       "Γαμζω": {
         "transliteration": "Gamzō",
@@ -1891,6 +1996,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gamael",
     "inflections": {
       "Γαμηλος": {
         "transliteration": "Gamēlos",
@@ -1901,6 +2007,7 @@
   "γαμικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be bridal, nuptial",
     "inflections": {
       "γαμικόν": {
         "transliteration": "gamikón",
@@ -1962,6 +2069,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gamul; lit. Rewarded",
     "inflections": {
       "Γαμουλ": {
         "transliteration": "Gamoul",
@@ -1973,6 +2081,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gamul; lit. Weaned",
     "inflections": {
       "Γαμωλ": {
         "transliteration": "Gamōl",
@@ -1985,6 +2094,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ginnethon; lit. Gardener",
     "inflections": {
       "Γαναθων": {
         "transliteration": "Ganathōn",
@@ -1997,6 +2107,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Genubath; lit. Theft",
     "inflections": {
       "Γανηβαθ": {
         "transliteration": "Ganēbath",
@@ -2008,6 +2119,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ganoza; lit. Garden of Uzza",
     "inflections": {
       "Γανοζα": {
         "transliteration": "Ganoza",
@@ -2029,6 +2141,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "an Arbathite",
     "inflections": {
       "Γαραβεθθι": {
         "transliteration": "Garabeththi",
@@ -2040,6 +2153,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Zererah",
     "inflections": {
       "Γαραγαθα": {
         "transliteration": "Garagatha",
@@ -2051,6 +2165,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Geshurite",
     "inflections": {
       "Γαργασι": {
         "transliteration": "Gargasi",
@@ -2062,6 +2177,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a bare surface, top (of steps)",
     "inflections": {
       "γαρεμ": {
         "transliteration": "garem",
@@ -2074,6 +2190,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gareb; lit. Scabby",
     "inflections": {
       "Γαρηβ": {
         "transliteration": "Garēb",
@@ -2081,21 +2198,11 @@
       }
     }
   },
-  "Γαριζει": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Γαριζιν": {
-        "transliteration": "Garizin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Γαριζιν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gerizim; lit. Cut Up, Rocky",
     "inflections": {
       "Γαριζιν": {
         "transliteration": "Garizin",
@@ -2108,6 +2215,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gershom, Gerson; lit. Refugee",
     "inflections": {
       "Γαρσομος": {
         "transliteration": "Garsomos",
@@ -2120,6 +2228,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gas",
     "inflections": {
       "Γας": {
         "transliteration": "Gas",
@@ -2130,6 +2239,7 @@
   "γασβαρηνός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a treasurer",
     "inflections": {
       "γασβαρηνου": {
         "transliteration": "gasbarēnou",
@@ -2144,6 +2254,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gasin",
     "inflections": {
       "Γασιν": {
         "transliteration": "Gasin",
@@ -2156,6 +2267,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Ezion Geber; lit. Backbone of a Man",
     "inflections": {
       "Γασιωνγαβερ": {
         "transliteration": "Gasiōngaber",
@@ -2199,6 +2311,7 @@
   "γαστριμαργία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gluttony; lit. a belly-madness",
     "inflections": {
       "γαστριμαργίας": {
         "transliteration": "gastrimargías",
@@ -2212,6 +2325,7 @@
   "γαστρίμαργος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be gluttonous",
     "inflections": {
       "γαστρίμαργος": {
         "transliteration": "gastrímargos",
@@ -2227,6 +2341,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Golan; lit. Captive",
     "inflections": {
       "Γαυλων": {
         "transliteration": "Gaulōn",
@@ -2239,6 +2354,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Guni; lit. Protected",
     "inflections": {
       "Γαυνι": {
         "transliteration": "Gauni",
@@ -2251,6 +2367,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an exultation, proud boast",
     "inflections": {
       "γαυρίαμα": {
         "transliteration": "gauríama",
@@ -2266,11 +2383,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to prance; fig. to exult, glory",
     "inflections": {
       "γαυριᾷ": {
         "transliteration": "gauriâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -2291,6 +2408,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to rear up proudly",
     "inflections": {
       "γαυριωθήσεται": {
         "transliteration": "gauriōthḗsetai",
@@ -2302,6 +2420,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to be elated, pride oneself",
     "inflections": {
       "γαυρωθέντα": {
         "transliteration": "gaurōthénta",
@@ -2336,6 +2455,7 @@
   "γε": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "at least, indeed, even",
     "indices": { "strongs": "G1065" },
     "inflections": {
       "γε": { "transliteration": "ge", "cells": [{ "parse": ["prt"] }] },
@@ -2347,6 +2467,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gebal; lit. Mountain",
     "inflections": {
       "Γεβαλ": {
         "transliteration": "Gebal",
@@ -2358,6 +2479,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Baalath; lit. Mistressship",
     "inflections": {
       "Γεβεελαν": {
         "transliteration": "Gebeelan",
@@ -2369,6 +2491,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gath Hepher; lit. Winepress of the Well",
     "inflections": {
       "Γεβερε": {
         "transliteration": "Gebere",
@@ -2379,11 +2502,11 @@
   "Γεβωθίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Gibeathite",
     "inflections": {
       "Γεβωθίτου": {
         "transliteration": "Gebōthítou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -2391,10 +2514,23 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gidom; lit. Cutting",
     "inflections": {
       "Γεδαν": {
         "transliteration": "Gedan",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "γεδδουρ": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a troop, band",
+    "inflections": {
+      "γεδδουρ": {
+        "transliteration": "geddour",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -2403,6 +2539,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geddur",
     "inflections": {
       "Γεδδουρ": {
         "transliteration": "Geddour",
@@ -2417,6 +2554,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gedor; lit. Enclosure",
     "inflections": {
       "Γεδδων": {
         "transliteration": "Geddōn",
@@ -2428,6 +2566,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gederoth; lit. Walls",
     "inflections": {
       "Γεδδωρ": {
         "transliteration": "Geddōr",
@@ -2440,6 +2579,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gideon; lit. Feller",
     "indices": { "strongs": "G1066" },
     "inflections": {
       "Γεδεων": {
@@ -2457,6 +2597,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Giddel; lit. Stout",
     "inflections": {
       "Γεδηλ": {
         "transliteration": "Gedēl",
@@ -2469,6 +2610,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gedor; lit. Enclosure",
     "inflections": {
       "Γεδουρ": {
         "transliteration": "Gedour",
@@ -2481,6 +2623,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Geshur; lit. Bridge",
     "inflections": {
       "Γεδσουρ": {
         "transliteration": "Gedsour",
@@ -2493,6 +2636,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gershon, Gershom; lit. Refugee",
     "inflections": {
       "Γεδσων": {
         "transliteration": "Gedsōn",
@@ -2505,6 +2649,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gershonite",
     "inflections": {
       "Γεδσωνι": {
         "transliteration": "Gedsōni",
@@ -2517,6 +2662,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gedor, Gerar; lit. Enclosure",
     "inflections": {
       "Γεδωρ": {
         "transliteration": "Gedōr",
@@ -2524,14 +2670,17 @@
       }
     }
   },
-  "Γεδωρίτη": {
+  "Γεδωρίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Gederite",
     "inflections": {
       "Γεδωρίτης": {
         "transliteration": "Gedōrítēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper"] },
+          { "parse": ["noun", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -2540,6 +2689,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "Gehenna; lit. Valley of Hinnom; trad. Hell",
     "indices": { "strongs": "G1067" },
     "inflections": {
       "γέενναν": {
@@ -2561,6 +2711,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gazez; lit. Shearer",
     "inflections": {
       "Γεζουε": {
         "transliteration": "Gezoue",
@@ -2573,6 +2724,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gath; lit. Winepress",
     "inflections": {
       "Γεθ": {
         "transliteration": "Geth",
@@ -2585,6 +2737,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gibbethon; lit. Hilly Spot",
     "inflections": {
       "Γεθεδαν": {
         "transliteration": "Gethedan",
@@ -2596,6 +2749,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gath Rimmon; lit. Winepress of the Pomegranate",
     "inflections": {
       "Γεθερεμμων": {
         "transliteration": "Getheremmōn",
@@ -2607,6 +2761,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gath; lit. Winepress",
     "inflections": {
       "Γεθθα": {
         "transliteration": "Geththa",
@@ -2619,7 +2774,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Avith",
+    "shortDefinition": "Gittaim; lit. Double Winepress",
     "inflections": {
       "Γεθθαιμ": {
         "transliteration": "Geththaim",
@@ -2632,6 +2787,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Gittite",
     "inflections": {
       "Γεθθαῖοι": {
         "transliteration": "Geththaîoi",
@@ -2666,7 +2822,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Gethem, a place",
+    "shortDefinition": "Gethem",
     "inflections": {
       "Γεθθεμ": {
         "transliteration": "Geththem",
@@ -2679,6 +2835,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gath Rimmon; lit. Winepress of the Pomegranate",
     "inflections": {
       "Γεθρεμμων": {
         "transliteration": "Gethremmōn",
@@ -2690,6 +2847,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gethsemane; lit. Oil-Press",
     "indices": { "strongs": "G1068" },
     "inflections": {
       "Γεθσημανῆ": {
@@ -2703,6 +2861,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Gath Hepher; lit. Winepress of the Well",
     "inflections": {
       "Γεθχοβερ": {
         "transliteration": "Gethchober",
@@ -2713,6 +2872,7 @@
   "γεῖσος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a cornice, molding, coping",
     "inflections": {
       "γεῖσος": {
         "transliteration": "geîsos",
@@ -2746,6 +2906,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to be a neighbor, border on",
     "inflections": {
       "γειτνιῶν": {
         "transliteration": "geitniō̂n",
@@ -2769,6 +2930,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a neighbor",
     "indices": { "strongs": "G1069" },
     "inflections": {
       "γείτονα": {
@@ -2826,6 +2988,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "a resident alien, proselyte",
     "inflections": {
       "γειώραις": {
         "transliteration": "geiṓrais",
@@ -2841,6 +3004,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gelampsur",
     "inflections": {
       "Γελαμψουρ": {
         "transliteration": "Gelampsour",
@@ -2852,12 +3016,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to laugh",
     "indices": { "strongs": "G1070" },
     "inflections": {
       "γελᾷ": {
         "transliteration": "gelâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -2872,8 +3036,7 @@
         "transliteration": "gelásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "γελάσας": {
@@ -2897,10 +3060,7 @@
       },
       "γελάσονται": {
         "transliteration": "gelásontai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       },
       "γελάσω": {
         "transliteration": "gelásō",
@@ -2954,6 +3114,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gilboa; lit. Fountain of Ebullition",
     "inflections": {
       "Γελβουε": {
         "transliteration": "Gelboue",
@@ -2965,6 +3126,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gelgel; lit. Wheel, Whirlwind",
     "inflections": {
       "Γελγελ": {
         "transliteration": "Gelgel",
@@ -2977,6 +3139,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Bithiah; lit. Daughter of YH/Yah/Jah",
     "inflections": {
       "Γελια": {
         "transliteration": "Gelia",
@@ -2989,6 +3152,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Holon; lit. Sandy",
     "inflections": {
       "Γελλα": {
         "transliteration": "Gella",
@@ -3001,6 +3165,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Almon; lit. Hidden",
     "inflections": {
       "Γελμων": {
         "transliteration": "Gelmōn",
@@ -3013,6 +3178,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gilonite",
     "inflections": {
       "Γελμωναῖον": {
         "transliteration": "Gelmōnaîon",
@@ -3024,6 +3190,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to jest, joke",
     "inflections": {
       "γελοιάζειν": {
         "transliteration": "geloiázein",
@@ -3034,13 +3201,11 @@
   "γελοιασμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a joke, laughingstock",
     "inflections": {
       "γελοιασμόν": {
         "transliteration": "geloiasmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -3049,6 +3214,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a jester, mocker",
     "inflections": {
       "γελοιαστῶν": {
         "transliteration": "geloiastō̂n",
@@ -3059,6 +3225,7 @@
   "γελοῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be laughable, ridiculous",
     "inflections": {
       "γελοῖον": {
         "transliteration": "geloîon",
@@ -3082,11 +3249,11 @@
   "Γελωνίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Gilonite",
     "inflections": {
       "Γελωνίτου": {
         "transliteration": "Gelōnítou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3095,6 +3262,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naharai; lit. Snorer",
     "inflections": {
       "Γελωραι": {
         "transliteration": "Gelōrai",
@@ -3106,6 +3274,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a laughter",
     "indices": { "strongs": "G1071" },
     "inflections": {
       "γέλως": {
@@ -3135,6 +3304,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Alemeth; lit. Covering",
     "inflections": {
       "Γεμεεθ": {
         "transliteration": "Gemeeth",
@@ -3147,6 +3317,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εγεμι" },
+    "shortDefinition": "to fill full, load",
     "indices": { "strongs": "G1072" },
     "inflections": {
       "γεμίζεσθαι": {
@@ -3165,10 +3336,7 @@
       },
       "γεμίσατε": {
         "transliteration": "gemísate",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
       },
       "γεμισθῇ": {
         "transliteration": "gemisthē̂",
@@ -3192,6 +3360,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gemna",
     "inflections": {
       "Γεμνα": {
         "transliteration": "Gemna",
@@ -3203,6 +3372,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be full (of), laden",
     "indices": { "strongs": "G1073" },
     "inflections": {
       "γέμει": {
@@ -3306,6 +3476,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to trace (one’s) descent",
     "indices": { "strongs": "G1075" },
     "inflections": {
       "γενεαλογούμενος": {
@@ -3324,6 +3495,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a pedigree, genealogy",
     "indices": { "strongs": "G1076" },
     "inflections": {
       "γενεαλογίαις": {
@@ -3339,6 +3511,7 @@
   "γενέθλιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be natal, of a birthday",
     "inflections": {
       "γενέθλιον": {
         "transliteration": "genéthlion",
@@ -3357,6 +3530,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a chin, beard",
     "inflections": {
       "γένεια": {
         "transliteration": "géneia",
@@ -3376,6 +3550,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
+    "shortDefinition": "a birthday feast",
     "indices": { "strongs": "G1077" },
     "inflections": {
       "γενεσίοις": {
@@ -3391,6 +3566,7 @@
   "γενεσιάρχης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an author of origin, creator",
     "inflections": {
       "γενεσιάρχης": {
         "transliteration": "genesiárchēs",
@@ -3401,6 +3577,7 @@
   "γενεσιουργός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a maker of existence, creator",
     "inflections": {
       "γενεσιουργός": {
         "transliteration": "genesiourgós",
@@ -3448,10 +3625,7 @@
       },
       "γένεσιν": {
         "transliteration": "génesin",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "dat", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "γένεσις": {
         "transliteration": "génesis",
@@ -3468,6 +3642,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a (time of) birth, nativity",
     "indices": { "strongs": "G1079" },
     "inflections": {
       "γενετῆς": {
@@ -3481,6 +3656,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a (female) begetter, mother",
     "inflections": {
       "γενέτιν": {
         "transliteration": "genétin",
@@ -3493,8 +3669,16 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a produce, yield; fig. an offspring",
     "indices": { "strongs": "G1081" },
     "inflections": {
+      "γένημα": {
+        "transliteration": "génēma",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
+      },
       "γενήμασίν": {
         "transliteration": "genḗmasín",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -3525,6 +3709,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be of the kindred, genealogical",
     "inflections": {
       "γενικῆς": {
         "transliteration": "genikē̂s",
@@ -3535,19 +3720,18 @@
   "Γενναίος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Gennaeus",
     "inflections": {
       "Γενναίου": {
         "transliteration": "Gennaíou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "γενναῖος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a high-born, noble one",
     "inflections": {
       "γενναία": {
         "transliteration": "gennaía",
@@ -3616,6 +3800,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a nobility, courage",
     "inflections": {
       "γενναιότητα": {
         "transliteration": "gennaiótēta",
@@ -3709,7 +3894,6 @@
       "γεννᾷ": {
         "transliteration": "gennâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -3784,18 +3968,11 @@
       },
       "γεννηθῆτε": {
         "transliteration": "gennēthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }]
       },
       "γεννῆσαι": {
         "transliteration": "gennē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "γεννήσαντα": {
         "transliteration": "gennḗsanta",
@@ -3943,6 +4120,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "γεννῶσι": {
+        "transliteration": "gennō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "γεννῶσιν": {
         "transliteration": "gennō̂sin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -4001,10 +4182,7 @@
       },
       "ἐγεννῶσαν": {
         "transliteration": "egennō̂san",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -4013,16 +4191,9 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an offspring, brood; fig. a produce",
     "indices": { "strongs": "G1081" },
     "inflections": {
-      "γένημα": {
-        "transliteration": "génēma",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      },
       "γένημά": {
         "transliteration": "génēmá",
         "cells": [
@@ -4054,6 +4225,10 @@
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
         ]
+      },
+      "γεννήματος": {
+        "transliteration": "gennḗmatos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -4061,6 +4236,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gennesaret; lit. Harp",
     "inflections": {
       "Γεννησαρ": {
         "transliteration": "Gennēsar",
@@ -4072,6 +4248,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gennesaret; lit. Harp",
     "indices": { "strongs": "G1082" },
     "inflections": {
       "Γεννησαρέτ": {
@@ -4101,6 +4278,7 @@
   "γεννητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be born, begotten",
     "indices": { "strongs": "G1084" },
     "inflections": {
       "γεννητοῖς": {
@@ -4121,6 +4299,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gizonite",
     "inflections": {
       "Γεννουνι": {
         "transliteration": "Gennouni",
@@ -4173,6 +4352,7 @@
   "γεραιός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be aged, elderly",
     "inflections": {
       "γεραιά": {
         "transliteration": "geraiá",
@@ -4223,6 +4403,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to celebrate, honor (with gifts)",
     "inflections": {
       "γεραιρομένους": {
         "transliteration": "gerairoménous",
@@ -4237,6 +4418,7 @@
   "Γεραρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Gerar; lit. Rolling Country",
     "inflections": {
       "Γεραρα": {
         "transliteration": "Gerara",
@@ -4261,13 +4443,12 @@
   "γέρας": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a privilege, honor, prize",
     "inflections": {
       "γέρας": {
         "transliteration": "géras",
         "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
@@ -4279,6 +4460,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Girgashite",
     "inflections": {
       "Γεργεσαῖοι": {
         "transliteration": "Gergesaîoi",
@@ -4314,9 +4496,9 @@
   },
   "Γεργεσηνός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be Gergesene",
     "indices": { "strongs": "G1086" },
     "inflections": {
       "Γεργεσηνῶν": {
@@ -4329,6 +4511,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a council of elders, senate",
     "indices": { "strongs": "G1087" },
     "inflections": {
       "γερουσία": {
@@ -4358,11 +4541,11 @@
   "Γερρηνοί": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Gerrenian",
     "inflections": {
       "Γερρηνῶν": {
         "transliteration": "Gerrēnō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -4371,6 +4554,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "an old man",
     "indices": { "strongs": "G1088" },
     "inflections": {
       "γέροντα": {
@@ -4403,6 +4587,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Jehallelel; lit. Praising God",
     "inflections": {
       "Γεσεηλ": {
         "transliteration": "Geseēl",
@@ -4426,6 +4611,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Geshur; lit. Bridge",
     "inflections": {
       "Γεσιρ": {
         "transliteration": "Gesir",
@@ -4438,6 +4624,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Geshurite",
     "inflections": {
       "Γεσιρι": {
         "transliteration": "Gesiri",
@@ -4450,6 +4637,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ezion Geber; lit. Backbone of a Man",
     "inflections": {
       "Γεσιωνγαβερ": {
         "transliteration": "Gesiōngaber",
@@ -4461,6 +4649,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Geshurite",
     "inflections": {
       "Γεσουρι": {
         "transliteration": "Gesouri",
@@ -4473,6 +4662,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a taste, flavor; fig. a sample",
     "inflections": {
       "γεῦμα": {
         "transliteration": "geûma",
@@ -4484,73 +4674,12 @@
       }
     }
   },
-  "γεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "deponent": true,
-    "shortDefinition": "to taste; fig. to eat, experience",
-    "indices": { "strongs": "G1089" },
-    "inflections": {
-      "γευσάμενος": {
-        "transliteration": "geusámenos",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "γευσαμένους": {
-        "transliteration": "geusaménous",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "γεύσασθαι": {
-        "transliteration": "geúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid-dep", "inf"] }]
-      },
-      "γεύσεταί": {
-        "transliteration": "geúsetaí",
-        "cells": [
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "γεύσῃ": {
-        "transliteration": "geúsē",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "sg"] }
-        ]
-      },
-      "γεύσηται": {
-        "transliteration": "geúsētai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "γεύσωνται": {
-        "transliteration": "geúsōntai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"] }
-        ]
-      },
-      "ἐγεύσασθε": {
-        "transliteration": "egeúsasthe",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἐγεύσατο": {
-        "transliteration": "egeúsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "γεῦσις": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a tasting, sense of taste",
     "inflections": {
       "γεύσει": {
         "transliteration": "geúsei",
@@ -4570,6 +4699,8 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to taste; fig. to eat, experience",
+    "indices": { "strongs": "G1089" },
     "inflections": {
       "γεύεται": {
         "transliteration": "geúetai",
@@ -4582,12 +4713,22 @@
       "γευσάμενος": {
         "transliteration": "geusámenos",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "γευσαμένους": {
+        "transliteration": "geusaménous",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "γεύσασθαι": {
         "transliteration": "geúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "inf"] },
+          { "parse": ["verb", "aor", "mid-dep", "inf"] }
+        ]
       },
       "γεύσασθαί": {
         "transliteration": "geúsasthaí",
@@ -4603,7 +4744,28 @@
       },
       "γεύσεται": {
         "transliteration": "geúsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "γεύσεταί": {
+        "transliteration": "geúsetaí",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "γεύσῃ": {
+        "transliteration": "geúsē",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "sg"] }
+        ]
+      },
+      "γεύσηται": {
+        "transliteration": "geúsētai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "sg"] }
+        ]
       },
       "γεύσομαι": {
         "transliteration": "geúsomai",
@@ -4613,23 +4775,45 @@
         "transliteration": "geûsón",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
       },
+      "γεύσονται": {
+        "transliteration": "geúsontai",
+        "cells": [
+          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-3", "pl"] }
+        ]
+      },
       "γεύσωμαι": {
         "transliteration": "geúsōmai",
         "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-1", "sg"] }]
+      },
+      "γεύσωνται": {
+        "transliteration": "geúsōntai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-3", "pl"] }
+        ]
       },
       "ἐγευσάμην": {
         "transliteration": "egeusámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
       },
+      "ἐγεύσασθε": {
+        "transliteration": "egeúsasthe",
+        "cells": [
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἐγεύσατο": {
         "transliteration": "egeúsato",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid-dep", "ind", "pers-3", "sg"] }
+        ]
       }
     }
   },
   "γέφυρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a bridge, causeway; fig. a dam",
     "inflections": {
       "γεφύραις": {
         "transliteration": "gephýrais",
@@ -4645,6 +4829,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be earthy, earthly",
     "inflections": {
       "γεῶδες": {
         "transliteration": "geō̂des",
@@ -4669,6 +4854,7 @@
   "γεωμετρία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a land surveying, geometry",
     "inflections": {
       "γεωμετρίας": {
         "transliteration": "geōmetrías",
@@ -4682,6 +4868,7 @@
   "γεωμετρικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be for surveying, geometric",
     "inflections": {
       "γεωμετρικόν": {
         "transliteration": "geōmetrikón",
@@ -4728,6 +4915,7 @@
   "γεωργία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a farming, tillage",
     "inflections": {
       "γεωργίαν": {
         "transliteration": "geōrgían",
@@ -4740,6 +4928,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a farm, tilled field",
     "indices": { "strongs": "G1091" },
     "inflections": {
       "γεώργια": {
@@ -4769,6 +4958,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a farmer, tiller (of soil)",
     "indices": { "strongs": "G1092" },
     "inflections": {
       "γεωργοί": {
@@ -4846,6 +5036,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gabbai; lit. Collective",
     "inflections": {
       "Γηβι": {
         "transliteration": "Gēbi",
@@ -4857,6 +5048,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be earth-born; fig. to be common, mortal",
     "inflections": {
       "γηγενεῖς": {
         "transliteration": "gēgeneîs",
@@ -4896,6 +5088,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gazzam; lit. Devourer",
     "inflections": {
       "Γηζαμ": {
         "transliteration": "Gēzam",
@@ -4907,6 +5100,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Giloh; lit. Open",
     "inflections": {
       "Γηλων": {
         "transliteration": "Gēlōn",
@@ -4924,13 +5118,6 @@
       "Γηρα": {
         "transliteration": "Gēra",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      },
-      "Γήρᾳ": {
-        "transliteration": "Gḗra",
-        "cells": [
-          { "parse": ["noun", "indecl-proper", "masc"] },
-          { "parse": ["noun", "indecl-proper", "neut"] }
-        ]
       }
     }
   },
@@ -4938,8 +5125,13 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
+    "shortDefinition": "an old age",
     "indices": { "strongs": "G1094" },
     "inflections": {
+      "γήρᾳ": {
+        "transliteration": "gḗra",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
       "γῆρας": {
         "transliteration": "gē̂ras",
         "cells": [
@@ -4991,12 +5183,7 @@
       },
       "γηρᾶσαι": {
         "transliteration": "gērâsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "γηράσει": {
         "transliteration": "gērásei",
@@ -5042,7 +5229,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to support in old age",
+    "shortDefinition": "to care for in old age",
     "inflections": {
       "ἐγηροβόσκησεν": {
         "transliteration": "egērobóskēsen",
@@ -5055,6 +5242,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gershom; lit. Refugee",
     "inflections": {
       "Γηρσαμ": {
         "transliteration": "Gērsam",
@@ -5067,6 +5255,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gershom; lit. Refugee",
     "inflections": {
       "Γηρσομ": {
         "transliteration": "Gērsom",
@@ -5079,6 +5268,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gershom; lit. Refugee",
     "inflections": {
       "Γηρσωμ": {
         "transliteration": "Gērsōm",
@@ -5091,7 +5281,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Gershon",
+    "shortDefinition": "Gershon; lit. Refugee",
     "inflections": {
       "Γηρσων": {
         "transliteration": "Gērsōn",
@@ -5104,6 +5294,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Gershonite",
     "inflections": {
       "Γηρσωνι": {
         "transliteration": "Gērsōni",
@@ -5116,6 +5307,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Geshem; lit. Shower",
     "inflections": {
       "Γησαμ": {
         "transliteration": "Gēsam",
@@ -5128,7 +5320,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Gihon",
+    "shortDefinition": "Gihon; lit. Stream",
     "inflections": {
       "Γηων": {
         "transliteration": "Gēōn",
@@ -5140,7 +5332,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Gebim",
+    "shortDefinition": "Gebim; lit. Cisterns",
     "inflections": {
       "Γιββιρ": {
         "transliteration": "Gibbir",
@@ -5153,6 +5345,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a grape seed, grape stone",
     "inflections": {
       "γιγάρτου": {
         "transliteration": "gigártou",
@@ -5164,6 +5357,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a giant",
     "inflections": {
       "γίγαντα": {
         "transliteration": "gíganta",
@@ -5202,6 +5396,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gehazi; lit. Valley of a Visionary",
     "inflections": {
       "Γιεζι": {
         "transliteration": "Giezi",
@@ -5213,6 +5408,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a gimel",
     "inflections": {
       "γιμαλ": {
         "transliteration": "gimal",
@@ -5359,7 +5555,6 @@
       "γεγονός": {
         "transliteration": "gegonós",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] },
           {
             "parse": [
               "verb",
@@ -6556,7 +6751,6 @@
       "ἐγεγόνει": {
         "transliteration": "egegónei",
         "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "second", "plup", "act", "ind", "pers-3", "sg"] }
         ]
       },
@@ -6732,7 +6926,7 @@
     "conjugation": "thematic",
     "deponent": true,
     "stems": { "aor": "εγνω", "perf": "εγνω" },
-    "shortDefinition": "to know intimately, to get acquainted with; fig. to have sexual intercourse with",
+    "shortDefinition": "to know intimately, get acquainted with; fig. to have sexual intercourse with",
     "indices": { "strongs": "G1097" },
     "inflections": {
       "γίγνωσκε": {
@@ -6826,6 +7020,13 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "γινώσκουσι": {
+        "transliteration": "ginṓskousi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "γινώσκουσιν": {
         "transliteration": "ginṓskousin",
         "cells": [
@@ -6853,6 +7054,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "γινώσκωσί": {
+        "transliteration": "ginṓskōsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       },
       "γινώσκωσίν": {
         "transliteration": "ginṓskōsín",
@@ -7048,6 +7253,12 @@
         "transliteration": "gnōsthō̂",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "sg"] }]
       },
+      "γνῶσι": {
+        "transliteration": "gnō̂si",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
+        ]
+      },
       "γνῶσιν": {
         "transliteration": "gnō̂sin",
         "cells": [
@@ -7092,6 +7303,10 @@
           { "parse": ["verb", "aor", "act", "imp", "pers-3", "pl", "second"] }
         ]
       },
+      "ἐγίνωσκε": {
+        "transliteration": "egínōske",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐγίνωσκεν": {
         "transliteration": "egínōsken",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -7132,6 +7347,10 @@
       "ἐγνώκατε": {
         "transliteration": "egnṓkate",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ἔγνωκε": {
+        "transliteration": "égnōke",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐγνώκειτε": {
         "transliteration": "egnṓkeite",
@@ -7222,6 +7441,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gihon; lit. Stream",
     "inflections": {
       "Γιων": {
         "transliteration": "Giōn",
@@ -7234,7 +7454,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "owl",
+    "shortDefinition": "an owl",
     "inflections": {
       "γλαῦκα": {
         "transliteration": "glaûka",
@@ -7247,6 +7467,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a sweet new wine, must",
     "indices": { "strongs": "G1098" },
     "inflections": {
       "γλεύκους": {
@@ -7259,6 +7480,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to taste sweet",
     "inflections": {
       "γλυκάζον": {
         "transliteration": "glykázon",
@@ -7275,6 +7497,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "γλυκαν", "fut": "γλυκαν" },
+    "shortDefinition": "to sweeten, make sweet",
     "inflections": {
       "γλυκαίνειν": {
         "transliteration": "glykaínein",
@@ -7313,6 +7536,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a sweet thing; fig. a sweet drink",
     "inflections": {
       "γλύκασμα": {
         "transliteration": "glýkasma",
@@ -7339,28 +7563,25 @@
   "γλυκασμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a sweet taste, sweetness; fig. a sweet juice",
     "inflections": {
       "γλυκασμοί": {
         "transliteration": "glykasmoí",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "γλυκασμόν": {
         "transliteration": "glykasmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
   "γλυκερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sweet-tasting, luscious",
     "inflections": {
       "γλυκεροῦ": {
         "transliteration": "glykeroû",
@@ -7376,6 +7597,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
+    "shortDefinition": "to be sweet, fresh; fig. to be pleasant",
     "indices": { "strongs": "G1099" },
     "inflections": {
       "γλυκέα": {
@@ -7431,12 +7653,9 @@
       "γλυκύτερον": {
         "transliteration": "glykýteron",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "comp", "acc", "sg", "neut"] },
           { "parse": ["adj", "comp", "nom", "sg", "neut"] },
-          { "parse": ["adj", "comp", "voc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "comp", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -7446,6 +7665,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a sweetness [quality]",
     "inflections": {
       "γλυκύτητα": {
         "transliteration": "glykýtēta",
@@ -7462,6 +7682,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an engraving, carved figure",
     "inflections": {
       "γλύμμα": {
         "transliteration": "glýmma",
@@ -7488,6 +7709,7 @@
   "γλυπτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be carved, graven",
     "inflections": {
       "γλυπτά": {
         "transliteration": "glyptá",
@@ -7547,6 +7769,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a carving, carved work",
     "inflections": {
       "γλυφαί": {
         "transliteration": "glyphaí",
@@ -7577,10 +7800,6 @@
       "γλυφῶν": {
         "transliteration": "glyphō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      },
-      "ἐγλύφην": {
-        "transliteration": "eglýphēn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -7589,6 +7808,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "γεγλυμμενου" },
+    "shortDefinition": "to carve, engrave",
     "inflections": {
       "γεγλυμμένα": {
         "transliteration": "geglymména",
@@ -7623,6 +7843,10 @@
         "transliteration": "glýpseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἐγλύφην": {
+        "transliteration": "eglýphēn",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-1", "sg"] }]
+      },
       "ἔγλυψαν": {
         "transliteration": "églypsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
@@ -7648,13 +7872,6 @@
       "γλῶσσά": {
         "transliteration": "glō̂ssá",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "γλώσσαι": {
-        "transliteration": "glṓssai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
       },
       "γλῶσσαι": {
         "transliteration": "glō̂ssai",
@@ -7702,6 +7919,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a money box, chest; lit. a mouthpiece case",
     "indices": { "strongs": "G1101" },
     "inflections": {
       "γλωσσόκομον": {
@@ -7717,6 +7935,7 @@
   "γλωσσότμητος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be tongue-cut, with tongue cut out",
     "inflections": {
       "γλωσσότμητον": {
         "transliteration": "glōssótmēton",
@@ -7735,6 +7954,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "γλωττοτομη", "perf": "γλωττοτομη", "aor": "γλωττοτομη" },
+    "shortDefinition": "to cut out the tongue",
     "inflections": {
       "γλωσσοτομεῖν": {
         "transliteration": "glōssotomeîn",
@@ -7742,12 +7962,7 @@
       },
       "γλωττοτομῆσαι": {
         "transliteration": "glōttotomē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "γλωττοτομήσεις": {
         "transliteration": "glōttotomḗseis",
@@ -7759,6 +7974,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to flatter (with the tongue)",
     "inflections": {
       "γλωσσοχαριτοῦντος": {
         "transliteration": "glōssocharitoûntos",
@@ -7773,6 +7989,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be talkative, babbling",
     "inflections": {
       "γλωσσώδης": {
         "transliteration": "glōssṓdēs",
@@ -7796,6 +8013,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a jaw, cheek",
     "inflections": {
       "γνάθον": {
         "transliteration": "gnáthon",
@@ -7812,6 +8030,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "a fuller, cloth dresser",
     "indices": { "strongs": "G1102" },
     "inflections": {
       "γναφεύς": {
@@ -7827,6 +8046,7 @@
   "γνήσιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be legitimate; fig. to be genuine, true",
     "indices": { "strongs": "G1103" },
     "inflections": {
       "γνήσιε": {
@@ -7851,6 +8071,7 @@
   "γνησίως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "genuinely, sincerely",
     "indices": { "strongs": "G1104" },
     "inflections": {
       "γνησίως": {
@@ -7863,6 +8084,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be gloomy, dark",
     "inflections": {
       "γνοφεράν": {
         "transliteration": "gnopherán",
@@ -7900,6 +8122,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to becloud, darken",
     "inflections": {
       "ἐγνόφωσεν": {
         "transliteration": "egnóphōsen",
@@ -7911,6 +8134,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be murky, thick-dark",
     "inflections": {
       "γνοφώδης": {
         "transliteration": "gnophṓdēs",
@@ -7926,6 +8150,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an opinion, judgment; fig. a decision, decree",
     "indices": { "strongs": "G1106" },
     "inflections": {
       "γνῶμαι": {
@@ -7958,6 +8183,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "γνωρι", "aor": "εγνωρι" },
+    "shortDefinition": "to make known, declare; fig. to recognize",
     "indices": { "strongs": "G1107" },
     "inflections": {
       "γνωριεῖς": {
@@ -8017,6 +8243,10 @@
       "γνωριοῦμεν": {
         "transliteration": "gnōrioûmen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
+      "γνωριοῦσι": {
+        "transliteration": "gnōrioûsi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "γνωριοῦσιν": {
         "transliteration": "gnōrioûsin",
@@ -8119,6 +8349,10 @@
         "transliteration": "egnṓrisás",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
+      "ἐγνώρισέ": {
+        "transliteration": "egnṓrisé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐγνώρισεν": {
         "transliteration": "egnṓrisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -8148,6 +8382,7 @@
   "γνώριμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be familiar, acquainted",
     "inflections": {
       "γνώριμοί": {
         "transliteration": "gnṓrimoí",
@@ -8190,6 +8425,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a spiritist, wizard; lit. a knower",
     "inflections": {
       "γνωριστάς": {
         "transliteration": "gnōristás",
@@ -8238,6 +8474,7 @@
   "γνωστέος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be knowable",
     "inflections": {
       "γνωστέον": {
         "transliteration": "gnōstéon",
@@ -8256,6 +8493,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an expert, knower; fig. a diviner",
     "indices": { "strongs": "G1109" },
     "inflections": {
       "γνώστας": {
@@ -8345,7 +8583,7 @@
   "γνωστῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "clearly, so as to be known",
+    "shortDefinition": "knowingly, clearly",
     "inflections": {
       "γνωστῶς": {
         "transliteration": "gnōstō̂s",
@@ -8357,6 +8595,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gob; lit. Pit",
     "inflections": {
       "Γοβ": {
         "transliteration": "Gob",
@@ -8387,6 +8626,10 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
+      },
+      "γογγύζουσι": {
+        "transliteration": "gongýzousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "γογγύζουσιν": {
         "transliteration": "gongýzousin",
@@ -8437,6 +8680,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a grumbling, muttering",
     "inflections": {
       "γόγγυσιν": {
         "transliteration": "góngysin",
@@ -8475,6 +8719,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a grumbler, complainer",
     "indices": { "strongs": "G1113" },
     "inflections": {
       "γογγυσταί": {
@@ -8491,6 +8736,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gedaliah; lit. YH/Yah/Jah Has Become Great",
     "inflections": {
       "Γοδολια": {
         "transliteration": "Godolia",
@@ -8503,6 +8749,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Gedaliah; lit. YH/Yah/Jah Has Become Great",
     "inflections": {
       "Γοδολια": {
         "transliteration": "Godolia",
@@ -8537,6 +8784,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Igdaliah; lit. Magnified by YH/Yah/Jah",
     "inflections": {
       "Γοδολιου": {
         "transliteration": "Godoliou",
@@ -8549,6 +8797,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Giddalti; lit. I Have Made Great",
     "inflections": {
       "Γοδολλαθι": {
         "transliteration": "Godollathi",
@@ -8559,6 +8808,7 @@
   "γοερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be mournful, wailing",
     "inflections": {
       "γοεροῖς": {
         "transliteration": "goeroîs",
@@ -8575,6 +8825,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "an impostor; lit. a sorcerer",
     "indices": { "strongs": "G1114" },
     "inflections": {
       "γόητες": {
@@ -8589,6 +8840,7 @@
   "γοητεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a trickery, sorcery",
     "inflections": {
       "γοητείας": {
         "transliteration": "goēteías",
@@ -8604,6 +8856,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Othni; lit. Forcible",
     "inflections": {
       "Γοθνι": {
         "transliteration": "Gothni",
@@ -8615,6 +8868,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Athaliah; lit. YH/Yah/Jah Has Constrained",
     "inflections": {
       "Γοθολια": {
         "transliteration": "Gotholia",
@@ -8641,11 +8895,11 @@
   "Γοθολίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Athaliah, Gotholias; lit. YH/Yah/Jah Has Constrained",
     "inflections": {
       "Γοθολιου": {
         "transliteration": "Gotholiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -8667,6 +8921,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Othniel, Gothoniel; lit. Force of God",
     "inflections": {
       "Γοθονιηλ": {
         "transliteration": "Gothoniēl",
@@ -8679,6 +8934,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Golathmain; lit. Springs of Water",
     "inflections": {
       "Γολαθμαιν": {
         "transliteration": "Golathmain",
@@ -8690,6 +8946,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Golgotha; lit. Skull",
     "indices": { "strongs": "G1115" },
     "inflections": {
       "Γολγοθᾶ": {
@@ -8702,6 +8959,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gilgal; lit. Wheel",
     "inflections": {
       "Γολγολ": {
         "transliteration": "Golgol",
@@ -8714,6 +8972,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Goliath",
     "inflections": {
       "Γολιαδ": {
         "transliteration": "Goliad",
@@ -8726,6 +8985,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Goliath",
     "inflections": {
       "Γολιαθ": {
         "transliteration": "Goliath",
@@ -8737,6 +8997,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gomer; lit. Completion",
     "inflections": {
       "Γομερ": {
         "transliteration": "Gomer",
@@ -8744,14 +9005,15 @@
       }
     }
   },
-  "Γομορ": {
+  "γομορ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a homer, omer (dry measure)",
     "inflections": {
-      "Γομορ": {
-        "transliteration": "Gomor",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "γομορ": {
+        "transliteration": "gomor",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -8759,6 +9021,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Gomorrah; lit. Ruined Heap",
     "indices": { "strongs": "G1116" },
     "inflections": {
       "Γομορρα": {
@@ -8801,6 +9064,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a cargo, load",
     "indices": { "strongs": "G1117" },
     "inflections": {
       "γόμον": {
@@ -8817,6 +9081,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to set on edge, grind (the teeth)",
     "inflections": {
       "γομφιάσεις": {
         "transliteration": "gomphiáseis",
@@ -8831,13 +9096,11 @@
   "γομφιασμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a teeth-grinding, toothache",
     "inflections": {
       "γομφιασμόν": {
         "transliteration": "gomphiasmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -8857,6 +9120,10 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
+      "γονεῦσι": {
+        "transliteration": "goneûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "γονεῦσιν": {
         "transliteration": "goneûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -8871,6 +9138,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be with a genital discharge",
     "inflections": {
       "γονορρυῆ": {
         "transliteration": "gonorryē̂",
@@ -8902,22 +9170,18 @@
   "γόνος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a progeny, offspring; fig. a semen",
     "inflections": {
       "γόνοι": {
         "transliteration": "gónoi",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "γόνον": {
         "transliteration": "gónon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -8926,14 +9190,16 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-u",
+    "shortDefinition": "a knee",
     "indices": { "strongs": "G1119" },
     "inflections": {
+      "γόνασι": {
+        "transliteration": "gónasi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "γόνασιν": {
         "transliteration": "gónasin",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "neut"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "γόνασίν": {
         "transliteration": "gónasín",
@@ -8973,6 +9239,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to kneel (before), fall on one’s knees",
     "indices": { "strongs": "G1120" },
     "inflections": {
       "γονυπετήσαντες": {
@@ -8999,29 +9266,19 @@
   "γόος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wailing, lament",
     "inflections": {
       "γόου": {
         "transliteration": "góou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "γόους": {
         "transliteration": "góous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "γόων": {
         "transliteration": "góōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9030,11 +9287,11 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Gorgias",
     "inflections": {
       "Γοργίαν": {
         "transliteration": "Gorgían",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
           { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "voc", "sg", "masc"] }
         ]
@@ -9056,11 +9313,11 @@
   "Γόρτυνα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Gortyna",
     "inflections": {
       "Γόρτυναν": {
         "transliteration": "Górtynan",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -9069,6 +9326,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Goshen",
     "inflections": {
       "Γοσομ": {
         "transliteration": "Gosom",
@@ -9081,6 +9339,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gog",
     "inflections": {
       "Γουγ": {
         "transliteration": "Goug",
@@ -9093,6 +9352,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gaddiel; lit. Fortune of God",
     "inflections": {
       "Γουδιηλ": {
         "transliteration": "Goudiēl",
@@ -9103,7 +9363,7 @@
   "γοῦν": {
     "language": "greek",
     "pos": "prt",
-    "shortDefinition": "at any rate, indeed",
+    "shortDefinition": "so then, at any rate",
     "inflections": {
       "γοῦν": { "transliteration": "goûn", "cells": [{ "parse": ["prt"] }] }
     }
@@ -9113,6 +9373,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Guni; lit. Protected",
     "inflections": {
       "Γουνι": {
         "transliteration": "Gouni",
@@ -9125,6 +9386,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ophrah; lit. Female Fawn",
     "inflections": {
       "Γοφερα": {
         "transliteration": "Gophera",
@@ -9137,6 +9399,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gatam",
     "inflections": {
       "Γοωθαμ": {
         "transliteration": "Goōtham",
@@ -9149,6 +9412,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a letter (character), writing; fig. a document, learning",
     "indices": { "strongs": "G1121" },
     "inflections": {
       "γράμμα": {
@@ -9188,6 +9452,7 @@
   "γραμματεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a learning, literacy",
     "inflections": {
       "γραμματείας": {
         "transliteration": "grammateías",
@@ -9226,6 +9491,10 @@
         "transliteration": "grammateús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "γραμματεῦσι": {
+        "transliteration": "grammateûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "γραμματεῦσιν": {
         "transliteration": "grammateûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -9244,6 +9513,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to serve as scribe, be secretary",
     "inflections": {
       "γραμματεύειν": {
         "transliteration": "grammateúein",
@@ -9264,6 +9534,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be literate, scholarly",
     "inflections": {
       "γραμματικῇ": {
         "transliteration": "grammatikē̂",
@@ -9292,6 +9563,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "a records officer, court clerk",
     "inflections": {
       "γραμματοεισαγωγεῖς": {
         "transliteration": "grammatoeisagōgeîs",
@@ -9308,6 +9580,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a written document, record",
     "inflections": {
       "γραπτῷ": {
         "transliteration": "graptō̂",
@@ -9322,6 +9595,7 @@
   "γραπτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be written",
     "indices": { "strongs": "G1123" },
     "inflections": {
       "γραπτόν": {
@@ -9339,6 +9613,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a writing tool, stylus",
     "inflections": {
       "γραφείῳ": {
         "transliteration": "grapheíō",
@@ -9394,6 +9669,7 @@
   "γραφικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be for writing",
     "inflections": {
       "γραφικούς": {
         "transliteration": "graphikoús",
@@ -9408,6 +9684,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a stylus, pen; fig. a graving tool",
     "inflections": {
       "γραφίδι": {
         "transliteration": "graphídi",
@@ -9778,12 +10055,6 @@
         "transliteration": "grápsō",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
-      "ἐγγραφή": {
-        "transliteration": "engraphḗ",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
       "ἐγέγραπτο": {
         "transliteration": "egégrapto",
         "cells": [
@@ -9853,6 +10124,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be old-womanish; fig. to be silly",
     "indices": { "strongs": "G1126" },
     "inflections": {
       "γραώδεις": {
@@ -9866,6 +10138,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "εγρηγορη" },
+    "shortDefinition": "to stay awake, watch; fig. to be vigilant",
     "indices": { "strongs": "G1127" },
     "inflections": {
       "γρηγορεῖν": {
@@ -9959,6 +10232,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a wakefulness, vigilance",
     "inflections": {
       "γρηγόρησιν": {
         "transliteration": "grēgórēsin",
@@ -9975,6 +10249,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "γρυξ", "aor": "γρυξ" },
+    "shortDefinition": "to growl, mutter",
     "inflections": {
       "γρύξει": {
         "transliteration": "grýxei",
@@ -9993,7 +10268,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "griffin vulture",
+    "shortDefinition": "a griffin, bearded vulture",
     "inflections": {
       "γρύπα": {
         "transliteration": "grýpa",
@@ -10045,6 +10320,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an exercise, athletic training",
     "indices": { "strongs": "G1129" },
     "inflections": {
       "γυμνασία": {
@@ -10062,6 +10338,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a gymnasium, athletic school",
     "inflections": {
       "γυμνάσιον": {
         "transliteration": "gymnásion",
@@ -10077,6 +10354,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be scantily clad, ragged",
     "indices": { "strongs": "G1130" },
     "inflections": {
       "γυμνητεύομεν": {
@@ -10168,6 +10446,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a nakedness; fig. a destitution",
     "indices": { "strongs": "G1132" },
     "inflections": {
       "γυμνότης": {
@@ -10188,6 +10467,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to strip, lay bare",
     "inflections": {
       "ἐγυμνώθη": {
         "transliteration": "egymnṓthē",
@@ -10208,6 +10488,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an exposure, uncovering",
     "inflections": {
       "γύμνωσιν": {
         "transliteration": "gýmnōsin",
@@ -10220,6 +10501,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a little woman; fig. a gullible woman",
     "indices": { "strongs": "G1133" },
     "inflections": {
       "γυναικάρια": {
@@ -10236,6 +10518,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be womanly, feminine",
     "indices": { "strongs": "G1134" },
     "inflections": {
       "γυναικεῖα": {
@@ -10284,6 +10567,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a women’s quarters, harem",
     "inflections": {
       "γυναικῶνα": {
         "transliteration": "gynaikō̂na",
@@ -10304,6 +10588,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a helpless woman, poor wife",
     "inflections": {
       "γύναιον": {
         "transliteration": "gýnaion",
@@ -10386,13 +10671,11 @@
   "γῦρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a ring, circle, curve (of the sky)",
     "inflections": {
       "γῦρον": {
         "transliteration": "gŷron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -10400,6 +10683,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to encircle, draw a circle",
     "inflections": {
       "ἐγύρωσεν": {
         "transliteration": "egýrōsen",
@@ -10411,23 +10695,23 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
+    "shortDefinition": "a vulture",
     "inflections": {
       "γύπα": {
         "transliteration": "gýpa",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "γυπός": {
         "transliteration": "gypós",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "γύψ": {
         "transliteration": "gýps",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "γυψίν": {
         "transliteration": "gypsín",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -10436,6 +10720,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Gog",
     "indices": { "strongs": "G1136" },
     "inflections": {
       "Γωγ": {
@@ -10448,21 +10733,11 @@
       }
     }
   },
-  "Γωζα": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Γωζαν": {
-        "transliteration": "Gōzan",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Γωζαν": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Gozan; lit. Quarry",
     "inflections": {
       "Γωζαν": {
         "transliteration": "Gōzan",
@@ -10475,6 +10750,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Uthai; lit. Succoring",
     "inflections": {
       "Γωθι": {
         "transliteration": "Gōthi",
@@ -10486,6 +10762,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Goiim; lit. Nations",
     "inflections": {
       "Γωιμ": {
         "transliteration": "Gōim",
@@ -10498,7 +10775,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Alvah",
+    "shortDefinition": "Alvah, Aliah; lit. Moral Perverseness",
     "inflections": {
       "Γωλα": {
         "transliteration": "Gōla",
@@ -10510,6 +10787,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a globe, bowl (on a capital)",
     "inflections": {
       "γωλαθ": {
         "transliteration": "gōlath",
@@ -10522,6 +10800,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Alvan, Alian; lit. Lofty",
     "inflections": {
       "Γωλαμ": {
         "transliteration": "Gōlam",
@@ -10534,6 +10813,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Golan; lit. Captive",
     "inflections": {
       "Γωλαν": {
         "transliteration": "Gōlan",
@@ -10544,6 +10824,7 @@
   "γωληλα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Golela (a gate)",
     "inflections": {
       "γωληλα": {
         "transliteration": "gōlēla",
@@ -10561,7 +10842,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Alvan",
+    "shortDefinition": "Alvan, Alian; lit. Lofty",
     "inflections": {
       "Γωλων": {
         "transliteration": "Gōlōn",
@@ -10574,6 +10855,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ginath",
     "inflections": {
       "Γωναθ": {
         "transliteration": "Gōnath",
@@ -10586,6 +10868,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Guni; lit. Protected",
     "inflections": {
       "Γωνι": {
         "transliteration": "Gōni",
@@ -10597,6 +10880,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a corner, angle",
     "indices": { "strongs": "G1137" },
     "inflections": {
       "γωνίᾳ": {
@@ -10634,6 +10918,7 @@
   "γωνιαῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be at the corner, angular",
     "inflections": {
       "γωνιαῖον": {
         "transliteration": "gōniaîon",
@@ -10652,7 +10937,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Guni",
+    "shortDefinition": "Guni; lit. Protected",
     "inflections": {
       "Γωυνι": {
         "transliteration": "Gōyni",

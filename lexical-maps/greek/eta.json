@@ -3,6 +3,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a he",
     "inflections": {
       "η": {
         "transliteration": "ē",
@@ -23,6 +24,7 @@
   "ἦ": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "surely, truly",
     "indices": { "strongs": "G2229" },
     "inflections": {
       "η": { "transliteration": "ē", "cells": [{ "parse": ["prt"] }] },
@@ -33,7 +35,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
-    "shortDefinition": "eight",
+    "shortDefinition": "to be eighth",
     "inflections": {
       "η": {
         "transliteration": "ē",
@@ -45,6 +47,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be governor, rule (a province)",
     "indices": { "strongs": "G2230" },
     "inflections": {
       "ἡγεμονεύοντος": {
@@ -59,6 +62,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a leadership, rule; fig. a chiefdom, regiment",
     "indices": { "strongs": "G2231" },
     "inflections": {
       "ἡγεμονία": {
@@ -90,6 +94,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "Hegemonides; lit. Son of a Leader",
     "inflections": {
       "ἡγεμονίδην": {
         "transliteration": "hēgemonídēn",
@@ -100,6 +105,7 @@
   "ἡγεμονικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be leading, ruling, princely",
     "inflections": {
       "ἡγεμονικάς": {
         "transliteration": "hēgemonikás",
@@ -123,6 +129,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a leader, governor, chief",
     "indices": { "strongs": "G2232" },
     "inflections": {
       "ἡγεμόνα": {
@@ -232,8 +239,6 @@
       "ἥγησαι": {
         "transliteration": "hḗgēsai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
@@ -490,6 +495,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a design, purpose",
     "inflections": {
       "ἥγημα": {
         "transliteration": "hḗgēma",
@@ -506,6 +512,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a leadership, command",
     "inflections": {
       "ἡγήσεως": {
         "transliteration": "hēgḗseōs",
@@ -520,7 +527,7 @@
   "ἡγητέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must consider",
+    "shortDefinition": "to be reckoned, deemed",
     "inflections": {
       "ἡγητέον": {
         "transliteration": "hēgētéon",
@@ -537,6 +544,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Edad",
     "inflections": {
       "Ηδαδ": {
         "transliteration": "Ēdad",
@@ -549,6 +557,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Iddo, Edos",
     "inflections": {
       "Ηδαις": {
         "transliteration": "Ēdais",
@@ -560,6 +569,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Addan; lit. Firm",
     "inflections": {
       "Ηδαν": {
         "transliteration": "Ēdan",
@@ -570,10 +580,23 @@
   "ἡδέως": {
     "language": "greek",
     "pos": "adv",
-    "indices": { "strongs": "G2234" },
+    "shortDefinition": "gladly, with pleasure",
+    "indices": { "strongs": ["G2234", "G2236"] },
     "inflections": {
-      "ἡδέως": { "transliteration": "hēdéōs", "cells": [{ "parse": ["adv"] }] },
-      "ἥδιον": { "transliteration": "hḗdion", "cells": [{ "parse": ["adv"] }] }
+      "ἡδέως": {
+        "transliteration": "hēdéōs",
+        "cells": [{ "parse": ["adv"], "indices": { "strongs": "G2234" } }]
+      },
+      "ἥδιον": {
+        "transliteration": "hḗdion",
+        "cells": [{ "parse": ["adv"], "indices": { "strongs": "G2234" } }]
+      },
+      "ἥδιστα": {
+        "transliteration": "hḗdista",
+        "cells": [
+          { "parse": ["adv", "super"], "indices": { "strongs": "G2236" } }
+        ]
+      }
     }
   },
   "ἤδη": {
@@ -590,6 +613,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Adin; lit. Voluptuous",
     "inflections": {
       "Ηδιν": {
         "transliteration": "Ēdin",
@@ -601,6 +625,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to take pleasure in, enjoy",
     "inflections": {
       "ἥδεσθε": {
         "transliteration": "hḗdesthe",
@@ -675,6 +700,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to sweeten, make pleasant; refl. to be sweet, delight",
     "inflections": {
       "ἥδυναν": {
         "transliteration": "hḗdynan",
@@ -708,10 +734,7 @@
       },
       "ἡδύνουσιν": {
         "transliteration": "hēdýnousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -720,6 +743,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a mint",
     "indices": { "strongs": "G2238" },
     "inflections": {
       "ἡδύοσμον": {
@@ -736,6 +760,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a luxury, pleasure-seeking",
     "inflections": {
       "ἡδυπαθείας": {
         "transliteration": "hēdypatheías",
@@ -748,8 +773,8 @@
   },
   "ἡδύς": {
     "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G2236" },
+    "pos": "adj",
+    "shortDefinition": "to be sweet, pleasant",
     "inflections": {
       "ἡδεῖ": {
         "transliteration": "hēdeî",
@@ -779,10 +804,6 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       },
-      "ἥδιστα": {
-        "transliteration": "hḗdista",
-        "cells": [{ "parse": ["adv", "super"] }]
-      },
       "ἡδίστου": {
         "transliteration": "hēdístou",
         "cells": [
@@ -811,13 +832,15 @@
         "transliteration": "hēdýs",
         "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
       }
-    }
+    },
+    "declension": "3-1-3-us"
   },
   "ἥδυσμα": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a spice, seasoning",
     "inflections": {
       "ἡδύσματα": {
         "transliteration": "hēdýsmata",
@@ -840,19 +863,18 @@
   "ἡδυσμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a sweet spice, sweetness",
     "inflections": {
       "ἡδυσμοῦ": {
         "transliteration": "hēdysmoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "ἡδύφωνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sweet-sounding, sweet-voiced",
     "inflections": {
       "ἡδυφώνου": {
         "transliteration": "hēdyphṓnou",
@@ -868,6 +890,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a disaster",
     "inflections": {
       "ηδω": {
         "transliteration": "ēdō",
@@ -880,6 +903,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hezir",
     "inflections": {
       "Ηζιρ": {
         "transliteration": "Ēzir",
@@ -891,6 +915,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a heth",
     "inflections": {
       "ηθ": {
         "transliteration": "ēth",
@@ -902,6 +927,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Etham; lit. Permanent",
     "inflections": {
       "Ηθαμ": {
         "transliteration": "Ētham",
@@ -914,6 +940,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hothir; lit. He Has Caused to Remain",
     "inflections": {
       "Ηθιρ": {
         "transliteration": "Ēthir",
@@ -925,6 +952,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to portray the character of, depict",
     "inflections": {
       "ἠθολογήσαιμι": {
         "transliteration": "ēthologḗsaimi",
@@ -937,6 +965,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a character, disposition; fig. a custom, morals",
     "indices": { "strongs": "G2239" },
     "inflections": {
       "ἤθη": {
@@ -971,38 +1000,27 @@
     "inflections": {
       "ἥκαμεν": {
         "transliteration": "hḗkamen",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "pl"] }]
       },
       "ἥκασι": {
         "transliteration": "hḗkasi",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκασί": {
         "transliteration": "hḗkasí",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκασιν": {
         "transliteration": "hḗkasin",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἥκατε": {
         "transliteration": "hḗkate",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ἧκε": {
+        "transliteration": "hē̂ke",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ἥκει": {
         "transliteration": "hḗkei",
@@ -1015,6 +1033,10 @@
       "ἥκεις": {
         "transliteration": "hḗkeis",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἧκεν": {
+        "transliteration": "hē̂ken",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἥκετε": {
         "transliteration": "hḗkete",
@@ -1098,6 +1120,10 @@
         "transliteration": "hḗxete",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] }]
       },
+      "ἥξῃ": {
+        "transliteration": "hḗxē",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
+      },
       "ἥξομεν": {
         "transliteration": "hḗxomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
@@ -1127,6 +1153,10 @@
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "ἥξωσι": {
+        "transliteration": "hḗxōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "ἥξωσιν": {
         "transliteration": "hḗxōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -1138,6 +1168,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elah; lit. Oak",
     "inflections": {
       "Ηλα": {
         "transliteration": "Ēla",
@@ -1150,6 +1181,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elam; lit. Hidden",
     "inflections": {
       "Ηλαμ": {
         "transliteration": "Ēlam",
@@ -1162,6 +1194,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elam; lit. Hidden",
     "inflections": {
       "Ηλαμ-ααρ": {
         "transliteration": "Ēlam-aar",
@@ -1174,6 +1207,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elam; lit. Hidden",
     "inflections": {
       "Ηλαμ-αρ": {
         "transliteration": "Ēlam-ar",
@@ -1186,6 +1220,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "an Elamite",
     "inflections": {
       "Ηλαμαῖοι": {
         "transliteration": "Ēlamaîoi",
@@ -1198,7 +1233,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Elah",
+    "shortDefinition": "Elah; lit. Oak",
     "inflections": {
       "Ηλας": {
         "transliteration": "Ēlas",
@@ -1211,6 +1246,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Eleasah, Elasah; lit. God Has Made",
     "inflections": {
       "Ηλασα": {
         "transliteration": "Ēlasa",
@@ -1223,6 +1259,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an electrum (gold-silver alloy); trad. an amber",
     "inflections": {
       "ἠλέκτρου": {
         "transliteration": "ēléktrou",
@@ -1233,6 +1270,7 @@
   "ἠλί": {
     "language": "greek",
     "pos": "hebrew",
+    "shortDefinition": "my God!; trad. Eli!",
     "indices": { "strongs": "G2241" },
     "inflections": {
       "ηλι": { "transliteration": "ēli", "cells": [{ "parse": ["hebrew"] }] },
@@ -1245,6 +1283,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Eli, Heli; lit. Lofty",
     "indices": { "strongs": "G2242" },
     "inflections": {
       "Ηλι": {
@@ -1266,6 +1305,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elijah, Eliah; lit. My God Is YHWH/Yahweh/Jehovah",
     "inflections": {
       "Ηλια": {
         "transliteration": "Ēlia",
@@ -1277,6 +1317,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to be exposed to the sun",
     "inflections": {
       "ἡλιασθέντων": {
         "transliteration": "hēliasthéntōn",
@@ -1292,6 +1333,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Eliathah; lit. God of His Consent",
     "inflections": {
       "Ηλιαθα": {
         "transliteration": "Ēliatha",
@@ -1303,6 +1345,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Eliam",
     "inflections": {
       "Ηλιαμ": {
         "transliteration": "Ēliam",
@@ -1315,6 +1358,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Elijah, Elias; lit. My God Is YHWH/Yahweh/Jehovah",
     "indices": { "strongs": "G2243" },
     "inflections": {
       "Ηλια": {
@@ -1361,6 +1405,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an age, stature; fig. a maturity",
     "indices": { "strongs": "G2244" },
     "inflections": {
       "ἡλικία": {
@@ -1387,6 +1432,7 @@
   "ἡλικιώτης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an age-mate, peer",
     "inflections": {
       "ἡλικιώτης": {
         "transliteration": "hēlikiṓtēs",
@@ -1398,6 +1444,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "how great/small, as great as",
     "indices": { "strongs": "G2245" },
     "inflections": {
       "ἡλίκην": {
@@ -1415,6 +1462,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Heliodorus",
     "inflections": {
       "Ἡλιόδωρον": {
         "transliteration": "Hēliódōron",
@@ -1442,6 +1490,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "the sun",
     "indices": { "strongs": "G2246" },
     "inflections": {
       "ἥλιον": {
@@ -1470,6 +1519,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Elijah; lit. My God Is YHWH/Yahweh/Jehovah",
     "inflections": {
       "Ηλιου": {
         "transliteration": "Ēliou",
@@ -1482,6 +1532,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Elkanah; lit. God Has Obtained",
     "inflections": {
       "Ηλκανα": {
         "transliteration": "Ēlkana",
@@ -1494,6 +1545,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a nail",
     "indices": { "strongs": "G2247" },
     "inflections": {
       "ἧλοι": {
@@ -1522,6 +1574,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Oak of Meonenim, Elon Meonenim; lit. Oak of Soothsayers",
     "inflections": {
       "Ηλωνμαωνενιμ": {
         "transliteration": "Ēlōnmaōnenim",
@@ -1534,6 +1587,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Henadad, Emadabun; lit. Favor of Hadad",
     "inflections": {
       "Ημαδαβουν": {
         "transliteration": "Ēmadaboun",
@@ -1545,6 +1599,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hamath; lit. Walled",
     "inflections": {
       "Ημαθ": {
         "transliteration": "Ēmath",
@@ -1557,6 +1612,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Mishraite",
     "inflections": {
       "Ημασαραιμ": {
         "transliteration": "Ēmasaraim",
@@ -1568,6 +1624,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "1f-a",
     "shortDefinition": "a day; fig. a time period",
     "indices": { "strongs": "G2250" },
     "inflections": {
@@ -1607,22 +1664,11 @@
       }
     }
   },
-  "Ἡμέρα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-a",
-    "inflections": {
-      "Ἡμέραν": {
-        "transliteration": "Hēméran",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "ἡμερόομαι": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to be tamed, die down",
     "inflections": {
       "ἡμεροῦτο": {
         "transliteration": "hēmeroûto",
@@ -1637,15 +1683,14 @@
   "ἥμερος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be tame, gentle, civilized",
     "inflections": {
       "ἥμερα": {
         "transliteration": "hḗmera",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ἥμερον": {
@@ -1663,6 +1708,7 @@
   "ἡμέτερος": {
     "language": "greek",
     "pos": "pron-poss",
+    "shortDefinition": "our(s)",
     "indices": { "strongs": "G2251" },
     "inflections": {
       "ἡμετέρα": {
@@ -1721,7 +1767,8 @@
           { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] },
+          { "parse": ["pron-poss", "pers-1", "poss-pl", "acc", "sg", "masc"] }
         ]
       },
       "ἡμέτερος": {
@@ -1752,6 +1799,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ami; lit. Builder",
     "inflections": {
       "Ημι": {
         "transliteration": "Ēmi",
@@ -1762,6 +1810,7 @@
   "ἡμίεφθος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be half-boiled",
     "inflections": {
       "ἡμίεφθον": {
         "transliteration": "hēmíephthon",
@@ -1798,6 +1847,7 @@
   "ἡμίθνητος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be half-dead, nearly dead",
     "inflections": {
       "ἡμίθνητος": {
         "transliteration": "hēmíthnētos",
@@ -1813,6 +1863,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Amon; lit. Builder",
     "inflections": {
       "Ημιμ": {
         "transliteration": "Ēmim",
@@ -1823,6 +1874,7 @@
   "ἡμίονος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a mule",
     "inflections": {
       "ἡμίονοι": {
         "transliteration": "hēmíonoi",
@@ -1843,11 +1895,8 @@
       "ἡμίονος": {
         "transliteration": "hēmíonos",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       },
       "ἡμιόνου": {
@@ -1861,16 +1910,14 @@
         "transliteration": "hēmiónous",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
+          { "parse": ["noun", "acc", "pl", "masc"] }
         ]
       },
       "ἡμιόνων": {
         "transliteration": "hēmiónōn",
         "cells": [
           { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
+          { "parse": ["noun", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -1880,6 +1927,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a half-share, half portion",
     "inflections": {
       "ἡμίσευμα": {
         "transliteration": "hēmíseuma",
@@ -1899,6 +1947,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to halve, reach the half of",
     "inflections": {
       "ἡμισεύσωσιν": {
         "transliteration": "hēmiseúsōsin",
@@ -1963,6 +2012,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a half-hour",
     "indices": { "strongs": "G2256" },
     "inflections": {
       "ἡμιώριον": {
@@ -1980,6 +2030,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Henadad; lit. Favor of Hadad",
     "inflections": {
       "Ηναδαδ": {
         "transliteration": "Ēnadad",
@@ -1991,6 +2042,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "En Haddah; lit. Fountain of Sharpness",
     "inflections": {
       "Ηναδδα": {
         "transliteration": "Ēnadda",
@@ -2002,6 +2054,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Enam; lit. Double Fountain",
     "inflections": {
       "Ηναιμ": {
         "transliteration": "Ēnaim",
@@ -2014,6 +2067,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Anan; lit. Cloud",
     "inflections": {
       "Ηναν": {
         "transliteration": "Ēnan",
@@ -2025,6 +2079,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "En Gedi; lit. Fountain of a Kid",
     "inflections": {
       "Ηνγαδδι": {
         "transliteration": "Ēngaddi",
@@ -2036,6 +2091,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "En Gannim, Engannim; lit. Fountain of Gardens",
     "inflections": {
       "Ηνγαννιμ": {
         "transliteration": "Ēngannim",
@@ -2046,6 +2102,7 @@
   "Ηνια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Enia",
     "inflections": {
       "Ηνια": {
         "transliteration": "Ēnia",
@@ -2061,6 +2118,7 @@
   "ἡνία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a rein, bridle",
     "inflections": {
       "ἡνίαι": {
         "transliteration": "hēníai",
@@ -2078,6 +2136,7 @@
   "ἡνίκα": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "at the time when, whenever",
     "indices": { "strongs": "G2259" },
     "inflections": {
       "ἡνίκα": { "transliteration": "hēníka", "cells": [{ "parse": ["adv"] }] }
@@ -2086,6 +2145,7 @@
   "ἡνίοχος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a chariot driver, reinsman",
     "inflections": {
       "ἡνιόχῳ": {
         "transliteration": "hēnióchō",
@@ -2100,6 +2160,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "En Rimmon; lit. Fountain of a Pomegranate",
     "inflections": {
       "Ηνρεμμων": {
         "transliteration": "Ēnremmōn",
@@ -2112,7 +2173,16 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a maw, fourth stomach",
     "inflections": {
+      "ἔνυστρον": {
+        "transliteration": "énystron",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
       "ἤνυστρον": {
         "transliteration": "ḗnystron",
         "cells": [
@@ -2127,23 +2197,26 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
-    "declension": "indeclinable",
+    "shortDefinition": "a liver",
     "inflections": {
       "ἧπαρ": {
         "transliteration": "hē̂par",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
+        ]
       },
       "ἥπατά": {
         "transliteration": "hḗpatá",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
       },
       "ἥπατι": {
         "transliteration": "hḗpati",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "ἥπατος": {
         "transliteration": "hḗpatos",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -2151,6 +2224,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to inspect livers (for omens)",
     "inflections": {
       "ἡπατοσκοπήσασθαι": {
         "transliteration": "hēpatoskopḗsasthai",
@@ -2161,6 +2235,7 @@
   "ἤπερ": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "than indeed, rather than",
     "indices": { "strongs": "G2260" },
     "inflections": {
       "ἤπερ": { "transliteration": "ḗper", "cells": [{ "parse": ["prt"] }] }
@@ -2169,6 +2244,7 @@
   "ἤπιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be mild, kindly, gentle",
     "indices": { "strongs": "G2261" },
     "inflections": {
       "ἤπιοι": {
@@ -2189,6 +2265,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a mildness, kindliness",
     "inflections": {
       "ἠπιότητος": {
         "transliteration": "ēpiótētos",
@@ -2201,6 +2278,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Er; lit. Watchful",
     "indices": { "strongs": "G2262" },
     "inflections": {
       "Ηρ": {
@@ -2218,6 +2296,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Arah; lit. Wayfaring",
     "inflections": {
       "Ηρα": {
         "transliteration": "Ēra",
@@ -2230,6 +2309,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Arah; lit. Wayfaring",
     "inflections": {
       "Ηραε": {
         "transliteration": "Ērae",
@@ -2242,6 +2322,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hercules, Heracles",
     "inflections": {
       "Ἡρακλέους": {
         "transliteration": "Hērakléous",
@@ -2254,6 +2335,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Harim; lit. Snub-Nosed",
     "inflections": {
       "Ηραμ": {
         "transliteration": "Ēram",
@@ -2266,6 +2348,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Harim; lit. Snub-Nosed",
     "inflections": {
       "Ηρεμ": {
         "transliteration": "Ērem",
@@ -2277,6 +2360,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be still, motionless; fig. to be stunned",
     "inflections": {
       "ἠρεμάζων": {
         "transliteration": "ēremázōn",
@@ -2304,6 +2388,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "Herod; lit. Heroic",
     "indices": { "strongs": "G2264" },
     "inflections": {
       "Ἡρῴδῃ": {
@@ -2329,6 +2414,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Herodian",
     "indices": { "strongs": "G2265" },
     "inflections": {
       "Ἡρῳδιανῶν": {
@@ -2342,6 +2428,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Herodias; lit. Heroic",
     "indices": { "strongs": "G2266" },
     "inflections": {
       "Ἡρῳδιάδα": {
@@ -2363,8 +2450,13 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Herodion; lit. Heroic",
     "indices": { "strongs": "G2267" },
     "inflections": {
+      "Ἡροδίωνα": {
+        "transliteration": "Hērodíōna",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "Ἡρῳδίωνα": {
         "transliteration": "Hērōdíōna",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -2376,6 +2468,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Addon; lit. Powerful",
     "inflections": {
       "Ηρων": {
         "transliteration": "Ērōn",
@@ -2388,7 +2481,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "hero",
+    "shortDefinition": "a hero, demigod",
     "inflections": {
       "ἡρώων": {
         "transliteration": "hērṓōn",
@@ -2401,6 +2494,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Isaiah, Esaias; lit. YH/Yah/Jah Has Saved",
     "indices": { "strongs": "G2268" },
     "inflections": {
       "Ησαιαν": {
@@ -2434,6 +2528,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hashum; lit. Enriched",
     "inflections": {
       "Ησαμ": {
         "transliteration": "Ēsam",
@@ -2446,6 +2541,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Shumathite",
     "inflections": {
       "Ησαμαθιμ": {
         "transliteration": "Ēsamathim",
@@ -2458,6 +2554,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Zorite",
     "inflections": {
       "Ησαρει": {
         "transliteration": "Ēsarei",
@@ -2470,6 +2567,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Esau; lit. Rough, Hairy",
     "indices": { "strongs": "G2269" },
     "inflections": {
       "Ησαυ": {
@@ -2487,10 +2585,77 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hezro, Hezrai; lit. Enclosure",
     "inflections": {
       "Ησεραι": {
         "transliteration": "Ēserai",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "ἥσσων": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "comparative",
+    "shortDefinition": "to be less, inferior, worse",
+    "indices": { "strongs": "G2276" },
+    "inflections": {
+      "ἡσσόνων": {
+        "transliteration": "hēssónōn",
+        "cells": [
+          { "parse": ["adj", "comp", "gen", "pl", "fem"] },
+          { "parse": ["adj", "comp", "gen", "pl", "masc"] },
+          { "parse": ["adj", "comp", "gen", "pl", "neut"] }
+        ]
+      },
+      "ἥσσων": {
+        "transliteration": "hḗssōn",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
+          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
+        ]
+      },
+      "ἧττον": {
+        "transliteration": "hē̂tton",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "ἥττονα": {
+        "transliteration": "hḗttona",
+        "cells": [
+          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
+          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
+          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
+          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
+          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
+        ]
+      },
+      "ἥττονες": {
+        "transliteration": "hḗttones",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "pl", "fem"] },
+          { "parse": ["adj", "comp", "nom", "pl", "masc"] },
+          { "parse": ["adj", "comp", "voc", "pl", "fem"] },
+          { "parse": ["adj", "comp", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἥττονι": {
+        "transliteration": "hḗttoni",
+        "cells": [
+          { "parse": ["adj", "comp", "dat", "sg", "fem"] },
+          { "parse": ["adj", "comp", "dat", "sg", "masc"] },
+          { "parse": ["adj", "comp", "dat", "sg", "neut"] }
+        ]
+      },
+      "ἥττων": {
+        "transliteration": "hḗttōn",
+        "cells": [
+          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
+          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -2499,6 +2664,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Jehiel, Esyelus; lit. God Will Live",
     "inflections": {
       "Ησυηλος": {
         "transliteration": "Ēsyēlos",
@@ -2576,11 +2742,7 @@
         "transliteration": "hēsychásai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ἡσυχάσαμεν": {
@@ -2594,7 +2756,6 @@
       "ἡσυχάσει": {
         "transliteration": "hēsychásei",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
@@ -2633,6 +2794,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a stillness, quiet, rest; fig. a silence",
     "indices": { "strongs": "G2271" },
     "inflections": {
       "ἡσυχία": {
@@ -2672,6 +2834,7 @@
   "ἥσυχος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be quiet, calm",
     "inflections": {
       "ἡσύχου": {
         "transliteration": "hēsýchou",
@@ -2695,6 +2858,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Etam; lit. Hawk-Ground",
     "inflections": {
       "Ηταμ": {
         "transliteration": "Ētam",
@@ -2705,38 +2869,18 @@
   "ἤτοι": {
     "language": "greek",
     "pos": "conj",
+    "shortDefinition": "either (indeed), whether",
     "indices": { "strongs": "G2273" },
     "inflections": {
       "ἤτοι": { "transliteration": "ḗtoi", "cells": [{ "parse": ["conj"] }] }
-    }
-  },
-  "ἡττάομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "deponent": true,
-    "indices": { "strongs": "G2274" },
-    "inflections": {
-      "ἡττήθητε": {
-        "transliteration": "hēttḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
-        ]
-      },
-      "ἥττηται": {
-        "transliteration": "hḗttētai",
-        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "ἡττῶνται": {
-        "transliteration": "hēttō̂ntai",
-        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
-      }
     }
   },
   "ἡττάω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to defeat, vanquish; fig. to make inferior",
+    "indices": { "strongs": "G2274" },
     "inflections": {
       "ἡττᾶσθε": {
         "transliteration": "hēttâsthe",
@@ -2802,6 +2946,12 @@
         "transliteration": "hēttēthḗsontai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       },
+      "ἡττήθητε": {
+        "transliteration": "hēttḗthēte",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-2", "pl"] }
+        ]
+      },
       "ἡττήσεις": {
         "transliteration": "hēttḗseis",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
@@ -2810,6 +2960,10 @@
         "transliteration": "hēttḗsōsi",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
+      "ἥττηται": {
+        "transliteration": "hḗttētai",
+        "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἡττώμενος": {
         "transliteration": "hēttṓmenos",
         "cells": [
@@ -2817,6 +2971,10 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "ἡττῶνται": {
+        "transliteration": "hēttō̂ntai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -2825,6 +2983,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a defeat, loss; fig. a failure",
     "indices": { "strongs": "G2275" },
     "inflections": {
       "ἥττημα": {
@@ -2837,83 +2996,12 @@
       }
     }
   },
-  "ἥττον": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "comparative",
-    "shortDefinition": "less, inferior, weaker",
-    "inflections": {
-      "ἡσσόνων": {
-        "transliteration": "hēssónōn",
-        "cells": [
-          { "parse": ["adj", "comp", "gen", "pl", "fem"] },
-          { "parse": ["adj", "comp", "gen", "pl", "masc"] },
-          { "parse": ["adj", "comp", "gen", "pl", "neut"] }
-        ]
-      },
-      "ἥσσων": {
-        "transliteration": "hḗssōn",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
-          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
-        ]
-      },
-      "ἥττονα": {
-        "transliteration": "hḗttona",
-        "cells": [
-          { "parse": ["adj", "comp", "acc", "pl", "neut"] },
-          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
-          { "parse": ["adj", "comp", "acc", "sg", "masc"] },
-          { "parse": ["adj", "comp", "nom", "pl", "neut"] },
-          { "parse": ["adj", "comp", "voc", "pl", "neut"] }
-        ]
-      },
-      "ἥττονες": {
-        "transliteration": "hḗttones",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "pl", "fem"] },
-          { "parse": ["adj", "comp", "nom", "pl", "masc"] },
-          { "parse": ["adj", "comp", "voc", "pl", "fem"] },
-          { "parse": ["adj", "comp", "voc", "pl", "masc"] }
-        ]
-      },
-      "ἥττονι": {
-        "transliteration": "hḗttoni",
-        "cells": [
-          { "parse": ["adj", "comp", "dat", "sg", "fem"] },
-          { "parse": ["adj", "comp", "dat", "sg", "masc"] },
-          { "parse": ["adj", "comp", "dat", "sg", "neut"] }
-        ]
-      },
-      "ἥττων": {
-        "transliteration": "hḗttōn",
-        "cells": [
-          { "parse": ["adj", "comp", "nom", "sg", "fem"] },
-          { "parse": ["adj", "comp", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "ἥττων": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G2276" },
-    "inflections": {
-      "ἧττον": {
-        "transliteration": "hē̂tton",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "Ηφαδ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hepher; lit. Pit of Shame",
     "inflections": {
       "Ηφαδ": {
         "transliteration": "Ēphad",
@@ -2926,6 +3014,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Echa",
     "inflections": {
       "Ηχα": {
         "transliteration": "Ēcha",
@@ -2937,6 +3026,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to sound, resound, roar",
     "indices": { "strongs": "G2278" },
     "inflections": {
       "ἤχει": {
@@ -2959,14 +3049,7 @@
       },
       "ἠχῆσαι": {
         "transliteration": "ēchē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ἤχησαν": {
         "transliteration": "ḗchēsan",
@@ -2993,14 +3076,17 @@
       },
       "ἤχησεν": {
         "transliteration": "ḗchēsen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἠχήσουσιν": {
         "transliteration": "ēchḗsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἠχοῦντι": {
+        "transliteration": "ēchoûnti",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
+        ]
       },
       "ἠχοῦσαν": {
         "transliteration": "ēchoûsan",
@@ -3028,6 +3114,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a sound, noise; fig. a report, fame",
     "indices": { "strongs": "G2279" },
     "inflections": {
       "ἦχοι": {
@@ -3049,13 +3136,6 @@
         "transliteration": "ḗchou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
-      "ἠχοῦς": {
-        "transliteration": "ēchoûs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
-      },
       "ἤχους": {
         "transliteration": "ḗchous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -3068,21 +3148,17 @@
   },
   "ἠχώ": {
     "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
+    "pos": "noun",
+    "gender": "fem",
+    "shortDefinition": "an echo, ringing sound",
     "inflections": {
-      "ἠχοῦντι": {
-        "transliteration": "ēchoûnti",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
-        ]
+      "ἠχοῦς": {
+        "transliteration": "ēchoûs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "ἠχώ": {
         "transliteration": "ēchṓ",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   }

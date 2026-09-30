@@ -519,7 +519,7 @@
       "adj": ["adv", "noun", "pron-poss"],
       "verb": ["adj", "adv", "noun"],
       "prep": ["adv"],
-      "adv": ["prep", "conj", "prt", "adj", "noun"],
+      "adv": ["prep", "conj", "prt", "adj", "noun", "verb"],
       "conj": ["adv", "prt"],
       "prt": ["adv", "conj"],
       "inj": ["noun"],

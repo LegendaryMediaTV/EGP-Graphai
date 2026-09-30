@@ -190,7 +190,7 @@
 > - <sup>j</sup> 10. toû ¦ NA<sup>27</sup> SBL TH WH _om._
 > - <sup>k</sup> 11. Ho ¦ PCK Ho gàr
 > - <sup>l</sup> 11. kaì ¦ CT ḕ
-> - <sup>m</sup> 12. ho nomothétēs ¦ ECM PCK PT TH ho nomothétēs kaì kritḗs ¦ NA [ho] nomothétēs kaì kritḗs ¦ SBL WH nomothétēs kaì kritḗs
+> - <sup>m</sup> 12. ho nomothétēs ¦ ECM NA<sup>28</sup> PCK PT TH ho nomothétēs kaì kritḗs ¦ NA<sup>27</sup> [ho] nomothétēs kaì kritḗs ¦ SBL WH nomothétēs kaì kritḗs
 > - <sup>n</sup> 12. dè ¦ TR _om._
 > - <sup>o</sup> 12. hòs kríneis ¦ ECM<sup>†</sup> _txt_ ¦ CT<sup>†</sup> ho krínōn
 > - <sup>p</sup> 12. héteron ¦ CT plēsíon
@@ -252,7 +252,7 @@
 > - <sup>n</sup> 11. estin ¦ CT PT TR estin ho kýrios
 > - <sup>o</sup> 11. oiktírmōn ¦ TH oikteirmō̂n
 > - <sup>p</sup> 12. eis hypókrisin ¦ CT SCR hypò krísin
-> - <sup>q</sup> 14. autòn ¦ [NA] ¦ WH _om._
+> - <sup>q</sup> 14. autòn ¦ [NA<sup>27</sup>] ¦ WH _om._
 > - <sup>r</sup> 14. toû kyríou ¦ [WH]
 > - <sup>s</sup> 16. allḗlois tà paraptṓmata ¦ CT oûn allḗlois tàs hamartías
 > - <sup>t</sup> 16. eúchesthe ¦ WH proseúchesthe

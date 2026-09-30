@@ -4,6 +4,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pahathmoab, Phaath Moab; lit. Pit of Moab",
     "inflections": {
       "Φααθμωαβ": {
         "transliteration": "Phaathmōab",
@@ -16,6 +17,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pagiel; lit. Accident of God",
     "inflections": {
       "Φαγαιηλ": {
         "transliteration": "Phagaiēl",
@@ -27,6 +29,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Japhia; lit. Bright",
     "inflections": {
       "Φαγγαι": {
         "transliteration": "Phangai",
@@ -39,6 +42,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a glutton, big eater",
     "indices": { "strongs": "G5314" },
     "inflections": {
       "φάγος": {
@@ -51,6 +55,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Peor; lit. Gap",
     "inflections": {
       "Φαγωρ": {
         "transliteration": "Phagōr",
@@ -63,6 +68,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedahel; lit. God Has Ransomed",
     "inflections": {
       "Φαδαηλ": {
         "transliteration": "Phadaēl",
@@ -75,6 +81,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedaiah; lit. YH/Yah/Jah Has Ransomed",
     "inflections": {
       "Φαδαια": {
         "transliteration": "Phadaia",
@@ -87,6 +94,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedaiah; lit. YH/Yah/Jah Has Ransomed",
     "inflections": {
       "Φαδαιας": {
         "transliteration": "Phadaias",
@@ -99,6 +107,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedaiah, Phaldeus; lit. YH/Yah/Jah Has Ransomed",
     "inflections": {
       "Φαδαιος": {
         "transliteration": "Phadaios",
@@ -111,6 +120,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Padon, Phaleas; lit. Ransom",
     "inflections": {
       "Φαδαιου": {
         "transliteration": "Phadaiou",
@@ -123,6 +133,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedahzur; lit. Rock Has Ransomed",
     "inflections": {
       "Φαδασσουρ": {
         "transliteration": "Phadassour",
@@ -135,6 +146,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Peruda; lit. Dispersion",
     "inflections": {
       "Φαδουρα": {
         "transliteration": "Phadoura",
@@ -147,6 +159,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Padon; lit. Ransom",
     "inflections": {
       "Φαδων": {
         "transliteration": "Phadōn",
@@ -158,6 +171,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a refined gold",
     "inflections": {
       "φαζ": {
         "transliteration": "phaz",
@@ -170,6 +184,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pethahiah; lit. YH/Yah/Jah Has Opened",
     "inflections": {
       "Φαθαια": {
         "transliteration": "Phathaia",
@@ -182,6 +197,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pethor",
     "inflections": {
       "Φαθουρα": {
         "transliteration": "Phathoura",
@@ -192,6 +208,7 @@
   "φαιδρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be beaming, cheerful",
     "inflections": {
       "φαιδροί": {
         "transliteration": "phaidroí",
@@ -209,6 +226,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pithon; lit. Expansive",
     "inflections": {
       "Φαιθων": {
         "transliteration": "Phaithōn",
@@ -321,6 +339,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] }
         ]
       },
+      "φαίνῃ": {
+        "transliteration": "phaínē",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
+      },
       "φαίνηται": {
         "transliteration": "phaínētai",
         "cells": [
@@ -417,7 +439,6 @@
       "φάνῃ": {
         "transliteration": "phánē",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg", "second"] },
           { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
@@ -451,7 +472,9 @@
       },
       "φάνοιεν": {
         "transliteration": "phánoien",
-        "cells": [{ "parse": ["verb", "fut", "act", "opt", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "opt", "pers-3", "pl"] }
+        ]
       },
       "φανοῦμαι": {
         "transliteration": "phanoûmai",
@@ -471,6 +494,12 @@
           { "parse": ["verb", "second", "aor", "pas", "subj", "pers-1", "pl"] }
         ]
       },
+      "φανῶσι": {
+        "transliteration": "phanō̂si",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "pl"] }
+        ]
+      },
       "φανῶσιν": {
         "transliteration": "phanō̂sin",
         "cells": [
@@ -482,6 +511,7 @@
   "φαιός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dusky, dark gray",
     "inflections": {
       "φαιόν": {
         "transliteration": "phaión",
@@ -500,6 +530,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pashhur, Phaisur; lit. Liberation",
     "inflections": {
       "Φαισουρ": {
         "transliteration": "Phaisour",
@@ -512,6 +543,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pochereth Hazzebaim, Phacareth Sabie; lit. Trap of Gazelles",
     "inflections": {
       "Φακαρεθ-σαβιη": {
         "transliteration": "Phakareth-sabiē",
@@ -524,7 +556,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Peqah",
+    "shortDefinition": "Pekah; lit. Watch",
     "inflections": {
       "Φακεε": {
         "transliteration": "Phakee",
@@ -537,6 +569,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Pekahiah; lit. YH/Yah/Jah Has Observed",
     "inflections": {
       "Φακειας": {
         "transliteration": "Phakeias",
@@ -557,6 +590,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a lentil; fig. a (lentil-shaped) flask",
     "inflections": {
       "φακόν": {
         "transliteration": "phakón",
@@ -576,6 +610,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Aphekah; lit. Fortress",
     "inflections": {
       "Φακουα": {
         "transliteration": "Phakoua",
@@ -587,6 +622,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pekod; lit. Punishment",
     "inflections": {
       "Φακουδ": {
         "transliteration": "Phakoud",
@@ -598,27 +634,27 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "declension": "indeclinable",
+    "shortDefinition": "a battle line, phalanx",
     "inflections": {
       "φάλαγγα": {
         "transliteration": "phálanga",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "φάλαγγας": {
         "transliteration": "phálangas",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "φάλαγγος": {
         "transliteration": "phálangos",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "φάλαγξ": {
         "transliteration": "phálanx",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "φάλαγξιν": {
         "transliteration": "phálanxin",
-        "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       }
     }
   },
@@ -627,6 +663,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pilha; lit. Slicing",
     "inflections": {
       "Φαλαι": {
         "transliteration": "Phalai",
@@ -639,6 +676,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelaiah; lit. YH/Yah/Jah Has Distinguished",
     "inflections": {
       "Φαλαια": {
         "transliteration": "Phalaia",
@@ -649,6 +687,7 @@
   "φαλακρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be bald",
     "inflections": {
       "φαλακρά": {
         "transliteration": "phalakrá",
@@ -681,6 +720,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a baldness, bald head",
     "inflections": {
       "φαλάκρωμα": {
         "transliteration": "phalákrōma",
@@ -701,6 +741,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Palal; lit. Judge",
     "inflections": {
       "Φαλαλ": {
         "transliteration": "Phalal",
@@ -711,20 +752,17 @@
   "Φάλαρις": {
     "language": "greek",
     "pos": "noun",
-    "gender": "fem",
+    "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Phalaris",
     "inflections": {
       "Φαλάριδος": {
         "transliteration": "Phaláridos",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "Φάλαρις": {
         "transliteration": "Phálaris",
-        "cells": [
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -745,6 +783,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Peleg, Phalec; lit. Division",
     "indices": { "strongs": "G5317" },
     "inflections": {
       "Φάλεγ": {
@@ -758,6 +797,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Peleth; lit. Swiftness",
     "inflections": {
       "Φαλεθ": {
         "transliteration": "Phaleth",
@@ -769,10 +809,15 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Peleg",
+    "shortDefinition": "Peleg, Phalec; lit. Division",
+    "indices": { "strongs": "G5317" },
     "inflections": {
       "Φαλεκ": {
         "transliteration": "Phalek",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Φαλέκ": {
+        "transliteration": "Phalék",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -782,6 +827,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelet; lit. Escape",
     "inflections": {
       "Φαλετ": {
         "transliteration": "Phalet",
@@ -794,6 +840,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelatiah; lit. YH/Yah/Jah Has Delivered",
     "inflections": {
       "Φαλεττια": {
         "transliteration": "Phalettia",
@@ -805,6 +852,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pelaiah, Phalias; lit. YH/Yah/Jah Has Distinguished",
     "inflections": {
       "Φαλιας": {
         "transliteration": "Phalias",
@@ -817,6 +865,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelatiah; lit. YH/Yah/Jah Has Delivered",
     "inflections": {
       "Φαλλετια": {
         "transliteration": "Phalletia",
@@ -829,6 +878,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pallu, Phallu; lit. Distinguished",
     "inflections": {
       "Φαλλου": {
         "transliteration": "Phallou",
@@ -841,6 +891,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Palluite",
     "inflections": {
       "Φαλλουι": {
         "transliteration": "Phalloui",
@@ -853,7 +904,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Pallu",
+    "shortDefinition": "Pallu, Phallu; lit. Distinguished",
     "inflections": {
       "Φαλλους": {
         "transliteration": "Phallous",
@@ -866,6 +917,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Palti, Phalti; lit. Delivered",
     "inflections": {
       "Φαλτι": {
         "transliteration": "Phalti",
@@ -878,6 +930,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelatiah; lit. YH/Yah/Jah Has Delivered",
     "inflections": {
       "Φαλτια": {
         "transliteration": "Phaltia",
@@ -888,6 +941,7 @@
   "Φαλτιας": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Pelatiah; lit. YH/Yah/Jah Has Delivered",
     "inflections": {
       "Φαλτιαν": {
         "transliteration": "Phaltian",
@@ -909,6 +963,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paltiel, Phaltiel; lit. Deliverance of God",
     "inflections": {
       "Φαλτιηλ": {
         "transliteration": "Phaltiēl",
@@ -921,6 +976,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pul",
     "inflections": {
       "Φαλωχ": {
         "transliteration": "Phalōch",
@@ -933,7 +989,7 @@
     "pos": "adj",
     "citationForms": ["φανερά", "φανερόν"],
     "declension": "2-1-2-a",
-    "shortDefinition": "to be glaring; fig. obvious",
+    "shortDefinition": "to be glaring; fig. to be obvious",
     "indices": { "strongs": "G5318" },
     "inflections": {
       "φανερά": {
@@ -994,6 +1050,10 @@
       "ἐφανέρωσά": {
         "transliteration": "ephanérōsá",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
+      },
+      "ἐφανέρωσε": {
+        "transliteration": "ephanérōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφανέρωσεν": {
         "transliteration": "ephanérōsen",
@@ -1091,6 +1151,7 @@
   "φανερῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "in the open, publicly, plainly",
     "indices": { "strongs": "G5320" },
     "inflections": {
       "φανερῶς": {
@@ -1104,6 +1165,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a bringing to light, disclosure; fig. a manifestation",
     "indices": { "strongs": "G5321" },
     "inflections": {
       "φανερώσει": {
@@ -1121,6 +1183,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a (hand) lantern",
     "indices": { "strongs": "G5322" },
     "inflections": {
       "φανῶν": {
@@ -1133,6 +1196,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Penuel, Phanuel; lit. Face of God",
     "indices": { "strongs": "G5323" },
     "inflections": {
       "Φανουηλ": {
@@ -1145,10 +1209,12 @@
       }
     }
   },
-  "φαντάζομαι": {
+  "φαντάζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "shortDefinition": "to appear, be seen; fig. to fancy, imagine",
+    "indices": { "strongs": "G5324" },
     "inflections": {
       "φαντάζεται": {
         "transliteration": "phantázetai",
@@ -1157,15 +1223,7 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
-      }
-    }
-  },
-  "φαντάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "indices": { "strongs": "G5324" },
-    "inflections": {
+      },
       "φανταζόμενον": {
         "transliteration": "phantazómenon",
         "cells": [
@@ -1180,6 +1238,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a pomp, pageantry; fig. an appearance, vision",
     "indices": { "strongs": "G5325" },
     "inflections": {
       "φαντασία": {
@@ -1213,6 +1272,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to put on a show, act pretentiously",
     "inflections": {
       "φαντασιοκοπῶν": {
         "transliteration": "phantasiokopō̂n",
@@ -1228,6 +1288,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a ghost, apparition",
     "indices": { "strongs": "G5326" },
     "inflections": {
       "φάντασμα": {
@@ -1257,6 +1318,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Purah, Phurah; lit. Foliage",
     "inflections": {
       "Φαρα": {
         "transliteration": "Phara",
@@ -1268,6 +1330,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a ravine, gully, gorge",
     "indices": { "strongs": "G5327" },
     "inflections": {
       "φάραγγα": {
@@ -1326,6 +1389,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pirathon; lit. Chieftaincy",
     "inflections": {
       "Φαραθωμ": {
         "transliteration": "Pharathōm",
@@ -1337,6 +1401,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pirathon, Pharathon; lit. Chieftaincy",
     "inflections": {
       "Φαραθων": {
         "transliteration": "Pharathōn",
@@ -1349,6 +1414,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Pirathonite",
     "inflections": {
       "Φαραθωνι": {
         "transliteration": "Pharathōni",
@@ -1360,6 +1426,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Pirathonite",
     "inflections": {
       "Φαραθωνίτης": {
         "transliteration": "Pharathōnítēs",
@@ -1372,6 +1439,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paarai; lit. Yawning",
     "inflections": {
       "Φαραι": {
         "transliteration": "Pharai",
@@ -1384,6 +1452,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pharakim",
     "inflections": {
       "Φαρακιμ": {
         "transliteration": "Pharakim",
@@ -1395,7 +1464,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "El Paran",
+    "shortDefinition": "Paran; lit. Ornamental",
     "inflections": {
       "Φαραν": {
         "transliteration": "Pharan",
@@ -1410,6 +1479,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Perazim; lit. Breaches",
     "inflections": {
       "φαρασιν": {
         "transliteration": "pharasin",
@@ -1422,6 +1492,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pharaoh",
     "indices": { "strongs": "G5328" },
     "inflections": {
       "Φαραω": {
@@ -1439,6 +1510,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Poratha, Pharadatha",
     "inflections": {
       "Φαρδαθα": {
         "transliteration": "Phardatha",
@@ -1468,6 +1540,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a quiver (for arrows)",
     "inflections": {
       "φαρέτρᾳ": {
         "transliteration": "pharétra",
@@ -1491,6 +1564,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Barzillai, Zorzelleus; lit. Iron-Hearted",
     "inflections": {
       "Φαρζελλαιου": {
         "transliteration": "Pharzellaiou",
@@ -1503,6 +1577,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Peruda, Pharida; lit. Dispersion",
     "inflections": {
       "Φαριδα": {
         "transliteration": "Pharida",
@@ -1559,6 +1634,8 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "1f-a",
+    "shortDefinition": "a sorcery, witchcraft; lit. a use of drugs",
     "indices": { "strongs": "G5331" },
     "inflections": {
       "φαρμακεία": {
@@ -1569,9 +1646,34 @@
         "transliteration": "pharmakeía",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
+      "φαρμακείαις": {
+        "transliteration": "pharmakeíais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "φαρμακείας": {
+        "transliteration": "pharmakeías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
+      },
       "φαρμακειῶν": {
         "transliteration": "pharmakeiō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
+      }
+    }
+  },
+  "φαρμακεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "shortDefinition": "a sorcerer, potion-mixer",
+    "indices": { "strongs": "G5332" },
+    "inflections": {
+      "φαρμακεῦσι": {
+        "transliteration": "pharmakeûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -1579,6 +1681,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to administer potions, poison; fig. to practice sorcery",
     "inflections": {
       "ἐφαρμακεύετο": {
         "transliteration": "epharmakeúeto",
@@ -1608,31 +1711,12 @@
       }
     }
   },
-  "φαρμακία": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-a",
-    "shortDefinition": "sorcery, witchcraft",
-    "inflections": {
-      "φαρμακείαις": {
-        "transliteration": "pharmakeíais",
-        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      },
-      "φαρμακείας": {
-        "transliteration": "pharmakeías",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "φάρμακον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a drug, potion; fig. a remedy, poison, charm",
     "inflections": {
       "φάρμακα": {
         "transliteration": "phármaka",
@@ -1652,10 +1736,7 @@
       },
       "φαρμάκοις": {
         "transliteration": "pharmákois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "neut"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "φάρμακον": {
         "transliteration": "phármakon",
@@ -1676,6 +1757,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a sorcerer, potion-mixer",
     "indices": { "strongs": "G5333" },
     "inflections": {
       "φαρμακοί": {
@@ -1719,6 +1801,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Parnach",
     "inflections": {
       "Φαρναχ": {
         "transliteration": "Pharnach",
@@ -1731,6 +1814,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Parvaim",
     "inflections": {
       "Φαρουαιμ": {
         "transliteration": "Pharouaim",
@@ -1742,6 +1826,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a precinct, colonnade",
     "inflections": {
       "φαρουριμ": {
         "transliteration": "pharourim",
@@ -1754,6 +1839,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Parshandatha, Pharsannes",
     "inflections": {
       "Φαρσαννεσταιν": {
         "transliteration": "Pharsannestain",
@@ -1765,29 +1851,23 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
+    "shortDefinition": "a gullet, throat",
     "inflections": {
       "φάρυγγα": {
         "transliteration": "phárynga",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φάρυγγά": {
         "transliteration": "pháryngá",
-        "cells": [
-          { "parse": ["noun", "indecl-other", "fem"] },
-          { "parse": ["noun", "indecl-other", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φάρυγγος": {
         "transliteration": "pháryngos",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "φάρυγξ": {
         "transliteration": "phárynx",
-        "cells": [
-          { "parse": ["noun", "indecl-other", "fem"] },
-          { "parse": ["noun", "indecl-other", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -1796,6 +1876,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Pharpar; lit. Rapid",
     "inflections": {
       "Φαρφαρ": {
         "transliteration": "Pharphar",
@@ -1807,6 +1888,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pisgah; lit. Cleft",
     "inflections": {
       "Φασγα": {
         "transliteration": "Phasga",
@@ -1819,6 +1901,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paseah",
     "inflections": {
       "Φασεκ": {
         "transliteration": "Phasek",
@@ -1834,7 +1917,12 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "indeclinable",
+    "shortDefinition": "the Passover; fig. a Passover lamb",
     "inflections": {
+      "φασεκ": {
+        "transliteration": "phasek",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "φασεχ": {
         "transliteration": "phasech",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
@@ -1846,6 +1934,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paseah; lit. Limping",
     "inflections": {
       "Φαση": {
         "transliteration": "Phasē",
@@ -1856,11 +1945,11 @@
   "Φασῆλις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Phaselis",
     "inflections": {
       "Φασηλίδα": {
         "transliteration": "Phasēlída",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -1869,6 +1958,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Phasiron",
     "inflections": {
       "Φασιρων": {
         "transliteration": "Phasirōn",
@@ -1880,8 +1970,13 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a news report, word; fig. a sentence, decree",
     "indices": { "strongs": "G5334" },
     "inflections": {
+      "φάσιν": {
+        "transliteration": "phásin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "φάσις": {
         "transliteration": "phásis",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
@@ -1898,6 +1993,12 @@
       "ἔφασκεν": {
         "transliteration": "éphasken",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "φάσκοντας": {
+        "transliteration": "pháskontas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
       },
       "φάσκοντες": {
         "transliteration": "pháskontes",
@@ -1928,6 +2029,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a visible sign, apparition; fig. a phantom",
     "inflections": {
       "φάσμα": {
         "transliteration": "phásma",
@@ -1956,6 +2058,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Pasdammim; lit. Palm of Bloodshed",
     "inflections": {
       "Φασοδομιν": {
         "transliteration": "Phasodomin",
@@ -1968,6 +2071,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pashhur, Pashur; lit. Liberation",
     "inflections": {
       "Φασουρ": {
         "transliteration": "Phasour",
@@ -1979,6 +2083,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pashhur, Phassurus; lit. Liberation",
     "inflections": {
       "Φασσουρου": {
         "transliteration": "Phassourou",
@@ -1991,6 +2096,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pashhur, Pashur; lit. Liberation",
     "inflections": {
       "Φασσουρ": {
         "transliteration": "Phassour",
@@ -2003,6 +2109,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pispa, Pispah",
     "inflections": {
       "Φασφα": {
         "transliteration": "Phaspha",
@@ -2015,6 +2122,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a manger, stall",
     "indices": { "strongs": "G5336" },
     "inflections": {
       "φάτναι": {
@@ -2050,6 +2158,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to roof, panel (with rafters)",
     "inflections": {
       "ἐφάτνωσεν": {
         "transliteration": "ephátnōsen",
@@ -2076,6 +2185,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a coffered ceiling, paneled roof",
     "inflections": {
       "φατνώμασιν": {
         "transliteration": "phatnṓmasin",
@@ -2100,6 +2210,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "πεφαυλισμενο" },
+    "shortDefinition": "to treat as worthless, disparage",
     "inflections": {
       "ἐφαύλισα": {
         "transliteration": "ephaúlisa",
@@ -2181,6 +2292,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a contemptible act, slight",
     "inflections": {
       "φαυλίσματα": {
         "transliteration": "phaulísmata",
@@ -2195,36 +2307,26 @@
   "φαυλισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a disparagement, contempt",
     "inflections": {
       "φαυλισμόν": {
         "transliteration": "phaulismón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φαυλισμός": {
         "transliteration": "phaulismós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "φαυλισμῷ": {
         "transliteration": "phaulismō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
   "φαυλίστρια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a (female) scorner, disdainful one",
     "inflections": {
       "φαυλίστρια": {
         "transliteration": "phaulístria",
@@ -2239,6 +2341,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be paltry, base; fig. to be vile, evil",
     "indices": { "strongs": "G5337" },
     "inflections": {
       "φαῦλα": {
@@ -2291,6 +2394,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a paltriness, worthlessness, frivolity",
     "inflections": {
       "φαυλότητος": {
         "transliteration": "phaulótētos",
@@ -2303,6 +2407,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a giving of light, illumination",
     "inflections": {
       "φαῦσιν": {
         "transliteration": "phaûsin",
@@ -2315,6 +2420,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pochereth",
     "inflections": {
       "Φαχαραθ": {
         "transliteration": "Phacharath",
@@ -2327,6 +2433,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pochereth Hazzebaim; lit. Trap of Gazelles",
     "inflections": {
       "Φαχεραθ-ασεβωιν": {
         "transliteration": "Phacherath-asebōin",
@@ -2339,6 +2446,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Haggith; lit. Festive",
     "inflections": {
       "Φεγγιθ": {
         "transliteration": "Phengith",
@@ -2351,6 +2459,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a luster, gleaming light, glow",
     "indices": { "strongs": "G5338" },
     "inflections": {
       "φέγγος": {
@@ -2372,6 +2481,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pedaiah; lit. YH/Yah/Jah Has Ransomed",
     "inflections": {
       "Φεδεια": {
         "transliteration": "Phedeia",
@@ -2384,6 +2494,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to spare, have pity on; fig. to refrain (from)",
     "indices": { "strongs": "G5339" },
     "inflections": {
       "ἐφείδετο": {
@@ -2540,7 +2651,6 @@
         "transliteration": "pheîsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -2549,7 +2659,6 @@
         "transliteration": "pheîsaí",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -2664,6 +2773,7 @@
   "φειδομένως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "sparingly",
     "indices": { "strongs": "G5340" },
     "inflections": {
       "φειδομένως": {
@@ -2677,7 +2787,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-os",
-    "shortDefinition": "sparing, mercy",
+    "shortDefinition": "a sparing, forbearance, leniency",
     "inflections": {
       "φειδοῖ": {
         "transliteration": "pheidoî",
@@ -2692,6 +2802,7 @@
   "φειδωλός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sparing, thrifty",
     "inflections": {
       "φειδωλός": {
         "transliteration": "pheidōlós",
@@ -2702,22 +2813,12 @@
       }
     }
   },
-  "Φεισών": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Φισων": {
-        "transliteration": "Phisōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Φελεθθι": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Pelethite",
     "inflections": {
       "Φελεθθι": {
         "transliteration": "Pheleththi",
@@ -2730,6 +2831,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pelaiah; lit. YH/Yah/Jah Has Distinguished",
     "inflections": {
       "Φελεια": {
         "transliteration": "Pheleia",
@@ -2742,6 +2844,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Pelethite",
     "inflections": {
       "Φελετθι": {
         "transliteration": "Pheletthi",
@@ -2754,6 +2857,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Pelethite",
     "inflections": {
       "Φελεττι": {
         "transliteration": "Pheletti",
@@ -2766,6 +2870,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Piltai",
     "inflections": {
       "Φελητι": {
         "transliteration": "Phelēti",
@@ -2778,6 +2883,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Penuel; lit. Face of God",
     "inflections": {
       "Φελιηλ": {
         "transliteration": "Pheliēl",
@@ -2790,6 +2896,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Phellani; lit. Such a One",
     "inflections": {
       "Φελλανι": {
         "transliteration": "Phellani",
@@ -2801,6 +2908,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a certain one, so-and-so",
     "inflections": {
       "φελμουνι": {
         "transliteration": "phelmouni",
@@ -2813,6 +2921,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a traveling cloak, mantle",
     "indices": { "strongs": "G5341" },
     "inflections": {
       "φελόνην": {
@@ -2826,6 +2935,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Paltite",
     "inflections": {
       "Φελωθι": {
         "transliteration": "Phelōthi",
@@ -2838,6 +2948,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Pelonite",
     "inflections": {
       "Φελωνι": {
         "transliteration": "Phelōni",
@@ -2850,6 +2961,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Peninnah",
     "inflections": {
       "Φεννανα": {
         "transliteration": "Phennana",
@@ -2862,6 +2974,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Perizzite",
     "inflections": {
       "Φερεζαῖοι": {
         "transliteration": "Pherezaîoi",
@@ -2903,6 +3016,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Perizzite",
     "inflections": {
       "Φερεζαίου": {
         "transliteration": "Pherezaíou",
@@ -2915,6 +3029,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Perizzite",
     "inflections": {
       "Φερεζι": {
         "transliteration": "Pherezi",
@@ -2927,6 +3042,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Peruda, Perida; lit. Dispersion",
     "inflections": {
       "Φεριδα": {
         "transliteration": "Pherida",
@@ -2939,6 +3055,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a dowry, bride-price",
     "inflections": {
       "φερνή": {
         "transliteration": "phernḗ",
@@ -2965,7 +3082,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to endow with a dowry",
+    "shortDefinition": "to endow (a bride), pay the bride-price for",
     "inflections": {
       "φερνιεῖ": {
         "transliteration": "phernieî",
@@ -3096,12 +3213,6 @@
         "transliteration": "enḗnochen",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
       },
-      "ἐξένεγκε": {
-        "transliteration": "exénenke",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] }
-        ]
-      },
       "ἔφερεν": {
         "transliteration": "épheren",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -3120,10 +3231,7 @@
       },
       "ἐφέροσαν": {
         "transliteration": "ephérosan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἤνεγκα": {
         "transliteration": "ḗnenka",
@@ -3190,6 +3298,10 @@
       "οἴσομεν": {
         "transliteration": "oísomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
+      "οἴσουσι": {
+        "transliteration": "oísousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "οἴσουσιν": {
         "transliteration": "oísousin",
@@ -3431,6 +3543,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
+      "φέρουσι": {
+        "transliteration": "phérousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "φέρουσιν": {
         "transliteration": "phérousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3460,6 +3576,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paseah; lit. Limping",
     "inflections": {
       "Φεση": {
         "transliteration": "Phesē",
@@ -3472,6 +3589,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pasach; lit. Divider",
     "inflections": {
       "Φεσηχι": {
         "transliteration": "Phesēchi",
@@ -3484,6 +3602,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paseah; lit. Limping",
     "inflections": {
       "Φεσσηε": {
         "transliteration": "Phessēe",
@@ -3496,6 +3615,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pethahiah; lit. YH/Yah/Jah Has Opened",
     "inflections": {
       "Φεταια": {
         "transliteration": "Phetaia",
@@ -3509,6 +3629,7 @@
     "conjugation": "thematic",
     "deponent": true,
     "stems": { "aor": "εφυγ" },
+    "shortDefinition": "to flee; fig. to shun, escape, vanish",
     "indices": { "strongs": "G5343" },
     "inflections": {
       "ἔφευγον": {
@@ -3735,6 +3856,12 @@
           { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
         ]
       },
+      "φύγῃς": {
+        "transliteration": "phýgēs",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"] }
+        ]
+      },
       "φύγητε": {
         "transliteration": "phýgēte",
         "cells": [
@@ -3781,6 +3908,7 @@
   "φευκτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be avoidable, escapable",
     "inflections": {
       "φευκτόν": {
         "transliteration": "pheuktón",
@@ -3799,6 +3927,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a pe",
     "inflections": {
       "φη": {
         "transliteration": "phē",
@@ -3814,6 +3943,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "Felix; lit. Happy",
     "indices": { "strongs": "G5344" },
     "inflections": {
       "Φήλικα": {
@@ -3842,6 +3972,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a rumor, news; fig. a reputation, fame",
     "indices": { "strongs": "G5345" },
     "inflections": {
       "φήμη": {
@@ -3924,6 +4055,10 @@
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
+      "φασί": {
+        "transliteration": "phasí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "φασιν": {
         "transliteration": "phasin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3932,13 +4067,17 @@
         "transliteration": "phasín",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
-      "φάσιν": {
-        "transliteration": "phásin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
-      },
       "φημι": {
         "transliteration": "phēmi",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
+      "φησι": {
+        "transliteration": "phēsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
+      "φησί": {
+        "transliteration": "phēsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "φησιν": {
         "transliteration": "phēsin",
@@ -3955,6 +4094,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Festus; lit. Festal",
     "indices": { "strongs": "G5347" },
     "inflections": {
       "Φῆστε": {
@@ -3983,6 +4123,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Iphtah El; lit. God Will Open",
     "inflections": {
       "Φθαιηλ": {
         "transliteration": "Phthaiēl",
@@ -3995,6 +4136,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εφθα" },
+    "shortDefinition": "to come first, precede; fig. to arrive, reach, attain",
     "indices": { "strongs": "G5348" },
     "inflections": {
       "ἔφθακεν": {
@@ -4012,6 +4154,10 @@
       "ἔφθασαν": {
         "transliteration": "éphthasan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἔφθασε": {
+        "transliteration": "éphthase",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔφθασεν": {
         "transliteration": "éphthasen",
@@ -4078,6 +4224,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a corrupted thing, blemish",
     "inflections": {
       "φθάρματά": {
         "transliteration": "phthármatá",
@@ -4093,6 +4240,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be witherable, perishable; fig. to be corruptible",
     "indices": { "strongs": "G5349" },
     "inflections": {
       "φθαρτῆς": {
@@ -4130,6 +4278,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to utter, sound, speak out",
     "indices": { "strongs": "G5350" },
     "inflections": {
       "ἐφθέγξατο": {
@@ -4300,6 +4449,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a spoken sound, utterance",
     "inflections": {
       "φθέγμα": {
         "transliteration": "phthégma",
@@ -4316,6 +4466,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "φθειρι" },
+    "shortDefinition": "to delouse, pick clean",
     "inflections": {
       "φθειριεῖ": {
         "transliteration": "phtheirieî",
@@ -4367,6 +4518,14 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "ἔφθειρε": {
+        "transliteration": "éphtheire",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
         ]
       },
       "ἔφθειρέν": {
@@ -4429,6 +4588,7 @@
   "φθινοπωρινός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be late-autumnal",
     "indices": { "strongs": "G5352" },
     "inflections": {
       "φθινοπωρινά": {
@@ -4445,6 +4605,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to wane (of the moon), decay",
     "inflections": {
       "φθίνουσαν": {
         "transliteration": "phthínousan",
@@ -4459,6 +4620,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a (musical) note, sound; fig. a voice",
     "indices": { "strongs": "G5353" },
     "inflections": {
       "φθόγγοι": {
@@ -4481,6 +4643,7 @@
   "φθονερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be envious",
     "inflections": {
       "φθονερός": {
         "transliteration": "phthonerós",
@@ -4495,6 +4658,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to envy, be envious of",
     "indices": { "strongs": "G5354" },
     "inflections": {
       "φθονεσάτω": {
@@ -4515,6 +4679,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "an envy, spite, ill will",
     "indices": { "strongs": "G5355" },
     "inflections": {
       "φθόνοι": {
@@ -4550,6 +4715,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a withering, decay; fig. a corruption, destruction",
     "indices": { "strongs": "G5356" },
     "inflections": {
       "φθορά": {
@@ -4575,6 +4741,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "a corrupter, seducer",
     "inflections": {
       "φθορεύς": {
         "transliteration": "phthoreús",
@@ -4587,6 +4754,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a shallow bowl, broad cup",
     "indices": { "strongs": "G5357" },
     "inflections": {
       "φιάλαι": {
@@ -4621,6 +4789,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Piram; lit. Wildly",
     "inflections": {
       "Φιδων": {
         "transliteration": "Phidōn",
@@ -4633,6 +4802,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pithon; lit. Expansive",
     "inflections": {
       "Φιθων": {
         "transliteration": "Phithōn",
@@ -4645,7 +4815,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Pikol",
+    "shortDefinition": "Phicol; lit. Mouth of All",
     "inflections": {
       "Φικολ": {
         "transliteration": "Phikol",
@@ -4656,6 +4826,7 @@
   "φιλάγαθος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be good-loving, devoted to goodness",
     "indices": { "strongs": "G5358" },
     "inflections": {
       "φιλάγαθον": {
@@ -4673,6 +4844,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Philadelphia; lit. Brotherly Love",
     "indices": { "strongs": "G5359" },
     "inflections": {
       "Φιλαδελφείᾳ": {
@@ -4689,6 +4861,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a brotherly love; fig. a love of fellow Believers",
     "indices": { "strongs": "G5360" },
     "inflections": {
       "φιλαδελφία": {
@@ -4712,6 +4885,7 @@
   "φιλάδελφος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be brother-loving; fig. to be loving to fellow Believers",
     "indices": { "strongs": "G5361" },
     "inflections": {
       "φιλάδελφοι": {
@@ -4735,12 +4909,13 @@
   "φιλαμαρτήμων": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sin-loving, fond of sinning",
     "inflections": {
       "φιλαμαρτήμων": {
         "transliteration": "philamartḗmōn",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -4761,6 +4936,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to treat kindly, deal humanely with",
     "inflections": {
       "ἐφιλανθρώπησεν": {
         "transliteration": "ephilanthrṓpēsen",
@@ -4772,6 +4948,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a love of humanity, benevolence, kindness",
     "indices": { "strongs": "G5363" },
     "inflections": {
       "φιλανθρωπία": {
@@ -4798,15 +4975,14 @@
   "φιλάνθρωπος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be humane, kind to people",
     "inflections": {
       "φιλάνθρωπα": {
         "transliteration": "philánthrōpa",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "φιλάνθρωπον": {
@@ -4824,6 +5000,7 @@
   "φιλανθρώπως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "humanely, kindly",
     "indices": { "strongs": "G5364" },
     "inflections": {
       "φιλανθρώπως": {
@@ -4836,6 +5013,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to love money, be greedy",
     "inflections": {
       "φιλαργυρήσαντες": {
         "transliteration": "philargyrḗsantes",
@@ -4850,6 +5028,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a love of money, avarice",
     "indices": { "strongs": "G5365" },
     "inflections": {
       "φιλαργυρία": {
@@ -4861,6 +5040,7 @@
   "φιλάργυρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be money-loving, avaricious",
     "indices": { "strongs": "G5366" },
     "inflections": {
       "φιλάργυροι": {
@@ -4882,6 +5062,7 @@
   "φιλαρχία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a love of power, ambition",
     "inflections": {
       "φιλαρχίας": {
         "transliteration": "philarchías",
@@ -4895,6 +5076,7 @@
   "φίλαυτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be self-loving, selfish",
     "indices": { "strongs": "G5367" },
     "inflections": {
       "φίλαυτοι": {
@@ -4909,12 +5091,13 @@
   "φιλελεήμων": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be mercy-loving, compassionate",
     "inflections": {
       "φιλελεήμων": {
         "transliteration": "phileleḗmōn",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -4923,6 +5106,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to love enmity, pick quarrels with",
     "inflections": {
       "φιλεχθρήσῃς": {
         "transliteration": "philechthrḗsēs",
@@ -5019,6 +5203,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       },
+      "φιλοῦσί": {
+        "transliteration": "philoûsí",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "φιλοῦσιν": {
         "transliteration": "philoûsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -5060,6 +5248,7 @@
   "φιληκοΐα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a love of listening, eagerness to hear",
     "inflections": {
       "φιληκοίαν": {
         "transliteration": "philēkoían",
@@ -5072,6 +5261,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a kiss",
     "indices": { "strongs": "G5370" },
     "inflections": {
       "φίλημά": {
@@ -5105,6 +5295,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Philemon; lit. Friendly",
     "indices": { "strongs": "G5371" },
     "inflections": {
       "Φιλήμονι": {
@@ -5118,6 +5309,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Philetus; lit. Amiable",
     "indices": { "strongs": "G5372" },
     "inflections": {
       "Φιλητός": {
@@ -5158,6 +5350,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to befriend, act as a friend to",
     "inflections": {
       "ἐφιλίασα": {
         "transliteration": "ephilíasa",
@@ -5165,10 +5358,7 @@
       },
       "ἐφιλίασας": {
         "transliteration": "ephilíasas",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
       },
       "ἐφιλίασεν": {
         "transliteration": "ephilíasen",
@@ -5196,6 +5386,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Philippian",
     "indices": { "strongs": "G5374" },
     "inflections": {
       "Φιλιππήσιοι": {
@@ -5211,6 +5402,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "Philippi",
     "indices": { "strongs": "G5375" },
     "inflections": {
       "Φιλίπποις": {
@@ -5232,6 +5424,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Philip; lit. Fond of Horses",
     "indices": { "strongs": "G5376" },
     "inflections": {
       "Φίλιππε": {
@@ -5258,7 +5451,9 @@
   },
   "φιλογέωργος": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be fond of farming",
     "inflections": {
       "φιλογέωργος": {
         "transliteration": "philogéōrgos",
@@ -5275,6 +5470,7 @@
   "φιλογύναιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be woman-loving, fond of women",
     "inflections": {
       "φιλογύναιος": {
         "transliteration": "philogýnaios",
@@ -5288,6 +5484,7 @@
   "φιλοδοξία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a love of glory/fame",
     "inflections": {
       "φιλοδοξία": {
         "transliteration": "philodoxía",
@@ -5320,6 +5517,7 @@
   "φιλόκοσμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be adornment-loving, fond of finery",
     "inflections": {
       "φιλοκόσμῳ": {
         "transliteration": "philokósmō",
@@ -5336,6 +5534,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Philologus; lit. Fond of Words",
     "indices": { "strongs": "G5378" },
     "inflections": {
       "Φιλόλογον": {
@@ -5348,6 +5547,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to love learning",
     "inflections": {
       "φιλομαθεῖν": {
         "transliteration": "philomatheîn",
@@ -5365,6 +5565,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be learning-loving, studious",
     "inflections": {
       "φιλομαθεῖς": {
         "transliteration": "philomatheîs",
@@ -5381,31 +5582,24 @@
   },
   "φιλομήτωρ": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
+    "pos": "adj",
+    "declension": "3-3-cons",
+    "shortDefinition": "to be mother-loving",
     "inflections": {
-      "φιλομήτορα": {
-        "transliteration": "philomḗtora",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "φιλομήτορες": {
         "transliteration": "philomḗtores",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
-      },
-      "φιλομήτορος": {
-        "transliteration": "philomḗtoros",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "φιλονεικέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to love wrangling, be contentious",
     "inflections": {
       "φιλονεικοῦντας": {
         "transliteration": "philoneikoûntas",
@@ -5419,6 +5613,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a love of wrangling, contentiousness; fig. a dispute",
     "indices": { "strongs": "G5379" },
     "inflections": {
       "φιλονεικία": {
@@ -5437,6 +5632,7 @@
   "φιλόνεικος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be contentious, wrangle-loving",
     "indices": { "strongs": "G5380" },
     "inflections": {
       "φιλόνεικοί": {
@@ -5458,6 +5654,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a love of strangers, hospitality",
     "indices": { "strongs": "G5381" },
     "inflections": {
       "φιλοξενίαν": {
@@ -5473,6 +5670,7 @@
   "φιλόξενος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be stranger-loving, hospitable",
     "indices": { "strongs": "G5382" },
     "inflections": {
       "φιλόξενοι": {
@@ -5492,6 +5690,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Philopator",
     "inflections": {
       "Φιλοπάτωρ": {
         "transliteration": "Philopátōr",
@@ -5502,6 +5701,7 @@
   "φιλοπολίτης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a patriot, lover of fellow citizens",
     "inflections": {
       "φιλοπολίτης": {
         "transliteration": "philopolítēs",
@@ -5513,6 +5713,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to labor lovingly over, work diligently at",
     "inflections": {
       "πεφιλοπονημένων": {
         "transliteration": "pephiloponēménōn",
@@ -5533,6 +5734,7 @@
   "φιλοπονία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a love of labor, diligence, industry",
     "inflections": {
       "φιλοπονίαν": {
         "transliteration": "philoponían",
@@ -5629,6 +5831,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to philosophize, pursue wisdom",
     "inflections": {
       "φιλοσοφεῖν": {
         "transliteration": "philosopheîn",
@@ -5644,6 +5847,12 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "φιλοσοφῶν": {
+        "transliteration": "philosophō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
@@ -5651,6 +5860,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a philosophy; lit. a love of wisdom",
     "indices": { "strongs": "G5385" },
     "inflections": {
       "φιλοσοφίᾳ": {
@@ -5672,6 +5882,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a philosopher; lit. a lover of wisdom",
     "indices": { "strongs": "G5386" },
     "inflections": {
       "φιλόσοφε": {
@@ -5681,10 +5892,6 @@
       "φιλοσόφους": {
         "transliteration": "philosóphous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
-      },
-      "φιλοσοφῶν": {
-        "transliteration": "philosophō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       },
       "φιλοσόφων": {
         "transliteration": "philosóphōn",
@@ -5699,6 +5906,7 @@
   "φιλοστοργία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a tender love, strong family affection",
     "inflections": {
       "φιλοστοργίαν": {
         "transliteration": "philostorgían",
@@ -5709,6 +5917,7 @@
   "φιλόστοργος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be tenderly affectionate, devoted",
     "indices": { "strongs": "G5387" },
     "inflections": {
       "φιλόστοργε": {
@@ -5730,7 +5939,7 @@
   "φιλοστόργως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with tender affection",
+    "shortDefinition": "tenderly, affectionately",
     "inflections": {
       "φιλοστόργως": {
         "transliteration": "philostórgōs",
@@ -5742,6 +5951,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a love of one’s children, parental love",
     "inflections": {
       "φιλοτεκνίαν": {
         "transliteration": "philoteknían",
@@ -5767,9 +5977,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "φιλοτεκνοτέρα": {
@@ -5799,6 +6007,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "deponent": true,
+    "shortDefinition": "to aspire, make it one’s ambition; lit. to love honor",
     "indices": { "strongs": "G5389" },
     "inflections": {
       "φιλοτιμεῖσθαι": {
@@ -5824,6 +6033,7 @@
   "φιλοτιμία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a love of honor, ambition",
     "inflections": {
       "φιλοτιμία": {
         "transliteration": "philotimía",
@@ -5837,6 +6047,7 @@
   "φιλότιμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be honor-loving, zealous; fig. to be glorious",
     "inflections": {
       "φιλοτίμου": {
         "transliteration": "philotímou",
@@ -5851,7 +6062,7 @@
   "φιλοτίμως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "eagerly, zealously",
+    "shortDefinition": "zealously, eagerly; fig. honorably",
     "inflections": {
       "φιλοτίμως": {
         "transliteration": "philotímōs",
@@ -5863,6 +6074,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be kindly disposed (toward)",
     "inflections": {
       "φιλοφρονοῦσιν": {
         "transliteration": "philophronoûsin",
@@ -5873,6 +6085,7 @@
   "φιλοφρόνως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "courteously, kindly, hospitably",
     "indices": { "strongs": "G5390" },
     "inflections": {
       "φιλοφρόνως": {
@@ -5884,6 +6097,7 @@
   "φιλόφρων": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be kind-minded, courteous",
     "indices": { "strongs": "G5391" },
     "inflections": {
       "φιλόφρονες": {
@@ -5898,6 +6112,7 @@
   "φιλόψυχος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be soul-loving, loving the living",
     "inflections": {
       "φιλόψυχε": {
         "transliteration": "philópsyche",
@@ -5913,6 +6128,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a love bond, affection; lit. a love charm",
     "inflections": {
       "φίλτρα": {
         "transliteration": "phíltra",
@@ -5927,30 +6143,19 @@
   "φιμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a nose-rein, muzzle",
     "inflections": {
       "φιμόν": {
         "transliteration": "phimón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φιμός": {
         "transliteration": "phimós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "φιμοῦ": {
         "transliteration": "phimoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -5959,6 +6164,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "aor": "εφιμω" },
+    "shortDefinition": "to muzzle; fig. to silence",
     "indices": { "strongs": "G5392" },
     "inflections": {
       "ἐφιμώθη": {
@@ -5968,6 +6174,10 @@
       "ἐφίμωσαν": {
         "transliteration": "ephímōsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐφίμωσε": {
+        "transliteration": "ephímōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφίμωσεν": {
         "transliteration": "ephímōsen",
@@ -6004,6 +6214,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Phinehas, Phinees; lit. Mouth of a Serpent",
     "inflections": {
       "Φινεες": {
         "transliteration": "Phinees",
@@ -6016,6 +6227,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paseah, Phinoe; lit. Limping",
     "inflections": {
       "Φινοε": {
         "transliteration": "Phinoe",
@@ -6028,6 +6240,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Punon; lit. Perplexity",
     "inflections": {
       "Φινω": {
         "transliteration": "Phinō",
@@ -6040,7 +6253,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Pinon",
+    "shortDefinition": "Pinon; lit. Perplexity",
     "inflections": {
       "Φινων": {
         "transliteration": "Phinōn",
@@ -6052,6 +6265,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Phira",
     "inflections": {
       "Φιρα": {
         "transliteration": "Phira",
@@ -6063,7 +6277,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Pishon",
+    "shortDefinition": "Pishon, Pison; lit. Dispersive",
     "inflections": {
       "Φισων": {
         "transliteration": "Phisōn",
@@ -6076,6 +6290,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "φλεγμαν" },
+    "shortDefinition": "to become inflamed, fester",
     "inflections": {
       "ἐφλέγμανεν": {
         "transliteration": "ephlégmanen",
@@ -6097,6 +6312,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an inflammation, heat; fig. a burning passion",
     "inflections": {
       "φλεγμονάς": {
         "transliteration": "phlegmonás",
@@ -6106,9 +6322,8 @@
   },
   "φλέγω": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "indices": { "strongs": "G5393" },
+    "pos": "verb",
+    "shortDefinition": "to blaze, set ablaze, burn up",
     "inflections": {
       "φλέγει": {
         "transliteration": "phlégei",
@@ -6157,16 +6372,27 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
-      "φλέγοντα": {
-        "transliteration": "phlégonta",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "φλέξει": {
         "transliteration": "phléxei",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg", "masc"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg", "masc"] }
         ]
+      }
+    },
+    "conjugation": "thematic"
+  },
+  "Φλέγων": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "Phlegon; lit. Blazing",
+    "indices": { "strongs": "G5393" },
+    "inflections": {
+      "Φλέγοντα": {
+        "transliteration": "Phlégonta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -6175,7 +6401,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "a vein",
+    "shortDefinition": "a vein, artery",
     "inflections": {
       "φλέβας": {
         "transliteration": "phlébas",
@@ -6187,6 +6413,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a door frame, doorpost, lintel",
     "inflections": {
       "φλιαί": {
         "transliteration": "phliaí",
@@ -6201,17 +6428,11 @@
       },
       "φλιάς": {
         "transliteration": "phliás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "φλιᾶς": {
         "transliteration": "phliâs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "φλιῶν": {
         "transliteration": "phliō̂n",
@@ -6223,6 +6444,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to set aflame, set on fire; fig. to inflame",
     "indices": { "strongs": "G5394" },
     "inflections": {
       "ἐφλόγισεν": {
@@ -6286,6 +6508,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be flaming, fiery",
     "inflections": {
       "φλογίνην": {
         "transliteration": "phlogínēn",
@@ -6296,13 +6519,11 @@
   "φλοιός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a bark (of a tree)",
     "inflections": {
       "φλοιόν": {
         "transliteration": "phloión",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -6310,6 +6531,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a flame, blaze; fig. a flashing blade",
     "indices": { "strongs": "G5395" },
     "inflections": {
       "φλόγα": {
@@ -6378,6 +6600,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a blister, pustule",
     "inflections": {
       "φλυκτίδες": {
         "transliteration": "phlyktídes",
@@ -6389,193 +6612,11 @@
     },
     "gender": "fem"
   },
-  "φοβέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "deponent": true,
-    "shortDefinition": "to fear; fig. to revere, respect, venerate",
-    "indices": { "strongs": "G5399" },
-    "inflections": {
-      "ἐφοβεῖτο": {
-        "transliteration": "ephobeîto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐφοβήθη": {
-        "transliteration": "ephobḗthē",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἐφοβήθησαν": {
-        "transliteration": "ephobḗthēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "ἐφοβούμην": {
-        "transliteration": "ephoboúmēn",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "ἐφοβοῦντο": {
-        "transliteration": "ephoboûnto",
-        "cells": [
-          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
-        ]
-      },
-      "φοβεῖσθαι": {
-        "transliteration": "phobeîsthai",
-        "cells": [{ "parse": ["verb", "pres", "midpas-dep", "inf"] }]
-      },
-      "φοβεῖσθε": {
-        "transliteration": "phobeîsthe",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "φοβῇ": {
-        "transliteration": "phobē̂",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "φοβηθείς": {
-        "transliteration": "phobētheís",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "φοβηθεῖσα": {
-        "transliteration": "phobētheîsa",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "fem"] }
-        ]
-      },
-      "φοβηθέντες": {
-        "transliteration": "phobēthéntes",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
-        ]
-      },
-      "φοβηθῇ": {
-        "transliteration": "phobēthē̂",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "φοβηθῇς": {
-        "transliteration": "phobēthē̂s",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
-        ]
-      },
-      "φοβηθήσομαι": {
-        "transliteration": "phobēthḗsomai",
-        "cells": [
-          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "φοβηθῆτε": {
-        "transliteration": "phobēthē̂te",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
-        ]
-      },
-      "φοβήθητε": {
-        "transliteration": "phobḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
-        ]
-      },
-      "φοβηθῶμεν": {
-        "transliteration": "phobēthō̂men",
-        "cells": [
-          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"] }
-        ]
-      },
-      "φοβῆται": {
-        "transliteration": "phobē̂tai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "φοβοῦ": {
-        "transliteration": "phoboû",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "φοβοῦμαι": {
-        "transliteration": "phoboûmai",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
-        ]
-      },
-      "φοβούμεθα": {
-        "transliteration": "phoboúmetha",
-        "cells": [
-          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
-        ]
-      },
-      "φοβούμεναι": {
-        "transliteration": "phoboúmenai",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "fem"]
-          },
-          { "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "fem"] }
-        ]
-      },
-      "φοβούμενοι": {
-        "transliteration": "phoboúmenoi",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβούμενοί": {
-        "transliteration": "phoboúmenoí",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
-          },
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβουμένοις": {
-        "transliteration": "phobouménois",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "pl", "masc"]
-          }
-        ]
-      },
-      "φοβούμενος": {
-        "transliteration": "phoboúmenos",
-        "cells": [
-          {
-            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
-          }
-        ]
-      }
-    }
-  },
   "φοβερίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to frighten, throw into fear",
     "inflections": {
       "ἐφοβέρισέν": {
         "transliteration": "ephobérisén",
@@ -6596,8 +6637,7 @@
         "transliteration": "phoberísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "φοβέρισον": {
@@ -6609,13 +6649,12 @@
   "φοβερισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a terrifying act, terror",
     "inflections": {
       "φοβερισμοί": {
         "transliteration": "phoberismoí",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       }
@@ -6625,7 +6664,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "fearful in appearance",
+    "shortDefinition": "to be terrible-looking, fearsome in form",
     "inflections": {
       "φοβεροειδεῖς": {
         "transliteration": "phoberoeideîs",
@@ -6645,6 +6684,7 @@
     "pos": "adj",
     "citationForms": ["φοβερά", "φοβερόν"],
     "declension": "2-1-2-a",
+    "shortDefinition": "to be fearful, fearsome, frightening",
     "indices": { "strongs": "G5398" },
     "inflections": {
       "φοβερά": {
@@ -6720,7 +6760,7 @@
   "φοβερῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "fearfully, terribly",
+    "shortDefinition": "fearfully, frighteningly",
     "inflections": {
       "φοβερῶς": {
         "transliteration": "phoberō̂s",
@@ -6733,6 +6773,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "φοβηθη", "aor": "φοβηθη" },
+    "shortDefinition": "to fear; fig. to revere, respect, venerate",
+    "indices": { "strongs": "G5399" },
     "inflections": {
       "ἐφόβει": {
         "transliteration": "ephóbei",
@@ -6751,12 +6793,16 @@
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
       "ἐφοβήθη": {
         "transliteration": "ephobḗthē",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "sg"] }
+        ]
       },
       "ἐφοβήθημεν": {
         "transliteration": "ephobḗthēmen",
@@ -6772,7 +6818,10 @@
       },
       "ἐφοβήθησαν": {
         "transliteration": "ephobḗthēsan",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐφοβήθησάν": {
         "transliteration": "ephobḗthēsán",
@@ -6790,12 +6839,19 @@
           { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] }
         ]
       },
+      "ἐφοβούμην": {
+        "transliteration": "ephoboúmēn",
+        "cells": [
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-1", "sg"] }
+        ]
+      },
       "ἐφοβοῦντο": {
         "transliteration": "ephoboûnto",
         "cells": [
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
+          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "pl"] }
         ]
       },
       "πεφόβησθε": {
@@ -6811,7 +6867,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "inf"] },
           { "parse": ["verb", "pres", "midpas", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
+          { "parse": ["verb", "pres", "pas", "inf"] },
+          { "parse": ["verb", "pres", "midpas-dep", "inf"] }
         ]
       },
       "φοβεῖσθαί": {
@@ -6830,7 +6887,8 @@
           { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "pl"] },
           { "parse": ["verb", "pres", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "pl"] },
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "φοβεῖσθέ": {
@@ -6869,14 +6927,22 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-2", "sg"] }
         ]
       },
       "φοβηθείς": {
         "transliteration": "phobētheís",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "φοβηθεῖσα": {
+        "transliteration": "phobētheîsa",
+        "cells": [
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "sg", "fem"] }
         ]
       },
       "φοβηθεῖσιν": {
@@ -6904,12 +6970,17 @@
         "transliteration": "phobēthéntes",
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "nom", "pl", "masc"] },
+          { "parse": ["verb", "aor", "pas-dep", "ptc", "voc", "pl", "masc"] }
         ]
       },
       "φοβηθῇ": {
         "transliteration": "phobēthē̂",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-3", "sg"] }
+        ]
       },
       "φοβηθῆναί": {
         "transliteration": "phobēthē̂naí",
@@ -6917,7 +6988,10 @@
       },
       "φοβηθῇς": {
         "transliteration": "phobēthē̂s",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "sg"] }
+        ]
       },
       "φοβηθήσεσθε": {
         "transliteration": "phobēthḗsesthe",
@@ -6944,7 +7018,8 @@
         "transliteration": "phobēthḗsomai",
         "cells": [
           { "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] }
+          { "parse": ["verb", "fut", "pas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "pas-dep", "ind", "pers-1", "sg"] }
         ]
       },
       "φοβηθησόμεθα": {
@@ -6971,15 +7046,15 @@
       "φοβηθῆτε": {
         "transliteration": "phobēthē̂te",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-2", "pl"] }
         ]
       },
       "φοβήθητε": {
         "transliteration": "phobḗthēte",
         "cells": [
           { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "pas-dep", "imp", "pers-2", "pl"] }
         ]
       },
       "φοβήθητι": {
@@ -7000,7 +7075,10 @@
       },
       "φοβηθῶμεν": {
         "transliteration": "phobēthō̂men",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "pas", "subj", "pers-1", "pl"] },
+          { "parse": ["verb", "aor", "pas-dep", "subj", "pers-1", "pl"] }
+        ]
       },
       "φοβηθῶσιν": {
         "transliteration": "phobēthō̂sin",
@@ -7008,11 +7086,7 @@
       },
       "φοβῆσαι": {
         "transliteration": "phobē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φοβῆσθε": {
         "transliteration": "phobē̂sthe",
@@ -7022,12 +7096,19 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-2", "pl"] }
         ]
       },
+      "φοβῆται": {
+        "transliteration": "phobē̂tai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas-dep", "subj", "pers-3", "sg"] }
+        ]
+      },
       "φοβοῦ": {
         "transliteration": "phoboû",
         "cells": [
           { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "imp", "pers-2", "sg"] }
         ]
       },
       "φοβοῦμαι": {
@@ -7035,7 +7116,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "sg"] }
         ]
       },
       "φοβούμεθα": {
@@ -7043,7 +7125,8 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ind", "pers-1", "pl"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "pl"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"] }
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "pl"] },
+          { "parse": ["verb", "pres", "midpas-dep", "ind", "pers-1", "pl"] }
         ]
       },
       "φοβούμεθά": {
@@ -7062,7 +7145,11 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "fem"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "fem"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "fem"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "fem"]
+          },
+          { "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "fem"] }
         ]
       },
       "φοβουμένη": {
@@ -7084,7 +7171,13 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
         ]
       },
       "φοβούμενοί": {
@@ -7095,7 +7188,13 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "voc", "pl", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "pl", "masc"]
+          },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "voc", "pl", "masc"]
+          }
         ]
       },
       "φοβουμένοις": {
@@ -7106,7 +7205,10 @@
           { "parse": ["verb", "pres", "midpas", "ptc", "dat", "pl", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "dat", "pl", "neut"] },
           { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "dat", "pl", "masc"]
+          }
         ]
       },
       "φοβούμενον": {
@@ -7131,7 +7233,10 @@
         "cells": [
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "midpas-dep", "ptc", "nom", "sg", "masc"]
+          }
         ]
       },
       "φοβουμένου": {
@@ -7209,6 +7314,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a fearful sight, terrifying thing",
     "indices": { "strongs": "G5400" },
     "inflections": {
       "φόβητρά": {
@@ -7270,7 +7376,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Pau",
+    "shortDefinition": "Peor; lit. Gap",
     "inflections": {
       "Φογωρ": {
         "transliteration": "Phogōr",
@@ -7282,6 +7388,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to rave (in oracular frenzy)",
     "inflections": {
       "φοιβήσετε": {
         "transliteration": "phoibḗsete",
@@ -7294,6 +7401,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "Phoebe, Phebe; lit. Bright",
     "indices": { "strongs": "G5402" },
     "inflections": {
       "Φοίβην": {
@@ -7306,6 +7414,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Phoenician",
     "inflections": {
       "Φοίνικες": {
         "transliteration": "Phoínikes",
@@ -7318,6 +7427,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "Phoenicia; lit. Palm-Country",
     "indices": { "strongs": "G5403" },
     "inflections": {
       "Φοινίκῃ": {
@@ -7334,13 +7444,6 @@
       "Φοινίκης": {
         "transliteration": "Phoiníkēs",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "Φοινίκων": {
-        "transliteration": "Phoiníkōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] }
-        ]
       }
     }
   },
@@ -7348,6 +7451,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-contract",
+    "shortDefinition": "to be purple-red, crimson",
     "inflections": {
       "φοινικοῦν": {
         "transliteration": "phoinikoûn",
@@ -7363,11 +7467,11 @@
   "Φοινικών": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Tamar; lit. Palm Tree",
     "inflections": {
       "Φοινικῶνος": {
         "transliteration": "Phoinikō̂nos",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -7375,6 +7479,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a date palm, palm tree; fig. a date (fruit)",
     "indices": { "strongs": "G5404" },
     "inflections": {
       "φοίνικα": {
@@ -7384,6 +7489,10 @@
       "φοίνικας": {
         "transliteration": "phoínikas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
+      "φοίνικες": {
+        "transliteration": "phoínikes",
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       },
       "φοίνικι": {
         "transliteration": "phoíniki",
@@ -7399,7 +7508,7 @@
       },
       "φοῖνιξ": {
         "transliteration": "phoînix",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -7407,22 +7516,27 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a Phoenician",
     "indices": { "strongs": "G5405" },
     "inflections": {
       "Φοίνικα": {
         "transliteration": "Phoínika",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "Φοινίκων": {
+        "transliteration": "Phoiníkōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
   "Φοίνισσα": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Phoenician (woman)",
     "inflections": {
       "Φοινίσσης": {
         "transliteration": "Phoiníssēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -7431,6 +7545,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Peullethai; lit. Laborious",
     "inflections": {
       "Φολλαθι": {
         "transliteration": "Phollathi",
@@ -7446,10 +7561,6 @@
     "shortDefinition": "a murderer",
     "indices": { "strongs": "G5406" },
     "inflections": {
-      "φονάς": {
-        "transliteration": "phonás",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
-      },
       "φονέα": {
         "transliteration": "phonéa",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
@@ -7466,6 +7577,10 @@
         "transliteration": "phoneús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
+      "φονεῦσι": {
+        "transliteration": "phoneûsi",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "φονεῦσιν": {
         "transliteration": "phoneûsin",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -7477,6 +7592,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a slayer, killer",
     "inflections": {
       "φονευταί": {
         "transliteration": "phoneutaí",
@@ -7507,6 +7623,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to murder, kill",
     "indices": { "strongs": "G5407" },
     "inflections": {
       "ἐφόνευσαν": {
@@ -7556,8 +7673,7 @@
       "φονευθείσης": {
         "transliteration": "phoneutheísēs",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "fem"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"] }
         ]
       },
       "φονευθῆναι": {
@@ -7582,19 +7698,11 @@
       },
       "φονεῦσαι": {
         "transliteration": "phoneûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φονεῦσαί": {
         "transliteration": "phoneûsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φονεύσαντα": {
         "transliteration": "phoneúsanta",
@@ -7670,10 +7778,24 @@
       }
     }
   },
+  "φονή": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "shortDefinition": "a slaughter, killing, bloodshed",
+    "inflections": {
+      "φονάς": {
+        "transliteration": "phonás",
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
+      }
+    }
+  },
   "φονοκτονέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to defile with murder, pollute with bloodshed",
     "inflections": {
       "ἐφονοκτονήθη": {
         "transliteration": "ephonoktonḗthē",
@@ -7682,7 +7804,6 @@
       "φονοκτονεῖ": {
         "transliteration": "phonoktoneî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -7698,6 +7819,7 @@
   "φονοκτονία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a massacre, murderous slaughter",
     "inflections": {
       "φονοκτονίαν": {
         "transliteration": "phonoktonían",
@@ -7754,6 +7876,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be murderous, bloodthirsty",
     "inflections": {
       "φονώδης": {
         "transliteration": "phonṓdēs",
@@ -7767,6 +7890,7 @@
   "φορβεά": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a halter",
     "inflections": {
       "φορβεάν": {
         "transliteration": "phorbeán",
@@ -7779,6 +7903,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a litter, sedan chair",
     "inflections": {
       "φορεῖον": {
         "transliteration": "phoreîon",
@@ -7824,6 +7949,10 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
+      "φορέσομεν": {
+        "transliteration": "phorésomen",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
+      },
       "φορέσωμεν": {
         "transliteration": "phorésōmen",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-1", "pl"] }]
@@ -7867,6 +7996,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a noble, grandee",
     "inflections": {
       "φορθομμιν": {
         "transliteration": "phorthommin",
@@ -7878,6 +8008,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to levy tribute, exact taxes",
     "inflections": {
       "φορολογεῖσθαι": {
         "transliteration": "phorologeîsthai",
@@ -7899,6 +8030,7 @@
   "φορολόγητος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be tributary, tribute-paying",
     "inflections": {
       "φορολόγητοι": {
         "transliteration": "phorológētoi",
@@ -7914,6 +8046,7 @@
   "φορολογία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a tribute levy, tribute",
     "inflections": {
       "φορολογία": {
         "transliteration": "phorología",
@@ -7940,6 +8073,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a tribute collector, tax gatherer",
     "inflections": {
       "φορολόγος": {
         "transliteration": "phorológos",
@@ -7960,6 +8094,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "Forum; lit. Marketplace",
     "indices": { "strongs": "G5410" },
     "inflections": {
       "Φόρου": {
@@ -7971,16 +8106,13 @@
   "Φορος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Parosh, Phoros; lit. Flea",
     "inflections": {
       "Φορος": {
         "transliteration": "Phoros",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -8026,6 +8158,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to load (up), lade",
     "indices": { "strongs": "G5412" },
     "inflections": {
       "ἐφόρτιζες": {
@@ -8050,6 +8183,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a freight, load; fig. a burden, obligation",
     "indices": { "strongs": "G5413" },
     "inflections": {
       "φορτία": {
@@ -8078,12 +8212,26 @@
       }
     }
   },
+  "φόρτος": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a ship’s cargo, freight",
+    "indices": { "strongs": "G5414" },
+    "inflections": {
+      "φόρτου": {
+        "transliteration": "phórtou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      }
+    }
+  },
   "Φουα": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Puah",
+    "shortDefinition": "Puah, Puvah; lit. Blast",
     "inflections": {
       "Φουα": {
         "transliteration": "Phoua",
@@ -8099,6 +8247,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Punite",
     "inflections": {
       "Φουαι": {
         "transliteration": "Phouai",
@@ -8111,6 +8260,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Paruah; lit. Blossomed",
     "inflections": {
       "Φουασουδ": {
         "transliteration": "Phouasoud",
@@ -8122,7 +8272,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Put",
+    "shortDefinition": "Put, Phut",
     "inflections": {
       "Φουδ": {
         "transliteration": "Phoud",
@@ -8135,6 +8285,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Pul",
     "inflections": {
       "Φουλ": {
         "transliteration": "Phoul",
@@ -8147,6 +8298,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Fortunatus; lit. Fortunate",
     "indices": { "strongs": "G5415" },
     "inflections": {
       "Φουρτουνάτου": {
@@ -8160,6 +8312,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Putiel; lit. Contempt of God",
     "inflections": {
       "Φουτιηλ": {
         "transliteration": "Phoutiēl",
@@ -8171,6 +8324,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Pirathon; lit. Chieftaincy",
     "inflections": {
       "Φρααθων": {
         "transliteration": "Phraathōn",
@@ -8182,6 +8336,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Pirathonite",
     "inflections": {
       "Φρααθωνίτης": {
         "transliteration": "Phraathōnítēs",
@@ -8194,6 +8349,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a whip, lash",
     "indices": { "strongs": "G5416" },
     "inflections": {
       "φραγέλλιον": {
@@ -8210,6 +8366,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to flog, lash",
     "indices": { "strongs": "G5417" },
     "inflections": {
       "φραγελλώσας": {
@@ -8225,6 +8382,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a fence, hedge; fig. a barrier, partition",
     "indices": { "strongs": "G5418" },
     "inflections": {
       "φραγμοί": {
@@ -8264,6 +8422,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to explain, declare",
     "indices": { "strongs": "G5419" },
     "inflections": {
       "φράσατέ": {
@@ -8292,6 +8451,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a villager, peasantry",
     "inflections": {
       "φραζων": {
         "transliteration": "phrazōn",
@@ -8304,13 +8464,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to fence in, block up; fig. to silence",
     "indices": { "strongs": "G5420" },
     "inflections": {
       "ἔφραξα": {
         "transliteration": "éphraxa",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
       "ἔφραξαν": {
         "transliteration": "éphraxan",
@@ -8408,6 +8567,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
+    "shortDefinition": "a well, shaft; fig. a pit (of the abyss)",
     "indices": { "strongs": "G5421" },
     "inflections": {
       "φρέαρ": {
@@ -8448,6 +8608,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to delude, mislead (in mind)",
     "indices": { "strongs": "G5422" },
     "inflections": {
       "φρεναπατᾷ": {
@@ -8461,6 +8622,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a deceiver (of minds), seducer",
     "indices": { "strongs": "G5423" },
     "inflections": {
       "φρεναπάται": {
@@ -8476,14 +8638,14 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to be emboldened, puffed up (in mind)",
     "inflections": {
       "πεφρενωμένος": {
         "transliteration": "pephrenōménos",
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -8515,6 +8677,10 @@
         "transliteration": "phrenō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       },
+      "φρεσί": {
+        "transliteration": "phresí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
       "φρεσίν": {
         "transliteration": "phresín",
         "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
@@ -8524,16 +8690,11 @@
   "φρικασμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a shivering, trembling (of fear)",
     "inflections": {
       "φρικασμός": {
         "transliteration": "phrikasmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -8542,6 +8703,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a shudder, shuddering awe/horror",
     "inflections": {
       "φρίκη": {
         "transliteration": "phríkē",
@@ -8559,6 +8721,7 @@
   "φρικτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be horrible, shocking",
     "inflections": {
       "φρικτά": {
         "transliteration": "phriktá",
@@ -8584,7 +8747,7 @@
   "φρικτῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "horribly, dreadfully",
+    "shortDefinition": "horribly, awfully",
     "inflections": {
       "φρικτῶς": {
         "transliteration": "phriktō̂s",
@@ -8596,6 +8759,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be horrid, horrifying",
     "inflections": {
       "φρικώδη": {
         "transliteration": "phrikṓdē",
@@ -8613,6 +8777,8 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "stems": { "aor": "φριξ" },
+    "shortDefinition": "to bristle, shudder (with fear)",
     "indices": { "strongs": "G5425" },
     "inflections": {
       "ἔφριξαν": {
@@ -8627,30 +8793,20 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
-      "φρίσσουσιν": {
-        "transliteration": "phríssousin",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
-  "φρίττω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "φριξ" },
-    "inflections": {
-      "ἔφριξαν": {
-        "transliteration": "éphrixan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
-        ]
-      },
       "ἔφριττον": {
         "transliteration": "éphritton",
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
+      },
+      "φρίσσουσι": {
+        "transliteration": "phríssousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
+      "φρίσσουσιν": {
+        "transliteration": "phríssousin",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φρίττει": {
         "transliteration": "phríttei",
@@ -8711,11 +8867,7 @@
       },
       "φρονῆσαι": {
         "transliteration": "phronē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φρονήσαιμεν": {
         "transliteration": "phronḗsaimen",
@@ -8769,6 +8921,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a mindset, frame of mind",
     "indices": { "strongs": "G5427" },
     "inflections": {
       "φρόνημα": {
@@ -8794,6 +8947,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an intelligence, prudence, insight",
     "indices": { "strongs": "G5428" },
     "inflections": {
       "φρονήσει": {
@@ -8830,6 +8984,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be sensible, prudent, shrewd",
     "indices": { "strongs": "G5429" },
     "inflections": {
       "φρονίμη": {
@@ -8930,6 +9085,7 @@
   "φρονίμως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "prudently, shrewdly",
     "indices": { "strongs": "G5430" },
     "inflections": {
       "φρονίμως": {
@@ -8942,6 +9098,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to take thought, be mindful (of)",
     "indices": { "strongs": "G5431" },
     "inflections": {
       "ἐφρόντιζεν": {
@@ -8992,6 +9149,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
+      "φροντίζωσι": {
+        "transliteration": "phrontízōsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
+      },
       "φροντίζωσιν": {
         "transliteration": "phrontízōsin",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
@@ -9000,8 +9161,7 @@
         "transliteration": "phrontísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "φροντίσας": {
@@ -9027,6 +9187,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a concern, thoughtful care",
     "inflections": {
       "φροντίδας": {
         "transliteration": "phrontídas",
@@ -9057,7 +9218,7 @@
   "φροντιστέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must take thought, care must be taken",
+    "shortDefinition": "to be requiring attention, needing care",
     "inflections": {
       "φροντιστέον": {
         "transliteration": "phrontistéon",
@@ -9072,6 +9233,7 @@
   "φρουρά": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a garrison, guard detachment",
     "inflections": {
       "φρουρά": {
         "transliteration": "phrourá",
@@ -9098,6 +9260,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Purim; lit. Lots",
     "inflections": {
       "Φρουραι": {
         "transliteration": "Phrourai",
@@ -9110,6 +9273,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "φρουρη" },
+    "shortDefinition": "to guard (with a garrison); fig. to keep safe, protect",
     "indices": { "strongs": "G5432" },
     "inflections": {
       "ἐφρούρει": {
@@ -9153,6 +9317,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a fort, guard post",
     "inflections": {
       "φρούριον": {
         "transliteration": "phroúrion",
@@ -9168,6 +9333,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to garrison, secure (with guards)",
     "inflections": {
       "ἐφρούρωσε": {
         "transliteration": "ephroúrōse",
@@ -9180,6 +9346,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a snorting, neighing; fig. an insolence, pride",
     "inflections": {
       "φρύαγμα": {
         "transliteration": "phrýagma",
@@ -9199,12 +9366,17 @@
       }
     }
   },
-  "φρυάζω": {
+  "φρυάσσομαι": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to be haughty, snort with insolence",
+    "conjugation": "deponent",
+    "shortDefinition": "to rage",
+    "indices": { "strongs": "G5433" },
     "inflections": {
+      "ἐφρύαξαν": {
+        "transliteration": "ephrýaxan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
       "πεφρυαγμένου": {
         "transliteration": "pephryagménou",
         "cells": [
@@ -9220,24 +9392,12 @@
       }
     }
   },
-  "φρυάσσομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "shortDefinition": "to rage",
-    "indices": { "strongs": "G5433" },
-    "inflections": {
-      "ἐφρύαξαν": {
-        "transliteration": "ephrýaxan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "φρύγανον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a brushwood, dry stick",
     "indices": { "strongs": "G5434" },
     "inflections": {
       "φρύγανα": {
@@ -9266,6 +9426,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Phrygia",
     "indices": { "strongs": "G5435" },
     "inflections": {
       "Φρυγίαν": {
@@ -9279,6 +9440,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a (dry) firewood, kindling",
     "inflections": {
       "φρύγιον": {
         "transliteration": "phrýgion",
@@ -9294,6 +9456,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to parch, roast",
     "inflections": {
       "πεφρυγμένα": {
         "transliteration": "pephrygména",
@@ -9314,11 +9477,11 @@
   "Φρύξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Phrygian",
     "inflections": {
       "Φρύγα": {
         "transliteration": "Phrýga",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -9327,6 +9490,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a place of refuge, refuge city",
     "inflections": {
       "φυγαδευτήρια": {
         "transliteration": "phygadeutḗria",
@@ -9362,6 +9526,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to exile, banish; fig. to flee (into exile)",
     "inflections": {
       "ἐφυγάδευσεν": {
         "transliteration": "ephygádeusen",
@@ -9408,6 +9573,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an asylum, refuge",
     "inflections": {
       "φυγάδια": {
         "transliteration": "phygádia",
@@ -9431,6 +9597,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a fugitive, exile",
     "inflections": {
       "φυγάδα": {
         "transliteration": "phygáda",
@@ -9462,8 +9629,13 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Phygelus; lit. Fugitive",
     "indices": { "strongs": "G5436" },
     "inflections": {
+      "Φύγελλος": {
+        "transliteration": "Phýgellos",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
       "Φύγελος": {
         "transliteration": "Phýgelos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
@@ -9475,6 +9647,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a flight, escape; fig. an exile",
     "indices": { "strongs": "G5437" },
     "inflections": {
       "φυγάς": {
@@ -9496,10 +9669,6 @@
       "φυγῆς": {
         "transliteration": "phygē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "φύγῃς": {
-        "transliteration": "phýgēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -9508,6 +9677,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a natural growth, stature; fig. a stump (of roots)",
     "inflections": {
       "φυή": {
         "transliteration": "phyḗ",
@@ -9527,6 +9697,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a rouge, orchil dye",
     "inflections": {
       "φύκει": {
         "transliteration": "phýkei",
@@ -9539,6 +9710,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an observance, charge, injunction",
     "inflections": {
       "φυλάγματα": {
         "transliteration": "phylágmata",
@@ -9563,6 +9735,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a watch, guard; fig. a prison, watch of the night",
     "indices": { "strongs": "G5438" },
     "inflections": {
       "φυλακαῖς": {
@@ -9591,21 +9764,11 @@
       }
     }
   },
-  "φυλακίζομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "φυλακισθῆναι": {
-        "transliteration": "phylakisthē̂nai",
-        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
-      }
-    }
-  },
   "φυλακίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to imprison",
     "indices": { "strongs": "G5439" },
     "inflections": {
       "φυλακίζων": {
@@ -9613,12 +9776,17 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "φυλακισθῆναι": {
+        "transliteration": "phylakisthē̂nai",
+        "cells": [{ "parse": ["verb", "aor", "pas", "inf"] }]
       }
     }
   },
   "φυλάκισσα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a (female) keeper, guard",
     "inflections": {
       "φυλάκισσαν": {
         "transliteration": "phylákissan",
@@ -9631,6 +9799,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a phylactery; lit. a safeguard, amulet",
     "indices": { "strongs": "G5440" },
     "inflections": {
       "φυλακτήρια": {
@@ -9647,6 +9816,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a guard, keeper, sentry",
     "indices": { "strongs": "G5441" },
     "inflections": {
       "φύλακα": {
@@ -9677,7 +9847,7 @@
       },
       "φύλαξ": {
         "transliteration": "phýlax",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -9686,6 +9856,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a tribal chief, phylarch",
     "inflections": {
       "φυλάρχην": {
         "transliteration": "phylárchēn",
@@ -9698,6 +9869,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a tribal chief, phylarch",
     "inflections": {
       "φυλάρχοις": {
         "transliteration": "phylárchois",
@@ -9770,6 +9942,10 @@
         "cells": [
           { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
         ]
+      },
+      "ἐφύλαξε": {
+        "transliteration": "ephýlaxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐφύλαξεν": {
         "transliteration": "ephýlaxen",
@@ -9851,10 +10027,7 @@
       },
       "φύλαξαι": {
         "transliteration": "phýlaxai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "φυλάξαντες": {
         "transliteration": "phyláxantes",
@@ -10237,6 +10410,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a tribe, clan; fig. a nation, people",
     "indices": { "strongs": "G5443" },
     "inflections": {
       "φυλαί": {
@@ -10297,6 +10471,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a leaf (of a plant), foliage",
     "indices": { "strongs": "G5444" },
     "inflections": {
       "φύλλα": {
@@ -10326,6 +10501,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a race, stock",
     "inflections": {
       "φῦλον": {
         "transliteration": "phŷlon",
@@ -10342,6 +10518,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a kneaded lump, batch (of dough/clay)",
     "indices": { "strongs": "G5445" },
     "inflections": {
       "φύραμα": {
@@ -10375,6 +10552,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a kneading, mixing",
     "inflections": {
       "φυράσεως": {
         "transliteration": "phyráseōs",
@@ -10386,6 +10564,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to knead, mix up",
     "inflections": {
       "ἐφύρασεν": {
         "transliteration": "ephýrasen",
@@ -10435,7 +10614,7 @@
   "φύρδην": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "confusedly, pell-mell",
+    "shortDefinition": "in a jumble, pell-mell",
     "inflections": {
       "φύρδην": {
         "transliteration": "phýrdēn",
@@ -10446,27 +10625,23 @@
   "φυρμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a befouling, confusion, disorder",
     "inflections": {
       "φυρμόν": {
         "transliteration": "phyrmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "φυρμῷ": {
         "transliteration": "phyrmō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
-  "φύρομαι": {
+  "φύρω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "shortDefinition": "to steep, drench, befoul (in)",
     "inflections": {
       "πέφυρμαι": {
         "transliteration": "péphyrmai",
@@ -10523,6 +10698,14 @@
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
+      "πεφυρμένος": {
+        "transliteration": "pephyrménos",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "φύρεται": {
         "transliteration": "phýretai",
         "cells": [
@@ -10541,25 +10724,11 @@
       }
     }
   },
-  "φύρω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "πεφυρμένος": {
-        "transliteration": "pephyrménos",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "φυσάω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to blow (on), fan (a fire)",
     "inflections": {
       "φυσήσῃς": {
         "transliteration": "physḗsēs",
@@ -10586,6 +10755,7 @@
   "φυσητήρ": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a bellows",
     "inflections": {
       "φυσητήρ": {
         "transliteration": "physētḗr",
@@ -10598,6 +10768,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be natural, instinctive",
     "indices": { "strongs": "G5446" },
     "inflections": {
       "φυσικά": {
@@ -10617,6 +10788,7 @@
   "φυσικῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "naturally, instinctively",
     "indices": { "strongs": "G5447" },
     "inflections": {
       "φυσικῶς": {
@@ -10629,6 +10801,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to puff up, inflate; fig. to make proud",
     "indices": { "strongs": "G5448" },
     "inflections": {
       "ἐφυσιώθησάν": {
@@ -10673,6 +10846,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a nature, natural order; fig. a birth, species",
     "indices": { "strongs": "G5449" },
     "inflections": {
       "φύσει": {
@@ -10706,6 +10880,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a puffing up, conceit",
     "indices": { "strongs": "G5450" },
     "inflections": {
       "φυσιώσεις": {
@@ -10722,6 +10897,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a plantation, planting; fig. a plant",
     "indices": { "strongs": "G5451" },
     "inflections": {
       "φυτεία": {
@@ -10746,6 +10922,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a planted thing, plant",
     "inflections": {
       "φύτευμα": {
         "transliteration": "phýteuma",
@@ -10762,6 +10939,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εφυτευ" },
+    "shortDefinition": "to plant; fig. to establish, implant",
     "indices": { "strongs": "G5452" },
     "inflections": {
       "ἐφύτευον": {
@@ -10829,7 +11007,6 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "neut"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "acc", "sg", "masc"] },
@@ -10862,11 +11039,7 @@
       },
       "φυτεῦσαι": {
         "transliteration": "phyteûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "φυτεύσας": {
         "transliteration": "phyteúsas",
@@ -10922,6 +11095,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a plant, bush; fig. a shoot, tree",
     "inflections": {
       "φυτά": {
         "transliteration": "phytá",
@@ -10953,6 +11127,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to spring up, grow, germinate",
     "indices": { "strongs": "G5453" },
     "inflections": {
       "ἐφύοντο": {
@@ -11097,6 +11272,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a den, lair, hole",
     "indices": { "strongs": "G5454" },
     "inflections": {
       "φωλεούς": {
@@ -11212,10 +11388,13 @@
         "transliteration": "phōnoúntōn",
         "cells": [
           { "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "neut"] }
         ]
+      },
+      "φωνοῦσι": {
+        "transliteration": "phōnoûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "φωνοῦσιν": {
         "transliteration": "phōnoûsin",
@@ -11272,6 +11451,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to detect, catch (in the act)",
     "inflections": {
       "φωραθῇ": {
         "transliteration": "phōrathē̂",
@@ -11325,6 +11505,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a luminary, light-bearer; fig. a radiance",
     "indices": { "strongs": "G5458" },
     "inflections": {
       "φωστήρ": {
@@ -11351,6 +11532,7 @@
   "φωσφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be light-bringing; fig. to be the morning star",
     "indices": { "strongs": "G5459" },
     "inflections": {
       "φωσφόρος": {
@@ -11363,6 +11545,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to guide with light, light the way for",
     "inflections": {
       "φωταγωγήσασα": {
         "transliteration": "phōtagōgḗsasa",
@@ -11378,6 +11561,7 @@
     "pos": "adj",
     "citationForms": ["φωτεινή", "φωτεινόν"],
     "declension": "2-1-2",
+    "shortDefinition": "to be full of light, luminous",
     "indices": { "strongs": "G5460" },
     "inflections": {
       "φωτεινή": {
@@ -11548,10 +11732,7 @@
       },
       "φωτίσθητε": {
         "transliteration": "phōtísthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "φώτισον": {
         "transliteration": "phṓtison",
@@ -11584,6 +11765,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "an illumination, enlightening",
     "indices": { "strongs": "G5462" },
     "inflections": {
       "φωτισμόν": {

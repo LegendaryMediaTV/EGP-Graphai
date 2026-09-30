@@ -5572,7 +5572,7 @@
         "transliteration": "Opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " δὲ",
@@ -6381,14 +6381,10 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " ζητουσι",
+              "text": " ζητουσι(ν) σε",
               "script": "G",
-              "transliteration": " zētousi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "σε", "script": "G", "transliteration": "se" }
+              "transliteration": " zētousi(n) se"
+            }
           ]
         }
       },
@@ -7045,7 +7041,7 @@
         "transliteration": "splanchnistheís,",
         "strong": "G4697",
         "morph": "V-AOP-NSM",
-        "lemma": "σπλαγχνίζομαι"
+        "lemma": "σπλαγχνίζω"
       },
       {
         "text": " ἐκτείνας",
@@ -7097,7 +7093,7 @@
         "transliteration": "hḗpsato",
         "strong": "G680",
         "morph": "V-ADI-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " αὐτοῦ,",
@@ -7643,7 +7639,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " κηρύσσειν",
@@ -10408,7 +10404,7 @@
         "transliteration": "Leuï̀",
         "strong": "G3018",
         "morph": "N-PRI",
-        "lemma": "Λευΐς"
+        "lemma": "Λευΐ"
       },
       {
         "text": " τὸν",
@@ -13115,7 +13111,7 @@
         "transliteration": "ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " οἱ",
@@ -13234,7 +13230,7 @@
         "transliteration": " Íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " τί",
@@ -14619,7 +14615,7 @@
         "transliteration": " periblepsámenos",
         "strong": "G4017",
         "morph": "V-AMP-NSM",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       {
         "text": " αὐτοὺς",
@@ -14673,7 +14669,7 @@
         "transliteration": "syllypoúmenos",
         "strong": "G4818",
         "morph": "V-PNP-NSM",
-        "lemma": "συλλυπέομαι"
+        "lemma": "συλλυπέω"
       },
       {
         "text": " ἐπὶ",
@@ -15805,7 +15801,7 @@
         "transliteration": " hápsōntai,",
         "strong": "G680",
         "morph": "V-AMS-3P",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " ὅσοι",
@@ -16199,7 +16195,7 @@
         "transliteration": " proskaleîtai",
         "strong": "G4341",
         "morph": "V-PNI-3S",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " οὓς",
@@ -17625,7 +17621,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " αὐτούς,",
@@ -19549,7 +19545,7 @@
         "transliteration": " periblepsámenos",
         "strong": "G4017",
         "morph": "V-AMP-NSM",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       " ",
       {
@@ -19637,7 +19633,7 @@
         "transliteration": "Íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " ἡ",
@@ -19910,7 +19906,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " διδάσκειν",
@@ -23755,54 +23751,42 @@
         "morph": "CONJ",
         "lemma": "γάρ"
       },
-      {
-        "text": " ἐστίν",
-        "script": "G",
-        "transliteration": " estín",
-        "strong": "G2076",
-        "morph": "V-PAI-3S",
-        "lemma": "εἰμί"
-      },
       " ",
       {
         "foot": {
           "type": "var",
           "content": [
             {
-              "text": "τι κρυπτὸν ὃ ἐὰν μὴ",
+              "text": "ἐστίν τι",
               "script": "G",
-              "transliteration": "ti kryptòn hò eàn mḕ"
-            },
-            " ¦ ",
-            { "abbr": "PCK" },
-            " ",
-            { "abbr": "PT" },
-            {
-              "text": " κρυπτὸν ὃ ἐὰν μὴ",
-              "script": "G",
-              "transliteration": " kryptòn hò eàn mḕ"
-            },
-            " ¦ ",
-            { "abbr": "CT-SPLIT" },
-            {
-              "text": " κρυπτὸν ἐὰν μὴ ἵνα",
-              "script": "G",
-              "transliteration": " kryptòn eàn mḕ hína"
+              "transliteration": "estín ti"
             },
             " ¦ ",
             { "abbr": "ECM-SPLIT" },
-            {
-              "text": " τι κρυπτὸν εἰ μὴ ἵνα",
-              "script": "G",
-              "transliteration": " ti kryptòn ei mḕ hína"
-            }
+            " ",
+            { "abbr": "TXT" },
+            " ¦ ",
+            { "abbr": "CT-SPLIT" },
+            " ",
+            { "abbr": "PCK" },
+            " ",
+            { "abbr": "PT" },
+            { "text": " ἐστι(ν)", "script": "G", "transliteration": " esti(n)" }
           ]
         }
       },
       {
-        "text": "τι",
+        "text": "ἐστίν",
         "script": "G",
-        "transliteration": "ti",
+        "transliteration": "estín",
+        "strong": "G2076",
+        "morph": "V-PAI-3S",
+        "lemma": "εἰμί"
+      },
+      {
+        "text": " τι",
+        "script": "G",
+        "transliteration": " ti",
         "strong": "G5100",
         "morph": "X-NSN",
         "lemma": "τις"
@@ -23815,10 +23799,37 @@
         "morph": "A-NSN",
         "lemma": "κρυπτός"
       },
+      " ",
       {
-        "text": " ὃ",
+        "foot": {
+          "type": "var",
+          "content": [
+            {
+              "text": "ὃ ἐὰν μὴ",
+              "script": "G",
+              "transliteration": "hò eàn mḕ"
+            },
+            " ¦ ",
+            { "abbr": "CT-SPLIT" },
+            {
+              "text": " ἐὰν μὴ ἵνα",
+              "script": "G",
+              "transliteration": " eàn mḕ hína"
+            },
+            " ¦ ",
+            { "abbr": "ECM-SPLIT" },
+            {
+              "text": " εἰ μὴ ἵνα",
+              "script": "G",
+              "transliteration": " ei mḕ hína"
+            }
+          ]
+        }
+      },
+      {
+        "text": "ὃ",
         "script": "G",
-        "transliteration": " hò",
+        "transliteration": "hò",
         "strong": "G3739",
         "morph": "R-NSN",
         "lemma": "ὅς"
@@ -25957,7 +25968,7 @@
         "transliteration": " opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " γενομένης,",
@@ -26931,7 +26942,7 @@
         "transliteration": " ephobḗthēsan",
         "strong": "G5399",
         "morph": "V-AOI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " φόβον",
@@ -27946,17 +27957,9 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " μνημασι",
+              "text": " μνημασι(ν) καὶ ἐν τοῖς ὄρεσιν",
               "script": "G",
-              "transliteration": " mnēmasi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "καὶ ἐν τοῖς ὄρεσιν",
-              "script": "G",
-              "transliteration": "kaì en toîs óresin"
+              "transliteration": " mnēmasi(n) kaì en toîs óresin"
             }
           ]
         }
@@ -29817,7 +29820,7 @@
         "transliteration": " ephobḗthēsan.",
         "strong": "G5399",
         "morph": "V-AOI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       }
     ]
   },
@@ -29974,7 +29977,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " παρακαλεῖν",
@@ -30471,7 +30474,11 @@
             },
             " ¦ ",
             { "abbr": "TR" },
-            { "text": " ἐποίησε", "script": "G", "transliteration": " epoíēse" }
+            {
+              "text": " ἐποίησε(ν)",
+              "script": "G",
+              "transliteration": " epoíēse(n)"
+            }
           ]
         }
       },
@@ -30544,7 +30551,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " κηρύσσειν",
@@ -31757,7 +31764,7 @@
         "transliteration": " hḗpsato",
         "strong": "G680",
         "morph": "V-ADI-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " τοῦ",
@@ -31890,7 +31897,7 @@
         "transliteration": " hápsōmai,",
         "strong": "G680",
         "morph": "V-AMS-1S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " σωθήσομαι.",
@@ -32232,7 +32239,7 @@
         "transliteration": " hḗpsato",
         "strong": "G680",
         "morph": "V-ADI-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " τῶν",
@@ -32383,7 +32390,7 @@
         "transliteration": " hḗpsato?",
         "strong": "G680",
         "morph": "V-ADI-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       }
     ]
   },
@@ -32406,7 +32413,7 @@
         "transliteration": " perieblépeto",
         "strong": "G4017",
         "morph": "V-IMI-3S",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       {
         "text": " ἰδεῖν",
@@ -32477,7 +32484,7 @@
         "transliteration": " phobētheîsa",
         "strong": "G5399",
         "morph": "V-AOP-NSF",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " καὶ",
@@ -33098,7 +33105,7 @@
         "transliteration": " phoboû;",
         "strong": "G5399",
         "morph": "V-PNM-2S",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " μόνον",
@@ -33106,7 +33113,7 @@
         "transliteration": " mónon",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " πίστευε.",
@@ -34244,7 +34251,7 @@
         "transliteration": " diesteílato",
         "strong": "G1291",
         "morph": "V-AMI-3S",
-        "lemma": "διαστέλλομαι"
+        "lemma": "διαστέλλω"
       },
       {
         "text": " αὐτοῖς",
@@ -34539,7 +34546,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       " ",
       {
@@ -35725,7 +35732,7 @@
         "transliteration": " proskaleîtai",
         "strong": "G4341",
         "morph": "V-PNI-3S",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " τοὺς",
@@ -35757,7 +35764,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " αὐτοὺς",
@@ -35956,7 +35963,7 @@
         "transliteration": " mónon;",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " μὴ",
@@ -36260,7 +36267,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἂν",
@@ -38013,7 +38020,7 @@
         "transliteration": " ephobeîto",
         "strong": "G5399",
         "morph": "V-INI-3S",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " τὸν",
@@ -38851,7 +38858,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἡμίσους",
@@ -40017,26 +40024,10 @@
         "morph": "PREP",
         "lemma": "ἐν"
       },
-      " ",
       {
-        "foot": {
-          "type": "var",
-          "content": [
-            { "text": "μνημείῳ", "script": "G", "transliteration": "mnēmeíō" },
-            " ¦ ",
-            { "abbr": "ST" },
-            {
-              "text": " τῷ μνημείῳ",
-              "script": "G",
-              "transliteration": " tō̂ mnēmeíō"
-            }
-          ]
-        }
-      },
-      {
-        "text": "μνημείῳ.",
+        "text": " μνημείῳ.",
         "script": "G",
-        "transliteration": "mnēmeíō.",
+        "transliteration": " mnēmeíō.",
         "strong": "G3419",
         "morph": "N-DSN",
         "lemma": "μνημεῖον"
@@ -40725,7 +40716,7 @@
         "transliteration": " pezē̂",
         "strong": "G3979",
         "morph": "ADV",
-        "lemma": "πεζῇ"
+        "lemma": "πεζός"
       },
       {
         "text": " ἀπὸ",
@@ -40948,7 +40939,7 @@
         "transliteration": " esplanchnísthē",
         "strong": "G4697",
         "morph": "V-AOI-3S",
-        "lemma": "σπλαγχνίζομαι"
+        "lemma": "σπλαγχνίζω"
       },
       {
         "text": " ἐπ’",
@@ -41052,7 +41043,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " διδάσκειν",
@@ -42855,7 +42846,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " αὐτὸς",
@@ -42929,7 +42920,7 @@
         "transliteration": " apotaxámenos",
         "strong": "G657",
         "morph": "V-AMP-NSM",
-        "lemma": "ἀποτάσσομαι"
+        "lemma": "ἀποτάσσω"
       },
       {
         "text": " αὐτοῖς,",
@@ -43000,7 +42991,7 @@
         "transliteration": " opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " γενομένης,",
@@ -43728,7 +43719,7 @@
         "transliteration": " phobeîsthe.",
         "strong": "G5399",
         "morph": "V-PNM-2P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       }
     ]
   },
@@ -44393,7 +44384,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἐπὶ",
@@ -44785,7 +44776,7 @@
         "transliteration": " hápsōntai;",
         "strong": "G680",
         "morph": "V-AMS-3P",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " καὶ",
@@ -44829,7 +44820,7 @@
         "transliteration": "hḗptonto",
         "strong": "G680",
         "morph": "V-INI-3P",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " αὐτοῦ",
@@ -47194,7 +47185,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       " ",
       {
@@ -49511,11 +49502,11 @@
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
-            { "text": " εστι", "script": "G", "transliteration": " esti" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "καλὸν", "script": "G", "transliteration": "kalòn" }
+            {
+              "text": " εστι(ν) καλὸν",
+              "script": "G",
+              "transliteration": " esti(n) kalòn"
+            }
           ]
         }
       },
@@ -50474,7 +50465,7 @@
         "transliteration": "mongilálon,",
         "strong": "G3424",
         "morph": "A-ASM",
-        "lemma": "μογγιλάλος"
+        "lemma": "μογίλαλος"
       },
       {
         "text": " καὶ",
@@ -50697,7 +50688,7 @@
         "transliteration": " hḗpsato",
         "strong": "G680",
         "morph": "V-ADI-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " τῆς",
@@ -51031,7 +51022,7 @@
         "transliteration": " diesteílato",
         "strong": "G1291",
         "morph": "V-AMI-3S",
-        "lemma": "διαστέλλομαι"
+        "lemma": "διαστέλλω"
       },
       {
         "text": " αὐτοῖς",
@@ -51135,7 +51126,7 @@
         "transliteration": " diestélleto,",
         "strong": "G1291",
         "morph": "V-IMI-3S",
-        "lemma": "διαστέλλομαι"
+        "lemma": "διαστέλλω"
       },
       {
         "text": " μᾶλλον",
@@ -51449,7 +51440,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       " ",
       {
@@ -51554,7 +51545,7 @@
         "transliteration": "Splanchnízomai",
         "strong": "G4697",
         "morph": "V-PNI-1S",
-        "lemma": "σπλαγχνίζομαι"
+        "lemma": "σπλαγχνίζω"
       },
       {
         "text": " ἐπὶ",
@@ -51891,10 +51882,12 @@
             { "abbr": "TH" },
             " ",
             { "abbr": "TR" },
-            { "text": " ηκασι", "script": "G", "transliteration": " ēkasi" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            {
+              "text": " ηκασι(ν)",
+              "script": "G",
+              "transliteration": " ēkasi(n)"
+            },
+            " ¦ ",
             { "abbr": "WH" },
             { "text": " εἰσιν", "script": "G", "transliteration": " eisin" }
           ]
@@ -52388,13 +52381,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " παρατιθωσι",
+              "text": " παρατιθωσι(ν)",
               "script": "G",
-              "transliteration": " paratithōsi"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+              "transliteration": " paratithōsi(n)"
+            }
           ]
         }
       },
@@ -53052,7 +53042,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       " ",
       {
@@ -53696,7 +53686,7 @@
         "transliteration": " diestélleto",
         "strong": "G1291",
         "morph": "V-IMI-3S",
-        "lemma": "διαστέλλομαι"
+        "lemma": "διαστέλλω"
       },
       {
         "text": " αὐτοῖς,",
@@ -54908,7 +54898,7 @@
         "transliteration": " hápsētai.",
         "strong": "G680",
         "morph": "V-AMS-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       }
     ]
   },
@@ -55480,13 +55470,11 @@
             " ",
             { "abbr": "RP-MG" },
             {
-              "text": " ανεβλεψε",
+              "text": " ανεβλεψε(ν)",
               "script": "G",
-              "transliteration": " aneblepse"
+              "transliteration": " aneblepse(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "CT" },
             {
               "text": " ἐνέβλεπεν",
@@ -56491,7 +56479,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " διδάσκειν",
@@ -56868,7 +56856,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἐπιτιμᾷν",
@@ -57142,7 +57130,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " τὸν",
@@ -58425,7 +58413,7 @@
         "transliteration": " geúsōntai",
         "strong": "G1089",
         "morph": "V-ADS-3P",
-        "lemma": "γεύομαι"
+        "lemma": "γεύω"
       },
       {
         "text": " θανάτου,",
@@ -58441,7 +58429,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἂν",
@@ -58999,13 +58987,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " δύναται ουτω",
+              "text": " δύναται ουτω(ς)",
               "script": "G",
-              "transliteration": " dýnatai outō"
-            },
-            "(",
-            { "text": "ς", "script": "G", "transliteration": "s" },
-            ")"
+              "transliteration": " dýnatai outō(s)"
+            }
           ]
         }
       },
@@ -59835,7 +59820,7 @@
         "transliteration": " periblepsámenoi,",
         "strong": "G4017",
         "morph": "V-AMP-NPM",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       {
         "text": " οὐκέτι",
@@ -59911,7 +59896,7 @@
         "transliteration": " mónon",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " μεθ’",
@@ -60032,7 +60017,7 @@
         "transliteration": " diesteílato",
         "strong": "G1291",
         "morph": "V-AMI-3S",
-        "lemma": "διαστέλλομαι"
+        "lemma": "διαστέλλω"
       },
       {
         "text": " αὐτοῖς",
@@ -61179,7 +61164,7 @@
         "transliteration": " exethambḗthē,",
         "strong": "G1568",
         "morph": "V-API-3S",
-        "lemma": "ἐκθαμβέομαι"
+        "lemma": "ἐκθαμβέω"
       },
       {
         "text": " καὶ",
@@ -61853,7 +61838,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " πότε",
@@ -61893,7 +61878,7 @@
         "transliteration": " Héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " πότε",
@@ -61909,7 +61894,7 @@
         "transliteration": " anéxomai",
         "strong": "G430",
         "morph": "V-FDI-1S",
-        "lemma": "ἀνέχομαι"
+        "lemma": "ἀνέχω"
       },
       {
         "text": " ὑμῶν;",
@@ -62166,7 +62151,7 @@
         "transliteration": " ekylíeto",
         "strong": "G2947",
         "morph": "V-IEI-3S",
-        "lemma": "κυλίομαι"
+        "lemma": "κυλίω"
       },
       {
         "text": " ἀφρίζων.",
@@ -62571,7 +62556,7 @@
         "transliteration": " splanchnistheìs",
         "strong": "G4697",
         "morph": "V-AOP-NSM",
-        "lemma": "σπλαγχνίζομαι"
+        "lemma": "σπλαγχνίζω"
       },
       {
         "text": " ἐφ’",
@@ -64433,7 +64418,7 @@
         "transliteration": " ephoboûnto",
         "strong": "G5399",
         "morph": "V-INI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " αὐτὸν",
@@ -65810,7 +65795,7 @@
         "transliteration": " tachỳ",
         "strong": "G5035",
         "morph": "ADV",
-        "lemma": "ταχύ"
+        "lemma": "ταχύς"
       },
       {
         "text": " κακολογῆσαί",
@@ -68302,7 +68287,7 @@
         "transliteration": " eiṓthei,",
         "strong": "G1486",
         "morph": "V-LAI-3S",
-        "lemma": "εἴωθα"
+        "lemma": "ἔθω"
       },
       {
         "text": " πάλιν",
@@ -68634,14 +68619,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " επετρεψε",
+              "text": " επετρεψε(ν) Μωϋσῆς",
               "script": "G",
-              "transliteration": " epetrepse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "Μωϋσῆς", "script": "G", "transliteration": "Mōÿsē̂s" }
+              "transliteration": " epetrepse(n) Mōÿsē̂s"
+            }
           ]
         }
       },
@@ -69618,7 +69599,7 @@
         "transliteration": " moichâtai",
         "strong": "G3429",
         "morph": "V-PNI-3S",
-        "lemma": "μοιχάομαι"
+        "lemma": "μοιχάω"
       },
       {
         "text": " ἐπ’",
@@ -69756,7 +69737,7 @@
         "transliteration": " moichâtai.",
         "strong": "G3429",
         "morph": "V-PNI-3S",
-        "lemma": "μοιχάομαι"
+        "lemma": "μοιχάω"
       }
     ]
   },
@@ -69834,7 +69815,7 @@
         "transliteration": "hápsētai",
         "strong": "G680",
         "morph": "V-AMS-3S",
-        "lemma": "ἅπτομαι"
+        "lemma": "ἅπτω"
       },
       {
         "text": " αὐτῶν·",
@@ -71528,7 +71509,7 @@
         "transliteration": " periblepsámenos",
         "strong": "G4017",
         "morph": "V-AMP-NSM",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       {
         "text": " ὁ",
@@ -72532,7 +72513,7 @@
         "transliteration": "Ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       " ",
       {
@@ -73546,7 +73527,7 @@
         "transliteration": " ephoboûnto.",
         "strong": "G5399",
         "morph": "V-INI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " Καὶ",
@@ -73594,7 +73575,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " αὐτοῖς",
@@ -75227,7 +75208,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἀγανακτεῖν",
@@ -75337,7 +75318,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " αὐτοὺς",
@@ -76334,7 +76315,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " κράζειν",
@@ -79289,7 +79270,7 @@
         "transliteration": " periblepsámenos",
         "strong": "G4017",
         "morph": "V-AMP-NSM",
-        "lemma": "περιβλέπομαι"
+        "lemma": "περιβλέπω"
       },
       {
         "text": " πάντα,",
@@ -79319,7 +79300,7 @@
         "transliteration": "opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " ἤδη",
@@ -80121,7 +80102,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἐκβάλλειν",
@@ -80793,7 +80774,7 @@
         "transliteration": " ephoboûnto",
         "strong": "G5399",
         "morph": "V-INI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " γὰρ",
@@ -81194,7 +81175,7 @@
         "transliteration": " íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " ἡ",
@@ -82695,17 +82676,9 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " Ἤ τίς σοι εδωκε",
+              "text": " Ἤ τίς σοι εδωκε(ν) τὴν ἐξουσίαν ταύτην",
               "script": "G",
-              "transliteration": " Ḗ tís soi edōke"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            {
-              "text": "τὴν ἐξουσίαν ταύτην",
-              "script": "G",
-              "transliteration": "tḕn exousían taútēn"
+              "transliteration": " Ḗ tís soi edōke(n) tḕn exousían taútēn"
             }
           ]
         }
@@ -82966,7 +82939,7 @@
         "transliteration": " erō̂",
         "strong": "G2046",
         "morph": "V-FAI-1S",
-        "lemma": "ἐρῶ"
+        "lemma": "λέγω"
       },
       {
         "text": " ὑμῖν",
@@ -83278,7 +83251,7 @@
         "transliteration": " ereî,",
         "strong": "G2046",
         "morph": "V-FAI-3S",
-        "lemma": "ἐρῶ"
+        "lemma": "λέγω"
       },
       {
         "text": " Διὰ",
@@ -83413,7 +83386,7 @@
         "transliteration": " ephoboûnto",
         "strong": "G5399",
         "morph": "V-INI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " τὸν",
@@ -83798,7 +83771,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " αὐτοῖς",
@@ -85626,7 +85599,7 @@
         "transliteration": " ephobḗthēsan",
         "strong": "G5399",
         "morph": "V-AOI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " τὸν",
@@ -87749,9 +87722,9 @@
             " ",
             { "abbr": "TR" },
             {
-              "text": " οὖν ἀναστάσει ὅταν ἀναστῶσί",
+              "text": " οὖν ἀναστάσει ὅταν ἀναστῶσί(ν)",
               "script": "G",
-              "transliteration": " oûn anastásei hótan anastō̂sí"
+              "transliteration": " oûn anastásei hótan anastō̂sí(n)"
             },
             " ¦ ",
             { "abbr": "TH" },
@@ -89819,9 +89792,9 @@
             " ¦ ",
             { "abbr": "TR" },
             {
-              "text": " ἔστι θεός",
+              "text": " ἔστι(ν) θεός",
               "script": "G",
-              "transliteration": " ésti theós"
+              "transliteration": " ésti(n) theós"
             }
           ]
         }
@@ -90369,7 +90342,7 @@
         "transliteration": " makràn",
         "strong": "G3112",
         "morph": "ADV",
-        "lemma": "μακράν"
+        "lemma": "μακρός"
       },
       " ",
       {
@@ -90651,13 +90624,11 @@
             " ",
             { "abbr": "SBL" },
             {
-              "text": " Δαυίδ εστι",
+              "text": " Δαυίδ εστι(ν)",
               "script": "G",
-              "transliteration": " Dauíd esti"
+              "transliteration": " Dauíd esti(n)"
             },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ¦ ",
+            " ¦ ",
             { "abbr": "TH" },
             " ",
             { "abbr": "WH" },
@@ -90905,7 +90876,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἂν",
@@ -91928,7 +91899,7 @@
         "transliteration": " leptà",
         "strong": "G3016",
         "morph": "N-APN",
-        "lemma": "λεπτόν"
+        "lemma": "λεπτός"
       },
       {
         "text": " δύο,",
@@ -91983,7 +91954,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " τοὺς",
@@ -92161,10 +92132,11 @@
             { "abbr": "CT" },
             " ",
             { "abbr": "PT" },
-            { "text": " εβαλε", "script": "G", "transliteration": " ebale" },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ")"
+            {
+              "text": " εβαλε(ν)",
+              "script": "G",
+              "transliteration": " ebale(n)"
+            }
           ]
         }
       },
@@ -92531,7 +92503,7 @@
         "transliteration": " íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " ποταποὶ",
@@ -93251,7 +93223,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " λέγειν,",
@@ -95074,7 +95046,7 @@
         "transliteration": " rhēthèn",
         "strong": "G4483",
         "morph": "V-APP-ASN",
-        "lemma": "ἐρῶ"
+        "lemma": "λέγω"
       },
       {
         "text": " ὑπὸ",
@@ -95981,7 +95953,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " τοῦ",
@@ -96083,14 +96055,10 @@
             " ",
             { "abbr": "WH" },
             {
-              "text": " εκολοβωσε",
+              "text": " εκολοβωσε(ν) κύριος",
               "script": "G",
-              "transliteration": " ekolobōse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "κύριος", "script": "G", "transliteration": "kýrios" }
+              "transliteration": " ekolobōse(n) kýrios"
+            }
           ]
         }
       },
@@ -96212,7 +96180,7 @@
         "transliteration": " exeléxato,",
         "strong": "G1586",
         "morph": "V-AMI-3S",
-        "lemma": "ἐκλέγομαι"
+        "lemma": "ἐκλέγω"
       },
       {
         "text": " ἐκολόβωσεν",
@@ -97363,7 +97331,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἄκρου",
@@ -100912,7 +100880,7 @@
         "transliteration": " epēngeílanto",
         "strong": "G1861",
         "morph": "V-ANI-3P",
-        "lemma": "ἐπαγγέλλομαι"
+        "lemma": "ἐπαγγέλλω"
       },
       {
         "text": " αὐτῷ",
@@ -101977,7 +101945,7 @@
         "transliteration": " opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " γενομένης",
@@ -102255,7 +102223,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " λυπεῖσθαι,",
@@ -103511,7 +103479,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " τῆς",
@@ -104794,7 +104762,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       " ",
       {
@@ -104995,7 +104963,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἐκθαμβεῖσθαι",
@@ -105003,7 +104971,7 @@
         "transliteration": " ekthambeîsthai",
         "strong": "G1568",
         "morph": "V-PPN",
-        "lemma": "ἐκθαμβέομαι"
+        "lemma": "ἐκθαμβέω"
       },
       {
         "text": " καὶ",
@@ -105110,7 +105078,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " θανάτου·",
@@ -108469,7 +108437,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ἔσω",
@@ -110125,7 +110093,7 @@
         "transliteration": " ḗrxantó",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " τινες",
@@ -110964,7 +110932,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " λέγειν",
@@ -111317,7 +111285,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἀναθεματίζειν",
@@ -112387,7 +112355,7 @@
         "transliteration": " Íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " πόσα",
@@ -112854,7 +112822,7 @@
         "transliteration": " ḗrxato",
         "strong": "G756",
         "morph": "V-AMI-3S",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " αἰτεῖσθαι",
@@ -113644,14 +113612,10 @@
             " ",
             { "abbr": "PT" },
             {
-              "text": " εποιησε",
+              "text": " εποιησε(ν) κακόν",
               "script": "G",
-              "transliteration": " epoiēse"
-            },
-            "(",
-            { "text": "ν", "script": "G", "transliteration": "n" },
-            ") ",
-            { "text": "κακόν", "script": "G", "transliteration": "kakón" }
+              "transliteration": " epoiēse(n) kakón"
+            }
           ]
         }
       },
@@ -114210,7 +114174,7 @@
         "transliteration": " ḗrxanto",
         "strong": "G756",
         "morph": "V-AMI-3P",
-        "lemma": "ἄρχομαι"
+        "lemma": "ἄρχω"
       },
       {
         "text": " ἀσπάζεσθαι",
@@ -116535,7 +116499,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " ὥρας",
@@ -117422,7 +117386,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " κάτω.",
@@ -118134,7 +118098,7 @@
         "transliteration": " opsías",
         "strong": "G3798",
         "morph": "A-GSF",
-        "lemma": "ὀψία"
+        "lemma": "ὄψιος"
       },
       {
         "text": " γενομένης,",
@@ -118589,7 +118553,7 @@
         "transliteration": " téthnēken;",
         "strong": "G2348",
         "morph": "V-RAI-3S",
-        "lemma": "τέθνηκα"
+        "lemma": "θνήσκω"
       },
       {
         "text": " καὶ",
@@ -118605,7 +118569,7 @@
         "transliteration": " proskalesámenos",
         "strong": "G4341",
         "morph": "V-ADP-NSM",
-        "lemma": "προσκαλέομαι"
+        "lemma": "προσκαλέω"
       },
       {
         "text": " τὸν",
@@ -119921,7 +119885,7 @@
         "transliteration": " exethambḗthēsan.",
         "strong": "G1568",
         "morph": "V-API-3P",
-        "lemma": "ἐκθαμβέομαι"
+        "lemma": "ἐκθαμβέω"
       }
     ]
   },
@@ -119976,7 +119940,7 @@
         "transliteration": " ekthambeîsthe;",
         "strong": "G1568",
         "morph": "V-PPM-2P",
-        "lemma": "ἐκθαμβέομαι"
+        "lemma": "ἐκθαμβέω"
       },
       {
         "text": " Ἰησοῦν",
@@ -120064,7 +120028,7 @@
         "transliteration": " íde,",
         "strong": "G1492",
         "morph": "V-2AAM-2S",
-        "lemma": "ἴδε"
+        "lemma": "ὁράω"
       },
       {
         "text": " ὁ",
@@ -120489,7 +120453,7 @@
         "transliteration": " ephoboûnto",
         "strong": "G5399",
         "morph": "V-INI-3P",
-        "lemma": "φοβέομαι"
+        "lemma": "φοβέω"
       },
       {
         "text": " γάρ.",
@@ -121245,7 +121209,7 @@
         "transliteration": "Hýsteron",
         "strong": "G5305",
         "morph": "ADV",
-        "lemma": "ὕστερον"
+        "lemma": "ὕστερος"
       },
       {
         "text": " ἀνακειμένοις",

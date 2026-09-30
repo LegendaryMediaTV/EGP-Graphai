@@ -228,7 +228,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>39</sup> Kaì eîpen Gedeōn pròs tòn theón Mḕ orgisthḗtō ho thymós sou en emoí, kaì lalḗsō éti hápax; kaì peirásō éti hápax en tō̂ pókō, kaì genēthḗtō xērasía epì tòn pókon mónon, epì dè pâsan tḕn gē̂n genēthḗtō drósos.
 <sup>40</sup> Kaì epoíēsen ho theòs hoútōs en tē̂ nyktì ekeínē, kaì egéneto xērasía epì tòn pókon mónon, epì dè pâsan tḕn gē̂n egéneto drósos.
 
-> - <sup>a</sup> 5. Corrected from ktḗnēn.
+> - <sup>a</sup> 5. Corrected from ktḗnēn, as seen in RH. The neuter plural of ktē̂nos is ktḗnē, with no final n, as this edition prints it at its 103 other occurrences.
 
 ## Chapter 7
 
@@ -301,7 +301,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>34</sup> Kaì ouk emnḗsthēsan hoi hyioì Israēl kyríou toû theoû autō̂n toû rhysaménou autoùs ek cheiròs pántōn tō̂n echthrō̂n autō̂n kyklóthen.
 <sup>35</sup> Kaì ouk epoíēsan éleos metà toû oíkou Ierobaal Gedeōn katà pâsan tḕn agathōsýnēn, hḕn epoíēsen metà Israēl.
 
-> - <sup>a</sup> 32. Corrected from tatròs.
+> - <sup>a</sup> 32. Corrected from tatròs, as seen in RH. The genitive of patḗr is patrós, which this verse already prints once and this edition prints at its 410 other occurrences.
 
 ## Chapter 9
 
@@ -497,7 +497,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>3</sup> Kaì eîpen autō̂ ho patḕr autoû kaì hē mḗtēr autoû Mḕ ouk éstin apò tō̂n thygatérōn tō̂n adelphō̂n sou kaì en pantì tō̂ laō̂ mou gynḗ, hóti sỳ poreúē labeîn gynaîka ek tō̂n allophýlōn tō̂n aperitmḗtōn? Kaì eîpen Sampsōn pròs tòn patéra autoû Taútēn labé moi, hóti ḗresen en ophthalmoîs mou.
 <sup>4</sup> Kaì ho patḕr autoû kaì hē mḗtēr autoû ouk égnōsan hóti parà kyríou estín, hóti antapódoma autòs ekzēteî ek tō̂n allophýlōn; kaì en tō̂ kairō̂ ekeínō allóphyloi ekyríeuon tō̂n hyiō̂n Israēl.
 <sup>5</sup> Kaì katébē Sampsōn kaì ho patḕr autoû kaì hē mḗtēr autoû eis Thamnatha. Kaì exéklinen eis ampelō̂na Thamnatha, kaì idoù skýmnos leóntōn ōryómenos eis apántēsin autoû;
-<sup>6</sup> kaì katēúthynen ep’ autòn pneúma kyríou, kaì diéspasen autón, hōseì diaspásai ériphon aigō̂n, kaì oudèn ē̂n en tē̂ cheirì autoû. Kaì ouk apḗngeilen tō̂ patrì autoû oudè tē̂ mētrì hà epoíēsen.
+<sup>6</sup> kaì katēúthynen ep’ autòn pneûma<sup>a</sup> kyríou, kaì diéspasen autón, hōseì diaspásai ériphon aigō̂n, kaì oudèn ē̂n en tē̂ cheirì autoû. Kaì ouk apḗngeilen tō̂ patrì autoû oudè tē̂ mētrì hà epoíēsen.
 <sup>7</sup> Kaì katébēsan kaì elálēsan tē̂ gynaikí, kaì ḗresen enṓpion Sampsōn.
 <sup>8</sup> Kaì epéstrepsen meth’ hēméras labeîn autḕn kaì exéklinen ideîn tò ptō̂ma toû léontos, kaì idoù systrophḕ melissō̂n en tō̂ stómati toû léontos kaì méli ē̂n.
 <sup>9</sup> Kaì exeîlen autò eis tò stóma autoû kaì eporeúthē poreuómenos kaì ésthōn; kaì eporeúthē pròs tòn patéra autoû kaì pròs tḕn mētéra autoû kaì édōken autoîs, kaì éphagon; kaì ouk apḗngeilen autoîs hóti ek tē̂s héxeōs toû léontos exeîlen tò méli.
@@ -512,6 +512,8 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>18</sup> Kaì eîpan autō̂ hoi ándres tē̂s póleōs en tē̂ hēméra tē̂ hebdómē prìn dŷnai tòn hḗlion Tí glykýteron mélitos, kaì tí ischyróteron léontos? Kaì eîpen autoîs Sampsōn Ei mḕ katedamásaté mou tḕn dámalin, ouk àn heúrete tò próblēmá mou.
 <sup>19</sup> Kaì kateúthynen ep’ autòn pneûma kyríou, kaì katébē eis Askalō̂na kaì épaisen ekeîthen triákonta ándras kaì élaben tàs stolàs autō̂n kaì édōken toîs apangeílasin tò próblēma. Kaì ethymṓthē orgē̂ Sampsōn kaì anébē eis tòn oîkon toû patròs autoû.
 <sup>20</sup> Kaì synṓkēsen hē gynḕ Sampsōn tō̂ nymphagōgō̂ autoû, hòs ē̂n hetaîros autoû.
+
+> - <sup>a</sup> 6. Corrected from pneúma, as seen in RH. A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints pneûma at its 238 other occurrences.
 
 ## Chapter 15
 

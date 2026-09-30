@@ -20,9 +20,21 @@ What a concordance index cannot also be is a lexical inventory. Its unit is the 
 
 **One word, many numbers.** Strong's assigns separate numbers to the principal parts of defective verbs, which is the right call for a concordance, since the KJV renders those parts differently. εἰμί accordingly occupies over a dozen numbers, which the worked example below lists in full. A text tagged at the lexical level resolves all of them to G1510, piling thousands of tokens onto one entry and leaving the rest unreferenced. Across the Greek lexicon, a hundred-odd entries have occurrences to their name and appear nowhere in such an edition.
 
-**One number, many words.** Strong's also files several headwords under a single number, again reasonably, since the KJV renders them alike. G3588 covers ὁ, ἡ and τό, which between them are the commonest word in the language. G3739 covers ὅς, ἥ and ὅ. G4341 covers both προσκαλέω and προσκαλέομαι. Scores of Greek entries carry more than one headword in their lexicon `name`.
+**One number, many words.** Strong's also files different words under a single number, again reasonably, since the KJV renders them alike. G1492 covers οἶδα, "know", and εἶδον, "saw", the aorist of ὁράω. G3700 covers ὀπτάνομαι beside ὄψομαι, the future of ὁράω. Scores of Greek entries carry more than one headword in their lexicon `name`.
 
-Neither direction is a tagging error to be corrected, and neither is a defect in Strong's. They are what happens when a concordance index is asked to serve as a primary key. The map asks it to do its own job instead: the word is the key, the parse selects the cell, and the Strong's number is a value on the cell, where it is free to be many-to-one or one-to-many without conflict.
+Neither direction is a tagging error to be corrected, and neither is a defect in Strong's. They are what happens when a concordance index is asked to serve as a primary key. The map asks it to do its own job instead: the lemma is the key, the parse selects the cell, and the Strong's number is a value on the root, or on a cell where the index splits the lemma, so it is free to be many-to-one or one-to-many without conflict.
+
+### The map is lemma-based
+
+The key is the lemma, the dictionary word, which this document calls the root. Three rules follow, and the rest of this document applies them.
+
+**A lemma holds all of its own inflections.** Forms that share a lemma trace back to it and sit under its one root, whatever tense, voice, mood, case, number, gender or degree they carry, and whatever stem a tense is built on.
+
+**A lemma holds nothing else.** Words that inflect from different lemmas are different entries, even when they mean the same thing, share a stem or share a Strong's number. Meaning never decides which lemma a form belongs to. Filing one word's forms under another word's root merges two words, and filing one word's forms under two roots splits one; either way the map stops saying which forms belong together.
+
+**A Strong's number sits on the root, or on an inflection where Strong's splits the lemma.** The root is the place for it. A cell carries a number only where Strong's gives one lemma's inflections different numbers, and then it names which of the root's numbers that inflection takes. One lemma can therefore carry several numbers, and one number can sit on several lemmas.
+
+οἶδα and ὁράω show all three. Strong's files οἶδα, "know", and εἶδον, "saw", under one entry, G1492. They belong to two lemmas: εἶδον is ὁράω's aorist and sits under ὁράω, and οἶδα is a verb with a paradigm of its own. οἶδα carries G1492 on its root. ὁράω's root carries G1492, G2400, G3700 and G3708, and its aorist active cells name G1492, because Strong's splits ὁράω's inflections across those numbers.
 
 ## What the map is
 
@@ -49,7 +61,10 @@ flowchart LR
         Conc[Concordance]
     end
 
-    Sources -->|attested forms + parses| Codex
+    Standard[["Standard grammars and lexica<br/>headwords, parts of speech, paradigms"]]
+
+    Standard -->|decides| Codex
+    Sources -->|attested forms: coverage and evidence| Codex
     Registry --> Codex
     Codex --> Lex
     Codex --> Strongs
@@ -57,7 +72,13 @@ flowchart LR
     Codex --> Conc
 ```
 
-The map is derived from the source corpora, not from any translation. A translation inherits tags by declaring which source it follows, so the KJV's partial morphology and the NET's absent morphology stop being ceilings on what those editions can carry.
+The map is a standard reference: the parsing chart a seminary student learns from, made into data. What it says about a word, its headword, its part of speech and the parses each spelling can take, is what the established grammars and lexica say. None of that is new or open to a corpus's opinion.
+
+The source corpora built it and keep it complete, since every form they attest needs a home, but they do not decide what it says. The direction runs the other way. The map is what a corpus is checked against, and what fills in a text that has no parsing or no accents. The established corpora largely agree with it, and where they do not, one of the two needs reading.
+
+Where a spelling can honestly be read more than one way, the map holds every reading, so a single inflected form can carry several parses. Choosing among them is interpretation, and that choice belongs to the corpus, verse by verse. The map is the range of readings; a corpus is one choice within it.
+
+A translation inherits tags by declaring which source it follows, so the KJV's partial morphology and the NET's absent morphology stop being ceilings on what those editions can carry.
 
 ## The language registry
 
@@ -196,7 +217,7 @@ One file per language, split by letter, keyed by root. Each root carries `inflec
   "εἰμί": {
     "language": "greek",
     "pos": "verb",
-    "shortDefinition": "I am",
+    "shortDefinition": "to be",
     "indices": {
       "strongs": [
         "G1488",
@@ -283,6 +304,10 @@ A root can have more than one headword. The article is one word with one paradig
 
 Omit it when the root is its own only citation form, as εἰμί is.
 
+### Short definitions
+
+`shortDefinition` is a brief English gloss for the root, written so a reader can put it in place of the word and read it beside the cell's parse. It belongs to the root rather than to a cell, and it states no tense, person, case or degree, since the parse already does: εἰμί is "to be", not "I am". How to write one is defined in [short-definitions.md](./short-definitions.md).
+
 ### Why the parses are an array
 
 `ἦτε` is the reason. In BYZ2026 it appears 11 times as an imperfect indicative and 8 times as a present subjunctive. Those are Strong's G2258 and G5600. One form, two numbers.
@@ -319,13 +344,21 @@ Each language states its citation convention in the registry, because the conven
 
 The root need not appear in the corpus. ἔλαβον and λαβών both belong to λαμβάνω whether or not λαμβάνω is ever written, because the paradigm decides the root, not the attestation.
 
-A frozen case form is not a root. πρῶτον used adverbially is the accusative singular neuter of πρῶτος; χάριν used as a preposition is the accusative of χάρις; μακράν is the accusative of μακρός. Each belongs to the paradigm it inflects from, and the parse on its cell records that it was used adverbially.
+A suppletive tense is part of the paradigm it fills, even though it is built on a different stem. ἔφαγον is the aorist of ἐσθίω, εἶπον the aorist of λέγω and εἶδον the aorist of ὁράω, the way English "went" is the past of "go". Their forms sit under those verbs, and `stems` records the stem each tense is built on.
+
+Degree goes by root. A comparative or superlative built on the positive's own root is one of the positive's inflections, with `comp` or `super` on its cells: μείζων and μέγιστος sit under μέγας, and πλείων and πλεῖστος under πολύς. One built on another root is a lemma of its own and holds the superlative built on that same root. χείρων holds χείριστος, ἐλάσσων holds ἐλάχιστος, κρείσσων holds κράτιστος and βελτίων holds βέλτιστος, while ἄριστος and ἥσσων stand alone. Their cells carry the degree all the same, since χείρων is a comparative whatever its root.
+
+This is where degree and tense part ways. A suppletive tense serves one verb, and every standard lexicon names the same one. A suppletive comparative often stands beside a regular comparative of the positive it is said to serve: ἀγαθώτερος sits under ἀγαθός and μικρότερος under μικρός. The lexica also disagree about which positive that is. ἐλάσσων serves μικρός in most and ὀλίγος in one, and ἥσσων is given to κακός, to μικρός, or to no positive at all. Filing such a word under a positive would mean choosing a sense, so the map files it under its own root.
+
+A frozen case form is not a root. πρῶτον used adverbially is the accusative singular neuter of πρῶτος; χάριν used as a preposition is the accusative of χάρις; μακράν is the accusative of μακρός. Each belongs to the paradigm it inflects from, and the parse on its cell records that it was used adverbially. A frozen verb form follows the same rule: ἴδε and ἰδού, used as "look!", are the second aorist imperatives of ὁράω, active and middle, and sit under ὁράω.
+
+A fixed name or phrase that Strong's numbers as one entry is the one kind of root that spans more than one word. Ἄρειος Πάγος holds Ἀρείου and Πάγου, and μαρὰν ἀθά holds μαράν and ἀθά, each under the one root and its one number.
 
 Index entries do not line up with this, and they are not meant to. A concordance gives πρῶτον its own number because the adverbial use earns an entry, and gives δεύτερον none because it does not. That difference belongs to the concordance. It has no bearing on how many Greek words there are, so the map records one root in both cases and hangs the numbers on the cells.
 
 ### How roots are derived
 
-Roots come from the forms. For each index number in the corpus, the attested spellings and their parses are put in front of something that reads Greek, with the number reduced to an opaque label and no lexicon in reach, and it returns the citation form. Nothing about the derivation depends on which numbering system tagged the text or on what any index calls the word.
+Roots come from the forms. For each index number in the corpus, the attested spellings and their parses are put in front of something that reads Greek, with the number reduced to an opaque label and no lexicon in reach, and it returns the citation form. Nothing about the derivation depends on which numbering system tagged the text or on what any index calls the word. That is how the map was first built from nothing; what makes a root right is the check against the standard lexica described below.
 
 The Greek map's roots were produced that way. Set against roots taken from index headwords, about one in fifteen came out differently. Most were Byzantine spellings the headwords do not carry: breathings, accents, single against double consonants, iota subscripts, omicron for omega. The rest were headwords that are not citation forms at all, a plural (ἀμφότεροι), a superlative (ἀκριβέστατος), a frozen accusative (ἀκμήν), a verb cited active that only occurs in the middle, two typos, and two proper names filed as common nouns (Τύραννος at Acts 19:9, Φιλητός at 2 Timothy 2:17).
 
@@ -333,13 +366,13 @@ Where two numbers derive to the same citation form and the same word, the root c
 
 Where two numbers derive to the same citation form and different words, the root takes a superscript, the convention the lexicon already uses. ἄπειμι¹ is 'be absent' from εἰμί and ἄπειμι² is 'go away' from εἶμι. σύνειμι splits the same way. βάτος¹ is a bramble and βάτος² a liquid measure. μήν¹ is a particle and μήν² a month.
 
-Part of speech on the root follows the corpus tag rather than the deriver's judgment, since Ἀθηναῖος can be argued as an adjective or a noun and the tagger already argued it.
+Part of speech on the root is the word's lexical part of speech, the class the standard grammars and lexica put it in and a parsing chart would file it under. A corpus tags each token by how its verse uses the word, and those tags belong on the cells; they never decide the root. πτωχός is an adjective even where a tagger calls a token a noun, because an adjective with the article in front of it, "the poor", is still an adjective, and the translation is what supplies the English noun. Where the standard lexica themselves disagree, as they do over some adjectives that became nouns, the lexicon of record for the body of literature the word belongs to decides. A corpus tag never does.
 
 ### The root is the word as the language used it
 
 Two questions come up on almost every uncertain lemma, and one principle answers both: the root belongs to the language, not to this text and not to any one lexicon.
 
-**Voice.** A verb is cited in the active if it had active forms in first-century Greek at large, whatever this corpus happens to attest. Only a verb that was deponent across the language is cited in the middle. ἀναβάλλω and περικρύπτω are active even though the corpus shows only the middle; φρυάσσομαι is middle because no active exists anywhere.
+**Voice.** Voice is a parse, never a second lemma. ἄρξομαι, "I will begin", is the future middle of ἄρχω and sits under ἄρχω; where Strong's gives the middle a number of its own, as G756 beside ἄρχω's G757, that number goes on the middle cells. A verb is cited in the active if it had active forms in first-century Greek at large, whatever this corpus happens to attest. Only a verb that was deponent across the language is cited in the middle. ἀναβάλλω and περικρύπτω are active even though the corpus shows only the middle; φρυάσσομαι is middle because no active exists anywhere.
 
 **Spelling.** Variant spellings of one word are both right, the way John and Jon are. Where the corpus is consistent, its spelling is the attested one and stands, so Πύθων keeps its capital and Ἄβελ its smooth breathing. Where the corpus is split or never writes the form in question, the wider language decides, and the standard lexica are the best sample of it available: Βαρσαββᾶς takes the double beta the text splits on, and ῥαῖδα takes LSJ's accent because the corpus only ever writes the genitive plural.
 
@@ -347,9 +380,9 @@ The check on all of this is independent lexica keyed by headword, never by numbe
 
 ### When cells disagree about part of speech
 
-A root carries its own part of speech and each cell carries the one it was tagged with. They can differ, and the difference is information rather than an error.
+A root carries its lexical part of speech, and a spelling carries every parse it can take. The two can differ, and the difference is information rather than an error.
 
-δεύτερος is an adjective. Its neuter accusative δεύτερον is tagged as an adjective in some verses and as an adverb in others, because the word is being used both ways. One root, one paradigm, cells that disagree.
+δεύτερος is an adjective. Its neuter accusative δεύτερον is also a standard adverb, "secondly", so that spelling holds both readings, and a corpus picks the one its verse uses. One root, one paradigm, and a spelling with two honest readings.
 
 The same holds for τρίτος, μέγας, ὀλίγος, δοῦλος and πρῶτος. Reading the root's part of speech as authoritative for every cell would flatten exactly the distinction a reader wants.
 
@@ -383,7 +416,7 @@ The defective-verb numbers are parse-level facts by definition. Strong's G2076 _
 
 ## What the root knows that no ending can tell you
 
-Five facts sit on the root rather than on a cell, because they belong to the word rather than to any one of its forms. None is derivable from a spelling, and each is read off a corpus rather than guessed.
+Five facts sit on the root rather than on a cell, because they belong to the word rather than to any one of its forms. None is derivable from a spelling. Each is what the standard grammars and lexica say, with the corpora as supporting evidence, and none is guessed.
 
 ```json
 "λόγος": { "pos": "noun", "gender": "masc", "declension": "2m", … }
@@ -405,7 +438,7 @@ A noun of common gender takes either article according to what it names, and sto
 
 Because the map is meant to hold what is known, and these are known. A consumer that wants to inflect a word the map has not attested needs the class; one that wants to render a scheme Robinson cannot express needs it too. Storing them is also what lets the map be checked: a root claiming a gender its own cells contradict is a real error, and the audit above catches it.
 
-They are stated only where a corpus settles them. Same discipline the schema already applies to gender, and the reason `declension` is absent on the roots no corpus settles.
+They are stated only where the evidence settles them: the standard reference works, or a text's own spellings where those decide it. Same discipline the schema already applies to gender, and the reason `declension` is absent on the roots nothing settles yet.
 
 ## Keys
 
@@ -545,7 +578,7 @@ flowchart TD
     Match -->|one match| Cell[Cell]
     Match -->|no match| Flag
     Cell --> Root["Root, for the lexicon link"]
-    Cell --> Strong["Strong's number on the cell"]
+    Cell --> Strong["Strong's number, from the root<br/>or from the cell where the index splits the lemma"]
     Cell --> Human["Readable parse, from the registry"]
 ```
 

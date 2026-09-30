@@ -1,9 +1,23 @@
 {
+  "ἐκλύτρωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "a ransoming out, redemption",
+    "inflections": {
+      "ἐκλύτρωσιν": {
+        "transliteration": "eklýtrōsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "Λααδ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lahad",
     "inflections": {
       "Λααδ": {
         "transliteration": "Laad",
@@ -16,6 +30,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Laadah",
     "inflections": {
       "Λααδα": {
         "transliteration": "Laada",
@@ -28,6 +43,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ladan",
     "inflections": {
       "Λααδαν": {
         "transliteration": "Laadan",
@@ -40,7 +56,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Laban",
+    "shortDefinition": "Laban; lit. White",
     "inflections": {
       "Λαβαν": {
         "transliteration": "Laban",
@@ -53,6 +69,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lebanah, Lebana, Labana; lit. White",
     "inflections": {
       "Λαβανα": {
         "transliteration": "Labana",
@@ -64,6 +81,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Libnath",
     "inflections": {
       "Λαβαναθ": {
         "transliteration": "Labanath",
@@ -76,6 +94,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lebanah, Lebana, Labana; lit. White",
     "inflections": {
       "Λαβανω": {
         "transliteration": "Labanō",
@@ -87,6 +106,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a lamed",
     "inflections": {
       "λαβδ": {
         "transliteration": "labd",
@@ -99,6 +119,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Abdon; lit. Servitude",
     "inflections": {
       "Λαβδων": {
         "transliteration": "Labdōn",
@@ -110,6 +131,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Labek",
     "inflections": {
       "Λαβεκ": {
         "transliteration": "Labek",
@@ -122,6 +144,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a hilt, handle",
     "inflections": {
       "λαβήν": {
         "transliteration": "labḗn",
@@ -134,7 +157,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Lehabim",
+    "shortDefinition": "a Lehabite",
     "inflections": {
       "Λαβιιμ": {
         "transliteration": "Labiim",
@@ -147,6 +170,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a tongs, snuffers (for lamps)",
     "inflections": {
       "λαβίδας": {
         "transliteration": "labídas",
@@ -168,6 +192,7 @@
   "λάβρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be fierce, vehement",
     "inflections": {
       "λάβρος": {
         "transliteration": "lábros",
@@ -197,6 +222,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lebo Hamath; lit. Entrance of Hamath",
     "inflections": {
       "Λαβωεμαθ": {
         "transliteration": "Labōemath",
@@ -208,6 +234,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lebaoth; lit. Lionesses",
     "inflections": {
       "Λαβωθ": {
         "transliteration": "Labōth",
@@ -219,6 +246,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lebaoth; lit. Lionesses",
     "inflections": {
       "Λαβως": {
         "transliteration": "Labōs",
@@ -231,6 +259,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a flat cake, wafer",
     "inflections": {
       "λάγανα": {
         "transliteration": "lágana",
@@ -255,8 +284,15 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ελαχ" },
+    "shortDefinition": "to obtain by lot; fig. to cast lots",
     "indices": { "strongs": "G2975" },
     "inflections": {
+      "ἔλαχε": {
+        "transliteration": "élache",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἔλαχεν": {
         "transliteration": "élachen",
         "cells": [
@@ -306,6 +342,23 @@
           }
         ]
       },
+      "λαχοῦσι": {
+        "transliteration": "lachoûsi",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "dat",
+              "pl",
+              "masc"
+            ]
+          }
+        ]
+      },
       "λαχοῦσιν": {
         "transliteration": "lachoûsin",
         "cells": [
@@ -341,6 +394,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a loin, flank",
     "inflections": {
       "λαγόνας": {
         "transliteration": "lagónas",
@@ -354,6 +408,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Lo Debar; lit. Pastureless",
     "inflections": {
       "Λαδαβαρ": {
         "transliteration": "Ladabar",
@@ -366,6 +421,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ladan",
     "inflections": {
       "Λαδαν": {
         "transliteration": "Ladan",
@@ -400,6 +456,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lael; lit. Belonging to God",
     "inflections": {
       "Λαηλ": {
         "transliteration": "Laēl",
@@ -419,6 +476,7 @@
   "λαθραῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be clandestine, secret",
     "inflections": {
       "λαθραῖον": {
         "transliteration": "lathraîon",
@@ -435,7 +493,7 @@
   "λαθραίως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "secretly, by stealth",
+    "shortDefinition": "clandestinely, stealthily",
     "inflections": {
       "λαθραίως": {
         "transliteration": "lathraíōs",
@@ -446,6 +504,7 @@
   "λάθριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be clandestine, secret",
     "inflections": {
       "λάθριος": {
         "transliteration": "láthrios",
@@ -460,6 +519,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a whirlwind, squall, tempest",
     "indices": { "strongs": "G2978" },
     "inflections": {
       "λαίλαπι": {
@@ -472,18 +532,14 @@
       },
       "λαῖλαψ": {
         "transliteration": "laîlaps",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
   "λαιμαργία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gluttony; lit. a throat-madness",
     "inflections": {
       "λαιμαργία": {
         "transliteration": "laimargía",
@@ -497,6 +553,7 @@
   "Λαις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Laish; lit. Lion",
     "inflections": {
       "Λαις": {
         "transliteration": "Lais",
@@ -511,7 +568,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Layish",
+    "shortDefinition": "Laish, Laishah; lit. Lion",
     "inflections": {
       "Λαισα": {
         "transliteration": "Laisa",
@@ -523,6 +580,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Lacedaemonian, Spartan",
     "inflections": {
       "Λακεδαιμονίους": {
         "transliteration": "Lakedaimoníous",
@@ -535,6 +593,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Likhi; lit. Learned",
     "inflections": {
       "Λακει": {
         "transliteration": "Lakei",
@@ -547,6 +606,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a cistern pit, well; fig. a dungeon",
     "inflections": {
       "λάκκοι": {
         "transliteration": "lákkoi",
@@ -590,6 +650,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Laccunus",
     "inflections": {
       "Λακκουνος": {
         "transliteration": "Lakkounos",
@@ -601,6 +662,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lakkum",
     "inflections": {
       "Λακου": {
         "transliteration": "Lakou",
@@ -612,6 +674,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to kick",
     "indices": { "strongs": "G2979" },
     "inflections": {
       "λακτίζειν": {
@@ -623,11 +686,11 @@
   "λακωνικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be Laconian (Spartan)",
     "inflections": {
       "λακωνικά": {
         "transliteration": "lakōniká",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
@@ -683,6 +746,10 @@
       },
       "ἐλάλησε": {
         "transliteration": "elálēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐλάλησέ": {
+        "transliteration": "elálēsé",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐλάλησεν": {
@@ -804,7 +871,7 @@
       },
       "λαλήσαι": {
         "transliteration": "lalḗsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "λαλῆσαι": {
         "transliteration": "lalē̂sai",
@@ -928,6 +995,10 @@
           { "parse": ["verb", "fut", "act", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "fut", "act", "ptc", "voc", "sg", "neut"] }
         ]
+      },
+      "λαλήσουσι": {
+        "transliteration": "lalḗsousi",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "λαλήσουσιν": {
         "transliteration": "lalḗsousin",
@@ -1061,6 +1132,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
+      "λαλοῦσι": {
+        "transliteration": "laloûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "λαλοῦσιν": {
         "transliteration": "laloûsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -1130,10 +1205,6 @@
       "λελάληταί": {
         "transliteration": "lelálētaí",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "συλλαλῇ": {
-        "transliteration": "syllalē̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
       }
     }
   },
@@ -1142,6 +1213,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a subject of talk, byword",
     "inflections": {
       "λάλημα": {
         "transliteration": "lálēma",
@@ -1155,7 +1227,9 @@
   },
   "λαλητός": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be endowed with speech, articulate",
     "inflections": {
       "λαλητόν": {
         "transliteration": "lalētón",
@@ -1170,6 +1244,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a talk, speech; fig. an accent, dialect",
     "indices": { "strongs": "G2981" },
     "inflections": {
       "λαλιά": {
@@ -1204,6 +1279,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lahmam; lit. Food-Like",
     "inflections": {
       "Λαμας": {
         "transliteration": "Lamas",
@@ -1399,10 +1475,7 @@
       },
       "ἐλαμβάνοσαν": {
         "transliteration": "elambánosan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐλήμφθη": {
         "transliteration": "elḗmphthē",
@@ -1631,6 +1704,12 @@
           }
         ]
       },
+      "λάβωσι": {
+        "transliteration": "lábōsi",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
+        ]
+      },
       "λάβωσιν": {
         "transliteration": "lábōsin",
         "cells": [
@@ -1663,6 +1742,10 @@
       "λαμβάνετέ": {
         "transliteration": "lambáneté",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }]
+      },
+      "λαμβανέτω": {
+        "transliteration": "lambanétō",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
       },
       "λαμβάνῃ": {
         "transliteration": "lambánē",
@@ -1721,6 +1804,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "fem"] }
         ]
+      },
+      "λαμβάνουσι": {
+        "transliteration": "lambánousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "λαμβάνουσιν": {
         "transliteration": "lambánousin",
@@ -1883,6 +1970,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lamech",
     "indices": { "strongs": "G2984" },
     "inflections": {
       "Λαμεχ": {
@@ -1900,6 +1988,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a little lamp, lamp bowl",
     "inflections": {
       "λαμπάδια": {
         "transliteration": "lampádia",
@@ -1928,6 +2017,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a torch, lamp",
     "indices": { "strongs": "G2985" },
     "inflections": {
       "λαμπάδα": {
@@ -1968,6 +2058,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a covered chariot, carriage",
     "inflections": {
       "λαμπήναις": {
         "transliteration": "lampḗnais",
@@ -1986,6 +2077,7 @@
   "λαμπηνικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be covered (as a carriage)",
     "inflections": {
       "λαμπηνικάς": {
         "transliteration": "lampēnikás",
@@ -2000,6 +2092,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be bright, shining; fig. to be splendid, sumptuous",
     "indices": { "strongs": "G2986" },
     "inflections": {
       "λαμπρά": {
@@ -2047,6 +2140,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a brilliance; fig. a splendor",
     "indices": { "strongs": "G2987" },
     "inflections": {
       "λαμπρότης": {
@@ -2074,6 +2168,7 @@
   "λαμπρῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "brilliantly; fig. sumptuously",
     "indices": { "strongs": "G2988" },
     "inflections": {
       "λαμπρῶς": {
@@ -2086,6 +2181,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a lantern, torch",
     "inflections": {
       "λαμπτήρ": {
         "transliteration": "lamptḗr",
@@ -2103,6 +2199,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ελαμψ" },
+    "shortDefinition": "to shine, beam",
     "indices": { "strongs": "G2989" },
     "inflections": {
       "ἔλαμψαν": {
@@ -2110,6 +2207,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
+      },
+      "ἔλαμψε": {
+        "transliteration": "élampse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔλαμψεν": {
         "transliteration": "élampsen",
@@ -2149,6 +2250,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a shining, light",
     "inflections": {
       "λάμψιν": {
         "transliteration": "lámpsin",
@@ -2160,6 +2262,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lanak",
     "inflections": {
       "Λανακ": {
         "transliteration": "Lanak",
@@ -2175,6 +2278,12 @@
     "shortDefinition": "to hide, conceal",
     "indices": { "strongs": "G2990" },
     "inflections": {
+      "ἔλαθε": {
+        "transliteration": "élathe",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἔλαθεν": {
         "transliteration": "élathen",
         "cells": [
@@ -2206,8 +2315,7 @@
       "λάθῃ": {
         "transliteration": "láthē",
         "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] }
         ]
       },
       "λαθόντες": {
@@ -2264,7 +2372,7 @@
   "λάξ": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with the heel, kicking",
+    "shortDefinition": "with the foot, by kicking",
     "inflections": {
       "λάξ": { "transliteration": "láx", "cells": [{ "parse": ["adv"] }] }
     }
@@ -2274,6 +2382,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a stonecutter’s chisel",
     "inflections": {
       "λαξευτηρίῳ": {
         "transliteration": "laxeutēríō",
@@ -2285,6 +2394,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be hewn (in stone), rock-cut",
     "indices": { "strongs": "G2991" },
     "inflections": {
       "λαξευτήν": {
@@ -2301,6 +2411,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to hew (stone), dress stone",
     "inflections": {
       "ἐλάξευσα": {
         "transliteration": "eláxeusa",
@@ -2354,8 +2465,7 @@
           { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "gen", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "neut"] }
         ]
       },
       "λελαξευμένων": {
@@ -2377,6 +2487,7 @@
   "λαογραφία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a census, registration (of people)",
     "inflections": {
       "λαογραφίαν": {
         "transliteration": "laographían",
@@ -2389,6 +2500,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Laodicean",
     "indices": { "strongs": "G2994" },
     "inflections": {
       "Λαοδικαίων": {
@@ -2401,6 +2513,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Laodicea; lit. Justice of the People",
     "indices": { "strongs": "G2993" },
     "inflections": {
       "Λαοδικείᾳ": {
@@ -2414,6 +2527,20 @@
       "Λαοδικείας": {
         "transliteration": "Laodikeías",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "Λαοδικεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "shortDefinition": "a Laodicean",
+    "indices": { "strongs": "G2994" },
+    "inflections": {
+      "Λαοδικέων": {
+        "transliteration": "Laodikéōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -2465,6 +2592,7 @@
   "λαπιστής": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a swaggerer, braggart",
     "inflections": {
       "λαπιστής": {
         "transliteration": "lapistḗs",
@@ -2477,6 +2605,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "λαψ" },
+    "shortDefinition": "to lap (with the tongue)",
     "inflections": {
       "λαψάντων": {
         "transliteration": "lapsántōn",
@@ -2502,13 +2631,11 @@
   "λάρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gull, seagull",
     "inflections": {
       "λάρον": {
         "transliteration": "láron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -2516,6 +2643,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a throat, larynx",
     "indices": { "strongs": "G2995" },
     "inflections": {
       "λάρυγγι": {
@@ -2540,7 +2668,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Lasha",
+    "shortDefinition": "Lasha; lit. Boiling Spring",
     "inflections": {
       "Λασα": {
         "transliteration": "Lasa",
@@ -2552,6 +2680,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Lasea",
     "indices": { "strongs": "G2996" },
     "inflections": {
       "Λασαία": {
@@ -2564,6 +2693,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Leshem",
     "inflections": {
       "Λασενδακ": {
         "transliteration": "Lasendak",
@@ -2574,11 +2704,11 @@
   "Λασθενής": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Lasthenes",
     "inflections": {
       "Λασθένει": {
         "transliteration": "Lasthénei",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -2587,8 +2717,13 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ελακη" },
+    "shortDefinition": "to burst open (with a crack)",
     "indices": { "strongs": "G2997" },
     "inflections": {
+      "ἐλάκησε": {
+        "transliteration": "elákēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐλάκησεν": {
         "transliteration": "elákēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -2600,8 +2735,13 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "ελατομη" },
+    "shortDefinition": "to quarry, hew out (of rock)",
     "indices": { "strongs": "G2998" },
     "inflections": {
+      "ἐλατομήθη": {
+        "transliteration": "elatomḗthē",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
+      },
       "ἐλατόμησας": {
         "transliteration": "elatómēsas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
@@ -2624,11 +2764,7 @@
       },
       "λατομῆσαι": {
         "transliteration": "latomē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "λατομήσῃ": {
         "transliteration": "latomḗsē",
@@ -2636,13 +2772,6 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "λατόμων": {
-        "transliteration": "latómōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "λελατομημένον": {
@@ -2663,9 +2792,10 @@
       }
     }
   },
-  "λατόμητος": {
+  "λατομητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be quarried",
     "inflections": {
       "λατομητούς": {
         "transliteration": "latomētoús",
@@ -2679,29 +2809,21 @@
   "λατόμος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a stonecutter, quarrier",
     "inflections": {
       "λατόμοις": {
         "transliteration": "latómois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "λατόμους": {
         "transliteration": "latómous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "λατόμων": {
         "transliteration": "latómōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -2749,6 +2871,7 @@
   "λατρευτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be servile, laboring (of work)",
     "inflections": {
       "λατρευτόν": {
         "transliteration": "latreutón",
@@ -2848,17 +2971,17 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
         ]
       },
+      "λατρεύουσι": {
+        "transliteration": "latreúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "λατρεύουσιν": {
         "transliteration": "latreúousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "λατρεῦσαι": {
         "transliteration": "latreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "λατρεύσατε": {
         "transliteration": "latreúsate",
@@ -2899,6 +3022,10 @@
         "transliteration": "latreúsomen",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"] }]
       },
+      "λατρεύσουσί": {
+        "transliteration": "latreúsousí",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "λατρεύσουσιν": {
         "transliteration": "latreúsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
@@ -2933,12 +3060,17 @@
       "λατρεύω": {
         "transliteration": "latreúō",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
+      },
+      "λατρεύωμεν": {
+        "transliteration": "latreúōmen",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"] }]
       }
     }
   },
   "λάτρις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a hired servant, maidservant",
     "inflections": {
       "λάτρις": {
         "transliteration": "látris",
@@ -2951,6 +3083,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lappidoth; lit. Torches",
     "inflections": {
       "Λαφιδωθ": {
         "transliteration": "Laphidōth",
@@ -2962,6 +3095,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to plunder, despoil",
     "inflections": {
       "ἐλαφύρευσεν": {
         "transliteration": "elaphýreusen",
@@ -2974,6 +3108,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a booty, spoil (of war)",
     "inflections": {
       "λάφυρα": {
         "transliteration": "láphyra",
@@ -2992,6 +3127,7 @@
   "λαχανεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a vegetable garden",
     "inflections": {
       "λαχανείας": {
         "transliteration": "lachaneías",
@@ -3007,6 +3143,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a vegetable, herb",
     "indices": { "strongs": "G3001" },
     "inflections": {
       "λάχανα": {
@@ -3035,6 +3172,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lachish",
     "inflections": {
       "Λαχης": {
         "transliteration": "Lachēs",
@@ -3047,6 +3185,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Lachish",
     "inflections": {
       "Λαχις": {
         "transliteration": "Lachis",
@@ -3059,6 +3198,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "a lioness",
     "inflections": {
       "λέαινα": {
         "transliteration": "léaina",
@@ -3078,6 +3218,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "λεαν", "fut": "λεαν" },
+    "shortDefinition": "to wear smooth, grind down; fig. to crush",
     "inflections": {
       "ἐλέανα": {
         "transliteration": "eléana",
@@ -3093,10 +3234,7 @@
       },
       "λεανῶ": {
         "transliteration": "leanō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -3104,6 +3242,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Elishama; lit. God of Hearing",
     "inflections": {
       "Λεασαμυς": {
         "transliteration": "Leasamys",
@@ -3115,6 +3254,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Leb",
     "inflections": {
       "Λεβ": {
         "transliteration": "Leb",
@@ -3127,6 +3267,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Lebbaeus",
     "indices": { "strongs": "G3002" },
     "inflections": {
       "Λεββαῖος": {
@@ -3140,6 +3281,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a kettle, cauldron",
     "inflections": {
       "λέβης": {
         "transliteration": "lébēs",
@@ -3183,6 +3325,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λεβνα": {
         "transliteration": "Lebna",
@@ -3195,6 +3338,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Lebonah; lit. Frankincense",
     "inflections": {
       "Λεβωνα": {
         "transliteration": "Lebōna",
@@ -3206,6 +3350,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a legion",
     "indices": { "strongs": "G3003" },
     "inflections": {
       "λεγεών": {
@@ -3228,7 +3373,7 @@
     "conjugation": "thematic",
     "stems": { "aor": "ειπ" },
     "shortDefinition": "to say, call",
-    "indices": { "strongs": ["G2036", "G3004"] },
+    "indices": { "strongs": ["G2036", "G2046", "G3004", "G4483"] },
     "inflections": {
       "εἶπα": {
         "transliteration": "eîpa",
@@ -3244,6 +3389,82 @@
         "cells": [
           {
             "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἶπαί": {
+        "transliteration": "eîpaí",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "inf"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπαισαν": {
+        "transliteration": "eípaisan",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "opt", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπαμεν": {
+        "transliteration": "eípamen",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἶπαν": {
+        "transliteration": "eîpan",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἶπάν": {
+        "transliteration": "eîpán",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπαντες": {
+        "transliteration": "eípantes",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπας": {
+        "transliteration": "eípas",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "masc"
+            ],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3285,6 +3506,10 @@
           {
             "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "pl"],
             "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3319,7 +3544,7 @@
         "transliteration": "eîpe",
         "cells": [
           {
-            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+            "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3327,9 +3552,8 @@
       "εἶπέ": {
         "transliteration": "eîpé",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
           {
-            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+            "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3415,11 +3639,86 @@
           }
         ]
       },
+      "εἴποι": {
+        "transliteration": "eípoi",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "opt", "pers-3", "sg", "second"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴποιεν": {
+        "transliteration": "eípoien",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "opt", "pers-3", "pl", "second"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴποιέν": {
+        "transliteration": "eípoién",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "opt", "pers-3", "pl", "second"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴποιμι": {
+        "transliteration": "eípoimi",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "opt", "pers-1", "sg", "second"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
       "εἰπόν": {
         "transliteration": "eipón",
         "cells": [
           {
             "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "sg",
+              "neut"
+            ],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3433,6 +3732,10 @@
           },
           {
             "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"],
             "indices": { "strongs": "G2036" }
           }
         ]
@@ -3465,6 +3768,63 @@
               "masc"
             ],
             "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "pl",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "nom",
+              "pl",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "pl",
+              "neut"
+            ],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἰπόντας": {
+        "transliteration": "eipóntas",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "acc",
+              "pl",
+              "masc",
+              "second"
+            ],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3494,7 +3854,8 @@
               "voc",
               "pl",
               "masc"
-            ]
+            ],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3569,6 +3930,15 @@
           }
         ]
       },
+      "εἴποσαν": {
+        "transliteration": "eíposan",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
       "εἰποῦσα": {
         "transliteration": "eipoûsa",
         "cells": [
@@ -3582,6 +3952,24 @@
               "nom",
               "sg",
               "fem"
+            ],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἰπούσῃ": {
+        "transliteration": "eipoúsē",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "act",
+              "ptc",
+              "dat",
+              "sg",
+              "fem",
+              "second"
             ],
             "indices": { "strongs": "G2036" }
           }
@@ -3620,6 +4008,28 @@
               "masc"
             ],
             "indices": { "strongs": "G2036" }
+          },
+          {
+            "parse": [
+              "verb",
+              "second",
+              "aor",
+              "act",
+              "ptc",
+              "voc",
+              "sg",
+              "masc"
+            ],
+            "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "εἴπωσι": {
+        "transliteration": "eípōsi",
+        "cells": [
+          {
+            "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"],
+            "indices": { "strongs": "G2036" }
           }
         ]
       },
@@ -3641,6 +4051,279 @@
           }
         ]
       },
+      "εἴρηκα": {
+        "transliteration": "eírēka",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκαν": {
+        "transliteration": "eírēkan",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκας": {
+        "transliteration": "eírēkas",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκάς": {
+        "transliteration": "eírēkás",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρήκασι": {
+        "transliteration": "eirḗkasi",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρήκασιν": {
+        "transliteration": "eirḗkasin",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρήκατε": {
+        "transliteration": "eirḗkate",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκε": {
+        "transliteration": "eírēke",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκέ": {
+        "transliteration": "eírēké",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρήκει": {
+        "transliteration": "eirḗkei",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "plup", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκεν": {
+        "transliteration": "eírēken",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηκέν": {
+        "transliteration": "eírēkén",
+        "cells": [
+          {
+            "parse": ["verb", "attic", "perf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρηκόσιν": {
+        "transliteration": "eirēkósin",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "act", "ptc", "dat", "pl", "masc"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "act", "ptc", "dat", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρηκότος": {
+        "transliteration": "eirēkótos",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "attic",
+              "perf",
+              "act",
+              "ptc",
+              "gen",
+              "sg",
+              "masc"
+            ],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρημένα": {
+        "transliteration": "eirēména",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "mid", "ptc", "nom", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "mid", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "nom", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρημένον": {
+        "transliteration": "eirēménon",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "attic",
+              "perf",
+              "pas",
+              "ptc",
+              "acc",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": [
+              "verb",
+              "attic",
+              "perf",
+              "pas",
+              "ptc",
+              "nom",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": [
+              "verb",
+              "attic",
+              "perf",
+              "pas",
+              "ptc",
+              "voc",
+              "sg",
+              "neut"
+            ],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρημένων": {
+        "transliteration": "eirēménōn",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "fem"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "masc"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ptc", "gen", "pl", "neut"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηνται": {
+        "transliteration": "eírēntai",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "mid", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἰρήσθω": {
+        "transliteration": "eirḗsthō",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "mid", "imp", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          },
+          {
+            "parse": ["verb", "perf", "pas", "imp", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "εἴρηται": {
+        "transliteration": "eírētai",
+        "cells": [
+          {
+            "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἔλεγε": {
+        "transliteration": "élege",
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
+      },
       "ἔλεγεν": {
         "transliteration": "élegen",
         "cells": [
@@ -3652,7 +4335,12 @@
       },
       "ἔλεγες": {
         "transliteration": "éleges",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"] }]
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
       },
       "ἐλέγετε": {
         "transliteration": "elégete",
@@ -3666,14 +4354,28 @@
       "ἐλέγετο": {
         "transliteration": "elégeto",
         "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
+          {
+            "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "ἐλέγομεν": {
         "transliteration": "elégomen",
-        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-1", "pl"] }]
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-1", "pl"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
       },
       "ἔλεγον": {
         "transliteration": "élegon",
@@ -3694,6 +4396,123 @@
           {
             "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"],
             "indices": { "strongs": "G2036" }
+          }
+        ]
+      },
+      "ἐρεῖ": {
+        "transliteration": "ereî",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐρεῖς": {
+        "transliteration": "ereîs",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐρεῖτε": {
+        "transliteration": "ereîte",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐρεῖτέ": {
+        "transliteration": "ereîté",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐροῦμεν": {
+        "transliteration": "eroûmen",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-1", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐροῦσι": {
+        "transliteration": "eroûsi",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐροῦσί": {
+        "transliteration": "eroûsí",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐροῦσιν": {
+        "transliteration": "eroûsin",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐροῦσίν": {
+        "transliteration": "eroûsín",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G2046" }
+          }
+        ]
+      },
+      "ἐρρέθη": {
+        "transliteration": "erréthē",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ἐρρήθη": {
+        "transliteration": "errḗthē",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ἐρρήθησαν": {
+        "transliteration": "errḗthēsan",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ἐρῶ": {
+        "transliteration": "erō̂",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"],
+            "indices": { "strongs": "G2046" }
           }
         ]
       },
@@ -3736,7 +4555,10 @@
       "λέγεσθαι": {
         "transliteration": "légesthai",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "inf"] },
+          {
+            "parse": ["verb", "pres", "mid", "inf"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "inf"],
             "indices": { "strongs": "G3004" }
@@ -3746,22 +4568,40 @@
       "λέγεσθαί": {
         "transliteration": "légesthaí",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "inf"] },
-          { "parse": ["verb", "pres", "pas", "inf"] }
+          {
+            "parse": ["verb", "pres", "mid", "inf"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "inf"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγέσθω": {
         "transliteration": "legésthō",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "imp", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "imp", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"] }
+          {
+            "parse": ["verb", "pres", "mid", "imp", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "imp", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "imp", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγεται": {
         "transliteration": "légetai",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
+          {
+            "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"],
             "indices": { "strongs": "G3004" }
@@ -3788,7 +4628,10 @@
             "parse": ["verb", "pres", "act", "imp", "pers-2", "pl"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγέτω": {
@@ -3802,7 +4645,12 @@
       },
       "λεγέτωσαν": {
         "transliteration": "legétōsan",
-        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"] }]
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "imp", "pers-3", "pl"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
       },
       "λέγῃ": {
         "transliteration": "légē",
@@ -3815,7 +4663,12 @@
       },
       "λέγῃς": {
         "transliteration": "légēs",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }]
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
       },
       "λέγητε": {
         "transliteration": "légēte",
@@ -3838,21 +4691,39 @@
       "λεγόμενα": {
         "transliteration": "legómena",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "neut"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "neut"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "neut"] }
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγομένη": {
         "transliteration": "legoménē",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "fem"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "fem"],
             "indices": { "strongs": "G3004" }
@@ -3862,7 +4733,10 @@
       "λεγομένην": {
         "transliteration": "legoménēn",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "fem"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "fem"],
             "indices": { "strongs": "G3004" }
@@ -3881,19 +4755,31 @@
       "λεγόμενοι": {
         "transliteration": "legómenoi",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "nom", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "nom", "pl", "masc"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"] }
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγομένοις": {
         "transliteration": "legoménois",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "pl", "masc"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "dat", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "dat", "pl", "neut"],
             "indices": { "strongs": "G3004" }
@@ -3903,10 +4789,22 @@
       "λεγόμενον": {
         "transliteration": "legómenon",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "acc", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "voc", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "masc"],
             "indices": { "strongs": "G3004" }
@@ -3915,14 +4813,23 @@
             "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγόμενος": {
         "transliteration": "legómenos",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"],
             "indices": { "strongs": "G3004" }
@@ -3941,51 +4848,114 @@
       "λεγομένους": {
         "transliteration": "legoménous",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "acc", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"] }
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "acc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "acc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγομένῳ": {
         "transliteration": "legoménō",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"] }
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λεγομένων": {
         "transliteration": "legoménōn",
         "cells": [
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"] }
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "fem"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "mid", "ptc", "gen", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "fem"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "fem"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "pas", "ptc", "gen", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγον": {
         "transliteration": "légon",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγοντα": {
         "transliteration": "légonta",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          },
           {
             "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"],
             "indices": { "strongs": "G3004" }
@@ -3994,7 +4964,10 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγοντά": {
@@ -4022,21 +4995,36 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγοντές": {
         "transliteration": "légontés",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγοντι": {
         "transliteration": "légonti",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγοντος": {
@@ -4077,11 +5065,23 @@
             "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"],
             "indices": { "strongs": "G3004" }
           },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
+          {
+            "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγουσαν": {
         "transliteration": "légousan",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
+      },
+      "λέγουσάν": {
+        "transliteration": "légousán",
         "cells": [
           {
             "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"],
@@ -4101,9 +5101,27 @@
       "λέγουσι": {
         "transliteration": "légousi",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"] }
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"],
+            "indices": { "strongs": "G3004" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
+      },
+      "λέγουσί": {
+        "transliteration": "légousí",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G3004" }
+          }
         ]
       },
       "λέγουσιν": {
@@ -4159,6 +5177,15 @@
           }
         ]
       },
+      "λέγωσι": {
+        "transliteration": "légōsi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+            "indices": { "strongs": "G3004" }
+          }
+        ]
+      },
       "λέγωσιν": {
         "transliteration": "légōsin",
         "cells": [
@@ -4188,6 +5215,119 @@
             "indices": { "strongs": "G2036" }
           }
         ]
+      },
+      "ῥηθείς": {
+        "transliteration": "rhētheís",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθείσης": {
+        "transliteration": "rhētheísēs",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "gen", "sg", "fem"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθεῖσιν": {
+        "transliteration": "rhētheîsin",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "dat", "pl", "masc"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "dat", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθέν": {
+        "transliteration": "rhēthén",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "neut"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "neut"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθέντα": {
+        "transliteration": "rhēthénta",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "acc", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "masc"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθέντων": {
+        "transliteration": "rhēthéntōn",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "gen", "pl", "masc"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "aor", "pas", "ptc", "gen", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθῆναι": {
+        "transliteration": "rhēthē̂nai",
+        "cells": [
+          {
+            "parse": ["verb", "aor", "pas", "inf"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθήσεται": {
+        "transliteration": "rhēthḗsetai",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
+      },
+      "ῥηθησομένοις": {
+        "transliteration": "rhēthēsoménois",
+        "cells": [
+          {
+            "parse": ["verb", "fut", "pas", "ptc", "dat", "pl", "masc"],
+            "indices": { "strongs": "G4483" }
+          },
+          {
+            "parse": ["verb", "fut", "pas", "ptc", "dat", "pl", "neut"],
+            "indices": { "strongs": "G4483" }
+          }
+        ]
       }
     }
   },
@@ -4196,6 +5336,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lahmi",
     "inflections": {
       "Λεεμι": {
         "transliteration": "Leemi",
@@ -4207,6 +5348,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to pillage, plunder",
     "inflections": {
       "λεηλατεῖν": {
         "transliteration": "leēlateîn",
@@ -4217,6 +5359,7 @@
   "Λεια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Leah; lit. Weary",
     "inflections": {
       "Λεια": {
         "transliteration": "Leia",
@@ -4237,29 +5380,12 @@
       }
     }
   },
-  "λεία": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G3006" },
-    "inflections": {
-      "λειας": {
-        "transliteration": "leias",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
-      },
-      "λείας": {
-        "transliteration": "leías",
-        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
-      }
-    }
-  },
   "λεῖμμα": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a remnant, remainder",
     "indices": { "strongs": "G3005" },
     "inflections": {
       "λεῖμμα": {
@@ -4279,6 +5405,8 @@
   "λεῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be smooth, level",
+    "indices": { "strongs": "G3006" },
     "inflections": {
       "λεῖα": {
         "transliteration": "leîa",
@@ -4288,6 +5416,13 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "λειας": {
+        "transliteration": "leias",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
         ]
       },
       "λείας": {
@@ -4317,6 +5452,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to desert (one’s post)",
     "inflections": {
       "λειποτακτήσητε": {
         "transliteration": "leipotaktḗsēte",
@@ -4341,14 +5477,6 @@
         "transliteration": "élipon",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
-        ]
-      },
-      "ἐλλεῖπον": {
-        "transliteration": "elleîpon",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "λείπει": {
@@ -4517,6 +5645,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a liturgical article, ministering vessel",
     "inflections": {
       "λειτουργήματα": {
         "transliteration": "leitourgḗmata",
@@ -4531,6 +5660,7 @@
   "λειτουργήσιμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be for liturgical use",
     "inflections": {
       "λειτουργησίμων": {
         "transliteration": "leitourgēsímōn",
@@ -4577,6 +5707,7 @@
   "λειτουργικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be liturgical, ministering",
     "indices": { "strongs": "G3010" },
     "inflections": {
       "λειτουργικά": {
@@ -4638,7 +5769,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "lichen, a scabby eruption",
+    "shortDefinition": "a lichen, scaly rash",
     "inflections": {
       "λιχήν": {
         "transliteration": "lichḗn",
@@ -4654,6 +5785,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to lick",
     "inflections": {
       "ἔλειξαν": {
         "transliteration": "éleixan",
@@ -4670,6 +5802,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a dish, pan",
     "inflections": {
       "λακάνῃ": {
         "transliteration": "lakánē",
@@ -4691,7 +5824,7 @@
   "λεληθότως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "unnoticed, secretly",
+    "shortDefinition": "unnoticed, by stealth",
     "inflections": {
       "λεληθότως": {
         "transliteration": "lelēthótōs",
@@ -4704,6 +5837,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λεμνα": {
         "transliteration": "Lemna",
@@ -4716,6 +5850,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λεμωνα": {
         "transliteration": "Lemōna",
@@ -4728,6 +5863,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a towel, linen cloth",
     "indices": { "strongs": "G3012" },
     "inflections": {
       "λέντιον": {
@@ -4749,6 +5885,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a diction, wording; fig. a language, dialect",
     "inflections": {
       "λέξεων": {
         "transliteration": "léxeōn",
@@ -4783,6 +5920,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to peel, strip (bark)",
     "inflections": {
       "ἐλέπισεν": {
         "transliteration": "elépisen",
@@ -4796,8 +5934,7 @@
         "transliteration": "lepísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -4807,6 +5944,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a scale, flake; fig. a (metal) plate",
     "indices": { "strongs": "G3013" },
     "inflections": {
       "λεπίδας": {
@@ -4827,6 +5965,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a peeling, peeled strip",
     "inflections": {
       "λεπίσματα": {
         "transliteration": "lepísmata",
@@ -4842,6 +5981,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a leprosy, scaly skin disease",
     "indices": { "strongs": "G3014" },
     "inflections": {
       "λέπρα": {
@@ -4858,11 +5998,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to have leprosy, be a leper",
     "inflections": {
       "λεπρᾷ": {
         "transliteration": "leprâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -4885,6 +6025,7 @@
   "λεπρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be leprous, scaly",
     "indices": { "strongs": "G3015" },
     "inflections": {
       "λεπροί": {
@@ -4922,6 +6063,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to become leprous, be stricken with leprosy",
     "inflections": {
       "λελεπρωμένος": {
         "transliteration": "leleprōménos",
@@ -4933,31 +6075,11 @@
       }
     }
   },
-  "λεπτόν": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "indices": { "strongs": "G3016" },
-    "inflections": {
-      "λεπτά": {
-        "transliteration": "leptá",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      },
-      "λεπτόν": {
-        "transliteration": "leptón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      }
-    }
-  },
   "λεπτός": {
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be thin, fine; fig. to be a lepton (small coin)",
     "inflections": {
       "λεπτά": {
         "transliteration": "leptá",
@@ -4966,7 +6088,10 @@
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "λεπταί": {
@@ -5007,7 +6132,9 @@
           { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
         ]
       },
       "λεπτοτάτων": {
@@ -5027,12 +6154,14 @@
           { "parse": ["adj", "voc", "sg", "neut", "comp"] }
         ]
       }
-    }
+    },
+    "indices": { "strongs": "G3016" }
   },
   "λεπτύνω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to make fine, grind to powder; fig. to crush",
     "inflections": {
       "ἐλέπτυνα": {
         "transliteration": "eléptyna",
@@ -5057,18 +6186,12 @@
         "transliteration": "leptyneî",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "λεπτύνει": {
         "transliteration": "leptýnei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -5077,10 +6200,7 @@
       },
       "λεπτυνεῖς": {
         "transliteration": "leptyneîs",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "λεπτῦνον": {
         "transliteration": "leptŷnon",
@@ -5093,19 +6213,11 @@
       },
       "λεπτυνοῦσιν": {
         "transliteration": "leptynoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "λεπτυνῶ": {
         "transliteration": "leptynō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
@@ -5114,6 +6226,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a rind, husk",
     "inflections": {
       "λέπυρον": {
         "transliteration": "lépyron",
@@ -5130,6 +6243,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a gossip, idle talk",
     "inflections": {
       "λέσχαι": {
         "transliteration": "léschai",
@@ -5145,15 +6259,26 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "indices": { "strongs": "G3017" },
+    "shortDefinition": "Levi; lit. Attached",
+    "indices": { "strongs": ["G3017", "G3018"] },
     "inflections": {
       "Λευι": {
         "transliteration": "Leui",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [
+          {
+            "parse": ["noun", "indecl-proper", "masc"],
+            "indices": { "strongs": "G3017" }
+          }
+        ]
       },
       "Λευΐ": {
         "transliteration": "Leuḯ",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          {
+            "parse": ["noun", "indecl-proper"],
+            "indices": { "strongs": "G3017" }
+          }
+        ]
       }
     }
   },
@@ -5162,18 +6287,12 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Levi, Levis; lit. Attached",
     "indices": { "strongs": "G3018" },
     "inflections": {
-      "Λευΐ": {
-        "transliteration": "Leuḯ",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
       "Λευιν": {
         "transliteration": "Leuin",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Λευΐν": {
         "transliteration": "Leuḯn",
@@ -5246,6 +6365,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be Levitical",
     "indices": { "strongs": "G3020" },
     "inflections": {
       "Λευϊτικῆς": {
@@ -5258,7 +6378,19 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be whitish, turn white",
     "inflections": {
+      "λελευκανθισμένη": {
+        "transliteration": "leleukanthisménē",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
+        ]
+      },
       "λευκαθίζοντα": {
         "transliteration": "leukathízonta",
         "cells": [
@@ -5274,6 +6406,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to whiten, make white",
     "indices": { "strongs": "G3021" },
     "inflections": {
       "ἐλεύκαναν": {
@@ -5283,8 +6416,7 @@
       "ἐλεύκανεν": {
         "transliteration": "eleúkanen",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
       },
       "λευκαίνουσα": {
@@ -5304,27 +6436,24 @@
       },
       "λευκανῶ": {
         "transliteration": "leukanō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       }
     }
   },
-  "λευκανθίζω": {
+  "λεύκη": {
     "language": "greek",
-    "pos": "verb",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "shortDefinition": "a white poplar",
     "inflections": {
-      "λελευκανθισμένη": {
-        "transliteration": "leleukanthisménē",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
-        ]
+      "λεύκην": {
+        "transliteration": "leúkēn",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "λεύκης": {
+        "transliteration": "leúkēs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -5332,6 +6461,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lucius; lit. Illuminative",
     "inflections": {
       "Λεύκιος": {
         "transliteration": "Leúkios",
@@ -5378,14 +6508,6 @@
         "transliteration": "leukḗn",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
-      "λεύκην": {
-        "transliteration": "leúkēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "λεύκης": {
-        "transliteration": "leúkēs",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
-      },
       "λευκοί": {
         "transliteration": "leukoí",
         "cells": [
@@ -5422,6 +6544,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a whiteness",
     "inflections": {
       "λευκότητος": {
         "transliteration": "leukótētos",
@@ -5434,7 +6557,12 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a white film (on the eye), leucoma",
     "inflections": {
+      "λευκώμασιν": {
+        "transliteration": "leukṓmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "λευκώματα": {
         "transliteration": "leukṓmata",
         "cells": [
@@ -5449,22 +6577,11 @@
       }
     }
   },
-  "λευκώμασις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3f-is",
-    "inflections": {
-      "λευκώμασιν": {
-        "transliteration": "leukṓmasin",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "Λεχι": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lehi; lit. Jaw",
     "inflections": {
       "Λεχι": {
         "transliteration": "Lechi",
@@ -5477,6 +6594,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-os",
+    "shortDefinition": "a new mother, woman after childbirth",
     "inflections": {
       "λεχώ": {
         "transliteration": "lechṓ",
@@ -5492,6 +6610,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a lion",
     "indices": { "strongs": "G3023" },
     "inflections": {
       "λέοντα": {
@@ -5542,6 +6661,7 @@
   "λεωπετρία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a smooth (bare) rock",
     "inflections": {
       "λεωπετρίαν": {
         "transliteration": "leōpetrían",
@@ -5553,13 +6673,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to cease, leave off",
     "inflections": {
       "ἔληγεν": {
         "transliteration": "élēgen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔληξεν": {
         "transliteration": "élēxen",
@@ -5591,6 +6709,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "an oblivion, forgetting",
     "indices": { "strongs": "G3024" },
     "inflections": {
       "λήθη": {
@@ -5619,6 +6738,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a prophetic burden, oracle; lit. a thing received",
     "inflections": {
       "λῆμμα": {
         "transliteration": "lē̂mma",
@@ -5651,6 +6771,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a winepress, wine vat; fig. a trough",
     "indices": { "strongs": "G3025" },
     "inflections": {
       "ληνοί": {
@@ -5712,11 +6833,11 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be nonsensical, silly",
     "inflections": {
       "ληρῶδες": {
         "transliteration": "lērō̂des",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] },
@@ -5730,6 +6851,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to rob, raid (as a bandit)",
     "inflections": {
       "λῃστεύειν": {
         "transliteration": "lēsteúein",
@@ -5742,6 +6864,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a band of robbers, raiding party",
     "inflections": {
       "λῃστήρια": {
         "transliteration": "lēstḗria",
@@ -5766,6 +6889,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a robber, bandit, brigand",
     "indices": { "strongs": "G3027" },
     "inflections": {
       "λῃσταί": {
@@ -5806,6 +6930,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lecah; lit. Journey",
     "inflections": {
       "Ληχα": {
         "transliteration": "Lēcha",
@@ -5818,6 +6943,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a receiving, taking",
     "indices": { "strongs": "G3028" },
     "inflections": {
       "λήμψεις": {
@@ -5845,6 +6971,7 @@
   "λίαν": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "very, greatly, exceedingly",
     "indices": { "strongs": "G3029" },
     "inflections": {
       "λίαν": { "transliteration": "lían", "cells": [{ "parse": ["adv"] }] }
@@ -5855,6 +6982,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a frankincense",
     "indices": { "strongs": "G3030" },
     "inflections": {
       "λίβανον": {
@@ -5880,6 +7008,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Lebanon; lit. White Mountain",
     "inflections": {
       "Λίβανον": {
         "transliteration": "Líbanon",
@@ -5906,6 +7035,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to scent with frankincense",
     "inflections": {
       "λελιβανωμένου": {
         "transliteration": "lelibanōménou",
@@ -5925,6 +7055,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a frankincense (gum); fig. a censer",
     "indices": { "strongs": "G3031" },
     "inflections": {
       "λιβανωτόν": {
@@ -5942,6 +7073,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Libertine, freedman",
     "indices": { "strongs": "G3032" },
     "inflections": {
       "Λιβερτίνων": {
@@ -5950,37 +7082,12 @@
       }
     }
   },
-  "Λίβευς": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Λίβυες": {
-        "transliteration": "Líbyes",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "Λίβυες": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Λίβυες": {
-        "transliteration": "Líbyes",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
-      "Λιβύων": {
-        "transliteration": "Libýōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Λιβύη": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "Libya",
     "indices": { "strongs": "G3033" },
     "inflections": {
       "Λιβύης": {
@@ -5989,11 +7096,27 @@
       }
     }
   },
+  "Λίβυς": {
+    "language": "greek",
+    "pos": "noun",
+    "shortDefinition": "a Libyan",
+    "inflections": {
+      "Λίβυες": {
+        "transliteration": "Líbyes",
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+      },
+      "Λιβύων": {
+        "transliteration": "Libýōn",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
   "λιγύριον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a ligure (gem), amber",
     "inflections": {
       "λιγύριον": {
         "transliteration": "ligýrion",
@@ -6009,6 +7132,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to stone, pelt with stones",
     "indices": { "strongs": "G3034" },
     "inflections": {
       "ἐλιθάσθην": {
@@ -6059,6 +7183,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be of stone, stony",
     "indices": { "strongs": "G3035" },
     "inflections": {
       "λίθινα": {
@@ -6129,6 +7254,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to stone (to death), throw stones at",
     "indices": { "strongs": "G3036" },
     "inflections": {
       "ἐλιθοβόλησαν": {
@@ -6215,6 +7341,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a stone-thrower, catapult",
     "inflections": {
       "λιθοβόλα": {
         "transliteration": "lithobóla",
@@ -6273,7 +7400,10 @@
   },
   "Λιθόστρωτον": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
+    "shortDefinition": "The Pavement; lit. Stone-Paved",
     "indices": { "strongs": "G3038" },
     "inflections": {
       "Λιθόστρωτον": {
@@ -6289,6 +7419,7 @@
   "λιθόστρωτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be stone-paved, paved with stone",
     "inflections": {
       "λιθόστρωτον": {
         "transliteration": "lithóstrōton",
@@ -6314,14 +7445,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to work in stone, carve stone",
     "inflections": {
       "λιθουργῆσαι": {
         "transliteration": "lithourgē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -6329,6 +7457,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be of stonework, stone-carving",
     "inflections": {
       "λιθουργικά": {
         "transliteration": "lithourgiká",
@@ -6346,9 +7475,10 @@
       }
     }
   },
-  "λιθούργος": {
+  "λιθουργός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a stone engraver, gem cutter",
     "inflections": {
       "λιθουργοῦ": {
         "transliteration": "lithourgoû",
@@ -6363,7 +7493,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "stony, full of stones",
+    "shortDefinition": "to be rocky, stone-strewn",
     "inflections": {
       "λιθώδεσιν": {
         "transliteration": "lithṓdesin",
@@ -6380,6 +7510,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "fut": "λικμη" },
+    "shortDefinition": "to winnow; fig. to scatter, crush to powder",
     "indices": { "strongs": "G3039" },
     "inflections": {
       "ἐλίκμησα": {
@@ -6403,7 +7534,6 @@
       "λικμᾷ": {
         "transliteration": "likmâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -6459,10 +7589,7 @@
       },
       "λικμήσεις": {
         "transliteration": "likmḗseis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "λικμήσω": {
         "transliteration": "likmḗsō",
@@ -6470,6 +7597,10 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
+      },
+      "λικμιῶ": {
+        "transliteration": "likmiō̂",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "λικμωμένους": {
         "transliteration": "likmōménous",
@@ -6493,6 +7624,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a winnower",
     "inflections": {
       "λικμήτωρ": {
         "transliteration": "likmḗtōr",
@@ -6501,36 +7633,28 @@
     },
     "gender": "masc"
   },
-  "λικμίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to winnow, scatter",
-    "inflections": {
-      "λικμιῶ": {
-        "transliteration": "likmiō̂",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
   "λικμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a winnowing fan, winnowing basket",
     "inflections": {
       "λικμῷ": {
         "transliteration": "likmō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
   "λιμά": {
     "language": "greek",
     "pos": "hebrew",
+    "shortDefinition": "why?; trad. lama",
     "indices": { "strongs": "G2982" },
     "inflections": {
+      "λαμά": { "transliteration": "lamá", "cells": [{ "parse": ["hebrew"] }] },
+      "λαμμᾶ": {
+        "transliteration": "lammâ",
+        "cells": [{ "parse": ["aramaic"] }]
+      },
       "λιμά": {
         "transliteration": "limá",
         "cells": [{ "parse": ["hebrew"] }, { "parse": ["aramaic"] }]
@@ -6541,6 +7665,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to weaken with hunger",
     "inflections": {
       "ἐλιμαγχόνησέν": {
         "transliteration": "elimanchónēsén",
@@ -6553,6 +7678,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a harbor, haven",
     "indices": { "strongs": "G3040" },
     "inflections": {
       "λιμένα": {
@@ -6578,6 +7704,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a lake, pool",
     "indices": { "strongs": "G3041" },
     "inflections": {
       "λίμναι": {
@@ -6613,6 +7740,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to let starve, famish; lit. to kill with hunger",
     "inflections": {
       "λιμοκτονήσει": {
         "transliteration": "limoktonḗsei",
@@ -6628,6 +7756,7 @@
     "pos": "noun",
     "gender": ["fem", "masc"],
     "declension": "2-common",
+    "shortDefinition": "a famine, hunger",
     "indices": { "strongs": "G3042" },
     "inflections": {
       "λιμοί": {
@@ -6662,7 +7791,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to be famished, go hungry",
+    "shortDefinition": "to be famished, starving",
     "inflections": {
       "λιμώξουσιν": {
         "transliteration": "limṓxousin",
@@ -6675,6 +7804,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a flax stalk, flax straw",
     "inflections": {
       "λινοκαλάμῃ": {
         "transliteration": "linokalámē",
@@ -6687,6 +7817,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a flax; fig. a linen (cloth), wick",
     "indices": { "strongs": "G3043" },
     "inflections": {
       "λίνον": {
@@ -6704,6 +7835,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Linus",
     "indices": { "strongs": "G3044" },
     "inflections": {
       "Λῖνος": {
@@ -6716,6 +7848,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-contract",
+    "shortDefinition": "to be linen, of flax",
     "inflections": {
       "λινᾶ": {
         "transliteration": "linâ",
@@ -6760,6 +7893,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "λιπαν" },
+    "shortDefinition": "to fatten, oil; fig. to anoint",
     "inflections": {
       "ἐλίπανας": {
         "transliteration": "elípanas",
@@ -6784,8 +7918,6 @@
       "λιπαίνει": {
         "transliteration": "lipaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -6794,9 +7926,7 @@
       },
       "λιπανάτω": {
         "transliteration": "lipanátō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] }]
       },
       "λίπανον": {
         "transliteration": "lípanon",
@@ -6847,6 +7977,7 @@
   "λιπαρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be fat, rich; fig. to be sumptuous, dainty",
     "indices": { "strongs": "G3045" },
     "inflections": {
       "λιπαρά": {
@@ -6885,6 +8016,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a fat food, rich dish",
     "inflections": {
       "λιπάσματα": {
         "transliteration": "lipásmata",
@@ -6900,6 +8032,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to faint, swoon",
     "inflections": {
       "λιποθυμεῖν": {
         "transliteration": "lipothymeîn",
@@ -6911,6 +8044,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to pray earnestly, plead",
     "inflections": {
       "λίσσομαι": {
         "transliteration": "líssomai",
@@ -6926,6 +8060,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a suppliant prayer, entreaty",
     "inflections": {
       "λιτανεία": {
         "transliteration": "litaneía",
@@ -6951,6 +8086,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to supplicate, entreat",
     "inflections": {
       "ἐλιτάνευον": {
         "transliteration": "elitáneuon",
@@ -6968,6 +8104,7 @@
   "λιτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be cheap, worthless",
     "inflections": {
       "λιτοί": {
         "transliteration": "litoí",
@@ -6984,6 +8121,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a pound (Roman weight)",
     "indices": { "strongs": "G3046" },
     "inflections": {
       "λίτραν": {
@@ -6999,6 +8137,7 @@
   "λιχνεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a greed for dainties, gourmandizing",
     "inflections": {
       "λιχνείας": {
         "transliteration": "lichneías",
@@ -7013,6 +8152,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "the southwest (wind); fig. the south",
     "indices": { "strongs": "G3047" },
     "inflections": {
       "λίβα": {
@@ -7029,7 +8169,7 @@
       },
       "λίψ": {
         "transliteration": "líps",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -7037,6 +8177,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λοβενα": {
         "transliteration": "Lobena",
@@ -7049,6 +8190,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Libni; lit. White",
     "inflections": {
       "Λοβενι": {
         "transliteration": "Lobeni",
@@ -7061,6 +8203,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λοβνα": {
         "transliteration": "Lobna",
@@ -7072,6 +8215,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Laban; lit. White",
     "inflections": {
       "Λοβον": {
         "transliteration": "Lobon",
@@ -7084,6 +8228,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a lobe (of ear or liver)",
     "inflections": {
       "λοβόν": {
         "transliteration": "lobón",
@@ -7099,6 +8244,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lebo Hamath; lit. Entrance of Hamath",
     "inflections": {
       "Λοβωημαθ": {
         "transliteration": "Lobōēmath",
@@ -7111,6 +8257,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an oracle pouch, breastpiece; trad. a breastplate",
     "inflections": {
       "λογεῖον": {
         "transliteration": "logeîon",
@@ -7134,6 +8281,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a (money) collection, contribution",
     "indices": { "strongs": "G3048" },
     "inflections": {
       "λογίαι": {
@@ -7157,6 +8305,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to reckon, count; fig. to consider, credit (to)",
     "indices": { "strongs": "G3049" },
     "inflections": {
       "ἐλογίζετο": {
@@ -7248,7 +8397,6 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "mid-dep", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "mid-dep", "inf"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] },
@@ -7509,8 +8657,7 @@
         "transliteration": "logísēsthe",
         "cells": [
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "pl"] },
-          { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "pl"] }
+          { "parse": ["verb", "aor", "mid-dep", "subj", "pers-2", "pl"] }
         ]
       },
       "λογίσηται": {
@@ -7658,6 +8805,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a reckoning; fig. a reasoning, thought, device",
     "indices": { "strongs": "G3053" },
     "inflections": {
       "λογισμέ": {
@@ -7702,6 +8850,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a calculator, (military) engineer",
     "inflections": {
       "λογιστοῦ": {
         "transliteration": "logistoû",
@@ -7713,6 +8862,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to fight over words, quibble",
     "indices": { "strongs": "G3054" },
     "inflections": {
       "λογομαχεῖν": {
@@ -7725,6 +8875,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a word-fight, quibbling",
     "indices": { "strongs": "G3055" },
     "inflections": {
       "λογομαχίας": {
@@ -7787,6 +8938,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a spearhead, lance",
     "indices": { "strongs": "G3057" },
     "inflections": {
       "λόγχαι": {
@@ -7822,6 +8974,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lod",
     "inflections": {
       "Λοδ": {
         "transliteration": "Lod",
@@ -7834,6 +8987,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Darkon, Lozon",
     "inflections": {
       "Λοζων": {
         "transliteration": "Lozōn",
@@ -7845,6 +8999,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to rail at, revile, insult",
     "indices": { "strongs": "G3058" },
     "inflections": {
       "ἐλοιδορεῖτο": {
@@ -7926,6 +9081,7 @@
   "λοιδόρησις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a reviling; fig. Reviling (place name)",
     "inflections": {
       "λοιδόρησις": {
         "transliteration": "loidórēsis",
@@ -7937,6 +9093,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a verbal abuse, railing, reproach",
     "indices": { "strongs": "G3059" },
     "inflections": {
       "λοιδορίαι": {
@@ -7961,7 +9118,8 @@
   },
   "λοίδορος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "shortDefinition": "a reviler, abusive person",
     "indices": { "strongs": "G3060" },
     "inflections": {
       "λοίδοροι": {
@@ -7984,6 +9142,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to be a pest, do harm",
     "inflections": {
       "λοιμεύηται": {
         "transliteration": "loimeúētai",
@@ -8000,6 +9159,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a plague, pestilence; fig. a pest, pestilent person",
     "indices": { "strongs": "G3061" },
     "inflections": {
       "λοιμήν": {
@@ -8016,7 +9176,6 @@
       "λοιμοῖς": {
         "transliteration": "loimoîs",
         "cells": [
-          { "parse": ["adj", "dat", "pl", "fem"] },
           { "parse": ["adj", "dat", "pl", "masc"] },
           { "parse": ["adj", "dat", "pl", "neut"] }
         ]
@@ -8027,30 +9186,22 @@
       },
       "λοιμός": {
         "transliteration": "loimós",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
       },
       "λοιμοῦ": {
         "transliteration": "loimoû",
         "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
           { "parse": ["adj", "gen", "sg", "masc"] },
           { "parse": ["adj", "gen", "sg", "neut"] }
         ]
       },
       "λοιμούς": {
         "transliteration": "loimoús",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "acc", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
       },
       "λοιμῷ": {
         "transliteration": "loimō̂",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
           { "parse": ["adj", "dat", "sg", "masc"] },
           { "parse": ["adj", "dat", "sg", "neut"] }
         ]
@@ -8069,6 +9220,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a pestilence, malignity",
     "inflections": {
       "λοιμότητι": {
         "transliteration": "loimótēti",
@@ -8077,43 +9229,10 @@
     },
     "gender": "fem"
   },
-  "λοιπόν": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2",
-    "shortDefinition": "remaining, the rest of",
-    "inflections": {
-      "λοιπαῖς": {
-        "transliteration": "loipaîs",
-        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
-      },
-      "λοιπή": {
-        "transliteration": "loipḗ",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
-      },
-      "λοιπήν": {
-        "transliteration": "loipḗn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "λοιπός": {
-        "transliteration": "loipós",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
-      },
-      "λοιπῷ": {
-        "transliteration": "loipō̂",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "λοιπός": {
     "language": "greek",
     "pos": "adj",
+    "declension": "2-1-2",
     "shortDefinition": "to be remaining, the rest of",
     "indices": { "strongs": ["G3062", "G3063", "G3064"] },
     "inflections": {
@@ -8141,6 +9260,10 @@
           { "parse": ["adj", "voc", "pl", "fem"] }
         ]
       },
+      "λοιπαῖς": {
+        "transliteration": "loipaîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
+      },
       "λοιπάς": {
         "transliteration": "loipás",
         "cells": [
@@ -8149,6 +9272,17 @@
             "indices": { "strongs": "G3062" }
           }
         ]
+      },
+      "λοιπή": {
+        "transliteration": "loipḗ",
+        "cells": [
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
+      "λοιπήν": {
+        "transliteration": "loipḗn",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
       "λοιποί": {
         "transliteration": "loipoí",
@@ -8185,6 +9319,10 @@
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
+      "λοιπός": {
+        "transliteration": "loipós",
+        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+      },
       "λοιποῦ": {
         "transliteration": "loipoû",
         "cells": [
@@ -8201,6 +9339,13 @@
             "parse": ["adj", "acc", "pl", "masc"],
             "indices": { "strongs": "G3062" }
           }
+        ]
+      },
+      "λοιπῷ": {
+        "transliteration": "loipō̂",
+        "cells": [
+          { "parse": ["adj", "dat", "sg", "masc"] },
+          { "parse": ["adj", "dat", "sg", "neut"] }
         ]
       },
       "λοιπῶν": {
@@ -8225,6 +9370,7 @@
   "Λομνα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Libnah; lit. Whitish Tree",
     "inflections": {
       "Λομνα": {
         "transliteration": "Lomna",
@@ -8237,10 +9383,7 @@
       },
       "Λομναν": {
         "transliteration": "Lomnan",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -8248,7 +9391,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Lydia",
+    "shortDefinition": "Lud",
     "inflections": {
       "Λουδ": {
         "transliteration": "Loud",
@@ -8261,7 +9404,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "a Lydian",
+    "shortDefinition": "a Ludite",
     "inflections": {
       "Λουδιιμ": {
         "transliteration": "Loudiim",
@@ -8286,7 +9429,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Luhith",
+    "shortDefinition": "Luhith; lit. Floored",
     "inflections": {
       "Λουιθ": {
         "transliteration": "Louith",
@@ -8299,6 +9442,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Jokmeam; lit. People Will Be Raised",
     "inflections": {
       "Λουκαμ": {
         "transliteration": "Loukam",
@@ -8310,6 +9454,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "Luke, Lucas",
     "indices": { "strongs": "G3065" },
     "inflections": {
       "Λουκᾶς": {
@@ -8323,6 +9468,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Lucius; lit. Illuminative",
     "indices": { "strongs": "G3066" },
     "inflections": {
       "Λούκιος": {
@@ -8336,6 +9482,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lusamencha",
     "inflections": {
       "Λουσαμηνχα": {
         "transliteration": "Lousamēncha",
@@ -8348,6 +9495,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a washing basin; trad. a laver",
     "inflections": {
       "λουτῆρα": {
         "transliteration": "loutē̂ra",
@@ -8462,7 +9610,6 @@
         "transliteration": "loûsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -8538,6 +9685,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a ridge, crest (of a hill)",
     "inflections": {
       "λοφιάν": {
         "transliteration": "lophián",
@@ -8552,10 +9700,25 @@
       }
     }
   },
+  "λοχάω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-a",
+    "shortDefinition": "to waylay, lie in ambush",
+    "inflections": {
+      "λοχῶν": {
+        "transliteration": "lochō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
+      }
+    }
+  },
   "λοχεύω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to bear young, be in labor",
     "inflections": {
       "λοχευομένων": {
         "transliteration": "locheuoménōn",
@@ -8581,26 +9744,12 @@
       }
     }
   },
-  "λόχος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "λοχῶν": {
-        "transliteration": "lochō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "Λοωμιμ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "a Leumite",
+    "shortDefinition": "a Leummite",
     "inflections": {
       "Λοωμιμ": {
         "transliteration": "Loōmim",
@@ -8613,6 +9762,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "Lydda, Lod",
     "indices": { "strongs": "G3069" },
     "inflections": {
       "Λυδδα": {
@@ -8633,6 +9783,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Lydia",
     "indices": { "strongs": "G3070" },
     "inflections": {
       "Λυδία": {
@@ -8645,25 +9796,14 @@
       }
     }
   },
-  "Λυδοί": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Λυδοί": {
-        "transliteration": "Lydoí",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Λυδός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Lydian",
     "inflections": {
       "Λυδοί": {
         "transliteration": "Lydoí",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -8671,6 +9811,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be gory, blood-clotted",
     "inflections": {
       "λυθρώδει": {
         "transliteration": "lythrṓdei",
@@ -8686,6 +9827,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Lycaonia",
     "indices": { "strongs": "G3071" },
     "inflections": {
       "Λυκαονίας": {
@@ -8697,6 +9839,7 @@
   "Λυκαονιστί": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "in Lycaonian (language)",
     "indices": { "strongs": "G3072" },
     "inflections": {
       "Λυκαονιστί": {
@@ -8709,11 +9852,12 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Lycia; lit. Wolfish",
     "indices": { "strongs": "G3073" },
     "inflections": {
       "Λυκίαν": {
         "transliteration": "Lykían",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Λυκίας": {
         "transliteration": "Lykías",
@@ -8726,6 +9870,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a wolf",
     "indices": { "strongs": "G3074" },
     "inflections": {
       "λύκοι": {
@@ -8758,6 +9903,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to ravage, lay waste; fig. to maltreat, corrupt",
     "indices": { "strongs": "G3075" },
     "inflections": {
       "ἐλυμαίνετο": {
@@ -8843,17 +9989,11 @@
       },
       "λυμανεῖται": {
         "transliteration": "lymaneîtai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       },
       "λυμανοῦνται": {
         "transliteration": "lymanoûntai",
-        "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       },
       "λυμήνῃ": {
         "transliteration": "lymḗnē",
@@ -8879,6 +10019,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a destroyer, corrupter",
     "inflections": {
       "λυμεών": {
         "transliteration": "lymeṓn",
@@ -8986,7 +10127,6 @@
       "λυπεῖ": {
         "transliteration": "lypeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -9071,10 +10211,7 @@
       },
       "λυπήθητε": {
         "transliteration": "lypḗthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       },
       "λυπήσει": {
         "transliteration": "lypḗsei",
@@ -9186,6 +10323,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be distressing, grievous, sorrowful",
     "inflections": {
       "λυπηρά": {
         "transliteration": "lypērá",
@@ -9233,6 +10371,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Lysanias; lit. Grief-Dispelling",
     "indices": { "strongs": "G3078" },
     "inflections": {
       "Λυσανίου": {
@@ -9246,6 +10385,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Lysias",
     "indices": { "strongs": "G3079" },
     "inflections": {
       "Λυσίᾳ": {
@@ -9274,6 +10414,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Lysimachus",
     "inflections": {
       "Λυσίμαχον": {
         "transliteration": "Lysímachon",
@@ -9321,6 +10462,7 @@
   "λυσιτέλεια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a benefit, advantage",
     "inflections": {
       "λυσιτέλειαν": {
         "transliteration": "lysitéleian",
@@ -9352,6 +10494,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be beneficial, advantageous",
     "inflections": {
       "λυσιτελής": {
         "transliteration": "lysitelḗs",
@@ -9365,6 +10508,7 @@
   "Λύστρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Lystra",
     "indices": { "strongs": "G3082" },
     "inflections": {
       "Λύστραν": {
@@ -9382,6 +10526,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a ransom (price), release price",
     "indices": { "strongs": "G3083" },
     "inflections": {
       "λύτρα": {
@@ -9418,31 +10563,17 @@
       }
     }
   },
-  "λυτροῦμαι": {
+  "λυτρόω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "contract-o",
+    "shortDefinition": "to ransom, redeem",
     "indices": { "strongs": "G3084" },
     "inflections": {
       "ἐλυτρώθητε": {
         "transliteration": "elytrṓthēte",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "pl"] }]
       },
-      "λυτροῦσθαι": {
-        "transliteration": "lytroûsthai",
-        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
-      },
-      "λυτρώσηται": {
-        "transliteration": "lytrṓsētai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "λυτρόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
       "ἐλυτρωσάμην": {
         "transliteration": "elytrōsámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
@@ -9573,6 +10704,10 @@
           { "parse": ["verb", "pres", "pas", "ptc", "dat", "sg", "neut"] }
         ]
       },
+      "λυτροῦσθαι": {
+        "transliteration": "lytroûsthai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "inf"] }]
+      },
       "λυτροῦται": {
         "transliteration": "lytroûtai",
         "cells": [
@@ -9595,19 +10730,11 @@
       },
       "λύτρωσαι": {
         "transliteration": "lýtrōsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "λύτρωσαί": {
         "transliteration": "lýtrōsaí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }]
       },
       "λυτρωσάμενος": {
         "transliteration": "lytrōsámenos",
@@ -9672,6 +10799,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a privy, outhouse",
     "inflections": {
       "λυτρῶνας": {
         "transliteration": "lytrō̂nas",
@@ -9685,6 +10813,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a ransoming, redemption",
     "indices": { "strongs": "G3085" },
     "inflections": {
       "λυτρώσεως": {
@@ -9706,6 +10835,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a ransomer, redeemer; fig. a deliverer",
     "indices": { "strongs": "G3086" },
     "inflections": {
       "λυτρωτά": {
@@ -9733,6 +10863,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a lampstand; trad. a candlestick",
     "indices": { "strongs": "G3087" },
     "inflections": {
       "λυχνία": {
@@ -9775,13 +10906,6 @@
     "shortDefinition": "a lamp",
     "indices": { "strongs": "G3088" },
     "inflections": {
-      "λυχνοί": {
-        "transliteration": "lychnoí",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
       "λύχνοι": {
         "transliteration": "lýchnoi",
         "cells": [
@@ -9827,6 +10951,10 @@
     "shortDefinition": "to loosen, untie; fig. to release, dismantle",
     "indices": { "strongs": "G3089" },
     "inflections": {
+      "ἔλυε": {
+        "transliteration": "élye",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔλυεν": {
         "transliteration": "élyen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -10063,6 +11191,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Lo Debar; lit. Pastureless",
     "inflections": {
       "Λωδαβαρ": {
         "transliteration": "Lōdabar",
@@ -10075,6 +11204,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lothasubus",
     "inflections": {
       "Λωθασουβος": {
         "transliteration": "Lōthasoubos",
@@ -10087,6 +11217,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Lois",
     "indices": { "strongs": "G3090" },
     "inflections": {
       "Λωΐδι": {
@@ -10100,6 +11231,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a (robe) hem, border",
     "inflections": {
       "λῶμα": {
         "transliteration": "lō̂ma",
@@ -10119,6 +11251,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to strip and rob, plunder",
     "inflections": {
       "λωποδυτήσῃ": {
         "transliteration": "lōpodytḗsē",
@@ -10135,6 +11268,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Lot; lit. Veil",
     "indices": { "strongs": "G3091" },
     "inflections": {
       "Λωτ": {
@@ -10152,12 +11286,20 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Lotan",
+    "shortDefinition": "Lotan; lit. Covering",
     "inflections": {
       "Λωταν": {
         "transliteration": "Lōtan",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
+    }
+  },
+  "μάλα": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "very, exceedingly, indeed",
+    "inflections": {
+      "μάλα": { "transliteration": "mála", "cells": [{ "parse": ["adv"] }] }
     }
   }
 }

@@ -815,7 +815,7 @@
 <sup>13</sup> Tà prōtogenḗmata pánta, hósa en tē̂ gē̂ autō̂n, hósa àn enénkōsin kyríō, soì éstai; pâs katharòs en tō̂ oíkō sou édetai autá.
 <sup>14</sup> Pân anatethematisménon en hyioîs Israēl soì éstai.
 <sup>15</sup> Kaì pân dianoîgon mḗtran apò pásēs sarkós, hà prosphérousin kyríō apò anthrṓpou héōs ktḗnous, soì éstai; all’ ḕ lýtrois lytrōthḗsetai tà prōtótoka tō̂n anthrṓpōn, kaì tà prōtótoka tō̂n ktēnō̂n tō̂n akathártōn lytrṓsē.
-<sup>16</sup> Kaì hē lýtrōsis autoû apò mēniaíou; hē syntímēsis pénte síklōn katà tòn síklon tòn hágion [eíkosi óboloí eisin].
+<sup>16</sup> Kaì hē lýtrōsis autoû apò mēniaíou; hē syntímēsis pénte síklōn katà tòn síklon tòn hágion [eíkosi oboloí<sup>a</sup> eisin].
 <sup>17</sup> Plḕn prōtótoka móschōn kaì prōtótoka probátōn kaì prōtótoka aigō̂n ou lytrṓsē; hágiá estin; kaì tò haîma autō̂n proscheeîs pròs tò thysiastḗrion kaì tò stéar anoíseis kárpōma eis osmḕn euōdías kyríō;
 <sup>18</sup> kaì tà kréa éstai soí; kathà kaì tò stēthýnion toû epithématos kaì katà tòn brachíona tòn dexiòn soì éstai.
 <sup>19</sup> Pân aphaírema tō̂n hagíōn, hósa àn aphélōsin hoi hyioì Israēl kyríō, soì dédōka kaì toîs hyioîs sou kaì taîs thygatrásin sou metà soû, nómimon aiṓnion; diathḗkē halòs aiōníou estìn énanti kyríou soì kaì tō̂ spérmatí sou metà sé.
@@ -835,6 +835,8 @@
 <sup>30</sup> Kaì ereîs pròs autoús Hótan aphairē̂te tḕn aparchḕn ap’ autoû, kaì logisthḗsetai toîs Leuítais hōs génēma apò hálō kaì hōs génēma apò lēnoû.
 <sup>31</sup> Kaì édesthe autò en pantì tópō hymeîs kaì hoi oîkoi hymō̂n, hóti misthòs hoûtos hymîn estin antì tō̂n leitourgiō̂n hymō̂n tō̂n en tē̂ skēnē̂ toû martyríou;
 <sup>32</sup> kaì ou lḗmpsesthe di’ autò hamartían, hóti àn aphairē̂te tḕn aparchḕn ap’ autoû; kaì tà hágia tō̂n hyiō̂n Israēl ou bebēlṓsete, hína mḕ apothánēte.
+
+> - <sup>a</sup> 16. Corrected from óboloí, as seen in RH and SW. The noun obolós is accented only on its last syllable, as this edition prints it at its six other occurrences, oboloí among them at Exodus 30:13.
 
 ## Chapter 19
 
@@ -1021,10 +1023,12 @@
 <sup>25</sup> Kaì eîpen Balak pròs Balaam Oúte katárais katarásē moi autòn oúte eulogō̂n mḕ eulogḗsēs autón.
 <sup>26</sup> Kaì apokritheìs Balaam eîpen tō̂ Balak Ouk elálēsá soi légōn Tò rhē̂ma, hò eàn lalḗsē ho theós, toûto poiḗsō?
 
-<sup>27</sup> Kaì eîpen Balak pròs Balaam Deûro paralábō se eis tópon állon, ei arései tō̂ theō̂ kaì katarâsaí moi autòn ekeîthen.
+<sup>27</sup> Kaì eîpen Balak pròs Balaam Deûro paralábō se eis tópon állon, ei arései tō̂ theō̂ kaì katárasaí<sup>a</sup> moi autòn ekeîthen.
 <sup>28</sup> Kaì parélaben Balak tòn Balaam epì koryphḕn toû Phogōr tò parateînon eis tḕn érēmon.
 <sup>29</sup> Kaì eîpen Balaam pròs Balak Oikodómēsón moi hō̂de heptà bōmoùs kaì hetoímasón moi hō̂de heptà móschous kaì heptà krioús.
 <sup>30</sup> Kaì epoíēsen Balak katháper eîpen autō̂ Balaam, kaì anḗnenken móschon kaì kriòn epì tòn bōmón.
+
+> - <sup>a</sup> 27. Corrected from katarâsaí, as seen in RH and SW. The aorist middle imperative katárasai is accented on the third syllable from the end, and the enclitic moi after it adds a second acute. This edition prints the same command, katárasaí moi autòn ekeîthen, at Numbers 23:13.
 
 ## Chapter 24
 

@@ -6,13 +6,14 @@ Project overview, install/run commands, and JSON examples live in the [project R
 
 ## When to read what
 
-| You want to…                                                            | Start here                             |
-| ----------------------------------------------------------------------- | -------------------------------------- |
-| Understand the recursive content shape and add a new content variant    | [content-model.md](./content-model.md) |
-| Add a new translation, validate data, or change the export pipeline     | [data-pipeline.md](./data-pipeline.md) |
-| Import a translation from USFM source files, or add deuterocanon books  | [usfm-import.md](./usfm-import.md)     |
-| Modify the web reader, add a study-tool toggle, or change the API shape | [web-reader.md](./web-reader.md)       |
-| Work on roots, inflections, parses, or the Strong's crosswalk           | [lexical-map.md](./lexical-map.md)     |
+| You want to…                                                            | Start here                                     |
+| ----------------------------------------------------------------------- | ---------------------------------------------- |
+| Understand the recursive content shape and add a new content variant    | [content-model.md](./content-model.md)         |
+| Add a new translation, validate data, or change the export pipeline     | [data-pipeline.md](./data-pipeline.md)         |
+| Import a translation from USFM source files, or add deuterocanon books  | [usfm-import.md](./usfm-import.md)             |
+| Modify the web reader, add a study-tool toggle, or change the API shape | [web-reader.md](./web-reader.md)               |
+| Work on roots, inflections, parses, or the Strong's crosswalk           | [lexical-map.md](./lexical-map.md)             |
+| Write or revise a root's short definition in the lexical map            | [short-definitions.md](./short-definitions.md) |
 
 ## How the pieces fit together
 

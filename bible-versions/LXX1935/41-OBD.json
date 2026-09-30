@@ -74,7 +74,7 @@
         "script": "G",
         "transliteration": " Idoumaía",
         "strong": "G2401",
-        "morph": "N-PRI",
+        "morph": "N-DSF",
         "lemma": "Ἰδουμαία"
       },
       {
@@ -399,15 +399,16 @@
         "script": "G",
         "transliteration": " tō̂n",
         "strong": "G3588",
-        "morph": "T-GPM",
+        "morph": "T-GPF",
         "lemma": "ὁ"
       },
       {
         "text": " πετρῶν,",
         "script": "G",
         "transliteration": " petrō̂n,",
-        "morph": "N-GPM",
-        "lemma": "πέτρος"
+        "strong": "G4073",
+        "morph": "N-GPF",
+        "lemma": "πέτρα"
       },
       {
         "text": " ὑψῶν",
@@ -969,7 +970,7 @@
         "transliteration": "Héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " τῶν",
@@ -1889,8 +1890,9 @@
         "text": " ἐπίδῃς",
         "script": "G",
         "transliteration": " epídēs",
-        "morph": "V-PAS-2S",
-        "lemma": "ἐπιδέω"
+        "strong": "G1896",
+        "morph": "V-2AAS-2S",
+        "lemma": "ἐφοράω"
       },
       {
         "text": " ἡμέραν",
@@ -2164,8 +2166,9 @@
         "text": " ἐπίδῃς",
         "script": "G",
         "transliteration": " epídēs",
-        "morph": "V-PAS-2S",
-        "lemma": "ἐπιδέω"
+        "strong": "G1896",
+        "morph": "V-2AAS-2S",
+        "lemma": "ἐφοράω"
       },
       {
         "text": " καὶ",
@@ -3646,7 +3649,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " Σαρεπτων",
@@ -3694,7 +3697,7 @@
         "transliteration": " héōs",
         "strong": "G2193",
         "morph": "ADV",
-        "lemma": "ἕως"
+        "lemma": "ἕως¹"
       },
       {
         "text": " Εφραθα,",

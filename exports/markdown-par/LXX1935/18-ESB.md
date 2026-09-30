@@ -807,4 +807,4 @@
 <sup>30</sup> καὶ ἐκαθάρισα αὐτοὺς ἀπὸ πάσης ἀλλοτριώσεως καὶ ἔστησα ἐφημερίας τοῖς ἱερεῦσιν καὶ τοῖς Λευίταις, ἀνὴρ ὡς τὸ ἔργον αὐτοῦ,
 <sup>31</sup> καὶ τὸ δῶρον τῶν ξυλοφόρων ἐν καιροῖς ἀπὸ χρόνων καὶ ἐν τοῖς βακχουρίοις. Μνήσθητί μου, ὁ θεὸς ἡμῶν, εἰς ἀγαθωσύνην.
 
-> - <sup>a</sup> 25. Corrected from θυγετέρας.
+> - <sup>a</sup> 25. Corrected from θυγετέρας, as seen in RH and SW. The noun is θυγάτηρ, as this verse prints it again in θυγατέρων, and this edition prints θυγατέρας at its 111 other occurrences.

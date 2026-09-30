@@ -224,7 +224,7 @@
 <sup>3</sup> Kaì ēnéchthē, kaì épinon en autoîs
 <sup>4</sup> kaì ēulógoun tà eídōla tà cheiropoíēta autō̂n, kaì tòn theòn toû aiō̂nos ouk eulógēsan tòn échonta tḕn exousían toû pneúmatos autō̂n.
 <sup>5</sup> En autē̂ tē̂ hṓra ekeínē exē̂lthon dáktyloi hōseì cheiròs anthrṓpou kaì égrapsan epì toû toíchou toû oíkou autoû epì toû koniámatos katénanti toû phōtòs énanti toû basiléōs Baltasar, kaì eîde cheîra gráphousan.
-<sup>6</sup> Kaì hē hórasis autoû ēlloiṓthē, kaì phóboi kaì hypónoiai autòn katéspeudon. Éspeusen oûn ho basileùs kaì exanéstē kaì heṓra tḕn graphḕn ekeínēn, kaì hoi synetaîroi kýklō autoû ekauchō̂nto.
+<sup>6</sup> Kaì hē hórasis autoû ēlloiṓthē, kaì phóboi kaì hypónoiai autòn katéspeudon. Éspeusen oûn ho basileùs kaì exanéstē kaì heṓra tḕn graphḕn ekeínēn, kaì hoi synétairoi<sup>a</sup> kýklō autoû ekauchō̂nto.
 <sup>7</sup> Kaì ho basileùs ephṓnēse phōnē̂ megálē kalésai toùs epaoidoùs kaì pharmakoùs kaì Chaldaíous kaì gazarēnoùs apangeîlai tò sýnkrima tē̂s graphē̂s. Kaì eiseporeúonto epì theōrían ideîn tḕn graphḗn, kaì tò sýnkrima tē̂s graphē̂s ouk edýnanto synkrînai tō̂ basileî. Tóte ho basileùs exéthēke próstagma légōn Pâs anḗr, hòs àn hypodeíxē tò sýnkrima tē̂s graphē̂s, stolieî autòn porphýran kaì maniákēn chrysoûn perithḗsei autō̂, kaì dothḗsetai autō̂ exousía toû trítou mérous tē̂s basileías.
 <sup>8</sup> Kaì eiseporeúonto hoi epaoidoì kaì pharmakoì kaì gazarēnoí, kaì ouk ēdýnato oudeìs tò sýnkrima tē̂s graphē̂s apangeîlai.
 <sup>9</sup> Tóte ho basileùs ekálese tḕn basílissan perì toû sēmeíou kaì hypédeixen autē̂, hōs méga estí, kaì hóti pâs ánthrōpos ou dýnatai apangeîlai tō̂ basileî tò sýnkrima tē̂s graphē̂s.
@@ -239,6 +239,8 @@
 <sup>26</sup> Toûto tò sýnkrima tē̂s graphē̂s; ēríthmētai ho chrónos sou tē̂s basileías, apolḗgei hē basileía sou, syntétmētai kaì syntetélestai hē basileía sou, toîs Mḗdois kaì toîs Pérsais dídotai.
 <sup>29</sup> Tóte Baltasar ho basileùs enédyse tòn Daniēl porphýran kaì maniákēn chrysoûn periéthēken autō̂ kaì édōken exousían autō̂ toû trítou mérous tē̂s basileías autoû.
 <sup>30</sup> Kaì tò sýnkrima epē̂lthe Baltasar tō̂ basileî, kaì tò basíleion exē̂rtai apò tō̂n Chaldaíōn kaì edóthē toîs Mḗdois kaì toîs Pérsais.
+
+> - <sup>a</sup> 6. Corrected from synetaîroi, as seen in RH. The compound synétairos is accented on the third syllable from the end, as this edition prints synétairoi at 1 Esdras 6:3, 7 and 7:1.
 
 ## Chapter 6
 

@@ -4,26 +4,22 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "a hyena",
     "inflections": {
       "ὑαίνῃ": {
         "transliteration": "hyaínē",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      }
-    }
-  },
-  "ὑαίνης": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
+      },
       "ὑαίνης": {
         "transliteration": "hyaínēs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
   "ὑακίνθινος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be deep blue, hyacinth-colored",
     "indices": { "strongs": "G5191" },
     "inflections": {
       "ὑακίνθινα": {
@@ -31,9 +27,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ὑακινθίνας": {
@@ -72,6 +66,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a blue (yarn/cloth), hyacinth; fig. a jacinth (gem)",
     "indices": { "strongs": "G5192" },
     "inflections": {
       "ὑάκινθον": {
@@ -105,6 +100,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be glassy, of glass",
     "indices": { "strongs": "G5193" },
     "inflections": {
       "ὑαλίνη": {
@@ -120,6 +116,10 @@
   "ὕαλος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a glass, transparent stone",
+    "indices": { "strongs": "G5194" },
     "inflections": {
       "ὕαλος": {
         "transliteration": "hýalos",
@@ -130,6 +130,18 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὑάλῳ": {
+        "transliteration": "hyálō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "ὕελος": {
+        "transliteration": "hýelos",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "ὑέλῳ": {
+        "transliteration": "hyélō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -137,6 +149,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to insult, mistreat, outrage; fig. to be insolent",
     "indices": { "strongs": "G5195" },
     "inflections": {
       "ὑβρίζειν": {
@@ -177,7 +190,6 @@
         "transliteration": "hýbrisás",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
@@ -207,6 +219,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a hubris, insolence; fig. an insult, injury, damage",
     "indices": { "strongs": "G5196" },
     "inflections": {
       "ὕβρει": {
@@ -252,6 +265,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an insolent person, insulter",
     "indices": { "strongs": "G5197" },
     "inflections": {
       "ὑβριστάς": {
@@ -264,10 +278,11 @@
       },
       "ὑβριστής": {
         "transliteration": "hybristḗs",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "ὑβριστοῦ": {
+        "transliteration": "hybristoû",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "ὑβριστῶν": {
         "transliteration": "hybristō̂n",
@@ -278,6 +293,7 @@
   "ὑβριστικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be outrageous, riotous",
     "inflections": {
       "ὑβριστικόν": {
         "transliteration": "hybristikón",
@@ -291,23 +307,10 @@
       }
     }
   },
-  "ὕβριστος": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "ὑβριστοῦ": {
-        "transliteration": "hybristoû",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "ὑβρίστρια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an insolent woman",
     "inflections": {
       "ὑβρίστριαν": {
         "transliteration": "hybrístrian",
@@ -320,6 +323,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "perf": "υγια", "aor": "υγια" },
+    "shortDefinition": "to make healthy, restore to health",
     "inflections": {
       "ὑγίακεν": {
         "transliteration": "hygíaken",
@@ -380,8 +384,6 @@
       "ὑγιαίνει": {
         "transliteration": "hygiaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -394,10 +396,7 @@
       },
       "ὑγιαίνεις": {
         "transliteration": "hygiaíneis",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
       },
       "ὑγιαίνετε": {
         "transliteration": "hygiaínete",
@@ -461,6 +460,13 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "fem"] }
         ]
       },
+      "ὑγιαίνουσι": {
+        "transliteration": "hygiaínousi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
       "ὑγιαίνουσιν": {
         "transliteration": "hygiaínousin",
         "cells": [
@@ -485,6 +491,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a health, well-being",
     "inflections": {
       "ὑγιείᾳ": {
         "transliteration": "hygieía",
@@ -554,7 +561,7 @@
   "ὑγιῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "soundly, justly",
+    "shortDefinition": "soundly, fairly",
     "inflections": {
       "ὑγιῶς": { "transliteration": "hygiō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -563,6 +570,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to moisten, make wet",
     "inflections": {
       "ὑγραίνονται": {
         "transliteration": "hygraínontai",
@@ -577,6 +585,7 @@
   "ὑγρασία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wetness, moisture",
     "inflections": {
       "ὑγρασίᾳ": {
         "transliteration": "hygrasía",
@@ -587,6 +596,7 @@
   "ὑγρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be moist, wet; fig. to be green, sappy",
     "indices": { "strongs": "G5200" },
     "inflections": {
       "ὑγραῖς": {
@@ -624,48 +634,34 @@
   "Ὑδάσπης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Hydaspes",
     "inflections": {
       "Ὑδάσπην": {
         "transliteration": "Hydáspēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
   "ὑδραγωγός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an aqueduct, conduit",
     "inflections": {
       "ὑδραγωγοῖς": {
         "transliteration": "hydragōgoîs",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "ὑδραγωγόν": {
         "transliteration": "hydragōgón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ὑδραγωγός": {
         "transliteration": "hydragōgós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "ὑδραγωγῷ": {
         "transliteration": "hydragōgō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -673,6 +669,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to draw water",
     "inflections": {
       "ὑδρευόμεναι": {
         "transliteration": "hydreuómenai",
@@ -737,6 +734,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a water pot, water pitcher",
     "indices": { "strongs": "G5201" },
     "inflections": {
       "ὑδρία": {
@@ -783,6 +781,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a small water pot",
     "inflections": {
       "ὑδρίσκην": {
         "transliteration": "hydrískēn",
@@ -794,6 +793,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to drink (only) water",
     "indices": { "strongs": "G5202" },
     "inflections": {
       "ὑδροπότει": {
@@ -812,6 +812,7 @@
   "ὑδροφόρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a water carrier",
     "inflections": {
       "ὑδροφόροι": {
         "transliteration": "hydrophóroi",
@@ -842,6 +843,7 @@
   "ὑδρωπικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dropsical, swollen with fluid",
     "indices": { "strongs": "G5203" },
     "inflections": {
       "ὑδρωπικός": {
@@ -855,7 +857,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3-cons",
-    "shortDefinition": "water",
+    "shortDefinition": "a water",
     "indices": { "strongs": "G5204" },
     "inflections": {
       "ὕδασι": {
@@ -870,11 +872,8 @@
         "transliteration": "hýdata",
         "cells": [
           { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "voc", "pl", "neut"] }
         ]
       },
       "ὕδατι": {
@@ -900,21 +899,27 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὥδωρ": {
+        "transliteration": "hṓdōr",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
       }
     }
   },
   "ὕειος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of pigs, porcine",
     "inflections": {
       "ὕεια": {
         "transliteration": "hýeia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "ὕειον": {
@@ -937,27 +942,11 @@
       }
     }
   },
-  "ὕελος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "indices": { "strongs": "G5194" },
-    "inflections": {
-      "ὕελος": {
-        "transliteration": "hýelos",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "ὑέλῳ": {
-        "transliteration": "hyélō",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
-      }
-    }
-  },
   "ὑετίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to bring rain, cause to rain",
     "inflections": {
       "ὑετίζων": {
         "transliteration": "hyetízōn",
@@ -970,11 +959,7 @@
         "transliteration": "hyetísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       }
     }
@@ -1028,6 +1013,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an adoption (as son); lit. a placing as a son",
     "indices": { "strongs": "G5206" },
     "inflections": {
       "υἱοθεσία": {
@@ -1097,6 +1083,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to bark",
     "inflections": {
       "ὑλακτεῖν": {
         "transliteration": "hylakteîn",
@@ -1112,6 +1099,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a wood (forest or fuel); fig. a matter, material",
     "indices": { "strongs": "G5208" },
     "inflections": {
       "ὕλαις": {
@@ -1142,6 +1130,7 @@
   "ὑλοτόμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wood-cutting, timber-felling",
     "inflections": {
       "ὑλοτόμος": {
         "transliteration": "hylotómos",
@@ -1156,6 +1145,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be woody, bushy; fig. to be flush, well-stocked",
     "inflections": {
       "ὑλώδης": {
         "transliteration": "hylṓdēs",
@@ -1169,14 +1159,11 @@
   "ὑμέναιος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wedding song, bridal hymn",
     "inflections": {
       "ὑμεναίων": {
         "transliteration": "hymenaíōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -1185,6 +1172,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Hymenaeus; lit. Belonging to Marriage",
     "indices": { "strongs": "G5211" },
     "inflections": {
       "Ὑμέναιος": {
@@ -1197,6 +1185,7 @@
     "language": "greek",
     "pos": "pron-poss",
     "citationForms": ["ὑμέτερος", "ὑμετέρα"],
+    "shortDefinition": "your(s) [plural]",
     "indices": { "strongs": "G5212" },
     "inflections": {
       "ὑμετέρα": {
@@ -1266,13 +1255,13 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to hymn, sing praise to",
     "indices": { "strongs": "G5214" },
     "inflections": {
       "ὑμνεῖ": {
         "transliteration": "hymneî",
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -1370,12 +1359,19 @@
       "ὑμνῶμέν": {
         "transliteration": "hymnō̂mén",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"] }]
+      },
+      "ὑμνῶν": {
+        "transliteration": "hymnō̂n",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
+        ]
       }
     }
   },
   "ὕμνησις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a hymning, singing of praise",
     "inflections": {
       "ὕμνησίς": {
         "transliteration": "hýmnēsís",
@@ -1386,6 +1382,7 @@
   "ὑμνητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be hymned, worthy of praise",
     "inflections": {
       "ὑμνητός": {
         "transliteration": "hymnētós",
@@ -1399,6 +1396,7 @@
   "ὑμνογράφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a hymn writer, psalmist",
     "inflections": {
       "ὑμνογράφον": {
         "transliteration": "hymnográphon",
@@ -1440,10 +1438,6 @@
         "transliteration": "hýmnous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
-      "ὑμνῶν": {
-        "transliteration": "hymnō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      },
       "ὕμνων": {
         "transliteration": "hýmnōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
@@ -1454,6 +1448,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to sing hymns, chant praises",
     "inflections": {
       "ὑμνῳδοῦντες": {
         "transliteration": "hymnōdoûntes",
@@ -1468,6 +1463,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to prescribe, specify",
     "inflections": {
       "ὑπαγορεύσωσιν": {
         "transliteration": "hypagoreúsōsin",
@@ -1549,6 +1545,7 @@
   "ὕπαιθρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be under the sky, in the open air",
     "inflections": {
       "ὑπαίθρου": {
         "transliteration": "hypaíthrou",
@@ -1622,6 +1619,13 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "neut"] }
+        ]
+      },
+      "ὑπακούουσι": {
+        "transliteration": "hypakoúousi",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "ὑπακούουσιν": {
@@ -1759,6 +1763,10 @@
         "transliteration": "hypēkoúsate",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"] }]
       },
+      "ὑπήκουσε": {
+        "transliteration": "hypḗkouse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑπήκουσεν": {
         "transliteration": "hypḗkousen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -1772,6 +1780,7 @@
   "ὕπανδρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be married, under a husband",
     "indices": { "strongs": "G5220" },
     "inflections": {
       "ὕπανδρον": {
@@ -1803,12 +1812,12 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "aor": "υπηντη" },
+    "shortDefinition": "to meet, encounter",
     "indices": { "strongs": "G5221" },
     "inflections": {
       "ὑπαντᾷ": {
         "transliteration": "hypantâ",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
@@ -1860,6 +1869,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an encounter, meeting",
     "indices": { "strongs": "G5222" },
     "inflections": {
       "ὑπάντησιν": {
@@ -1872,6 +1882,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a waking vision",
     "inflections": {
       "ὕπαρ": {
         "transliteration": "hýpar",
@@ -1884,6 +1895,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a subsistence; fig. a possession(s), goods, wealth",
     "indices": { "strongs": "G5223" },
     "inflections": {
       "ὑπάρξει": {
@@ -2090,6 +2102,19 @@
           }
         ]
       },
+      "ὑπάρχουσι": {
+        "transliteration": "hypárchousi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"],
+            "indices": { "strongs": "G5224" }
+          },
+          {
+            "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"],
+            "indices": { "strongs": "G5225" }
+          }
+        ]
+      },
       "ὑπάρχουσιν": {
         "transliteration": "hypárchousin",
         "cells": [
@@ -2119,6 +2144,15 @@
           }
         ]
       },
+      "ὑπάρχωσι": {
+        "transliteration": "hypárchōsi",
+        "cells": [
+          {
+            "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"],
+            "indices": { "strongs": "G5225" }
+          }
+        ]
+      },
       "ὑπάρχωσιν": {
         "transliteration": "hypárchōsin",
         "cells": [
@@ -2131,6 +2165,15 @@
       "ὑπῆρξεν": {
         "transliteration": "hypē̂rxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ὑπῆρχε": {
+        "transliteration": "hypē̂rche",
+        "cells": [
+          {
+            "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"],
+            "indices": { "strongs": "G5225" }
+          }
+        ]
       },
       "ὑπῆρχεν": {
         "transliteration": "hypē̂rchen",
@@ -2161,6 +2204,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a shield-bearer, guard",
     "inflections": {
       "ὑπασπισταί": {
         "transliteration": "hypaspistaí",
@@ -2178,6 +2222,7 @@
   "ὕπατος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be supreme, highest; fig. to be a consul",
     "inflections": {
       "ὕπατοι": {
         "transliteration": "hýpatoi",
@@ -2225,6 +2270,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to slink away, slip off",
     "inflections": {
       "ὑπεκρέων": {
         "transliteration": "hypekréōn",
@@ -2238,6 +2284,7 @@
   "ὑπεναντίος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be opposing, adverse; fig. to be an adversary",
     "indices": { "strongs": "G5227" },
     "inflections": {
       "ὑπεναντίοι": {
@@ -2291,7 +2338,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to take away secretly, remove",
+    "shortDefinition": "to remove secretly, take away (from under)",
     "inflections": {
       "ὑπεξῄρηται": {
         "transliteration": "hypexḗrētai",
@@ -2313,7 +2360,7 @@
   "ὑπεράγαν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "exceedingly, beyond measure",
+    "shortDefinition": "overmuch, beyond measure",
     "inflections": {
       "ὑπεράγαν": {
         "transliteration": "hyperágan",
@@ -2324,7 +2371,7 @@
   "ὑπεραγόντως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "exceedingly, above all",
+    "shortDefinition": "surpassingly, exceedingly",
     "inflections": {
       "ὑπεραγόντως": {
         "transliteration": "hyperagóntōs",
@@ -2337,6 +2384,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "υπεραξ", "perf": "υπερηκ", "aor": "υπερηγαγ" },
+    "shortDefinition": "to surpass, tower above",
     "inflections": {
       "ὑπεράγει": {
         "transliteration": "hyperágei",
@@ -2367,6 +2415,7 @@
   "ὑπεραινετός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be praiseworthy above all, super-praiseworthy",
     "inflections": {
       "ὑπεραινετόν": {
         "transliteration": "hyperainetón",
@@ -2387,10 +2436,12 @@
       }
     }
   },
-  "ὑπεραίρομαι": {
+  "ὑπεραίρω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "stems": { "aor": "υπερηρ", "fut": "υπεραρ", "perf": "υπερηρ" },
+    "shortDefinition": "to rise above, surpass; refl. to exalt oneself, be overbearing",
     "indices": { "strongs": "G5229" },
     "inflections": {
       "ὑπεραιρόμενος": {
@@ -2402,15 +2453,7 @@
       "ὑπεραίρωμαι": {
         "transliteration": "hyperaírōmai",
         "cells": [{ "parse": ["verb", "pres", "pas", "subj", "pers-1", "sg"] }]
-      }
-    }
-  },
-  "ὑπεραίρω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "υπερηρ", "fut": "υπεραρ", "perf": "υπερηρ" },
-    "inflections": {
+      },
       "ὑπεραρθήσεται": {
         "transliteration": "hyperarthḗsetai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
@@ -2454,6 +2497,7 @@
   "ὑπέρακμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be past one’s prime, past the bloom of youth",
     "indices": { "strongs": "G5230" },
     "inflections": {
       "ὑπέρακμος": {
@@ -2469,7 +2513,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to leap over, leap up beyond",
+    "shortDefinition": "to rise to prominence; lit. to leap over",
     "inflections": {
       "ὑπεραλοῦνται": {
         "transliteration": "hyperaloûntai",
@@ -2482,6 +2526,7 @@
   "ὑπεράνω": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "far above, high above",
     "indices": { "strongs": "G5231" },
     "inflections": {
       "ὑπεράνω": {
@@ -2493,7 +2538,7 @@
   "ὑπεράνωθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from high above, above",
+    "shortDefinition": "from high above, from far above",
     "inflections": {
       "ὑπεράνωθεν": {
         "transliteration": "hyperánōthen",
@@ -2506,6 +2551,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an overflowing, high water",
     "inflections": {
       "ὑπεράρσει": {
         "transliteration": "hyperársei",
@@ -2518,6 +2564,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "υπερασπι", "aor": "υπερασπι" },
+    "shortDefinition": "to hold a shield over, protect",
     "inflections": {
       "ὑπερασπιεῖ": {
         "transliteration": "hyperaspieî",
@@ -2565,11 +2612,7 @@
         "transliteration": "hyperaspísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ὑπερασπίσῃ": {
@@ -2577,8 +2620,7 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "ὑπερασπιῶ": {
@@ -2599,23 +2641,15 @@
   "ὑπερασπισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a shielding, protection",
     "inflections": {
       "ὑπερασπισμόν": {
         "transliteration": "hyperaspismón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "ὑπερασπισμός": {
         "transliteration": "hyperaspismós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -2624,10 +2658,11 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a defender, shielder",
     "inflections": {
       "ὑπερασπιστά": {
         "transliteration": "hyperaspistá",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [{ "parse": ["noun", "voc", "sg", "masc"] }]
       },
       "ὑπερασπιστήν": {
         "transliteration": "hyperaspistḗn",
@@ -2642,6 +2677,7 @@
   "ὑπερασπίστρια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a (female) defender, protectress",
     "inflections": {
       "ὑπερασπίστρια": {
         "transliteration": "hyperaspístria",
@@ -2656,6 +2692,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to grow exceedingly, increase beyond measure",
     "indices": { "strongs": "G5232" },
     "inflections": {
       "ὑπεραυξάνει": {
@@ -2668,6 +2705,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to step over, go beyond; fig. to transgress, pass over",
     "indices": { "strongs": "G5233" },
     "inflections": {
       "ὑπερβαίνειν": {
@@ -2683,10 +2721,7 @@
       },
       "ὑπερβαίνουσιν": {
         "transliteration": "hyperbaínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ὑπερβαίνων": {
         "transliteration": "hyperbaínōn",
@@ -2741,6 +2776,7 @@
   "ὑπερβαλλόντως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "excessively, beyond measure",
     "indices": { "strongs": "G5234" },
     "inflections": {
       "ὑπερβαλλόντως": {
@@ -2753,6 +2789,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to exceed, surpass; lit. to throw beyond",
     "indices": { "strongs": "G5235" },
     "inflections": {
       "ὑπερβάλλον": {
@@ -2832,6 +2869,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a surpassing (greatness), excess; lit. a throwing beyond",
     "indices": { "strongs": "G5236" },
     "inflections": {
       "ὑπερβολή": {
@@ -2852,23 +2890,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to overpower (utterly), overwhelm",
     "inflections": {
       "ὑπερεδυνάμωσαν": {
         "transliteration": "hyperedynámōsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
-  "ὑπερεῖδον": {
-    "language": "greek",
-    "pos": "verb",
-    "shortDefinition": "to overlook, disregard",
-    "inflections": {
-      "ὑπερείδομεν": {
-        "transliteration": "hypereídomen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
-        ]
       }
     }
   },
@@ -2877,6 +2903,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπηρει" },
+    "shortDefinition": "to underprop, support (from beneath)",
     "inflections": {
       "ὑπερείσῃ": {
         "transliteration": "hypereísē",
@@ -2895,6 +2922,7 @@
   "ὑπερέκεινα": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "still farther, farther beyond",
     "indices": { "strongs": "G5238" },
     "inflections": {
       "ὑπερέκεινα": {
@@ -2907,6 +2935,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to overextend, stretch beyond (bounds)",
     "indices": { "strongs": "G5239" },
     "inflections": {
       "ὑπερεκτείνομεν": {
@@ -2920,6 +2949,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "fut": "υπερεκχυ", "perf": "υπερεκκεχυ", "aor": "υπερεξεχε" },
+    "shortDefinition": "to pour out over, overflow",
     "inflections": {
       "ὑπερεκχείσθω": {
         "transliteration": "hyperekcheísthō",
@@ -2947,6 +2977,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to pour out over, overflow",
     "indices": { "strongs": "G5240" },
     "inflections": {
       "ὑπερεκχυνόμενον": {
@@ -2962,15 +2993,13 @@
   "ὑπερένδοξος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be super-glorious, exceedingly glorious",
     "inflections": {
       "ὑπερένδοξος": {
         "transliteration": "hyperéndoxos",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -2979,6 +3008,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to intercede on behalf of, plead for",
     "indices": { "strongs": "G5241" },
     "inflections": {
       "ὑπερεντυγχάνει": {
@@ -2991,6 +3021,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to stand out above, excel; fig. to be superior, surpass",
     "indices": { "strongs": "G5242" },
     "inflections": {
       "ὑπερεῖχον": {
@@ -3086,33 +3117,11 @@
       }
     }
   },
-  "ὑπερηφανεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ὑπερηφανεύου": {
-        "transliteration": "hyperēphaneúou",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "ὑπερηφανεύσασθαι": {
-        "transliteration": "hyperēphaneúsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
   "ὑπερηφανεύω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to act arrogantly, put on airs",
     "inflections": {
       "ὑπερηφανεύεσθαι": {
         "transliteration": "hyperēphaneúesthai",
@@ -3130,9 +3139,24 @@
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
       },
+      "ὑπερηφανεύου": {
+        "transliteration": "hyperēphaneúou",
+        "cells": [
+          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "mid", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "pres", "pas", "imp", "pers-2", "sg"] }
+        ]
+      },
       "ὑπερηφανεύσαντο": {
         "transliteration": "hyperēphaneúsanto",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "ὑπερηφανεύσασθαι": {
+        "transliteration": "hyperēphaneúsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       },
       "ὑπερηφανεύσατο": {
         "transliteration": "hyperēphaneúsato",
@@ -3144,6 +3168,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be arrogant toward, disdain",
     "inflections": {
       "ὑπερηφανεῖται": {
         "transliteration": "hyperēphaneîtai",
@@ -3159,8 +3184,7 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "aor", "act", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -3270,7 +3294,7 @@
   "ὑπερηφάνως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "arrogantly, haughtily",
+    "shortDefinition": "arrogantly, proudly",
     "inflections": {
       "ὑπερηφάνως": {
         "transliteration": "hyperēphánōs",
@@ -3283,6 +3307,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a lintel",
     "inflections": {
       "ὑπέρθυρον": {
         "transliteration": "hypérthyron",
@@ -3299,6 +3324,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπερισχυ" },
+    "shortDefinition": "to excel in strength, prevail (over)",
     "inflections": {
       "ὑπερισχύει": {
         "transliteration": "hyperischýei",
@@ -3341,12 +3367,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to take precedence (over), exceed; lit. to lie above",
     "inflections": {
       "ὑπέρκεισαι": {
         "transliteration": "hypérkeisai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
@@ -3360,6 +3385,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to outflank",
     "inflections": {
       "ὑπερεκέρασαν": {
         "transliteration": "hyperekérasan",
@@ -3379,6 +3405,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "plup": "υπερκεκρατη", "aor": "υπερεκρατη", "fut": "υπερκρατη" },
+    "shortDefinition": "to overmaster, prevail over",
     "inflections": {
       "ὑπερεκράτησεν": {
         "transliteration": "hyperekrátēsen",
@@ -3390,6 +3417,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to fight on behalf of, defend",
     "inflections": {
       "ὑπερμαχεῖτε": {
         "transliteration": "hypermacheîte",
@@ -3402,7 +3430,9 @@
   },
   "ὑπέρμαχος": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be fighting on behalf of, defending",
     "inflections": {
       "ὑπέρμαχον": {
         "transliteration": "hypérmachon",
@@ -3434,6 +3464,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be immense, extraordinarily great",
     "inflections": {
       "ὑπερμεγέθη": {
         "transliteration": "hypermegéthē",
@@ -3458,7 +3489,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
-    "shortDefinition": "exceedingly tall",
+    "shortDefinition": "to be exceedingly tall/long",
     "inflections": {
       "ὑπερμήκεις": {
         "transliteration": "hypermḗkeis",
@@ -3489,6 +3520,7 @@
   "ὑπέρογκος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be overswollen, enormous; fig. to be pompous, too difficult",
     "indices": { "strongs": "G5246" },
     "inflections": {
       "ὑπέρογκα": {
@@ -3523,6 +3555,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a disdainful neglect, contempt",
     "inflections": {
       "ὑπεροράσει": {
         "transliteration": "hyperorásei",
@@ -3534,6 +3567,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to take no notice of, overlook; fig. to disdain",
     "indices": { "strongs": "G5237" },
     "inflections": {
       "ὑπερεῖδεν": {
@@ -3554,10 +3588,15 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
       },
+      "ὑπερείδομεν": {
+        "transliteration": "hypereídomen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
+        ]
+      },
       "ὑπερεῖδον": {
         "transliteration": "hypereîdon",
         "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
         ]
@@ -3757,6 +3796,7 @@
   "ὕπερος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a pestle",
     "inflections": {
       "ὑπέρου": {
         "transliteration": "hypérou",
@@ -3769,6 +3809,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a superiority, preeminence; fig. an authority, excellence",
     "indices": { "strongs": "G5247" },
     "inflections": {
       "ὑπεροχή": {
@@ -3794,6 +3835,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a disdain, contempt",
     "inflections": {
       "ὑπερόψει": {
         "transliteration": "hyperópsei",
@@ -3806,6 +3848,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπερεπερισσευ" },
+    "shortDefinition": "to superabound; refl. to overflow (with)",
     "indices": { "strongs": "G5248" },
     "inflections": {
       "ὑπερεπερίσσευσεν": {
@@ -3821,6 +3864,7 @@
   "ὑπερπερισσῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "beyond all measure",
     "indices": { "strongs": "G5249" },
     "inflections": {
       "ὑπερπερισσῶς": {
@@ -3834,8 +3878,13 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπερεπλεονα" },
+    "shortDefinition": "to be exceedingly abundant, overflow",
     "indices": { "strongs": "G5250" },
     "inflections": {
+      "ὑπερεπλεόνασε": {
+        "transliteration": "hyperepleónase",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑπερεπλεόνασεν": {
         "transliteration": "hyperepleónasen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -3854,14 +3903,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to throw over",
+    "shortDefinition": "to cast beyond, throw over",
     "inflections": {
       "ὑπερρίπτοσαν": {
         "transliteration": "hyperríptosan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -3869,6 +3915,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to melt away completely",
     "inflections": {
       "ὑπερτηκόμενος": {
         "transliteration": "hypertēkómenos",
@@ -3885,6 +3932,7 @@
     "pos": "verb",
     "conjugation": "athematic",
     "stems": { "fut": "υπερθη", "perf": "υπερηθετη", "aor": "υπερεθηκ" },
+    "shortDefinition": "to postpone, put off",
     "inflections": {
       "ὑπερτίθενται": {
         "transliteration": "hypertíthentai",
@@ -3904,6 +3952,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "fut": "υπερτιμη" },
+    "shortDefinition": "to honor greatly, esteem highly",
     "inflections": {
       "ὑπερτιμῶν": {
         "transliteration": "hypertimō̂n",
@@ -3920,6 +3969,7 @@
   "ὑπερυμνητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be highly hymned, extolled above all",
     "inflections": {
       "ὑπερυμνητός": {
         "transliteration": "hyperymnētós",
@@ -3935,6 +3985,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "aor": "υπερυψω" },
+    "shortDefinition": "to super-exalt, highly exalt",
     "indices": { "strongs": "G5251" },
     "inflections": {
       "ὑπερυψούμενον": {
@@ -4009,10 +4060,7 @@
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "masc"] },
           { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑπερυψωμένος": {
@@ -4020,9 +4068,12 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "ὑπερύψωσε": {
+        "transliteration": "hyperýpsōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπερύψωσεν": {
         "transliteration": "hyperýpsōsen",
@@ -4034,6 +4085,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be surpassing, extraordinary",
     "inflections": {
       "ὑπερφερής": {
         "transliteration": "hyperpherḗs",
@@ -4054,6 +4106,7 @@
       "plup": "υπερενεγ",
       "aor": "υπερηνεγ"
     },
+    "shortDefinition": "to tower over, surpass (in size)",
     "inflections": {
       "ὑπερέφερε": {
         "transliteration": "hyperéphere",
@@ -4082,6 +4135,7 @@
   "ὑπερφόβος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be super-terrifying, exceedingly dreadful",
     "inflections": {
       "ὑπερφόβου": {
         "transliteration": "hyperphóbou",
@@ -4097,6 +4151,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to think too highly (of oneself); fig. to despise, disdain",
     "indices": { "strongs": "G5252" },
     "inflections": {
       "ὑπερεφρόνησαν": {
@@ -4118,6 +4173,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "υπερεφωνη" },
+    "shortDefinition": "to sing out loudly, shout above",
     "inflections": {
       "ὑπερεφώνει": {
         "transliteration": "hyperephṓnei",
@@ -4129,6 +4185,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be jubilant, overjoyed",
     "inflections": {
       "ὑπερχαρεῖς": {
         "transliteration": "hyperchareîs",
@@ -4154,6 +4211,7 @@
     "language": "greek",
     "pos": "verb",
     "stems": { "perf": "υπερχυ", "fut": "υπερκεχυμεν", "aor": "υπερκεχυμεν" },
+    "shortDefinition": "to pour over, overflow",
     "inflections": {
       "ὑπερεχύθη": {
         "transliteration": "hyperechýthē",
@@ -4172,6 +4230,7 @@
       "perf": "υπεληλυθ",
       "aor": "υπηλθ"
     },
+    "shortDefinition": "to go in under, enter",
     "inflections": {
       "ὑπεληλυθυῖαι": {
         "transliteration": "hypelēlythyîai",
@@ -4187,6 +4246,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an upper room, upstairs chamber",
     "indices": { "strongs": "G5253" },
     "inflections": {
       "ὑπερῷα": {
@@ -4199,10 +4259,7 @@
       },
       "ὑπερῷοι": {
         "transliteration": "hyperō̂oi",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["adj", "nom", "pl", "masc"] }]
       },
       "ὑπερῴοις": {
         "transliteration": "hyperṓois",
@@ -4232,7 +4289,9 @@
   },
   "ὑπεύθυνος": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be accountable, liable",
     "inflections": {
       "ὑπεύθυνοι": {
         "transliteration": "hypeúthynoi",
@@ -4249,12 +4308,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
-    "shortDefinition": "to be wary of, scruple at",
+    "shortDefinition": "to be somewhat wary of, shrink from",
     "inflections": {
       "ὑπευλαβεῖτο": {
         "transliteration": "hypeulabeîto",
         "cells": [
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       }
@@ -4264,6 +4322,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to undergo, suffer (a penalty); lit. to hold under",
     "indices": { "strongs": "G5254" },
     "inflections": {
       "ὑπέσχομεν": {
@@ -4331,6 +4390,7 @@
   "ὑπήκοος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be obedient, subject",
     "indices": { "strongs": "G5255" },
     "inflections": {
       "ὑπήκοοι": {
@@ -4363,6 +4423,7 @@
   "ὑπηρεσία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a service, assistance; fig. a household staff",
     "inflections": {
       "ὑπηρεσία": {
         "transliteration": "hypēresía",
@@ -4381,6 +4442,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to serve, assist, minister to",
     "indices": { "strongs": "G5256" },
     "inflections": {
       "ὑπηρέτει": {
@@ -4388,7 +4450,6 @@
         "cells": [
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
@@ -4476,6 +4537,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to pledge, promise (to do)",
     "inflections": {
       "ὑπισχνεῖτο": {
         "transliteration": "hypischneîto",
@@ -4511,12 +4573,9 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a sleep, slumber",
     "indices": { "strongs": "G5258" },
     "inflections": {
-      "ὑπνοῖς": {
-        "transliteration": "hypnoîs",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
-      },
       "ὕπνοις": {
         "transliteration": "hýpnois",
         "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
@@ -4541,10 +4600,6 @@
         "transliteration": "hýpnō",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       },
-      "ὑπνῶν": {
-        "transliteration": "hypnō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      },
       "ὕπνων": {
         "transliteration": "hýpnōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
@@ -4556,6 +4611,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "aor": "υπνω" },
+    "shortDefinition": "to slumber, fall asleep; fig. to die",
     "inflections": {
       "ὑπνοῖς": {
         "transliteration": "hypnoîs",
@@ -4598,14 +4654,7 @@
       },
       "ὑπνῶσαι": {
         "transliteration": "hypnō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ὕπνωσαν": {
         "transliteration": "hýpnōsan",
@@ -4663,6 +4712,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be drowsy, sleepy",
     "inflections": {
       "ὑπνώδης": {
         "transliteration": "hypnṓdēs",
@@ -4688,6 +4738,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to suborn, put up (secretly); lit. to throw under",
     "indices": { "strongs": "G5260" },
     "inflections": {
       "ὑπέβαλον": {
@@ -4710,6 +4761,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to look askance at, eye suspiciously",
     "inflections": {
       "ὑποβλεπόμενος": {
         "transliteration": "hypoblepómenos",
@@ -4735,6 +4787,7 @@
   "ὑπόγειος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be underground, subterranean",
     "inflections": {
       "ὑπόγειον": {
         "transliteration": "hypógeion",
@@ -4753,6 +4806,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a tracing model, copy; fig. a pattern to follow",
     "indices": { "strongs": "G5261" },
     "inflections": {
       "ὑπογραμμοῖς": {
@@ -4770,6 +4824,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπογεγραμμεν", "perf": "υπογραπ", "fut": "υπογραφη" },
+    "shortDefinition": "to write below, append (in writing); fig. to indicate",
     "inflections": {
       "ὑπέγραψεν": {
         "transliteration": "hypégrapsen",
@@ -4837,7 +4892,6 @@
       "ὑπογράφῃ": {
         "transliteration": "hypográphē",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
@@ -4852,6 +4906,7 @@
   "ὑπόγυος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be close at hand, imminent",
     "inflections": {
       "ὑπογύου": {
         "transliteration": "hypogýou",
@@ -4898,6 +4953,7 @@
     "pos": "verb",
     "conjugation": "athematic",
     "stems": { "aor": "υπεδειξ" },
+    "shortDefinition": "to show plainly, point out; fig. to warn, teach",
     "indices": { "strongs": "G5263" },
     "inflections": {
       "ὑπεδείκνυεν": {
@@ -4997,9 +5053,7 @@
       },
       "ὑποδείξατε": {
         "transliteration": "hypodeíxate",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "pl", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
       },
       "ὑποδείξῃ": {
         "transliteration": "hypodeíxē",
@@ -5007,9 +5061,7 @@
       },
       "ὑπόδειξόν": {
         "transliteration": "hypódeixón",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
       },
       "ὑποδείξουσιν": {
         "transliteration": "hypodeíxousin",
@@ -5026,6 +5078,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to receive as a guest, welcome",
     "indices": { "strongs": "G5264" },
     "inflections": {
       "ὑπεδέξαντο": {
@@ -5066,6 +5119,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to bind on (sandals), shoe; refl. to put on sandals",
     "indices": { "strongs": "G5265" },
     "inflections": {
       "ὑπέδησά": {
@@ -5156,6 +5210,7 @@
   "ὑπόδικος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be liable to judgment, answerable (to)",
     "indices": { "strongs": "G5267" },
     "inflections": {
       "ὑπόδικος": {
@@ -5169,6 +5224,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an under-robe, undergarment",
     "inflections": {
       "ὑποδύτην": {
         "transliteration": "hypodýtēn",
@@ -5184,6 +5240,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to slip under, go down beneath",
     "inflections": {
       "ὑποδύσαντες": {
         "transliteration": "hypodýsantes",
@@ -5199,6 +5256,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a beast of burden, pack animal; fig. a donkey",
     "indices": { "strongs": "G5268" },
     "inflections": {
       "ὑποζύγια": {
@@ -5247,13 +5305,13 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
+    "shortDefinition": "to undergird, gird (with)",
     "indices": { "strongs": "G5269" },
     "inflections": {
       "ὑπεζωσμέναι": {
         "transliteration": "hypezōsménai",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "fem"] }
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "pl", "fem"] }
         ]
       },
       "ὑποζωννύντες": {
@@ -5279,6 +5337,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a stand, underdish, tray",
     "inflections": {
       "ὑποθέματα": {
         "transliteration": "hypothémata",
@@ -5295,6 +5354,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a subject, theme; lit. a putting under",
     "inflections": {
       "ὑποθέσεως": {
         "transliteration": "hypothéseōs",
@@ -5306,6 +5366,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to burn underneath, fire up (from below)",
     "inflections": {
       "ὑπεκαίετο": {
         "transliteration": "hypekaíeto",
@@ -5365,7 +5426,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to cover underneath",
+    "shortDefinition": "to drape over, cover underneath",
     "inflections": {
       "ὑποκαλύψεις": {
         "transliteration": "hypokalýpseis",
@@ -5376,6 +5437,7 @@
   "ὑποκάτω": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "underneath, under",
     "indices": { "strongs": "G5270" },
     "inflections": {
       "ὑποκάτω": {
@@ -5387,7 +5449,7 @@
   "ὑποκάτωθεν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "from underneath, beneath",
+    "shortDefinition": "from beneath, from underneath",
     "inflections": {
       "ὑποκάτωθεν": {
         "transliteration": "hypokátōthen",
@@ -5403,6 +5465,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to lie below, be set out below; fig. to be subject (to)",
     "inflections": {
       "ὑπέκειτό": {
         "transliteration": "hypékeitó",
@@ -5456,6 +5519,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to feign, pretend; lit. to play a (stage) role",
     "indices": { "strongs": "G5271" },
     "inflections": {
       "ὑπεκρίνοντο": {
@@ -5553,6 +5617,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a pretense, play-acting; trad. a hypocrisy",
     "indices": { "strongs": "G5272" },
     "inflections": {
       "ὑποκρίσει": {
@@ -5586,6 +5651,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a pretender; lit. a stage actor; trad. a hypocrite",
     "indices": { "strongs": "G5273" },
     "inflections": {
       "ὑποκριτά": {
@@ -5596,7 +5662,6 @@
         "transliteration": "hypokritaí",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
@@ -5853,6 +5918,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a small remnant, vestige, leftover",
     "inflections": {
       "ὑπόλειμμα": {
         "transliteration": "hypóleimma",
@@ -5868,6 +5934,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to leave over, spare, reserve; refl. to be left, remain",
     "indices": { "strongs": "G5275" },
     "inflections": {
       "ὑπελείποντο": {
@@ -5971,8 +6038,7 @@
         "cells": [
           { "parse": ["verb", "aor", "pas", "ptc", "acc", "sg", "neut"] },
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "voc", "sg", "neut"] }
         ]
       },
       "ὑπολειφθέντα": {
@@ -6149,6 +6215,7 @@
   "ὑπόλημψις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an assumption, presumption, speculation",
     "inflections": {
       "ὑπόλημψις": {
         "transliteration": "hypólēmpsis",
@@ -6161,6 +6228,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a vat (under a winepress), wine pit",
     "indices": { "strongs": "G5276" },
     "inflections": {
       "ὑπολήνια": {
@@ -6189,6 +6257,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to bequeath, leave (behind) for",
     "indices": { "strongs": "G5277" },
     "inflections": {
       "ὑπολιμπάνων": {
@@ -6202,6 +6271,7 @@
   "ὑπόλοιπος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be left remaining, surviving",
     "inflections": {
       "ὑπόλοιπον": {
         "transliteration": "hypóloipon",
@@ -6218,6 +6288,7 @@
   "ὑπόλυσις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a slackening, giving way (as of knees)",
     "inflections": {
       "ὑπόλυσις": {
         "transliteration": "hypólysis",
@@ -6230,6 +6301,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "υποελυτρω", "aor": "υποελυ" },
+    "shortDefinition": "to untie (from under), take off (sandals)",
     "inflections": {
       "ὑπελύετο": {
         "transliteration": "hypelýeto",
@@ -6253,8 +6325,6 @@
       "ὑπόλυσαι": {
         "transliteration": "hypólysai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
@@ -6273,6 +6343,7 @@
   "ὑπομαστίδιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be at the breast, suckling",
     "inflections": {
       "ὑπομαστιδίων": {
         "transliteration": "hypomastidíōn",
@@ -6414,10 +6485,7 @@
       },
       "ὑπομενεῖ": {
         "transliteration": "hypomeneî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπομένει": {
         "transliteration": "hypoménei",
@@ -6471,15 +6539,11 @@
       },
       "ὑπομενοῦσιν": {
         "transliteration": "hypomenoûsin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
       "ὑπομένουσιν": {
         "transliteration": "hypoménousin",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
@@ -6487,18 +6551,13 @@
       "ὑπομένουσίν": {
         "transliteration": "hypoménousín",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] }
         ]
       },
       "ὑπομενῶ": {
         "transliteration": "hypomenō̂",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
       },
       "ὑπομένω": {
         "transliteration": "hypoménō",
@@ -6569,6 +6628,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a memorandum, record",
     "inflections": {
       "ὑπόμνημα": {
         "transliteration": "hypómnēma",
@@ -6588,7 +6648,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
-    "shortDefinition": "to be recorded in the memoranda",
+    "shortDefinition": "to record, put on record",
     "inflections": {
       "ὑπεμνημάτιστο": {
         "transliteration": "hypemnēmátisto",
@@ -6602,28 +6662,19 @@
   "ὑπομνηματισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a record, memorandum; pl. the archives, chronicles",
     "inflections": {
       "ὑπομνηματισμοῖς": {
         "transliteration": "hypomnēmatismoîs",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       },
       "ὑπομνηματισμοῦ": {
         "transliteration": "hypomnēmatismoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "ὑπομνηματισμούς": {
         "transliteration": "hypomnēmatismoús",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -6632,6 +6683,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a recorder, record keeper",
     "inflections": {
       "ὑπομνηματογράφον": {
         "transliteration": "hypomnēmatográphon",
@@ -6699,6 +6751,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to surmise, suppose, suspect",
     "indices": { "strongs": "G5282" },
     "inflections": {
       "ὑπενόει": {
@@ -6734,6 +6787,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a supposition, surmise",
     "inflections": {
       "ὑπονοήματα": {
         "transliteration": "hyponoḗmata",
@@ -6749,6 +6803,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to obtain by corruption, undermine (underhandedly)",
     "inflections": {
       "ὑπενόθευσεν": {
         "transliteration": "hypenótheusen",
@@ -6774,6 +6829,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a surmise, suspicion",
     "indices": { "strongs": "G5283" },
     "inflections": {
       "ὑπόνοια": {
@@ -6804,6 +6860,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υποενυξ" },
+    "shortDefinition": "to prod, goad (on)",
     "inflections": {
       "ὑπονύσσετε": {
         "transliteration": "hyponýssete",
@@ -6820,6 +6877,7 @@
     "conjugation": "thematic",
     "deponent": true,
     "stems": { "aor": "υπεπε", "fut": "υποπεσ", "perf": "υποπτω" },
+    "shortDefinition": "to fall under; fig. to befall, fall to (one’s lot)",
     "inflections": {
       "ὑπέπεσεν": {
         "transliteration": "hypépesen",
@@ -6865,6 +6923,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to sail under the lee of",
     "indices": { "strongs": "G5284" },
     "inflections": {
       "ὑπεπλεύσαμεν": {
@@ -6877,6 +6936,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to blow gently, breeze",
     "indices": { "strongs": "G5285" },
     "inflections": {
       "ὑποπνεύσαντος": {
@@ -6926,6 +6986,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπωπτευ" },
+    "shortDefinition": "to view with apprehension, dread",
     "inflections": {
       "ὑποπτεύσῃς": {
         "transliteration": "hypopteúsēs",
@@ -6940,6 +7001,7 @@
   "ὕποπτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be suspicious (of), suspected",
     "inflections": {
       "ὕποπτον": {
         "transliteration": "hýpopton",
@@ -6964,6 +7026,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be somewhat reddish, tinged with red",
     "inflections": {
       "ὑποπυρρίζον": {
         "transliteration": "hypopyrrízon",
@@ -6979,7 +7042,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to stitch up underneath, repair",
+    "shortDefinition": "to stitch up, mend; fig. to repair",
     "inflections": {
       "ὑπέρραψεν": {
         "transliteration": "hypérrapsen",
@@ -6992,6 +7055,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "υποσημαν", "aor": "υποεσημαν", "perf": "υποσημα" },
+    "shortDefinition": "to notify, send word (about)",
     "inflections": {
       "ὑποσημανθῆναι": {
         "transliteration": "hyposēmanthē̂nai",
@@ -7003,6 +7067,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to trip up (from under), make stumble; fig. to overthrow",
     "inflections": {
       "ὑπεσκελίσθησαν": {
         "transliteration": "hypeskelísthēsan",
@@ -7012,11 +7077,7 @@
         "transliteration": "hyposkelísai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "ὑποσκελισθήσεται": {
@@ -7038,13 +7099,11 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a trip-up, fall, stumble",
     "inflections": {
       "ὑποσκελίσματι": {
         "transliteration": "hyposkelísmati",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       }
     }
   },
@@ -7086,11 +7145,16 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to withhold, keep back; refl. to shrink back, draw back",
     "indices": { "strongs": "G5288" },
     "inflections": {
       "ὑπεστειλάμην": {
         "transliteration": "hypesteilámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
+      },
+      "ὑπέστελλε": {
+        "transliteration": "hypéstelle",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπέστελλεν": {
         "transliteration": "hypéstellen",
@@ -7126,6 +7190,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an outpost, garrison; fig. a station",
     "inflections": {
       "ὑπόστημα": {
         "transliteration": "hypóstēma",
@@ -7146,6 +7211,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an under-support, prop",
     "inflections": {
       "ὑποστηρίγματα": {
         "transliteration": "hypostērígmata",
@@ -7162,6 +7228,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "υποστηριξ", "aor": "υποεστηριξ" },
+    "shortDefinition": "to uphold, undergird",
     "inflections": {
       "ὑποστηρίζει": {
         "transliteration": "hypostērízei",
@@ -7179,6 +7246,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a shrinking back, timid withdrawal",
     "indices": { "strongs": "G5289" },
     "inflections": {
       "ὑποστολῆς": {
@@ -7192,6 +7260,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπεστρεψ" },
+    "shortDefinition": "to return, turn back",
     "indices": { "strongs": "G5290" },
     "inflections": {
       "ὑπέστρεφον": {
@@ -7211,6 +7280,10 @@
       "ὑπέστρεψαν": {
         "transliteration": "hypéstrepsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ὑπέστρεψε": {
+        "transliteration": "hypéstrepse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπέστρεψεν": {
         "transliteration": "hypéstrepsen",
@@ -7328,6 +7401,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to undercut (the heel), trip up",
     "inflections": {
       "ὑποσχάσει": {
         "transliteration": "hyposchásei",
@@ -7343,6 +7417,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a pledged promise, undertaking",
     "inflections": {
       "ὑποσχέσεων": {
         "transliteration": "hyposchéseōn",
@@ -7359,6 +7434,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a subjection, submissiveness",
     "indices": { "strongs": "G5292" },
     "inflections": {
       "ὑποταγῇ": {
@@ -7372,7 +7448,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υπεταξ" },
-    "shortDefinition": "to subject, subdue; lit: to put under orders",
+    "shortDefinition": "to subject, subdue; lit. to put under orders",
     "indices": { "strongs": "G5293" },
     "inflections": {
       "ὑπετάγη": {
@@ -7390,13 +7466,16 @@
       "ὑπετάγησαν": {
         "transliteration": "hypetágēsan",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "second", "aor", "pas", "ind", "pers-3", "pl"] }
         ]
       },
       "ὑπέταξας": {
         "transliteration": "hypétaxas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ὑπέταξε": {
+        "transliteration": "hypétaxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑπέταξεν": {
         "transliteration": "hypétaxen",
@@ -7427,10 +7506,7 @@
       },
       "ὑποτάγηθι": {
         "transliteration": "hypotágēthi",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "sg"] }]
       },
       "ὑποταγήσεται": {
         "transliteration": "hypotagḗsetai",
@@ -7587,13 +7663,13 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "athematic",
+    "shortDefinition": "to place under, lay down; fig. to risk, suggest",
     "indices": { "strongs": "G5294" },
     "inflections": {
       "ὑπέθεντο": {
         "transliteration": "hypéthento",
         "cells": [
           { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl", "second"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] },
           { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
@@ -7757,6 +7833,7 @@
   "ὑποτίτθια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a nursing infant, suckling",
     "inflections": {
       "ὑποτίτθια": {
         "transliteration": "hypotítthia",
@@ -7774,6 +7851,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to run under (the lee of), run past",
     "indices": { "strongs": "G5295" },
     "inflections": {
       "ὑποδραμόντες": {
@@ -7812,6 +7890,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an outline, sketch; fig. a model, example",
     "indices": { "strongs": "G5296" },
     "inflections": {
       "ὑποτύπωσιν": {
@@ -7823,6 +7902,7 @@
   "ὑπουργός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be assisting, serviceable",
     "inflections": {
       "ὑπουργῷ": {
         "transliteration": "hypourgō̂",
@@ -7838,6 +7918,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to begin to shine, dawn",
     "inflections": {
       "ὑποφαινούσης": {
         "transliteration": "hypophainoúsēs",
@@ -7852,6 +7933,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a narrow opening (for light), light-slit",
     "inflections": {
       "ὑποφαύσεις": {
         "transliteration": "hypophaúseis",
@@ -7867,6 +7949,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to bear up under, endure",
     "indices": { "strongs": "G5297" },
     "inflections": {
       "ὑπενέγκαντες": {
@@ -7930,6 +8013,7 @@
   "ὑπόφρικος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be shivering, slightly shuddering",
     "inflections": {
       "ὑπόφρικον": {
         "transliteration": "hypóphrikon",
@@ -7946,6 +8030,7 @@
   "ὑποχείριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be under one’s hand, in one’s power",
     "inflections": {
       "ὑποχείριοι": {
         "transliteration": "hypocheírioi",
@@ -8005,6 +8090,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an abdomen, belly (under the ribs)",
     "inflections": {
       "ὑποχόνδρια": {
         "transliteration": "hypochóndria",
@@ -8020,7 +8106,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-attic",
-    "shortDefinition": "in debt, indebted",
+    "shortDefinition": "to be indebted, in debt",
     "inflections": {
       "ὑπόχρεῳ": {
         "transliteration": "hypóchreō",
@@ -8051,6 +8137,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a pouring vessel, oil flask",
     "inflections": {
       "ὑποχυτῆρας": {
         "transliteration": "hypochytē̂ras",
@@ -8064,22 +8151,20 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "υπεχωρη" },
+    "shortDefinition": "to withdraw quietly, retreat, go back",
     "indices": { "strongs": "G5298" },
     "inflections": {
+      "ὑπεχώρησε": {
+        "transliteration": "hypechṓrēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ὑπεχώρησεν": {
         "transliteration": "hypechṓrēsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ὑποχωρῆσαι": {
         "transliteration": "hypochōrē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ὑποχωρῶν": {
         "transliteration": "hypochōrō̂n",
@@ -8092,6 +8177,7 @@
   "ὑποψία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a suspicion, mistrust",
     "inflections": {
       "ὑποψίᾳ": {
         "transliteration": "hypopsía",
@@ -8103,6 +8189,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to turn upward, spread out (the hands)",
     "inflections": {
       "ὑπτιάζεις": {
         "transliteration": "hyptiázeis",
@@ -8113,15 +8200,14 @@
   "ὕπτιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be smooth-flowing, level; lit. to be face-up, supine",
     "inflections": {
       "ὕπτια": {
         "transliteration": "hýptia",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -8137,6 +8223,10 @@
         "transliteration": "hypopiázē",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
       },
+      "ὑπωπιάζῃ": {
+        "transliteration": "hypōpiázē",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
+      },
       "ὑπωπιάζω": {
         "transliteration": "hypōpiázō",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
@@ -8148,6 +8238,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a black eye, bruise (on the face)",
     "inflections": {
       "ὑπώπια": {
         "transliteration": "hypṓpia",
@@ -8162,11 +8253,11 @@
   "Ὑρκανός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Hyrcanus",
     "inflections": {
       "Ὑρκανοῦ": {
         "transliteration": "Hyrkanoû",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -8175,6 +8266,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-us",
+    "shortDefinition": "a swine, hog; fig. a sow",
     "indices": { "strongs": "G5300" },
     "inflections": {
       "ὕες": {
@@ -8209,6 +8301,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a hyssop",
     "indices": { "strongs": "G5301" },
     "inflections": {
       "ὕσσωπον": {
@@ -8232,6 +8325,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be late, fall short; fig. to lack, be in need",
     "indices": { "strongs": "G5302" },
     "inflections": {
       "ὑστερεῖ": {
@@ -8240,10 +8334,7 @@
       },
       "ὑστέρει": {
         "transliteration": "hystérei",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
       },
       "ὑστερεῖσθαι": {
         "transliteration": "hystereîsthai",
@@ -8373,6 +8464,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a shortfall, deficiency; fig. a need, poverty",
     "indices": { "strongs": "G5303" },
     "inflections": {
       "ὑστέρημα": {
@@ -8410,6 +8502,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a lacking, want, need",
     "indices": { "strongs": "G5304" },
     "inflections": {
       "ὑστερήσεως": {
@@ -8425,6 +8518,7 @@
   "ὑστεροβουλία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an afterthought, regret",
     "inflections": {
       "ὑστεροβουλίαν": {
         "transliteration": "hysteroboulían",
@@ -8432,63 +8526,109 @@
       }
     }
   },
-  "ὕστερον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5305" },
-    "inflections": {
-      "ὕστερον": {
-        "transliteration": "hýsteron",
-        "cells": [{ "parse": ["adv"] }]
-      }
-    }
-  },
   "ὕστερος": {
     "language": "greek",
     "pos": "adj",
-    "indices": { "strongs": "G5306" },
+    "shortDefinition": "to be later, latter",
+    "indices": { "strongs": ["G5305", "G5306"] },
     "inflections": {
       "ὑστάτην": {
         "transliteration": "hystátēn",
-        "cells": [{ "parse": ["adj", "super", "acc", "sg", "fem"] }]
+        "cells": [
+          {
+            "parse": ["adj", "super", "acc", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          }
+        ]
       },
       "ὕστεροι": {
         "transliteration": "hýsteroi",
         "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
+          {
+            "parse": ["adj", "nom", "pl", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       },
       "ὑστέροις": {
         "transliteration": "hystérois",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "dat", "pl", "masc"],
+            "indices": { "strongs": "G5306" }
+          }
+        ]
       },
       "ὕστερον": {
         "transliteration": "hýsteron",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G5305" } }
         ]
       },
       "ὑστέρου": {
         "transliteration": "hystérou",
         "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
+          {
+            "parse": ["adj", "gen", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "gen", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       },
       "ὑστέρῳ": {
         "transliteration": "hystérō",
         "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
+          {
+            "parse": ["adj", "dat", "sg", "fem"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "masc"],
+            "indices": { "strongs": "G5306" }
+          },
+          {
+            "parse": ["adj", "dat", "sg", "neut"],
+            "indices": { "strongs": "G5306" }
+          }
         ]
       }
     }
@@ -8498,6 +8638,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υφαν" },
+    "shortDefinition": "to weave",
     "inflections": {
       "ὑφαίνειν": {
         "transliteration": "hyphaínein",
@@ -8522,10 +8663,7 @@
       },
       "ὑφαίνουσιν": {
         "transliteration": "hyphaínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "ὑφᾶναι": {
         "transliteration": "hyphânai",
@@ -8558,6 +8696,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "υφειλ" },
+    "shortDefinition": "to take away secretly, filch",
     "inflections": {
       "ὑφαιρούμενοι": {
         "transliteration": "hyphairoúmenoi",
@@ -8626,6 +8765,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a weaver (at the loom)",
     "inflections": {
       "ὑφάντου": {
         "transliteration": "hyphántou",
@@ -8636,6 +8776,7 @@
   "ὑφαντός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be woven",
     "indices": { "strongs": "G5307" },
     "inflections": {
       "ὑφαντά": {
@@ -8669,6 +8810,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "υφηψ" },
+    "shortDefinition": "to set fire to (from below), kindle under",
     "inflections": {
       "ὑφάπτειν": {
         "transliteration": "hypháptein",
@@ -8693,6 +8835,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a woven work, woven fabric",
     "inflections": {
       "ὕφασμα": {
         "transliteration": "hýphasma",
@@ -8723,6 +8866,7 @@
       "perf": "υφεστη",
       "fut": "υποστη"
     },
+    "shortDefinition": "to hold one’s ground, withstand; fig. to endure, stay behind",
     "inflections": {
       "ὑπέστη": {
         "transliteration": "hypéstē",
@@ -8859,6 +9003,7 @@
       "aor": "υφειδ",
       "plup": "υφεωρα"
     },
+    "shortDefinition": "to suspect, view with suspicion",
     "inflections": {
       "ὑφορώμενοι": {
         "transliteration": "hyphorṓmenoi",
@@ -8900,6 +9045,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to carry the neck high; fig. to show off, strut",
     "inflections": {
       "ὑψαυχενοῦντες": {
         "transliteration": "hypsauchenoûntes",
@@ -8920,6 +9066,7 @@
   "ὑψηλοκάρδιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be proud-hearted, haughty",
     "inflections": {
       "ὑψηλοκάρδιος": {
         "transliteration": "hypsēlokárdios",
@@ -8935,6 +9082,7 @@
     "pos": "adj",
     "citationForms": ["ὑψηλότερος", "ὑψηλόν"],
     "declension": "2-1-2",
+    "shortDefinition": "to be high, lofty; fig. to be exalted, haughty",
     "indices": { "strongs": "G5308" },
     "inflections": {
       "ὑψηλά": {
@@ -9066,6 +9214,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be haughty-minded, arrogant",
     "indices": { "strongs": "G5309" },
     "inflections": {
       "ὑψηλοφρόνει": {
@@ -9081,6 +9230,7 @@
   "ὕψιστος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be highest, most high; fig. to be the Most High (God)",
     "indices": { "strongs": "G5310" },
     "inflections": {
       "ὕψιστε": {
@@ -9150,10 +9300,7 @@
       },
       "ὕψεσι": {
         "transliteration": "hýpsesi",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "ὕψεων": {
         "transliteration": "hýpseōn",
@@ -9386,8 +9533,7 @@
         "cells": [
           { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ὑψῶν": {
@@ -9398,10 +9544,7 @@
       },
       "ὕψωσα": {
         "transliteration": "hýpsōsa",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
       },
       "ὕψωσά": {
         "transliteration": "hýpsōsá",
@@ -9409,27 +9552,11 @@
       },
       "ὑψῶσαι": {
         "transliteration": "hypsō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ὑψῶσαί": {
         "transliteration": "hypsō̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ὕψωσαν": {
         "transliteration": "hýpsōsan",
@@ -9444,18 +9571,14 @@
         "transliteration": "hýpsōsas",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "fem"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ὕψωσάς": {
         "transliteration": "hýpsōsás",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "fem"] }
+          { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
         ]
       },
       "ὑψώσατε": {
@@ -9533,6 +9656,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a high thing, elevation; fig. an exaltation, arrogance",
     "indices": { "strongs": "G5313" },
     "inflections": {
       "ὕψωμα": {
@@ -9550,6 +9674,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an exalting, lifting up (in praise)",
     "inflections": {
       "ὑψώσεις": {
         "transliteration": "hypsṓseis",
@@ -9565,6 +9690,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to rain down",
     "inflections": {
       "ὕω": {
         "transliteration": "hýō",

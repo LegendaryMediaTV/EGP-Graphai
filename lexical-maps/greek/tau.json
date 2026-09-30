@@ -1,10 +1,18 @@
 {
+  "αφφω²": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "now then, so",
+    "inflections": {
+      "αφφω": { "transliteration": "aphphō", "cells": [{ "parse": ["adv"] }] }
+    }
+  },
   "Τααμ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tahan",
+    "shortDefinition": "Tahan; lit. Station",
     "inflections": {
       "Τααμ": {
         "transliteration": "Taam",
@@ -16,6 +24,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tabbath",
     "inflections": {
       "Ταβαθ": {
         "transliteration": "Tabath",
@@ -28,6 +37,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tabbaoth, Tabaoth; lit. Rings",
     "inflections": {
       "Ταβαωθ": {
         "transliteration": "Tabaōth",
@@ -40,7 +50,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tabeel",
+    "shortDefinition": "Tabeel, Tabeal; lit. Pleasing to God",
     "inflections": {
       "Ταβεηλ": {
         "transliteration": "Tabeēl",
@@ -53,7 +63,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Tebah",
+    "shortDefinition": "Tebah; lit. Massacre",
     "inflections": {
       "Ταβεκ": {
         "transliteration": "Tabek",
@@ -66,6 +76,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tabeel, Tabellius; lit. Pleasing to God",
     "inflections": {
       "Ταβελλιος": {
         "transliteration": "Tabellios",
@@ -78,6 +89,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tabrimmon; lit. Pleasing to Rimmon",
     "inflections": {
       "Ταβερεμμαν": {
         "transliteration": "Taberemman",
@@ -89,6 +101,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Taverns; lit. Huts",
     "indices": { "strongs": "G4999" },
     "inflections": {
       "Ταβερνῶν": {
@@ -101,10 +114,15 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tabitha; lit. Gazelle",
     "indices": { "strongs": "G5000" },
     "inflections": {
       "Ταβηθά": {
         "transliteration": "Tabēthá",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Ταβιθά": {
+        "transliteration": "Tabithá",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -114,6 +132,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tebaliah; lit. YH/Yah/Jah Has Dipped",
     "inflections": {
       "Ταβλαι": {
         "transliteration": "Tablai",
@@ -126,6 +145,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Taphath; lit. Dropping",
     "inflections": {
       "Ταβληθ": {
         "transliteration": "Tablēth",
@@ -138,6 +158,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an ordered rank, troop; fig. an order",
     "indices": { "strongs": "G5001" },
     "inflections": {
       "τάγμα": {
@@ -161,6 +182,7 @@
   "ταινία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a strip, band, fascia board",
     "inflections": {
       "ταινίαι": {
         "transliteration": "tainíai",
@@ -173,9 +195,9 @@
   },
   "τακτικός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be fit for ordering; fig. to be an administrator",
     "inflections": {
       "τακτικοί": {
         "transliteration": "taktikoí",
@@ -194,6 +216,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be set, appointed",
     "indices": { "strongs": "G5002" },
     "inflections": {
       "τακτῇ": {
@@ -216,6 +239,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be in misery, languish; fig. to afflict",
     "indices": { "strongs": "G5003" },
     "inflections": {
       "ἐταλαιπώρησα": {
@@ -282,6 +306,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a misery, wretchedness; fig. a calamity",
     "indices": { "strongs": "G5004" },
     "inflections": {
       "ταλαιπωρία": {
@@ -319,6 +344,7 @@
   "ταλαίπωρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be distressed, wretched",
     "indices": { "strongs": "G5005" },
     "inflections": {
       "ταλαίπωροι": {
@@ -375,6 +401,7 @@
   "ταλαντιαῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be a talent’s weight",
     "indices": { "strongs": "G5006" },
     "inflections": {
       "ταλαντιαία": {
@@ -388,6 +415,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a talent (weight or sum of money)",
     "indices": { "strongs": "G5007" },
     "inflections": {
       "τάλαντα": {
@@ -444,6 +472,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-nt",
+    "shortDefinition": "to be hapless, woeful",
     "inflections": {
       "τάλανες": {
         "transliteration": "tálanes",
@@ -461,6 +490,7 @@
   "ταλιθά": {
     "language": "greek",
     "pos": "aramaic",
+    "shortDefinition": "a little girl, maiden; trad. talitha",
     "indices": { "strongs": "G5008" },
     "inflections": {
       "ταλιθά": {
@@ -474,6 +504,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Talmon; lit. Oppressive",
     "inflections": {
       "Ταλμαν": {
         "transliteration": "Talman",
@@ -486,6 +517,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a storeroom; fig. an inner room, private chamber",
     "indices": { "strongs": "G5009" },
     "inflections": {
       "ταμείοις": {
@@ -561,6 +593,7 @@
   "ταμίας": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a storekeeper, treasurer",
     "inflections": {
       "ταμίαν": {
         "transliteration": "tamían",
@@ -569,21 +602,11 @@
     },
     "gender": "masc"
   },
-  "ταμιεύομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "inflections": {
-      "ταμιεύσεταί": {
-        "transliteration": "tamieúsetaí",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
   "ταμιεύω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to store up, reserve; fig. to dispense",
     "inflections": {
       "ταμιεύεται": {
         "transliteration": "tamieúetai",
@@ -592,6 +615,10 @@
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ταμιεύσεταί": {
+        "transliteration": "tamieúsetaí",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -599,6 +626,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tartan",
     "inflections": {
       "Ταναθαν": {
         "transliteration": "Tanathan",
@@ -610,6 +638,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Taanach",
     "inflections": {
       "Ταναχ": {
         "transliteration": "Tanach",
@@ -622,6 +651,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Tahanite",
     "inflections": {
       "Ταναχι": {
         "transliteration": "Tanachi",
@@ -633,6 +663,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Zoan, Tanis",
     "inflections": {
       "Τάνιν": {
         "transliteration": "Tánin",
@@ -645,6 +676,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "Zoan, Tanis",
     "inflections": {
       "Τάνει": {
         "transliteration": "Tánei",
@@ -664,6 +696,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Juttah, Jutah; lit. Extended",
     "inflections": {
       "Τανυ": {
         "transliteration": "Tany",
@@ -675,13 +708,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to stretch taut, string (a bow)",
     "inflections": {
       "ἐτάνυσαν": {
         "transliteration": "etánysan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "τανύσας": {
         "transliteration": "tanýsas",
@@ -696,6 +727,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Zanoah; lit. Rejected",
     "inflections": {
       "Τανω": {
         "transliteration": "Tanō",
@@ -733,6 +765,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be low, low-lying; fig. to be humble, lowly",
     "indices": { "strongs": "G5011" },
     "inflections": {
       "ταπεινά": {
@@ -788,20 +821,12 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut", "comp"] },
           { "parse": ["adj", "nom", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut", "comp"] }
+          { "parse": ["adj", "voc", "pl", "neut", "comp"] },
+          { "parse": ["adj", "comp", "nom", "sg", "fem"] }
         ]
       },
       "ταπεινοῦ": {
         "transliteration": "tapeinoû",
-        "cells": [
-          { "parse": ["adj", "gen", "sg", "fem"] },
-          { "parse": ["adj", "gen", "sg", "masc"] },
-          { "parse": ["adj", "gen", "sg", "neut"] }
-        ]
-      },
-      "ταπείνου": {
-        "transliteration": "tapeínou",
         "cells": [
           { "parse": ["adj", "gen", "sg", "fem"] },
           { "parse": ["adj", "gen", "sg", "masc"] },
@@ -833,19 +858,18 @@
   "ταπεινότης": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a lowliness, humility",
     "inflections": {
       "ταπεινότης": {
         "transliteration": "tapeinótēs",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
   "ταπεινοφρονέω": {
     "language": "greek",
     "pos": "verb",
+    "shortDefinition": "to think humbly, be humble-minded",
     "inflections": {
       "ἐταπεινοφρόνουν": {
         "transliteration": "etapeinophrónoun",
@@ -861,6 +885,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a humble-mindedness, humility",
     "indices": { "strongs": "G5012" },
     "inflections": {
       "ταπεινοφροσύνῃ": {
@@ -881,7 +906,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-on",
-    "shortDefinition": "humble-minded",
+    "shortDefinition": "to be humble-minded, lowly in mind",
     "inflections": {
       "ταπεινόφρονας": {
         "transliteration": "tapeinóphronas",
@@ -897,6 +922,7 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "stems": { "aor": "εταπεινω", "fut": "ταπεινω" },
+    "shortDefinition": "to make low, bring down; fig. to humble, humiliate",
     "indices": { "strongs": "G5013" },
     "inflections": {
       "ἐταπείνου": {
@@ -1084,19 +1110,11 @@
       },
       "ταπεινῶσαι": {
         "transliteration": "tapeinō̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ταπεινῶσαί": {
         "transliteration": "tapeinō̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ταπεινωσάντων": {
         "transliteration": "tapeinōsántōn",
@@ -1127,6 +1145,10 @@
       "ταπεινώσετε": {
         "transliteration": "tapeinṓsete",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ταπεινώσῃ": {
+        "transliteration": "tapeinṓsē",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] }]
       },
       "ταπεινώσῃς": {
         "transliteration": "tapeinṓsēs",
@@ -1231,6 +1253,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a humbling, humiliation; fig. a low estate",
     "indices": { "strongs": "G5014" },
     "inflections": {
       "ταπεινώσει": {
@@ -1264,6 +1287,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Terah, Tarah",
     "inflections": {
       "Ταραθ": {
         "transliteration": "Tarath",
@@ -1292,6 +1316,10 @@
       "ἐτάραξεν": {
         "transliteration": "etáraxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐτάρασσε": {
+        "transliteration": "etárasse",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐτάρασσεν": {
         "transliteration": "etárassen",
@@ -1338,12 +1366,7 @@
       },
       "ταράξαι": {
         "transliteration": "taráxai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "ταράξας": {
         "transliteration": "taráxas",
@@ -1397,7 +1420,6 @@
       "ταράσσεται": {
         "transliteration": "tarássetai",
         "cells": [
-          { "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
@@ -1437,10 +1459,7 @@
       "ταράσσοντας": {
         "transliteration": "tarássontas",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "ταράσσοντες": {
@@ -1533,6 +1552,13 @@
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "pl", "masc"] }
         ]
       },
+      "τεταραγμένον": {
+        "transliteration": "tetaragménon",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "neut"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] }
+        ]
+      },
       "τεταραγμένος": {
         "transliteration": "tetaragménos",
         "cells": [
@@ -1553,6 +1579,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a disturbance, commotion; fig. a trouble, anxiety",
     "indices": { "strongs": "G5016" },
     "inflections": {
       "ταραχαί": {
@@ -1596,6 +1623,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a stir, tumult",
     "indices": { "strongs": "G5017" },
     "inflections": {
       "τάραχος": {
@@ -1612,6 +1640,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be disturbing, dreadful",
     "inflections": {
       "ταραχῶδες": {
         "transliteration": "tarachō̂des",
@@ -1637,6 +1666,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to pickle, preserve (by salting)",
     "inflections": {
       "ταριχεύουσαι": {
         "transliteration": "taricheúousai",
@@ -1651,6 +1681,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Tarsian",
     "inflections": {
       "Ταρσεῖς": {
         "transliteration": "Tarseîs",
@@ -1663,6 +1694,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "a Tarsian",
     "indices": { "strongs": "G5018" },
     "inflections": {
       "Ταρσέα": {
@@ -1675,11 +1707,25 @@
       }
     }
   },
+  "ταρσός": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a pinion, wing-feathers",
+    "inflections": {
+      "ταρσῶν": {
+        "transliteration": "tarsō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      }
+    }
+  },
   "Ταρσός": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "Tarsus",
     "indices": { "strongs": "G5019" },
     "inflections": {
       "Ταρσόν": {
@@ -1689,19 +1735,13 @@
       "Ταρσῷ": {
         "transliteration": "Tarsō̂",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      },
-      "Ταρσῶν": {
-        "transliteration": "Tarsō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "indecl-proper", "fem"] }
-        ]
       }
     }
   },
   "τάρταρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Tartarus; fig. the abyss, lowest depths",
     "inflections": {
       "τάρταρον": {
         "transliteration": "tártaron",
@@ -1733,6 +1773,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to cast into Tartarus",
     "indices": { "strongs": "G5020" },
     "inflections": {
       "ταρταρώσας": {
@@ -1748,6 +1789,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Tarpelite",
     "inflections": {
       "Ταρφαλλαῖοι": {
         "transliteration": "Tarphallaîoi",
@@ -2040,6 +2082,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tatam",
     "inflections": {
       "Ταταμ": {
         "transliteration": "Tatam",
@@ -2051,6 +2094,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tatam",
     "inflections": {
       "Ταταμι": {
         "transliteration": "Tatami",
@@ -2061,7 +2105,7 @@
   "ταυρηδόν": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with a bull-like glare, staring fiercely",
+    "shortDefinition": "like a bull; fig. boldly",
     "inflections": {
       "ταυρηδόν": {
         "transliteration": "taurēdón",
@@ -2074,6 +2118,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a bull",
     "indices": { "strongs": "G5022" },
     "inflections": {
       "ταῦροι": {
@@ -2117,6 +2162,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Topheth, Tophet; lit. Smiting, Contempt",
     "inflections": {
       "Ταφεθ": {
         "transliteration": "Tapheth",
@@ -2129,6 +2175,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a burial; fig. a burial place",
     "indices": { "strongs": "G5027" },
     "inflections": {
       "ταφή": {
@@ -2156,6 +2203,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tahpanhes, Tehaphnehes",
     "inflections": {
       "Ταφνας": {
         "transliteration": "Taphnas",
@@ -2168,6 +2216,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a grave, tomb, sepulcher",
     "indices": { "strongs": "G5028" },
     "inflections": {
       "τάφοι": {
@@ -2211,6 +2260,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tappuah; lit. Apple",
     "inflections": {
       "Ταφου": {
         "transliteration": "Taphou",
@@ -2222,6 +2272,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tappuah; lit. Apple",
     "inflections": {
       "Ταφουγ": {
         "transliteration": "Taphoug",
@@ -2232,19 +2283,18 @@
   "τάφρος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a moat, (defensive) trench",
     "inflections": {
       "τάφρῳ": {
         "transliteration": "táphrō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
   "τάχα": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "possibly, perhaps",
     "indices": { "strongs": "G5029" },
     "inflections": {
       "τάχα": { "transliteration": "tácha", "cells": [{ "parse": ["adv"] }] }
@@ -2253,6 +2303,7 @@
   "ταχέως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "quickly, soon; fig. hastily",
     "indices": { "strongs": "G5030" },
     "inflections": {
       "ταχέως": {
@@ -2265,6 +2316,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be swift; fig. to be imminent",
     "indices": { "strongs": "G5031" },
     "inflections": {
       "ταχινά": {
@@ -2310,33 +2362,12 @@
       }
     }
   },
-  "τάχιον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5032" },
-    "inflections": {
-      "τάχιον": {
-        "transliteration": "táchion",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      }
-    }
-  },
-  "τάχιστα": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5033" },
-    "inflections": {
-      "τάχιστα": {
-        "transliteration": "táchista",
-        "cells": [{ "parse": ["adv", "super"] }]
-      }
-    }
-  },
   "τάχος": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a speed, quickness",
     "indices": { "strongs": "G5034" },
     "inflections": {
       "τάχει": {
@@ -2357,18 +2388,11 @@
       }
     }
   },
-  "ταχύ": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5035" },
-    "inflections": {
-      "ταχύ": { "transliteration": "tachý", "cells": [{ "parse": ["adv"] }] }
-    }
-  },
   "ταχύνω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to speed up, be quick",
     "inflections": {
       "ἐτάχυναν": {
         "transliteration": "etáchynan",
@@ -2399,9 +2423,7 @@
       "ταχύνας": {
         "transliteration": "tachýnas",
         "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
+          { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ταχύνατε": {
@@ -2416,18 +2438,12 @@
         "transliteration": "tachyneî",
         "cells": [
           { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
         ]
       },
       "ταχύνει": {
         "transliteration": "tachýnei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -2462,61 +2478,116 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
-    "indices": { "strongs": "G5036" },
+    "shortDefinition": "to be quick, swift",
+    "indices": { "strongs": ["G5032", "G5033", "G5035", "G5036"] },
     "inflections": {
       "θᾶττον": {
         "transliteration": "thâtton",
         "cells": [
-          { "parse": ["adj", "comp", "acc", "sg", "neut"] },
-          { "parse": ["adj", "comp", "nom", "sg", "neut"] },
-          { "parse": ["adj", "comp", "voc", "sg", "neut"] }
-        ]
-      },
-      "τάχει": {
-        "transliteration": "táchei",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
+          {
+            "parse": ["adj", "comp", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "comp", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "comp", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          }
         ]
       },
       "ταχεῖα": {
         "transliteration": "tacheîa",
         "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          {
+            "parse": ["adj", "nom", "sg", "fem"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "fem"],
+            "indices": { "strongs": "G5036" }
+          }
         ]
       },
       "ταχεῖς": {
         "transliteration": "tacheîs",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "masc"] },
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
+          {
+            "parse": ["adj", "acc", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "nom", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "pl", "masc"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
+      },
+      "τάχιον": {
+        "transliteration": "táchion",
+        "cells": [
+          { "parse": ["adv", "comp"], "indices": { "strongs": "G5032" } }
+        ]
+      },
+      "τάχιστα": {
+        "transliteration": "táchista",
+        "cells": [
+          { "parse": ["adv", "super"], "indices": { "strongs": "G5033" } }
         ]
       },
       "ταχίστην": {
         "transliteration": "tachístēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem", "super"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "fem", "super"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       },
       "ταχύ": {
         "transliteration": "tachý",
         "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "masc"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          {
+            "parse": ["adj", "acc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "nom", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          },
+          {
+            "parse": ["adj", "voc", "sg", "neut"],
+            "indices": { "strongs": "G5036" }
+          },
+          { "parse": ["adv"], "indices": { "strongs": "G5035" } }
         ]
       },
       "ταχύν": {
         "transliteration": "tachýn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "acc", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       },
       "ταχύς": {
         "transliteration": "tachýs",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
+        "cells": [
+          {
+            "parse": ["adj", "nom", "sg", "masc"],
+            "indices": { "strongs": "G5036" }
+          }
+        ]
       }
     }
   },
@@ -2533,72 +2604,11 @@
   "τέγος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a rooftop, roof chamber",
     "inflections": {
       "τέγους": {
         "transliteration": "tégous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
-      }
-    }
-  },
-  "τέθνηκα": {
-    "language": "greek",
-    "pos": "verb",
-    "stems": { "plup": "ετεθνη", "perf": "τεθνη" },
-    "shortDefinition": "to die",
-    "indices": { "strongs": "G2348" },
-    "inflections": {
-      "ἐτεθνήκει": {
-        "transliteration": "etethnḗkei",
-        "cells": [{ "parse": ["verb", "plup", "act", "ind", "pers-3", "sg"] }]
-      },
-      "τεθνάναι": {
-        "transliteration": "tethnánai",
-        "cells": [{ "parse": ["verb", "second", "perf", "act", "inf"] }]
-      },
-      "τεθνήκασιν": {
-        "transliteration": "tethnḗkasin",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "τέθνηκεν": {
-        "transliteration": "téthnēken",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
-      },
-      "τεθνηκότα": {
-        "transliteration": "tethnēkóta",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "acc", "sg", "masc"] }
-        ]
-      },
-      "τεθνηκότος": {
-        "transliteration": "tethnēkótos",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "gen", "sg", "masc"] }
-        ]
-      },
-      "τεθνηκώς": {
-        "transliteration": "tethnēkṓs",
-        "cells": [
-          { "parse": ["verb", "perf", "act", "ptc", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "τεθνήκω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "τεθνήξομαι": {
-        "transliteration": "tethnḗxomai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
-      },
-      "τεθνηξόμεθα": {
-        "transliteration": "tethnēxómetha",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -2607,6 +2617,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "perf": "τα", "aor": "τεταμενου" },
+    "shortDefinition": "to stretch, extend, draw (a bow)",
     "inflections": {
       "τεινέτω": {
         "transliteration": "teinétō",
@@ -2655,6 +2666,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be walled, fortified",
     "inflections": {
       "τειχήρεις": {
         "transliteration": "teichḗreis",
@@ -2682,6 +2694,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "τετειχισμεν" },
+    "shortDefinition": "to wall in, fortify",
     "inflections": {
       "ἐτείχισαν": {
         "transliteration": "eteíchisan",
@@ -2703,7 +2716,6 @@
       "τετειχισμένας": {
         "transliteration": "teteichisménas",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] },
           { "parse": ["verb", "perf", "mid", "ptc", "acc", "pl", "fem"] }
         ]
       },
@@ -2759,6 +2771,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a wall builder, mason",
     "inflections": {
       "τειχισταῖς": {
         "transliteration": "teichistaîs",
@@ -2771,6 +2784,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a city wall, rampart",
     "indices": { "strongs": "G5038" },
     "inflections": {
       "τείχα": {
@@ -2832,6 +2846,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a sure proof, token",
     "indices": { "strongs": "G5039" },
     "inflections": {
       "τεκμηρίοις": {
@@ -2942,6 +2957,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to produce children, bear/beget children",
     "inflections": {
       "ἐτεκνοποίει": {
         "transliteration": "eteknopoíei",
@@ -2994,6 +3010,7 @@
   "τεκνοφόνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be child-murdering",
     "inflections": {
       "τεκνοφόνους": {
         "transliteration": "teknophónous",
@@ -3009,6 +3026,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "τεκτην" },
+    "shortDefinition": "to design, scheme; lit. to work as a craftsman",
     "inflections": {
       "ἐτέκταινον": {
         "transliteration": "etéktainon",
@@ -3020,8 +3038,6 @@
       "τεκταίνει": {
         "transliteration": "tektaínei",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -3050,7 +3066,6 @@
       "τεκταινόμενος": {
         "transliteration": "tektainómenos",
         "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
@@ -3085,7 +3100,6 @@
       "τεκταίνουσι": {
         "transliteration": "tektaínousi",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "neut"] }
@@ -3093,10 +3107,7 @@
       },
       "τεκταίνουσιν": {
         "transliteration": "tektaínousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "τεκτήνῃ": {
         "transliteration": "tektḗnē",
@@ -3110,6 +3121,7 @@
   "τεκτονικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of carpentry, woodworking",
     "inflections": {
       "τεκτονικά": {
         "transliteration": "tektoniká",
@@ -3128,6 +3140,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a carpenter, craftsman, builder",
     "indices": { "strongs": "G5045" },
     "inflections": {
       "τέκτονα": {
@@ -3172,6 +3185,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Talmon; lit. Oppressive",
     "inflections": {
       "Τελαμιν": {
         "transliteration": "Telamin",
@@ -3183,6 +3197,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a bandage, headband",
     "inflections": {
       "τελαμῶνα": {
         "transliteration": "telamō̂na",
@@ -3206,10 +3221,7 @@
       "τελεία": {
         "transliteration": "teleía",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
@@ -3278,6 +3290,16 @@
       "τελείων": {
         "transliteration": "teleíōn",
         "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
+      },
+      "τέλεον": {
+        "transliteration": "téleon",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -3364,13 +3386,17 @@
           { "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] }
         ]
       },
+      "τελειωθῶσι": {
+        "transliteration": "teleiōthō̂si",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
+      },
       "τελειωθῶσιν": {
         "transliteration": "teleiōthō̂sin",
         "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "pl"] }]
       },
       "τελειώσαι": {
         "transliteration": "teleiṓsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "τελειῶσαι": {
         "transliteration": "teleiō̂sai",
@@ -3505,6 +3531,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a completer; fig. a perfecter",
     "indices": { "strongs": "G5051" },
     "inflections": {
       "τελειωτήν": {
@@ -3517,6 +3544,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Telem; lit. Oppression",
     "inflections": {
       "Τελεμ": {
         "transliteration": "Telem",
@@ -3524,31 +3552,15 @@
       }
     }
   },
-  "τέλεος": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "τέλεον": {
-        "transliteration": "téleon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "τελεσιουργέω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to fully accomplish, carry through",
     "inflections": {
       "τελεσιουργεῖ": {
         "transliteration": "telesiourgeî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -3561,6 +3573,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to bring to maturity, ripen fully",
     "indices": { "strongs": "G5052" },
     "inflections": {
       "τελεσφορηθέντες": {
@@ -3569,6 +3582,10 @@
           { "parse": ["verb", "aor", "pas", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "aor", "pas", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "τελεσφοροῦσι": {
+        "transliteration": "telesphoroûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
       },
       "τελεσφοροῦσιν": {
         "transliteration": "telesphoroûsin",
@@ -3579,6 +3596,7 @@
   "τελεσφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be rite-performing, cult-initiated",
     "inflections": {
       "τελεσφόρος": {
         "transliteration": "telesphóros",
@@ -3594,6 +3612,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a mystic rite, initiation; fig. a cult site",
     "inflections": {
       "τελεταί": {
         "transliteration": "teletaí",
@@ -3611,14 +3630,12 @@
   "τελευταῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be concluding, final",
     "inflections": {
       "τελευταία": {
         "transliteration": "teleutaía",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       },
@@ -3627,9 +3644,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "τελευταίοις": {
@@ -3657,6 +3672,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "aor": "ετελευτη" },
+    "shortDefinition": "to come to an end; fig. to die, decease",
     "indices": { "strongs": "G5053" },
     "inflections": {
       "ἐτελεύτησα": {
@@ -3666,6 +3682,10 @@
       "ἐτελεύτησαν": {
         "transliteration": "eteleútēsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐτελεύτησε": {
+        "transliteration": "eteleútēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐτελεύτησεν": {
         "transliteration": "eteleútēsen",
@@ -3704,11 +3724,7 @@
       },
       "τελευτῆσαι": {
         "transliteration": "teleutē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "τελευτήσαντος": {
         "transliteration": "teleutḗsantos",
@@ -3821,6 +3837,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a decease, end of life",
     "indices": { "strongs": "G5054" },
     "inflections": {
       "τελευτή": {
@@ -3880,8 +3897,7 @@
         "transliteration": "telésai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
       },
       "τελέσῃ": {
@@ -3935,6 +3951,10 @@
         "cells": [
           { "parse": ["verb", "fut", "act", "ptc", "acc", "sg", "masc"] }
         ]
+      },
+      "τελέσωσι": {
+        "transliteration": "telésōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
       },
       "τελέσωσιν": {
         "transliteration": "telésōsin",
@@ -4002,6 +4022,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Telem; lit. Oppression",
     "inflections": {
       "Τελημ": {
         "transliteration": "Telēm",
@@ -4013,6 +4034,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to be initiated (into cult rites)",
     "inflections": {
       "τελισκόμενος": {
         "transliteration": "teliskómenos",
@@ -4029,6 +4051,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Talmon; lit. Oppressive",
     "inflections": {
       "Τελμων": {
         "transliteration": "Telmōn",
@@ -4070,10 +4093,7 @@
       },
       "τελῶν": {
         "transliteration": "telō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -4081,6 +4101,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to tax, levy toll on",
     "inflections": {
       "ἐτελωνεῖτο": {
         "transliteration": "etelōneîto",
@@ -4105,6 +4126,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a tax collector; trad. a publican",
     "indices": { "strongs": "G5057" },
     "inflections": {
       "τελῶναι": {
@@ -4133,6 +4155,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a tax office, toll booth",
     "indices": { "strongs": "G5058" },
     "inflections": {
       "τελώνιον": {
@@ -4150,6 +4173,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Eshtemoa",
     "inflections": {
       "Τεμα": {
         "transliteration": "Tema",
@@ -4162,6 +4186,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a sacred precinct, shrine",
     "inflections": {
       "τεμένεσι": {
         "transliteration": "teménesi",
@@ -4194,6 +4219,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "τμη", "fut": "τεμ" },
+    "shortDefinition": "to cut, hew, prune",
     "inflections": {
       "ἔτεμνον": {
         "transliteration": "étemnon",
@@ -4243,7 +4269,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-nt",
-    "shortDefinition": "sinew, tendon",
+    "shortDefinition": "a tendon (of the neck)",
     "inflections": {
       "τενόντων": {
         "transliteration": "tenóntōn",
@@ -4292,67 +4318,11 @@
       }
     }
   },
-  "τεράσσω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "τεταραγμεν" },
-    "inflections": {
-      "τεταραγμένον": {
-        "transliteration": "tetaragménon",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          { "parse": ["verb", "perf", "mid", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "acc", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "τερατεύομαι": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to talk marvels, speak portentously",
     "inflections": {
       "τερατεύεσθαι": {
         "transliteration": "terateúesthai",
@@ -4367,6 +4337,7 @@
   "τερατοποιός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wonder-working",
     "inflections": {
       "τερατοποιόν": {
         "transliteration": "teratopoión",
@@ -4382,7 +4353,10 @@
   },
   "τερατοσκόπος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "an omen-watcher, portent-observer",
     "inflections": {
       "τερατοσκόποι": {
         "transliteration": "teratoskópoi",
@@ -4407,9 +4381,18 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a terebinth (tree)",
     "inflections": {
       "τερέβινθος": {
         "transliteration": "terébinthos",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "τερέμινθον": {
+        "transliteration": "teréminthon",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "τερέμινθος": {
+        "transliteration": "teréminthos",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "τερεμίνθου": {
@@ -4418,30 +4401,12 @@
       }
     }
   },
-  "τερέμινθος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "2f",
-    "inflections": {
-      "τερέμινθον": {
-        "transliteration": "teréminthon",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      },
-      "τερέμινθος": {
-        "transliteration": "teréminthos",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "τέρετρον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a drill, awl",
     "inflections": {
       "τερέτρῳ": {
         "transliteration": "terétrō",
@@ -4454,6 +4419,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a terminus, farthest point; fig. an utmost degree",
     "inflections": {
       "τέρμα": {
         "transliteration": "térma",
@@ -4468,6 +4434,7 @@
   "τερπνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be enjoyable, delightful",
     "inflections": {
       "τερπνόν": {
         "transliteration": "terpnón",
@@ -4485,6 +4452,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a delightfulness, pleasure",
     "inflections": {
       "τερπνότητα": {
         "transliteration": "terpnótēta",
@@ -4504,6 +4472,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to delight, cheer; refl. to take delight, rejoice",
     "inflections": {
       "ἐτέρφθην": {
         "transliteration": "etérphthēn",
@@ -4585,6 +4554,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Tertius; lit. Third",
     "indices": { "strongs": "G5060" },
     "inflections": {
       "Τέρτιος": {
@@ -4598,6 +4568,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Tertullus",
     "indices": { "strongs": "G5061" },
     "inflections": {
       "Τέρτυλλος": {
@@ -4615,6 +4586,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a delight, enjoyment",
     "inflections": {
       "τέρψει": {
         "transliteration": "térpsei",
@@ -4634,6 +4606,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "shortDefinition": "forty",
     "indices": { "strongs": "G5062" },
     "inflections": {
       "τεσσαράκοντα": {
@@ -4646,6 +4619,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be forty years (long/old)",
     "indices": { "strongs": "G5063" },
     "inflections": {
       "τεσσαρακονταετῆ": {
@@ -4661,6 +4635,7 @@
   "τεσσαρακοστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be fortieth",
     "inflections": {
       "τεσσαρακοστόν": {
         "transliteration": "tessarakostón",
@@ -4693,7 +4668,7 @@
   "τέσσαρες": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "to be four",
+    "shortDefinition": "four",
     "indices": { "strongs": "G5064" },
     "inflections": {
       "τέσσαρα": {
@@ -4720,6 +4695,14 @@
           { "parse": ["adj", "voc", "pl", "masc"] }
         ]
       },
+      "τέσσαρσι": {
+        "transliteration": "téssarsi",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "fem"] },
+          { "parse": ["adj", "dat", "pl", "neut"] },
+          { "parse": ["adj", "dat", "pl", "masc"] }
+        ]
+      },
       "τέσσαρσιν": {
         "transliteration": "téssarsin",
         "cells": [
@@ -4736,10 +4719,6 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       },
-      "τετράδι": {
-        "transliteration": "tetrádi",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
-      },
       "τέτρασιν": {
         "transliteration": "tétrasin",
         "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
@@ -4750,6 +4729,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be fourteenth",
     "indices": { "strongs": "G5065" },
     "inflections": {
       "τεσσαρεσκαιδεκάτη": {
@@ -4796,7 +4776,7 @@
   "τεταγμένως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in order, in an orderly way",
+    "shortDefinition": "in orderly fashion, in formation",
     "inflections": {
       "τεταγμένως": {
         "transliteration": "tetagménōs",
@@ -4807,6 +4787,7 @@
   "τεταρταῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be four days (gone)",
     "indices": { "strongs": "G5066" },
     "inflections": {
       "τεταρταῖος": {
@@ -4889,6 +4870,7 @@
   "τετράγωνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be square, four-cornered",
     "indices": { "strongs": "G5068" },
     "inflections": {
       "τετράγωνα": {
@@ -4896,9 +4878,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "τετράγωνοι": {
@@ -4939,6 +4919,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a squad of four (soldiers), quaternion",
     "indices": { "strongs": "G5069" },
     "inflections": {
       "τετραδίοις": {
@@ -4952,6 +4933,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a tetradrachm, four-drachma coin",
     "inflections": {
       "τετράδραχμον": {
         "transliteration": "tetrádrachmon",
@@ -4968,12 +4950,11 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "τρη" },
+    "shortDefinition": "to bore, drill (through), pierce",
     "inflections": {
       "ἔτρησεν": {
         "transliteration": "étrēsen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "τετρημένος": {
         "transliteration": "tetrēménos",
@@ -4994,6 +4975,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "forty thousand",
     "inflections": {
       "τετρακισμύριοι": {
         "transliteration": "tetrakismýrioi",
@@ -5008,6 +4990,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "four thousand",
     "indices": { "strongs": "G5070" },
     "inflections": {
       "τετρακισχίλια": {
@@ -5046,6 +5029,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "four hundred",
     "indices": { "strongs": "G5071" },
     "inflections": {
       "τετρακόσια": {
@@ -5101,6 +5085,7 @@
   "τετρακοσιοστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be four hundredth",
     "inflections": {
       "τετρακοσιοστῷ": {
         "transliteration": "tetrakosiostō̂",
@@ -5116,15 +5101,13 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be four-part, quadripartite",
     "inflections": {
       "τετραμερές": {
         "transliteration": "tetramerés",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "masc"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
@@ -5135,6 +5118,7 @@
   "τετράμηνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be four months long",
     "indices": { "strongs": "G5072" },
     "inflections": {
       "τετράμηνον": {
@@ -5156,6 +5140,7 @@
   "τετράπεδος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be four-sided, squared",
     "inflections": {
       "τετραπέδοις": {
         "transliteration": "tetrapédois",
@@ -5178,6 +5163,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-contract",
+    "shortDefinition": "to be fourfold, quadruple",
     "indices": { "strongs": "G5073" },
     "inflections": {
       "τετραπλοῦν": {
@@ -5193,7 +5179,7 @@
   "τετραπλῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "fourfold",
+    "shortDefinition": "fourfold, in four ways",
     "inflections": {
       "τετραπλῶς": {
         "transliteration": "tetraplō̂s",
@@ -5205,6 +5191,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-cons",
+    "shortDefinition": "to be four-footed",
     "indices": { "strongs": "G5074" },
     "inflections": {
       "τετράποδα": {
@@ -5248,6 +5235,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be tetrarch, rule as tetrarch",
     "indices": { "strongs": "G5075" },
     "inflections": {
       "τετραρχοῦντος": {
@@ -5263,6 +5251,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a tetrarch; lit. a ruler of a fourth",
     "indices": { "strongs": "G5076" },
     "inflections": {
       "τετράρχης": {
@@ -5277,8 +5266,10 @@
   },
   "τετράς": {
     "language": "greek",
-    "pos": "adj",
-    "declension": "3-1-3-nt",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "a group of four; fig. a fourth day",
     "inflections": {
       "τετράδι": {
         "transliteration": "tetrádi",
@@ -5300,6 +5291,7 @@
   "τετράστιχος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be four-rowed, in four rows",
     "inflections": {
       "τετράστιχον": {
         "transliteration": "tetrástichon",
@@ -5321,21 +5313,11 @@
       }
     }
   },
-  "τεύχω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "τεύξασθαι": {
-        "transliteration": "teúxasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
   "τέφρα": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a fine ash, ashes",
     "inflections": {
       "τέφρα": {
         "transliteration": "téphra",
@@ -5354,6 +5336,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to reduce to ashes, incinerate",
     "indices": { "strongs": "G5077" },
     "inflections": {
       "τεφρώσας": {
@@ -5369,6 +5352,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Tephon",
     "inflections": {
       "Τεφων": {
         "transliteration": "Tephōn",
@@ -5380,6 +5364,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to scheme cunningly, contrive craftily",
     "inflections": {
       "τεχνάσασθε": {
         "transliteration": "technásasthe",
@@ -5391,6 +5376,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to fashion skillfully, craft",
     "inflections": {
       "τεχνησάμενος": {
         "transliteration": "technēsámenos",
@@ -5466,6 +5452,7 @@
   "τεχνῖτις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a craftswoman",
     "inflections": {
       "τεχνῖτις": {
         "transliteration": "technîtis",
@@ -5477,6 +5464,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to fry (in a pan)",
     "inflections": {
       "τηγανίζειν": {
         "transliteration": "tēganízein",
@@ -5489,6 +5477,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a frying pan, griddle",
     "inflections": {
       "τήγανα": {
         "transliteration": "tḗgana",
@@ -5524,24 +5513,11 @@
       }
     }
   },
-  "τηγάνος": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "τηγάνου": {
-        "transliteration": "tēgánou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "τηθ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a teth",
     "inflections": {
       "τηθ": {
         "transliteration": "tēth",
@@ -5552,6 +5528,7 @@
   "τηκτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be meltable",
     "inflections": {
       "τηκτόν": {
         "transliteration": "tēktón",
@@ -5569,6 +5546,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to melt, dissolve; fig. to waste away",
     "indices": { "strongs": "G5080" },
     "inflections": {
       "ἐτάκη": {
@@ -5588,7 +5566,6 @@
       "ἐτάκησαν": {
         "transliteration": "etákēsan",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
         ]
       },
@@ -5609,12 +5586,14 @@
       "τακεῖσα": {
         "transliteration": "takeîsa",
         "cells": [
-          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "aor", "pas", "ptc", "nom", "sg", "fem"] }
         ]
       },
       "τακῇ": {
         "transliteration": "takē̂",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }]
+        "cells": [
+          { "parse": ["verb", "second", "aor", "pas", "subj", "pers-3", "sg"] }
+        ]
       },
       "τακήσεται": {
         "transliteration": "takḗsetai",
@@ -5752,6 +5731,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a shining patch, whitish spot",
     "inflections": {
       "τηλαύγημα": {
         "transliteration": "tēlaúgēma",
@@ -5767,15 +5747,13 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be far-shining, radiant; fig. to be conspicuous",
     "inflections": {
       "τηλαυγές": {
         "transliteration": "tēlaugés",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] },
           { "parse": ["adj", "voc", "sg", "masc"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
@@ -5795,6 +5773,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a far-shining brightness, radiance",
     "inflections": {
       "τηλαυγήσεως": {
         "transliteration": "tēlaugḗseōs",
@@ -5805,6 +5784,7 @@
   "τηλαυγῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "clearly even at a distance",
     "indices": { "strongs": "G5081" },
     "inflections": {
       "τηλαυγῶς": {
@@ -5816,6 +5796,7 @@
   "τηλικοῦτος": {
     "language": "greek",
     "pos": "pron-dem",
+    "shortDefinition": "so great, so large",
     "indices": { "strongs": "G5082" },
     "inflections": {
       "τηλικαῦτα": {
@@ -5898,6 +5879,10 @@
         "transliteration": "tetḗrēkas",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "sg"] }]
       },
+      "τετηρήκασι": {
+        "transliteration": "tetērḗkasi",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
+      },
       "τετηρήκασιν": {
         "transliteration": "tetērḗkasin",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "pl"] }]
@@ -5916,6 +5901,12 @@
         "transliteration": "tetērēménois",
         "cells": [
           { "parse": ["verb", "perf", "pas", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
+      "τετηρημένους": {
+        "transliteration": "tetērēménous",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "acc", "pl", "masc"] }
         ]
       },
       "τετήρηται": {
@@ -6074,6 +6065,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a guarding, keeping; fig. a custody, prison",
     "indices": { "strongs": "G5084" },
     "inflections": {
       "τηρήσει": {
@@ -6093,6 +6085,7 @@
   "τιάρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a tiara, (Persian) headdress",
     "inflections": {
       "τιάραι": {
         "transliteration": "tiárai",
@@ -6119,6 +6112,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Tiberias",
     "indices": { "strongs": "G5085" },
     "inflections": {
       "Τιβεριάδος": {
@@ -6132,6 +6126,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Tiberius",
     "indices": { "strongs": "G5086" },
     "inflections": {
       "Τιβερίου": {
@@ -6144,6 +6139,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hiddekel, Tigris",
     "inflections": {
       "Τίγρης": {
         "transliteration": "Tígrēs",
@@ -6156,6 +6152,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Hiddekel, Tigris",
     "inflections": {
       "Τίγριδος": {
         "transliteration": "Tígridos",
@@ -6207,7 +6204,6 @@
         "transliteration": "éthesan",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] },
           { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
         ]
       },
@@ -6250,6 +6246,10 @@
       "ἔθηκας": {
         "transliteration": "éthēkas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἔθηκε": {
+        "transliteration": "éthēke",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔθηκεν": {
         "transliteration": "éthēken",
@@ -6306,10 +6306,6 @@
       "ἐτίθουν": {
         "transliteration": "etíthoun",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
-      },
-      "ἠθέτηκα": {
-        "transliteration": "ēthétēka",
-        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-1", "sg"] }]
       },
       "θείη": {
         "transliteration": "theíē",
@@ -6647,7 +6643,6 @@
           { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "fem"] }
         ]
       },
@@ -6778,10 +6773,7 @@
       },
       "τεθήτω": {
         "transliteration": "tethḗtō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "imp", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-3", "sg"] }]
       },
       "τεθῶσιν": {
         "transliteration": "tethō̂sin",
@@ -7078,6 +7070,10 @@
         "transliteration": "títhēmí",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
       },
+      "τίθησι": {
+        "transliteration": "títhēsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      },
       "τίθησιν": {
         "transliteration": "títhēsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
@@ -7088,6 +7084,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to rear, foster; fig. to cherish",
     "inflections": {
       "τιθηνήσασθαι": {
         "transliteration": "tithēnḗsasthai",
@@ -7113,6 +7110,7 @@
   "τιθηνία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a rearing, nursing care",
     "inflections": {
       "τιθηνίαι": {
         "transliteration": "tithēníai",
@@ -7125,7 +7123,9 @@
   },
   "τιθηνός": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "declension": "2-common",
+    "shortDefinition": "a nurse, foster-parent",
     "inflections": {
       "τιθηνοί": {
         "transliteration": "tithēnoí",
@@ -7171,6 +7171,12 @@
     "shortDefinition": "to bear",
     "indices": { "strongs": "G5088" },
     "inflections": {
+      "ἔτεκε": {
+        "transliteration": "éteke",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "sg"] }
+        ]
+      },
       "ἔτεκεν": {
         "transliteration": "éteken",
         "cells": [
@@ -7356,7 +7362,6 @@
       "τέξομαι": {
         "transliteration": "téxomai",
         "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] },
           { "parse": ["verb", "fut", "mid-dep", "ind", "pers-1", "sg"] }
         ]
       },
@@ -7444,7 +7449,6 @@
       "τίκτεταί": {
         "transliteration": "tíktetaí",
         "cells": [
-          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid-dep", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
@@ -7519,6 +7523,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to pluck (off), pull out",
     "indices": { "strongs": "G5089" },
     "inflections": {
       "ἐτίλη": {
@@ -7538,15 +7543,12 @@
       },
       "ἐτίλλοσαν": {
         "transliteration": "etíllosan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "τετιλμένου": {
         "transliteration": "tetilménou",
         "cells": [
-          { "parse": ["verb", "pres", "pas", "ptc", "gen", "sg", "masc"] }
+          { "parse": ["verb", "perf", "pas", "ptc", "gen", "sg", "masc"] }
         ]
       },
       "τίλλειν": {
@@ -7567,6 +7569,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Timaeus",
     "indices": { "strongs": "G5090" },
     "inflections": {
       "Τιμαίου": {
@@ -7665,19 +7668,11 @@
       },
       "τιμῆσαι": {
         "transliteration": "timē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "τιμῆσαί": {
         "transliteration": "timē̂saí",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "τιμήσασα": {
         "transliteration": "timḗsasa",
@@ -7761,6 +7756,13 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "masc"] }
         ]
       },
+      "τιμῶσι": {
+        "transliteration": "timō̂si",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] },
+          { "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }
+        ]
+      },
       "τιμῶσιν": {
         "transliteration": "timō̂sin",
         "cells": [
@@ -7820,6 +7822,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a price, assessed value",
     "inflections": {
       "τίμημα": {
         "transliteration": "tímēma",
@@ -7841,12 +7844,7 @@
     "inflections": {
       "τιμία": {
         "transliteration": "timía",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "voc", "sg", "fem"] }]
       },
       "τίμια": {
         "transliteration": "tímia",
@@ -7957,6 +7955,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a costliness, preciousness",
     "indices": { "strongs": "G5094" },
     "inflections": {
       "τιμιότητος": {
@@ -7969,6 +7968,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to assess for taxation",
     "inflections": {
       "ἐτιμογράφησεν": {
         "transliteration": "etimográphēsen",
@@ -7981,6 +7981,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Timothy, Timotheus; lit. Dear to God",
     "indices": { "strongs": "G5095" },
     "inflections": {
       "Τιμόθεε": {
@@ -8010,6 +8011,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Timon; lit. Valuable",
     "indices": { "strongs": "G5096" },
     "inflections": {
       "Τίμωνα": {
@@ -8022,6 +8024,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to take vengeance on, punish",
     "indices": { "strongs": "G5097" },
     "inflections": {
       "ἐτιμωρήσατο": {
@@ -8097,6 +8100,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a punisher, avenger",
     "inflections": {
       "τιμωρητάς": {
         "transliteration": "timōrētás",
@@ -8108,6 +8112,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a retribution, penalty",
     "indices": { "strongs": "G5098" },
     "inflections": {
       "τιμωρίᾳ": {
@@ -8143,6 +8148,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a quaking, reverberation",
     "inflections": {
       "τινάγματι": {
         "transliteration": "tinágmati",
@@ -8154,6 +8160,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to pay (a penalty); refl. to avenge oneself on",
     "indices": { "strongs": "G5099" },
     "inflections": {
       "τείσομαι": {
@@ -8292,6 +8299,17 @@
         "transliteration": "tís",
         "cells": [{ "parse": ["pron-indef", "nom", "sg", "masc"] }]
       },
+      "τισι": {
+        "transliteration": "tisi",
+        "cells": [{ "parse": ["pron-indef", "dat", "pl", "masc"] }]
+      },
+      "τισί": {
+        "transliteration": "tisí",
+        "cells": [
+          { "parse": ["pron-indef", "dat", "pl", "masc"] },
+          { "parse": ["pron-indef", "dat", "pl", "neut"] }
+        ]
+      },
       "τισιν": {
         "transliteration": "tisin",
         "cells": [{ "parse": ["pron-indef", "dat", "pl", "masc"] }]
@@ -8379,6 +8397,10 @@
           { "parse": ["pron-int", "nom", "sg", "fem"] }
         ]
       },
+      "τίσι": {
+        "transliteration": "tísi",
+        "cells": [{ "parse": ["pron-int", "dat", "pl", "masc"] }]
+      },
       "τίσιν": {
         "transliteration": "tísin",
         "cells": [{ "parse": ["pron-int", "dat", "pl", "masc"] }]
@@ -8390,7 +8412,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "Titan, giant",
+    "shortDefinition": "a titan, giant",
     "inflections": {
       "τιτάνων": {
         "transliteration": "titánōn",
@@ -8403,6 +8425,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a title, (posted) inscription",
     "indices": { "strongs": "G5102" },
     "inflections": {
       "τίτλον": {
@@ -8416,6 +8439,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Titus",
     "indices": { "strongs": "G5103" },
     "inflections": {
       "Τίτον": {
@@ -8441,6 +8465,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "τρω", "fut": "τρω", "perf": "τρω" },
+    "shortDefinition": "to pierce, wound",
     "inflections": {
       "ἐτίτρωσκον": {
         "transliteration": "etítrōskon",
@@ -8538,12 +8563,7 @@
       },
       "τρώσαι": {
         "transliteration": "trṓsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "τρώσασα": {
         "transliteration": "trṓsasa",
@@ -8567,6 +8587,7 @@
   "τμητός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be cut, hewn",
     "inflections": {
       "τμητούς": {
         "transliteration": "tmētoús",
@@ -8580,7 +8601,7 @@
   "τοι": {
     "language": "greek",
     "pos": "prt",
-    "shortDefinition": "indeed, you know",
+    "shortDefinition": "you know, mind you",
     "inflections": {
       "τοι": { "transliteration": "toi", "cells": [{ "parse": ["prt"] }] }
     }
@@ -8588,6 +8609,7 @@
   "τοιγαροῦν": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "for which reason, therefore",
     "indices": { "strongs": "G5105" },
     "inflections": {
       "τοιγαροῦν": {
@@ -8599,6 +8621,7 @@
   "τοίνυν": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "hence, then, so",
     "indices": { "strongs": "G5106" },
     "inflections": {
       "τοίνυν": { "transliteration": "toínyn", "cells": [{ "parse": ["prt"] }] }
@@ -8606,7 +8629,8 @@
   },
   "τοῖος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "pron-dem",
+    "shortDefinition": "such, of such a kind",
     "inflections": {
       "τοῖα": {
         "transliteration": "toîa",
@@ -8623,6 +8647,7 @@
   "τοιόσδε": {
     "language": "greek",
     "pos": "pron-dem",
+    "shortDefinition": "such as follows, of this kind",
     "indices": { "strongs": "G5107" },
     "inflections": {
       "τοιάδε": {
@@ -8736,6 +8761,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a wall (of a house), side",
     "indices": { "strongs": "G5109" },
     "inflections": {
       "τοῖχε": {
@@ -8794,6 +8820,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a breeding animal, brood stock",
     "inflections": {
       "τοκάδες": {
         "transliteration": "tokádes",
@@ -8808,20 +8835,15 @@
   "τοκετός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a delivery, giving birth",
     "inflections": {
       "τοκετοῦ": {
         "transliteration": "toketoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "τοκετῷ": {
         "transliteration": "toketō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -8830,6 +8852,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a bringing forth, offspring; fig. an interest, usury",
     "indices": { "strongs": "G5110" },
     "inflections": {
       "τόκον": {
@@ -8863,6 +8886,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Telem, Tolbanes; lit. Oppression",
     "inflections": {
       "Τολβανης": {
         "transliteration": "Tolbanēs",
@@ -8875,7 +8899,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
-    "shortDefinition": "daring, boldness",
+    "shortDefinition": "a daring act, boldness; fig. a recklessness",
     "inflections": {
       "τόλμαις": {
         "transliteration": "tólmais",
@@ -8892,6 +8916,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Talmon, Tolman; lit. Oppressive",
     "inflections": {
       "Τολμαν": {
         "transliteration": "Tolman",
@@ -8908,6 +8933,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "aor": "ετολμη" },
+    "shortDefinition": "to dare, venture",
     "indices": { "strongs": "G5111" },
     "inflections": {
       "ἐτόλμα": {
@@ -8917,6 +8943,14 @@
       "ἐτόλμησαν": {
         "transliteration": "etólmēsan",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐτόλμησε": {
+        "transliteration": "etólmēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἐτόλμησέ": {
+        "transliteration": "etólmēsé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐτόλμησεν": {
         "transliteration": "etólmēsen",
@@ -8982,11 +9016,20 @@
   },
   "τολμηρός": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "shortDefinition": "to be daring, audacious",
     "inflections": {
       "τολμηρά": {
         "transliteration": "tolmērá",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "τολμηρότερον": {
+        "transliteration": "tolmēróteron",
+        "cells": [{ "parse": ["adv", "comp"] }]
+      },
+      "τολμηρότερος": {
+        "transliteration": "tolmēróteros",
+        "cells": [{ "parse": ["adv", "comp"] }]
       },
       "τολμηροῦ": {
         "transliteration": "tolmēroû",
@@ -8995,28 +9038,16 @@
           { "parse": ["noun", "gen", "sg", "masc"] }
         ]
       }
-    }
-  },
-  "τολμηρότερον": {
-    "language": "greek",
-    "pos": "adv",
-    "indices": { "strongs": "G5112" },
-    "inflections": {
-      "τολμηρότερον": {
-        "transliteration": "tolmēróteron",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      },
-      "τολμηρότερος": {
-        "transliteration": "tolmēróteros",
-        "cells": [{ "parse": ["adv", "comp"] }]
-      }
-    }
+    },
+    "declension": "2-1-2-a",
+    "indices": { "strongs": "G5112" }
   },
   "τολμητής": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a daring one, presumptuous person",
     "indices": { "strongs": "G5113" },
     "inflections": {
       "τολμηταί": {
@@ -9033,6 +9064,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a wild gourd (fruit)",
     "inflections": {
       "τολύπην": {
         "transliteration": "tolýpēn",
@@ -9045,6 +9077,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a pruning, cutting",
     "inflections": {
       "τομή": {
         "transliteration": "tomḗ",
@@ -9063,6 +9096,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a pruning knife, cutter",
     "inflections": {
       "τομίδας": {
         "transliteration": "tomídas",
@@ -9075,6 +9109,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tomman",
     "inflections": {
       "Τομμαν": {
         "transliteration": "Tomman",
@@ -9096,7 +9131,10 @@
   },
   "τόμος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a scroll, volume; lit. a cut piece",
     "inflections": {
       "τόμον": {
         "transliteration": "tómon",
@@ -9121,14 +9159,11 @@
   "τόνος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a tension, muscle tone",
     "inflections": {
       "τόνων": {
         "transliteration": "tónōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9137,6 +9172,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an arrow shot, arrow",
     "inflections": {
       "τόξευμα": {
         "transliteration": "tóxeuma",
@@ -9148,12 +9184,11 @@
       },
       "τοξεύμασιν": {
         "transliteration": "toxeúmasin",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "τοξεύματα": {
         "transliteration": "toxeúmata",
         "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
@@ -9169,24 +9204,15 @@
       },
       "τοξεύματι": {
         "transliteration": "toxeúmati",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
       },
       "τοξεύματος": {
         "transliteration": "toxeúmatos",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       },
       "τοξευμάτων": {
         "transliteration": "toxeumátōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -9194,6 +9220,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to shoot arrows, fire (a bow)",
     "inflections": {
       "ἐτόξευσαν": {
         "transliteration": "etóxeusan",
@@ -9234,6 +9261,7 @@
   "τοξικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the bow, for archery",
     "inflections": {
       "τοξικοῦ": {
         "transliteration": "toxikoû",
@@ -9250,6 +9278,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a bow (weapon); fig. a rainbow",
     "indices": { "strongs": "G5115" },
     "inflections": {
       "τόξα": {
@@ -9291,6 +9320,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an archer, bowman",
     "inflections": {
       "τοξόται": {
         "transliteration": "toxótai",
@@ -9314,6 +9344,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a topaz",
     "indices": { "strongs": "G5116" },
     "inflections": {
       "τοπάζιον": {
@@ -9326,11 +9357,12 @@
       }
     }
   },
-  "τοπαρχής": {
+  "τοπάρχης": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a regional governor, toparch",
     "inflections": {
       "τοπάρχαι": {
         "transliteration": "topárchai",
@@ -9360,6 +9392,7 @@
   "τοπαρχία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a toparchy, (governed) district",
     "inflections": {
       "τοπαρχίας": {
         "transliteration": "toparchías",
@@ -9419,6 +9452,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be turned, embossed, worked in relief",
     "inflections": {
       "τορευτά": {
         "transliteration": "toreutá",
@@ -9464,25 +9498,17 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "τορευτῶν": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
+      },
       "τορευτῶν": {
         "transliteration": "toreutō̂n",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
       }
     }
   },
   "τόσος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "pron-dem",
+    "shortDefinition": "that much, that great",
     "inflections": {
       "τόσῳ": {
         "transliteration": "tósō",
@@ -9497,6 +9523,7 @@
   "τοσοῦτος": {
     "language": "greek",
     "pos": "pron-dem",
+    "shortDefinition": "so much, so great, so many",
     "indices": { "strongs": "G5118" },
     "inflections": {
       "τοσαῦτα": {
@@ -9573,6 +9600,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobiah, Ban; lit. Goodness of YHWH/Yahweh/Jehovah",
     "inflections": {
       "Τουβαν": {
         "transliteration": "Touban",
@@ -9583,28 +9611,29 @@
   "Τουβίας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Tubias",
     "inflections": {
       "Τουβίου": {
         "transliteration": "Toubíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "Τουβινοί": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Tubian",
     "inflections": {
       "Τουβιανούς": {
         "transliteration": "Toubianoús",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
   "τοὐναντίον": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "on the contrary, instead",
     "indices": { "strongs": "G5121" },
     "inflections": {
       "τοὐναντίον": {
@@ -9616,6 +9645,7 @@
   "τοὔνομα": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "by name, named",
     "indices": { "strongs": "G5122" },
     "inflections": {
       "τοὔνομα": {
@@ -9628,6 +9658,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tophel; lit. Quagmire",
     "inflections": {
       "Τοφολ": {
         "transliteration": "Tophol",
@@ -9651,21 +9682,15 @@
   "τραγέλαφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a goat-deer, wild goat",
     "inflections": {
       "τραγέλαφον": {
         "transliteration": "tragélaphon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "τραγελάφων": {
         "transliteration": "trageláphōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9674,6 +9699,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a he-goat",
     "indices": { "strongs": "G5131" },
     "inflections": {
       "τράγοι": {
@@ -9707,7 +9733,9 @@
   },
   "τρανός": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be clear, articulate",
     "inflections": {
       "τρανάς": {
         "transliteration": "tranás",
@@ -9738,6 +9766,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "a table; fig. a meal, (money) counter",
     "indices": { "strongs": "G5132" },
     "inflections": {
       "τράπεζα": {
@@ -9790,6 +9819,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a banker, deposit broker",
     "indices": { "strongs": "G5133" },
     "inflections": {
       "τραπεζίταις": {
@@ -9803,6 +9833,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an injury, wound",
     "indices": { "strongs": "G5134" },
     "inflections": {
       "τραῦμα": {
@@ -9844,6 +9875,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "a wounded man, casualty; fig. a slain one",
     "inflections": {
       "τραυματίᾳ": {
         "transliteration": "traumatía",
@@ -9889,6 +9921,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to wound, injure",
     "indices": { "strongs": "G5135" },
     "inflections": {
       "ἐτραυμάτισάν": {
@@ -9934,6 +9967,7 @@
   "τραχηλιάω": {
     "language": "greek",
     "pos": "verb",
+    "shortDefinition": "to arch the neck; fig. to be haughty",
     "inflections": {
       "ἐτραχηλίασεν": {
         "transliteration": "etrachēlíasen",
@@ -10008,6 +10042,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-us",
+    "shortDefinition": "to be rough, rugged; fig. to be harsh",
     "indices": { "strongs": "G5138" },
     "inflections": {
       "τραχεῖα": {
@@ -10052,6 +10087,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a roughness; fig. a turmoil, uproar",
     "inflections": {
       "τραχύτητα": {
         "transliteration": "trachýtēta",
@@ -10065,6 +10101,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Trachonitis; lit. Rough District",
     "indices": { "strongs": "G5139" },
     "inflections": {
       "Τραχωνίτιδος": {
@@ -10076,7 +10113,7 @@
   "τρεῖς": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "a three",
+    "shortDefinition": "three",
     "indices": { "strongs": "G5140" },
     "inflections": {
       "τρεῖς": {
@@ -10096,6 +10133,14 @@
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      },
+      "τρισί": {
+        "transliteration": "trisí",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "fem"] },
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
         ]
       },
       "τρισίν": {
@@ -10120,6 +10165,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to shudder, tremble; fig. to fear, stand in awe",
     "indices": { "strongs": "G5141" },
     "inflections": {
       "τρέμει": {
@@ -10165,6 +10211,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "fem"] }
         ]
       },
+      "τρέμουσι": {
+        "transliteration": "trémousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "τρέμουσιν": {
         "transliteration": "trémousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -10183,6 +10233,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ετραπ", "fut": "τραπ" },
+    "shortDefinition": "to direct, turn; fig. to rout, put to flight",
     "inflections": {
       "ἐτράπησαν": {
         "transliteration": "etrápēsan",
@@ -10347,6 +10398,10 @@
           { "parse": ["verb", "pres", "pas", "inf"] }
         ]
       },
+      "τρέφεται": {
+        "transliteration": "tréphetai",
+        "cells": [{ "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }]
+      },
       "τρέφῃς": {
         "transliteration": "tréphēs",
         "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }]
@@ -10391,6 +10446,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
         ]
+      },
+      "τρέφωσιν": {
+        "transliteration": "tréphōsin",
+        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       }
     }
   },
@@ -10580,6 +10639,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a thirtieth day (of the month)",
     "inflections": {
       "τριακάδος": {
         "transliteration": "triakádos",
@@ -10591,6 +10651,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "indeclinable",
+    "shortDefinition": "thirty",
     "indices": { "strongs": "G5144" },
     "inflections": {
       "τριάκοντα": {
@@ -10599,17 +10660,19 @@
       }
     }
   },
-  "τριακονταετός": {
+  "τριακονταετής": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "to be thirty years old",
     "inflections": {
       "τριακονταετοῦς": {
         "transliteration": "triakontaetoûs",
         "cells": [
           { "parse": ["noun", "acc", "pl", "fem"] },
           { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
+          { "parse": ["noun", "gen", "sg", "neut"] },
+          { "parse": ["noun", "gen", "sg", "masc"] }
         ]
       }
     }
@@ -10618,6 +10681,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "three hundred",
     "indices": { "strongs": "G5145" },
     "inflections": {
       "τριακόσια": {
@@ -10664,7 +10728,6 @@
       "τριακοσίων": {
         "transliteration": "triakosíōn",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
@@ -10674,6 +10737,7 @@
   "τριακοστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be thirtieth",
     "inflections": {
       "τριακοστοῦ": {
         "transliteration": "triakostoû",
@@ -10778,8 +10842,7 @@
         "transliteration": "tríbōn",
         "cells": [
           { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
+          { "parse": ["noun", "gen", "pl", "masc"] }
         ]
       }
     }
@@ -10788,6 +10851,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to rub, crush, pound; fig. to wear smooth",
     "inflections": {
       "ἔτριβον": {
         "transliteration": "étribon",
@@ -10817,43 +10881,18 @@
       }
     }
   },
-  "τρίβων": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "τρίβον": {
-        "transliteration": "tríbon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "neut", "comp"] },
-          { "parse": ["adj", "comp", "acc", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "neut", "comp"] },
-          { "parse": ["adj", "voc", "sg", "fem", "comp"] },
-          { "parse": ["adj", "voc", "sg", "masc", "comp"] },
-          { "parse": ["adj", "voc", "sg", "neut", "comp"] }
-        ]
-      },
-      "τρίβων": {
-        "transliteration": "tríbōn",
-        "cells": [
-          { "parse": ["adj", "comp", "gen", "pl", "fem"] },
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
-        ]
-      }
-    }
-  },
   "τριετής": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "to be three years old, of three years",
     "inflections": {
       "τριετῆ": {
         "transliteration": "trietē̂",
         "cells": [
           { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
+          { "parse": ["noun", "voc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "masc"] }
         ]
       },
       "τριετής": {
@@ -10873,6 +10912,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a three-year period, triennium",
     "indices": { "strongs": "G5148" },
     "inflections": {
       "τριετίαν": {
@@ -10885,6 +10925,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be three years old",
     "inflections": {
       "τριετίζοντα": {
         "transliteration": "trietízonta",
@@ -10914,6 +10955,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to grind/grate (the teeth); lit. to squeak, creak",
     "indices": { "strongs": "G5149" },
     "inflections": {
       "τρίζει": {
@@ -10925,6 +10967,7 @@
   "τριημερία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a three-day period",
     "inflections": {
       "τριημερίαν": {
         "transliteration": "triēmerían",
@@ -10936,7 +10979,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "shortDefinition": "trireme",
+    "shortDefinition": "a trireme, warship",
     "inflections": {
       "τριηρέων": {
         "transliteration": "triēréōn",
@@ -10947,6 +10990,7 @@
   "τρικυμία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a great wave, billow; lit. a third wave",
     "inflections": {
       "τρικυμίαις": {
         "transliteration": "trikymíais",
@@ -10958,7 +11002,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to divide into three parts",
+    "shortDefinition": "to divide in three",
     "inflections": {
       "τριμεριεῖς": {
         "transliteration": "trimerieîs",
@@ -10969,6 +11013,7 @@
   "τρίμηνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be three months long",
     "indices": { "strongs": "G5150" },
     "inflections": {
       "τρίμηνον": {
@@ -10986,6 +11031,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-cons",
+    "shortDefinition": "to be three-pronged",
     "inflections": {
       "τριόδους": {
         "transliteration": "triódous",
@@ -10999,7 +11045,7 @@
   "τριπλασίως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "threefold",
+    "shortDefinition": "threefold, three times over",
     "inflections": {
       "τριπλασίως": {
         "transliteration": "triplasíōs",
@@ -11011,7 +11057,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-contract",
-    "shortDefinition": "threefold, triple",
+    "shortDefinition": "to be triple, three-tiered",
     "inflections": {
       "τριπλαῖ": {
         "transliteration": "triplaî",
@@ -11025,17 +11071,18 @@
   "Τρίπολις": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Tripolis",
     "inflections": {
       "Τρίπολιν": {
         "transliteration": "Trípolin",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
   "τρίς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "three times, thrice",
     "indices": { "strongs": "G5151" },
     "inflections": {
       "τρίς": { "transliteration": "trís", "cells": [{ "parse": ["adv"] }] }
@@ -11044,14 +11091,12 @@
   "τρισάθλιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be thrice-wretched, utterly miserable",
     "inflections": {
       "τρισαθλία": {
         "transliteration": "trisathlía",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "fem"] }
         ]
       }
@@ -11060,6 +11105,7 @@
   "τρισαλιτήριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be thrice-sinful, utterly reprobate",
     "inflections": {
       "τρισαλιτήριος": {
         "transliteration": "trisalitḗrios",
@@ -11094,6 +11140,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be thirteenth",
     "inflections": {
       "τρισκαιδεκάτῃ": {
         "transliteration": "triskaidekátē",
@@ -11132,6 +11179,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "thirty thousand",
     "inflections": {
       "τρισμυρίων": {
         "transliteration": "trismyríōn",
@@ -11147,6 +11195,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to do a third time, do three times",
     "inflections": {
       "ἐτρίσσευσαν": {
         "transliteration": "etrísseusan",
@@ -11169,6 +11218,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be threefold; fig. to be third in rank",
     "inflections": {
       "τρισσαί": {
         "transliteration": "trissaí",
@@ -11197,6 +11247,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to do a third time, do three times",
     "inflections": {
       "τρισσώσατε": {
         "transliteration": "trissṓsate",
@@ -11207,7 +11258,7 @@
   "τρισσῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "threefold, three times",
+    "shortDefinition": "triply, in three ways",
     "inflections": {
       "τρισσῶς": {
         "transliteration": "trissō̂s",
@@ -11220,6 +11271,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "an officer, aide; lit. a third man (in a chariot)",
     "inflections": {
       "τριστάται": {
         "transliteration": "tristátai",
@@ -11251,6 +11303,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a third story, third floor",
     "indices": { "strongs": "G5152" },
     "inflections": {
       "τριστέγου": {
@@ -11263,6 +11316,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "three thousand",
     "indices": { "strongs": "G5153" },
     "inflections": {
       "τρισχίλια": {
@@ -11279,6 +11333,10 @@
           { "parse": ["adj", "nom", "pl", "fem"] },
           { "parse": ["adj", "voc", "pl", "fem"] }
         ]
+      },
+      "τρισχιλίαν": {
+        "transliteration": "trischilían",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
       "τρισχιλίας": {
         "transliteration": "trischilías",
@@ -11312,20 +11370,10 @@
       }
     }
   },
-  "τρισχίλιος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "inflections": {
-      "τρισχιλίαν": {
-        "transliteration": "trischilían",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "τριταῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be three days (gone)",
     "inflections": {
       "τριταῖος": {
         "transliteration": "tritaîos",
@@ -11333,20 +11381,10 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "τριταίων": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
+      },
       "τριταίων": {
         "transliteration": "tritaíōn",
-        "cells": [
-          { "parse": ["adj", "comp", "gen", "pl", "masc"] },
-          { "parse": ["adj", "nom", "sg", "fem", "comp"] },
-          { "parse": ["adj", "nom", "sg", "masc", "comp"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -11424,15 +11462,14 @@
   "τρίχαπτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be hair-woven, finely braided",
     "inflections": {
       "τρίχαπτα": {
         "transliteration": "tríchapta",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "τριχάπτῳ": {
@@ -11445,10 +11482,12 @@
       }
     }
   },
-  "τριχίνας": {
+  "τρίχινος": {
     "language": "greek",
     "pos": "adj",
-    "declension": "3-1-3-nt",
+    "declension": "2-1-2",
+    "shortDefinition": "to be made of hair",
+    "indices": { "strongs": "G5155" },
     "inflections": {
       "τριχίνας": {
         "transliteration": "trichínas",
@@ -11456,15 +11495,7 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "τρίχινος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2",
-    "indices": { "strongs": "G5155" },
-    "inflections": {
+      },
       "τριχίνην": {
         "transliteration": "trichínēn",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
@@ -11480,6 +11511,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a growth of hair, hair of the head",
     "inflections": {
       "τρίχωμα": {
         "transliteration": "tríchōma",
@@ -11506,15 +11538,14 @@
   "τριώροφος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be three-storied",
     "inflections": {
       "τριώροφα": {
         "transliteration": "triṓropha",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       }
     }
@@ -11523,13 +11554,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to quiver, shudder",
     "inflections": {
       "ἐτρόμησαν": {
         "transliteration": "etrómēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -11538,6 +11567,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a trembling, quaking",
     "indices": { "strongs": "G5156" },
     "inflections": {
       "τρόμον": {
@@ -11563,6 +11593,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a victory monument, trophy",
     "inflections": {
       "τρόπαια": {
         "transliteration": "trópaia",
@@ -11622,6 +11653,7 @@
   "τρόπις": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a keel (of a ship)",
     "inflections": {
       "τρόπιος": {
         "transliteration": "trópios",
@@ -11634,6 +11666,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a manner, way; lit. a turn; fig. a lifestyle, conduct",
     "indices": { "strongs": "G5158" },
     "inflections": {
       "τρόπον": {
@@ -11659,6 +11692,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "ετροποφορη" },
+    "shortDefinition": "to put up with (someone’s ways), bear with",
     "indices": { "strongs": "G5159" },
     "inflections": {
       "ἐτροποφόρησεν": {
@@ -11671,6 +11705,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to rout, put to flight",
     "inflections": {
       "ἐτροποῦτο": {
         "transliteration": "etropoûto",
@@ -11777,6 +11812,7 @@
   "τροφεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wet-nursing, nursing care",
     "inflections": {
       "τροφεία": {
         "transliteration": "tropheía",
@@ -11791,6 +11827,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to wet-nurse, nurse",
     "inflections": {
       "τροφεύουσαν": {
         "transliteration": "tropheúousan",
@@ -11814,7 +11851,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "shortDefinition": "a nourishment; fig. food",
+    "shortDefinition": "a nourishment; fig. a food",
     "indices": { "strongs": "G5160" },
     "inflections": {
       "τροφάς": {
@@ -11840,6 +11877,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Trophimus; lit. Nutritive",
     "indices": { "strongs": "G5161" },
     "inflections": {
       "Τρόφιμον": {
@@ -11857,6 +11895,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a nurse, nursing mother",
     "indices": { "strongs": "G5162" },
     "inflections": {
       "τροφοί": {
@@ -11884,6 +11923,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to nurture, care for; lit. to carry food",
     "inflections": {
       "ἐτροφοφόρησέν": {
         "transliteration": "etrophophórēsén",
@@ -11909,6 +11949,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a bone-crusher (torture device)",
     "inflections": {
       "τροχαντῆρας": {
         "transliteration": "trochantē̂ras",
@@ -11921,6 +11962,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a wheel track, rut; fig. a course",
     "indices": { "strongs": "G5163" },
     "inflections": {
       "τροχιαί": {
@@ -11929,6 +11971,10 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
+      },
+      "τροχιαῖς": {
+        "transliteration": "trochiaîs",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "τροχιάς": {
         "transliteration": "trochiás",
@@ -11939,6 +11985,7 @@
   "τροχιαῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wheel-worked, rolling",
     "inflections": {
       "τροχιαῖον": {
         "transliteration": "trochiaîon",
@@ -11952,21 +11999,11 @@
       }
     }
   },
-  "τροχιάς": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "3-1-3-nt",
-    "inflections": {
-      "τροχιάς": {
-        "transliteration": "trochiás",
-        "cells": [{ "parse": ["adj", "nom", "sg", "masc"] }]
-      }
-    }
-  },
   "τροχίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to break on the wheel",
     "inflections": {
       "τροχισθέντας": {
         "transliteration": "trochisthéntas",
@@ -11976,41 +12013,14 @@
       }
     }
   },
-  "τροχιός": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "τροχιαί": {
-        "transliteration": "trochiaí",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "fem"] }
-        ]
-      },
-      "τροχιαῖς": {
-        "transliteration": "trochiaîs",
-        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
-      },
-      "τροχιάς": {
-        "transliteration": "trochiás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "τροχίσκος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a small wheel/disk; fig. an earring",
     "inflections": {
       "τροχίσκους": {
         "transliteration": "trochískous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -12019,6 +12029,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a wheel; fig. a cycle, course",
     "indices": { "strongs": "G5164" },
     "inflections": {
       "τροχοί": {
@@ -12063,6 +12074,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a bowl, saucer, deep dish",
     "indices": { "strongs": "G5165" },
     "inflections": {
       "τρυβλία": {
@@ -12100,6 +12112,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "stems": { "aor": "ετρυγη" },
+    "shortDefinition": "to gather the vintage, pick (fruit); fig. to reap",
     "indices": { "strongs": "G5166" },
     "inflections": {
       "ἐτρύγησα": {
@@ -12113,6 +12126,10 @@
       "ἐτρυγήσατε": {
         "transliteration": "etrygḗsate",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "pl"] }]
+      },
+      "ἐτρύγησε": {
+        "transliteration": "etrýgēse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐτρύγησεν": {
         "transliteration": "etrýgēsen",
@@ -12156,6 +12173,16 @@
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "neut"] }
         ]
       },
+      "τρυγῶντες": {
+        "transliteration": "trygō̂ntes",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "masc"] }
+        ]
+      },
+      "τρυγῶσι": {
+        "transliteration": "trygō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "τρυγῶσιν": {
         "transliteration": "trygō̂sin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -12167,6 +12194,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a grape gatherer, vintager",
     "inflections": {
       "τρυγηταί": {
         "transliteration": "trygētaí",
@@ -12186,6 +12214,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a vintage, gathering of fruit/crops",
     "inflections": {
       "τρυγητόν": {
         "transliteration": "trygētón",
@@ -12220,6 +12249,7 @@
   "τρυγίας": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wine sediment, dregs, lees",
     "inflections": {
       "τρυγίας": {
         "transliteration": "trygías",
@@ -12235,6 +12265,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a turtledove",
     "indices": { "strongs": "G5167" },
     "inflections": {
       "τρυγόνα": {
@@ -12263,17 +12294,6 @@
       "τρυγών": {
         "transliteration": "trygṓn",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "τρυγῶν": {
-        "transliteration": "trygō̂n",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "τρυγῶντες": {
-        "transliteration": "trygō̂ntes",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
       }
     }
   },
@@ -12281,6 +12301,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a rock hole, cleft; fig. an eye (of a needle)",
     "indices": { "strongs": "G5168" },
     "inflections": {
       "τρυμαλιᾷ": {
@@ -12310,6 +12331,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to bore through, pierce",
     "inflections": {
       "τετρυπημένον": {
         "transliteration": "tetrypēménon",
@@ -12346,6 +12368,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a bored hole, perforation; fig. a needle’s eye",
     "indices": { "strongs": "G5169" },
     "inflections": {
       "τρυπήματος": {
@@ -12358,6 +12381,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Tryphena; lit. Luxurious",
     "indices": { "strongs": "G5170" },
     "inflections": {
       "Τρύφαιναν": {
@@ -12370,14 +12394,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to live in luxury, revel (in delights)",
     "indices": { "strongs": "G5171" },
     "inflections": {
       "ἐτρύφησαν": {
         "transliteration": "etrýphēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐτρυφήσατε": {
         "transliteration": "etryphḗsate",
@@ -12389,10 +12411,7 @@
       },
       "τρυφήσουσιν": {
         "transliteration": "tryphḗsousin",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -12400,6 +12419,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "deponent",
+    "shortDefinition": "to act daintily, carry oneself delicately",
     "inflections": {
       "τρυφερευομένη": {
         "transliteration": "tryphereuoménē",
@@ -12417,6 +12437,7 @@
   "τρυφερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dainty, pampered; fig. to be delightful",
     "inflections": {
       "τρυφερά": {
         "transliteration": "trypherá",
@@ -12450,6 +12471,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a delicateness, daintiness",
     "inflections": {
       "τρυφερότητα": {
         "transliteration": "trypherótēta",
@@ -12463,6 +12485,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a soft living, luxury; fig. a delight",
     "indices": { "strongs": "G5172" },
     "inflections": {
       "τρυφαῖς": {
@@ -12488,10 +12511,6 @@
       "τρυφῆς": {
         "transliteration": "tryphē̂s",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      },
-      "τρύφων": {
-        "transliteration": "trýphōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -12500,6 +12519,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a delicacy, treat, luxury",
     "inflections": {
       "τρυφημάτων": {
         "transliteration": "tryphēmátōn",
@@ -12512,6 +12532,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Tryphon",
     "inflections": {
       "Τρύφων": {
         "transliteration": "Trýphōn",
@@ -12538,6 +12559,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Tryphosa; lit. Luxuriating",
     "indices": { "strongs": "G5173" },
     "inflections": {
       "Τρυφῶσαν": {
@@ -12550,6 +12572,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to wear out, torment, vex",
     "inflections": {
       "ἐτρύχοντο": {
         "transliteration": "etrýchonto",
@@ -12574,6 +12597,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "Troas",
     "indices": { "strongs": "G5174" },
     "inflections": {
       "Τρῳάδα": {
@@ -12595,6 +12619,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a burrow, hole, cavern",
     "inflections": {
       "τρῶγλαι": {
         "transliteration": "trō̂glai",
@@ -12625,6 +12650,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Troglodyte (cave-dweller)",
     "inflections": {
       "Τρωγλοδύται": {
         "transliteration": "Trōglodýtai",
@@ -12637,6 +12663,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "Trogyllium",
     "indices": { "strongs": "G5175" },
     "inflections": {
       "Τρωγυλλίῳ": {
@@ -12649,6 +12676,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to munch, chew; fig. to eat",
     "indices": { "strongs": "G5176" },
     "inflections": {
       "τρώγοντες": {
@@ -12697,6 +12725,10 @@
           { "parse": ["verb", "aor", "act", "ind", "pers-1", "pl", "second"] }
         ]
       },
+      "τέτευχε": {
+        "transliteration": "téteuche",
+        "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }]
+      },
       "τετευχότες": {
         "transliteration": "teteuchótes",
         "cells": [
@@ -12715,6 +12747,10 @@
         "cells": [
           { "parse": ["verb", "second", "perf", "act", "ind", "pers-3", "sg"] }
         ]
+      },
+      "τεύξασθαι": {
+        "transliteration": "teúxasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       },
       "τευξόμενος": {
         "transliteration": "teuxómenos",
@@ -12952,6 +12988,12 @@
           }
         ]
       },
+      "τύχωσι": {
+        "transliteration": "týchōsi",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "pl"] }
+        ]
+      },
       "τύχωσιν": {
         "transliteration": "týchōsin",
         "cells": [
@@ -12964,6 +13006,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to callus, grow calloused",
     "inflections": {
       "ἐτυλώθησαν": {
         "transliteration": "etylṓthēsan",
@@ -12975,14 +13018,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to drum, beat; fig. to torture (on the rack)",
     "indices": { "strongs": "G5178" },
     "inflections": {
       "ἐτυμπάνιζεν": {
         "transliteration": "etympánizen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐτυμπανίσθησαν": {
         "transliteration": "etympanísthēsan",
@@ -12993,6 +13034,7 @@
   "τυμπανίστρια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a (female) drummer, tambourine player",
     "inflections": {
       "τυμπανιστριῶν": {
         "transliteration": "tympanistriō̂n",
@@ -13005,6 +13047,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a tambourine, timbrel; fig. a torture rack",
     "inflections": {
       "τυμπάνοις": {
         "transliteration": "tympánois",
@@ -13069,6 +13112,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to model, form",
     "inflections": {
       "ἐτύπωσεν": {
         "transliteration": "etýpōsen",
@@ -13214,11 +13258,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to rule as a tyrant, tyrannize",
     "inflections": {
       "τυραννεῖ": {
         "transliteration": "tyranneî",
         "cells": [
-          { "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
@@ -13250,6 +13294,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be tyrannical, despotic",
     "inflections": {
       "τυραννική": {
         "transliteration": "tyrannikḗ",
@@ -13275,6 +13320,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a tyranny, despotism; fig. a princess, noblewoman",
     "inflections": {
       "τυραννίδα": {
         "transliteration": "tyrannída",
@@ -13302,6 +13348,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a tyrant, despot; fig. a sovereign, prince",
     "inflections": {
       "τύραννε": {
         "transliteration": "týranne",
@@ -13352,6 +13399,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Tyrannus; lit. Tyrant, Sovereign",
     "indices": { "strongs": "G5181" },
     "inflections": {
       "Τυράννου": {
@@ -13364,6 +13412,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to fluster, agitate, trouble",
     "indices": { "strongs": "G5182" },
     "inflections": {
       "τυρβάζῃ": {
@@ -13377,6 +13426,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Tyrian",
     "indices": { "strongs": "G5183" },
     "inflections": {
       "Τύριοι": {
@@ -13403,48 +13453,45 @@
       }
     }
   },
+  "τυρός": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a cheese",
+    "inflections": {
+      "τυρῷ": {
+        "transliteration": "tyrō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
   "Τύρος": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "Tyre, Tyrus; lit. Rock",
     "indices": { "strongs": "G5184" },
     "inflections": {
       "Τύρον": {
         "transliteration": "Týron",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "Τύρος": {
         "transliteration": "Týros",
         "cells": [
           { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
+          { "parse": ["noun", "nom", "sg", "fem"] }
         ]
       },
       "Τύρου": {
         "transliteration": "Týrou",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
-      },
-      "Τυρῷ": {
-        "transliteration": "Tyrō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "Τύρῳ": {
         "transliteration": "Týrō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
@@ -13452,6 +13499,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to curdle, make into cheese",
     "inflections": {
       "ἐτυρώθη": {
         "transliteration": "etyrṓthē",
@@ -13497,6 +13545,7 @@
   "τυφλός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be blind; fig. to be undiscerning",
     "indices": { "strongs": "G5185" },
     "inflections": {
       "τυφλέ": {
@@ -13563,6 +13612,10 @@
         "transliteration": "etyphlṓthēsan",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
       },
+      "ἐτύφλωσε": {
+        "transliteration": "etýphlōse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐτύφλωσεν": {
         "transliteration": "etýphlōsen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -13576,13 +13629,11 @@
   "τῦφος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a conceit, vanity; lit. a smoke",
     "inflections": {
       "τύφοις": {
         "transliteration": "týphois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
       }
     }
   },
@@ -13590,6 +13641,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to make conceited, befog; lit. to wrap in smoke",
     "indices": { "strongs": "G5187" },
     "inflections": {
       "τετυφωμένοι": {
@@ -13615,6 +13667,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to smolder, make smoke",
     "indices": { "strongs": "G5188" },
     "inflections": {
       "τυφόμενον": {
@@ -13630,6 +13683,7 @@
   "τυφωνικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be typhoon-like, tempestuous",
     "indices": { "strongs": "G5189" },
     "inflections": {
       "τυφωνικός": {
@@ -13643,6 +13697,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a (good) fortune, luck; fig. Fortune (a deity)",
     "inflections": {
       "τύχῃ": {
         "transliteration": "týchē",
@@ -13655,6 +13710,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Tychicus; lit. Fortuitous, Fortunate",
     "indices": { "strongs": "G5190" },
     "inflections": {
       "Τυχικόν": {
@@ -13671,6 +13727,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tob; lit. Good",
     "inflections": {
       "Τωβ": {
         "transliteration": "Tōb",
@@ -13682,6 +13739,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tobias, Tobiah; lit. Goodness of YHWH/Yahweh/Jehovah",
     "inflections": {
       "Τωβια": {
         "transliteration": "Tōbia",
@@ -13694,6 +13752,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobias, Tobiah; lit. Goodness of YHWH/Yahweh/Jehovah",
     "inflections": {
       "Τωβια": {
         "transliteration": "Tōbia",
@@ -13706,6 +13765,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobiah; lit. Goodness of YHWH/Yahweh/Jehovah",
     "inflections": {
       "Τωβιαν": {
         "transliteration": "Tōbian",
@@ -13717,6 +13777,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "1m-as",
+    "shortDefinition": "Tobias, Tobiah; lit. Goodness of YHWH/Yahweh/Jehovah",
     "inflections": {
       "Τωβιαν": {
         "transliteration": "Tōbian",
@@ -13742,6 +13803,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobiel",
     "inflections": {
       "Τωβιηλ": {
         "transliteration": "Tōbiēl",
@@ -13753,6 +13815,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Tobit",
     "inflections": {
       "Τωβει": {
         "transliteration": "Tōbei",
@@ -13773,6 +13836,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobit",
     "inflections": {
       "Τωβιν": {
         "transliteration": "Tōbin",
@@ -13785,6 +13849,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Tobit",
     "inflections": {
       "Τωβιτ": {
         "transliteration": "Tōbit",

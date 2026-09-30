@@ -4,6 +4,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahath; lit. Quiet",
     "inflections": {
       "Νααθ": {
         "transliteration": "Naath",
@@ -16,6 +17,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Adna, Naathus; lit. Pleasure",
     "inflections": {
       "Νααθος": {
         "transliteration": "Naathos",
@@ -27,6 +29,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nahaliel; lit. Valley of God",
     "inflections": {
       "Νααλιηλ": {
         "transliteration": "Naaliēl",
@@ -38,6 +41,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nahalal, Nahallal; lit. Pasture",
     "inflections": {
       "Νααλωλ": {
         "transliteration": "Naalōl",
@@ -50,6 +54,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νααμα": {
         "transliteration": "Naama",
@@ -62,6 +67,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naana",
     "inflections": {
       "Ναανα": {
         "transliteration": "Naana",
@@ -74,6 +80,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νααναν": {
         "transliteration": "Naanan",
@@ -86,6 +93,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naarai; lit. Youthful",
     "inflections": {
       "Νααραι": {
         "transliteration": "Naarai",
@@ -98,6 +106,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Naaran; lit. Juvenile",
     "inflections": {
       "Νααραν": {
         "transliteration": "Naaran",
@@ -110,6 +119,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahash; lit. Snake",
     "inflections": {
       "Ναας": {
         "transliteration": "Naas",
@@ -139,6 +149,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nahalal, Nahallal; lit. Pasture",
     "inflections": {
       "Ναβααλ": {
         "transliteration": "Nabaal",
@@ -151,6 +162,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nasbas, Nabad",
     "inflections": {
       "Ναβαδ": {
         "transliteration": "Nabad",
@@ -163,6 +175,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nobah; lit. Barking",
     "inflections": {
       "Ναβαι": {
         "transliteration": "Nabai",
@@ -175,7 +188,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Nebayoth",
+    "shortDefinition": "Nebaioth, Nebajoth; lit. Fruitfulnesses",
     "inflections": {
       "Ναβαιωθ": {
         "transliteration": "Nabaiōth",
@@ -188,6 +201,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nabal; lit. Dolt",
     "inflections": {
       "Ναβαλ": {
         "transliteration": "Nabal",
@@ -199,6 +213,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nabarias",
     "inflections": {
       "Ναβαριας": {
         "transliteration": "Nabarias",
@@ -211,6 +226,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nebat; lit. Regard",
     "inflections": {
       "Ναβατ": {
         "transliteration": "Nabat",
@@ -222,6 +238,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Nabatean",
     "inflections": {
       "Ναβαταίοις": {
         "transliteration": "Nabataíois",
@@ -232,11 +249,11 @@
   "Ναβαταῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Nabatean",
     "inflections": {
       "Ναβαταίους": {
         "transliteration": "Nabataíous",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -258,7 +275,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Adbeel",
+    "shortDefinition": "Adbeel; lit. Disciplined by God",
     "inflections": {
       "Ναβδεηλ": {
         "transliteration": "Nabdeēl",
@@ -271,6 +288,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nobah; lit. Barking",
     "inflections": {
       "Ναβεθ": {
         "transliteration": "Nabeth",
@@ -283,6 +301,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahbi; lit. Hidden",
     "inflections": {
       "Ναβι": {
         "transliteration": "Nabi",
@@ -295,6 +314,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nebo",
     "inflections": {
       "Ναβι-ααρ": {
         "transliteration": "Nabi-aar",
@@ -305,11 +325,11 @@
   "νάβλα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a harp, stringed instrument",
     "inflections": {
       "νάβλα": {
         "transliteration": "nábla",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "nom", "sg", "fem"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "fem"] },
@@ -334,6 +354,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nebo",
     "inflections": {
       "Ναβου": {
         "transliteration": "Nabou",
@@ -346,18 +367,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "inflections": {
-      "Ναβουζαρδαν": {
-        "transliteration": "Nabouzardan",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "Ναβουζαρδας": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
+    "shortDefinition": "Nebuzaradan",
     "inflections": {
       "Ναβουζαρδαν": {
         "transliteration": "Nabouzardan",
@@ -370,7 +380,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Naboth",
+    "shortDefinition": "Naboth; lit. Fruits",
     "inflections": {
       "Ναβουθαι": {
         "transliteration": "Nabouthai",
@@ -383,6 +393,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nabusaris",
     "inflections": {
       "Ναβουσαρις": {
         "transliteration": "Nabousaris",
@@ -395,6 +406,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nabusachar",
     "inflections": {
       "Ναβουσαχαρ": {
         "transliteration": "Nabousachar",
@@ -406,6 +418,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nebuchadnezzar, Nabuchodonosor",
     "inflections": {
       "Ναβουχοδονοσορ": {
         "transliteration": "Nabouchodonosor",
@@ -418,6 +431,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nobah; lit. Barking",
     "inflections": {
       "Ναβωθ": {
         "transliteration": "Nabōth",
@@ -429,6 +443,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nabok",
     "inflections": {
       "Ναβωκ": {
         "transliteration": "Nabōk",
@@ -441,6 +456,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nergal Sharezer",
     "inflections": {
       "Ναγαργασνασερ": {
         "transliteration": "Nagargasnaser",
@@ -452,6 +468,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Naggai, Nagge",
     "indices": { "strongs": "G3477" },
     "inflections": {
       "Ναγγαί": {
@@ -465,6 +482,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nogah; lit. Brilliancy",
     "inflections": {
       "Ναγε": {
         "transliteration": "Nage",
@@ -477,6 +495,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Negev; lit. South",
     "inflections": {
       "Ναγεβ": {
         "transliteration": "Nageb",
@@ -488,6 +507,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nogah; lit. Brilliancy",
     "inflections": {
       "Ναγεδ": {
         "transliteration": "Naged",
@@ -500,6 +520,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nadab; lit. Liberal",
     "inflections": {
       "Ναδαβ": {
         "transliteration": "Nadab",
@@ -511,6 +532,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nadabath",
     "inflections": {
       "Ναδαβαθ": {
         "transliteration": "Nadabath",
@@ -521,11 +543,11 @@
   "Ναδαβαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Nodabite",
     "inflections": {
       "Ναδαβαίων": {
         "transliteration": "Nadabaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -534,6 +556,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahath; lit. Quiet",
     "inflections": {
       "Ναεθ": {
         "transliteration": "Naeth",
@@ -546,6 +569,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahamani; lit. Consolatory",
     "inflections": {
       "Ναεμανι": {
         "transliteration": "Naemani",
@@ -557,8 +581,13 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nazareth",
     "indices": { "strongs": "G3478" },
     "inflections": {
+      "Ναζαρέθ": {
+        "transliteration": "Nazaréth",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
       "Ναζαρέτ": {
         "transliteration": "Nazarét",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
@@ -568,6 +597,7 @@
   "Ναζαρηνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be Nazarene, of Nazareth",
     "indices": { "strongs": "G3479" },
     "inflections": {
       "Ναζαρηνέ": {
@@ -588,6 +618,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Nazirite",
     "inflections": {
       "ναζιρ": {
         "transliteration": "nazir",
@@ -598,6 +629,7 @@
   "ναζιραῖος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a Nazirite",
     "inflections": {
       "ναζιραῖοι": {
         "transliteration": "naziraîoi",
@@ -640,6 +672,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Nazarene",
     "indices": { "strongs": "G3480" },
     "inflections": {
       "Ναζωραῖον": {
@@ -669,6 +702,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naham; lit. Consolation",
     "inflections": {
       "Ναημ": {
         "transliteration": "Naēm",
@@ -680,6 +714,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nathan; lit. Given",
     "indices": { "strongs": "G3481" },
     "inflections": {
       "Ναθαν": {
@@ -697,6 +732,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nathanael, Nethanel; lit. Given by God",
     "indices": { "strongs": "G3482" },
     "inflections": {
       "Ναθαναηλ": {
@@ -714,6 +750,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nethanel, Nathanael; lit. Given by God",
     "inflections": {
       "Ναθαναηλος": {
         "transliteration": "Nathanaēlos",
@@ -726,6 +763,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Nethaniah, Nathanias; lit. Given by YH/Yah/Jah",
     "inflections": {
       "Ναθανιας": {
         "transliteration": "Nathanias",
@@ -746,6 +784,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nethaniah; lit. Given by YH/Yah/Jah",
     "inflections": {
       "Ναθανιου": {
         "transliteration": "Nathaniou",
@@ -757,11 +796,11 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
-    "declension": "indeclinable",
+    "shortDefinition": "a temple attendant; trad. a Nethinite",
     "inflections": {
       "ναθιναῖοι": {
         "transliteration": "nathinaîoi",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -770,18 +809,12 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a temple attendant; trad. a Nethinite",
     "inflections": {
       "ναθινιμ": {
         "transliteration": "nathinim",
         "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
-      }
-    }
-  },
-  "ναθινιν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
+      },
       "ναθινιν": {
         "transliteration": "nathinin",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -791,6 +824,7 @@
   "ναί": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "yes, indeed, truly",
     "indices": { "strongs": "G3483" },
     "inflections": {
       "ναι": { "transliteration": "nai", "cells": [{ "parse": ["prt"] }] },
@@ -801,7 +835,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Nod",
+    "shortDefinition": "Nod; lit. Vagrancy",
     "inflections": {
       "Ναιδ": {
         "transliteration": "Naid",
@@ -814,6 +848,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naidus",
     "inflections": {
       "Ναιδος": {
         "transliteration": "Naidos",
@@ -825,7 +860,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Naaman",
+    "shortDefinition": "Naaman; lit. Pleasantness",
     "inflections": {
       "Ναιμαν": {
         "transliteration": "Naiman",
@@ -837,6 +872,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nain",
     "indices": { "strongs": "G3484" },
     "inflections": {
       "Ναΐν": {
@@ -849,6 +885,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to dwell in, inhabit",
     "inflections": {
       "ναίων": {
         "transliteration": "naíōn",
@@ -863,6 +900,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nakan",
     "inflections": {
       "Νακαν": {
         "transliteration": "Nakan",
@@ -874,6 +912,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nekeb; lit. Dell",
     "inflections": {
       "Νακεβ": {
         "transliteration": "Nakeb",
@@ -885,6 +924,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a sheep breeder",
     "inflections": {
       "νακκαριμ": {
         "transliteration": "nakkarim",
@@ -897,6 +937,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a flowing liquid, juice",
     "inflections": {
       "νάματος": {
         "transliteration": "námatos",
@@ -909,6 +950,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nimrah; lit. Clear Water",
     "inflections": {
       "Ναμβρα": {
         "transliteration": "Nambra",
@@ -921,6 +963,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nimrah; lit. Clear Water",
     "inflections": {
       "Ναμβραν": {
         "transliteration": "Nambran",
@@ -933,6 +976,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nimshi; lit. Extricated",
     "inflections": {
       "Ναμεσσι": {
         "transliteration": "Namessi",
@@ -943,11 +987,11 @@
   "Ναμεσσιας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Nimshi; lit. Extricated",
     "inflections": {
       "Ναμεσσιου": {
         "transliteration": "Namessiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -956,6 +1000,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Timna; lit. Restraint",
     "inflections": {
       "Ναμνα": {
         "transliteration": "Namna",
@@ -968,6 +1013,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nemuel",
     "inflections": {
       "Ναμουηλ": {
         "transliteration": "Namouēl",
@@ -980,6 +1026,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Nemuelite",
     "inflections": {
       "Ναμουηλι": {
         "transliteration": "Namouēli",
@@ -991,6 +1038,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "Nanaea",
     "inflections": {
       "Ναναίαν": {
         "transliteration": "Nanaían",
@@ -1008,11 +1056,11 @@
   "Ναναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Nanaeum (temple of Nanaea)",
     "inflections": {
       "Ναναίου": {
         "transliteration": "Nanaíou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1055,6 +1103,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahum, Naum; lit. Comfortable",
     "indices": { "strongs": "G3486" },
     "inflections": {
       "Ναουμ": {
@@ -1072,6 +1121,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a wooded valley, glen",
     "inflections": {
       "νάπαι": {
         "transliteration": "nápai",
@@ -1107,6 +1157,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nergal Sharezer",
     "inflections": {
       "Ναργαλασαρ": {
         "transliteration": "Nargalasar",
@@ -1119,6 +1170,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "a nard, spikenard",
     "indices": { "strongs": "G3487" },
     "inflections": {
       "νάρδος": {
@@ -1139,6 +1191,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to grow numb, stiffen",
     "inflections": {
       "ἐνάρκησεν": {
         "transliteration": "enárkēsen",
@@ -1158,6 +1211,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Narcissus",
     "indices": { "strongs": "G3488" },
     "inflections": {
       "Ναρκίσσου": {
@@ -1171,6 +1225,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nisroch",
     "inflections": {
       "Νασαραχ": {
         "transliteration": "Nasarach",
@@ -1183,6 +1238,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nasbas",
     "inflections": {
       "Νασβας": {
         "transliteration": "Nasbas",
@@ -1195,6 +1251,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Neziah, Nasi; lit. Conspicuous",
     "inflections": {
       "Νασι": {
         "transliteration": "Nasi",
@@ -1207,6 +1264,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nezib, Nasib; lit. Station",
     "inflections": {
       "Νασιβ": {
         "transliteration": "Nasib",
@@ -1218,6 +1276,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a deputy, official",
     "inflections": {
       "νασιφ": {
         "transliteration": "nasiph",
@@ -1230,6 +1289,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Neziah; lit. Conspicuous",
     "inflections": {
       "Νασουε": {
         "transliteration": "Nasoue",
@@ -1242,6 +1302,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Netaim; lit. Plants",
     "inflections": {
       "Ναταιμ": {
         "transliteration": "Nataim",
@@ -1253,6 +1314,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be shipwrecked",
     "indices": { "strongs": "G3489" },
     "inflections": {
       "ἐναυάγησα": {
@@ -1269,6 +1331,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Naioth; lit. Residence",
     "inflections": {
       "Ναυαθ": {
         "transliteration": "Nauath",
@@ -1281,6 +1344,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nun; lit. Perpetuity",
     "inflections": {
       "Ναυη": {
         "transliteration": "Nauē",
@@ -1293,6 +1357,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a ship owner, shipmaster",
     "indices": { "strongs": "G3490" },
     "inflections": {
       "ναυκλήρῳ": {
@@ -1306,6 +1371,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a boat fare, passage money",
     "inflections": {
       "ναῦλον": {
         "transliteration": "naûlon",
@@ -1322,6 +1388,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-us",
+    "shortDefinition": "a ship, seagoing vessel",
     "indices": { "strongs": "G3491" },
     "inflections": {
       "ναῦν": {
@@ -1358,6 +1425,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a sailor, seaman",
     "indices": { "strongs": "G3492" },
     "inflections": {
       "ναῦται": {
@@ -1376,6 +1444,7 @@
   "ναυτικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be seafaring, nautical",
     "inflections": {
       "ναυτικοί": {
         "transliteration": "nautikoí",
@@ -1400,6 +1469,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nepheg; lit. Sprout",
     "inflections": {
       "Ναφαγ": {
         "transliteration": "Naphag",
@@ -1412,6 +1482,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naphath Dor; lit. Heights of Dor",
     "inflections": {
       "Ναφεδδωρ": {
         "transliteration": "Napheddōr",
@@ -1424,6 +1495,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nepheg; lit. Sprout",
     "inflections": {
       "Ναφεκ": {
         "transliteration": "Naphek",
@@ -1436,7 +1508,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Naphish",
+    "shortDefinition": "Naphish; lit. Refreshed",
     "inflections": {
       "Ναφες": {
         "transliteration": "Naphes",
@@ -1449,6 +1521,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Napheta; lit. Height",
     "inflections": {
       "Ναφετα": {
         "transliteration": "Napheta",
@@ -1459,6 +1532,7 @@
   "νάφθα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a naphtha (crude oil)",
     "inflections": {
       "νάφθαν": {
         "transliteration": "náphthan",
@@ -1470,6 +1544,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nephtoah; lit. Opened",
     "inflections": {
       "Ναφθω": {
         "transliteration": "Naphthō",
@@ -1480,11 +1555,11 @@
   "Ναφισαῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Naphishite",
     "inflections": {
       "Ναφισαίων": {
         "transliteration": "Naphisaíōn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -1493,6 +1568,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nephisim, Naphisi; lit. Expansions",
     "inflections": {
       "Ναφισι": {
         "transliteration": "Naphisi",
@@ -1505,6 +1581,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nephisim; lit. Expansions",
     "inflections": {
       "Ναφισων": {
         "transliteration": "Naphisōn",
@@ -1516,6 +1593,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nibshan",
     "inflections": {
       "Ναφλαζων": {
         "transliteration": "Naphlazōn",
@@ -1527,6 +1605,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a stream bed, wadi",
     "inflections": {
       "ναχαλ": {
         "transliteration": "nachal",
@@ -1539,6 +1618,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahale Gaash; lit. Brooks of Gaash",
     "inflections": {
       "Ναχαλιγαας": {
         "transliteration": "Nachaligaas",
@@ -1550,6 +1630,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nahale Gaash; lit. Brooks of Gaash",
     "inflections": {
       "Ναχαλιγαιας": {
         "transliteration": "Nachaligaias",
@@ -1562,6 +1643,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahath; lit. Quiet",
     "inflections": {
       "Ναχεθ": {
         "transliteration": "Nacheth",
@@ -1574,6 +1656,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naham; lit. Consolation",
     "inflections": {
       "Ναχεμ": {
         "transliteration": "Nachem",
@@ -1586,7 +1669,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Nahath",
+    "shortDefinition": "Nahath; lit. Quiet",
     "inflections": {
       "Ναχοθ": {
         "transliteration": "Nachoth",
@@ -1599,6 +1682,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nahor; lit. Snorer",
     "indices": { "strongs": "G3493" },
     "inflections": {
       "Ναχωρ": {
@@ -1615,6 +1699,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be young, youthfully vigorous",
     "inflections": {
       "νεάζειν": {
         "transliteration": "neázein",
@@ -1671,6 +1756,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be youthful",
     "inflections": {
       "νεανικῆς": {
         "transliteration": "neanikē̂s",
@@ -1683,6 +1769,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a young woman, maiden",
     "inflections": {
       "νεάνιδα": {
         "transliteration": "neánida",
@@ -1779,6 +1866,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "Neapolis; lit. New Town",
     "indices": { "strongs": "G3496" },
     "inflections": {
       "Νεάπολιν": {
@@ -1787,14 +1875,15 @@
       }
     }
   },
-  "Νεβελ": {
+  "νεβελ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a skin flask, (wine) jar",
     "inflections": {
-      "Νεβελ": {
-        "transliteration": "Nebel",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "νεβελ": {
+        "transliteration": "nebel",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -1802,6 +1891,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nimrim; lit. Clear Waters",
     "inflections": {
       "Νεβριμ": {
         "transliteration": "Nebrim",
@@ -1812,6 +1902,7 @@
   "νεβρός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a fawn",
     "inflections": {
       "νεβροί": {
         "transliteration": "nebroí",
@@ -1848,6 +1939,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nibshan",
     "inflections": {
       "Νεβσαν": {
         "transliteration": "Nebsan",
@@ -1858,6 +1950,7 @@
   "νεελασα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a joyful flapping",
     "inflections": {
       "νεελασα": {
         "transliteration": "neelasa",
@@ -1875,6 +1968,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Naaman; lit. Pleasantness",
     "indices": { "strongs": "G3497" },
     "inflections": {
       "Νεεμάν": {
@@ -1886,11 +1980,11 @@
   "Νεεμείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Nehemiah, Nehemias; lit. Consolation of YH/Yah/Jah",
     "inflections": {
       "Νεεμιου": {
         "transliteration": "Neemiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -1899,6 +1993,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nehemiah; lit. Consolation of YH/Yah/Jah",
     "inflections": {
       "Νεεμια": {
         "transliteration": "Neemia",
@@ -1911,6 +2006,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Nehemiah, Nehemias; lit. Consolation of YH/Yah/Jah",
     "inflections": {
       "Νεεμιαν": {
         "transliteration": "Neemian",
@@ -1938,6 +2034,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nehushtan; lit. Something Made of Copper",
     "inflections": {
       "Νεεσθαν": {
         "transliteration": "Neesthan",
@@ -1949,6 +2046,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a detained one",
     "inflections": {
       "νεεσσαραν": {
         "transliteration": "neessaran",
@@ -1960,6 +2058,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a consecration crown, diadem",
     "inflections": {
       "νεζερ": {
         "transliteration": "nezer",
@@ -1970,13 +2069,12 @@
   "νεῖκος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an altercation, wrangle",
     "inflections": {
       "νεῖκος": {
         "transliteration": "neîkos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
@@ -1985,19 +2083,13 @@
         "transliteration": "neîkós",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "νείκους": {
         "transliteration": "neíkous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -2024,17 +2116,11 @@
       },
       "νεκράς": {
         "transliteration": "nekrás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
       },
       "νεκρᾶς": {
         "transliteration": "nekrâs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       },
       "νεκροί": {
         "transliteration": "nekroí",
@@ -2089,6 +2175,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to deaden, make dead; trad. to mortify",
     "indices": { "strongs": "G3499" },
     "inflections": {
       "νεκρώσατε": {
@@ -2116,6 +2203,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a dying, deadness",
     "indices": { "strongs": "G3500" },
     "inflections": {
       "νέκρωσιν": {
@@ -2129,6 +2217,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nekoda; lit. Distinction",
     "inflections": {
       "Νεκωδα": {
         "transliteration": "Nekōda",
@@ -2141,6 +2230,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nekoda, Nekodan; lit. Distinction",
     "inflections": {
       "Νεκωδαν": {
         "transliteration": "Nekōdan",
@@ -2151,11 +2241,11 @@
   "Νελαμίτης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a Nehelamite",
     "inflections": {
       "Νελαμίτην": {
         "transliteration": "Nelamítēn",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -2163,6 +2253,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nemra",
     "inflections": {
       "Νεμρα": {
         "transliteration": "Nemra",
@@ -2175,7 +2266,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Nimrim",
+    "shortDefinition": "Nimrim; lit. Clear Waters",
     "inflections": {
       "Νεμριμ": {
         "transliteration": "Nemrim",
@@ -2188,6 +2279,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ενεμη", "fut": "νεμη" },
+    "shortDefinition": "to tend (a flock); refl. to graze, feed on",
     "inflections": {
       "ἔνεμεν": {
         "transliteration": "énemen",
@@ -2275,6 +2367,7 @@
   "νεογνός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be newly born, infant",
     "inflections": {
       "νεογνά": {
         "transliteration": "neogná",
@@ -2291,6 +2384,7 @@
   "νεόκτιστος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be newly created",
     "inflections": {
       "νεοκτίστους": {
         "transliteration": "neoktístous",
@@ -2309,10 +2403,6 @@
     "shortDefinition": "to be new, young",
     "indices": { "strongs": "G3501" },
     "inflections": {
-      "ἐνεόν": {
-        "transliteration": "eneón",
-        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
-      },
       "νέα": {
         "transliteration": "néa",
         "cells": [
@@ -2405,8 +2495,6 @@
           { "parse": ["adj", "acc", "pl", "neut", "comp"] },
           { "parse": ["adj", "comp", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "pl", "neut", "comp"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "super", "nom", "sg", "fem"] },
           { "parse": ["adj", "voc", "pl", "neut", "comp"] }
         ]
       },
@@ -2486,6 +2574,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a nestling, young bird",
     "indices": { "strongs": "G3502" },
     "inflections": {
       "νεοσσοί": {
@@ -2514,6 +2603,10 @@
       "νεοσσῶν": {
         "transliteration": "neossō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "νεοττῶν": {
+        "transliteration": "neottō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -2522,6 +2615,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a youthfulness, time of youth",
     "indices": { "strongs": "G3503" },
     "inflections": {
       "νεότης": {
@@ -2558,23 +2652,10 @@
       }
     }
   },
-  "νεοττός": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "νεοττῶν": {
-        "transliteration": "neottō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "νεόφυτος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be newly planted; fig. to be newly converted",
     "indices": { "strongs": "G3504" },
     "inflections": {
       "νεόφυτα": {
@@ -2582,9 +2663,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "νεόφυτον": {
@@ -2602,6 +2681,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to break up (fallow ground), renew",
     "inflections": {
       "νεώσατε": {
         "transliteration": "neṓsate",
@@ -2614,6 +2694,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nisroch",
     "inflections": {
       "Νεσεραχ": {
         "transliteration": "Neserach",
@@ -2626,6 +2707,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nehushta; lit. Copper",
     "inflections": {
       "Νεσθα": {
         "transliteration": "Nestha",
@@ -2637,6 +2719,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nezib; lit. Station",
     "inflections": {
       "Νεσιβ": {
         "transliteration": "Nesib",
@@ -2647,6 +2730,7 @@
   "νεσσα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a plumage, feathers",
     "inflections": {
       "νεσσα": {
         "transliteration": "nessa",
@@ -2662,6 +2746,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Netophah, Netophas; lit. Distillation",
     "inflections": {
       "Νετεβας": {
         "transliteration": "Netebas",
@@ -2674,6 +2759,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Netophah; lit. Distillation",
     "inflections": {
       "Νετουφατ": {
         "transliteration": "Netouphat",
@@ -2686,6 +2772,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Netophah; lit. Distillation",
     "inflections": {
       "Νετωφα": {
         "transliteration": "Netōpha",
@@ -2698,6 +2785,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Netophathite",
     "inflections": {
       "Νετωφαθι": {
         "transliteration": "Netōphathi",
@@ -2709,6 +2797,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Netophathite",
     "inflections": {
       "Νετωφαθίτης": {
         "transliteration": "Netōphathítēs",
@@ -2720,6 +2809,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Netophathite",
     "inflections": {
       "Νετωφατι": {
         "transliteration": "Netōphati",
@@ -2732,10 +2822,11 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a nod, beckon; fig. a wink",
     "inflections": {
       "νεύμασιν": {
         "transliteration": "neúmasin",
-        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
       },
       "νεύματι": {
         "transliteration": "neúmati",
@@ -2747,13 +2838,11 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a bowstring, cord",
     "inflections": {
       "νευραῖς": {
         "transliteration": "neuraîs",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "νευράς": {
         "transliteration": "neurás",
@@ -2776,6 +2865,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to hamstring",
     "inflections": {
       "ἐνευροκόπησαν": {
         "transliteration": "eneurokópēsan",
@@ -2808,6 +2898,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a sinew, tendon",
     "inflections": {
       "νεῦρα": {
         "transliteration": "neûra",
@@ -2851,6 +2942,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to nod, beckon",
     "indices": { "strongs": "G3506" },
     "inflections": {
       "νεύει": {
@@ -2882,6 +2974,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a cloud [individual]",
     "indices": { "strongs": "G3507" },
     "inflections": {
       "νεφέλαι": {
@@ -2921,22 +3014,12 @@
       }
     }
   },
-  "νεφθαι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "νεφθαι": {
-        "transliteration": "nephthai",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "Νεφθαλείμ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naphtali, Nephthalim; lit. My Wrestling",
     "indices": { "strongs": "G3508" },
     "inflections": {
       "Νεφθαλείμ": {
@@ -2961,7 +3044,12 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a naphtha (crude oil); lit. a purification",
     "inflections": {
+      "νεφθαι": {
+        "transliteration": "nephthai",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "νεφθαρ": {
         "transliteration": "nephthar",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -3007,6 +3095,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a kidney; fig. an inmost mind, heart",
     "indices": { "strongs": "G3510" },
     "inflections": {
       "νεφροί": {
@@ -3035,6 +3124,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nephushesim; lit. Expansions",
     "inflections": {
       "Νεφωσασιμ": {
         "transliteration": "Nephōsasim",
@@ -3047,6 +3137,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Necho, Neco",
     "inflections": {
       "Νεχαω": {
         "transliteration": "Nechaō",
@@ -3057,6 +3148,7 @@
   "νεχωθα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a precious thing, treasure",
     "inflections": {
       "νεχωθα": {
         "transliteration": "nechōtha",
@@ -3075,6 +3167,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a temple keeper, temple warden",
     "indices": { "strongs": "G3511" },
     "inflections": {
       "νεωκόρον": {
@@ -3088,6 +3181,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a newly plowed field",
     "inflections": {
       "νεώματα": {
         "transliteration": "neṓmata",
@@ -3103,6 +3197,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a sanctuary",
     "inflections": {
       "νεώ": {
         "transliteration": "neṓ",
@@ -3144,7 +3239,7 @@
   "νεωστί": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "lately, recently",
+    "shortDefinition": "lately, just recently",
     "inflections": {
       "νεωστί": { "transliteration": "neōstí", "cells": [{ "parse": ["adv"] }] }
     }
@@ -3153,6 +3248,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to innovate; fig. to rebel against",
     "inflections": {
       "νεωτερίσαντες": {
         "transliteration": "neōterísantes",
@@ -3167,6 +3263,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be of youth, juvenile",
     "indices": { "strongs": "G3512" },
     "inflections": {
       "νεωτερικάς": {
@@ -3182,6 +3279,7 @@
   "νή": {
     "language": "greek",
     "pos": "prt",
+    "shortDefinition": "by (in oaths), as surely as",
     "indices": { "strongs": "G3513" },
     "inflections": {
       "νή": { "transliteration": "nḗ", "cells": [{ "parse": ["prt"] }] }
@@ -3191,6 +3289,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to spin (thread)",
     "indices": { "strongs": "G3514" },
     "inflections": {
       "ἔνησαν": {
@@ -3234,6 +3333,7 @@
   "νηκτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be swimming",
     "inflections": {
       "νηκτά": {
         "transliteration": "nēktá",
@@ -3251,6 +3351,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to act as a babe, be childlike",
     "indices": { "strongs": "G3515" },
     "inflections": {
       "νηπιάζετε": {
@@ -3262,6 +3363,7 @@
   "νηπιοκτόνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be infanticidal, child-killing",
     "inflections": {
       "νηπιοκτόνου": {
         "transliteration": "nēpioktónou",
@@ -3276,7 +3378,7 @@
   "νήπιος": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "an infant",
+    "shortDefinition": "to be infantile; fig. to be childish",
     "indices": { "strongs": "G3516" },
     "inflections": {
       "νήπια": {
@@ -3284,9 +3386,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "νήπιά": {
@@ -3294,9 +3394,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "νήπιοι": {
@@ -3313,13 +3411,10 @@
       "νήπιον": {
         "transliteration": "nḗpion",
         "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "acc", "sg", "fem"] },
           { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
@@ -3353,6 +3448,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "an infancy, childhood",
     "inflections": {
       "νηπιότητος": {
         "transliteration": "nēpiótētos",
@@ -3369,6 +3465,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ner; lit. Lamp",
     "inflections": {
       "Νηρ": {
         "transliteration": "Nēr",
@@ -3381,6 +3478,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "Nereus; lit. Wet",
     "indices": { "strongs": "G3517" },
     "inflections": {
       "Νηρέα": {
@@ -3393,6 +3491,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Neri; lit. Light of YH/Yah/Jah",
     "indices": { "strongs": "G3518" },
     "inflections": {
       "Νηρί": {
@@ -3404,11 +3503,11 @@
   "Νηριας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Neriah, Nerias; lit. Light of YH/Yah/Jah",
     "inflections": {
       "Νηριου": {
         "transliteration": "Nēriou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3417,21 +3516,11 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nergal",
     "inflections": {
       "Νηριγελ": {
         "transliteration": "Nērigel",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
-      }
-    }
-  },
-  "Νηριος": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
-      "Νηριου": {
-        "transliteration": "Nēriou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -3440,6 +3529,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Neriah; lit. Light of YH/Yah/Jah",
     "inflections": {
       "Νηριου": {
         "transliteration": "Nēriou",
@@ -3452,6 +3542,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an islet, small island",
     "indices": { "strongs": "G3519" },
     "inflections": {
       "νησίον": {
@@ -3469,6 +3560,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "an island; fig. a coastland",
     "indices": { "strongs": "G3520" },
     "inflections": {
       "νῆσοι": {
@@ -3621,6 +3713,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "gen", "pl", "masc"] }
         ]
       },
+      "νηστεύουσι": {
+        "transliteration": "nēsteúousi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "νηστεύουσιν": {
         "transliteration": "nēsteúousin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -3674,8 +3770,8 @@
   },
   "νῆστις": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "a fasting",
+    "pos": "noun",
+    "shortDefinition": "a fasting/hungry person",
     "indices": { "strongs": "G3523" },
     "inflections": {
       "νήστεις": {
@@ -3691,6 +3787,7 @@
   "νηστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be spun",
     "inflections": {
       "νηστόν": {
         "transliteration": "nēstón",
@@ -3707,6 +3804,7 @@
   "νηφάλεος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sober, temperate",
     "indices": { "strongs": "G3524" },
     "inflections": {
       "νηφάλεον": {
@@ -3719,6 +3817,17 @@
           { "parse": ["adj", "acc", "pl", "fem"] },
           { "parse": ["adj", "acc", "pl", "masc"] }
         ]
+      },
+      "νηφάλιον": {
+        "transliteration": "nēphálion",
+        "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
+      },
+      "νηφαλίους": {
+        "transliteration": "nēphalíous",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "acc", "pl", "masc"] }
+        ]
       }
     }
   },
@@ -3726,6 +3835,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to keep sober; fig. to be clear-headed, alert",
     "indices": { "strongs": "G3525" },
     "inflections": {
       "νῆφε": {
@@ -3753,6 +3863,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to swim",
     "inflections": {
       "νήχεται": {
         "transliteration": "nḗchetai",
@@ -3768,6 +3879,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Niger; lit. Black",
     "indices": { "strongs": "G3526" },
     "inflections": {
       "Νίγερ": {
@@ -3781,6 +3893,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "Nicanor; lit. Victorious",
     "indices": { "strongs": "G3527" },
     "inflections": {
       "Νικάνορα": {
@@ -3893,7 +4006,9 @@
       },
       "νικήσασιν": {
         "transliteration": "nikḗsasin",
-        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "dat", "pl", "masc"] }
+        ]
       },
       "νικήσει": {
         "transliteration": "nikḗsei",
@@ -3979,6 +4094,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Nicodemus; lit. Victorious among His People",
     "indices": { "strongs": "G3530" },
     "inflections": {
       "Νικόδημος": {
@@ -3992,6 +4108,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a Nicolaitan",
     "indices": { "strongs": "G3531" },
     "inflections": {
       "Νικολαϊτῶν": {
@@ -4005,6 +4122,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "Nicolaus, Nicolas; lit. Victorious over the People",
     "indices": { "strongs": "G3532" },
     "inflections": {
       "Νικόλαον": {
@@ -4018,6 +4136,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "Nicopolis; lit. Victorious City",
     "indices": { "strongs": "G3533" },
     "inflections": {
       "Νικόπολιν": {
@@ -4066,11 +4185,12 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a Ninevite",
     "indices": { "strongs": "G3536" },
     "inflections": {
       "Νινευητῶν": {
         "transliteration": "Nineuētō̂n",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       },
       "Νινευῖται": {
         "transliteration": "Nineuîtai",
@@ -4130,6 +4250,10 @@
       "ἐνίψατο": {
         "transliteration": "enípsato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἔνιψε": {
+        "transliteration": "énipse",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔνιψεν": {
         "transliteration": "énipsen",
@@ -4231,6 +4355,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nisan",
     "inflections": {
       "Νισα": {
         "transliteration": "Nisa",
@@ -4243,6 +4368,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nisan",
     "inflections": {
       "Νισαν": {
         "transliteration": "Nisan",
@@ -4255,6 +4381,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Neziah; lit. Conspicuous",
     "inflections": {
       "Νισια": {
         "transliteration": "Nisia",
@@ -4266,6 +4393,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Ziv; lit. Brightness",
     "inflections": {
       "Νισω": {
         "transliteration": "Nisō",
@@ -4278,6 +4406,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a natron, lye",
     "inflections": {
       "νίτρῳ": {
         "transliteration": "nítrō",
@@ -4288,25 +4417,18 @@
   "νιφετός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a snowfall, snowstorm",
     "inflections": {
       "νιφετοί": {
         "transliteration": "niphetoí",
         "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
       "νιφετός": {
         "transliteration": "niphetós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -4315,6 +4437,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Magbish, Niphis; lit. Stiffening",
     "inflections": {
       "Νιφις": {
         "transliteration": "Niphis",
@@ -4327,6 +4450,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nekoda, Noeba; lit. Distinction",
     "inflections": {
       "Νοεβα": {
         "transliteration": "Noeba",
@@ -4339,7 +4463,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Naamah",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νοεμα": {
         "transliteration": "Noema",
@@ -4352,7 +4476,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Naaman",
+    "shortDefinition": "Naaman; lit. Pleasantness",
     "inflections": {
       "Νοεμαν": {
         "transliteration": "Noeman",
@@ -4365,6 +4489,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Naamite",
     "inflections": {
       "Νοεμανι": {
         "transliteration": "Noemani",
@@ -4375,6 +4500,7 @@
   "νοερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be intelligent, perceptive",
     "inflections": {
       "νοερόν": {
         "transliteration": "noerón",
@@ -4417,10 +4543,7 @@
       },
       "ἐνοοῦσαν": {
         "transliteration": "enooûsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "νόει": {
         "transliteration": "nóei",
@@ -4436,7 +4559,7 @@
       },
       "νοήσαι": {
         "transliteration": "noḗsai",
-        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
+        "cells": [{ "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }]
       },
       "νοῆσαι": {
         "transliteration": "noē̂sai",
@@ -4491,6 +4614,10 @@
         "transliteration": "noḗsousin",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
       },
+      "νοήσωσι": {
+        "transliteration": "noḗsōsi",
+        "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
+      },
       "νοήσωσιν": {
         "transliteration": "noḗsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -4521,6 +4648,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a perception, thought; fig. a mind, design",
     "indices": { "strongs": "G3540" },
     "inflections": {
       "νόημα": {
@@ -4547,8 +4675,9 @@
   },
   "νοήμων": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
+    "pos": "adj",
+    "declension": "3-3-on",
+    "shortDefinition": "to be intelligent, discerning",
     "inflections": {
       "νοήμονες": {
         "transliteration": "noḗmones",
@@ -4565,13 +4694,12 @@
         "transliteration": "noḗmōn",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "νοητῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "with understanding, intelligently",
+    "shortDefinition": "attentively, thoughtfully",
     "inflections": {
       "νοητῶς": { "transliteration": "noētō̂s", "cells": [{ "parse": ["adv"] }] }
     }
@@ -4580,6 +4708,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to adulterate, corrupt (a marriage)",
     "inflections": {
       "νοθεύων": {
         "transliteration": "notheúōn",
@@ -4625,6 +4754,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a roaming grazer; fig. a nomad",
     "inflections": {
       "νομάδες": {
         "transliteration": "nomádes",
@@ -4646,6 +4776,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Nob; lit. Fruit",
     "inflections": {
       "Νομβα": {
         "transliteration": "Nomba",
@@ -4658,6 +4789,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nomee",
     "inflections": {
       "Νομεε": {
         "transliteration": "Nomee",
@@ -4670,6 +4802,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a pasture, pasturage; fig. a spreading",
     "indices": { "strongs": "G3542" },
     "inflections": {
       "νομαί": {
@@ -4716,8 +4849,13 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to hold customary; fig. to suppose, think",
     "indices": { "strongs": "G3543" },
     "inflections": {
+      "ἐνόμιζε": {
+        "transliteration": "enómize",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐνόμιζεν": {
         "transliteration": "enómizen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -4825,6 +4963,7 @@
   "νομικός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of the law, legal; fig. to be law-learned",
     "indices": { "strongs": "G3544" },
     "inflections": {
       "νομικάς": {
@@ -4863,15 +5002,14 @@
   "νόμιμος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be prescribed by law, statutory",
     "inflections": {
       "νόμιμα": {
         "transliteration": "nómima",
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "νόμιμά": {
@@ -4879,9 +5017,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "νομίμοις": {
@@ -4930,6 +5066,7 @@
   "νομίμως": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "lawfully, according to rule",
     "indices": { "strongs": "G3545" },
     "inflections": {
       "νομίμως": {
@@ -4943,6 +5080,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a coin, currency; lit. a sanctioned custom",
     "indices": { "strongs": "G3546" },
     "inflections": {
       "νόμισμα": {
@@ -4958,7 +5096,7 @@
   "νομιστέον": {
     "language": "greek",
     "pos": "adj",
-    "shortDefinition": "one must consider",
+    "shortDefinition": "to be necessary to suppose (i.e., one must think)",
     "inflections": {
       "νομιστέον": {
         "transliteration": "nomistéon",
@@ -4975,6 +5113,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a law-teacher, teacher of the law",
     "indices": { "strongs": "G3547" },
     "inflections": {
       "νομοδιδάσκαλοι": {
@@ -4994,6 +5133,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a lawgiving, legislation",
     "indices": { "strongs": "G3548" },
     "inflections": {
       "νομοθεσία": {
@@ -5012,7 +5152,7 @@
   "νομοθέσμως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "lawfully, by ordinance",
+    "shortDefinition": "legitimately, as the law directs",
     "inflections": {
       "νομοθέσμως": {
         "transliteration": "nomothésmōs",
@@ -5045,11 +5185,7 @@
       },
       "νομοθετῆσαι": {
         "transliteration": "nomothetē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "νομοθετήσαντα": {
         "transliteration": "nomothetḗsanta",
@@ -5085,6 +5221,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a lawgiver, legislator",
     "indices": { "strongs": "G3550" },
     "inflections": {
       "νομοθέτην": {
@@ -5100,6 +5237,7 @@
   "νομός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a district, province; lit. a pasture",
     "inflections": {
       "νομόν": {
         "transliteration": "nomón",
@@ -5119,8 +5257,7 @@
       }
     },
     "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a district, nome"
+    "declension": "2m"
   },
   "νόμος": {
     "language": "greek",
@@ -5174,11 +5311,11 @@
   "νομοφύλαξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "a guardian of the law, law-keeper",
     "inflections": {
       "νομοφύλαξ": {
         "transliteration": "nomophýlax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       }
     }
   },
@@ -5186,6 +5323,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Noo",
     "inflections": {
       "Νοο": {
         "transliteration": "Noo",
@@ -5198,6 +5336,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Baanah",
     "inflections": {
       "Νοοζα": {
         "transliteration": "Nooza",
@@ -5210,6 +5349,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naam; lit. Pleasure",
     "inflections": {
       "Νοομ": {
         "transliteration": "Noom",
@@ -5222,6 +5362,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naaman; lit. Pleasantness",
     "inflections": {
       "Νοομα": {
         "transliteration": "Nooma",
@@ -5234,6 +5375,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νοομμα": {
         "transliteration": "Noomma",
@@ -5244,6 +5386,7 @@
   "νοσερός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be diseased, sickly",
     "inflections": {
       "νοσερῷ": {
         "transliteration": "noserō̂",
@@ -5259,6 +5402,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to be sick; fig. to crave morbidly, dote on",
     "indices": { "strongs": "G3552" },
     "inflections": {
       "ἐνόσουν": {
@@ -5287,6 +5431,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a sickness, disease",
     "indices": { "strongs": "G3553" },
     "inflections": {
       "νοσήματι": {
@@ -5337,6 +5482,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to nest, build a nest",
     "inflections": {
       "ἐνόσσευον": {
         "transliteration": "enósseuon",
@@ -5375,6 +5521,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a nest; fig. a brood, dwelling",
     "indices": { "strongs": "G3555" },
     "inflections": {
       "νεοσσιά": {
@@ -5398,17 +5545,11 @@
       },
       "νοσσιάς": {
         "transliteration": "nossiás",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "νοσσιᾶς": {
         "transliteration": "nossiâs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -5417,6 +5558,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a chick, little nestling",
     "indices": { "strongs": "G3556" },
     "inflections": {
       "νοσσία": {
@@ -5433,6 +5575,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to make a nest, den",
     "inflections": {
       "νοσσοποιήσουσιν": {
         "transliteration": "nossopoiḗsousin",
@@ -5440,12 +5583,17 @@
       }
     }
   },
-  "νοσφίζομαι": {
+  "νοσφίζω": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "deponent",
+    "conjugation": "thematic",
+    "shortDefinition": "to embezzle, purloin, keep back",
     "indices": { "strongs": "G3557" },
     "inflections": {
+      "ἐνοσφίσαντο": {
+        "transliteration": "enosphísanto",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+      },
       "ἐνοσφίσατο": {
         "transliteration": "enosphísato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
@@ -5456,30 +5604,19 @@
           { "parse": ["verb", "pres", "mid", "ptc", "acc", "pl", "masc"] }
         ]
       },
-      "νοσφίσασθαί": {
-        "transliteration": "nosphísasthaí",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      }
-    }
-  },
-  "νοσφίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "ἐνοσφίσαντο": {
-        "transliteration": "enosphísanto",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
-      },
       "νοσφισάμενος": {
         "transliteration": "nosphisámenos",
         "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "gen", "sg", "neut"] },
           { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
         ]
+      },
+      "νοσφίσασθαι": {
+        "transliteration": "nosphísasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+      },
+      "νοσφίσασθαί": {
+        "transliteration": "nosphísasthaí",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
       }
     }
   },
@@ -5488,6 +5625,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "the south, south wind",
     "indices": { "strongs": "G3558" },
     "inflections": {
       "νότε": {
@@ -5517,6 +5655,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Noah; lit. Movement",
     "inflections": {
       "Νουα": {
         "transliteration": "Noua",
@@ -5528,6 +5667,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an admonition, warning",
     "indices": { "strongs": "G3559" },
     "inflections": {
       "νουθεσίᾳ": {
@@ -5544,6 +5684,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to admonish, warn; lit. to put in mind",
     "indices": { "strongs": "G3560" },
     "inflections": {
       "ἐνουθέτει": {
@@ -5661,6 +5802,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a word of admonition, reproof",
     "inflections": {
       "νουθέτημα": {
         "transliteration": "nouthétēma",
@@ -5677,6 +5819,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an admonishing, instructing",
     "inflections": {
       "νουθέτησιν": {
         "transliteration": "nouthétēsin",
@@ -5689,6 +5832,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nun; lit. Perpetuity",
     "inflections": {
       "Νουμ": {
         "transliteration": "Noum",
@@ -5700,6 +5844,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a new moon, first of the month",
     "indices": { "strongs": "G3561" },
     "inflections": {
       "νεομηνία": {
@@ -5756,23 +5901,17 @@
   "Νουμήνιος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Numenius",
     "inflections": {
       "Νουμήνιον": {
         "transliteration": "Noumḗnion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Νουμήνιος": {
         "transliteration": "Noumḗnios",
         "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
           { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
+          { "parse": ["noun", "nom", "sg", "masc"] }
         ]
       }
     }
@@ -5782,6 +5921,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n-contract",
+    "shortDefinition": "a nun",
     "inflections": {
       "νουν": {
         "transliteration": "noun",
@@ -5796,6 +5936,7 @@
   "νουνεχῶς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "sensibly, discreetly",
     "indices": { "strongs": "G3562" },
     "inflections": {
       "νουνεχῶς": {
@@ -5809,6 +5950,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m-contract",
+    "shortDefinition": "a mind, intellect; fig. an understanding",
     "indices": { "strongs": "G3563" },
     "inflections": {
       "νοΐ": {
@@ -5833,6 +5975,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be nightly, nocturnal",
     "inflections": {
       "νυκτερινάς": {
         "transliteration": "nykterinás",
@@ -5876,6 +6019,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a bat",
     "inflections": {
       "νυκτερίδα": {
         "transliteration": "nykterída",
@@ -5898,31 +6042,32 @@
   "νυκτικόραξ": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
+    "shortDefinition": "a long-eared owl; lit. a night raven",
     "inflections": {
       "νυκτικόρακα": {
         "transliteration": "nyktikóraka",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "νυκτικόραξ": {
         "transliteration": "nyktikórax",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
   "νύκτωρ": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "by night",
+    "shortDefinition": "at night, by night",
     "inflections": {
       "νύκτωρ": { "transliteration": "nýktōr", "cells": [{ "parse": ["adv"] }] }
     }
   },
   "νυμφαγωγός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be leading the bride; fig. to be a best man",
     "inflections": {
       "νυμφαγωγός": {
         "transliteration": "nymphagōgós",
@@ -5952,6 +6097,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an espousal, betrothal",
     "inflections": {
       "νυμφεύσεως": {
         "transliteration": "nympheúseōs",
@@ -5964,6 +6110,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a bride; fig. a daughter-in-law",
     "indices": { "strongs": "G3565" },
     "inflections": {
       "νύμφαι": {
@@ -6007,6 +6154,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a bridegroom; fig. a son-in-law",
     "indices": { "strongs": "G3566" },
     "inflections": {
       "νυμφίον": {
@@ -6032,6 +6180,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a bridal chamber",
     "indices": { "strongs": "G3567" },
     "inflections": {
       "νυμφῶνα": {
@@ -6064,6 +6213,7 @@
   "νυνί": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "right now, at this moment",
     "indices": { "strongs": "G3570" },
     "inflections": {
       "νυνί": { "transliteration": "nyní", "cells": [{ "parse": ["adv"] }] }
@@ -6109,10 +6259,7 @@
       },
       "νυξίν": {
         "transliteration": "nyxín",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "fem"] },
-          { "parse": ["noun", "dat", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       }
     }
   },
@@ -6121,8 +6268,13 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "ενυξ" },
+    "shortDefinition": "to jab, pierce, prick",
     "indices": { "strongs": "G3572" },
     "inflections": {
+      "ἔνυξε": {
+        "transliteration": "ényxe",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἔνυξεν": {
         "transliteration": "ényxen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -6145,6 +6297,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a doze, slumber",
     "inflections": {
       "νυσταγμάτων": {
         "transliteration": "nystagmátōn",
@@ -6155,23 +6308,15 @@
   "νυσταγμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a drowsiness, dozing",
     "inflections": {
       "νυσταγμόν": {
         "transliteration": "nystagmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "νυσταγμός": {
         "transliteration": "nystagmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -6180,20 +6325,22 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "νυσταξ" },
+    "shortDefinition": "to nod off, doze; fig. to lie idle",
     "indices": { "strongs": "G3573" },
     "inflections": {
       "ἐνύσταξαν": {
         "transliteration": "enýstaxan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐνύσταξεν": {
         "transliteration": "enýstaxen",
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
         ]
+      },
+      "νυστάζει": {
+        "transliteration": "nystázei",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       },
       "νυστάζεις": {
         "transliteration": "nystázeis",
@@ -6245,6 +6392,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a night and a day, full day",
     "indices": { "strongs": "G3574" },
     "inflections": {
       "νυχθήμερον": {
@@ -6262,6 +6410,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nohah; lit. Quietude",
     "inflections": {
       "Νωα": {
         "transliteration": "Nōa",
@@ -6274,6 +6423,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Neariah; lit. Servant of YH/Yah/Jah",
     "inflections": {
       "Νωαδια": {
         "transliteration": "Nōadia",
@@ -6286,6 +6436,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Nebai, Nobai; lit. Fruitful",
     "inflections": {
       "Νωβαι": {
         "transliteration": "Nōbai",
@@ -6297,6 +6448,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Nacon; lit. Prepared",
     "inflections": {
       "Νωδαβ": {
         "transliteration": "Nōdab",
@@ -6309,6 +6461,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Noah; lit. Rest",
     "indices": { "strongs": "G3575" },
     "inflections": {
       "Νωε": {
@@ -6326,7 +6479,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Naomi",
+    "shortDefinition": "Naomi; lit. Pleasant",
     "inflections": {
       "Νωεμιν": {
         "transliteration": "Nōemin",
@@ -6337,6 +6490,7 @@
   "νωθροκάρδιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be dull-hearted, slow-witted",
     "inflections": {
       "νωθροκάρδιος": {
         "transliteration": "nōthrokárdios",
@@ -6381,6 +6535,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a sluggishness, slowness",
     "inflections": {
       "νωθρότητα": {
         "transliteration": "nōthrótēta",
@@ -6393,6 +6548,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a sheep breeder",
     "inflections": {
       "νωκηδ": {
         "transliteration": "nōkēd",
@@ -6404,6 +6560,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νωμα": {
         "transliteration": "Nōma",
@@ -6415,6 +6572,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Naamah; lit. Pleasantness",
     "inflections": {
       "Νωμαν": {
         "transliteration": "Nōman",
@@ -6427,6 +6585,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a back; fig. a rear, slope",
     "indices": { "strongs": "G3577" },
     "inflections": {
       "νῶτα": {
@@ -6480,6 +6639,7 @@
   "νωτοφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be load-carrying (as a porter)",
     "inflections": {
       "νωτοφόρων": {
         "transliteration": "nōtophórōn",

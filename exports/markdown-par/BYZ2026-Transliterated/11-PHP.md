@@ -63,33 +63,33 @@
 <sup>3</sup> mēdèn <sup>d</sup>katà eritheían ḕ kenodoxían, allà tē̂ tapeinophrosýnē allḗlous hēgoúmenoi hyperéchontas heautō̂n;
 <sup>4</sup> mḕ tà heautō̂n <sup>e</sup>hékastos <sup>f</sup>skopeîte, allà <sup>g</sup>kaì tà hetérōn <sup>h</sup>hékastos.
 <sup>5</sup> Toûto <sup>i</sup>gàr phroneísthō en hymîn hò kaì en christō̂ Iēsoû;
-<sup>6</sup> hòs en morphē̂ theoû hypárchōn, ouch harpagmòn hēgḗsato tò eînai îsa theō̂,
-<sup>7</sup> <sup>j</sup>all’ heautòn ekénōsen, morphḕn doúlou labṓn, en homoiṓmati anthrṓpōn genómenos;
+<sup>6</sup> hòs en morphē̂ theoû hypárchōn, ouch harpagmòn hēgḗsato tò eînai ísa<sup>j</sup> theō̂,
+<sup>7</sup> <sup>k</sup>all’ heautòn ekénōsen, morphḕn doúlou labṓn, en homoiṓmati anthrṓpōn genómenos;
 <sup>8</sup> kaì schḗmati heuretheìs hōs ánthrōpos, etapeínōsen heautón, genómenos hypḗkoos méchri thanátou, thanátou dè stauroû.
-<sup>9</sup> Diò kaì ho theòs autòn hyperýpsōsen, kaì echarísato autō̂ <sup>k</sup>ónoma tò hypèr pân ónoma;
+<sup>9</sup> Diò kaì ho theòs autòn hyperýpsōsen, kaì echarísato autō̂ <sup>l</sup>ónoma tò hypèr pân ónoma;
 <sup>10</sup> hína en tō̂ onómati Iēsoû pân góny kámpsē epouraníōn kaì epigeíōn kaì katachthoníōn,
 <sup>11</sup> kaì pâsa glō̂ssa exomologḗsētai hóti kýrios Iēsoûs christós, eis dóxan theoû patrós.
 
-<sup>12</sup> Hṓste, agapētoí mou, kathṑs pántote hypēkoúsate, mḕ <sup>l</sup>hōs en tē̂ parousía mou mónon, allà nŷn pollō̂ mâllon en tē̂ apousía mou, metà phóbou kaì trómou tḕn heautō̂n sōtērían katergázesthe;
-<sup>13</sup> <sup>m</sup>ho theòs gár estin ho energō̂n en hymîn kaì tò thélein kaì tò energeîn hypèr tē̂s eudokías.
+<sup>12</sup> Hṓste, agapētoí mou, kathṑs pántote hypēkoúsate, mḕ <sup>m</sup>hōs en tē̂ parousía mou mónon, allà nŷn pollō̂ mâllon en tē̂ apousía mou, metà phóbou kaì trómou tḕn heautō̂n sōtērían katergázesthe;
+<sup>13</sup> <sup>n</sup>ho theòs gár estin ho energō̂n en hymîn kaì tò thélein kaì tò energeîn hypèr tē̂s eudokías.
 <sup>14</sup> Pánta poieîte chōrìs gongysmō̂n kaì dialogismō̂n,
-<sup>15</sup> hína génēsthe ámemptoi kaì akéraioi, tékna theoû <sup>n</sup>amṓmēta en mésō geneâs skoliâs kaì diestramménēs, en hoîs phaínesthe hōs phōstē̂res en kósmō,
+<sup>15</sup> hína génēsthe ámemptoi kaì akéraioi, tékna theoû <sup>o</sup>amṓmēta en mésō geneâs skoliâs kaì diestramménēs, en hoîs phaínesthe hōs phōstē̂res en kósmō,
 <sup>16</sup> lógon zōē̂s epéchontes, eis kaúchēma emoì eis hēméran christoû, hóti ouk eis kenòn édramon, oudè eis kenòn ekopíasa.
-<sup>17</sup> <sup>o</sup>All’ ei kaì spéndomai epì tē̂ thysía kaì leitourgía tē̂s písteōs hymō̂n, chaírō kaì <sup>p</sup>synchaírō pâsin hymîn;
-<sup>18</sup> tò <sup>q</sup>d’ autò kaì hymeîs chaírete kaì synchaíreté moi.
+<sup>17</sup> <sup>p</sup>All’ ei kaì spéndomai epì tē̂ thysía kaì leitourgía tē̂s písteōs hymō̂n, chaírō kaì <sup>q</sup>synchaírō pâsin hymîn;
+<sup>18</sup> tò <sup>r</sup>d’ autò kaì hymeîs chaírete kaì synchaíreté moi.
 
 <sup>19</sup> Elpízō dè en kyríō Iēsoû, Timótheon tachéōs pémpsai hymîn, hína kagṑ eupsychō̂, gnoùs tà perì hymō̂n.
 <sup>20</sup> Oudéna gàr échō isópsychon, hóstis gnēsíōs tà perì hymō̂n merimnḗsei.
-<sup>21</sup> Hoi pántes gàr tà heautō̂n zētoûsin, ou tà <sup>r</sup>christoû Iēsoû.
-<sup>22</sup> Tḕn dè dokimḕn autoû <sup>s</sup>ginṓskete, hóti hōs patrì téknon, sỳn emoì edoúleusen eis tò euangélion.
-<sup>23</sup> Toûton mèn oûn elpízō pémpsai, hōs àn <sup>t</sup>apídō tà perì emé, exautē̂s;
+<sup>21</sup> Hoi pántes gàr tà heautō̂n zētoûsin, ou tà <sup>s</sup>christoû Iēsoû.
+<sup>22</sup> Tḕn dè dokimḕn autoû <sup>t</sup>ginṓskete, hóti hōs patrì téknon, sỳn emoì edoúleusen eis tò euangélion.
+<sup>23</sup> Toûton mèn oûn elpízō pémpsai, hōs àn <sup>u</sup>apídō tà perì emé, exautē̂s;
 <sup>24</sup> pépoitha dè en kyríō, hóti kaì autòs tachéōs eleúsomai.
-<sup>25</sup> Anankaîon dè hēgēsámēn Epaphróditon tòn adelphòn kaì synergòn kaì <sup>u</sup>systratiṓtēn mou, hymō̂n dè apóstolon, kaì leitourgòn tē̂s chreías mou, pémpsai pròs hymâs;
-<sup>26</sup> epeidḕ epipothō̂n ē̂n pántas <sup>v</sup>hymâs, kaì adēmonō̂n, dióti ēkoúsate hóti ēsthénēsen;
-<sup>27</sup> kaì gàr ēsthénēsen paraplḗsion <sup>w</sup>thanátō, <sup>x</sup>allà ho theòs <sup>y</sup>autòn ēléēsen, ouk autòn dè mónon, allà kaì emé, hína mḕ lýpēn epì <sup>z</sup>lýpēn schō̂.
+<sup>25</sup> Anankaîon dè hēgēsámēn Epaphróditon tòn adelphòn kaì synergòn kaì <sup>v</sup>systratiṓtēn mou, hymō̂n dè apóstolon, kaì leitourgòn tē̂s chreías mou, pémpsai pròs hymâs;
+<sup>26</sup> epeidḕ epipothō̂n ē̂n pántas <sup>w</sup>hymâs, kaì adēmonō̂n, dióti ēkoúsate hóti ēsthénēsen;
+<sup>27</sup> kaì gàr ēsthénēsen paraplḗsion <sup>x</sup>thanátō, <sup>y</sup>allà ho theòs <sup>z</sup>autòn ēléēsen, ouk autòn dè mónon, allà kaì emé, hína mḕ lýpēn epì <sup>aa</sup>lýpēn schō̂.
 <sup>28</sup> Spoudaiotérōs oûn épempsa autón, hína, idóntes autòn pálin, charē̂te, kagṑ alypóteros ō̂.
 <sup>29</sup> Prosdéchesthe oûn autòn en kyríō metà pásēs charâs, kaì toùs toioútous entímous échete;
-<sup>30</sup> hóti dià tò érgon <sup>aa</sup>toû christoû méchri thanátou ḗngisen, <sup>ab</sup>parabouleusámenos tē̂ psychē̂, hína <sup>ac</sup>anaplērṓsē tò hymō̂n hystérēma tē̂s prós me leitourgías.
+<sup>30</sup> hóti dià tò érgon <sup>ab</sup>toû christoû méchri thanátou ḗngisen, <sup>ac</sup>parabouleusámenos tē̂ psychē̂, hína <sup>ad</sup>anaplērṓsē tò hymō̂n hystérēma tē̂s prós me leitourgías.
 
 > - <sup>a</sup> 1. tis ¦ PCK ti ¦ TR tína
 > - <sup>b</sup> 1. oiktirmoí ¦ TH oikteirmoí
@@ -100,26 +100,27 @@
 > - <sup>g</sup> 4. kaì tà ¦ NA [kaì] tà ¦ PCK kaì tò
 > - <sup>h</sup> 4. hékastos ¦ CT hékastoi
 > - <sup>i</sup> 5. gàr phroneísthō ¦ CT phroneîte
-> - <sup>j</sup> 7. all’ ¦ NA<sup>27</sup> SBL TH WH allà
-> - <sup>k</sup> 9. ónoma ¦ CT tò ónoma
-> - <sup>l</sup> 12. hōs ¦ [WH]
-> - <sup>m</sup> 13. ho ¦ CT _om._
-> - <sup>n</sup> 15. amṓmēta en mésō ¦ CT ámōma méson
-> - <sup>o</sup> 17. All’ ¦ NA<sup>27</sup> SBL WH Allà
-> - <sup>p</sup> 17. synchaírō … synchaírete ¦ TH WH synchaírō … synchaírete
-> - <sup>q</sup> 18. d’ ¦ CT dè
-> - <sup>r</sup> 21. christoû Iēsoû ¦ NA SBL TH Iēsoû christoû ¦ TR toû christoû Iēsoû
-> - <sup>s</sup> 22. ginṓskete ¦ TH geinṓskete
-> - <sup>t</sup> 23. apídō ¦ CT aphídō
-> - <sup>u</sup> 25. systratiṓtēn ¦ TH WH synstratiṓtēn
-> - <sup>v</sup> 26. hymâs ¦ WH hymâs [ideîn]
-> - <sup>w</sup> 27. thanátō ¦ PT WH thanátou
-> - <sup>x</sup> 27. allà ¦ HF NA<sup>28</sup> PCK PT TR all’
-> - <sup>y</sup> 27. autòn ēléēsen ¦ CT ēléēsen autón
-> - <sup>z</sup> 27. lýpēn ¦ TR lýpē
-> - <sup>aa</sup> 30. toû christoû ¦ NA SBL TH christoû ¦ WH kyríou
-> - <sup>ab</sup> 30. parabouleusámenos ¦ CT paraboleusámenos
-> - <sup>ac</sup> 30. anaplērṓsē ¦ PCK plērṓsē
+> - <sup>j</sup> 6. Corrected from îsa, as seen in NA<sup>28</sup>, PT, RP<sup>2005</sup>, SBL, TR, and WH. The iota of ísos is short, so ísa takes the acute, as this edition prints it at Luke 6:34 and Revelation 21:16. The Septuagint prints the same ísa with a dative at Job 11:12.
+> - <sup>k</sup> 7. all’ ¦ NA<sup>27</sup> SBL TH WH allà
+> - <sup>l</sup> 9. ónoma ¦ CT tò ónoma
+> - <sup>m</sup> 12. hōs ¦ [WH]
+> - <sup>n</sup> 13. ho ¦ CT _om._
+> - <sup>o</sup> 15. amṓmēta en mésō ¦ CT ámōma méson
+> - <sup>p</sup> 17. All’ ¦ NA<sup>27</sup> SBL WH Allà
+> - <sup>q</sup> 17. synchaírō … synchaírete ¦ TH WH synchaírō … synchaírete
+> - <sup>r</sup> 18. d’ ¦ CT dè
+> - <sup>s</sup> 21. christoû Iēsoû ¦ NA SBL TH Iēsoû christoû ¦ TR toû christoû Iēsoû
+> - <sup>t</sup> 22. ginṓskete ¦ TH geinṓskete
+> - <sup>u</sup> 23. apídō ¦ CT aphídō
+> - <sup>v</sup> 25. systratiṓtēn ¦ TH WH synstratiṓtēn
+> - <sup>w</sup> 26. hymâs ¦ WH hymâs [ideîn]
+> - <sup>x</sup> 27. thanátō ¦ PT WH thanátou
+> - <sup>y</sup> 27. allà ¦ HF NA<sup>28</sup> PCK PT TR all’
+> - <sup>z</sup> 27. autòn ēléēsen ¦ CT ēléēsen autón
+> - <sup>aa</sup> 27. lýpēn ¦ TR lýpē
+> - <sup>ab</sup> 30. toû christoû ¦ NA SBL TH christoû ¦ WH kyríou
+> - <sup>ac</sup> 30. parabouleusámenos ¦ CT paraboleusámenos
+> - <sup>ad</sup> 30. anaplērṓsē ¦ PCK plērṓsē
 
 ## Chapter 3
 

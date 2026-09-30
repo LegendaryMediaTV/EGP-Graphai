@@ -329,7 +329,7 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>23</sup> Kaì exapésteilen ho theòs pneûma ponēròn anà méson Abimelech kaì anà méson tō̂n andrō̂n Sikimōn, kaì ēthétēsan ándres Sikimōn en tō̂ oíkō Abimelech,
 <sup>24</sup> toû epagageîn tḕn adikían tō̂n hebdomḗkonta hyiō̂n Ierobaal kaì tà haímata autō̂n toû theînai epì Abimelech tòn adelphòn autō̂n, hòs apékteinen autoús, kaì epì ándras Sikimōn, hóti eníschysan tàs cheîras autoû apokteînai toùs adelphoùs autoû.
 <sup>25</sup> Kaì éthēkan autō̂ hoi ándres Sikimōn enedreúontas epì tàs kephalàs tō̂n oréōn kaì diḗrpazon pánta, hòs pareporeúeto ep’ autoùs en tē̂ hodō̂; kaì apēngélē tō̂ basileî Abimelech.
-<sup>26</sup> Kaì ē̂lthen Gaal hyiòs Iōbēl kaì hoi adelphoì autoû kaì parē̂lthon en Sikimois, kaì ē̂lpisan en autō̂ hoi ándres Sikimōn.
+<sup>26</sup> Kaì ē̂lthen Gaal hyiòs Iōbēl kaì hoi adelphoì autoû kaì parē̂lthon en Sikimois, kaì ḗlpisan<sup>a</sup> en autō̂ hoi ándres Sikimōn.
 <sup>27</sup> Kaì exē̂lthon eis agròn kaì etrýgēsan toùs ampelō̂nas autō̂n kaì epátēsan kaì epoíēsan elloulim kaì eisḗnenkan eis oîkon theoû autō̂n kaì éphagon kaì épion kaì katērásanto tòn Abimelech.
 <sup>28</sup> Kaì eîpen Gaal hyiòs Iōbēl Tís estin Abimelech kaì tís estin hyiòs Sychem, hóti douleúsomen autō̂? Ouch hyiòs Ierobaal, kaì Zeboul epískopos autoû doûlos autoû sỳn toîs andrásin Emmōr patròs Sychem? Kaì tí hóti douleúsomen autō̂ hēmeîs?
 <sup>29</sup> Kaì tís dṓē tòn laòn toûton en cheirí mou? Kaì metastḗsō tòn Abimelech kaì erō̂ pròs autón Plḗthynon tḕn dýnamín sou kaì éxelthe.
@@ -362,6 +362,8 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>55</sup> Kaì eîden anḕr Israēl hóti apéthanen Abimelech, kaì eporeúthēsan anḕr eis tòn tópon autoû.
 <sup>56</sup> Kaì epéstrepsen ho theòs tḕn ponērían Abimelech, hḕn epoíēsen tō̂ patrì autoû apokteînai toùs hebdomḗkonta adelphoùs autoû.
 <sup>57</sup> Kaì tḕn pâsan ponērían andrō̂n Sychem epéstrepsen ho theòs eis kephalḕn autō̂n, kaì epē̂lthen ep’ autoùs hē katára Iōathan hyioû Ierobaal.
+
+> - <sup>a</sup> 26. Corrected from ē̂lpisan, as seen in SW. The circumflex can stand only on one of the last two syllables, so a verb accented on the third syllable from the end takes the acute. This edition prints ḗlpisan at its 13 other occurrences.
 
 ## Chapter 10
 
@@ -613,13 +615,15 @@ Kaì hēsýchasen hē gē̂ tessarákonta étē.
 <sup>23</sup> Kaì epéstrepsan tò prósōpon autō̂n hyioì Dan kaì eîpan tō̂ Michaia Tí estín soi, hóti ebóēsas?
 <sup>24</sup> Kaì eîpen Michaias Hóti tò glyptón mou, hò epoíēsa, elábete kaì tòn hieréa kaì eporeúthēte; kaì tí emoì éti? Kaì tí toûto légete prós me Tí krázeis?
 <sup>25</sup> Kaì eîpon pròs autòn hoi hyioì Dan Mḕ akousthḗtō dḕ phōnḗ sou meth’ hēmō̂n, mḗpote synantḗsōsin en hēmîn ándres pikroì psychē̂ kaì prosthḗsousin psychḕn kaì tḕn psychḕn toû oíkou sou.
-<sup>26</sup> Kaì eporeúthēsan hoi hyioì Dan eis hodòn autō̂n; kaì eîden Michaias hóti dynatṓteroí eisin hypèr autón, kaì epóstrepsen eis tòn oîkon autoû.
+<sup>26</sup> Kaì eporeúthēsan hoi hyioì Dan eis hodòn autō̂n; kaì eîden Michaias hóti dynatṓteroí eisin hypèr autón, kaì epéstrepsen<sup>a</sup> eis tòn oîkon autoû.
 
 <sup>27</sup> Kaì hoi hyioì Dan élabon hò epoíēsen Michaias, kaì tòn hieréa, hòs ē̂n autō̂, kaì ē̂lthon epì Laisa epì laòn hēsycházonta kaì pepoithóta ep’ elpídi kaì epátaxan autoùs en stómati rhomphaías kaì tḕn pólin enéprēsan en pyrí;
 <sup>28</sup> kaì ouk ē̂n ho rhyómenos, hóti makrán estin apò Sidōníōn, kaì lógos ouk éstin autoîs metà anthrṓpou, kaì autḕ en tē̂ koiládi toû oíkou Raab. Kaì ōkodómēsan tḕn pólin kaì kateskḗnōsan en autē̂
 <sup>29</sup> kaì ekálesan tò ónoma tē̂s póleōs Dan en onómati Dan patròs autō̂n, hòs etéchthē tō̂ Israēl; kaì Oulamais tò ónoma tē̂s póleōs tò próteron.
 <sup>30</sup> Kaì éstēsan heautoîs hoi hyioì Dan tò glyptón; kaì Iōnatham hyiòs Gērsom hyiòs Manassē, autòs kaì hoi hyioì autoû ē̂san hiereîs tē̂ phylē̂ Dan héōs hēméras apoikías tē̂s gē̂s.
 <sup>31</sup> Kaì éthēkan autoîs tò glyptón, hò epoíēsen Michaias, pásas tàs hēméras, hàs ē̂n ho oîkos toû theoû en Sēlōm.
+
+> - <sup>a</sup> 26. Corrected from epóstrepsen, as seen in SW. The augment of epistréphō is e, placed after the prefix ep, which gives epéstrepsen. This edition prints epéstrepsen at its 103 other occurrences.
 
 ## Chapter 19
 

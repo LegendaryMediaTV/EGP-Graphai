@@ -1,7 +1,7 @@
 {
   "_id": "BYZ2026",
   "name": "Byzantine Greek New Testament",
-  "copyright": "The Greek New Testament According to the Byzantine Text (Guardian Press, Inc., Robinson-Pierpont Byzantine Textform, 2026). Dedicated to the public domain by Guardian Press, Inc. and J. Jeffrey Dodson.",
+  "copyright": "The Greek New Testament According to the Byzantine Text (Guardian Press, LLC, Robinson-Pierpont Byzantine Textform, 2026). Dedicated to the public domain by Guardian Press, LLC and J. Jeffrey Dodson.",
   "license": "CC0-1.0",
   "script": "G",
   "morphology": "robinson",
@@ -9,41 +9,42 @@
     {
       "_id": "CT",
       "name": "CT",
-      "description": "Denotes agreement between all critical text editions (i.e., ECM, NA, SBL, TH, WH)."
+      "description": "Denotes agreement between all critical text editions (i.e., ECM [where appropriate], NA, SBL, TH, WH)."
     },
     {
       "_id": "CT-SPLIT",
       "name": ["CT", { "text": "†", "marks": ["sup"] }],
-      "description": "Denotes an ECM “split guiding line” reading that is in agreement with NA, SBL, TH, and WH."
+      "description": "Denotes agreement between an ECM “split guiding line” reading and all of NA, SBL, TH, and WH."
     },
     {
       "_id": "ECM",
       "name": "ECM",
       "description": [
-        "Barbara Aland, et al., eds. ",
+        "Institute for New Testament Textual Research, ed., ",
         {
           "text": "Novum Testamentum Graecum: Editio Critica Maior",
           "marks": ["i"]
         },
-        ". Stuttgart: Deutsche Bibelgesellschaft, 1997–2024."
+        " (Stuttgart: Deutsche Bibelgesellschaft, 1997–2024)."
       ]
     },
     {
       "_id": "ECM-SPLIT",
       "name": ["ECM", { "text": "†", "marks": ["sup"] }],
-      "description": "Denotes an ECM “split guiding line” reading that is not in agreement with all of NA, SBL, TH, and WH."
+      "description": "Denotes an ECM “split guiding line” reading that disagrees with one or more of NA, SBL, TH, or WH."
     },
     {
       "_id": "HF",
       "name": "HF",
       "description": [
+        "Zane C. Hodges and Arthur L. Farstad, eds., ",
         {
-          "text": "The Greek New Testament According to the Majority Text. 2",
+          "text": "The Greek New Testament According to the Majority Text",
           "marks": ["i"]
         },
-        { "text": "nd", "marks": ["i", "sup"] },
-        { "text": " ed.", "marks": ["i"] },
-        " Zane C. Hodges and Arthur L. Farstad, eds. Nashville: Thomas Nelson, 1985."
+        ", 2",
+        { "text": "nd", "marks": ["sup"] },
+        " ed. (Nashville: Thomas Nelson, 1985)."
       ]
     },
     {
@@ -61,46 +62,50 @@
       "_id": "NA27",
       "name": ["NA", { "text": "27", "marks": ["sup"] }],
       "description": [
-        { "text": "Nestle-Aland Novum Testamentum Graece. 27", "marks": ["i"] },
-        { "text": "th", "marks": ["i", "sup"] },
-        { "text": " ed.", "marks": ["i"] },
-        " Kurt Aland et al., eds. Stuttgart: Deutsche Bibelgesellschaft, 1993."
+        "Kurt Aland et al., eds., ",
+        { "text": "Nestle-Aland Novum Testamentum Graece", "marks": ["i"] },
+        ", 27",
+        { "text": "th", "marks": ["sup"] },
+        " ed. (Stuttgart: Deutsche Bibelgesellschaft, 1993)."
       ]
     },
     {
       "_id": "NA28",
       "name": ["NA", { "text": "28", "marks": ["sup"] }],
       "description": [
-        { "text": "Nestle-Aland Novum Testamentum Graece. 28", "marks": ["i"] },
-        { "text": "th", "marks": ["i", "sup"] },
-        { "text": " ed.", "marks": ["i"] },
-        " Barbara Aland et al., eds. Stuttgart: Deutsche Bibelgesellschaft, 2012."
+        "Barbara Aland et al., eds., ",
+        { "text": "Nestle-Aland Novum Testamentum Graece", "marks": ["i"] },
+        ", 28",
+        { "text": "th", "marks": ["sup"] },
+        " ed. (Stuttgart: Deutsche Bibelgesellschaft, 2012)."
       ]
     },
     {
       "_id": "PCK",
       "name": "PCK",
       "description": [
+        "Wilbur N. Pickering, ed., ",
         {
-          "text": "The Greek New Testament According to Family 35. 3",
+          "text": "The Greek New Testament According to Family 35",
           "marks": ["i"]
         },
-        { "text": "rd", "marks": ["i", "sup"] },
-        { "text": " ed.", "marks": ["i"] },
-        " Wilbur N. Pickering, ed. 2020."
+        ", 3",
+        { "text": "rd", "marks": ["sup"] },
+        " ed. (n.p.: self-published, 2020)."
       ]
     },
     {
       "_id": "PT",
       "name": "PT",
       "description": [
+        "Vasileios Antoniades, ed., ",
         {
-          "text": "Ἡ Καινὴ Διαθήκη ἐγκρίσει τῆς Μεγάλης τοῦ Χριστοῦ Ἐκκλησίας.",
+          "text": "Ἡ Καινὴ Διαθήκη ἐγκρίσει τῆς Μεγάλης τοῦ Χριστοῦ Ἐκκλησίας",
           "script": "G",
-          "transliteration": "Hē Kainḕ Diathḗkē enkrísei tē̂s Megálēs toû Christoû Ekklēsías.",
+          "transliteration": "Hē Kainḕ Diathḗkē enkrísei tē̂s Megálēs toû Christoû Ekklēsías",
           "marks": ["i"]
         },
-        " (The Ecumenical Patriarchal Text of the New Testament). Vasileios Antoniades, ed. Constantinople: Patriarchal Press, 1904–1912."
+        " [The Ecumenical Patriarchal Text of the New Testament] (Constantinople: Patriarchal Press, 1912)."
       ]
     },
     {
@@ -118,44 +123,59 @@
     {
       "_id": "RP-MG",
       "name": ["RP", { "text": "mg", "marks": ["sup"] }],
-      "description": "Robinson and Pierpont’s alternate Byzantine readings as of April 26, 2026."
+      "description": "Robinson and Pierpont’s alternate Byzantine readings."
+    },
+    {
+      "_id": "RP2005",
+      "name": ["RP", { "text": "2005", "marks": ["sup"] }],
+      "description": [
+        {
+          "text": "The New Testament in the Original Greek: Byzantine Textform 2005.",
+          "marks": ["i"]
+        },
+        " Maurice A. Robinson and William G. Pierpont, eds. Southborough, MA: Chilton Book Publishing, 2005."
+      ]
     },
     {
       "_id": "SBL",
       "name": "SBL",
       "description": [
-        { "text": "The Greek New Testament: SBL Edition.", "marks": ["i"] },
-        " Michael W. Holmes, ed. Atlanta: Society of Biblical Literature, 2010."
+        "Michael W. Holmes, ed., ",
+        { "text": "The Greek New Testament: SBL Edition", "marks": ["i"] },
+        " (Atlanta: Society of Biblical Literature, 2010)."
       ]
     },
     {
       "_id": "SCR",
       "name": "SCR",
       "description": [
+        "F.H.A. Scrivener, ed., ",
         {
-          "text": "The New Testament in the Original Greek according to the Text Followed in the Authorized Version.",
+          "text": "The New Testament in the Original Greek according to the Text Followed in the Authorized Version",
           "marks": ["i"]
         },
-        " F.H.A. Scrivener, ed. Cambridge: University Press, 1894."
+        " (Cambridge: University Press, 1894)."
       ]
     },
     {
       "_id": "ST",
       "name": "ST",
       "description": [
-        { "text": "Novum Iesu Christi D.N. Testamentum.", "marks": ["i"] },
-        " Robert Stephanus, ed. Lutetiae: Ex officina Roberti Stephani typographi regii, 1550."
+        "Robert Stephanus, ed., ",
+        { "text": "Novum Iesu Christi D.N. Testamentum", "marks": ["i"] },
+        " (Lutetiae: Ex officina Roberti Stephani typographi regii, 1550)."
       ]
     },
     {
       "_id": "TH",
       "name": "TH",
       "description": [
+        "Dirk Jongkind and Peter Williams, eds., ",
         {
-          "text": "The Greek New Testament: Produced at Tyndale House, Cambridge.",
+          "text": "The Greek New Testament: Produced at Tyndale House, Cambridge",
           "marks": ["i"]
         },
-        " Dirk Jongkind and Peter Williams, eds. Wheaton, IL: Crossway, 2017."
+        " (Wheaton, IL: Crossway, 2017)."
       ]
     },
     {
@@ -167,11 +187,9 @@
       "_id": "WH",
       "name": "WH",
       "description": [
-        {
-          "text": "The New Testament in the Original Greek. American ed.",
-          "marks": ["i"]
-        },
-        " B.F. Westcott and F.J.A. Hort, eds. New York: Harper & Brothers, 1881."
+        "B.F. Westcott and F.J.A. Hort, eds., ",
+        { "text": "The New Testament in the Original Greek", "marks": ["i"] },
+        ", American ed. (New York: Harper & Brothers, 1881)."
       ]
     },
     {
@@ -933,14 +951,14 @@
     {
       "_id": "COL",
       "name": {
-        "text": "Πρὸς Κολοσσαεῖς",
+        "text": "Πρὸς Κολασσαεῖς",
         "script": "G",
-        "transliteration": "Pròs Kolossaeîs"
+        "transliteration": "Pròs Kolassaeîs"
       },
       "title": {
-        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ ΕΠΙΣΤΟΛΗ",
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΛΑΣΣΑΕΙΣ ΕΠΙΣΤΟΛΗ",
         "script": "G",
-        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS KOLOSSAEIS EPISTOLĒ"
+        "transliteration": "PAULOU TOU APOSTOLOU Ē PROS KOLASSAEIS EPISTOLĒ"
       },
       "order": 12,
       "chapters": 4

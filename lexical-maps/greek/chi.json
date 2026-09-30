@@ -1,9 +1,46 @@
 {
+  "μαδων": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a contention, strife",
+    "inflections": {
+      "μαδων": {
+        "transliteration": "madōn",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
+  "μαχιρ": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a food, provisions",
+    "inflections": {
+      "μαχιρ": {
+        "transliteration": "machir",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
+  "σαλαμιν": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a peace offering",
+    "inflections": {
+      "σαλαμιν": {
+        "transliteration": "salamin",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Χαβασιν": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Habazziniah",
     "inflections": {
       "Χαβασιν": {
         "transliteration": "Chabasin",
@@ -15,6 +52,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Cabbon; lit. Hilly",
     "inflections": {
       "Χαββα": {
         "transliteration": "Chabba",
@@ -27,6 +65,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Heber; lit. Community",
     "inflections": {
       "Χαβερ": {
         "transliteration": "Chaber",
@@ -39,6 +78,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Habaiah; lit. YH/Yah/Jah Has Hidden",
     "inflections": {
       "Χαβια": {
         "transliteration": "Chabia",
@@ -50,6 +90,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Cabbon; lit. Hilly",
     "inflections": {
       "Χαβρα": {
         "transliteration": "Chabra",
@@ -57,15 +98,15 @@
       }
     }
   },
-  "Χαβραθα": {
+  "χαβραθα": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Kibrah",
+    "shortDefinition": "a stretch (of land), distance",
     "inflections": {
-      "Χαβραθα": {
-        "transliteration": "Chabratha",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "χαβραθα": {
+        "transliteration": "chabratha",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -74,6 +115,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chabris",
     "inflections": {
       "Χαβριν": {
         "transliteration": "Chabrin",
@@ -86,6 +128,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chabris",
     "inflections": {
       "Χαβρις": {
         "transliteration": "Chabris",
@@ -97,6 +140,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Cabul; lit. Sterile",
     "inflections": {
       "Χαβωλ": {
         "transliteration": "Chabōl",
@@ -108,6 +152,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Habor; lit. United",
     "inflections": {
       "Χαβωρ": {
         "transliteration": "Chabōr",
@@ -119,6 +164,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Chadiasian",
     "inflections": {
       "Χαδιασαι": {
         "transliteration": "Chadiasai",
@@ -130,6 +176,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chitlish",
     "inflections": {
       "Χαθλως": {
         "transliteration": "Chathlōs",
@@ -142,6 +189,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Helon; lit. Strong",
     "inflections": {
       "Χαιλων": {
         "transliteration": "Chailōn",
@@ -149,31 +197,15 @@
       }
     }
   },
-  "χαίνω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to open wide, gape",
-    "inflections": {
-      "ἔχανεν": {
-        "transliteration": "échanen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
-        ]
-      }
-    }
-  },
   "Χαιρέας": {
     "language": "greek",
     "pos": "noun",
     "declension": "1m-as",
+    "shortDefinition": "Chaereas",
     "inflections": {
       "Χαιρέαν": {
         "transliteration": "Chairéan",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "Χαιρεου": {
         "transliteration": "Chaireou",
@@ -186,6 +218,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to hail, greet",
     "inflections": {
       "ἐχαιρέτισαν": {
         "transliteration": "echairétisan",
@@ -208,6 +241,10 @@
       "ἔχαιρεν": {
         "transliteration": "échairen",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "ἔχαιρον": {
+        "transliteration": "échairon",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
       },
       "ἐχάρη": {
         "transliteration": "echárē",
@@ -386,6 +423,23 @@
       "χαροῦνται": {
         "transliteration": "charoûntai",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
+      },
+      "χαροῦσιν": {
+        "transliteration": "charoûsin",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      }
+    }
+  },
+  "Χαλαζα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
+    "shortDefinition": "Colhozeh; lit. Every Seer",
+    "inflections": {
+      "Χαλαζα": {
+        "transliteration": "Chalaza",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -394,15 +448,9 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-a-impure",
+    "shortDefinition": "a hail, hailstones",
     "indices": { "strongs": "G5464" },
     "inflections": {
-      "χαλαζα": {
-        "transliteration": "chalaza",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
-        ]
-      },
       "χάλαζα": {
         "transliteration": "chálaza",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
@@ -432,22 +480,11 @@
       }
     }
   },
-  "χαλάζη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "inflections": {
-      "χαλάζῃ": {
-        "transliteration": "chalázē",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      }
-    }
-  },
   "Χαλαμακ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chalamak",
     "inflections": {
       "Χαλαμακ": {
         "transliteration": "Chalamak",
@@ -459,7 +496,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Kalneh",
+    "shortDefinition": "Calneh, Calno",
     "inflections": {
       "Χαλαννη": {
         "transliteration": "Chalannē",
@@ -467,10 +504,21 @@
       }
     }
   },
-  "χάλαστα": {
+  "χαλαστόν": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
+    "shortDefinition": "a festoon, hanging chainwork",
     "inflections": {
+      "χαλαστά": {
+        "transliteration": "chalastá",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
       "χαλαστῶν": {
         "transliteration": "chalastō̂n",
         "cells": [
@@ -480,29 +528,12 @@
       }
     }
   },
-  "χαλαστόν": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "inflections": {
-      "χαλαστά": {
-        "transliteration": "chalastá",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "Χαλαχ": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Kalah",
+    "shortDefinition": "Calah; lit. Maturity",
     "inflections": {
       "Χαλαχ": {
         "transliteration": "Chalach",
@@ -514,6 +545,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to let down, lower; fig. to loosen, slacken",
     "indices": { "strongs": "G5465" },
     "inflections": {
       "ἐχάλασαν": {
@@ -567,6 +599,10 @@
           { "parse": ["verb", "pres", "pas", "subj", "pers-3", "sg"] }
         ]
       },
+      "χαλῶσι": {
+        "transliteration": "chalō̂si",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "χαλῶσιν": {
         "transliteration": "chalō̂sin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -578,6 +614,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a galbanum (resin)",
     "inflections": {
       "χαλβάνη": {
         "transliteration": "chalbánē",
@@ -596,6 +633,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chaldea",
     "inflections": {
       "Χαλδαία": {
         "transliteration": "Chaldaía",
@@ -607,22 +645,11 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be Chaldean",
     "inflections": {
       "Χαλδαικήν": {
         "transliteration": "Chaldaikḗn",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "Χαλδαῖοι": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "indices": { "strongs": "G5466" },
-    "inflections": {
-      "Χαλδαίων": {
-        "transliteration": "Chaldaíōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -631,6 +658,8 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Chaldean",
+    "indices": { "strongs": "G5466" },
     "inflections": {
       "Χαλδαῖοι": {
         "transliteration": "Chaldaîoi",
@@ -664,7 +693,7 @@
   "Χαλδαϊστί": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in aramaic, in the chaldean tongue",
+    "shortDefinition": "in Chaldean (language)",
     "inflections": {
       "Χαλδαιστί": {
         "transliteration": "Chaldaistí",
@@ -677,6 +706,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Caleb",
     "inflections": {
       "Χαλεβ": {
         "transliteration": "Chaleb",
@@ -688,6 +718,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be angry, embittered (toward)",
     "inflections": {
       "ἐχαλέπαινεν": {
         "transliteration": "echalépainen",
@@ -709,6 +740,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be perilous, hard; fig. to be fierce, harsh",
     "indices": { "strongs": "G5467" },
     "inflections": {
       "χαλεπά": {
@@ -785,6 +817,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chelal; lit. Complete",
     "inflections": {
       "Χαληλ": {
         "transliteration": "Chalēl",
@@ -797,6 +830,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Jecoliah; lit. YH/Yah/Jah Will Enable",
     "inflections": {
       "Χαλια": {
         "transliteration": "Chalia",
@@ -808,6 +842,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to bridle, rein in; fig. to restrain",
     "indices": { "strongs": "G5468" },
     "inflections": {
       "χαλιναγωγῆσαι": {
@@ -827,6 +862,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a bit, bridle",
     "indices": { "strongs": "G5469" },
     "inflections": {
       "χαλινόν": {
@@ -852,7 +888,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
-    "shortDefinition": "pebble, gravel stone",
+    "shortDefinition": "a gravel, pebble",
     "inflections": {
       "χάλικες": {
         "transliteration": "chálikes",
@@ -872,6 +908,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Calcol, Chalcol; lit. Sustenance",
     "inflections": {
       "Χαλκαλ": {
         "transliteration": "Chalkal",
@@ -879,37 +916,10 @@
       }
     }
   },
-  "χαλκεῖον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "inflections": {
-      "χαλκείοις": {
-        "transliteration": "chalkeíois",
-        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
-      },
-      "χαλκεῖον": {
-        "transliteration": "chalkeîon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      },
-      "χάλκειον": {
-        "transliteration": "chálkeion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "χάλκειος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be (made of) bronze, brazen",
     "inflections": {
       "χάλκειαι": {
         "transliteration": "chálkeiai",
@@ -939,6 +949,10 @@
           { "parse": ["adj", "dat", "pl", "neut"] }
         ]
       },
+      "χάλκειον": {
+        "transliteration": "chálkeion",
+        "cells": [{ "parse": ["adj", "nom", "sg", "neut"] }]
+      },
       "χαλκείῳ": {
         "transliteration": "chalkeíō",
         "cells": [
@@ -949,12 +963,160 @@
       }
     }
   },
-  "χάλκεος": {
+  "χαλκεύς": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3m-eus",
+    "shortDefinition": "a coppersmith, metalworker",
+    "indices": { "strongs": "G5471" },
+    "inflections": {
+      "χαλκεῖς": {
+        "transliteration": "chalkeîs",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "pl", "masc"] },
+          { "parse": ["noun", "voc", "pl", "masc"] }
+        ]
+      },
+      "χαλκεύς": {
+        "transliteration": "chalkeús",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "χαλκέως": {
+        "transliteration": "chalkéōs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      }
+    }
+  },
+  "χαλκεύω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to forge, work (metal)",
+    "inflections": {
+      "χαλκεύειν": {
+        "transliteration": "chalkeúein",
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+      }
+    }
+  },
+  "χαλκηδών": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "3-cons",
+    "shortDefinition": "a chalcedony",
+    "indices": { "strongs": "G5472" },
+    "inflections": {
+      "χαλκηδών": {
+        "transliteration": "chalkēdṓn",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      }
+    }
+  },
+  "χαλκίον": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
+    "shortDefinition": "a copper vessel, bronze pot",
+    "indices": { "strongs": "G5473" },
+    "inflections": {
+      "χαλκείοις": {
+        "transliteration": "chalkeíois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
+      "χαλκεῖον": {
+        "transliteration": "chalkeîon",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "χαλκίον": {
+        "transliteration": "chalkíon",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "χαλκίων": {
+        "transliteration": "chalkíōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      }
+    }
+  },
+  "χαλκολίβανον": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
+    "shortDefinition": "a burnished bronze, fine brass",
+    "indices": { "strongs": "G5474" },
+    "inflections": {
+      "χαλκολιβάνῳ": {
+        "transliteration": "chalkolibánō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      }
+    }
+  },
+  "χαλκοπλάστης": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "a bronze-molder, bronze worker",
+    "inflections": {
+      "χαλκοπλάστας": {
+        "transliteration": "chalkoplástas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      }
+    }
+  },
+  "χαλκός": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a bronze, copper, brass; fig. a copper coin",
+    "indices": { "strongs": "G5475" },
+    "inflections": {
+      "χαλκόν": {
+        "transliteration": "chalkón",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "χαλκός": {
+        "transliteration": "chalkós",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "χαλκοῦ": {
+        "transliteration": "chalkoû",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
+      "χαλκῷ": {
+        "transliteration": "chalkō̂",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
+  "χαλκοῦς": {
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
-    "shortDefinition": "made of bronze, brazen",
+    "shortDefinition": "to be (made of) bronze, brazen",
+    "indices": { "strongs": "G5470" },
     "inflections": {
+      "χαλκᾶ": {
+        "transliteration": "chalkâ",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      },
       "χαλκαῖ": {
         "transliteration": "chalkaî",
         "cells": [
@@ -1004,6 +1166,13 @@
           { "parse": ["adj", "voc", "sg", "neut"] }
         ]
       },
+      "χαλκοῦς": {
+        "transliteration": "chalkoûs",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "masc"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
+      },
       "χαλκῶν": {
         "transliteration": "chalkō̂n",
         "cells": [
@@ -1014,152 +1183,11 @@
       }
     }
   },
-  "χαλκεύς": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3m-eus",
-    "indices": { "strongs": "G5471" },
-    "inflections": {
-      "χαλκεῖς": {
-        "transliteration": "chalkeîs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      },
-      "χαλκεύς": {
-        "transliteration": "chalkeús",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "χαλκέως": {
-        "transliteration": "chalkéōs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
-  "χαλκεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "inflections": {
-      "χαλκεύειν": {
-        "transliteration": "chalkeúein",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
-      }
-    }
-  },
-  "χαλκηδών": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3-cons",
-    "indices": { "strongs": "G5472" },
-    "inflections": {
-      "χαλκηδών": {
-        "transliteration": "chalkēdṓn",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "χαλκίον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "indices": { "strongs": "G5473" },
-    "inflections": {
-      "χαλκίον": {
-        "transliteration": "chalkíon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      },
-      "χαλκίων": {
-        "transliteration": "chalkíōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
-      }
-    }
-  },
-  "χαλκολίβανον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "indices": { "strongs": "G5474" },
-    "inflections": {
-      "χαλκολιβάνῳ": {
-        "transliteration": "chalkolibánō",
-        "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
-      }
-    }
-  },
-  "χαλκοπλάστης": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
-    "inflections": {
-      "χαλκοπλάστας": {
-        "transliteration": "chalkoplástas",
-        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
-      }
-    }
-  },
-  "χαλκός": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "indices": { "strongs": "G5475" },
-    "inflections": {
-      "χαλκόν": {
-        "transliteration": "chalkón",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
-      "χαλκός": {
-        "transliteration": "chalkós",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "χαλκοῦ": {
-        "transliteration": "chalkoû",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
-      "χαλκοῦς": {
-        "transliteration": "chalkoûs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      },
-      "χαλκῷ": {
-        "transliteration": "chalkō̂",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
-      }
-    }
-  },
-  "χαλκοῦς": {
-    "language": "greek",
-    "pos": "adj",
-    "indices": { "strongs": "G5470" },
-    "inflections": {
-      "χαλκᾶ": {
-        "transliteration": "chalkâ",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "voc", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "Χαλου": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Holon; lit. Sandy",
     "inflections": {
       "Χαλου": {
         "transliteration": "Chalou",
@@ -1172,6 +1200,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chalphi",
     "inflections": {
       "Χαλφι": {
         "transliteration": "Chalphi",
@@ -1184,6 +1213,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Calcol, Chalcol; lit. Sustenance",
     "inflections": {
       "Χαλχαλ": {
         "transliteration": "Chalchal",
@@ -1196,7 +1226,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Ham",
+    "shortDefinition": "Ham; lit. Hot",
     "inflections": {
       "Χαμ": {
         "transliteration": "Cham",
@@ -1209,6 +1239,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chimham; lit. Pining",
     "inflections": {
       "Χαμααμ": {
         "transliteration": "Chamaam",
@@ -1219,6 +1250,7 @@
   "χαμαί": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "on/to the ground",
     "indices": { "strongs": "G5476" },
     "inflections": {
       "χαμαί": { "transliteration": "chamaí", "cells": [{ "parse": ["adv"] }] }
@@ -1228,6 +1260,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a chameleon",
     "inflections": {
       "χαμαιλέοντες": {
         "transliteration": "chamailéontes",
@@ -1247,6 +1280,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be prostrate, lying on the ground",
     "inflections": {
       "χαμαιπετής": {
         "transliteration": "chamaipetḗs",
@@ -1261,6 +1295,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a chamanim",
     "inflections": {
       "χαμανιμ": {
         "transliteration": "chamanim",
@@ -1272,6 +1307,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Humtah; lit. Low",
     "inflections": {
       "Χαμματα": {
         "transliteration": "Chammata",
@@ -1284,6 +1320,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Hammon; lit. Warm Spring",
     "inflections": {
       "Χαμωθ": {
         "transliteration": "Chamōth",
@@ -1296,6 +1333,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chemosh; lit. the Powerful",
     "inflections": {
       "Χαμως": {
         "transliteration": "Chamōs",
@@ -1307,6 +1345,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Canaan, Chanaan; lit. Humiliated, Lowland",
     "indices": { "strongs": "G5477" },
     "inflections": {
       "Χανααν": {
@@ -1323,6 +1362,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a Canaanitess",
     "inflections": {
       "Χαναανίτιδος": {
         "transliteration": "Chanaanítidos",
@@ -1339,6 +1379,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chenaanah",
     "inflections": {
       "Χανανα": {
         "transliteration": "Chanana",
@@ -1349,6 +1390,7 @@
   "Χαναναῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be Canaanite",
     "indices": { "strongs": "G5478" },
     "inflections": {
       "Χαναναία": {
@@ -1400,6 +1442,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chenani; lit. Planted",
     "inflections": {
       "Χανανι": {
         "transliteration": "Chanani",
@@ -1412,6 +1455,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a Canaanite",
     "inflections": {
       "Χανανιν": {
         "transliteration": "Chananin",
@@ -1430,6 +1474,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Canaanite",
     "inflections": {
       "Χανανίτην": {
         "transliteration": "Chananítēn",
@@ -1442,6 +1487,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a Canaanitess",
     "inflections": {
       "Χανανίτιδι": {
         "transliteration": "Chananítidi",
@@ -1457,6 +1503,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Canneh",
     "inflections": {
       "Χαννα": {
         "transliteration": "Channa",
@@ -1467,24 +1514,23 @@
   "Χανουναῖος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Chanuneus",
     "inflections": {
       "Χανουναιου": {
         "transliteration": "Chanounaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "χάος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gaping void, abyss",
     "inflections": {
       "χάος": {
         "transliteration": "cháos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
@@ -1528,6 +1574,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cherub, Charaath",
     "inflections": {
       "Χαρααθ": {
         "transliteration": "Charaath",
@@ -1540,6 +1587,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an engraved mark, stamp; fig. a carved image",
     "indices": { "strongs": "G5480" },
     "inflections": {
       "χάραγμα": {
@@ -1561,6 +1609,10 @@
       "χαράγματι": {
         "transliteration": "charágmati",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
+      },
+      "χαράγματος": {
+        "transliteration": "charágmatos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -1569,6 +1621,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Haradah; lit. Fear",
     "inflections": {
       "Χαραδαθ": {
         "transliteration": "Charadath",
@@ -1579,13 +1632,11 @@
   "χαραδριός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a plover, curlew",
     "inflections": {
       "χαραδριόν": {
         "transliteration": "charadrión",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -1594,6 +1645,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Haruphite",
     "inflections": {
       "Χαραιφι": {
         "transliteration": "Charaiphi",
@@ -1605,6 +1657,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Charax",
     "inflections": {
       "Χάρακα": {
         "transliteration": "Cháraka",
@@ -1615,6 +1668,7 @@
   "χαρακοβολία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a building of palisades, siegework",
     "inflections": {
       "χαρακοβολίᾳ": {
         "transliteration": "charakobolía",
@@ -1626,6 +1680,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to fence with stakes, palisade",
     "inflections": {
       "ἐχαράκωσα": {
         "transliteration": "echarákōsa",
@@ -1642,6 +1697,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "an imprint, stamp; fig. an exact representation",
     "indices": { "strongs": "G5481" },
     "inflections": {
       "χαρακτήρ": {
@@ -1659,6 +1715,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a palisading, siege mound",
     "inflections": {
       "χαράκωσιν": {
         "transliteration": "charákōsin",
@@ -1670,18 +1727,20 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a palisade, siege rampart; lit. a pointed stake",
     "indices": { "strongs": "G5482" },
     "inflections": {
+      "χάρακα": {
+        "transliteration": "cháraka",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
       "χάρακά": {
         "transliteration": "cháraká",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "χάρακας": {
         "transliteration": "chárakas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       },
       "χάρακες": {
         "transliteration": "chárakes",
@@ -1701,6 +1760,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "χαραξ" },
+    "shortDefinition": "to engrave, inscribe, brand",
     "inflections": {
       "ἐχάραξαν": {
         "transliteration": "echáraxan",
@@ -1729,6 +1789,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Harsha, Charea; lit. Magician",
     "inflections": {
       "Χαρεα": {
         "transliteration": "Charea",
@@ -1741,6 +1802,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Harim; lit. Snub-Nosed",
     "inflections": {
       "Χαρημ": {
         "transliteration": "Charēm",
@@ -1752,7 +1814,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-1-3-nt",
-    "shortDefinition": "graceful, charming",
+    "shortDefinition": "to be graceful, charming, attractive",
     "inflections": {
       "χαρίεντες": {
         "transliteration": "charíentes",
@@ -1768,7 +1830,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
-    "shortDefinition": "to grant, fig: to forgive",
+    "shortDefinition": "to grant; fig. to forgive",
     "indices": { "strongs": "G5483" },
     "inflections": {
       "ἐχαρίζετο": {
@@ -1970,6 +2032,7 @@
   "χάριν": {
     "language": "greek",
     "pos": "prep",
+    "shortDefinition": "on account of, for the sake of",
     "indices": { "strongs": "G5484" },
     "inflections": {
       "χάριν": { "transliteration": "chárin", "cells": [{ "parse": ["prep"] }] }
@@ -1980,7 +2043,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "a grace; fig. thanks",
+    "shortDefinition": "a grace; fig. a thanks",
     "indices": { "strongs": "G5485" },
     "inflections": {
       "χάριν": {
@@ -2065,6 +2128,7 @@
   "χαριστήριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of thanksgiving, as a grateful reward",
     "inflections": {
       "χαριστήριον": {
         "transliteration": "charistḗrion",
@@ -2078,11 +2142,24 @@
       }
     }
   },
-  "χαριτόομαι": {
+  "χαριτόω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "stems": { "aor": "εχαριτω" },
+    "shortDefinition": "to grace, bestow favor on, favor highly",
+    "indices": { "strongs": "G5487" },
     "inflections": {
+      "ἐχαρίτωσεν": {
+        "transliteration": "echarítōsen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "κεχαριτωμένη": {
+        "transliteration": "kecharitōménē",
+        "cells": [
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
       "κεχαριτωμένῳ": {
         "transliteration": "kecharitōménō",
         "cells": [
@@ -2096,29 +2173,11 @@
       }
     }
   },
-  "χαριτόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "stems": { "aor": "εχαριτω" },
-    "indices": { "strongs": "G5487" },
-    "inflections": {
-      "ἐχαρίτωσεν": {
-        "transliteration": "echarítōsen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      },
-      "κεχαριτωμένη": {
-        "transliteration": "kecharitōménē",
-        "cells": [
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "Χαρκαμυς": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Carchemish",
     "inflections": {
       "Χαρκαμυς": {
         "transliteration": "Charkamys",
@@ -2131,6 +2190,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Carmelite",
     "inflections": {
       "Χαρμαλι": {
         "transliteration": "Charmali",
@@ -2142,6 +2202,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chilmad",
     "inflections": {
       "Χαρμαν": {
         "transliteration": "Charman",
@@ -2154,6 +2215,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Harim, Charme; lit. Snub-Nosed",
     "inflections": {
       "Χαρμη": {
         "transliteration": "Charmē",
@@ -2166,7 +2228,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Karmi",
+    "shortDefinition": "Carmi; lit. Gardener",
     "inflections": {
       "Χαρμι": {
         "transliteration": "Charmi",
@@ -2179,6 +2241,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Charmis",
     "inflections": {
       "Χαρμιν": {
         "transliteration": "Charmin",
@@ -2191,6 +2254,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Charmis",
     "inflections": {
       "Χαρμις": {
         "transliteration": "Charmis",
@@ -2203,6 +2267,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a cause for joy, delight",
     "inflections": {
       "χαρμονή": {
         "transliteration": "charmonḗ",
@@ -2226,46 +2291,30 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "inflections": {
-      "χαρμοσύνης": {
-        "transliteration": "charmosýnēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "χαρμόσυνος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2",
+    "shortDefinition": "a joyfulness, rejoicing; fig. a day of rejoicing",
     "inflections": {
       "χαρμοσύνη": {
         "transliteration": "charmosýnē",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
       },
       "χαρμοσύνῃ": {
         "transliteration": "charmosýnē",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       },
       "χαρμοσύνης": {
         "transliteration": "charmosýnēs",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "χαρμοσυνῶν": {
         "transliteration": "charmosynō̂n",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
   "χαροπός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be gleaming, bright (of eyes)",
     "inflections": {
       "χαροποί": {
         "transliteration": "charopoí",
@@ -2283,6 +2332,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cherub",
     "inflections": {
       "Χαρουβ": {
         "transliteration": "Charoub",
@@ -2294,6 +2344,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Haran, Charran; lit. Parched",
     "indices": { "strongs": "G5488" },
     "inflections": {
       "Χαρραν": {
@@ -2310,6 +2361,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Charri",
     "inflections": {
       "Χαρρι": {
         "transliteration": "Charri",
@@ -2321,6 +2373,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a potsherd; fig. Harsith (a gate)",
     "inflections": {
       "χαρσιθ": {
         "transliteration": "charsith",
@@ -2331,6 +2384,7 @@
   "χαρτηρία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a papyrus stock, paper supply",
     "inflections": {
       "χαρτηρίαν": {
         "transliteration": "chartērían",
@@ -2361,6 +2415,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a papyrus roll, paper scroll",
     "inflections": {
       "χαρτίον": {
         "transliteration": "chartíon",
@@ -2384,6 +2439,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Carchemish",
     "inflections": {
       "Χαρχαμις": {
         "transliteration": "Charchamis",
@@ -2396,7 +2452,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Kesed",
+    "shortDefinition": "Chesed",
     "inflections": {
       "Χασαδ": {
         "transliteration": "Chasad",
@@ -2408,6 +2464,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chesulloth; lit. Fattened",
     "inflections": {
       "Χασαλωθ": {
         "transliteration": "Chasalōth",
@@ -2420,7 +2477,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Kezib",
+    "shortDefinition": "Cozbi; lit. False",
     "inflections": {
       "Χασβι": {
         "transliteration": "Chasbi",
@@ -2433,6 +2490,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chaseba",
     "inflections": {
       "Χασεβα": {
         "transliteration": "Chaseba",
@@ -2445,6 +2503,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chislev",
     "inflections": {
       "Χασεηλου": {
         "transliteration": "Chaseēlou",
@@ -2457,7 +2516,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Kislev",
+    "shortDefinition": "Chislev",
     "inflections": {
       "Χασελευ": {
         "transliteration": "Chaseleu",
@@ -2469,6 +2528,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chisloth Tabor; lit. Flanks of Tabor",
     "inflections": {
       "Χασελωθαιθ": {
         "transliteration": "Chaselōthaith",
@@ -2480,6 +2540,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chesil; lit. Fool",
     "inflections": {
       "Χασιλ": {
         "transliteration": "Chasil",
@@ -2492,7 +2553,14 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "χαν" },
+    "shortDefinition": "to gape, open (the mouth) wide",
     "inflections": {
+      "ἔχανεν": {
+        "transliteration": "échanen",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
       "χάνε": {
         "transliteration": "cháne",
         "cells": [
@@ -2520,6 +2588,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chislon; lit. Hopeful",
     "inflections": {
       "Χασλων": {
         "transliteration": "Chaslōn",
@@ -2532,7 +2601,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Kasluhim",
+    "shortDefinition": "a Casluhite",
     "inflections": {
       "Χασλωνιιμ": {
         "transliteration": "Chaslōniim",
@@ -2562,6 +2631,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Casphor",
     "inflections": {
       "Χασφω": {
         "transliteration": "Chasphō",
@@ -2574,6 +2644,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ataroth; lit. Crowns",
     "inflections": {
       "Χαταρωθι": {
         "transliteration": "Chatarōthi",
@@ -2586,6 +2657,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hattush",
     "inflections": {
       "Χαττους": {
         "transliteration": "Chattous",
@@ -2596,6 +2668,7 @@
   "χαῦνος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be rarefied, thin (of air)",
     "inflections": {
       "χαῦνος": {
         "transliteration": "chaûnos",
@@ -2610,6 +2683,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "an offering cake",
     "inflections": {
       "χαυῶνας": {
         "transliteration": "chauō̂nas",
@@ -2622,6 +2696,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a kaph",
     "inflections": {
       "χαφ": {
         "transliteration": "chaph",
@@ -2633,6 +2708,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Capharsalama",
     "inflections": {
       "Χαφαρσαλαμα": {
         "transliteration": "Chapharsalama",
@@ -2644,6 +2720,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chaphenatha",
     "inflections": {
       "Χαφεναθα": {
         "transliteration": "Chaphenatha",
@@ -2655,7 +2732,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Hebron",
+    "shortDefinition": "Hebron; lit. Seat of Association",
     "inflections": {
       "Χεβρων": {
         "transliteration": "Chebrōn",
@@ -2671,6 +2748,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hebronite",
     "inflections": {
       "Χεβρωνι": {
         "transliteration": "Chebrōni",
@@ -2683,6 +2761,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hebronite",
     "inflections": {
       "Χεβρωνις": {
         "transliteration": "Chebrōnis",
@@ -2695,6 +2774,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Chinnereth",
     "inflections": {
       "Χεζραθ": {
         "transliteration": "Chezrath",
@@ -2707,8 +2787,13 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a lip; fig. a language, edge, shore",
     "indices": { "strongs": "G5491" },
     "inflections": {
+      "χείλεσί": {
+        "transliteration": "cheílesí",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "χείλεσιν": {
         "transliteration": "cheílesin",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
@@ -2747,6 +2832,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to storm-toss, batter (with storms)",
     "indices": { "strongs": "G5492" },
     "inflections": {
       "χειμάζεται": {
@@ -2770,6 +2856,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m-contract",
+    "shortDefinition": "a winter torrent, rushing stream, wadi",
     "indices": { "strongs": "G5493" },
     "inflections": {
       "χείμαρροι": {
@@ -2817,6 +2904,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be winter(time), of winter",
     "inflections": {
       "χειμερινή": {
         "transliteration": "cheimerinḗ",
@@ -2859,6 +2947,7 @@
   "χειμέριος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be wintry, winter-cold",
     "inflections": {
       "χειμέριος": {
         "transliteration": "cheimérios",
@@ -2903,7 +2992,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "shortDefinition": "a hand; fig. power",
+    "shortDefinition": "a hand; fig. a power",
     "indices": { "strongs": "G5495" },
     "inflections": {
       "χείρ": {
@@ -2966,6 +3055,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to lead by the hand",
     "indices": { "strongs": "G5496" },
     "inflections": {
       "χειραγωγούμενον": {
@@ -3014,6 +3104,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a hand-leader, one who leads by the hand",
     "indices": { "strongs": "G5497" },
     "inflections": {
       "χειραγωγούς": {
@@ -3022,24 +3113,11 @@
       }
     }
   },
-  "χειρέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "inflections": {
-      "χείρω": {
-        "transliteration": "cheírō",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-1", "sg"] }
-        ]
-      }
-    }
-  },
   "χειρίζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to take in hand, administer",
     "inflections": {
       "χειρίζειν": {
         "transliteration": "cheirízein",
@@ -3050,7 +3128,7 @@
   "χειρίστως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "in the worst way",
+    "shortDefinition": "most harshly, in the worst way",
     "inflections": {
       "χειρίστως": {
         "transliteration": "cheirístōs",
@@ -3063,6 +3141,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a handwritten bond, certificate of debt",
     "indices": { "strongs": "G5498" },
     "inflections": {
       "χειρόγραφον": {
@@ -3078,25 +3157,11 @@
   "χειρονομία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a hand-to-hand fight, scuffle",
     "inflections": {
       "χειρονομίαις": {
         "transliteration": "cheironomíais",
         "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      }
-    }
-  },
-  "χειρόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "χειρώσασθαι": {
-        "transliteration": "cheirṓsasthai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
-      },
-      "χειρώσηται": {
-        "transliteration": "cheirṓsētai",
-        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
       }
     }
   },
@@ -3105,6 +3170,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a manacle, handcuff",
     "inflections": {
       "χειροπέδαι": {
         "transliteration": "cheiropédai",
@@ -3126,6 +3192,7 @@
   "χειροποίητος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be handmade, made by (human) hands",
     "indices": { "strongs": "G5499" },
     "inflections": {
       "χειροποίητα": {
@@ -3159,6 +3226,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to elect, appoint; lit. to vote by raised hand",
     "indices": { "strongs": "G5500" },
     "inflections": {
       "χειροτονηθείς": {
@@ -3179,6 +3247,7 @@
   "χειροτονία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a stretching out of the hand, (finger-)pointing",
     "inflections": {
       "χειροτονίαν": {
         "transliteration": "cheirotonían",
@@ -3190,13 +3259,11 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to overpower, subdue; fig. to slay",
     "inflections": {
       "ἐχειρώσαντο": {
         "transliteration": "echeirṓsanto",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
       },
       "χειρωσάμενοι": {
         "transliteration": "cheirōsámenoi",
@@ -3204,6 +3271,14 @@
           { "parse": ["verb", "aor", "mid", "ptc", "nom", "pl", "masc"] },
           { "parse": ["verb", "aor", "mid", "ptc", "voc", "pl", "masc"] }
         ]
+      },
+      "χειρώσασθαι": {
+        "transliteration": "cheirṓsasthai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "inf"] }]
+      },
+      "χειρώσηται": {
+        "transliteration": "cheirṓsētai",
+        "cells": [{ "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg"] }]
       }
     }
   },
@@ -3211,6 +3286,7 @@
     "language": "greek",
     "pos": "adj",
     "citationForms": ["χείρων", "χείρων", "χεῖρον"],
+    "shortDefinition": "to be worse, more severe",
     "indices": { "strongs": "G5501" },
     "inflections": {
       "χείριστα": {
@@ -3220,6 +3296,10 @@
           { "parse": ["adj", "nom", "pl", "neut", "super"] },
           { "parse": ["adj", "voc", "pl", "neut", "super"] }
         ]
+      },
+      "χειρίστους": {
+        "transliteration": "cheirístous",
+        "cells": [{ "parse": ["adj", "super", "acc", "pl", "masc"] }]
       },
       "χειρίστῳ": {
         "transliteration": "cheirístō",
@@ -3257,6 +3337,13 @@
         "transliteration": "cheíronos",
         "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       },
+      "χείρω": {
+        "transliteration": "cheírō",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "pl", "neut"] }
+        ]
+      },
       "χείρων": {
         "transliteration": "cheírōn",
         "cells": [
@@ -3271,7 +3358,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Kilyon",
+    "shortDefinition": "Chilion; lit. Pining",
     "inflections": {
       "Χελαιων": {
         "transliteration": "Chelaiōn",
@@ -3283,6 +3370,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Helbah; lit. Fertility",
     "inflections": {
       "Χελβα": {
         "transliteration": "Chelba",
@@ -3294,6 +3382,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Helbon; lit. Fruitful",
     "inflections": {
       "Χελβων": {
         "transliteration": "Chelbōn",
@@ -3306,6 +3395,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Helek; lit. Portion",
     "inflections": {
       "Χελεγ": {
         "transliteration": "Cheleg",
@@ -3318,6 +3408,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Helekite",
     "inflections": {
       "Χελεγι": {
         "transliteration": "Chelegi",
@@ -3330,6 +3421,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Cherethite",
     "inflections": {
       "Χελεθθι": {
         "transliteration": "Cheleththi",
@@ -3342,6 +3434,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chelod",
     "inflections": {
       "Χελεουδ": {
         "transliteration": "Cheleoud",
@@ -3354,6 +3447,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "a Chellian",
     "inflections": {
       "Χελεων": {
         "transliteration": "Cheleōn",
@@ -3366,6 +3460,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cheluhi; lit. Completed",
     "inflections": {
       "Χελια": {
         "transliteration": "Chelia",
@@ -3377,6 +3472,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a swallow",
     "inflections": {
       "χελιδόνες": {
         "transliteration": "chelidónes",
@@ -3396,6 +3492,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Helkath; lit. Smoothness",
     "inflections": {
       "Χελκαθ": {
         "transliteration": "Chelkath",
@@ -3407,6 +3504,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Kanah; lit. Reediness",
     "inflections": {
       "Χελκανα": {
         "transliteration": "Chelkana",
@@ -3418,6 +3516,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Helkath; lit. Smoothness",
     "inflections": {
       "Χελκατ": {
         "transliteration": "Chelkat",
@@ -3428,11 +3527,11 @@
   "Χελκείας": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
     "inflections": {
       "Χελκιου": {
         "transliteration": "Chelkiou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -3441,6 +3540,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hilkiah; lit. Portion of YH/Yah/Jah",
     "inflections": {
       "Χελκια": {
         "transliteration": "Chelkia",
@@ -3452,6 +3552,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "1m-as",
+    "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
     "inflections": {
       "Χελκια": {
         "transliteration": "Chelkia",
@@ -3484,6 +3585,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
     "inflections": {
       "Χελκιου": {
         "transliteration": "Chelkiou",
@@ -3495,6 +3597,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Helez",
     "inflections": {
       "Χελλης": {
         "transliteration": "Chellēs",
@@ -3507,6 +3610,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Caleb",
     "inflections": {
       "Χελουβ": {
         "transliteration": "Cheloub",
@@ -3518,6 +3622,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chellus",
     "inflections": {
       "Χελους": {
         "transliteration": "Chelous",
@@ -3530,6 +3635,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a jowl, jaw",
     "inflections": {
       "χελύνια": {
         "transliteration": "chelýnia",
@@ -3545,6 +3651,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Halak; lit. Bare",
     "inflections": {
       "Χελχα": {
         "transliteration": "Chelcha",
@@ -3557,6 +3664,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a tortoise; fig. a heap, mound",
     "inflections": {
       "χελῶναι": {
         "transliteration": "chelō̂nai",
@@ -3567,11 +3675,12 @@
       }
     }
   },
-  "χελώνις": {
+  "χελωνίς": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a doorsill, threshold",
     "inflections": {
       "χελωνίδος": {
         "transliteration": "chelōnídos",
@@ -3584,6 +3693,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Chinnereth",
     "inflections": {
       "Χεναρα": {
         "transliteration": "Chenara",
@@ -3595,6 +3705,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chinnereth",
     "inflections": {
       "Χενερεθ": {
         "transliteration": "Chenereth",
@@ -3606,6 +3717,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a vaulted cell",
     "inflections": {
       "χερεθ": {
         "transliteration": "chereth",
@@ -3618,6 +3730,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Cherethite",
     "inflections": {
       "Χερεθθι": {
         "transliteration": "Chereththi",
@@ -3629,6 +3742,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Carmel; lit. Planted Field",
     "inflections": {
       "Χερμελ": {
         "transliteration": "Chermel",
@@ -3641,6 +3755,8 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "indeclinable",
+    "shortDefinition": "a cherub",
+    "indices": { "strongs": "G5502" },
     "inflections": {
       "χερουβ": {
         "transliteration": "cheroub",
@@ -3648,6 +3764,14 @@
           { "parse": ["noun", "indecl-other", "masc"] },
           { "parse": ["noun", "indecl-other", "neut"] }
         ]
+      },
+      "χερουβιμ": {
+        "transliteration": "cheroubim",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
+      "χερουβίμ": {
+        "transliteration": "cheroubím",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       },
       "χερουβιν": {
         "transliteration": "cheroubin",
@@ -3658,25 +3782,10 @@
       }
     }
   },
-  "Χερουβίμ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "indices": { "strongs": "G5502" },
-    "inflections": {
-      "Χερουβιμ": {
-        "transliteration": "Cheroubim",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      },
-      "Χερουβίμ": {
-        "transliteration": "Cheroubím",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "χερσαῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be land-dwelling, of dry land",
     "inflections": {
       "χερσαῖα": {
         "transliteration": "chersaîa",
@@ -3697,36 +3806,11 @@
       }
     }
   },
-  "χερσεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "fut": "χερσω", "aor": "κεχερσωμεν" },
-    "inflections": {
-      "κεχερσωμένη": {
-        "transliteration": "kechersōménē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] }
-        ]
-      }
-    }
-  },
-  "χερσόομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "inflections": {
-      "χερσωθήσονται": {
-        "transliteration": "chersōthḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "χέρσος": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be dry, barren",
     "inflections": {
       "χέρσον": {
         "transliteration": "chérson",
@@ -3758,10 +3842,21 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to leave untilled, make (land) barren",
     "inflections": {
+      "κεχερσωμένη": {
+        "transliteration": "kechersōménē",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] }
+        ]
+      },
       "χερσωθήσεται": {
         "transliteration": "chersōthḗsetai",
         "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "χερσωθήσονται": {
+        "transliteration": "chersōthḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -3770,7 +3865,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Heth",
+    "shortDefinition": "Heth; lit. Terror",
     "inflections": {
       "Χετ": {
         "transliteration": "Chet",
@@ -3781,6 +3876,7 @@
   "Χετταία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a Hittite (woman)",
     "inflections": {
       "Χετταία": {
         "transliteration": "Chettaía",
@@ -3804,6 +3900,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Hittite",
     "inflections": {
       "Χετταῖοι": {
         "transliteration": "Chettaîoi",
@@ -3842,6 +3939,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hittite",
     "inflections": {
       "Χεττι": {
         "transliteration": "Chetti",
@@ -3854,10 +3952,23 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Kittim, Chittim",
     "inflections": {
       "Χεττιιμ": {
         "transliteration": "Chettiim",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "χεττιιν": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a woven tunic, hanging",
+    "inflections": {
+      "χεττιιν": {
+        "transliteration": "chettiin",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -3866,6 +3977,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Hittite",
     "inflections": {
       "Χεττιιν": {
         "transliteration": "Chettiin",
@@ -3876,6 +3988,7 @@
   "Χεττουρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "Keturah; lit. Perfumed",
     "inflections": {
       "Χεττουρα": {
         "transliteration": "Chettoura",
@@ -3899,6 +4012,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chephirah; lit. Village",
     "inflections": {
       "Χεφιρα": {
         "transliteration": "Chephira",
@@ -3911,6 +4025,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "perf": "χυ", "fut": "κεχυμεν", "aor": "κεχυμεν" },
+    "shortDefinition": "to pour, shed; fig. to spread",
     "inflections": {
       "ἐχέοντο": {
         "transliteration": "echéonto",
@@ -3950,13 +4065,7 @@
       },
       "χεεῖ": {
         "transliteration": "cheeî",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "χέει": {
         "transliteration": "chéei",
@@ -3986,6 +4095,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hezir",
     "inflections": {
       "Χηζιρ": {
         "transliteration": "Chēzir",
@@ -3998,6 +4108,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a cloven hoof, claw",
     "inflections": {
       "χηλῶν": {
         "transliteration": "chēlō̂n",
@@ -4009,6 +4120,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a widow",
     "indices": { "strongs": "G5503" },
     "inflections": {
       "χήρα": {
@@ -4057,6 +4169,7 @@
   "χηρεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a widowhood",
     "inflections": {
       "χηρεία": {
         "transliteration": "chēreía",
@@ -4068,19 +4181,10 @@
       "χηρείαν": {
         "transliteration": "chēreían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "χήρειος": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
+      },
       "χηρείας": {
         "transliteration": "chēreías",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -4089,6 +4193,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a living in widowhood, widowed state",
     "inflections": {
       "χηρεύσεως": {
         "transliteration": "chēreúseōs",
@@ -4100,6 +4205,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be widowed, live as a widow; fig. to be bereft",
     "inflections": {
       "ἐχήρευσεν": {
         "transliteration": "echḗreusen",
@@ -4117,6 +4223,7 @@
   "χθές": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "yesterday; fig. formerly",
     "indices": { "strongs": "G5504" },
     "inflections": {
       "ἐχθές": {
@@ -4129,6 +4236,7 @@
   "χθιζός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of yesterday",
     "inflections": {
       "χθιζοί": {
         "transliteration": "chthizoí",
@@ -4146,6 +4254,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a green grain, (hulled) groats",
     "inflections": {
       "χίδρα": {
         "transliteration": "chídra",
@@ -4164,6 +4273,7 @@
   "χιλιαρχία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a unit of a thousand, regiment",
     "inflections": {
       "χιλιαρχίαν": {
         "transliteration": "chiliarchían",
@@ -4183,6 +4293,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a commander of a thousand; fig. a (military) tribune",
     "indices": { "strongs": "G5506" },
     "inflections": {
       "χιλίαρχοι": {
@@ -4223,6 +4334,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a thousand, chiliad",
     "indices": { "strongs": "G5505" },
     "inflections": {
       "χιλιάδας": {
@@ -4254,6 +4366,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "numeral-plural",
+    "shortDefinition": "one thousand",
     "indices": { "strongs": "G5507" },
     "inflections": {
       "χίλια": {
@@ -4275,12 +4388,9 @@
         "transliteration": "chilíais",
         "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
       },
-      "χιλιάς": {
-        "transliteration": "chiliás",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
+      "χιλίαν": {
+        "transliteration": "chilían",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
       "χιλίας": {
         "transliteration": "chilías",
@@ -4317,7 +4427,7 @@
   "χιλιοπλασίως": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "a thousandfold",
+    "shortDefinition": "thousandfold, a thousand times more",
     "inflections": {
       "χιλιοπλασίως": {
         "transliteration": "chilioplasíōs",
@@ -4325,21 +4435,11 @@
       }
     }
   },
-  "χίλιος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "inflections": {
-      "χιλίαν": {
-        "transliteration": "chilían",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "Χιλουων": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Holon; lit. Sandy",
     "inflections": {
       "Χιλουων": {
         "transliteration": "Chilouōn",
@@ -4350,6 +4450,7 @@
   "χίμαιρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a young she-goat, yearling",
     "inflections": {
       "χίμαιραν": {
         "transliteration": "chímairan",
@@ -4362,6 +4463,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a young he-goat, (winter) yearling",
     "inflections": {
       "χίμαροι": {
         "transliteration": "chímaroi",
@@ -4397,6 +4499,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Ben Abinadab",
     "inflections": {
       "Χιναναδαβ": {
         "transliteration": "Chinanadab",
@@ -4408,6 +4511,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to be snowed upon, turn snow-white",
     "inflections": {
       "χιονωθήσονται": {
         "transliteration": "chionōthḗsontai",
@@ -4420,6 +4524,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "2f",
+    "shortDefinition": "Chios",
     "indices": { "strongs": "G5508" },
     "inflections": {
       "Χίου": {
@@ -4433,6 +4538,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hiram, Huram; lit. Whiteness, Noble",
     "inflections": {
       "Χιραμ": {
         "transliteration": "Chiram",
@@ -4445,6 +4551,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "a tunic, inner garment",
     "indices": { "strongs": "G5509" },
     "inflections": {
       "χιτών": {
@@ -4486,6 +4593,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
+    "shortDefinition": "a snow",
     "indices": { "strongs": "G5510" },
     "inflections": {
       "χιόνα": {
@@ -4516,6 +4624,7 @@
   "χλαῖνα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a warm cloak, outer wrap",
     "inflections": {
       "χλαίνας": {
         "transliteration": "chlaínas",
@@ -4530,6 +4639,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a chlamys, soldier’s cloak",
     "indices": { "strongs": "G5511" },
     "inflections": {
       "χλαμύδα": {
@@ -4546,6 +4656,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to jeer, scoff (at)",
     "indices": { "strongs": "G5512" },
     "inflections": {
       "ἐχλεύαζον": {
@@ -4577,6 +4688,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "an object of mockery, laughingstock",
     "inflections": {
       "χλεύασμα": {
         "transliteration": "chleúasma",
@@ -4591,29 +4703,22 @@
   "χλευασμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a jeering, taunting, derision",
     "inflections": {
       "χλευασμόν": {
         "transliteration": "chleuasmón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "χλευασμός": {
         "transliteration": "chleuasmós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
   "χλιαρός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be lukewarm, tepid",
     "indices": { "strongs": "G5513" },
     "inflections": {
       "χλιαρός": {
@@ -4622,11 +4727,12 @@
       }
     }
   },
-  "χλίδων": {
+  "χλιδών": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "3-cons",
+    "shortDefinition": "an armlet, anklet",
     "inflections": {
       "χλιδών": {
         "transliteration": "chlidṓn",
@@ -4650,7 +4756,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "indices": { "strongs": "G5514" },
+    "shortDefinition": "a tender shoot, green growth",
     "inflections": {
       "χλόη": {
         "transliteration": "chlóē",
@@ -4673,9 +4779,24 @@
       }
     }
   },
+  "Χλόη": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "shortDefinition": "Chloe; lit. Green",
+    "indices": { "strongs": "G5514" },
+    "inflections": {
+      "Χλόης": {
+        "transliteration": "Chlóēs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
   "χλοηφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be green-bearing, verdant",
     "inflections": {
       "χλοηφόρον": {
         "transliteration": "chloēphóron",
@@ -4693,6 +4814,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be greenish, turn green",
     "inflections": {
       "χλωρίζουσα": {
         "transliteration": "chlōrízousa",
@@ -4713,6 +4835,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be green, verdant; fig. to be pale",
     "indices": { "strongs": "G5515" },
     "inflections": {
       "χλωρά": {
@@ -4768,6 +4891,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "3-cons",
+    "shortDefinition": "a yellowish sheen, greenness",
     "inflections": {
       "χλωρότητι": {
         "transliteration": "chlōrótēti",
@@ -4781,6 +4905,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m-contract",
+    "shortDefinition": "a fine dust, chaff",
     "inflections": {
       "χνοῦν": {
         "transliteration": "chnoûn",
@@ -4800,6 +4925,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chebar; lit. Length",
     "inflections": {
       "Χοβαρ": {
         "transliteration": "Chobar",
@@ -4812,6 +4938,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Heber; lit. Community",
     "inflections": {
       "Χοβερ": {
         "transliteration": "Chober",
@@ -4824,6 +4951,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "a Heberite",
     "inflections": {
       "Χοβερι": {
         "transliteration": "Choberi",
@@ -4836,7 +4964,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Heber",
+    "shortDefinition": "Heber; lit. Community",
     "inflections": {
       "Χοβορ": {
         "transliteration": "Chobor",
@@ -4849,7 +4977,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Beker",
+    "shortDefinition": "Becher; lit. Young Camel",
     "inflections": {
       "Χοβωρ": {
         "transliteration": "Chobōr",
@@ -4862,7 +4990,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Hadad",
+    "shortDefinition": "Hadad; lit. Fierce",
     "inflections": {
       "Χοδδαδ": {
         "transliteration": "Choddad",
@@ -4875,6 +5003,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hadlai; lit. Idle",
     "inflections": {
       "Χοδλι": {
         "transliteration": "Chodli",
@@ -4887,7 +5016,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Kedorlaomer",
+    "shortDefinition": "Chedorlaomer",
     "inflections": {
       "Χοδολλογομορ": {
         "transliteration": "Chodollogomor",
@@ -4900,6 +5029,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "3m-eus",
+    "shortDefinition": "a chous (liquid measure)",
     "inflections": {
       "χοεῖς": {
         "transliteration": "choeîs",
@@ -4908,6 +5038,10 @@
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
+      },
+      "χοῦς": {
+        "transliteration": "choûs",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -4915,6 +5049,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a (priestly) tunic",
     "inflections": {
       "χοθωνωθ": {
         "transliteration": "chothōnōth",
@@ -4925,6 +5060,7 @@
   "χοϊκός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be of dust, earthy",
     "indices": { "strongs": "G5517" },
     "inflections": {
       "χοϊκοί": {
@@ -4948,6 +5084,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a choenix (dry measure, about a quart); trad. a measure",
     "indices": { "strongs": "G5518" },
     "inflections": {
       "χοίνικες": {
@@ -4963,35 +5100,12 @@
       }
     }
   },
-  "χοιρογρύλλιον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "inflections": {
-      "χοιρογρυλλίοις": {
-        "transliteration": "choirogryllíois",
-        "cells": [
-          { "parse": ["noun", "dat", "pl", "masc"] },
-          { "parse": ["noun", "dat", "pl", "neut"] }
-        ]
-      },
-      "χοιρογρύλλιον": {
-        "transliteration": "choirogrýllion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "χοιρογρύλλιος": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a hyrax, rock badger; trad. a coney",
     "inflections": {
       "χοιρογρύλλιοι": {
         "transliteration": "choirogrýllioi",
@@ -5000,9 +5114,17 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
+      "χοιρογρυλλίοις": {
+        "transliteration": "choirogryllíois",
+        "cells": [{ "parse": ["noun", "dat", "pl", "masc"] }]
+      },
       "χοιρογρύλλιον": {
         "transliteration": "choirogrýllion",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -5011,6 +5133,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a pig",
     "indices": { "strongs": "G5519" },
     "inflections": {
       "χοῖροι": {
@@ -5034,6 +5157,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Hazar Shual; lit. Village of the Fox",
     "inflections": {
       "Χολασεωλα": {
         "transliteration": "Cholaseōla",
@@ -5045,6 +5169,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-a",
+    "shortDefinition": "to be enraged, angry (at); lit. to be full of bile",
     "indices": { "strongs": "G5520" },
     "inflections": {
       "χολᾶτε": {
@@ -5058,6 +5183,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Heldai; lit. Worldliness",
     "inflections": {
       "Χολδαι": {
         "transliteration": "Choldai",
@@ -5068,6 +5194,7 @@
   "χολέρα": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a cholera, violent nausea",
     "inflections": {
       "χολέραν": {
         "transliteration": "choléran",
@@ -5087,6 +5214,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a gall, bile; fig. a bitterness, bitter poison",
     "indices": { "strongs": "G5521" },
     "inflections": {
       "χολή": {
@@ -5114,6 +5242,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a Cherethite",
     "inflections": {
       "Χολθι": {
         "transliteration": "Cholthi",
@@ -5126,6 +5255,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Heled; lit. Lifetime",
     "inflections": {
       "Χολοδ": {
         "transliteration": "Cholod",
@@ -5136,20 +5266,15 @@
   "χόλος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a bitter anger, rancor; lit. a bile",
     "inflections": {
       "χόλον": {
         "transliteration": "chólon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "χόλῳ": {
         "transliteration": "chólō",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -5158,6 +5283,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chelub; lit. Basket",
     "inflections": {
       "Χολουβ": {
         "transliteration": "Choloub",
@@ -5170,6 +5296,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a coarse-meal cake, groat bread",
     "inflections": {
       "χονδριτῶν": {
         "transliteration": "chondritō̂n",
@@ -5181,10 +5308,15 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chorazin",
     "indices": { "strongs": "G5523" },
     "inflections": {
       "Χοραζίν": {
         "transliteration": "Chorazín",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Χωραζίν": {
+        "transliteration": "Chōrazín",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
@@ -5193,6 +5325,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chorbe",
     "inflections": {
       "Χορβε": {
         "transliteration": "Chorbe",
@@ -5205,6 +5338,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
+    "shortDefinition": "a (gut) string, lyre string",
     "inflections": {
       "χορδαῖς": {
         "transliteration": "chordaîs",
@@ -5219,6 +5353,7 @@
   "χορεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a choral dance, round dance",
     "inflections": {
       "χορείᾳ": {
         "transliteration": "choreía",
@@ -5230,6 +5365,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to dance in a chorus, join the dance",
     "inflections": {
       "ἐχόρευον": {
         "transliteration": "echóreuon",
@@ -5252,8 +5388,6 @@
       "χορεύουσαι": {
         "transliteration": "choreúousai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "fem"] },
-          { "parse": ["verb", "aor", "act", "ptc", "voc", "pl", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "fem"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "fem"] }
         ]
@@ -5266,11 +5400,7 @@
       },
       "χορεῦσαι": {
         "transliteration": "choreûsai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       }
     }
   },
@@ -5278,6 +5408,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to supply, provide (for); lit. to fund a chorus",
     "indices": { "strongs": "G5524" },
     "inflections": {
       "ἐχορήγει": {
@@ -5324,10 +5455,7 @@
       },
       "χορηγεῖν": {
         "transliteration": "chorēgeîn",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "pres", "act", "inf"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       },
       "χορηγηθήσεται": {
         "transliteration": "chorēgēthḗsetai",
@@ -5376,6 +5504,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a supplying, provision; fig. an expense, abundance",
     "inflections": {
       "χορηγίᾳ": {
         "transliteration": "chorēgía",
@@ -5397,6 +5526,7 @@
   "χορηγός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a provider, sponsor; lit. a chorus leader",
     "inflections": {
       "χορηγός": {
         "transliteration": "chorēgós",
@@ -5415,6 +5545,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "an afterbirth, placenta",
     "inflections": {
       "χόριον": {
         "transliteration": "chórion",
@@ -5431,6 +5562,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a dance, dancing band, chorus",
     "indices": { "strongs": "G5525" },
     "inflections": {
       "χοροί": {
@@ -5471,6 +5603,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cherith; lit. Cut",
     "inflections": {
       "Χορραθ": {
         "transliteration": "Chorrath",
@@ -5483,6 +5616,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Horite",
     "inflections": {
       "Χορραῖον": {
         "transliteration": "Chorraîon",
@@ -5510,7 +5644,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Hori",
+    "shortDefinition": "Hori; lit. Cave-Dweller",
     "inflections": {
       "Χορρι": {
         "transliteration": "Chorri",
@@ -5522,6 +5656,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to feed full, fill; fig. to satisfy",
     "indices": { "strongs": "G5526" },
     "inflections": {
       "ἐχόρτασα": {
@@ -5592,6 +5727,7 @@
   "χορτασία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a fullness (of belly), satiation",
     "inflections": {
       "χορτασίᾳ": {
         "transliteration": "chortasía",
@@ -5604,6 +5740,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a fodder, forage; fig. a sustenance, food",
     "indices": { "strongs": "G5527" },
     "inflections": {
       "χορτάσματα": {
@@ -5628,6 +5765,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to run to grass, be overgrown",
     "inflections": {
       "χορτομανήσει": {
         "transliteration": "chortomanḗsei",
@@ -5643,6 +5781,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a grass (of the field), hay, herbage",
     "indices": { "strongs": "G5528" },
     "inflections": {
       "χόρτον": {
@@ -5671,6 +5810,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be grassy, of herbs",
     "inflections": {
       "χορτώδη": {
         "transliteration": "chortṓdē",
@@ -5688,6 +5828,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chorchor; lit. Sparkling Gem",
     "inflections": {
       "Χορχορ": {
         "transliteration": "Chorchor",
@@ -5700,6 +5841,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Chosameus",
     "inflections": {
       "Χοσαμαιος": {
         "transliteration": "Chosamaios",
@@ -5712,6 +5854,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-as",
+    "shortDefinition": "Chuza",
     "indices": { "strongs": "G5529" },
     "inflections": {
       "Χουζᾶ": {
@@ -5725,6 +5868,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Cuth, Cuthah",
     "inflections": {
       "Χουθ": {
         "transliteration": "Chouth",
@@ -5737,6 +5881,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
+    "shortDefinition": "Cuth, Cuthah",
     "inflections": {
       "Χουνθα": {
         "transliteration": "Chountha",
@@ -5748,6 +5893,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Cush",
     "inflections": {
       "Χους": {
         "transliteration": "Chous",
@@ -5760,6 +5906,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m-contract",
+    "shortDefinition": "a loose dirt, dust",
     "indices": { "strongs": "G5522" },
     "inflections": {
       "χοί": {
@@ -5780,11 +5927,7 @@
       },
       "χοῦς": {
         "transliteration": "choûs",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
@@ -5793,6 +5936,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cushan Rishathaim; lit. Cushan of Double Wickedness",
     "inflections": {
       "Χουσαρσαθαιμ": {
         "transliteration": "Chousarsathaim",
@@ -5805,6 +5949,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cushan Rishathaim; lit. Cushan of Double Wickedness",
     "inflections": {
       "Χουσαρσαθωμ": {
         "transliteration": "Chousarsathōm",
@@ -5817,6 +5962,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hushai, Cushi; lit. Hasty",
     "inflections": {
       "Χουσι": {
         "transliteration": "Chousi",
@@ -5829,6 +5975,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Suah; lit. Sweeping",
     "inflections": {
       "Χουχι": {
         "transliteration": "Chouchi",
@@ -5840,12 +5987,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to heap up (earth), fill in",
     "inflections": {
       "χῶσαι": {
         "transliteration": "chō̂sai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       }
@@ -5856,6 +6003,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "deponent": true,
+    "stems": { "aor": "χρησ", "fut": "χρησ" },
     "shortDefinition": "to use",
     "indices": { "strongs": "G5530" },
     "inflections": {
@@ -5865,15 +6013,39 @@
           { "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "pl"] }
         ]
       },
+      "ἐχρησάμεθά": {
+        "transliteration": "echrēsámethá",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
+      },
       "ἐχρησάμην": {
         "transliteration": "echrēsámēn",
         "cells": [
           { "parse": ["verb", "aor", "mid-dep", "ind", "pers-1", "sg"] }
         ]
       },
+      "ἐχρήσαντο": {
+        "transliteration": "echrḗsanto",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
+      },
       "ἔχρησας": {
         "transliteration": "échrēsas",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἐχρήσατο": {
+        "transliteration": "echrḗsato",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἐχρήσατό": {
+        "transliteration": "echrḗsató",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
+        ]
+      },
+      "ἐχρήσω": {
+        "transliteration": "echrḗsō",
+        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] }]
       },
       "ἐχρῶντο": {
         "transliteration": "echrō̂nto",
@@ -5943,14 +6115,27 @@
       "χρῆσαι": {
         "transliteration": "chrē̂sai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
+          { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] },
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
+      },
+      "χρησαίμεθα": {
+        "transliteration": "chrēsaímetha",
+        "cells": [{ "parse": ["verb", "aor", "mid", "opt", "pers-1", "pl"] }]
       },
       "χρησάμενος": {
         "transliteration": "chrēsámenos",
         "cells": [
-          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] }
+          { "parse": ["verb", "aor", "mid-dep", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
+      "χρησαμένων": {
+        "transliteration": "chrēsaménōn",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "fem"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "masc"] },
+          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "neut"] }
         ]
       },
       "χρήσασθε": {
@@ -5960,14 +6145,64 @@
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "pl"] }
         ]
       },
+      "χρησάσθω": {
+        "transliteration": "chrēsásthō",
+        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-3", "sg"] }]
+      },
+      "χρήσεται": {
+        "transliteration": "chrḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "χρήσῃ": {
+        "transliteration": "chrḗsē",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
+          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "χρήσηται": {
+        "transliteration": "chrḗsētai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg", "second"] }
+        ]
+      },
       "χρῆσθαι": {
         "transliteration": "chrē̂sthai",
         "cells": [{ "parse": ["verb", "pres", "mid-dep", "inf"] }]
+      },
+      "χρησθῇ": {
+        "transliteration": "chrēsthē̂",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
+      },
+      "χρησθήσεται": {
+        "transliteration": "chrēsthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "χρήσομαι": {
+        "transliteration": "chrḗsomai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+      },
+      "χρήσονται": {
+        "transliteration": "chrḗsontai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
       },
       "χρήσωμαι": {
         "transliteration": "chrḗsōmai",
         "cells": [
           { "parse": ["verb", "aor", "mid-dep", "subj", "pers-1", "sg"] }
+        ]
+      },
+      "χρησώμεθα": {
+        "transliteration": "chrēsṓmetha",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "subj", "pers-1", "pl", "second"] }
+        ]
+      },
+      "χρήσωνται": {
+        "transliteration": "chrḗsōntai",
+        "cells": [
+          { "parse": ["verb", "aor", "mid", "subj", "pers-3", "pl", "second"] }
         ]
       },
       "χρῆται": {
@@ -6115,126 +6350,6 @@
       }
     }
   },
-  "χράω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "stems": { "aor": "χρησ", "fut": "χρησ" },
-    "inflections": {
-      "ἐχρησάμεθά": {
-        "transliteration": "echrēsámethá",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "pl"] }]
-      },
-      "ἔχρησαν": {
-        "transliteration": "échrēsan",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] }
-        ]
-      },
-      "ἐχρήσαντο": {
-        "transliteration": "echrḗsanto",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "pl"] }]
-      },
-      "ἐχρήσατο": {
-        "transliteration": "echrḗsato",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
-      "ἐχρήσατό": {
-        "transliteration": "echrḗsató",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg", "second"] }
-        ]
-      },
-      "ἐχρήσω": {
-        "transliteration": "echrḗsō",
-        "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-2", "sg"] }]
-      },
-      "χρῆσαι": {
-        "transliteration": "chrē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
-      },
-      "χρησαίμεθα": {
-        "transliteration": "chrēsaímetha",
-        "cells": [{ "parse": ["verb", "aor", "mid", "opt", "pers-1", "pl"] }]
-      },
-      "χρησάμενος": {
-        "transliteration": "chrēsámenos",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "nom", "sg", "masc"] }
-        ]
-      },
-      "χρησαμένων": {
-        "transliteration": "chrēsaménōn",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "fem"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "masc"] },
-          { "parse": ["verb", "aor", "mid", "ptc", "gen", "pl", "neut"] }
-        ]
-      },
-      "χρησάσθω": {
-        "transliteration": "chrēsásthō",
-        "cells": [{ "parse": ["verb", "aor", "mid", "imp", "pers-3", "sg"] }]
-      },
-      "χρήσεται": {
-        "transliteration": "chrḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "χρήσῃ": {
-        "transliteration": "chrḗsē",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "aor", "mid", "subj", "pers-2", "sg", "second"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "χρήσηται": {
-        "transliteration": "chrḗsētai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "subj", "pers-3", "sg", "second"] }
-        ]
-      },
-      "χρησθῇ": {
-        "transliteration": "chrēsthē̂",
-        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-3", "sg"] }]
-      },
-      "χρησθήσεται": {
-        "transliteration": "chrēsthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
-      },
-      "χρήσομαι": {
-        "transliteration": "chrḗsomai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
-      },
-      "χρήσονται": {
-        "transliteration": "chrḗsontai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "pl"] }]
-      },
-      "χρησώμεθα": {
-        "transliteration": "chrēsṓmetha",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "subj", "pers-1", "pl", "second"] }
-        ]
-      },
-      "χρήσωμεν": {
-        "transliteration": "chrḗsōmen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "pl", "second"] }
-        ]
-      },
-      "χρήσωνται": {
-        "transliteration": "chrḗsōntai",
-        "cells": [
-          { "parse": ["verb", "aor", "mid", "subj", "pers-3", "pl", "second"] }
-        ]
-      }
-    }
-  },
   "χρεία": {
     "language": "greek",
     "pos": "noun",
@@ -6271,7 +6386,12 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to neigh, whinny",
     "inflections": {
+      "ἐχρεμέτιζον": {
+        "transliteration": "echremétizon",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      },
       "χρεμετίζει": {
         "transliteration": "chremetízei",
         "cells": [
@@ -6290,30 +6410,19 @@
   "χρεμετισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a neighing, snorting; fig. a lustfulness",
     "inflections": {
       "χρεμετισμός": {
         "transliteration": "chremetismós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "χρεμετισμοῦ": {
         "transliteration": "chremetismoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "χρεμετισμῷ": {
         "transliteration": "chremetismō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -6321,6 +6430,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to lose a debt, have a debt cut off",
     "inflections": {
       "χρεοκοπούμενος": {
         "transliteration": "chreokopoúmenos",
@@ -6335,58 +6445,21 @@
   "χρέος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "neut",
+    "declension": "3n-es",
+    "shortDefinition": "a debt (owed on a loan), obligation",
     "inflections": {
       "χρέος": {
         "transliteration": "chréos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "χρέους": {
         "transliteration": "chréous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
-      }
-    }
-  },
-  "χρέους": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m-contract",
-    "inflections": {
-      "χρέους": {
-        "transliteration": "chréous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "χρεοφειλέτου": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-u",
-    "inflections": {
-      "χρεοφειλέτου": {
-        "transliteration": "chreopheilétou",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       }
     }
   },
@@ -6395,8 +6468,13 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a loan debtor, borrower",
     "indices": { "strongs": "G5533" },
     "inflections": {
+      "χρεοφειλέτου": {
+        "transliteration": "chreopheilétou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+      },
       "χρεωφειλέται": {
         "transliteration": "chreōpheilétai",
         "cells": [
@@ -6426,6 +6504,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to need, have need of",
     "indices": { "strongs": "G5535" },
     "inflections": {
       "χρῄζει": {
@@ -6504,50 +6583,6 @@
     "shortDefinition": "to divinely instruct",
     "indices": { "strongs": "G5537" },
     "inflections": {
-      "ἐχρεμέτιζον": {
-        "transliteration": "echremétizon",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-1", "sg", "second"] },
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "pl", "second"] },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "nom",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "voc",
-              "sg",
-              "neut",
-              "second"
-            ]
-          },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
-      },
       "ἐχρημάτισα": {
         "transliteration": "echrēmátisa",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -6631,6 +6666,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a divine response, oracle",
     "indices": { "strongs": "G5538" },
     "inflections": {
       "χρηματισμόν": {
@@ -6652,6 +6688,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a judgment seat, audience hall",
     "inflections": {
       "χρηματιστηρίῳ": {
         "transliteration": "chrēmatistēríō",
@@ -6663,6 +6700,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to serve usefully, be of use",
     "inflections": {
       "χρησιμεύσει": {
         "transliteration": "chrēsimeúsei",
@@ -6681,6 +6719,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be useful, profitable",
     "indices": { "strongs": "G5539" },
     "inflections": {
       "χρήσιμα": {
@@ -6688,9 +6727,7 @@
         "cells": [
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
+          { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
       "χρησίμης": {
@@ -6763,6 +6800,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a use, function; fig. a loan",
     "indices": { "strongs": "G5540" },
     "inflections": {
       "χρῆσιν": {
@@ -6778,13 +6816,11 @@
   "χρησμολογέω": {
     "language": "greek",
     "pos": "verb",
+    "shortDefinition": "to utter oracles, prophesy",
     "inflections": {
       "χρησμολογεῖ": {
         "transliteration": "chrēsmologeî",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -6793,6 +6829,7 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "shortDefinition": "to act kindly, show kindness",
     "indices": { "strongs": "G5541" },
     "inflections": {
       "χρηστεύεται": {
@@ -6816,6 +6853,7 @@
   "χρηστοήθεια": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a goodness of character, kind-heartedness",
     "inflections": {
       "χρηστοηθείας": {
         "transliteration": "chrēstoētheías",
@@ -6830,6 +6868,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a smooth talk, fine-sounding words",
     "indices": { "strongs": "G5542" },
     "inflections": {
       "χρηστολογίας": {
@@ -6842,8 +6881,13 @@
     "language": "greek",
     "pos": "adj",
     "citationForms": ["χρηστός", "χρηστόν"],
+    "shortDefinition": "to be pleasant, fine; fig. to be kind, gracious",
     "indices": { "strongs": "G5543" },
     "inflections": {
+      "χρησθ’": {
+        "transliteration": "chrēsth’",
+        "cells": [{ "parse": ["adj", "acc", "pl", "neut"] }]
+      },
       "χρηστά": {
         "transliteration": "chrēstá",
         "cells": [
@@ -6916,10 +6960,7 @@
       },
       "χρηστότητα": {
         "transliteration": "chrēstótēta",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "χρηστότητι": {
         "transliteration": "chrēstótēti",
@@ -6942,23 +6983,11 @@
   "χρηστῶς": {
     "language": "greek",
     "pos": "adv",
-    "shortDefinition": "kindly, well",
+    "shortDefinition": "pleasantly, well; fig. kindly",
     "inflections": {
       "χρηστῶς": {
         "transliteration": "chrēstō̂s",
         "cells": [{ "parse": ["adv"] }]
-      }
-    }
-  },
-  "χρίνω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "fut": "χρι" },
-    "inflections": {
-      "χρίσεις": {
-        "transliteration": "chríseis",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       }
     }
   },
@@ -6967,6 +6996,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "an anointing [act]",
     "inflections": {
       "χρίσεως": {
         "transliteration": "chríseōs",
@@ -7013,6 +7043,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a Christian",
     "indices": { "strongs": "G5546" },
     "inflections": {
       "Χριστιανόν": {
@@ -7064,7 +7095,7 @@
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     },
-    "shortDefinition": "the Christ; lit. an anointed person/thing; fig. an appointed person/thing",
+    "shortDefinition": "Christ; lit. an anointed person/thing; fig. an appointed person/thing",
     "indices": { "strongs": "G5547" }
   },
   "χρίω": {
@@ -7098,6 +7129,10 @@
       "ἐχρίσατο": {
         "transliteration": "echrísato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἔχρισέ": {
+        "transliteration": "échrisé",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἔχρισεν": {
         "transliteration": "échrisen",
@@ -7183,7 +7218,6 @@
         "transliteration": "chrîsai",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -7191,7 +7225,6 @@
         "transliteration": "chrîsaí",
         "cells": [
           { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       },
@@ -7257,6 +7290,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a skin color, complexion",
     "inflections": {
       "χρόαν": {
         "transliteration": "chróan",
@@ -7276,6 +7310,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "χρονι" },
+    "shortDefinition": "to take (long) time, linger; fig. to delay, tarry",
     "indices": { "strongs": "G5549" },
     "inflections": {
       "ἐχρόνισα": {
@@ -7359,6 +7394,7 @@
   "χρονίσκος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a little while, short time",
     "inflections": {
       "χρονίσκον": {
         "transliteration": "chronískon",
@@ -7411,6 +7447,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to wear away time, spend time",
     "indices": { "strongs": "G5551" },
     "inflections": {
       "χρονοτριβῆσαι": {
@@ -7423,6 +7460,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to shine like gold, gleam golden",
     "inflections": {
       "χρυσαυγοῦντα": {
         "transliteration": "chrysaugoûnta",
@@ -7435,66 +7473,12 @@
       }
     }
   },
-  "χρύσεος": {
-    "language": "greek",
-    "pos": "adj",
-    "inflections": {
-      "χρυσαῖ": {
-        "transliteration": "chrysaî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "fem"] }
-        ]
-      },
-      "χρύσεοι": {
-        "transliteration": "chrýseoi",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      },
-      "χρύσεον": {
-        "transliteration": "chrýseon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      },
-      "χρύσεός": {
-        "transliteration": "chrýseós",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
-        ]
-      },
-      "χρυσέων": {
-        "transliteration": "chryséōn",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
-      },
-      "χρυσῆς": {
-        "transliteration": "chrysē̂s",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
-      },
-      "χρυσοῖς": {
-        "transliteration": "chrysoîs",
-        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
-      }
-    }
-  },
   "χρυσίον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a (piece of) gold; fig. a gold ornament",
     "indices": { "strongs": "G5553" },
     "inflections": {
       "χρυσία": {
@@ -7530,6 +7514,7 @@
   "χρυσοδακτύλιος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be gold-ringed, wearing a gold ring",
     "indices": { "strongs": "G5554" },
     "inflections": {
       "χρυσοδακτύλιος": {
@@ -7542,6 +7527,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "3-3-es",
+    "shortDefinition": "to be gold-like, gold-colored",
     "inflections": {
       "χρυσοειδῆ": {
         "transliteration": "chrysoeidē̂",
@@ -7560,6 +7546,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a chrysolite; lit. a gold-stone",
     "indices": { "strongs": "G5555" },
     "inflections": {
       "χρυσόλιθον": {
@@ -7580,6 +7567,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a chrysoprase; lit. a gold-leek",
     "indices": { "strongs": "G5556" },
     "inflections": {
       "χρυσόπρασος": {
@@ -7593,6 +7581,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a gold; fig. a gold coin, gold article",
     "indices": { "strongs": "G5557" },
     "inflections": {
       "χρυσόν": {
@@ -7616,6 +7605,7 @@
   "χρυσουργός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gold worker, goldsmith",
     "inflections": {
       "χρυσουργοῖς": {
         "transliteration": "chrysourgoîs",
@@ -7630,6 +7620,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-contract",
+    "shortDefinition": "to be golden, made of gold",
     "indices": { "strongs": "G5552" },
     "inflections": {
       "χρυσᾶ": {
@@ -7640,9 +7631,50 @@
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
+      "χρυσαῖ": {
+        "transliteration": "chrysaî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
+      },
       "χρυσᾶς": {
         "transliteration": "chrysâs",
         "cells": [{ "parse": ["adj", "acc", "pl", "fem"] }]
+      },
+      "χρύσεοι": {
+        "transliteration": "chrýseoi",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
+      },
+      "χρύσεον": {
+        "transliteration": "chrýseon",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "χρύσεός": {
+        "transliteration": "chrýseós",
+        "cells": [
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
+      },
+      "χρυσέων": {
+        "transliteration": "chryséōn",
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
+        ]
       },
       "χρυσῆ": {
         "transliteration": "chrysē̂",
@@ -7656,12 +7688,20 @@
         "transliteration": "chrysē̂n",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
+      "χρυσῆς": {
+        "transliteration": "chrysē̂s",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      },
       "χρυσοῖ": {
         "transliteration": "chrysoî",
         "cells": [
           { "parse": ["adj", "nom", "pl", "masc"] },
           { "parse": ["adj", "voc", "pl", "masc"] }
         ]
+      },
+      "χρυσοῖς": {
+        "transliteration": "chrysoîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "masc"] }]
       },
       "χρυσοῦ": {
         "transliteration": "chrysoû",
@@ -7697,6 +7737,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to wear gold (ornaments)",
     "inflections": {
       "χρυσοφορῇ": {
         "transliteration": "chrysophorē̂",
@@ -7715,6 +7756,7 @@
   "χρυσοχάλινος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be gold-bridled",
     "inflections": {
       "χρυσοχάλινον": {
         "transliteration": "chrysochálinon",
@@ -7739,6 +7781,7 @@
   "χρυσοχόος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a gold-caster, goldsmith",
     "inflections": {
       "χρυσοχόον": {
         "transliteration": "chrysochóon",
@@ -7762,8 +7805,7 @@
         "cells": [
           { "parse": ["noun", "gen", "pl", "fem"] },
           { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] }
+          { "parse": ["noun", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -7772,6 +7814,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to gild, adorn with gold",
     "indices": { "strongs": "G5558" },
     "inflections": {
       "ἐχρύσωσεν": {
@@ -7809,6 +7852,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a gold vessel, gold cup",
     "inflections": {
       "χρυσώμασιν": {
         "transliteration": "chrysṓmasin",
@@ -7841,6 +7885,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a color, hue, complexion",
     "inflections": {
       "χρῶμα": {
         "transliteration": "chrō̂ma",
@@ -7864,11 +7909,12 @@
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
+    "shortDefinition": "a body surface, skin; fig. a flesh, body",
     "indices": { "strongs": "G5559" },
     "inflections": {
       "χρώς": {
         "transliteration": "chrṓs",
-        "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       },
       "χρῶτα": {
         "transliteration": "chrō̂ta",
@@ -7883,6 +7929,7 @@
   "χυδαῖος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be teeming, numerous",
     "inflections": {
       "χυδαῖοι": {
         "transliteration": "chydaîoi",
@@ -7898,14 +7945,11 @@
   "χυλός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a juice, sap (of plants)",
     "inflections": {
       "χυλούς": {
         "transliteration": "chyloús",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
     }
   },
@@ -7914,6 +7958,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a profusion, abundance, mass",
     "inflections": {
       "χύμα": {
         "transliteration": "chýma",
@@ -7929,6 +7974,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be poured (as metal), cast",
     "inflections": {
       "χυτήν": {
         "transliteration": "chytḗn",
@@ -7944,7 +7990,12 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "an earthen pot, cooking pot",
     "inflections": {
+      "κύθραν": {
+        "transliteration": "kýthran",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "χύτρα": {
         "transliteration": "chýtra",
         "cells": [
@@ -7974,6 +8025,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "a pedestal basin, laver",
     "inflections": {
       "χυτρόκαυλον": {
         "transliteration": "chytrókaulon",
@@ -7993,7 +8045,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Hobah",
+    "shortDefinition": "Choba",
     "inflections": {
       "Χωβα": {
         "transliteration": "Chōba",
@@ -8005,6 +8057,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Chobai",
     "inflections": {
       "Χωβαι": {
         "transliteration": "Chōbai",
@@ -8017,6 +8070,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Cozeba; lit. Fallacious",
     "inflections": {
       "Χωζηβα": {
         "transliteration": "Chōzēba",
@@ -8029,6 +8083,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hotham; lit. Seal",
     "inflections": {
       "Χωθαμ": {
         "transliteration": "Chōtham",
@@ -8041,6 +8096,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
+    "shortDefinition": "Hotham; lit. Seal",
     "inflections": {
       "Χωθαν": {
         "transliteration": "Chōthan",
@@ -8052,18 +8108,12 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "a capital (of a pillar)",
     "inflections": {
       "χωθαρ": {
         "transliteration": "chōthar",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
-  "χωθαρεθ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "inflections": {
+      },
       "χωθαρεθ": {
         "transliteration": "chōthareth",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -8075,6 +8125,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εχωλαν", "fut": "χωλαν" },
+    "shortDefinition": "to go lame, limp; fig. to waver",
     "inflections": {
       "ἐχώλαναν": {
         "transliteration": "echṓlanan",
@@ -8099,6 +8150,7 @@
     "language": "greek",
     "pos": "adj",
     "citationForms": ["χωλός", "χωλόν"],
+    "shortDefinition": "to be lame, crippled",
     "indices": { "strongs": "G5560" },
     "inflections": {
       "χωλά": {
@@ -8133,7 +8185,7 @@
       },
       "χωλοῦ": {
         "transliteration": "chōloû",
-        "cells": [{ "parse": ["adj", "gen", "pl", "masc"] }]
+        "cells": [{ "parse": ["adj", "gen", "sg", "masc"] }]
       },
       "χωλούς": {
         "transliteration": "chōloús",
@@ -8150,6 +8202,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a heap of earth, mound, embankment",
     "inflections": {
       "χῶμα": {
         "transliteration": "chō̂ma",
@@ -8173,6 +8226,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "an idolatrous priest",
     "inflections": {
       "χωμαριμ": {
         "transliteration": "chōmarim",
@@ -8184,7 +8238,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
-    "shortDefinition": "to bank up with earth, fortify with a mound",
+    "shortDefinition": "to embank, fortify with mounds",
     "inflections": {
       "κεχωματισμένας": {
         "transliteration": "kechōmatisménas",
@@ -8194,33 +8248,23 @@
       }
     }
   },
-  "Χωνενια": {
-    "language": "greek",
-    "pos": "noun",
-    "inflections": {
-      "Χωνενια": {
-        "transliteration": "Chōnenia",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      },
-      "Χωνενιου": {
-        "transliteration": "Chōneniou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
   "Χωνενιας": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
+    "shortDefinition": "Conaniah, Chenaniah; lit. YH/Yah/Jah Has Sustained",
     "inflections": {
+      "Χωνενια": {
+        "transliteration": "Chōnenia",
+        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
       "Χωνενιας": {
         "transliteration": "Chōnenias",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      },
+      "Χωνενιου": {
+        "transliteration": "Chōneniou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -8229,6 +8273,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "shortDefinition": "a casting, molten image",
     "inflections": {
       "χώνευμα": {
         "transliteration": "chṓneuma",
@@ -8245,6 +8290,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a smelting, metal casting",
     "inflections": {
       "χωνεύσει": {
         "transliteration": "chōneúsei",
@@ -8261,6 +8307,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a smelting furnace, foundry",
     "inflections": {
       "χωνευτήριον": {
         "transliteration": "chōneutḗrion",
@@ -8285,6 +8332,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a smelter, metal caster",
     "inflections": {
       "χωνευτῇ": {
         "transliteration": "chōneutē̂",
@@ -8295,6 +8343,7 @@
   "χωνευτός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be molten, cast (metal)",
     "inflections": {
       "χωνευτά": {
         "transliteration": "chōneutá",
@@ -8345,6 +8394,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to smelt, cast (metal)",
     "inflections": {
       "ἐχωνεύοντο": {
         "transliteration": "echōneúonto",
@@ -8533,6 +8583,10 @@
           { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       },
+      "χωροῦσι": {
+        "transliteration": "chōroûsi",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
+      },
       "χωροῦσιν": {
         "transliteration": "chōroûsin",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "pl"] }]
@@ -8544,7 +8598,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Horeb",
+    "shortDefinition": "Horeb; lit. Desolate",
     "inflections": {
       "Χωρηβ": {
         "transliteration": "Chōrēb",
@@ -8557,6 +8611,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "fut": "χωρι" },
+    "shortDefinition": "to separate, part; refl. to depart, leave",
     "indices": { "strongs": "G5563" },
     "inflections": {
       "ἐχώρισα": {
@@ -8665,10 +8720,7 @@
       },
       "χωρίσθητε": {
         "transliteration": "chōrísthēte",
-        "cells": [
-          { "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] },
-          { "parse": ["verb", "aor", "pas", "subj", "pers-2", "pl"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "pas", "imp", "pers-2", "pl"] }]
       }
     }
   },
@@ -8677,6 +8729,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a plot (of ground), field, piece of land",
     "indices": { "strongs": "G5564" },
     "inflections": {
       "χωρία": {
@@ -8716,35 +8769,28 @@
   "χωρίς": {
     "language": "greek",
     "pos": "adv",
+    "shortDefinition": "apart, separately; fig. without, besides",
     "indices": { "strongs": "G5565" },
     "inflections": {
       "χωρίς": { "transliteration": "chōrís", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "χωρίσμος": {
+  "χωρισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a setting apart, separation",
     "inflections": {
       "χωρισμόν": {
         "transliteration": "chōrismón",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "χωρισμοῦ": {
         "transliteration": "chōrismoû",
-        "cells": [
-          { "parse": ["noun", "gen", "sg", "fem"] },
-          { "parse": ["noun", "gen", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       },
       "χωρισμῷ": {
         "transliteration": "chōrismō̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -8752,6 +8798,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to survey (by walking), explore",
     "inflections": {
       "ἐχωροβάτησαν": {
         "transliteration": "echōrobátēsan",
@@ -8759,11 +8806,7 @@
       },
       "χωροβατῆσαι": {
         "transliteration": "chōrobatē̂sai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
       },
       "χωροβατήσατε": {
         "transliteration": "chōrobatḗsate",
@@ -8776,6 +8819,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "shortDefinition": "the northwest (wind)",
     "indices": { "strongs": "G5566" },
     "inflections": {
       "χῶρον": {

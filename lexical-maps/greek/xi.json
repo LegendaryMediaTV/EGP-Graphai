@@ -3,6 +3,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to be yellowish, turn yellow",
     "inflections": {
       "ξανθίζουσα": {
         "transliteration": "xanthízousa",
@@ -16,11 +17,11 @@
   "Ξανθικός": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Xanthicus",
     "inflections": {
       "Ξανθικοῦ": {
         "transliteration": "Xanthikoû",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -28,6 +29,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be yellow, blond",
     "inflections": {
       "ξανθῆς": {
         "transliteration": "xanthē̂s",
@@ -39,15 +41,9 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a hospitality; fig. a lodging",
     "indices": { "strongs": "G3578" },
     "inflections": {
-      "ξένια": {
-        "transliteration": "xénia",
-        "cells": [
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      },
       "ξενίαν": {
         "transliteration": "xenían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -62,6 +58,10 @@
     "shortDefinition": "to astonish, be strange; fig. to host",
     "indices": { "strongs": "G3579" },
     "inflections": {
+      "ἐξένισε": {
+        "transliteration": "exénise",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
       "ἐξένισεν": {
         "transliteration": "exénisen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
@@ -120,6 +120,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a guest gift, present; fig. a tribute",
     "inflections": {
       "ξένια": {
         "transliteration": "xénia",
@@ -138,33 +139,29 @@
   "Ξένιος": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Protector of Foreigners (title of Zeus)",
     "inflections": {
       "Ξενίου": {
         "transliteration": "Xeníou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
   "ξενισμός": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "an entertaining (of guests), hospitable fare",
     "inflections": {
       "ξενισμός": {
         "transliteration": "xenismós",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },
   "ξενιτεία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a sojourn abroad",
     "inflections": {
       "ξενιτείας": {
         "transliteration": "xeniteías",
@@ -180,6 +177,7 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "stems": { "aor": "εξενοδοχη" },
+    "shortDefinition": "to receive strangers, show hospitality",
     "indices": { "strongs": "G3580" },
     "inflections": {
       "ἐξενοδόχησεν": {
@@ -192,6 +190,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to enlist mercenaries",
     "inflections": {
       "ἐξενολόγει": {
         "transliteration": "exenológei",
@@ -293,24 +292,22 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-e",
+    "shortDefinition": "to maintain mercenaries",
     "inflections": {
       "ἐξενοτρόφει": {
         "transliteration": "exenotróphei",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
   "Ξέρξης": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "shortDefinition": "Ahasuerus, Xerxes",
     "inflections": {
       "Ξέρξου": {
         "transliteration": "Xérxou",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -319,6 +316,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "1m-es",
+    "shortDefinition": "a wooden pitcher, jug; lit. a pint measure",
     "indices": { "strongs": "G3582" },
     "inflections": {
       "ξεστῶν": {
@@ -330,6 +328,7 @@
   "ξεστός": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be hewn, polished (of stone)",
     "inflections": {
       "ξεστῷ": {
         "transliteration": "xestō̂",
@@ -346,6 +345,7 @@
     "pos": "verb",
     "conjugation": "thematic",
     "stems": { "aor": "εξηραν" },
+    "shortDefinition": "to dry up; fig. to wither, shrivel",
     "indices": { "strongs": "G3583" },
     "inflections": {
       "ἐξηραμμένην": {
@@ -359,6 +359,10 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ind", "pers-2", "sg", "second"] }
         ]
+      },
+      "ἐξήρανε": {
+        "transliteration": "exḗrane",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
       "ἐξήρανεν": {
         "transliteration": "exḗranen",
@@ -432,6 +436,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "shortDefinition": "a drought, drying up",
     "inflections": {
       "ξηρασία": {
         "transliteration": "xērasía",
@@ -457,6 +462,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2-a",
+    "shortDefinition": "to be dry; fig. to be withered, shriveled",
     "indices": { "strongs": "G3584" },
     "inflections": {
       "ξηρά": {
@@ -521,6 +527,7 @@
   "ξιφηφόρος": {
     "language": "greek",
     "pos": "adj",
+    "shortDefinition": "to be sword-bearing",
     "inflections": {
       "ξιφηφόρον": {
         "transliteration": "xiphēphóron",
@@ -539,6 +546,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-es",
+    "shortDefinition": "a sword, two-edged blade",
     "inflections": {
       "ξίφει": {
         "transliteration": "xíphei",
@@ -552,27 +560,17 @@
         "transliteration": "xíphos",
         "cells": [
           { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] },
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       },
       "ξίφους": {
         "transliteration": "xíphous",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "gen", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
       },
       "ξιφῶν": {
         "transliteration": "xiphō̂n",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -581,6 +579,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a stick, bit of wood",
     "inflections": {
       "ξυλάρια": {
         "transliteration": "xylária",
@@ -596,6 +595,7 @@
     "language": "greek",
     "pos": "adj",
     "declension": "2-1-2",
+    "shortDefinition": "to be wooden, of wood",
     "indices": { "strongs": "G3585" },
     "inflections": {
       "ξύλινα": {
@@ -695,6 +695,7 @@
   "ξυλοκόπος": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a woodcutter",
     "inflections": {
       "ξυλοκόποι": {
         "transliteration": "xylokópoi",
@@ -737,6 +738,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a timber, wood; fig. a tree, club, cross",
     "indices": { "strongs": "G3586" },
     "inflections": {
       "ξύλα": {
@@ -776,6 +778,7 @@
   "ξυλοφορία": {
     "language": "greek",
     "pos": "noun",
+    "shortDefinition": "a wood-bearing, wood offering",
     "inflections": {
       "ξυλοφορίας": {
         "transliteration": "xylophorías",
@@ -788,7 +791,10 @@
   },
   "ξυλοφόρος": {
     "language": "greek",
-    "pos": "adj",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a wood carrier, wood-bearer",
     "inflections": {
       "ξυλοφόρων": {
         "transliteration": "xylophórōn",
@@ -804,6 +810,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "contract-o",
+    "shortDefinition": "to panel with wood, board",
     "inflections": {
       "ἐξυλωμένα": {
         "transliteration": "exylōména",
@@ -830,6 +837,7 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "deponent": true,
+    "shortDefinition": "to shave; refl. to shave oneself",
     "indices": { "strongs": "G3587" },
     "inflections": {
       "ἐξυρήθη": {
@@ -922,8 +930,6 @@
       "ξύρησαι": {
         "transliteration": "xýrēsai",
         "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
           { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] },
           { "parse": ["verb", "aor", "mid-dep", "imp", "pers-2", "sg"] }
         ]
@@ -981,6 +987,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3f-is",
+    "shortDefinition": "a shaving (in mourning)",
     "inflections": {
       "ξύρησιν": {
         "transliteration": "xýrēsin",
@@ -993,6 +1000,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "2n",
+    "shortDefinition": "a razor",
     "inflections": {
       "ξυρόν": {
         "transliteration": "xyrón",
@@ -1010,7 +1018,9 @@
   },
   "ξυστός": {
     "language": "greek",
-    "pos": "noun",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be polished, dressed smooth",
     "inflections": {
       "ξυστοῦ": {
         "transliteration": "xystoû",
@@ -1041,6 +1051,7 @@
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "shortDefinition": "to scrape",
     "inflections": {
       "ξύῃ": {
         "transliteration": "xýē",

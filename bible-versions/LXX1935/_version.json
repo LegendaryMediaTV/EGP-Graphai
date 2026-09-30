@@ -5,6 +5,30 @@
   "license": "CC0-1.0",
   "script": "G",
   "morphology": "robinson",
+  "abbr": [
+    {
+      "_id": "RH",
+      "name": "RH",
+      "description": [
+        {
+          "text": "Septuaginta: Id est Vetus Testamentum graece iuxta LXX interpretes. Editio altera.",
+          "marks": ["i"]
+        },
+        " Alfred Rahlfs and Robert Hanhart, eds. Stuttgart: Deutsche Bibelgesellschaft, 2006."
+      ]
+    },
+    {
+      "_id": "SW",
+      "name": "SW",
+      "description": [
+        {
+          "text": "The Old Testament in Greek according to the Septuagint.",
+          "marks": ["i"]
+        },
+        " Henry Barclay Swete, ed. Cambridge: University Press, 1887–1894; reprinted 1930."
+      ]
+    }
+  ],
   "books": [
     {
       "_id": "GEN",

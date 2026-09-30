@@ -724,9 +724,9 @@
 > - <sup>o</sup> 21. ἢ … ἀσθενεῖ ¦ NA WH _om._
 > - <sup>p</sup> 22. πίστιν ¦ SBL TH WH πίστιν ἣν ¦ NA πίστιν [ἣν]
 > - <sup>q</sup> 22. σεαυτὸν ¦ TR σαυτὸν
-> - <sup>r</sup> 24. Τῷ … ἀμὴν ¦ NA TH TR WH [16:25–27] Τῷ … ἀμὴν ¦ SBL _om._
+> - <sup>r</sup> 24. Τῷ … ἀμὴν ¦ [NA] TH TR WH (16:25–27) Τῷ … ἀμὴν ¦ SBL _om._
 > - <sup>s</sup> 24. Guardian Press: _Add verses 24–26 here, variants ignored_ (A) L (P) Ψ 049 056 0142 (0150) (0151) 0209 (33) 1841 1862 1900 (A P 0150 0151 33: _add also at 16:25–27_) ¦ _om. here but add at 16:25–27_ ℵ B C D 0319 ¦ _lacunose here but add at 16:25–27_ 𝔓<sup>61</sup> 2464 ¦ _om. here but adds at 15:34–36_ 𝔓<sup>46</sup> ¦ _om. both here and at 16:25–27_ F G
-> - <sup>t</sup> 26. ᾧ _(cf. last note)_ ¦ WH [16:27] [ᾧ] ¦ SCR [16:27] _om._
+> - <sup>t</sup> 26. ᾧ _(cf. last note)_ ¦ WH (16:27) [ᾧ] ¦ SCR (16:27) _om._
 
 ## Chapter 15
 
@@ -863,4 +863,4 @@
 > - <sup>x</sup> 24. Ἡ … ἀμήν ¦ NA TH WH _om._
 > - <sup>y</sup> 24. Guardian Press: Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ χριστοῦ μετὰ πάντων ὑμῶν ἀμὴν D (F) (G) L (P) Ψ 049 056 0142 0319 (33) 1841 1862 1900 (F G: _om._ Ἰησοῦ χριστοῦ; P: _om._ ἡμῶν; P 33: _add after 16:27_) ¦ _om._ 𝔓<sup>46</sup> 𝔓<sup>61</sup> ℵ A B C 0150 0151 2464
 > - <sup>z</sup> 24. ὑμῶν ¦ PCK ἡμῶν
-> - <sup>aa</sup> 25. [14:24–26] ¦ NA TH TR WH [16:25–27] (_cf._ 14:24–26) ¦ SBL _om._ (_cf._ 14:24–26)
+> - <sup>aa</sup> 25. (14:24–26) ¦ [NA] TH TR WH (16:25–27) (_cf._ 14:24–26) ¦ SBL _om._ (_cf._ 14:24–26)

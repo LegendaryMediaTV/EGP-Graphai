@@ -561,8 +561,10 @@ Kaì ereîs pantì oíkō Israēl
 <sup>40</sup> dióti epì toû órous toû hagíou mou, ep’ órous hypsēloû, légei kýrios kýrios, ekeî douleúsousín moi pâs oîkos Israēl eis télos, kaì ekeî prosdéxomai kaì ekeî episképsomai tàs aparchàs hymō̂n kaì tàs aparchàs tō̂n aphorismō̂n hymō̂n en pâsin toîs hagiásmasin hymō̂n;
 <sup>41</sup> en osmē̂ euōdías prosdéxomai hymâs en tō̂ exagageîn me hymâs ek tō̂n laō̂n kaì eisdéchesthai hymâs ek tō̂n chōrō̂n, en haîs dieskorpísthēte en autaîs, kaì hagiasthḗsomai en hymîn kat’ ophthalmoùs tō̂n laō̂n.
 <sup>42</sup> Kaì epignṓsesthe dióti egṑ kýrios en tō̂ eisagageîn me hymâs eis tḕn gē̂n toû Israēl eis tḕn gē̂n, eis hḕn ē̂ra tḕn cheîrá mou toû doûnai autḕn toîs patrásin hymō̂n.
-<sup>43</sup> Kaì mnēsthḗsesthe ekeî tàs hodoùs hymō̂n kaì tà epitēdeúmata hymō̂n, en hoîs emiaínesthe en autoîs, kaì kópsesthe tà prósōpa hymō̂n en pâsais taîs kakíais hymō̂n.
+<sup>43</sup> Kaì mnēsthḗsesthe ekeî tàs hodoùs hymō̂n kaì tà epitēdeúmata hymō̂n, en hoîs emiaínesthe en autoîs, kaì kópsesthe tà prósōpa hymō̂n en pásais<sup>a</sup> taîs kakíais hymō̂n.
 <sup>44</sup> Kaì epignṓsesthe dióti egṑ kýrios en tō̂ poiē̂saí me hoútōs hymîn hópōs tò ónomá mou mḕ bebēlōthē̂ katà tàs hodoùs hymō̂n tàs kakàs kaì katà tà epitēdeúmata hymō̂n tà diephtharména, légei kýrios.
+
+> - <sup>a</sup> 43. Corrected from pâsais, as seen in RH and SW. The dative plural ending ais is long, and a long last syllable rules out the circumflex on the next-to-last. This edition prints pásais at its 91 other occurrences.
 
 ## Chapter 21
 
@@ -1343,7 +1345,7 @@ Assour kaì Charman émporoí sou
 <sup>14</sup> ek báthous tē̂s archē̂s toû koilṓmatos autoû pròs tò hilastḗrion tò méga tò hypokátōthen pēchō̂n dýo kaì tò eûros pḗcheos; kaì apò toû hilastēríou toû mikroû epì tò hilastḗrion tò méga pḗcheis téssares kaì eûros pē̂chys;
 <sup>15</sup> kaì tò ariēl pēchō̂n tessárōn, kaì apò toû ariēl kaì hyperánō tō̂n kerátōn pē̂chys.
 <sup>16</sup> Kaì tò ariēl pēchō̂n dṓdeka mḗkous epì pḗcheis dṓdeka plátous, tetrágōnon epì tà téssara mérē autoû;
-<sup>17</sup> kaì tò hilastē̂rion pēchō̂n déka tessárōn tò mē̂kos epì pḗcheis déka téssaras tò eûros epì téssara mérē autoû; kaì tò geîsos autō̂ kyklóthen kykloúmenon autō̂ hḗmisy pḗcheos, kaì tò kýklōma autoû pē̂chys kyklóthen; kaì hoi klimaktē̂res autoû blépontes kat’ anatolás.
+<sup>17</sup> kaì tò hilastḗrion<sup>a</sup> pēchō̂n déka tessárōn tò mē̂kos epì pḗcheis déka téssaras tò eûros epì téssara mérē autoû; kaì tò geîsos autō̂ kyklóthen kykloúmenon autō̂ hḗmisy pḗcheos, kaì tò kýklōma autoû pē̂chys kyklóthen; kaì hoi klimaktē̂res autoû blépontes kat’ anatolás.
 <sup>18</sup> Kaì eîpen prós me Hyiè anthrṓpou, táde légei kýrios ho theòs Israēl Taûta tà prostágmata toû thysiastēríou en hēméra poiḗseōs autoû toû anaphérein ep’ autoû holokautṓmata kaì proschéein pròs autò haîma.
 <sup>19</sup> Kaì dṓseis toîs hiereûsi toîs Leuítais toîs ek toû spérmatos Saddouk toîs engízousi prós me, légei kýrios ho theós, toû leitourgeîn moi, móschon ek boō̂n perì hamartías;
 <sup>20</sup> kaì lḗmpsontai ek toû haímatos autoû kaì epithḗsousin epì tà téssara kérata toû thysiastēríou kaì epì tàs téssaras gōnías toû hilastēríou kaì epì tḕn básin kýklō kaì exilásontai autó;
@@ -1354,6 +1356,8 @@ Assour kaì Charman émporoí sou
 <sup>25</sup> Heptà hēméras poiḗseis ériphon hypèr hamartías kath’ hēméran kaì móschon ek boō̂n kaì kriòn ek probátōn, ámōma poiḗsousin
 <sup>26</sup> heptà hēméras; kaì exilásontai tò thysiastḗrion kaì katharioûsin autò kaì plḗsousin cheîras autō̂n.
 <sup>27</sup> Kaì éstai apò tē̂s hēméras tē̂s ogdóēs kaì epékeina poiḗsousin hoi hiereîs epì tò thysiastḗrion tà holokautṓmata hymō̂n kaì tà toû sōtēríou hymō̂n. Kaì prosdéxomai hymâs, légei kýrios.
+
+> - <sup>a</sup> 17. Corrected from hilastē̂rion, as seen in RH and SW. The circumflex can stand only on one of the last two syllables, so the third syllable from the end takes the acute. This edition prints hilastḗrion at its 13 other occurrences.
 
 ## Chapter 44
 

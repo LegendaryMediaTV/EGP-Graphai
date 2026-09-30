@@ -42,7 +42,7 @@
 <sup>9</sup> Eîpen dè pròs autḕn hē thygátēr Pharaō Diatḗrēsón moi tò paidíon toûto kaì thḗlasón moi autó, egṑ dè dṓsō soi tòn misthón. Élaben dè hē gynḕ tò paidíon kaì ethḗlazen autó.
 <sup>10</sup> Hadrynthéntos dè toû paidíou eisḗgagen autò pròs tḕn thygatéra Pharaō, kaì egenḗthē autē̂ eis hyión; epōnómasen dè tò ónoma autoû Mōysē̂n légousa Ek toû hýdatos autòn aneilómēn.
 
-<sup>11</sup> Egéneto dè en taîs hēmérais taîs pollaîs ekeínais mégas genómenos Mōÿsē̂s exḗlthen pròs toùs adelphoùs autoû toùs hyioùs Israēl. Katanoḗsas dè tòn pónon autō̂n horâ ánthrōpon Aigýption týptontá tina Ebraîon tō̂n heautoû adelphō̂n tō̂n hyiō̂n Israēl;
+<sup>11</sup> Egéneto dè en taîs hēmérais taîs pollaîs ekeínais mégas genómenos Mōÿsē̂s exē̂lthen<sup>a</sup> pròs toùs adelphoùs autoû toùs hyioùs Israēl. Katanoḗsas dè tòn pónon autō̂n horâ ánthrōpon Aigýption týptontá tina Ebraîon tō̂n heautoû adelphō̂n tō̂n hyiō̂n Israēl;
 <sup>12</sup> periblepsámenos dè hō̂de kaì hō̂de ouch horâ oudéna kaì patáxas tòn Aigýption ékrypsen autòn en tē̂ ámmō.
 <sup>13</sup> Exelthṑn dè tē̂ hēméra tē̂ deutéra horâ dýo ándras Ebraíous diaplēktizoménous kaì légei tō̂ adikoûnti Dià tí sỳ týpteis tòn plēsíon?
 <sup>14</sup> Ho dè eîpen Tís se katéstēsen árchonta kaì dikastḕn eph’ hēmō̂n? Mḕ aneleîn me sỳ théleis, hòn trópon aneîles echthès tòn Aigýption? Ephobḗthē dè Mōÿsē̂s kaì eîpen Ei hoútōs emphanès gégonen tò rhē̂ma toûto?
@@ -58,6 +58,8 @@
 <sup>23</sup> Metà dè tàs hēméras tàs pollàs ekeínas eteleútēsen ho basileùs Aigýptou. Kaì katesténaxan hoi hyioì Israēl apò tō̂n érgōn kaì anebóēsan, kaì anébē hē boḕ autō̂n pròs tòn theòn apò tō̂n érgōn.
 <sup>24</sup> Kaì eisḗkousen ho theòs tòn stenagmòn autō̂n, kaì emnḗsthē ho theòs tē̂s diathḗkēs autoû tē̂s pròs Abraam kaì Isaak kaì Iakōb.
 <sup>25</sup> Kaì epeîden ho theòs toùs hyioùs Israēl kaì egnṓsthē autoîs.
+
+> - <sup>a</sup> 11. Corrected from exḗlthen, as seen in RH and SW. A long vowel accented on the next-to-last syllable takes the circumflex when the last syllable is short. This edition prints exē̂lthen at its 270 other occurrences.
 
 ## Chapter 3
 
@@ -239,7 +241,7 @@
 
 <sup>12</sup> Eîpen dè kýrios pròs Mōysē̂n Eipòn Aarōn Ékteinon tē̂ cheirì tḕn rhábdon sou kaì pátaxon tò chō̂ma tē̂s gē̂s, kaì ésontai sknîphes én te toîs anthrṓpois kaì en toîs tetráposin kaì en pásē gē̂ Aigýptou.
 <sup>13</sup> Exéteinen oûn Aarōn tē̂ cheirì tḕn rhábdon kaì epátaxen tò chō̂ma tē̂s gē̂s, kaì egénonto hoi sknîphes én te toîs anthrṓpois kaì en toîs tetráposin, kaì en pantì chṓmati tē̂s gē̂s egénonto hoi sknîphes en pásē gē̂ Aigýptou.
-<sup>14</sup> Epoiḗsan dè hōsaútōs kaì hoi epaoidoì taîs pharmakeíais autō̂n exagageîn tòn sknîpha kaì ouk ēdýnanto. Kaì egénonto hoi sknîphes en toîs anthrṓpois kaì en toîs tetráposin.
+<sup>14</sup> Epoíēsan<sup>a</sup> dè hōsaútōs kaì hoi epaoidoì taîs pharmakeíais autō̂n exagageîn tòn sknîpha kaì ouk ēdýnanto. Kaì egénonto hoi sknîphes en toîs anthrṓpois kaì en toîs tetráposin.
 <sup>15</sup> Eîpan oûn hoi epaoidoì tō̂ Pharaō Dáktylos theoû estin toûto. Kaì esklērýnthē hē kardía Pharaō, kaì ouk eisḗkousen autō̂n, katháper elálēsen kýrios.
 
 <sup>16</sup> Eîpen dè kýrios pròs Mōysē̂n Órthrison tò prōï̀ kaì stē̂thi enantíon Pharaō; kaì idoù autòs exeleúsetai epì tò hýdōr, kaì ereîs pròs autón Táde légei kýrios Exapósteilon tòn laón mou, hína moi latreúsōsin en tē̂ erḗmō;
@@ -255,6 +257,8 @@
 <sup>26</sup> Exē̂lthen dè Mōÿsē̂s apò Pharaō kaì ēúxato pròs tòn theón;
 <sup>27</sup> epoíēsen dè kýrios katháper eîpen Mōÿsē̂s, kaì perieîlen tḕn kynómyian apò Pharaō kaì tō̂n therapóntōn autoû kaì toû laoû autoû, kaì ou kateleíphthē oudemía.
 <sup>28</sup> Kaì ebárynen Pharaō tḕn kardían autoû kaì epì toû kairoû toútou kaì ouk ēthélēsen exaposteîlai tòn laón.
+
+> - <sup>a</sup> 14. Corrected from epoiḗsan, as seen in RH and SW. A finite verb is accented as far from the end as its last syllable allows, here on the third syllable from the end. This edition prints epoíēsan at its 288 other occurrences.
 
 ## Chapter 9
 
@@ -369,7 +373,7 @@
 <sup>20</sup> pân zymōtòn ouk édesthe, en pantì dè katoikētēríō hymō̂n édesthe ázyma.
 
 <sup>21</sup> Ekálesen dè Mōÿsē̂s pâsan gerousían hyiō̂n Israēl kaì eîpen pròs autoús Apelthóntes lábete hymîn heautoîs próbaton katà syngeneías hymō̂n kaì thýsate tò pascha.
-<sup>22</sup> Lḗmpsesthe dè desmḕn hyssṓpou kaì bápsantes apò toû haímatos toû parà tḕn thýran kathíxete tē̂s phliâs kaì ep’ amphotérōn tō̂n stathmō̂n apò toû haímatos, hó estin parà tḕn thýran; hymeîs dè ouk exeleúsesthe hékastos tḕn thýran toû oíkou autoû héōs prōí.
+<sup>22</sup> Lḗmpsesthe dè désmēn<sup>a</sup> hyssṓpou kaì bápsantes apò toû haímatos toû parà tḕn thýran kathíxete tē̂s phliâs kaì ep’ amphotérōn tō̂n stathmō̂n apò toû haímatos, hó estin parà tḕn thýran; hymeîs dè ouk exeleúsesthe hékastos tḕn thýran toû oíkou autoû héōs prōí.
 <sup>23</sup> Kaì pareleúsetai kýrios patáxai toùs Aigyptíous kaì ópsetai tò haîma epì tē̂s phliâs kaì ep’ amphotérōn tō̂n stathmō̂n, kaì pareleúsetai kýrios tḕn thýran kaì ouk aphḗsei tòn olethreúonta eiseltheîn eis tàs oikías hymō̂n patáxai.
 <sup>24</sup> Kaì phyláxesthe tò rhē̂ma toûto nómimon seautō̂ kaì toîs hyioîs sou héōs aiō̂nos.
 <sup>25</sup> Eàn dè eisélthēte eis tḕn gē̂n, hḕn àn dō̂ kýrios hymîn, kathóti elálēsen, phyláxesthe tḕn latreían taútēn.
@@ -402,6 +406,8 @@
 <sup>49</sup> Nómos heîs éstai tō̂ enchōríō kaì tō̂ proselthónti prosēlýtō en hymîn.
 <sup>50</sup> Kaì epoíēsan hoi hyioì Israēl kathà eneteílato kýrios tō̂ Mōysē̂ kaì Aarōn pròs autoús, hoútōs epoíēsan. —
 <sup>51</sup> kaì egéneto en tē̂ hēméra ekeínē exḗgagen kýrios toùs hyioùs Israēl ek gē̂s Aigýptou sỳn dynámei autō̂n.
+
+> - <sup>a</sup> 22. Corrected from desmḕn, as seen in RH and SW. The noun is désmē, accented on its first syllable, as the plural désmas at Matthew 13:30 shows; with the accent on its last syllable that plural would be desmás.
 
 ## Chapter 13
 

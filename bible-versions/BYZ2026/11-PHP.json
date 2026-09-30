@@ -2891,7 +2891,7 @@
         "transliteration": " aischynthḗsomai,",
         "strong": "G153",
         "morph": "V-FPI-1S",
-        "lemma": "αἰσχύνομαι"
+        "lemma": "αἰσχύνω"
       },
       {
         "text": " ἀλλ’",
@@ -3241,7 +3241,7 @@
         "transliteration": " hairḗsomai",
         "strong": "G138",
         "morph": "V-FMI-1S",
-        "lemma": "αἱρέομαι"
+        "lemma": "αἱρέω"
       },
       {
         "text": " οὐ",
@@ -3885,7 +3885,7 @@
         "transliteration": "Mónon",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " ἀξίως",
@@ -3933,7 +3933,7 @@
         "transliteration": " politeúesthe,",
         "strong": "G4176",
         "morph": "V-PNM-2P",
-        "lemma": "πολιτεύομαι"
+        "lemma": "πολιτεύω"
       },
       {
         "text": " ἵνα",
@@ -4419,7 +4419,7 @@
         "transliteration": " mónon",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " τὸ",
@@ -5464,9 +5464,41 @@
         "lemma": "εἰμί"
       },
       {
-        "text": " ἶσα",
+        "text": " ἴσα",
         "script": "G",
-        "transliteration": " îsa",
+        "transliteration": " ísa",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Corrected from ",
+            { "text": "ἶσα", "script": "G", "transliteration": "îsa" },
+            ", as seen in ",
+            { "abbr": "NA28" },
+            ", ",
+            { "abbr": "PT" },
+            ", ",
+            { "abbr": "RP2005" },
+            ", ",
+            { "abbr": "SBL" },
+            ", ",
+            { "abbr": "TR" },
+            ", and ",
+            { "abbr": "WH" },
+            ". The iota of ",
+            { "text": "ἴσος", "script": "G", "transliteration": "ísos" },
+            " is short, so ",
+            { "text": "ἴσα", "script": "G", "transliteration": "ísa" },
+            " takes the acute, as this edition prints it at ",
+            { "bibleLink": "Luke 6:34" },
+            " and ",
+            { "bibleLink": "Revelation 21:16" },
+            ". The Septuagint prints the same ",
+            { "text": "ἴσα", "script": "G", "transliteration": "ísa" },
+            " with a dative at ",
+            { "bibleLink": "Job 11:12" },
+            "."
+          ]
+        },
         "strong": "G2470",
         "morph": "A-APN",
         "lemma": "ἴσος"
@@ -6173,7 +6205,7 @@
         "transliteration": " mónon,",
         "strong": "G3440",
         "morph": "ADV",
-        "lemma": "μόνον"
+        "lemma": "μόνος"
       },
       {
         "text": " ἀλλὰ",
@@ -8164,7 +8196,7 @@
         "transliteration": " paraplḗsion",
         "strong": "G3897",
         "morph": "ADV",
-        "lemma": "παραπλήσιον"
+        "lemma": "παραπλήσιος"
       },
       " ",
       {
@@ -12869,7 +12901,7 @@
         "transliteration": " erō̂,",
         "strong": "G2046",
         "morph": "V-FAI-1S",
-        "lemma": "ἐρῶ"
+        "lemma": "λέγω"
       },
       {
         "text": " χαίρετε.",
