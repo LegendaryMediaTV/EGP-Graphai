@@ -390,22 +390,6 @@
       }
     }
   },
-  "ὥδωρ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "a water",
-    "inflections": {
-      "ὥδωρ": {
-        "transliteration": "hṓdōr",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
-        ]
-      }
-    },
-    "gender": "neut"
-  },
   "ὠθέω": {
     "language": "greek",
     "pos": "verb",
@@ -896,7 +880,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Hur; lit. White Linen",
+    "shortDefinition": "Hur, Hor; lit. White Linen",
     "inflections": {
       "Ωρ": {
         "transliteration": "Ōr",

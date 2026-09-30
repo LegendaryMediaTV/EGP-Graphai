@@ -1634,6 +1634,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "1f-a",
     "shortDefinition": "a sorcery, witchcraft; lit. a use of drugs",
     "indices": { "strongs": "G5331" },
     "inflections": {
@@ -1644,6 +1645,17 @@
       "φαρμακείᾳ": {
         "transliteration": "pharmakeía",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
+      "φαρμακείαις": {
+        "transliteration": "pharmakeíais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
+      },
+      "φαρμακείας": {
+        "transliteration": "pharmakeías",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       },
       "φαρμακειῶν": {
         "transliteration": "pharmakeiō̂n",
@@ -1695,26 +1707,6 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "φαρμακία": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-a",
-    "shortDefinition": "a sorcery, witchcraft; lit. a use of drugs",
-    "inflections": {
-      "φαρμακείαις": {
-        "transliteration": "pharmakeíais",
-        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      },
-      "φαρμακείας": {
-        "transliteration": "pharmakeías",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
         ]
       }
     }
@@ -1909,7 +1901,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "the Passover; fig. a Passover lamb",
+    "shortDefinition": "Paseah",
     "inflections": {
       "Φασεκ": {
         "transliteration": "Phasek",
@@ -1927,6 +1919,10 @@
     "declension": "indeclinable",
     "shortDefinition": "the Passover; fig. a Passover lamb",
     "inflections": {
+      "φασεκ": {
+        "transliteration": "phasek",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "φασεχ": {
         "transliteration": "phasech",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
@@ -5455,8 +5451,9 @@
   },
   "φιλογέωργος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a lover of farming",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be fond of farming",
     "inflections": {
       "φιλογέωργος": {
         "transliteration": "philogéōrgos",
@@ -5585,27 +5582,18 @@
   },
   "φιλομήτωρ": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "a lover of one’s mother",
+    "pos": "adj",
+    "declension": "3-3-cons",
+    "shortDefinition": "to be mother-loving",
     "inflections": {
-      "φιλομήτορα": {
-        "transliteration": "philomḗtora",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "φιλομήτορες": {
         "transliteration": "philomḗtores",
         "cells": [
           { "parse": ["noun", "nom", "pl", "masc"] },
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
-      },
-      "φιλομήτορος": {
-        "transliteration": "philomḗtoros",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "φιλονεικέω": {
     "language": "greek",
@@ -9378,12 +9366,17 @@
       }
     }
   },
-  "φρυάζω": {
+  "φρυάσσομαι": {
     "language": "greek",
     "pos": "verb",
-    "conjugation": "thematic",
+    "conjugation": "deponent",
     "shortDefinition": "to rage",
+    "indices": { "strongs": "G5433" },
     "inflections": {
+      "ἐφρύαξαν": {
+        "transliteration": "ephrýaxan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
+      },
       "πεφρυαγμένου": {
         "transliteration": "pephryagménou",
         "cells": [
@@ -9396,19 +9389,6 @@
         "cells": [
           { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "φρυάσσομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "shortDefinition": "to rage",
-    "indices": { "strongs": "G5433" },
-    "inflections": {
-      "ἐφρύαξαν": {
-        "transliteration": "ephrýaxan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },

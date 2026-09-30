@@ -1,4 +1,17 @@
 {
+  "βρόμος²": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a roar, groan",
+    "inflections": {
+      "βρόμῳ": {
+        "transliteration": "brómō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      }
+    }
+  },
   "κʹ": {
     "language": "greek",
     "pos": "adj",
@@ -2235,6 +2248,14 @@
         "transliteration": "kathízete",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "pl"] }]
       },
+      "καθίομαι": {
+        "transliteration": "kathíomai",
+        "cells": [
+          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
+          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
+        ]
+      },
       "καθιοῦνται": {
         "transliteration": "kathioûntai",
         "cells": [
@@ -2425,22 +2446,6 @@
           { "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] },
           { "parse": ["verb", "pres", "pas", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
-  "καθίομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "deponent",
-    "shortDefinition": "to sit; fig. to settle",
-    "inflections": {
-      "καθίομαι": {
-        "transliteration": "kathíomai",
-        "cells": [
-          { "parse": ["verb", "pres", "mid", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-1", "sg"] }
         ]
       }
     }
@@ -3561,7 +3566,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "1f-e",
-    "shortDefinition": "Kaine",
+    "shortDefinition": "Kaine; lit. New",
     "inflections": {
       "Καινῇ": {
         "transliteration": "Kainē̂",
@@ -3720,8 +3725,10 @@
   },
   "καινουργός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be inventive, innovating",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "an inventor, innovator",
     "inflections": {
       "καινουργέ": {
         "transliteration": "kainourgé",
@@ -5884,8 +5891,9 @@
   },
   "καλλίπαις": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a mother of fine children",
+    "pos": "adj",
+    "declension": "3-3-cons",
+    "shortDefinition": "to be blessed with beautiful children",
     "inflections": {
       "καλλίπαις": {
         "transliteration": "kallípais",
@@ -7862,8 +7870,9 @@
   },
   "καρπάσινος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a cotton cloth, fine flax",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be made of fine flax/cotton",
     "inflections": {
       "καρπασίνοις": {
         "transliteration": "karpasínois",
@@ -7911,10 +7920,11 @@
       }
     }
   },
-  "καρπόβρωτός": {
+  "καρπόβρωτος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a fruit tree (bearing food)",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be bearing edible fruit",
     "inflections": {
       "καρπόβρωτόν": {
         "transliteration": "karpóbrōtón",
@@ -8365,19 +8375,6 @@
       }
     }
   },
-  "καρυΐνη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "a nut-wood rod, almond rod",
-    "inflections": {
-      "καρυίνην": {
-        "transliteration": "karyínēn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "καρύινος": {
     "language": "greek",
     "pos": "adj",
@@ -8386,7 +8383,10 @@
     "inflections": {
       "καρυίνην": {
         "transliteration": "karyínēn",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["noun", "acc", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -10562,18 +10562,6 @@
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
       },
-      "κατεδέετο": {
-        "transliteration": "katedéeto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "κατεδεήθης": {
-        "transliteration": "katedeḗthēs",
-        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
-      },
       "κατεδέθη": {
         "transliteration": "katedéthē",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "sg"] }]
@@ -11259,6 +11247,10 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "κατανάθεμα": {
+        "transliteration": "katanáthema",
+        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
       }
     }
   },
@@ -11271,6 +11263,10 @@
     "inflections": {
       "καταθεματίζειν": {
         "transliteration": "katathematízein",
+        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
+      },
+      "καταναθεματίζειν": {
+        "transliteration": "katanathematízein",
         "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       }
     }
@@ -12566,12 +12562,11 @@
       }
     }
   },
-  "κατάκλιτον": {
+  "κατάκλιτος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a couch wrap, reclining shawl",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be flowing down, trailing",
     "inflections": {
       "κατάκλιτα": {
         "transliteration": "katáklita",
@@ -15591,33 +15586,6 @@
       "Καταναθ": {
         "transliteration": "Katanath",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "κατανάθεμα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "shortDefinition": "an accursed thing, curse",
-    "indices": { "strongs": "G2652" },
-    "inflections": {
-      "κατανάθεμα": {
-        "transliteration": "katanáthema",
-        "cells": [{ "parse": ["noun", "nom", "sg", "neut"] }]
-      }
-    }
-  },
-  "καταναθεματίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to curse vehemently, call down curses",
-    "indices": { "strongs": "G2653" },
-    "inflections": {
-      "καταναθεματίζειν": {
-        "transliteration": "katanathematízein",
-        "cells": [{ "parse": ["verb", "pres", "act", "inf"] }]
       }
     }
   },
@@ -19483,6 +19451,12 @@
     "conjugation": "thematic",
     "shortDefinition": "to spy out, reconnoiter; fig. to watch carefully",
     "inflections": {
+      "κατασκοπεύοντας": {
+        "transliteration": "kataskopeúontas",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
+        ]
+      },
       "κατασκοπεῦσαι": {
         "transliteration": "kataskopeûsai",
         "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
@@ -19498,6 +19472,20 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "pl", "masc"] }
         ]
+      },
+      "κατασκοπεύσασιν": {
+        "transliteration": "kataskopeúsasin",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "ptc", "dat", "pl", "masc"] }
+        ]
+      },
+      "κατεσκόπευεν": {
+        "transliteration": "kateskópeuen",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
+      },
+      "κατεσκόπευσαν": {
+        "transliteration": "kateskópeusan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -19508,30 +19496,6 @@
     "shortDefinition": "to spy out, reconnoiter; fig. to watch carefully",
     "indices": { "strongs": "G2684" },
     "inflections": {
-      "κατασκοπεύοντας": {
-        "transliteration": "kataskopeúontas",
-        "cells": [
-          {
-            "parse": [
-              "verb",
-              "aor",
-              "act",
-              "ptc",
-              "acc",
-              "pl",
-              "masc",
-              "second"
-            ]
-          },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "masc"] }
-        ]
-      },
-      "κατασκοπεύσασιν": {
-        "transliteration": "kataskopeúsasin",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ptc", "dat", "pl", "masc"] }
-        ]
-      },
       "κατασκοπῆσαι": {
         "transliteration": "kataskopē̂sai",
         "cells": [{ "parse": ["verb", "aor", "act", "inf"] }]
@@ -19539,17 +19503,6 @@
       "κατασκοπήσωσιν": {
         "transliteration": "kataskopḗsōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
-      },
-      "κατεσκόπευεν": {
-        "transliteration": "kateskópeuen",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg", "second"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "κατεσκόπευσαν": {
-        "transliteration": "kateskópeusan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -19900,23 +19853,6 @@
       }
     }
   },
-  "κατάστεμα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "shortDefinition": "a condition, demeanor, bearing",
-    "inflections": {
-      "κατάστεμα": {
-        "transliteration": "katástema",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "καταστενάζω": {
     "language": "greek",
     "pos": "verb",
@@ -19977,6 +19913,14 @@
     "shortDefinition": "a condition, demeanor, bearing",
     "indices": { "strongs": "G2688" },
     "inflections": {
+      "κατάστεμα": {
+        "transliteration": "katástema",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
       "καταστήματι": {
         "transliteration": "katastḗmati",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
@@ -22196,22 +22140,6 @@
       "κατεναντίον": {
         "transliteration": "katenantíon",
         "cells": [{ "parse": ["prep"] }]
-      }
-    }
-  },
-  "κατεναντίος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "shortDefinition": "to be set before, facing (one)",
-    "inflections": {
-      "κατεναντίον": {
-        "transliteration": "katenantíon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
       }
     }
   },
@@ -25087,14 +25015,18 @@
       }
     }
   },
-  "κατώτατος": {
+  "κατώτερος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a lowest part, depth",
+    "pos": "adj",
+    "shortDefinition": "to be lower",
+    "indices": { "strongs": "G2737" },
     "inflections": {
       "κατώτατα": {
         "transliteration": "katṓtata",
         "cells": [
+          { "parse": ["adj", "super", "acc", "pl", "neut"] },
+          { "parse": ["adj", "super", "nom", "pl", "neut"] },
+          { "parse": ["adj", "super", "voc", "pl", "neut"] },
           { "parse": ["noun", "acc", "pl", "neut"] },
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
@@ -25123,22 +25055,6 @@
         "cells": [
           { "parse": ["noun", "dat", "sg", "fem"] },
           { "parse": ["noun", "dat", "sg", "masc"] }
-        ]
-      }
-    }
-  },
-  "κατώτερος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be lower",
-    "indices": { "strongs": "G2737" },
-    "inflections": {
-      "κατώτατα": {
-        "transliteration": "katṓtata",
-        "cells": [
-          { "parse": ["adj", "super", "acc", "pl", "neut"] },
-          { "parse": ["adj", "super", "nom", "pl", "neut"] },
-          { "parse": ["adj", "super", "voc", "pl", "neut"] }
         ]
       },
       "κατώτερα": {
@@ -25594,19 +25510,6 @@
       "Καφιρα": {
         "transliteration": "Kaphira",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "καφουρη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "a covered bowl, basin",
-    "inflections": {
-      "καφουρη": {
-        "transliteration": "kaphourē",
-        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
       }
     }
   },
@@ -27578,18 +27481,6 @@
       }
     }
   },
-  "κεφφουρε": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a covered bowl, basin",
-    "inflections": {
-      "κεφφουρε": {
-        "transliteration": "kephphoure",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "κεφφουρη": {
     "language": "greek",
     "pos": "noun",
@@ -27597,6 +27488,14 @@
     "declension": "indeclinable",
     "shortDefinition": "a covered bowl, basin",
     "inflections": {
+      "καφουρη": {
+        "transliteration": "kaphourē",
+        "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
+      },
+      "κεφφουρε": {
+        "transliteration": "kephphoure",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "κεφφουρη": {
         "transliteration": "kephphourē",
         "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
@@ -28432,24 +28331,6 @@
       }
     }
   },
-  "κινάμωμον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a cinnamon",
-    "indices": { "strongs": "G2792" },
-    "inflections": {
-      "κινάμωμον": {
-        "transliteration": "kinámōmon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "Κιναν": {
     "language": "greek",
     "pos": "noun",
@@ -28845,7 +28726,16 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a cinnamon",
+    "indices": { "strongs": "G2792" },
     "inflections": {
+      "κινάμωμον": {
+        "transliteration": "kinámōmon",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
       "κιννάμωμον": {
         "transliteration": "kinnámōmon",
         "cells": [
@@ -31591,8 +31481,10 @@
   },
   "κοθωνος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be a (priestly) tunic",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a (priestly) tunic",
     "inflections": {
       "κοθωνοι": {
         "transliteration": "kothōnoi",
@@ -31666,7 +31558,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
-    "shortDefinition": "Coelesyria",
+    "shortDefinition": "Coelesyria; lit. Hollow",
     "inflections": {
       "Κοίλῃ": {
         "transliteration": "Koílē",
@@ -31766,8 +31658,9 @@
   },
   "κοιλόσταθμος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a paneled/vaulted building",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be paneled/vaulted",
     "inflections": {
       "κοιλοστάθμοις": {
         "transliteration": "koilostáthmois",
@@ -35018,7 +34911,7 @@
       }
     }
   },
-  "κόρος": {
+  "κόρος¹": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
@@ -35033,10 +34926,6 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       },
-      "κόρον": {
-        "transliteration": "kóron",
-        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      },
       "κόρου": {
         "transliteration": "kórou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
@@ -35048,6 +34937,19 @@
       "κόρων": {
         "transliteration": "kórōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      }
+    }
+  },
+  "κόρος²": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a satiety, surfeit",
+    "inflections": {
+      "κόρον": {
+        "transliteration": "kóron",
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -35899,6 +35801,24 @@
       "ἐκέκραγον": {
         "transliteration": "ekékragon",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }]
+      },
+      "ἐκέκραξα": {
+        "transliteration": "ekékraxa",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἐκέκραξά": {
+        "transliteration": "ekékraxá",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἐκέκραξαν": {
+        "transliteration": "ekékraxan",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "ind", "pers-3", "pl"] }
+        ]
       },
       "ἐκεκράξατε": {
         "transliteration": "ekekráxate",
@@ -38903,14 +38823,6 @@
       }
     }
   },
-  "κρυβῇ": {
-    "language": "greek",
-    "pos": "adv",
-    "shortDefinition": "in secret, in hiding",
-    "inflections": {
-      "κρυβῇ": { "transliteration": "krybē̂", "cells": [{ "parse": ["adv"] }] }
-    }
-  },
   "κρύπτη": {
     "language": "greek",
     "pos": "noun",
@@ -39396,6 +39308,7 @@
     "shortDefinition": "in secret, in hiding",
     "indices": { "strongs": "G2931" },
     "inflections": {
+      "κρυβῇ": { "transliteration": "krybē̂", "cells": [{ "parse": ["adv"] }] },
       "κρυφῇ": { "transliteration": "kryphē̂", "cells": [{ "parse": ["adv"] }] }
     }
   },
@@ -40621,18 +40534,16 @@
       }
     }
   },
-  "κυδοιμέω": {
+  "κυδοιμός": {
     "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "shortDefinition": "to raise a din, stir up tumult",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a din, uproar",
     "inflections": {
       "κυδοιμῶν": {
         "transliteration": "kydoimō̂n",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
-        ]
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -40660,17 +40571,6 @@
     "inflections": {
       "κύησιν": {
         "transliteration": "kýēsin",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "κύθρα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "an earthen pot, cooking pot",
-    "inflections": {
-      "κύθραν": {
-        "transliteration": "kýthran",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
@@ -41004,18 +40904,6 @@
       }
     }
   },
-  "κυλίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to roll around, wallow",
-    "inflections": {
-      "ἐκύλισαν": {
-        "transliteration": "ekýlisan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "κυλικεῖον": {
     "language": "greek",
     "pos": "noun",
@@ -41081,6 +40969,10 @@
         "cells": [
           { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] }
         ]
+      },
+      "ἐκύλισαν": {
+        "transliteration": "ekýlisan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       },
       "κυλίει": {
         "transliteration": "kylíei",
@@ -41391,8 +41283,10 @@
   },
   "κυνηγός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be a hunter (with hounds)",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a hunter (with hounds)",
     "inflections": {
       "κυνηγός": {
         "transliteration": "kynēgós",
@@ -43051,6 +42945,34 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
+      }
+    }
+  },
+  "Μηδικός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be Median",
+    "inflections": {
+      "Μηδικῆς": {
+        "transliteration": "Mēdikē̂s",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
+      }
+    }
+  },
+  "Συριακός": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be Syrian, Aramaic",
+    "inflections": {
+      "Συριακῇ": {
+        "transliteration": "Syriakē̂",
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+      },
+      "Συριακῆς": {
+        "transliteration": "Syriakē̂s",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       }
     }
   }

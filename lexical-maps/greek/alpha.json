@@ -245,18 +245,6 @@
       }
     }
   },
-  "αβαρκηνιν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a brier",
-    "inflections": {
-      "αβαρκηνιν": {
-        "transliteration": "abarkēnin",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "ἀβασίλευτος": {
     "language": "greek",
     "pos": "adj",
@@ -4937,8 +4925,10 @@
   },
   "ἄγνος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be of the chaste tree (a willow-like shrub)",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "2f",
+    "shortDefinition": "a chaste tree (a willow-like shrub)",
     "inflections": {
       "ἄγνου": {
         "transliteration": "ágnou",
@@ -11718,6 +11708,19 @@
       "αιλ": {
         "transliteration": "ail",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+      },
+      "αιλευ": {
+        "transliteration": "aileu",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "dat", "sg", "neut"] },
+          { "parse": ["noun", "gen", "sg", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -11754,6 +11757,10 @@
       "αιλαμμιν": {
         "transliteration": "ailammin",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+      },
+      "αιλαμμω": {
+        "transliteration": "ailammō",
+        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
       }
     }
   },
@@ -11788,41 +11795,6 @@
       "Αιλαμῖται": {
         "transliteration": "Ailamîtai",
         "cells": [{ "parse": ["noun", "nom", "pl", "masc"] }]
-      }
-    }
-  },
-  "αιλαμμω": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "indeclinable",
-    "shortDefinition": "a porch, vestibule",
-    "inflections": {
-      "αιλαμμω": {
-        "transliteration": "ailammō",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
-      }
-    }
-  },
-  "αιλευ": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-u",
-    "shortDefinition": "a doorpost, jamb",
-    "inflections": {
-      "αιλευ": {
-        "transliteration": "aileu",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "dat", "sg", "neut"] },
-          { "parse": ["noun", "gen", "sg", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
       }
     }
   },
@@ -11898,7 +11870,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Elon; lit. Oak-Grove",
+    "shortDefinition": "Elon, Aijalon; lit. Oak-Grove",
     "inflections": {
       "Αιλων": {
         "transliteration": "Ailōn",
@@ -14426,20 +14398,6 @@
       }
     }
   },
-  "αἰτίαμα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "shortDefinition": "a charge, allegation",
-    "indices": { "strongs": "G157" },
-    "inflections": {
-      "αἰτιάματα": {
-        "transliteration": "aitiámata",
-        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
-      }
-    }
-  },
   "αἰτιάομαι": {
     "language": "greek",
     "pos": "verb",
@@ -14525,6 +14483,10 @@
     "shortDefinition": "a charge, allegation",
     "indices": { "strongs": "G157" },
     "inflections": {
+      "αἰτιάματα": {
+        "transliteration": "aitiámata",
+        "cells": [{ "parse": ["noun", "acc", "pl", "neut"] }]
+      },
       "αἰτιώματα": {
         "transliteration": "aitiṓmata",
         "cells": [
@@ -15439,28 +15401,17 @@
   "ακαν": {
     "language": "greek",
     "pos": "noun",
-    "declension": "indeclinable",
+    "gender": "masc",
+    "declension": "3-cons",
     "shortDefinition": "a thistle",
     "inflections": {
       "ακαν": {
         "transliteration": "akan",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
-  "ακανα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a thistle",
-    "inflections": {
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
       "ακανα": {
         "transliteration": "akana",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "masc"] },
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
     }
   },
@@ -22659,10 +22610,6 @@
       "Αμαρία": {
         "transliteration": "Amaría",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
-      },
-      "Ἁμαρία": {
-        "transliteration": "Hamaría",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },
@@ -23165,6 +23112,10 @@
     "shortDefinition": "a sin",
     "indices": { "strongs": "G266" },
     "inflections": {
+      "ἁμαρία": {
+        "transliteration": "hamaría",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
       "ἁμαρτία": {
         "transliteration": "hamartía",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
@@ -23610,7 +23561,7 @@
       }
     }
   },
-  "ἀμέθυσος": {
+  "ἀμέθυστος": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
@@ -23621,15 +23572,7 @@
       "ἀμέθυσος": {
         "transliteration": "améthysos",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      }
-    }
-  },
-  "ἀμέθυστος": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "an amethyst",
-    "indices": { "strongs": "G271" },
-    "inflections": {
+      },
       "ἀμέθυστον": {
         "transliteration": "améthyston",
         "cells": [
@@ -24776,6 +24719,19 @@
       }
     }
   },
+  "ἀμόρα": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-a",
+    "shortDefinition": "a sweet cake",
+    "inflections": {
+      "ἀμόραις": {
+        "transliteration": "amórais",
+        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
+      }
+    }
+  },
   "Αμορι": {
     "language": "greek",
     "pos": "noun",
@@ -24825,17 +24781,6 @@
       "ἀμορίτην": {
         "transliteration": "amorítēn",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "ἄμορος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be of sweet cakes",
-    "inflections": {
-      "ἀμόραις": {
-        "transliteration": "amórais",
-        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
       }
     }
   },
@@ -25692,7 +25637,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Amoz; lit. Strong",
+    "shortDefinition": "Amos, Amoz; lit. Burdensome, Strong",
     "indices": { "strongs": "G301" },
     "inflections": {
       "Αμως": {
@@ -26560,18 +26505,6 @@
       }
     }
   },
-  "ἀναβιόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "shortDefinition": "to return to life, re-exist",
-    "inflections": {
-      "ἀναβίωσιν": {
-        "transliteration": "anabíōsin",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
-      }
-    }
-  },
   "ἀναβλαστάνω": {
     "language": "greek",
     "pos": "verb",
@@ -26810,10 +26743,11 @@
       }
     }
   },
-  "ἀναβράζω": {
+  "ἀναβράσσω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
+    "stems": { "aor": "ανεβρα" },
     "shortDefinition": "to cast/toss up; fig. to jolt, bound",
     "inflections": {
       "ἀναβράσαι": {
@@ -26822,16 +26756,7 @@
           { "parse": ["verb", "aor", "act", "inf"] },
           { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] }
         ]
-      }
-    }
-  },
-  "ἀναβράσσω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "ανεβρα" },
-    "shortDefinition": "to cast/toss up; fig. to jolt, bound",
-    "inflections": {
+      },
       "ἀναβράσσοντος": {
         "transliteration": "anabrássontos",
         "cells": [
@@ -31221,7 +31146,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Hanan; lit. Favor",
+    "shortDefinition": "Hanan, Hanun; lit. Favor",
     "inflections": {
       "Αναν": {
         "transliteration": "Anan",
@@ -35045,10 +34970,6 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "gen", "sg", "masc"] }
         ]
-      },
-      "ἀνῶμεν": {
-        "transliteration": "anō̂men",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-1", "pl"] }]
       }
     }
   },
@@ -37700,6 +37621,12 @@
         "cells": [
           { "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "sg"] }
         ]
+      },
+      "ἀνῶμεν": {
+        "transliteration": "anō̂men",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-1", "pl"] }
+        ]
       }
     }
   },
@@ -39782,9 +39709,10 @@
   },
   "ἀνταγωνιστής": {
     "language": "greek",
-    "pos": "adj",
-    "declension": "3-3-es",
-    "shortDefinition": "to be antagonistic (as an opponent)",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "an opponent, counter-contender",
     "inflections": {
       "ἀνταγωνιστής": {
         "transliteration": "antagōnistḗs",
@@ -48638,8 +48566,10 @@
   },
   "ἀπόγονος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be descended, born (of)",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "an offspring, descendant",
     "inflections": {
       "ἀπόγονοι": {
         "transliteration": "apógonoi",
@@ -51300,6 +51230,10 @@
         "transliteration": "apokalýpsei",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἀποκαλύψεις": {
+        "transliteration": "apokalýpseis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
       "ἀποκαλύψῃ": {
         "transliteration": "apokalýpsē",
         "cells": [
@@ -51342,11 +51276,7 @@
       },
       "ἀποκαλύψεις": {
         "transliteration": "apokalýpseis",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       },
       "ἀποκαλύψεων": {
         "transliteration": "apokalýpseōn",
@@ -60711,15 +60641,15 @@
       }
     }
   },
-  "Αραφωθ": {
+  "αραφωθ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a crushed grain",
     "inflections": {
-      "Αραφωθ": {
-        "transliteration": "Araphōth",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "αραφωθ": {
+        "transliteration": "araphōth",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -61015,63 +60945,6 @@
       }
     }
   },
-  "ἀργύρεος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "shortDefinition": "to be silver, made of silver",
-    "inflections": {
-      "ἀργυραῖ": {
-        "transliteration": "argyraî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "fem"] }
-        ]
-      },
-      "ἀργυρᾶν": {
-        "transliteration": "argyrân",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      },
-      "ἀργυρᾶς": {
-        "transliteration": "argyrâs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
-      },
-      "ἀργυροῖ": {
-        "transliteration": "argyroî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      },
-      "ἀργυροῖς": {
-        "transliteration": "argyroîs",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
-      },
-      "ἀργυροῦν": {
-        "transliteration": "argyroûn",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      },
-      "ἀργυρῶν": {
-        "transliteration": "argyrō̂n",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "ἀργυρικός": {
     "language": "greek",
     "pos": "adj",
@@ -61216,11 +61089,60 @@
           { "parse": ["adj", "voc", "pl", "neut"] }
         ]
       },
+      "ἀργυραῖ": {
+        "transliteration": "argyraî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
+      },
+      "ἀργυρᾶν": {
+        "transliteration": "argyrân",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+      },
+      "ἀργυρᾶς": {
+        "transliteration": "argyrâs",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
+        ]
+      },
+      "ἀργυροῖ": {
+        "transliteration": "argyroî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
+      },
+      "ἀργυροῖς": {
+        "transliteration": "argyroîs",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
+      },
+      "ἀργυροῦν": {
+        "transliteration": "argyroûn",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
       "ἀργυροῦς": {
         "transliteration": "argyroûs",
         "cells": [
           { "parse": ["adj", "acc", "pl", "masc"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
+        ]
+      },
+      "ἀργυρῶν": {
+        "transliteration": "argyrō̂n",
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -61840,6 +61762,19 @@
       "Ἀριαράθῃ": {
         "transliteration": "Ariaráthē",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      }
+    }
+  },
+  "αριηλ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
+    "shortDefinition": "an altar hearth; lit. a lion of God",
+    "inflections": {
+      "αριηλ": {
+        "transliteration": "ariēl",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -62571,6 +62506,10 @@
           { "parse": ["noun", "gen", "sg", "masc"] }
         ]
       },
+      "ἄρκτου": {
+        "transliteration": "árktou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
       "ἄρκῳ": {
         "transliteration": "árkō",
         "cells": [
@@ -62584,20 +62523,6 @@
           { "parse": ["noun", "gen", "pl", "fem"] },
           { "parse": ["noun", "gen", "pl", "masc"] }
         ]
-      }
-    }
-  },
-  "ἄρκτος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "2f",
-    "shortDefinition": "a bear",
-    "indices": { "strongs": "G715" },
-    "inflections": {
-      "ἄρκτου": {
-        "transliteration": "árktou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -66263,18 +66188,6 @@
       }
     }
   },
-  "ασαρημωθ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a cultivated field, terrace",
-    "inflections": {
-      "ασαρημωθ": {
-        "transliteration": "asarēmōth",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "Ασαρμωθ": {
     "language": "greek",
     "pos": "noun",
@@ -68569,13 +68482,12 @@
       }
     }
   },
-  "ἀσπίς": {
+  "ἀσπίς¹": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a round shield, buckler",
-    "indices": { "strongs": "G785" },
     "inflections": {
       "ἀσπίδα": {
         "transliteration": "aspída",
@@ -68587,10 +68499,7 @@
       },
       "ἀσπίδες": {
         "transliteration": "aspídes",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
       },
       "ἀσπίδι": {
         "transliteration": "aspídi",
@@ -68607,6 +68516,32 @@
       "ἀσπίς": {
         "transliteration": "aspís",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      }
+    }
+  },
+  "ἀσπίς²": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3-cons",
+    "shortDefinition": "an asp, cobra",
+    "indices": { "strongs": "G785" },
+    "inflections": {
+      "ἀσπίδα": {
+        "transliteration": "aspída",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "ἀσπίδες": {
+        "transliteration": "aspídes",
+        "cells": [{ "parse": ["noun", "nom", "pl", "fem"] }]
+      },
+      "ἀσπίδος": {
+        "transliteration": "aspídos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      },
+      "ἀσπίδων": {
+        "transliteration": "aspídōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -75897,8 +75832,9 @@
   },
   "ἀφόμοιος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a counterpart, copy",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be made like; fig. to be a copy",
     "inflections": {
       "ἀφόμοιον": {
         "transliteration": "aphómoion",
@@ -76657,7 +76593,7 @@
       }
     }
   },
-  "αφφω": {
+  "αφφω¹": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
@@ -78139,6 +78075,18 @@
           { "parse": ["adj", "dat", "sg", "masc"] },
           { "parse": ["adj", "dat", "sg", "neut"] }
         ]
+      }
+    }
+  },
+  "ἔμπονος": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be laborious, painful",
+    "inflections": {
+      "ἐμπόνου": {
+        "transliteration": "empónou",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       }
     }
   }

@@ -1,4 +1,29 @@
 {
+  "αιν": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "an ayin",
+    "inflections": {
+      "αιν": {
+        "transliteration": "ain",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
+  "ἀναβίωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "a return to life, re-existence",
+    "inflections": {
+      "ἀναβίωσιν": {
+        "transliteration": "anabíōsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "βʹ": {
     "language": "greek",
     "pos": "adj",
@@ -497,6 +522,10 @@
       "βαδδιν": {
         "transliteration": "baddin",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+      },
+      "βαρ": {
+        "transliteration": "bar",
+        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
       }
     }
   },
@@ -651,21 +680,6 @@
       "Βαδιηλ": {
         "transliteration": "Badiēl",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "βάδος": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a bath (liquid measure)",
-    "inflections": {
-      "βάδων": {
-        "transliteration": "bádōn",
-        "cells": [
-          { "parse": ["noun", "gen", "pl", "fem"] },
-          { "parse": ["noun", "gen", "pl", "masc"] },
-          { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
       }
     }
   },
@@ -2054,7 +2068,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Bela; lit. Gulp",
+    "shortDefinition": "Bela, Baalah; lit. Gulp",
     "inflections": {
       "Βαλα": {
         "transliteration": "Bala",
@@ -2232,36 +2246,6 @@
       }
     }
   },
-  "βαλάντιον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a money bag, purse",
-    "indices": { "strongs": "G905" },
-    "inflections": {
-      "βαλάντια": {
-        "transliteration": "balántia",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "neut"] },
-          { "parse": ["noun", "nom", "pl", "neut"] },
-          { "parse": ["noun", "voc", "pl", "neut"] }
-        ]
-      },
-      "βαλάντιον": {
-        "transliteration": "balántion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      },
-      "βαλαντίου": {
-        "transliteration": "balantíou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
-      }
-    }
-  },
   "Βαλασαν": {
     "language": "greek",
     "pos": "noun",
@@ -2336,10 +2320,6 @@
       "Βαλει": {
         "transliteration": "Balei",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      },
-      "Βαλεῖ": {
-        "transliteration": "Baleî",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
   },
@@ -2389,7 +2369,28 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a money bag, purse",
+    "indices": { "strongs": "G905" },
     "inflections": {
+      "βαλάντια": {
+        "transliteration": "balántia",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "neut"] },
+          { "parse": ["noun", "nom", "pl", "neut"] },
+          { "parse": ["noun", "voc", "pl", "neut"] }
+        ]
+      },
+      "βαλάντιον": {
+        "transliteration": "balántion",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
+      "βαλαντίου": {
+        "transliteration": "balantíou",
+        "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      },
       "βαλλάντια": {
         "transliteration": "ballántia",
         "cells": [
@@ -2429,6 +2430,10 @@
         "cells": [
           { "parse": ["verb", "second", "aor", "act", "imp", "pers-2", "sg"] }
         ]
+      },
+      "βαλεῖ": {
+        "transliteration": "baleî",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
       "βαλεῖν": {
         "transliteration": "baleîn",
@@ -2810,7 +2815,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Belshazzar, Baltasar",
+    "shortDefinition": "Belshazzar, Belteshazzar, Baltasar",
     "inflections": {
       "Βαλτασαρ": {
         "transliteration": "Baltasar",
@@ -3094,7 +3099,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Binnui; lit. Built Up",
+    "shortDefinition": "Binnui, Bani; lit. Built Up",
     "inflections": {
       "Βανουι": {
         "transliteration": "Banoui",
@@ -3448,19 +3453,6 @@
       }
     }
   },
-  "βαρ": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "indeclinable",
-    "shortDefinition": "a linen garment",
-    "inflections": {
-      "βαρ": {
-        "transliteration": "bar",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
-      }
-    }
-  },
   "βάρ": {
     "language": "greek",
     "pos": "aramaic",
@@ -3568,9 +3560,17 @@
     "declension": "indeclinable",
     "shortDefinition": "a brier",
     "inflections": {
+      "αβαρκηνιν": {
+        "transliteration": "abarkēnin",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "βαρακηνιμ": {
         "transliteration": "barakēnim",
         "cells": [{ "parse": ["noun", "indecl-other", "fem"] }]
+      },
+      "βαρκοννιμ": {
+        "transliteration": "barkonnim",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -3924,18 +3924,6 @@
       "Βαριωνᾶ": {
         "transliteration": "Bariōnâ",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "βαρκοννιμ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a brier",
-    "inflections": {
-      "βαρκοννιμ": {
-        "transliteration": "barkonnim",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -5926,6 +5914,14 @@
     "shortDefinition": "a bath (liquid measure)",
     "indices": { "strongs": "G943" },
     "inflections": {
+      "βάδων": {
+        "transliteration": "bádōn",
+        "cells": [
+          { "parse": ["noun", "gen", "pl", "fem"] },
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
+        ]
+      },
       "βάτους": {
         "transliteration": "bátous",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -7619,18 +7615,6 @@
       }
     }
   },
-  "βερσεχθαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a box, coffer",
-    "inflections": {
-      "βερσεχθαν": {
-        "transliteration": "bersechthan",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "Βερχια": {
     "language": "greek",
     "pos": "noun",
@@ -8234,7 +8218,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Beersheba; lit. Well of an Oath",
+    "shortDefinition": "Beersheba, Bathsheba; lit. Well of an Oath",
     "inflections": {
       "Βηρσαβεε": {
         "transliteration": "Bērsabee",
@@ -8622,6 +8606,14 @@
       "βιβλαρίδιον": {
         "transliteration": "biblarídion",
         "cells": [{ "parse": ["noun", "acc", "sg", "neut"] }]
+      },
+      "βιβλιδάριον": {
+        "transliteration": "biblidárion",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -8636,24 +8628,6 @@
           { "parse": ["noun", "gen", "pl", "fem"] },
           { "parse": ["noun", "gen", "pl", "masc"] },
           { "parse": ["noun", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
-  "βιβλιδάριον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a little scroll, booklet",
-    "indices": { "strongs": "G974" },
-    "inflections": {
-      "βιβλιδάριον": {
-        "transliteration": "biblidárion",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -12598,35 +12572,20 @@
       }
     }
   },
-  "βρόμος": {
+  "βρόμος¹": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be stinking, fetid",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a stench, stink",
     "inflections": {
       "βρόμον": {
         "transliteration": "brómon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       },
       "βρόμος": {
         "transliteration": "brómos",
-        "cells": [
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "nom", "sg", "masc"] }
-        ]
-      },
-      "βρόμῳ": {
-        "transliteration": "brómō",
-        "cells": [
-          { "parse": ["adj", "dat", "sg", "fem"] },
-          { "parse": ["adj", "dat", "sg", "masc"] },
-          { "parse": ["adj", "dat", "sg", "neut"] }
-        ]
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
     }
   },

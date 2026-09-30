@@ -35,6 +35,19 @@
       }
     }
   },
+  "δαβιρ": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
+    "shortDefinition": "an inner shrine, back room",
+    "inflections": {
+      "δαβιρ": {
+        "transliteration": "dabir",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Δαβιρ": {
     "language": "greek",
     "pos": "noun",
@@ -3031,8 +3044,10 @@
   },
   "δεκάτη": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be a tenth (part); fig. to be a tithe",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "shortDefinition": "a tenth (part); fig. a tithe",
     "indices": { "strongs": "G1181" },
     "inflections": {
       "δεκάται": {
@@ -5615,8 +5630,10 @@
   },
   "δήμιος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be a public executioner",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a public executioner",
     "inflections": {
       "δήμιον": {
         "transliteration": "dḗmion",
@@ -6473,17 +6490,6 @@
       }
     }
   },
-  "διαβουλία": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a counsel, plotting",
-    "inflections": {
-      "διαβουλίων": {
-        "transliteration": "diaboulíōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
   "διαβούλιον": {
     "language": "greek",
     "pos": "noun",
@@ -6514,6 +6520,10 @@
       "διαβουλίου": {
         "transliteration": "diaboulíou",
         "cells": [{ "parse": ["noun", "gen", "sg", "neut"] }]
+      },
+      "διαβουλίων": {
+        "transliteration": "diaboulíōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
       }
     }
   },
@@ -7210,8 +7220,9 @@
   },
   "διάδηλος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a conspicuous one, notable (person or thing)",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be thoroughly evident, conspicuous",
     "inflections": {
       "διάδηλοι": {
         "transliteration": "diádēloi",
@@ -8017,8 +8028,9 @@
   },
   "διάκενος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a worthless thing, empty fare",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be thoroughly empty; fig. to be worthless",
     "inflections": {
       "διακένῳ": {
         "transliteration": "diakénō",
@@ -9626,27 +9638,6 @@
       }
     }
   },
-  "διαμαρτυρέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "stems": {
-      "aor": "διαεμαρτυρη",
-      "fut": "διαμαρτυρη",
-      "perf": "διαμεμαρτυρη"
-    },
-    "shortDefinition": "to testify solemnly, warn; fig. to charge earnestly",
-    "inflections": {
-      "διαμεμαρτύρηται": {
-        "transliteration": "diamemartýrētai",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "διαμαρτυρία": {
     "language": "greek",
     "pos": "noun",
@@ -9670,6 +9661,11 @@
     "pos": "verb",
     "conjugation": "deponent",
     "deponent": true,
+    "stems": {
+      "aor": "διαεμαρτυρη",
+      "fut": "διαμαρτυρη",
+      "perf": "διαμεμαρτυρη"
+    },
     "shortDefinition": "to testify solemnly, warn; fig. to charge earnestly",
     "indices": { "strongs": "G1263" },
     "inflections": {
@@ -9816,6 +9812,14 @@
           { "parse": ["verb", "perf", "midpas-dep", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "perf", "pas-dep", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "διαμεμαρτύρηται": {
+        "transliteration": "diamemartýrētai",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "midpas", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "perf", "pas", "ind", "pers-3", "sg"] }
         ]
       },
       "διεμαρτυράμεθα": {
@@ -11817,18 +11821,6 @@
       }
     }
   },
-  "διαπρίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to saw through, saw in pieces; fig. to cut to the heart",
-    "inflections": {
-      "διέπρισεν": {
-        "transliteration": "diéprisen",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
   "διαπρίω": {
     "language": "greek",
     "pos": "verb",
@@ -11839,6 +11831,10 @@
       "διεπρίοντο": {
         "transliteration": "diepríonto",
         "cells": [{ "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "διέπρισεν": {
+        "transliteration": "diéprisen",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -16036,8 +16032,9 @@
   },
   "διάχρυσος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a gold-woven fabric, cloth of gold",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be interwoven with gold",
     "inflections": {
       "διαχρύσους": {
         "transliteration": "diachrýsous",
@@ -16723,8 +16720,9 @@
   },
   "δίδυμος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a twin; fig. a testicle",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be twin, double; fig. to be forked",
     "inflections": {
       "δίδυμα": {
         "transliteration": "dídyma",
@@ -20338,23 +20336,6 @@
       }
     }
   },
-  "δίμετρος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be of two measures, double-measured",
-    "inflections": {
-      "δίμετρον": {
-        "transliteration": "dímetron",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "Διμωνα": {
     "language": "greek",
     "pos": "noun",
@@ -21316,6 +21297,10 @@
     "shortDefinition": "two thousand",
     "indices": { "strongs": "G1367" },
     "inflections": {
+      "δισχιλίᾳ": {
+        "transliteration": "dischilía",
+        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
+      },
       "δισχίλια": {
         "transliteration": "dischília",
         "cells": [
@@ -21330,6 +21315,10 @@
           { "parse": ["adj", "nom", "pl", "fem"] },
           { "parse": ["adj", "voc", "pl", "fem"] }
         ]
+      },
+      "δισχιλίαν": {
+        "transliteration": "dischilían",
+        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       },
       "δισχιλίας": {
         "transliteration": "dischilías",
@@ -21360,22 +21349,6 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "δισχίλιος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "shortDefinition": "two thousand",
-    "inflections": {
-      "δισχιλίᾳ": {
-        "transliteration": "dischilía",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
-      },
-      "δισχιλίαν": {
-        "transliteration": "dischilían",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -27620,6 +27593,22 @@
       "Δωταιας": {
         "transliteration": "Dōtaias",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+      }
+    }
+  },
+  "προσδέω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "shortDefinition": "to bind to, fasten to",
+    "inflections": {
+      "προσδεθῇς": {
+        "transliteration": "prosdethē̂s",
+        "cells": [{ "parse": ["verb", "aor", "pas", "subj", "pers-2", "sg"] }]
+      },
+      "προσέδησαν": {
+        "transliteration": "prosédēsan",
+        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   }

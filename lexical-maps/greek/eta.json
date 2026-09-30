@@ -1018,6 +1018,10 @@
         "transliteration": "hḗkate",
         "cells": [{ "parse": ["verb", "perf", "act", "ind", "pers-2", "pl"] }]
       },
+      "ἧκε": {
+        "transliteration": "hē̂ke",
+        "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
+      },
       "ἥκει": {
         "transliteration": "hḗkei",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
@@ -1029,6 +1033,10 @@
       "ἥκεις": {
         "transliteration": "hḗkeis",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἧκεν": {
+        "transliteration": "hē̂ken",
+        "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
       },
       "ἥκετε": {
         "transliteration": "hḗkete",
@@ -2167,6 +2175,14 @@
     "declension": "2n",
     "shortDefinition": "a maw, fourth stomach",
     "inflections": {
+      "ἔνυστρον": {
+        "transliteration": "énystron",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
       "ἤνυστρον": {
         "transliteration": "ḗnystron",
         "cells": [

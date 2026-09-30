@@ -257,8 +257,10 @@
   },
   "ψαλτῳδός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be psalm-singing",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a psalm-singer",
     "inflections": {
       "ψαλτῳδοί": {
         "transliteration": "psaltōdoí",
@@ -1352,6 +1354,7 @@
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
+    "declension": "indeclinable",
     "shortDefinition": "a loin muscle, flank",
     "inflections": {
       "ψόαις": {
@@ -1360,19 +1363,17 @@
       },
       "ψόαν": {
         "transliteration": "psóan",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "ψόαν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a loin muscle, flank",
-    "inflections": {
-      "ψόαν": {
-        "transliteration": "psóan",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "indecl-other"] }
+        ]
+      },
+      "ψύαι": {
+        "transliteration": "psýai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -1443,20 +1444,6 @@
       "ψόφος": {
         "transliteration": "psóphos",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "ψύα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a loin muscle, flank",
-    "inflections": {
-      "ψύαι": {
-        "transliteration": "psýai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
       }
     }
   },

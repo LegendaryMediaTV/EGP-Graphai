@@ -915,6 +915,19 @@
       }
     }
   },
+  "γαι": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "indeclinable",
+    "shortDefinition": "a valley",
+    "inflections": {
+      "γαι": {
+        "transliteration": "gai",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Γαι": {
     "language": "greek",
     "pos": "noun",
@@ -2509,12 +2522,24 @@
       }
     }
   },
+  "γεδδουρ": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a troop, band",
+    "inflections": {
+      "γεδδουρ": {
+        "transliteration": "geddour",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Γεδδουρ": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "a troop, band",
+    "shortDefinition": "Geddur",
     "inflections": {
       "Γεδδουρ": {
         "transliteration": "Geddour",
@@ -2637,7 +2662,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Gedor; lit. Enclosure",
+    "shortDefinition": "Gedor, Gerar; lit. Enclosure",
     "inflections": {
       "Γεδωρ": {
         "transliteration": "Gedōr",
@@ -8980,15 +9005,15 @@
       }
     }
   },
-  "Γομορ": {
+  "γομορ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a homer, omer (dry measure)",
     "inflections": {
-      "Γομορ": {
-        "transliteration": "Gomor",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "γομορ": {
+        "transliteration": "gomor",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },

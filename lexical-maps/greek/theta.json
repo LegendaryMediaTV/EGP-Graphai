@@ -610,7 +610,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
-    "shortDefinition": "Timnah, Timnath; lit. Assigned Portion",
+    "shortDefinition": "Timnah, Timnath, Timna; lit. Assigned Portion",
     "inflections": {
       "Θαμνα": {
         "transliteration": "Thamna",
@@ -1162,6 +1162,10 @@
       "θαννουριμ": {
         "transliteration": "thannourim",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
+      "θεννουριμ": {
+        "transliteration": "thennourim",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -1452,18 +1456,6 @@
       }
     }
   },
-  "θαραφιν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a teraphim, household idol",
-    "inflections": {
-      "θαραφιν": {
-        "transliteration": "tharaphin",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "Θαραχ": {
     "language": "greek",
     "pos": "noun",
@@ -1738,6 +1730,18 @@
       "Θαρσιλα": {
         "transliteration": "Tharsila",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
+      }
+    }
+  },
+  "θαρσις": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "a precious stone, beryl",
+    "inflections": {
+      "θαρσις": {
+        "transliteration": "tharsis",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -2614,6 +2618,10 @@
       "θεε": {
         "transliteration": "thee",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
+      },
+      "θειμ": {
+        "transliteration": "theim",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -2650,18 +2658,6 @@
       "Θεθηρ": {
         "transliteration": "Thethēr",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "θείμ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a guardroom, side chamber",
-    "inflections": {
-      "θειμ": {
-        "transliteration": "theim",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -2856,7 +2852,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Tekoa; lit. Trumpet",
+    "shortDefinition": "Tekoa, Tikvah, Kue; lit. Trumpet",
     "inflections": {
       "Θεκουε": {
         "transliteration": "Thekoue",
@@ -3079,9 +3075,10 @@
   },
   "θελητής": {
     "language": "greek",
-    "pos": "adj",
-    "declension": "3-3-es",
-    "shortDefinition": "to be a willer, desirer; fig. to be a medium",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "a willer, desirer; fig. a medium",
     "inflections": {
       "θελητάς": {
         "transliteration": "thelētás",
@@ -3437,19 +3434,6 @@
       }
     }
   },
-  "θεμέλιον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a foundation",
-    "inflections": {
-      "θεμελίων": {
-        "transliteration": "themelíōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
-      }
-    }
-  },
   "θεμέλιος": {
     "language": "greek",
     "pos": "noun",
@@ -3515,7 +3499,8 @@
           { "parse": ["adj", "gen", "pl", "fem"] },
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] },
-          { "parse": ["noun", "gen", "pl", "masc"] }
+          { "parse": ["noun", "gen", "pl", "masc"] },
+          { "parse": ["noun", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -3715,18 +3700,6 @@
       "Θενναχ": {
         "transliteration": "Thennach",
         "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
-  "θεννουριμ": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a clay oven, firepot",
-    "inflections": {
-      "θεννουριμ": {
-        "transliteration": "thennourim",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -4306,22 +4279,16 @@
     "declension": "indeclinable",
     "shortDefinition": "a teraphim, household idol",
     "inflections": {
+      "θαραφιν": {
+        "transliteration": "tharaphin",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "θεραφιν": {
         "transliteration": "theraphin",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
-      }
-    }
-  },
-  "θεραφις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3f-is",
-    "shortDefinition": "a teraphim, household idol",
-    "inflections": {
-      "θεραφιν": {
-        "transliteration": "theraphin",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-other", "neut"] },
+          { "parse": ["noun", "acc", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -6344,21 +6311,6 @@
       }
     }
   },
-  "θῖνας": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a sand dune, hill",
-    "inflections": {
-      "θῖνας": {
-        "transliteration": "thînas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "masc"] }
-        ]
-      }
-    }
-  },
   "Θιρας": {
     "language": "greek",
     "pos": "noun",
@@ -6379,6 +6331,10 @@
     "declension": "3-cons",
     "shortDefinition": "a sand dune, hill",
     "inflections": {
+      "θῖνας": {
+        "transliteration": "thînas",
+        "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
+      },
       "θινῶν": {
         "transliteration": "thinō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
@@ -7134,6 +7090,14 @@
       "τεθνήξῃ": {
         "transliteration": "tethnḗxē",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }]
+      },
+      "τεθνήξομαι": {
+        "transliteration": "tethnḗxomai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "sg"] }]
+      },
+      "τεθνηξόμεθα": {
+        "transliteration": "tethnēxómetha",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-1", "pl"] }]
       }
     }
   },
@@ -8945,8 +8909,9 @@
   },
   "θυρεοφόρος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a shield bearer, shieldsman",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be bearing a large shield",
     "inflections": {
       "θυρεοφόροι": {
         "transliteration": "thyreophóroi",

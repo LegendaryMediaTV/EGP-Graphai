@@ -7185,7 +7185,7 @@
         "transliteration": " aspídōn",
         "strong": "G785",
         "morph": "N-GPF",
-        "lemma": "ἀσπίς"
+        "lemma": "ἀσπίς²"
       },
       {
         "text": " ἀνίατος.",
@@ -19387,8 +19387,9 @@
         "text": " ἐνώπιόν",
         "script": "G",
         "transliteration": " enṓpión",
-        "morph": "A-ASM",
-        "lemma": "ἐνώπιος"
+        "strong": "G1799",
+        "morph": "PREP",
+        "lemma": "ἐνώπιον"
       },
       {
         "text": " σου",
@@ -19638,8 +19639,9 @@
         "text": " ἐνώπιόν",
         "script": "G",
         "transliteration": " enṓpión",
-        "morph": "A-ASM",
-        "lemma": "ἐνώπιος"
+        "strong": "G1799",
+        "morph": "PREP",
+        "lemma": "ἐνώπιον"
       },
       {
         "text": " σου",
@@ -19749,9 +19751,9 @@
         "text": " σοί.",
         "script": "G",
         "transliteration": " soí.",
-        "strong": "G4674",
-        "morph": "S-2SNPM",
-        "lemma": "σός"
+        "strong": "G4671",
+        "morph": "P-2DS",
+        "lemma": "σύ"
       }
     ]
   },
@@ -20940,6 +20942,7 @@
         "text": " χερουβιν,",
         "script": "G",
         "transliteration": " cheroubin,",
+        "strong": "G5502",
         "morph": "N-OI",
         "lemma": "χερούβ"
       },
@@ -26544,8 +26547,9 @@
         "text": " ἐνώπιον",
         "script": "G",
         "transliteration": " enṓpion",
-        "morph": "A-ASF",
-        "lemma": "ἐνώπιος"
+        "strong": "G1799",
+        "morph": "PREP",
+        "lemma": "ἐνώπιον"
       },
       {
         "text": " αὐτοῦ",
@@ -32016,8 +32020,9 @@
         "text": " ἐνώπιόν",
         "script": "G",
         "transliteration": " enṓpión",
-        "morph": "A-ASM",
-        "lemma": "ἐνώπιος"
+        "strong": "G1799",
+        "morph": "PREP",
+        "lemma": "ἐνώπιον"
       },
       {
         "text": " σου",
@@ -32475,8 +32480,9 @@
         "text": " κατωτάτοις",
         "script": "G",
         "transliteration": " katōtátois",
+        "strong": "G2737",
         "morph": "N-DPM",
-        "lemma": "κατώτατος"
+        "lemma": "κατώτερος"
       },
       {
         "text": " τῆς",
@@ -35230,9 +35236,9 @@
         "text": " σοὶ",
         "script": "G",
         "transliteration": " soì",
-        "strong": "G4674",
-        "morph": "S-2SNPM",
-        "lemma": "σός"
+        "strong": "G4671",
+        "morph": "P-2DS",
+        "lemma": "σύ"
       },
       {
         "text": " πηγὴ",

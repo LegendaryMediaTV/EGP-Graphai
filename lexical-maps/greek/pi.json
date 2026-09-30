@@ -1,8 +1,110 @@
 {
+  "ἐκπρίαμαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "athematic-middle",
+    "shortDefinition": "to buy out, ransom",
+    "inflections": {
+      "ἐκπρίου": {
+        "transliteration": "ekpríou",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "imp", "pers-2", "sg"] }
+        ]
+      }
+    }
+  },
+  "ἐνδέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "deponent": true,
+    "shortDefinition": "to be in want, lack",
+    "inflections": {
+      "ἐνδεεῖται": {
+        "transliteration": "endeeîtai",
+        "cells": [{ "parse": ["verb", "pres", "mid", "ind", "pers-3", "sg"] }]
+      },
+      "ἐνδεηθήσεται": {
+        "transliteration": "endeēthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
+      "ἐνδεηθήσῃ": {
+        "transliteration": "endeēthḗsē",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-2", "sg"] }]
+      }
+    }
+  },
+  "ἐπιδέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "deponent": true,
+    "shortDefinition": "to be in need of, lack",
+    "inflections": {
+      "ἐπεδεήθης": {
+        "transliteration": "epedeḗthēs",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
+      },
+      "ἐπιδέεται": {
+        "transliteration": "epidéetai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "ἐπιδεήσεις": {
+        "transliteration": "epideḗseis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
+      "ἐπιδέομαι": {
+        "transliteration": "epidéomai",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ind", "pers-1", "sg"] }
+        ]
+      },
+      "ἐπιδεομένου": {
+        "transliteration": "epideoménou",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "sg", "masc"] }
+        ]
+      },
+      "ἐπιδεομένῳ": {
+        "transliteration": "epideoménō",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ptc", "dat", "sg", "masc"] }
+        ]
+      },
+      "ἐπιδεομένων": {
+        "transliteration": "epideoménōn",
+        "cells": [
+          { "parse": ["verb", "pres", "midpas", "ptc", "gen", "pl", "masc"] }
+        ]
+      }
+    }
+  },
+  "καταδέομαι": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "contract-e",
+    "deponent": true,
+    "shortDefinition": "to beg earnestly, implore",
+    "inflections": {
+      "κατεδέετο": {
+        "transliteration": "katedéeto",
+        "cells": [
+          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "sg"] }
+        ]
+      },
+      "κατεδεήθης": {
+        "transliteration": "katedeḗthēs",
+        "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-2", "sg"] }]
+      }
+    }
+  },
   "παγγέωργος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a master gardener, all-tending cultivator",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be all-cultivating, master-gardening",
     "inflections": {
       "παγγέωργος": {
         "transliteration": "pangéōrgos",
@@ -161,8 +263,9 @@
   },
   "παθεινός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a sufferer, mourner",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be suffering, mournful",
     "inflections": {
       "παθεινούς": {
         "transliteration": "patheinoús",
@@ -2339,9 +2442,10 @@
   },
   "παντεπόπτης": {
     "language": "greek",
-    "pos": "adj",
-    "declension": "3-3-es",
-    "shortDefinition": "to be all-seeing",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "1m-es",
+    "shortDefinition": "an all-seer, all-seeing one",
     "inflections": {
       "παντεπόπτης": {
         "transliteration": "pantepóptēs",
@@ -9360,16 +9464,15 @@
   },
   "παράφρων": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "a madman, senseless one",
+    "pos": "adj",
+    "declension": "3-3-on",
+    "shortDefinition": "to be insane, out of one’s mind",
     "inflections": {
       "παράφρονας": {
         "transliteration": "paráphronas",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "παραφυάς": {
     "language": "greek",
@@ -9531,8 +9634,9 @@
   },
   "πάρεδρος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a companion seated beside, attendant",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be sitting beside, attending",
     "inflections": {
       "πάρεδρον": {
         "transliteration": "páredron",
@@ -11437,8 +11541,9 @@
   },
   "πάριος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a Parian (marble) stone",
+    "pos": "adj",
+    "declension": "2-1-2-a",
+    "shortDefinition": "to be Parian, of Paros",
     "inflections": {
       "πάριον": {
         "transliteration": "párion",
@@ -14388,14 +14493,6 @@
     "declension": "3f-is",
     "shortDefinition": "a stopping, ceasing",
     "inflections": {
-      "παύσεις": {
-        "transliteration": "paúseis",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
-      },
       "παῦσιν": {
         "transliteration": "paûsin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -14507,6 +14604,10 @@
           { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] },
           { "parse": ["verb", "fut", "mid-dep", "ind", "pers-2", "sg"] }
         ]
+      },
+      "παύσεις": {
+        "transliteration": "paúseis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
       },
       "παύσεται": {
         "transliteration": "paúsetai",
@@ -15646,19 +15747,6 @@
           { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "masc"] },
           { "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }
         ]
-      }
-    }
-  },
-  "πείνη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "a hunger, hungriness",
-    "inflections": {
-      "πεινῶν": {
-        "transliteration": "peinō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
       }
     }
   },
@@ -17123,16 +17211,15 @@
   },
   "πεντάπηχυς": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-us",
-    "shortDefinition": "a five-cubit man, man five cubits tall",
+    "pos": "adj",
+    "declension": "3-1-3-us",
+    "shortDefinition": "to be five cubits tall",
     "inflections": {
       "πεντάπηχυν": {
         "transliteration": "pentápēchyn",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "πενταπλασίως": {
     "language": "greek",
@@ -17221,10 +17308,11 @@
       }
     }
   },
-  "πεντεκαιεικοσαετός": {
+  "πεντεκαιεικοσαετής": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a twenty-five-year-old",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "to be twenty-five years old",
     "inflections": {
       "πεντεκαιεικοσαετοῦς": {
         "transliteration": "pentekaieikosaetoûs",
@@ -17361,8 +17449,9 @@
   },
   "πέπειρος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a ripe fruit, mature cluster",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be ripe, mature",
     "inflections": {
       "πέπειροι": {
         "transliteration": "pépeiroi",
@@ -20913,26 +21002,6 @@
       }
     }
   },
-  "περιοχέομαι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "shortDefinition": "to be besieged, hemmed in",
-    "inflections": {
-      "περιοχῇ": {
-        "transliteration": "periochē̂",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] },
-          { "parse": ["verb", "pres", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "mid", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "midpas", "subj", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "pas", "subj", "pers-2", "sg"] }
-        ]
-      }
-    }
-  },
   "περιοχή": {
     "language": "greek",
     "pos": "noun",
@@ -23777,7 +23846,7 @@
     "pos": "noun",
     "gender": "fem",
     "declension": "3-cons",
-    "shortDefinition": "Persia",
+    "shortDefinition": "Persia, Persis",
     "indices": { "strongs": "G4069" },
     "inflections": {
       "Περσίδα": {
@@ -24372,8 +24441,9 @@
   },
   "πετροβόλος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a rock-hurler, stone-throwing engine",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be rock-hurling",
     "inflections": {
       "πετροβόλοις": {
         "transliteration": "petrobólois",
@@ -24992,6 +25062,10 @@
         "transliteration": "piásate",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "pl"] }]
       },
+      "πιασθήσεται": {
+        "transliteration": "piasthḗsetai",
+        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
+      },
       "πιάσωσιν": {
         "transliteration": "piásōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -25054,10 +25128,6 @@
           { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "neut"] },
           { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "neut"] }
         ]
-      },
-      "πιασθήσεται": {
-        "transliteration": "piasthḗsetai",
-        "cells": [{ "parse": ["verb", "fut", "pas", "ind", "pers-3", "sg"] }]
       },
       "πιέσεις": {
         "transliteration": "piéseis",
@@ -30213,8 +30283,9 @@
   },
   "πλησίος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a close friend, dear one",
+    "pos": "adj",
+    "declension": "2-1-2-a",
+    "shortDefinition": "to be near, close by",
     "inflections": {
       "πλησίοι": {
         "transliteration": "plēsíoi",
@@ -31163,8 +31234,9 @@
   },
   "πνευματοφόρος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a spirit-bearer, inspired man",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be spirit-bearing, inspired",
     "inflections": {
       "πνευματοφόροι": {
         "transliteration": "pneumatophóroi",
@@ -31199,25 +31271,6 @@
       }
     },
     "gender": "masc"
-  },
-  "πνεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to breathe heavily, blow",
-    "inflections": {
-      "πνεύσει": {
-        "transliteration": "pneúsei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "πνεύσεται": {
-        "transliteration": "pneúsetai",
-        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      }
-    }
   },
   "πνέω": {
     "language": "greek",
@@ -31259,6 +31312,17 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "dat", "sg", "fem"] }
         ]
+      },
+      "πνεύσει": {
+        "transliteration": "pneúsei",
+        "cells": [
+          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
+          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
+        ]
+      },
+      "πνεύσεται": {
+        "transliteration": "pneúsetai",
+        "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
       },
       "πνέων": {
         "transliteration": "pnéōn",
@@ -36955,8 +37019,10 @@
   },
   "πορνοκόπος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be whoremongering, given to prostitutes",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a whoremonger, fornicator",
     "inflections": {
       "πορνοκόπος": {
         "transliteration": "pornokópos",
@@ -37074,29 +37140,6 @@
       }
     }
   },
-  "πορφύρεος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-contract",
-    "shortDefinition": "to be purple, purple-dyed",
-    "inflections": {
-      "πορφυροῖς": {
-        "transliteration": "porphyroîs",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
-      },
-      "πορφυρῶν": {
-        "transliteration": "porphyrō̂n",
-        "cells": [
-          { "parse": ["adj", "gen", "pl", "fem"] },
-          { "parse": ["adj", "gen", "pl", "masc"] },
-          { "parse": ["adj", "gen", "pl", "neut"] }
-        ]
-      }
-    }
-  },
   "πορφυρίς": {
     "language": "greek",
     "pos": "noun",
@@ -37147,6 +37190,13 @@
         "transliteration": "porphyrâ",
         "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
       },
+      "πορφυροῖς": {
+        "transliteration": "porphyroîs",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
+      },
       "πορφυροῦ": {
         "transliteration": "porphyroû",
         "cells": [{ "parse": ["adj", "gen", "sg", "neut"] }]
@@ -37158,6 +37208,14 @@
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
           { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
+      "πορφυρῶν": {
+        "transliteration": "porphyrō̂n",
+        "cells": [
+          { "parse": ["adj", "gen", "pl", "fem"] },
+          { "parse": ["adj", "gen", "pl", "masc"] },
+          { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       }
     }
@@ -37989,8 +38047,10 @@
   },
   "πραγματικός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be official, administrative",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "an official, administrator",
     "inflections": {
       "πραγματικοῖς": {
         "transliteration": "pragmatikoîs",
@@ -38099,23 +38159,6 @@
       }
     }
   },
-  "πρᾷος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be serene; trad. to be meek",
-    "inflections": {
-      "πρᾶον": {
-        "transliteration": "prâon",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "fem"] },
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "πρᾳότης": {
     "language": "greek",
     "pos": "noun",
@@ -38164,6 +38207,18 @@
           }
         ]
       },
+      "πραύτης": {
+        "transliteration": "praútēs",
+        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "πραύτητα": {
+        "transliteration": "praútēta",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "πραύτητι": {
+        "transliteration": "praútēti",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
       "πρᾳΰτητι": {
         "transliteration": "praǘtēti",
         "cells": [
@@ -38172,6 +38227,10 @@
             "indices": { "strongs": "G4240" }
           }
         ]
+      },
+      "πραύτητος": {
+        "transliteration": "praútētos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       },
       "πρᾳΰτητος": {
         "transliteration": "praǘtētos",
@@ -38206,8 +38265,9 @@
   },
   "πράσινος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a leek-green stone",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be leek-green",
     "inflections": {
       "πράσινος": {
         "transliteration": "prásinos",
@@ -38563,6 +38623,16 @@
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
       },
+      "πρᾶον": {
+        "transliteration": "prâon",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "fem"] },
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
       "πρᾷός": {
         "transliteration": "prâós",
         "cells": [
@@ -38588,31 +38658,6 @@
             "indices": { "strongs": "G4239" }
           }
         ]
-      }
-    }
-  },
-  "πραΰτης": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3-cons",
-    "shortDefinition": "a serenity, gentleness; trad. a meekness",
-    "inflections": {
-      "πραύτης": {
-        "transliteration": "praútēs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
-      },
-      "πραύτητα": {
-        "transliteration": "praútēta",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      },
-      "πραύτητι": {
-        "transliteration": "praútēti",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      },
-      "πραύτητος": {
-        "transliteration": "praútētos",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -38758,26 +38803,6 @@
       }
     }
   },
-  "πρέσβις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3f-is",
-    "shortDefinition": "an elder, old man; fig. an ambassador, envoy",
-    "inflections": {
-      "πρέσβεις": {
-        "transliteration": "présbeis",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "acc", "pl", "masc"] },
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "masc"] },
-          { "parse": ["noun", "voc", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
   "πρέσβυς": {
     "language": "greek",
     "pos": "noun",
@@ -38785,6 +38810,13 @@
     "declension": "3-us",
     "shortDefinition": "an elder, old man; fig. an ambassador, envoy",
     "inflections": {
+      "πρέσβεις": {
+        "transliteration": "présbeis",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "masc"] },
+          { "parse": ["noun", "nom", "pl", "masc"] }
+        ]
+      },
       "πρέσβυς": {
         "transliteration": "présbys",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
@@ -39081,6 +39113,14 @@
       "ἐπρίσθησαν": {
         "transliteration": "eprísthēsan",
         "cells": [{ "parse": ["verb", "aor", "pas", "ind", "pers-3", "pl"] }]
+      },
+      "πρίσαι": {
+        "transliteration": "prísai",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "inf"] },
+          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
+          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
+        ]
       }
     }
   },
@@ -39152,22 +39192,6 @@
           { "parse": ["adj", "nom", "pl", "masc"] },
           { "parse": ["adj", "voc", "pl", "fem"] },
           { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      }
-    }
-  },
-  "πρίω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to saw, saw asunder",
-    "inflections": {
-      "πρίσαι": {
-        "transliteration": "prísai",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "inf"] },
-          { "parse": ["verb", "aor", "act", "opt", "pers-3", "sg"] },
-          { "parse": ["verb", "aor", "mid", "imp", "pers-2", "sg"] }
         ]
       }
     }
@@ -42322,18 +42346,6 @@
       }
     }
   },
-  "προκυνέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "shortDefinition": "to bow down in reverence, worship",
-    "inflections": {
-      "προκυνήσουσίν": {
-        "transliteration": "prokynḗsousín",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
-      }
-    }
-  },
   "προκυρόω": {
     "language": "greek",
     "pos": "verb",
@@ -44877,12 +44889,6 @@
           { "parse": ["verb", "fut", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
       },
-      "προσδεθῇς": {
-        "transliteration": "prosdethē̂s",
-        "cells": [
-          { "parse": ["verb", "aor", "midpas-dep", "subj", "pers-2", "sg"] }
-        ]
-      },
       "προσδεόμενος": {
         "transliteration": "prosdeómenos",
         "cells": [
@@ -44912,10 +44918,6 @@
         "cells": [
           { "parse": ["verb", "aor", "midpas-dep", "ind", "pers-3", "sg"] }
         ]
-      },
-      "προσέδησαν": {
-        "transliteration": "prosédēsan",
-        "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "pl"] }]
       }
     }
   },
@@ -47264,7 +47266,6 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a summons, call (to assemble)",
-    "indices": { "strongs": "G4346" },
     "inflections": {
       "πρόσκλησιν": {
         "transliteration": "prósklēsin",
@@ -47294,6 +47295,10 @@
     "shortDefinition": "a partiality, bias; lit. a leaning toward",
     "indices": { "strongs": "G4346" },
     "inflections": {
+      "πρόσκλησιν": {
+        "transliteration": "prósklēsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "πρόσκλισιν": {
         "transliteration": "prósklisin",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
@@ -47563,6 +47568,10 @@
     "shortDefinition": "to bow down in reverence, worship",
     "indices": { "strongs": "G4352" },
     "inflections": {
+      "προκυνήσουσίν": {
+        "transliteration": "prokynḗsousín",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "pl"] }]
+      },
       "προσεκύνει": {
         "transliteration": "prosekýnei",
         "cells": [{ "parse": ["verb", "impf", "act", "ind", "pers-3", "sg"] }]
@@ -47841,20 +47850,6 @@
         "cells": [
           { "parse": ["verb", "aor", "act", "ptc", "nom", "sg", "fem"] },
           { "parse": ["verb", "aor", "act", "ptc", "voc", "sg", "fem"] }
-        ]
-      }
-    }
-  },
-  "προσκυρόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "shortDefinition": "to ratify further, confirm besides",
-    "inflections": {
-      "προσκυροῦσαν": {
-        "transliteration": "proskyroûsan",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "fem"] }
         ]
       }
     }
@@ -51251,6 +51246,14 @@
       "προσώπων": {
         "transliteration": "prosṓpōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      },
+      "πρώσωπον": {
+        "transliteration": "prṓsōpon",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -52576,9 +52579,17 @@
     "shortDefinition": "a morning, daybreak",
     "indices": { "strongs": "G4405" },
     "inflections": {
+      "πρωίᾳ": {
+        "transliteration": "prōía",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+      },
       "πρωΐα": {
         "transliteration": "prōḯa",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
+      },
+      "πρωίαν": {
+        "transliteration": "prōían",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       },
       "πρωίας": {
         "transliteration": "prōías",
@@ -52691,22 +52702,6 @@
       }
     }
   },
-  "πρώιος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "shortDefinition": "to be early (in the day)",
-    "inflections": {
-      "πρωίᾳ": {
-        "transliteration": "prōía",
-        "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
-      },
-      "πρωίαν": {
-        "transliteration": "prōían",
-        "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "πρῷρα": {
     "language": "greek",
     "pos": "noun",
@@ -52742,23 +52737,6 @@
       "πρωρεύς": {
         "transliteration": "prōreús",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      }
-    }
-  },
-  "πρώσωπον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a face; fig. a presence",
-    "inflections": {
-      "πρώσωπον": {
-        "transliteration": "prṓsōpon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
       }
     }
   },

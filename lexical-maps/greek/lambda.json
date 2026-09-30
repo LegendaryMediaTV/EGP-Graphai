@@ -1,4 +1,17 @@
 {
+  "ἐκλύτρωσις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "a ransoming out, redemption",
+    "inflections": {
+      "ἐκλύτρωσιν": {
+        "transliteration": "eklýtrōsin",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      }
+    }
+  },
   "Λααδ": {
     "language": "greek",
     "pos": "noun",
@@ -1214,8 +1227,9 @@
   },
   "λαλητός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a speaking being, one gifted with speech",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be endowed with speech, articulate",
     "inflections": {
       "λαλητόν": {
         "transliteration": "lalētón",
@@ -6366,6 +6380,17 @@
     "conjugation": "thematic",
     "shortDefinition": "to be whitish, turn white",
     "inflections": {
+      "λελευκανθισμένη": {
+        "transliteration": "leleukanthisménē",
+        "cells": [
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
+          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
+        ]
+      },
       "λευκαθίζοντα": {
         "transliteration": "leukathízonta",
         "cells": [
@@ -6412,24 +6437,6 @@
       "λευκανῶ": {
         "transliteration": "leukanō̂",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
-  "λευκανθίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "shortDefinition": "to be whitish, turn white",
-    "inflections": {
-      "λελευκανθισμένη": {
-        "transliteration": "leleukanthisménē",
-        "cells": [
-          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "mid", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "midpas", "ptc", "voc", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "nom", "sg", "fem"] },
-          { "parse": ["verb", "perf", "pas", "ptc", "voc", "sg", "fem"] }
-        ]
       }
     }
   },
@@ -6552,6 +6559,10 @@
     "declension": "3n-ma",
     "shortDefinition": "a white film (on the eye), leucoma",
     "inflections": {
+      "λευκώμασιν": {
+        "transliteration": "leukṓmasin",
+        "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
+      },
       "λευκώματα": {
         "transliteration": "leukṓmata",
         "cells": [
@@ -6563,19 +6574,6 @@
       "λευκωμάτων": {
         "transliteration": "leukōmátōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
-      }
-    }
-  },
-  "λευκώμασις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3f-is",
-    "shortDefinition": "a whitening (of the eye)",
-    "inflections": {
-      "λευκώμασιν": {
-        "transliteration": "leukṓmasin",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -7402,8 +7400,10 @@
   },
   "Λιθόστρωτον": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be stone-paved; fig. to be the Pavement",
+    "pos": "noun",
+    "gender": "neut",
+    "declension": "2n",
+    "shortDefinition": "The Pavement; lit. Stone-Paved",
     "indices": { "strongs": "G3038" },
     "inflections": {
       "Λιθόστρωτον": {
@@ -7598,6 +7598,10 @@
           { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
         ]
       },
+      "λικμιῶ": {
+        "transliteration": "likmiō̂",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+      },
       "λικμωμένους": {
         "transliteration": "likmōménous",
         "cells": [
@@ -7628,18 +7632,6 @@
       }
     },
     "gender": "masc"
-  },
-  "λικμίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to winnow; fig. to scatter, crush to powder",
-    "inflections": {
-      "λικμιῶ": {
-        "transliteration": "likmiō̂",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
   },
   "λικμός": {
     "language": "greek",
@@ -11300,6 +11292,14 @@
         "transliteration": "Lōtan",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
+    }
+  },
+  "μάλα": {
+    "language": "greek",
+    "pos": "adv",
+    "shortDefinition": "very, exceedingly, indeed",
+    "inflections": {
+      "μάλα": { "transliteration": "mála", "cells": [{ "parse": ["adv"] }] }
     }
   }
 }

@@ -814,15 +814,7 @@
       "ναθινιμ": {
         "transliteration": "nathinim",
         "cells": [{ "parse": ["noun", "indecl-other", "masc"] }]
-      }
-    }
-  },
-  "ναθινιν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a temple attendant; trad. a Nethinite",
-    "inflections": {
+      },
       "ναθινιν": {
         "transliteration": "nathinin",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -1883,15 +1875,15 @@
       }
     }
   },
-  "Νεβελ": {
+  "νεβελ": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a skin flask, (wine) jar",
     "inflections": {
-      "Νεβελ": {
-        "transliteration": "Nebel",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+      "νεβελ": {
+        "transliteration": "nebel",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -2611,6 +2603,10 @@
       "νεοσσῶν": {
         "transliteration": "neossō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
+      "νεοττῶν": {
+        "transliteration": "neottō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -2653,17 +2649,6 @@
       "νεότητός": {
         "transliteration": "neótētós",
         "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "νεοττός": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a nestling, young bird",
-    "inflections": {
-      "νεοττῶν": {
-        "transliteration": "neottō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -3029,18 +3014,6 @@
       }
     }
   },
-  "νεφθαι": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a naphtha (crude oil)",
-    "inflections": {
-      "νεφθαι": {
-        "transliteration": "nephthai",
-        "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
   "Νεφθαλείμ": {
     "language": "greek",
     "pos": "noun",
@@ -3073,6 +3046,10 @@
     "declension": "indeclinable",
     "shortDefinition": "a naphtha (crude oil); lit. a purification",
     "inflections": {
+      "νεφθαι": {
+        "transliteration": "nephthai",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "νεφθαρ": {
         "transliteration": "nephthar",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -4698,9 +4675,9 @@
   },
   "νοήμων": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "an intelligent/discerning person",
+    "pos": "adj",
+    "declension": "3-3-on",
+    "shortDefinition": "to be intelligent, discerning",
     "inflections": {
       "νοήμονες": {
         "transliteration": "noḗmones",
@@ -4717,8 +4694,7 @@
         "transliteration": "noḗmōn",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "νοητῶς": {
     "language": "greek",
@@ -6089,10 +6065,9 @@
   },
   "νυμφαγωγός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a groomsman, best man; lit. a bride-escort",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be leading the bride; fig. to be a best man",
     "inflections": {
       "νυμφαγωγός": {
         "transliteration": "nymphagōgós",

@@ -601,7 +601,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Adullam",
+    "shortDefinition": "Adullam, Eglon",
     "inflections": {
       "Οδολλαμ": {
         "transliteration": "Odollam",
@@ -1094,19 +1094,6 @@
       }
     }
   },
-  "Οζια": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "Uzziah; lit. Strength of YH/Yah/Jah",
-    "inflections": {
-      "Οζια": {
-        "transliteration": "Ozia",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
   "Ὀζίας": {
     "language": "greek",
     "pos": "noun",
@@ -1120,7 +1107,8 @@
         "cells": [
           { "parse": ["noun", "dat", "sg", "masc"] },
           { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
+          { "parse": ["noun", "voc", "sg", "masc"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
         ]
       },
       "Οζιαν": {
@@ -1141,7 +1129,10 @@
       },
       "Οζιου": {
         "transliteration": "Oziou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
+        ]
       }
     }
   },
@@ -1192,19 +1183,6 @@
     "inflections": {
       "Οζιηλις": {
         "transliteration": "Oziēlis",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "Οζιου": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "Uzziah; lit. Strength of YH/Yah/Jah",
-    "inflections": {
-      "Οζιου": {
-        "transliteration": "Oziou",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
       }
     }
@@ -1962,12 +1940,11 @@
       }
     }
   },
-  "οἰκετική": {
+  "οἰκετικός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "a slave status, servile condition",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be servile, slave-like",
     "inflections": {
       "οἰκετικήν": {
         "transliteration": "oiketikḗn",
@@ -3561,8 +3538,10 @@
   },
   "οἰνοχόος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be wine-pouring (as a cupbearer)",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a cupbearer, wine-pourer",
     "inflections": {
       "οἰνοχόας": {
         "transliteration": "oinochóas",
@@ -4177,6 +4156,16 @@
     "declension": "numeral-plural",
     "shortDefinition": "eight thousand",
     "inflections": {
+      "ὀκτακισχιλία": {
+        "transliteration": "oktakischilía",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "neut"] },
+          { "parse": ["adj", "nom", "pl", "neut"] },
+          { "parse": ["adj", "nom", "sg", "fem"] },
+          { "parse": ["adj", "voc", "pl", "neut"] },
+          { "parse": ["adj", "voc", "sg", "fem"] }
+        ]
+      },
       "ὀκτακισχίλια": {
         "transliteration": "oktakischília",
         "cells": [
@@ -4195,23 +4184,6 @@
       "ὀκτακισχιλίους": {
         "transliteration": "oktakischilíous",
         "cells": [{ "parse": ["adj", "acc", "pl", "masc"] }]
-      }
-    }
-  },
-  "ὀκτακισχιλίος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "eight thousand",
-    "inflections": {
-      "ὀκτακισχιλία": {
-        "transliteration": "oktakischilía",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "neut"] },
-          { "parse": ["adj", "nom", "pl", "neut"] },
-          { "parse": ["adj", "nom", "sg", "fem"] },
-          { "parse": ["adj", "voc", "pl", "neut"] },
-          { "parse": ["adj", "voc", "sg", "fem"] }
-        ]
       }
     }
   },
@@ -4359,6 +4331,7 @@
     "conjugation": "thematic",
     "stems": { "aor": "ωλεθρευ" },
     "shortDefinition": "to bring ruin on, destroy",
+    "indices": { "strongs": "G3645" },
     "inflections": {
       "ὀλεθρευθήσεται": {
         "transliteration": "olethreuthḗsetai",
@@ -4408,6 +4381,12 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] },
           { "parse": ["verb", "pres", "act", "ptc", "voc", "sg", "masc"] }
+        ]
+      },
+      "ὀλοθρεύων": {
+        "transliteration": "olothreúōn",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
       },
       "ὠλέθρευον": {
@@ -4934,19 +4913,10 @@
       "ὀλιγώρει": {
         "transliteration": "oligṓrei",
         "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-2", "sg"] }]
-      }
-    }
-  },
-  "ὀλιγώρησις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "3f-is",
-    "shortDefinition": "a slighting, neglect",
-    "inflections": {
+      },
       "ὀλιγωρήσει": {
         "transliteration": "oligōrḗsei",
-        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       }
     }
   },
@@ -5161,21 +5131,6 @@
       "ὀλοθρευτοῦ": {
         "transliteration": "olothreutoû",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
-  "ὀλοθρεύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to bring ruin on, destroy",
-    "indices": { "strongs": "G3645" },
-    "inflections": {
-      "ὀλοθρεύων": {
-        "transliteration": "olothreúōn",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
-        ]
       }
     }
   },
@@ -5980,8 +5935,9 @@
   },
   "ὅμηρος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be held hostage",
+    "pos": "noun",
+    "declension": "2m",
+    "shortDefinition": "a hostage",
     "inflections": {
       "ὅμηρα": {
         "transliteration": "hómēra",
@@ -8714,8 +8670,10 @@
   },
   "ὀπισθότονος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be tetanic, convulsed backward",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a tetanus; lit. a backward stretching",
     "inflections": {
       "ὀπισθότονος": {
         "transliteration": "opisthótonos",
@@ -8859,8 +8817,9 @@
   },
   "ὁπλομάχος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "an armed warrior, man-at-arms",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be fighting with heavy arms",
     "inflections": {
       "ὁπλομάχοι": {
         "transliteration": "hoplomáchoi",
@@ -11070,7 +11029,7 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "indeclinable",
-    "shortDefinition": "a hill, mountain",
+    "shortDefinition": "Ore; lit. Mountains",
     "inflections": {
       "Ορη": {
         "transliteration": "Orē",
@@ -15997,22 +15956,6 @@
       "ὀψέ": { "transliteration": "opsé", "cells": [{ "parse": ["adv"] }] }
     }
   },
-  "ὀψία": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be late (in the day), of evening",
-    "indices": { "strongs": "G3798" },
-    "inflections": {
-      "ὀψία": {
-        "transliteration": "opsía",
-        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
-      },
-      "ὀψίας": {
-        "transliteration": "opsías",
-        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
-      }
-    }
-  },
   "Οψιβα": {
     "language": "greek",
     "pos": "noun",
@@ -16072,6 +16015,23 @@
           { "parse": ["adj", "nom", "sg", "fem"] },
           { "parse": ["adj", "nom", "sg", "masc"] }
         ]
+      }
+    }
+  },
+  "ὄψιος": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "2-1-2-a",
+    "shortDefinition": "to be late (in the day), of evening",
+    "indices": { "strongs": "G3798" },
+    "inflections": {
+      "ὀψία": {
+        "transliteration": "opsía",
+        "cells": [{ "parse": ["adj", "nom", "sg", "fem"] }]
+      },
+      "ὀψίας": {
+        "transliteration": "opsías",
+        "cells": [{ "parse": ["adj", "gen", "sg", "fem"] }]
       }
     }
   },

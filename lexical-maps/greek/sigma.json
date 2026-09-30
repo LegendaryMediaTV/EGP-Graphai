@@ -478,12 +478,24 @@
       }
     }
   },
+  "σαβι": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "an adornment, glory",
+    "inflections": {
+      "σαβι": {
+        "transliteration": "sabi",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Σαβι": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "an adornment, glory",
+    "shortDefinition": "Shobai",
     "inflections": {
       "Σαβι": {
         "transliteration": "Sabi",
@@ -568,17 +580,6 @@
       }
     }
   },
-  "σαγήνα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a dragnet, seine",
-    "inflections": {
-      "σαγήναις": {
-        "transliteration": "sagḗnais",
-        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
-      }
-    }
-  },
   "σαγήνη": {
     "language": "greek",
     "pos": "noun",
@@ -593,6 +594,10 @@
           { "parse": ["noun", "nom", "pl", "fem"] },
           { "parse": ["noun", "voc", "pl", "fem"] }
         ]
+      },
+      "σαγήναις": {
+        "transliteration": "sagḗnais",
+        "cells": [{ "parse": ["noun", "dat", "pl", "fem"] }]
       },
       "σαγήνας": {
         "transliteration": "sagḗnas",
@@ -723,6 +728,10 @@
     "declension": "indeclinable",
     "shortDefinition": "a cultivated field, terrace",
     "inflections": {
+      "ασαρημωθ": {
+        "transliteration": "asarēmōth",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      },
       "σαδημωθ": {
         "transliteration": "sadēmōth",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -2022,22 +2031,10 @@
       }
     }
   },
-  "Σαμαια": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "Shemaiah; lit. YH/Yah/Jah Has Heard",
-    "inflections": {
-      "Σαμαια": {
-        "transliteration": "Samaia",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
   "Σαμαίας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
     "declension": "1m-as",
     "shortDefinition": "Shemaiah, Samaias; lit. YH/Yah/Jah Has Heard",
     "inflections": {
@@ -2046,7 +2043,8 @@
         "cells": [
           { "parse": ["noun", "dat", "sg", "masc"] },
           { "parse": ["noun", "gen", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
+          { "parse": ["noun", "voc", "sg", "masc"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
         ]
       },
       "Σαμαιαν": {
@@ -2065,8 +2063,7 @@
         "transliteration": "Samaiou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "Σαμαιος": {
     "language": "greek",
@@ -3245,22 +3242,6 @@
       }
     }
   },
-  "Σαραιά": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "Seraiah; lit. YH/Yah/Jah Has Prevailed",
-    "inflections": {
-      "Σαραια": {
-        "transliteration": "Saraia",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "Σαραίας": {
     "language": "greek",
     "pos": "noun",
@@ -3273,7 +3254,11 @@
         "cells": [
           { "parse": ["noun", "acc", "sg", "masc"] },
           { "parse": ["noun", "dat", "sg", "masc"] },
-          { "parse": ["noun", "voc", "sg", "masc"] }
+          { "parse": ["noun", "voc", "sg", "masc"] },
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "indecl-proper"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
         ]
       },
       "Σαραιαν": {
@@ -3768,9 +3753,10 @@
       }
     }
   },
-  "Σαρουια": {
+  "Σαρουιας": {
     "language": "greek",
     "pos": "noun",
+    "declension": "indeclinable",
     "shortDefinition": "Zeruiah; lit. Wounded",
     "inflections": {
       "Σαρουια": {
@@ -3785,21 +3771,10 @@
       "Σαρουιας": {
         "transliteration": "Sarouias",
         "cells": [
+          { "parse": ["noun", "indecl-proper"] },
           { "parse": ["noun", "acc", "pl", "fem"] },
           { "parse": ["noun", "gen", "sg", "fem"] }
         ]
-      }
-    }
-  },
-  "Σαρουιας": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "Zeruiah; lit. Wounded",
-    "inflections": {
-      "Σαρουιας": {
-        "transliteration": "Sarouias",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
       }
     }
   },
@@ -4063,6 +4038,13 @@
           { "parse": ["noun", "acc", "pl", "fem"] },
           { "parse": ["noun", "gen", "sg", "fem"] }
         ]
+      },
+      "σατραπίαι": {
+        "transliteration": "satrapíai",
+        "cells": [
+          { "parse": ["noun", "nom", "pl", "fem"] },
+          { "parse": ["noun", "voc", "pl", "fem"] }
+        ]
       }
     }
   },
@@ -4095,20 +4077,6 @@
       "σατραπῶν": {
         "transliteration": "satrapō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      }
-    }
-  },
-  "σατραπία": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a satrapy, province",
-    "inflections": {
-      "σατραπίαι": {
-        "transliteration": "satrapíai",
-        "cells": [
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
       }
     }
   },
@@ -4514,19 +4482,16 @@
       }
     }
   },
-  "Σαφφωθ": {
+  "σαφφωθ": {
     "language": "greek",
     "pos": "noun",
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "a curdled cheese",
     "inflections": {
-      "Σαφφωθ": {
-        "transliteration": "Saphphōth",
-        "cells": [
-          { "parse": ["noun", "indecl-proper", "fem"] },
-          { "parse": ["noun", "indecl-proper", "neut"] }
-        ]
+      "σαφφωθ": {
+        "transliteration": "saphphōth",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
       }
     }
   },
@@ -5483,6 +5448,10 @@
       "σειρομάστην": {
         "transliteration": "seiromástēn",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
+      },
+      "σιρομαστῶν": {
+        "transliteration": "siromastō̂n",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -7160,7 +7129,7 @@
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
-    "shortDefinition": "Shiloh",
+    "shortDefinition": "Shiloh, Shelah",
     "inflections": {
       "Σηλωμ": {
         "transliteration": "Sēlōm",
@@ -7243,6 +7212,13 @@
       "σημαίαν": {
         "transliteration": "sēmaían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "σημέας": {
+        "transliteration": "sēméas",
+        "cells": [
+          { "parse": ["noun", "acc", "pl", "fem"] },
+          { "parse": ["noun", "gen", "sg", "fem"] }
+        ]
       }
     }
   },
@@ -7415,20 +7391,6 @@
       "σημασιῶν": {
         "transliteration": "sēmasiō̂n",
         "cells": [{ "parse": ["noun", "gen", "pl", "fem"] }]
-      }
-    }
-  },
-  "σημέα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a banner, military standard",
-    "inflections": {
-      "σημέας": {
-        "transliteration": "sēméas",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "gen", "sg", "fem"] }
-        ]
       }
     }
   },
@@ -8040,55 +8002,6 @@
       }
     }
   },
-  "σιδήρεος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-1-2-a",
-    "shortDefinition": "to be (made of) iron; fig. to be hard",
-    "inflections": {
-      "σιδηραῖ": {
-        "transliteration": "sidēraî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "fem"] },
-          { "parse": ["adj", "voc", "pl", "fem"] }
-        ]
-      },
-      "σιδηραῖς": {
-        "transliteration": "sidēraîs",
-        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
-      },
-      "σιδηρᾶς": {
-        "transliteration": "sidērâs",
-        "cells": [
-          { "parse": ["adj", "acc", "pl", "fem"] },
-          { "parse": ["adj", "gen", "sg", "fem"] }
-        ]
-      },
-      "σιδηροῖ": {
-        "transliteration": "sidēroî",
-        "cells": [
-          { "parse": ["adj", "nom", "pl", "masc"] },
-          { "parse": ["adj", "voc", "pl", "masc"] }
-        ]
-      },
-      "σιδηροῖς": {
-        "transliteration": "sidēroîs",
-        "cells": [
-          { "parse": ["adj", "dat", "pl", "masc"] },
-          { "parse": ["adj", "dat", "pl", "neut"] }
-        ]
-      },
-      "σιδηροῦν": {
-        "transliteration": "sidēroûn",
-        "cells": [
-          { "parse": ["adj", "acc", "sg", "masc"] },
-          { "parse": ["adj", "acc", "sg", "neut"] },
-          { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "σιδήριον": {
     "language": "greek",
     "pos": "noun",
@@ -8167,9 +8080,50 @@
         "transliteration": "sidērâ",
         "cells": [{ "parse": ["adj", "dat", "sg", "fem"] }]
       },
+      "σιδηραῖ": {
+        "transliteration": "sidēraî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "fem"] },
+          { "parse": ["adj", "voc", "pl", "fem"] }
+        ]
+      },
+      "σιδηραῖς": {
+        "transliteration": "sidēraîs",
+        "cells": [{ "parse": ["adj", "dat", "pl", "fem"] }]
+      },
       "σιδηρᾶν": {
         "transliteration": "sidērân",
         "cells": [{ "parse": ["adj", "acc", "sg", "fem"] }]
+      },
+      "σιδηρᾶς": {
+        "transliteration": "sidērâs",
+        "cells": [
+          { "parse": ["adj", "acc", "pl", "fem"] },
+          { "parse": ["adj", "gen", "sg", "fem"] }
+        ]
+      },
+      "σιδηροῖ": {
+        "transliteration": "sidēroî",
+        "cells": [
+          { "parse": ["adj", "nom", "pl", "masc"] },
+          { "parse": ["adj", "voc", "pl", "masc"] }
+        ]
+      },
+      "σιδηροῖς": {
+        "transliteration": "sidēroîs",
+        "cells": [
+          { "parse": ["adj", "dat", "pl", "masc"] },
+          { "parse": ["adj", "dat", "pl", "neut"] }
+        ]
+      },
+      "σιδηροῦν": {
+        "transliteration": "sidēroûn",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "masc"] },
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
       },
       "σιδηροῦς": {
         "transliteration": "sidēroûs",
@@ -8625,7 +8579,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Zin; lit. Crag",
+    "shortDefinition": "Zin, Sin; lit. Crag",
     "inflections": {
       "Σιν": {
         "transliteration": "Sin",
@@ -8758,19 +8712,6 @@
       "Σιρδαθα": {
         "transliteration": "Sirdatha",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "σιρομάστης": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
-    "shortDefinition": "a barbed lance, spear",
-    "inflections": {
-      "σιρομαστῶν": {
-        "transliteration": "siromastō̂n",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
       }
     }
   },
@@ -9002,8 +8943,10 @@
   },
   "σιτοποιός": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be bread-making, baker’s",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a baker, bread-maker",
     "inflections": {
       "σιτοποιοῦ": {
         "transliteration": "sitopoioû",
@@ -9667,7 +9610,7 @@
       }
     }
   },
-  "σκεπάρνον": {
+  "σκέπαρνον": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
@@ -9677,15 +9620,7 @@
       "σκεπάρνοις": {
         "transliteration": "skepárnois",
         "cells": [{ "parse": ["noun", "dat", "pl", "neut"] }]
-      }
-    }
-  },
-  "σκέπαρνον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "shortDefinition": "an adze, carpenter’s ax",
-    "inflections": {
+      },
       "σκεπάρνῳ": {
         "transliteration": "skepárnō",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
@@ -9747,8 +9682,9 @@
   },
   "σκεπεινός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a sheltered place, covert",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be sheltered, covered",
     "inflections": {
       "σκεπεινοῖς": {
         "transliteration": "skepeinoîs",
@@ -12779,7 +12715,6 @@
       "σοί": {
         "transliteration": "soí",
         "cells": [
-          { "parse": ["pron-poss", "pers-2", "poss-sg", "dat", "sg"] },
           { "parse": ["pron-poss", "pers-2", "poss-sg", "nom", "pl", "masc"] }
         ]
       },
@@ -13083,7 +13018,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Shur; lit. Wall",
+    "shortDefinition": "Shur, Zur; lit. Wall",
     "inflections": {
       "Σουρ": {
         "transliteration": "Sour",
@@ -15229,17 +15164,6 @@
       }
     }
   },
-  "σπόνδυλος": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a vertebra, spinal joint",
-    "inflections": {
-      "σπονδύλων": {
-        "transliteration": "spondýlōn",
-        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      }
-    }
-  },
   "σπορά": {
     "language": "greek",
     "pos": "noun",
@@ -16173,6 +16097,13 @@
       "στεάτων": {
         "transliteration": "steátōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "neut"] }]
+      },
+      "στῆρ": {
+        "transliteration": "stē̂r",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -17033,6 +16964,51 @@
         "transliteration": "estéresen",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
       },
+      "ἐστερημένος": {
+        "transliteration": "esterēménos",
+        "cells": [
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "mid",
+              "ptc",
+              "nom",
+              "sg",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "midpas",
+              "ptc",
+              "nom",
+              "sg",
+              "masc",
+              "second"
+            ]
+          },
+          {
+            "parse": [
+              "verb",
+              "aor",
+              "pas",
+              "ptc",
+              "nom",
+              "sg",
+              "masc",
+              "second"
+            ]
+          },
+          { "parse": ["verb", "perf", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "mid", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "midpas", "ptc", "nom", "sg", "masc"] },
+          { "parse": ["verb", "pres", "pas", "ptc", "nom", "sg", "masc"] }
+        ]
+      },
       "ἐστέρηνται": {
         "transliteration": "estérēntai",
         "cells": [{ "parse": ["verb", "perf", "pas", "ind", "pers-3", "pl"] }]
@@ -17584,21 +17560,6 @@
       }
     }
   },
-  "στῆρ": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a fat, suet",
-    "inflections": {
-      "στῆρ": {
-        "transliteration": "stē̂r",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] }
-        ]
-      }
-    },
-    "gender": "neut"
-  },
   "στήριγμα": {
     "language": "greek",
     "pos": "noun",
@@ -17893,22 +17854,6 @@
       }
     }
   },
-  "στιβίζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to paint (the eyes) with antimony",
-    "inflections": {
-      "ἐστιβίζου": {
-        "transliteration": "estibízou",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] }
-        ]
-      }
-    }
-  },
   "στίγμα": {
     "language": "greek",
     "pos": "noun",
@@ -18041,6 +17986,14 @@
     "conjugation": "thematic",
     "shortDefinition": "to paint (the eyes) with antimony",
     "inflections": {
+      "ἐστιβίζου": {
+        "transliteration": "estibízou",
+        "cells": [
+          { "parse": ["verb", "impf", "mid", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "midpas", "ind", "pers-2", "sg"] },
+          { "parse": ["verb", "impf", "pas", "ind", "pers-2", "sg"] }
+        ]
+      },
       "ἐστιμίσατο": {
         "transliteration": "estimísato",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-3", "sg"] }]
@@ -19702,23 +19655,6 @@
       }
     }
   },
-  "στρογγύλον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a circle, round",
-    "inflections": {
-      "στρογγύλον": {
-        "transliteration": "strongýlon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "στρογγύλος": {
     "language": "greek",
     "pos": "adj",
@@ -19736,7 +19672,10 @@
           { "parse": ["adj", "acc", "sg", "masc"] },
           { "parse": ["adj", "acc", "sg", "neut"] },
           { "parse": ["adj", "nom", "sg", "neut"] },
-          { "parse": ["adj", "voc", "sg", "neut"] }
+          { "parse": ["adj", "voc", "sg", "neut"] },
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -21271,26 +21210,6 @@
       }
     }
   },
-  "συγκλαίω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "stems": { "aor": "συγκλα", "perf": "συγκλαυ", "fut": "συγκλα" },
-    "shortDefinition": "to weep with, weep together",
-    "inflections": {
-      "συγκλάσει": {
-        "transliteration": "synklásei",
-        "cells": [
-          { "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "fut", "mid", "ind", "pers-2", "sg"] }
-        ]
-      },
-      "συγκλάσω": {
-        "transliteration": "synklásō",
-        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
   "συγκλασμός": {
     "language": "greek",
     "pos": "noun",
@@ -21309,6 +21228,14 @@
     "stems": { "aor": "συνεκλασ" },
     "shortDefinition": "to snap (in pieces), shatter",
     "inflections": {
+      "συγκλάσει": {
+        "transliteration": "synklásei",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
+      },
+      "συγκλάσω": {
+        "transliteration": "synklásō",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }]
+      },
       "συνέκλασας": {
         "transliteration": "synéklasas",
         "cells": [
@@ -21368,23 +21295,6 @@
       }
     }
   },
-  "σύγκλειστον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "a closed panel, frame",
-    "inflections": {
-      "σύγκλειστον": {
-        "transliteration": "sýnkleiston",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "σύγκλειστος": {
     "language": "greek",
     "pos": "adj",
@@ -21396,6 +21306,14 @@
           { "parse": ["adj", "acc", "pl", "neut"] },
           { "parse": ["adj", "nom", "pl", "neut"] },
           { "parse": ["adj", "voc", "pl", "neut"] }
+        ]
+      },
+      "σύγκλειστον": {
+        "transliteration": "sýnkleiston",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
         ]
       }
     }
@@ -21681,10 +21599,12 @@
       }
     }
   },
-  "συγκοίτος": {
+  "σύγκοιτος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be bed-sharing",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "2f",
+    "shortDefinition": "a bedfellow, spouse",
     "inflections": {
       "συγκοίτου": {
         "transliteration": "synkoítou",
@@ -22023,29 +21943,6 @@
       "συγκυρίαν": {
         "transliteration": "synkyrían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
-  "συγκυρόω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-o",
-    "shortDefinition": "to ratify jointly, confirm together",
-    "inflections": {
-      "συγκυροῦντα": {
-        "transliteration": "synkyroûnta",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "masc"] },
-          { "parse": ["verb", "pres", "act", "ptc", "nom", "pl", "neut"] },
-          { "parse": ["verb", "pres", "act", "ptc", "voc", "pl", "neut"] }
-        ]
-      },
-      "συγκυρούσαις": {
-        "transliteration": "synkyroúsais",
-        "cells": [
-          { "parse": ["verb", "pres", "act", "ptc", "dat", "pl", "fem"] }
-        ]
       }
     }
   },
@@ -23962,10 +23859,6 @@
       "συμβιώσεταί": {
         "transliteration": "symbiṓsetaí",
         "cells": [{ "parse": ["verb", "fut", "mid", "ind", "pers-3", "sg"] }]
-      },
-      "συμβίωσιν": {
-        "transliteration": "symbíōsin",
-        "cells": [{ "parse": ["verb", "pres", "act", "subj", "pers-3", "pl"] }]
       }
     }
   },
@@ -24035,8 +23928,9 @@
   },
   "συμβοηθός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a fellow helper, auxiliary",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be co-helping, assisting",
     "inflections": {
       "συμβοηθοί": {
         "transliteration": "symboēthoí",
@@ -26561,14 +26455,16 @@
   },
   "σύμφορος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a common good, advantage",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be advantageous, profitable",
     "inflections": {
       "σύμφορον": {
         "transliteration": "sýmphoron",
         "cells": [
           { "parse": ["noun", "acc", "sg", "fem"] },
-          { "parse": ["noun", "acc", "sg", "masc"] }
+          { "parse": ["noun", "acc", "sg", "masc"] },
+          { "parse": ["noun", "acc", "sg", "neut"] }
         ]
       }
     }
@@ -28539,6 +28435,10 @@
         "transliteration": "synápsei",
         "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-3", "sg"] }]
       },
+      "συνάψεις": {
+        "transliteration": "synápseis",
+        "cells": [{ "parse": ["verb", "fut", "act", "ind", "pers-2", "sg"] }]
+      },
       "συνάψητε": {
         "transliteration": "synápsēte",
         "cells": [
@@ -28744,11 +28644,7 @@
     "inflections": {
       "συνάψεις": {
         "transliteration": "synápseis",
-        "cells": [
-          { "parse": ["noun", "acc", "pl", "fem"] },
-          { "parse": ["noun", "nom", "pl", "fem"] },
-          { "parse": ["noun", "voc", "pl", "fem"] }
-        ]
+        "cells": [{ "parse": ["noun", "acc", "pl", "fem"] }]
       }
     }
   },
@@ -28791,8 +28687,9 @@
   },
   "σύνδειπνος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a table companion, fellow diner",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be co-dining, sharing a dinner",
     "inflections": {
       "σύνδειπνοί": {
         "transliteration": "sýndeipnoí",
@@ -28964,21 +28861,6 @@
       "συνδούλων": {
         "transliteration": "syndoúlōn",
         "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
-      }
-    }
-  },
-  "συνδράω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-a",
-    "shortDefinition": "to do together, act jointly (with)",
-    "inflections": {
-      "συνέδρων": {
-        "transliteration": "synédrōn",
-        "cells": [
-          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "impf", "act", "ind", "pers-3", "pl"] }
-        ]
       }
     }
   },
@@ -29292,20 +29174,6 @@
       "συνέστω": {
         "transliteration": "synéstō",
         "cells": [{ "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }]
-      },
-      "συνῇ": {
-        "transliteration": "synē̂",
-        "cells": [
-          { "parse": ["verb", "impf", "act", "ind", "pers-1", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-3", "sg"] }
-        ]
-      },
-      "συνῇς": {
-        "transliteration": "synē̂s",
-        "cells": [
-          { "parse": ["verb", "impf", "act", "ind", "pers-2", "sg"] },
-          { "parse": ["verb", "pres", "act", "subj", "pers-2", "sg"] }
-        ]
       },
       "συνῆσαν": {
         "transliteration": "synē̂san",
@@ -31593,6 +31461,12 @@
           { "parse": ["verb", "pres", "act", "imp", "pers-3", "sg"] }
         ]
       },
+      "συνῇ": {
+        "transliteration": "synē̂",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-3", "sg"] }
+        ]
+      },
       "συνῆκα": {
         "transliteration": "synē̂ka",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-1", "sg"] }]
@@ -31612,6 +31486,12 @@
       "συνῆκεν": {
         "transliteration": "synē̂ken",
         "cells": [{ "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] }]
+      },
+      "συνῇς": {
+        "transliteration": "synē̂s",
+        "cells": [
+          { "parse": ["verb", "second", "aor", "act", "subj", "pers-2", "sg"] }
+        ]
       },
       "συνήσει": {
         "transliteration": "synḗsei",
@@ -32841,10 +32721,9 @@
   },
   "σύννους": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m-contract",
-    "shortDefinition": "a person deep in thought, brooder",
+    "pos": "adj",
+    "declension": "2-2-contract",
+    "shortDefinition": "to be deep in thought, brooding",
     "inflections": {
       "σύννους": {
         "transliteration": "sýnnous",
@@ -35420,26 +35299,6 @@
       }
     }
   },
-  "Συριακή": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "the Syrian (language), Aramaic",
-    "inflections": {
-      "Συριακῇ": {
-        "transliteration": "Syriakē̂",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "indecl-proper", "fem"] }
-        ]
-      },
-      "Συριακῆς": {
-        "transliteration": "Syriakē̂s",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
   "σύριγμα": {
     "language": "greek",
     "pos": "noun",
@@ -35552,13 +35411,12 @@
   },
   "Συριστί": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "Syrian (language), Aramaic",
+    "pos": "adv",
+    "shortDefinition": "in Syrian, Aramaic (language)",
     "inflections": {
       "Συριστί": {
         "transliteration": "Syristí",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [{ "parse": ["noun", "indecl-proper"] }, { "parse": ["adv"] }]
       }
     }
   },
@@ -35785,29 +35643,18 @@
       }
     }
   },
-  "συσκιάζον": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "2n",
-    "shortDefinition": "an overshadowing (veil), screen",
-    "inflections": {
-      "συσκιάζον": {
-        "transliteration": "syskiázon",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
-      }
-    }
-  },
   "συσκιάζω": {
     "language": "greek",
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to cast shade over, overshadow",
     "inflections": {
+      "συσκιάζον": {
+        "transliteration": "syskiázon",
+        "cells": [
+          { "parse": ["verb", "pres", "act", "ptc", "acc", "sg", "neut"] }
+        ]
+      },
       "συσκιάζοντες": {
         "transliteration": "syskiázontes",
         "cells": [
@@ -36177,7 +36024,20 @@
       }
     }
   },
-  "σύστεμα": {
+  "συστενάζω": {
+    "language": "greek",
+    "pos": "verb",
+    "conjugation": "thematic",
+    "shortDefinition": "to groan together",
+    "indices": { "strongs": "G4959" },
+    "inflections": {
+      "συστενάζει": {
+        "transliteration": "systenázei",
+        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
+      }
+    }
+  },
+  "σύστημα": {
     "language": "greek",
     "pos": "noun",
     "gender": "neut",
@@ -36203,29 +36063,7 @@
       "συστέματι": {
         "transliteration": "systémati",
         "cells": [{ "parse": ["noun", "dat", "sg", "neut"] }]
-      }
-    }
-  },
-  "συστενάζω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to groan together",
-    "indices": { "strongs": "G4959" },
-    "inflections": {
-      "συστενάζει": {
-        "transliteration": "systenázei",
-        "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-3", "sg"] }]
-      }
-    }
-  },
-  "σύστημα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "shortDefinition": "a gathered body, mass; fig. a band, community",
-    "inflections": {
+      },
       "σύστημα": {
         "transliteration": "sýstēma",
         "cells": [
@@ -37171,6 +37009,10 @@
     "pos": "noun",
     "shortDefinition": "a vertebra, spinal joint",
     "inflections": {
+      "σπονδύλων": {
+        "transliteration": "spondýlōn",
+        "cells": [{ "parse": ["noun", "gen", "pl", "masc"] }]
+      },
       "σφονδύλου": {
         "transliteration": "sphondýlou",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
@@ -39424,7 +39266,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Zophar; lit. Departing",
+    "shortDefinition": "Zophar, Zepho; lit. Departing",
     "inflections": {
       "Σωφαρ": {
         "transliteration": "Sōphar",

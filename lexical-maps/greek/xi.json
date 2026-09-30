@@ -791,8 +791,10 @@
   },
   "ξυλοφόρος": {
     "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be wood-bearing",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "a wood carrier, wood-bearer",
     "inflections": {
       "ξυλοφόρων": {
         "transliteration": "xylophórōn",
@@ -1016,8 +1018,9 @@
   },
   "ξυστός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a dressed stone, polished surface",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be polished, dressed smooth",
     "inflections": {
       "ξυστοῦ": {
         "transliteration": "xystoû",

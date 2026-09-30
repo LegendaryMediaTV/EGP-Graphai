@@ -9,17 +9,10 @@
       "ὑαίνῃ": {
         "transliteration": "hyaínē",
         "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
-      }
-    }
-  },
-  "ὑαίνης": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a hyena",
-    "inflections": {
+      },
       "ὑαίνης": {
         "transliteration": "hyaínēs",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
       }
     }
   },
@@ -123,6 +116,8 @@
   "ὕαλος": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
     "shortDefinition": "a glass, transparent stone",
     "indices": { "strongs": "G5194" },
     "inflections": {
@@ -138,6 +133,14 @@
       },
       "ὑάλῳ": {
         "transliteration": "hyálō",
+        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "ὕελος": {
+        "transliteration": "hýelos",
+        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
+      },
+      "ὑέλῳ": {
+        "transliteration": "hyélō",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
@@ -896,6 +899,13 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
+      },
+      "ὥδωρ": {
+        "transliteration": "hṓdōr",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] }
+        ]
       }
     }
   },
@@ -929,24 +939,6 @@
           { "parse": ["adj", "gen", "pl", "masc"] },
           { "parse": ["adj", "gen", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "ὕελος": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a glass, transparent stone",
-    "indices": { "strongs": "G5194" },
-    "inflections": {
-      "ὕελος": {
-        "transliteration": "hýelos",
-        "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
-      },
-      "ὑέλῳ": {
-        "transliteration": "hyélō",
-        "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
       }
     }
   },
@@ -3438,8 +3430,9 @@
   },
   "ὑπέρμαχος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a champion, defender (who fights for)",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be fighting on behalf of, defending",
     "inflections": {
       "ὑπέρμαχον": {
         "transliteration": "hypérmachon",
@@ -4296,8 +4289,9 @@
   },
   "ὑπεύθυνος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "an accountable/liable person",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be accountable, liable",
     "inflections": {
       "ὑπεύθυνοι": {
         "transliteration": "hypeúthynoi",

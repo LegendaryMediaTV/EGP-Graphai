@@ -2768,6 +2768,10 @@
       "ζωγρείαν": {
         "transliteration": "zōgreían",
         "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
+      "ζωγρίαν": {
+        "transliteration": "zōgrían",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },
@@ -2814,17 +2818,6 @@
         "cells": [
           { "parse": ["verb", "pres", "act", "ptc", "nom", "sg", "masc"] }
         ]
-      }
-    }
-  },
-  "ζωγρία": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a taking alive, live capture",
-    "inflections": {
-      "ζωγρίαν": {
-        "transliteration": "zōgrían",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
       }
     }
   },

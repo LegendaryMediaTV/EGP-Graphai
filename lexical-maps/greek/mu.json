@@ -191,12 +191,12 @@
       }
     }
   },
-  "Μαασαια": {
+  "Μαασαιας": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Maaseiah; lit. Work of YH/Yah/Jah",
+    "shortDefinition": "Maaseiah, Mahseiah; lit. Work of YH/Yah/Jah",
     "inflections": {
       "Μαασαια": {
         "transliteration": "Maasaia",
@@ -205,30 +205,13 @@
       "Μαασαιαν": {
         "transliteration": "Maasaian",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
-      }
-    }
-  },
-  "Μαασαιας": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "Maaseiah; lit. Work of YH/Yah/Jah",
-    "inflections": {
+      },
       "Μαασαιου": {
         "transliteration": "Maasaiou",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
-  "Μαασαις": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "Mahseiah, Maaseas; lit. Refuge of YH/Yah/Jah",
-    "inflections": {
-      "Μαασαιου": {
-        "transliteration": "Maasaiou",
-        "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "masc"] },
+          { "parse": ["noun", "indecl-proper", "masc"] }
+        ]
       }
     }
   },
@@ -245,9 +228,11 @@
       }
     }
   },
-  "Μαασια": {
+  "Μαασιας": {
     "language": "greek",
     "pos": "noun",
+    "gender": "masc",
+    "declension": "indeclinable",
     "shortDefinition": "Maaseiah; lit. Work of YH/Yah/Jah",
     "inflections": {
       "Μαασια": {
@@ -257,16 +242,7 @@
       "Μαασιαν": {
         "transliteration": "Maasian",
         "cells": [{ "parse": ["noun", "acc", "sg", "masc"] }]
-      }
-    }
-  },
-  "Μαασιας": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "indeclinable",
-    "shortDefinition": "Maaseiah; lit. Work of YH/Yah/Jah",
-    "inflections": {
+      },
       "Μαασιας": {
         "transliteration": "Maasias",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
@@ -2807,10 +2783,6 @@
       "Μαλα": {
         "transliteration": "Mala",
         "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
-      },
-      "Μάλα": {
-        "transliteration": "Mála",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
       }
     }
   },
@@ -3303,15 +3275,7 @@
           { "parse": ["noun", "indecl-other", "fem"] },
           { "parse": ["noun", "indecl-other", "neut"] }
         ]
-      }
-    }
-  },
-  "μανααν": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a gift offering, tribute",
-    "inflections": {
+      },
       "μανααν": {
         "transliteration": "manaan",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
@@ -4573,36 +4537,17 @@
       },
       "Μαρισαν": {
         "transliteration": "Marisan",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["noun", "indecl-proper", "fem"] }
+        ]
       },
       "Μαρισης": {
         "transliteration": "Marisēs",
-        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
-      }
-    }
-  },
-  "Μαρισαν": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "indeclinable",
-    "shortDefinition": "Mareshah; lit. Summit",
-    "inflections": {
-      "Μαρισαν": {
-        "transliteration": "Marisan",
-        "cells": [{ "parse": ["noun", "indecl-proper", "fem"] }]
-      }
-    }
-  },
-  "Μαρισης": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "Mareshah; lit. Summit",
-    "inflections": {
-      "Μαρισης": {
-        "transliteration": "Marisēs",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          { "parse": ["noun", "gen", "sg", "fem"] },
+          { "parse": ["noun", "indecl-proper"] }
+        ]
       }
     }
   },
@@ -5370,21 +5315,6 @@
       }
     }
   },
-  "μασανα": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "Second Quarter (of Jerusalem)",
-    "inflections": {
-      "μασανα": {
-        "transliteration": "masana",
-        "cells": [
-          { "parse": ["noun", "dat", "sg", "fem"] },
-          { "parse": ["noun", "nom", "sg", "fem"] },
-          { "parse": ["noun", "voc", "sg", "fem"] }
-        ]
-      }
-    }
-  },
   "μασάομαι": {
     "language": "greek",
     "pos": "verb",
@@ -5488,6 +5418,14 @@
     "pos": "noun",
     "shortDefinition": "Second Quarter (of Jerusalem)",
     "inflections": {
+      "μασανα": {
+        "transliteration": "masana",
+        "cells": [
+          { "parse": ["noun", "dat", "sg", "fem"] },
+          { "parse": ["noun", "nom", "sg", "fem"] },
+          { "parse": ["noun", "voc", "sg", "fem"] }
+        ]
+      },
       "μασενα": {
         "transliteration": "masena",
         "cells": [
@@ -6268,9 +6206,9 @@
   },
   "ματαιόφρων": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "a vain-minded person, empty-headed one",
+    "pos": "adj",
+    "declension": "3-3-on",
+    "shortDefinition": "to be vain-minded, empty-headed",
     "inflections": {
       "ματαιόφρονες": {
         "transliteration": "mataióphrones",
@@ -6279,8 +6217,7 @@
           { "parse": ["noun", "voc", "pl", "masc"] }
         ]
       }
-    },
-    "gender": "masc"
+    }
   },
   "ματαιόω": {
     "language": "greek",
@@ -7560,19 +7497,6 @@
       }
     }
   },
-  "μεγαλοσύνη": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "a greatness, majesty",
-    "inflections": {
-      "μεγαλοσύνην": {
-        "transliteration": "megalosýnēn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
-      }
-    }
-  },
   "μεγαλοφρονέω": {
     "language": "greek",
     "pos": "verb",
@@ -7592,16 +7516,15 @@
   },
   "μεγαλόφρων": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "3-cons",
-    "shortDefinition": "a high-minded/proud person",
+    "pos": "adj",
+    "declension": "3-3-on",
+    "shortDefinition": "to be high-minded, proud",
     "inflections": {
       "μεγαλόφρων": {
         "transliteration": "megalóphrōn",
         "cells": [{ "parse": ["noun", "nom", "sg", "masc"] }]
       }
-    },
-    "gender": "masc"
+    }
   },
   "μεγαλόψυχος": {
     "language": "greek",
@@ -7907,6 +7830,10 @@
     "shortDefinition": "a greatness, majesty",
     "indices": { "strongs": "G3172" },
     "inflections": {
+      "μεγαλοσύνην": {
+        "transliteration": "megalosýnēn",
+        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+      },
       "μεγαλωσύνη": {
         "transliteration": "megalōsýnē",
         "cells": [{ "parse": ["noun", "nom", "sg", "fem"] }]
@@ -8554,10 +8481,8 @@
   },
   "μεθαχαβιν": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "indeclinable",
-    "shortDefinition": "a hiding (of oneself)",
+    "pos": "verb",
+    "shortDefinition": "to hide oneself",
     "inflections": {
       "μεθαχαβιν": {
         "transliteration": "methachabin",
@@ -8974,14 +8899,7 @@
           { "parse": ["noun", "nom", "pl", "neut"] },
           { "parse": ["noun", "voc", "pl", "neut"] }
         ]
-      }
-    }
-  },
-  "μεθόριος": {
-    "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a border, boundary",
-    "inflections": {
+      },
       "μεθόριον": {
         "transliteration": "methórion",
         "cells": [
@@ -9360,23 +9278,6 @@
       "μεθωεσιμ": {
         "transliteration": "methōesim",
         "cells": [{ "parse": ["noun", "indecl-other"] }]
-      }
-    }
-  },
-  "μεῖγμα": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "3n-ma",
-    "shortDefinition": "a mixture",
-    "inflections": {
-      "μεῖγμα": {
-        "transliteration": "meîgma",
-        "cells": [
-          { "parse": ["noun", "acc", "sg", "neut"] },
-          { "parse": ["noun", "nom", "sg", "neut"] },
-          { "parse": ["noun", "voc", "sg", "neut"] }
-        ]
       }
     }
   },
@@ -10521,7 +10422,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Mephibosheth; lit. Dispeller of Shame",
+    "shortDefinition": "Mephibosheth, Ishbosheth; lit. Dispeller of Shame",
     "inflections": {
       "Μεμφιβοσθε": {
         "transliteration": "Memphibosthe",
@@ -15225,18 +15126,6 @@
       }
     }
   },
-  "Μηδική": {
-    "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "a Median",
-    "inflections": {
-      "Μηδικῆς": {
-        "transliteration": "Mēdikē̂s",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
-      }
-    }
-  },
   "Μῆδος": {
     "language": "greek",
     "pos": "noun",
@@ -16625,6 +16514,14 @@
     "shortDefinition": "a mixture",
     "indices": { "strongs": "G3395" },
     "inflections": {
+      "μεῖγμα": {
+        "transliteration": "meîgma",
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "neut"] },
+          { "parse": ["noun", "nom", "sg", "neut"] },
+          { "parse": ["noun", "voc", "sg", "neut"] }
+        ]
+      },
       "μίγμα": {
         "transliteration": "mígma",
         "cells": [
@@ -18006,22 +17903,6 @@
       }
     }
   },
-  "μισθέω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "contract-e",
-    "shortDefinition": "to hire",
-    "inflections": {
-      "ἐμισθοῦντο": {
-        "transliteration": "emisthoûnto",
-        "cells": [
-          { "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "midpas", "ind", "pers-3", "pl"] },
-          { "parse": ["verb", "impf", "pas", "ind", "pers-3", "pl"] }
-        ]
-      }
-    }
-  },
   "μίσθιος": {
     "language": "greek",
     "pos": "adj",
@@ -18096,6 +17977,10 @@
     "shortDefinition": "to hire",
     "indices": { "strongs": "G3409" },
     "inflections": {
+      "ἐμισθοῦντο": {
+        "transliteration": "emisthoûnto",
+        "cells": [{ "parse": ["verb", "impf", "mid", "ind", "pers-3", "pl"] }]
+      },
       "ἐμισθωσάμην": {
         "transliteration": "emisthōsámēn",
         "cells": [{ "parse": ["verb", "aor", "mid", "ind", "pers-1", "sg"] }]
@@ -18200,10 +18085,9 @@
   },
   "μισθωτός": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a hired hand, hireling",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be hired; fig. to be a hireling",
     "indices": { "strongs": "G3411" },
     "inflections": {
       "μισθωταί": {
@@ -18992,7 +18876,7 @@
       }
     }
   },
-  "μογγιλάλος": {
+  "μογίλαλος": {
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be tongue-tied, stammering",
@@ -19005,14 +18889,7 @@
       "μογιλάλον": {
         "transliteration": "mogilálon",
         "cells": [{ "parse": ["adj", "acc", "sg", "masc"] }]
-      }
-    }
-  },
-  "μογίλαλος": {
-    "language": "greek",
-    "pos": "adj",
-    "shortDefinition": "to be tongue-tied, stammering",
-    "inflections": {
+      },
       "μογιλάλων": {
         "transliteration": "mogilálōn",
         "cells": [
@@ -19767,10 +19644,9 @@
   },
   "μονόζωνος": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "2m",
-    "shortDefinition": "a lightly armed man; pl. a raiding band",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be lightly armed; lit. to be single-girded",
     "inflections": {
       "μονόζωνοι": {
         "transliteration": "monózōnoi",
@@ -20116,8 +19992,9 @@
   },
   "μονοφάγος": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a solitary eater, glutton",
+    "pos": "adj",
+    "declension": "2-2",
+    "shortDefinition": "to be eating alone; fig. to be gluttonous",
     "inflections": {
       "μονοφάγος": {
         "transliteration": "monophágos",
@@ -21197,19 +21074,6 @@
       }
     }
   },
-  "μυλών": {
-    "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "3-cons",
-    "shortDefinition": "a mill-house, grinding place",
-    "inflections": {
-      "μύλωνος": {
-        "transliteration": "mýlōnos",
-        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      }
-    }
-  },
   "μύλων": {
     "language": "greek",
     "pos": "noun",
@@ -21221,6 +21085,10 @@
       "μύλωνι": {
         "transliteration": "mýlōni",
         "cells": [{ "parse": ["noun", "dat", "sg", "masc"] }]
+      },
+      "μύλωνος": {
+        "transliteration": "mýlōnos",
+        "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
       }
     }
   },
@@ -22011,8 +21879,9 @@
   },
   "μωκός": {
     "language": "greek",
-    "pos": "noun",
-    "shortDefinition": "a jeerer, mocking person",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be mocking, jeering",
     "inflections": {
       "μωκός": {
         "transliteration": "mōkós",

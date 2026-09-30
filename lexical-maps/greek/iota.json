@@ -745,6 +745,18 @@
       }
     }
   },
+  "ιαμιν": {
+    "language": "greek",
+    "pos": "noun",
+    "declension": "indeclinable",
+    "shortDefinition": "an altar shovel",
+    "inflections": {
+      "ιαμιν": {
+        "transliteration": "iamin",
+        "cells": [{ "parse": ["noun", "indecl-other"] }]
+      }
+    }
+  },
   "Ιαμιν": {
     "language": "greek",
     "pos": "noun",
@@ -2091,10 +2103,8 @@
   },
   "ιγλααμ": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "neut",
-    "declension": "indeclinable",
-    "shortDefinition": "a carrying away (into exile)",
+    "pos": "verb",
+    "shortDefinition": "to exile, take into exile",
     "inflections": {
       "ιγλααμ": {
         "transliteration": "iglaam",
@@ -3843,7 +3853,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Jemuel; lit. Day of God",
+    "shortDefinition": "Jemuel, Hamul; lit. Day of God",
     "inflections": {
       "Ιεμουηλ": {
         "transliteration": "Iemouēl",
@@ -5546,28 +5556,6 @@
       }
     }
   },
-  "ἵημι": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "athematic",
-    "shortDefinition": "to send forth, let go",
-    "inflections": {
-      "ἧκε": {
-        "transliteration": "hē̂ke",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
-        ]
-      },
-      "ἧκεν": {
-        "transliteration": "hē̂ken",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "ind", "pers-3", "sg"] },
-          { "parse": ["verb", "perf", "act", "ind", "pers-3", "sg"] }
-        ]
-      }
-    }
-  },
   "Ιηου": {
     "language": "greek",
     "pos": "noun",
@@ -6349,15 +6337,7 @@
           { "parse": ["noun", "nom", "sg", "neut"] },
           { "parse": ["noun", "voc", "sg", "neut"] }
         ]
-      }
-    }
-  },
-  "ἱλαστήριος": {
-    "language": "greek",
-    "pos": "adj",
-    "declension": "2-2",
-    "shortDefinition": "to be reconciling, propitiatory",
-    "inflections": {
+      },
       "ἱλαστηρίου": {
         "transliteration": "hilastēríou",
         "cells": [
@@ -6750,10 +6730,6 @@
       "ιν": {
         "transliteration": "in",
         "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
-      },
-      "ἵν": {
-        "transliteration": "hín",
-        "cells": [{ "parse": ["noun", "indecl-other", "neut"] }]
       }
     }
   },
@@ -6763,6 +6739,7 @@
     "shortDefinition": "so that/then, in order that",
     "indices": { "strongs": "G2443" },
     "inflections": {
+      "ἵν": { "transliteration": "hín", "cells": [{ "parse": ["conj"] }] },
       "ἵνα": { "transliteration": "hína", "cells": [{ "parse": ["conj"] }] }
     }
   },
@@ -7064,7 +7041,7 @@
       }
     }
   },
-  "ἰός": {
+  "ἰός¹": {
     "language": "greek",
     "pos": "noun",
     "gender": "masc",
@@ -7083,7 +7060,16 @@
       "ἰοῦ": {
         "transliteration": "ioû",
         "cells": [{ "parse": ["noun", "gen", "sg", "masc"] }]
-      },
+      }
+    }
+  },
+  "ἰός²": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "masc",
+    "declension": "2m",
+    "shortDefinition": "an arrow",
+    "inflections": {
       "ἰούς": {
         "transliteration": "ioús",
         "cells": [{ "parse": ["noun", "acc", "pl", "masc"] }]
@@ -7900,7 +7886,7 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "indeclinable",
-    "shortDefinition": "Ira; lit. Wakefulness",
+    "shortDefinition": "Ira, Hirah; lit. Wakefulness",
     "inflections": {
       "Ιρας": {
         "transliteration": "Iras",
@@ -8026,13 +8012,16 @@
   },
   "Ισακίος": {
     "language": "greek",
-    "pos": "noun",
-    "declension": "indeclinable",
-    "shortDefinition": "Isaac; lit. Laughter, He Will Laugh",
+    "pos": "adj",
+    "declension": "2-1-2",
+    "shortDefinition": "to be Isaac’s",
     "inflections": {
       "Ισακίῳ": {
         "transliteration": "Isakíō",
-        "cells": [{ "parse": ["noun", "indecl-proper"] }]
+        "cells": [
+          { "parse": ["noun", "indecl-proper"] },
+          { "parse": ["adj", "dat", "sg", "masc"] }
+        ]
       }
     }
   },

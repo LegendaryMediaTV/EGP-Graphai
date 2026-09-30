@@ -764,10 +764,9 @@
   },
   "ῥακώδης": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "masc",
-    "declension": "1m-es",
-    "shortDefinition": "a ragged garment, rags",
+    "pos": "adj",
+    "declension": "3-3-es",
+    "shortDefinition": "to be ragged, tattered",
     "inflections": {
       "ῥακώδη": {
         "transliteration": "rhakṓdē",
@@ -2324,6 +2323,13 @@
         "transliteration": "rhē̂xon",
         "cells": [{ "parse": ["verb", "aor", "act", "imp", "pers-2", "sg"] }]
       },
+      "ῥήξω": {
+        "transliteration": "rhḗxō",
+        "cells": [
+          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
+          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
+        ]
+      },
       "ῥήξωσιν": {
         "transliteration": "rhḗxōsin",
         "cells": [{ "parse": ["verb", "aor", "act", "subj", "pers-3", "pl"] }]
@@ -2335,21 +2341,6 @@
       "ῥήσσω": {
         "transliteration": "rhḗssō",
         "cells": [{ "parse": ["verb", "pres", "act", "ind", "pers-1", "sg"] }]
-      }
-    }
-  },
-  "ῥηγνύω": {
-    "language": "greek",
-    "pos": "verb",
-    "conjugation": "thematic",
-    "shortDefinition": "to tear, burst, break (apart); fig. to break forth",
-    "inflections": {
-      "ῥήξω": {
-        "transliteration": "rhḗxō",
-        "cells": [
-          { "parse": ["verb", "aor", "act", "subj", "pers-1", "sg"] },
-          { "parse": ["verb", "fut", "act", "ind", "pers-1", "sg"] }
-        ]
       }
     }
   },
@@ -3774,16 +3765,17 @@
       }
     }
   },
-  "ῥύδη": {
+  "ῥύδην": {
     "language": "greek",
-    "pos": "noun",
-    "gender": "fem",
-    "declension": "1f-e",
-    "shortDefinition": "a headlong charge, rush",
+    "pos": "adv",
+    "shortDefinition": "violently, with a rush",
     "inflections": {
       "ῥύδην": {
         "transliteration": "rhýdēn",
-        "cells": [{ "parse": ["noun", "acc", "sg", "fem"] }]
+        "cells": [
+          { "parse": ["noun", "acc", "sg", "fem"] },
+          { "parse": ["adv"] }
+        ]
       }
     }
   },
@@ -4298,6 +4290,19 @@
       }
     }
   },
+  "ῥῦσις": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "3f-is",
+    "shortDefinition": "a delivering, rescue",
+    "inflections": {
+      "ῥύσεως": {
+        "transliteration": "rhýseōs",
+        "cells": [{ "parse": ["noun", "gen", "sg", "fem"] }]
+      }
+    }
+  },
   "ῥύστης": {
     "language": "greek",
     "pos": "noun",
@@ -4457,6 +4462,19 @@
       "Ρωμεμθι-ωδ": {
         "transliteration": "Rōmemthi-ōd",
         "cells": [{ "parse": ["noun", "indecl-proper", "masc"] }]
+      }
+    }
+  },
+  "ῥώμη": {
+    "language": "greek",
+    "pos": "noun",
+    "gender": "fem",
+    "declension": "1f-e",
+    "shortDefinition": "a strength, bodily power",
+    "inflections": {
+      "ῥώμῃ": {
+        "transliteration": "rhṓmē",
+        "cells": [{ "parse": ["noun", "dat", "sg", "fem"] }]
       }
     }
   },
