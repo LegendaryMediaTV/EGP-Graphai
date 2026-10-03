@@ -5,7 +5,6 @@
 <sup>2</sup> My brethren, count it all joy when ye fall into divers temptations;
 <sup>3</sup> knowing _this_, that the trying of your faith worketh patience.
 <sup>4</sup> But let patience have _her_ perfect work, that ye may be perfect and entire, wanting nothing.
-
 <sup>5</sup> If any of you lack wisdom, let him ask of God, that giveth to all _men_ liberally, and upbraideth not; and it shall be given him.
 <sup>6</sup> But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.
 <sup>7</sup> For let not that man think that he shall receive any thing of the Lord.

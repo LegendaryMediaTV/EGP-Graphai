@@ -4,6 +4,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a he",
+    "transliteration": "ē",
+    "pronunciation": "ay",
     "inflections": {
       "η": {
         "transliteration": "ē",
@@ -15,6 +17,8 @@
     "language": "greek",
     "pos": "prt",
     "shortDefinition": "or, than",
+    "transliteration": "ḗ",
+    "pronunciation": "AY",
     "indices": { "strongs": "G2228" },
     "inflections": {
       "η": { "transliteration": "ē", "cells": [{ "parse": ["prt"] }] },
@@ -25,6 +29,8 @@
     "language": "greek",
     "pos": "prt",
     "shortDefinition": "surely, truly",
+    "transliteration": "ē̂",
+    "pronunciation": "AY",
     "indices": { "strongs": "G2229" },
     "inflections": {
       "η": { "transliteration": "ē", "cells": [{ "parse": ["prt"] }] },
@@ -36,6 +42,7 @@
     "pos": "adj",
     "declension": "indeclinable",
     "shortDefinition": "to be eighth",
+    "transliteration": "ēʹ",
     "inflections": {
       "η": {
         "transliteration": "ē",
@@ -48,6 +55,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to be governor, rule (a province)",
+    "transliteration": "hēgemoneúō",
+    "pronunciation": "hay-geh-maw-NYOO-oh",
     "indices": { "strongs": "G2230" },
     "inflections": {
       "ἡγεμονεύοντος": {
@@ -63,6 +72,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a leadership, rule; fig. a chiefdom, regiment",
+    "transliteration": "hēgemonía",
+    "pronunciation": "hay-geh-maw-NEE-ah",
     "indices": { "strongs": "G2231" },
     "inflections": {
       "ἡγεμονία": {
@@ -95,6 +106,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "Hegemonides; lit. Son of a Leader",
+    "transliteration": "hēgemonídēs",
+    "pronunciation": "hay-geh-maw-NEE-days",
     "inflections": {
       "ἡγεμονίδην": {
         "transliteration": "hēgemonídēn",
@@ -106,6 +119,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be leading, ruling, princely",
+    "transliteration": "hēgemonikós",
+    "pronunciation": "hay-geh-maw-nee-KAWS",
     "inflections": {
       "ἡγεμονικάς": {
         "transliteration": "hēgemonikás",
@@ -130,6 +145,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a leader, governor, chief",
+    "transliteration": "hēgemṓn",
+    "pronunciation": "hay-geh-MOHN",
     "indices": { "strongs": "G2232" },
     "inflections": {
       "ἡγεμόνα": {
@@ -178,6 +195,8 @@
     "conjugation": "contract-e",
     "deponent": true,
     "shortDefinition": "to command; fig. to consider",
+    "transliteration": "hēgéomai",
+    "pronunciation": "hay-GEH-aw-mai",
     "indices": { "strongs": "G2233" },
     "inflections": {
       "ἡγεῖσθαι": {
@@ -496,6 +515,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a design, purpose",
+    "transliteration": "hḗgēma",
+    "pronunciation": "HAY-gay-mah",
     "inflections": {
       "ἥγημα": {
         "transliteration": "hḗgēma",
@@ -513,6 +534,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a leadership, command",
+    "transliteration": "hḗgēsis",
+    "pronunciation": "HAY-gay-sees",
     "inflections": {
       "ἡγήσεως": {
         "transliteration": "hēgḗseōs",
@@ -528,6 +551,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be reckoned, deemed",
+    "transliteration": "hēgētéon",
+    "pronunciation": "hay-gay-TEH-awn",
     "inflections": {
       "ἡγητέον": {
         "transliteration": "hēgētéon",
@@ -545,6 +570,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Edad",
+    "transliteration": "Ēdad",
+    "pronunciation": "ay-dahd",
     "inflections": {
       "Ηδαδ": {
         "transliteration": "Ēdad",
@@ -558,6 +585,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Iddo, Edos",
+    "transliteration": "Ēdais",
+    "pronunciation": "ay-dais",
     "inflections": {
       "Ηδαις": {
         "transliteration": "Ēdais",
@@ -570,6 +599,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Addan; lit. Firm",
+    "transliteration": "Ēdan",
+    "pronunciation": "ay-dahn",
     "inflections": {
       "Ηδαν": {
         "transliteration": "Ēdan",
@@ -581,6 +612,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "gladly, with pleasure",
+    "transliteration": "hēdéōs",
+    "pronunciation": "hay-DEH-ohs",
     "indices": { "strongs": ["G2234", "G2236"] },
     "inflections": {
       "ἡδέως": {
@@ -603,6 +636,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "even now, already",
+    "transliteration": "ḗdē",
+    "pronunciation": "AY-day",
     "indices": { "strongs": "G2235" },
     "inflections": {
       "ἤδη": { "transliteration": "ḗdē", "cells": [{ "parse": ["adv"] }] }
@@ -614,6 +649,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Adin; lit. Voluptuous",
+    "transliteration": "Ēdin",
+    "pronunciation": "ay-deen",
     "inflections": {
       "Ηδιν": {
         "transliteration": "Ēdin",
@@ -626,6 +663,8 @@
     "pos": "verb",
     "conjugation": "deponent",
     "shortDefinition": "to take pleasure in, enjoy",
+    "transliteration": "hḗdomai",
+    "pronunciation": "HAY-daw-mai",
     "inflections": {
       "ἥδεσθε": {
         "transliteration": "hḗdesthe",
@@ -661,6 +700,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a pleasure",
+    "transliteration": "hēdonḗ",
+    "pronunciation": "hay-daw-NAY",
     "indices": { "strongs": "G2237" },
     "inflections": {
       "ἡδοναῖς": {
@@ -701,6 +742,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to sweeten, make pleasant; refl. to be sweet, delight",
+    "transliteration": "hēdýnō",
+    "pronunciation": "hay-DOO-noh",
     "inflections": {
       "ἥδυναν": {
         "transliteration": "hḗdynan",
@@ -744,6 +787,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a mint",
+    "transliteration": "hēdýosmon",
+    "pronunciation": "hay-DOO-aws-mawn",
     "indices": { "strongs": "G2238" },
     "inflections": {
       "ἡδύοσμον": {
@@ -761,6 +806,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a luxury, pleasure-seeking",
+    "transliteration": "hēdypátheia",
+    "pronunciation": "hay-doo-PAH-thay-ah",
     "inflections": {
       "ἡδυπαθείας": {
         "transliteration": "hēdypatheías",
@@ -775,6 +822,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be sweet, pleasant",
+    "transliteration": "hēdýs",
+    "pronunciation": "hay-DOOS",
     "inflections": {
       "ἡδεῖ": {
         "transliteration": "hēdeî",
@@ -841,6 +890,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a spice, seasoning",
+    "transliteration": "hḗdysma",
+    "pronunciation": "HAY-doos-mah",
     "inflections": {
       "ἡδύσματα": {
         "transliteration": "hēdýsmata",
@@ -864,6 +915,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a sweet spice, sweetness",
+    "transliteration": "hēdysmós",
+    "pronunciation": "hay-doos-MAWS",
     "inflections": {
       "ἡδυσμοῦ": {
         "transliteration": "hēdysmoû",
@@ -875,6 +928,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be sweet-sounding, sweet-voiced",
+    "transliteration": "hēdýphōnos",
+    "pronunciation": "hay-DOO-foh-naws",
     "inflections": {
       "ἡδυφώνου": {
         "transliteration": "hēdyphṓnou",
@@ -891,6 +946,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a disaster",
+    "transliteration": "ēdō",
+    "pronunciation": "ay-doh",
     "inflections": {
       "ηδω": {
         "transliteration": "ēdō",
@@ -904,6 +961,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hezir",
+    "transliteration": "Ēzir",
+    "pronunciation": "ay-zeer",
     "inflections": {
       "Ηζιρ": {
         "transliteration": "Ēzir",
@@ -916,6 +975,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a heth",
+    "transliteration": "ēth",
+    "pronunciation": "ayth",
     "inflections": {
       "ηθ": {
         "transliteration": "ēth",
@@ -928,6 +989,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Etham; lit. Permanent",
+    "transliteration": "Ētham",
+    "pronunciation": "ay-thahm",
     "inflections": {
       "Ηθαμ": {
         "transliteration": "Ētham",
@@ -941,6 +1004,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hothir; lit. He Has Caused to Remain",
+    "transliteration": "Ēthir",
+    "pronunciation": "ay-theer",
     "inflections": {
       "Ηθιρ": {
         "transliteration": "Ēthir",
@@ -953,6 +1018,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to portray the character of, depict",
+    "transliteration": "ēthologéō",
+    "pronunciation": "ay-thaw-law-GEH-oh",
     "inflections": {
       "ἠθολογήσαιμι": {
         "transliteration": "ēthologḗsaimi",
@@ -966,6 +1033,8 @@
     "gender": "neut",
     "declension": "3n-es",
     "shortDefinition": "a character, disposition; fig. a custom, morals",
+    "transliteration": "ē̂thos",
+    "pronunciation": "AY-thaws",
     "indices": { "strongs": "G2239" },
     "inflections": {
       "ἤθη": {
@@ -996,6 +1065,8 @@
     "conjugation": "thematic",
     "stems": { "fut": "ηξ" },
     "shortDefinition": "to arrive; fig. to come",
+    "transliteration": "hḗkō",
+    "pronunciation": "HAY-koh",
     "indices": { "strongs": "G2240" },
     "inflections": {
       "ἥκαμεν": {
@@ -1169,6 +1240,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elah; lit. Oak",
+    "transliteration": "Ēla",
+    "pronunciation": "ay-lah",
     "inflections": {
       "Ηλα": {
         "transliteration": "Ēla",
@@ -1182,6 +1255,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elam; lit. Hidden",
+    "transliteration": "Ēlam",
+    "pronunciation": "ay-lahm",
     "inflections": {
       "Ηλαμ": {
         "transliteration": "Ēlam",
@@ -1195,6 +1270,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elam; lit. Hidden",
+    "transliteration": "Ēlam-aar",
+    "pronunciation": "ay-lahm ah-ahr",
     "inflections": {
       "Ηλαμ-ααρ": {
         "transliteration": "Ēlam-aar",
@@ -1208,6 +1285,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elam; lit. Hidden",
+    "transliteration": "Ēlam-ar",
+    "pronunciation": "ay-lahm ahr",
     "inflections": {
       "Ηλαμ-αρ": {
         "transliteration": "Ēlam-ar",
@@ -1221,6 +1300,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "an Elamite",
+    "transliteration": "Ēlamaîoi",
+    "pronunciation": "ay-lah-MAI-oy",
     "inflections": {
       "Ηλαμαῖοι": {
         "transliteration": "Ēlamaîoi",
@@ -1234,6 +1315,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elah; lit. Oak",
+    "transliteration": "Ēlas",
+    "pronunciation": "ay-lahs",
     "inflections": {
       "Ηλας": {
         "transliteration": "Ēlas",
@@ -1247,6 +1330,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Eleasah, Elasah; lit. God Has Made",
+    "transliteration": "Ēlasa",
+    "pronunciation": "ay-lah-sah",
     "inflections": {
       "Ηλασα": {
         "transliteration": "Ēlasa",
@@ -1260,6 +1345,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "an electrum (gold-silver alloy); trad. an amber",
+    "transliteration": "ēléktron",
+    "pronunciation": "ay-LEHK-trawn",
     "inflections": {
       "ἠλέκτρου": {
         "transliteration": "ēléktrou",
@@ -1271,6 +1358,8 @@
     "language": "greek",
     "pos": "hebrew",
     "shortDefinition": "my God!; trad. Eli!",
+    "transliteration": "ēlí",
+    "pronunciation": "ay-LEE",
     "indices": { "strongs": "G2241" },
     "inflections": {
       "ηλι": { "transliteration": "ēli", "cells": [{ "parse": ["hebrew"] }] },
@@ -1284,6 +1373,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Eli, Heli; lit. Lofty",
+    "transliteration": "Hēlí",
+    "pronunciation": "hay-LEE",
     "indices": { "strongs": "G2242" },
     "inflections": {
       "Ηλι": {
@@ -1306,6 +1397,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elijah, Eliah; lit. My God Is YHWH/Yahweh/Jehovah",
+    "transliteration": "Ēlia",
+    "pronunciation": "ay-lee-ah",
     "inflections": {
       "Ηλια": {
         "transliteration": "Ēlia",
@@ -1318,6 +1411,8 @@
     "pos": "verb",
     "conjugation": "deponent",
     "shortDefinition": "to be exposed to the sun",
+    "transliteration": "hēliázomai",
+    "pronunciation": "hay-lee-AH-zaw-mai",
     "inflections": {
       "ἡλιασθέντων": {
         "transliteration": "hēliasthéntōn",
@@ -1334,6 +1429,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Eliathah; lit. God of His Consent",
+    "transliteration": "Ēliatha",
+    "pronunciation": "ay-lee-ah-thah",
     "inflections": {
       "Ηλιαθα": {
         "transliteration": "Ēliatha",
@@ -1346,6 +1443,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Eliam",
+    "transliteration": "Ēliam",
+    "pronunciation": "ay-lee-ahm",
     "inflections": {
       "Ηλιαμ": {
         "transliteration": "Ēliam",
@@ -1359,6 +1458,8 @@
     "gender": "masc",
     "declension": "1m-as",
     "shortDefinition": "Elijah, Elias; lit. My God Is YHWH/Yahweh/Jehovah",
+    "transliteration": "Ēlías",
+    "pronunciation": "ay-LEE-ahs",
     "indices": { "strongs": "G2243" },
     "inflections": {
       "Ηλια": {
@@ -1406,6 +1507,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "an age, stature; fig. a maturity",
+    "transliteration": "hēlikía",
+    "pronunciation": "hay-lee-KEE-ah",
     "indices": { "strongs": "G2244" },
     "inflections": {
       "ἡλικία": {
@@ -1433,6 +1536,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "an age-mate, peer",
+    "transliteration": "hēlikiṓtēs",
+    "pronunciation": "hay-lee-kee-OH-tays",
     "inflections": {
       "ἡλικιώτης": {
         "transliteration": "hēlikiṓtēs",
@@ -1445,6 +1550,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "how great/small, as great as",
+    "transliteration": "hēlíkos",
+    "pronunciation": "hay-LEE-kaws",
     "indices": { "strongs": "G2245" },
     "inflections": {
       "ἡλίκην": {
@@ -1463,6 +1570,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "Heliodorus",
+    "transliteration": "Hēliódōros",
+    "pronunciation": "hay-lee-AW-doh-raws",
     "inflections": {
       "Ἡλιόδωρον": {
         "transliteration": "Hēliódōron",
@@ -1491,6 +1600,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "the sun",
+    "transliteration": "hḗlios",
+    "pronunciation": "HAY-lee-aws",
     "indices": { "strongs": "G2246" },
     "inflections": {
       "ἥλιον": {
@@ -1520,6 +1631,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Elijah; lit. My God Is YHWH/Yahweh/Jehovah",
+    "transliteration": "Ēliou",
+    "pronunciation": "ay-lee-oo",
     "inflections": {
       "Ηλιου": {
         "transliteration": "Ēliou",
@@ -1533,6 +1646,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Elkanah; lit. God Has Obtained",
+    "transliteration": "Ēlkana",
+    "pronunciation": "ayl-kah-nah",
     "inflections": {
       "Ηλκανα": {
         "transliteration": "Ēlkana",
@@ -1546,6 +1661,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a nail",
+    "transliteration": "hē̂los",
+    "pronunciation": "HAY-laws",
     "indices": { "strongs": "G2247" },
     "inflections": {
       "ἧλοι": {
@@ -1575,6 +1692,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Oak of Meonenim, Elon Meonenim; lit. Oak of Soothsayers",
+    "transliteration": "Ēlōnmaōnenim",
+    "pronunciation": "ay-lohn-mah-oh-neh-neem",
     "inflections": {
       "Ηλωνμαωνενιμ": {
         "transliteration": "Ēlōnmaōnenim",
@@ -1588,6 +1707,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Henadad, Emadabun; lit. Favor of Hadad",
+    "transliteration": "Ēmadaboun",
+    "pronunciation": "ay-mah-dah-boon",
     "inflections": {
       "Ημαδαβουν": {
         "transliteration": "Ēmadaboun",
@@ -1600,6 +1721,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Hamath; lit. Walled",
+    "transliteration": "Ēmath",
+    "pronunciation": "ay-mahth",
     "inflections": {
       "Ημαθ": {
         "transliteration": "Ēmath",
@@ -1613,6 +1736,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Mishraite",
+    "transliteration": "Ēmasaraïm",
+    "pronunciation": "ay-mah-sah-rah-eem",
     "inflections": {
       "Ημασαραιμ": {
         "transliteration": "Ēmasaraim",
@@ -1626,6 +1751,8 @@
     "gender": "fem",
     "declension": "1f-a",
     "shortDefinition": "a day; fig. a time period",
+    "transliteration": "hēméra",
+    "pronunciation": "hay-MEH-rah",
     "indices": { "strongs": "G2250" },
     "inflections": {
       "ἡμέρα": {
@@ -1669,6 +1796,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to be tamed, die down",
+    "transliteration": "hēmeróomai",
+    "pronunciation": "hay-meh-RAW-aw-mai",
     "inflections": {
       "ἡμεροῦτο": {
         "transliteration": "hēmeroûto",
@@ -1684,6 +1813,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be tame, gentle, civilized",
+    "transliteration": "hḗmeros",
+    "pronunciation": "HAY-meh-raws",
     "inflections": {
       "ἥμερα": {
         "transliteration": "hḗmera",
@@ -1709,6 +1840,8 @@
     "language": "greek",
     "pos": "pron-poss",
     "shortDefinition": "our(s)",
+    "transliteration": "hēméteros",
+    "pronunciation": "hay-MEH-teh-raws",
     "indices": { "strongs": "G2251" },
     "inflections": {
       "ἡμετέρα": {
@@ -1800,6 +1933,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Ami; lit. Builder",
+    "transliteration": "Ēmi",
+    "pronunciation": "ay-mee",
     "inflections": {
       "Ημι": {
         "transliteration": "Ēmi",
@@ -1811,6 +1946,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be half-boiled",
+    "transliteration": "hēmíephthos",
+    "pronunciation": "hay-MEE-ehf-thaws",
     "inflections": {
       "ἡμίεφθον": {
         "transliteration": "hēmíephthon",
@@ -1829,6 +1966,8 @@
     "pos": "adj",
     "declension": "3-3-es",
     "shortDefinition": "to be half dead",
+    "transliteration": "hēmithanḗs",
+    "pronunciation": "hay-mee-thah-NAYS",
     "indices": { "strongs": "G2253" },
     "inflections": {
       "ἡμιθανῆ": {
@@ -1848,6 +1987,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be half-dead, nearly dead",
+    "transliteration": "hēmíthnētos",
+    "pronunciation": "hay-MEETH-nay-taws",
     "inflections": {
       "ἡμίθνητος": {
         "transliteration": "hēmíthnētos",
@@ -1864,6 +2005,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Amon; lit. Builder",
+    "transliteration": "Ēmim",
+    "pronunciation": "ay-meem",
     "inflections": {
       "Ημιμ": {
         "transliteration": "Ēmim",
@@ -1875,6 +2018,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a mule",
+    "transliteration": "hēmíonos",
+    "pronunciation": "hay-MEE-aw-naws",
     "inflections": {
       "ἡμίονοι": {
         "transliteration": "hēmíonoi",
@@ -1928,6 +2073,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a half-share, half portion",
+    "transliteration": "hēmíseuma",
+    "pronunciation": "hay-MEE-syoo-mah",
     "inflections": {
       "ἡμίσευμα": {
         "transliteration": "hēmíseuma",
@@ -1948,6 +2095,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to halve, reach the half of",
+    "transliteration": "hēmiseúō",
+    "pronunciation": "hay-mee-SYOO-oh",
     "inflections": {
       "ἡμισεύσωσιν": {
         "transliteration": "hēmiseúsōsin",
@@ -1960,6 +2109,8 @@
     "pos": "adj",
     "declension": "3-1-3-us",
     "shortDefinition": "to be half",
+    "transliteration": "hḗmisys",
+    "pronunciation": "HAY-mee-soos",
     "indices": { "strongs": "G2255" },
     "inflections": {
       "ἡμίσει": {
@@ -2013,6 +2164,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a half-hour",
+    "transliteration": "hēmiṓrion",
+    "pronunciation": "hay-mee-OH-ree-awn",
     "indices": { "strongs": "G2256" },
     "inflections": {
       "ἡμιώριον": {
@@ -2031,6 +2184,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Henadad; lit. Favor of Hadad",
+    "transliteration": "Ēnadad",
+    "pronunciation": "ay-nah-dahd",
     "inflections": {
       "Ηναδαδ": {
         "transliteration": "Ēnadad",
@@ -2043,6 +2198,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "En Haddah; lit. Fountain of Sharpness",
+    "transliteration": "Ēnadda",
+    "pronunciation": "ay-nahd-dah",
     "inflections": {
       "Ηναδδα": {
         "transliteration": "Ēnadda",
@@ -2055,6 +2212,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Enam; lit. Double Fountain",
+    "transliteration": "Ēnaïm",
+    "pronunciation": "ay-nah-eem",
     "inflections": {
       "Ηναιμ": {
         "transliteration": "Ēnaim",
@@ -2068,6 +2227,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Anan; lit. Cloud",
+    "transliteration": "Ēnan",
+    "pronunciation": "ay-nahn",
     "inflections": {
       "Ηναν": {
         "transliteration": "Ēnan",
@@ -2080,6 +2241,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "En Gedi; lit. Fountain of a Kid",
+    "transliteration": "Ēngaddi",
+    "pronunciation": "ayn-gahd-dee",
     "inflections": {
       "Ηνγαδδι": {
         "transliteration": "Ēngaddi",
@@ -2092,6 +2255,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "En Gannim, Engannim; lit. Fountain of Gardens",
+    "transliteration": "Ēngannim",
+    "pronunciation": "ayn-gahn-neem",
     "inflections": {
       "Ηνγαννιμ": {
         "transliteration": "Ēngannim",
@@ -2103,6 +2268,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "Enia",
+    "transliteration": "Ēnia",
+    "pronunciation": "ay-nee-ah",
     "inflections": {
       "Ηνια": {
         "transliteration": "Ēnia",
@@ -2119,6 +2286,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a rein, bridle",
+    "transliteration": "hēnía",
+    "pronunciation": "hay-NEE-ah",
     "inflections": {
       "ἡνίαι": {
         "transliteration": "hēníai",
@@ -2137,6 +2306,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "at the time when, whenever",
+    "transliteration": "hēníka",
+    "pronunciation": "hay-NEE-kah",
     "indices": { "strongs": "G2259" },
     "inflections": {
       "ἡνίκα": { "transliteration": "hēníka", "cells": [{ "parse": ["adv"] }] }
@@ -2146,6 +2317,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a chariot driver, reinsman",
+    "transliteration": "hēníochos",
+    "pronunciation": "hay-NEE-aw-khaws",
     "inflections": {
       "ἡνιόχῳ": {
         "transliteration": "hēnióchō",
@@ -2161,6 +2334,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "En Rimmon; lit. Fountain of a Pomegranate",
+    "transliteration": "Ēnremmōn",
+    "pronunciation": "ayn-rehm-mohn",
     "inflections": {
       "Ηνρεμμων": {
         "transliteration": "Ēnremmōn",
@@ -2174,6 +2349,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a maw, fourth stomach",
+    "transliteration": "ḗnystron",
+    "pronunciation": "AY-noos-trawn",
     "inflections": {
       "ἔνυστρον": {
         "transliteration": "énystron",
@@ -2198,6 +2375,8 @@
     "pos": "noun",
     "gender": "neut",
     "shortDefinition": "a liver",
+    "transliteration": "hē̂par",
+    "pronunciation": "HAY-pahr",
     "inflections": {
       "ἧπαρ": {
         "transliteration": "hē̂par",
@@ -2225,6 +2404,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to inspect livers (for omens)",
+    "transliteration": "hēpatoskopéō",
+    "pronunciation": "hay-pah-taws-kaw-PEH-oh",
     "inflections": {
       "ἡπατοσκοπήσασθαι": {
         "transliteration": "hēpatoskopḗsasthai",
@@ -2236,6 +2417,8 @@
     "language": "greek",
     "pos": "prt",
     "shortDefinition": "than indeed, rather than",
+    "transliteration": "ḗper",
+    "pronunciation": "AY-pehr",
     "indices": { "strongs": "G2260" },
     "inflections": {
       "ἤπερ": { "transliteration": "ḗper", "cells": [{ "parse": ["prt"] }] }
@@ -2245,6 +2428,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be mild, kindly, gentle",
+    "transliteration": "ḗpios",
+    "pronunciation": "AY-pee-aws",
     "indices": { "strongs": "G2261" },
     "inflections": {
       "ἤπιοι": {
@@ -2266,6 +2451,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a mildness, kindliness",
+    "transliteration": "ēpiótēs",
+    "pronunciation": "ay-pee-AW-tays",
     "inflections": {
       "ἠπιότητος": {
         "transliteration": "ēpiótētos",
@@ -2279,6 +2466,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Er; lit. Watchful",
+    "transliteration": "Ḗr",
+    "pronunciation": "AYR",
     "indices": { "strongs": "G2262" },
     "inflections": {
       "Ηρ": {
@@ -2297,6 +2486,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Arah; lit. Wayfaring",
+    "transliteration": "Ēra",
+    "pronunciation": "ay-rah",
     "inflections": {
       "Ηρα": {
         "transliteration": "Ēra",
@@ -2310,6 +2501,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Arah; lit. Wayfaring",
+    "transliteration": "Ērae",
+    "pronunciation": "ay-rah-eh",
     "inflections": {
       "Ηραε": {
         "transliteration": "Ērae",
@@ -2323,6 +2516,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hercules, Heracles",
+    "transliteration": "Hēraklē̂s",
+    "pronunciation": "hay-rah-KLAYS",
     "inflections": {
       "Ἡρακλέους": {
         "transliteration": "Hērakléous",
@@ -2336,6 +2531,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Harim; lit. Snub-Nosed",
+    "transliteration": "Ēram",
+    "pronunciation": "ay-rahm",
     "inflections": {
       "Ηραμ": {
         "transliteration": "Ēram",
@@ -2349,6 +2546,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Harim; lit. Snub-Nosed",
+    "transliteration": "Ērem",
+    "pronunciation": "ay-rehm",
     "inflections": {
       "Ηρεμ": {
         "transliteration": "Ērem",
@@ -2361,6 +2560,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to be still, motionless; fig. to be stunned",
+    "transliteration": "ēremázō",
+    "pronunciation": "ay-reh-MAH-zoh",
     "inflections": {
       "ἠρεμάζων": {
         "transliteration": "ēremázōn",
@@ -2375,6 +2576,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be tranquil",
+    "transliteration": "ḗremos",
+    "pronunciation": "AY-reh-maws",
     "indices": { "strongs": "G2263" },
     "inflections": {
       "ἤρεμον": {
@@ -2389,6 +2592,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "Herod; lit. Heroic",
+    "transliteration": "Hērṓdēs",
+    "pronunciation": "hay-ROH-days",
     "indices": { "strongs": "G2264" },
     "inflections": {
       "Ἡρῴδῃ": {
@@ -2415,6 +2620,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a Herodian",
+    "transliteration": "Hērōdianós",
+    "pronunciation": "hay-roh-dee-ah-NAWS",
     "indices": { "strongs": "G2265" },
     "inflections": {
       "Ἡρῳδιανῶν": {
@@ -2429,6 +2636,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "Herodias; lit. Heroic",
+    "transliteration": "Hērōdiás",
+    "pronunciation": "hay-roh-dee-AHS",
     "indices": { "strongs": "G2266" },
     "inflections": {
       "Ἡρῳδιάδα": {
@@ -2451,6 +2660,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "Herodion; lit. Heroic",
+    "transliteration": "Hērōdíōn",
+    "pronunciation": "hay-roh-DEE-ohn",
     "indices": { "strongs": "G2267" },
     "inflections": {
       "Ἡροδίωνα": {
@@ -2469,6 +2680,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Addon; lit. Powerful",
+    "transliteration": "Ērōn",
+    "pronunciation": "ay-rohn",
     "inflections": {
       "Ηρων": {
         "transliteration": "Ērōn",
@@ -2482,6 +2695,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a hero, demigod",
+    "transliteration": "hḗrōs",
+    "pronunciation": "HAY-rohs",
     "inflections": {
       "ἡρώων": {
         "transliteration": "hērṓōn",
@@ -2495,6 +2710,8 @@
     "gender": "masc",
     "declension": "1m-as",
     "shortDefinition": "Isaiah, Esaias; lit. YH/Yah/Jah Has Saved",
+    "transliteration": "Ēsaḯas",
+    "pronunciation": "ay-sah-EE-ahs",
     "indices": { "strongs": "G2268" },
     "inflections": {
       "Ησαιαν": {
@@ -2529,6 +2746,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hashum; lit. Enriched",
+    "transliteration": "Ēsam",
+    "pronunciation": "ay-sahm",
     "inflections": {
       "Ησαμ": {
         "transliteration": "Ēsam",
@@ -2542,6 +2761,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Shumathite",
+    "transliteration": "Ēsamathim",
+    "pronunciation": "ay-sah-mah-theem",
     "inflections": {
       "Ησαμαθιμ": {
         "transliteration": "Ēsamathim",
@@ -2555,6 +2776,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Zorite",
+    "transliteration": "Ēsareï",
+    "pronunciation": "ay-sah-reh-ee",
     "inflections": {
       "Ησαρει": {
         "transliteration": "Ēsarei",
@@ -2568,6 +2791,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Esau; lit. Rough, Hairy",
+    "transliteration": "Ēsaû",
+    "pronunciation": "ay-SOW",
     "indices": { "strongs": "G2269" },
     "inflections": {
       "Ησαυ": {
@@ -2586,6 +2811,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hezro, Hezrai; lit. Enclosure",
+    "transliteration": "Ēserai",
+    "pronunciation": "ay-seh-rai",
     "inflections": {
       "Ησεραι": {
         "transliteration": "Ēserai",
@@ -2598,8 +2825,18 @@
     "pos": "adj",
     "declension": "comparative",
     "shortDefinition": "to be less, inferior, worse",
+    "transliteration": "hḗssōn",
+    "pronunciation": "HAYS-sohn",
     "indices": { "strongs": "G2276" },
     "inflections": {
+      "ἧσσον": {
+        "transliteration": "hē̂sson",
+        "cells": [
+          { "parse": ["adj", "acc", "sg", "neut"] },
+          { "parse": ["adj", "nom", "sg", "neut"] },
+          { "parse": ["adj", "voc", "sg", "neut"] }
+        ]
+      },
       "ἡσσόνων": {
         "transliteration": "hēssónōn",
         "cells": [
@@ -2665,6 +2902,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Jehiel, Esyelus; lit. God Will Live",
+    "transliteration": "Ēsyēlos",
+    "pronunciation": "ay-soo-ay-laws",
     "inflections": {
       "Ησυηλος": {
         "transliteration": "Ēsyēlos",
@@ -2677,6 +2916,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to keep still, cease; fig. to silence, rest",
+    "transliteration": "hēsycházō",
+    "pronunciation": "hay-soo-KHAH-zoh",
     "indices": { "strongs": "G2270" },
     "inflections": {
       "ἡσυχάζει": {
@@ -2786,6 +3027,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "quietly, softly",
+    "transliteration": "hēsychē̂",
+    "pronunciation": "hay-soo-KHAY",
     "inflections": {
       "ἡσυχῇ": { "transliteration": "hēsychē̂", "cells": [{ "parse": ["adv"] }] }
     }
@@ -2795,6 +3038,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a stillness, quiet, rest; fig. a silence",
+    "transliteration": "hēsychía",
+    "pronunciation": "hay-soo-KHEE-ah",
     "indices": { "strongs": "G2271" },
     "inflections": {
       "ἡσυχία": {
@@ -2819,6 +3064,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be still",
+    "transliteration": "hēsýchios",
+    "pronunciation": "hay-SOO-khee-aws",
     "indices": { "strongs": "G2272" },
     "inflections": {
       "ἡσύχιον": {
@@ -2835,6 +3082,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be quiet, calm",
+    "transliteration": "hḗsychos",
+    "pronunciation": "HAY-soo-khaws",
     "inflections": {
       "ἡσύχου": {
         "transliteration": "hēsýchou",
@@ -2859,6 +3108,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Etam; lit. Hawk-Ground",
+    "transliteration": "Ētam",
+    "pronunciation": "ay-tahm",
     "inflections": {
       "Ηταμ": {
         "transliteration": "Ētam",
@@ -2870,6 +3121,8 @@
     "language": "greek",
     "pos": "conj",
     "shortDefinition": "either (indeed), whether",
+    "transliteration": "ḗtoi",
+    "pronunciation": "AY-toy",
     "indices": { "strongs": "G2273" },
     "inflections": {
       "ἤτοι": { "transliteration": "ḗtoi", "cells": [{ "parse": ["conj"] }] }
@@ -2880,6 +3133,8 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "shortDefinition": "to defeat, vanquish; fig. to make inferior",
+    "transliteration": "hēttáō",
+    "pronunciation": "hayt-TAH-oh",
     "indices": { "strongs": "G2274" },
     "inflections": {
       "ἡττᾶσθε": {
@@ -2984,6 +3239,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a defeat, loss; fig. a failure",
+    "transliteration": "hḗttēma",
+    "pronunciation": "HAYT-tay-mah",
     "indices": { "strongs": "G2275" },
     "inflections": {
       "ἥττημα": {
@@ -3002,6 +3259,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hepher; lit. Pit of Shame",
+    "transliteration": "Ēphad",
+    "pronunciation": "ay-fahd",
     "inflections": {
       "Ηφαδ": {
         "transliteration": "Ēphad",
@@ -3015,6 +3274,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Echa",
+    "transliteration": "Ēcha",
+    "pronunciation": "ay-khah",
     "inflections": {
       "Ηχα": {
         "transliteration": "Ēcha",
@@ -3027,6 +3288,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to sound, resound, roar",
+    "transliteration": "ēchéō",
+    "pronunciation": "ay-KHEH-oh",
     "indices": { "strongs": "G2278" },
     "inflections": {
       "ἤχει": {
@@ -3115,6 +3378,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a sound, noise; fig. a report, fame",
+    "transliteration": "ē̂chos",
+    "pronunciation": "AY-khaws",
     "indices": { "strongs": "G2279" },
     "inflections": {
       "ἦχοι": {
@@ -3151,6 +3416,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "an echo, ringing sound",
+    "transliteration": "ēchṓ",
+    "pronunciation": "ay-KHOH",
     "inflections": {
       "ἠχοῦς": {
         "transliteration": "ēchoûs",

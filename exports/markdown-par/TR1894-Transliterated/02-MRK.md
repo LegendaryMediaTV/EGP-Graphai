@@ -118,7 +118,7 @@
 <sup>16</sup> kaì hoi grammateîs kaì hoi Pharisaîoi,<sup>p</sup> idóntes autòn esthíonta<sup>q</sup> metà tō̂n telōnō̂n kaì hamartōlō̂n,<sup>r</sup> élegon toîs mathētaîs autoû, Tí<sup>s</sup> hóti metà tō̂n telōnō̂n kaì hamartōlō̂n esthíei kaì pínei?<sup>t</sup>
 <sup>17</sup> kaì akoúsas ho Iēsoûs légei autoîs, Ou chreían échousin hoi ischýontes iatroû, all’ hoi kakō̂s échontes. ouk ē̂lthon kalésai dikaíous, allà hamartōloùs eis metánoian.<sup>u</sup>
 
-<sup>18</sup> Kaì ē̂san hoi mathētaì Iōánnou kaì hoi tō̂n Pharisaíōn<sup>v</sup> nēsteúontes; kaì érchontai kaì légousin autō̂, Διατί hoi mathētaì Iōánnou kaì hoi<sup>w</sup> tō̂n Pharisaíōn nēsteúousin, hoi dè soì mathētaì ou nēsteúousi?
+<sup>18</sup> Kaì ē̂san hoi mathētaì Iōánnou kaì hoi tō̂n Pharisaíōn<sup>v</sup> nēsteúontes; kaì érchontai kaì légousin autō̂, Diatí hoi mathētaì Iōánnou kaì hoi<sup>w</sup> tō̂n Pharisaíōn nēsteúousin, hoi dè soì mathētaì ou nēsteúousi?
 <sup>19</sup> kaì eîpen autoîs ho Iēsoûs, Mḕ dýnantai hoi hyioì toû nymphō̂nos, en hō̂ ho nymphíos met’ autō̂n esti, nēsteúein? hóson chrónon meth’ heautō̂n échousi tòn nymphíon, ou dýnantai nēsteúein;
 <sup>20</sup> eleúsontai dè hēmérai hótan aparthē̂ ap’ autō̂n ho nymphíos, kaì tóte nēsteúsousin en ekeínais taîs hēmérais.<sup>x</sup>
 
@@ -587,7 +587,7 @@ Kaì periē̂ge tàs kṓmas kýklō didáskōn.
 <sup>2</sup> kaì idóntes tinàs tō̂n mathētō̂n autoû<sup>a</sup> koinaîs chersí, toût’ éstin aníptois, esthíontas<sup>b</sup> ártous emémpsanto.<sup>c</sup>
 <sup>3</sup> hoi gàr Pharisaîoi kaì pántes hoi Ioudaîoi, eàn mḕ pygmē̂ nípsōntai tàs cheîras, ouk esthíousi, kratoûntes tḕn parádosin tō̂n presbytérōn;
 <sup>4</sup> kaì apò agorâs, eàn mḕ baptísōntai,<sup>d</sup> ouk esthíousi; kaì álla pollá estin hà parélabon krateîn, baptismoùs potēríōn kaì xestō̂n kaì chalkíōn kaì klinō̂n.<sup>e</sup>
-<sup>5</sup> épeita<sup>f</sup> eperōtō̂sin autòn hoi Pharisaîoi kaì hoi grammateîs, Διὰτι hoi mathētaí sou ou peripatoûsi katà tḕn parádosin tō̂n presbytérōn, allà aníptois<sup>g</sup> chersìn esthíousi tòn árton?
+<sup>5</sup> épeita<sup>f</sup> eperōtō̂sin autòn hoi Pharisaîoi kaì hoi grammateîs, Diàti hoi mathētaí sou ou peripatoûsi katà tḕn parádosin tō̂n presbytérōn, allà aníptois<sup>g</sup> chersìn esthíousi tòn árton?
 <sup>6</sup> ho dè apokritheìs<sup>h</sup> eîpen autoîs hóti Kalō̂s proephḗteusen Ēsaḯas perì hymō̂n tō̂n hypokritō̂n, hōs gégraptai, Hoûtos ho laòs toîs cheílesí me timâ, hē dè kardía autō̂n pórrō apéchei ap’ emoû.
 <sup>7</sup> mátēn dè sébontaí me, didáskontes didaskalías entálmata anthrṓpōn.
 <sup>8</sup> aphéntes gàr<sup>i</sup> tḕn entolḕn toû Theoû, krateîte tḕn parádosin tō̂n anthrṓpōn, baptismoùs xestō̂n kaì potēríōn; kaì álla parómoia toiaûta pollà poieîte.<sup>j</sup>
@@ -1030,7 +1030,7 @@ Kaì periē̂ge tàs kṓmas kýklō didáskōn.
 <sup>28</sup> kaì légousin<sup>an</sup> autō̂, En poía exousía taûta poieîs? kaì<sup>ao</sup> tís soi tḕn exousían taútēn édōken hína taûta poiē̂s?
 <sup>29</sup> ho dè Iēsoûs apokritheìs<sup>ap</sup> eîpen autoîs, Eperōtḗsō hymâs kagṑ<sup>aq</sup> héna lógon, kaì apokríthēté moi, kaì erō̂ hymîn en poía exousía taûta poiō̂.
 <sup>30</sup> tò báptisma<sup>ar</sup> Iōánnou ex ouranoû ē̂n, ḕ ex anthrṓpōn? apokríthēté moi.
-<sup>31</sup> kaì elogízonto<sup>as</sup> pròs heautoús, légontes, Eàn eípōmen, Ex ouranoû, ereî, Διατί oûn ouk episteúsate autō̂?
+<sup>31</sup> kaì elogízonto<sup>as</sup> pròs heautoús, légontes, Eàn eípōmen, Ex ouranoû, ereî, Diatí oûn ouk episteúsate autō̂?
 <sup>32</sup> all’ eàn<sup>at</sup> eípōmen, Ex anthrṓpōn,<sup>au</sup> ephoboûnto tòn laón; hápantes gàr eîchon tòn Iōánnēn, hóti óntōs<sup>av</sup> prophḗtēs ē̂n.
 <sup>33</sup> kaì apokrithéntes légousi tō̂ Iēsoû,<sup>aw</sup> Ouk oídamen. kaì ho Iēsoûs apokritheìs<sup>ax</sup> légei autoîs, Oudè egṑ légō hymîn en poía exousía taûta poiō̂.
 
@@ -1296,7 +1296,7 @@ Kaì periē̂ge tàs kṓmas kýklō didáskōn.
 
 <sup>17</sup> Kaì opsías genoménēs érchetai metà tō̂n dṓdeka.
 <sup>18</sup> kaì anakeiménōn autō̂n kaì esthióntōn, eîpen ho Iēsoûs, Amḕn légō hymîn, hóti heîs ex hymō̂n paradṓsei me, ho esthíōn met’ emoû.
-<sup>19</sup> hoi dè<sup>m</sup> ḗrxanto lypeîsthai, kaì légein autō̂ heîs kath’ heîs, Μή τι egṓ? kaì állos, Μή τι egṓ?<sup>n</sup>
+<sup>19</sup> hoi dè<sup>m</sup> ḗrxanto lypeîsthai, kaì légein autō̂ heîs kath’ heîs, Mḗ ti egṓ? kaì állos, Mḗ ti egṓ?<sup>n</sup>
 <sup>20</sup> ho dè apokritheìs<sup>o</sup> eîpen autoîs, Heîs ek tō̂n dṓdeka, ho embaptómenos met’ emoû eis tò tryblíon.
 <sup>21</sup> ho<sup>p</sup> mèn hyiòs toû anthrṓpou hypágei, kathṑs gégraptai perì autoû; ouaì dè tō̂<sup>q</sup> anthrṓpō ekeínō di’ hoû ho hyiòs toû anthrṓpou paradídotai; kalòn ē̂n autō̂ ei ouk egennḗthē ho ánthrōpos ekeînos.
 

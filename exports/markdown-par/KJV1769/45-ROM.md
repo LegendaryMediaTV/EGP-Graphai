@@ -109,7 +109,7 @@
 <sup>9</sup> What then? are we better _than they_? No, in no wise: for we have before proved<sup>a</sup> both Jews and Gentiles, that they are all under sin;
 <sup>10</sup> as it is written,<br>There is none righteous, no, not one:<br>
 <sup>11</sup> There is none that understandeth,<br>There is none that seeketh after God.<br>
-<sup>12</sup> They are all gone out of the way, they are together become unprofitable;<br>There is none that doeth good, no, not one.<br>
+<sup>12</sup> They are all gone out of the way, they are together become unprofitable;<br>There is none that doeth good, no, not one.
 <sup>13</sup> Their throat _is_ an open sepulchre;<br>With their tongues they have used deceit;<br>The poison of asps _is_ under their lips:<br>
 <sup>14</sup> Whose mouth _is_ full of cursing and bitterness:<br>
 <sup>15</sup> Their feet _are_ swift to shed blood:<br>
@@ -316,7 +316,6 @@
 <sup>23</sup> And not only _they_, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, _to wit_, the redemption of our body.
 <sup>24</sup> For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?
 <sup>25</sup> But if we hope for that we see not, _then_ do we with patience wait for _it_.
-
 <sup>26</sup> Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.
 <sup>27</sup> And he that searcheth the hearts knoweth what _is_ the mind of the Spirit, because<sup>g</sup> he maketh intercession for the saints according to _the will of_ God.
 <sup>28</sup> And we know that all things work together for good to them that love God, to them who are the called according to _his_ purpose.

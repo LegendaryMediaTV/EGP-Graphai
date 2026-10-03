@@ -250,8 +250,9 @@
 <sup>20</sup> Neither shalt thou bear false witness against thy neighbour.
 
 <sup>21</sup> Neither shalt thou desire thy neighbour’s wife, neither shalt thou covet thy neighbour’s house, his field, or his manservant, or his maidservant, his ox, or his ass, or any _thing_ that _is_ thy neighbour’s.
+<sup>22</sup>
 
-<sup>22</sup> These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.
+These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.
 <sup>23</sup> And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, _even_ all the heads of your tribes, and your elders;
 <sup>24</sup> and ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.
 <sup>25</sup> Now therefore why should we die? for this great fire will consume us: if we hear<sup>b</sup> the voice of the LORD our God any more, then we shall die.

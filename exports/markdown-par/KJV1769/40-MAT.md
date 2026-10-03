@@ -604,7 +604,9 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 
 ## Chapter 13
 
-<sup>1</sup> The same day went Jesus out of the house, and sat by the sea side.
+<sup>1</sup>
+
+The same day went Jesus out of the house, and sat by the sea side.
 <sup>2</sup> And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.
 
 ### The Sower
@@ -1120,10 +1122,11 @@ _his_ mother and his brethren stood without, desiring to speak with him.
 <sup>20</sup> And he saith unto them, Whose _is_ this image and superscription?<sup>b</sup>
 <sup>21</sup> They say unto him, Cæsar’s. Then saith he unto them, Render therefore unto Cæsar the things which are Cæsar’s; and unto God the things that are God’s.
 <sup>22</sup> When they had heard _these words_, they marvelled, and left him, and went their way.
+<sup>23</sup>
 
 ### Silencing the Sadducees
 
-<sup>23</sup> The same day came to him the Sadducees, which say that there is no resurrection, and asked him,
+The same day came to him the Sadducees, which say that there is no resurrection, and asked him,
 <sup>24</sup> saying, Master, Moses said, If a man die, having no children, his brother shall marry his wife, and raise up seed unto his brother.
 <sup>25</sup> Now there were with us seven brethren: and the first, when he had married a wife, deceased, and, having no issue, left his wife unto his brother:
 <sup>26</sup> likewise the second also, and the third, unto the seventh.

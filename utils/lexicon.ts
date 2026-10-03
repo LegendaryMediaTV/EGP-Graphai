@@ -25,7 +25,11 @@ import path from "path";
 import { accountsFor, decodeMorph, readScheme } from "./morphology";
 import { spellingsOf, tokensOf } from "./punctuation";
 
-/** Directory holding one subdirectory per language codex. */
+/**
+ * Directory holding one subdirectory per language codex, relative to the repo
+ * root, which is where every script here is run from. Run from anywhere else,
+ * the codex loads empty and every lookup declines.
+ */
 const lexicalMapsDir = "./lexical-maps";
 
 /**
@@ -83,6 +87,24 @@ export interface TransliterationTable {
   upsilonInDiphthong: string;
   /** What a rough breathing becomes. */
   aspirate: string;
+}
+
+/** A language registry's `pronunciation` block, the table {@link pronounce} reads. */
+export interface PronunciationTable {
+  /** Base vowel to its respelling, e.g. `η` -> `ay`. */
+  vowels: Record<string, string>;
+  /** Vowel pair read as one sound to its respelling, e.g. `ου` -> `oo`. */
+  diphthongs: Record<string, string>;
+  /** Base consonant to its respelling, e.g. `χ` -> `kh`. */
+  consonants: Record<string, string>;
+  /** Letters a gamma reads as a nasal before. */
+  velars: string[];
+  /** What that nasal gamma becomes. */
+  gammaNasal: string;
+  /** What a rough breathing becomes, written before its vowel. */
+  aspirate: string;
+  /** Consonant clusters that can begin a syllable, e.g. `στρ`. */
+  onsets: string[];
 }
 
 /** What the codex holds under one spelling, for one cell of one root. */
@@ -146,6 +168,8 @@ interface LanguageFacts {
   script: string | null;
   /** The transliteration table, or null when the registry declares none. */
   transliteration: TransliterationTable | null;
+  /** The pronunciation table, or null when the registry declares none. */
+  pronunciation: PronunciationTable | null;
   /** Inflection code to the category it belongs to, e.g. `nom` -> `case`. */
   categoryOf: Map<string, string>;
 }
@@ -207,9 +231,24 @@ function languageFacts(): Map<string, LanguageFacts> {
           }
         : null;
 
+    const spoken = registry.pronunciation;
+    const pronunciation: PronunciationTable | null =
+      spoken?.vowels && spoken?.diphthongs && spoken?.consonants && spoken?.onsets
+        ? {
+            vowels: spoken.vowels,
+            diphthongs: spoken.diphthongs,
+            consonants: spoken.consonants,
+            velars: spoken.velars ?? [],
+            gammaNasal: spoken.gammaNasal ?? "n",
+            aspirate: spoken.aspirate ?? "h",
+            onsets: spoken.onsets,
+          }
+        : null;
+
     registries.set(language, {
       script: registry.script ?? null,
       transliteration,
+      pronunciation,
       categoryOf,
     });
   }
@@ -244,6 +283,17 @@ export function transliterationTable(
   language: string,
 ): TransliterationTable | null {
   return languageFacts().get(language)?.transliteration ?? null;
+}
+
+/**
+ * One language's pronunciation table, or null when its registry declares none.
+ *
+ * @param language Subdirectory of `lexical-maps`, e.g. `"greek"`.
+ */
+export function pronunciationTable(
+  language: string,
+): PronunciationTable | null {
+  return languageFacts().get(language)?.pronunciation ?? null;
 }
 
 /**
@@ -491,6 +541,136 @@ export function entriesFor(spelling: string): CodexEntry[] {
  */
 const titleCase = (latin: string) =>
   latin.charAt(0).toUpperCase() + latin.slice(1);
+
+/** Accents that mark the stressed syllable: acute, grave and circumflex. */
+const STRESS_MARKS = new Set([ACUTE, GRAVE, "͂"]);
+/** A diaeresis, which keeps two vowels from reading as a diphthong. */
+const DIAERESIS = "̈";
+
+/** One sound in a word being respelled: a vowel or diphthong, or a consonant. */
+interface Sound {
+  vowel: boolean;
+  /** The letters, lower-cased and unmarked, e.g. `ου`. */
+  letters: string;
+  respelling: string;
+  stressed: boolean;
+}
+
+/**
+ * How a word or phrase is said, respelled for English readers from the
+ * registry's `pronunciation` table: syllables joined by hyphens, the stressed
+ * syllable in capitals. `ἀγάπη` is `ah-GAH-pay`.
+ *
+ * A phrase is said word by word, and a hyphenated name is two words, so both
+ * come back joined by a space: a hyphen already means a syllable break.
+ *
+ * Syllables are broken where speech breaks them, not where a scribe divides a
+ * word at the end of a line. One consonant between two vowels begins the next
+ * syllable. A longer run gives the next syllable the longest cluster the table
+ * lists as an onset, and anything left closes the one before. The Greek table
+ * lists only a stop before λ or ρ, the one kind of cluster verse lets begin a
+ * syllable, so `πατρός` is `pah-TRAWS` but `βαπτίζω` is `bahp-TEE-zoh`.
+ *
+ * @param text A word or phrase, with no homograph superscript.
+ * @param table The language registry's pronunciation table.
+ * @returns The respelling, or null when the text holds a character the table
+ *   cannot say, such as the keraia that turns a letter into a numeral (`αʹ`).
+ */
+export function pronounce(
+  text: string,
+  table: PronunciationTable,
+): string | null {
+  const words = text.split(/[\s-]+/).filter(Boolean);
+  const said = words.map((word) => pronounceWord(word, table));
+  return said.every((word) => word !== null) ? said.join(" ") : null;
+}
+
+/** {@link pronounce} for one word. */
+function pronounceWord(word: string, table: PronunciationTable): string | null {
+  const letters: { base: string; marks: string[] }[] = [];
+  for (const ch of word.normalize("NFD").toLowerCase()) {
+    if (/\p{M}/u.test(ch)) letters[letters.length - 1]?.marks.push(ch);
+    else letters.push({ base: ch, marks: [] });
+  }
+
+  const sounds: Sound[] = [];
+  for (let i = 0; i < letters.length; i++) {
+    const { base, marks } = letters[i];
+    const next = letters[i + 1];
+    const pair = base + (next?.base ?? "");
+    if (table.diphthongs[pair] && !next.marks.includes(DIAERESIS)) {
+      const all = [...marks, ...next.marks];
+      const rough = all.includes(ROUGH);
+      sounds.push({
+        vowel: true,
+        letters: pair,
+        respelling: (rough ? table.aspirate : "") + table.diphthongs[pair],
+        stressed: all.some((mark) => STRESS_MARKS.has(mark)),
+      });
+      i++;
+    } else if (table.vowels[base]) {
+      const rough = marks.includes(ROUGH);
+      sounds.push({
+        vowel: true,
+        letters: base,
+        respelling: (rough ? table.aspirate : "") + table.vowels[base],
+        stressed: marks.some((mark) => STRESS_MARKS.has(mark)),
+      });
+    } else if (table.consonants[base]) {
+      const nasal = base === "γ" && next && table.velars.includes(next.base);
+      sounds.push({
+        vowel: false,
+        letters: base,
+        respelling: nasal ? table.gammaNasal : table.consonants[base],
+        stressed: false,
+      });
+    } else return null;
+  }
+
+  const onsets = new Set(table.onsets);
+  const syllables: Sound[][] = [];
+  let syllable: Sound[] = [];
+  let i = 0;
+  while (i < sounds.length) {
+    if (!sounds[i].vowel) {
+      syllable.push(sounds[i++]);
+      continue;
+    }
+    syllable.push(sounds[i++]);
+
+    let end = i;
+    while (end < sounds.length && !sounds[end].vowel) end++;
+    const run = sounds.slice(i, end);
+    // Consonants ending the word belong to its last syllable.
+    if (end === sounds.length) {
+      syllable.push(...run);
+      i = end;
+      continue;
+    }
+
+    let split = Math.max(run.length - 1, 0);
+    for (let s = 0; s < run.length - 1; s++) {
+      if (onsets.has(run.slice(s).map((sound) => sound.letters).join(""))) {
+        split = s;
+        break;
+      }
+    }
+    syllable.push(...run.slice(0, split));
+    syllables.push(syllable);
+    syllable = run.slice(split);
+    i = end;
+  }
+  if (syllable.length) syllables.push(syllable);
+
+  return syllables
+    .map((sounds) => {
+      const respelled = sounds.map((sound) => sound.respelling).join("");
+      return sounds.some((sound) => sound.stressed)
+        ? respelled.toUpperCase()
+        : respelled;
+    })
+    .join("-");
+}
 
 /**
  * The academic transliteration of one word, from the registry's own table.
@@ -804,7 +984,10 @@ export function resolveLemma(word: {
  *    parse or spelling of a root takes a finer number than the root does.
  *    Their **distinct numbers** are collected rather than their matches: two
  *    rules differing only in a grave for an acute both match one node, and
- *    counting matches calls that a conflict 386 times across LXX1935.
+ *    counting matches calls that a conflict 386 times across LXX1935. A rule
+ *    naming a spelling outranks one naming only parse codes, since it states
+ *    an exception to the parse rule: λέγω's aorist passive is G4483 because
+ *    its forms are built on ῥη-, but λεχθέντα is built on λεγ- and is G3004.
  * 2. **The number the codex places on the cell itself**, for a root whose
  *    numbers no rule distributes. This is the same claim as a rule from the
  *    other side of the import, and where both speak they agree.
@@ -841,7 +1024,9 @@ export function resolveStrongs(word: {
       return false;
     return true;
   });
-  const placed = [...new Set(matched.map((rule) => rule.n))].sort();
+  const bySpelling = matched.filter((rule) => rule.spelling);
+  const decisive = bySpelling.length ? bySpelling : matched;
+  const placed = [...new Set(decisive.map((rule) => rule.n))].sort();
   if (placed.length === 1) return { strong: placed[0] };
   if (placed.length > 1)
     return { unresolved: `conflicting index rules: ${placed.join(", ")}` };

@@ -403,7 +403,7 @@
 
 <sup>30</sup> Tí oûn eroûmen? hóti éthnē tà mḕ diṓkonta dikaiosýnēn, katélabe dikaiosýnēn, dikaiosýnēn dè tḕn ek písteōs;
 <sup>31</sup> Israḕl dé, diṓkōn nómon dikaiosýnēs, eis nómon dikaiosýnēs<sup>l</sup> ouk éphthase.
-<sup>32</sup> διατί; hóti ouk ek písteōs, all’ hōs ex érgōn nómou;<sup>m</sup><sup>n</sup> prosékopsan gàr<sup>o</sup> tō̂ líthō toû proskómmatos,
+<sup>32</sup> diatí? hóti ouk ek písteōs, all’ hōs ex érgōn nómou;<sup>m</sup><sup>n</sup> prosékopsan gàr<sup>o</sup> tō̂ líthō toû proskómmatos,
 <sup>33</sup> kathṑs gégraptai, Idoù títhēmi en Siṑn líthon proskómmatos kaì pétran skandálou; kaì pâs<sup>p</sup> ho pisteúōn ep’ autō̂ ou kataischynthḗsetai.
 
 > - <sup>a</sup> 3. autòs egṑ anáthema eînai ¦ RV anáthema eînai autòs egṑ

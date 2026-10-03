@@ -57,16 +57,28 @@ A registry entry decides its own typography, and the markdown exporter honors it
 Three lexical pointers can attach to any text object or nested wrapper:
 
 - **Strong's number**: concordance ID matching `^[GH][0-9]{1,4}$`. `G` for New Testament Greek, `H` for Hebrew/Aramaic Old Testament. The web reader turns these into outbound links to the EGP lexicon site.
-- **Morphology**: parsing code (Robinson/Packard format for Greek, OSHB-style for Hebrew). Format is intentionally not validated; different translations use different code systems.
+- **Morphology**: parsing code (Robinson/Packard format for Greek, OSHB-style for Hebrew). It belongs on source-language words only; see [Strong's numbers in a translation](#strongs-numbers-in-a-translation) for why a translation's words carry none.
 - **Lemma**: dictionary form in the original script. Useful when the lemma differs from the surface form (which it almost always does in Greek/Hebrew).
 
 These three are independent. A node can have any subset. Toggles in the reader let students show or hide each independently.
 
 **Where a missing one comes from.** `npm run validate` fills in whichever of the two a script-tagged word node is missing, in one pass over the tree.
 
-A `lemma` is resolved for a node that carries a morphology code and none of its own — nearly every word of BYZ2026, which arrived with Strong's numbers and no lemmas — by narrowing the roots the codex holds for the printed spelling, first by the parse the morph code states, then by the Strong's number the node already carries. A spelling two dictionary entries still share after both is reported and left blank rather than guessed at, which is a handful of nodes, almost all of them `ἄρα` against `ἆρα`.
+A `lemma` is resolved for a node that carries a morphology code and none of its own — nearly every word of BYZ2026, which arrived with Strong's numbers and no lemmas — by narrowing the roots the codex holds for the printed spelling, first by the parse the morph code states, then by the Strong's number the node already carries. A spelling two dictionary entries still share after both is reported and left blank rather than guessed at.
 
 A `strong` is resolved from that lemma for a node carrying no number of its own — most of LXX1935, which arrived with lemmas and morphology and no Strong's numbers — through the index's placement rules, the number the codex puts on the cell itself, and the root's own single number, in that order. The remainder are almost entirely roots the index has no number for at all, which is what makes this "where available" rather than a gap to close. See [lexical-map.md](lexical-map.md).
+
+### Strong's numbers in a translation
+
+A translation's `strong` says which source word an English word renders. The site searches Strong's numbers one verse at a time across every translation and shows a word's lexicon entry on hover, so a number on the wrong word sends a reader to the wrong entry, and a word left untagged is a word the reader cannot look up. The rules below serve both uses.
+
+- **One node per rendering.** A text object, or a nested wrapper around a phrase, covers exactly the English that renders one source word. English that renders nothing sits outside it as a plain string. A node that folds untagged words into a tagged one ("in Him shall not perish" carrying only the number for "perish") is split.
+- **Every rendered word is tagged, function words included.** "the", "and", "in" and "him" carry a number whenever a source word stands behind them. Words the translation supplies with no source word behind them ("do", "shall", italicized additions) carry none. Tagging only the words judged important leaves out data a reader would have used.
+- **Greek numbers follow the lexical map.** A Greek word's number is the one the map gives its parse, so "me" is G1698 where the Greek is ἐμοί and "is" is G2076 where it is ἐστί, as in the Greek texts themselves. Search can fold these to the lemma's main number; nothing can recover the finer number from the main one.
+- **One English word for two source words carries both numbers.** Where the English splits ("can not"), each part takes its own number. Where it does not ("cannot"), the word takes the first number and a text-less node right after it takes the second, so `strong` stays a single string.
+- **An untranslated source word is a text-less node** (`{ "strong": "H853" }`) in source order. Search sees the number; a reader sees nothing to hover. The Greek article (G3588) and καί (G2532) are the exception: Greek uses both far more than English renders them, so they appear only on an English word that renders them and are never text-less nodes.
+- **No morphology on a translation's words.** A tense, voice and mood code on an English word, with no person or number, invites a reader to translate from the English. The source-language texts carry full morphology, which is where it belongs.
+- **The text base decides validity.** A number on a reading the translation follows (the longer ending of Mark, 616 for 666, a Septuagint reading in the Old Testament) is correct for that translation even where another source text lacks it. A number is checked against the source text the translation follows, not against whichever one happens to be at hand.
 
 **An existing value is never rewritten.** This is the difference between an annotation and a transliteration. A `lemma` or a `strong` a version already carries can hold a disambiguation a person made from the surrounding sentence, which no function can re-derive from the word alone, so validate writes only where the field is absent and reports a disagreement instead of repairing it. A `transliteration` has exactly one right answer given the text, so it is recomputed and overwritten on every run. The single hand-edit that survives a run is a node storing its own `text` verbatim, which marks a form that does not romanize at all — see below.
 

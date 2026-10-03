@@ -229,7 +229,7 @@
 
 <sup>23</sup> Apolythéntes dè ē̂lthon pròs toùs idíous, kaì apḗngeilan hósa pròs autoùs hoi archiereîs kaì hoi presbýteroi eîpon.
 <sup>24</sup> hoi dè akoúsantes homothymadòn ē̂ran phōnḕn pròs tòn Theón, kaì eîpon, Déspota, sỳ ho Theòs<sup>n</sup> ho poiḗsas tòn ouranòn kaì tḕn gē̂n kaì tḕn thálassan kaì pánta tà en autoîs;
-<sup>25</sup> ho<sup>o</sup> dià stómatos<sup>p</sup> Dabìd toû<sup>q</sup> paidós sou eipṓn, Ἱνατί ephrýaxan éthnē, kaì laoì emelétēsan kená?
+<sup>25</sup> ho<sup>o</sup> dià stómatos<sup>p</sup> Dabìd toû<sup>q</sup> paidós sou eipṓn, Hinatí ephrýaxan éthnē, kaì laoì emelétēsan kená?
 <sup>26</sup> paréstēsan hoi basileîs tē̂s gē̂s, kaì hoi árchontes synḗchthēsan epì tò autò katà toû Kyríou, kaì katà toû Christoû autoû;
 <sup>27</sup> synḗchthēsan gàr ep’ alētheías<sup>r</sup> epì tòn hágion paîdá sou Iēsoûn, hòn échrisas, Hērṓdēs te kaì Póntios Pilátos, sỳn éthnesi kaì laoîs Israḗl,
 <sup>28</sup> poiē̂sai hósa hē cheír sou kaì hē boulḗ sou proṓrise genésthai.
@@ -275,7 +275,7 @@
 
 <sup>1</sup> Anḕr dé tis Ananías onómati, sỳn Sappheírē tē̂ gynaikì autoû, epṓlēse ktē̂ma,
 <sup>2</sup> kaì enosphísato apò tē̂s timē̂s, syneidyías kaì tē̂s gynaikòs autoû,<sup>a</sup> kaì enénkas méros ti parà toùs pódas tō̂n apostólōn éthēken.
-<sup>3</sup> eîpe dè Pétros, Ananía, διατί eplḗrōsen ho Satanâs tḕn kardían sou, pseúsasthaí se tò Pneûma tò Hágion, kaì nosphísasthai apò tē̂s timē̂s toû chōríou?
+<sup>3</sup> eîpe dè Pétros, Ananía, diatí eplḗrōsen ho Satanâs tḕn kardían sou, pseúsasthaí se tò Pneûma tò Hágion, kaì nosphísasthai apò tē̂s timē̂s toû chōríou?
 <sup>4</sup> ouchì ménon soì émene, kaì prathèn en tē̂ sē̂ exousía hypē̂rche? tí hóti éthou en tē̂ kardía sou tò prâgma toûto? ouk epseúsō anthrṓpois, allà tō̂ Theō̂.
 <sup>5</sup> akoúōn dè Ananías toùs lógous toútous, pesṑn exépsyxe; kaì egéneto phóbos mégas epì pántas toùs akoúontas taûta.<sup>b</sup>
 <sup>6</sup> anastántes dè hoi neṓteroi synésteilan autón, kaì exenénkantes éthapsan.
@@ -415,7 +415,7 @@ paragenómenos dè ho archiereùs kaì hoi sỳn autō̂, synekálesan tò syné
 <sup>23</sup> hōs dè eplēroûto autō̂ tessarakontaetḕs chrónos, anébē epì tḕn kardían autoû episképsasthai toùs adelphoùs autoû toùs hyioùs Israḗl.
 <sup>24</sup> kaì idṓn tina adikoúmenon, ēmýnato kaì epoíēsen ekdíkēsin tō̂ kataponouménō, patáxas tòn Aigýption;
 <sup>25</sup> enómize dè syniénai toùs adelphoùs autoû<sup>q</sup> hóti ho Theòs dià cheiròs autoû dídōsin autoîs sōtērían;<sup>r</sup> hoi dè ou synē̂kan.
-<sup>26</sup> tē̂ dè<sup>s</sup> epioúsē hēméra ṓphthē autoîs machoménois, kaì synḗlasen<sup>t</sup> autoùs eis eirḗnēn, eipṓn, Ándres, adelphoí este hymeîs;<sup>u</sup> ἱνατί adikeîte allḗlous?
+<sup>26</sup> tē̂ dè<sup>s</sup> epioúsē hēméra ṓphthē autoîs machoménois, kaì synḗlasen<sup>t</sup> autoùs eis eirḗnēn, eipṓn, Ándres, adelphoí este hymeîs;<sup>u</sup> hinatí adikeîte allḗlous?
 <sup>27</sup> ho dè adikō̂n tòn plēsíon apṓsato autón, eipṓn, Tís se katéstēsen árchonta kaì dikastḕn eph’ hēmâs?<sup>v</sup>
 <sup>28</sup> mḕ aneleîn me sỳ théleis, hòn trópon aneîles chthès tòn Aigýption?
 <sup>29</sup> éphyge dè Mōsē̂s en tō̂ lógō toútō, kaì egéneto pároikos en gē̂ Madiám, hoû egénnēsen hyioùs dýo.
@@ -1992,7 +1992,7 @@ Tē̂ dè epaúrion ho Pétros<sup>y</sup> exē̂lthe sỳn autoîs, kaí tines 
 <sup>39</sup> hóte dè hēméra egéneto, tḕn gē̂n ouk epegínōskon; kólpon dé tina katenóoun échonta aigialón, eis hòn ebouleúsanto,<sup>x</sup> ei dýnainto, exō̂sai<sup>y</sup> tò ploîon.
 <sup>40</sup> kaì tàs ankýras perielóntes eíōn eis tḕn thálassan, háma anéntes tàs zeuktērías tō̂n pēdalíōn; kaì epárantes tòn artémona tē̂ pneoúsē kateîchon eis tòn aigialón.
 <sup>41</sup> peripesóntes dè eis tópon dithálasson epṓkeilan<sup>z</sup> tḕn naûn; kaì hē mèn prṓra ereísasa émeinen asáleutos, hē dè prýmna elýeto hypò tē̂s bías tō̂n kymátōn.<sup>aa</sup>
-<sup>42</sup> tō̂n dè stratiōtō̂n boulḕ egéneto hína toùs desmṓtas apokteínōsi, μήτις ekkolymbḗsas diaphýgoi.
+<sup>42</sup> tō̂n dè stratiōtō̂n boulḕ egéneto hína toùs desmṓtas apokteínōsi, mḗtis ekkolymbḗsas diaphýgoi.
 <sup>43</sup> ho dè hekatóntarchos, boulómenos diasō̂sai tòn Paûlon, ekṓlysen autoùs toû boulḗmatos, ekéleusé te toùs dynaménous kolymbân aporrípsantas prṓtous epì tḕn gē̂n exiénai;
 <sup>44</sup> kaì toùs loipoús, hoùs mèn epì sanísin, hoùs dè epí tinōn tō̂n apò toû ploíou. kaì hoútōs egéneto pántas diasōthē̂nai epì tḕn gē̂n.
 

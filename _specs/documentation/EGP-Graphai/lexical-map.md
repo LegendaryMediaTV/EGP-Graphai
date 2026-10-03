@@ -354,6 +354,8 @@ A frozen case form is not a root. πρῶτον used adverbially is the accusati
 
 A fixed name or phrase that Strong's numbers as one entry is the one kind of root that spans more than one word. Ἄρειος Πάγος holds Ἀρείου and Πάγου, and μαρὰν ἀθά holds μαράν and ἀθά, each under the one root and its one number.
 
+The reverse case is a single printed word that Strong's numbers as two entries. The edition's word division stands, so the word keeps one root, and that root carries every number Strong's gives its parts. Some editions print twenty-three as one word, εἰκοσιτρεῖς, which Strong's files as εἴκοσι (G1501) and τρεῖς (G5140), so the root εἰκοσιτρεῖς carries both. In the corpus, the word takes the first number and its parse, and the second number follows on a node with no text, the same layout a second reading uses.
+
 Index entries do not line up with this, and they are not meant to. A concordance gives πρῶτον its own number because the adverbial use earns an entry, and gives δεύτερον none because it does not. That difference belongs to the concordance. It has no bearing on how many Greek words there are, so the map records one root in both cases and hangs the numbers on the cells.
 
 ### How roots are derived
@@ -497,6 +499,27 @@ An earlier implementation lower-cased everything, which read every capitalized s
 
 `lossy` names what the scheme drops. For Greek that is the iota subscript, which no common academic scheme represents. Nothing else is lost, so the transliteration can double as a sort key where a Latin one is wanted.
 
+## Root readings
+
+Each root also carries a `transliteration` and a `pronunciation` of its own key, beside `shortDefinition`, so a consumer showing a headword has both without deriving them:
+
+```json
+"ἀγάπη": {
+  "shortDefinition": "a true/unconditional love; pl. a love feast",
+  "transliteration": "agápē",
+  "pronunciation": "ah-GAH-pay",
+  …
+}
+```
+
+Both are derived from the key and the registry alone. A homograph superscript is dropped first, so `κόρος¹` reads _kóros_, and a phrase or a hyphenated name is taken word by word. [utils/rootReadings.ts](../../../utils/rootReadings.ts) is the one place that computes them: `npm run validate` writes them on every run, and the lexical-map audit fails on a stored value that still disagrees. A tool that adds a root never needs to know the fields exist.
+
+**The pronunciation is Erasmian, respelled for English readers.** The table lives in the registry under `pronunciation`, beside the transliteration table, so a second system or another language's table is data rather than code. Syllables are joined by hyphens and the stressed syllable is in capitals. Each respelling is the one a reader is least likely to misread: omicron is _aw_ (λόγος is LAW-gaws) because _o_ reads as _oh_, while αι stays _ai_ (καί is KAI) because the unambiguous _eye_ reads as a different word. The iota subscript is silent, and a diaeresis keeps two vowels from reading as a diphthong.
+
+**Syllables break where speech breaks them.** One consonant between vowels begins the next syllable. A longer run gives the next syllable the longest cluster the registry lists under `onsets`, and the rest closes the syllable before. The grammarians' rule for dividing a written word, which moves any cluster that can begin a word to the next line, is a scribal convention and not a guide to speech: verse counts a short vowel before πτ, στ or κτ as long, which it can only be if the first consonant closes its syllable. So the Greek table lists only a stop before λ or ρ, the one cluster verse lets begin a syllable. πατρός is pah-TRAWS, but βαπτίζω is bahp-TEE-zoh and ἔθνος is EHTH-naws. A cluster at the start of a word stays whole (πνεῦμα is PNYOO-mah), and a doubled consonant always splits (θάλασσα is THAH-lahs-sah). A phrase's words are separated by a space, since a hyphen already means a syllable break.
+
+A root written as a numeral, a letter with a keraia (`αʹ`, `ιβʹ`), has a transliteration and no pronunciation, because the keraia is not said.
+
 ## Source conventions the importer has to know
 
 Tagged corpora carry structure that a naive walk over text-bearing nodes silently drops. These are properties of the source, not of any one edition, and an importer for a new corpus should be checked against each.
@@ -586,9 +609,9 @@ The failure branch matters as much as the success one. A token whose morph match
 
 **Do not write this ladder again.** [utils/lexicon.ts](../../../utils/lexicon.ts) owns it, as `resolveLemma` and `resolveStrongs`, and both answer with the value or with the reason they declined — never with a guess and never with `undefined`, because a caller made to invent the reason is a caller whose reasons go missing.
 
-`resolveLemma` takes a node's printed text, its morph code and the scheme its version declares, plus the Strong's number the node already carries. A node holding more than one word is declined outright: there is no single lemma to name. Otherwise the codex answers with every root that holds the spelling, and three things narrow it in turn — the spelling alone settles 96.3% of BYZ2026, the parse settles another 2.2%, and the corpus's own Strong's number settles 1.5%. What two dictionary entries still share after all three is reported: 39 nodes, 38 of them `ἄρα` against `ἆρα`.
+`resolveLemma` takes a node's printed text, its morph code and the scheme its version declares, plus the Strong's number the node already carries. A node holding more than one word is declined outright: there is no single lemma to name. Otherwise the codex answers with every root that holds the spelling, and three things narrow it in turn — the spelling alone settles 96.3% of BYZ2026, the parse settles another 2.2%, and the corpus's own Strong's number settles 1.5%. What two dictionary entries still share after all three is reported rather than guessed at.
 
-`resolveStrongs` starts from a lemma instead, which must be a root **exactly** — no accent-blind fallback, since a fold can tie two roots and would answer a question the corpus did not ask. Three sources can then name a number, consulted most specific first: the index's placement rules, the number the codex puts on the cell itself, and the root's own single number. Where the rules and the cell both answer they agree, measured across LXX1935 with no disagreement anywhere, which is what you would expect of one claim recorded on both sides of an import.
+`resolveStrongs` starts from a lemma instead, which must be a root **exactly** — no accent-blind fallback, since a fold can tie two roots and would answer a question the corpus did not ask. Three sources can then name a number, consulted most specific first: the index's placement rules, the number the codex puts on the cell itself, and the root's own single number. Among the rules, one naming a spelling outranks one naming only parse codes, because it states an exception to them: λέγω's aorist passive is G4483 by parse, since its forms are built on ῥη-, but λεχθέντα is built on λεγ- and a spelling rule gives it G3004. Where the rules and the cell both answer they agree, measured across LXX1935 with no disagreement anywhere, which is what you would expect of one claim recorded on both sides of an import.
 
 **Collect the distinct numbers matching rules name; never count the matches.** Two rules differing only in a grave for an acute both match one node, because `codexLookup` folds the pair together. Counting matches calls that a conflict across LXX1935 wherever it happens — `ἐμέ`/`ἐμὲ` giving G1691, `ἐμοί`/`ἐμοὶ` giving G1698 — and every one of them is one number written twice.
 
@@ -619,6 +642,7 @@ So the value is computed from the language registry's own `transliteration` tabl
 - No two `inflections` keys under one root are the same key written twice, differing only in case or in a grave for an acute. The key rule folds both away on the way in, so a stored difference of that kind is a duplicate rather than a distinction.
 - A cell's Strong's number is a proper subset of its root's: every number the cell names is one the root carries, and a cell repeating the root's whole set says nothing the root did not already say.
 - Every stored `transliteration` is the one the registry's own table produces for that spelling. This is a reimplementation on purpose: the point is that the value is reproducible from the registry alone, so a consumer implementing the table gets the same answer.
+- Every root's `transliteration` and `pronunciation` are the ones [utils/rootReadings.ts](../../../utils/rootReadings.ts) derives from its key. `npm run validate` writes them first, so a disagreement means a file was edited after the fill pass ran.
 
 **The corpus-against-map audit** ([utils/corpusMorphology.ts](../../../utils/corpusMorphology.ts)) checks that the map can explain every corpus that names a scheme.
 

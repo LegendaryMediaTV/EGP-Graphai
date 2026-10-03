@@ -1,9 +1,29 @@
 {
+  "χξϛʹ": {
+    "language": "greek",
+    "pos": "adj",
+    "declension": "indeclinable",
+    "shortDefinition": "six hundred sixty-six",
+    "transliteration": "chxϛʹ",
+    "indices": { "strongs": "G5516" },
+    "inflections": {
+      "χξϛ": {
+        "transliteration": "chxϛ",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      },
+      "χξϛʹ": {
+        "transliteration": "chxϛʹ",
+        "cells": [{ "parse": ["adj", "indecl-numeral"] }]
+      }
+    }
+  },
   "μαδων": {
     "language": "greek",
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a contention, strife",
+    "transliteration": "madōn",
+    "pronunciation": "mah-dohn",
     "inflections": {
       "μαδων": {
         "transliteration": "madōn",
@@ -16,6 +36,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a food, provisions",
+    "transliteration": "machir",
+    "pronunciation": "mah-kheer",
     "inflections": {
       "μαχιρ": {
         "transliteration": "machir",
@@ -28,6 +50,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a peace offering",
+    "transliteration": "salamin",
+    "pronunciation": "sah-lah-meen",
     "inflections": {
       "σαλαμιν": {
         "transliteration": "salamin",
@@ -41,6 +65,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Habazziniah",
+    "transliteration": "Chabasin",
+    "pronunciation": "khah-bah-seen",
     "inflections": {
       "Χαβασιν": {
         "transliteration": "Chabasin",
@@ -53,6 +79,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Cabbon; lit. Hilly",
+    "transliteration": "Chabba",
+    "pronunciation": "khahb-bah",
     "inflections": {
       "Χαββα": {
         "transliteration": "Chabba",
@@ -66,6 +94,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heber; lit. Community",
+    "transliteration": "Chaber",
+    "pronunciation": "khah-behr",
     "inflections": {
       "Χαβερ": {
         "transliteration": "Chaber",
@@ -79,6 +109,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Habaiah; lit. YH/Yah/Jah Has Hidden",
+    "transliteration": "Chabia",
+    "pronunciation": "khah-bee-ah",
     "inflections": {
       "Χαβια": {
         "transliteration": "Chabia",
@@ -91,6 +123,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Cabbon; lit. Hilly",
+    "transliteration": "Chabra",
+    "pronunciation": "khah-brah",
     "inflections": {
       "Χαβρα": {
         "transliteration": "Chabra",
@@ -103,6 +137,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a stretch (of land), distance",
+    "transliteration": "chabratha",
+    "pronunciation": "khah-brah-thah",
     "inflections": {
       "χαβραθα": {
         "transliteration": "chabratha",
@@ -116,6 +152,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chabris",
+    "transliteration": "Chabrin",
+    "pronunciation": "khah-breen",
     "inflections": {
       "Χαβριν": {
         "transliteration": "Chabrin",
@@ -129,6 +167,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chabris",
+    "transliteration": "Chabris",
+    "pronunciation": "khah-brees",
     "inflections": {
       "Χαβρις": {
         "transliteration": "Chabris",
@@ -141,6 +181,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Cabul; lit. Sterile",
+    "transliteration": "Chabōl",
+    "pronunciation": "khah-bohl",
     "inflections": {
       "Χαβωλ": {
         "transliteration": "Chabōl",
@@ -153,6 +195,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Habor; lit. United",
+    "transliteration": "Chabōr",
+    "pronunciation": "khah-bohr",
     "inflections": {
       "Χαβωρ": {
         "transliteration": "Chabōr",
@@ -165,6 +209,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a Chadiasian",
+    "transliteration": "Chadiásai",
+    "pronunciation": "khah-dee-AH-sai",
     "inflections": {
       "Χαδιασαι": {
         "transliteration": "Chadiasai",
@@ -177,6 +223,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chitlish",
+    "transliteration": "Chathlōs",
+    "pronunciation": "khah-thlohs",
     "inflections": {
       "Χαθλως": {
         "transliteration": "Chathlōs",
@@ -190,6 +238,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Helon; lit. Strong",
+    "transliteration": "Chailōn",
+    "pronunciation": "khai-lohn",
     "inflections": {
       "Χαιλων": {
         "transliteration": "Chailōn",
@@ -202,6 +252,8 @@
     "pos": "noun",
     "declension": "1m-as",
     "shortDefinition": "Chaereas",
+    "transliteration": "Chairéas",
+    "pronunciation": "khai-REH-ahs",
     "inflections": {
       "Χαιρέαν": {
         "transliteration": "Chairéan",
@@ -219,6 +271,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to hail, greet",
+    "transliteration": "chairetízō",
+    "pronunciation": "khai-reh-TEE-zoh",
     "inflections": {
       "ἐχαιρέτισαν": {
         "transliteration": "echairétisan",
@@ -236,6 +290,8 @@
     "conjugation": "thematic",
     "deponent": true,
     "shortDefinition": "to rejoice; fig. to greet, hail",
+    "transliteration": "chaírō",
+    "pronunciation": "KHAI-roh",
     "indices": { "strongs": "G5463" },
     "inflections": {
       "ἔχαιρεν": {
@@ -436,6 +492,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Colhozeh; lit. Every Seer",
+    "transliteration": "Chalaza",
+    "pronunciation": "khah-lah-zah",
     "inflections": {
       "Χαλαζα": {
         "transliteration": "Chalaza",
@@ -449,6 +507,8 @@
     "gender": "fem",
     "declension": "1f-a-impure",
     "shortDefinition": "a hail, hailstones",
+    "transliteration": "chálaza",
+    "pronunciation": "KHAH-lah-zah",
     "indices": { "strongs": "G5464" },
     "inflections": {
       "χάλαζα": {
@@ -485,6 +545,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chalamak",
+    "transliteration": "Chalamak",
+    "pronunciation": "khah-lah-mahk",
     "inflections": {
       "Χαλαμακ": {
         "transliteration": "Chalamak",
@@ -497,6 +559,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Calneh, Calno",
+    "transliteration": "Chalannē",
+    "pronunciation": "khah-lahn-nay",
     "inflections": {
       "Χαλαννη": {
         "transliteration": "Chalannē",
@@ -510,6 +574,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a festoon, hanging chainwork",
+    "transliteration": "chalastón",
+    "pronunciation": "khah-lahs-TAWN",
     "inflections": {
       "χαλαστά": {
         "transliteration": "chalastá",
@@ -534,6 +600,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Calah; lit. Maturity",
+    "transliteration": "Chalach",
+    "pronunciation": "khah-lahkh",
     "inflections": {
       "Χαλαχ": {
         "transliteration": "Chalach",
@@ -546,6 +614,8 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "shortDefinition": "to let down, lower; fig. to loosen, slacken",
+    "transliteration": "chaláō",
+    "pronunciation": "khah-LAH-oh",
     "indices": { "strongs": "G5465" },
     "inflections": {
       "ἐχάλασαν": {
@@ -615,6 +685,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a galbanum (resin)",
+    "transliteration": "chalbánē",
+    "pronunciation": "khahl-BAH-nay",
     "inflections": {
       "χαλβάνη": {
         "transliteration": "chalbánē",
@@ -634,6 +706,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chaldea",
+    "transliteration": "Chaldaía",
+    "pronunciation": "khahl-DAI-ah",
     "inflections": {
       "Χαλδαία": {
         "transliteration": "Chaldaía",
@@ -646,6 +720,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be Chaldean",
+    "transliteration": "Chaldaïkós",
+    "pronunciation": "khahl-dah-ee-KAWS",
     "inflections": {
       "Χαλδαικήν": {
         "transliteration": "Chaldaikḗn",
@@ -659,6 +735,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a Chaldean",
+    "transliteration": "Chaldaîos",
+    "pronunciation": "khahl-DAI-aws",
     "indices": { "strongs": "G5466" },
     "inflections": {
       "Χαλδαῖοι": {
@@ -694,6 +772,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "in Chaldean (language)",
+    "transliteration": "Chaldaïstí",
+    "pronunciation": "khahl-dah-ees-TEE",
     "inflections": {
       "Χαλδαιστί": {
         "transliteration": "Chaldaistí",
@@ -707,6 +787,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Caleb",
+    "transliteration": "Chaleb",
+    "pronunciation": "khah-lehb",
     "inflections": {
       "Χαλεβ": {
         "transliteration": "Chaleb",
@@ -719,6 +801,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to be angry, embittered (toward)",
+    "transliteration": "chalepaínō",
+    "pronunciation": "khah-leh-PAI-noh",
     "inflections": {
       "ἐχαλέπαινεν": {
         "transliteration": "echalépainen",
@@ -741,6 +825,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be perilous, hard; fig. to be fierce, harsh",
+    "transliteration": "chalepós",
+    "pronunciation": "khah-leh-PAWS",
     "indices": { "strongs": "G5467" },
     "inflections": {
       "χαλεπά": {
@@ -818,6 +904,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chelal; lit. Complete",
+    "transliteration": "Chalēl",
+    "pronunciation": "khah-layl",
     "inflections": {
       "Χαληλ": {
         "transliteration": "Chalēl",
@@ -831,6 +919,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Jecoliah; lit. YH/Yah/Jah Will Enable",
+    "transliteration": "Chalia",
+    "pronunciation": "khah-lee-ah",
     "inflections": {
       "Χαλια": {
         "transliteration": "Chalia",
@@ -843,6 +933,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to bridle, rein in; fig. to restrain",
+    "transliteration": "chalinagōgéō",
+    "pronunciation": "khah-lee-nah-goh-GEH-oh",
     "indices": { "strongs": "G5468" },
     "inflections": {
       "χαλιναγωγῆσαι": {
@@ -863,6 +955,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a bit, bridle",
+    "transliteration": "chalinós",
+    "pronunciation": "khah-lee-NAWS",
     "indices": { "strongs": "G5469" },
     "inflections": {
       "χαλινόν": {
@@ -889,6 +983,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a gravel, pebble",
+    "transliteration": "chálix",
+    "pronunciation": "KHAH-leeks",
     "inflections": {
       "χάλικες": {
         "transliteration": "chálikes",
@@ -909,6 +1005,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Calcol, Chalcol; lit. Sustenance",
+    "transliteration": "Chalkal",
+    "pronunciation": "khahl-kahl",
     "inflections": {
       "Χαλκαλ": {
         "transliteration": "Chalkal",
@@ -920,6 +1018,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be (made of) bronze, brazen",
+    "transliteration": "chálkeios",
+    "pronunciation": "KHAHL-kay-aws",
     "inflections": {
       "χάλκειαι": {
         "transliteration": "chálkeiai",
@@ -969,6 +1069,8 @@
     "gender": "masc",
     "declension": "3m-eus",
     "shortDefinition": "a coppersmith, metalworker",
+    "transliteration": "chalkeús",
+    "pronunciation": "khahl-KYOOS",
     "indices": { "strongs": "G5471" },
     "inflections": {
       "χαλκεῖς": {
@@ -994,6 +1096,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to forge, work (metal)",
+    "transliteration": "chalkeúō",
+    "pronunciation": "khahl-KYOO-oh",
     "inflections": {
       "χαλκεύειν": {
         "transliteration": "chalkeúein",
@@ -1007,6 +1111,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a chalcedony",
+    "transliteration": "chalkēdṓn",
+    "pronunciation": "khahl-kay-DOHN",
     "indices": { "strongs": "G5472" },
     "inflections": {
       "χαλκηδών": {
@@ -1021,6 +1127,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a copper vessel, bronze pot",
+    "transliteration": "chalkíon",
+    "pronunciation": "khahl-KEE-awn",
     "indices": { "strongs": "G5473" },
     "inflections": {
       "χαλκείοις": {
@@ -1055,6 +1163,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a burnished bronze, fine brass",
+    "transliteration": "chalkolíbanon",
+    "pronunciation": "khahl-kaw-LEE-bah-nawn",
     "indices": { "strongs": "G5474" },
     "inflections": {
       "χαλκολιβάνῳ": {
@@ -1069,6 +1179,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "a bronze-molder, bronze worker",
+    "transliteration": "chalkoplástēs",
+    "pronunciation": "khahl-kaw-PLAHS-tays",
     "inflections": {
       "χαλκοπλάστας": {
         "transliteration": "chalkoplástas",
@@ -1082,6 +1194,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a bronze, copper, brass; fig. a copper coin",
+    "transliteration": "chalkós",
+    "pronunciation": "khahl-KAWS",
     "indices": { "strongs": "G5475" },
     "inflections": {
       "χαλκόν": {
@@ -1107,6 +1221,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be (made of) bronze, brazen",
+    "transliteration": "chalkoûs",
+    "pronunciation": "khahl-KOOS",
     "indices": { "strongs": "G5470" },
     "inflections": {
       "χαλκᾶ": {
@@ -1188,6 +1304,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Holon; lit. Sandy",
+    "transliteration": "Chalou",
+    "pronunciation": "khah-loo",
     "inflections": {
       "Χαλου": {
         "transliteration": "Chalou",
@@ -1201,6 +1319,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chalphi",
+    "transliteration": "Chalphi",
+    "pronunciation": "khahl-fee",
     "inflections": {
       "Χαλφι": {
         "transliteration": "Chalphi",
@@ -1214,6 +1334,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Calcol, Chalcol; lit. Sustenance",
+    "transliteration": "Chalchal",
+    "pronunciation": "khahl-khahl",
     "inflections": {
       "Χαλχαλ": {
         "transliteration": "Chalchal",
@@ -1227,6 +1349,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Ham; lit. Hot",
+    "transliteration": "Cham",
+    "pronunciation": "khahm",
     "inflections": {
       "Χαμ": {
         "transliteration": "Cham",
@@ -1240,6 +1364,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chimham; lit. Pining",
+    "transliteration": "Chamaam",
+    "pronunciation": "khah-mah-ahm",
     "inflections": {
       "Χαμααμ": {
         "transliteration": "Chamaam",
@@ -1251,6 +1377,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "on/to the ground",
+    "transliteration": "chamaí",
+    "pronunciation": "khah-MAI",
     "indices": { "strongs": "G5476" },
     "inflections": {
       "χαμαί": { "transliteration": "chamaí", "cells": [{ "parse": ["adv"] }] }
@@ -1261,6 +1389,8 @@
     "pos": "noun",
     "declension": "3-cons",
     "shortDefinition": "a chameleon",
+    "transliteration": "chamailéōn",
+    "pronunciation": "khah-mai-LEH-ohn",
     "inflections": {
       "χαμαιλέοντες": {
         "transliteration": "chamailéontes",
@@ -1281,6 +1411,8 @@
     "pos": "adj",
     "declension": "3-3-es",
     "shortDefinition": "to be prostrate, lying on the ground",
+    "transliteration": "chamaipetḗs",
+    "pronunciation": "khah-mai-peh-TAYS",
     "inflections": {
       "χαμαιπετής": {
         "transliteration": "chamaipetḗs",
@@ -1296,6 +1428,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a chamanim",
+    "transliteration": "chamanim",
+    "pronunciation": "khah-mah-neem",
     "inflections": {
       "χαμανιμ": {
         "transliteration": "chamanim",
@@ -1308,6 +1442,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Humtah; lit. Low",
+    "transliteration": "Chammata",
+    "pronunciation": "khahm-mah-tah",
     "inflections": {
       "Χαμματα": {
         "transliteration": "Chammata",
@@ -1321,6 +1457,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Hammon; lit. Warm Spring",
+    "transliteration": "Chamōth",
+    "pronunciation": "khah-mohth",
     "inflections": {
       "Χαμωθ": {
         "transliteration": "Chamōth",
@@ -1334,6 +1472,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chemosh; lit. the Powerful",
+    "transliteration": "Chamōs",
+    "pronunciation": "khah-mohs",
     "inflections": {
       "Χαμως": {
         "transliteration": "Chamōs",
@@ -1346,6 +1486,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Canaan, Chanaan; lit. Humiliated, Lowland",
+    "transliteration": "Chanaán",
+    "pronunciation": "khah-nah-AHN",
     "indices": { "strongs": "G5477" },
     "inflections": {
       "Χανααν": {
@@ -1363,6 +1505,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a Canaanitess",
+    "transliteration": "Chanaanîtis",
+    "pronunciation": "khah-nah-ah-NEE-tees",
     "inflections": {
       "Χαναανίτιδος": {
         "transliteration": "Chanaanítidos",
@@ -1380,6 +1524,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chenaanah",
+    "transliteration": "Chanana",
+    "pronunciation": "khah-nah-nah",
     "inflections": {
       "Χανανα": {
         "transliteration": "Chanana",
@@ -1391,6 +1537,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be Canaanite",
+    "transliteration": "Chananaîos",
+    "pronunciation": "khah-nah-NAI-aws",
     "indices": { "strongs": "G5478" },
     "inflections": {
       "Χαναναία": {
@@ -1443,6 +1591,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chenani; lit. Planted",
+    "transliteration": "Chanani",
+    "pronunciation": "khah-nah-nee",
     "inflections": {
       "Χανανι": {
         "transliteration": "Chanani",
@@ -1456,6 +1606,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a Canaanite",
+    "transliteration": "Chananís",
+    "pronunciation": "khah-nah-NEES",
     "inflections": {
       "Χανανιν": {
         "transliteration": "Chananin",
@@ -1475,6 +1627,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a Canaanite",
+    "transliteration": "Chananítēs",
+    "pronunciation": "khah-nah-NEE-tays",
     "inflections": {
       "Χανανίτην": {
         "transliteration": "Chananítēn",
@@ -1488,6 +1642,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a Canaanitess",
+    "transliteration": "Chananîtis",
+    "pronunciation": "khah-nah-NEE-tees",
     "inflections": {
       "Χανανίτιδι": {
         "transliteration": "Chananítidi",
@@ -1504,6 +1660,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Canneh",
+    "transliteration": "Channa",
+    "pronunciation": "khahn-nah",
     "inflections": {
       "Χαννα": {
         "transliteration": "Channa",
@@ -1515,6 +1673,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "Chanuneus",
+    "transliteration": "Chanounaîos",
+    "pronunciation": "khah-noo-NAI-aws",
     "inflections": {
       "Χανουναιου": {
         "transliteration": "Chanounaiou",
@@ -1526,6 +1686,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a gaping void, abyss",
+    "transliteration": "cháos",
+    "pronunciation": "KHAH-aws",
     "inflections": {
       "χάος": {
         "transliteration": "cháos",
@@ -1542,6 +1704,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a joy, enthusiasm",
+    "transliteration": "chará",
+    "pronunciation": "khah-RAH",
     "indices": { "strongs": "G5479" },
     "inflections": {
       "χαρα": {
@@ -1575,6 +1739,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cherub, Charaath",
+    "transliteration": "Charaath",
+    "pronunciation": "khah-rah-ahth",
     "inflections": {
       "Χαρααθ": {
         "transliteration": "Charaath",
@@ -1588,6 +1754,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "an engraved mark, stamp; fig. a carved image",
+    "transliteration": "cháragma",
+    "pronunciation": "KHAH-rahg-mah",
     "indices": { "strongs": "G5480" },
     "inflections": {
       "χάραγμα": {
@@ -1622,6 +1790,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Haradah; lit. Fear",
+    "transliteration": "Charadath",
+    "pronunciation": "khah-rah-dahth",
     "inflections": {
       "Χαραδαθ": {
         "transliteration": "Charadath",
@@ -1633,6 +1803,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a plover, curlew",
+    "transliteration": "charadriós",
+    "pronunciation": "khah-rah-dree-AWS",
     "inflections": {
       "χαραδριόν": {
         "transliteration": "charadrión",
@@ -1646,6 +1818,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Haruphite",
+    "transliteration": "Charaiphi",
+    "pronunciation": "khah-rai-fee",
     "inflections": {
       "Χαραιφι": {
         "transliteration": "Charaiphi",
@@ -1658,6 +1832,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Charax",
+    "transliteration": "Cháraka",
+    "pronunciation": "KHAH-rah-kah",
     "inflections": {
       "Χάρακα": {
         "transliteration": "Cháraka",
@@ -1669,6 +1845,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a building of palisades, siegework",
+    "transliteration": "charakobolía",
+    "pronunciation": "khah-rah-kaw-baw-LEE-ah",
     "inflections": {
       "χαρακοβολίᾳ": {
         "transliteration": "charakobolía",
@@ -1681,6 +1859,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to fence with stakes, palisade",
+    "transliteration": "charakóō",
+    "pronunciation": "khah-rah-KAW-oh",
     "inflections": {
       "ἐχαράκωσα": {
         "transliteration": "echarákōsa",
@@ -1698,6 +1878,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "an imprint, stamp; fig. an exact representation",
+    "transliteration": "charaktḗr",
+    "pronunciation": "khah-rahk-TAYR",
     "indices": { "strongs": "G5481" },
     "inflections": {
       "χαρακτήρ": {
@@ -1716,6 +1898,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a palisading, siege mound",
+    "transliteration": "charákōsis",
+    "pronunciation": "khah-RAH-koh-sees",
     "inflections": {
       "χαράκωσιν": {
         "transliteration": "charákōsin",
@@ -1728,6 +1912,8 @@
     "pos": "noun",
     "gender": "masc",
     "shortDefinition": "a palisade, siege rampart; lit. a pointed stake",
+    "transliteration": "chárax",
+    "pronunciation": "KHAH-rahks",
     "indices": { "strongs": "G5482" },
     "inflections": {
       "χάρακα": {
@@ -1761,6 +1947,8 @@
     "conjugation": "thematic",
     "stems": { "aor": "χαραξ" },
     "shortDefinition": "to engrave, inscribe, brand",
+    "transliteration": "charássō",
+    "pronunciation": "khah-RAHS-soh",
     "inflections": {
       "ἐχάραξαν": {
         "transliteration": "echáraxan",
@@ -1790,6 +1978,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Harsha, Charea; lit. Magician",
+    "transliteration": "Charea",
+    "pronunciation": "khah-reh-ah",
     "inflections": {
       "Χαρεα": {
         "transliteration": "Charea",
@@ -1803,6 +1993,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Harim; lit. Snub-Nosed",
+    "transliteration": "Charēm",
+    "pronunciation": "khah-raym",
     "inflections": {
       "Χαρημ": {
         "transliteration": "Charēm",
@@ -1815,6 +2007,8 @@
     "pos": "adj",
     "declension": "3-1-3-nt",
     "shortDefinition": "to be graceful, charming, attractive",
+    "transliteration": "charíeis",
+    "pronunciation": "khah-REE-ays",
     "inflections": {
       "χαρίεντες": {
         "transliteration": "charíentes",
@@ -1831,6 +2025,8 @@
     "conjugation": "deponent",
     "deponent": true,
     "shortDefinition": "to grant; fig. to forgive",
+    "transliteration": "charízomai",
+    "pronunciation": "khah-REE-zaw-mai",
     "indices": { "strongs": "G5483" },
     "inflections": {
       "ἐχαρίζετο": {
@@ -2033,6 +2229,8 @@
     "language": "greek",
     "pos": "prep",
     "shortDefinition": "on account of, for the sake of",
+    "transliteration": "chárin",
+    "pronunciation": "KHAH-reen",
     "indices": { "strongs": "G5484" },
     "inflections": {
       "χάριν": { "transliteration": "chárin", "cells": [{ "parse": ["prep"] }] }
@@ -2044,6 +2242,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a grace; fig. a thanks",
+    "transliteration": "cháris",
+    "pronunciation": "KHAH-rees",
     "indices": { "strongs": "G5485" },
     "inflections": {
       "χάριν": {
@@ -2093,6 +2293,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a grace-gift",
+    "transliteration": "chárisma",
+    "pronunciation": "KHAH-rees-mah",
     "indices": { "strongs": "G5486" },
     "inflections": {
       "χάρισμα": {
@@ -2129,6 +2331,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be of thanksgiving, as a grateful reward",
+    "transliteration": "charistḗrios",
+    "pronunciation": "khah-rees-TAY-ree-aws",
     "inflections": {
       "χαριστήριον": {
         "transliteration": "charistḗrion",
@@ -2148,6 +2352,8 @@
     "conjugation": "contract-o",
     "stems": { "aor": "εχαριτω" },
     "shortDefinition": "to grace, bestow favor on, favor highly",
+    "transliteration": "charitóō",
+    "pronunciation": "khah-ree-TAW-oh",
     "indices": { "strongs": "G5487" },
     "inflections": {
       "ἐχαρίτωσεν": {
@@ -2178,6 +2384,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Carchemish",
+    "transliteration": "Charkamys",
+    "pronunciation": "khahr-kah-moos",
     "inflections": {
       "Χαρκαμυς": {
         "transliteration": "Charkamys",
@@ -2191,6 +2399,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Carmelite",
+    "transliteration": "Charmali",
+    "pronunciation": "khahr-mah-lee",
     "inflections": {
       "Χαρμαλι": {
         "transliteration": "Charmali",
@@ -2203,6 +2413,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chilmad",
+    "transliteration": "Charman",
+    "pronunciation": "khahr-mahn",
     "inflections": {
       "Χαρμαν": {
         "transliteration": "Charman",
@@ -2216,6 +2428,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Harim, Charme; lit. Snub-Nosed",
+    "transliteration": "Charmē",
+    "pronunciation": "khahr-may",
     "inflections": {
       "Χαρμη": {
         "transliteration": "Charmē",
@@ -2229,6 +2443,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Carmi; lit. Gardener",
+    "transliteration": "Charmi",
+    "pronunciation": "khahr-mee",
     "inflections": {
       "Χαρμι": {
         "transliteration": "Charmi",
@@ -2242,6 +2458,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Charmis",
+    "transliteration": "Charmin",
+    "pronunciation": "khahr-meen",
     "inflections": {
       "Χαρμιν": {
         "transliteration": "Charmin",
@@ -2255,6 +2473,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Charmis",
+    "transliteration": "Charmis",
+    "pronunciation": "khahr-mees",
     "inflections": {
       "Χαρμις": {
         "transliteration": "Charmis",
@@ -2268,6 +2488,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a cause for joy, delight",
+    "transliteration": "charmonḗ",
+    "pronunciation": "khahr-maw-NAY",
     "inflections": {
       "χαρμονή": {
         "transliteration": "charmonḗ",
@@ -2292,6 +2514,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a joyfulness, rejoicing; fig. a day of rejoicing",
+    "transliteration": "charmosýnē",
+    "pronunciation": "khahr-maw-SOO-nay",
     "inflections": {
       "χαρμοσύνη": {
         "transliteration": "charmosýnē",
@@ -2315,6 +2539,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be gleaming, bright (of eyes)",
+    "transliteration": "charopós",
+    "pronunciation": "khah-raw-PAWS",
     "inflections": {
       "χαροποί": {
         "transliteration": "charopoí",
@@ -2333,6 +2559,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cherub",
+    "transliteration": "Charoub",
+    "pronunciation": "khah-roob",
     "inflections": {
       "Χαρουβ": {
         "transliteration": "Charoub",
@@ -2345,6 +2573,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Haran, Charran; lit. Parched",
+    "transliteration": "Charrán",
+    "pronunciation": "khahr-RAHN",
     "indices": { "strongs": "G5488" },
     "inflections": {
       "Χαρραν": {
@@ -2362,6 +2592,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Charri",
+    "transliteration": "Charri",
+    "pronunciation": "khahr-ree",
     "inflections": {
       "Χαρρι": {
         "transliteration": "Charri",
@@ -2374,6 +2606,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a potsherd; fig. Harsith (a gate)",
+    "transliteration": "charsith",
+    "pronunciation": "khahr-seeth",
     "inflections": {
       "χαρσιθ": {
         "transliteration": "charsith",
@@ -2385,6 +2619,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a papyrus stock, paper supply",
+    "transliteration": "chartēría",
+    "pronunciation": "khahr-tay-REE-ah",
     "inflections": {
       "χαρτηρίαν": {
         "transliteration": "chartērían",
@@ -2398,6 +2634,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "a paper",
+    "transliteration": "chártēs",
+    "pronunciation": "KHAHR-tays",
     "indices": { "strongs": "G5489" },
     "inflections": {
       "χάρτης": {
@@ -2416,6 +2654,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a papyrus roll, paper scroll",
+    "transliteration": "chartíon",
+    "pronunciation": "khahr-TEE-awn",
     "inflections": {
       "χαρτίον": {
         "transliteration": "chartíon",
@@ -2440,6 +2680,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Carchemish",
+    "transliteration": "Charchamis",
+    "pronunciation": "khahr-khah-mees",
     "inflections": {
       "Χαρχαμις": {
         "transliteration": "Charchamis",
@@ -2453,6 +2695,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chesed",
+    "transliteration": "Chasad",
+    "pronunciation": "khah-sahd",
     "inflections": {
       "Χασαδ": {
         "transliteration": "Chasad",
@@ -2465,6 +2709,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chesulloth; lit. Fattened",
+    "transliteration": "Chasalōth",
+    "pronunciation": "khah-sah-lohth",
     "inflections": {
       "Χασαλωθ": {
         "transliteration": "Chasalōth",
@@ -2478,6 +2724,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Cozbi; lit. False",
+    "transliteration": "Chasbi",
+    "pronunciation": "khahs-bee",
     "inflections": {
       "Χασβι": {
         "transliteration": "Chasbi",
@@ -2491,6 +2739,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chaseba",
+    "transliteration": "Chaseba",
+    "pronunciation": "khah-seh-bah",
     "inflections": {
       "Χασεβα": {
         "transliteration": "Chaseba",
@@ -2504,6 +2754,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chislev",
+    "transliteration": "Chaseēlou",
+    "pronunciation": "khah-seh-ay-loo",
     "inflections": {
       "Χασεηλου": {
         "transliteration": "Chaseēlou",
@@ -2517,6 +2769,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chislev",
+    "transliteration": "Chaseleu",
+    "pronunciation": "khah-seh-lyoo",
     "inflections": {
       "Χασελευ": {
         "transliteration": "Chaseleu",
@@ -2529,6 +2783,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chisloth Tabor; lit. Flanks of Tabor",
+    "transliteration": "Chaselōthaith",
+    "pronunciation": "khah-seh-loh-thaith",
     "inflections": {
       "Χασελωθαιθ": {
         "transliteration": "Chaselōthaith",
@@ -2541,6 +2797,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chesil; lit. Fool",
+    "transliteration": "Chasil",
+    "pronunciation": "khah-seel",
     "inflections": {
       "Χασιλ": {
         "transliteration": "Chasil",
@@ -2554,6 +2812,8 @@
     "conjugation": "thematic",
     "stems": { "aor": "χαν" },
     "shortDefinition": "to gape, open (the mouth) wide",
+    "transliteration": "cháskō",
+    "pronunciation": "KHAHS-koh",
     "inflections": {
       "ἔχανεν": {
         "transliteration": "échanen",
@@ -2589,6 +2849,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chislon; lit. Hopeful",
+    "transliteration": "Chaslōn",
+    "pronunciation": "khahs-lohn",
     "inflections": {
       "Χασλων": {
         "transliteration": "Chaslōn",
@@ -2602,6 +2864,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Casluhite",
+    "transliteration": "Chaslōniim",
+    "pronunciation": "khahs-loh-nee-eem",
     "inflections": {
       "Χασλωνιιμ": {
         "transliteration": "Chaslōniim",
@@ -2615,6 +2879,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a chasm",
+    "transliteration": "chásma",
+    "pronunciation": "KHAHS-mah",
     "indices": { "strongs": "G5490" },
     "inflections": {
       "χάσμα": {
@@ -2632,6 +2898,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Casphor",
+    "transliteration": "Chasphō",
+    "pronunciation": "khahs-foh",
     "inflections": {
       "Χασφω": {
         "transliteration": "Chasphō",
@@ -2645,6 +2913,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Ataroth; lit. Crowns",
+    "transliteration": "Chatarōthi",
+    "pronunciation": "khah-tah-roh-thee",
     "inflections": {
       "Χαταρωθι": {
         "transliteration": "Chatarōthi",
@@ -2658,6 +2928,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hattush",
+    "transliteration": "Chattous",
+    "pronunciation": "khaht-toos",
     "inflections": {
       "Χαττους": {
         "transliteration": "Chattous",
@@ -2669,6 +2941,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be rarefied, thin (of air)",
+    "transliteration": "chaûnos",
+    "pronunciation": "KHOW-naws",
     "inflections": {
       "χαῦνος": {
         "transliteration": "chaûnos",
@@ -2684,6 +2958,8 @@
     "pos": "noun",
     "declension": "3-cons",
     "shortDefinition": "an offering cake",
+    "transliteration": "chauṓn",
+    "pronunciation": "khow-OHN",
     "inflections": {
       "χαυῶνας": {
         "transliteration": "chauō̂nas",
@@ -2697,6 +2973,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a kaph",
+    "transliteration": "chaph",
+    "pronunciation": "khahf",
     "inflections": {
       "χαφ": {
         "transliteration": "chaph",
@@ -2709,6 +2987,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Capharsalama",
+    "transliteration": "Chapharsalama",
+    "pronunciation": "khah-fahr-sah-lah-mah",
     "inflections": {
       "Χαφαρσαλαμα": {
         "transliteration": "Chapharsalama",
@@ -2721,6 +3001,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chaphenatha",
+    "transliteration": "Chaphenatha",
+    "pronunciation": "khah-feh-nah-thah",
     "inflections": {
       "Χαφεναθα": {
         "transliteration": "Chaphenatha",
@@ -2733,6 +3015,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Hebron; lit. Seat of Association",
+    "transliteration": "Chebrōn",
+    "pronunciation": "kheh-brohn",
     "inflections": {
       "Χεβρων": {
         "transliteration": "Chebrōn",
@@ -2749,6 +3033,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Hebronite",
+    "transliteration": "Chebrōni",
+    "pronunciation": "kheh-broh-nee",
     "inflections": {
       "Χεβρωνι": {
         "transliteration": "Chebrōni",
@@ -2762,6 +3048,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Hebronite",
+    "transliteration": "Chebrōnis",
+    "pronunciation": "kheh-broh-nees",
     "inflections": {
       "Χεβρωνις": {
         "transliteration": "Chebrōnis",
@@ -2775,6 +3063,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Chinnereth",
+    "transliteration": "Chezrath",
+    "pronunciation": "khehz-rahth",
     "inflections": {
       "Χεζραθ": {
         "transliteration": "Chezrath",
@@ -2788,6 +3078,8 @@
     "gender": "neut",
     "declension": "3n-es",
     "shortDefinition": "a lip; fig. a language, edge, shore",
+    "transliteration": "cheîlos",
+    "pronunciation": "KHAY-laws",
     "indices": { "strongs": "G5491" },
     "inflections": {
       "χείλεσί": {
@@ -2833,6 +3125,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to storm-toss, batter (with storms)",
+    "transliteration": "cheimázō",
+    "pronunciation": "khay-MAH-zoh",
     "indices": { "strongs": "G5492" },
     "inflections": {
       "χειμάζεται": {
@@ -2857,6 +3151,8 @@
     "gender": "masc",
     "declension": "2m-contract",
     "shortDefinition": "a winter torrent, rushing stream, wadi",
+    "transliteration": "cheimárrous",
+    "pronunciation": "khay-MAHR-roos",
     "indices": { "strongs": "G5493" },
     "inflections": {
       "χείμαρροι": {
@@ -2905,6 +3201,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be winter(time), of winter",
+    "transliteration": "cheimerinós",
+    "pronunciation": "khay-meh-ree-NAWS",
     "inflections": {
       "χειμερινή": {
         "transliteration": "cheimerinḗ",
@@ -2948,6 +3246,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be wintry, winter-cold",
+    "transliteration": "cheimérios",
+    "pronunciation": "khay-MEH-ree-aws",
     "inflections": {
       "χειμέριος": {
         "transliteration": "cheimérios",
@@ -2964,6 +3264,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a rainstorm; fig. a winter",
+    "transliteration": "cheimṓn",
+    "pronunciation": "khay-MOHN",
     "indices": { "strongs": "G5494" },
     "inflections": {
       "χειμών": {
@@ -2993,6 +3295,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a hand; fig. a power",
+    "transliteration": "cheír",
+    "pronunciation": "KHAYR",
     "indices": { "strongs": "G5495" },
     "inflections": {
       "χείρ": {
@@ -3056,6 +3360,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to lead by the hand",
+    "transliteration": "cheiragōgéō",
+    "pronunciation": "khay-rah-goh-GEH-oh",
     "indices": { "strongs": "G5496" },
     "inflections": {
       "χειραγωγούμενον": {
@@ -3105,6 +3411,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a hand-leader, one who leads by the hand",
+    "transliteration": "cheiragōgós",
+    "pronunciation": "khay-rah-goh-GAWS",
     "indices": { "strongs": "G5497" },
     "inflections": {
       "χειραγωγούς": {
@@ -3118,6 +3426,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to take in hand, administer",
+    "transliteration": "cheirízō",
+    "pronunciation": "khay-REE-zoh",
     "inflections": {
       "χειρίζειν": {
         "transliteration": "cheirízein",
@@ -3129,6 +3439,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "most harshly, in the worst way",
+    "transliteration": "cheirístōs",
+    "pronunciation": "khay-REES-tohs",
     "inflections": {
       "χειρίστως": {
         "transliteration": "cheirístōs",
@@ -3142,6 +3454,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a handwritten bond, certificate of debt",
+    "transliteration": "cheirógraphon",
+    "pronunciation": "khay-RAW-grah-fawn",
     "indices": { "strongs": "G5498" },
     "inflections": {
       "χειρόγραφον": {
@@ -3158,6 +3472,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a hand-to-hand fight, scuffle",
+    "transliteration": "cheironomía",
+    "pronunciation": "khay-raw-naw-MEE-ah",
     "inflections": {
       "χειρονομίαις": {
         "transliteration": "cheironomíais",
@@ -3171,6 +3487,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a manacle, handcuff",
+    "transliteration": "cheiropédē",
+    "pronunciation": "khay-raw-PEH-day",
     "inflections": {
       "χειροπέδαι": {
         "transliteration": "cheiropédai",
@@ -3193,6 +3511,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be handmade, made by (human) hands",
+    "transliteration": "cheiropoíētos",
+    "pronunciation": "khay-raw-POY-ay-taws",
     "indices": { "strongs": "G5499" },
     "inflections": {
       "χειροποίητα": {
@@ -3227,6 +3547,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to elect, appoint; lit. to vote by raised hand",
+    "transliteration": "cheirotonéō",
+    "pronunciation": "khay-raw-taw-NEH-oh",
     "indices": { "strongs": "G5500" },
     "inflections": {
       "χειροτονηθείς": {
@@ -3248,6 +3570,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a stretching out of the hand, (finger-)pointing",
+    "transliteration": "cheirotonía",
+    "pronunciation": "khay-raw-taw-NEE-ah",
     "inflections": {
       "χειροτονίαν": {
         "transliteration": "cheirotonían",
@@ -3260,6 +3584,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to overpower, subdue; fig. to slay",
+    "transliteration": "cheiróō",
+    "pronunciation": "khay-RAW-oh",
     "inflections": {
       "ἐχειρώσαντο": {
         "transliteration": "echeirṓsanto",
@@ -3287,6 +3613,8 @@
     "pos": "adj",
     "citationForms": ["χείρων", "χείρων", "χεῖρον"],
     "shortDefinition": "to be worse, more severe",
+    "transliteration": "cheírōn",
+    "pronunciation": "KHAY-rohn",
     "indices": { "strongs": "G5501" },
     "inflections": {
       "χείριστα": {
@@ -3359,6 +3687,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chilion; lit. Pining",
+    "transliteration": "Chelaiōn",
+    "pronunciation": "kheh-lai-ohn",
     "inflections": {
       "Χελαιων": {
         "transliteration": "Chelaiōn",
@@ -3371,6 +3701,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Helbah; lit. Fertility",
+    "transliteration": "Chelba",
+    "pronunciation": "khehl-bah",
     "inflections": {
       "Χελβα": {
         "transliteration": "Chelba",
@@ -3383,6 +3715,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Helbon; lit. Fruitful",
+    "transliteration": "Chelbōn",
+    "pronunciation": "khehl-bohn",
     "inflections": {
       "Χελβων": {
         "transliteration": "Chelbōn",
@@ -3396,6 +3730,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Helek; lit. Portion",
+    "transliteration": "Cheleg",
+    "pronunciation": "kheh-lehg",
     "inflections": {
       "Χελεγ": {
         "transliteration": "Cheleg",
@@ -3409,6 +3745,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Helekite",
+    "transliteration": "Chelegi",
+    "pronunciation": "kheh-leh-gee",
     "inflections": {
       "Χελεγι": {
         "transliteration": "Chelegi",
@@ -3422,6 +3760,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Cherethite",
+    "transliteration": "Cheleththi",
+    "pronunciation": "kheh-lehth-thee",
     "inflections": {
       "Χελεθθι": {
         "transliteration": "Cheleththi",
@@ -3435,6 +3775,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chelod",
+    "transliteration": "Cheleoud",
+    "pronunciation": "kheh-leh-ood",
     "inflections": {
       "Χελεουδ": {
         "transliteration": "Cheleoud",
@@ -3448,6 +3790,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "a Chellian",
+    "transliteration": "Cheleōn",
+    "pronunciation": "kheh-leh-ohn",
     "inflections": {
       "Χελεων": {
         "transliteration": "Cheleōn",
@@ -3461,6 +3805,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cheluhi; lit. Completed",
+    "transliteration": "Chelia",
+    "pronunciation": "kheh-lee-ah",
     "inflections": {
       "Χελια": {
         "transliteration": "Chelia",
@@ -3473,6 +3819,8 @@
     "pos": "noun",
     "declension": "3-cons",
     "shortDefinition": "a swallow",
+    "transliteration": "chelidṓn",
+    "pronunciation": "kheh-lee-DOHN",
     "inflections": {
       "χελιδόνες": {
         "transliteration": "chelidónes",
@@ -3493,6 +3841,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Helkath; lit. Smoothness",
+    "transliteration": "Chelkath",
+    "pronunciation": "khehl-kahth",
     "inflections": {
       "Χελκαθ": {
         "transliteration": "Chelkath",
@@ -3505,6 +3855,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Kanah; lit. Reediness",
+    "transliteration": "Chelkana",
+    "pronunciation": "khehl-kah-nah",
     "inflections": {
       "Χελκανα": {
         "transliteration": "Chelkana",
@@ -3517,6 +3869,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Helkath; lit. Smoothness",
+    "transliteration": "Chelkat",
+    "pronunciation": "khehl-kaht",
     "inflections": {
       "Χελκατ": {
         "transliteration": "Chelkat",
@@ -3528,6 +3882,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
+    "transliteration": "Chelkeías",
+    "pronunciation": "khehl-KAY-ahs",
     "inflections": {
       "Χελκιου": {
         "transliteration": "Chelkiou",
@@ -3541,6 +3897,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hilkiah; lit. Portion of YH/Yah/Jah",
+    "transliteration": "Chelkia",
+    "pronunciation": "khehl-kee-ah",
     "inflections": {
       "Χελκια": {
         "transliteration": "Chelkia",
@@ -3553,6 +3911,8 @@
     "pos": "noun",
     "declension": "1m-as",
     "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
+    "transliteration": "Chelkias",
+    "pronunciation": "khehl-kee-ahs",
     "inflections": {
       "Χελκια": {
         "transliteration": "Chelkia",
@@ -3586,6 +3946,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hilkiah, Helkias; lit. Portion of YH/Yah/Jah",
+    "transliteration": "Chelkios",
+    "pronunciation": "khehl-kee-aws",
     "inflections": {
       "Χελκιου": {
         "transliteration": "Chelkiou",
@@ -3598,6 +3960,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Helez",
+    "transliteration": "Chellēs",
+    "pronunciation": "khehl-lays",
     "inflections": {
       "Χελλης": {
         "transliteration": "Chellēs",
@@ -3611,6 +3975,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Caleb",
+    "transliteration": "Cheloub",
+    "pronunciation": "kheh-loob",
     "inflections": {
       "Χελουβ": {
         "transliteration": "Cheloub",
@@ -3623,6 +3989,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chellus",
+    "transliteration": "Cheloús",
+    "pronunciation": "kheh-LOOS",
     "inflections": {
       "Χελους": {
         "transliteration": "Chelous",
@@ -3636,6 +4004,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a jowl, jaw",
+    "transliteration": "chelýnion",
+    "pronunciation": "kheh-LOO-nee-awn",
     "inflections": {
       "χελύνια": {
         "transliteration": "chelýnia",
@@ -3652,6 +4022,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Halak; lit. Bare",
+    "transliteration": "Chelcha",
+    "pronunciation": "khehl-khah",
     "inflections": {
       "Χελχα": {
         "transliteration": "Chelcha",
@@ -3665,6 +4037,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a tortoise; fig. a heap, mound",
+    "transliteration": "chelṓnē",
+    "pronunciation": "kheh-LOH-nay",
     "inflections": {
       "χελῶναι": {
         "transliteration": "chelō̂nai",
@@ -3681,6 +4055,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a doorsill, threshold",
+    "transliteration": "chelōnís",
+    "pronunciation": "kheh-loh-NEES",
     "inflections": {
       "χελωνίδος": {
         "transliteration": "chelōnídos",
@@ -3694,6 +4070,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Chinnereth",
+    "transliteration": "Chenara",
+    "pronunciation": "kheh-nah-rah",
     "inflections": {
       "Χεναρα": {
         "transliteration": "Chenara",
@@ -3706,6 +4084,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chinnereth",
+    "transliteration": "Chenereth",
+    "pronunciation": "kheh-neh-rehth",
     "inflections": {
       "Χενερεθ": {
         "transliteration": "Chenereth",
@@ -3718,6 +4098,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a vaulted cell",
+    "transliteration": "chereth",
+    "pronunciation": "kheh-rehth",
     "inflections": {
       "χερεθ": {
         "transliteration": "chereth",
@@ -3731,6 +4113,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Cherethite",
+    "transliteration": "Chereththi",
+    "pronunciation": "kheh-rehth-thee",
     "inflections": {
       "Χερεθθι": {
         "transliteration": "Chereththi",
@@ -3743,6 +4127,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Carmel; lit. Planted Field",
+    "transliteration": "Chermel",
+    "pronunciation": "khehr-mehl",
     "inflections": {
       "Χερμελ": {
         "transliteration": "Chermel",
@@ -3756,6 +4142,8 @@
     "gender": "neut",
     "declension": "indeclinable",
     "shortDefinition": "a cherub",
+    "transliteration": "cheroúb",
+    "pronunciation": "kheh-ROOB",
     "indices": { "strongs": "G5502" },
     "inflections": {
       "χερουβ": {
@@ -3786,6 +4174,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be land-dwelling, of dry land",
+    "transliteration": "chersaîos",
+    "pronunciation": "khehr-SAI-aws",
     "inflections": {
       "χερσαῖα": {
         "transliteration": "chersaîa",
@@ -3811,6 +4201,8 @@
     "pos": "adj",
     "declension": "2-2",
     "shortDefinition": "to be dry, barren",
+    "transliteration": "chérsos",
+    "pronunciation": "KHEHR-saws",
     "inflections": {
       "χέρσον": {
         "transliteration": "chérson",
@@ -3843,6 +4235,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to leave untilled, make (land) barren",
+    "transliteration": "chersóō",
+    "pronunciation": "khehr-SAW-oh",
     "inflections": {
       "κεχερσωμένη": {
         "transliteration": "kechersōménē",
@@ -3866,6 +4260,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heth; lit. Terror",
+    "transliteration": "Chet",
+    "pronunciation": "kheht",
     "inflections": {
       "Χετ": {
         "transliteration": "Chet",
@@ -3877,6 +4273,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a Hittite (woman)",
+    "transliteration": "Chettaía",
+    "pronunciation": "kheht-TAI-ah",
     "inflections": {
       "Χετταία": {
         "transliteration": "Chettaía",
@@ -3901,6 +4299,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a Hittite",
+    "transliteration": "Chettaîos",
+    "pronunciation": "kheht-TAI-aws",
     "inflections": {
       "Χετταῖοι": {
         "transliteration": "Chettaîoi",
@@ -3940,6 +4340,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Hittite",
+    "transliteration": "Chetti",
+    "pronunciation": "kheht-tee",
     "inflections": {
       "Χεττι": {
         "transliteration": "Chetti",
@@ -3953,6 +4355,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Kittim, Chittim",
+    "transliteration": "Chettiim",
+    "pronunciation": "kheht-tee-eem",
     "inflections": {
       "Χεττιιμ": {
         "transliteration": "Chettiim",
@@ -3965,6 +4369,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a woven tunic, hanging",
+    "transliteration": "chettiin",
+    "pronunciation": "kheht-tee-een",
     "inflections": {
       "χεττιιν": {
         "transliteration": "chettiin",
@@ -3978,6 +4384,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Hittite",
+    "transliteration": "Chettiin",
+    "pronunciation": "kheht-tee-een",
     "inflections": {
       "Χεττιιν": {
         "transliteration": "Chettiin",
@@ -3989,6 +4397,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "Keturah; lit. Perfumed",
+    "transliteration": "Chettoura",
+    "pronunciation": "kheht-too-rah",
     "inflections": {
       "Χεττουρα": {
         "transliteration": "Chettoura",
@@ -4013,6 +4423,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chephirah; lit. Village",
+    "transliteration": "Chephira",
+    "pronunciation": "kheh-fee-rah",
     "inflections": {
       "Χεφιρα": {
         "transliteration": "Chephira",
@@ -4026,6 +4438,8 @@
     "conjugation": "contract-e",
     "stems": { "perf": "χυ", "fut": "κεχυμεν", "aor": "κεχυμεν" },
     "shortDefinition": "to pour, shed; fig. to spread",
+    "transliteration": "chéō",
+    "pronunciation": "KHEH-oh",
     "inflections": {
       "ἐχέοντο": {
         "transliteration": "echéonto",
@@ -4096,6 +4510,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hezir",
+    "transliteration": "Chēzir",
+    "pronunciation": "khay-zeer",
     "inflections": {
       "Χηζιρ": {
         "transliteration": "Chēzir",
@@ -4109,6 +4525,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a cloven hoof, claw",
+    "transliteration": "chḗlē",
+    "pronunciation": "KHAY-lay",
     "inflections": {
       "χηλῶν": {
         "transliteration": "chēlō̂n",
@@ -4121,6 +4539,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a widow",
+    "transliteration": "chḗra",
+    "pronunciation": "KHAY-rah",
     "indices": { "strongs": "G5503" },
     "inflections": {
       "χήρα": {
@@ -4170,6 +4590,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a widowhood",
+    "transliteration": "chēreía",
+    "pronunciation": "khay-RAY-ah",
     "inflections": {
       "χηρεία": {
         "transliteration": "chēreía",
@@ -4194,6 +4616,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a living in widowhood, widowed state",
+    "transliteration": "chḗreusis",
+    "pronunciation": "KHAY-ryoo-sees",
     "inflections": {
       "χηρεύσεως": {
         "transliteration": "chēreúseōs",
@@ -4206,6 +4630,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to be widowed, live as a widow; fig. to be bereft",
+    "transliteration": "chēreúō",
+    "pronunciation": "khay-RYOO-oh",
     "inflections": {
       "ἐχήρευσεν": {
         "transliteration": "echḗreusen",
@@ -4224,6 +4650,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "yesterday; fig. formerly",
+    "transliteration": "chthés",
+    "pronunciation": "KHTHEHS",
     "indices": { "strongs": "G5504" },
     "inflections": {
       "ἐχθές": {
@@ -4237,6 +4665,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be of yesterday",
+    "transliteration": "chthizós",
+    "pronunciation": "khthee-ZAWS",
     "inflections": {
       "χθιζοί": {
         "transliteration": "chthizoí",
@@ -4255,6 +4685,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a green grain, (hulled) groats",
+    "transliteration": "chídron",
+    "pronunciation": "KHEE-drawn",
     "inflections": {
       "χίδρα": {
         "transliteration": "chídra",
@@ -4274,6 +4706,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a unit of a thousand, regiment",
+    "transliteration": "chiliarchía",
+    "pronunciation": "khee-lee-ahr-KHEE-ah",
     "inflections": {
       "χιλιαρχίαν": {
         "transliteration": "chiliarchían",
@@ -4294,6 +4728,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a commander of a thousand; fig. a (military) tribune",
+    "transliteration": "chilíarchos",
+    "pronunciation": "khee-LEE-ahr-khaws",
     "indices": { "strongs": "G5506" },
     "inflections": {
       "χιλίαρχοι": {
@@ -4335,6 +4771,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a thousand, chiliad",
+    "transliteration": "chiliás",
+    "pronunciation": "khee-lee-AHS",
     "indices": { "strongs": "G5505" },
     "inflections": {
       "χιλιάδας": {
@@ -4367,6 +4805,8 @@
     "pos": "adj",
     "declension": "numeral-plural",
     "shortDefinition": "one thousand",
+    "transliteration": "chílioi",
+    "pronunciation": "KHEE-lee-oy",
     "indices": { "strongs": "G5507" },
     "inflections": {
       "χίλια": {
@@ -4428,6 +4868,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "thousandfold, a thousand times more",
+    "transliteration": "chilioplasíōs",
+    "pronunciation": "khee-lee-aw-plah-SEE-ohs",
     "inflections": {
       "χιλιοπλασίως": {
         "transliteration": "chilioplasíōs",
@@ -4440,6 +4882,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Holon; lit. Sandy",
+    "transliteration": "Chilouōn",
+    "pronunciation": "khee-loo-ohn",
     "inflections": {
       "Χιλουων": {
         "transliteration": "Chilouōn",
@@ -4451,6 +4895,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a young she-goat, yearling",
+    "transliteration": "chímaira",
+    "pronunciation": "KHEE-mai-rah",
     "inflections": {
       "χίμαιραν": {
         "transliteration": "chímairan",
@@ -4464,6 +4910,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a young he-goat, (winter) yearling",
+    "transliteration": "chímaros",
+    "pronunciation": "KHEE-mah-raws",
     "inflections": {
       "χίμαροι": {
         "transliteration": "chímaroi",
@@ -4500,6 +4948,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Ben Abinadab",
+    "transliteration": "Chinanadab",
+    "pronunciation": "khee-nah-nah-dahb",
     "inflections": {
       "Χιναναδαβ": {
         "transliteration": "Chinanadab",
@@ -4512,6 +4962,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to be snowed upon, turn snow-white",
+    "transliteration": "chionóomai",
+    "pronunciation": "khee-aw-NAW-aw-mai",
     "inflections": {
       "χιονωθήσονται": {
         "transliteration": "chionōthḗsontai",
@@ -4525,6 +4977,8 @@
     "gender": "fem",
     "declension": "2f",
     "shortDefinition": "Chios",
+    "transliteration": "Chíos",
+    "pronunciation": "KHEE-aws",
     "indices": { "strongs": "G5508" },
     "inflections": {
       "Χίου": {
@@ -4539,6 +4993,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hiram, Huram; lit. Whiteness, Noble",
+    "transliteration": "Chiram",
+    "pronunciation": "khee-rahm",
     "inflections": {
       "Χιραμ": {
         "transliteration": "Chiram",
@@ -4552,6 +5008,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "a tunic, inner garment",
+    "transliteration": "chitṓn",
+    "pronunciation": "khee-TOHN",
     "indices": { "strongs": "G5509" },
     "inflections": {
       "χιτών": {
@@ -4594,6 +5052,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a snow",
+    "transliteration": "chiṓn",
+    "pronunciation": "khee-OHN",
     "indices": { "strongs": "G5510" },
     "inflections": {
       "χιόνα": {
@@ -4625,6 +5085,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a warm cloak, outer wrap",
+    "transliteration": "chlaîna",
+    "pronunciation": "KHLAI-nah",
     "inflections": {
       "χλαίνας": {
         "transliteration": "chlaínas",
@@ -4640,6 +5102,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a chlamys, soldier’s cloak",
+    "transliteration": "chlamýs",
+    "pronunciation": "khlah-MOOS",
     "indices": { "strongs": "G5511" },
     "inflections": {
       "χλαμύδα": {
@@ -4657,6 +5121,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to jeer, scoff (at)",
+    "transliteration": "chleuázō",
+    "pronunciation": "khlyoo-AH-zoh",
     "indices": { "strongs": "G5512" },
     "inflections": {
       "ἐχλεύαζον": {
@@ -4689,6 +5155,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "an object of mockery, laughingstock",
+    "transliteration": "chleúasma",
+    "pronunciation": "KHLYOO-ahs-mah",
     "inflections": {
       "χλεύασμα": {
         "transliteration": "chleúasma",
@@ -4704,6 +5172,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a jeering, taunting, derision",
+    "transliteration": "chleuasmós",
+    "pronunciation": "khlyoo-ahs-MAWS",
     "inflections": {
       "χλευασμόν": {
         "transliteration": "chleuasmón",
@@ -4719,6 +5189,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be lukewarm, tepid",
+    "transliteration": "chliarós",
+    "pronunciation": "khlee-ah-RAWS",
     "indices": { "strongs": "G5513" },
     "inflections": {
       "χλιαρός": {
@@ -4733,6 +5205,8 @@
     "gender": "masc",
     "declension": "3-cons",
     "shortDefinition": "an armlet, anklet",
+    "transliteration": "chlidṓn",
+    "pronunciation": "khlee-DOHN",
     "inflections": {
       "χλιδών": {
         "transliteration": "chlidṓn",
@@ -4757,6 +5231,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a tender shoot, green growth",
+    "transliteration": "chlóē",
+    "pronunciation": "KHLAW-ay",
     "inflections": {
       "χλόη": {
         "transliteration": "chlóē",
@@ -4785,6 +5261,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "Chloe; lit. Green",
+    "transliteration": "Chlóē",
+    "pronunciation": "KHLAW-ay",
     "indices": { "strongs": "G5514" },
     "inflections": {
       "Χλόης": {
@@ -4797,6 +5275,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be green-bearing, verdant",
+    "transliteration": "chloēphóros",
+    "pronunciation": "khlaw-ay-FAW-raws",
     "inflections": {
       "χλοηφόρον": {
         "transliteration": "chloēphóron",
@@ -4815,6 +5295,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to be greenish, turn green",
+    "transliteration": "chlōrízō",
+    "pronunciation": "khloh-REE-zoh",
     "inflections": {
       "χλωρίζουσα": {
         "transliteration": "chlōrízousa",
@@ -4836,6 +5318,8 @@
     "pos": "adj",
     "declension": "2-1-2-a",
     "shortDefinition": "to be green, verdant; fig. to be pale",
+    "transliteration": "chlōrós",
+    "pronunciation": "khloh-RAWS",
     "indices": { "strongs": "G5515" },
     "inflections": {
       "χλωρά": {
@@ -4892,6 +5376,8 @@
     "pos": "noun",
     "declension": "3-cons",
     "shortDefinition": "a yellowish sheen, greenness",
+    "transliteration": "chlōrótēs",
+    "pronunciation": "khloh-RAW-tays",
     "inflections": {
       "χλωρότητι": {
         "transliteration": "chlōrótēti",
@@ -4906,6 +5392,8 @@
     "gender": "masc",
     "declension": "2m-contract",
     "shortDefinition": "a fine dust, chaff",
+    "transliteration": "chnoûs",
+    "pronunciation": "KHNOOS",
     "inflections": {
       "χνοῦν": {
         "transliteration": "chnoûn",
@@ -4926,6 +5414,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chebar; lit. Length",
+    "transliteration": "Chobar",
+    "pronunciation": "khaw-bahr",
     "inflections": {
       "Χοβαρ": {
         "transliteration": "Chobar",
@@ -4939,6 +5429,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heber; lit. Community",
+    "transliteration": "Chober",
+    "pronunciation": "khaw-behr",
     "inflections": {
       "Χοβερ": {
         "transliteration": "Chober",
@@ -4952,6 +5444,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "a Heberite",
+    "transliteration": "Choberi",
+    "pronunciation": "khaw-beh-ree",
     "inflections": {
       "Χοβερι": {
         "transliteration": "Choberi",
@@ -4965,6 +5459,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heber; lit. Community",
+    "transliteration": "Chobor",
+    "pronunciation": "khaw-bawr",
     "inflections": {
       "Χοβορ": {
         "transliteration": "Chobor",
@@ -4978,6 +5474,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Becher; lit. Young Camel",
+    "transliteration": "Chobōr",
+    "pronunciation": "khaw-bohr",
     "inflections": {
       "Χοβωρ": {
         "transliteration": "Chobōr",
@@ -4991,6 +5489,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hadad; lit. Fierce",
+    "transliteration": "Choddad",
+    "pronunciation": "khawd-dahd",
     "inflections": {
       "Χοδδαδ": {
         "transliteration": "Choddad",
@@ -5004,6 +5504,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hadlai; lit. Idle",
+    "transliteration": "Chodli",
+    "pronunciation": "khawd-lee",
     "inflections": {
       "Χοδλι": {
         "transliteration": "Chodli",
@@ -5017,6 +5519,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chedorlaomer",
+    "transliteration": "Chodollogomor",
+    "pronunciation": "khaw-dawl-law-gaw-mawr",
     "inflections": {
       "Χοδολλογομορ": {
         "transliteration": "Chodollogomor",
@@ -5030,6 +5534,8 @@
     "gender": "masc",
     "declension": "3m-eus",
     "shortDefinition": "a chous (liquid measure)",
+    "transliteration": "choeús",
+    "pronunciation": "khaw-YOOS",
     "inflections": {
       "χοεῖς": {
         "transliteration": "choeîs",
@@ -5050,6 +5556,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a (priestly) tunic",
+    "transliteration": "chothōnōth",
+    "pronunciation": "khaw-thoh-nohth",
     "inflections": {
       "χοθωνωθ": {
         "transliteration": "chothōnōth",
@@ -5061,6 +5569,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be of dust, earthy",
+    "transliteration": "choïkós",
+    "pronunciation": "khaw-ee-KAWS",
     "indices": { "strongs": "G5517" },
     "inflections": {
       "χοϊκοί": {
@@ -5085,6 +5595,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a choenix (dry measure, about a quart); trad. a measure",
+    "transliteration": "choînix",
+    "pronunciation": "KHOY-neeks",
     "indices": { "strongs": "G5518" },
     "inflections": {
       "χοίνικες": {
@@ -5106,6 +5618,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a hyrax, rock badger; trad. a coney",
+    "transliteration": "choirogrýllios",
+    "pronunciation": "khoy-raw-GROOL-lee-aws",
     "inflections": {
       "χοιρογρύλλιοι": {
         "transliteration": "choirogrýllioi",
@@ -5134,6 +5648,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a pig",
+    "transliteration": "choîros",
+    "pronunciation": "KHOY-raws",
     "indices": { "strongs": "G5519" },
     "inflections": {
       "χοῖροι": {
@@ -5158,6 +5674,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Hazar Shual; lit. Village of the Fox",
+    "transliteration": "Cholaseōla",
+    "pronunciation": "khaw-lah-seh-oh-lah",
     "inflections": {
       "Χολασεωλα": {
         "transliteration": "Cholaseōla",
@@ -5170,6 +5688,8 @@
     "pos": "verb",
     "conjugation": "contract-a",
     "shortDefinition": "to be enraged, angry (at); lit. to be full of bile",
+    "transliteration": "choláō",
+    "pronunciation": "khaw-LAH-oh",
     "indices": { "strongs": "G5520" },
     "inflections": {
       "χολᾶτε": {
@@ -5184,6 +5704,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heldai; lit. Worldliness",
+    "transliteration": "Choldai",
+    "pronunciation": "khawl-dai",
     "inflections": {
       "Χολδαι": {
         "transliteration": "Choldai",
@@ -5195,6 +5717,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a cholera, violent nausea",
+    "transliteration": "choléra",
+    "pronunciation": "khaw-LEH-rah",
     "inflections": {
       "χολέραν": {
         "transliteration": "choléran",
@@ -5215,6 +5739,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a gall, bile; fig. a bitterness, bitter poison",
+    "transliteration": "cholḗ",
+    "pronunciation": "khaw-LAY",
     "indices": { "strongs": "G5521" },
     "inflections": {
       "χολή": {
@@ -5243,6 +5769,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a Cherethite",
+    "transliteration": "Cholthi",
+    "pronunciation": "khawl-thee",
     "inflections": {
       "Χολθι": {
         "transliteration": "Cholthi",
@@ -5256,6 +5784,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Heled; lit. Lifetime",
+    "transliteration": "Cholod",
+    "pronunciation": "khaw-lawd",
     "inflections": {
       "Χολοδ": {
         "transliteration": "Cholod",
@@ -5267,6 +5797,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a bitter anger, rancor; lit. a bile",
+    "transliteration": "chólos",
+    "pronunciation": "KHAW-laws",
     "inflections": {
       "χόλον": {
         "transliteration": "chólon",
@@ -5284,6 +5816,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chelub; lit. Basket",
+    "transliteration": "Choloub",
+    "pronunciation": "khaw-loob",
     "inflections": {
       "Χολουβ": {
         "transliteration": "Choloub",
@@ -5297,6 +5831,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "a coarse-meal cake, groat bread",
+    "transliteration": "chondrítēs",
+    "pronunciation": "khawn-DREE-tays",
     "inflections": {
       "χονδριτῶν": {
         "transliteration": "chondritō̂n",
@@ -5309,6 +5845,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chorazin",
+    "transliteration": "Chorazín",
+    "pronunciation": "khaw-rah-ZEEN",
     "indices": { "strongs": "G5523" },
     "inflections": {
       "Χοραζίν": {
@@ -5326,6 +5864,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chorbe",
+    "transliteration": "Chorbé",
+    "pronunciation": "khawr-BEH",
     "inflections": {
       "Χορβε": {
         "transliteration": "Chorbe",
@@ -5339,6 +5879,8 @@
     "gender": "fem",
     "declension": "1f-e",
     "shortDefinition": "a (gut) string, lyre string",
+    "transliteration": "chordḗ",
+    "pronunciation": "khawr-DAY",
     "inflections": {
       "χορδαῖς": {
         "transliteration": "chordaîs",
@@ -5354,6 +5896,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a choral dance, round dance",
+    "transliteration": "choreía",
+    "pronunciation": "khaw-RAY-ah",
     "inflections": {
       "χορείᾳ": {
         "transliteration": "choreía",
@@ -5366,6 +5910,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to dance in a chorus, join the dance",
+    "transliteration": "choreúō",
+    "pronunciation": "khaw-RYOO-oh",
     "inflections": {
       "ἐχόρευον": {
         "transliteration": "echóreuon",
@@ -5409,6 +5955,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to supply, provide (for); lit. to fund a chorus",
+    "transliteration": "chorēgéō",
+    "pronunciation": "khaw-ray-GEH-oh",
     "indices": { "strongs": "G5524" },
     "inflections": {
       "ἐχορήγει": {
@@ -5505,6 +6053,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a supplying, provision; fig. an expense, abundance",
+    "transliteration": "chorēgía",
+    "pronunciation": "khaw-ray-GEE-ah",
     "inflections": {
       "χορηγίᾳ": {
         "transliteration": "chorēgía",
@@ -5527,6 +6077,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a provider, sponsor; lit. a chorus leader",
+    "transliteration": "chorēgós",
+    "pronunciation": "khaw-ray-GAWS",
     "inflections": {
       "χορηγός": {
         "transliteration": "chorēgós",
@@ -5546,6 +6098,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "an afterbirth, placenta",
+    "transliteration": "chórion",
+    "pronunciation": "KHAW-ree-awn",
     "inflections": {
       "χόριον": {
         "transliteration": "chórion",
@@ -5563,6 +6117,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a dance, dancing band, chorus",
+    "transliteration": "chorós",
+    "pronunciation": "khaw-RAWS",
     "indices": { "strongs": "G5525" },
     "inflections": {
       "χοροί": {
@@ -5604,6 +6160,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cherith; lit. Cut",
+    "transliteration": "Chorrath",
+    "pronunciation": "khawr-rahth",
     "inflections": {
       "Χορραθ": {
         "transliteration": "Chorrath",
@@ -5617,6 +6175,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a Horite",
+    "transliteration": "Chorraîos",
+    "pronunciation": "khawr-RAI-aws",
     "inflections": {
       "Χορραῖον": {
         "transliteration": "Chorraîon",
@@ -5645,6 +6205,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hori; lit. Cave-Dweller",
+    "transliteration": "Chorri",
+    "pronunciation": "khawr-ree",
     "inflections": {
       "Χορρι": {
         "transliteration": "Chorri",
@@ -5657,6 +6219,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to feed full, fill; fig. to satisfy",
+    "transliteration": "chortázō",
+    "pronunciation": "khawr-TAH-zoh",
     "indices": { "strongs": "G5526" },
     "inflections": {
       "ἐχόρτασα": {
@@ -5728,6 +6292,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a fullness (of belly), satiation",
+    "transliteration": "chortasía",
+    "pronunciation": "khawr-tah-SEE-ah",
     "inflections": {
       "χορτασίᾳ": {
         "transliteration": "chortasía",
@@ -5741,6 +6307,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a fodder, forage; fig. a sustenance, food",
+    "transliteration": "chórtasma",
+    "pronunciation": "KHAWR-tahs-mah",
     "indices": { "strongs": "G5527" },
     "inflections": {
       "χορτάσματα": {
@@ -5766,6 +6334,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to run to grass, be overgrown",
+    "transliteration": "chortomanéō",
+    "pronunciation": "khawr-taw-mah-NEH-oh",
     "inflections": {
       "χορτομανήσει": {
         "transliteration": "chortomanḗsei",
@@ -5782,6 +6352,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a grass (of the field), hay, herbage",
+    "transliteration": "chórtos",
+    "pronunciation": "KHAWR-taws",
     "indices": { "strongs": "G5528" },
     "inflections": {
       "χόρτον": {
@@ -5811,6 +6383,8 @@
     "pos": "adj",
     "declension": "3-3-es",
     "shortDefinition": "to be grassy, of herbs",
+    "transliteration": "chortṓdēs",
+    "pronunciation": "khawr-TOH-days",
     "inflections": {
       "χορτώδη": {
         "transliteration": "chortṓdē",
@@ -5829,6 +6403,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chorchor; lit. Sparkling Gem",
+    "transliteration": "Chorchor",
+    "pronunciation": "khawr-khawr",
     "inflections": {
       "Χορχορ": {
         "transliteration": "Chorchor",
@@ -5842,6 +6418,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Chosameus",
+    "transliteration": "Chosamaios",
+    "pronunciation": "khaw-sah-mai-aws",
     "inflections": {
       "Χοσαμαιος": {
         "transliteration": "Chosamaios",
@@ -5855,6 +6433,8 @@
     "gender": "masc",
     "declension": "1m-as",
     "shortDefinition": "Chuza",
+    "transliteration": "Chouzâs",
+    "pronunciation": "khoo-ZAHS",
     "indices": { "strongs": "G5529" },
     "inflections": {
       "Χουζᾶ": {
@@ -5869,6 +6449,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Cuth, Cuthah",
+    "transliteration": "Chouth",
+    "pronunciation": "khooth",
     "inflections": {
       "Χουθ": {
         "transliteration": "Chouth",
@@ -5882,6 +6464,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Cuth, Cuthah",
+    "transliteration": "Chountha",
+    "pronunciation": "khoon-thah",
     "inflections": {
       "Χουνθα": {
         "transliteration": "Chountha",
@@ -5894,6 +6478,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Cush",
+    "transliteration": "Chous",
+    "pronunciation": "khoos",
     "inflections": {
       "Χους": {
         "transliteration": "Chous",
@@ -5907,6 +6493,8 @@
     "gender": "masc",
     "declension": "2m-contract",
     "shortDefinition": "a loose dirt, dust",
+    "transliteration": "choûs",
+    "pronunciation": "KHOOS",
     "indices": { "strongs": "G5522" },
     "inflections": {
       "χοί": {
@@ -5937,6 +6525,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cushan Rishathaim; lit. Cushan of Double Wickedness",
+    "transliteration": "Chousarsathaim",
+    "pronunciation": "khoo-sahr-sah-thaim",
     "inflections": {
       "Χουσαρσαθαιμ": {
         "transliteration": "Chousarsathaim",
@@ -5950,6 +6540,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cushan Rishathaim; lit. Cushan of Double Wickedness",
+    "transliteration": "Chousarsathōm",
+    "pronunciation": "khoo-sahr-sah-thohm",
     "inflections": {
       "Χουσαρσαθωμ": {
         "transliteration": "Chousarsathōm",
@@ -5963,6 +6555,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hushai, Cushi; lit. Hasty",
+    "transliteration": "Chousi",
+    "pronunciation": "khoo-see",
     "inflections": {
       "Χουσι": {
         "transliteration": "Chousi",
@@ -5976,6 +6570,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Suah; lit. Sweeping",
+    "transliteration": "Chouchi",
+    "pronunciation": "khoo-khee",
     "inflections": {
       "Χουχι": {
         "transliteration": "Chouchi",
@@ -5988,6 +6584,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to heap up (earth), fill in",
+    "transliteration": "chóō",
+    "pronunciation": "KHAW-oh",
     "inflections": {
       "χῶσαι": {
         "transliteration": "chō̂sai",
@@ -6005,6 +6603,8 @@
     "deponent": true,
     "stems": { "aor": "χρησ", "fut": "χρησ" },
     "shortDefinition": "to use",
+    "transliteration": "chráomai",
+    "pronunciation": "KHRAH-aw-mai",
     "indices": { "strongs": "G5530" },
     "inflections": {
       "ἐχρησάμεθα": {
@@ -6355,6 +6955,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a need, necessity",
+    "transliteration": "chreía",
+    "pronunciation": "KHRAY-ah",
     "indices": { "strongs": "G5532" },
     "inflections": {
       "χρεία": {
@@ -6387,6 +6989,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to neigh, whinny",
+    "transliteration": "chremetízō",
+    "pronunciation": "khreh-meh-TEE-zoh",
     "inflections": {
       "ἐχρεμέτιζον": {
         "transliteration": "echremétizon",
@@ -6411,6 +7015,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a neighing, snorting; fig. a lustfulness",
+    "transliteration": "chremetismós",
+    "pronunciation": "khreh-meh-tees-MAWS",
     "inflections": {
       "χρεμετισμός": {
         "transliteration": "chremetismós",
@@ -6431,6 +7037,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to lose a debt, have a debt cut off",
+    "transliteration": "chreokopéomai",
+    "pronunciation": "khreh-aw-kaw-PEH-aw-mai",
     "inflections": {
       "χρεοκοπούμενος": {
         "transliteration": "chreokopoúmenos",
@@ -6448,6 +7056,8 @@
     "gender": "neut",
     "declension": "3n-es",
     "shortDefinition": "a debt (owed on a loan), obligation",
+    "transliteration": "chréos",
+    "pronunciation": "KHREH-aws",
     "inflections": {
       "χρέος": {
         "transliteration": "chréos",
@@ -6469,6 +7079,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "a loan debtor, borrower",
+    "transliteration": "chreōpheilétēs",
+    "pronunciation": "khreh-oh-fay-LEH-tays",
     "indices": { "strongs": "G5533" },
     "inflections": {
       "χρεοφειλέτου": {
@@ -6492,6 +7104,8 @@
     "language": "greek",
     "pos": "verb",
     "shortDefinition": "to need to",
+    "transliteration": "chrḗ",
+    "pronunciation": "KHRAY",
     "indices": { "strongs": "G5534" },
     "inflections": {
       "χρή": {
@@ -6505,6 +7119,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to need, have need of",
+    "transliteration": "chrḗzō",
+    "pronunciation": "KHRAY-zoh",
     "indices": { "strongs": "G5535" },
     "inflections": {
       "χρῄζει": {
@@ -6531,6 +7147,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a wealth",
+    "transliteration": "chrē̂ma",
+    "pronunciation": "KHRAY-mah",
     "indices": { "strongs": "G5536" },
     "inflections": {
       "χρῆμα": {
@@ -6581,6 +7199,8 @@
     "conjugation": "thematic",
     "stems": { "fut": "χρηματι" },
     "shortDefinition": "to divinely instruct",
+    "transliteration": "chrēmatízō",
+    "pronunciation": "khray-mah-TEE-zoh",
     "indices": { "strongs": "G5537" },
     "inflections": {
       "ἐχρημάτισα": {
@@ -6667,6 +7287,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a divine response, oracle",
+    "transliteration": "chrēmatismós",
+    "pronunciation": "khray-mah-tees-MAWS",
     "indices": { "strongs": "G5538" },
     "inflections": {
       "χρηματισμόν": {
@@ -6689,6 +7311,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a judgment seat, audience hall",
+    "transliteration": "chrēmatistḗrion",
+    "pronunciation": "khray-mah-tees-TAY-ree-awn",
     "inflections": {
       "χρηματιστηρίῳ": {
         "transliteration": "chrēmatistēríō",
@@ -6701,6 +7325,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to serve usefully, be of use",
+    "transliteration": "chrēsimeúō",
+    "pronunciation": "khray-see-MYOO-oh",
     "inflections": {
       "χρησιμεύσει": {
         "transliteration": "chrēsimeúsei",
@@ -6720,6 +7346,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be useful, profitable",
+    "transliteration": "chrḗsimos",
+    "pronunciation": "KHRAY-see-maws",
     "indices": { "strongs": "G5539" },
     "inflections": {
       "χρήσιμα": {
@@ -6801,6 +7429,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a use, function; fig. a loan",
+    "transliteration": "chrē̂sis",
+    "pronunciation": "KHRAY-sees",
     "indices": { "strongs": "G5540" },
     "inflections": {
       "χρῆσιν": {
@@ -6817,6 +7447,8 @@
     "language": "greek",
     "pos": "verb",
     "shortDefinition": "to utter oracles, prophesy",
+    "transliteration": "chrēsmologéō",
+    "pronunciation": "khrays-maw-law-GEH-oh",
     "inflections": {
       "χρησμολογεῖ": {
         "transliteration": "chrēsmologeî",
@@ -6830,6 +7462,8 @@
     "conjugation": "deponent",
     "deponent": true,
     "shortDefinition": "to act kindly, show kindness",
+    "transliteration": "chrēsteúomai",
+    "pronunciation": "khrays-TYOO-aw-mai",
     "indices": { "strongs": "G5541" },
     "inflections": {
       "χρηστεύεται": {
@@ -6854,6 +7488,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a goodness of character, kind-heartedness",
+    "transliteration": "chrēstoḗtheia",
+    "pronunciation": "khrays-taw-AY-thay-ah",
     "inflections": {
       "χρηστοηθείας": {
         "transliteration": "chrēstoētheías",
@@ -6869,6 +7505,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a smooth talk, fine-sounding words",
+    "transliteration": "chrēstología",
+    "pronunciation": "khrays-taw-law-GEE-ah",
     "indices": { "strongs": "G5542" },
     "inflections": {
       "χρηστολογίας": {
@@ -6882,6 +7520,8 @@
     "pos": "adj",
     "citationForms": ["χρηστός", "χρηστόν"],
     "shortDefinition": "to be pleasant, fine; fig. to be kind, gracious",
+    "transliteration": "chrēstós",
+    "pronunciation": "khrays-TAWS",
     "indices": { "strongs": "G5543" },
     "inflections": {
       "χρησθ’": {
@@ -6952,6 +7592,8 @@
     "gender": "fem",
     "declension": "3-cons",
     "shortDefinition": "a kindness",
+    "transliteration": "chrēstótēs",
+    "pronunciation": "khrays-TAW-tays",
     "indices": { "strongs": "G5544" },
     "inflections": {
       "χρηστότης": {
@@ -6984,6 +7626,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "pleasantly, well; fig. kindly",
+    "transliteration": "chrēstō̂s",
+    "pronunciation": "khrays-TOHS",
     "inflections": {
       "χρηστῶς": {
         "transliteration": "chrēstō̂s",
@@ -6997,6 +7641,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "an anointing [act]",
+    "transliteration": "chrîsis",
+    "pronunciation": "KHREE-sees",
     "inflections": {
       "χρίσεως": {
         "transliteration": "chríseōs",
@@ -7013,6 +7659,8 @@
     "pos": "noun",
     "gender": "neut",
     "declension": "3n-ma",
+    "transliteration": "chrîsma",
+    "pronunciation": "KHREES-mah",
     "inflections": {
       "χρίσμα": {
         "transliteration": "chrísma",
@@ -7044,6 +7692,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a Christian",
+    "transliteration": "Christianós",
+    "pronunciation": "khrees-tee-ah-NAWS",
     "indices": { "strongs": "G5546" },
     "inflections": {
       "Χριστιανόν": {
@@ -7065,6 +7715,8 @@
     "pos": "noun",
     "gender": "masc",
     "declension": "2m",
+    "transliteration": "christós",
+    "pronunciation": "khrees-TAWS",
     "inflections": {
       "χριστέ": {
         "transliteration": "christé",
@@ -7104,6 +7756,8 @@
     "conjugation": "thematic",
     "stems": { "aor": "εχρι" },
     "shortDefinition": "to anoint; fig. to appoint, delegate",
+    "transliteration": "chríō",
+    "pronunciation": "KHREE-oh",
     "indices": { "strongs": "G5548" },
     "inflections": {
       "ἔχρισα": {
@@ -7291,6 +7945,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "a skin color, complexion",
+    "transliteration": "chróa",
+    "pronunciation": "KHRAW-ah",
     "inflections": {
       "χρόαν": {
         "transliteration": "chróan",
@@ -7311,6 +7967,8 @@
     "conjugation": "thematic",
     "stems": { "fut": "χρονι" },
     "shortDefinition": "to take (long) time, linger; fig. to delay, tarry",
+    "transliteration": "chronízō",
+    "pronunciation": "khraw-NEE-zoh",
     "indices": { "strongs": "G5549" },
     "inflections": {
       "ἐχρόνισα": {
@@ -7395,6 +8053,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a little while, short time",
+    "transliteration": "chronískos",
+    "pronunciation": "khraw-NEES-kaws",
     "inflections": {
       "χρονίσκον": {
         "transliteration": "chronískon",
@@ -7411,6 +8071,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a time",
+    "transliteration": "chrónos",
+    "pronunciation": "KHRAW-naws",
     "indices": { "strongs": "G5550" },
     "inflections": {
       "χρόνοις": {
@@ -7448,6 +8110,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to wear away time, spend time",
+    "transliteration": "chronotribéō",
+    "pronunciation": "khraw-naw-tree-BEH-oh",
     "indices": { "strongs": "G5551" },
     "inflections": {
       "χρονοτριβῆσαι": {
@@ -7461,6 +8125,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to shine like gold, gleam golden",
+    "transliteration": "chrysaugéō",
+    "pronunciation": "khroo-sow-GEH-oh",
     "inflections": {
       "χρυσαυγοῦντα": {
         "transliteration": "chrysaugoûnta",
@@ -7479,6 +8145,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a (piece of) gold; fig. a gold ornament",
+    "transliteration": "chrysíon",
+    "pronunciation": "khroo-SEE-awn",
     "indices": { "strongs": "G5553" },
     "inflections": {
       "χρυσία": {
@@ -7515,6 +8183,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be gold-ringed, wearing a gold ring",
+    "transliteration": "chrysodaktýlios",
+    "pronunciation": "khroo-saw-dahk-TOO-lee-aws",
     "indices": { "strongs": "G5554" },
     "inflections": {
       "χρυσοδακτύλιος": {
@@ -7528,6 +8198,8 @@
     "pos": "adj",
     "declension": "3-3-es",
     "shortDefinition": "to be gold-like, gold-colored",
+    "transliteration": "chrysoeidḗs",
+    "pronunciation": "khroo-saw-ay-DAYS",
     "inflections": {
       "χρυσοειδῆ": {
         "transliteration": "chrysoeidē̂",
@@ -7547,6 +8219,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a chrysolite; lit. a gold-stone",
+    "transliteration": "chrysólithos",
+    "pronunciation": "khroo-SAW-lee-thaws",
     "indices": { "strongs": "G5555" },
     "inflections": {
       "χρυσόλιθον": {
@@ -7568,6 +8242,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a chrysoprase; lit. a gold-leek",
+    "transliteration": "chrysóprasos",
+    "pronunciation": "khroo-SAW-prah-saws",
     "indices": { "strongs": "G5556" },
     "inflections": {
       "χρυσόπρασος": {
@@ -7582,6 +8258,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a gold; fig. a gold coin, gold article",
+    "transliteration": "chrysós",
+    "pronunciation": "khroo-SAWS",
     "indices": { "strongs": "G5557" },
     "inflections": {
       "χρυσόν": {
@@ -7606,6 +8284,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a gold worker, goldsmith",
+    "transliteration": "chrysourgós",
+    "pronunciation": "khroo-soor-GAWS",
     "inflections": {
       "χρυσουργοῖς": {
         "transliteration": "chrysourgoîs",
@@ -7621,6 +8301,8 @@
     "pos": "adj",
     "declension": "2-1-2-contract",
     "shortDefinition": "to be golden, made of gold",
+    "transliteration": "chrysoûs",
+    "pronunciation": "khroo-SOOS",
     "indices": { "strongs": "G5552" },
     "inflections": {
       "χρυσᾶ": {
@@ -7738,6 +8420,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to wear gold (ornaments)",
+    "transliteration": "chrysophoréō",
+    "pronunciation": "khroo-saw-faw-REH-oh",
     "inflections": {
       "χρυσοφορῇ": {
         "transliteration": "chrysophorē̂",
@@ -7757,6 +8441,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be gold-bridled",
+    "transliteration": "chrysochálinos",
+    "pronunciation": "khroo-saw-KHAH-lee-naws",
     "inflections": {
       "χρυσοχάλινον": {
         "transliteration": "chrysochálinon",
@@ -7782,6 +8468,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a gold-caster, goldsmith",
+    "transliteration": "chrysochóos",
+    "pronunciation": "khroo-saw-KHAW-aws",
     "inflections": {
       "χρυσοχόον": {
         "transliteration": "chrysochóon",
@@ -7815,6 +8503,8 @@
     "pos": "verb",
     "conjugation": "contract-o",
     "shortDefinition": "to gild, adorn with gold",
+    "transliteration": "chrysóō",
+    "pronunciation": "khroo-SAW-oh",
     "indices": { "strongs": "G5558" },
     "inflections": {
       "ἐχρύσωσεν": {
@@ -7853,6 +8543,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a gold vessel, gold cup",
+    "transliteration": "chrýsōma",
+    "pronunciation": "KHROO-soh-mah",
     "inflections": {
       "χρυσώμασιν": {
         "transliteration": "chrysṓmasin",
@@ -7886,6 +8578,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a color, hue, complexion",
+    "transliteration": "chrō̂ma",
+    "pronunciation": "KHROH-mah",
     "inflections": {
       "χρῶμα": {
         "transliteration": "chrō̂ma",
@@ -7910,6 +8604,8 @@
     "pos": "noun",
     "gender": "masc",
     "shortDefinition": "a body surface, skin; fig. a flesh, body",
+    "transliteration": "chrṓs",
+    "pronunciation": "KHROHS",
     "indices": { "strongs": "G5559" },
     "inflections": {
       "χρώς": {
@@ -7930,6 +8626,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be teeming, numerous",
+    "transliteration": "chydaîos",
+    "pronunciation": "khoo-DAI-aws",
     "inflections": {
       "χυδαῖοι": {
         "transliteration": "chydaîoi",
@@ -7946,6 +8644,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a juice, sap (of plants)",
+    "transliteration": "chylós",
+    "pronunciation": "khoo-LAWS",
     "inflections": {
       "χυλούς": {
         "transliteration": "chyloús",
@@ -7959,6 +8659,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a profusion, abundance, mass",
+    "transliteration": "chýma",
+    "pronunciation": "KHOO-mah",
     "inflections": {
       "χύμα": {
         "transliteration": "chýma",
@@ -7975,6 +8677,8 @@
     "pos": "adj",
     "declension": "2-1-2",
     "shortDefinition": "to be poured (as metal), cast",
+    "transliteration": "chytós",
+    "pronunciation": "khoo-TAWS",
     "inflections": {
       "χυτήν": {
         "transliteration": "chytḗn",
@@ -7991,6 +8695,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "an earthen pot, cooking pot",
+    "transliteration": "chýtra",
+    "pronunciation": "KHOO-trah",
     "inflections": {
       "κύθραν": {
         "transliteration": "kýthran",
@@ -8026,6 +8732,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "a pedestal basin, laver",
+    "transliteration": "chytrókaulos",
+    "pronunciation": "khoo-TRAW-kow-laws",
     "inflections": {
       "χυτρόκαυλον": {
         "transliteration": "chytrókaulon",
@@ -8046,6 +8754,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Choba",
+    "transliteration": "Chōba",
+    "pronunciation": "khoh-bah",
     "inflections": {
       "Χωβα": {
         "transliteration": "Chōba",
@@ -8058,6 +8768,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Chobai",
+    "transliteration": "Chōbai",
+    "pronunciation": "khoh-bai",
     "inflections": {
       "Χωβαι": {
         "transliteration": "Chōbai",
@@ -8071,6 +8783,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Cozeba; lit. Fallacious",
+    "transliteration": "Chōzēba",
+    "pronunciation": "khoh-zay-bah",
     "inflections": {
       "Χωζηβα": {
         "transliteration": "Chōzēba",
@@ -8084,6 +8798,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hotham; lit. Seal",
+    "transliteration": "Chōtham",
+    "pronunciation": "khoh-thahm",
     "inflections": {
       "Χωθαμ": {
         "transliteration": "Chōtham",
@@ -8097,6 +8813,8 @@
     "gender": "masc",
     "declension": "indeclinable",
     "shortDefinition": "Hotham; lit. Seal",
+    "transliteration": "Chōthan",
+    "pronunciation": "khoh-thahn",
     "inflections": {
       "Χωθαν": {
         "transliteration": "Chōthan",
@@ -8109,6 +8827,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "a capital (of a pillar)",
+    "transliteration": "chōthar",
+    "pronunciation": "khoh-thahr",
     "inflections": {
       "χωθαρ": {
         "transliteration": "chōthar",
@@ -8126,6 +8846,8 @@
     "conjugation": "thematic",
     "stems": { "aor": "εχωλαν", "fut": "χωλαν" },
     "shortDefinition": "to go lame, limp; fig. to waver",
+    "transliteration": "chōlaínō",
+    "pronunciation": "khoh-LAI-noh",
     "inflections": {
       "ἐχώλαναν": {
         "transliteration": "echṓlanan",
@@ -8151,6 +8873,8 @@
     "pos": "adj",
     "citationForms": ["χωλός", "χωλόν"],
     "shortDefinition": "to be lame, crippled",
+    "transliteration": "chōlós",
+    "pronunciation": "khoh-LAWS",
     "indices": { "strongs": "G5560" },
     "inflections": {
       "χωλά": {
@@ -8203,6 +8927,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a heap of earth, mound, embankment",
+    "transliteration": "chō̂ma",
+    "pronunciation": "KHOH-mah",
     "inflections": {
       "χῶμα": {
         "transliteration": "chō̂ma",
@@ -8227,6 +8953,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "an idolatrous priest",
+    "transliteration": "chōmarim",
+    "pronunciation": "khoh-mah-reem",
     "inflections": {
       "χωμαριμ": {
         "transliteration": "chōmarim",
@@ -8239,6 +8967,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to embank, fortify with mounds",
+    "transliteration": "chōmatízō",
+    "pronunciation": "khoh-mah-TEE-zoh",
     "inflections": {
       "κεχωματισμένας": {
         "transliteration": "kechōmatisménas",
@@ -8253,6 +8983,8 @@
     "pos": "noun",
     "declension": "indeclinable",
     "shortDefinition": "Conaniah, Chenaniah; lit. YH/Yah/Jah Has Sustained",
+    "transliteration": "Chōnenias",
+    "pronunciation": "khoh-neh-nee-ahs",
     "inflections": {
       "Χωνενια": {
         "transliteration": "Chōnenia",
@@ -8274,6 +9006,8 @@
     "gender": "neut",
     "declension": "3n-ma",
     "shortDefinition": "a casting, molten image",
+    "transliteration": "chṓneuma",
+    "pronunciation": "KHOH-nyoo-mah",
     "inflections": {
       "χώνευμα": {
         "transliteration": "chṓneuma",
@@ -8291,6 +9025,8 @@
     "gender": "fem",
     "declension": "3f-is",
     "shortDefinition": "a smelting, metal casting",
+    "transliteration": "chṓneusis",
+    "pronunciation": "KHOH-nyoo-sees",
     "inflections": {
       "χωνεύσει": {
         "transliteration": "chōneúsei",
@@ -8308,6 +9044,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a smelting furnace, foundry",
+    "transliteration": "chōneutḗrion",
+    "pronunciation": "khoh-nyoo-TAY-ree-awn",
     "inflections": {
       "χωνευτήριον": {
         "transliteration": "chōneutḗrion",
@@ -8333,6 +9071,8 @@
     "gender": "masc",
     "declension": "1m-es",
     "shortDefinition": "a smelter, metal caster",
+    "transliteration": "chōneutḗs",
+    "pronunciation": "khoh-nyoo-TAYS",
     "inflections": {
       "χωνευτῇ": {
         "transliteration": "chōneutē̂",
@@ -8344,6 +9084,8 @@
     "language": "greek",
     "pos": "adj",
     "shortDefinition": "to be molten, cast (metal)",
+    "transliteration": "chōneutós",
+    "pronunciation": "khoh-nyoo-TAWS",
     "inflections": {
       "χωνευτά": {
         "transliteration": "chōneutá",
@@ -8395,6 +9137,8 @@
     "pos": "verb",
     "conjugation": "thematic",
     "shortDefinition": "to smelt, cast (metal)",
+    "transliteration": "chōneúō",
+    "pronunciation": "khoh-NYOO-oh",
     "inflections": {
       "ἐχωνεύοντο": {
         "transliteration": "echōneúonto",
@@ -8460,6 +9204,8 @@
     "pos": "noun",
     "gender": "fem",
     "shortDefinition": "an area, space, room",
+    "transliteration": "chṓra",
+    "pronunciation": "KHOH-rah",
     "indices": { "strongs": "G5561" },
     "inflections": {
       "χώρα": {
@@ -8510,6 +9256,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to make space/room; fig. to receive",
+    "transliteration": "chōréō",
+    "pronunciation": "khoh-REH-oh",
     "indices": { "strongs": "G5562" },
     "inflections": {
       "ἐχώρει": {
@@ -8599,6 +9347,8 @@
     "gender": "fem",
     "declension": "indeclinable",
     "shortDefinition": "Horeb; lit. Desolate",
+    "transliteration": "Chōrēb",
+    "pronunciation": "khoh-rayb",
     "inflections": {
       "Χωρηβ": {
         "transliteration": "Chōrēb",
@@ -8612,6 +9362,8 @@
     "conjugation": "thematic",
     "stems": { "fut": "χωρι" },
     "shortDefinition": "to separate, part; refl. to depart, leave",
+    "transliteration": "chōrízō",
+    "pronunciation": "khoh-REE-zoh",
     "indices": { "strongs": "G5563" },
     "inflections": {
       "ἐχώρισα": {
@@ -8730,6 +9482,8 @@
     "gender": "neut",
     "declension": "2n",
     "shortDefinition": "a plot (of ground), field, piece of land",
+    "transliteration": "chōríon",
+    "pronunciation": "khoh-REE-awn",
     "indices": { "strongs": "G5564" },
     "inflections": {
       "χωρία": {
@@ -8770,6 +9524,8 @@
     "language": "greek",
     "pos": "adv",
     "shortDefinition": "apart, separately; fig. without, besides",
+    "transliteration": "chōrís",
+    "pronunciation": "khoh-REES",
     "indices": { "strongs": "G5565" },
     "inflections": {
       "χωρίς": { "transliteration": "chōrís", "cells": [{ "parse": ["adv"] }] }
@@ -8779,6 +9535,8 @@
     "language": "greek",
     "pos": "noun",
     "shortDefinition": "a setting apart, separation",
+    "transliteration": "chōrismós",
+    "pronunciation": "khoh-rees-MAWS",
     "inflections": {
       "χωρισμόν": {
         "transliteration": "chōrismón",
@@ -8799,6 +9557,8 @@
     "pos": "verb",
     "conjugation": "contract-e",
     "shortDefinition": "to survey (by walking), explore",
+    "transliteration": "chōrobatéō",
+    "pronunciation": "khoh-raw-bah-TEH-oh",
     "inflections": {
       "ἐχωροβάτησαν": {
         "transliteration": "echōrobátēsan",
@@ -8820,6 +9580,8 @@
     "gender": "masc",
     "declension": "2m",
     "shortDefinition": "the northwest (wind)",
+    "transliteration": "chō̂ros",
+    "pronunciation": "KHOH-raws",
     "indices": { "strongs": "G5566" },
     "inflections": {
       "χῶρον": {

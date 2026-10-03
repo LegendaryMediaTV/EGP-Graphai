@@ -10,7 +10,7 @@
 
 <sup>8</sup> Now there arose up a new king over Egypt, which knew not Joseph.
 <sup>9</sup> And he said unto his people, Behold, the people of the children of Israel _are_ more and mightier than we:
-<sup>10</sup> come on, let us deal wisely with them; lest they multiply, and it come to pass, that, when there falleth out any war, they join also unto our enemies, and fight against us, and _so_ get them up out of the land.
+<sup>10</sup> Come on, let us deal wisely with them; lest they multiply, and it come to pass, that, when there falleth out any war, they join also unto our enemies, and fight against us, and _so_ get them up out of the land.
 <sup>11</sup> Therefore they did set over them taskmasters to afflict them with their burdens. And they built for Pharaoh treasure cities, Pithom and Raamses.
 <sup>12</sup> But the more they afflicted them, the more they multiplied<sup>b</sup> and grew. And they were grieved because of the children of Israel.
 <sup>13</sup> And the Egyptians made the children of Israel to serve with rigour:
@@ -1474,8 +1474,9 @@
 <sup>15</sup> lest thou make a covenant with the inhabitants of the land, and they go a whoring after their gods, and do sacrifice unto their gods, and _one_ call thee, and thou eat of his sacrifice;
 <sup>16</sup> and thou take of their daughters unto thy sons, and their daughters go a whoring after their gods, and make thy sons go a whoring after their gods.
 <sup>17</sup> Thou shalt make thee no molten gods.
+<sup>18</sup>
 
-<sup>18</sup> The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.
+The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.
 <sup>19</sup> All that openeth the matrix _is_ mine; and every firstling among thy cattle, _whether_ ox or sheep, _that is male_.
 <sup>20</sup> But the firstling of an ass thou shalt redeem with a lamb:<sup>b</sup> and if thou redeem _him_ not, then shalt thou break his neck. All the firstborn of thy sons thou shalt redeem. And none shall appear before me empty.
 
@@ -1530,7 +1531,7 @@
 
 <sup>20</sup> And all the congregation of the children of Israel departed from the presence of Moses.
 <sup>21</sup> And they came, every one whose heart stirred him up, and every one whom his spirit made willing, _and_ they brought the LORD’s offering to the work of the tabernacle of the congregation, and for all his service, and for the holy garments.
-<sup>22</sup> And they came, both men and women, as many as were willing hearted, _and_ brought bracelets, and earrings, and rings, and tablets, all jewels of gold: and every man that _offered_ an offering of gold unto the LORD.
+<sup>22</sup> And they came, both men and women, as many as were willing hearted, _and_ brought bracelets, and earrings, and rings, and tablets, all jewels of gold: and every man that offered _offered_ an offering of gold unto the LORD.
 <sup>23</sup> And every man, with whom was found blue, and purple, and scarlet, and fine linen, and goats’ _hair_, and red skins of rams, and badgers’ skins, brought _them_.
 <sup>24</sup> Every one that did offer an offering of silver and brass brought the LORD’s offering: and every man, with whom was found shittim wood for any work of the service, brought _it_.
 <sup>25</sup> And all the women that were wise hearted did spin with their hands, and brought that which they had spun, _both_ of blue, and of purple, _and_ of scarlet, and of fine linen.

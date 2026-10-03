@@ -18,21 +18,21 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "text": "Let him kiss", "strong": "H5401", "morph": "QalImpf" },
+      { "text": "Let him kiss", "strong": "H5401" },
       { "text": " me with the kisses", "strong": "H5390" },
       { "text": " of his mouth:", "break": true, "strong": "H6310" },
+      { "text": "For", "strong": "H3588" },
       {
-        "text": "For thy love",
+        "text": " thy love",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "thy loves", "marks": ["i"] }]
         },
         "strong": "H1730"
       },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
-        "strong": "H2896"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " better", "strong": "H2896" },
       { "text": " than wine.", "break": true, "strong": "H3196" }
     ]
   },
@@ -45,18 +45,12 @@
       { "text": " of thy good", "strong": "H2896" },
       { "text": " ointments", "break": true, "strong": "H8081" },
       { "text": "Thy name", "strong": "H8034" },
-      {
-        "content": [" ", { "text": "is as", "marks": ["i"] }, " ointment"],
-        "strong": "H8081"
-      },
-      {
-        "text": " poured forth,",
-        "break": true,
-        "strong": "H7324",
-        "morph": "HophImpf"
-      },
+      " ",
+      { "text": "is as", "marks": ["i"] },
+      { "text": " ointment", "strong": "H8081" },
+      { "text": " poured forth,", "break": true, "strong": "H7324" },
       { "text": "Therefore do the virgins", "strong": "H5959" },
-      { "text": " love", "strong": "H157", "morph": "QalPerf" },
+      { "text": " love", "strong": "H157" },
       { "text": " thee.", "break": true }
     ]
   },
@@ -65,26 +59,25 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "text": "Draw", "strong": "H4900", "morph": "QalImpv" },
-      { "text": " me, we will run", "strong": "H7323", "morph": "QalImpf" },
+      { "text": "Draw", "strong": "H4900" },
+      { "text": " me, we will run", "strong": "H7323" },
       { "text": " after", "strong": "H310" },
       {
         "content": [{ "text": " thee:", "break": true }, "The king"],
         "strong": "H4428"
       },
-      { "text": " hath brought", "strong": "H935", "morph": "HiphPerf" },
+      { "text": " hath brought", "strong": "H935" },
       { "text": " me into his chambers:", "break": true, "strong": "H2315" },
-      { "text": "We will be glad", "strong": "H1523", "morph": "QalImpf" },
-      { "text": " and rejoice", "strong": "H8055", "morph": "QalImpf" },
+      { "text": "We will be glad", "strong": "H1523" },
+      { "text": " and rejoice", "strong": "H8055" },
       {
         "content": [{ "text": " in thee,", "break": true }, "We will remember"],
-        "strong": "H2142",
-        "morph": "HiphImpf"
+        "strong": "H2142"
       },
       { "text": " thy love", "strong": "H1730" },
       { "text": " more than wine:", "break": true, "strong": "H3196" },
       { "text": "The upright", "strong": "H4339" },
-      { "text": " love", "strong": "H157", "morph": "QalPerf" },
+      { "text": " love", "strong": "H157" },
       {
         "text": " thee.",
         "break": true,
@@ -121,7 +114,7 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      { "text": "Look", "strong": "H7200", "morph": "QalImpf" },
+      { "text": "Look", "strong": "H7200" },
       {
         "content": [
           " not upon me, because I ",
@@ -132,30 +125,22 @@
         "strong": "H7840"
       },
       { "text": "Because the sun", "strong": "H8121" },
-      { "text": " hath looked", "strong": "H7805", "morph": "QalPerf" },
+      { "text": " hath looked", "strong": "H7805" },
       {
         "content": [{ "text": " upon me:", "break": true }, "My mother’s"],
         "strong": "H517"
       },
       { "text": " children", "strong": "H1121" },
-      { "text": " were angry", "strong": "H2787", "morph": "NiphPerf" },
+      { "text": " were angry", "strong": "H2787" },
       {
         "content": [{ "text": " with me;", "break": true }, "They made"],
-        "strong": "H7760",
-        "morph": "QalPerf"
+        "strong": "H7760"
       },
-      { "text": " me the keeper", "strong": "H5201", "morph": "QalActPtc" },
+      { "text": " me the keeper", "strong": "H5201" },
       { "text": " of the vineyards;", "break": true, "strong": "H3754" },
-      {
-        "content": [{ "text": "But", "marks": ["i"] }, " mine own vineyard"],
-        "strong": "H3754"
-      },
-      {
-        "text": " have I not kept.",
-        "break": true,
-        "strong": "H5201",
-        "morph": "QalPerf"
-      }
+      { "text": "But", "marks": ["i"] },
+      { "text": " mine own vineyard", "strong": "H3754" },
+      { "text": " have I not kept.", "break": true, "strong": "H5201" }
     ]
   },
   {
@@ -163,15 +148,10 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      { "text": "Tell", "strong": "H5046", "morph": "HiphImpv" },
+      { "text": "Tell", "strong": "H5046" },
       { "text": " me, O thou whom my soul", "strong": "H5315" },
-      {
-        "text": " loveth,",
-        "break": true,
-        "strong": "H157",
-        "morph": "QalPerf"
-      },
-      { "text": "Where thou feedest,", "strong": "H7462", "morph": "QalImpf" },
+      { "text": " loveth,", "break": true, "strong": "H157" },
+      { "text": "Where thou feedest,", "strong": "H7462" },
       { "text": " where", "strong": "H349" },
       {
         "content": [
@@ -179,8 +159,7 @@
           { "text": "thy flock", "marks": ["i"] },
           " to rest"
         ],
-        "strong": "H7257",
-        "morph": "HiphImpf"
+        "strong": "H7257"
       },
       { "text": " at noon:", "break": true, "strong": "H6672" },
       { "text": "For", "strong": "H4100" },
@@ -194,8 +173,7 @@
             { "text": "as one that is vailed", "marks": ["i"] }
           ]
         },
-        "strong": "H5844",
-        "morph": "QalActPtc"
+        "strong": "H5844"
       },
       { "text": "By the flocks", "strong": "H5739" },
       { "text": " of thy companions?", "break": true, "strong": "H2270" }
@@ -206,22 +184,19 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      { "text": "If thou know", "strong": "H3045", "morph": "QalImpf" },
+      { "text": "If thou know", "strong": "H3045" },
       {
         "content": [{ "text": " not,", "break": true }, "O thou fairest"],
         "strong": "H3303"
       },
       { "text": " among women,", "break": true, "strong": "H802" },
-      { "text": "Go thy way forth", "strong": "H3318", "morph": "QalImpv" },
+      { "text": "Go thy way forth", "strong": "H3318" },
       { "text": " by the footsteps", "strong": "H6119" },
       { "text": " of the flock,", "break": true, "strong": "H6629" },
-      { "text": "And feed", "strong": "H7462", "morph": "QalImpv" },
+      { "text": "And feed", "strong": "H7462" },
+      { "strong": "H853" },
       { "text": " thy kids", "break": true, "strong": "H1429" },
-      {
-        "text": "Beside the shepherds’",
-        "strong": "H7462",
-        "morph": "QalActPtc"
-      },
+      { "text": "Beside the shepherds’", "strong": "H7462" },
       { "text": " tents.", "break": true, "strong": "H4908" }
     ]
   },
@@ -230,7 +205,7 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      { "text": "I have compared", "strong": "H1819", "morph": "PielPerf" },
+      { "text": "I have compared", "strong": "H1819" },
       { "text": " thee, O my love,", "break": true, "strong": "H7474" },
       { "text": "To a company of horses", "strong": "H5484" },
       { "text": " in Pharaoh’s", "strong": "H6547" },
@@ -243,15 +218,12 @@
     "verse": 10,
     "content": [
       { "text": "Thy cheeks", "strong": "H3895" },
-      { "text": " are comely", "strong": "H4998", "morph": "PilpPerf" },
+      { "text": " are comely", "strong": "H4998" },
       { "text": " with rows", "strong": "H8447" },
+      " ",
+      { "text": "of jewels", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "of jewels", "marks": ["i"] },
-          { "text": ",", "break": true },
-          "Thy neck"
-        ],
+        "content": [{ "text": ",", "break": true }, "Thy neck"],
         "strong": "H6677"
       },
       { "text": " with chains", "strong": "H2737" },
@@ -265,10 +237,11 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      { "text": "We will make", "strong": "H6213", "morph": "QalImpf" },
+      { "text": "We will make", "strong": "H6213" },
       { "text": " thee borders", "strong": "H8447" },
       { "text": " of gold", "break": true, "strong": "H2091" },
-      { "text": "With studs", "strong": "H5351" },
+      { "text": "With", "strong": "H5973" },
+      { "text": " studs", "strong": "H5351" },
       { "text": " of silver.", "break": true, "strong": "H3701" }
     ]
   },
@@ -278,17 +251,11 @@
     "verse": 12,
     "content": [
       { "text": "While the King", "strong": "H4428" },
-      {
-        "content": [
-          " ",
-          { "text": "sitteth", "marks": ["i"] },
-          " at his table,"
-        ],
-        "break": true,
-        "strong": "H4524"
-      },
+      " ",
+      { "text": "sitteth", "marks": ["i"] },
+      { "text": " at his table,", "break": true, "strong": "H4524" },
       { "text": "My spikenard", "strong": "H5373" },
-      { "text": " sendeth forth", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " sendeth forth", "strong": "H5414" },
       { "text": " the smell", "strong": "H7381" },
       { "text": " thereof.", "break": true }
     ]
@@ -300,14 +267,12 @@
     "content": [
       { "text": "A bundle", "strong": "H6872" },
       { "text": " of myrrh", "strong": "H4753" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " my wellbeloved"],
-        "strong": "H1730"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " my wellbeloved", "strong": "H1730" },
       {
         "content": [{ "text": " unto me;", "break": true }, "He shall lie"],
-        "strong": "H3885",
-        "morph": "QalImpf"
+        "strong": "H3885"
       },
       {
         "text": " all night betwixt my breasts.",
@@ -322,10 +287,10 @@
     "verse": 14,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
         "content": [
-          " ",
-          { "text": "is", "marks": ["i"] },
           " unto me ",
           { "text": "as", "marks": ["i"] },
           " a cluster"
@@ -399,11 +364,9 @@
       { "text": " my beloved,", "break": true, "strong": "H1730" },
       { "text": "Yea, pleasant:", "break": true, "strong": "H5273" },
       { "text": "Also our bed", "strong": "H6210" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " green."],
-        "break": true,
-        "strong": "H7488"
-      }
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " green.", "break": true, "strong": "H7488" }
     ]
   },
   {
@@ -413,24 +376,17 @@
     "content": [
       { "text": "The beams", "strong": "H6982" },
       { "text": " of our house", "strong": "H1004" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " cedar,", "break": true, "strong": "H730" },
+      { "text": "And", "marks": ["i"] },
       {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " cedar,"],
-        "break": true,
-        "strong": "H730"
-      },
-      {
-        "content": [
-          { "text": "And", "marks": ["i"] },
-          {
-            "text": " our rafters",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "galleries", "marks": ["i"] }]
-            }
-          }
-        ],
-        "strong": "H7351",
-        "morph": "Qere"
+        "text": " our rafters",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "galleries", "marks": ["i"] }]
+        },
+        "strong": "H7351"
       },
       { "strong": "H7351" },
       { "text": " of fir.", "break": true, "strong": "H1266" }
@@ -447,10 +403,8 @@
         "strong": "H2261"
       },
       { "text": " of Sharon,", "break": true, "strong": "H8289" },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " the lily"],
-        "strong": "H7799"
-      },
+      { "text": "And", "marks": ["i"] },
+      { "text": " the lily", "strong": "H7799" },
       { "text": " of the valleys.", "break": true, "strong": "H6010" }
     ]
   },
@@ -481,7 +435,7 @@
         "strong": "H1730"
       },
       { "text": " among the sons.", "break": true, "strong": "H1121" },
-      { "text": "I sat", "strong": "H3427", "morph": "QalPerf" },
+      { "text": "I sat", "strong": "H3427" },
       { "text": " down under his shadow", "strong": "H6738" },
       {
         "text": " with great delight,",
@@ -494,14 +448,12 @@
             ", etc."
           ]
         },
-        "strong": "H2530",
-        "morph": "PielPerf"
+        "strong": "H2530"
       },
       { "text": "And his fruit", "strong": "H6529" },
-      {
-        "content": [" ", { "text": "was", "marks": ["i"] }, " sweet"],
-        "strong": "H4966"
-      },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " sweet", "strong": "H4966" },
       {
         "text": " to my taste.",
         "break": true,
@@ -518,7 +470,7 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      { "text": "He brought", "strong": "H935", "morph": "HiphPerf" },
+      { "text": "He brought", "strong": "H935" },
       { "text": " me to the banqueting", "strong": "H3196" },
       {
         "text": " house,",
@@ -542,9 +494,9 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      { "text": "Stay", "strong": "H5564", "morph": "PielImpv" },
+      { "text": "Stay", "strong": "H5564" },
       { "text": " me with flagons,", "break": true, "strong": "H809" },
-      { "text": "Comfort", "strong": "H7502", "morph": "PielImpv" },
+      { "text": "Comfort", "strong": "H7502" },
       {
         "text": " me with apples:",
         "break": true,
@@ -559,8 +511,7 @@
       },
       {
         "content": ["For I ", { "text": "am", "marks": ["i"] }, " sick"],
-        "strong": "H2470",
-        "morph": "QalActPtc"
+        "strong": "H2470"
       },
       { "text": " of love.", "break": true, "strong": "H160" }
     ]
@@ -571,13 +522,11 @@
     "verse": 6,
     "content": [
       { "text": "His left hand", "strong": "H8040" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " under my head,"],
-        "break": true,
-        "strong": "H7218"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " under my head,", "break": true, "strong": "H7218" },
       { "text": "And his right hand", "strong": "H3225" },
-      { "text": " doth embrace", "strong": "H2263", "morph": "PielImpf" },
+      { "text": " doth embrace", "strong": "H2263" },
       { "text": " me.", "break": true }
     ]
   },
@@ -586,7 +535,7 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      { "text": "I charge", "strong": "H7650", "morph": "HiphPerf" },
+      { "text": "I charge", "strong": "H7650" },
       {
         "content": [
           {
@@ -605,23 +554,14 @@
       { "text": " and", "strong": "H176" },
       { "text": " by the hinds", "strong": "H355" },
       { "text": " of the field,", "break": true, "strong": "H7704" },
-      {
-        "text": "That ye stir not up,",
-        "strong": "H5782",
-        "morph": "HiphImpf"
-      },
-      { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
-        "break": true,
-        "strong": "H160"
-      },
-      {
-        "text": "Till he please.",
-        "break": true,
-        "strong": "H2654",
-        "morph": "QalImpf"
-      }
+      { "text": "That ye stir not up,", "strong": "H5782" },
+      { "text": " nor awake", "strong": "H5782" },
+      { "strong": "H853" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true, "strong": "H160" },
+      { "text": "Till", "strong": "H5704" },
+      { "text": " he please.", "break": true, "strong": "H2654" }
     ]
   },
   {
@@ -631,16 +571,13 @@
     "content": [
       { "text": "The voice", "strong": "H6963" },
       { "text": " of my beloved!", "break": true, "strong": "H1730" },
-      {
-        "text": "Behold, he cometh",
-        "break": true,
-        "strong": "H935",
-        "morph": "QalActPtc"
-      },
-      { "text": "Leaping", "strong": "H1801", "morph": "PielPtc" },
-      { "text": " upon the mountains,", "break": true, "strong": "H2022" },
-      { "text": "Skipping", "strong": "H7092", "morph": "PielPtc" },
-      { "text": " upon the hills.", "break": true, "strong": "H1389" }
+      { "text": "Behold, he cometh", "break": true, "strong": "H935" },
+      { "text": "Leaping", "strong": "H1801" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " the mountains,", "break": true, "strong": "H2022" },
+      { "text": "Skipping", "strong": "H7092" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " the hills.", "break": true, "strong": "H1389" }
     ]
   },
   {
@@ -649,21 +586,16 @@
     "verse": 9,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
-      { "text": " is like", "strong": "H1819", "morph": "QalActPtc" },
+      { "text": " is like", "strong": "H1819" },
       { "text": " a roe", "break": true, "strong": "H6643" },
       { "text": "Or a young", "strong": "H6082" },
       { "text": " hart:", "break": true, "strong": "H354" },
-      {
-        "text": "Behold, he standeth",
-        "break": true,
-        "strong": "H5975",
-        "morph": "QalActPtc"
-      },
+      { "text": "Behold, he standeth", "break": true, "strong": "H5975" },
       { "text": "Behind", "strong": "H310" },
       { "text": " our wall,", "break": true, "strong": "H3796" },
-      { "text": "He looketh forth", "strong": "H7688", "morph": "HiphPtc" },
+      { "text": "He looketh forth", "strong": "H7688" },
       { "text": " at the windows,", "break": true, "strong": "H2474" },
-      { "text": "Shewing", "strong": "H6692", "morph": "HiphPtc" },
+      { "text": "Shewing", "strong": "H6692" },
       {
         "content": [
           {
@@ -686,21 +618,15 @@
     "verse": 10,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
-      { "text": " spake,", "strong": "H6030", "morph": "QalPerf" },
-      { "text": " and said", "strong": "H559", "morph": "QalPerf" },
+      { "text": " spake,", "strong": "H6030" },
+      { "text": " and said", "strong": "H559" },
       {
         "content": [{ "text": " unto me,", "break": true }, "Rise up,"],
-        "strong": "H6965",
-        "morph": "QalImpv"
+        "strong": "H6965"
       },
       { "text": " my love,", "strong": "H7474" },
       { "text": " my fair one,", "break": true, "strong": "H3303" },
-      {
-        "text": "And come away.",
-        "break": true,
-        "strong": "H3212",
-        "morph": "QalImpv"
-      }
+      { "text": "And come away.", "break": true, "strong": "H3212" }
     ]
   },
   {
@@ -709,20 +635,12 @@
     "verse": 11,
     "content": [
       { "text": "For, lo, the winter", "strong": "H5638" },
-      {
-        "text": " is past,",
-        "break": true,
-        "strong": "H5674",
-        "morph": "QalPerf"
-      },
+      { "text": " is past,", "break": true, "strong": "H5674" },
       { "text": "The rain", "strong": "H1653" },
-      { "text": " is over", "strong": "H2498", "morph": "QalPerf" },
-      {
-        "content": [" ", { "text": "and", "marks": ["i"] }, " gone;"],
-        "break": true,
-        "strong": "H1980",
-        "morph": "QalPerf"
-      }
+      { "text": " is over", "strong": "H2498" },
+      " ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " gone;", "break": true, "strong": "H1980" }
     ]
   },
   {
@@ -731,19 +649,16 @@
     "verse": 12,
     "content": [
       { "text": "The flowers", "strong": "H5339" },
-      { "text": " appear", "strong": "H7200", "morph": "NiphPerf" },
+      { "text": " appear", "strong": "H7200" },
       { "text": " on the earth;", "break": true, "strong": "H776" },
       { "text": "The time", "strong": "H6256" },
       { "text": " of the singing", "strong": "H2158" },
-      {
-        "content": [" ", { "text": "of birds", "marks": ["i"] }, " is come,"],
-        "break": true,
-        "strong": "H5060",
-        "morph": "HiphPerf"
-      },
+      " ",
+      { "text": "of birds", "marks": ["i"] },
+      { "text": " is come,", "break": true, "strong": "H5060" },
       { "text": "And the voice", "strong": "H6963" },
       { "text": " of the turtle", "break": true, "strong": "H8449" },
-      { "text": "Is heard", "strong": "H8085", "morph": "NiphPerf" },
+      { "text": "Is heard", "strong": "H8085" },
       { "text": " in our land;", "break": true, "strong": "H776" }
     ]
   },
@@ -753,33 +668,22 @@
     "verse": 13,
     "content": [
       { "text": "The fig tree", "strong": "H8384" },
-      { "text": " putteth forth", "strong": "H2590", "morph": "QalPerf" },
+      { "text": " putteth forth", "strong": "H2590" },
       { "text": " her green figs,", "break": true, "strong": "H6291" },
       { "text": "And the vines", "strong": "H1612" },
-      {
-        "content": [
-          " ",
-          { "text": "with", "marks": ["i"] },
-          " the tender grape"
-        ],
-        "break": true,
-        "strong": "H5563"
-      },
-      { "text": "Give", "strong": "H5414", "morph": "QalPerf" },
+      " ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " the tender grape", "break": true, "strong": "H5563" },
+      { "text": "Give", "strong": "H5414" },
       {
         "content": [" a ", { "text": "good", "marks": ["i"] }, " smell."],
         "break": true,
         "strong": "H7381"
       },
-      { "text": "Arise,", "strong": "H6965", "morph": "QalImpv" },
+      { "text": "Arise,", "strong": "H6965" },
       { "text": " my love,", "strong": "H7474" },
       { "text": " my fair one,", "break": true, "strong": "H3303" },
-      {
-        "text": "and come away.",
-        "break": true,
-        "strong": "H3212",
-        "morph": "QalImpv"
-      }
+      { "text": "and come away.", "break": true, "strong": "H3212" }
     ]
   },
   {
@@ -788,41 +692,27 @@
     "verse": 14,
     "content": [
       { "text": "O my dove,", "strong": "H3123" },
-      {
-        "content": [
-          " ",
-          { "text": "that art", "marks": ["i"] },
-          " in the clefts"
-        ],
-        "strong": "H2288"
-      },
+      " ",
+      { "text": "that art", "marks": ["i"] },
+      { "text": " in the clefts", "strong": "H2288" },
       { "text": " of the rock,", "break": true, "strong": "H5553" },
       { "text": "In the secret", "strong": "H5643" },
-      {
-        "content": [
-          " ",
-          { "text": "places", "marks": ["i"] },
-          " of the stairs,"
-        ],
-        "break": true,
-        "strong": "H4095"
-      },
-      { "text": "Let me see", "strong": "H7200", "morph": "HiphImpv" },
+      " ",
+      { "text": "places", "marks": ["i"] },
+      { "text": " of the stairs,", "break": true, "strong": "H4095" },
+      { "text": "Let me see", "strong": "H7200" },
       { "text": " thy countenance,", "break": true, "strong": "H4758" },
-      { "text": "Let me hear", "strong": "H8085", "morph": "HiphImpv" },
+      { "text": "Let me hear", "strong": "H8085" },
       { "text": " thy voice;", "break": true, "strong": "H6963" },
-      { "text": "For sweet", "strong": "H6156" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " thy voice,"],
-        "break": true,
-        "strong": "H6963"
-      },
+      { "text": "For", "strong": "H3588" },
+      { "text": " sweet", "strong": "H6156" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy voice,", "break": true, "strong": "H6963" },
       { "text": "And thy countenance", "strong": "H4758" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " comely."],
-        "break": true,
-        "strong": "H5000"
-      }
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " comely.", "break": true, "strong": "H5000" }
     ]
   },
   {
@@ -830,18 +720,16 @@
     "chapter": 2,
     "verse": 15,
     "content": [
-      { "text": "Take", "strong": "H270", "morph": "QalImpv" },
+      { "text": "Take", "strong": "H270" },
       { "text": " us the foxes,", "break": true, "strong": "H7776" },
       { "text": "The little", "strong": "H6996" },
       { "text": " foxes,", "break": true, "strong": "H7776" },
-      { "text": "That spoil", "strong": "H2254", "morph": "PielPtc" },
+      { "text": "That spoil", "strong": "H2254" },
       { "text": " the vines:", "break": true, "strong": "H3754" },
       { "text": "For our vines", "strong": "H3754" },
-      {
-        "content": [" ", { "text": "have", "marks": ["i"] }, " tender grapes."],
-        "break": true,
-        "strong": "H5563"
-      }
+      " ",
+      { "text": "have", "marks": ["i"] },
+      { "text": " tender grapes.", "break": true, "strong": "H5563" }
     ]
   },
   {
@@ -850,17 +738,16 @@
     "verse": 16,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
         "content": [
-          " ",
-          { "text": "is", "marks": ["i"] },
           " mine, and I ",
           { "text": "am", "marks": ["i"] },
           { "text": " his:", "break": true },
           "He feedeth"
         ],
-        "strong": "H7462",
-        "morph": "QalActPtc"
+        "strong": "H7462"
       },
       { "text": " among the lilies.", "break": true, "strong": "H7799" }
     ]
@@ -870,27 +757,19 @@
     "chapter": 2,
     "verse": 17,
     "content": [
-      { "text": "Until the day", "strong": "H3117" },
-      {
-        "text": " break,",
-        "break": true,
-        "strong": "H6315",
-        "morph": "QalImpf"
-      },
+      { "text": "Until", "strong": "H5704" },
+      { "text": " the day", "strong": "H3117" },
+      { "text": " break,", "break": true, "strong": "H6315" },
       { "text": "And the shadows", "strong": "H6752" },
-      {
-        "text": " flee away,",
-        "break": true,
-        "strong": "H5127",
-        "morph": "QalPerf"
-      },
-      { "text": "Turn,", "strong": "H5437", "morph": "QalImpv" },
+      { "text": " flee away,", "break": true, "strong": "H5127" },
+      { "text": "Turn,", "strong": "H5437" },
       { "text": " my beloved,", "strong": "H1730" },
-      { "text": " and be thou like", "strong": "H1819", "morph": "QalImpv" },
+      { "text": " and be thou like", "strong": "H1819" },
       { "text": " a roe", "strong": "H6643" },
       { "text": " or a young", "strong": "H6082" },
       { "text": " hart", "break": true, "strong": "H354" },
-      { "text": "Upon the mountains", "strong": "H2022" },
+      { "text": "Upon", "strong": "H5921" },
+      { "text": " the mountains", "strong": "H2022" },
       {
         "text": " of Bether.",
         "break": true,
@@ -908,17 +787,14 @@
     "verse": 1,
     "content": [
       { "paragraph": true, "text": "By night", "strong": "H3915" },
-      { "text": " on my bed", "strong": "H4904" },
-      { "text": " I sought", "strong": "H1245", "morph": "PielPerf" },
+      { "text": " on", "strong": "H5921" },
+      { "text": " my bed", "strong": "H4904" },
+      { "text": " I sought", "strong": "H1245" },
       { "text": " him whom my soul", "strong": "H5315" },
-      {
-        "text": " loveth:",
-        "break": true,
-        "strong": "H157",
-        "morph": "QalPerf"
-      },
-      { "text": "I sought", "strong": "H1245", "morph": "PielPerf" },
-      { "text": " him, but I found", "strong": "H4672", "morph": "QalPerf" },
+      { "strong": "H853" },
+      { "text": " loveth:", "break": true, "strong": "H157" },
+      { "text": "I sought", "strong": "H1245" },
+      { "text": " him, but I found", "strong": "H4672" },
       { "text": " him not.", "break": true }
     ]
   },
@@ -927,21 +803,17 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      { "text": "I will rise", "strong": "H6965", "morph": "QalImpf" },
-      { "text": " now, and go about", "strong": "H5437", "morph": "PoelImpf" },
+      { "text": "I will rise", "strong": "H6965" },
+      { "text": " now, and go about", "strong": "H5437" },
       { "text": " the city", "break": true, "strong": "H5892" },
       { "text": "In the streets,", "strong": "H7784" },
       { "text": " and in the broad ways", "break": true, "strong": "H7339" },
-      { "text": "I will seek", "strong": "H1245", "morph": "PielImpf" },
+      { "text": "I will seek", "strong": "H1245" },
       { "text": " him whom my soul", "strong": "H5315" },
-      {
-        "text": " loveth:",
-        "break": true,
-        "strong": "H157",
-        "morph": "QalPerf"
-      },
-      { "text": "I sought", "strong": "H1245", "morph": "PielPerf" },
-      { "text": " him, but I found", "strong": "H4672", "morph": "QalPerf" },
+      { "strong": "H853" },
+      { "text": " loveth:", "break": true, "strong": "H157" },
+      { "text": "I sought", "strong": "H1245" },
+      { "text": " him, but I found", "strong": "H4672" },
       { "text": " him not.", "break": true }
     ]
   },
@@ -950,10 +822,10 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      { "text": "The watchmen", "strong": "H8104", "morph": "QalActPtc" },
-      { "text": " that go about", "strong": "H5437", "morph": "QalActPtc" },
+      { "text": "The watchmen", "strong": "H8104" },
+      { "text": " that go about", "strong": "H5437" },
       { "text": " the city", "strong": "H5892" },
-      { "text": " found", "strong": "H4672", "morph": "QalPerf" },
+      { "text": " found", "strong": "H4672" },
       {
         "content": [
           { "text": " me:", "break": true },
@@ -961,16 +833,11 @@
           { "text": ",", "break": true },
           "Saw"
         ],
-        "strong": "H7200",
-        "morph": "QalPerf"
+        "strong": "H7200"
       },
       { "text": " ye him whom my soul", "strong": "H5315" },
-      {
-        "text": " loveth?",
-        "break": true,
-        "strong": "H157",
-        "morph": "QalPerf"
-      }
+      { "strong": "H853" },
+      { "text": " loveth?", "break": true, "strong": "H157" }
     ]
   },
   {
@@ -978,39 +845,28 @@
     "chapter": 3,
     "verse": 4,
     "content": [
-      {
-        "content": [{ "text": "It was", "marks": ["i"] }, " but a little"],
-        "strong": "H4592"
-      },
-      { "text": " that I passed", "strong": "H5674", "morph": "QalPerf" },
+      { "text": "It was", "marks": ["i"] },
+      { "text": " but a little", "strong": "H4592" },
+      { "text": " that I passed", "strong": "H5674" },
       {
         "content": [{ "text": " from them,", "break": true }, "But I found"],
-        "strong": "H4672",
-        "morph": "QalPerf"
+        "strong": "H4672"
       },
       { "text": " him whom my soul", "strong": "H5315" },
-      {
-        "text": " loveth:",
-        "break": true,
-        "strong": "H157",
-        "morph": "QalPerf"
-      },
-      { "text": "I held", "strong": "H270", "morph": "QalPerf" },
+      { "strong": "H853" },
+      { "text": " loveth:", "break": true, "strong": "H157" },
+      { "text": "I held", "strong": "H270" },
       {
         "text": " him, and would not let him go,",
         "break": true,
-        "strong": "H7503",
-        "morph": "HiphImpf"
+        "strong": "H7503"
       },
-      { "text": "Until I had brought", "strong": "H935", "morph": "HiphPerf" },
+      { "text": "Until", "strong": "H5704" },
+      { "text": " I had brought", "strong": "H935" },
       { "text": " him into my mother’s", "strong": "H517" },
       { "text": " house,", "break": true, "strong": "H1004" },
       { "text": "And into the chamber", "strong": "H2315" },
-      {
-        "text": " of her that conceived",
-        "strong": "H2029",
-        "morph": "QalActPtc"
-      },
+      { "text": " of her that conceived", "strong": "H2029" },
       { "text": " me.", "break": true }
     ]
   },
@@ -1019,30 +875,21 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      { "text": "I charge", "strong": "H7650", "morph": "HiphPerf" },
+      { "text": "I charge", "strong": "H7650" },
       { "text": " you, O ye daughters", "strong": "H1323" },
       { "text": " of Jerusalem,", "break": true, "strong": "H3389" },
       { "text": "By the roes,", "strong": "H6643" },
       { "text": " and", "strong": "H176" },
       { "text": " by the hinds", "strong": "H355" },
       { "text": " of the field,", "break": true, "strong": "H7704" },
-      {
-        "text": "That ye stir not up,",
-        "strong": "H5782",
-        "morph": "HiphImpf"
-      },
-      { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
-        "break": true,
-        "strong": "H160"
-      },
-      {
-        "text": "Till he please.",
-        "break": true,
-        "strong": "H2654",
-        "morph": "QalImpf"
-      }
+      { "text": "That ye stir not up,", "strong": "H5782" },
+      { "text": " nor awake", "strong": "H5782" },
+      { "strong": "H853" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true, "strong": "H160" },
+      { "text": "Till", "strong": "H5704" },
+      { "text": " he please.", "break": true, "strong": "H2654" }
     ]
   },
   {
@@ -1056,22 +903,17 @@
           { "text": "is", "marks": ["i"] },
           " this that cometh"
         ],
-        "strong": "H5927",
-        "morph": "QalActPtc"
+        "strong": "H5927"
       },
-      { "text": " out of the wilderness", "break": true, "strong": "H4057" },
+      { "text": " out of", "strong": "H4480" },
+      { "text": " the wilderness", "break": true, "strong": "H4057" },
       { "text": "Like pillars", "strong": "H8490" },
       { "text": " of smoke,", "break": true, "strong": "H6227" },
-      { "text": "Perfumed", "strong": "H6999", "morph": "PualPtc" },
+      { "text": "Perfumed", "strong": "H6999" },
       { "text": " with myrrh", "strong": "H4753" },
       { "text": " and frankincense,", "break": true, "strong": "H3828" },
       { "text": "With all powders", "strong": "H81" },
-      {
-        "text": " of the merchant?",
-        "break": true,
-        "strong": "H7402",
-        "morph": "QalActPtc"
-      }
+      { "text": " of the merchant?", "break": true, "strong": "H7402" }
     ]
   },
   {
@@ -1079,7 +921,8 @@
     "chapter": 3,
     "verse": 7,
     "content": [
-      { "text": "Behold his bed,", "strong": "H4296" },
+      { "text": "Behold", "strong": "H2009" },
+      { "text": " his bed,", "strong": "H4296" },
       {
         "content": [" which ", { "text": "is", "marks": ["i"] }, " Solomon’s;"],
         "break": true,
@@ -1103,20 +946,18 @@
     "chapter": 3,
     "verse": 8,
     "content": [
-      { "text": "They all hold", "strong": "H270", "morph": "QalPasPtc" },
+      { "text": "They all hold", "strong": "H270" },
       { "text": " swords,", "break": true, "strong": "H2719" },
-      {
-        "content": [{ "text": "Being", "marks": ["i"] }, " expert"],
-        "strong": "H3925",
-        "morph": "PualPtc"
-      },
+      { "text": "Being", "marks": ["i"] },
+      { "text": " expert", "strong": "H3925" },
       { "text": " in war:", "break": true, "strong": "H4421" },
-      { "text": "Every man", "strong": "H376" },
-      {
-        "content": [" ", { "text": "hath", "marks": ["i"] }, " his sword"],
-        "strong": "H2719"
-      },
-      { "text": " upon his thigh", "break": true, "strong": "H3409" },
+      { "text": "Every", "strong": "H3605" },
+      { "text": " man", "strong": "H376" },
+      " ",
+      { "text": "hath", "marks": ["i"] },
+      { "text": " his sword", "strong": "H2719" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " his thigh", "break": true, "strong": "H3409" },
       { "text": "Because of fear", "strong": "H6343" },
       { "text": " in the night.", "break": true, "strong": "H3915" }
     ]
@@ -1128,7 +969,7 @@
     "content": [
       { "text": "King", "strong": "H4428" },
       { "text": " Solomon", "strong": "H8010" },
-      { "text": " made", "strong": "H6213", "morph": "QalPerf" },
+      { "text": " made", "strong": "H6213" },
       {
         "text": " himself a chariot",
         "break": true,
@@ -1147,7 +988,7 @@
     "chapter": 3,
     "verse": 10,
     "content": [
-      { "text": "He made", "strong": "H6213", "morph": "QalPerf" },
+      { "text": "He made", "strong": "H6213" },
       { "text": " the pillars", "strong": "H5982" },
       {
         "content": [" thereof ", { "text": "of", "marks": ["i"] }, " silver,"],
@@ -1166,16 +1007,10 @@
         "strong": "H713"
       },
       { "text": "The midst", "strong": "H8432" },
-      {
-        "text": " thereof being paved",
-        "strong": "H7528",
-        "morph": "QalPasPtc"
-      },
-      {
-        "content": [" ", { "text": "with", "marks": ["i"] }, " love,"],
-        "break": true,
-        "strong": "H160"
-      },
+      { "text": " thereof being paved", "strong": "H7528" },
+      " ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " love,", "break": true, "strong": "H160" },
       { "text": "For the daughters", "strong": "H1323" },
       { "text": " of Jerusalem.", "break": true, "strong": "H3389" }
     ]
@@ -1185,15 +1020,15 @@
     "chapter": 3,
     "verse": 11,
     "content": [
-      { "text": "Go forth,", "strong": "H3318", "morph": "QalImpv" },
+      { "text": "Go forth,", "strong": "H3318" },
       { "text": " O ye daughters", "strong": "H1323" },
       { "text": " of Zion,", "break": true, "strong": "H6726" },
-      { "text": "And behold", "strong": "H7200", "morph": "QalImpv" },
+      { "text": "And behold", "strong": "H7200" },
       { "text": " king", "strong": "H4428" },
       { "text": " Solomon", "break": true, "strong": "H8010" },
       { "text": "With the crown", "strong": "H5850" },
       { "text": " wherewith his mother", "strong": "H517" },
-      { "text": " crowned", "strong": "H5849", "morph": "PielPerf" },
+      { "text": " crowned", "strong": "H5849" },
       {
         "content": [{ "text": " him", "break": true }, "In the day"],
         "strong": "H3117"
@@ -1236,10 +1071,9 @@
       { "text": "Within", "strong": "H1157" },
       { "text": " thy locks:", "break": true, "strong": "H6777" },
       { "text": "Thy hair", "strong": "H8181" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " as a flock"],
-        "strong": "H5739"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as a flock", "strong": "H5739" },
       { "text": " of goats,", "break": true, "strong": "H5795" },
       {
         "text": "That appear",
@@ -1263,27 +1097,19 @@
     "verse": 2,
     "content": [
       { "text": "Thy teeth", "strong": "H8127" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like a flock"],
-        "strong": "H5739"
-      },
-      {
-        "content": [
-          " ",
-          { "text": "of sheep that are even", "marks": ["i"] },
-          " shorn,"
-        ],
-        "break": true,
-        "strong": "H7094",
-        "morph": "QalPasPtc"
-      },
-      { "text": "Which came up", "strong": "H5927", "morph": "QalPerf" },
-      { "text": " from the washing;", "break": true, "strong": "H7367" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like a flock", "strong": "H5739" },
+      " ",
+      { "text": "of sheep that are even", "marks": ["i"] },
+      { "text": " shorn,", "break": true, "strong": "H7094" },
+      { "text": "Which came up", "strong": "H5927" },
+      { "text": " from", "strong": "H4480" },
+      { "text": " the washing;", "break": true, "strong": "H7367" },
       {
         "text": "Whereof every one bear twins,",
         "break": true,
-        "strong": "H8382",
-        "morph": "HiphPtc"
+        "strong": "H8382"
       },
       {
         "content": ["And none ", { "text": "is", "marks": ["i"] }, " barren"],
@@ -1298,22 +1124,18 @@
     "verse": 3,
     "content": [
       { "text": "Thy lips", "strong": "H8193" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like a thread"],
-        "strong": "H2339"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like a thread", "strong": "H2339" },
       { "text": " of scarlet,", "break": true, "strong": "H8144" },
       { "text": "And thy speech", "strong": "H4057" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " comely:"],
-        "break": true,
-        "strong": "H5000"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " comely:", "break": true, "strong": "H5000" },
       { "text": "Thy temples", "strong": "H7541" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like a piece"],
-        "strong": "H6400"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like a piece", "strong": "H6400" },
       { "text": " of a pomegranate", "break": true, "strong": "H7416" },
       { "text": "Within", "strong": "H1157" },
       { "text": " thy locks.", "break": true, "strong": "H6777" }
@@ -1325,17 +1147,17 @@
     "verse": 4,
     "content": [
       { "text": "Thy neck", "strong": "H6677" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " like the tower"],
-        "strong": "H4026"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " like the tower", "strong": "H4026" },
       { "text": " of David", "break": true, "strong": "H1732" },
-      { "text": "Builded", "strong": "H1129", "morph": "QalPasPtc" },
+      { "text": "Builded", "strong": "H1129" },
       { "text": " for an armoury,", "break": true, "strong": "H8530" },
-      { "text": "Whereon there hang", "strong": "H8518", "morph": "QalPasPtc" },
+      { "text": "Whereon there hang", "strong": "H8518" },
       { "text": " a thousand", "strong": "H505" },
       { "text": " bucklers,", "break": true, "strong": "H4043" },
-      { "text": "All shields", "strong": "H7982" },
+      { "text": "All", "strong": "H3605" },
+      { "text": " shields", "strong": "H7982" },
       { "text": " of mighty men.", "break": true, "strong": "H1368" }
     ]
   },
@@ -1346,14 +1168,13 @@
     "content": [
       { "text": "Thy two", "strong": "H8147" },
       { "text": " breasts", "strong": "H7699" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like two"],
-        "strong": "H8147"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like two", "strong": "H8147" },
       { "text": " young", "strong": "H6082" },
       { "text": " roes", "break": true, "strong": "H6646" },
       { "text": "That are twins,", "break": true, "strong": "H8380" },
-      { "text": "Which feed", "strong": "H7462", "morph": "QalActPtc" },
+      { "text": "Which feed", "strong": "H7462" },
       { "text": " among the lilies.", "break": true, "strong": "H7799" }
     ]
   },
@@ -1362,7 +1183,8 @@
     "chapter": 4,
     "verse": 6,
     "content": [
-      { "text": "Until the day", "strong": "H3117" },
+      { "text": "Until", "strong": "H5704" },
+      { "text": " the day", "strong": "H3117" },
       {
         "text": " break,",
         "break": true,
@@ -1370,17 +1192,11 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "breathe", "marks": ["i"] }]
         },
-        "strong": "H6315",
-        "morph": "QalImpf"
+        "strong": "H6315"
       },
       { "text": "And the shadows", "strong": "H6752" },
-      {
-        "text": " flee away,",
-        "break": true,
-        "strong": "H5127",
-        "morph": "QalPerf"
-      },
-      { "text": "I will get", "strong": "H3212", "morph": "QalImpf" },
+      { "text": " flee away,", "break": true, "strong": "H5127" },
+      { "text": "I will get", "strong": "H3212" },
       { "text": " me to the mountain", "strong": "H2022" },
       { "text": " of myrrh,", "break": true, "strong": "H4753" },
       { "text": "And to the hill", "strong": "H1389" },
@@ -1397,10 +1213,8 @@
         "strong": "H3303"
       },
       { "text": " my love;", "break": true, "strong": "H7474" },
-      {
-        "content": [{ "text": "There is", "marks": ["i"] }, " no spot"],
-        "strong": "H3971"
-      },
+      { "text": "There is", "marks": ["i"] },
+      { "text": " no spot", "strong": "H3971" },
       { "text": " in thee.", "break": true }
     ]
   },
@@ -1409,15 +1223,15 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      { "text": "Come", "strong": "H935", "morph": "QalImpf" },
-      { "text": " with me from Lebanon,", "strong": "H3844" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse,"],
-        "break": true,
-        "strong": "H3618"
-      },
-      { "text": "With me from Lebanon:", "break": true, "strong": "H3844" },
-      { "text": "Look", "strong": "H7789", "morph": "QalImpf" },
+      { "text": "Come", "strong": "H935" },
+      { "text": " with", "strong": "H854" },
+      { "text": " me from Lebanon,", "strong": "H3844" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " spouse,", "break": true, "strong": "H3618" },
+      { "text": "With", "strong": "H854" },
+      { "text": " me from Lebanon:", "break": true, "strong": "H3844" },
+      { "text": "Look", "strong": "H7789" },
       { "text": " from the top", "strong": "H7218" },
       { "text": " of Amana,", "break": true, "strong": "H549" },
       { "text": "From the top", "strong": "H7218" },
@@ -1448,20 +1262,13 @@
           },
           " my heart,"
         ],
-        "strong": "H3823",
-        "morph": "PielPerf"
+        "strong": "H3823"
       },
       { "text": " my sister,", "strong": "H269" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse;"],
-        "break": true,
-        "strong": "H3618"
-      },
-      {
-        "text": "Thou hast ravished my heart",
-        "strong": "H3823",
-        "morph": "PielPerf"
-      },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " spouse;", "break": true, "strong": "H3618" },
+      { "text": "Thou hast ravished my heart", "strong": "H3823" },
       { "text": " with one", "strong": "H259" },
       { "text": " of thine eyes,", "break": true, "strong": "H5869" },
       { "text": "With one", "strong": "H259" },
@@ -1474,15 +1281,13 @@
     "chapter": 4,
     "verse": 10,
     "content": [
-      { "text": "How fair", "strong": "H3302", "morph": "QalPerf" },
+      { "text": "How fair", "strong": "H3302" },
       { "text": " is thy love,", "strong": "H1730" },
       { "text": " my sister,", "strong": "H269" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse!"],
-        "break": true,
-        "strong": "H3618"
-      },
-      { "text": "How much better", "strong": "H2895", "morph": "QalPerf" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " spouse!", "break": true, "strong": "H3618" },
+      { "text": "How much better", "strong": "H2895" },
       { "text": " is thy love", "strong": "H1730" },
       { "text": " than wine!", "break": true, "strong": "H3196" },
       { "text": "And the smell", "strong": "H7381" },
@@ -1500,29 +1305,20 @@
         "content": [" O ", { "text": "my", "marks": ["i"] }, " spouse,"],
         "strong": "H3618"
       },
-      { "text": " drop", "strong": "H5197", "morph": "QalImpf" },
-      {
-        "content": [" ", { "text": "as", "marks": ["i"] }, " the honeycomb:"],
-        "break": true,
-        "strong": "H5317"
-      },
+      { "text": " drop", "strong": "H5197" },
+      " ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " the honeycomb:", "break": true, "strong": "H5317" },
       { "text": "Honey", "strong": "H1706" },
       { "text": " and milk", "strong": "H2461" },
-      {
-        "content": [
-          " ",
-          { "text": "are", "marks": ["i"] },
-          " under thy tongue;"
-        ],
-        "break": true,
-        "strong": "H3956"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " under thy tongue;", "break": true, "strong": "H3956" },
       { "text": "And the smell", "strong": "H7381" },
       { "text": " of thy garments", "strong": "H8008" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " like the smell"],
-        "strong": "H7381"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " like the smell", "strong": "H7381" },
       { "text": " of Lebanon.", "break": true, "strong": "H3844" }
     ]
   },
@@ -1532,25 +1328,17 @@
     "verse": 12,
     "content": [
       { "text": "A garden", "strong": "H1588" },
-      { "text": " inclosed", "strong": "H5274", "morph": "QalPasPtc" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " my sister,"],
-        "strong": "H269"
-      },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse;"],
-        "break": true,
-        "strong": "H3618"
-      },
+      { "text": " inclosed", "strong": "H5274" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " my sister,", "strong": "H269" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " spouse;", "break": true, "strong": "H3618" },
       { "text": "A spring", "strong": "H1530" },
-      { "text": " shut up,", "strong": "H5274", "morph": "QalPasPtc" },
+      { "text": " shut up,", "strong": "H5274" },
       { "text": " a fountain", "strong": "H4599" },
-      {
-        "text": " sealed.",
-        "break": true,
-        "strong": "H2856",
-        "morph": "QalPasPtc"
-      }
+      { "text": " sealed.", "break": true, "strong": "H2856" }
     ]
   },
   {
@@ -1559,12 +1347,12 @@
     "verse": 13,
     "content": [
       { "text": "Thy plants", "strong": "H7973" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " an orchard"],
-        "strong": "H6508"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " an orchard", "strong": "H6508" },
       { "text": " of pomegranates,", "break": true, "strong": "H7416" },
-      { "text": "With pleasant", "strong": "H4022" },
+      { "text": "With", "strong": "H5973" },
+      { "text": " pleasant", "strong": "H4022" },
       { "text": " fruits;", "break": true, "strong": "H6529" },
       {
         "text": "Camphire,",
@@ -1574,7 +1362,8 @@
         },
         "strong": "H3724"
       },
-      { "text": " with spikenard,", "break": true, "strong": "H5373" }
+      { "text": " with", "strong": "H5973" },
+      { "text": " spikenard,", "break": true, "strong": "H5373" }
     ]
   },
   {
@@ -1586,11 +1375,15 @@
       { "text": " and saffron;", "break": true, "strong": "H3750" },
       { "text": "Calamus", "strong": "H7070" },
       { "text": " and cinnamon,", "break": true, "strong": "H7076" },
-      { "text": "With all trees", "strong": "H6086" },
+      { "text": "With", "strong": "H5973" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " trees", "strong": "H6086" },
       { "text": " of frankincense;", "break": true, "strong": "H3828" },
       { "text": "Myrrh", "strong": "H4753" },
       { "text": " and aloes,", "strong": "H174" },
-      { "text": " with all the chief", "strong": "H7218" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the chief", "strong": "H7218" },
       { "text": " spices:", "break": true, "strong": "H1314" }
     ]
   },
@@ -1604,8 +1397,9 @@
       { "text": "A well", "strong": "H875" },
       { "text": " of living", "strong": "H2416" },
       { "text": " waters,", "strong": "H4325" },
-      { "text": " and streams", "strong": "H5140", "morph": "QalActPtc" },
-      { "text": " from Lebanon.", "break": true, "strong": "H3844" }
+      { "text": " and streams", "strong": "H5140" },
+      { "text": " from", "strong": "H4480" },
+      { "text": " Lebanon.", "break": true, "strong": "H3844" }
     ]
   },
   {
@@ -1613,26 +1407,19 @@
     "chapter": 4,
     "verse": 16,
     "content": [
-      { "text": "Awake,", "strong": "H5782", "morph": "QalImpv" },
+      { "text": "Awake,", "strong": "H5782" },
       { "text": " O north wind;", "break": true, "strong": "H6828" },
-      { "text": "And come,", "strong": "H935", "morph": "QalImpv" },
+      { "text": "And come,", "strong": "H935" },
       { "text": " thou south;", "break": true, "strong": "H8486" },
-      { "text": "Blow", "strong": "H6315", "morph": "HiphImpv" },
+      { "text": "Blow", "strong": "H6315" },
       { "text": " upon my garden,", "break": true, "strong": "H1588" },
-      {
-        "content": [{ "text": "That", "marks": ["i"] }, " the spices"],
-        "strong": "H1314"
-      },
-      {
-        "text": " thereof may flow out.",
-        "break": true,
-        "strong": "H5140",
-        "morph": "QalImpf"
-      },
+      { "text": "That", "marks": ["i"] },
+      { "text": " the spices", "strong": "H1314" },
+      { "text": " thereof may flow out.", "break": true, "strong": "H5140" },
       { "text": "Let my beloved", "strong": "H1730" },
-      { "text": " come", "strong": "H935", "morph": "QalImpf" },
+      { "text": " come", "strong": "H935" },
       { "text": " into his garden,", "break": true, "strong": "H1588" },
-      { "text": "And eat", "strong": "H398", "morph": "QalImpf" },
+      { "text": "And eat", "strong": "H398" },
       { "text": " his pleasant", "strong": "H4022" },
       { "text": " fruits.", "break": true, "strong": "H6529" }
     ]
@@ -1642,36 +1429,28 @@
     "chapter": 5,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I am come",
-        "strong": "H935",
-        "morph": "QalPerf"
-      },
+      { "paragraph": true, "text": "I am come", "strong": "H935" },
       { "text": " into my garden,", "strong": "H1588" },
       { "text": " my sister,", "strong": "H269" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse:"],
-        "break": true,
-        "strong": "H3618"
-      },
-      { "text": "I have gathered", "strong": "H717", "morph": "QalPerf" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " spouse:", "break": true, "strong": "H3618" },
+      { "text": "I have gathered", "strong": "H717" },
       { "text": " my myrrh", "strong": "H4753" },
-      { "text": " with my spice;", "break": true, "strong": "H1313" },
-      { "text": "I have eaten", "strong": "H398", "morph": "QalPerf" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " my spice;", "break": true, "strong": "H1313" },
+      { "text": "I have eaten", "strong": "H398" },
       { "text": " my honeycomb", "strong": "H3293" },
-      { "text": " with my honey;", "break": true, "strong": "H1706" },
-      { "text": "I have drunk", "strong": "H8354", "morph": "QalPerf" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " my honey;", "break": true, "strong": "H1706" },
+      { "text": "I have drunk", "strong": "H8354" },
       { "text": " my wine", "strong": "H3196" },
-      { "text": " with my milk:", "break": true, "strong": "H2461" },
-      { "text": "Eat,", "strong": "H398", "morph": "QalImpv" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " my milk:", "break": true, "strong": "H2461" },
+      { "text": "Eat,", "strong": "H398" },
       { "text": " O friends;", "break": true, "strong": "H7453" },
-      { "text": "Drink,", "strong": "H8354", "morph": "QalImpv" },
-      {
-        "text": " yea, drink abundantly,",
-        "strong": "H7937",
-        "morph": "QalImpv"
-      },
+      { "text": "Drink,", "strong": "H8354" },
+      { "text": " yea, drink abundantly,", "strong": "H7937" },
       { "text": " O beloved.", "break": true, "strong": "H1730" }
     ]
   },
@@ -1682,39 +1461,26 @@
     "content": [
       { "text": "I sleep,", "strong": "H3463" },
       { "text": " but my heart", "strong": "H3820" },
-      {
-        "text": " waketh:",
-        "break": true,
-        "strong": "H5782",
-        "morph": "QalActPtc"
-      },
-      {
-        "content": [{ "text": "It is", "marks": ["i"] }, " the voice"],
-        "strong": "H6963"
-      },
+      { "text": " waketh:", "break": true, "strong": "H5782" },
+      { "text": "It is", "marks": ["i"] },
+      { "text": " the voice", "strong": "H6963" },
       { "text": " of my beloved", "strong": "H1730" },
-      { "text": " that knocketh,", "strong": "H1849", "morph": "QalActPtc" },
+      { "text": " that knocketh,", "strong": "H1849" },
+      " ",
+      { "text": "saying", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "saying", "marks": ["i"] },
-          { "text": ",", "break": true },
-          "Open"
-        ],
-        "strong": "H6605",
-        "morph": "QalImpv"
+        "content": [{ "text": ",", "break": true }, "Open"],
+        "strong": "H6605"
       },
       { "text": " to me, my sister,", "strong": "H269" },
       { "text": " my love,", "break": true, "strong": "H7474" },
       { "text": "My dove,", "strong": "H3123" },
       { "text": " my undefiled:", "break": true, "strong": "H8535" },
       { "text": "For my head", "strong": "H7218" },
-      { "text": " is filled", "strong": "H4390", "morph": "NiphPerf" },
+      { "text": " is filled", "strong": "H4390" },
       { "text": " with dew,", "break": true, "strong": "H2919" },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " my locks"],
-        "strong": "H6977"
-      },
+      { "text": "And", "marks": ["i"] },
+      { "text": " my locks", "strong": "H6977" },
       { "text": " with the drops", "strong": "H7447" },
       { "text": " of the night.", "break": true, "strong": "H3915" }
     ]
@@ -1724,19 +1490,16 @@
     "chapter": 5,
     "verse": 3,
     "content": [
-      { "text": "I have put off", "strong": "H6584", "morph": "QalPerf" },
+      { "text": "I have put off", "strong": "H6584" },
+      { "strong": "H853" },
       { "text": " my coat;", "break": true, "strong": "H3801" },
       { "text": "How", "strong": "H349" },
-      {
-        "text": " shall I put it on?",
-        "break": true,
-        "strong": "H3847",
-        "morph": "QalImpf"
-      },
-      { "text": "I have washed", "strong": "H7364", "morph": "QalPerf" },
+      { "text": " shall I put it on?", "break": true, "strong": "H3847" },
+      { "text": "I have washed", "strong": "H7364" },
+      { "strong": "H853" },
       { "text": " my feet;", "break": true, "strong": "H7272" },
       { "text": "How", "strong": "H349" },
-      { "text": " shall I defile", "strong": "H2936", "morph": "PielImpf" },
+      { "text": " shall I defile", "strong": "H2936" },
       { "text": " them?", "break": true }
     ]
   },
@@ -1746,20 +1509,17 @@
     "verse": 4,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
-      { "text": " put in", "strong": "H7971", "morph": "QalPerf" },
+      { "text": " put in", "strong": "H7971" },
       { "text": " his hand", "strong": "H3027" },
       { "text": " by", "strong": "H4480" },
       { "text": " the hole", "strong": "H2356" },
+      " ",
+      { "text": "of the door", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "of the door", "marks": ["i"] },
-          { "text": ",", "break": true },
-          "And my bowels"
-        ],
+        "content": [{ "text": ",", "break": true }, "And my bowels"],
         "strong": "H4578"
       },
-      { "text": " were moved", "strong": "H1993", "morph": "QalPerf" },
+      { "text": " were moved", "strong": "H1993" },
       {
         "text": " for him.",
         "break": true,
@@ -1778,39 +1538,33 @@
     "chapter": 5,
     "verse": 5,
     "content": [
-      { "text": "I rose up", "strong": "H6965", "morph": "QalPerf" },
-      { "text": " to open", "strong": "H6605", "morph": "QalInf" },
+      { "text": "I rose up", "strong": "H6965" },
+      { "text": " to open", "strong": "H6605" },
       { "text": " to my beloved;", "break": true, "strong": "H1730" },
       { "text": "And my hands", "strong": "H3027" },
-      { "text": " dropped", "strong": "H5197", "morph": "QalPerf" },
-      {
-        "content": [" ", { "text": "with", "marks": ["i"] }, " myrrh,"],
-        "break": true,
-        "strong": "H4753"
-      },
+      { "text": " dropped", "strong": "H5197" },
+      " ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " myrrh,", "break": true, "strong": "H4753" },
       { "text": "And my fingers", "strong": "H676" },
+      " ",
+      { "text": "with", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "with", "marks": ["i"] },
-          {
-            "text": " sweet smelling",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "passing", "marks": ["i"] },
-                ", or ",
-                { "text": "running about", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
-        "strong": "H5674",
-        "morph": "QalActPtc"
+        "text": " sweet smelling",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "passing", "marks": ["i"] },
+            ", or ",
+            { "text": "running about", "marks": ["i"] }
+          ]
+        },
+        "strong": "H5674"
       },
       { "text": " myrrh,", "break": true, "strong": "H4753" },
-      { "text": "Upon the handles", "strong": "H3709" },
+      { "text": "Upon", "strong": "H5921" },
+      { "text": " the handles", "strong": "H3709" },
       { "text": " of the lock.", "break": true, "strong": "H4514" }
     ]
   },
@@ -1819,10 +1573,10 @@
     "chapter": 5,
     "verse": 6,
     "content": [
-      { "text": "I opened", "strong": "H6605", "morph": "QalPerf" },
+      { "text": "I opened", "strong": "H6605" },
       { "text": " to my beloved;", "break": true, "strong": "H1730" },
       { "text": "But my beloved", "strong": "H1730" },
-      { "text": " had withdrawn", "strong": "H2559", "morph": "QalPerf" },
+      { "text": " had withdrawn", "strong": "H2559" },
       {
         "content": [
           " himself, ",
@@ -1830,33 +1584,21 @@
           " was gone:"
         ],
         "break": true,
-        "strong": "H5674",
-        "morph": "QalPerf"
+        "strong": "H5674"
       },
       { "text": "My soul", "strong": "H5315" },
-      { "text": " failed", "strong": "H3318", "morph": "QalPerf" },
-      {
-        "text": " when he spake:",
-        "break": true,
-        "strong": "H1696",
-        "morph": "PielInf"
-      },
-      { "text": "I sought", "strong": "H1245", "morph": "PielPerf" },
-      {
-        "text": " him, but I could not find",
-        "strong": "H4672",
-        "morph": "QalPerf"
-      },
+      { "text": " failed", "strong": "H3318" },
+      { "text": " when he spake:", "break": true, "strong": "H1696" },
+      { "text": "I sought", "strong": "H1245" },
+      { "text": " him, but I could not find", "strong": "H4672" },
       {
         "content": [{ "text": " him;", "break": true }, "I called"],
-        "strong": "H7121",
-        "morph": "QalPerf"
+        "strong": "H7121"
       },
       {
         "text": " him, but he gave me no answer.",
         "break": true,
-        "strong": "H6030",
-        "morph": "QalPerf"
+        "strong": "H6030"
       }
     ]
   },
@@ -1865,23 +1607,22 @@
     "chapter": 5,
     "verse": 7,
     "content": [
-      { "text": "The watchmen", "strong": "H8104", "morph": "QalActPtc" },
-      { "text": " that went about", "strong": "H5437", "morph": "QalActPtc" },
+      { "text": "The watchmen", "strong": "H8104" },
+      { "text": " that went about", "strong": "H5437" },
       { "text": " the city", "strong": "H5892" },
-      { "text": " found", "strong": "H4672", "morph": "QalPerf" },
+      { "text": " found", "strong": "H4672" },
       {
         "content": [{ "text": " me,", "break": true }, "They smote"],
-        "strong": "H5221",
-        "morph": "HiphPerf"
+        "strong": "H5221"
       },
-      { "text": " me, they wounded", "strong": "H6481", "morph": "QalPerf" },
+      { "text": " me, they wounded", "strong": "H6481" },
       {
         "content": [{ "text": " me;", "break": true }, "The keepers"],
-        "strong": "H8104",
-        "morph": "QalActPtc"
+        "strong": "H8104"
       },
       { "text": " of the walls", "strong": "H2346" },
-      { "text": " took away", "strong": "H5375", "morph": "QalPerf" },
+      { "text": " took away", "strong": "H5375" },
+      { "strong": "H853" },
       { "text": " my veil", "strong": "H7289" },
       { "text": " from me.", "break": true }
     ]
@@ -1891,12 +1632,13 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "text": "I charge", "strong": "H7650", "morph": "HiphPerf" },
+      { "text": "I charge", "strong": "H7650" },
       { "text": " you, O daughters", "strong": "H1323" },
       { "text": " of Jerusalem,", "break": true, "strong": "H3389" },
-      { "text": "If ye find", "strong": "H4672", "morph": "QalImpf" },
+      { "text": "If ye find", "strong": "H4672" },
+      { "strong": "H853" },
       { "text": " my beloved,", "break": true, "strong": "H1730" },
-      { "text": "That ye tell", "strong": "H5046", "morph": "HiphImpf" },
+      { "text": "That ye tell", "strong": "H5046" },
       {
         "content": [
           { "text": " him,", "break": true },
@@ -1911,8 +1653,7 @@
           { "text": "am", "marks": ["i"] },
           " sick"
         ],
-        "strong": "H2470",
-        "morph": "QalActPtc"
+        "strong": "H2470"
       },
       { "text": " of love.", "break": true, "strong": "H160" }
     ]
@@ -1951,7 +1692,7 @@
         "strong": "H1730"
       },
       { "text": "That thou", "strong": "H3602" },
-      { "text": " dost so charge", "strong": "H7650", "morph": "HiphPerf" },
+      { "text": " dost so charge", "strong": "H7650" },
       { "text": " us?", "break": true }
     ]
   },
@@ -1961,10 +1702,9 @@
     "verse": 10,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " white"],
-        "strong": "H6703"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " white", "strong": "H6703" },
       { "text": " and ruddy,", "break": true, "strong": "H122" },
       {
         "text": "The chiefest",
@@ -1972,8 +1712,7 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "a standard bearer", "marks": ["i"] }]
         },
-        "strong": "H1713",
-        "morph": "QalPasPtc"
+        "strong": "H1713"
       },
       { "text": " among ten thousand.", "break": true, "strong": "H7233" }
     ]
@@ -1984,31 +1723,24 @@
     "verse": 11,
     "content": [
       { "text": "His head", "strong": "H7218" },
-      {
-        "content": [" ", { "text": "is as", "marks": ["i"] }, " the most"],
-        "strong": "H3800"
-      },
+      " ",
+      { "text": "is as", "marks": ["i"] },
+      { "text": " the most", "strong": "H3800" },
       { "text": " fine gold,", "break": true, "strong": "H6337" },
       { "text": "His locks", "strong": "H6977" },
+      " ",
+      { "text": "are", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "are", "marks": ["i"] },
-          {
-            "text": " bushy,",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "curled", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " bushy,",
         "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "curled", "marks": ["i"] }]
+        },
         "strong": "H8534"
       },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " black"],
-        "strong": "H7838"
-      },
+      { "text": "And", "marks": ["i"] },
+      { "text": " black", "strong": "H7838" },
       { "text": " as a raven.", "break": true, "strong": "H6158" }
     ]
   },
@@ -2018,10 +1750,10 @@
     "verse": 12,
     "content": [
       { "text": "His eyes", "strong": "H5869" },
+      " ",
+      { "text": "are", "marks": ["i"] },
       {
         "content": [
-          " ",
-          { "text": "are", "marks": ["i"] },
           " as ",
           { "text": "the eyes", "marks": ["i"] },
           " of doves"
@@ -2030,28 +1762,23 @@
       },
       { "text": " by the rivers", "strong": "H650" },
       { "text": " of waters,", "break": true, "strong": "H4325" },
-      { "text": "Washed", "strong": "H7364", "morph": "QalPtc" },
+      { "text": "Washed", "strong": "H7364" },
       { "text": " with milk,", "strong": "H2461" },
+      " ",
+      { "text": "and", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "and", "marks": ["i"] },
-          {
-            "text": " fitly set.",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                {
-                  "text": "sitting in fullness, that is fitly placed, and set as a precious stone in the foil of a ring",
-                  "marks": ["i"]
-                }
-              ]
+        "text": " fitly set.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            {
+              "text": "sitting in fullness, that is fitly placed, and set as a precious stone in the foil of a ring",
+              "marks": ["i"]
             }
-          }
-        ],
-        "strong": "H3427",
-        "morph": "QalActPtc"
+          ]
+        },
+        "strong": "H3427"
       },
       { "break": true, "strong": "H4402" }
     ]
@@ -2062,15 +1789,13 @@
     "verse": 13,
     "content": [
       { "text": "His cheeks", "strong": "H3895" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " as a bed"],
-        "strong": "H6170"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " as a bed", "strong": "H6170" },
       { "text": " of spices,", "strong": "H1314" },
-      {
-        "content": [" ", { "text": "as", "marks": ["i"] }, " sweet"],
-        "strong": "H4840"
-      },
+      " ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " sweet", "strong": "H4840" },
       {
         "text": " flowers:",
         "break": true,
@@ -2081,12 +1806,11 @@
         "strong": "H4026"
       },
       { "text": "His lips", "strong": "H8193" },
-      {
-        "content": [" ", { "text": "like", "marks": ["i"] }, " lilies,"],
-        "strong": "H7799"
-      },
-      { "text": " dropping", "strong": "H5197", "morph": "QalActPtc" },
-      { "text": " sweet smelling", "strong": "H5674", "morph": "QalActPtc" },
+      " ",
+      { "text": "like", "marks": ["i"] },
+      { "text": " lilies,", "strong": "H7799" },
+      { "text": " dropping", "strong": "H5197" },
+      { "text": " sweet smelling", "strong": "H5674" },
       { "text": " myrrh.", "break": true, "strong": "H4753" }
     ]
   },
@@ -2096,25 +1820,21 @@
     "verse": 14,
     "content": [
       { "text": "His hands", "strong": "H3027" },
-      {
-        "content": [" ", { "text": "are as", "marks": ["i"] }, " gold"],
-        "strong": "H2091"
-      },
+      " ",
+      { "text": "are as", "marks": ["i"] },
+      { "text": " gold", "strong": "H2091" },
       { "text": " rings", "strong": "H1550" },
-      { "text": " set", "strong": "H4390", "morph": "PualPtc" },
+      { "text": " set", "strong": "H4390" },
       { "text": " with the beryl:", "break": true, "strong": "H8658" },
       { "text": "His belly", "strong": "H4578" },
-      {
-        "content": [" ", { "text": "is as", "marks": ["i"] }, " bright"],
-        "strong": "H6247"
-      },
+      " ",
+      { "text": "is as", "marks": ["i"] },
+      { "text": " bright", "strong": "H6247" },
       { "text": " ivory", "strong": "H8127" },
-      { "text": " overlaid", "strong": "H5968", "morph": "PualPtc" },
-      {
-        "content": [" ", { "text": "with", "marks": ["i"] }, " sapphires."],
-        "break": true,
-        "strong": "H5601"
-      }
+      { "text": " overlaid", "strong": "H5968" },
+      " ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " sapphires.", "break": true, "strong": "H5601" }
     ]
   },
   {
@@ -2123,20 +1843,19 @@
     "verse": 15,
     "content": [
       { "text": "His legs", "strong": "H7785" },
-      {
-        "content": [" ", { "text": "are as", "marks": ["i"] }, " pillars"],
-        "strong": "H5982"
-      },
+      " ",
+      { "text": "are as", "marks": ["i"] },
+      { "text": " pillars", "strong": "H5982" },
       { "text": " of marble,", "strong": "H8336" },
-      { "text": " set", "strong": "H3245", "morph": "PualPtc" },
-      { "text": " upon sockets", "strong": "H134" },
+      { "text": " set", "strong": "H3245" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " sockets", "strong": "H134" },
       { "text": " of fine gold:", "break": true, "strong": "H6337" },
       { "text": "His countenance", "strong": "H4758" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " as Lebanon,"],
-        "strong": "H3844"
-      },
-      { "text": " excellent", "strong": "H977", "morph": "QalPasPtc" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as Lebanon,", "strong": "H3844" },
+      { "text": " excellent", "strong": "H977" },
       { "text": " as the cedars.", "break": true, "strong": "H730" }
     ]
   },
@@ -2153,11 +1872,9 @@
         },
         "strong": "H2441"
       },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " most sweet:"],
-        "break": true,
-        "strong": "H4477"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " most sweet:", "break": true, "strong": "H4477" },
       {
         "content": [
           "Yea, he ",
@@ -2194,22 +1911,12 @@
         "text": "Whither is thy beloved",
         "strong": "H1730"
       },
-      {
-        "text": " gone,",
-        "break": true,
-        "strong": "H1980",
-        "morph": "QalPerf"
-      },
+      { "text": " gone,", "break": true, "strong": "H1980" },
       { "text": "O thou fairest", "strong": "H3303" },
       { "text": " among women?", "break": true, "strong": "H802" },
       { "text": "Whither is thy beloved", "strong": "H1730" },
-      {
-        "text": " turned aside?",
-        "break": true,
-        "strong": "H6437",
-        "morph": "QalPerf"
-      },
-      { "text": "That we may seek", "strong": "H1245", "morph": "PielImpf" },
+      { "text": " turned aside?", "break": true, "strong": "H6437" },
+      { "text": "That we may seek", "strong": "H1245" },
       { "text": " him with thee.", "break": true }
     ]
   },
@@ -2219,13 +1926,13 @@
     "verse": 2,
     "content": [
       { "text": "My beloved", "strong": "H1730" },
-      { "text": " is gone down", "strong": "H3381", "morph": "QalPerf" },
+      { "text": " is gone down", "strong": "H3381" },
       { "text": " into his garden,", "break": true, "strong": "H1588" },
       { "text": "To the beds", "strong": "H6170" },
       { "text": " of spices,", "break": true, "strong": "H1314" },
-      { "text": "To feed", "strong": "H7462", "morph": "QalInf" },
+      { "text": "To feed", "strong": "H7462" },
       { "text": " in the gardens,", "break": true, "strong": "H1588" },
-      { "text": "And to gather", "strong": "H3950", "morph": "QalInf" },
+      { "text": "And to gather", "strong": "H3950" },
       { "text": " lilies.", "break": true, "strong": "H7799" }
     ]
   },
@@ -2239,15 +1946,11 @@
         "strong": "H1730"
       },
       { "text": " and my beloved", "strong": "H1730" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "is", "marks": ["i"] },
-          { "text": " mine:", "break": true },
-          "He feedeth"
-        ],
-        "strong": "H7462",
-        "morph": "QalActPtc"
+        "content": [{ "text": " mine:", "break": true }, "He feedeth"],
+        "strong": "H7462"
       },
       { "text": " among the lilies.", "break": true, "strong": "H7799" }
     ]
@@ -2273,8 +1976,7 @@
           " with banners."
         ],
         "break": true,
-        "strong": "H1713",
-        "morph": "NiphPtc"
+        "strong": "H1713"
       }
     ]
   },
@@ -2283,13 +1985,13 @@
     "chapter": 6,
     "verse": 5,
     "content": [
-      { "text": "Turn away", "strong": "H5437", "morph": "HiphImpv" },
+      { "text": "Turn away", "strong": "H5437" },
       { "text": " thine eyes", "strong": "H5869" },
       {
         "content": [{ "text": " from me,", "break": true }, "For they"],
         "strong": "H1992"
       },
-      { "text": " have overcome", "strong": "H7292", "morph": "HiphPerf" },
+      { "text": " have overcome", "strong": "H7292" },
       {
         "content": [
           {
@@ -2307,10 +2009,9 @@
         ],
         "strong": "H8181"
       },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " as a flock"],
-        "strong": "H5739"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as a flock", "strong": "H5739" },
       { "text": " of goats", "break": true, "strong": "H5795" },
       { "text": "That appear", "strong": "H1570" },
       { "text": " from Gilead.", "break": true, "strong": "H1568" }
@@ -2322,18 +2023,17 @@
     "verse": 6,
     "content": [
       { "text": "Thy teeth", "strong": "H8127" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " as a flock"],
-        "strong": "H5739"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " as a flock", "strong": "H5739" },
       { "text": " of sheep", "break": true, "strong": "H7353" },
-      { "text": "Which go up", "strong": "H5927", "morph": "QalPerf" },
-      { "text": " from the washing,", "break": true, "strong": "H7367" },
+      { "text": "Which go up", "strong": "H5927" },
+      { "text": " from", "strong": "H4480" },
+      { "text": " the washing,", "break": true, "strong": "H7367" },
       {
         "text": "Whereof every one beareth twins,",
         "break": true,
-        "strong": "H8382",
-        "morph": "HiphPtc"
+        "strong": "H8382"
       },
       {
         "content": [
@@ -2353,11 +2053,9 @@
     "content": [
       { "text": "As a piece", "strong": "H6400" },
       { "text": " of a pomegranate", "strong": "H7416" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " thy temples"],
-        "break": true,
-        "strong": "H7541"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " thy temples", "break": true, "strong": "H7541" },
       { "text": "Within", "strong": "H1157" },
       { "text": " thy locks.", "break": true, "strong": "H6777" }
     ]
@@ -2402,21 +2100,15 @@
         "content": ["She ", { "text": "is", "marks": ["i"] }, " the choice"],
         "strong": "H1249"
       },
-      {
-        "content": [
-          " ",
-          { "text": "one", "marks": ["i"] },
-          " of her that bare"
-        ],
-        "strong": "H3205",
-        "morph": "QalActPtc"
-      },
+      " ",
+      { "text": "one", "marks": ["i"] },
+      { "text": " of her that bare", "strong": "H3205" },
       {
         "content": [{ "text": " her.", "break": true }, "The daughters"],
         "strong": "H1323"
       },
-      { "text": " saw", "strong": "H7200", "morph": "QalPerf" },
-      { "text": " her, and blessed", "strong": "H833", "morph": "PielImpf" },
+      { "text": " saw", "strong": "H7200" },
+      { "text": " her, and blessed", "strong": "H833" },
       {
         "content": [
           { "text": " her;", "break": true },
@@ -2426,7 +2118,7 @@
         "strong": "H4436"
       },
       { "text": " and the concubines,", "strong": "H6370" },
-      { "text": " and they praised", "strong": "H1984", "morph": "PielImpf" },
+      { "text": " and they praised", "strong": "H1984" },
       { "text": " her.", "break": true }
     ]
   },
@@ -2443,18 +2135,15 @@
           { "text": "that", "marks": ["i"] },
           " looketh forth"
         ],
-        "strong": "H8259",
-        "morph": "NiphPtc"
+        "strong": "H8259"
       },
       { "text": " as the morning,", "break": true, "strong": "H7837" },
       { "text": "Fair", "strong": "H3303" },
       { "text": " as the moon,", "strong": "H3842" },
       { "text": " clear", "strong": "H1249" },
       { "text": " as the sun,", "break": true, "strong": "H2535" },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " terrible"],
-        "strong": "H366"
-      },
+      { "text": "And", "marks": ["i"] },
+      { "text": " terrible", "strong": "H366" },
       {
         "content": [
           " as ",
@@ -2462,8 +2151,7 @@
           " with banners?"
         ],
         "break": true,
-        "strong": "H1713",
-        "morph": "NiphPtc"
+        "strong": "H1713"
       }
     ]
   },
@@ -2472,34 +2160,19 @@
     "chapter": 6,
     "verse": 11,
     "content": [
-      { "text": "I went down", "strong": "H3381", "morph": "QalPerf" },
+      { "text": "I went down", "strong": "H3381" },
       { "text": " into the garden", "strong": "H1594" },
       { "text": " of nuts", "break": true, "strong": "H93" },
-      { "text": "To see", "strong": "H7200", "morph": "QalInf" },
+      { "text": "To see", "strong": "H7200" },
       { "text": " the fruits", "strong": "H3" },
       { "text": " of the valley,", "break": true, "strong": "H5158" },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " to see"],
-        "strong": "H7200",
-        "morph": "QalInf"
-      },
+      { "text": "And", "marks": ["i"] },
+      { "text": " to see", "strong": "H7200" },
       { "text": " whether the vine", "strong": "H1612" },
-      {
-        "text": " flourished,",
-        "break": true,
-        "strong": "H6524",
-        "morph": "QalPerf"
-      },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " the pomegranates"],
-        "strong": "H7416"
-      },
-      {
-        "text": " budded.",
-        "break": true,
-        "strong": "H5132",
-        "morph": "HiphPerf"
-      }
+      { "text": " flourished,", "break": true, "strong": "H6524" },
+      { "text": "And", "marks": ["i"] },
+      { "text": " the pomegranates", "strong": "H7416" },
+      { "text": " budded.", "break": true, "strong": "H5132" }
     ]
   },
   {
@@ -2514,11 +2187,10 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "I knew not", "marks": ["i"] }]
         },
-        "strong": "H3045",
-        "morph": "QalPerf"
+        "strong": "H3045"
       },
       { "text": "My soul", "strong": "H5315" },
-      { "text": " made", "strong": "H7760", "morph": "QalPerf" },
+      { "text": " made", "strong": "H7760" },
       {
         "content": [
           " me ",
@@ -2535,19 +2207,18 @@
     "chapter": 6,
     "verse": 13,
     "content": [
-      { "text": "Return,", "strong": "H7725", "morph": "QalImpv" },
-      { "text": " return,", "strong": "H7725", "morph": "QalImpv" },
+      { "text": "Return,", "strong": "H7725" },
+      { "text": " return,", "strong": "H7725" },
       { "text": " O Shulamite;", "break": true, "strong": "H7759" },
-      { "text": "Return,", "strong": "H7725", "morph": "QalImpv" },
-      { "text": " return,", "strong": "H7725", "morph": "QalImpv" },
-      { "text": " that we may look", "strong": "H2372", "morph": "QalImpf" },
+      { "text": "Return,", "strong": "H7725" },
+      { "text": " return,", "strong": "H7725" },
+      { "text": " that we may look", "strong": "H2372" },
       {
         "content": [
           { "text": " upon thee.", "break": true },
           "What will ye see"
         ],
-        "strong": "H2372",
-        "morph": "QalImpf"
+        "strong": "H2372"
       },
       { "text": " in the Shulamite?", "break": true, "strong": "H7759" },
       { "text": "As it were the company", "strong": "H4246" },
@@ -2567,23 +2238,16 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "How beautiful",
-        "strong": "H3302",
-        "morph": "QalPerf"
-      },
+      { "paragraph": true, "text": "How beautiful", "strong": "H3302" },
       { "text": " are thy feet", "strong": "H6471" },
       { "text": " with shoes,", "break": true, "strong": "H5275" },
       { "text": "O prince’s", "strong": "H5081" },
       { "text": " daughter!", "break": true, "strong": "H1323" },
       { "text": "The joints", "strong": "H2542" },
       { "text": " of thy thighs", "strong": "H3409" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like jewels,"],
-        "break": true,
-        "strong": "H2481"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like jewels,", "break": true, "strong": "H2481" },
       { "text": "The work", "strong": "H4639" },
       { "text": " of the hands", "strong": "H3027" },
       { "text": " of a cunning workman.", "break": true, "strong": "H542" }
@@ -2595,18 +2259,15 @@
     "verse": 2,
     "content": [
       { "text": "Thy navel", "strong": "H8326" },
-      {
-        "content": [" ", { "text": "is like", "marks": ["i"] }, " a round"],
-        "strong": "H5469"
-      },
+      " ",
+      { "text": "is like", "marks": ["i"] },
+      { "text": " a round", "strong": "H5469" },
       { "text": " goblet,", "break": true, "strong": "H101" },
+      { "text": "Which", "marks": ["i"] },
+      { "text": " wanteth", "strong": "H2637" },
+      { "text": " not", "strong": "H408" },
       {
-        "content": [{ "text": "Which", "marks": ["i"] }, " wanteth"],
-        "strong": "H2637",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " not liquor:",
+        "text": " liquor:",
         "break": true,
         "foot": {
           "type": "trn",
@@ -2615,12 +2276,11 @@
         "strong": "H4197"
       },
       { "text": "Thy belly", "strong": "H990" },
-      {
-        "content": [" ", { "text": "is like", "marks": ["i"] }, " an heap"],
-        "strong": "H6194"
-      },
+      " ",
+      { "text": "is like", "marks": ["i"] },
+      { "text": " an heap", "strong": "H6194" },
       { "text": " of wheat", "break": true, "strong": "H2406" },
-      { "text": "Set about", "strong": "H5473", "morph": "QalPasPtc" },
+      { "text": "Set about", "strong": "H5473" },
       { "text": " with lilies.", "break": true, "strong": "H7799" }
     ]
   },
@@ -2631,17 +2291,13 @@
     "content": [
       { "text": "Thy two", "strong": "H8147" },
       { "text": " breasts", "strong": "H7699" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " like two"],
-        "strong": "H8147"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like two", "strong": "H8147" },
       { "text": " young", "strong": "H6082" },
       { "text": " roes", "break": true, "strong": "H6646" },
-      {
-        "content": [{ "text": "That are", "marks": ["i"] }, " twins."],
-        "break": true,
-        "strong": "H8380"
-      }
+      { "text": "That are", "marks": ["i"] },
+      { "text": " twins.", "break": true, "strong": "H8380" }
     ]
   },
   {
@@ -2650,26 +2306,23 @@
     "verse": 4,
     "content": [
       { "text": "Thy neck", "strong": "H6677" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " as a tower"],
-        "strong": "H4026"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as a tower", "strong": "H4026" },
       { "text": " of ivory;", "break": true, "strong": "H8127" },
       { "text": "Thine eyes", "strong": "H5869" },
-      {
-        "content": [" ", { "text": "like", "marks": ["i"] }, " the fishpools"],
-        "strong": "H1295"
-      },
+      " ",
+      { "text": "like", "marks": ["i"] },
+      { "text": " the fishpools", "strong": "H1295" },
       { "text": " in Heshbon,", "break": true, "strong": "H2809" },
       { "text": "By the gate", "strong": "H8179" },
       { "text": " of Bathrabbim:", "break": true, "strong": "H1337" },
       { "text": "Thy nose", "strong": "H639" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " as the tower"],
-        "strong": "H4026"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as the tower", "strong": "H4026" },
       { "text": " of Lebanon", "break": true, "strong": "H3844" },
-      { "text": "Which looketh", "strong": "H6822", "morph": "QalActPtc" },
+      { "text": "Which looketh", "strong": "H6822" },
       { "text": " toward", "strong": "H6440" },
       { "text": " Damascus.", "break": true, "strong": "H1834" }
     ]
@@ -2699,20 +2352,15 @@
       { "text": " of thine head", "strong": "H7218" },
       { "text": " like purple;", "break": true, "strong": "H713" },
       { "text": "The king", "strong": "H4428" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "is", "marks": ["i"] },
-          {
-            "text": " held",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "bound", "marks": ["i"] }]
-            }
-          }
-        ],
-        "strong": "H631",
-        "morph": "QalPasPtc"
+        "text": " held",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "bound", "marks": ["i"] }]
+        },
+        "strong": "H631"
       },
       { "text": " in the galleries.", "break": true, "strong": "H7298" }
     ]
@@ -2722,8 +2370,8 @@
     "chapter": 7,
     "verse": 6,
     "content": [
-      { "text": "How fair", "strong": "H3302", "morph": "QalPerf" },
-      { "text": " and how pleasant", "strong": "H5276", "morph": "QalPerf" },
+      { "text": "How fair", "strong": "H3302" },
+      { "text": " and how pleasant", "strong": "H5276" },
       {
         "content": [{ "text": " art thou,", "break": true }, "O love,"],
         "strong": "H160"
@@ -2736,8 +2384,9 @@
     "chapter": 7,
     "verse": 7,
     "content": [
-      { "text": "This thy stature", "strong": "H6967" },
-      { "text": " is like", "strong": "H1819", "morph": "QalPerf" },
+      { "text": "This", "strong": "H2063" },
+      { "text": " thy stature", "strong": "H6967" },
+      { "text": " is like", "strong": "H1819" },
       { "text": " to a palm tree,", "break": true, "strong": "H8558" },
       { "text": "And thy breasts", "strong": "H7699" },
       { "text": " to clusters", "strong": "H811" },
@@ -2751,10 +2400,10 @@
     "chapter": 7,
     "verse": 8,
     "content": [
-      { "text": "I said,", "strong": "H559", "morph": "QalPerf" },
-      { "text": " I will go up", "strong": "H5927", "morph": "QalImpf" },
+      { "text": "I said,", "strong": "H559" },
+      { "text": " I will go up", "strong": "H5927" },
       { "text": " to the palm tree,", "break": true, "strong": "H8558" },
-      { "text": "I will take hold", "strong": "H270", "morph": "QalImpf" },
+      { "text": "I will take hold", "strong": "H270" },
       { "text": " of the boughs", "strong": "H5577" },
       {
         "content": [
@@ -2779,20 +2428,16 @@
       { "text": " like the best", "strong": "H2896" },
       { "text": " wine", "break": true, "strong": "H3196" },
       { "text": "For my beloved,", "strong": "H1730" },
-      { "text": " that goeth", "strong": "H1980", "morph": "QalActPtc" },
+      { "text": " that goeth", "strong": "H1980" },
+      " ",
+      { "text": "down", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "down", "marks": ["i"] },
-          {
-            "text": " sweetly,",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "straightly", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " sweetly,",
         "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "straightly", "marks": ["i"] }]
+        },
         "strong": "H4339"
       },
       { "text": "Causing the lips", "strong": "H8193" },
@@ -2804,12 +2449,7 @@
         },
         "strong": "H3463"
       },
-      {
-        "text": " to speak.",
-        "break": true,
-        "strong": "H1680",
-        "morph": "QalActPtc"
-      }
+      { "text": " to speak.", "break": true, "strong": "H1680" }
     ]
   },
   {
@@ -2833,11 +2473,11 @@
     "chapter": 7,
     "verse": 11,
     "content": [
-      { "text": "Come,", "strong": "H3212", "morph": "QalImpv" },
+      { "text": "Come,", "strong": "H3212" },
       { "text": " my beloved,", "break": true, "strong": "H1730" },
-      { "text": "Let us go forth", "strong": "H3318", "morph": "QalImpf" },
+      { "text": "Let us go forth", "strong": "H3318" },
       { "text": " into the field;", "break": true, "strong": "H7704" },
-      { "text": "Let us lodge", "strong": "H3885", "morph": "QalImpf" },
+      { "text": "Let us lodge", "strong": "H3885" },
       { "text": " in the villages.", "break": true, "strong": "H3723" }
     ]
   },
@@ -2846,20 +2486,13 @@
     "chapter": 7,
     "verse": 12,
     "content": [
-      { "text": "Let us get up early", "strong": "H7925", "morph": "HiphImpf" },
+      { "text": "Let us get up early", "strong": "H7925" },
       { "text": " to the vineyards;", "break": true, "strong": "H3754" },
-      { "text": "Let us see", "strong": "H7200", "morph": "QalImpf" },
+      { "text": "Let us see", "strong": "H7200" },
       { "text": " if the vine", "strong": "H1612" },
-      {
-        "text": " flourish,",
-        "break": true,
-        "strong": "H6524",
-        "morph": "QalPerf"
-      },
-      {
-        "content": [{ "text": "Whether", "marks": ["i"] }, " the tender grape"],
-        "strong": "H5563"
-      },
+      { "text": " flourish,", "break": true, "strong": "H6524" },
+      { "text": "Whether", "marks": ["i"] },
+      { "text": " the tender grape", "strong": "H5563" },
       {
         "text": " appear,",
         "break": true,
@@ -2867,20 +2500,14 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "open", "marks": ["i"] }]
         },
-        "strong": "H6605",
-        "morph": "PielPerf"
+        "strong": "H6605"
       },
-      {
-        "content": [{ "text": "And", "marks": ["i"] }, " the pomegranates"],
-        "strong": "H7416"
-      },
-      {
-        "text": " bud forth:",
-        "break": true,
-        "strong": "H5132",
-        "morph": "HiphPerf"
-      },
-      { "text": "There will I give", "strong": "H5414", "morph": "QalImpf" },
+      { "text": "And", "marks": ["i"] },
+      { "text": " the pomegranates", "strong": "H7416" },
+      { "text": " bud forth:", "break": true, "strong": "H5132" },
+      { "text": "There", "strong": "H8033" },
+      { "text": " will I give", "strong": "H5414" },
+      { "strong": "H853" },
       { "text": " thee my loves.", "break": true, "strong": "H1730" }
     ]
   },
@@ -2890,32 +2517,18 @@
     "verse": 13,
     "content": [
       { "text": "The mandrakes", "strong": "H1736" },
-      { "text": " give", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " give", "strong": "H5414" },
       { "text": " a smell,", "break": true, "strong": "H7381" },
       { "text": "And at our gates", "strong": "H6607" },
-      {
-        "content": [
-          " ",
-          { "text": "are", "marks": ["i"] },
-          " all manner of pleasant"
-        ],
-        "strong": "H4022"
-      },
-      {
-        "content": [
-          " ",
-          { "text": "fruits", "marks": ["i"] },
-          { "text": ",", "break": true },
-          "New"
-        ],
-        "strong": "H2319"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " all manner of pleasant", "strong": "H4022" },
+      " ",
+      { "text": "fruits", "marks": ["i"] },
+      { "content": [{ "text": ",", "break": true }, "New"], "strong": "H2319" },
       { "text": " and old,", "break": true, "strong": "H3465" },
-      {
-        "content": [{ "text": "Which", "marks": ["i"] }, " I have laid up"],
-        "strong": "H6845",
-        "morph": "QalPerf"
-      },
+      { "text": "Which", "marks": ["i"] },
+      { "text": " I have laid up", "strong": "H6845" },
       { "text": " for thee, O my beloved.", "break": true, "strong": "H1730" }
     ]
   },
@@ -2924,12 +2537,7 @@
     "chapter": 8,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "O that",
-        "strong": "H5414",
-        "morph": "QalImpf"
-      },
+      { "paragraph": true, "text": "O that", "strong": "H5414" },
       {
         "content": [
           " thou ",
@@ -2939,16 +2547,13 @@
         "break": true,
         "strong": "H251"
       },
-      { "text": "That sucked", "strong": "H3243", "morph": "QalActPtc" },
+      { "text": "That sucked", "strong": "H3243" },
       { "text": " the breasts", "strong": "H7699" },
       { "text": " of my mother!", "break": true, "strong": "H517" },
-      {
-        "content": [{ "text": "When", "marks": ["i"] }, " I should find"],
-        "strong": "H4672",
-        "morph": "QalImpf"
-      },
+      { "text": "When", "marks": ["i"] },
+      { "text": " I should find", "strong": "H4672" },
       { "text": " thee without,", "strong": "H2351" },
-      { "text": " I would kiss", "strong": "H5401", "morph": "QalImpf" },
+      { "text": " I would kiss", "strong": "H5401" },
       {
         "content": [
           { "text": " thee;", "break": true },
@@ -2964,8 +2569,7 @@
           }
         ],
         "break": true,
-        "strong": "H936",
-        "morph": "QalImpf"
+        "strong": "H936"
       }
     ]
   },
@@ -2974,30 +2578,25 @@
     "chapter": 8,
     "verse": 2,
     "content": [
-      { "text": "I would lead", "strong": "H5090", "morph": "QalImpf" },
+      { "text": "I would lead", "strong": "H5090" },
       {
         "content": [
           { "text": " thee,", "break": true },
           { "text": "And", "marks": ["i"] },
           " bring"
         ],
-        "strong": "H935",
-        "morph": "HiphImpf"
+        "strong": "H935"
       },
       { "text": " thee into my mother’s", "strong": "H517" },
       { "text": " house,", "break": true, "strong": "H1004" },
-      {
-        "content": [{ "text": "Who", "marks": ["i"] }, " would instruct"],
-        "strong": "H3925",
-        "morph": "PielImpf"
-      },
+      { "text": "Who", "marks": ["i"] },
+      { "text": " would instruct", "strong": "H3925" },
       {
         "content": [
           { "text": " me:", "break": true },
           "I would cause thee to drink"
         ],
-        "strong": "H8248",
-        "morph": "HiphImpf"
+        "strong": "H8248"
       },
       { "text": " of spiced", "strong": "H7544" },
       { "text": " wine", "break": true, "strong": "H3196" },
@@ -3011,17 +2610,11 @@
     "verse": 3,
     "content": [
       { "text": "His left hand", "strong": "H8040" },
-      {
-        "content": [
-          " ",
-          { "text": "should be", "marks": ["i"] },
-          " under my head,"
-        ],
-        "break": true,
-        "strong": "H7218"
-      },
+      " ",
+      { "text": "should be", "marks": ["i"] },
+      { "text": " under my head,", "break": true, "strong": "H7218" },
       { "text": "And his right hand", "strong": "H3225" },
-      { "text": " should embrace", "strong": "H2263", "morph": "PielImpf" },
+      { "text": " should embrace", "strong": "H2263" },
       { "text": " me.", "break": true }
     ]
   },
@@ -3030,7 +2623,7 @@
     "chapter": 8,
     "verse": 4,
     "content": [
-      { "text": "I charge", "strong": "H7650", "morph": "HiphPerf" },
+      { "text": "I charge", "strong": "H7650" },
       { "text": " you, O daughters", "strong": "H1323" },
       { "text": " of Jerusalem,", "break": true, "strong": "H3389" },
       {
@@ -3044,21 +2637,15 @@
             { "text": "why, etc.?", "marks": ["i"] }
           ]
         },
-        "strong": "H5782",
-        "morph": "HiphImpf"
+        "strong": "H5782"
       },
-      { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
-      {
-        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
-        "break": true,
-        "strong": "H160"
-      },
-      {
-        "text": "Until he please.",
-        "break": true,
-        "strong": "H2654",
-        "morph": "QalImpf"
-      }
+      { "text": " nor awake", "strong": "H5782" },
+      { "strong": "H853" },
+      " ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true, "strong": "H160" },
+      { "text": "Until", "strong": "H5704" },
+      { "text": " he please.", "break": true, "strong": "H2654" }
     ]
   },
   {
@@ -3072,35 +2659,27 @@
           { "text": "is", "marks": ["i"] },
           " this that cometh up"
         ],
-        "strong": "H5927",
-        "morph": "QalActPtc"
+        "strong": "H5927"
       },
-      { "text": " from the wilderness,", "break": true, "strong": "H4057" },
-      { "text": "Leaning", "strong": "H7514", "morph": "HithPtc" },
-      { "text": " upon her beloved?", "break": true, "strong": "H1730" },
-      { "text": "I raised", "strong": "H5782", "morph": "PolePerf" },
+      { "text": " from", "strong": "H4480" },
+      { "text": " the wilderness,", "break": true, "strong": "H4057" },
+      { "text": "Leaning", "strong": "H7514" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " her beloved?", "break": true, "strong": "H1730" },
+      { "text": "I raised", "strong": "H5782" },
       {
         "text": " thee up under the apple tree:",
         "break": true,
         "strong": "H8598"
       },
-      { "text": "There thy mother", "strong": "H517" },
-      {
-        "text": " brought thee forth:",
-        "break": true,
-        "strong": "H2254",
-        "morph": "PielPerf"
-      },
-      {
-        "text": "There she brought thee forth",
-        "strong": "H2254",
-        "morph": "PielPerf"
-      },
-      {
-        "content": [" ", { "text": "that", "marks": ["i"] }, " bare"],
-        "strong": "H3205",
-        "morph": "QalPerf"
-      },
+      { "text": "There", "strong": "H8033" },
+      { "text": " thy mother", "strong": "H517" },
+      { "text": " brought thee forth:", "break": true, "strong": "H2254" },
+      { "text": "There", "strong": "H8033" },
+      { "text": " she brought thee forth", "strong": "H2254" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " bare", "strong": "H3205" },
       { "text": " thee.", "break": true }
     ]
   },
@@ -3109,30 +2688,28 @@
     "chapter": 8,
     "verse": 6,
     "content": [
-      { "text": "Set", "strong": "H7760", "morph": "QalImpv" },
+      { "text": "Set", "strong": "H7760" },
       { "text": " me as a seal", "strong": "H2368" },
-      { "text": " upon thine heart,", "break": true, "strong": "H3820" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " thine heart,", "break": true, "strong": "H3820" },
       { "text": "As a seal", "strong": "H2368" },
-      { "text": " upon thine arm:", "break": true, "strong": "H2220" },
-      { "text": "For love", "strong": "H160" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " strong"],
-        "strong": "H5794"
-      },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " thine arm:", "break": true, "strong": "H2220" },
+      { "text": "For", "strong": "H3588" },
+      { "text": " love", "strong": "H160" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " strong", "strong": "H5794" },
       { "text": " as death;", "break": true, "strong": "H4194" },
       { "text": "Jealousy", "strong": "H7068" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "is", "marks": ["i"] },
-          {
-            "text": " cruel",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "hard", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " cruel",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "hard", "marks": ["i"] }]
+        },
         "strong": "H7186"
       },
       { "text": " as the grave:", "break": true, "strong": "H7585" },
@@ -3142,14 +2719,8 @@
         "strong": "H7565"
       },
       { "text": " of fire,", "break": true, "strong": "H784" },
-      {
-        "content": [
-          { "text": "Which hath", "marks": ["i"] },
-          " a most vehement flame."
-        ],
-        "break": true,
-        "strong": "H7957"
-      }
+      { "text": "Which hath", "marks": ["i"] },
+      { "text": " a most vehement flame.", "break": true, "strong": "H7957" }
     ]
   },
   {
@@ -3159,26 +2730,22 @@
     "content": [
       { "text": "Many", "strong": "H7227" },
       { "text": " waters", "strong": "H4325" },
-      { "text": " cannot", "strong": "H3201", "morph": "QalImpf" },
-      { "text": " quench", "strong": "H3518", "morph": "PielInf" },
+      { "text": " cannot", "strong": "H3201" },
+      { "text": " quench", "strong": "H3518" },
       { "text": " love,", "break": true, "strong": "H160" },
       { "text": "Neither can the floods", "strong": "H5104" },
-      { "text": " drown", "strong": "H7857", "morph": "QalImpf" },
+      { "text": " drown", "strong": "H7857" },
       {
         "content": [{ "text": " it:", "break": true }, "If a man"],
         "strong": "H376"
       },
-      { "text": " would give", "strong": "H5414", "morph": "QalImpf" },
-      { "text": " all the substance", "strong": "H1952" },
+      { "text": " would give", "strong": "H5414" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the substance", "strong": "H1952" },
       { "text": " of his house", "strong": "H1004" },
       { "text": " for love,", "break": true, "strong": "H160" },
-      { "text": "It would utterly", "strong": "H936", "morph": "QalInf" },
-      {
-        "text": " be contemned.",
-        "break": true,
-        "strong": "H936",
-        "morph": "QalImpf"
-      }
+      { "text": "It would utterly", "strong": "H936" },
+      { "text": " be contemned.", "break": true, "strong": "H936" }
     ]
   },
   {
@@ -3189,14 +2756,14 @@
       { "text": "We have a little", "strong": "H6996" },
       { "text": " sister,", "break": true, "strong": "H269" },
       { "text": "And she hath no breasts:", "break": true, "strong": "H7699" },
-      { "text": "What shall we do", "strong": "H6213", "morph": "QalImpf" },
+      { "text": "What", "strong": "H4100" },
+      { "text": " shall we do", "strong": "H6213" },
       { "text": " for our sister", "break": true, "strong": "H269" },
       { "text": "In the day", "strong": "H3117" },
       {
         "text": " when she shall be spoken for?",
         "break": true,
-        "strong": "H1696",
-        "morph": "PualImpf"
+        "strong": "H1696"
       }
     ]
   },
@@ -3210,8 +2777,9 @@
         "break": true,
         "strong": "H2346"
       },
-      { "text": "We will build", "strong": "H1129", "morph": "QalImpf" },
-      { "text": " upon her a palace", "strong": "H2918" },
+      { "text": "We will build", "strong": "H1129" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " her a palace", "strong": "H2918" },
       { "text": " of silver:", "break": true, "strong": "H3701" },
       {
         "content": [
@@ -3222,7 +2790,7 @@
         "break": true,
         "strong": "H1817"
       },
-      { "text": "We will inclose", "strong": "H6696", "morph": "QalImpf" },
+      { "text": "We will inclose", "strong": "H6696" },
       { "text": " her with boards", "strong": "H3871" },
       { "text": " of cedar.", "break": true, "strong": "H730" }
     ]
@@ -3239,8 +2807,9 @@
       },
       { "text": "And my breasts", "strong": "H7699" },
       { "text": " like towers:", "break": true, "strong": "H4026" },
-      { "text": "Then was I in his eyes", "break": true, "strong": "H5869" },
-      { "text": "As one that found", "strong": "H4672", "morph": "QalActPtc" },
+      { "text": "Then", "strong": "H227" },
+      { "text": " was I in his eyes", "break": true, "strong": "H5869" },
+      { "text": "As one that found", "strong": "H4672" },
       {
         "text": " favour.",
         "break": true,
@@ -3260,27 +2829,16 @@
       { "text": "Solomon", "strong": "H8010" },
       { "text": " had a vineyard", "strong": "H3754" },
       { "text": " at Baalhamon;", "break": true, "strong": "H1174" },
-      { "text": "He let out", "strong": "H5414", "morph": "QalPerf" },
+      { "text": "He let out", "strong": "H5414" },
       { "text": " the vineyard", "strong": "H3754" },
-      {
-        "text": " unto keepers;",
-        "break": true,
-        "strong": "H5201",
-        "morph": "QalActPtc"
-      },
+      { "text": " unto keepers;", "break": true, "strong": "H5201" },
       { "text": "Every one", "strong": "H376" },
       { "text": " for the fruit", "strong": "H6529" },
-      {
-        "text": " thereof was to bring",
-        "strong": "H935",
-        "morph": "HiphImpf"
-      },
+      { "text": " thereof was to bring", "strong": "H935" },
       { "text": " a thousand", "strong": "H505" },
-      {
-        "content": [" ", { "text": "pieces", "marks": ["i"] }, " of silver."],
-        "break": true,
-        "strong": "H3701"
-      }
+      " ",
+      { "text": "pieces", "marks": ["i"] },
+      { "text": " of silver.", "break": true, "strong": "H3701" }
     ]
   },
   {
@@ -3303,20 +2861,11 @@
         "content": [{ "text": " me:", "break": true }, "Thou, O Solomon,"],
         "strong": "H8010"
       },
-      {
-        "content": [
-          " ",
-          { "text": "must have", "marks": ["i"] },
-          " a thousand,"
-        ],
-        "break": true,
-        "strong": "H505"
-      },
-      {
-        "text": "And those that keep",
-        "strong": "H5201",
-        "morph": "QalActPtc"
-      },
+      " ",
+      { "text": "must have", "marks": ["i"] },
+      { "text": " a thousand,", "break": true, "strong": "H505" },
+      { "text": "And those that keep", "strong": "H5201" },
+      { "strong": "H853" },
       { "text": " the fruit", "strong": "H6529" },
       { "text": " thereof two hundred.", "break": true, "strong": "H3967" }
     ]
@@ -3326,12 +2875,12 @@
     "chapter": 8,
     "verse": 13,
     "content": [
-      { "text": "Thou that dwellest", "strong": "H3427", "morph": "QalActPtc" },
+      { "text": "Thou that dwellest", "strong": "H3427" },
       { "text": " in the gardens,", "break": true, "strong": "H1588" },
       { "text": "The companions", "strong": "H2270" },
-      { "text": " hearken", "strong": "H7181", "morph": "HiphPtc" },
+      { "text": " hearken", "strong": "H7181" },
       { "text": " to thy voice:", "break": true, "strong": "H6963" },
-      { "text": "Cause me to hear", "strong": "H8085", "morph": "HiphImpv" },
+      { "text": "Cause me to hear", "strong": "H8085" },
       " ",
       { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
@@ -3348,15 +2897,15 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "flee away", "marks": ["i"] }]
         },
-        "strong": "H1272",
-        "morph": "QalImpv"
+        "strong": "H1272"
       },
       { "text": " my beloved,", "break": true, "strong": "H1730" },
-      { "text": "And be thou like", "strong": "H1819", "morph": "QalImpv" },
+      { "text": "And be thou like", "strong": "H1819" },
       { "text": " to a roe", "break": true, "strong": "H6643" },
       { "text": "Or to a young", "strong": "H6082" },
       { "text": " hart", "break": true, "strong": "H354" },
-      { "text": "Upon the mountains", "strong": "H2022" },
+      { "text": "Upon", "strong": "H5921" },
+      { "text": " the mountains", "strong": "H2022" },
       { "text": " of spices.", "break": true, "strong": "H1314" }
     ]
   }

@@ -240,7 +240,7 @@
 
 <sup>31</sup> en dè<sup>l</sup> tō̂ metaxỳ ērṓtōn autòn hoi mathētaí, légontes, Rhabbí, pháge.
 <sup>32</sup> ho dè eîpen autoîs, Egṑ brō̂sin échō phageîn hḕn hymeîs ouk oídate.
-<sup>33</sup> élegon oûn hoi mathētaì pròs allḗlous, Μήτις ḗnenken autō̂ phageîn?
+<sup>33</sup> élegon oûn hoi mathētaì pròs allḗlous, Mḗtis ḗnenken autō̂ phageîn?
 <sup>34</sup> légei autoîs ho Iēsoûs, Emòn brō̂má estin, hína poiō̂<sup>m</sup> tò thélēma toû pémpsantós me, kaì teleiṓsō autoû tò érgon.
 <sup>35</sup> ouch hymeîs légete hóti Éti tetrámēnón<sup>n</sup> esti, kaì ho therismòs érchetai? idoú, légō hymîn, Epárate toùs ophthalmoùs hymō̂n, kaì theásasthe tàs chṓras, hóti leukaí eisi pròs therismòn ḗdē.<sup>o</sup>
 <sup>36</sup> kaì<sup>p</sup> ho therízōn misthòn lambánei, kaì synágei karpòn eis zōḕn aiṓnion; hína kaì<sup>q</sup> ho speírōn homoû chaírē kaì ho therízōn.
@@ -565,7 +565,7 @@
 <sup>43</sup> Schísma oûn en tō̂ óchlō egéneto<sup>ac</sup> di’ autón.
 <sup>44</sup> tinès dè ḗthelon ex autō̂n piásai autón, all’ oudeìs epébalen ep’ autòn tàs cheîras.
 
-<sup>45</sup> Ē̂lthon oûn hoi hypērétai pròs toùs archiereîs kaì Pharisaíous; kaì eîpon autoîs ekeînoi, Διατί ouk ēgágete autón?
+<sup>45</sup> Ē̂lthon oûn hoi hypērétai pròs toùs archiereîs kaì Pharisaíous; kaì eîpon autoîs ekeînoi, Diatí ouk ēgágete autón?
 <sup>46</sup> apekríthēsan hoi hypērétai, Oudépote hoútōs elálēsen<sup>ad</sup> ánthrōpos, hōs hoûtos ho ánthrōpos.<sup>ae</sup>
 <sup>47</sup> apekríthēsan oûn autoîs hoi Pharisaîoi, Mḕ kaì hymeîs peplánēsthe?
 <sup>48</sup> mḗ tis ek tō̂n archóntōn epísteusen eis autón, ḕ ek tō̂n Pharisaíōn?
@@ -666,10 +666,10 @@
 <sup>40</sup> nŷn dè zēteîté me apokteînai, ánthrōpon hòs tḕn alḗtheian hymîn lelálēka, hḕn ḗkousa parà toû Theoû; toûto Abraàm ouk epoíēsen.
 <sup>41</sup> hymeîs poieîte tà érga toû patròs hymō̂n. eîpon oûn<sup>ak</sup> autō̂, Hēmeîs ek porneías ou gegennḗmetha;<sup>al</sup> héna patéra échomen, tòn Theón.
 <sup>42</sup> eîpen<sup>am</sup> autoîs ho Iēsoûs, Ei ho Theòs patḕr hymō̂n ē̂n, ēgapâte àn emé; egṑ gàr ek toû Theoû exē̂lthon kaì hḗkō; oudè gàr ap’ emautoû elḗlytha, all’ ekeînós me apésteile.
-<sup>43</sup> διατί tḕn laliàn tḕn emḕn ou ginṓskete? hóti ou dýnasthe akoúein tòn lógon tòn emón.
+<sup>43</sup> diatí tḕn laliàn tḕn emḕn ou ginṓskete? hóti ou dýnasthe akoúein tòn lógon tòn emón.
 <sup>44</sup> hymeîs ek<sup>an</sup> patròs toû diabólou esté, kaì tàs epithymías toû patròs hymō̂n thélete poieîn. ekeînos anthrōpoktónos ē̂n ap’ archē̂s, kaì en tē̂ alētheía ouch héstēken,<sup>ao</sup> hóti ouk éstin alḗtheia en autō̂. hótan lalē̂ tò pseûdos, ek tō̂n idíōn laleî; hóti pseústēs estì kaì ho patḕr autoû.
 <sup>45</sup> egṑ dè hóti tḕn alḗtheian légō, ou pisteúeté moi.
-<sup>46</sup> tís ex hymō̂n elénchei me perì hamartías? ei dè<sup>ap</sup> alḗtheian légō, διατί hymeîs ou pisteúeté moi?
+<sup>46</sup> tís ex hymō̂n elénchei me perì hamartías? ei dè<sup>ap</sup> alḗtheian légō, diatí hymeîs ou pisteúeté moi?
 <sup>47</sup> ho ṑn ek toû Theoû tà rhḗmata toû Theoû akoúei; dià toûto hymeîs ouk akoúete, hóti ek toû Theoû ouk esté.
 
 <sup>48</sup> apekríthēsan oûn<sup>aq</sup> hoi Ioudaîoi kaì eîpon autō̂, Ou kalō̂s légomen hēmeîs hóti Samareítēs eî sý, kaì daimónion écheis?
@@ -963,7 +963,7 @@
 <sup>52</sup> kaì ouch hypèr toû éthnous mónon, all’ hína kaì tà tékna toû Theoû tà dieskorpisména synagágē eis hén.
 <sup>53</sup> ap’ ekeínēs oûn tē̂s hēméras synebouleúsanto<sup>w</sup> hína apokteínōsin autón.
 
-<sup>54</sup> Iēsoûs oûn οὐκέτι parrēsía periepátei en toîs Ioudaíois, allà apē̂lthen ekeîthen eis tḕn chṓran engỳs tē̂s erḗmou, eis Ephraï̀m legoménēn pólin, kakeî diétribe<sup>x</sup> metà tō̂n mathētō̂n autoû.<sup>y</sup>
+<sup>54</sup> Iēsoûs oûn oukéti parrēsía periepátei en toîs Ioudaíois, allà apē̂lthen ekeîthen eis tḕn chṓran engỳs tē̂s erḗmou, eis Ephraï̀m legoménēn pólin, kakeî diétribe<sup>x</sup> metà tō̂n mathētō̂n autoû.<sup>y</sup>
 
 <sup>55</sup> ē̂n dè engỳs tò páscha tō̂n Ioudaíōn; kaì anébēsan polloì eis Hierosólyma ek tē̂s chṓras prò toû páscha, hína hagnísōsin heautoús.
 <sup>56</sup> ezḗtoun oûn tòn Iēsoûn, kaì élegon met’ allḗlōn en tō̂ hierō̂ hestēkótes, Tí dokeî hymîn? hóti ou mḕ élthē eis tḕn heortḗn?
@@ -1003,7 +1003,7 @@
 <sup>2</sup> epoíēsan oûn autō̂ deîpnon ekeî, kaì hē Mártha diēkónei; ho dè Lázaros heîs ē̂n<sup>c</sup> tō̂n synanakeiménōn<sup>d</sup> autō̂.
 <sup>3</sup> hē oûn María laboûsa lítran mýrou nárdou pistikē̂s polytímou, ḗleipse toùs pódas toû Iēsoû, kaì exémaxe taîs thrixìn autē̂s toùs pódas autoû; hē dè oikía eplērṓthē ek tē̂s osmē̂s toû mýrou.
 <sup>4</sup> légei oûn<sup>e</sup> heîs ek tō̂n mathētō̂n autoû, Ioúdas Símōnos Iskariṓtēs,<sup>f</sup> ho méllōn autòn paradidónai,
-<sup>5</sup> Διατί toûto tò mýron ouk epráthē triakosíōn dēnaríōn, kaì edóthē ptōchoîs?
+<sup>5</sup> Diatí toûto tò mýron ouk epráthē triakosíōn dēnaríōn, kaì edóthē ptōchoîs?
 <sup>6</sup> eîpe dè toûto, ouch hóti perì tō̂n ptōchō̂n émelen autō̂, allà<sup>g</sup> hóti kléptēs ē̂n, kaì tò glōssókomon eîche, kaì<sup>h</sup> tà ballómena ebástazen.
 <sup>7</sup> eîpen oûn ho Iēsoûs, Áphes autḗn;<sup>i</sup> eis tḕn hēméran toû entaphiasmoû mou tetḗrēken<sup>j</sup> autó.
 <sup>8</sup> toùs ptōchoùs gàr pántote échete meth’ heautō̂n, emè dè ou pántote échete.
@@ -1134,7 +1134,7 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>35</sup> en toútō gnṓsontai pántes hóti emoì mathētaí este, eàn agápēn échēte en allḗlois.
 
 <sup>36</sup> Légei autō̂ Símōn Pétros, Kýrie, poû hypágeis? apekríthē autō̂ ho<sup>af</sup> Iēsoûs, Hópou hypágō, ou dýnasaí moi nŷn akolouthē̂sai, hýsteron dè akolouthḗseis moi.<sup>ag</sup>
-<sup>37</sup> légei autō̂ ho Pétros, Kýrie, διατί ou dýnamaí soi akolouthē̂sai árti? tḕn psychḗn mou hypèr soû thḗsō.
+<sup>37</sup> légei autō̂ ho Pétros, Kýrie, diatí ou dýnamaí soi akolouthē̂sai árti? tḕn psychḗn mou hypèr soû thḗsō.
 <sup>38</sup> apekríthē autō̂ ho<sup>ah</sup> Iēsoûs, Tḕn psychḗn sou hypèr emoû thḗseis? amḕn amḕn légō soi, ou mḕ aléktōr phōnḗsei<sup>ai</sup> héōs hoû aparnḗsē<sup>aj</sup> me trís.
 
 > - <sup>a</sup> 1. elḗlythen ¦ RV ē̂lthen
@@ -1197,7 +1197,7 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>17</sup> tò pneûma tē̂s alētheías, hò ho kósmos ou dýnatai labeîn, hóti ou theōreî autó, oudè ginṓskei autó. hymeîs dè<sup>q</sup> ginṓskete autó, hóti par’ hymîn ménei, kaì en hymîn éstai.
 
 <sup>18</sup> ouk aphḗsō hymâs orphanoús; érchomai pròs hymâs.
-<sup>19</sup> éti mikròn kaì ho kósmos me οὐκέτι theōreî, hymeîs dè theōreîté me; hóti egṑ zō̂, kaì hymeîs zḗsesthe.
+<sup>19</sup> éti mikròn kaì ho kósmos me oukéti theōreî, hymeîs dè theōreîté me; hóti egṑ zō̂, kaì hymeîs zḗsesthe.
 <sup>20</sup> en ekeínē tē̂ hēméra gnṓsesthe hymeîs hóti egṑ en tō̂ patrí mou, kaì hymeîs en emoí, kagṑ en hymîn.
 <sup>21</sup> ho échōn tàs entolás mou kaì tērō̂n autás, ekeînós estin ho agapō̂n me; ho dè agapō̂n me, agapēthḗsetai hypò toû patrós mou; kaì egṑ agapḗsō autón, kaì emphanísō autō̂ emautón.
 <sup>22</sup> légei autō̂ Ioúdas, ouch ho Iskariṓtēs, Kýrie, tí gégonen hóti hēmîn mélleis emphanízein seautón, kaì ouchì tō̂ kósmō?
@@ -1209,7 +1209,7 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>27</sup> eirḗnēn aphíēmi hymîn, eirḗnēn tḕn emḕn dídōmi hymîn; ou kathṑs ho kósmos dídōsin, egṑ dídōmi hymîn. mḕ tarassésthō hymō̂n hē kardía, mēdè deiliátō.
 <sup>28</sup> ēkoúsate hóti egṑ eîpon hymîn, Hypágō kaì érchomai pròs hymâs. ei ēgapâté me, echárēte àn hóti eîpon,<sup>s</sup> Poreúomai pròs tòn patéra; hóti ho patḗr mou<sup>t</sup> meízōn moú esti.
 <sup>29</sup> kaì nŷn eírēka hymîn prìn genésthai; hína, hótan génētai, pisteúsēte.
-<sup>30</sup> οὐκέτι pollà lalḗsō meth’ hymō̂n; érchetai gàr ho toû kósmou toútou<sup>u</sup> árchōn, kaì en emoì ouk échei oudén;
+<sup>30</sup> oukéti pollà lalḗsō meth’ hymō̂n; érchetai gàr ho toû kósmou toútou<sup>u</sup> árchōn, kaì en emoì ouk échei oudén;
 <sup>31</sup> all’ hína gnō̂ ho kósmos hóti agapō̂ tòn patéra, kaì kathṑs eneteílató moi ho patḗr, hoútō poiō̂. egeíresthe, ágōmen enteûthen.
 
 > - <sup>a</sup> 2. hymîn ¦ RV hymîn hóti
@@ -1288,7 +1288,7 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>7</sup> all’ egṑ tḕn alḗtheian légō hymîn; symphérei hymîn hína egṑ apélthō; eàn gàr mḕ apélthō, ho paráklētos ouk eleúsetai pròs hymâs; eàn dè poreuthō̂, pémpsō autòn pròs hymâs.
 <sup>8</sup> kaì elthṑn ekeînos elénxei tòn kósmon perì hamartías kaì perì dikaiosýnēs kaì perì kríseōs;
 <sup>9</sup> perì hamartías mén, hóti ou pisteúousin eis emé;
-<sup>10</sup> perì dikaiosýnēs dé, hóti pròs tòn patéra mou<sup>c</sup> hypágō, kaì οὐκέτι theōreîté me;
+<sup>10</sup> perì dikaiosýnēs dé, hóti pròs tòn patéra mou<sup>c</sup> hypágō, kaì oukéti theōreîté me;
 <sup>11</sup> perì dè kríseōs, hóti ho árchōn toû kósmou toútou kékritai.
 
 <sup>12</sup> éti pollà échō légein hymîn, all’ ou dýnasthe bastázein árti.
@@ -1301,12 +1301,12 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>18</sup> élegon oûn, Toûto tí estin<sup>i</sup> hò légei, tò mikrón? ouk oídamen tí laleî.
 <sup>19</sup> égnō oûn ho<sup>j</sup> Iēsoûs hóti ḗthelon autòn erōtân, kaì eîpen autoîs, Perì toútou zēteîte met’ allḗlōn, hóti eîpon, Mikròn kaì ou theōreîté me, kaì pálin mikròn kaì ópsesthé me?
 <sup>20</sup> amḕn amḕn légō hymîn hóti klaúsete kaì thrēnḗsete hymeîs, ho dè kósmos charḗsetai; hymeîs dè<sup>k</sup> lypēthḗsesthe, all’ hē lýpē hymō̂n eis charàn genḗsetai.
-<sup>21</sup> hē gynḕ hótan tíktē lýpēn échei, hóti ē̂lthen hē hṓra autē̂s; hótan dè gennḗsē tò paidíon, οὐκέτι mnēmoneúei tē̂s thlípseōs, dià tḕn charàn hóti egennḗthē ánthrōpos eis tòn kósmon.
+<sup>21</sup> hē gynḕ hótan tíktē lýpēn échei, hóti ē̂lthen hē hṓra autē̂s; hótan dè gennḗsē tò paidíon, oukéti mnēmoneúei tē̂s thlípseōs, dià tḕn charàn hóti egennḗthē ánthrōpos eis tòn kósmon.
 <sup>22</sup> kaì hymeîs oûn lýpēn mèn nŷn<sup>l</sup> échete; pálin dè ópsomai hymâs, kaì charḗsetai hymō̂n hē kardía, kaì tḕn charàn hymō̂n oudeìs aírei aph’ hymō̂n.
 <sup>23</sup> kaì en ekeínē tē̂ hēméra emè ouk erōtḗsete oudén. amḕn amḕn légō hymîn hóti<sup>m</sup> hósa àn<sup>n</sup> aitḗsēte tòn patéra en tō̂ onómatí mou, dṓsei hymîn.<sup>o</sup>
 <sup>24</sup> héōs árti ouk ētḗsate oudèn en tō̂ onómatí mou; aiteîte, kaì lḗpsesthe, hína hē charà hymō̂n ē̂ peplērōménē.
 
-<sup>25</sup> Taûta en paroimíais lelálēka hymîn;<sup>p</sup> érchetai hṓra hóte οὐκέτι en paroimíais lalḗsō hymîn, allà parrēsía perì toû patròs anangelō̂<sup>q</sup> hymîn.
+<sup>25</sup> Taûta en paroimíais lelálēka hymîn;<sup>p</sup> érchetai hṓra hóte oukéti en paroimíais lalḗsō hymîn, allà parrēsía perì toû patròs anangelō̂<sup>q</sup> hymîn.
 <sup>26</sup> en ekeínē tē̂ hēméra en tō̂ onómatí mou aitḗsesthe; kaì ou légō hymîn hóti egṑ erōtḗsō tòn patéra perì hymō̂n;
 <sup>27</sup> autòs gàr ho patḕr phileî hymâs, hóti hymeîs emè pephilḗkate, kaì pepisteúkate hóti egṑ parà toû Theoû<sup>r</sup> exē̂lthon.
 <sup>28</sup> exē̂lthon parà<sup>s</sup> toû patrós, kaì elḗlytha eis tòn kósmon; pálin aphíēmi tòn kósmon, kaì poreúomai pròs tòn patéra.
@@ -1353,7 +1353,7 @@ Taûta elálēsen ho Iēsoûs, kaì apelthṑn ekrýbē ap’ autō̂n.
 <sup>8</sup> hóti tà rhḗmata hà dédōkás<sup>h</sup> moi, dédōka autoîs; kaì autoì élabon, kaì égnōsan alēthō̂s hóti parà soû exē̂lthon, kaì epísteusan hóti sý me apésteilas.
 <sup>9</sup> egṑ perì autō̂n erōtō̂; ou perì toû kósmou erōtō̂, allà perì hō̂n dédōkás moi, hóti soí eisi;
 <sup>10</sup> kaì tà emà pánta sá esti, kaì tà sà emá; kaì dedóxasmai en autoîs.
-<sup>11</sup> kaì οὐκέτι eimì en tō̂ kósmō, kaì hoûtoi en tō̂ kósmō eisí, kaì egṑ prós se érchomai. páter hágie, tḗrēson autoùs en tō̂ onómatí sou, hoùs<sup>i</sup> dédōkás moi, hína ō̂sin hén, kathṑs hēmeîs.
+<sup>11</sup> kaì oukéti eimì en tō̂ kósmō, kaì hoûtoi en tō̂ kósmō eisí, kaì egṑ prós se érchomai. páter hágie, tḗrēson autoùs en tō̂ onómatí sou, hoùs<sup>i</sup> dédōkás moi, hína ō̂sin hén, kathṑs hēmeîs.
 <sup>12</sup> hóte ḗmēn met’ autō̂n en tō̂ kósmō,<sup>j</sup> egṑ etḗroun autoùs en tō̂ onómatí sou; hoùs<sup>k</sup> dédōkás moi,<sup>l</sup> ephýlaxa, kaì oudeìs ex autō̂n apṓleto, ei mḕ ho hyiòs tē̂s apōleías, hína hē graphḕ plērōthē̂.
 <sup>13</sup> nŷn dè prós se érchomai, kaì taûta lalō̂ en tō̂ kósmō, hína échōsi tḕn charàn tḕn emḕn peplērōménēn en autoîs.<sup>m</sup>
 <sup>14</sup> egṑ dédōka autoîs tòn lógon sou, kaì ho kósmos emísēsen autoús, hóti ouk eisìn ek toû kósmou, kathṑs egṑ ouk eimì ek toû kósmou.
@@ -1616,7 +1616,7 @@ Parélabon dè<sup>n</sup> tòn Iēsoûn kaì apḗgagon;<sup>o</sup>
 
 <sup>4</sup> prōḯas dè ḗdē genoménēs<sup>c</sup> éstē ho Iēsoûs eis tòn aigialón; ou méntoi ḗdeisan hoi mathētaì hóti Iēsoûs esti.
 <sup>5</sup> légei oûn autoîs ho Iēsoûs, Paidía, mḗ ti prosphágion échete? apekríthēsan autō̂, Oú.
-<sup>6</sup> ho dè eîpen autoîs, Bálete eis tà dexià mérē toû ploíou tò díktyon, kaì heurḗsete. ébalon oûn, kaì οὐκέτι autò helkýsai íschysan<sup>d</sup> apò toû plḗthous tō̂n ichthýōn.
+<sup>6</sup> ho dè eîpen autoîs, Bálete eis tà dexià mérē toû ploíou tò díktyon, kaì heurḗsete. ébalon oûn, kaì oukéti autò helkýsai íschysan<sup>d</sup> apò toû plḗthous tō̂n ichthýōn.
 <sup>7</sup> légei oûn ho mathētḕs ekeînos hòn ēgápa ho Iēsoûs tō̂ Pétrō, Ho Kýriós esti. Símōn oûn Pétros, akoúsas hóti ho Kýriós esti, tòn ependýtēn diezṓsato (ē̂n gàr gymnós), kaì ébalen heautòn eis tḕn thálassan.
 <sup>8</sup> hoi dè álloi mathētaì tō̂ ploiaríō ē̂lthon (ou gàr ē̂san makràn apò tē̂s gē̂s, all’ hōs apò pēchō̂n diakosíōn), sýrontes tò díktyon tō̂n ichthýōn.
 

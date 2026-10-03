@@ -3,8 +3,9 @@
 <sup>1</sup> The beginning of the gospel of Jesus Christ, the Son of God;
 <sup>2</sup> As it is written in the prophets,<br>Behold, I send my messenger before thy face,<br>Which shall prepare thy way before thee.<br>
 <sup>3</sup> The voice of one crying in the wilderness,<br>Prepare ye the way of the Lord,<br>Make his paths straight.<br>
+<sup>4</sup>
 
-<sup>4</sup> John did baptize in the wilderness, and preach the baptism of repentance for<sup>a</sup> the remission of sins.
+John did baptize in the wilderness, and preach the baptism of repentance for<sup>a</sup> the remission of sins.
 <sup>5</sup> And there went out unto him all the land of Judæa, and they of Jerusalem, and were all baptized of him in the river of Jordan, confessing their sins.
 <sup>6</sup> And John was clothed with camel’s hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;
 <sup>7</sup> and preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose.

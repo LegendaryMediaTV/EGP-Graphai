@@ -4,6 +4,8 @@ import {
   entriesFor,
   inflectionCategories,
   languageForScript,
+  pronounce,
+  pronunciationTable,
   resolveLemma,
   resolveStrongs,
   transliterateText,
@@ -129,6 +131,62 @@ describe("transliterateText", () => {
   });
 });
 
+describe("pronounce", () => {
+  const table = pronunciationTable("greek")!;
+  const say = (text: string) => pronounce(text, table);
+
+  it("should write the stressed syllable in capitals", () => {
+    expect(say("ἀγάπη")).toBe("ah-GAH-pay");
+    expect(say("λόγος")).toBe("LAW-gaws");
+    expect(say("Ἰησοῦς")).toBe("ee-ay-SOOS");
+  });
+
+  it("should put the rough breathing before the vowel or diphthong it marks", () => {
+    expect(say("ἁμαρτία")).toBe("hah-mahr-TEE-ah");
+    // On the second letter of a diphthong, the whole diphthong is aspirated.
+    expect(say("υἱός")).toBe("hwee-AWS");
+  });
+
+  it("should read a diphthong as one sound unless a diaeresis parts it", () => {
+    expect(say("εἰρήνη")).toBe("ay-RAY-nay");
+    expect(say("ἀΐδιος")).toBe("ah-EE-dee-aws");
+  });
+
+  it("should read gamma before a velar as a nasal", () => {
+    expect(say("ἄγγελος")).toBe("AHN-geh-laws");
+    expect(say("εὐαγγέλιον")).toBe("yoo-ahn-GEH-lee-awn");
+  });
+
+  it("should begin a syllable with a stop before λ or ρ, and split any other cluster", () => {
+    expect(say("πατρός")).toBe("pah-TRAWS");
+    // πτ begins πτωχός, but speech still splits it, as verse shows.
+    expect(say("βαπτίζω")).toBe("bahp-TEE-zoh");
+    expect(say("ἔθνος")).toBe("EHTH-naws");
+    // A word-initial cluster stays whole.
+    expect(say("πνεῦμα")).toBe("PNYOO-mah");
+    // A doubled consonant always splits, and κλ still opens the next syllable.
+    expect(say("ἐκκλησία")).toBe("ehk-klay-SEE-ah");
+  });
+
+  it("should say zeta as z, the Koine sound, wherever it stands", () => {
+    expect(say("ζωή")).toBe("zoh-AY");
+    expect(say("ἀγοράζω")).toBe("ah-gaw-RAH-zoh");
+  });
+
+  it("should leave the iota subscript silent", () => {
+    expect(say("ᾠδή")).toBe("oh-DAY");
+  });
+
+  it("should say a phrase or a hyphenated name word by word, with a space between", () => {
+    expect(say("Ἄρειος Πάγος")).toBe("AH-ray-aws PAH-gaws");
+    expect(say("Ηλαμ-ααρ")).toBe("ay-lahm ah-ahr");
+  });
+
+  it("should answer null for a numeral, since the keraia is not said", () => {
+    expect(say("ιβʹ")).toBeNull();
+  });
+});
+
 describe("languageForScript", () => {
   it("should resolve the Greek script code to the greek registry", () => {
     expect(languageForScript("G")).toBe("greek");
@@ -235,27 +293,27 @@ describe("resolveLemma", () => {
   });
 
   it("should narrow two roots to one on the Strong's number the node already carries", () => {
-    // εἴδω and ὁράω are two lexicon entries for one suppletive verb, and εἶδον
-    // is the second aorist of both, so only the corpus's own G1492 separates
-    // them. Nodes across the two corpora reach their lemma this way in quantity.
+    // The shield ἀσπίς¹ and the asp ἀσπίς² decline alike, so ἀσπίδα is the
+    // same accusative singular under both. Only the asp carries a number
+    // (G785), and a node carrying it can only be the asp.
     expect(
       resolveLemma({
-        text: "εἶδον",
-        morph: "V-2AAI-1S",
-        strong: "G1492",
+        text: "ἀσπίδα",
+        morph: "N-ASF",
+        strong: "G785",
         morphology: "robinson",
       }),
     ).toEqual({
-      lemma: "ὁράω",
+      lemma: "ἀσπίς²",
     });
     expect(
       resolveLemma({
-        text: "εἶδον",
-        morph: "V-2AAI-1S",
+        text: "ἀσπίδα",
+        morph: "N-ASF",
         morphology: "robinson",
       }),
     ).toEqual({
-      unresolved: "ambiguous between εἴδω, ὁράω",
+      unresolved: "ambiguous between ἀσπίς², ἀσπίς¹",
     });
   });
 
@@ -296,16 +354,16 @@ describe("resolveLemma", () => {
   });
 
   it("should name both roots and write no lemma when nothing separates them", () => {
-    // λέγω and ἔπω are two entries for one suppletive verb and εἶπεν is the
-    // second aorist of both, so a node carrying no Strong's number offers
-    // nothing to tell them apart — the answer is the question, not a coin
-    // toss. 2,815 LXX1935 nodes are this one word.
+    // The indeclinable Ἰουδά and the declinable Ἰούδας both print Ιουδα, so a
+    // node carrying no Strong's number offers nothing to tell them apart — the
+    // answer is the question, not a coin toss. 486 LXX1935 nodes are this one
+    // word.
     const result = resolveLemma({
-      text: "εἶπεν",
-      morph: "V-2AAI-3S",
+      text: " Ιουδα",
+      morph: "N-PRI",
       morphology: "robinson",
     });
-    expect(result).toEqual({ unresolved: "ambiguous between λέγω, ἔπω" });
+    expect(result).toEqual({ unresolved: "ambiguous between Ἰουδά, Ἰούδας" });
     expect(result).not.toHaveProperty("lemma");
   });
 
@@ -319,14 +377,14 @@ describe("resolveLemma", () => {
 
   it("should say so when the scheme cannot read the morphology code", () => {
     expect(
-      resolveLemma({ text: "Ἄρα", morph: "ZZZ-9", morphology: "robinson" }),
+      resolveLemma({ text: "ἀσπίδα", morph: "ZZZ-9", morphology: "robinson" }),
     ).toEqual({
       unresolved: "robinson cannot read this code",
     });
   });
 
   it("should say so when no morphology scheme is declared to read the code with", () => {
-    expect(resolveLemma({ text: "Ἄρα", morph: "PRT" })).toEqual({
+    expect(resolveLemma({ text: "ἀσπίδα", morph: "N-ASF" })).toEqual({
       unresolved: "no morphology scheme is declared to read this code",
     });
   });
@@ -393,6 +451,31 @@ describe("resolveStrongs", () => {
       }),
     ).toEqual({
       strong: "G1691",
+    });
+  });
+
+  it("should let a rule naming a spelling outrank a rule naming only a parse", () => {
+    // λέγω's aorist passive takes G4483 by parse, since its forms are built on
+    // ῥη-, but λεχθέντα is built on λεγ- and a spelling rule gives it G3004.
+    expect(
+      resolveStrongs({
+        lemma: "λέγω",
+        text: " λεχθέντα",
+        morph: "V-APP-APN",
+        morphology: "robinson",
+      }),
+    ).toEqual({
+      strong: "G3004",
+    });
+    expect(
+      resolveStrongs({
+        lemma: "λέγω",
+        text: " ῥηθέντα",
+        morph: "V-APP-APN",
+        morphology: "robinson",
+      }),
+    ).toEqual({
+      strong: "G4483",
     });
   });
 

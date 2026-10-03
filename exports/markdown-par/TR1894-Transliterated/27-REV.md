@@ -698,9 +698,9 @@ kaì en mésō toû thrónou kaì kýklō toû thrónou téssara zō̂a gémonta
 
 ## Chapter 14
 
-<sup>1</sup> Kaì eîdon, kaì idoú,<sup>a</sup> arníon hestēkòs epì tò óros Siṓn, kaì met’ autoû hekatòn τεσσαράκοντατέσσαρες chiliádes, échousai<sup>b</sup> tò ónoma toû patròs autoû gegramménon epì tō̂n metṓpōn autō̂n.
+<sup>1</sup> Kaì eîdon, kaì idoú,<sup>a</sup> arníon hestēkòs epì tò óros Siṓn, kaì met’ autoû hekatòn tessarákontatéssares chiliádes, échousai<sup>b</sup> tò ónoma toû patròs autoû gegramménon epì tō̂n metṓpōn autō̂n.
 <sup>2</sup> kaì ḗkousa phōnḕn ek toû ouranoû, hōs phōnḕn hydátōn pollō̂n, kaì hōs phōnḕn brontē̂s megálēs; kaì phōnḕn ḗkousa<sup>c</sup> kitharōdō̂n kitharizóntōn en taîs kithárais autō̂n.<sup>d</sup>
-<sup>3</sup> kaì ádousin hōs ōdḕn kainḕn enṓpion toû thrónou, kaì enṓpion tō̂n tessárōn zṓōn kaì tō̂n presbytérōn; kaì oudeìs ēdýnato matheîn tḕn ōdḗn, ei mḕ hai hekatòn τεσσαράκοντατέσσαρες chiliádes, hoi ēgorasménoi apò tē̂s gē̂s.
+<sup>3</sup> kaì ádousin hōs ōdḕn kainḕn enṓpion toû thrónou, kaì enṓpion tō̂n tessárōn zṓōn kaì tō̂n presbytérōn; kaì oudeìs ēdýnato matheîn tḕn ōdḗn, ei mḕ hai hekatòn tessarákontatéssares chiliádes, hoi ēgorasménoi apò tē̂s gē̂s.
 <sup>4</sup> hoûtoí eisin hoì metà gynaikō̂n ouk emolýnthēsan; parthénoi gár eisin. hoûtoi eisin<sup>e</sup> hoi akolouthoûntes tō̂ arníō hópou àn hypágē. hoûtoi ēgorásthēsan apò tō̂n anthrṓpōn, aparchḕ tō̂ Theō̂ kaì tō̂ arníō.
 <sup>5</sup> kaì en tō̂ stómati autō̂n ouch heuréthē dólos;<sup>f</sup> ámōmoi gár<sup>g</sup> eisin enṓpion toû thrónou toû Theoû.<sup>h</sup>
 
@@ -860,7 +860,7 @@ kaì en mésō toû thrónou kaì kýklō toû thrónou téssara zō̂a gémonta
 <sup>6</sup> kaì eîdon tḕn gynaîka methýousan ek toû haímatos tō̂n hagíōn, kaì ek toû haímatos tō̂n martýrōn Iēsoû.
 
 kaì ethaúmasa, idṑn autḗn, thaûma méga.
-<sup>7</sup> kaì eîpé moi ho ángelos, Διὰτί ethaúmasas? egṓ soi erō̂<sup>o</sup> tò mystḗrion tē̂s gynaikós, kaì toû thēríou toû bastázontos autḗn, toû échontos tàs heptà kephalàs kaì tà déka kérata.
+<sup>7</sup> kaì eîpé moi ho ángelos, Diàtí ethaúmasas? egṓ soi erō̂<sup>o</sup> tò mystḗrion tē̂s gynaikós, kaì toû thēríou toû bastázontos autḗn, toû échontos tàs heptà kephalàs kaì tà déka kérata.
 <sup>8</sup> tò<sup>p</sup> thēríon, hò eîdes, ē̂n, kaì ouk ésti, kaì méllei anabaínein ek tē̂s abýssou, kaì eis apṓleian hypágein.<sup>q</sup> kaì thaumásontai hoi katoikoûntes epì tē̂s gē̂s, hō̂n ou gégraptai tà onómata<sup>r</sup> epì tò biblíon tē̂s zōē̂s apò katabolē̂s kósmou, blépontes<sup>s</sup> tò thēríon hó, ti<sup>t</sup> ē̂n, kaì ouk ésti, kaíper éstin.<sup>u</sup>
 <sup>9</sup> hō̂de ho noûs ho échōn sophían. hai heptà kephalaì órē eisìn heptá,<sup>v</sup> hópou hē gynḕ káthētai ep’ autō̂n.
 <sup>10</sup> kaì basileîs heptá eisin; hoi pénte épesan, kaì<sup>w</sup> ho heîs éstin, ho állos oúpō ē̂lthe; kaí, hótan élthē, olígon autòn deî meînai.
@@ -1125,7 +1125,7 @@ kaì pâs kybernḗtēs, kaì pâs epì tō̂n ploíōn ho hómilos,<sup>ah</sup
 
 <sup>15</sup> kaì ho lalō̂n met’ emoû eîche<sup>an</sup> kálamon chrysoûn, hína metrḗsē tḕn pólin, kaì toùs pylō̂nas autē̂s, kaì tò teîchos autē̂s.
 <sup>16</sup> kaì hē pólis tetrágōnos keîtai, kaì tò mē̂kos autē̂s tosoûtón estin<sup>ao</sup> hóson kaì<sup>ap</sup> tò plátos. kaì emétrēse tḕn pólin tō̂ kalámō epì stadíōn<sup>aq</sup> dṓdeka chiliádōn; tò mē̂kos kaì tò plátos kaì tò hýpsos autē̂s ísa estí.
-<sup>17</sup> kaì emétrēse tò teîchos autē̂s hekatòn τεσσαράκοντατεσσάρων pēchō̂n, métron anthrṓpou, hó estin angélou.
+<sup>17</sup> kaì emétrēse tò teîchos autē̂s hekatòn tessarákontatessárōn pēchō̂n, métron anthrṓpou, hó estin angélou.
 <sup>18</sup> kaì ē̂n<sup>ar</sup> hē endómēsis<sup>as</sup> toû teíchous autē̂s, íaspis; kaì hē pólis chrysíon katharón, homoía<sup>at</sup> hyálō katharō̂.
 <sup>19</sup> kaì<sup>au</sup> hoi themélioi toû teíchous tē̂s póleōs pantì líthō timíō kekosmēménoi. ho themélios ho prō̂tos, íaspis; ho deúteros, sáppheiros; ho trítos, chalkēdṓn; ho tétartos, smáragdos;
 <sup>20</sup> ho pémptos, sardónyx; ho héktos, sárdios;<sup>av</sup> ho hébdomos, chrysólithos; ho ógdoos, bḗryllos; ho énnatos,<sup>aw</sup> topázion; ho dékatos, chrysóprasos; ho hendékatos, hyákinthos; ho dōdékatos, améthystos.

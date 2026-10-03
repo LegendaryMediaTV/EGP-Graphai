@@ -86,7 +86,7 @@
 ### The Benedictus
 
 <sup>67</sup> And his father Zacharias was filled with the Holy Ghost, and prophesied, saying,<br>
-<sup>68</sup> Blessed _be_ the Lord God of Israel;<br>For he hath visited and redeemed his people,<br>
+<sup>68</sup> Blessed _be_ the Lord God of Israel;<br>For he hath visited and redeemed his people,
 <sup>69</sup> And hath raised up an horn of salvation for us<br>In the house of his servant David;<br>
 <sup>70</sup> As he spake by the mouth of his holy prophets, which have been since the world began:<br>
 <sup>71</sup> That we should be saved from our enemies, and from the hand of all that hate us;<br>
@@ -530,7 +530,6 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>13</sup> They on the rock _are they_, which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away.
 <sup>14</sup> And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of _this_ life, and bring no fruit to perfection.
 <sup>15</sup> But that on the good ground are they, which in an honest and good heart, having heard the word, keep _it_, and bring forth fruit with patience.
-
 <sup>16</sup> No man, when he hath lighted a candle, covereth it with a vessel, or putteth _it_ under a bed; but setteth _it_ on a candlestick, that they which enter in may see the light.
 <sup>17</sup> For nothing is secret, that shall not be made manifest; neither _any thing_ hid, that shall not be known and come abroad.
 <sup>18</sup> Take heed therefore how ye hear: for whosoever hath, to him shall be given; and whosoever hath not, from him shall be taken even that which he seemeth to have.<sup>a</sup>
@@ -786,7 +785,6 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>30</sup> For as Jonas was a sign unto the Ninevites, so shall also the Son of man be to this generation.
 <sup>31</sup> The queen of the south shall rise up in the judgment with the men of this generation, and condemn them: for she came from the utmost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon _is_ here.
 <sup>32</sup> The men of Nineve shall rise up in the judgment with this generation, and shall condemn it: for they repented at the preaching of Jonas; and, behold, a greater than Jonas _is_ here.
-
 <sup>33</sup> No man, when he hath lighted a candle, putteth _it_ in a secret place, neither under a bushel, but on a candlestick, that they which come in may see the light.
 <sup>34</sup> The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when _thine eye_ is evil, thy body also _is_ full of darkness.
 
@@ -945,8 +943,9 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>28</sup> There shall be weeping and gnashing of teeth, when ye shall see Abraham, and Isaac, and Jacob, and all the prophets, in the kingdom of God, and you _yourselves_ thrust out.
 <sup>29</sup> And they shall come from the east, and _from_ the west, and from the north, and _from_ the south, and shall sit down in the kingdom of God.
 <sup>30</sup> And, behold, there are last which shall be first, and there are first which shall be last.
+<sup>31</sup>
 
-<sup>31</sup> The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee.
+The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee.
 <sup>32</sup> And he said unto them, Go ye, and tell that fox, Behold, I cast out devils, and I do cures to day and to morrow, and the third _day_ I shall be perfected.
 <sup>33</sup> Nevertheless I must walk to day, and to morrow, and the _day_ following: for it cannot be that a prophet perish out of Jerusalem.
 
@@ -1007,7 +1006,9 @@ And when he was now not far from the house, the centurion sent friends to him, s
 
 ## Chapter 15
 
-<sup>1</sup> Then drew near unto him all the publicans and sinners for to hear him.
+<sup>1</sup>
+
+Then drew near unto him all the publicans and sinners for to hear him.
 <sup>2</sup> And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them.
 
 ### The Lost Sheep
@@ -1343,7 +1344,7 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>40</sup> And after that they durst not ask him any _question at all_.
 <sup>41</sup> And he said unto them, How say they that Christ is David’s son?
 <sup>42</sup> And David himself saith in the book of Psalms,<br>The LORD said unto my Lord,<br>Sit thou on my right hand,<br>
-<sup>43</sup> Till I make thine enemies thy footstool.<br>
+<sup>43</sup> Till I make thine enemies thy footstool.
 
 <sup>44</sup> David therefore calleth him Lord, how is he then his son?
 
@@ -1405,10 +1406,11 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>34</sup> And take heed to yourselves, lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life, and _so_ that day come upon you unawares.
 <sup>35</sup> For as a snare shall it come on all them that dwell on the face of the whole earth.
 <sup>36</sup> Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass, and to stand before the Son of man.
+<sup>37</sup>
 
 ### Visits Olivet
 
-<sup>37</sup> And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the mount_ of Olives.
+And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the mount_ of Olives.
 <sup>38</sup> And all the people came early in the morning to him in the temple, for to hear him.
 
 > - <sup>a</sup> 2. _See Mark 12.42_
