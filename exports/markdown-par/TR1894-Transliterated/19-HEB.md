@@ -30,7 +30,7 @@
 
 ## Chapter 2
 
-<sup>1</sup> Dià toûto deî perissotérōs hēmâs proséchein<sup>a</sup> toîs akoustheîsi, μή ποτε pararryō̂men.
+<sup>1</sup> Dià toûto deî perissotérōs hēmâs proséchein<sup>a</sup> toîs akoustheîsi, mḗ pote pararryō̂men.
 <sup>2</sup> ei gàr ho di’ angélōn lalētheìs lógos egéneto bébaios, kaì pâsa parábasis kaì parakoḕ élaben éndikon misthapodosían,
 <sup>3</sup> pō̂s hēmeîs ekpheuxómetha tēlikaútēs amelḗsantes sōtērías? hḗtis, archḕn laboûsa laleîsthai dià toû Kyríou, hypò tō̂n akousántōn eis hēmâs ebebaiṓthē,
 <sup>4</sup> synepimartyroûntos toû Theoû sēmeíois te kaì térasi, kaì poikílais dynámesi, kaì Pneúmatos Hagíou merismoîs, katà tḕn autoû thélēsin.
@@ -72,7 +72,7 @@
 <sup>10</sup> diò prosṓchthisa tē̂ geneâ ekeínē,<sup>g</sup> kaì eîpon, Aeì planō̂ntai tē̂ kardía; autoì dè ouk égnōsan tàs hodoús mou;
 <sup>11</sup> hōs ṓmosa en tē̂ orgē̂ mou, Ei eiseleúsontai eis tḕn katápausín mou.
 
-<sup>12</sup> blépete, adelphoí, μή ποτε éstai én tini hymō̂n kardía ponērà apistías, en tō̂ apostē̂nai apò Theoû zō̂ntos;
+<sup>12</sup> blépete, adelphoí, mḗ pote éstai én tini hymō̂n kardía ponērà apistías, en tō̂ apostē̂nai apò Theoû zō̂ntos;
 <sup>13</sup> allà parakaleîte heautoùs kath’ hekástēn hēméran, áchris hoû tò Sḗmeron kaleîtai, hína mḕ sklērynthē̂ tis ex hymō̂n apátē tē̂s hamartías;
 <sup>14</sup> métochoi gàr gegónamen toû Christoû,<sup>h</sup> eánper tḕn archḕn tē̂s hypostáseōs méchri télous bebaían katáschōmen;
 <sup>15</sup> en tō̂ légesthai, Sḗmeron eàn tē̂s phōnē̂s autoû akoúsēte, mḕ sklērýnēte tàs kardías hymō̂n, hōs en tō̂ parapikrasmō̂.
@@ -94,7 +94,7 @@
 
 ## Chapter 4
 
-<sup>1</sup> Phobēthō̂men oûn μή ποτε kataleipoménēs epangelías eiseltheîn eis tḕn katápausin autoû, dokē̂ tis ex hymō̂n hysterēkénai.
+<sup>1</sup> Phobēthō̂men oûn mḗ pote kataleipoménēs epangelías eiseltheîn eis tḕn katápausin autoû, dokē̂ tis ex hymō̂n hysterēkénai.
 <sup>2</sup> kaì gár esmen euēngelisménoi, katháper kakeînoi; all’ ouk ōphélēsen ho lógos tē̂s akoē̂s ekeínous, mḕ synkekraménos<sup>a</sup> tē̂ pístei toîs akoúsasin.
 <sup>3</sup> eiserchómetha gàr<sup>b</sup> eis tḕn katápausin hoi pisteúsantes, kathṑs eírēken, Hōs ṓmosa en tē̂ orgē̂ mou, Ei eiseleúsontai eis tḕn katápausín mou; kaítoi tō̂n érgōn apò katabolē̂s kósmou genēthéntōn.
 <sup>4</sup> eírēke gár pou perì tē̂s hebdómēs hoútō, Kaì katépausen ho Theòs en tē̂ hēméra tē̂ hebdómē apò pántōn tō̂n érgōn autoû;
@@ -278,7 +278,7 @@
 
 <sup>15</sup> kaì dià toûto diathḗkēs kainē̂s mesítēs estín, hópōs, thanátou genoménou eis apolýtrōsin tō̂n epì tē̂ prṓtē diathḗkē parabáseōn, tḕn epangelían lábōsin hoi keklēménoi tē̂s aiōníou klēronomías.
 <sup>16</sup> hópou gàr diathḗkē, thánaton anánkē phéresthai toû diatheménou.
-<sup>17</sup> diathḗkē gàr epì nekroîs bebaía, epeì μή ποτε ischýei hóte zē̂ ho diathémenos.<sup>h</sup>
+<sup>17</sup> diathḗkē gàr epì nekroîs bebaía, epeì mḗ pote ischýei hóte zē̂ ho diathémenos.<sup>h</sup>
 <sup>18</sup> hóthen oud’ hē prṓtē chōrìs haímatos enkekaínistai.
 <sup>19</sup> lalētheísēs gàr pásēs entolē̂s katà<sup>i</sup> nómon hypò Mōÿséōs pantì tō̂ laō̂, labṑn tò haîma tō̂n móschōn kaì<sup>j</sup> trágōn, metà hýdatos kaì eríou kokkínou kaì hyssṓpou, autó te tò biblíon kaì pánta tòn laòn errántise,
 <sup>20</sup> légōn, Toûto tò haîma tē̂s diathḗkēs hē̂s eneteílato pròs hymâs ho Theós.

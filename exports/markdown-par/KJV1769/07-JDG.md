@@ -197,7 +197,7 @@
 <sup>3</sup> Hear, O ye kings; give ear, O ye princes;<br>I, _even_ I, will sing unto the LORD;<br>I will sing _praise_ to the LORD God of Israel.<br>
 <sup>4</sup> LORD, when thou wentest out of Seir,<br>When thou marchedst out of the field of Edom,<br>The earth trembled, and the heavens dropped,<br>The clouds also dropped water.<br>
 <sup>5</sup> The mountains melted<sup>a</sup> from before the LORD,<br>_Even_ that Sinai from before the LORD God of Israel.<br>
-<sup>6</sup> In the days of Shamgar the son of Anath,<br>In the days of Jael, the highways were unoccupied,<br>And the travellers<sup>b</sup> walked through byways.<sup>c</sup><br>
+<sup>6</sup> In the days of Shamgar the son of Anath,<br>In the days of Jael, the highways were unoccupied,<br>And the travellers<sup>b</sup> walked through byways.<sup>c</sup>
 <sup>7</sup> _The inhabitants of_ the villages ceased, they ceased in Israel,<br>Until that I Deborah arose,<br>That I arose a mother in Israel.<br>
 <sup>8</sup> They chose new gods;<br>Then _was_ war in the gates:<br>Was there a shield or spear seen<br>Among forty thousand in Israel?<br>
 <sup>9</sup> My heart _is_ toward the governors of Israel,<br>That offered themselves willingly among the people.<br>Bless ye the LORD.<br>
@@ -220,7 +220,7 @@
 <sup>26</sup> She put her hand to the nail,<br>And her right hand to the workmen’s hammer;<br>And with the hammer she smote<sup>o</sup> Sisera, she smote off his head,<br>When she had pierced and stricken through his temples.<br>
 <sup>27</sup> At her<sup>p</sup> feet he bowed, he fell, he lay down:<br>At her feet he bowed, he fell:<br>Where he bowed, there he fell down dead.<sup>q</sup><br>
 <sup>28</sup> The mother of Sisera looked out at a window,<br>And cried through the lattice,<br>Why is his chariot _so_ long in coming?<br>Why tarry the wheels of his chariots?<br>
-<sup>29</sup> Her wise ladies answer<sup>r</sup>ed her,<br>Yea, she returned answer to herself,<br>
+<sup>29</sup> Her wise ladies answered<sup>r</sup> her,<br>Yea, she returned answer to herself,<br>
 <sup>30</sup> Have they not sped? have they _not_ divided the prey;<br>To every man<sup>s</sup> a damsel _or_ two;<br>To Sisera a prey of divers colours,<br>A prey of divers colours of needlework,<br>Of divers colours of needlework on both sides, _meet_ for the necks of _them that take_ the spoil?<sup>t</sup><br>
 <sup>31</sup> So let all thine enemies perish, O LORD:<br>But _let_ them that love him _be_ as the sun when he goeth forth in his might.
 
@@ -901,8 +901,9 @@ And they could not in three days expound the riddle.
 <sup>19</sup> Yet there is both straw and provender for our asses; and there is bread and wine also for me, and for thy handmaid, and for the young man _which is_ with thy servants: _there is_ no want of any thing.
 <sup>20</sup> And the old man said, Peace _be_ with thee; howsoever _let_ all thy wants _lie_ upon me; only lodge not in the street.
 <sup>21</sup> So he brought him into his house, and gave provender unto the asses: and they washed their feet, and did eat and drink.
+<sup>22</sup>
 
-<sup>22</sup> _Now_ as they were making their hearts merry, behold, the men of the city, certain sons of Belial, beset the house round about, _and_ beat at the door, and spake to the master of the house, the old man, saying, Bring forth the man that came into thine house, that we may know him.
+_Now_ as they were making their hearts merry, behold, the men of the city, certain sons of Belial, beset the house round about, _and_ beat at the door, and spake to the master of the house, the old man, saying, Bring forth the man that came into thine house, that we may know him.
 <sup>23</sup> And the man, the master of the house, went out unto them, and said unto them, Nay, my brethren, _nay_, I pray you, do not _so_ wickedly; seeing that this man is come into mine house, do not this folly.
 <sup>24</sup> Behold, _here is_ my daughter a maiden, and his concubine; them I will bring out now, and humble ye them, and do with them what seemeth good unto you: but unto this man do not so vile a thing.<sup>k</sup>
 <sup>25</sup> But the men would not hearken to him: so the man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning: and when the day began to spring, they let her go.

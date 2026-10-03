@@ -39,6 +39,7 @@ import {
   transliterate,
   transliterationTable,
 } from "./lexicon";
+import { SUPERSCRIPT, rootReadings } from "./rootReadings";
 
 /** Directory holding one subdirectory per language codex. */
 const lexicalMapsDir = "./lexical-maps";
@@ -71,6 +72,8 @@ export interface LexicalMapAudit {
 
 /** The registry's vocabulary, indexed the two ways the checks need it. */
 interface Registry {
+  /** The subdirectory the registry was read from, e.g. `greek`. */
+  language: string;
   /** Inflection code to the category it belongs to, e.g. `nom` -> `case`. */
   categoryOf: Map<string, string>;
   /** Part-of-speech codes, which are the `pos` category's own members. */
@@ -119,6 +122,7 @@ function readRegistry(languageDir: string): Registry | null {
   }
 
   return {
+    language: languageDir,
     categoryOf,
     partsOfSpeech,
     tenses,
@@ -215,9 +219,6 @@ export function auditLexicalMaps(language: string): LexicalMapAudit {
 
   return { language, findings, rootsScanned, cellsScanned };
 }
-
-/** Every superscript a root key can carry, stripped to leave the bare spelling. */
-const SUPERSCRIPT = /[¹²³⁴-⁹]/g;
 
 /**
  * Bare root keys that duplicate a superscripted root's own spelling.
@@ -405,6 +406,17 @@ function auditRoot(
           ? `spelling "${spelling}" is lowercase under a capitalised root`
           : `spelling "${spelling}" is capitalised under a lowercase root`,
         spelling,
+      );
+    }
+  }
+
+  // The fill pass writes both readings before this audit runs, so a value
+  // disagreeing here is a pass that did not run or a file edited after it.
+  const readings = rootReadings(root, registry.language);
+  for (const field of ["transliteration", "pronunciation"] as const) {
+    if (entry[field] !== readings[field]) {
+      at(
+        `root ${field} ${JSON.stringify(entry[field] ?? null)} but the registry's table gives ${JSON.stringify(readings[field] ?? null)}`,
       );
     }
   }

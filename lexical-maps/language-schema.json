@@ -232,6 +232,55 @@
       },
       "description": "Table driving transliteration. Kept as data so a consumer can read it rather than reimplement the scheme."
     },
+    "pronunciation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["style", "vowels", "diphthongs", "consonants", "onsets"],
+      "properties": {
+        "style": {
+          "type": "string",
+          "description": "Name of the pronunciation system, such as `erasmian`."
+        },
+        "description": {
+          "type": "string",
+          "description": "What the system is and how its respellings are written."
+        },
+        "vowels": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Base vowel to its respelling."
+        },
+        "diphthongs": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Two-vowel sequence read as one sound, to its respelling. A diaeresis on the second vowel keeps the two apart."
+        },
+        "consonants": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Base consonant to its respelling."
+        },
+        "velars": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Letters that turn a preceding gamma into a nasal."
+        },
+        "gammaNasal": {
+          "type": "string",
+          "description": "Respelling of gamma before a velar."
+        },
+        "aspirate": {
+          "type": "string",
+          "description": "Respelling of the rough breathing, written before the vowel it marks."
+        },
+        "onsets": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Consonant clusters that begin a spoken syllable when they fall between two vowels. Not every cluster that can begin a word: speech splits most of those, and only a cluster listed here stays whole. An unlisted cluster splits after its first consonant."
+        }
+      },
+      "description": "Table driving the root-level pronunciation. Kept as data, like the transliteration table, so a consumer can read it rather than reimplement the system."
+    },
     "classCategories": {
       "type": "array",
       "items": { "$ref": "#/$defs/classCategory" },

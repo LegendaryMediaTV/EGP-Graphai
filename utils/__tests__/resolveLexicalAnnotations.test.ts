@@ -52,11 +52,11 @@ describe("resolveLexicalAnnotationsInContent — lemma", () => {
   });
 
   it("should leave a node alone when two roots claim its spelling", () => {
-    // λέγω and ἔπω are two entries for one suppletive verb and εἶπεν is the
-    // second aorist of both. LXX1935 carries no Strong's numbers, so a node of
-    // its shape offers nothing to narrow on, and this one word dominates them.
+    // The indeclinable Ἰουδά and the declinable Ἰούδας both print Ιουδα, and
+    // LXX1935 gives these nodes no Strong's number, so nothing narrows them.
+    // 486 LXX1935 nodes are this one word.
     const content = [
-      greek({ text: "εἶπεν", morph: "V-2AAI-3S", lemma: undefined }),
+      greek({ text: " Ιουδα", morph: "N-PRI", lemma: undefined }),
     ] as unknown as Content;
 
     const result = resolveLexicalAnnotationsInContent(content, "robinson");
@@ -216,11 +216,11 @@ describe("resolveLexicalAnnotationsInContent — Strong's number", () => {
   });
 
   it("should write neither field when the lemma itself is unresolved, since a Strong's number is resolved from the lemma", () => {
-    // ἄρα against ἆρα, the ambiguity 38 of BYZ2026's 39 unresolved nodes sit on.
-    // No lemma means no root to ask for a number, so the node keeps both gaps
+    // ἀσπίδα is the shield ἀσπίς¹ or the asp ἀσπίς² on the same parse. No
+    // lemma means no root to ask for a number, so the node keeps both gaps
     // rather than acquiring a number resolved from a guess.
     const content = [
-      { text: "Ἄρα", script: "G", morph: "PRT" },
+      { text: " ἀσπίδα", script: "G", morph: "N-ASF" },
     ] as unknown as Content;
 
     const result = resolveLexicalAnnotationsInContent(content, "robinson");

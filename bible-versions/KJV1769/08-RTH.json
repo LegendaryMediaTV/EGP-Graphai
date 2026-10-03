@@ -4,31 +4,29 @@
     "chapter": 1,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Now it came to pass in the days",
-        "strong": "H3117"
-      },
-      { "text": " when the judges", "strong": "H8199", "morph": "QalActPtc" },
+      { "paragraph": true, "text": "Now it came to pass", "strong": "H1961" },
+      { "text": " in the days", "strong": "H3117" },
+      { "text": " when the judges", "strong": "H8199" },
       {
         "text": " ruled,",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "judged", "marks": ["i"] }]
         },
-        "strong": "H8199",
-        "morph": "QalInf"
+        "strong": "H8199"
       },
-      { "text": " that there was a famine", "strong": "H7458" },
+      { "text": " that there was", "strong": "H1961" },
+      { "text": " a famine", "strong": "H7458" },
       { "text": " in the land.", "strong": "H776" },
       { "text": " And a certain man", "strong": "H376" },
       { "text": " of Beth-lehem-judah", "strong": "H1035" },
       { "strong": "H3063" },
-      { "text": " went", "strong": "H3212", "morph": "QalImpf" },
-      { "text": " to sojourn", "strong": "H1481", "morph": "QalInf" },
+      { "text": " went", "strong": "H3212" },
+      { "text": " to sojourn", "strong": "H1481" },
       { "text": " in the country", "strong": "H7704" },
       { "text": " of Moab,", "strong": "H4124" },
-      { "text": " he, and his wife,", "strong": "H802" },
+      { "text": " he,", "strong": "H1931" },
+      { "text": " and his wife,", "strong": "H802" },
       { "text": " and his two", "strong": "H8147" },
       { "text": " sons.", "strong": "H1121" }
     ]
@@ -40,10 +38,9 @@
     "content": [
       { "text": "And the name", "strong": "H8034" },
       { "text": " of the man", "strong": "H376" },
-      {
-        "content": [" ", { "text": "was", "marks": ["i"] }, " Elimelech,"],
-        "strong": "H458"
-      },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Elimelech,", "strong": "H458" },
       { "text": " and the name", "strong": "H8034" },
       { "text": " of his wife", "strong": "H802" },
       { "text": " Naomi,", "strong": "H5281" },
@@ -55,7 +52,7 @@
       { "text": " Ephrathites", "strong": "H673" },
       { "text": " of Beth-lehem-judah.", "strong": "H1035" },
       { "strong": "H3063" },
-      { "text": " And they came", "strong": "H935", "morph": "QalImpf" },
+      { "text": " And they came", "strong": "H935" },
       { "text": " into the country", "strong": "H7704" },
       { "text": " of Moab,", "strong": "H4124" },
       {
@@ -63,9 +60,10 @@
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "were", "marks": ["i"] }]
-        }
+        },
+        "strong": "H1961"
       },
-      " there."
+      { "text": " there.", "strong": "H8033" }
     ]
   },
   {
@@ -76,8 +74,9 @@
       { "text": "And Elimelech", "strong": "H458" },
       { "text": " Naomi’s", "strong": "H5281" },
       { "text": " husband", "strong": "H376" },
-      { "text": " died;", "strong": "H4191", "morph": "QalImpf" },
-      { "text": " and she was left,", "strong": "H7604", "morph": "NiphImpf" },
+      { "text": " died;", "strong": "H4191" },
+      { "text": " and she", "strong": "H1931" },
+      { "text": " was left,", "strong": "H7604" },
       { "text": " and her two", "strong": "H8147" },
       { "text": " sons.", "strong": "H1121" }
     ]
@@ -87,21 +86,20 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "text": "And they took", "strong": "H5375", "morph": "QalImpf" },
+      { "text": "And they took", "strong": "H5375" },
       { "text": " them wives", "strong": "H802" },
-      { "text": " of the women", "strong": "H802" },
-      { "text": " of Moab;", "strong": "H4125" },
+      { "text": " of the women of Moab;", "strong": "H4125" },
       { "text": " the name", "strong": "H8034" },
       { "text": " of the one", "strong": "H259" },
-      {
-        "content": [" ", { "text": "was", "marks": ["i"] }, " Orpah,"],
-        "strong": "H6204"
-      },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Orpah,", "strong": "H6204" },
       { "text": " and the name", "strong": "H8034" },
       { "text": " of the other", "strong": "H8145" },
       { "text": " Ruth:", "strong": "H7327" },
-      { "text": " and they dwelled", "strong": "H3427", "morph": "QalImpf" },
-      { "text": " there about ten", "strong": "H6235" },
+      { "text": " and they dwelled", "strong": "H3427" },
+      { "text": " there", "strong": "H8033" },
+      { "text": " about ten", "strong": "H6235" },
       { "text": " years.", "strong": "H8141" }
     ]
   },
@@ -112,10 +110,11 @@
     "content": [
       { "text": "And Mahlon", "strong": "H4248" },
       { "text": " and Chilion", "strong": "H3630" },
-      { "text": " died", "strong": "H4191", "morph": "QalImpf" },
-      { "text": " also both", "strong": "H8147" },
-      { "text": " of them; and the woman", "strong": "H802" },
-      { "text": " was left", "strong": "H7604", "morph": "NiphImpf" },
+      { "text": " died", "strong": "H4191" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " both of them;", "strong": "H8147" },
+      { "text": " and the woman", "strong": "H802" },
+      { "text": " was left", "strong": "H7604" },
       { "text": " of her two", "strong": "H8147" },
       { "text": " sons", "strong": "H3206" },
       { "text": " and her husband.", "strong": "H376" }
@@ -126,30 +125,23 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Then she arose",
-        "strong": "H6965",
-        "morph": "QalImpf"
-      },
+      { "paragraph": true, "text": "Then she", "strong": "H1931" },
+      { "text": " arose", "strong": "H6965" },
       { "text": " with her daughters in law,", "strong": "H3618" },
-      {
-        "text": " that she might return",
-        "strong": "H7725",
-        "morph": "QalImpf"
-      },
+      { "text": " that she might return", "strong": "H7725" },
       { "text": " from the country", "strong": "H7704" },
       { "text": " of Moab:", "strong": "H4124" },
-      { "text": " for she had heard", "strong": "H8085", "morph": "QalPerf" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " she had heard", "strong": "H8085" },
       { "text": " in the country", "strong": "H7704" },
       { "text": " of Moab", "strong": "H4124" },
-      {
-        "content": [" how that the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " had visited", "strong": "H6485", "morph": "QalPerf" },
+      { "text": " how that", "strong": "H3588" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "strong": "H853" },
+      { "text": " had visited", "strong": "H6485" },
       { "text": " his people", "strong": "H5971" },
-      { "text": " in giving", "strong": "H5414", "morph": "QalInf" },
+      { "text": " in giving", "strong": "H5414" },
       { "text": " them bread.", "strong": "H3899" }
     ]
   },
@@ -158,22 +150,20 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      {
-        "text": "Wherefore she went forth",
-        "strong": "H3318",
-        "morph": "QalImpf"
-      },
-      { "text": " out of the place", "strong": "H4725" },
-      { "text": " where she was, and her two", "strong": "H8147" },
+      { "text": "Wherefore she went forth", "strong": "H3318" },
+      { "text": " out of", "strong": "H4480" },
+      { "text": " the place", "strong": "H4725" },
+      { "text": " where", "strong": "H834" },
+      { "text": " she was,", "strong": "H1961" },
+      { "strong": "H8033" },
+      { "text": " and her two", "strong": "H8147" },
       { "text": " daughters in law", "strong": "H3618" },
-      {
-        "text": " with her; and they went",
-        "strong": "H3212",
-        "morph": "QalImpf"
-      },
+      { "text": " with her;", "strong": "H5973" },
+      { "text": " and they went", "strong": "H3212" },
       { "text": " on the way", "strong": "H1870" },
-      { "text": " to return", "strong": "H7725", "morph": "QalInf" },
-      { "text": " unto the land", "strong": "H776" },
+      { "text": " to return", "strong": "H7725" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the land", "strong": "H776" },
       { "text": " of Judah.", "strong": "H3063" }
     ]
   },
@@ -183,27 +173,24 @@
     "verse": 8,
     "content": [
       { "text": "And Naomi", "strong": "H5281" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto her two", "strong": "H8147" },
       { "text": " daughters in law,", "strong": "H3618" },
-      { "text": " Go,", "strong": "H3212", "morph": "QalImpv" },
-      { "text": " return", "strong": "H7725", "morph": "QalImpv" },
+      { "text": " Go,", "strong": "H3212" },
+      { "text": " return", "strong": "H7725" },
       { "text": " each", "strong": "H802" },
       { "text": " to her mother’s", "strong": "H517" },
       { "text": " house:", "strong": "H1004" },
-      {
-        "content": [" the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " deal", "strong": "H6213", "morph": "QalImpf" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " deal", "strong": "H6213" },
       { "text": " kindly", "strong": "H2617" },
-      {
-        "text": " with you, as ye have dealt",
-        "strong": "H6213",
-        "morph": "QalPerf"
-      },
-      { "text": " with the dead,", "strong": "H4191", "morph": "QalPtc" },
-      " and with me."
+      { "text": " with you,", "strong": "H5973" },
+      { "text": " as", "strong": "H834" },
+      { "text": " ye have dealt", "strong": "H6213" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " the dead,", "strong": "H4191" },
+      { "text": " and with me.", "strong": "H5973" }
     ]
   },
   {
@@ -211,31 +198,20 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      {
-        "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " grant", "strong": "H5414", "morph": "QalImpf" },
-      {
-        "text": " you that ye may find",
-        "strong": "H4672",
-        "morph": "QalImpv"
-      },
+      "The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " grant", "strong": "H5414" },
+      { "text": " you that ye may find", "strong": "H4672" },
       { "text": " rest,", "strong": "H4496" },
       { "text": " each", "strong": "H802" },
-      {
-        "content": [" ", { "text": "of you", "marks": ["i"] }, " in the house"],
-        "strong": "H1004"
-      },
+      " ",
+      { "text": "of you", "marks": ["i"] },
+      { "text": " in the house", "strong": "H1004" },
       { "text": " of her husband.", "strong": "H376" },
-      { "text": " Then she kissed", "strong": "H5401", "morph": "QalImpf" },
-      {
-        "text": " them; and they lifted up",
-        "strong": "H5375",
-        "morph": "QalImpf"
-      },
+      { "text": " Then she kissed", "strong": "H5401" },
+      { "text": " them; and they lifted up", "strong": "H5375" },
       { "text": " their voice,", "strong": "H6963" },
-      { "text": " and wept.", "strong": "H1058", "morph": "QalImpf" }
+      { "text": " and wept.", "strong": "H1058" }
     ]
   },
   {
@@ -243,13 +219,11 @@
     "chapter": 1,
     "verse": 10,
     "content": [
-      { "text": "And they said", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " unto her, Surely we will return",
-        "strong": "H7725",
-        "morph": "QalImpf"
-      },
-      { "text": " with thee unto thy people.", "strong": "H5971" }
+      { "text": "And they said", "strong": "H559" },
+      { "text": " unto her, Surely", "strong": "H3588" },
+      { "text": " we will return", "strong": "H7725" },
+      { "text": " with thee", "strong": "H854" },
+      { "text": " unto thy people.", "strong": "H5971" }
     ]
   },
   {
@@ -258,22 +232,21 @@
     "verse": 11,
     "content": [
       { "text": "And Naomi", "strong": "H5281" },
-      { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Turn again,", "strong": "H7725", "morph": "QalImpv" },
+      { "text": " said,", "strong": "H559" },
+      { "text": " Turn again,", "strong": "H7725" },
       { "text": " my daughters:", "strong": "H1323" },
-      { "text": " why will ye go", "strong": "H3212", "morph": "QalImpf" },
-      {
-        "content": [
-          " with me? ",
-          { "text": "are", "marks": ["i"] },
-          " there yet ",
-          { "text": "any more", "marks": ["i"] },
-          " sons"
-        ],
-        "strong": "H1121"
-      },
+      { "text": " why", "strong": "H4100" },
+      { "text": " will ye go", "strong": "H3212" },
+      { "text": " with me?", "strong": "H5973" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " there yet", "strong": "H5750" },
+      " ",
+      { "text": "any more", "marks": ["i"] },
+      { "text": " sons", "strong": "H1121" },
       { "text": " in my womb,", "strong": "H4578" },
-      { "text": " that they may be your husbands?", "strong": "H582" }
+      { "text": " that they may be", "strong": "H1961" },
+      { "text": " your husbands?", "strong": "H582" }
     ]
   },
   {
@@ -281,36 +254,28 @@
     "chapter": 1,
     "verse": 12,
     "content": [
-      { "text": "Turn again,", "strong": "H7725", "morph": "QalImpv" },
+      { "text": "Turn again,", "strong": "H7725" },
       { "text": " my daughters,", "strong": "H1323" },
-      { "text": " go", "strong": "H3212", "morph": "QalImpv" },
-      {
-        "content": [
-          " ",
-          { "text": "your way", "marks": ["i"] },
-          "; for I am too old"
-        ],
-        "strong": "H2204",
-        "morph": "QalPerf"
-      },
-      { "text": " to have an husband.", "strong": "H376" },
-      { "text": " If I should say,", "strong": "H559", "morph": "QalPerf" },
+      { "text": " go", "strong": "H3212" },
+      " ",
+      { "text": "your way", "marks": ["i"] },
+      { "text": "; for", "strong": "H3588" },
+      { "text": " I am too old", "strong": "H2204" },
+      { "text": " to have", "strong": "H1961" },
+      { "text": " an husband.", "strong": "H376" },
+      { "text": " If", "strong": "H3588" },
+      { "text": " I should say,", "strong": "H559" },
       { "text": " I have", "strong": "H3426" },
       { "text": " hope,", "strong": "H8615" },
-      {
-        "content": [
-          " ",
-          { "text": "if", "marks": ["i"] },
-          " I should have an husband"
-        ],
-        "strong": "H376"
-      },
-      { "text": " also to night,", "strong": "H3915" },
-      {
-        "text": " and should also bear",
-        "strong": "H3205",
-        "morph": "QalPerf"
-      },
+      " ",
+      { "text": "if", "marks": ["i"] },
+      { "text": " I should have", "strong": "H1961" },
+      { "text": " an husband", "strong": "H376" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " to night,", "strong": "H3915" },
+      { "text": " and should", "strong": "H3205" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " bear", "strong": "H3205" },
       { "text": " sons;", "strong": "H1121" }
     ]
   },
@@ -325,42 +290,38 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "hope", "marks": ["i"] }]
         },
-        "strong": "H7663",
-        "morph": "PielImpf"
+        "strong": "H7663"
       },
       { "text": " for them", "strong": "H3860" },
-      {
-        "text": " till they were grown?",
-        "strong": "H1431",
-        "morph": "QalImpf"
-      },
-      { "text": " would ye stay", "strong": "H5702", "morph": "NiphImpf" },
+      { "text": " till", "strong": "H5704" },
+      { "strong": "H834" },
+      { "text": " they were grown?", "strong": "H1431" },
+      { "text": " would ye stay", "strong": "H5702" },
       { "text": " for them", "strong": "H3860" },
-      { "text": " from having husbands?", "strong": "H376" },
-      { "text": " nay, my daughters;", "strong": "H1323" },
-      { "text": " for it grieveth", "strong": "H4843", "morph": "QalPerf" },
+      { "text": " from", "strong": "H1115" },
+      { "text": " having", "strong": "H1961" },
+      { "text": " husbands?", "strong": "H376" },
+      { "text": " nay,", "strong": "H408" },
+      { "text": " my daughters;", "strong": "H1323" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " it grieveth", "strong": "H4843" },
       {
-        "content": [
-          {
-            "text": " me",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "I have much bitterness", "marks": ["i"] }
-              ]
-            }
-          },
-          " much"
-        ],
-        "strong": "H3966"
+        "text": " me",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "I have much bitterness", "marks": ["i"] }
+          ]
+        }
       },
-      { "text": " for your sakes that the hand", "strong": "H3027" },
-      {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " is gone out", "strong": "H3318", "morph": "QalPerf" },
+      { "text": " much", "strong": "H3966" },
+      { "text": " for your sakes", "strong": "H4480" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " the hand", "strong": "H3027" },
+      " of the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " is gone out", "strong": "H3318" },
       " against me."
     ]
   },
@@ -369,14 +330,15 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      { "text": "And they lifted up", "strong": "H5375", "morph": "QalImpf" },
+      { "text": "And they lifted up", "strong": "H5375" },
       { "text": " their voice,", "strong": "H6963" },
-      { "text": " and wept again:", "strong": "H1058", "morph": "QalImpf" },
+      { "text": " and wept", "strong": "H1058" },
+      { "text": " again:", "strong": "H5750" },
       { "text": " and Orpah", "strong": "H6204" },
-      { "text": " kissed", "strong": "H5401", "morph": "QalImpf" },
+      { "text": " kissed", "strong": "H5401" },
       { "text": " her mother in law;", "strong": "H2545" },
       { "text": " but Ruth", "strong": "H7327" },
-      { "text": " clave", "strong": "H1692", "morph": "QalPerf" },
+      { "text": " clave", "strong": "H1692" },
       " unto her."
     ]
   },
@@ -385,18 +347,16 @@
     "chapter": 1,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": "And she said,",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      { "text": " Behold, thy sister in law", "strong": "H2994" },
-      { "text": " is gone back", "strong": "H7725", "morph": "QalPerf" },
-      { "text": " unto her people,", "strong": "H5971" },
-      { "text": " and unto her gods:", "strong": "H430" },
-      { "text": " return", "strong": "H7725", "morph": "QalImpv" },
-      { "text": " thou after", "strong": "H310" },
+      { "paragraph": true, "text": "And she said,", "strong": "H559" },
+      { "text": " Behold,", "strong": "H2009" },
+      { "text": " thy sister in law", "strong": "H2994" },
+      { "text": " is gone back", "strong": "H7725" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " her people,", "strong": "H5971" },
+      { "text": " and unto", "strong": "H413" },
+      { "text": " her gods:", "strong": "H430" },
+      { "text": " return thou", "strong": "H7725" },
+      { "text": " after", "strong": "H310" },
       { "text": " thy sister in law.", "strong": "H2994" }
     ]
   },
@@ -406,46 +366,33 @@
     "verse": 16,
     "content": [
       { "text": "And Ruth", "strong": "H7327" },
-      { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Intreat", "strong": "H6293", "morph": "QalImpf" },
-      { "text": " me not to leave", "strong": "H5800", "morph": "QalInf" },
+      { "text": " said,", "strong": "H559" },
+      { "text": " Intreat", "strong": "H6293" },
+      { "text": " me not", "strong": "H408" },
       {
-        "content": [
-          {
-            "text": " thee,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                { "text": "Be not against me", "marks": ["i"] }
-              ]
-            }
-          },
-          " ",
-          { "text": "or", "marks": ["i"] },
-          " to return"
-        ],
-        "strong": "H7725",
-        "morph": "QalInf"
+        "text": " to leave thee,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Be not against me", "marks": ["i"] }]
+        },
+        "strong": "H5800"
       },
-      { "text": " from following after", "strong": "H310" },
-      {
-        "text": " thee: for whither thou goest,",
-        "strong": "H3212",
-        "morph": "QalImpf"
-      },
-      { "text": " I will go;", "strong": "H3212", "morph": "QalImpf" },
-      {
-        "text": " and where thou lodgest,",
-        "strong": "H3885",
-        "morph": "QalImpf"
-      },
-      { "text": " I will lodge:", "strong": "H3885", "morph": "QalImpf" },
+      " ",
+      { "text": "or", "marks": ["i"] },
+      { "text": " to return", "strong": "H7725" },
+      { "text": " from following after thee:", "strong": "H310" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " whither", "strong": "H413" },
+      { "strong": "H834" },
+      { "text": " thou goest,", "strong": "H3212" },
+      { "text": " I will go;", "strong": "H3212" },
+      { "text": " and where", "strong": "H834" },
+      { "text": " thou lodgest,", "strong": "H3885" },
+      { "text": " I will lodge:", "strong": "H3885" },
       { "text": " thy people", "strong": "H5971" },
-      {
-        "content": [" ", { "text": "shall be", "marks": ["i"] }, " my people,"],
-        "strong": "H5971"
-      },
+      " ",
+      { "text": "shall be", "marks": ["i"] },
+      { "text": " my people,", "strong": "H5971" },
       { "text": " and thy God", "strong": "H430" },
       { "text": " my God:", "strong": "H430" }
     ]
@@ -455,29 +402,24 @@
     "chapter": 1,
     "verse": 17,
     "content": [
-      { "text": "where thou diest,", "strong": "H4191", "morph": "QalImpf" },
-      { "text": " will I die,", "strong": "H4191", "morph": "QalImpf" },
-      {
-        "text": " and there will I be buried:",
-        "strong": "H6912",
-        "morph": "NiphImpf"
-      },
-      {
-        "content": [" the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " do", "strong": "H6213", "morph": "QalImpf" },
-      { "text": " so to me, and more", "strong": "H3254", "morph": "HiphImpf" },
-      {
-        "content": [
-          " also, ",
-          { "text": "if ought", "marks": ["i"] },
-          " but death"
-        ],
-        "strong": "H4194"
-      },
-      { "text": " part", "strong": "H6504", "morph": "HiphImpf" },
-      " thee and me."
+      { "text": "where", "strong": "H834" },
+      { "text": " thou diest,", "strong": "H4191" },
+      { "text": " will I die,", "strong": "H4191" },
+      { "text": " and there", "strong": "H8033" },
+      { "text": " will I be buried:", "strong": "H6912" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " do", "strong": "H6213" },
+      { "text": " so", "strong": "H3541" },
+      { "text": " to me, and more", "strong": "H3254" },
+      { "text": " also,", "strong": "H3541" },
+      " ",
+      { "text": "if ought", "marks": ["i"] },
+      { "text": " but", "strong": "H3588" },
+      { "text": " death", "strong": "H4194" },
+      { "text": " part", "strong": "H6504" },
+      { "text": " thee", "strong": "H996" },
+      { "text": " and me.", "strong": "H996" }
     ]
   },
   {
@@ -485,20 +427,15 @@
     "chapter": 1,
     "verse": 18,
     "content": [
-      { "text": "When she saw", "strong": "H7200", "morph": "QalImpf" },
-      {
-        "text": " that she was stedfastly minded",
-        "strong": "H553",
-        "morph": "HithPtc"
-      },
-      { "text": " to go", "strong": "H3212", "morph": "QalInf" },
-      {
-        "text": " with her, then she left",
-        "strong": "H2308",
-        "morph": "QalImpf"
-      },
-      { "text": " speaking", "strong": "H1696", "morph": "PielInf" },
-      " unto her."
+      { "text": "When she saw", "strong": "H7200" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " she", "strong": "H1931" },
+      { "text": " was stedfastly minded", "strong": "H553" },
+      { "text": " to go", "strong": "H3212" },
+      { "text": " with her,", "strong": "H854" },
+      { "text": " then she left", "strong": "H2308" },
+      { "text": " speaking", "strong": "H1696" },
+      { "text": " unto her.", "strong": "H413" }
     ]
   },
   {
@@ -507,26 +444,22 @@
     "verse": 19,
     "content": [
       { "paragraph": true, "text": "So they two", "strong": "H8147" },
-      { "text": " went", "strong": "H3212", "morph": "QalImpf" },
-      { "text": " until they came", "strong": "H935", "morph": "QalInf" },
+      { "text": " went", "strong": "H3212" },
+      { "text": " until", "strong": "H5704" },
+      { "text": " they came", "strong": "H935" },
       { "text": " to Beth-lehem.", "strong": "H1035" },
-      {
-        "text": " And it came to pass, when they were come",
-        "strong": "H935",
-        "morph": "QalInf"
-      },
+      { "text": " And it came to pass,", "strong": "H1961" },
+      { "text": " when they were come", "strong": "H935" },
       { "text": " to Beth-lehem,", "strong": "H1035" },
-      { "text": " that all the city", "strong": "H5892" },
-      { "text": " was moved", "strong": "H1949", "morph": "NiphImpf" },
-      {
-        "text": " about them, and they said,",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "content": [" ", { "text": "Is", "marks": ["i"] }, " this Naomi?"],
-        "strong": "H5281"
-      }
+      { "text": " that all", "strong": "H3605" },
+      { "text": " the city", "strong": "H5892" },
+      { "text": " was moved", "strong": "H1949" },
+      { "text": " about them,", "strong": "H5921" },
+      { "text": " and they said,", "strong": "H559" },
+      " ",
+      { "text": "Is", "marks": ["i"] },
+      { "text": " this", "strong": "H2063" },
+      { "text": " Naomi?", "strong": "H5281" }
     ]
   },
   {
@@ -534,17 +467,19 @@
     "chapter": 1,
     "verse": 20,
     "content": [
-      { "text": "And she said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto them, Call", "strong": "H7121", "morph": "QalImpf" },
+      { "text": "And she said", "strong": "H559" },
+      { "text": " unto them,", "strong": "H413" },
+      { "text": " Call", "strong": "H7121" },
+      { "text": " me not", "strong": "H408" },
       {
-        "text": " me not Naomi,",
+        "text": " Naomi,",
         "foot": {
           "type": "stu",
           "content": ["That is, ", { "text": "pleasant", "marks": ["i"] }]
         },
         "strong": "H5281"
       },
-      { "text": " call", "strong": "H7121", "morph": "QalImpv" },
+      { "text": " call", "strong": "H7121" },
       {
         "text": " me Mara:",
         "foot": {
@@ -553,9 +488,11 @@
         },
         "strong": "H4755"
       },
-      { "text": " for the Almighty", "strong": "H7706" },
-      { "text": " hath dealt very", "strong": "H3966" },
-      { "text": " bitterly", "strong": "H4843", "morph": "HiphPerf" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " the Almighty", "strong": "H7706" },
+      { "text": " hath dealt", "strong": "H4843" },
+      { "text": " very", "strong": "H3966" },
+      { "text": " bitterly", "strong": "H4843" },
       " with me."
     ]
   },
@@ -564,31 +501,23 @@
     "chapter": 1,
     "verse": 21,
     "content": [
-      { "text": "I went out", "strong": "H1980", "morph": "QalPerf" },
+      { "text": "I", "strong": "H589" },
+      { "text": " went out", "strong": "H1980" },
       { "text": " full,", "strong": "H4392" },
-      {
-        "content": [" and the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      {
-        "text": " hath brought me home again",
-        "strong": "H7725",
-        "morph": "HiphPerf"
-      },
+      " and the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " hath brought me home again", "strong": "H7725" },
       { "text": " empty:", "strong": "H7387" },
-      {
-        "content": [" why ", { "text": "then", "marks": ["i"] }, " call"],
-        "strong": "H7121",
-        "morph": "QalImpf"
-      },
-      { "text": " ye me Naomi,", "strong": "H5281" },
-      {
-        "content": [" seeing the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " hath testified", "strong": "H6030", "morph": "QalPerf" },
+      { "text": " why", "strong": "H4100" },
+      " ",
+      { "text": "then", "marks": ["i"] },
+      { "text": " call ye", "strong": "H7121" },
+      { "text": " me Naomi,", "strong": "H5281" },
+      " seeing the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " hath testified", "strong": "H6030" },
       { "text": " against me, and the Almighty", "strong": "H7706" },
-      { "text": " hath afflicted", "strong": "H7489", "morph": "HiphPerf" },
+      { "text": " hath afflicted", "strong": "H7489" },
       " me?"
     ]
   },
@@ -598,18 +527,16 @@
     "verse": 22,
     "content": [
       { "text": "So Naomi", "strong": "H5281" },
-      { "text": " returned,", "strong": "H7725", "morph": "QalImpf" },
+      { "text": " returned,", "strong": "H7725" },
       { "text": " and Ruth", "strong": "H7327" },
       { "text": " the Moabitess,", "strong": "H4125" },
       { "text": " her daughter in law,", "strong": "H3618" },
-      {
-        "text": " with her, which returned",
-        "strong": "H7725",
-        "morph": "QalPerf"
-      },
+      { "text": " with her,", "strong": "H5973" },
+      { "text": " which returned", "strong": "H7725" },
       { "text": " out of the country", "strong": "H7704" },
       { "text": " of Moab:", "strong": "H4124" },
-      { "text": " and they came", "strong": "H935", "morph": "QalPerf" },
+      { "text": " and they", "strong": "H1992" },
+      { "text": " came", "strong": "H935" },
       { "text": " to Beth-lehem", "strong": "H1035" },
       { "text": " in the beginning", "strong": "H8462" },
       { "text": " of barley", "strong": "H8184" },
@@ -623,8 +550,7 @@
     "content": [
       { "heading": "Ruth and Boaz" },
       { "paragraph": true, "text": "And Naomi", "strong": "H5281" },
-      { "text": " had a kinsman", "strong": "H4129", "morph": "Qere" },
-      { "strong": "H3045", "morph": "PualPtc" },
+      { "text": " had a kinsman", "strong": "H4129" },
       { "text": " of her husband’s,", "strong": "H376" },
       { "text": " a mighty", "strong": "H1368" },
       { "text": " man", "strong": "H376" },
@@ -632,10 +558,9 @@
       { "text": " of the family", "strong": "H4940" },
       { "text": " of Elimelech;", "strong": "H458" },
       { "text": " and his name", "strong": "H8034" },
-      {
-        "content": [" ", { "text": "was", "marks": ["i"] }, " Boaz."],
-        "strong": "H1162"
-      }
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Boaz.", "strong": "H1162" }
     ]
   },
   {
@@ -645,21 +570,24 @@
     "content": [
       { "text": "And Ruth", "strong": "H7327" },
       { "text": " the Moabitess", "strong": "H4125" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto Naomi,", "strong": "H5281" },
-      { "text": " Let me now go", "strong": "H3212", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " Naomi,", "strong": "H5281" },
+      { "text": " Let me", "strong": "H3212" },
+      { "text": " now", "strong": "H4994" },
+      { "text": " go", "strong": "H3212" },
       { "text": " to the field,", "strong": "H7704" },
-      { "text": " and glean", "strong": "H3950", "morph": "PielImpf" },
+      { "text": " and glean", "strong": "H3950" },
       { "text": " ears of corn", "strong": "H7641" },
       { "text": " after", "strong": "H310" },
-      {
-        "content": [" ", { "text": "him", "marks": ["i"] }, " in whose sight"],
-        "strong": "H5869"
-      },
-      { "text": " I shall find", "strong": "H4672", "morph": "QalImpf" },
+      " ",
+      { "text": "him", "marks": ["i"] },
+      { "text": " in whose", "strong": "H834" },
+      { "text": " sight", "strong": "H5869" },
+      { "text": " I shall find", "strong": "H4672" },
       { "text": " grace.", "strong": "H2580" },
-      { "text": " And she said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto her, Go,", "strong": "H3212", "morph": "QalImpv" },
+      { "text": " And she said", "strong": "H559" },
+      { "text": " unto her, Go,", "strong": "H3212" },
       { "text": " my daughter.", "strong": "H1323" }
     ]
   },
@@ -668,12 +596,12 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      { "text": "And she went,", "strong": "H3212", "morph": "QalImpf" },
-      { "text": " and came,", "strong": "H935", "morph": "QalImpf" },
-      { "text": " and gleaned", "strong": "H3950", "morph": "PielImpf" },
+      { "text": "And she went,", "strong": "H3212" },
+      { "text": " and came,", "strong": "H935" },
+      { "text": " and gleaned", "strong": "H3950" },
       { "text": " in the field", "strong": "H7704" },
       { "text": " after", "strong": "H310" },
-      { "text": " the reapers:", "strong": "H7114", "morph": "QalActPtc" },
+      { "text": " the reapers:", "strong": "H7114" },
       {
         "text": " and her hap",
         "foot": {
@@ -682,38 +610,30 @@
         },
         "strong": "H4745"
       },
-      { "text": " was to light", "strong": "H7136", "morph": "QalImpf" },
+      { "text": " was to light", "strong": "H7136" },
       { "text": " on a part", "strong": "H2513" },
       { "text": " of the field", "strong": "H7704" },
+      " ",
+      { "text": "belonging", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "belonging", "marks": ["i"] },
-          {
-            "text": " unto Boaz,",
-            "foot": {
-              "type": "stu",
-              "content": [
-                "Called ",
-                {
-                  "bibleLink": "Matthew 1:5",
-                  "content": { "text": "Mat. 1.5", "marks": ["i"] }
-                },
-                { "text": " Booz", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
+        "text": " unto Boaz,",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Called ",
+            {
+              "bibleLink": "Matthew 1:5",
+              "content": { "text": "Mat. 1.5", "marks": ["i"] }
+            },
+            { "text": " Booz", "marks": ["i"] }
+          ]
+        },
         "strong": "H1162"
       },
-      {
-        "content": [
-          " who ",
-          { "text": "was", "marks": ["i"] },
-          " of the kindred"
-        ],
-        "strong": "H4940"
-      },
+      { "text": " who", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " of the kindred", "strong": "H4940" },
       { "text": " of Elimelech.", "strong": "H458" }
     ]
   },
@@ -722,30 +642,21 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      { "text": "And, behold, Boaz", "strong": "H1162" },
-      { "text": " came", "strong": "H935", "morph": "QalActPtc" },
+      { "text": "And, behold,", "strong": "H2009" },
+      { "text": " Boaz", "strong": "H1162" },
+      { "text": " came", "strong": "H935" },
       { "text": " from Beth-lehem,", "strong": "H1035" },
-      { "text": " and said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto the reapers,", "strong": "H7114", "morph": "QalActPtc" },
-      {
-        "content": [" The ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      {
-        "content": [
-          " ",
-          { "text": "be", "marks": ["i"] },
-          " with you. And they answered"
-        ],
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "content": [" him, The ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " bless", "strong": "H1288", "morph": "PielImpf" },
-      " thee."
+      { "text": " and said", "strong": "H559" },
+      { "text": " unto the reapers,", "strong": "H7114" },
+      " The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " with you.", "strong": "H5973" },
+      { "text": " And they answered", "strong": "H559" },
+      " him, The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " bless thee.", "strong": "H1288" }
     ]
   },
   {
@@ -753,15 +664,17 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      { "text": "Then said", "strong": "H559", "morph": "QalImpf" },
+      { "text": "Then said", "strong": "H559" },
       { "text": " Boaz", "strong": "H1162" },
       { "text": " unto his servant", "strong": "H5288" },
-      { "text": " that was set", "strong": "H5324", "morph": "NiphPtc" },
-      { "text": " over the reapers,", "strong": "H7114", "morph": "QalActPtc" },
-      { "text": " Whose damsel", "strong": "H5291" },
+      { "text": " that was set", "strong": "H5324" },
+      { "text": " over", "strong": "H5921" },
+      { "text": " the reapers,", "strong": "H7114" },
+      { "text": " Whose", "strong": "H4310" },
+      { "text": " damsel", "strong": "H5291" },
       " ",
       { "text": "is", "marks": ["i"] },
-      " this?"
+      { "text": " this?", "strong": "H2063" }
     ]
   },
   {
@@ -770,17 +683,19 @@
     "verse": 6,
     "content": [
       { "text": "And the servant", "strong": "H5288" },
-      { "text": " that was set", "strong": "H5324", "morph": "NiphPtc" },
-      { "text": " over the reapers", "strong": "H7114", "morph": "QalActPtc" },
-      { "text": " answered", "strong": "H6030", "morph": "QalImpf" },
-      { "text": " and said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "content": [" It ", { "text": "is", "marks": ["i"] }, " the Moabitish"],
-        "strong": "H4125"
-      },
+      { "text": " that was set", "strong": "H5324" },
+      { "text": " over", "strong": "H5921" },
+      { "text": " the reapers", "strong": "H7114" },
+      { "text": " answered", "strong": "H6030" },
+      { "text": " and said,", "strong": "H559" },
+      { "text": " It", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the Moabitish", "strong": "H4125" },
       { "text": " damsel", "strong": "H5291" },
-      { "text": " that came back", "strong": "H7725", "morph": "QalPerf" },
-      { "text": " with Naomi", "strong": "H5281" },
+      { "text": " that came back", "strong": "H7725" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " Naomi", "strong": "H5281" },
       { "text": " out of the country", "strong": "H7704" },
       { "text": " of Moab:", "strong": "H4124" }
     ]
@@ -790,25 +705,21 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      { "text": "and she said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " I pray you, let me glean",
-        "strong": "H3950",
-        "morph": "PielImpf"
-      },
-      { "text": " and gather", "strong": "H622", "morph": "QalPerf" },
+      { "text": "and she said,", "strong": "H559" },
+      { "text": " I pray you,", "strong": "H4994" },
+      { "text": " let me glean", "strong": "H3950" },
+      { "text": " and gather", "strong": "H622" },
       { "text": " after", "strong": "H310" },
-      { "text": " the reapers", "strong": "H7114", "morph": "QalActPtc" },
+      { "text": " the reapers", "strong": "H7114" },
       { "text": " among the sheaves:", "strong": "H6016" },
-      { "text": " so she came,", "strong": "H935", "morph": "QalImpf" },
-      { "text": " and hath continued", "strong": "H5975", "morph": "QalImpf" },
-      { "text": " even", "strong": "H227" },
-      { "text": " from the morning", "strong": "H1242" },
-      {
-        "text": " until now, that she tarried",
-        "strong": "H3427",
-        "morph": "QalInf"
-      },
+      { "text": " so she came,", "strong": "H935" },
+      { "text": " and hath continued", "strong": "H5975" },
+      { "text": " even from", "strong": "H227" },
+      { "text": " the morning", "strong": "H1242" },
+      { "text": " until", "strong": "H5704" },
+      { "text": " now,", "strong": "H6258" },
+      { "text": " that", "strong": "H2088" },
+      { "text": " she tarried", "strong": "H3427" },
       { "text": " a little", "strong": "H4592" },
       { "text": " in the house.", "strong": "H1004" }
     ]
@@ -818,27 +729,27 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Then said",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
+      { "paragraph": true, "text": "Then said", "strong": "H559" },
       { "text": " Boaz", "strong": "H1162" },
-      { "text": " unto Ruth,", "strong": "H7327" },
-      { "text": " Hearest", "strong": "H8085", "morph": "QalPerf" },
-      { "text": " thou not, my daughter?", "strong": "H1323" },
-      { "text": " Go", "strong": "H3212", "morph": "QalImpf" },
-      { "text": " not to glean", "strong": "H3950", "morph": "QalInf" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " Ruth,", "strong": "H7327" },
+      { "text": " Hearest thou", "strong": "H8085" },
+      { "text": " not,", "strong": "H3808" },
+      { "text": " my daughter?", "strong": "H1323" },
+      { "text": " Go", "strong": "H3212" },
+      { "text": " not", "strong": "H408" },
+      { "text": " to glean", "strong": "H3950" },
       { "text": " in another", "strong": "H312" },
       { "text": " field,", "strong": "H7704" },
-      { "text": " neither go", "strong": "H5674", "morph": "QalImpf" },
-      {
-        "text": " from hence, but abide",
-        "strong": "H1692",
-        "morph": "QalImpf"
-      },
-      { "text": " here fast by my maidens:", "strong": "H5291" }
+      { "text": " neither", "strong": "H1571" },
+      { "strong": "H3808" },
+      { "text": " go", "strong": "H5674" },
+      { "text": " from hence,", "strong": "H2088" },
+      { "text": " but abide", "strong": "H1692" },
+      { "text": " here", "strong": "H3541" },
+      { "text": " fast", "strong": "H1692" },
+      { "text": " by", "strong": "H5973" },
+      { "text": " my maidens:", "strong": "H5291" }
     ]
   },
   {
@@ -846,45 +757,33 @@
     "chapter": 2,
     "verse": 9,
     "content": [
-      {
-        "content": [{ "text": "let", "marks": ["i"] }, " thine eyes"],
-        "strong": "H5869"
-      },
-      {
-        "content": [" ", { "text": "be", "marks": ["i"] }, " on the field"],
-        "strong": "H7704"
-      },
-      { "text": " that they do reap,", "strong": "H7114", "morph": "QalImpf" },
-      { "text": " and go", "strong": "H1980", "morph": "QalPerf" },
-      { "text": " thou after", "strong": "H310" },
-      {
-        "text": " them: have I not charged",
-        "strong": "H6680",
-        "morph": "PielPerf"
-      },
+      { "text": "let", "marks": ["i"] },
+      { "text": " thine eyes", "strong": "H5869" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " on the field", "strong": "H7704" },
+      { "text": " that", "strong": "H834" },
+      { "text": " they do reap,", "strong": "H7114" },
+      { "text": " and go thou", "strong": "H1980" },
+      { "text": " after them:", "strong": "H310" },
+      { "text": " have I", "strong": "H6680" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " charged", "strong": "H6680" },
+      { "strong": "H853" },
       { "text": " the young men", "strong": "H5288" },
-      {
-        "text": " that they shall not touch",
-        "strong": "H5060",
-        "morph": "QalInf"
-      },
-      {
-        "text": " thee? and when thou art athirst,",
-        "strong": "H6770",
-        "morph": "QalPerf"
-      },
-      { "text": " go", "strong": "H1980", "morph": "QalPerf" },
-      { "text": " unto the vessels,", "strong": "H3627" },
-      { "text": " and drink", "strong": "H8354", "morph": "QalPerf" },
-      {
-        "content": [
-          " of ",
-          { "text": "that", "marks": ["i"] },
-          " which the young men"
-        ],
-        "strong": "H5288"
-      },
-      { "text": " have drawn.", "strong": "H7579", "morph": "QalImpf" }
+      { "text": " that they shall", "strong": "H5060" },
+      { "text": " not", "strong": "H1115" },
+      { "text": " touch thee?", "strong": "H5060" },
+      { "text": " and when thou art athirst,", "strong": "H6770" },
+      { "text": " go", "strong": "H1980" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the vessels,", "strong": "H3627" },
+      { "text": " and drink", "strong": "H8354" },
+      " of ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " which", "strong": "H834" },
+      { "text": " the young men", "strong": "H5288" },
+      { "text": " have drawn.", "strong": "H7579" }
     ]
   },
   {
@@ -892,31 +791,25 @@
     "chapter": 2,
     "verse": 10,
     "content": [
-      { "text": "Then she fell", "strong": "H5307", "morph": "QalImpf" },
-      { "text": " on her face,", "strong": "H6440" },
-      { "text": " and bowed", "strong": "H7812", "morph": "HithImpf" },
-      { "text": " herself to the ground,", "strong": "H776" },
-      { "text": " and said", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " unto him, Why have I found",
-        "strong": "H4672",
-        "morph": "QalPerf"
-      },
+      { "text": "Then she fell", "strong": "H5307" },
+      { "text": " on", "strong": "H5921" },
+      { "text": " her face,", "strong": "H6440" },
+      { "text": " and bowed herself", "strong": "H7812" },
+      { "text": " to the ground,", "strong": "H776" },
+      { "text": " and said", "strong": "H559" },
+      { "text": " unto him,", "strong": "H413" },
+      { "text": " Why", "strong": "H4069" },
+      { "text": " have I found", "strong": "H4672" },
       { "text": " grace", "strong": "H2580" },
       { "text": " in thine eyes,", "strong": "H5869" },
       {
-        "text": " that thou shouldest take knowledge",
-        "strong": "H5234",
-        "morph": "HiphInf"
+        "text": " that thou shouldest take knowledge of me,",
+        "strong": "H5234"
       },
-      {
-        "content": [
-          " of me, seeing I ",
-          { "text": "am", "marks": ["i"] },
-          " a stranger?"
-        ],
-        "strong": "H5237"
-      }
+      { "text": " seeing I", "strong": "H595" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " a stranger?", "strong": "H5237" }
     ]
   },
   {
@@ -925,40 +818,32 @@
     "verse": 11,
     "content": [
       { "text": "And Boaz", "strong": "H1162" },
-      { "text": " answered", "strong": "H6030", "morph": "QalImpf" },
-      { "text": " and said", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " unto her, It hath fully",
-        "strong": "H5046",
-        "morph": "HophInf"
-      },
-      { "text": " been shewed", "strong": "H5046", "morph": "HophPerf" },
-      {
-        "text": " me, all that thou hast done",
-        "strong": "H6213",
-        "morph": "QalPerf"
-      },
-      { "text": " unto thy mother in law", "strong": "H2545" },
+      { "text": " answered", "strong": "H6030" },
+      { "text": " and said", "strong": "H559" },
+      { "text": " unto her, It hath fully", "strong": "H5046" },
+      { "text": " been shewed", "strong": "H5046" },
+      { "text": " me, all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou hast done", "strong": "H6213" },
+      { "text": " unto", "strong": "H854" },
+      { "text": " thy mother in law", "strong": "H2545" },
       { "text": " since", "strong": "H310" },
       { "text": " the death", "strong": "H4194" },
       { "text": " of thine husband:", "strong": "H376" },
-      {
-        "content": [
-          " and ",
-          { "text": "how", "marks": ["i"] },
-          " thou hast left"
-        ],
-        "strong": "H5800",
-        "morph": "QalImpf"
-      },
+      " and ",
+      { "text": "how", "marks": ["i"] },
+      { "text": " thou hast left", "strong": "H5800" },
       { "text": " thy father", "strong": "H1" },
       { "text": " and thy mother,", "strong": "H517" },
       { "text": " and the land", "strong": "H776" },
       { "text": " of thy nativity,", "strong": "H4138" },
-      { "text": " and art come", "strong": "H3212", "morph": "QalImpf" },
-      { "text": " unto a people", "strong": "H5971" },
-      { "text": " which thou knewest", "strong": "H3045", "morph": "QalPerf" },
-      { "text": " not heretofore.", "strong": "H8543" },
+      { "text": " and art come", "strong": "H3212" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " a people", "strong": "H5971" },
+      { "text": " which", "strong": "H834" },
+      { "text": " thou knewest", "strong": "H3045" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " heretofore.", "strong": "H8543" },
       { "strong": "H8032" }
     ]
   },
@@ -967,26 +852,24 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      {
-        "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " recompense", "strong": "H7999", "morph": "PielImpf" },
+      "The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " recompense", "strong": "H7999" },
       { "text": " thy work,", "strong": "H6467" },
       { "text": " and a full", "strong": "H8003" },
       { "text": " reward", "strong": "H4909" },
-      {
-        "content": [
-          " be given thee of the ",
-          { "text": "Lord", "marks": ["sc"] }
-        ],
-        "strong": "H3068"
-      },
+      { "text": " be given", "strong": "H1961" },
+      { "text": " thee", "strong": "H4909" },
+      { "text": " of", "strong": "H5973" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " God", "strong": "H430" },
       { "text": " of Israel,", "strong": "H3478" },
-      { "text": " under whose wings", "strong": "H3671" },
-      { "text": " thou art come", "strong": "H935", "morph": "QalPerf" },
-      { "text": " to trust.", "strong": "H2620", "morph": "QalInf" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " whose", "strong": "H834" },
+      { "text": " wings", "strong": "H3671" },
+      { "text": " thou art come", "strong": "H935" },
+      { "text": " to trust.", "strong": "H2620" }
     ]
   },
   {
@@ -994,31 +877,29 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      { "text": "Then she said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Let me find", "strong": "H4672", "morph": "QalImpf" },
+      { "text": "Then she said,", "strong": "H559" },
+      { "text": " Let me find", "strong": "H4672" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in thy sight,", "strong": "H5869" },
       { "text": " my lord;", "strong": "H113" },
-      {
-        "text": " for that thou hast comforted",
-        "strong": "H5162",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " me, and for that thou hast spoken",
-        "strong": "H1696",
-        "morph": "PielPerf"
-      },
+      { "text": " for that", "strong": "H3588" },
+      { "text": " thou hast comforted me,", "strong": "H5162" },
+      { "text": " and for that", "strong": "H3588" },
+      { "text": " thou hast spoken", "strong": "H1696" },
       {
         "text": " friendly",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "to the heart", "marks": ["i"] }]
         },
-        "strong": "H3820"
+        "strong": "H5921"
       },
+      { "strong": "H3820" },
       { "text": " unto thine handmaid,", "strong": "H8198" },
-      { "text": " though I be not like unto one", "strong": "H259" },
+      { "text": " though I", "strong": "H595" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " like unto one", "strong": "H259" },
       { "text": " of thine handmaidens.", "strong": "H8198" }
     ]
   },
@@ -1028,32 +909,28 @@
     "verse": 14,
     "content": [
       { "paragraph": true, "text": "And Boaz", "strong": "H1162" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto her, At mealtime", "strong": "H6256" },
       { "strong": "H400" },
-      { "text": " come", "strong": "H5066", "morph": "QalImpv" },
-      { "text": " thou hither,", "strong": "H1988" },
-      { "text": " and eat", "strong": "H398", "morph": "QalPerf" },
-      { "text": " of the bread,", "strong": "H3899" },
-      { "text": " and dip", "strong": "H2881", "morph": "QalPerf" },
+      { "text": " come thou", "strong": "H5066" },
+      { "text": " hither,", "strong": "H1988" },
+      { "text": " and eat", "strong": "H398" },
+      { "text": " of", "strong": "H4480" },
+      { "text": " the bread,", "strong": "H3899" },
+      { "text": " and dip", "strong": "H2881" },
       { "text": " thy morsel", "strong": "H6595" },
       { "text": " in the vinegar.", "strong": "H2558" },
-      { "text": " And she sat", "strong": "H3427", "morph": "QalImpf" },
+      { "text": " And she sat", "strong": "H3427" },
       { "text": " beside", "strong": "H6654" },
-      { "text": " the reapers:", "strong": "H7114", "morph": "QalActPtc" },
-      { "text": " and he reached", "strong": "H6642", "morph": "QalImpf" },
+      { "text": " the reapers:", "strong": "H7114" },
+      { "text": " and he reached", "strong": "H6642" },
       { "text": " her parched", "strong": "H7039" },
-      {
-        "content": [
-          " ",
-          { "text": "corn", "marks": ["i"] },
-          ", and she did eat,"
-        ],
-        "strong": "H398",
-        "morph": "QalImpf"
-      },
-      { "text": " and was sufficed,", "strong": "H7646", "morph": "QalImpf" },
-      { "text": " and left.", "strong": "H3498", "morph": "HiphImpf" }
+      " ",
+      { "text": "corn", "marks": ["i"] },
+      { "text": ", and she", "strong": "H398" },
+      { "text": " did eat,", "strong": "H398" },
+      { "text": " and was sufficed,", "strong": "H7646" },
+      { "text": " and left.", "strong": "H3498" }
     ]
   },
   {
@@ -1061,25 +938,25 @@
     "chapter": 2,
     "verse": 15,
     "content": [
-      {
-        "text": "And when she was risen up",
-        "strong": "H6965",
-        "morph": "QalImpf"
-      },
-      { "text": " to glean,", "strong": "H3950", "morph": "PielInf" },
+      { "text": "And when she was risen up", "strong": "H6965" },
+      { "text": " to glean,", "strong": "H3950" },
       { "text": " Boaz", "strong": "H1162" },
-      { "text": " commanded", "strong": "H6680", "morph": "PielImpf" },
+      { "strong": "H853" },
+      { "text": " commanded", "strong": "H6680" },
       { "text": " his young men,", "strong": "H5288" },
-      { "text": " saying,", "strong": "H559", "morph": "QalInf" },
-      { "text": " Let her glean", "strong": "H3950", "morph": "PielImpf" },
-      { "text": " even among the sheaves,", "strong": "H6016" },
-      { "text": " and reproach", "strong": "H3637", "morph": "HiphImpf" },
+      { "text": " saying,", "strong": "H559" },
+      { "text": " Let her glean", "strong": "H3950" },
+      { "text": " even", "strong": "H1571" },
+      { "text": " among", "strong": "H996" },
+      { "text": " the sheaves,", "strong": "H6016" },
+      { "text": " and reproach her", "strong": "H3637" },
       {
-        "text": " her not:",
+        "text": " not:",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "shame her not", "marks": ["i"] }]
-        }
+        },
+        "strong": "H3808"
       }
     ]
   },
@@ -1088,32 +965,21 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      { "text": "and let fall", "strong": "H7997", "morph": "QalImpf" },
-      {
-        "content": [
-          " also ",
-          { "text": "some", "marks": ["i"] },
-          " of the handfuls"
-        ],
-        "strong": "H6653"
-      },
-      { "text": " of purpose", "strong": "H7997", "morph": "QalInf" },
-      { "text": " for her, and leave", "strong": "H5800", "morph": "QalPerf" },
-      {
-        "content": [
-          " ",
-          { "text": "them", "marks": ["i"] },
-          ", that she may glean"
-        ],
-        "strong": "H3950",
-        "morph": "PielPerf"
-      },
-      {
-        "content": [" ", { "text": "them", "marks": ["i"] }, ", and rebuke"],
-        "strong": "H1605",
-        "morph": "QalImpf"
-      },
-      " her not."
+      { "text": "and let fall", "strong": "H7997" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "some", "marks": ["i"] },
+      { "text": " of", "strong": "H4480" },
+      { "text": " the handfuls", "strong": "H6653" },
+      { "text": " of purpose", "strong": "H7997" },
+      { "text": " for her, and leave", "strong": "H5800" },
+      " ",
+      { "text": "them", "marks": ["i"] },
+      { "text": ", that she may glean", "strong": "H3950" },
+      " ",
+      { "text": "them", "marks": ["i"] },
+      { "text": ", and rebuke", "strong": "H1605" },
+      { "text": " her not.", "strong": "H3808" }
     ]
   },
   {
@@ -1121,21 +987,16 @@
     "chapter": 2,
     "verse": 17,
     "content": [
-      {
-        "paragraph": true,
-        "text": "So she gleaned",
-        "strong": "H3950",
-        "morph": "PielImpf"
-      },
+      { "paragraph": true, "text": "So she gleaned", "strong": "H3950" },
       { "text": " in the field", "strong": "H7704" },
-      { "text": " until even,", "strong": "H6153" },
-      { "text": " and beat out", "strong": "H2251", "morph": "QalImpf" },
-      {
-        "text": " that she had gleaned:",
-        "strong": "H3950",
-        "morph": "PielPerf"
-      },
-      { "text": " and it was about an ephah", "strong": "H374" },
+      { "text": " until", "strong": "H5704" },
+      { "text": " even,", "strong": "H6153" },
+      { "text": " and beat out", "strong": "H2251" },
+      { "strong": "H853" },
+      { "text": " that", "strong": "H834" },
+      { "text": " she had gleaned:", "strong": "H3950" },
+      { "text": " and it was", "strong": "H1961" },
+      { "text": " about an ephah", "strong": "H374" },
       { "text": " of barley.", "strong": "H8184" }
     ]
   },
@@ -1144,31 +1005,23 @@
     "chapter": 2,
     "verse": 18,
     "content": [
-      {
-        "content": ["And she took ", { "text": "it", "marks": ["i"] }, " up,"],
-        "strong": "H5375",
-        "morph": "QalImpf"
-      },
-      { "text": " and went", "strong": "H935", "morph": "QalImpf" },
+      { "text": "And she took", "strong": "H5375" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " up,", "strong": "H5375" },
+      { "text": " and went", "strong": "H935" },
       { "text": " into the city:", "strong": "H5892" },
       { "text": " and her mother in law", "strong": "H2545" },
-      { "text": " saw", "strong": "H7200", "morph": "QalImpf" },
-      {
-        "text": " what she had gleaned:",
-        "strong": "H3950",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " and she brought forth,",
-        "strong": "H3318",
-        "morph": "HiphImpf"
-      },
-      { "text": " and gave", "strong": "H5414", "morph": "QalImpf" },
-      {
-        "text": " to her that she had reserved",
-        "strong": "H3498",
-        "morph": "HiphPerf"
-      },
+      { "strong": "H853" },
+      { "text": " saw", "strong": "H7200" },
+      { "text": " what", "strong": "H834" },
+      { "text": " she had gleaned:", "strong": "H3950" },
+      { "text": " and she brought forth,", "strong": "H3318" },
+      { "text": " and gave", "strong": "H5414" },
+      " to her",
+      { "strong": "H853" },
+      { "text": " that", "strong": "H834" },
+      { "text": " she had reserved", "strong": "H3498" },
       { "text": " after she was sufficed.", "strong": "H7648" }
     ]
   },
@@ -1178,41 +1031,32 @@
     "verse": 19,
     "content": [
       { "text": "And her mother in law", "strong": "H2545" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " unto her, Where hast thou gleaned",
-        "strong": "H3950",
-        "morph": "PielPerf"
-      },
+      { "text": " said", "strong": "H559" },
+      { "text": " unto her, Where", "strong": "H375" },
+      { "text": " hast thou gleaned", "strong": "H3950" },
       { "text": " to day?", "strong": "H3117" },
-      { "text": " and where", "strong": "H375" },
-      { "text": " wroughtest", "strong": "H6213", "morph": "QalPerf" },
-      { "text": " thou? blessed", "strong": "H1288", "morph": "QalPasPtc" },
-      {
-        "text": " be he that did take knowledge",
-        "strong": "H5234",
-        "morph": "HiphPtc"
-      },
-      {
-        "text": " of thee. And she shewed",
-        "strong": "H5046",
-        "morph": "HiphImpf"
-      },
+      { "text": " and where", "strong": "H575" },
+      { "text": " wroughtest thou?", "strong": "H6213" },
+      { "text": " blessed", "strong": "H1288" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " he that", "strong": "H5234" },
+      { "text": " did take knowledge of thee.", "strong": "H5234" },
+      { "text": " And she shewed", "strong": "H5046" },
       { "text": " her mother in law", "strong": "H2545" },
-      {
-        "text": " with whom she had wrought,",
-        "strong": "H6213",
-        "morph": "QalPerf"
-      },
-      { "text": " and said,", "strong": "H559", "morph": "QalImpf" },
+      { "strong": "H853" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " whom", "strong": "H834" },
+      { "text": " she had wrought,", "strong": "H6213" },
+      { "text": " and said,", "strong": "H559" },
       { "text": " The man’s", "strong": "H376" },
       { "text": " name", "strong": "H8034" },
-      { "text": " with whom I wrought", "strong": "H6213", "morph": "QalPerf" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " whom", "strong": "H834" },
+      { "text": " I wrought", "strong": "H6213" },
       { "text": " to day", "strong": "H3117" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " Boaz."],
-        "strong": "H1162"
-      }
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " Boaz.", "strong": "H1162" }
     ]
   },
   {
@@ -1221,34 +1065,31 @@
     "verse": 20,
     "content": [
       { "text": "And Naomi", "strong": "H5281" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto her daughter in law,", "strong": "H3618" },
-      { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
+      { "text": " Blessed", "strong": "H1288" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " he", "strong": "H1931" },
       {
-        "content": [
-          " ",
-          { "text": "be", "marks": ["i"] },
-          " he of the ",
-          { "text": "Lord", "marks": ["sc"] },
-          ","
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      {
-        "text": " who hath not left off",
-        "strong": "H5800",
-        "morph": "QalPerf"
-      },
+      { "text": " who", "strong": "H834" },
+      { "text": " hath", "strong": "H5800" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " left off", "strong": "H5800" },
       { "text": " his kindness", "strong": "H2617" },
-      { "text": " to the living", "strong": "H2416" },
-      { "text": " and to the dead.", "strong": "H4191", "morph": "QalPtc" },
+      { "text": " to", "strong": "H854" },
+      { "text": " the living", "strong": "H2416" },
+      { "text": " and to", "strong": "H854" },
+      { "text": " the dead.", "strong": "H4191" },
       { "text": " And Naomi", "strong": "H5281" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto her, The man", "strong": "H376" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " near of kin"],
-        "strong": "H7138"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " near of kin", "strong": "H7138" },
       {
         "text": " unto us, one of our next kinsmen.",
         "foot": {
@@ -1258,9 +1099,9 @@
             { "text": "one that hath right to redeem", "marks": ["i"] }
           ]
         },
-        "strong": "H1350",
-        "morph": "QalActPtc"
-      }
+        "strong": "H1350"
+      },
+      { "strong": "H1931" }
     ]
   },
   {
@@ -1270,20 +1111,22 @@
     "content": [
       { "text": "And Ruth", "strong": "H7327" },
       { "text": " the Moabitess", "strong": "H4125" },
-      { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " He said", "strong": "H559", "morph": "QalPerf" },
-      {
-        "text": " unto me also, Thou shalt keep fast",
-        "strong": "H1692",
-        "morph": "QalImpf"
-      },
-      { "text": " by my young men,", "strong": "H5288" },
-      {
-        "text": " until they have ended",
-        "strong": "H3615",
-        "morph": "PielPerf"
-      },
-      { "text": " all my harvest.", "strong": "H7105" }
+      { "text": " said,", "strong": "H559" },
+      { "text": " He said", "strong": "H559" },
+      { "text": " unto me", "strong": "H413" },
+      { "text": " also,", "strong": "H1571" },
+      { "strong": "H3588" },
+      { "text": " Thou shalt keep fast", "strong": "H1692" },
+      { "text": " by", "strong": "H5973" },
+      { "text": " my young men,", "strong": "H5288" },
+      { "strong": "H834" },
+      { "text": " until", "strong": "H5704" },
+      { "strong": "H518" },
+      { "text": " they have ended", "strong": "H3615" },
+      { "strong": "H853" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " my harvest.", "strong": "H7105" },
+      { "strong": "H834" }
     ]
   },
   {
@@ -1292,30 +1135,28 @@
     "verse": 22,
     "content": [
       { "text": "And Naomi", "strong": "H5281" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto Ruth", "strong": "H7327" },
+      { "text": " said", "strong": "H559" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " Ruth", "strong": "H7327" },
       { "text": " her daughter in law,", "strong": "H3618" },
-      {
-        "content": [" ", { "text": "It is", "marks": ["i"] }, " good,"],
-        "strong": "H2896"
-      },
+      " ",
+      { "text": "It is", "marks": ["i"] },
+      { "text": " good,", "strong": "H2896" },
       { "text": " my daughter,", "strong": "H1323" },
-      { "text": " that thou go out", "strong": "H3318", "morph": "QalImpf" },
-      { "text": " with his maidens,", "strong": "H5291" },
-      { "text": " that they meet", "strong": "H6293", "morph": "QalImpf" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " thou go out", "strong": "H3318" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " his maidens,", "strong": "H5291" },
+      { "text": " that they meet", "strong": "H6293" },
       {
-        "content": [
-          {
-            "text": " thee",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "fall upon thee", "marks": ["i"] }]
-            }
-          },
-          " not in any other"
-        ],
-        "strong": "H312"
+        "text": " thee",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fall upon thee", "marks": ["i"] }]
+        }
       },
+      { "text": " not", "strong": "H3808" },
+      { "text": " in any other", "strong": "H312" },
       { "text": " field.", "strong": "H7704" }
     ]
   },
@@ -1324,17 +1165,19 @@
     "chapter": 2,
     "verse": 23,
     "content": [
-      { "text": "So she kept fast", "strong": "H1692", "morph": "QalImpf" },
+      { "text": "So she kept fast", "strong": "H1692" },
       { "text": " by the maidens", "strong": "H5291" },
       { "text": " of Boaz", "strong": "H1162" },
-      { "text": " to glean", "strong": "H3950", "morph": "PielInf" },
-      { "text": " unto the end", "strong": "H3615", "morph": "QalInf" },
+      { "text": " to glean", "strong": "H3950" },
+      { "text": " unto", "strong": "H5704" },
+      { "text": " the end", "strong": "H3615" },
       { "text": " of barley", "strong": "H8184" },
       { "text": " harvest", "strong": "H7105" },
       { "text": " and of wheat", "strong": "H2406" },
       { "text": " harvest;", "strong": "H7105" },
-      { "text": " and dwelt", "strong": "H3427", "morph": "QalImpf" },
-      { "text": " with her mother in law.", "strong": "H2545" }
+      { "text": " and dwelt", "strong": "H3427" },
+      { "text": " with", "strong": "H854" },
+      { "text": " her mother in law.", "strong": "H2545" }
     ]
   },
   {
@@ -1345,15 +1188,14 @@
       { "heading": "Naomi’s Advice" },
       { "paragraph": true, "text": "Then Naomi", "strong": "H5281" },
       { "text": " her mother in law", "strong": "H2545" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto her, My daughter,", "strong": "H1323" },
-      { "text": " shall I not seek", "strong": "H1245", "morph": "PielImpf" },
+      { "text": " shall I", "strong": "H1245" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " seek", "strong": "H1245" },
       { "text": " rest", "strong": "H4494" },
-      {
-        "text": " for thee, that it may be well",
-        "strong": "H3190",
-        "morph": "QalImpf"
-      },
+      { "text": " for thee, that", "strong": "H834" },
+      { "text": " it may be well", "strong": "H3190" },
       " with thee?"
     ]
   },
@@ -1362,17 +1204,20 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      {
-        "content": ["And now ", { "text": "is", "marks": ["i"] }, " not Boaz"],
-        "strong": "H1162"
-      },
+      { "text": "And now", "strong": "H6258" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " Boaz", "strong": "H1162" },
       { "text": " of our kindred,", "strong": "H4130" },
-      { "text": " with whose maidens", "strong": "H5291" },
-      {
-        "text": " thou wast? Behold, he winnoweth",
-        "strong": "H2219",
-        "morph": "QalActPtc"
-      },
+      { "text": " with", "strong": "H854" },
+      { "text": " whose", "strong": "H834" },
+      { "text": " maidens", "strong": "H5291" },
+      { "text": " thou wast?", "strong": "H1961" },
+      { "text": " Behold,", "strong": "H2009" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " winnoweth", "strong": "H2219" },
+      { "strong": "H853" },
       { "text": " barley", "strong": "H8184" },
       { "text": " to night", "strong": "H3915" },
       { "text": " in the threshingfloor.", "strong": "H1637" }
@@ -1383,37 +1228,23 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      { "text": "Wash", "strong": "H7364", "morph": "QalPerf" },
-      {
-        "text": " thyself therefore, and anoint",
-        "strong": "H5480",
-        "morph": "QalPerf"
-      },
-      { "text": " thee, and put", "strong": "H7760", "morph": "QalPerf" },
+      { "text": "Wash thyself", "strong": "H7364" },
+      { "text": " therefore, and anoint thee,", "strong": "H5480" },
+      { "text": " and put", "strong": "H7760" },
       { "text": " thy raiment", "strong": "H8071" },
-      {
-        "text": " upon thee, and get thee down",
-        "strong": "H3381",
-        "morph": "QalPerf"
-      },
+      { "text": " upon thee,", "strong": "H5921" },
+      { "text": " and get thee down", "strong": "H3381" },
       { "text": " to the floor:", "strong": "H1637" },
-      {
-        "content": [
-          " ",
-          { "text": "but", "marks": ["i"] },
-          " make not thyself known"
-        ],
-        "strong": "H3045",
-        "morph": "NiphImpf"
-      },
+      " ",
+      { "text": "but", "marks": ["i"] },
+      { "text": " make", "strong": "H3045" },
+      { "text": " not", "strong": "H408" },
+      { "text": " thyself known", "strong": "H3045" },
       { "text": " unto the man,", "strong": "H376" },
-      {
-        "text": " until he shall have done",
-        "strong": "H3615",
-        "morph": "PielInf"
-      },
-      { "text": " eating", "strong": "H398", "morph": "QalInf" },
-      { "text": " and drinking.", "strong": "H8354", "morph": "QalInf" }
+      { "text": " until", "strong": "H5704" },
+      { "text": " he shall have done", "strong": "H3615" },
+      { "text": " eating", "strong": "H398" },
+      { "text": " and drinking.", "strong": "H8354" }
     ]
   },
   {
@@ -1421,24 +1252,16 @@
     "chapter": 3,
     "verse": 4,
     "content": [
-      {
-        "text": "And it shall be, when he lieth down,",
-        "strong": "H7901",
-        "morph": "QalInf"
-      },
-      {
-        "text": " that thou shalt mark",
-        "strong": "H3045",
-        "morph": "QalPerf"
-      },
+      { "text": "And it shall be,", "strong": "H1961" },
+      { "text": " when he lieth down,", "strong": "H7901" },
+      { "text": " that thou shalt mark", "strong": "H3045" },
+      { "strong": "H853" },
       { "text": " the place", "strong": "H4725" },
-      { "text": " where he shall lie,", "strong": "H7901", "morph": "QalImpf" },
-      {
-        "text": " and thou shalt go in,",
-        "strong": "H935",
-        "morph": "QalPerf"
-      },
-      { "text": " and uncover", "strong": "H1540", "morph": "PielPerf" },
+      { "text": " where", "strong": "H834" },
+      { "text": " he shall lie,", "strong": "H7901" },
+      { "strong": "H8033" },
+      { "text": " and thou shalt go in,", "strong": "H935" },
+      { "text": " and uncover", "strong": "H1540" },
       {
         "text": " his feet,",
         "foot": {
@@ -1453,13 +1276,13 @@
         },
         "strong": "H4772"
       },
-      { "text": " and lay thee down;", "strong": "H7901", "morph": "QalPerf" },
-      { "text": " and he will tell", "strong": "H5046", "morph": "HiphImpf" },
-      {
-        "text": " thee what thou shalt do.",
-        "strong": "H6213",
-        "morph": "QalImpf"
-      }
+      { "text": " and lay thee down;", "strong": "H7901" },
+      { "text": " and he", "strong": "H1931" },
+      { "text": " will tell", "strong": "H5046" },
+      " thee",
+      { "strong": "H853" },
+      { "text": " what", "strong": "H834" },
+      { "text": " thou shalt do.", "strong": "H6213" }
     ]
   },
   {
@@ -1467,13 +1290,13 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      { "text": "And she said", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " unto her, All that thou sayest",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      { "text": " unto me I will do.", "strong": "H6213", "morph": "QalImpf" }
+      { "text": "And she said", "strong": "H559" },
+      { "text": " unto her,", "strong": "H413" },
+      { "text": " All", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou sayest", "strong": "H559" },
+      { "text": " unto me", "strong": "H413" },
+      { "text": " I will do.", "strong": "H6213" }
     ]
   },
   {
@@ -1481,17 +1304,13 @@
     "chapter": 3,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "And she went down",
-        "strong": "H3381",
-        "morph": "QalImpf"
-      },
+      { "paragraph": true, "text": "And she went down", "strong": "H3381" },
       { "text": " unto the floor,", "strong": "H1637" },
-      { "text": " and did", "strong": "H6213", "morph": "QalImpf" },
-      { "text": " according to all that her mother in law", "strong": "H2545" },
-      { "text": " bade", "strong": "H6680", "morph": "PielPerf" },
-      " her."
+      { "text": " and did", "strong": "H6213" },
+      { "text": " according to all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " her mother in law", "strong": "H2545" },
+      { "text": " bade her.", "strong": "H6680" }
     ]
   },
   {
@@ -1500,19 +1319,19 @@
     "verse": 7,
     "content": [
       { "text": "And when Boaz", "strong": "H1162" },
-      { "text": " had eaten", "strong": "H398", "morph": "QalImpf" },
-      { "text": " and drunk,", "strong": "H8354", "morph": "QalImpf" },
+      { "text": " had eaten", "strong": "H398" },
+      { "text": " and drunk,", "strong": "H8354" },
       { "text": " and his heart", "strong": "H3820" },
-      { "text": " was merry,", "strong": "H3190", "morph": "QalImpf" },
-      { "text": " he went", "strong": "H935", "morph": "QalImpf" },
-      { "text": " to lie down", "strong": "H7901", "morph": "QalInf" },
+      { "text": " was merry,", "strong": "H3190" },
+      { "text": " he went", "strong": "H935" },
+      { "text": " to lie down", "strong": "H7901" },
       { "text": " at the end", "strong": "H7097" },
       { "text": " of the heap of corn:", "strong": "H6194" },
-      { "text": " and she came", "strong": "H935", "morph": "QalImpf" },
+      { "text": " and she came", "strong": "H935" },
       { "text": " softly,", "strong": "H3909" },
-      { "text": " and uncovered", "strong": "H1540", "morph": "PielImpf" },
+      { "text": " and uncovered", "strong": "H1540" },
       { "text": " his feet,", "strong": "H4772" },
-      { "text": " and laid her down.", "strong": "H7901", "morph": "QalImpf" }
+      { "text": " and laid her down.", "strong": "H7901" }
     ]
   },
   {
@@ -1520,21 +1339,23 @@
     "chapter": 3,
     "verse": 8,
     "content": [
-      { "text": "And it came to pass at midnight,", "strong": "H2677" },
+      { "text": "And it came to pass", "strong": "H1961" },
+      { "text": " at midnight,", "strong": "H2677" },
       { "strong": "H3915" },
       { "text": " that the man", "strong": "H376" },
-      { "text": " was afraid,", "strong": "H2729", "morph": "QalImpf" },
+      { "text": " was afraid,", "strong": "H2729" },
       {
         "text": " and turned",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "took hold on", "marks": ["i"] }]
         },
-        "strong": "H3943",
-        "morph": "NiphImpf"
+        "strong": "H3943"
       },
-      { "text": " himself: and, behold, a woman", "strong": "H802" },
-      { "text": " lay", "strong": "H7901", "morph": "QalActPtc" },
+      { "text": " himself:", "strong": "H3943" },
+      { "text": " and, behold,", "strong": "H2009" },
+      { "text": " a woman", "strong": "H802" },
+      { "text": " lay", "strong": "H7901" },
       { "text": " at his feet.", "strong": "H4772" }
     ]
   },
@@ -1543,41 +1364,35 @@
     "chapter": 3,
     "verse": 9,
     "content": [
-      { "text": "And he said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "content": [
-          " Who ",
-          { "text": "art", "marks": ["i"] },
-          " thou? And she answered,"
-        ],
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "content": [" I ", { "text": "am", "marks": ["i"] }, " Ruth"],
-        "strong": "H7327"
-      },
+      { "text": "And he said,", "strong": "H559" },
+      { "text": " Who", "strong": "H4310" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " thou?", "strong": "H859" },
+      { "text": " And she answered,", "strong": "H559" },
+      { "text": " I", "strong": "H595" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " Ruth", "strong": "H7327" },
       { "text": " thine handmaid:", "strong": "H519" },
-      { "text": " spread", "strong": "H6566", "morph": "QalPerf" },
+      { "text": " spread", "strong": "H6566" },
       { "text": " therefore thy skirt", "strong": "H3671" },
-      { "text": " over thine handmaid;", "strong": "H519" },
+      { "text": " over", "strong": "H5921" },
+      { "text": " thine handmaid;", "strong": "H519" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " thou", "strong": "H859" },
+      " ",
+      { "text": "art", "marks": ["i"] },
       {
-        "content": [
-          " for thou ",
-          { "text": "art", "marks": ["i"] },
-          {
-            "text": " a near kinsman.",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                { "text": "one that hath right to redeem", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
-        "strong": "H1350",
-        "morph": "QalActPtc"
+        "text": " a near kinsman.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one that hath right to redeem", "marks": ["i"] }
+          ]
+        },
+        "strong": "H1350"
       }
     ]
   },
@@ -1586,41 +1401,31 @@
     "chapter": 3,
     "verse": 10,
     "content": [
-      { "text": "And he said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
+      { "text": "And he said,", "strong": "H559" },
+      { "text": " Blessed", "strong": "H1288" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " thou", "strong": "H859" },
       {
-        "content": [
-          " ",
-          { "text": "be", "marks": ["i"] },
-          " thou of the ",
-          { "text": "Lord", "marks": ["sc"] },
-          ","
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " my daughter:", "strong": "H1323" },
-      {
-        "content": [
-          " ",
-          { "text": "for", "marks": ["i"] },
-          " thou hast shewed"
-        ],
-        "strong": "H3190",
-        "morph": "HiphPerf"
-      },
+      " ",
+      { "text": "for", "marks": ["i"] },
+      { "text": " thou hast shewed", "strong": "H3190" },
       { "text": " more kindness", "strong": "H2617" },
       { "text": " in the latter end", "strong": "H314" },
-      { "text": " than at the beginning,", "strong": "H7223" },
-      {
-        "text": " inasmuch as thou followedst",
-        "strong": "H3212",
-        "morph": "QalInf"
-      },
+      { "text": " than", "strong": "H4480" },
+      { "text": " at the beginning,", "strong": "H7223" },
+      { "text": " inasmuch as thou followedst", "strong": "H3212" },
       { "strong": "H310" },
       { "text": " not", "strong": "H1115" },
       { "text": " young men,", "strong": "H970" },
-      { "text": " whether poor", "strong": "H1800" },
-      { "text": " or rich.", "strong": "H6223" }
+      { "text": " whether", "strong": "H518" },
+      { "text": " poor", "strong": "H1800" },
+      { "text": " or", "strong": "H518" },
+      { "text": " rich.", "strong": "H6223" }
     ]
   },
   {
@@ -1628,16 +1433,18 @@
     "chapter": 3,
     "verse": 11,
     "content": [
-      { "text": "And now, my daughter,", "strong": "H1323" },
-      { "text": " fear", "strong": "H3372", "morph": "QalImpf" },
-      { "text": " not; I will do", "strong": "H6213", "morph": "QalImpf" },
+      { "text": "And now,", "strong": "H6258" },
+      { "text": " my daughter,", "strong": "H1323" },
+      { "text": " fear", "strong": "H3372" },
+      { "text": " not;", "strong": "H408" },
+      { "text": " I will do", "strong": "H6213" },
+      { "text": " to thee all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou requirest:", "strong": "H559" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " all", "strong": "H3605" },
       {
-        "text": " to thee all that thou requirest:",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " for all the city",
+        "text": " the city",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "gate", "marks": ["i"] }]
@@ -1645,15 +1452,12 @@
         "strong": "H8179"
       },
       { "text": " of my people", "strong": "H5971" },
-      { "text": " doth know", "strong": "H3045", "morph": "QalActPtc" },
-      {
-        "content": [
-          " that thou ",
-          { "text": "art", "marks": ["i"] },
-          " a virtuous"
-        ],
-        "strong": "H2428"
-      },
+      { "text": " doth know", "strong": "H3045" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " thou", "strong": "H859" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " a virtuous", "strong": "H2428" },
       { "text": " woman.", "strong": "H802" }
     ]
   },
@@ -1662,20 +1466,19 @@
     "chapter": 3,
     "verse": 12,
     "content": [
-      { "text": "And now it is true", "strong": "H551" },
-      {
-        "content": [
-          " that I ",
-          { "text": "am thy", "marks": ["i"] },
-          " near kinsman:"
-        ],
-        "strong": "H1350",
-        "morph": "QalActPtc"
-      },
-      { "text": " howbeit there is", "strong": "H3426" },
-      { "text": " a kinsman", "strong": "H1350", "morph": "QalActPtc" },
+      { "text": "And now", "strong": "H6258" },
+      { "strong": "H3588" },
+      { "text": " it is true", "strong": "H551" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " I", "strong": "H595" },
+      " ",
+      { "text": "am thy", "marks": ["i"] },
+      { "text": " near kinsman:", "strong": "H1350" },
+      { "text": " howbeit", "strong": "H1571" },
+      { "text": " there is", "strong": "H3426" },
+      { "text": " a kinsman", "strong": "H1350" },
       { "text": " nearer", "strong": "H7138" },
-      " than I."
+      { "text": " than I.", "strong": "H4480" }
     ]
   },
   {
@@ -1683,47 +1486,34 @@
     "chapter": 3,
     "verse": 13,
     "content": [
-      { "text": "Tarry", "strong": "H3885", "morph": "QalImpv" },
+      { "text": "Tarry", "strong": "H3885" },
       { "text": " this night,", "strong": "H3915" },
-      { "text": " and it shall be in the morning,", "strong": "H1242" },
+      { "text": " and it shall be", "strong": "H1961" },
+      { "text": " in the morning,", "strong": "H1242" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " if", "strong": "H518" },
       {
-        "content": [
-          " ",
-          { "text": "that", "marks": ["i"] },
-          " if he will perform unto thee the part of a kinsman,"
-        ],
-        "strong": "H1350",
-        "morph": "QalImpf"
+        "text": " he will perform unto thee the part of a kinsman,",
+        "strong": "H1350"
       },
       { "text": " well;", "strong": "H2896" },
-      {
-        "text": " let him do the kinsman’s part:",
-        "strong": "H1350",
-        "morph": "QalImpf"
-      },
-      { "text": " but if he will", "strong": "H2654", "morph": "QalImpf" },
-      {
-        "text": " not do the part of a kinsman",
-        "strong": "H1350",
-        "morph": "QalInf"
-      },
-      {
-        "text": " to thee, then will I do the part of a kinsman",
-        "strong": "H1350",
-        "morph": "QalPerf"
-      },
-      {
-        "content": [
-          " to thee, ",
-          { "text": "as", "marks": ["i"] },
-          " the ",
-          { "text": "Lord", "marks": ["sc"] }
-        ],
-        "strong": "H3068"
-      },
+      { "text": " let him do the kinsman’s part:", "strong": "H1350" },
+      { "text": " but if", "strong": "H518" },
+      { "text": " he will", "strong": "H2654" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " do the part of a kinsman to thee,", "strong": "H1350" },
+      { "text": " then will", "strong": "H1350" },
+      { "text": " I", "strong": "H595" },
+      { "text": " do the part of a kinsman to thee,", "strong": "H1350" },
+      " ",
+      { "text": "as", "marks": ["i"] },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " liveth:", "strong": "H2416" },
-      { "text": " lie down", "strong": "H7901", "morph": "QalImpv" },
-      { "text": " until the morning.", "strong": "H1242" }
+      { "text": " lie down", "strong": "H7901" },
+      { "text": " until", "strong": "H5704" },
+      { "text": " the morning.", "strong": "H1242" }
     ]
   },
   {
@@ -1731,27 +1521,23 @@
     "chapter": 3,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "And she lay",
-        "strong": "H7901",
-        "morph": "QalImpf"
-      },
+      { "paragraph": true, "text": "And she lay", "strong": "H7901" },
       { "text": " at his feet", "strong": "H4772" },
-      { "text": " until the morning:", "strong": "H1242" },
-      { "text": " and she rose up", "strong": "H6965", "morph": "QalImpf" },
-      { "text": " before", "strong": "H2958" },
+      { "text": " until", "strong": "H5704" },
+      { "text": " the morning:", "strong": "H1242" },
+      { "text": " and she rose up", "strong": "H6965" },
+      { "text": " before", "strong": "H2962" },
       { "text": " one", "strong": "H376" },
-      { "text": " could know", "strong": "H5234", "morph": "HiphImpf" },
+      { "strong": "H853" },
+      { "text": " could know", "strong": "H5234" },
       { "text": " another.", "strong": "H7453" },
-      { "text": " And he said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "text": " Let it not be known",
-        "strong": "H3045",
-        "morph": "NiphImpf"
-      },
-      { "text": " that a woman", "strong": "H802" },
-      { "text": " came", "strong": "H935", "morph": "QalPerf" },
+      { "text": " And he said,", "strong": "H559" },
+      { "text": " Let it", "strong": "H3045" },
+      { "text": " not", "strong": "H408" },
+      { "text": " be known", "strong": "H3045" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " a woman", "strong": "H802" },
+      { "text": " came", "strong": "H935" },
       { "text": " into the floor.", "strong": "H1637" }
     ]
   },
@@ -1760,8 +1546,8 @@
     "chapter": 3,
     "verse": 15,
     "content": [
-      { "text": "Also he said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Bring", "strong": "H3051", "morph": "QalImpv" },
+      { "text": "Also he said,", "strong": "H559" },
+      { "text": " Bring", "strong": "H3051" },
       {
         "text": " the vail",
         "foot": {
@@ -1775,36 +1561,22 @@
         },
         "strong": "H4304"
       },
-      {
-        "content": [
-          " that ",
-          { "text": "thou hast", "marks": ["i"] },
-          " upon thee, and hold"
-        ],
-        "strong": "H270",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " it. And when she held",
-        "strong": "H270",
-        "morph": "QalImpf"
-      },
-      { "text": " it, he measured", "strong": "H4058", "morph": "QalImpf" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "thou hast", "marks": ["i"] },
+      { "text": " upon thee,", "strong": "H5921" },
+      { "text": " and hold", "strong": "H270" },
+      { "text": " it. And when she held", "strong": "H270" },
+      { "text": " it, he measured", "strong": "H4058" },
       { "text": " six", "strong": "H8337" },
-      {
-        "content": [" ", { "text": "measures", "marks": ["i"] }, " of barley,"],
-        "strong": "H8184"
-      },
-      { "text": " and laid", "strong": "H7896", "morph": "QalImpf" },
-      {
-        "content": [
-          " ",
-          { "text": "it", "marks": ["i"] },
-          " on her: and she went"
-        ],
-        "strong": "H935",
-        "morph": "QalImpf"
-      },
+      " ",
+      { "text": "measures", "marks": ["i"] },
+      { "text": " of barley,", "strong": "H8184" },
+      { "text": " and laid", "strong": "H7896" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " on her:", "strong": "H5921" },
+      { "text": " and she went", "strong": "H935" },
       { "text": " into the city.", "strong": "H5892" }
     ]
   },
@@ -1813,20 +1585,22 @@
     "chapter": 3,
     "verse": 16,
     "content": [
-      { "text": "And when she came", "strong": "H935", "morph": "QalImpf" },
-      { "text": " to her mother in law,", "strong": "H2545" },
-      { "text": " she said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "content": [
-          " Who ",
-          { "text": "art", "marks": ["i"] },
-          " thou, my daughter?"
-        ],
-        "strong": "H1323"
-      },
-      { "text": " And she told", "strong": "H5046", "morph": "HiphImpf" },
-      { "text": " her all that the man", "strong": "H376" },
-      { "text": " had done", "strong": "H6213", "morph": "QalPerf" },
+      { "text": "And when she came", "strong": "H935" },
+      { "text": " to", "strong": "H413" },
+      { "text": " her mother in law,", "strong": "H2545" },
+      { "text": " she said,", "strong": "H559" },
+      { "text": " Who", "strong": "H4310" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " thou,", "strong": "H859" },
+      { "text": " my daughter?", "strong": "H1323" },
+      { "text": " And she told", "strong": "H5046" },
+      " her",
+      { "strong": "H853" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " the man", "strong": "H376" },
+      { "text": " had done", "strong": "H6213" },
       " to her."
     ]
   },
@@ -1835,17 +1609,21 @@
     "chapter": 3,
     "verse": 17,
     "content": [
-      { "text": "And she said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " These six", "strong": "H8337" },
-      {
-        "content": [" ", { "text": "measures", "marks": ["i"] }, " of barley"],
-        "strong": "H8184"
-      },
-      { "text": " gave", "strong": "H5414", "morph": "QalPerf" },
-      { "text": " he me; for he said", "strong": "H559", "morph": "QalPerf" },
-      { "text": " to me, Go", "strong": "H935", "morph": "QalImpf" },
-      { "text": " not empty", "strong": "H7387" },
-      { "text": " unto thy mother in law.", "strong": "H2545" }
+      { "text": "And she said,", "strong": "H559" },
+      { "text": " These", "strong": "H428" },
+      { "text": " six", "strong": "H8337" },
+      " ",
+      { "text": "measures", "marks": ["i"] },
+      { "text": " of barley", "strong": "H8184" },
+      { "text": " gave he", "strong": "H5414" },
+      { "text": " me; for", "strong": "H3588" },
+      { "text": " he said", "strong": "H559" },
+      { "text": " to me,", "strong": "H413" },
+      { "text": " Go", "strong": "H935" },
+      { "text": " not", "strong": "H408" },
+      { "text": " empty", "strong": "H7387" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " thy mother in law.", "strong": "H2545" }
     ]
   },
   {
@@ -1853,20 +1631,23 @@
     "chapter": 3,
     "verse": 18,
     "content": [
-      { "text": "Then said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " she, Sit still,", "strong": "H3427", "morph": "QalImpv" },
+      { "text": "Then said she,", "strong": "H559" },
+      { "text": " Sit still,", "strong": "H3427" },
       { "text": " my daughter,", "strong": "H1323" },
-      { "text": " until thou know", "strong": "H3045", "morph": "QalImpf" },
-      { "text": " how the matter", "strong": "H1697" },
-      { "text": " will fall:", "strong": "H5307", "morph": "QalImpf" },
-      { "text": " for the man", "strong": "H376" },
-      {
-        "text": " will not be in rest,",
-        "strong": "H8252",
-        "morph": "QalImpf"
-      },
-      { "text": " until", "strong": "H518" },
-      { "text": " he have finished", "strong": "H3615", "morph": "PielPerf" },
+      { "text": " until", "strong": "H5704" },
+      { "strong": "H834" },
+      { "text": " thou know", "strong": "H3045" },
+      { "text": " how", "strong": "H349" },
+      { "text": " the matter", "strong": "H1697" },
+      { "text": " will fall:", "strong": "H5307" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " the man", "strong": "H376" },
+      { "text": " will", "strong": "H8252" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " be in rest,", "strong": "H8252" },
+      { "text": " until", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " he have finished", "strong": "H3615" },
       { "text": " the thing", "strong": "H1697" },
       { "text": " this day.", "strong": "H3117" }
     ]
@@ -1879,33 +1660,24 @@
       { "heading": "Ruth’s Marriage" },
       { "paragraph": true, "text": "Then went", "strong": "H5927" },
       { "text": " Boaz", "strong": "H1162" },
-      { "text": " up", "strong": "H5927", "morph": "QalPerf" },
+      { "text": " up", "strong": "H5927" },
       { "text": " to the gate,", "strong": "H8179" },
-      { "text": " and sat him down", "strong": "H3427", "morph": "QalImpf" },
-      {
-        "text": " there: and, behold, the kinsman",
-        "strong": "H1350",
-        "morph": "QalActPtc"
-      },
-      { "text": " of whom Boaz", "strong": "H1162" },
-      { "text": " spake", "strong": "H1696", "morph": "PielPerf" },
-      { "text": " came", "strong": "H5674", "morph": "QalActPtc" },
-      {
-        "text": " by; unto whom he said,",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      { "text": " Ho,", "strong": "H1945" },
-      { "text": " such", "strong": "H6423" },
+      { "text": " and sat him down", "strong": "H3427" },
+      { "text": " there:", "strong": "H8033" },
+      { "text": " and, behold,", "strong": "H2009" },
+      { "text": " the kinsman", "strong": "H1350" },
+      { "text": " of whom", "strong": "H834" },
+      { "text": " Boaz", "strong": "H1162" },
+      { "text": " spake", "strong": "H1696" },
+      { "text": " came by;", "strong": "H5674" },
+      { "text": " unto whom he said,", "strong": "H559" },
+      { "text": " Ho, such", "strong": "H6423" },
       { "text": " a one!", "strong": "H492" },
-      { "text": " turn aside,", "strong": "H5493", "morph": "QalImpv" },
-      { "text": " sit down", "strong": "H3427", "morph": "QalImpv" },
-      {
-        "text": " here. And he turned aside,",
-        "strong": "H5493",
-        "morph": "QalImpf"
-      },
-      { "text": " and sat down.", "strong": "H3427", "morph": "QalImpf" }
+      { "text": " turn aside,", "strong": "H5493" },
+      { "text": " sit down", "strong": "H3427" },
+      { "text": " here.", "strong": "H6311" },
+      { "text": " And he turned aside,", "strong": "H5493" },
+      { "text": " and sat down.", "strong": "H3427" }
     ]
   },
   {
@@ -1913,18 +1685,15 @@
     "chapter": 4,
     "verse": 2,
     "content": [
-      { "text": "And he took", "strong": "H3947", "morph": "QalImpf" },
+      { "text": "And he took", "strong": "H3947" },
       { "text": " ten", "strong": "H6235" },
       { "text": " men", "strong": "H582" },
       { "text": " of the elders", "strong": "H2205" },
       { "text": " of the city,", "strong": "H5892" },
-      { "text": " and said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Sit ye down", "strong": "H3427", "morph": "QalImpv" },
-      {
-        "text": " here. And they sat down.",
-        "strong": "H3427",
-        "morph": "QalImpf"
-      }
+      { "text": " and said,", "strong": "H559" },
+      { "text": " Sit ye down", "strong": "H3427" },
+      { "text": " here.", "strong": "H6311" },
+      { "text": " And they sat down.", "strong": "H3427" }
     ]
   },
   {
@@ -1932,23 +1701,19 @@
     "chapter": 4,
     "verse": 3,
     "content": [
-      { "text": "And he said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto the kinsman,", "strong": "H1350", "morph": "QalActPtc" },
+      { "text": "And he said", "strong": "H559" },
+      { "text": " unto the kinsman,", "strong": "H1350" },
       { "text": " Naomi,", "strong": "H5281" },
-      { "text": " that is come again", "strong": "H7725", "morph": "QalPerf" },
+      { "text": " that is come again", "strong": "H7725" },
       { "text": " out of the country", "strong": "H7704" },
       { "text": " of Moab,", "strong": "H4124" },
-      { "text": " selleth", "strong": "H4376", "morph": "QalPerf" },
+      { "text": " selleth", "strong": "H4376" },
       { "text": " a parcel", "strong": "H2513" },
       { "text": " of land,", "strong": "H7704" },
-      {
-        "content": [
-          " which ",
-          { "text": "was", "marks": ["i"] },
-          " our brother"
-        ],
-        "strong": "H251"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " our brother", "strong": "H251" },
       { "text": " Elimelech’s:", "strong": "H458" }
     ]
   },
@@ -1957,86 +1722,59 @@
     "chapter": 4,
     "verse": 4,
     "content": [
-      { "text": "and I thought", "strong": "H559", "morph": "QalPerf" },
-      { "text": " to advertise", "strong": "H1540", "morph": "QalImpf" },
-      { "strong": "H241" },
+      { "text": "and I", "strong": "H589" },
+      { "text": " thought", "strong": "H559" },
+      { "text": " to advertise", "strong": "H1540" },
       {
-        "content": [
-          {
-            "text": " thee,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "I said, I will reveal in thine ear", "marks": ["i"] }
-              ]
-            }
-          },
-          " saying,"
-        ],
-        "strong": "H559",
-        "morph": "QalInf"
+        "text": " thee,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "I said, I will reveal in thine ear", "marks": ["i"] }
+          ]
+        },
+        "strong": "H241"
       },
-      { "text": " Buy", "strong": "H7069", "morph": "QalImpv" },
-      {
-        "content": [
-          " ",
-          { "text": "it", "marks": ["i"] },
-          " before the inhabitants,"
-        ],
-        "strong": "H3427",
-        "morph": "QalActPtc"
-      },
-      { "text": " and before the elders", "strong": "H2205" },
+      { "text": " saying,", "strong": "H559" },
+      { "text": " Buy", "strong": "H7069" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " before", "strong": "H5048" },
+      { "text": " the inhabitants,", "strong": "H3427" },
+      { "text": " and before", "strong": "H5048" },
+      { "text": " the elders", "strong": "H2205" },
       { "text": " of my people.", "strong": "H5971" },
-      { "text": " If thou wilt redeem", "strong": "H1350", "morph": "QalImpf" },
-      {
-        "content": [" ", { "text": "it", "marks": ["i"] }, ", redeem"],
-        "strong": "H1350",
-        "morph": "QalImpv"
-      },
-      {
-        "content": [
-          " ",
-          { "text": "it:", "marks": ["i"] },
-          " but if thou wilt not redeem"
-        ],
-        "strong": "H1350",
-        "morph": "QalImpf"
-      },
-      {
-        "content": [" ", { "text": "it, then", "marks": ["i"] }, " tell"],
-        "strong": "H5046",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " me, that I may know:",
-        "strong": "H3045",
-        "morph": "QalImpf"
-      },
-      {
-        "content": [
-          " for ",
-          { "text": "there is", "marks": ["i"] },
-          " none to redeem"
-        ],
-        "strong": "H1350",
-        "morph": "QalInf"
-      },
-      {
-        "content": [" ", { "text": "it", "marks": ["i"] }, " beside"],
-        "strong": "H2108"
-      },
-      {
-        "content": [
-          " thee; and I ",
-          { "text": "am", "marks": ["i"] },
-          " after"
-        ],
-        "strong": "H310"
-      },
-      { "text": " thee. And he said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " I will redeem", "strong": "H1350", "morph": "QalImpf" },
+      { "text": " If", "strong": "H518" },
+      { "text": " thou wilt redeem", "strong": "H1350" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": ", redeem", "strong": "H1350" },
+      " ",
+      { "text": "it:", "marks": ["i"] },
+      { "text": " but if", "strong": "H518" },
+      { "text": " thou wilt", "strong": "H1350" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " redeem", "strong": "H1350" },
+      " ",
+      { "text": "it, then", "marks": ["i"] },
+      { "text": " tell", "strong": "H5046" },
+      { "text": " me, that I may know:", "strong": "H3045" },
+      { "text": " for", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " none", "strong": "H369" },
+      { "text": " to redeem", "strong": "H1350" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " beside thee;", "strong": "H2108" },
+      { "text": " and I", "strong": "H595" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " after thee.", "strong": "H310" },
+      { "text": " And he said,", "strong": "H559" },
+      { "text": " I", "strong": "H595" },
+      { "text": " will redeem", "strong": "H1350" },
       " ",
       { "text": "it", "marks": ["i"] },
       "."
@@ -2047,25 +1785,26 @@
     "chapter": 4,
     "verse": 5,
     "content": [
-      { "text": "Then said", "strong": "H559", "morph": "QalImpf" },
+      { "text": "Then said", "strong": "H559" },
       { "text": " Boaz,", "strong": "H1162" },
       { "text": " What day", "strong": "H3117" },
-      { "text": " thou buyest", "strong": "H7069", "morph": "QalInf" },
+      { "text": " thou buyest", "strong": "H7069" },
       { "text": " the field", "strong": "H7704" },
       { "text": " of the hand", "strong": "H3027" },
       { "text": " of Naomi,", "strong": "H5281" },
-      { "text": " thou must buy", "strong": "H7069", "morph": "QalPerf" },
-      {
-        "content": [" ", { "text": "it", "marks": ["i"] }, " also of Ruth"],
-        "strong": "H7327"
-      },
+      { "text": " thou must buy", "strong": "H7069" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " also of", "strong": "H854" },
+      { "text": " Ruth", "strong": "H7327" },
       { "text": " the Moabitess,", "strong": "H4125" },
       { "text": " the wife", "strong": "H802" },
-      { "text": " of the dead,", "strong": "H4191", "morph": "QalPtc" },
-      { "text": " to raise up", "strong": "H6965", "morph": "HiphInf" },
+      { "text": " of the dead,", "strong": "H4191" },
+      { "text": " to raise up", "strong": "H6965" },
       { "text": " the name", "strong": "H8034" },
-      { "text": " of the dead", "strong": "H4191", "morph": "QalPtc" },
-      { "text": " upon his inheritance.", "strong": "H5159" }
+      { "text": " of the dead", "strong": "H4191" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " his inheritance.", "strong": "H5159" }
     ]
   },
   {
@@ -2073,28 +1812,25 @@
     "chapter": 4,
     "verse": 6,
     "content": [
-      { "text": "And the kinsman", "strong": "H1350", "morph": "QalActPtc" },
-      { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " I cannot", "strong": "H3201", "morph": "QalImpf" },
-      { "text": " redeem", "strong": "H1350", "morph": "QalInf" },
-      {
-        "content": [
-          " ",
-          { "text": "it", "marks": ["i"] },
-          " for myself, lest I mar"
-        ],
-        "strong": "H7843",
-        "morph": "HiphImpf"
-      },
+      { "text": "And the kinsman", "strong": "H1350" },
+      { "text": " said,", "strong": "H559" },
+      { "text": " I cannot", "strong": "H3808" },
+      { "strong": "H3201" },
+      { "text": " redeem", "strong": "H1350" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " for myself, lest", "strong": "H6435" },
+      { "text": " I mar", "strong": "H7843" },
+      { "strong": "H853" },
       { "text": " mine own inheritance:", "strong": "H5159" },
-      { "text": " redeem", "strong": "H1350", "morph": "QalImpv" },
-      { "text": " thou my right", "strong": "H1353" },
-      {
-        "text": " to thyself; for I cannot",
-        "strong": "H3201",
-        "morph": "QalImpf"
-      },
-      { "text": " redeem", "strong": "H1350", "morph": "QalInf" },
+      { "text": " redeem", "strong": "H1350" },
+      { "text": " thou", "strong": "H859" },
+      { "strong": "H853" },
+      { "text": " my right", "strong": "H1353" },
+      { "text": " to thyself; for", "strong": "H3588" },
+      { "text": " I cannot", "strong": "H3808" },
+      { "strong": "H3201" },
+      { "text": " redeem", "strong": "H1350" },
       " ",
       { "text": "it", "marks": ["i"] },
       "."
@@ -2105,40 +1841,29 @@
     "chapter": 4,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "Now this ",
-          { "text": "was the manner", "marks": ["i"] },
-          " in former time"
-        ],
-        "strong": "H6440"
-      },
+      { "paragraph": true, "text": "Now this", "strong": "H2063" },
+      " ",
+      { "text": "was the manner", "marks": ["i"] },
+      { "text": " in former time", "strong": "H6440" },
       { "text": " in Israel", "strong": "H3478" },
-      { "text": " concerning redeeming", "strong": "H1353" },
-      { "text": " and concerning changing,", "strong": "H8545" },
-      { "text": " for to confirm", "strong": "H6965", "morph": "PielInf" },
-      { "text": " all things;", "strong": "H1697" },
+      { "text": " concerning", "strong": "H5921" },
+      { "text": " redeeming", "strong": "H1353" },
+      { "text": " and concerning", "strong": "H5921" },
+      { "text": " changing,", "strong": "H8545" },
+      { "text": " for to confirm", "strong": "H6965" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " things;", "strong": "H1697" },
       { "text": " a man", "strong": "H376" },
-      { "text": " plucked off", "strong": "H8025", "morph": "QalPerf" },
+      { "text": " plucked off", "strong": "H8025" },
       { "text": " his shoe,", "strong": "H5275" },
-      { "text": " and gave", "strong": "H5414", "morph": "QalPerf" },
-      {
-        "content": [
-          " ",
-          { "text": "it", "marks": ["i"] },
-          " to his neighbour:"
-        ],
-        "strong": "H7453"
-      },
-      {
-        "content": [
-          " and this ",
-          { "text": "was", "marks": ["i"] },
-          " a testimony"
-        ],
-        "strong": "H8584"
-      },
+      { "text": " and gave", "strong": "H5414" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " to his neighbour:", "strong": "H7453" },
+      { "text": " and this", "strong": "H2063" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " a testimony", "strong": "H8584" },
       { "text": " in Israel.", "strong": "H3478" }
     ]
   },
@@ -2147,23 +1872,13 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      {
-        "text": "Therefore the kinsman",
-        "strong": "H1350",
-        "morph": "QalActPtc"
-      },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": "Therefore the kinsman", "strong": "H1350" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto Boaz,", "strong": "H1162" },
-      { "text": " Buy", "strong": "H7069", "morph": "QalImpv" },
-      {
-        "content": [
-          " ",
-          { "text": "it", "marks": ["i"] },
-          " for thee. So he drew off"
-        ],
-        "strong": "H8025",
-        "morph": "QalImpf"
-      },
+      { "text": " Buy", "strong": "H7069" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " for thee. So he drew off", "strong": "H8025" },
       { "text": " his shoe.", "strong": "H5275" }
     ]
   },
@@ -2173,38 +1888,31 @@
     "verse": 9,
     "content": [
       { "text": "And Boaz", "strong": "H1162" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
+      { "text": " said", "strong": "H559" },
       { "text": " unto the elders,", "strong": "H2205" },
-      {
-        "content": [
-          " and ",
-          { "text": "unto", "marks": ["i"] },
-          " all the people,"
-        ],
-        "strong": "H5971"
-      },
-      {
-        "content": [" Ye ", { "text": "are", "marks": ["i"] }, " witnesses"],
-        "strong": "H5707"
-      },
+      " and ",
+      { "text": "unto", "marks": ["i"] },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the people,", "strong": "H5971" },
+      { "text": " Ye", "strong": "H859" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " witnesses", "strong": "H5707" },
       { "text": " this day,", "strong": "H3117" },
-      { "text": " that I have bought", "strong": "H7069", "morph": "QalPerf" },
-      {
-        "content": [
-          " all that ",
-          { "text": "was", "marks": ["i"] },
-          " Elimelech’s,"
-        ],
-        "strong": "H458"
-      },
-      {
-        "content": [
-          " and all that ",
-          { "text": "was", "marks": ["i"] },
-          " Chilion’s"
-        ],
-        "strong": "H3630"
-      },
+      { "text": " that", "strong": "H3588" },
+      { "text": " I have bought", "strong": "H7069" },
+      { "strong": "H853" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Elimelech’s,", "strong": "H458" },
+      { "strong": "H853" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Chilion’s", "strong": "H3630" },
       { "text": " and Mahlon’s,", "strong": "H4248" },
       { "text": " of the hand", "strong": "H3027" },
       { "text": " of Naomi.", "strong": "H5281" }
@@ -2215,27 +1923,32 @@
     "chapter": 4,
     "verse": 10,
     "content": [
-      { "text": "Moreover Ruth", "strong": "H7327" },
+      { "text": "Moreover", "strong": "H1571" },
+      { "strong": "H853" },
+      { "text": " Ruth", "strong": "H7327" },
       { "text": " the Moabitess,", "strong": "H4125" },
       { "text": " the wife", "strong": "H802" },
       { "text": " of Mahlon,", "strong": "H4248" },
-      { "text": " have I purchased", "strong": "H7069", "morph": "QalPerf" },
+      { "text": " have I purchased", "strong": "H7069" },
       { "text": " to be my wife,", "strong": "H802" },
-      { "text": " to raise up", "strong": "H6965", "morph": "HiphInf" },
+      { "text": " to raise up", "strong": "H6965" },
       { "text": " the name", "strong": "H8034" },
-      { "text": " of the dead", "strong": "H4191", "morph": "QalPtc" },
-      { "text": " upon his inheritance,", "strong": "H5159" },
+      { "text": " of the dead", "strong": "H4191" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " his inheritance,", "strong": "H5159" },
       { "text": " that the name", "strong": "H8034" },
-      { "text": " of the dead", "strong": "H4191", "morph": "QalPtc" },
-      { "text": " be not cut off", "strong": "H3772", "morph": "NiphImpf" },
+      { "text": " of the dead", "strong": "H4191" },
+      { "text": " be", "strong": "H3772" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " cut off", "strong": "H3772" },
       { "text": " from among", "strong": "H5973" },
       { "text": " his brethren,", "strong": "H251" },
       { "text": " and from the gate", "strong": "H8179" },
       { "text": " of his place:", "strong": "H4725" },
-      {
-        "content": [" ye ", { "text": "are", "marks": ["i"] }, " witnesses"],
-        "strong": "H5707"
-      },
+      { "text": " ye", "strong": "H859" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " witnesses", "strong": "H5707" },
       { "text": " this day.", "strong": "H3117" }
     ]
   },
@@ -2244,38 +1957,36 @@
     "chapter": 4,
     "verse": 11,
     "content": [
-      { "text": "And all the people", "strong": "H5971" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " in the gate,"
-        ],
-        "strong": "H8179"
-      },
+      { "text": "And all", "strong": "H3605" },
+      { "text": " the people", "strong": "H5971" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in the gate,", "strong": "H8179" },
       { "text": " and the elders,", "strong": "H2205" },
-      { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      {
-        "content": [" ", { "text": "We are", "marks": ["i"] }, " witnesses."],
-        "strong": "H5707"
-      },
-      {
-        "content": [" The ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " make", "strong": "H5414", "morph": "QalImpf" },
+      { "text": " said,", "strong": "H559" },
+      " ",
+      { "text": "We are", "marks": ["i"] },
+      { "text": " witnesses.", "strong": "H5707" },
+      " The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "strong": "H853" },
+      { "text": " make", "strong": "H5414" },
       { "text": " the woman", "strong": "H802" },
-      { "text": " that is come", "strong": "H935", "morph": "QalActPtc" },
-      { "text": " into thine house", "strong": "H1004" },
+      { "text": " that is come", "strong": "H935" },
+      { "text": " into", "strong": "H413" },
+      { "text": " thine house", "strong": "H1004" },
       { "text": " like Rachel", "strong": "H7354" },
       { "text": " and like Leah,", "strong": "H3812" },
-      { "text": " which two", "strong": "H8147" },
-      { "text": " did build", "strong": "H1129", "morph": "QalPerf" },
+      { "text": " which", "strong": "H834" },
+      { "text": " two", "strong": "H8147" },
+      { "strong": "H853" },
+      { "text": " did build", "strong": "H1129" },
       { "text": " the house", "strong": "H1004" },
       { "text": " of Israel:", "strong": "H3478" },
-      { "text": " and do", "strong": "H6213", "morph": "QalImpv" },
+      { "text": " and do thou", "strong": "H6213" },
       {
-        "text": " thou worthily",
+        "text": " worthily",
         "foot": {
           "type": "trn",
           "content": [
@@ -2294,8 +2005,7 @@
           "type": "trn",
           "content": ["Heb. ", { "text": "proclaim thy name", "marks": ["i"] }]
         },
-        "strong": "H7121",
-        "morph": "QalImpv"
+        "strong": "H7121"
       },
       { "strong": "H8034" },
       { "text": " in Beth-lehem:", "strong": "H1035" }
@@ -2306,19 +2016,24 @@
     "chapter": 4,
     "verse": 12,
     "content": [
-      { "text": "and let thy house", "strong": "H1004" },
-      { "text": " be like the house", "strong": "H1004" },
+      { "text": "and let", "strong": "H1961" },
+      { "text": " thy house", "strong": "H1004" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " like the house", "strong": "H1004" },
       { "text": " of Pharez,", "strong": "H6557" },
-      { "text": " whom Tamar", "strong": "H8559" },
-      { "text": " bare", "strong": "H3205", "morph": "QalPerf" },
+      { "text": " whom", "strong": "H834" },
+      { "text": " Tamar", "strong": "H8559" },
+      { "text": " bare", "strong": "H3205" },
       { "text": " unto Judah,", "strong": "H3063" },
-      { "text": " of the seed", "strong": "H2233" },
-      {
-        "content": [" which the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " shall give", "strong": "H5414", "morph": "QalImpf" },
-      { "text": " thee of this young woman.", "strong": "H5291" }
+      { "text": " of", "strong": "H4480" },
+      { "text": " the seed", "strong": "H2233" },
+      { "text": " which", "strong": "H834" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " shall give", "strong": "H5414" },
+      { "text": " thee of", "strong": "H4480" },
+      { "text": " this", "strong": "H2063" },
+      { "text": " young woman.", "strong": "H5291" }
     ]
   },
   {
@@ -2327,17 +2042,18 @@
     "verse": 13,
     "content": [
       { "paragraph": true, "text": "So Boaz", "strong": "H1162" },
-      { "text": " took", "strong": "H3947", "morph": "QalImpf" },
+      { "strong": "H853" },
+      { "text": " took", "strong": "H3947" },
       { "text": " Ruth,", "strong": "H7327" },
-      { "text": " and she was his wife:", "strong": "H802" },
-      { "text": " and when he went in", "strong": "H935", "morph": "QalImpf" },
-      {
-        "content": [" unto her, the ", { "text": "Lord", "marks": ["sc"] }],
-        "strong": "H3068"
-      },
-      { "text": " gave", "strong": "H5414", "morph": "QalImpf" },
+      { "text": " and she was", "strong": "H1961" },
+      { "text": " his wife:", "strong": "H802" },
+      { "text": " and when he went in", "strong": "H935" },
+      { "text": " unto her,", "strong": "H413" },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "text": " gave", "strong": "H5414" },
       { "text": " her conception,", "strong": "H2032" },
-      { "text": " and she bare", "strong": "H3205", "morph": "QalImpf" },
+      { "text": " and she bare", "strong": "H3205" },
       { "text": " a son.", "strong": "H1121" }
     ]
   },
@@ -2347,51 +2063,41 @@
     "verse": 14,
     "content": [
       { "text": "And the women", "strong": "H802" },
-      { "text": " said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " unto Naomi,", "strong": "H5281" },
-      { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
+      { "text": " said", "strong": "H559" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " Naomi,", "strong": "H5281" },
+      { "text": " Blessed", "strong": "H1288" },
+      " ",
+      { "text": "be", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "be", "marks": ["i"] },
-          " the ",
-          { "text": "Lord", "marks": ["sc"] },
-          ","
-        ],
+        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
+      { "text": " which", "strong": "H834" },
+      { "text": " hath", "strong": "H7673" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " left", "strong": "H7673" },
       {
-        "text": " which hath not left",
-        "strong": "H7673",
-        "morph": "HiphPerf"
+        "text": " thee",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "caused to cease unto thee", "marks": ["i"] }
+          ]
+        }
       },
-      {
-        "content": [
-          {
-            "text": " thee",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "caused to cease unto thee", "marks": ["i"] }
-              ]
-            }
-          },
-          " this day"
-        ],
-        "strong": "H3117"
-      },
+      { "text": " this day", "strong": "H3117" },
       {
         "text": " without a kinsman,",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "redeemer", "marks": ["i"] }]
         },
-        "strong": "H1350",
-        "morph": "QalActPtc"
+        "strong": "H1350"
       },
       { "text": " that his name", "strong": "H8034" },
-      { "text": " may be famous", "strong": "H7121", "morph": "NiphImpf" },
+      { "text": " may be famous", "strong": "H7121" },
       { "text": " in Israel.", "strong": "H3478" }
     ]
   },
@@ -2400,24 +2106,21 @@
     "chapter": 4,
     "verse": 15,
     "content": [
-      {
-        "text": "And he shall be unto thee a restorer",
-        "strong": "H7725",
-        "morph": "HiphPtc"
-      },
-      {
-        "content": [" of ", { "text": "thy", "marks": ["i"] }, " life,"],
-        "strong": "H5315"
-      },
+      { "text": "And he shall be", "strong": "H1961" },
+      { "text": " unto thee a restorer", "strong": "H7725" },
+      { "text": " of", "strong": "H5315" },
+      " ",
+      { "text": "thy", "marks": ["i"] },
+      { "text": " life,", "strong": "H5315" },
       {
         "text": " and a nourisher",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "to nourish", "marks": ["i"] }]
         },
-        "strong": "H3557",
-        "morph": "PilpInf"
+        "strong": "H3557"
       },
+      { "strong": "H853" },
       {
         "text": " of thine old age:",
         "foot": {
@@ -2426,13 +2129,16 @@
         },
         "strong": "H7872"
       },
-      { "text": " for thy daughter in law,", "strong": "H3618" },
-      { "text": " which loveth", "strong": "H157", "morph": "QalPerf" },
-      { "text": " thee, which is better", "strong": "H2896" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " thy daughter in law,", "strong": "H3618" },
+      { "text": " which", "strong": "H834" },
+      { "text": " loveth thee,", "strong": "H157" },
+      { "text": " which", "strong": "H834" },
+      { "text": " is", "strong": "H1931" },
+      { "text": " better", "strong": "H2896" },
       { "text": " to thee than seven", "strong": "H7651" },
       { "text": " sons,", "strong": "H1121" },
-      { "text": " hath born", "strong": "H3205", "morph": "QalPerf" },
-      " him."
+      { "text": " hath born him.", "strong": "H3205" }
     ]
   },
   {
@@ -2441,11 +2147,13 @@
     "verse": 16,
     "content": [
       { "text": "And Naomi", "strong": "H5281" },
-      { "text": " took", "strong": "H3947", "morph": "QalImpf" },
+      { "strong": "H853" },
+      { "text": " took", "strong": "H3947" },
       { "text": " the child,", "strong": "H3206" },
-      { "text": " and laid", "strong": "H7896", "morph": "QalImpf" },
-      { "text": " it in her bosom,", "strong": "H2436" },
-      { "text": " and became nurse", "strong": "H539", "morph": "QalActPtc" },
+      { "text": " and laid it", "strong": "H7896" },
+      { "text": " in her bosom,", "strong": "H2436" },
+      { "text": " and became", "strong": "H1961" },
+      { "text": " nurse", "strong": "H539" },
       " unto it."
     ]
   },
@@ -2455,19 +2163,19 @@
     "verse": 17,
     "content": [
       { "text": "And the women her neighbours", "strong": "H7934" },
-      { "text": " gave", "strong": "H7121", "morph": "QalImpf" },
+      { "text": " gave", "strong": "H7121" },
       { "text": " it a name,", "strong": "H8034" },
-      { "text": " saying,", "strong": "H559", "morph": "QalInf" },
+      { "text": " saying,", "strong": "H559" },
       { "text": " There is a son", "strong": "H1121" },
-      { "text": " born", "strong": "H3205", "morph": "PualPerf" },
+      { "text": " born", "strong": "H3205" },
       { "text": " to Naomi;", "strong": "H5281" },
-      { "text": " and they called", "strong": "H7121", "morph": "QalImpf" },
+      { "text": " and they called", "strong": "H7121" },
       { "text": " his name", "strong": "H8034" },
       { "text": " Obed:", "strong": "H5744" },
-      {
-        "content": [" he ", { "text": "is", "marks": ["i"] }, " the father"],
-        "strong": "H1"
-      },
+      { "text": " he", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the father", "strong": "H1" },
       { "text": " of Jesse,", "strong": "H3448" },
       { "text": " the father", "strong": "H1" },
       { "text": " of David.", "strong": "H1732" }
@@ -2478,18 +2186,14 @@
     "chapter": 4,
     "verse": 18,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "Now these ",
-          { "text": "are", "marks": ["i"] },
-          " the generations"
-        ],
-        "strong": "H8435"
-      },
+      { "paragraph": true, "text": "Now these", "strong": "H428" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " the generations", "strong": "H8435" },
       { "text": " of Pharez:", "strong": "H6557" },
       { "text": " Pharez", "strong": "H6557" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Hezron,", "strong": "H2696" }
     ]
   },
@@ -2499,10 +2203,12 @@
     "verse": 19,
     "content": [
       { "text": "and Hezron", "strong": "H2696" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Ram,", "strong": "H7410" },
       { "text": " and Ram", "strong": "H7410" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Amminadab,", "strong": "H5992" }
     ]
   },
@@ -2512,10 +2218,12 @@
     "verse": 20,
     "content": [
       { "text": "and Amminadab", "strong": "H5992" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Nahshon,", "strong": "H5177" },
       { "text": " and Nahshon", "strong": "H5177" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       {
         "text": " Salmon,",
         "foot": {
@@ -2532,10 +2240,12 @@
     "verse": 21,
     "content": [
       { "text": "and Salmon", "strong": "H8012" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Boaz,", "strong": "H1162" },
       { "text": " and Boaz", "strong": "H1162" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Obed,", "strong": "H5744" }
     ]
   },
@@ -2545,10 +2255,12 @@
     "verse": 22,
     "content": [
       { "text": "and Obed", "strong": "H5744" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " Jesse,", "strong": "H3448" },
       { "text": " and Jesse", "strong": "H3448" },
-      { "text": " begat", "strong": "H3205", "morph": "HiphPerf" },
+      { "text": " begat", "strong": "H3205" },
+      { "strong": "H853" },
       { "text": " David.", "strong": "H1732" }
     ]
   }

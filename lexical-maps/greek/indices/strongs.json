@@ -143,6 +143,7 @@
     { "n": "G2046", "root": "λέγω", "requires": ["plup"] },
     { "n": "G3004", "root": "λέγω", "requires": ["pres"] },
     { "n": "G3004", "root": "λέγω", "requires": ["impf"] },
+    { "n": "G3004", "root": "λέγω", "spelling": "λεχθέντα" },
     { "n": "G2903", "root": "κρείσσων", "requires": ["adj", "super"] },
     { "n": "G1646", "root": "ἐλάσσων", "requires": ["adj", "super"] },
     {
@@ -173,16 +174,16 @@
       "reason": "sense split: the genitive Ἰούδα is the territory at Matthew 2:6, Luke 1:39, Hebrews 7:14, Hebrews 8:8 and Revelation 5:5, 7:5, and a person at Mark 6:3, Luke 3:26, 3:30, 3:33, John 13:2, Acts 1:16 and 9:11, on one parse"
     },
     {
+      "n": "G3018",
+      "reason": "sense split: the indeclinable Λευΐ is Levi the tax collector at Mark 2:14 but a son of Jacob or an ancestor of Jesus at Luke 3:24, 3:29, Hebrews 7:5, 7:9 and Revelation 7:7, on one parse"
+    },
+    {
       "n": "G3112",
       "reason": "sense split: the feminine accusative μακράν is the adverb \"afar off\" at Acts 2:39 but an ordinary adjective in \"a far country\" at Luke 15:13 and 19:12"
     },
     {
       "n": "G2117",
       "reason": "the corpus files the adverbial εὐθύς under the adjective εὐθύς, whose own number this already is, so no rule is needed"
-    },
-    {
-      "n": "G686",
-      "reason": "sense split: ἄρα spelled and parsed alike is the interrogative ἆρα in thirteen places and the inferential particle in the three \"εἰ ἄρα\" clauses"
     },
     {
       "n": "G2077",

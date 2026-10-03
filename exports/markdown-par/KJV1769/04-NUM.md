@@ -593,9 +593,11 @@
 
 ## Chapter 11
 
+<sup>1</sup>
+
 ### Discontent
 
-<sup>1</sup> And _when_ the people complained,<sup>a</sup> it displeased the<sup>b</sup> LORD: and the LORD heard _it_; and his anger was kindled; and the fire of the LORD burnt among them, and consumed _them that were_ in the uttermost parts of the camp.
+And _when_ the people complained,<sup>a</sup> it displeased the<sup>b</sup> LORD: and the LORD heard _it_; and his anger was kindled; and the fire of the LORD burnt among them, and consumed _them that were_ in the uttermost parts of the camp.
 <sup>2</sup> And the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched.<sup>c</sup>
 <sup>3</sup> And he called the name of the place Taberah:<sup>d</sup> because the fire of the LORD burnt among them.
 
@@ -1251,7 +1253,7 @@ And from the wilderness _they went_ to Mattanah:
 <sup>14</sup> And now, behold, I go unto my people: come _therefore, and_ I will advertise thee what this people shall do to thy people in the latter days.
 <sup>15</sup> And he took up his parable, and said,<br>Balaam the son of Beor hath said,<br>And the man whose eyes are open hath said:<br>
 <sup>16</sup> He hath said, which heard the words of God,<br>And knew the knowledge of the Most High,<br>_Which_ saw the vision of the Almighty,<br>Falling _into a trance_, but having his eyes open:<br>
-<sup>17</sup> I shall see him, but not now:<br>I shall behold him, but not nigh:<br>There shall come a Star out of Jacob,<br>And a Sceptre shall rise out of Israel,<br>And shall smite the corners of Moab,<sup>c</sup><br>And destroy all the children of Sheth.<br>
+<sup>17</sup> I shall see him, but not now:<br>I shall behold him, but not nigh:<br>There shall come a Star out of Jacob,<br>And a Sceptre shall rise out of Israel,<br>And shall smite the corners of Moab,<sup>c</sup><br>And destroy all the children of Sheth.
 <sup>18</sup> And Edom shall be a possession,<br>Seir also shall be a possession for his enemies;<br>And Israel shall do valiantly.<br>
 <sup>19</sup> Out of Jacob shall come he that shall have dominion,<br>And shall destroy him that remaineth of the city.<br>
 

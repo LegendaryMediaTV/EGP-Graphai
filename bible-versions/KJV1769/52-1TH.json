@@ -9,26 +9,24 @@
       { "text": " Silvanus,", "strong": "G4610" },
       { "text": " and", "strong": "G2532" },
       { "text": " Timotheus,", "strong": "G5095" },
-      { "text": " unto the church", "strong": "G1577" },
+      { "text": " unto the", "strong": "G3588" },
+      { "text": " church", "strong": "G1577" },
       { "text": " of the Thessalonians", "strong": "G2331" },
-      {
-        "content": [" ", { "text": "which is", "marks": ["i"] }, " in"],
-        "strong": "G1722"
-      },
+      " ",
+      { "text": "which is", "marks": ["i"] },
+      { "text": " in", "strong": "G1722" },
       { "text": " God", "strong": "G2316" },
       { "text": " the Father", "strong": "G3962" },
       { "text": " and", "strong": "G2532" },
-      {
-        "content": [" ", { "text": "in", "marks": ["i"] }, " the Lord"],
-        "strong": "G2962"
-      },
+      " ",
+      { "text": "in", "marks": ["i"] },
+      { "text": " the Lord", "strong": "G2962" },
       { "text": " Jesus", "strong": "G2424" },
       { "text": " Christ:", "strong": "G5547" },
       { "text": " Grace", "strong": "G5485" },
-      {
-        "content": [" ", { "text": "be", "marks": ["i"] }, " unto you,"],
-        "strong": "G5213"
-      },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " unto you,", "strong": "G5213" },
       { "text": " and", "strong": "G2532" },
       { "text": " peace,", "strong": "G1515" },
       { "text": " from", "strong": "G575" },
@@ -47,18 +45,13 @@
     "verse": 2,
     "content": [
       { "heading": "Their Work of Faith" },
-      {
-        "paragraph": true,
-        "text": "We give thanks",
-        "strong": "G2168",
-        "morph": "PresActInd"
-      },
+      { "paragraph": true, "text": "We give thanks", "strong": "G2168" },
       { "text": " to God", "strong": "G2316" },
       { "text": " always", "strong": "G3842" },
       { "text": " for", "strong": "G4012" },
       { "text": " you", "strong": "G5216" },
       { "text": " all,", "strong": "G3956" },
-      { "text": " making", "strong": "G4160", "morph": "PresMidPtc" },
+      { "text": " making", "strong": "G4160" },
       { "text": " mention", "strong": "G3417" },
       { "text": " of you", "strong": "G5216" },
       { "text": " in", "strong": "G1909" },
@@ -71,7 +64,7 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      { "text": "remembering", "strong": "G3421", "morph": "PresActPtc" },
+      { "text": "remembering", "strong": "G3421" },
       { "text": " without ceasing", "strong": "G89" },
       { "text": " your", "strong": "G5216" },
       { "text": " work", "strong": "G2041" },
@@ -98,9 +91,9 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "text": "knowing,", "strong": "G1492", "morph": "PerfActPtc" },
+      { "text": "knowing,", "strong": "G1492" },
       { "text": " brethren", "strong": "G80" },
-      { "text": " beloved,", "strong": "G25", "morph": "PerfPasPtc" },
+      { "text": " beloved,", "strong": "G25" },
       { "text": " your", "strong": "G5216" },
       { "text": " election", "strong": "G1589" },
       { "text": " of", "strong": "G5259" },
@@ -125,7 +118,7 @@
       { "text": "For", "strong": "G3754" },
       { "text": " our", "strong": "G2257" },
       { "text": " gospel", "strong": "G2098" },
-      { "text": " came", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "text": " came", "strong": "G1096" },
       { "text": " not", "strong": "G3756" },
       { "text": " unto", "strong": "G1519" },
       { "text": " you", "strong": "G5209" },
@@ -145,14 +138,14 @@
       { "text": " much", "strong": "G4183" },
       { "text": " assurance;", "strong": "G4136" },
       { "text": " as", "strong": "G2531" },
-      { "text": " ye know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " ye know", "strong": "G1492" },
       { "text": " what manner of men", "strong": "G3634" },
-      { "text": " we were", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "text": " we were", "strong": "G1096" },
       { "text": " among", "strong": "G1722" },
       { "text": " you", "strong": "G5213" },
       { "text": " for", "strong": "G1223" },
       { "text": " your", "strong": "G5209" },
-      " sake."
+      { "text": " sake.", "strong": "G1223" }
     ]
   },
   {
@@ -162,17 +155,15 @@
     "content": [
       { "text": "And", "strong": "G2532" },
       { "text": " ye", "strong": "G5210" },
-      { "text": " became", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "text": " became", "strong": "G1096" },
       { "text": " followers", "strong": "G3402" },
       { "text": " of us,", "strong": "G2257" },
       { "text": " and", "strong": "G2532" },
-      { "text": " of the Lord,", "strong": "G2962" },
-      {
-        "text": " having received",
-        "strong": "G1209",
-        "morph": "AorMidDepPtc"
-      },
-      { "text": " the word", "strong": "G3056" },
+      { "text": " of the", "strong": "G3588" },
+      { "text": " Lord,", "strong": "G2962" },
+      { "text": " having received", "strong": "G1209" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " word", "strong": "G3056" },
       { "text": " in", "strong": "G1722" },
       { "text": " much", "strong": "G4183" },
       { "text": " affliction,", "strong": "G2347" },
@@ -187,12 +178,13 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      { "text": "so", "strong": "G5620" },
-      { "text": " that ye", "strong": "G5209" },
-      { "text": " were", "strong": "G1096", "morph": "Aor2MidDepInf" },
+      { "text": "so that", "strong": "G5620" },
+      { "text": " ye", "strong": "G5209" },
+      { "text": " were", "strong": "G1096" },
       { "text": " ensamples", "strong": "G5179" },
       { "text": " to all", "strong": "G3956" },
-      { "text": " that believe", "strong": "G4100", "morph": "PresActPtc" },
+      { "text": " that", "strong": "G3588" },
+      { "text": " believe", "strong": "G4100" },
       { "text": " in", "strong": "G1722" },
       { "text": " Macedonia", "strong": "G3109" },
       { "text": " and", "strong": "G2532" },
@@ -207,9 +199,11 @@
       { "text": "For", "strong": "G1063" },
       { "text": " from", "strong": "G575" },
       { "text": " you", "strong": "G5216" },
-      { "text": " sounded out", "strong": "G1837", "morph": "PerfPasInd" },
-      { "text": " the word", "strong": "G3056" },
-      { "text": " of the Lord", "strong": "G2962" },
+      { "text": " sounded out", "strong": "G1837" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " word", "strong": "G3056" },
+      { "text": " of the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " not", "strong": "G3756" },
       { "text": " only", "strong": "G3440" },
       { "text": " in", "strong": "G1722" },
@@ -225,17 +219,13 @@
       { "text": " faith", "strong": "G4102" },
       { "text": " to", "strong": "G4314" },
       { "text": " God-ward", "strong": "G2316" },
-      {
-        "text": " is spread abroad;",
-        "strong": "G1831",
-        "morph": "PerfActInd"
-      },
-      { "text": " so", "strong": "G5620" },
-      { "text": " that we", "strong": "G2248" },
+      { "text": " is spread abroad;", "strong": "G1831" },
+      { "text": " so that", "strong": "G5620" },
+      { "text": " we", "strong": "G2248" },
       { "text": " need", "strong": "G5532" },
+      { "strong": "G2192" },
       { "text": " not", "strong": "G3361" },
-      { "strong": "G2192", "morph": "PresActInf" },
-      { "text": " to speak", "strong": "G2980", "morph": "PresActInf" },
+      { "text": " to speak", "strong": "G2980" },
       { "text": " any thing.", "strong": "G5100" }
     ]
   },
@@ -245,26 +235,24 @@
     "verse": 9,
     "content": [
       { "text": "For", "strong": "G1063" },
-      { "text": " they", "strong": "G518" },
-      { "text": " themselves", "strong": "G846" },
-      { "text": " shew", "strong": "G518", "morph": "PresActInd" },
+      { "text": " they themselves", "strong": "G846" },
+      { "text": " shew", "strong": "G518" },
       { "text": " of", "strong": "G4012" },
       { "text": " us", "strong": "G2257" },
       { "text": " what manner", "strong": "G3697" },
       { "text": " of entering in", "strong": "G1529" },
-      { "text": " we had", "strong": "G2192", "morph": "PresActInd" },
-      { "strong": "G2192", "morph": "Aor2ActInd" },
+      { "text": " we had", "strong": "G2192" },
       { "text": " unto", "strong": "G4314" },
       { "text": " you,", "strong": "G5209" },
       { "text": " and", "strong": "G2532" },
       { "text": " how", "strong": "G4459" },
-      { "text": " ye turned", "strong": "G1994", "morph": "AorActInd" },
+      { "text": " ye turned", "strong": "G1994" },
       { "text": " to", "strong": "G4314" },
       { "text": " God", "strong": "G2316" },
       { "text": " from", "strong": "G575" },
       { "text": " idols", "strong": "G1497" },
-      { "text": " to serve", "strong": "G1398", "morph": "PresActInf" },
-      { "text": " the living", "strong": "G2198", "morph": "PresActPtc" },
+      { "text": " to serve", "strong": "G1398" },
+      { "text": " the living", "strong": "G2198" },
       { "text": " and", "strong": "G2532" },
       { "text": " true", "strong": "G228" },
       { "text": " God;", "strong": "G2316" }
@@ -276,25 +264,25 @@
     "verse": 10,
     "content": [
       { "text": "and", "strong": "G2532" },
-      { "text": " to wait for", "strong": "G362", "morph": "PresActInf" },
+      { "text": " to wait for", "strong": "G362" },
       { "text": " his", "strong": "G846" },
       { "text": " Son", "strong": "G5207" },
       { "text": " from", "strong": "G1537" },
       { "text": " heaven,", "strong": "G3772" },
       { "text": " whom", "strong": "G3739" },
-      { "text": " he raised", "strong": "G1453", "morph": "AorActInd" },
+      { "text": " he raised", "strong": "G1453" },
       { "text": " from", "strong": "G1537" },
       { "text": " the dead,", "strong": "G3498" },
-      {
-        "content": [" ", { "text": "even", "marks": ["i"] }, " Jesus,"],
-        "strong": "G2424"
-      },
+      " ",
+      { "text": "even", "marks": ["i"] },
+      { "text": " Jesus,", "strong": "G2424" },
       { "text": " which", "strong": "G3588" },
-      { "text": " delivered", "strong": "G4506", "morph": "PresMidPasDepPtc" },
+      { "text": " delivered", "strong": "G4506" },
       { "text": " us", "strong": "G2248" },
       { "text": " from", "strong": "G575" },
-      { "text": " the wrath", "strong": "G3709" },
-      { "text": " to come.", "strong": "G2064", "morph": "PresMidPasDepPtc" }
+      { "text": " the", "strong": "G3588" },
+      { "text": " wrath", "strong": "G3709" },
+      { "text": " to come.", "strong": "G2064" }
     ]
   },
   {
@@ -306,13 +294,13 @@
       { "paragraph": true, "text": "For", "strong": "G1063" },
       { "text": " yourselves,", "strong": "G846" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " know", "strong": "G1492" },
       { "text": " our", "strong": "G2257" },
       { "text": " entrance in", "strong": "G1529" },
       { "text": " unto", "strong": "G4314" },
       { "text": " you,", "strong": "G5209" },
       { "text": " that", "strong": "G3754" },
-      { "text": " it was", "strong": "G1096", "morph": "Perf2ActInd" },
+      { "text": " it was", "strong": "G1096" },
       { "text": " not", "strong": "G3756" },
       { "text": " in vain:", "strong": "G2756" }
     ]
@@ -324,29 +312,22 @@
     "content": [
       { "text": "but", "strong": "G235" },
       { "text": " even", "strong": "G2532" },
-      {
-        "text": " after that we had suffered before,",
-        "strong": "G4310",
-        "morph": "Aor2ActPtc"
-      },
+      { "text": " after that we had suffered before,", "strong": "G4310" },
       { "text": " and", "strong": "G2532" },
-      {
-        "text": " were shamefully entreated,",
-        "strong": "G5195",
-        "morph": "AorPasPtc"
-      },
+      { "text": " were shamefully entreated,", "strong": "G5195" },
       { "text": " as", "strong": "G2531" },
-      { "text": " ye know,", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " ye know,", "strong": "G1492" },
       { "text": " at", "strong": "G1722" },
       { "text": " Philippi,", "strong": "G5375" },
-      { "text": " we were bold", "strong": "G3955", "morph": "AorMidDepInd" },
+      { "text": " we were bold", "strong": "G3955" },
       { "text": " in", "strong": "G1722" },
       { "text": " our", "strong": "G2257" },
       { "text": " God", "strong": "G2316" },
-      { "text": " to speak", "strong": "G2980", "morph": "AorActInf" },
+      { "text": " to speak", "strong": "G2980" },
       { "text": " unto", "strong": "G4314" },
       { "text": " you", "strong": "G5209" },
-      { "text": " the gospel", "strong": "G2098" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " gospel", "strong": "G2098" },
       { "text": " of God", "strong": "G2316" },
       { "text": " with", "strong": "G1722" },
       { "text": " much", "strong": "G4183" },
@@ -361,10 +342,9 @@
       { "text": "For", "strong": "G1063" },
       { "text": " our", "strong": "G2257" },
       { "text": " exhortation", "strong": "G3874" },
-      {
-        "content": [" ", { "text": "was", "marks": ["i"] }, " not"],
-        "strong": "G3756"
-      },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " not", "strong": "G3756" },
       { "text": " of", "strong": "G1537" },
       { "text": " deceit,", "strong": "G4106" },
       { "text": " nor", "strong": "G3761" },
@@ -382,24 +362,22 @@
     "content": [
       { "text": "but", "strong": "G235" },
       { "text": " as", "strong": "G2531" },
-      { "text": " we were allowed", "strong": "G1381", "morph": "PerfPasInd" },
+      { "text": " we were allowed", "strong": "G1381" },
       { "text": " of", "strong": "G5259" },
       { "text": " God", "strong": "G2316" },
-      {
-        "text": " to be put in trust",
-        "strong": "G4100",
-        "morph": "AorPasInf"
-      },
-      { "text": " with the gospel,", "strong": "G2098" },
+      { "text": " to be put in trust", "strong": "G4100" },
+      { "text": " with the", "strong": "G3588" },
+      { "text": " gospel,", "strong": "G2098" },
       { "text": " even so", "strong": "G3779" },
-      { "text": " we speak;", "strong": "G2980", "morph": "PresActInd" },
+      { "text": " we speak;", "strong": "G2980" },
       { "text": " not", "strong": "G3756" },
       { "text": " as", "strong": "G5613" },
-      { "text": " pleasing", "strong": "G700", "morph": "PresActPtc" },
+      { "text": " pleasing", "strong": "G700" },
       { "text": " men,", "strong": "G444" },
       { "text": " but", "strong": "G235" },
       { "text": " God,", "strong": "G2316" },
-      { "text": " which trieth", "strong": "G1381", "morph": "PresActPtc" },
+      { "text": " which", "strong": "G3588" },
+      { "text": " trieth", "strong": "G1381" },
       { "text": " our", "strong": "G2257" },
       { "text": " hearts.", "strong": "G2588" }
     ]
@@ -412,21 +390,20 @@
       { "text": "For", "strong": "G1063" },
       { "text": " neither", "strong": "G3777" },
       { "text": " at any time", "strong": "G4218" },
-      { "text": " used we", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "strong": "G1722" },
+      { "text": " used we", "strong": "G1096" },
       { "text": " flattering", "strong": "G2850" },
-      { "text": " words,", "strong": "G1722" },
-      { "strong": "G3056" },
+      { "text": " words,", "strong": "G3056" },
       { "text": " as", "strong": "G2531" },
-      { "text": " ye know,", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " ye know,", "strong": "G1492" },
       { "text": " nor", "strong": "G3777" },
-      { "text": " a cloke", "strong": "G1722" },
-      { "strong": "G4392" },
+      { "strong": "G1722" },
+      { "text": " a cloke", "strong": "G4392" },
       { "text": " of covetousness;", "strong": "G4124" },
       { "text": " God", "strong": "G2316" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " witness:"],
-        "strong": "G3144"
-      }
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " witness:", "strong": "G3144" }
     ]
   },
   {
@@ -437,23 +414,19 @@
       { "text": "nor", "strong": "G3777" },
       { "text": " of", "strong": "G1537" },
       { "text": " men", "strong": "G444" },
-      { "text": " sought", "strong": "G2212", "morph": "PresActPtc" },
-      { "text": " we glory,", "strong": "G1391" },
+      { "text": " sought", "strong": "G2212" },
+      { "text": " we", "strong": "G2212" },
+      { "text": " glory,", "strong": "G1391" },
       { "text": " neither", "strong": "G3777" },
       { "text": " of", "strong": "G575" },
       { "text": " you,", "strong": "G5216" },
       { "text": " nor", "strong": "G3777" },
-      {
-        "content": [" ", { "text": "yet", "marks": ["i"] }, " of"],
-        "strong": "G575"
-      },
+      " ",
+      { "text": "yet", "marks": ["i"] },
+      { "text": " of", "strong": "G575" },
       { "text": " others,", "strong": "G243" },
-      {
-        "text": " when we might",
-        "strong": "G1410",
-        "morph": "PresMidPasDepPtc"
-      },
-      { "text": " have been", "strong": "G1511", "morph": "PresInf" },
+      { "text": " when we might", "strong": "G1410" },
+      { "text": " have been", "strong": "G1511" },
       {
         "text": " burdensome,",
         "foot": {
@@ -474,15 +447,15 @@
     "verse": 7,
     "content": [
       { "text": "But", "strong": "G235" },
-      { "text": " we were", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "text": " we were", "strong": "G1096" },
       { "text": " gentle", "strong": "G2261" },
       { "text": " among", "strong": "G1722" },
       { "strong": "G3319" },
       { "text": " you,", "strong": "G5216" },
       { "text": " even as", "strong": "G5613" },
+      { "strong": "G302" },
       { "text": " a nurse", "strong": "G5162" },
-      { "text": " cherisheth", "strong": "G302" },
-      { "strong": "G2282", "morph": "PresActSubj" },
+      { "text": " cherisheth", "strong": "G2282" },
       { "text": " her", "strong": "G1438" },
       { "text": " children:", "strong": "G5043" }
     ]
@@ -493,17 +466,14 @@
     "verse": 8,
     "content": [
       { "text": "so", "strong": "G3779" },
-      {
-        "text": " being affectionately desirous",
-        "strong": "G2442",
-        "morph": "PresMidPtc"
-      },
+      { "text": " being affectionately desirous", "strong": "G2442" },
       { "text": " of you,", "strong": "G5216" },
-      { "text": " we were willing", "strong": "G2106", "morph": "ImpfActInd" },
-      { "text": " to have imparted", "strong": "G3330", "morph": "Aor2ActInf" },
+      { "text": " we were willing", "strong": "G2106" },
+      { "text": " to have imparted", "strong": "G3330" },
       { "text": " unto you,", "strong": "G5213" },
       { "text": " not", "strong": "G3756" },
-      { "text": " the gospel", "strong": "G2098" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " gospel", "strong": "G2098" },
       { "text": " of God", "strong": "G2316" },
       { "text": " only,", "strong": "G3440" },
       { "text": " but", "strong": "G235" },
@@ -511,7 +481,7 @@
       { "text": " our own", "strong": "G1438" },
       { "text": " souls,", "strong": "G5590" },
       { "text": " because", "strong": "G1360" },
-      { "text": " ye were", "strong": "G1096", "morph": "PerfPasInd" },
+      { "text": " ye were", "strong": "G1096" },
       { "text": " dear", "strong": "G27" },
       { "text": " unto us.", "strong": "G2254" }
     ]
@@ -522,27 +492,28 @@
     "verse": 9,
     "content": [
       { "text": "For", "strong": "G1063" },
-      { "text": " ye remember,", "strong": "G3421", "morph": "PresActInd" },
+      { "text": " ye remember,", "strong": "G3421" },
       { "text": " brethren,", "strong": "G80" },
       { "text": " our", "strong": "G2257" },
       { "text": " labour", "strong": "G2873" },
       { "text": " and", "strong": "G2532" },
       { "text": " travail:", "strong": "G3449" },
       { "text": " for", "strong": "G1063" },
-      { "text": " labouring", "strong": "G2038", "morph": "PresMidPasDepPtc" },
+      { "text": " labouring", "strong": "G2038" },
       { "text": " night", "strong": "G3571" },
       { "text": " and", "strong": "G2532" },
       { "text": " day,", "strong": "G2250" },
       { "text": " because", "strong": "G4314" },
       { "text": " we would", "strong": "G1912" },
       { "text": " not", "strong": "G3361" },
-      { "text": " be chargeable", "strong": "G1912", "morph": "AorActInf" },
+      { "text": " be chargeable", "strong": "G1912" },
       { "text": " unto any", "strong": "G5100" },
       { "text": " of you,", "strong": "G5216" },
-      { "text": " we preached", "strong": "G2784", "morph": "AorActInd" },
+      { "text": " we preached", "strong": "G2784" },
       { "text": " unto", "strong": "G1519" },
       { "text": " you", "strong": "G5209" },
-      { "text": " the gospel", "strong": "G2098" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " gospel", "strong": "G2098" },
       { "text": " of God.", "strong": "G2316" }
     ]
   },
@@ -552,28 +523,23 @@
     "verse": 10,
     "content": [
       { "text": "Ye", "strong": "G5210" },
-      {
-        "content": [" ", { "text": "are", "marks": ["i"] }, " witnesses,"],
-        "strong": "G3144"
-      },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " witnesses,", "strong": "G3144" },
       { "text": " and", "strong": "G2532" },
       { "text": " God", "strong": "G2316" },
-      {
-        "content": [" ", { "text": "also", "marks": ["i"] }, ", how"],
-        "strong": "G5613"
-      },
+      " ",
+      { "text": "also", "marks": ["i"] },
+      { "text": ", how", "strong": "G5613" },
       { "text": " holily", "strong": "G3743" },
       { "text": " and", "strong": "G2532" },
       { "text": " justly", "strong": "G1346" },
       { "text": " and", "strong": "G2532" },
       { "text": " unblameably", "strong": "G274" },
-      {
-        "text": " we behaved ourselves",
-        "strong": "G1096",
-        "morph": "AorPasDepInd"
-      },
+      { "text": " we behaved ourselves", "strong": "G1096" },
       { "text": " among you", "strong": "G5213" },
-      { "text": " that believe:", "strong": "G4100", "morph": "PresActPtc" }
+      { "text": " that", "strong": "G3588" },
+      { "text": " believe:", "strong": "G4100" }
     ]
   },
   {
@@ -582,23 +548,23 @@
     "verse": 11,
     "content": [
       { "text": "as", "strong": "G2509" },
-      { "text": " ye know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " ye know", "strong": "G1492" },
       { "text": " how", "strong": "G5613" },
-      { "text": " we exhorted", "strong": "G3870", "morph": "PresActPtc" },
+      { "text": " we exhorted", "strong": "G3870" },
       { "text": " and", "strong": "G2532" },
-      { "text": " comforted", "strong": "G3888", "morph": "PresMidPasDepPtc" },
-      { "text": " and charged", "strong": "G3140", "morph": "PresMidPtc" },
+      { "text": " comforted", "strong": "G3888" },
+      { "text": " and", "strong": "G2532" },
+      { "text": " charged", "strong": "G3140" },
       { "text": " every", "strong": "G1538" },
       { "text": " one", "strong": "G1520" },
-      { "text": " of you,", "strong": "G5209" },
-      { "strong": "G5216" },
+      { "text": " of you,", "strong": "G5216" },
       { "text": " as", "strong": "G5613" },
       { "text": " a father", "strong": "G3962" },
-      {
-        "content": [" ", { "text": "doth", "marks": ["i"] }, " his"],
-        "strong": "G1438"
-      },
-      { "text": " children,", "strong": "G5043" }
+      " ",
+      { "text": "doth", "marks": ["i"] },
+      { "text": " his", "strong": "G1438" },
+      { "text": " children,", "strong": "G5043" },
+      { "strong": "G5209" }
     ]
   },
   {
@@ -606,13 +572,13 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      { "strong": "G2532" },
       { "text": "that", "strong": "G1519" },
       { "text": " ye", "strong": "G5209" },
-      { "text": " would walk", "strong": "G4043", "morph": "AorActInf" },
+      { "text": " would walk", "strong": "G4043" },
       { "text": " worthy", "strong": "G516" },
       { "text": " of God,", "strong": "G2316" },
-      { "text": " who hath called", "strong": "G2564", "morph": "PresActPtc" },
+      { "text": " who", "strong": "G3588" },
+      { "text": " hath called", "strong": "G2564" },
       { "text": " you", "strong": "G5209" },
       { "text": " unto", "strong": "G1519" },
       { "text": " his", "strong": "G1438" },
@@ -626,46 +592,42 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      { "paragraph": true, "text": "For this", "strong": "G5124" },
+      { "paragraph": true, "text": "For", "strong": "G1223" },
+      { "text": " this", "strong": "G5124" },
       { "text": " cause", "strong": "G1223" },
       { "text": " also", "strong": "G2532" },
-      { "text": " thank", "strong": "G2168", "morph": "PresActInd" },
+      { "text": " thank", "strong": "G2168" },
       { "text": " we", "strong": "G2249" },
       { "text": " God", "strong": "G2316" },
       { "text": " without ceasing,", "strong": "G89" },
       { "text": " because,", "strong": "G3754" },
-      { "text": " when ye received", "strong": "G3880", "morph": "Aor2ActPtc" },
+      { "text": " when ye received", "strong": "G3880" },
       { "text": " the word", "strong": "G3056" },
       { "text": " of God", "strong": "G2316" },
       { "text": " which ye heard", "strong": "G189" },
       { "text": " of", "strong": "G3844" },
       { "text": " us,", "strong": "G2257" },
-      { "text": " ye received", "strong": "G1209", "morph": "AorMidDepInd" },
-      {
-        "content": [" ", { "text": "it", "marks": ["i"] }, " not"],
-        "strong": "G3756"
-      },
-      {
-        "content": [" ", { "text": "as", "marks": ["i"] }, " the word"],
-        "strong": "G3056"
-      },
+      { "text": " ye received", "strong": "G1209" },
+      " ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " not", "strong": "G3756" },
+      " ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " the word", "strong": "G3056" },
       { "text": " of men,", "strong": "G444" },
       { "text": " but", "strong": "G235" },
       { "text": " as", "strong": "G2531" },
-      { "text": " it is", "strong": "G2076", "morph": "PresInd" },
+      { "text": " it is", "strong": "G2076" },
       { "text": " in truth,", "strong": "G230" },
       { "text": " the word", "strong": "G3056" },
       { "text": " of God,", "strong": "G2316" },
       { "text": " which", "strong": "G3739" },
-      {
-        "text": " effectually worketh",
-        "strong": "G1754",
-        "morph": "PresMidInd"
-      },
+      { "text": " effectually worketh", "strong": "G1754" },
       { "text": " also", "strong": "G2532" },
       { "text": " in", "strong": "G1722" },
       { "text": " you", "strong": "G5213" },
-      { "text": " that believe.", "strong": "G4100", "morph": "PresActPtc" }
+      { "text": " that", "strong": "G3588" },
+      { "text": " believe.", "strong": "G4100" }
     ]
   },
   {
@@ -676,33 +638,34 @@
       { "text": "For", "strong": "G1063" },
       { "text": " ye,", "strong": "G5210" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " became", "strong": "G1096", "morph": "AorPasDepInd" },
+      { "text": " became", "strong": "G1096" },
       { "text": " followers", "strong": "G3402" },
-      { "text": " of the churches", "strong": "G1577" },
+      { "text": " of the", "strong": "G3588" },
+      { "text": " churches", "strong": "G1577" },
       { "text": " of God", "strong": "G2316" },
       { "text": " which", "strong": "G3588" },
       { "text": " in", "strong": "G1722" },
       { "text": " Judæa", "strong": "G2449" },
-      { "text": " are", "strong": "G5607", "morph": "PresPtc" },
+      { "text": " are", "strong": "G5607" },
       { "text": " in", "strong": "G1722" },
       { "text": " Christ", "strong": "G5547" },
       { "text": " Jesus:", "strong": "G2424" },
       { "text": " for", "strong": "G3754" },
       { "text": " ye", "strong": "G5210" },
       { "text": " also", "strong": "G2532" },
-      { "text": " have suffered", "strong": "G3958", "morph": "Aor2ActInd" },
+      { "text": " have suffered", "strong": "G3958" },
       { "text": " like things", "strong": "G5024" },
       { "text": " of", "strong": "G5259" },
       { "text": " your own", "strong": "G2398" },
       { "text": " countrymen,", "strong": "G4853" },
       { "text": " even", "strong": "G2532" },
       { "text": " as", "strong": "G2531" },
-      {
-        "content": [" they ", { "text": "have", "marks": ["i"] }],
-        "strong": "G846"
-      },
+      { "text": " they", "strong": "G846" },
+      " ",
+      { "text": "have", "marks": ["i"] },
       { "text": " of", "strong": "G5259" },
-      { "text": " the Jews:", "strong": "G2453" }
+      { "text": " the", "strong": "G3588" },
+      { "text": " Jews:", "strong": "G2453" }
     ]
   },
   {
@@ -710,15 +673,18 @@
     "chapter": 2,
     "verse": 15,
     "content": [
-      { "text": "who both", "strong": "G2532" },
-      { "text": " killed", "strong": "G615", "morph": "AorActPtc" },
-      { "text": " the Lord", "strong": "G2962" },
+      { "text": "who", "strong": "G3588" },
+      { "text": " both", "strong": "G2532" },
+      { "text": " killed", "strong": "G615" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " Jesus,", "strong": "G2424" },
       { "text": " and", "strong": "G2532" },
-      { "text": " their own", "strong": "G2398" },
+      { "text": " their", "strong": "G3588" },
+      { "text": " own", "strong": "G2398" },
       { "text": " prophets,", "strong": "G4396" },
       { "text": " and", "strong": "G2532" },
-      { "text": " have persecuted", "strong": "G1559", "morph": "AorActPtc" },
+      { "text": " have persecuted", "strong": "G1559" },
       {
         "text": " us;",
         "foot": {
@@ -728,7 +694,7 @@
         "strong": "G2248"
       },
       { "text": " and", "strong": "G2532" },
-      { "text": " they please", "strong": "G700", "morph": "PresActPtc" },
+      { "text": " they please", "strong": "G700" },
       { "text": " not", "strong": "G3361" },
       { "text": " God,", "strong": "G2316" },
       { "text": " and", "strong": "G2532" },
@@ -742,24 +708,22 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      { "text": "forbidding", "strong": "G2967", "morph": "PresActPtc" },
+      { "text": "forbidding", "strong": "G2967" },
       { "text": " us", "strong": "G2248" },
-      { "text": " to speak", "strong": "G2980", "morph": "AorActInf" },
-      { "text": " to the Gentiles", "strong": "G1484" },
+      { "text": " to speak", "strong": "G2980" },
+      { "text": " to the", "strong": "G3588" },
+      { "text": " Gentiles", "strong": "G1484" },
       { "text": " that", "strong": "G2443" },
-      {
-        "text": " they might be saved,",
-        "strong": "G4982",
-        "morph": "AorPasSubj"
-      },
+      { "text": " they might be saved,", "strong": "G4982" },
       { "text": " to", "strong": "G1519" },
-      { "text": " fill up", "strong": "G378", "morph": "AorActInf" },
+      { "text": " fill up", "strong": "G378" },
       { "text": " their", "strong": "G846" },
       { "text": " sins", "strong": "G266" },
       { "text": " alway:", "strong": "G3842" },
       { "text": " for", "strong": "G1161" },
-      { "text": " the wrath", "strong": "G3709" },
-      { "text": " is come", "strong": "G5348", "morph": "AorActInd" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " wrath", "strong": "G3709" },
+      { "text": " is come", "strong": "G5348" },
       { "text": " upon", "strong": "G1909" },
       { "text": " them", "strong": "G846" },
       { "text": " to", "strong": "G1519" },
@@ -774,7 +738,7 @@
       { "paragraph": true, "text": "But", "strong": "G1161" },
       { "text": " we,", "strong": "G2249" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " being taken", "strong": "G642", "morph": "AorPasPtc" },
+      { "text": " being taken", "strong": "G642" },
       { "text": " from", "strong": "G575" },
       { "text": " you", "strong": "G5216" },
       { "text": " for", "strong": "G4314" },
@@ -783,9 +747,9 @@
       { "text": " in presence,", "strong": "G4383" },
       { "text": " not", "strong": "G3756" },
       { "text": " in heart,", "strong": "G2588" },
-      { "text": " endeavoured", "strong": "G4704", "morph": "AorActInd" },
+      { "text": " endeavoured", "strong": "G4704" },
       { "text": " the more abundantly", "strong": "G4056" },
-      { "text": " to see", "strong": "G1492", "morph": "Aor2ActInf" },
+      { "text": " to see", "strong": "G1492" },
       { "text": " your", "strong": "G5216" },
       { "text": " face", "strong": "G4383" },
       { "text": " with", "strong": "G1722" },
@@ -799,20 +763,19 @@
     "verse": 18,
     "content": [
       { "text": "Wherefore", "strong": "G1352" },
-      { "text": " we would", "strong": "G2309", "morph": "AorActInd" },
-      { "text": " have come", "strong": "G2064", "morph": "Aor2ActInf" },
+      { "text": " we would", "strong": "G2309" },
+      { "text": " have come", "strong": "G2064" },
       { "text": " unto", "strong": "G4314" },
       { "text": " you,", "strong": "G5209" },
       { "text": " even", "strong": "G3303" },
       { "text": " I", "strong": "G1473" },
       { "text": " Paul,", "strong": "G3972" },
-      { "text": " once", "strong": "G2532" },
-      { "strong": "G530" },
+      { "text": " once", "strong": "G530" },
       { "text": " and", "strong": "G2532" },
       { "text": " again;", "strong": "G1364" },
       { "text": " but", "strong": "G2532" },
       { "text": " Satan", "strong": "G4567" },
-      { "text": " hindered", "strong": "G1465", "morph": "AorActInd" },
+      { "text": " hindered", "strong": "G1465" },
       { "text": " us.", "strong": "G2248" }
     ]
   },
@@ -823,10 +786,9 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " what", "strong": "G5101" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " our"],
-        "strong": "G2257"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " our", "strong": "G2257" },
       { "text": " hope,", "strong": "G1680" },
       { "text": " or", "strong": "G2228" },
       { "text": " joy,", "strong": "G5479" },
@@ -841,10 +803,9 @@
         "strong": "G2746"
       },
       { "strong": "G2228" },
-      {
-        "content": [" ", { "text": "Are", "marks": ["i"] }, " not"],
-        "strong": "G3780"
-      },
+      " ",
+      { "text": "Are", "marks": ["i"] },
+      { "text": " not", "strong": "G3780" },
       { "text": " even", "strong": "G2532" },
       { "text": " ye", "strong": "G5210" },
       { "text": " in the presence", "strong": "G1715" },
@@ -864,7 +825,7 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " ye", "strong": "G5210" },
-      { "text": " are", "strong": "G2075", "morph": "PresInd" },
+      { "text": " are", "strong": "G2075" },
       { "text": " our", "strong": "G2257" },
       { "text": " glory", "strong": "G1391" },
       { "text": " and", "strong": "G2532" },
@@ -880,13 +841,9 @@
       { "paragraph": true, "text": "Wherefore", "strong": "G1352" },
       { "text": " when we could", "strong": "G4722" },
       { "text": " no longer", "strong": "G3371" },
-      { "text": " forbear,", "strong": "G4722", "morph": "PresActPtc" },
-      {
-        "text": " we thought it good",
-        "strong": "G2106",
-        "morph": "AorActInd"
-      },
-      { "text": " to be left", "strong": "G2641", "morph": "AorPasInf" },
+      { "text": " forbear,", "strong": "G4722" },
+      { "text": " we thought it good", "strong": "G2106" },
+      { "text": " to be left", "strong": "G2641" },
       { "text": " at", "strong": "G1722" },
       { "text": " Athens", "strong": "G116" },
       { "text": " alone;", "strong": "G3441" }
@@ -898,7 +855,7 @@
     "verse": 2,
     "content": [
       { "text": "and", "strong": "G2532" },
-      { "text": " sent", "strong": "G3992", "morph": "AorActInd" },
+      { "text": " sent", "strong": "G3992" },
       { "text": " Timotheus,", "strong": "G5095" },
       { "text": " our", "strong": "G2257" },
       { "text": " brother,", "strong": "G80" },
@@ -909,13 +866,14 @@
       { "text": " our", "strong": "G2257" },
       { "text": " fellowlabourer", "strong": "G4904" },
       { "text": " in", "strong": "G1722" },
-      { "text": " the gospel", "strong": "G2098" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " gospel", "strong": "G2098" },
       { "text": " of Christ,", "strong": "G5547" },
       { "text": " to", "strong": "G1519" },
-      { "text": " establish", "strong": "G4741", "morph": "AorActInf" },
+      { "text": " establish", "strong": "G4741" },
       { "text": " you,", "strong": "G5209" },
       { "text": " and", "strong": "G2532" },
-      { "text": " to comfort", "strong": "G3870", "morph": "AorActInf" },
+      { "text": " to comfort", "strong": "G3870" },
       { "text": " you", "strong": "G5209" },
       { "text": " concerning", "strong": "G4012" },
       { "text": " your", "strong": "G5216" },
@@ -927,20 +885,17 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      { "text": "that no man", "strong": "G3367" },
-      { "text": " should be moved", "strong": "G4525", "morph": "PresPasInf" },
+      { "text": "that", "strong": "G3588" },
+      { "text": " no man", "strong": "G3367" },
+      { "text": " should be moved", "strong": "G4525" },
       { "text": " by", "strong": "G1722" },
-      { "text": " these", "strong": "G5025" },
+      { "text": " these", "strong": "G3778" },
       { "text": " afflictions:", "strong": "G2347" },
       { "text": " for", "strong": "G1063" },
       { "text": " yourselves", "strong": "G846" },
-      { "text": " know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " know", "strong": "G1492" },
       { "text": " that", "strong": "G3754" },
-      {
-        "text": " we are appointed",
-        "strong": "G2749",
-        "morph": "PresMidPasDepInd"
-      },
+      { "text": " we are appointed", "strong": "G2749" },
       { "text": " thereunto.", "strong": "G1519" },
       { "strong": "G5124" }
     ]
@@ -953,28 +908,20 @@
       { "text": "For", "strong": "G1063" },
       { "text": " verily,", "strong": "G2532" },
       { "text": " when", "strong": "G3753" },
-      { "text": " we were", "strong": "G2258", "morph": "ImpfInd" },
+      { "text": " we were", "strong": "G2258" },
       { "text": " with", "strong": "G4314" },
       { "text": " you,", "strong": "G5209" },
       { "text": " we told", "strong": "G4302" },
       { "text": " you", "strong": "G5213" },
-      { "text": " before", "strong": "G4302", "morph": "ImpfActInd" },
+      { "text": " before", "strong": "G4302" },
       { "text": " that", "strong": "G3754" },
-      { "text": " we should", "strong": "G3195", "morph": "PresActInd" },
-      {
-        "text": " suffer tribulation;",
-        "strong": "G2346",
-        "morph": "PresPasInf"
-      },
+      { "text": " we should", "strong": "G3195" },
+      { "text": " suffer tribulation;", "strong": "G2346" },
       { "text": " even", "strong": "G2532" },
       { "text": " as", "strong": "G2531" },
-      {
-        "text": " it came to pass,",
-        "strong": "G1096",
-        "morph": "Aor2MidDepInd"
-      },
+      { "text": " it came to pass,", "strong": "G1096" },
       { "text": " and", "strong": "G2532" },
-      { "text": " ye know.", "strong": "G1492", "morph": "PerfActInd" }
+      { "text": " ye know.", "strong": "G1492" }
     ]
   },
   {
@@ -982,26 +929,29 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      { "text": "For this", "strong": "G5124" },
+      { "text": "For", "strong": "G1223" },
+      { "text": " this", "strong": "G5124" },
       { "text": " cause,", "strong": "G1223" },
-      { "text": " when I", "strong": "G2504" },
+      { "text": " when", "strong": "G4722" },
+      { "text": " I", "strong": "G2504" },
       { "text": " could", "strong": "G4722" },
       { "text": " no longer", "strong": "G3371" },
-      { "text": " forbear,", "strong": "G4722", "morph": "PresActPtc" },
-      { "text": " I sent", "strong": "G3992", "morph": "AorActInd" },
+      { "text": " forbear,", "strong": "G4722" },
+      { "text": " I sent", "strong": "G3992" },
       { "text": " to", "strong": "G1519" },
-      { "text": " know", "strong": "G1097", "morph": "Aor2ActInf" },
+      { "text": " know", "strong": "G1097" },
       { "text": " your", "strong": "G5216" },
       { "text": " faith,", "strong": "G4102" },
-      { "text": " lest by some means", "strong": "G3381" },
-      { "strong": "G4458" },
-      { "text": " the tempter", "strong": "G3985", "morph": "PresActPtc" },
-      { "text": " have tempted", "strong": "G3985", "morph": "ImpfActInd" },
+      { "text": " lest", "strong": "G3361" },
+      { "text": " by some means", "strong": "G4458" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " tempter", "strong": "G3985" },
+      { "text": " have tempted", "strong": "G3985" },
       { "text": " you,", "strong": "G5209" },
       { "text": " and", "strong": "G2532" },
       { "text": " our", "strong": "G2257" },
       { "text": " labour", "strong": "G2873" },
-      { "text": " be", "strong": "G1096", "morph": "Aor2MidDepSubj" },
+      { "text": " be", "strong": "G1096" },
       { "text": " in", "strong": "G1519" },
       { "text": " vain.", "strong": "G2756" }
     ]
@@ -1013,8 +963,9 @@
     "content": [
       { "text": "But", "strong": "G1161" },
       { "text": " now", "strong": "G737" },
-      { "text": " when Timotheus", "strong": "G5095" },
-      { "text": " came", "strong": "G2064", "morph": "Aor2ActPtc" },
+      { "text": " when", "strong": "G2064" },
+      { "text": " Timotheus", "strong": "G5095" },
+      { "text": " came", "strong": "G2064" },
       { "text": " from", "strong": "G575" },
       { "text": " you", "strong": "G5216" },
       { "text": " unto", "strong": "G4314" },
@@ -1022,28 +973,27 @@
       { "text": " and", "strong": "G2532" },
       { "text": " brought", "strong": "G2097" },
       { "text": " us", "strong": "G2254" },
-      { "text": " good tidings", "strong": "G2097", "morph": "AorMidPtc" },
+      { "text": " good tidings", "strong": "G2097" },
       { "text": " of your", "strong": "G5216" },
       { "text": " faith", "strong": "G4102" },
       { "text": " and", "strong": "G2532" },
       { "text": " charity,", "strong": "G26" },
       { "text": " and", "strong": "G2532" },
       { "text": " that", "strong": "G3754" },
-      { "text": " ye have", "strong": "G2192", "morph": "PresActInd" },
+      { "text": " ye have", "strong": "G2192" },
       { "text": " good", "strong": "G18" },
       { "text": " remembrance", "strong": "G3417" },
       { "text": " of us", "strong": "G2257" },
       { "text": " always,", "strong": "G3842" },
-      { "text": " desiring greatly", "strong": "G1971", "morph": "PresActPtc" },
-      { "text": " to see", "strong": "G1492", "morph": "Aor2ActInf" },
+      { "text": " desiring greatly", "strong": "G1971" },
+      { "text": " to see", "strong": "G1492" },
       { "text": " us,", "strong": "G2248" },
       { "text": " as", "strong": "G2509" },
       { "text": " we", "strong": "G2249" },
       { "text": " also", "strong": "G2532" },
-      {
-        "content": [" ", { "text": "to see", "marks": ["i"] }, " you:"],
-        "strong": "G5209"
-      }
+      " ",
+      { "text": "to see", "marks": ["i"] },
+      { "text": " you:", "strong": "G5209" }
     ]
   },
   {
@@ -1054,7 +1004,7 @@
       { "text": "therefore,", "strong": "G1223" },
       { "strong": "G5124" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " we were comforted", "strong": "G3870", "morph": "AorPasInd" },
+      { "text": " we were comforted", "strong": "G3870" },
       { "text": " over", "strong": "G1909" },
       { "text": " you", "strong": "G5213" },
       { "text": " in", "strong": "G1909" },
@@ -1075,10 +1025,10 @@
     "content": [
       { "text": "for", "strong": "G3754" },
       { "text": " now", "strong": "G3568" },
-      { "text": " we live,", "strong": "G2198", "morph": "PresActInd" },
+      { "text": " we live,", "strong": "G2198" },
       { "text": " if", "strong": "G1437" },
       { "text": " ye", "strong": "G5210" },
-      { "text": " stand fast", "strong": "G4739", "morph": "PresActSubj" },
+      { "text": " stand fast", "strong": "G4739" },
       { "text": " in", "strong": "G1722" },
       { "text": " the Lord.", "strong": "G2962" }
     ]
@@ -1091,19 +1041,21 @@
       { "text": "For", "strong": "G1063" },
       { "text": " what", "strong": "G5101" },
       { "text": " thanks", "strong": "G2169" },
-      { "text": " can we", "strong": "G1410", "morph": "PresMidPasDepInd" },
+      { "text": " can we", "strong": "G1410" },
       { "text": " render", "strong": "G467" },
       { "text": " to God", "strong": "G2316" },
-      { "text": " again", "strong": "G467", "morph": "Aor2ActInf" },
+      { "text": " again", "strong": "G467" },
       { "text": " for", "strong": "G4012" },
       { "text": " you,", "strong": "G5216" },
       { "text": " for", "strong": "G1909" },
       { "text": " all", "strong": "G3956" },
-      { "text": " the joy", "strong": "G5479" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " joy", "strong": "G5479" },
       { "text": " wherewith", "strong": "G3739" },
-      { "text": " we joy", "strong": "G5463", "morph": "PresActInd" },
+      { "text": " we joy", "strong": "G5463" },
       { "text": " for", "strong": "G1223" },
-      { "text": " your sakes", "strong": "G5209" },
+      { "text": " your", "strong": "G5209" },
+      { "text": " sakes", "strong": "G1223" },
       { "text": " before", "strong": "G1715" },
       { "text": " our", "strong": "G2257" },
       { "text": " God;", "strong": "G2316" }
@@ -1117,16 +1069,16 @@
       { "text": "night", "strong": "G3571" },
       { "text": " and", "strong": "G2532" },
       { "text": " day", "strong": "G2250" },
-      { "text": " praying", "strong": "G1189", "morph": "PresMidPasDepPtc" },
-      { "text": " exceedingly", "strong": "G1537" },
+      { "text": " praying", "strong": "G1189" },
+      { "text": " exceedingly", "strong": "G5228" },
+      { "strong": "G1537" },
       { "strong": "G4053" },
-      { "strong": "G5228" },
       { "text": " that", "strong": "G1519" },
-      { "text": " we might see", "strong": "G1492", "morph": "Aor2ActInf" },
+      { "text": " we might see", "strong": "G1492" },
       { "text": " your", "strong": "G5216" },
       { "text": " face,", "strong": "G4383" },
       { "text": " and", "strong": "G2532" },
-      { "text": " might perfect", "strong": "G2675", "morph": "AorActInf" },
+      { "text": " might perfect", "strong": "G2675" },
       { "text": " that which is lacking", "strong": "G5303" },
       { "text": " in your", "strong": "G5216" },
       { "text": " faith?", "strong": "G4102" }
@@ -1154,8 +1106,7 @@
           "type": "trn",
           "content": ["Or, ", { "text": "guide", "marks": ["i"] }]
         },
-        "strong": "G2720",
-        "morph": "AorActOpt"
+        "strong": "G2720"
       },
       { "text": " our", "strong": "G2257" },
       { "text": " way", "strong": "G3598" },
@@ -1169,12 +1120,13 @@
     "verse": 12,
     "content": [
       { "text": "And", "strong": "G1161" },
-      { "text": " the Lord", "strong": "G2962" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " make", "strong": "G4121" },
       { "text": " you", "strong": "G5209" },
-      { "text": " to increase", "strong": "G4121", "morph": "AorActOpt" },
+      { "text": " to increase", "strong": "G4121" },
       { "text": " and", "strong": "G2532" },
-      { "text": " abound", "strong": "G4052", "morph": "AorActOpt" },
+      { "text": " abound", "strong": "G4052" },
       { "text": " in love", "strong": "G26" },
       { "text": " one", "strong": "G240" },
       { "text": " toward", "strong": "G1519" },
@@ -1182,16 +1134,14 @@
       { "text": " and", "strong": "G2532" },
       { "text": " toward", "strong": "G1519" },
       { "text": " all", "strong": "G3956" },
-      {
-        "content": [" ", { "text": "men", "marks": ["i"] }, ", even"],
-        "strong": "G2532"
-      },
+      " ",
+      { "text": "men", "marks": ["i"] },
+      { "text": ", even", "strong": "G2532" },
       { "text": " as", "strong": "G2509" },
       { "text": " we", "strong": "G2249" },
-      {
-        "content": [" ", { "text": "do", "marks": ["i"] }, " toward"],
-        "strong": "G1519"
-      },
+      " ",
+      { "text": "do", "marks": ["i"] },
+      { "text": " toward", "strong": "G1519" },
       { "text": " you:", "strong": "G5209" }
     ]
   },
@@ -1201,7 +1151,7 @@
     "verse": 13,
     "content": [
       { "text": "to the end", "strong": "G1519" },
-      { "text": " he may stablish", "strong": "G4741", "morph": "AorActInf" },
+      { "text": " he may stablish", "strong": "G4741" },
       { "text": " your", "strong": "G5216" },
       { "text": " hearts", "strong": "G2588" },
       { "text": " unblameable", "strong": "G273" },
@@ -1213,7 +1163,8 @@
       { "text": " our", "strong": "G2257" },
       { "text": " Father,", "strong": "G3962" },
       { "text": " at", "strong": "G1722" },
-      { "text": " the coming", "strong": "G3952" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " coming", "strong": "G3952" },
       { "text": " of our", "strong": "G2257" },
       { "text": " Lord", "strong": "G2962" },
       { "text": " Jesus", "strong": "G2424" },
@@ -1238,8 +1189,7 @@
           "type": "trn",
           "content": ["Or, ", { "text": "request", "marks": ["i"] }]
         },
-        "strong": "G2065",
-        "morph": "PresActInd"
+        "strong": "G2065"
       },
       { "text": " you,", "strong": "G5209" },
       { "text": " brethren,", "strong": "G80" },
@@ -1250,29 +1200,28 @@
           "type": "trn",
           "content": ["Or, ", { "text": "beseech", "marks": ["i"] }]
         },
-        "strong": "G3870",
-        "morph": "PresActInd"
+        "strong": "G3870"
       },
-      {
-        "content": [" ", { "text": "you", "marks": ["i"] }, " by"],
-        "strong": "G1722"
-      },
+      " ",
+      { "text": "you", "marks": ["i"] },
+      { "text": " by", "strong": "G1722" },
       { "text": " the Lord", "strong": "G2962" },
       { "text": " Jesus,", "strong": "G2424" },
-      { "text": " that as", "strong": "G2531" },
-      { "text": " ye have received", "strong": "G3880", "morph": "Aor2ActInd" },
+      { "text": " that", "strong": "G2443" },
+      { "text": " as", "strong": "G2531" },
+      { "text": " ye have received", "strong": "G3880" },
       { "text": " of", "strong": "G3844" },
       { "text": " us", "strong": "G2257" },
       { "text": " how", "strong": "G4459" },
       { "text": " ye", "strong": "G5209" },
-      { "text": " ought", "strong": "G1163", "morph": "PresInd" },
-      { "text": " to walk", "strong": "G4043", "morph": "PresActInf" },
+      { "text": " ought", "strong": "G1163" },
+      { "text": " to walk", "strong": "G4043" },
       { "text": " and", "strong": "G2532" },
-      { "text": " to please", "strong": "G700", "morph": "PresActInf" },
+      { "text": " to please", "strong": "G700" },
       { "text": " God,", "strong": "G2316" },
       " ",
-      { "text": "so", "marks": ["i"], "strong": "G2443" },
-      { "text": " ye would abound", "strong": "G4052", "morph": "PresActSubj" },
+      { "text": "so", "marks": ["i"] },
+      { "text": " ye would abound", "strong": "G4052" },
       { "text": " more and more.", "strong": "G3123" }
     ]
   },
@@ -1282,13 +1231,14 @@
     "verse": 2,
     "content": [
       { "text": "For", "strong": "G1063" },
-      { "text": " ye know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " ye know", "strong": "G1492" },
       { "text": " what", "strong": "G5101" },
       { "text": " commandments", "strong": "G3852" },
-      { "text": " we gave", "strong": "G1325", "morph": "AorActInd" },
+      { "text": " we gave", "strong": "G1325" },
       { "text": " you", "strong": "G5213" },
       { "text": " by", "strong": "G1223" },
-      { "text": " the Lord", "strong": "G2962" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " Jesus.", "strong": "G2424" }
     ]
   },
@@ -1299,16 +1249,15 @@
     "content": [
       { "paragraph": true, "text": "For", "strong": "G1063" },
       { "text": " this", "strong": "G5124" },
-      { "text": " is", "strong": "G2076", "morph": "PresInd" },
+      { "text": " is", "strong": "G2076" },
       { "text": " the will", "strong": "G2307" },
       { "text": " of God,", "strong": "G2316" },
-      {
-        "content": [" ", { "text": "even", "marks": ["i"] }, " your"],
-        "strong": "G5216"
-      },
+      " ",
+      { "text": "even", "marks": ["i"] },
+      { "text": " your", "strong": "G5216" },
       { "text": " sanctification,", "strong": "G38" },
       { "text": " that ye", "strong": "G5209" },
-      { "text": " should abstain", "strong": "G567", "morph": "PresMidInf" },
+      { "text": " should abstain", "strong": "G567" },
       { "text": " from", "strong": "G575" },
       { "text": " fornication:", "strong": "G4202" }
     ]
@@ -1320,12 +1269,8 @@
     "content": [
       { "text": "that every one", "strong": "G1538" },
       { "text": " of you", "strong": "G5216" },
-      { "text": " should know", "strong": "G1492", "morph": "PerfActInf" },
-      {
-        "text": " how to possess",
-        "strong": "G2932",
-        "morph": "PresMidPasDepInf"
-      },
+      { "text": " should know", "strong": "G1492" },
+      { "text": " how to possess", "strong": "G2932" },
       { "text": " his", "strong": "G1438" },
       { "text": " vessel", "strong": "G4632" },
       { "text": " in", "strong": "G1722" },
@@ -1345,9 +1290,10 @@
       { "text": " of concupiscence,", "strong": "G1939" },
       { "text": " even", "strong": "G2532" },
       { "text": " as", "strong": "G2509" },
-      { "text": " the Gentiles", "strong": "G1484" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Gentiles", "strong": "G1484" },
       { "text": " which", "strong": "G3588" },
-      { "text": " know", "strong": "G1492", "morph": "PerfActPtc" },
+      { "text": " know", "strong": "G1492" },
       { "text": " not", "strong": "G3361" },
       { "text": " God:", "strong": "G2316" }
     ]
@@ -1357,12 +1303,11 @@
     "chapter": 4,
     "verse": 6,
     "content": [
-      { "text": "that no", "strong": "G3361" },
-      {
-        "content": [" ", { "text": "man", "marks": ["i"] }, " go beyond"],
-        "strong": "G5233",
-        "morph": "PresActInf"
-      },
+      { "text": "that", "strong": "G3588" },
+      { "text": " no", "strong": "G3361" },
+      " ",
+      { "text": "man", "marks": ["i"] },
+      { "text": " go beyond", "strong": "G5233" },
       { "text": " and", "strong": "G2532" },
       {
         "text": " defraud",
@@ -1375,42 +1320,37 @@
             { "text": "overreach", "marks": ["i"] }
           ]
         },
-        "strong": "G4122",
-        "morph": "PresActInf"
+        "strong": "G4122"
       },
       { "text": " his", "strong": "G846" },
       { "text": " brother", "strong": "G80" },
       { "text": " in", "strong": "G1722" },
+      " ",
+      { "text": "any", "marks": ["i"] },
       {
-        "content": [
-          " ",
-          { "text": "any", "marks": ["i"] },
-          {
-            "text": " matter:",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "in the matter", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " matter:",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in the matter", "marks": ["i"] }]
+        },
         "strong": "G4229"
       },
-      { "text": " because", "strong": "G1360" },
-      { "text": " that the Lord", "strong": "G2962" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " the avenger"],
-        "strong": "G1558"
-      },
+      { "text": " because that", "strong": "G1360" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the avenger", "strong": "G1558" },
       { "text": " of", "strong": "G4012" },
       { "text": " all", "strong": "G3956" },
       { "text": " such,", "strong": "G5130" },
       { "text": " as", "strong": "G2531" },
       { "text": " we", "strong": "G4277" },
       { "text": " also", "strong": "G2532" },
-      { "text": " have forewarned", "strong": "G4277", "morph": "AorActInd" },
+      { "text": " have forewarned", "strong": "G4277" },
       { "text": " you", "strong": "G5213" },
       { "text": " and", "strong": "G2532" },
-      { "text": " testified.", "strong": "G1263", "morph": "AorMidDepInd" }
+      { "text": " testified.", "strong": "G1263" }
     ]
   },
   {
@@ -1422,7 +1362,7 @@
       { "text": " God", "strong": "G2316" },
       { "text": " hath", "strong": "G2564" },
       { "text": " not", "strong": "G3756" },
-      { "text": " called", "strong": "G2564", "morph": "AorActInd" },
+      { "text": " called", "strong": "G2564" },
       { "text": " us", "strong": "G2248" },
       { "text": " unto", "strong": "G1909" },
       { "text": " uncleanness,", "strong": "G167" },
@@ -1436,24 +1376,26 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      { "text": "He therefore", "strong": "G5105" },
+      { "text": "He", "strong": "G3588" },
+      { "text": " therefore", "strong": "G5105" },
+      { "text": " that", "strong": "G3588" },
       {
-        "text": " that despiseth,",
+        "text": " despiseth,",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "rejecteth", "marks": ["i"] }]
         },
-        "strong": "G114",
-        "morph": "PresActPtc"
+        "strong": "G114"
       },
-      { "text": " despiseth", "strong": "G114", "morph": "PresActInd" },
+      { "text": " despiseth", "strong": "G114" },
       { "text": " not", "strong": "G3756" },
       { "text": " man,", "strong": "G444" },
       { "text": " but", "strong": "G235" },
       { "text": " God,", "strong": "G2316" },
-      { "text": " who hath", "strong": "G1325" },
+      { "text": " who", "strong": "G3588" },
+      { "text": " hath", "strong": "G1325" },
       { "text": " also", "strong": "G2532" },
-      { "text": " given", "strong": "G1325", "morph": "Aor2ActPtc" },
+      { "text": " given", "strong": "G1325" },
       { "text": " unto", "strong": "G1519" },
       { "text": " us", "strong": "G2248" },
       { "text": " his", "strong": "G846" },
@@ -1469,18 +1411,18 @@
       { "paragraph": true, "text": "But", "strong": "G1161" },
       { "text": " as touching", "strong": "G4012" },
       { "text": " brotherly love", "strong": "G5360" },
-      { "text": " ye need", "strong": "G2192", "morph": "PresActInd" },
-      { "strong": "G5532" },
+      { "text": " ye need", "strong": "G5532" },
+      { "strong": "G2192" },
       { "text": " not", "strong": "G3756" },
-      { "text": " that I write", "strong": "G1125", "morph": "PresActInf" },
+      { "text": " that I write", "strong": "G1125" },
       { "text": " unto you:", "strong": "G5213" },
       { "text": " for", "strong": "G1063" },
       { "text": " ye", "strong": "G5210" },
       { "text": " yourselves", "strong": "G846" },
-      { "text": " are", "strong": "G2075", "morph": "PresInd" },
+      { "text": " are", "strong": "G2075" },
       { "text": " taught of God", "strong": "G2312" },
       { "text": " to", "strong": "G1519" },
-      { "text": " love", "strong": "G25", "morph": "PresActInf" },
+      { "text": " love", "strong": "G25" },
       { "text": " one another.", "strong": "G240" }
     ]
   },
@@ -1491,20 +1433,21 @@
     "content": [
       { "text": "And", "strong": "G2532" },
       { "text": " indeed", "strong": "G1063" },
-      { "text": " ye do", "strong": "G4160", "morph": "PresActInd" },
+      { "text": " ye do", "strong": "G4160" },
       { "text": " it", "strong": "G846" },
       { "text": " toward", "strong": "G1519" },
       { "text": " all", "strong": "G3956" },
-      { "text": " the brethren", "strong": "G80" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " brethren", "strong": "G80" },
       { "text": " which", "strong": "G3588" },
       { "text": " are in", "strong": "G1722" },
       { "text": " all", "strong": "G3650" },
       { "text": " Macedonia:", "strong": "G3109" },
       { "text": " but", "strong": "G1161" },
-      { "text": " we beseech", "strong": "G3870", "morph": "PresActInd" },
+      { "text": " we beseech", "strong": "G3870" },
       { "text": " you,", "strong": "G5209" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " that ye increase", "strong": "G4052", "morph": "PresActInf" },
+      { "text": " that ye increase", "strong": "G4052" },
       { "text": " more and more;", "strong": "G3123" }
     ]
   },
@@ -1514,26 +1457,19 @@
     "verse": 11,
     "content": [
       { "text": "and", "strong": "G2532" },
-      {
-        "text": " that ye study",
-        "strong": "G5389",
-        "morph": "PresMidPasDepInf"
-      },
-      { "text": " to be quiet,", "strong": "G2270", "morph": "PresActInf" },
+      { "text": " that ye study", "strong": "G5389" },
+      { "text": " to be quiet,", "strong": "G2270" },
       { "text": " and", "strong": "G2532" },
-      { "text": " to do", "strong": "G4238", "morph": "PresActInf" },
-      { "text": " your own business,", "strong": "G2398" },
+      { "text": " to do", "strong": "G4238" },
+      { "text": " your", "strong": "G3588" },
+      { "text": " own business,", "strong": "G2398" },
       { "text": " and", "strong": "G2532" },
-      {
-        "text": " to work with",
-        "strong": "G2038",
-        "morph": "PresMidPasDepInf"
-      },
-      { "text": " your", "strong": "G5216" },
+      { "text": " to work", "strong": "G2038" },
+      { "text": " with your", "strong": "G5216" },
       { "text": " own", "strong": "G2398" },
       { "text": " hands,", "strong": "G5495" },
       { "text": " as", "strong": "G2531" },
-      { "text": " we commanded", "strong": "G3853", "morph": "AorActInd" },
+      { "text": " we commanded", "strong": "G3853" },
       { "text": " you;", "strong": "G5213" }
     ]
   },
@@ -1543,16 +1479,15 @@
     "verse": 12,
     "content": [
       { "text": "that", "strong": "G2443" },
-      { "text": " ye may walk", "strong": "G4043", "morph": "PresActSubj" },
+      { "text": " ye may walk", "strong": "G4043" },
       { "text": " honestly", "strong": "G2156" },
       { "text": " toward", "strong": "G4314" },
-      { "text": " them that are without,", "strong": "G1854" },
+      { "text": " them that", "strong": "G3588" },
+      { "text": " are without,", "strong": "G1854" },
       { "text": " and", "strong": "G2532" },
-      {
-        "content": [" ", { "text": "that", "marks": ["i"] }, " ye may have"],
-        "strong": "G2192",
-        "morph": "PresActSubj"
-      },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " ye may have", "strong": "G2192" },
       { "text": " lack", "strong": "G5532" },
       {
         "text": " of nothing.",
@@ -1573,24 +1508,21 @@
       { "paragraph": true, "text": "But", "strong": "G1161" },
       { "text": " I would", "strong": "G2309" },
       { "text": " not", "strong": "G3756" },
-      { "text": " have", "strong": "G2309", "morph": "PresActInd" },
+      { "text": " have", "strong": "G2309" },
       { "text": " you", "strong": "G5209" },
-      { "text": " to be ignorant,", "strong": "G50", "morph": "PresActInf" },
+      { "text": " to be ignorant,", "strong": "G50" },
       { "text": " brethren,", "strong": "G80" },
       { "text": " concerning", "strong": "G4012" },
-      {
-        "text": " them which are asleep,",
-        "strong": "G2837",
-        "morph": "PerfPasPtc"
-      },
-      { "text": " that", "strong": "G3363" },
-      { "text": " ye sorrow", "strong": "G3076", "morph": "PresPasSubj" },
-      { "text": " not,", "strong": "G3363" },
+      { "text": " them which", "strong": "G3588" },
+      { "text": " are asleep,", "strong": "G2837" },
+      { "text": " that", "strong": "G2443" },
+      { "text": " ye sorrow", "strong": "G3076" },
+      { "text": " not,", "strong": "G3361" },
       { "text": " even", "strong": "G2532" },
       { "text": " as", "strong": "G2531" },
       { "text": " others", "strong": "G3062" },
       { "text": " which", "strong": "G3588" },
-      { "text": " have", "strong": "G2192", "morph": "PresActPtc" },
+      { "text": " have", "strong": "G2192" },
       { "text": " no", "strong": "G3361" },
       { "text": " hope.", "strong": "G1680" }
     ]
@@ -1602,20 +1534,21 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " if", "strong": "G1487" },
-      { "text": " we believe", "strong": "G4100", "morph": "PresActInd" },
+      { "text": " we believe", "strong": "G4100" },
       { "text": " that", "strong": "G3754" },
       { "text": " Jesus", "strong": "G2424" },
-      { "text": " died", "strong": "G599", "morph": "Aor2ActInd" },
+      { "text": " died", "strong": "G599" },
       { "text": " and", "strong": "G2532" },
-      { "text": " rose again,", "strong": "G450", "morph": "Aor2ActInd" },
+      { "text": " rose again,", "strong": "G450" },
       { "text": " even so", "strong": "G3779" },
-      { "text": " them also", "strong": "G2532" },
-      { "text": " which sleep", "strong": "G2837", "morph": "AorPasPtc" },
+      { "text": " them", "strong": "G3588" },
+      { "text": " also", "strong": "G2532" },
+      { "text": " which sleep", "strong": "G2837" },
       { "text": " in", "strong": "G1223" },
       { "text": " Jesus", "strong": "G2424" },
       { "text": " will", "strong": "G71" },
       { "text": " God", "strong": "G2316" },
-      { "text": " bring", "strong": "G71", "morph": "FutActInd" },
+      { "text": " bring", "strong": "G71" },
       { "text": " with", "strong": "G4862" },
       { "text": " him.", "strong": "G846" }
     ]
@@ -1627,7 +1560,7 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " this", "strong": "G5124" },
-      { "text": " we say", "strong": "G3004", "morph": "PresActInd" },
+      { "text": " we say", "strong": "G3004" },
       { "text": " unto you", "strong": "G5213" },
       { "text": " by", "strong": "G1722" },
       { "text": " the word", "strong": "G3056" },
@@ -1635,20 +1568,21 @@
       { "text": " that", "strong": "G3754" },
       { "text": " we", "strong": "G2249" },
       { "text": " which", "strong": "G3588" },
-      { "text": " are alive", "strong": "G2198", "morph": "PresActPtc" },
-      {
-        "content": [" ", { "text": "and", "marks": ["i"] }, " remain"],
-        "strong": "G4035",
-        "morph": "PresPasDepPtc"
-      },
+      { "text": " are alive", "strong": "G2198" },
+      " ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " remain", "strong": "G4035" },
       { "text": " unto", "strong": "G1519" },
-      { "text": " the coming", "strong": "G3952" },
-      { "text": " of the Lord", "strong": "G2962" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " coming", "strong": "G3952" },
+      { "text": " of the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " shall", "strong": "G5348" },
-      { "text": " not", "strong": "G3364" },
-      { "text": " prevent", "strong": "G5348", "morph": "AorActSubj" },
+      { "text": " not", "strong": "G3756" },
+      { "strong": "G3361" },
+      { "text": " prevent", "strong": "G5348" },
       { "text": " them which", "strong": "G3588" },
-      { "text": " are asleep.", "strong": "G2837", "morph": "AorPasPtc" }
+      { "text": " are asleep.", "strong": "G2837" }
     ]
   },
   {
@@ -1657,9 +1591,10 @@
     "verse": 16,
     "content": [
       { "text": "For", "strong": "G3754" },
-      { "text": " the Lord", "strong": "G2962" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " himself", "strong": "G846" },
-      { "text": " shall descend", "strong": "G2597", "morph": "FutMidDepInd" },
+      { "text": " shall descend", "strong": "G2597" },
       { "text": " from", "strong": "G575" },
       { "text": " heaven", "strong": "G3772" },
       { "text": " with", "strong": "G1722" },
@@ -1672,10 +1607,11 @@
       { "text": " the trump", "strong": "G4536" },
       { "text": " of God:", "strong": "G2316" },
       { "text": " and", "strong": "G2532" },
-      { "text": " the dead", "strong": "G3498" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " dead", "strong": "G3498" },
       { "text": " in", "strong": "G1722" },
       { "text": " Christ", "strong": "G5547" },
-      { "text": " shall rise", "strong": "G450", "morph": "FutMidInd" },
+      { "text": " shall rise", "strong": "G450" },
       { "text": " first:", "strong": "G4412" }
     ]
   },
@@ -1687,17 +1623,11 @@
       { "text": "then", "strong": "G1899" },
       { "text": " we", "strong": "G2249" },
       { "text": " which", "strong": "G3588" },
-      { "text": " are alive", "strong": "G2198", "morph": "PresActPtc" },
-      {
-        "content": [" ", { "text": "and", "marks": ["i"] }, " remain"],
-        "strong": "G4035",
-        "morph": "PresPasDepPtc"
-      },
-      {
-        "text": " shall be caught up",
-        "strong": "G726",
-        "morph": "Fut2PasInd"
-      },
+      { "text": " are alive", "strong": "G2198" },
+      " ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " remain", "strong": "G4035" },
+      { "text": " shall be caught up", "strong": "G726" },
       { "text": " together", "strong": "G260" },
       { "text": " with", "strong": "G4862" },
       { "text": " them", "strong": "G846" },
@@ -1705,14 +1635,15 @@
       { "text": " the clouds,", "strong": "G3507" },
       { "text": " to", "strong": "G1519" },
       { "text": " meet", "strong": "G529" },
-      { "text": " the Lord", "strong": "G2962" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
       { "text": " in", "strong": "G1519" },
       { "text": " the air:", "strong": "G109" },
       { "text": " and", "strong": "G2532" },
       { "text": " so", "strong": "G3779" },
       { "text": " shall we", "strong": "G2071" },
       { "text": " ever", "strong": "G3842" },
-      { "text": " be", "strong": "G2071", "morph": "FutInd" },
+      { "text": " be", "strong": "G2071" },
       { "text": " with", "strong": "G4862" },
       { "text": " the Lord.", "strong": "G2962" }
     ]
@@ -1729,8 +1660,7 @@
           "type": "trn",
           "content": ["Or, ", { "text": "exhort", "marks": ["i"] }]
         },
-        "strong": "G3870",
-        "morph": "PresActImpr"
+        "strong": "G3870"
       },
       { "text": " one another", "strong": "G240" },
       { "text": " with", "strong": "G1722" },
@@ -1745,14 +1675,16 @@
     "content": [
       { "paragraph": true, "text": "But", "strong": "G1161" },
       { "text": " of", "strong": "G4012" },
-      { "text": " the times", "strong": "G5550" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " times", "strong": "G5550" },
       { "text": " and", "strong": "G2532" },
-      { "text": " the seasons,", "strong": "G2540" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " seasons,", "strong": "G2540" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " ye have", "strong": "G2192", "morph": "PresActInd" },
+      { "text": " ye have", "strong": "G2192" },
       { "text": " no", "strong": "G3756" },
       { "text": " need", "strong": "G5532" },
-      { "text": " that I write", "strong": "G1125", "morph": "PresPasInf" },
+      { "text": " that I write", "strong": "G1125" },
       { "text": " unto you.", "strong": "G5213" }
     ]
   },
@@ -1763,13 +1695,14 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " yourselves", "strong": "G846" },
-      { "text": " know", "strong": "G1492", "morph": "PerfActInd" },
+      { "text": " know", "strong": "G1492" },
       { "text": " perfectly", "strong": "G199" },
       { "text": " that", "strong": "G3754" },
-      { "text": " the day", "strong": "G2250" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " day", "strong": "G2250" },
       { "text": " of the Lord", "strong": "G2962" },
       { "text": " so", "strong": "G3779" },
-      { "text": " cometh", "strong": "G2064", "morph": "PresMidPasDepInd" },
+      { "text": " cometh", "strong": "G2064" },
       { "text": " as", "strong": "G5613" },
       { "text": " a thief", "strong": "G2812" },
       { "text": " in", "strong": "G1722" },
@@ -1783,24 +1716,26 @@
     "content": [
       { "text": "For", "strong": "G1063" },
       { "text": " when", "strong": "G3752" },
-      { "text": " they shall say,", "strong": "G3004", "morph": "PresActSubj" },
+      { "text": " they shall say,", "strong": "G3004" },
       { "text": " Peace", "strong": "G1515" },
       { "text": " and", "strong": "G2532" },
       { "text": " safety;", "strong": "G803" },
       { "text": " then", "strong": "G5119" },
       { "text": " sudden", "strong": "G160" },
       { "text": " destruction", "strong": "G3639" },
-      { "text": " cometh upon", "strong": "G2186", "morph": "PresMidInd" },
+      { "text": " cometh upon", "strong": "G2186" },
       { "text": " them,", "strong": "G846" },
       { "text": " as", "strong": "G5618" },
       { "text": " travail", "strong": "G5604" },
-      { "text": " upon", "strong": "G1722" },
-      { "text": " a woman with child;", "strong": "G1064" },
-      { "strong": "G2192", "morph": "PresActPtc" },
+      { "text": " upon a woman", "strong": "G3588" },
+      { "text": " with child;", "strong": "G1722" },
+      { "strong": "G1064" },
+      { "strong": "G2192" },
       { "text": " and", "strong": "G2532" },
       { "text": " they shall", "strong": "G1628" },
-      { "text": " not", "strong": "G3364" },
-      { "text": " escape.", "strong": "G1628", "morph": "Aor2ActSubj" }
+      { "text": " not", "strong": "G3756" },
+      { "strong": "G3361" },
+      { "text": " escape.", "strong": "G1628" }
     ]
   },
   {
@@ -1811,13 +1746,14 @@
       { "text": "But", "strong": "G1161" },
       { "text": " ye,", "strong": "G5210" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " are", "strong": "G2075", "morph": "PresInd" },
+      { "text": " are", "strong": "G2075" },
       { "text": " not", "strong": "G3756" },
       { "text": " in", "strong": "G1722" },
       { "text": " darkness,", "strong": "G4655" },
       { "text": " that", "strong": "G2443" },
-      { "text": " that day", "strong": "G2250" },
-      { "text": " should overtake", "strong": "G2638", "morph": "Aor2ActSubj" },
+      { "text": " that", "strong": "G3588" },
+      { "text": " day", "strong": "G2250" },
+      { "text": " should overtake", "strong": "G2638" },
       { "text": " you", "strong": "G5209" },
       { "text": " as", "strong": "G5613" },
       { "text": " a thief.", "strong": "G2812" }
@@ -1829,14 +1765,14 @@
     "verse": 5,
     "content": [
       { "text": "Ye", "strong": "G5210" },
-      { "text": " are", "strong": "G2075", "morph": "PresInd" },
+      { "text": " are", "strong": "G2075" },
       { "text": " all", "strong": "G3956" },
       { "text": " the children", "strong": "G5207" },
       { "text": " of light,", "strong": "G5457" },
       { "text": " and", "strong": "G2532" },
       { "text": " the children", "strong": "G5207" },
       { "text": " of the day:", "strong": "G2250" },
-      { "text": " we are", "strong": "G2070", "morph": "PresInd" },
+      { "text": " we are", "strong": "G2070" },
       { "text": " not", "strong": "G3756" },
       { "text": " of the night,", "strong": "G3571" },
       { "text": " nor", "strong": "G3761" },
@@ -1852,17 +1788,15 @@
       { "strong": "G3767" },
       { "text": " let us", "strong": "G2518" },
       { "text": " not", "strong": "G3361" },
-      { "text": " sleep,", "strong": "G2518", "morph": "PresActSubj" },
+      { "text": " sleep,", "strong": "G2518" },
       { "text": " as", "strong": "G5613" },
-      { "strong": "G2532" },
-      {
-        "content": [" ", { "text": "do", "marks": ["i"] }, " others;"],
-        "strong": "G3062"
-      },
+      " ",
+      { "text": "do", "marks": ["i"] },
+      { "text": " others;", "strong": "G3062" },
       { "text": " but", "strong": "G235" },
-      { "text": " let us watch", "strong": "G1127", "morph": "PresActSubj" },
+      { "text": " let us watch", "strong": "G1127" },
       { "text": " and", "strong": "G2532" },
-      { "text": " be sober.", "strong": "G3525", "morph": "PresActSubj" }
+      { "text": " be sober.", "strong": "G3525" }
     ]
   },
   {
@@ -1871,16 +1805,14 @@
     "verse": 7,
     "content": [
       { "text": "For", "strong": "G1063" },
-      { "text": " they that sleep,", "strong": "G2518", "morph": "PresActPtc" },
-      { "text": " sleep", "strong": "G2518", "morph": "PresActInd" },
+      { "text": " they that", "strong": "G3588" },
+      { "text": " sleep,", "strong": "G2518" },
+      { "text": " sleep", "strong": "G2518" },
       { "text": " in the night;", "strong": "G3571" },
       { "text": " and", "strong": "G2532" },
-      {
-        "text": " they that be drunken",
-        "strong": "G3182",
-        "morph": "PresPasPtc"
-      },
-      { "text": " are drunken", "strong": "G3184", "morph": "PresActInd" },
+      { "text": " they that", "strong": "G3588" },
+      { "text": " be drunken", "strong": "G3182" },
+      { "text": " are drunken", "strong": "G3184" },
       { "text": " in the night.", "strong": "G3571" }
     ]
   },
@@ -1892,10 +1824,10 @@
       { "text": "But", "strong": "G1161" },
       { "text": " let", "strong": "G3525" },
       { "text": " us,", "strong": "G2249" },
-      { "text": " who are", "strong": "G5607", "morph": "PresPtc" },
+      { "text": " who are", "strong": "G5607" },
       { "text": " of the day,", "strong": "G2250" },
-      { "text": " be sober,", "strong": "G3525", "morph": "PresActSubj" },
-      { "text": " putting on", "strong": "G1746", "morph": "AorMidPtc" },
+      { "text": " be sober,", "strong": "G3525" },
+      { "text": " putting on", "strong": "G1746" },
       { "text": " the breastplate", "strong": "G2382" },
       { "text": " of faith", "strong": "G4102" },
       { "text": " and", "strong": "G2532" },
@@ -1915,7 +1847,7 @@
       { "text": " God", "strong": "G2316" },
       { "text": " hath", "strong": "G5087" },
       { "text": " not", "strong": "G3756" },
-      { "text": " appointed", "strong": "G5087", "morph": "Aor2MidInd" },
+      { "text": " appointed", "strong": "G5087" },
       { "text": " us", "strong": "G2248" },
       { "text": " to", "strong": "G1519" },
       { "text": " wrath,", "strong": "G3709" },
@@ -1936,15 +1868,15 @@
     "verse": 10,
     "content": [
       { "text": "who", "strong": "G3588" },
-      { "text": " died", "strong": "G599", "morph": "Aor2ActPtc" },
+      { "text": " died", "strong": "G599" },
       { "text": " for", "strong": "G5228" },
       { "text": " us,", "strong": "G2257" },
       { "text": " that,", "strong": "G2443" },
       { "text": " whether", "strong": "G1535" },
-      { "text": " we wake", "strong": "G1127", "morph": "PresActSubj" },
+      { "text": " we wake", "strong": "G1127" },
       { "text": " or", "strong": "G1535" },
-      { "text": " sleep,", "strong": "G2518", "morph": "PresActSubj" },
-      { "text": " we should live", "strong": "G2198", "morph": "AorActSubj" },
+      { "text": " sleep,", "strong": "G2518" },
+      { "text": " we should live", "strong": "G2198" },
       { "text": " together", "strong": "G260" },
       { "text": " with", "strong": "G4862" },
       { "text": " him.", "strong": "G846" }
@@ -1962,17 +1894,16 @@
           "type": "trn",
           "content": ["Or, ", { "text": "exhort", "marks": ["i"] }]
         },
-        "strong": "G3870",
-        "morph": "PresActImpr"
+        "strong": "G3870"
       },
       { "text": " yourselves together,", "strong": "G240" },
       { "text": " and", "strong": "G2532" },
-      { "text": " edify", "strong": "G3618", "morph": "PresActImpr" },
+      { "text": " edify", "strong": "G3618" },
       { "text": " one", "strong": "G1520" },
       { "text": " another,", "strong": "G1520" },
-      { "text": " even", "strong": "G2531" },
-      { "text": " as also", "strong": "G2532" },
-      { "text": " ye do.", "strong": "G4160", "morph": "PresActInd" }
+      { "text": " even as", "strong": "G2531" },
+      { "text": " also", "strong": "G2532" },
+      { "text": " ye do.", "strong": "G4160" }
     ]
   },
   {
@@ -1982,21 +1913,21 @@
     "content": [
       { "heading": "Be at Peace" },
       { "paragraph": true, "text": "And", "strong": "G1161" },
-      { "text": " we beseech", "strong": "G2065", "morph": "PresActInd" },
+      { "text": " we beseech", "strong": "G2065" },
       { "text": " you,", "strong": "G5209" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " to know", "strong": "G1492", "morph": "PerfActInf" },
+      { "text": " to know", "strong": "G1492" },
       { "text": " them which", "strong": "G3588" },
-      { "text": " labour", "strong": "G2872", "morph": "PresActPtc" },
+      { "text": " labour", "strong": "G2872" },
       { "text": " among", "strong": "G1722" },
       { "text": " you,", "strong": "G5213" },
       { "text": " and", "strong": "G2532" },
-      { "text": " are over", "strong": "G4291", "morph": "PresMidPtc" },
+      { "text": " are over", "strong": "G4291" },
       { "text": " you", "strong": "G5216" },
       { "text": " in", "strong": "G1722" },
       { "text": " the Lord,", "strong": "G2962" },
       { "text": " and", "strong": "G2532" },
-      { "text": " admonish", "strong": "G3560", "morph": "PresActPtc" },
+      { "text": " admonish", "strong": "G3560" },
       { "text": " you;", "strong": "G5209" }
     ]
   },
@@ -2006,21 +1937,20 @@
     "verse": 13,
     "content": [
       { "text": "and", "strong": "G2532" },
-      { "text": " to esteem", "strong": "G2233", "morph": "PresMidPasDepInf" },
+      { "text": " to esteem", "strong": "G2233" },
       { "text": " them", "strong": "G846" },
-      { "text": " very", "strong": "G5228" },
-      { "text": " highly", "strong": "G1537" },
+      { "text": " very highly", "strong": "G5228" },
+      { "strong": "G1537" },
       { "strong": "G4053" },
       { "text": " in", "strong": "G1722" },
       { "text": " love", "strong": "G26" },
       { "text": " for", "strong": "G1223" },
       { "text": " their", "strong": "G846" },
-      { "text": " work’s sake.", "strong": "G2041" },
-      {
-        "content": [" ", { "text": "And", "marks": ["i"] }, " be at peace"],
-        "strong": "G1514",
-        "morph": "PresActImpr"
-      },
+      { "text": " work’s", "strong": "G2041" },
+      { "text": " sake.", "strong": "G1223" },
+      " ",
+      { "text": "And", "marks": ["i"] },
+      { "text": " be at peace", "strong": "G1514" },
       { "text": " among", "strong": "G1722" },
       { "text": " yourselves.", "strong": "G1438" }
     ]
@@ -2037,25 +1967,27 @@
           "type": "trn",
           "content": ["Or, ", { "text": "beseech", "marks": ["i"] }]
         },
-        "strong": "G3870",
-        "morph": "PresActInd"
+        "strong": "G3870"
       },
       { "text": " you,", "strong": "G5209" },
       { "text": " brethren,", "strong": "G80" },
-      { "text": " warn", "strong": "G3560", "morph": "PresActImpr" },
+      { "text": " warn", "strong": "G3560" },
+      { "text": " them that", "strong": "G3588" },
       {
-        "text": " them that are unruly,",
+        "text": " are unruly,",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "disorderly", "marks": ["i"] }]
         },
         "strong": "G813"
       },
-      { "text": " comfort", "strong": "G3888", "morph": "PresMidPasDepImpr" },
-      { "text": " the feebleminded,", "strong": "G3642" },
-      { "text": " support", "strong": "G472", "morph": "PresMidPasDepImpr" },
-      { "text": " the weak,", "strong": "G772" },
-      { "text": " be patient", "strong": "G3114", "morph": "PresActImpr" },
+      { "text": " comfort", "strong": "G3888" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " feebleminded,", "strong": "G3642" },
+      { "text": " support", "strong": "G472" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " weak,", "strong": "G772" },
+      { "text": " be patient", "strong": "G3114" },
       { "text": " toward", "strong": "G4314" },
       { "text": " all", "strong": "G3956" },
       " ",
@@ -2068,20 +2000,19 @@
     "chapter": 5,
     "verse": 15,
     "content": [
-      { "text": "See", "strong": "G3708", "morph": "PresActImpr" },
+      { "text": "See", "strong": "G3708" },
       { "text": " that none", "strong": "G3361" },
       { "strong": "G5100" },
-      { "text": " render", "strong": "G591", "morph": "Aor2ActSubj" },
+      { "text": " render", "strong": "G591" },
       { "text": " evil", "strong": "G2556" },
       { "text": " for", "strong": "G473" },
       { "text": " evil", "strong": "G2556" },
       { "text": " unto any", "strong": "G5100" },
-      {
-        "content": [" ", { "text": "man", "marks": ["i"] }, "; but"],
-        "strong": "G235"
-      },
+      " ",
+      { "text": "man", "marks": ["i"] },
+      { "text": "; but", "strong": "G235" },
       { "text": " ever", "strong": "G3842" },
-      { "text": " follow", "strong": "G1377", "morph": "PresActImpr" },
+      { "text": " follow", "strong": "G1377" },
       { "text": " that which", "strong": "G3588" },
       { "text": " is good,", "strong": "G18" },
       { "text": " both", "strong": "G2532" },
@@ -2100,7 +2031,7 @@
     "chapter": 5,
     "verse": 16,
     "content": [
-      { "text": "Rejoice", "strong": "G5463", "morph": "PresActImpr" },
+      { "text": "Rejoice", "strong": "G5463" },
       { "text": " evermore.", "strong": "G3842" }
     ]
   },
@@ -2109,7 +2040,7 @@
     "chapter": 5,
     "verse": 17,
     "content": [
-      { "text": "Pray", "strong": "G4336", "morph": "PresMidPasDepImpr" },
+      { "text": "Pray", "strong": "G4336" },
       { "text": " without ceasing.", "strong": "G89" }
     ]
   },
@@ -2120,7 +2051,7 @@
     "content": [
       { "text": "In", "strong": "G1722" },
       { "text": " every thing", "strong": "G3956" },
-      { "text": " give thanks:", "strong": "G2168", "morph": "PresActImpr" },
+      { "text": " give thanks:", "strong": "G2168" },
       { "text": " for", "strong": "G1063" },
       { "text": " this", "strong": "G5124" },
       { "text": " is the will", "strong": "G2307" },
@@ -2137,9 +2068,10 @@
     "chapter": 5,
     "verse": 19,
     "content": [
-      { "text": "Quench", "strong": "G4570", "morph": "PresActImpr" },
+      { "text": "Quench", "strong": "G4570" },
       { "text": " not", "strong": "G3361" },
-      { "text": " the Spirit.", "strong": "G4151" }
+      { "text": " the", "strong": "G3588" },
+      { "text": " Spirit.", "strong": "G4151" }
     ]
   },
   {
@@ -2147,7 +2079,7 @@
     "chapter": 5,
     "verse": 20,
     "content": [
-      { "text": "Despise", "strong": "G1848", "morph": "PresActImpr" },
+      { "text": "Despise", "strong": "G1848" },
       { "text": " not", "strong": "G3361" },
       { "text": " prophesyings.", "strong": "G4394" }
     ]
@@ -2157,9 +2089,9 @@
     "chapter": 5,
     "verse": 21,
     "content": [
-      { "text": "Prove", "strong": "G1381", "morph": "PresActImpr" },
+      { "text": "Prove", "strong": "G1381" },
       { "text": " all things;", "strong": "G3956" },
-      { "text": " hold fast", "strong": "G2722", "morph": "PresActImpr" },
+      { "text": " hold fast", "strong": "G2722" },
       { "text": " that which", "strong": "G3588" },
       { "text": " is good.", "strong": "G2570" }
     ]
@@ -2169,7 +2101,7 @@
     "chapter": 5,
     "verse": 22,
     "content": [
-      { "text": "Abstain", "strong": "G567", "morph": "PresMidImpr" },
+      { "text": "Abstain", "strong": "G567" },
       { "text": " from", "strong": "G575" },
       { "text": " all", "strong": "G3956" },
       { "text": " appearance", "strong": "G1491" },
@@ -2182,27 +2114,28 @@
     "verse": 23,
     "content": [
       { "paragraph": true, "text": "And", "strong": "G1161" },
-      { "text": " the very", "strong": "G846" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " very", "strong": "G846" },
       { "text": " God", "strong": "G2316" },
       { "text": " of peace", "strong": "G1515" },
-      { "text": " sanctify", "strong": "G37", "morph": "AorActOpt" },
+      { "text": " sanctify", "strong": "G37" },
       { "text": " you", "strong": "G5209" },
       { "text": " wholly;", "strong": "G3651" },
       { "text": " and", "strong": "G2532" },
-      {
-        "content": [" ", { "text": "I pray God", "marks": ["i"] }, " your"],
-        "strong": "G5216"
-      },
+      " ",
+      { "text": "I pray God", "marks": ["i"] },
+      { "text": " your", "strong": "G5216" },
       { "text": " whole", "strong": "G3648" },
       { "text": " spirit", "strong": "G4151" },
       { "text": " and", "strong": "G2532" },
       { "text": " soul", "strong": "G5590" },
       { "text": " and", "strong": "G2532" },
       { "text": " body", "strong": "G4983" },
-      { "text": " be preserved", "strong": "G5083", "morph": "AorPasOpt" },
+      { "text": " be preserved", "strong": "G5083" },
       { "text": " blameless", "strong": "G274" },
       { "text": " unto", "strong": "G1722" },
-      { "text": " the coming", "strong": "G3952" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " coming", "strong": "G3952" },
       { "text": " of our", "strong": "G2257" },
       { "text": " Lord", "strong": "G2962" },
       { "text": " Jesus", "strong": "G2424" },
@@ -2215,15 +2148,14 @@
     "verse": 24,
     "content": [
       { "text": "Faithful", "strong": "G4103" },
-      {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " he that calleth"],
-        "strong": "G2564",
-        "morph": "PresActPtc"
-      },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " he that", "strong": "G3588" },
+      { "text": " calleth", "strong": "G2564" },
       { "text": " you,", "strong": "G5209" },
       { "text": " who", "strong": "G3739" },
       { "text": " also", "strong": "G2532" },
-      { "text": " will do", "strong": "G4160", "morph": "FutActInd" },
+      { "text": " will do", "strong": "G4160" },
       " ",
       { "text": "it", "marks": ["i"] },
       "."
@@ -2235,7 +2167,7 @@
     "verse": 25,
     "content": [
       { "paragraph": true, "text": "Brethren,", "strong": "G80" },
-      { "text": " pray", "strong": "G4336", "morph": "PresMidPasDepImpr" },
+      { "text": " pray", "strong": "G4336" },
       { "text": " for", "strong": "G4012" },
       { "text": " us.", "strong": "G2257" }
     ]
@@ -2245,14 +2177,10 @@
     "chapter": 5,
     "verse": 26,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Greet",
-        "strong": "G782",
-        "morph": "AorMidDepImpr"
-      },
+      { "paragraph": true, "text": "Greet", "strong": "G782" },
       { "text": " all", "strong": "G3956" },
-      { "text": " the brethren", "strong": "G80" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " brethren", "strong": "G80" },
       { "text": " with", "strong": "G1722" },
       { "text": " an holy", "strong": "G40" },
       { "text": " kiss.", "strong": "G5370" }
@@ -2269,15 +2197,17 @@
           "type": "trn",
           "content": ["Or, ", { "text": "adjure", "marks": ["i"] }]
         },
-        "strong": "G3726",
-        "morph": "PresActInd"
+        "strong": "G3726"
       },
       { "text": " you", "strong": "G5209" },
-      { "text": " by the Lord", "strong": "G2962" },
-      { "text": " that this epistle", "strong": "G1992" },
-      { "text": " be read", "strong": "G314", "morph": "AorPasInf" },
+      { "text": " by the", "strong": "G3588" },
+      { "text": " Lord", "strong": "G2962" },
+      { "text": " that this", "strong": "G3588" },
+      { "text": " epistle", "strong": "G1992" },
+      { "text": " be read", "strong": "G314" },
       { "text": " unto all", "strong": "G3956" },
-      { "text": " the holy", "strong": "G40" },
+      { "text": " the", "strong": "G3588" },
+      { "text": " holy", "strong": "G40" },
       { "text": " brethren.", "strong": "G80" }
     ]
   },
@@ -2286,21 +2216,21 @@
     "chapter": 5,
     "verse": 28,
     "content": [
-      { "paragraph": true, "text": "The grace", "strong": "G5485" },
+      { "paragraph": true, "text": "The", "strong": "G3588" },
+      { "text": " grace", "strong": "G5485" },
       { "text": " of our", "strong": "G2257" },
       { "text": " Lord", "strong": "G2962" },
       { "text": " Jesus", "strong": "G2424" },
       { "text": " Christ", "strong": "G5547" },
-      {
-        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
-        "strong": "G3326"
-      },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " with", "strong": "G3326" },
       { "text": " you.", "strong": "G5216" },
       { "text": " Amen.", "break": true, "strong": "G281" },
       { "text": "The first", "strong": "G4413" },
-      { "text": " epistle", "strong": "G4314" },
-      { "text": " unto the Thessalonians", "strong": "G2331" },
-      { "text": " was written", "strong": "G1125", "morph": "Aor2PasDepSubj" },
+      { "text": " epistle unto", "strong": "G4314" },
+      { "text": " the Thessalonians", "strong": "G2331" },
+      { "text": " was written", "strong": "G1125" },
       { "text": " from", "strong": "G575" },
       { "text": " Athens.", "strong": "G116" }
     ]

@@ -42,7 +42,7 @@
 ## Chapter 2
 
 <sup>1</sup> Épeita dià dekatessárōn etō̂n pálin anébēn eis Hierosólyma metà Barnába, symparalabṑn kaì Títon;
-<sup>2</sup> anébēn dè katà apokálypsin, kaì anethémēn autoîs tò euangélion hò kērýssō en toîs éthnesi, kat’ idían dè toîs dokoûsi, μή πως eis kenòn tréchō ḕ édramon.
+<sup>2</sup> anébēn dè katà apokálypsin, kaì anethémēn autoîs tò euangélion hò kērýssō en toîs éthnesi, kat’ idían dè toîs dokoûsi, mḗ pōs eis kenòn tréchō ḕ édramon.
 <sup>3</sup> all’ oudè Títos ho sỳn emoí, Héllēn ṓn, ēnankásthē peritmēthē̂nai;
 <sup>4</sup> dià dè toùs pareisáktous pseudadélphous, hoítines pareisē̂lthon kataskopē̂sai tḕn eleutherían hēmō̂n hḕn échomen en Christō̂ Iēsoû, hína hēmâs katadoulṓsōntai;<sup>a</sup>
 <sup>5</sup> hoîs oudè pròs hṓran eíxamen tē̂ hypotagē̂, hína hē alḗtheia toû euangelíou diameínē pròs hymâs.
@@ -77,7 +77,7 @@
 <sup>1</sup> Ō̂ anóētoi Galátai, tís hymâs ebáskane tē̂ alētheía mḕ peíthesthai,<sup>a</sup> hoîs kat’ ophthalmoùs Iēsoûs Christòs proegráphē en hymîn<sup>b</sup> estaurōménos?
 <sup>2</sup> toûto mónon thélō matheîn aph’ hymō̂n, ex érgōn nómou tò Pneûma elábete, ḕ ex akoē̂s písteōs?
 <sup>3</sup> hoútōs anóētoí este? enarxámenoi Pneúmati, nŷn sarkì epiteleîsthe?
-<sup>4</sup> tosaûta epáthete eikē̂? εἴ γε kaì eikē̂.
+<sup>4</sup> tosaûta epáthete eikē̂? eí ge kaì eikē̂.
 <sup>5</sup> ho oûn epichorēgō̂n hymîn tò Pneûma kaì energō̂n dynámeis en hymîn, ex érgōn nómou, ḕ ex akoē̂s písteōs?
 <sup>6</sup> kathṑs Abraàm epísteuse tō̂ Theō̂, kaì elogísthē autō̂ eis dikaiosýnēn.
 
@@ -134,7 +134,7 @@
 <sup>8</sup> Allà tóte mén, ouk eidótes Theón, edouleúsate toîs mḕ phýsei<sup>c</sup> oûsi theoîs;
 <sup>9</sup> nŷn dé, gnóntes Theón, mâllon dè gnōsthéntes hypò Theoû, pō̂s epistréphete pálin epì tà asthenē̂ kaì ptōchà stoicheîa, hoîs pálin ánōthen douleúein thélete?
 <sup>10</sup> hēméras paratēreîsthe, kaì mē̂nas, kaì kairoús, kaì eniautoús.
-<sup>11</sup> phoboûmai hymâs, μή πως eikē̂ kekopíaka eis hymâs.
+<sup>11</sup> phoboûmai hymâs, mḗ pōs eikē̂ kekopíaka eis hymâs.
 
 <sup>12</sup> Gínesthe hōs egṓ, hóti kagṑ hōs hymeîs, adelphoí, déomai hymō̂n. oudén me ēdikḗsate;
 <sup>13</sup> oídate dè hóti di’ asthéneian tē̂s sarkòs euēngelisámēn hymîn tò próteron.

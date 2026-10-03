@@ -417,7 +417,7 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 <sup>1</sup> Kaì embàs eis tò<sup>a</sup> ploîon diepérase kaì ē̂lthen eis tḕn idían pólin.
 <sup>2</sup> kaì idoú, prosépheron autō̂ paralytikòn epì klínēs beblēménon; kaì idṑn ho Iēsoûs tḕn pístin autō̂n eîpe tō̂ paralytikō̂, Thársei, téknon; aphéōntaí soi hai hamartíai sou.<sup>b</sup>
 <sup>3</sup> kaì idoú, tinès tō̂n grammatéōn eîpon en heautoîs, Hoûtos blasphēmeî.
-<sup>4</sup> kaì idṑn<sup>c</sup> ho Iēsoûs tàs enthymḗseis autō̂n eîpen, Ἱνατί hymeîs<sup>d</sup> enthymeîsthe ponērà en taîs kardíais hymō̂n?
+<sup>4</sup> kaì idṑn<sup>c</sup> ho Iēsoûs tàs enthymḗseis autō̂n eîpen, Hinatí hymeîs<sup>d</sup> enthymeîsthe ponērà en taîs kardíais hymō̂n?
 <sup>5</sup> tí gár estin eukopṓteron, eipeîn, Aphéōntaí soi<sup>e</sup> hai hamartíai; ḕ eipeîn, Égeirai kaì peripátei?
 <sup>6</sup> hína dè eidē̂te, hóti exousían échei ho hyiòs toû anthrṓpou epì tē̂s gē̂s aphiénai hamartías (tóte légei tō̂ paralytikō̂), Egertheìs ârón sou tḕn klínēn, kaì hýpage eis tòn oîkón sou.
 <sup>7</sup> kaì egertheìs apē̂lthen eis tòn oîkon autoû.
@@ -426,11 +426,11 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 <sup>9</sup> Kaì parágōn ho Iēsoûs ekeîthen eîden ánthrōpon kathḗmenon epì tò telṓnion, Matthaîon legómenon, kaì légei autō̂, Akoloúthei moi. kaì anastàs ēkoloúthēsen autō̂.
 
 <sup>10</sup> Kaì egéneto autoû anakeiménou en tē̂ oikía, kaì idoú, polloì telō̂nai kaì hamartōloì elthóntes synanékeinto tō̂ Iēsoû kaì toîs mathētaîs autoû.
-<sup>11</sup> kaì idóntes hoi Pharisaîoi eîpon toîs mathētaîs autoû, Διατί metà tō̂n telōnō̂n kaì hamartōlō̂n esthíei ho didáskalos hymō̂n?
+<sup>11</sup> kaì idóntes hoi Pharisaîoi eîpon toîs mathētaîs autoû, Diatí metà tō̂n telōnō̂n kaì hamartōlō̂n esthíei ho didáskalos hymō̂n?
 <sup>12</sup> ho dè Iēsoûs<sup>g</sup> akoúsas eîpen autoîs,<sup>h</sup> Ou chreían échousin hoi ischýontes iatroû, all’ hoi kakō̂s échontes.
 <sup>13</sup> poreuthéntes dè máthete tí estin, Éleon thélō, kaì ou thysían; ou gàr ē̂lthon kalésai dikaíous, all’ hamartōloùs eis metánoian.<sup>i</sup>
 
-<sup>14</sup> Tóte prosérchontai autō̂ hoi mathētaì Iōánnou, légontes, Διατί hēmeîs kaì hoi Pharisaîoi nēsteúomen pollá,<sup>j</sup> hoi dè mathētaí sou ou nēsteúousi?
+<sup>14</sup> Tóte prosérchontai autō̂ hoi mathētaì Iōánnou, légontes, Diatí hēmeîs kaì hoi Pharisaîoi nēsteúomen pollá,<sup>j</sup> hoi dè mathētaí sou ou nēsteúousi?
 <sup>15</sup> kaì eîpen autoîs ho Iēsoûs, Mḕ dýnantai hoi hyioì toû nymphō̂nos pentheîn, eph’ hóson met’ autō̂n estin ho nymphíos? eleúsontai dè hēmérai hótan aparthē̂ ap’ autō̂n ho nymphíos, kaì tóte nēsteúsousin.
 <sup>16</sup> Oudeìs dè epibállei epíblēma rhákous agnáphou epì himatíō palaiō̂; aírei gàr tò plḗrōma autoû apò toû himatíou, kaì cheîron schísma gínetai.
 <sup>17</sup> oudè bállousin oînon néon eis askoùs palaioús; ei dè mḗge, rhḗgnyntai hoi askoí, kaì ho oînos ekcheîtai, kaì hoi askoì apoloûntai;<sup>k</sup> allà bállousin oînon néon eis askoùs kainoús, kaì amphótera syntēroûntai.
@@ -687,7 +687,7 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 <sup>8</sup> álla dè épesen epì tḕn gē̂n tḕn kalḗn, kaì edídou karpón, hò mèn hekatón, hò dè hexḗkonta, hò dè triákonta.
 <sup>9</sup> ho échōn ō̂ta akoúein<sup>c</sup> akouétō.
 
-<sup>10</sup> Kaì proselthóntes hoi mathētaì eîpon autō̂, Διατί en parabolaîs laleîs autoîs?
+<sup>10</sup> Kaì proselthóntes hoi mathētaì eîpon autō̂, Diatí en parabolaîs laleîs autoîs?
 <sup>11</sup> ho dè apokritheìs eîpen autoîs hóti Hymîn dédotai gnō̂nai tà mystḗria tē̂s basileías tō̂n ouranō̂n, ekeínois dè ou dédotai.
 <sup>12</sup> hóstis gàr échei, dothḗsetai autō̂ kaì perisseuthḗsetai; hóstis dè ouk échei, kaì hò échei, arthḗsetai ap’ autoû.
 <sup>13</sup> dià toûto en parabolaîs autoîs lalō̂, hóti blépontes ou blépousi, kaì akoúontes ouk akoúousin, oudè synioûsi.
@@ -842,8 +842,8 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 ## Chapter 15
 
 <sup>1</sup> Tóte prosérchontai tō̂ Iēsoû hoi<sup>a</sup> apò Hierosolýmōn grammateîs kaì Pharisaîoi,<sup>b</sup> légontes,
-<sup>2</sup> Διατί hoi mathētaí sou parabaínousi tḕn parádosin tō̂n presbytérōn? ou gàr níptontai tàs cheîras autō̂n,<sup>c</sup> hótan árton esthíōsin.
-<sup>3</sup> ho dè apokritheìs eîpen autoîs, Διατί kaì hymeîs parabaínete tḕn entolḕn toû Theoû dià tḕn parádosin hymō̂n?
+<sup>2</sup> Diatí hoi mathētaí sou parabaínousi tḕn parádosin tō̂n presbytérōn? ou gàr níptontai tàs cheîras autō̂n,<sup>c</sup> hótan árton esthíōsin.
+<sup>3</sup> ho dè apokritheìs eîpen autoîs, Diatí kaì hymeîs parabaínete tḕn entolḕn toû Theoû dià tḕn parádosin hymō̂n?
 <sup>4</sup> ho gàr Theòs eneteílato, légōn,<sup>d</sup> Tíma tòn patéra soû,<sup>e</sup> kaì tḕn mētéra; kaí, Ho kakologō̂n patéra ḕ mētéra thanátō teleutátō;
 <sup>5</sup> hymeîs dè légete, Hòs àn eípē tō̂ patrì ḕ tē̂ mētrí, Dō̂ron, hò eàn ex emoû ōphelēthē̂s,
 <sup>6</sup> kaì<sup>f</sup> ou mḕ timḗsē<sup>g</sup> tòn patéra autoû ḕ tḕn mētéra autoû;<sup>h</sup> kaì ēkyrṓsate tḕn entolḕn<sup>i</sup> toû Theoû dià tḕn parádosin hymō̂n.
@@ -993,7 +993,7 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 <sup>16</sup> kaì prosḗnenka autòn toîs mathētaîs sou, kaì ouk ēdynḗthēsan autòn therapeûsai.
 <sup>17</sup> apokritheìs dè ho Iēsoûs eîpen, Ō̂ geneà ápistos kaì diestramménē, héōs póte ésomai meth’ hymō̂n? héōs póte anéxomai hymō̂n? phéreté moi autòn hō̂de.
 <sup>18</sup> kaì epetímēsen autō̂ ho Iēsoûs, kaì exē̂lthen ap’ autoû tò daimónion, kaì etherapeúthē ho paîs apò tē̂s hṓras ekeínēs.
-<sup>19</sup> tóte proselthóntes hoi mathētaì tō̂ Iēsoû kat’ idían eîpon, Διατί hēmeîs ouk ēdynḗthēmen ekbaleîn autó?
+<sup>19</sup> tóte proselthóntes hoi mathētaì tō̂ Iēsoû kat’ idían eîpon, Diatí hēmeîs ouk ēdynḗthēmen ekbaleîn autó?
 <sup>20</sup> ho dè Iēsoûs<sup>i</sup> eîpen<sup>j</sup> autoîs, Dià tḕn apistían<sup>k</sup> hymō̂n. amḕn gàr légō hymîn, eàn échēte pístin hōs kókkon sinápeōs, ereîte tō̂ órei toútō, Metábēthi enteûthen ekeî, kaì metabḗsetai; kaì oudèn adynatḗsei hymîn.
 <sup>21</sup> toûto dè tò génos ouk ekporeúetai ei mḕ en proseuchē̂ kaì nēsteía.<sup>l</sup>
 
@@ -1230,7 +1230,7 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 
 <sup>23</sup> Kaì elthónti autō̂<sup>l</sup> eis tò hierón, prosē̂lthon autō̂ didáskonti hoi archiereîs kaì hoi presbýteroi toû laoû, légontes, En poía exousía taûta poieîs? kaì tís soi édōke tḕn exousían taútēn?
 <sup>24</sup> apokritheìs dè ho Iēsoûs eîpen autoîs, Erōtḗsō hymâs kagṑ lógon héna, hòn eàn eípēté moi, kagṑ hymîn erō̂ en poía exousía taûta poiō̂.
-<sup>25</sup> tò báptisma Iōánnou póthen ē̂n? ex ouranoû ḕ ex anthrṓpōn? hoi dè dielogízonto par’ heautoîs, légontes, Eàn eípōmen, ex ouranoû, ereî hēmîn, Διατί oûn ouk episteúsate autō̂?
+<sup>25</sup> tò báptisma Iōánnou póthen ē̂n? ex ouranoû ḕ ex anthrṓpōn? hoi dè dielogízonto par’ heautoîs, légontes, Eàn eípōmen, ex ouranoû, ereî hēmîn, Diatí oûn ouk episteúsate autō̂?
 <sup>26</sup> eàn dè eípōmen, ex anthrṓpōn, phoboúmetha tòn óchlon; pántes gàr échousi tòn Iōánnēn hōs prophḗtēn.
 <sup>27</sup> kaì apokrithéntes tō̂ Iēsoû eîpon, Ouk oídamen. éphē autoîs kaì autós, Oudè egṑ légō hymîn en poía exousía taûta poiō̂.
 
@@ -1772,7 +1772,7 @@ Dabìd dè ho basileùs<sup>a</sup> egénnēse tòn Solomō̂nta ek tē̂s toû 
 <sup>44</sup> tò d’ autò kaì hoi lēstaì hoi systaurōthéntes autō̂ ōneídizon autō̂.
 
 <sup>45</sup> Apò dè héktēs hṓras skótos egéneto epì pâsan tḕn gē̂n héōs hṓras ennátēs;
-<sup>46</sup> perì dè tḕn ennátēn hṓran anebóēsen ho Iēsoûs phōnē̂ megálē, légōn, Ēlí, Ēlí, lamà sabachthaní? toût’ ésti, Theé mou, Theé mou, ἱνατί me enkatélipes?
+<sup>46</sup> perì dè tḕn ennátēn hṓran anebóēsen ho Iēsoûs phōnē̂ megálē, légōn, Ēlí, Ēlí, lamà sabachthaní? toût’ ésti, Theé mou, Theé mou, hinatí me enkatélipes?
 <sup>47</sup> tinès dè tō̂n ekeî hestṓtōn akoúsantes élegon hóti Ēlían phōneî hoûtos.
 <sup>48</sup> kaì euthéōs dramṑn heîs ex autō̂n, kaì labṑn spóngon, plḗsas te óxous, kaì peritheìs kalámō, epótizen autón.
 <sup>49</sup> hoi dè loipoì élegon, Áphes, ídōmen ei érchetai Ēlías sṓsōn autón.<sup>u</sup>

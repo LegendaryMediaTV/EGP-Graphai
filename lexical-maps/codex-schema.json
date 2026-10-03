@@ -118,6 +118,14 @@
           "type": "string",
           "description": "Optional brief English gloss for the root, written to _specs/documentation/EGP-Graphai/short-definitions.md: tense-, person-, case- and degree-neutral, since each cell's parse states those, and opening with the frame for the root's part of speech (\"a/an\" for a noun, \"to\" for a verb, \"to be\" for an adjective)."
         },
+        "transliteration": {
+          "type": "string",
+          "description": "The root key transliterated with the language registry's table, less any homograph superscript: ἀγάπη is agápē and κόρος¹ is kóros. Derived, so `npm run validate` writes it and fails on a stored value its table does not produce (checked outside this schema)."
+        },
+        "pronunciation": {
+          "type": "string",
+          "description": "How the root is said, respelled for English readers from the language registry's pronunciation table: syllables joined by hyphens, the stressed syllable in capitals, words of a phrase separated by a space. ἀγάπη is ah-GAH-pay. Absent where the key holds something not said aloud, like the keraia on a numeral. Derived and checked like `transliteration`."
+        },
         "indices": {
           "$ref": "#/$defs/indices",
           "description": "Root-level lexical indices, for identifiers that belong to the word rather than to one parse cell."

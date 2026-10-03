@@ -382,8 +382,9 @@
 <sup>6</sup> And the hare, because he cheweth the cud, but divideth not the hoof; he _is_ unclean unto you.
 <sup>7</sup> And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he _is_ unclean to you.
 <sup>8</sup> Of their flesh shall ye not eat, and their carcase shall ye not touch; they _are_ unclean to you.
+<sup>9</sup>
 
-<sup>9</sup> These shall ye eat of all that _are_ in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat.
+These shall ye eat of all that _are_ in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat.
 <sup>10</sup> And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which _is_ in the waters, they _shall be_ an abomination unto you:
 <sup>11</sup> they shall be even an abomination unto you; ye shall not eat of their flesh, but ye shall have their carcases in abomination.
 <sup>12</sup> Whatsoever hath no fins nor scales in the waters, that _shall be_ an abomination unto you.

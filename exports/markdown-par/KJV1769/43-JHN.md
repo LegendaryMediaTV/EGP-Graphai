@@ -203,7 +203,6 @@
 <sup>28</sup> The woman then left her waterpot, and went her way into the city, and saith to the men,
 <sup>29</sup> Come, see a man, which told me all things that ever I did: is not this the Christ?
 <sup>30</sup> Then they went out of the city, and came unto him.
-
 <sup>31</sup> In the mean while his disciples prayed him, saying, Master, eat.
 <sup>32</sup> But he said unto them, I have meat to eat that ye know not of.
 <sup>33</sup> Therefore said the disciples one to another, Hath any man brought him _ought_ to eat?
@@ -756,7 +755,6 @@
 
 <sup>42</sup> Nevertheless among the chief rulers also many believed on him; but because of the Pharisees they did not confess _him_, lest they should be put out of the synagogue:
 <sup>43</sup> for they loved the praise of men more than the praise of God.
-
 <sup>44</sup> Jesus cried and said, He that believeth on me, believeth not on me, but on him that sent me.
 <sup>45</sup> And he that seeth me seeth him that sent me.
 <sup>46</sup> I am come a light into the world, that whosoever believeth on me should not abide in darkness.
@@ -1003,8 +1001,9 @@
 <sup>22</sup> And when he had thus spoken, one of the officers which stood by struck Jesus with the palm<sup>b</sup> of his hand, saying, Answerest thou the high priest so?
 <sup>23</sup> Jesus answered him, If I have spoken evil, bear witness of the evil: but if well, why smitest thou me?
 <sup>24</sup> Now Annas had sent him bound unto Caiaphas the high priest.
+<sup>25</sup>
 
-<sup>25</sup> And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also _one_ of his disciples? He denied _it_, and said, I am not.
+And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also _one_ of his disciples? He denied _it_, and said, I am not.
 <sup>26</sup> One of the servants of the high priest, being _his_ kinsman whose ear Peter cut off, saith, Did not I see thee in the garden with him?
 <sup>27</sup> Peter then denied again: and immediately the cock crew.
 

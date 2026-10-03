@@ -81,7 +81,7 @@ and<br>His bishoprick<sup>b</sup> let another take.<br>
 <sup>32</sup> This Jesus hath God raised up, whereof we all are witnesses.
 <sup>33</sup> Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear.
 <sup>34</sup> For David is not ascended into the heavens: but he saith himself,<br>The LORD said unto my Lord, Sit thou on my right hand,<br>
-<sup>35</sup> Until I make thy foes thy footstool.<br>
+<sup>35</sup> Until I make thy foes thy footstool.
 
 <sup>36</sup> Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ.
 
@@ -347,10 +347,11 @@ Men, brethren, and fathers, hearken; The God of glory appeared unto our father A
 <sup>51</sup> Ye stiffnecked and uncircumcised in heart and ears, ye do always resist the Holy Ghost: as your fathers _did_, so _do_ ye.
 <sup>52</sup> Which of the prophets have not your fathers persecuted? and they have slain them which shewed before of the coming of the Just One; of whom ye have been now the betrayers and murderers:
 <sup>53</sup> who have received the law by the disposition of angels, and have not kept _it_.
+<sup>54</sup>
 
 ### Death of Stephen
 
-<sup>54</sup> When they heard these things, they were cut to the heart, and they gnashed on him with _their_ teeth.
+When they heard these things, they were cut to the heart, and they gnashed on him with _their_ teeth.
 <sup>55</sup> But he, being full of the Holy Ghost, looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God,
 <sup>56</sup> and said, Behold, I see the heavens opened, and the Son of man standing on the right hand of God.
 <sup>57</sup> Then they cried out with a loud voice, and stopped their ears, and ran upon him with one accord,
@@ -491,7 +492,6 @@ Then was Saul certain days with the disciples which were at Damascus.
 <sup>6</sup> he lodgeth with one Simon a tanner, whose house is by the sea side: he shall tell thee what thou oughtest to do.
 <sup>7</sup> And when the angel which spake unto Cornelius was departed, he called two of his household servants, and a devout soldier of them that waited on him continually;
 <sup>8</sup> and when he had declared all _these_ things unto them, he sent them to Joppa.
-
 <sup>9</sup> On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:
 <sup>10</sup> and he became very hungry, and would have eaten: but while they made ready, he fell into a trance,
 <sup>11</sup> and saw heaven opened, and a certain vessel descending unto him, as it had been a great sheet knit at the four corners, and let down to the earth:
@@ -605,8 +605,9 @@ Then was Saul certain days with the disciples which were at Damascus.
 
 <sup>18</sup> Now as soon as it was day, there was no small stir among the soldiers, what was become of Peter.
 <sup>19</sup> And when Herod had sought for him, and found him not, he examined the keepers, and commanded that _they_ should be put to death. And he went down from Judæa to Cæsarea, and _there_ abode.
+<sup>20</sup>
 
-<sup>20</sup> And Herod was highly displeased<sup>d</sup> with them of Tyre and Sidon: but they came with one accord to him, and, having made Blastus the king’s chamberlain their friend, desired peace; because their country was nourished by the king’s _country_.
+And Herod was highly displeased<sup>d</sup> with them of Tyre and Sidon: but they came with one accord to him, and, having made Blastus the king’s chamberlain their friend, desired peace; because their country was nourished by the king’s _country_.
 <sup>21</sup> And upon a set day Herod, arrayed in royal apparel, sat upon his throne, and made an oration unto them.
 <sup>22</sup> And the people gave a shout, _saying, It is_ the voice of a god, and not of a man.
 <sup>23</sup> And immediately the angel of the Lord smote him, because he gave not God the glory: and he was eaten of worms, and gave up the ghost.
@@ -787,8 +788,9 @@ Then was Saul certain days with the disciples which were at Damascus.
 <sup>27</sup> We have sent therefore Judas and Silas, who shall also tell _you_ the same things by mouth.
 <sup>28</sup> For it seemed good to the Holy Ghost, and to us, to lay upon you no greater burden than these necessary things;
 <sup>29</sup> that ye abstain from meats offered to idols, and from blood, and from things strangled, and from fornication: from which if ye keep yourselves, ye shall do well. Fare ye well.
+<sup>30</sup>
 
-<sup>30</sup> So when they were dismissed, they came to Antioch: and when they had gathered the multitude together, they delivered the epistle:
+So when they were dismissed, they came to Antioch: and when they had gathered the multitude together, they delivered the epistle:
 <sup>31</sup> _which_ when they had read, they rejoiced for the consolation.<sup>a</sup>
 <sup>32</sup> And Judas and Silas, being prophets also themselves, exhorted the brethren with many words, and confirmed _them_.
 <sup>33</sup> And after they had tarried _there_ a space, they were let go in peace from the brethren unto the apostles.
@@ -1434,7 +1436,6 @@ Then Paul stretched forth the hand, and answered for himself:
 <sup>4</sup> And when the barbarians saw the _venomous_ beast hang on his hand, they said among themselves, No doubt this man is a murderer, whom, though he hath escaped the sea, yet vengeance suffereth not to live.
 <sup>5</sup> And he shook off the beast into the fire, and felt no harm.
 <sup>6</sup> Howbeit they looked when he should have swollen, or fallen down dead suddenly: but after they had looked a great while, and saw no harm come to him, they changed their minds, and said that he was a god.
-
 <sup>7</sup> In the same quarters were possessions of the chief man of the island, whose name was Publius; who received us, and lodged us three days courteously.
 <sup>8</sup> And it came to pass, that the father of Publius lay sick of a fever and of a bloody flux: to whom Paul entered in, and prayed, and laid his hands on him, and healed him.
 <sup>9</sup> So when this was done, others also, which had diseases in the island, came, and were healed:

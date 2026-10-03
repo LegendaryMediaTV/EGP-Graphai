@@ -223,6 +223,70 @@
     "upsilonInDiphthong": "u",
     "aspirate": "h"
   },
+  "pronunciation": {
+    "style": "erasmian",
+    "description": "Erasmian pronunciation respelled for English readers, the stressed syllable in capitals: ἀγάπη is ah-GAH-pay. Each respelling is the one a reader is least likely to misread, which is why omicron is aw rather than o.",
+    "vowels": {
+      "α": "ah",
+      "ε": "eh",
+      "η": "ay",
+      "ι": "ee",
+      "ο": "aw",
+      "υ": "oo",
+      "ω": "oh"
+    },
+    "diphthongs": {
+      "αι": "ai",
+      "ει": "ay",
+      "οι": "oy",
+      "υι": "wee",
+      "αυ": "ow",
+      "ευ": "yoo",
+      "ηυ": "yoo",
+      "ου": "oo"
+    },
+    "consonants": {
+      "β": "b",
+      "γ": "g",
+      "δ": "d",
+      "ζ": "z",
+      "θ": "th",
+      "κ": "k",
+      "λ": "l",
+      "μ": "m",
+      "ν": "n",
+      "ξ": "ks",
+      "π": "p",
+      "ρ": "r",
+      "σ": "s",
+      "ς": "s",
+      "τ": "t",
+      "φ": "f",
+      "χ": "kh",
+      "ψ": "ps"
+    },
+    "velars": ["γ", "κ", "ξ", "χ"],
+    "gammaNasal": "n",
+    "aspirate": "h",
+    "onsets": [
+      "βλ",
+      "βρ",
+      "γλ",
+      "γρ",
+      "δρ",
+      "θλ",
+      "θρ",
+      "κλ",
+      "κρ",
+      "πλ",
+      "πρ",
+      "τρ",
+      "φλ",
+      "φρ",
+      "χλ",
+      "χρ"
+    ]
+  },
   "classCategories": [
     {
       "_id": "declension",
