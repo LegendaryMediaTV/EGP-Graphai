@@ -244,7 +244,11 @@ function walk(
   ) => void,
 ): void {
   if (!Array.isArray(nodes)) return;
-  /** The spellings of the last word seen, for a text-less code to attach to. */
+  /**
+   * The spellings of the last word printed, tagged or not, for a text-less code
+   * to attach to. A trailing footnote node carries its word's tags after the
+   * footnote marker, so the word it belongs to is the one just before it.
+   */
   let preceding: string[] = [];
 
   for (const node of nodes as any[]) {
@@ -253,7 +257,13 @@ function walk(
     if (node.heading) walk(node.heading, visit);
     if (node.foot?.content) walk(node.foot.content, visit);
     if (Array.isArray(node.content)) walk(node.content, visit);
-    if (!node.morph && !node.lemma) continue;
+    if (!node.morph && !node.lemma) {
+      if (typeof node.text === "string") {
+        const printed = spellingsOf(node.text).filter(Boolean);
+        if (printed.length) preceding = printed;
+      }
+      continue;
+    }
 
     if (node.text === undefined) {
       // A tagged node with no text is a second reading of the word before it,

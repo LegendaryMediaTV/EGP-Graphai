@@ -1471,7 +1471,7 @@
 > - <sup>c</sup> 9. Or, _parallel_ saying.
 > - <sup>d</sup> 13. Or, _doubtless they will be turned fully round_
 > - <sup>e</sup> 27. Lit., _came forward…speak against there being any rising up_
-> - <sup>f</sup> 37. Lit., _upon_ — narrating the circumstance of the Bush burning.
+> - <sup>f</sup> 37. Lit., _upon_—narrating the circumstance of the Bush burning.
 > - <sup>g</sup> 43. Lit., _set or put_
 
 ## Chapter 21

@@ -25,6 +25,12 @@
  * codex about KJV1769's morphology-tagged English words, find nothing, and
  * report misses that were never candidates.
  *
+ * **A tag on a trailing footnote node is its word's, and already complete.**
+ * Where footnotes trail their word, the word's `morph`, `lemma` and `strong`
+ * sit on the text-less footnote node after it. That word node carries neither a
+ * `morph` nor a `lemma`, so it is not a candidate here and nothing is written
+ * onto it; a node with no text is never one either.
+ *
  * **One walk, one node at a time, both fields together.** Both answers come from
  * resolving the same node against the same codex, and the lemma written here is
  * the lemma the Strong's lookup then reads — a node arriving with a morph and

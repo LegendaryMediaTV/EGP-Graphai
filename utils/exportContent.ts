@@ -228,34 +228,6 @@ function startsWithLetter(text: string): boolean {
 }
 
 /**
- * A node carrying only a footnote — no text, Strong's number, or nested
- * content. Two real corpus shapes take this form: a *second* footnote on
- * one word, riding as a textless sibling right after it since
- * `content-schema.json` allows only one `foot` per node; or a `{foot}` that
- * is the *sole* note on a phrase, sitting before it instead of after.
- */
-function isTextlessFootnoteSibling(item: Content): boolean {
-  if (
-    typeof item === "string" ||
-    Array.isArray(item) ||
-    item === null ||
-    typeof item !== "object"
-  )
-    return false;
-  const record = item as Record<string, unknown>;
-  if (record.foot === undefined) return false;
-  if (record.strong !== undefined) return false;
-  if (
-    "content" in record ||
-    "heading" in record ||
-    "subtitle" in record ||
-    "bibleLink" in record
-  )
-    return false;
-  return typeof record.text !== "string" || record.text.length === 0;
-}
-
-/**
  * A `bibleLink` node's own display override, when it's a single mark-bearing
  * object — the one override shape whose marks are judged against the
  * surrounding emphasis run rather than rendered as an opaque span (see
@@ -648,57 +620,6 @@ interface RenderedParts {
 }
 
 /**
- * Splices trailing textless-footnote-only siblings' markers into
- * `parts.suffix`, right before `item`'s own Strong's tag, consuming those
- * array elements as it goes (see `isTextlessFootnoteSibling`). Left in array
- * order, such a marker would land after the Strong's number by array
- * position rather than because that is where it belongs. Returns the updated
- * suffix and the last index consumed — `startIndex` when nothing was
- * spliced.
- */
-function spliceTrailingFootnoteSiblings(
-  item: ContentObject | ContentNested,
-  parts: RenderedParts,
-  content: Content[],
-  startIndex: number,
-  ctx: RenderContext,
-): { suffix: string; lastIndex: number } {
-  let suffix = parts.suffix;
-  let lastIndex = startIndex;
-
-  if (!ctx.options.includeStrongs || typeof item.strong !== "string") {
-    return { suffix, lastIndex };
-  }
-
-  const tagOffset = suffix.lastIndexOf(" " + item.strong);
-  if (tagOffset === -1) return { suffix, lastIndex };
-
-  let insertAt = tagOffset;
-  while (
-    lastIndex + 1 < content.length &&
-    isTextlessFootnoteSibling(content[lastIndex + 1])
-  ) {
-    lastIndex++;
-    const siblingNode = content[lastIndex] as ContentObject;
-    const siblingRendered = renderContent(siblingNode, ctx);
-    const hasBreak = siblingNode.break === true;
-    const breakMarker = hasBreak ? ctx.options.lineBreakMarker : "";
-    // The sibling's own render always ends in exactly one separating space
-    // (`renderTextObjectParts`'s own rule for a textless, strong-less
-    // footnote node) and, rarely, its own line break after that — both stay
-    // at the very end of the merged unit; only the marker+body core moves.
-    let core = hasBreak
-      ? siblingRendered.slice(0, siblingRendered.length - breakMarker.length)
-      : siblingRendered;
-    if (core.endsWith(" ")) core = core.slice(0, -1);
-    suffix = suffix.slice(0, insertAt) + core + suffix.slice(insertAt);
-    insertAt += core.length;
-    if (hasBreak) suffix += breakMarker;
-  }
-  return { suffix, lastIndex };
-}
-
-/**
  * The live state an emphasis run carries across loop iterations. Threaded
  * through `emphasisRunContinuation` as both seed and result, which is what
  * lets a `ContentNested` node's own inner array continue the SAME run its
@@ -840,22 +761,10 @@ function emphasisRunContinuation(
       openMarks = continuation.state.openMarks;
       pendingWhitespace = continuation.state.pendingWhitespace;
 
-      const parts: RenderedParts = {
-        prefix: "",
-        core: continuation.text,
-        suffix: renderNestedSuffix(nested, ctx, continuation.text),
-      };
-      const spliced = spliceTrailingFootnoteSiblings(
-        nested,
-        parts,
-        content,
-        index,
-        ctx,
-      );
-      index = spliced.lastIndex;
-      if (spliced.suffix !== "") {
+      const suffix = renderNestedSuffix(nested, ctx, continuation.text);
+      if (suffix !== "") {
         closeOpenMarks();
-        result += spliced.suffix;
+        result += suffix;
       }
 
       const next = content[index + 1];
@@ -882,16 +791,6 @@ function emphasisRunContinuation(
       parts = renderAbbreviationParts(abbreviationName, ctx);
     else if ("content" in item) parts = renderNestedContentParts(item, ctx);
     else parts = renderTextObjectParts(item, ctx);
-
-    const spliced = spliceTrailingFootnoteSiblings(
-      item,
-      parts,
-      content,
-      index,
-      ctx,
-    );
-    parts = { ...parts, suffix: spliced.suffix };
-    index = spliced.lastIndex;
 
     // A node opening a new paragraph is a hard boundary too: its own
     // marker renders before its text, so whatever was open before it must
@@ -939,9 +838,7 @@ function emphasisRunContinuation(
     // Testing the next sibling's own rendered text keeps the end of an array
     // correct and leaves a textless footnote-only sibling alone, whose
     // render opens with "°" and must stay unspaced for °{...} to remain a
-    // clean search/replace target. Checked against `item`, never
-    // `content[index]` after splicing, since a consumed textless-footnote
-    // sibling never carries the tag this check looks for.
+    // clean search/replace target.
     const next = content[index + 1];
     if (
       next !== undefined &&

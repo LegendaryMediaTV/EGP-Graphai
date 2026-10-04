@@ -489,7 +489,7 @@ He who does these things<br>will never be shaken.
 
 > - <sup>a</sup> Heading. 2 Samuel 22:1–51
 > - <sup>b</sup> 12. Or _bolts of lightning_; also in verse 13
-> - <sup>c</sup> 13. Most Hebrew manuscripts; some Hebrew manuscripts and LXX do not include _—hailstones and coals of fire_; see 2 Samuel 22:14.
+> - <sup>c</sup> 13. Most Hebrew manuscripts; some Hebrew manuscripts and LXX do not include<i>—hailstones and coals of fire</i>; see 2 Samuel 22:14.
 > - <sup>d</sup> 35. Or _and Your help exalts me_ or _and You stoop down to make me great_
 > - <sup>e</sup> 42. Some Hebrew manuscripts, LXX, and Syriac (see also 2 Samuel 22:43); MT _I poured them out_
 > - <sup>f</sup> 49. Cited in Romans 15:9

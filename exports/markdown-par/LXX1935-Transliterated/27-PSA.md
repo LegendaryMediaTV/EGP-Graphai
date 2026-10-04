@@ -2318,20 +2318,20 @@ Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò él
 <sup>6</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n errýsato autoùs
 <sup>7</sup> kaì hōdḗgēsen autoùs eis hodòn eutheîan toû poreuthē̂nai eis pólin katoikētēríou.
 <sup>8</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>9</sup> hóti echórtasen psychḕn kenḕn kaì psychḕn peinō̂san enéplēsen agathō̂n. —
+<sup>9</sup> hóti echórtasen psychḕn kenḕn kaì psychḕn peinō̂san enéplēsen agathō̂n.—
 <sup>10</sup> kathēménous en skótei kaì skiâ thanátou, pepedēménous en ptōcheía kaì sidḗrō,
 <sup>11</sup> hóti parepíkranan tà lógia toû theoû kaì tḕn boulḕn toû hypsístou parṓxynan,
 <sup>12</sup> kaì etapeinṓthē en kópois hē kardía autō̂n, ēsthénēsan, kaì ouk ē̂n ho boēthō̂n;
 <sup>13</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n ésōsen autoùs
 <sup>14</sup> kaì exḗgagen autoùs ek skótous kaì skiâs thanátou kaì toùs desmoùs autō̂n diérrēxen.
 <sup>15</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>16</sup> hóti synétripsen pýlas chalkâs kaì mochloùs sidēroûs synéklasen. —
+<sup>16</sup> hóti synétripsen pýlas chalkâs kaì mochloùs sidēroûs synéklasen.—
 <sup>17</sup> antelábeto autō̂n ex hodoû anomías autō̂n, dià gàr tàs anomías autō̂n etapeinṓthēsan;
 <sup>18</sup> pân brō̂ma ebdelýxato hē psychḕ autō̂n, kaì ḗngisan héōs tō̂n pylō̂n toû thanátou;
 <sup>19</sup> kaì ekékraxan pròs kýrion en tō̂ thlíbesthai autoús, kaì ek tō̂n anankō̂n autō̂n ésōsen autoús,
 <sup>20</sup> apésteilen tòn lógon autoû kaì iásato autoùs kaì errýsato autoùs ek tō̂n diaphthorō̂n autō̂n.
 <sup>21</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn
-<sup>22</sup> kaì thysátōsan thysían ainéseōs kaì exangeilátōsan tà érga autoû en agalliásei. —
+<sup>22</sup> kaì thysátōsan thysían ainéseōs kaì exangeilátōsan tà érga autoû en agalliásei.—
 <sup>23</sup> hoi katabaínontes eis tḕn thálassan en ploíois poioûntes ergasían en hýdasi polloîs,
 <sup>24</sup> autoì eídosan tà érga kyríou kaì tà thaumásia autoû en tō̂ bythō̂;
 <sup>25</sup> eîpen, kaì éstē pneûma kataigídos, kaì hypsṓthē tà kýmata autē̂s;
@@ -2341,7 +2341,7 @@ Exomologeîsthe tō̂ kyríō, hóti chrēstós, hóti eis tòn aiō̂na tò él
 <sup>29</sup> kaì epétaxen tē̂ kataigídi, kaì éstē eis aúran, kaì esígēsan tà kýmata autē̂s;
 <sup>30</sup> kaì euphránthēsan, hóti hēsýchasan, kaì hōdḗgēsen autoùs epì liména thelḗmatos autō̂n.
 <sup>31</sup> Exomologēsásthōsan tō̂ kyríō tà eléē autoû kaì tà thaumásia autoû toîs hyioîs tō̂n anthrṓpōn,
-<sup>32</sup> hypsōsátōsan autòn en ekklēsía laoû kaì en kathédra presbytérōn ainesátōsan autón. —
+<sup>32</sup> hypsōsátōsan autòn en ekklēsía laoû kaì en kathédra presbytérōn ainesátōsan autón.—
 <sup>33</sup> étheto potamoùs eis érēmon kaì diexódous hydátōn eis dípsan,
 <sup>34</sup> gē̂n karpophóron eis hálmēn apò kakías tō̂n katoikoúntōn en autē̂.
 <sup>35</sup> Étheto érēmon eis límnas hydátōn kaì gē̂n ánydron eis diexódous hydátōn

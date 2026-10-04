@@ -318,7 +318,7 @@
 <sup>34</sup> Oudè gàr endeḗs tis <sup>az</sup>hypē̂rchen en autoîs; hósoi gàr ktḗtores chōríōn ḕ oikiō̂n hypē̂rchon, pōloûntes épheron tàs timàs tō̂n pipraskoménōn,
 <sup>35</sup> kaì etíthoun parà toùs pódas tō̂n apostólōn; <sup>ba</sup>diedídoto dè hekástō kathóti án tis chreían eîchen.
 
-<sup>36</sup> <sup>bb</sup>Iōsē̂s dé, ho epiklētheìs Barnábas <sup>bc</sup>apò tō̂n apostólōn—hó estin, methermēneuómenon, hyiòs paraklḗseōs— <sup>bd</sup>Leuḯtēs, Kýprios tō̂ génei,
+<sup>36</sup> <sup>bb</sup>Iōsē̂s dé, ho epiklētheìs Barnábas <sup>bc</sup>apò tō̂n apostólōn—hó estin, methermēneuómenon, hyiòs paraklḗseōs—<sup>bd</sup>Leuḯtēs, Kýprios tō̂ génei,
 <sup>37</sup> hypárchontos autō̂ agroû, pōlḗsas ḗnenken tò chrē̂ma, kaì éthēken <sup>be</sup>parà toùs pódas tō̂n apostólōn.
 
 > - <sup>a</sup> 1. hiereîs ¦ WH archiereîs

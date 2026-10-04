@@ -2237,7 +2237,7 @@ The LORD called Me from the womb;<br>from the body of My mother He named Me.<br>
 <sup>15</sup> so He will sprinkle<sup>h</sup> many nations.<br>Kings will shut their mouths because of Him.<br>For they will see what they have not been told,<br>and they will understand what they have not heard.<sup>i</sup>
 
 > - <sup>a</sup> 5. DSS and Vulgate; MT _wail_
-> - <sup>b</sup> 5. LXX _—on account of you My name is blasphemed continually among the Gentiles_; cited in Romans 2:24
+> - <sup>b</sup> 5. LXX<i>—on account of you My name is blasphemed continually among the Gentiles</i>; cited in Romans 2:24
 > - <sup>c</sup> 7. Cited in Romans 10:15
 > - <sup>d</sup> 11. Cited in 2 Corinthians 6:17
 > - <sup>e</sup> Heading. Philippians 2:5–11

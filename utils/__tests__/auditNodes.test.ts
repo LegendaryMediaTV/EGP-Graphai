@@ -360,6 +360,27 @@ describe("findStrongsNodeIssues — leading punctuation", () => {
   });
 });
 
+describe("describeNode — a footnote node carrying its word's tags", () => {
+  it("should read it as a footnote sibling, never as a textless Strong's sibling that renders nothing", () => {
+    const shape = describeNode({
+      foot: { type: "stu", content: "note" },
+      strong: "H7225",
+      break: true,
+    });
+
+    expect(shape.isTextlessFootSibling).toBe(true);
+    expect(shape.isTextlessStrongSibling).toBe(false);
+    expect(shape.endsBreak).toBe(true);
+  });
+
+  it("should still read a bare Strong's node with no footnote as a textless Strong's sibling", () => {
+    const shape = describeNode({ strong: "H853" });
+
+    expect(shape.isTextlessStrongSibling).toBe(true);
+    expect(shape.isTextlessFootSibling).toBe(false);
+  });
+});
+
 describe("findFirstRenderedIndex", () => {
   it("should stop in front of a textless node carrying both a Strong's number and a foot, because it still renders its marker", () => {
     const shapes = [

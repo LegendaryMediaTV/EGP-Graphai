@@ -46,7 +46,7 @@
 <sup>3</sup> all’ oudè Títos ho sỳn emoí, Héllēn ṓn, ēnankásthē peritmēthē̂nai;
 <sup>4</sup> dià dè toùs pareisáktous pseudadélphous, hoítines pareisē̂lthon kataskopē̂sai tḕn eleutherían hēmō̂n hḕn échomen en Christō̂ Iēsoû, hína hēmâs katadoulṓsōntai;<sup>a</sup>
 <sup>5</sup> hoîs oudè pròs hṓran eíxamen tē̂ hypotagē̂, hína hē alḗtheia toû euangelíou diameínē pròs hymâs.
-<sup>6</sup> apò dè tō̂n dokoúntōn eînaí ti (hopoîoí pote ē̂san oudén moi diaphérei; prósōpon Theòs anthrṓpou ou lambánei)— emoì gàr hoi dokoûntes oudèn prosanéthento;
+<sup>6</sup> apò dè tō̂n dokoúntōn eînaí ti (hopoîoí pote ē̂san oudén moi diaphérei; prósōpon Theòs anthrṓpou ou lambánei)—emoì gàr hoi dokoûntes oudèn prosanéthento;
 <sup>7</sup> allà tounantíon, idóntes hóti pepísteumai tò euangélion tē̂s akrobystías, kathṑs Pétros tē̂s peritomē̂s
 <sup>8</sup> (ho gàr energḗsas Pétrō eis apostolḕn tē̂s peritomē̂s, enḗrgēse kaì emoì eis tà éthnē),
 <sup>9</sup> kaì gnóntes tḕn chárin tḕn dotheîsán moi, Iákōbos kaì Kēphâs kaì Iōánnēs, hoi dokoûntes stŷloi eînai, dexiàs édōkan emoì kaì Barnába koinōnías, hína hēmeîs eis tà éthnē, autoì dè eis tḕn peritomḗn;

@@ -105,9 +105,9 @@ export interface NodeShape {
   hasParse: boolean;
   /** A `ContentNested` wrapper (`{content: [...], strong: "..."}`) — has rendered text one level down but no top-level `text` of its own, so it's never itself an eligible donor, merge target, or attachment point at this array level. */
   hasNestedContent: boolean;
-  /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
+  /** A multi-number `<st>` tag's own textless sibling (`{strong: "H853"}`, no `text`, no nested `content`, no `foot` either) — renders nothing at all, so a backward scan for an attachment point passes straight through it rather than stopping there. Distinct from `hasNestedContent`: both lack top-level `text`, but only one of them is actually invisible. */
   isTextlessStrongSibling: boolean;
-  /** A footnote-only sibling that renders no *text* of its own — a bare `{foot: {...}}` node, or a not-yet-normalized `{text: "", foot: {...}}` husk (`utils/exportContent.ts`'s own `isTextlessFootnoteSibling`); a run of two or more riding one word is ordinary. **It still renders its own marker**, unlike {@link isTextlessStrongSibling}, so the two are interchangeable only when the question is which node's formatting must agree — never when the question is where characters or markers may land ({@link findFirstRenderedIndex}). */
+  /** A footnote-only sibling that renders no *text* of its own — a bare `{foot: {...}}` node, or a not-yet-normalized `{text: "", foot: {...}}` husk; a run of two or more riding one word is ordinary. In a version whose footnotes trail their word the last node of such a run also carries the word's `strong`/`lemma`/`morph` and `break` (the order text, footnote, tags, break), and is still a foot sibling. **It still renders its own marker**, unlike {@link isTextlessStrongSibling}, so the two are interchangeable only when the question is which node's formatting must agree — never when the question is where characters or markers may land ({@link findFirstRenderedIndex}). */
   isTextlessFootSibling: boolean;
   /** Whether this node's own `paragraph` is `true`. */
   opensParagraph: boolean;
@@ -171,7 +171,10 @@ export function describeNode(node: unknown): NodeShape {
     hasParse,
     hasNestedContent,
     isTextlessStrongSibling:
-      text === undefined && strong !== undefined && !hasNestedContent,
+      text === undefined &&
+      strong !== undefined &&
+      !hasNestedContent &&
+      !hasFoot,
     isTextlessFootSibling:
       (text === undefined || text === "") && hasFoot && !hasNestedContent,
     opensParagraph: record.paragraph === true,
@@ -251,10 +254,10 @@ export function isRealAttachmentPoint(shape: NodeShape): boolean {
  *
  * The walk tests what a node renders rather than which {@link NodeShape} flag
  * is set: `isTextlessStrongSibling` is a near-match for "renders nothing",
- * not a definition of it, and a node satisfying it while also carrying a
- * `foot` renders its marker. No such node exists in the corpus today; the
- * `hasFoot` clause is here anyway, so that reading the flag alone cannot
- * repeat the same conflation one level further down.
+ * not a definition of it. A footnote-only node that carries its word's
+ * `strong` renders its marker, so the flag excludes it and the `hasFoot`
+ * clause here is a second guard that keeps reading the flag alone from
+ * repeating the conflation one level further down.
  */
 export function findFirstRenderedIndex(
   shapes: readonly NodeShape[],
