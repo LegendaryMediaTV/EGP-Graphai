@@ -397,7 +397,7 @@
 <sup>14</sup> Pántes dè aphronéstatoi kaì tálanes hypèr psychḕn nēpíou hoi echthroì toû laoû sou katadynasteúsantes autón,
 <sup>15</sup> hóti kaì pánta tà eídōla tō̂n ethnō̂n elogísanto theoús, hoîs oúte ommátōn chrē̂sis eis hórasin oúte rhînes eis synolkḕn aéros oúte ō̂ta akoúein oúte dáktyloi cheirō̂n eis psēláphēsin kaì hoi pódes autō̂n argoì pròs epíbasin.
 <sup>16</sup> Ánthrōpos gàr epoíēsen autoús, kaì tò pneûma dedaneisménos éplasen autoús; oudeìs gàr autō̂ hómoion ánthrōpos ischýei plásai theón;
-<sup>17</sup> thnētòs dè ṑn nekròn ergázetai chersìn anómois; kreíttōn gár estin tō̂n sebasmátōn autoû, hō̂n autòs mèn ézēsen, ekeîna dè oudépote. —
+<sup>17</sup> thnētòs dè ṑn nekròn ergázetai chersìn anómois; kreíttōn gár estin tō̂n sebasmátōn autoû, hō̂n autòs mèn ézēsen, ekeîna dè oudépote.—
 <sup>18</sup> kaì tà zō̂a dè tà échthista sébontai; anoía gàr synkrinómena tō̂n állōn estì cheírona;
 <sup>19</sup> oud’ hóson epipothē̂sai hōs en zṓōn ópsei kalà tynchánei, ekpépheugen dè kaì tòn toû theoû épainon kaì tḕn eulogían autoû.
 

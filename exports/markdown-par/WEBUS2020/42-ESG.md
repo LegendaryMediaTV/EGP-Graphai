@@ -6,7 +6,7 @@ Mordecai, who had seen this vision and what God desired to do, having arisen, ke
 
 Mordecai rested quietly in the palace with Gabatha and Tharrha the king’s two chamberlains, eunuchs who guarded the palace. He heard their conversation and searched out their plans. He learned that they were preparing to lay hands on King Ahasuerus; and he informed the king concerning them. The king examined the two chamberlains. They confessed, and were led away and executed. The king wrote these things for a record. Mordecai also wrote concerning these matters. The king commanded Mordecai to serve in the palace, and gave gifts for this service. But Haman the son of Hammedatha the Bougean was honored in the sight of the king, and he endeavored to harm Mordecai and his people, because of the king’s two chamberlains.]
 
-<sup>c</sup>And it came to pass after these things<sup>d</sup> in the days of Ahasuerus, —(this Ahasuerus ruled over one hundred twenty-seven provinces from India)—
+<sup>c</sup>And it came to pass after these things<sup>d</sup> in the days of Ahasuerus,—(this Ahasuerus ruled over one hundred twenty-seven provinces from India)—
 <sup>2</sup> in those days, when King Ahasuerus was on the throne in the city of Susa,
 <sup>3</sup> in the third year of his reign, he made a feast for his friends, for people from the rest of the nations, for the nobles of the Persians and Medes, and for the chief of the local governors.
 <sup>4</sup> After this—after he had shown them the wealth of his kingdom and the abundant glory of his wealth during one hundred eighty days—

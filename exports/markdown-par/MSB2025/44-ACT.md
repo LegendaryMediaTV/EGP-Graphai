@@ -437,7 +437,7 @@ When the high priest and his associates arrived, they convened the Sanhedrin<sup
 > - <sup>b</sup> 1. Literally _the Hellenists began to grumble against the Hebrews_
 > - <sup>c</sup> 3. CT does not include _Holy_.
 > - <sup>d</sup> 5. Literally _and Nicolas, a convert of Antioch_
-> - <sup>e</sup> 6. Literally _—whom they set before the apostles,_
+> - <sup>e</sup> 6. Literally<i>—whom they set before the apostles,</i>
 > - <sup>f</sup> 7. GOC _Jews_
 > - <sup>g</sup> 8. CT _grace_
 > - <sup>h</sup> 9. Literally _and those from Cilicia and Asia_; the Roman province of Asia was located in what is now western Turkey.

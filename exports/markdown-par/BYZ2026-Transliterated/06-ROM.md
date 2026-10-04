@@ -293,7 +293,7 @@
 
 ## Chapter 7
 
-<sup>1</sup> Ḕ agnoeîte, adelphoí—ginṓskousin gàr nómon lalō̂— hóti ho nómos kyrieúei toû anthrṓpou eph’ hóson chrónon zē̂?
+<sup>1</sup> Ḕ agnoeîte, adelphoí—ginṓskousin gàr nómon lalō̂—hóti ho nómos kyrieúei toû anthrṓpou eph’ hóson chrónon zē̂?
 <sup>2</sup> Hē gàr hýpandros gynḕ tō̂ zō̂nti andrì dédetai nómō; eàn dè apothánē ho anḗr, katḗrgētai apò toû nómou toû andrós.
 <sup>3</sup> Ára oûn zō̂ntos toû andròs moichalìs chrēmatísei, eàn génētai andrì hetérō; eàn dè apothánē ho anḗr, eleuthéra estìn apò toû nómou, toû mḕ eînai autḕn moichalída, genoménēn andrì hetérō.
 <sup>4</sup> Hṓste, adelphoí mou, kaì hymeîs ethanatṓthēte tō̂ nómō dià toû sṓmatos toû christoû, eis tò genésthai hymâs hetérō, tō̂ ek nekrō̂n egerthénti, hína karpophorḗsōmen tō̂ theō̂.

@@ -294,8 +294,8 @@ function ContentNode({
           )}
           <span className="inline">
             {nestedContent}
-            {parsingSpan}
             {footnote}
+            {parsingSpan}
             {settings.paragraphMode && node.break && <br />}
           </span>
           {!settings.paragraphMode && node.break && " "}
@@ -432,8 +432,8 @@ function ContentNode({
         )}
         <span className="inline">
           {content}
-          {parsingSpan}
           {footnote}
+          {parsingSpan}
           {settings.paragraphMode && node.break && <br />}
         </span>
         {!settings.paragraphMode && node.break && " "}

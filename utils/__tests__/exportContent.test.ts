@@ -1242,10 +1242,12 @@ describe("exportContent", () => {
             {
               text: "διαρπάσῃ.",
               foot: { type: "var", content: "B διαρπάσῃ ⇒ διαρπάσει" },
+            },
+            {
+              foot: { type: "var", content: "N διαρπάσῃ ⇒ διαρπάσει" },
               strong: "G1283",
               morph: "V-AAS-3S",
             },
-            { foot: { type: "var", content: "N διαρπάσῃ ⇒ διαρπάσει" } },
           ],
         };
         const result = convertVerseToText(verse);
@@ -1265,13 +1267,13 @@ describe("exportContent", () => {
               paragraph: true,
               text: "In the beginning",
               foot: { type: "trn", content: "The clause opens the narrative." },
-              strong: "H7225",
             },
             {
               foot: {
                 type: "stu",
                 content: "The verse begins the account of creation.",
               },
+              strong: "H7225",
             },
             { text: " God", strong: "H430" },
           ],
@@ -1291,13 +1293,12 @@ describe("exportContent", () => {
             {
               text: "shall fall.",
               foot: { type: "trn", content: "Or, shall be beaten." },
-              strong: "H3832",
-              morph: "NiphImpf",
             },
             {
-              text: "",
               break: true,
               foot: { type: "trn", content: "Or, shall be beaten." },
+              strong: "H3832",
+              morph: "NiphImpf",
             },
           ],
         };
@@ -1305,6 +1306,44 @@ describe("exportContent", () => {
         expect(result).toBe(
           "010:010 shall fall.°{Or, shall be beaten.}°{Or, shall be beaten.} H3832 (NiphImpf)␤",
         );
+      });
+    });
+
+    describe("order within a word", () => {
+      it("should render a footnote-only node that carries tags and a break in the order footnote, tags, break", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 1,
+          verse: 1,
+          content: [
+            { text: "numbers!", foot: { type: "trn", content: "one" } },
+            {
+              foot: { type: "stu", content: "two" },
+              strong: "H1",
+              morph: "N",
+              break: true,
+            },
+            { text: "May he", strong: "H2" },
+          ],
+        };
+        expect(convertVerseToText(verse)).toBe(
+          "001:001 numbers!°{one}°{two} H1 (N)␤May he H2",
+        );
+      });
+
+      it("should leave a leading footnote-only marker after the tag of the word before it", () => {
+        const verse: VerseSchema = {
+          book: "MAT",
+          chapter: 1,
+          verse: 23,
+          content: [
+            { text: "NAME", strong: "G3686" },
+            { foot: { type: "trn", content: "Or Emmanuel" } },
+            { text: "IMMANUEL,", strong: "G1694" },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe("001:023 NAME G3686°{Or Emmanuel}IMMANUEL, G1694");
       });
     });
 
@@ -1843,7 +1882,7 @@ describe("exportContent", () => {
       expect(result).toBe("001:002 the great H1419 was");
     });
 
-    it("should still insert a space after a Strong's-tagged node's own trailing textless-footnote-sibling splice, checking the splice's real tag owner rather than whatever array slot the splice consumed (a real corpus shape: 'they are fainting' carries its own strong + 2 footnotes, one riding as a consumed textless sibling, immediately followed by a plain Strong's-tagged word with no leading space of its own)", () => {
+    it("should still insert a space after a Strong's-tagged trailing footnote node (a real corpus shape: 'they are fainting' carries 2 footnotes, the second on a node that also holds the word's tag, immediately followed by a plain Strong's-tagged word with no leading space of its own)", () => {
       const verse: VerseSchema = {
         book: "LAM",
         chapter: 2,
@@ -1851,7 +1890,6 @@ describe("exportContent", () => {
         content: [
           {
             text: "they are fainting",
-            strong: "H5848",
             foot: { type: "trn", content: "Heb “who are fainting.”" },
           },
           {
@@ -1860,6 +1898,7 @@ describe("exportContent", () => {
               content:
                 "The BHS editors suggest this bicolon is a late addition.",
             },
+            strong: "H5848",
           },
           { text: "from hunger", strong: "H7458", break: true },
         ],

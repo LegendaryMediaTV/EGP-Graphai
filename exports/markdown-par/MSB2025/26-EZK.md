@@ -1348,7 +1348,7 @@ You have said, O Tyre,<br>‘I am perfect in beauty.’<br>
 > - <sup>d</sup> 13. That is, Greece
 > - <sup>e</sup> 15. Hebrew; LXX _Rhodes_
 > - <sup>f</sup> 16. Most Hebrew manuscripts; some Hebrew manuscripts and Syriac _Edom_
-> - <sup>g</sup> 19. Probable reading; MT _—and Dan and Javan from Uzal (traded) for your wares_
+> - <sup>g</sup> 19. Probable reading; MT<i>—and Dan and Javan from Uzal (traded) for your wares</i>
 > - <sup>h</sup> 19. Or _calamus_
 > - <sup>i</sup> 19. Or _were among your merchandise_
 > - <sup>j</sup> 25. Or _A fleet of trading ships_

@@ -901,9 +901,8 @@ And they could not in three days expound the riddle.
 <sup>19</sup> Yet there is both straw and provender for our asses; and there is bread and wine also for me, and for thy handmaid, and for the young man _which is_ with thy servants: _there is_ no want of any thing.
 <sup>20</sup> And the old man said, Peace _be_ with thee; howsoever _let_ all thy wants _lie_ upon me; only lodge not in the street.
 <sup>21</sup> So he brought him into his house, and gave provender unto the asses: and they washed their feet, and did eat and drink.
-<sup>22</sup>
 
-_Now_ as they were making their hearts merry, behold, the men of the city, certain sons of Belial, beset the house round about, _and_ beat at the door, and spake to the master of the house, the old man, saying, Bring forth the man that came into thine house, that we may know him.
+<sup>22</sup> _Now_ as they were making their hearts merry, behold, the men of the city, certain sons of Belial, beset the house round about, _and_ beat at the door, and spake to the master of the house, the old man, saying, Bring forth the man that came into thine house, that we may know him.
 <sup>23</sup> And the man, the master of the house, went out unto them, and said unto them, Nay, my brethren, _nay_, I pray you, do not _so_ wickedly; seeing that this man is come into mine house, do not this folly.
 <sup>24</sup> Behold, _here is_ my daughter a maiden, and his concubine; them I will bring out now, and humble ye them, and do with them what seemeth good unto you: but unto this man do not so vile a thing.<sup>k</sup>
 <sup>25</sup> But the men would not hearken to him: so the man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning: and when the day began to spring, they let her go.
