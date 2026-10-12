@@ -23,10 +23,10 @@
       { "text": " the Preacher,", "strong": "H6953" },
       { "text": " vanity", "strong": "H1892" },
       { "text": " of vanities;", "strong": "H1892" },
-      {
-        "content": [" all ", { "text": "is", "marks": ["i"] }, " vanity."],
-        "strong": "H1892"
-      }
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -37,9 +37,11 @@
       { "text": "What", "strong": "H4100" },
       { "text": " profit", "strong": "H3504" },
       { "text": " hath a man", "strong": "H120" },
-      { "text": " of all his labour", "strong": "H5999" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " his labour", "strong": "H5999" },
       { "text": " which he taketh", "strong": "H5998" },
-      { "text": " under the sun?", "strong": "H8121" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun?", "strong": "H8121" }
     ]
   },
   {
@@ -59,7 +61,6 @@
         "strong": "H1755"
       },
       { "text": " cometh:", "strong": "H935" },
-      { "strong": "H935" },
       { "text": " but the earth", "strong": "H776" },
       { "text": " abideth", "strong": "H5975" },
       { "text": " for ever.", "strong": "H5769" }
@@ -82,8 +83,11 @@
         },
         "strong": "H7602"
       },
-      { "text": " to his place", "strong": "H4725" },
-      { "text": " where he arose.", "strong": "H2224" }
+      { "text": " to", "strong": "H413" },
+      { "text": " his place", "strong": "H4725" },
+      { "text": " where", "strong": "H8033" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " arose.", "strong": "H2224" }
     ]
   },
   {
@@ -93,14 +97,18 @@
     "content": [
       { "text": "The wind", "strong": "H7307" },
       { "text": " goeth", "strong": "H1980" },
-      { "text": " toward the south,", "strong": "H1864" },
+      { "text": " toward", "strong": "H413" },
+      { "text": " the south,", "strong": "H1864" },
       { "text": " and turneth about", "strong": "H5437" },
       { "text": " unto", "strong": "H413" },
       { "text": " the north;", "strong": "H6828" },
-      { "text": " it whirleth about continually,", "strong": "H1980" },
+      { "text": " it whirleth about", "strong": "H5437" },
+      { "strong": "H5437" },
+      { "text": " continually,", "strong": "H1980" },
       { "text": " and the wind", "strong": "H7307" },
       { "text": " returneth again", "strong": "H7725" },
-      { "text": " according to his circuits.", "strong": "H5439" }
+      { "text": " according to", "strong": "H5921" },
+      { "text": " his circuits.", "strong": "H5439" }
     ]
   },
   {
@@ -111,16 +119,20 @@
       { "text": "All", "strong": "H3605" },
       { "text": " the rivers", "strong": "H5158" },
       { "text": " run", "strong": "H1980" },
-      { "text": " into the sea;", "strong": "H3220" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the sea;", "strong": "H3220" },
       { "text": " yet the sea", "strong": "H3220" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " not full;", "strong": "H4392" },
+      { "text": " not", "strong": "H369" },
+      { "text": " full;", "strong": "H4392" },
       { "text": " unto", "strong": "H413" },
       { "text": " the place", "strong": "H4725" },
       { "text": " from whence the rivers", "strong": "H5158" },
       { "text": " come,", "strong": "H1980" },
-      { "text": " thither they return", "strong": "H7725" },
+      { "text": " thither", "strong": "H8033" },
+      { "text": " they", "strong": "H1992" },
+      { "text": " return", "strong": "H7725" },
       {
         "text": " again.",
         "foot": {
@@ -142,14 +154,18 @@
       { "text": "are", "marks": ["i"] },
       { "text": " full of labour;", "strong": "H3023" },
       { "text": " man", "strong": "H376" },
-      { "text": " cannot", "strong": "H3201" },
+      { "text": " cannot", "strong": "H3808" },
+      { "strong": "H3201" },
       { "text": " utter", "strong": "H1696" },
       " ",
       { "text": "it:", "marks": ["i"] },
       { "text": " the eye", "strong": "H5869" },
-      { "text": " is not satisfied", "strong": "H7646" },
+      { "text": " is", "strong": "H7646" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " satisfied", "strong": "H7646" },
       { "text": " with seeing,", "strong": "H7200" },
-      { "text": " nor the ear", "strong": "H241" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " the ear", "strong": "H241" },
       { "text": " filled", "strong": "H4390" },
       { "text": " with hearing.", "strong": "H8085" }
     ]
@@ -159,24 +175,28 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      {
-        "content": [
-          "The thing that hath been, it ",
-          { "text": "is that", "marks": ["i"] },
-          " which shall be; and that which is done"
-        ],
-        "strong": "H6213"
-      },
+      { "text": "The thing", "strong": "H4100" },
+      { "text": " that hath been,", "strong": "H1961" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "is that", "marks": ["i"] },
+      { "text": " which shall be;", "strong": "H1961" },
+      { "text": " and that", "strong": "H4100" },
+      { "text": " which is done", "strong": "H6213" },
+      { "strong": "H1931" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " that which shall be done:", "strong": "H6213" },
-      {
-        "content": [" and ", { "text": "there is", "marks": ["i"] }, " no new"],
-        "strong": "H2319"
-      },
+      { "text": " and", "strong": "H369" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "strong": "H3605" },
+      { "text": " new", "strong": "H2319" },
       " ",
       { "text": "thing", "marks": ["i"] },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -190,15 +210,17 @@
       { "text": " thing", "strong": "H1697" },
       { "text": " whereof it may be said,", "strong": "H559" },
       { "text": " See,", "strong": "H7200" },
-      {
-        "content": [" this ", { "text": "is", "marks": ["i"] }, " new?"],
-        "strong": "H2319"
-      },
-      { "text": " it hath been already", "strong": "H3528" },
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " new?", "strong": "H2319" },
+      { "strong": "H1931" },
+      { "text": " it hath been", "strong": "H1961" },
+      { "text": " already", "strong": "H3528" },
       { "text": " of old time,", "strong": "H5769" },
       { "text": " which", "strong": "H834" },
-      { "text": " was before", "strong": "H6440" },
-      " us."
+      { "text": " was", "strong": "H1961" },
+      { "text": " before us.", "strong": "H6440" }
     ]
   },
   {
@@ -207,34 +229,27 @@
     "verse": 11,
     "content": [
       { "text": "There is", "marks": ["i"] },
-      { "text": " no remembrance", "strong": "H2146" },
+      { "text": " no", "strong": "H369" },
+      { "text": " remembrance", "strong": "H2146" },
       { "text": " of former", "strong": "H7223" },
       " ",
       { "text": "things", "marks": ["i"] },
-      {
-        "content": [
-          "; neither shall there be ",
-          { "text": "any", "marks": ["i"] },
-          " remembrance"
-        ],
-        "strong": "H2146"
-      },
-      {
-        "content": [
-          " of ",
-          { "text": "things", "marks": ["i"] },
-          " that are to come"
-        ],
-        "strong": "H314"
-      },
-      {
-        "content": [
-          " with ",
-          { "text": "those", "marks": ["i"] },
-          " that shall come after."
-        ],
-        "strong": "H314"
-      }
+      { "text": "; neither", "strong": "H1571" },
+      { "strong": "H3808" },
+      { "text": " shall there be", "strong": "H1961" },
+      " ",
+      { "text": "any", "marks": ["i"] },
+      { "text": " remembrance", "strong": "H2146" },
+      { "text": " of", "strong": "H314" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " that are", "strong": "H1961" },
+      { "text": " to come", "strong": "H314" },
+      { "text": " with", "strong": "H5973" },
+      " ",
+      { "text": "those", "marks": ["i"] },
+      { "text": " that shall", "strong": "H1961" },
+      { "text": " come after.", "strong": "H314" }
     ]
   },
   {
@@ -243,8 +258,10 @@
     "verse": 12,
     "content": [
       { "heading": "The Vanity of Knowledge" },
-      { "paragraph": true, "text": "I the Preacher", "strong": "H6953" },
-      { "text": " was king", "strong": "H4428" },
+      { "paragraph": true, "text": "I", "strong": "H589" },
+      { "text": " the Preacher", "strong": "H6953" },
+      { "text": " was", "strong": "H1961" },
+      { "text": " king", "strong": "H4428" },
       { "text": " over", "strong": "H5921" },
       { "text": " Israel", "strong": "H3478" },
       { "text": " in Jerusalem.", "strong": "H3389" }
@@ -261,18 +278,19 @@
       { "text": " to seek", "strong": "H1875" },
       { "text": " and search out", "strong": "H8446" },
       { "text": " by wisdom", "strong": "H2451" },
-      {
-        "content": [
-          " concerning all ",
-          { "text": "things", "marks": ["i"] },
-          " that are done"
-        ],
-        "strong": "H6213"
-      },
-      { "text": " under heaven:", "strong": "H8064" },
-      { "text": " this sore", "strong": "H7451" },
+      { "text": " concerning", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " that", "strong": "H834" },
+      { "text": " are done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " heaven:", "strong": "H8064" },
+      { "text": " this", "strong": "H1931" },
+      { "text": " sore", "strong": "H7451" },
       { "text": " travail", "strong": "H6045" },
-      { "text": " hath God", "strong": "H430" },
+      { "text": " hath", "strong": "H5414" },
+      { "text": " God", "strong": "H430" },
       { "text": " given", "strong": "H5414" },
       { "text": " to the sons", "strong": "H1121" },
       { "text": " of man", "strong": "H120" },
@@ -292,18 +310,17 @@
     "verse": 14,
     "content": [
       { "text": "I have seen", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the works", "strong": "H4639" },
       { "text": " that are done", "strong": "H6213" },
-      { "text": " under the sun;", "strong": "H8121" },
-      {
-        "content": [
-          " and, behold, all ",
-          { "text": "is", "marks": ["i"] },
-          " vanity"
-        ],
-        "strong": "H1892"
-      },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun;", "strong": "H8121" },
+      { "text": " and, behold,", "strong": "H2009" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -315,7 +332,8 @@
     "content": [
       { "text": "That which is", "marks": ["i"] },
       { "text": " crooked", "strong": "H5791" },
-      { "text": " cannot", "strong": "H3201" },
+      { "text": " cannot", "strong": "H3808" },
+      { "strong": "H3201" },
       { "text": " be made straight:", "strong": "H8626" },
       {
         "text": " and that which is wanting",
@@ -325,7 +343,8 @@
         },
         "strong": "H2642"
       },
-      { "text": " cannot", "strong": "H3201" },
+      { "text": " cannot", "strong": "H3808" },
+      { "strong": "H3201" },
       { "text": " be numbered.", "strong": "H4487" }
     ]
   },
@@ -334,24 +353,29 @@
     "chapter": 1,
     "verse": 16,
     "content": [
-      { "text": "I communed", "strong": "H1696" },
+      { "text": "I", "strong": "H589" },
+      { "text": " communed", "strong": "H1696" },
       { "text": " with", "strong": "H5973" },
       { "text": " mine own heart,", "strong": "H3820" },
       { "text": " saying,", "strong": "H559" },
-      { "text": " Lo, I am come to great estate,", "strong": "H1431" },
+      { "text": " Lo,", "strong": "H2009" },
+      { "text": " I", "strong": "H589" },
+      { "text": " am come to great estate,", "strong": "H1431" },
       { "text": " and have gotten", "strong": "H3254" },
-      { "text": " more wisdom", "strong": "H2451" },
-      {
-        "content": [
-          " than all ",
-          { "text": "they", "marks": ["i"] },
-          " that have been before"
-        ],
-        "strong": "H6440"
-      },
-      { "text": " me in Jerusalem:", "strong": "H3389" },
+      { "text": " more", "strong": "H5921" },
+      { "text": " wisdom", "strong": "H2451" },
+      { "text": " than", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "they", "marks": ["i"] },
+      { "text": " that", "strong": "H834" },
+      { "text": " have been", "strong": "H1961" },
+      { "text": " before me", "strong": "H6440" },
+      { "text": " in", "strong": "H5921" },
+      { "text": " Jerusalem:", "strong": "H3389" },
       { "text": " yea, my heart", "strong": "H3820" },
-      { "text": " had great", "strong": "H7235" },
+      { "text": " had", "strong": "H7200" },
+      { "text": " great", "strong": "H7235" },
       {
         "text": " experience",
         "foot": {
@@ -377,9 +401,10 @@
       { "text": " madness", "strong": "H1947" },
       { "text": " and folly:", "strong": "H5531" },
       { "text": " I perceived", "strong": "H3045" },
-      { "text": " that", "strong": "H1571" },
-      { "text": " this", "strong": "H2088" },
-      { "text": " also is vexation", "strong": "H7475" },
+      { "text": " that this", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " is", "strong": "H1931" },
+      { "text": " vexation", "strong": "H7475" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
   },
@@ -393,7 +418,7 @@
       { "text": " wisdom", "strong": "H2451" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " much", "strong": "H7230" },
+      { "text": " much", "strong": "H7227" },
       { "text": " grief:", "strong": "H3708" },
       { "text": " and he that increaseth", "strong": "H3254" },
       { "text": " knowledge", "strong": "H1847" },
@@ -407,21 +432,21 @@
     "verse": 1,
     "content": [
       { "heading": "The Vanity of Pleasure" },
-      { "paragraph": true, "text": "I said", "strong": "H559" },
+      { "paragraph": true, "text": "I", "strong": "H589" },
+      { "text": " said", "strong": "H559" },
       { "text": " in mine heart,", "strong": "H3820" },
-      { "text": " Go to now,", "strong": "H3212" },
-      { "text": " I will prove", "strong": "H5254" },
-      { "text": " thee with mirth,", "strong": "H8057" },
+      { "text": " Go to", "strong": "H3212" },
+      { "text": " now,", "strong": "H4994" },
+      { "text": " I will prove thee", "strong": "H5254" },
+      { "text": " with mirth,", "strong": "H8057" },
       { "text": " therefore enjoy", "strong": "H7200" },
       { "text": " pleasure:", "strong": "H2896" },
-      {
-        "content": [
-          " and, behold, this also ",
-          { "text": "is", "marks": ["i"] },
-          " vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " and, behold,", "strong": "H2009" },
+      { "text": " this", "strong": "H1931" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -435,9 +460,9 @@
       { "text": "It is", "marks": ["i"] },
       { "text": " mad:", "strong": "H1984" },
       { "text": " and of mirth,", "strong": "H8057" },
-      { "text": " What", "strong": "H2090" },
+      { "text": " What", "strong": "H4100" },
       { "text": " doeth", "strong": "H6213" },
-      " it?"
+      { "text": " it?", "strong": "H2090" }
     ]
   },
   {
@@ -466,16 +491,20 @@
       { "text": " with wisdom;", "strong": "H2451" },
       { "text": " and to lay hold", "strong": "H270" },
       { "text": " on folly,", "strong": "H5531" },
-      { "text": " till I might see", "strong": "H7200" },
-      {
-        "content": [" what ", { "text": "was", "marks": ["i"] }, " that good"],
-        "strong": "H2896"
-      },
+      { "text": " till", "strong": "H5704" },
+      { "strong": "H834" },
+      { "text": " I might see", "strong": "H7200" },
+      { "text": " what", "strong": "H335" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " that", "strong": "H2088" },
+      { "text": " good", "strong": "H2896" },
       { "text": " for the sons", "strong": "H1121" },
       { "text": " of men,", "strong": "H120" },
       { "text": " which", "strong": "H834" },
       { "text": " they should do", "strong": "H6213" },
-      { "text": " under the heaven", "strong": "H8064" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the heaven", "strong": "H8064" },
       { "text": " all", "strong": "H4557" },
       { "text": " the days", "strong": "H3117" },
       {
@@ -514,14 +543,10 @@
       { "text": " and orchards,", "strong": "H6508" },
       { "text": " and I planted", "strong": "H5193" },
       { "text": " trees", "strong": "H6086" },
-      {
-        "content": [
-          " in them of all ",
-          { "text": "kind of", "marks": ["i"] },
-          " fruits:"
-        ],
-        "strong": "H6529"
-      }
+      { "text": " in them of all", "strong": "H3605" },
+      " ",
+      { "text": "kind of", "marks": ["i"] },
+      { "text": " fruits:", "strong": "H6529" }
     ]
   },
   {
@@ -548,7 +573,8 @@
       { "text": "me", "marks": ["i"] },
       { "text": " servants", "strong": "H5650" },
       { "text": " and maidens,", "strong": "H8198" },
-      { "text": " and had servants born", "strong": "H1121" },
+      { "text": " and had", "strong": "H1961" },
+      { "text": " servants born", "strong": "H1121" },
       {
         "text": " in my house;",
         "foot": {
@@ -558,13 +584,15 @@
         "strong": "H1004"
       },
       { "text": " also", "strong": "H1571" },
-      { "text": " I had great", "strong": "H7235" },
+      { "text": " I had", "strong": "H1961" },
+      { "text": " great", "strong": "H7235" },
       { "text": " possessions", "strong": "H4735" },
       { "text": " of great", "strong": "H1241" },
       { "text": " and small cattle", "strong": "H6629" },
-      { "text": " above all that were in Jerusalem", "strong": "H3389" },
-      { "text": " before", "strong": "H6440" },
-      " me:"
+      { "text": " above all", "strong": "H3605" },
+      { "text": " that were", "strong": "H1961" },
+      { "text": " in Jerusalem", "strong": "H3389" },
+      { "text": " before me:", "strong": "H6440" }
     ]
   },
   {
@@ -573,7 +601,8 @@
     "verse": 8,
     "content": [
       { "text": "I gathered", "strong": "H3664" },
-      { "text": " me also silver", "strong": "H3701" },
+      { "text": " me also", "strong": "H1571" },
+      { "text": " silver", "strong": "H3701" },
       { "text": " and gold,", "strong": "H2091" },
       { "text": " and the peculiar treasure", "strong": "H5459" },
       { "text": " of kings", "strong": "H4428" },
@@ -597,8 +626,7 @@
         },
         "strong": "H7705"
       },
-      { "strong": "H7705" },
-      " and that of all sorts."
+      { "text": " and that of all sorts.", "strong": "H7705" }
     ]
   },
   {
@@ -608,9 +636,12 @@
     "content": [
       { "text": "So I was great,", "strong": "H1431" },
       { "text": " and increased", "strong": "H3254" },
-      { "text": " more than all that were before", "strong": "H6440" },
-      { "text": " me in Jerusalem:", "strong": "H3389" },
-      { "text": " also my wisdom", "strong": "H2451" },
+      { "text": " more than all", "strong": "H3605" },
+      { "text": " that were", "strong": "H1961" },
+      { "text": " before me", "strong": "H6440" },
+      { "text": " in Jerusalem:", "strong": "H3389" },
+      { "text": " also", "strong": "H637" },
+      { "text": " my wisdom", "strong": "H2451" },
       { "text": " remained", "strong": "H5975" },
       " with me."
     ]
@@ -620,20 +651,28 @@
     "chapter": 2,
     "verse": 10,
     "content": [
-      { "text": "And whatsoever mine eyes", "strong": "H5869" },
+      { "text": "And whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " mine eyes", "strong": "H5869" },
       { "text": " desired", "strong": "H7592" },
       { "text": " I kept", "strong": "H680" },
       { "text": " not", "strong": "H3808" },
       { "text": " from them, I withheld", "strong": "H4513" },
       { "text": " not", "strong": "H3808" },
+      { "strong": "H853" },
       { "text": " my heart", "strong": "H3820" },
-      { "text": " from any joy;", "strong": "H8057" },
+      { "text": " from any", "strong": "H3605" },
+      { "text": " joy;", "strong": "H8057" },
       { "text": " for", "strong": "H3588" },
       { "text": " my heart", "strong": "H3820" },
       { "text": " rejoiced", "strong": "H8056" },
-      { "text": " in all my labour:", "strong": "H5999" },
-      { "text": " and this was my portion", "strong": "H2506" },
-      { "text": " of all my labour.", "strong": "H5999" }
+      { "text": " in all", "strong": "H3605" },
+      { "text": " my labour:", "strong": "H5999" },
+      { "text": " and this", "strong": "H2088" },
+      { "text": " was", "strong": "H1961" },
+      { "text": " my portion", "strong": "H2506" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " my labour.", "strong": "H5999" }
     ]
   },
   {
@@ -641,32 +680,29 @@
     "chapter": 2,
     "verse": 11,
     "content": [
-      { "text": "Then I looked", "strong": "H6437" },
-      { "text": " on all the works", "strong": "H4639" },
+      { "text": "Then I", "strong": "H589" },
+      { "text": " looked", "strong": "H6437" },
+      { "text": " on all", "strong": "H3605" },
+      { "text": " the works", "strong": "H4639" },
       { "text": " that my hands", "strong": "H3027" },
       { "text": " had wrought,", "strong": "H6213" },
       { "text": " and on the labour", "strong": "H5999" },
       { "text": " that I had laboured", "strong": "H5998" },
       { "text": " to do:", "strong": "H6213" },
-      {
-        "content": [
-          " and, behold, all ",
-          { "text": "was", "marks": ["i"] },
-          " vanity"
-        ],
-        "strong": "H1892"
-      },
+      { "text": " and, behold,", "strong": "H2009" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit,", "strong": "H7307" },
-      {
-        "content": [
-          " and ",
-          { "text": "there was", "marks": ["i"] },
-          " no profit"
-        ],
-        "strong": "H3504"
-      },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " and", "strong": "H369" },
+      " ",
+      { "text": "there was", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " profit", "strong": "H3504" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -674,19 +710,17 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      { "paragraph": true, "text": "And I turned", "strong": "H6437" },
+      { "paragraph": true, "text": "And I", "strong": "H589" },
+      { "text": " turned", "strong": "H6437" },
       { "text": " myself to behold", "strong": "H7200" },
       { "text": " wisdom,", "strong": "H2451" },
       { "text": " and madness,", "strong": "H1947" },
       { "text": " and folly:", "strong": "H5531" },
-      {
-        "content": [
-          " for what ",
-          { "text": "can", "marks": ["i"] },
-          " the man"
-        ],
-        "strong": "H120"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " what", "strong": "H4100" },
+      " ",
+      { "text": "can", "marks": ["i"] },
+      { "text": " the man", "strong": "H120" },
       " ",
       { "text": "do", "marks": ["i"] },
       { "text": " that cometh", "strong": "H935" },
@@ -694,7 +728,10 @@
       { "text": " the king?", "strong": "H4428" },
       " ",
       { "text": "even", "marks": ["i"] },
-      { "text": " that which hath been already", "strong": "H3528" },
+      { "strong": "H853" },
+      { "text": " that which", "strong": "H834" },
+      { "text": " hath been", "strong": "H6213" },
+      { "text": " already", "strong": "H3528" },
       {
         "text": " done.",
         "foot": {
@@ -716,10 +753,12 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      { "text": "Then I saw", "strong": "H7200" },
+      { "text": "Then I", "strong": "H589" },
+      { "text": " saw", "strong": "H7200" },
       { "text": " that", "strong": "H3426" },
       { "text": " wisdom", "strong": "H2451" },
       { "text": " excelleth", "strong": "H3504" },
+      { "strong": "H4480" },
       {
         "text": " folly,",
         "foot": {
@@ -737,6 +776,7 @@
       },
       { "text": " as far as light", "strong": "H216" },
       { "text": " excelleth", "strong": "H3504" },
+      { "strong": "H4480" },
       { "text": " darkness.", "strong": "H2822" }
     ]
   },
@@ -753,12 +793,14 @@
       { "text": " but the fool", "strong": "H3684" },
       { "text": " walketh", "strong": "H1980" },
       { "text": " in darkness:", "strong": "H2822" },
-      { "text": " and I myself perceived", "strong": "H3045" },
+      { "text": " and I myself", "strong": "H589" },
+      { "text": " perceived", "strong": "H3045" },
       { "text": " also", "strong": "H1571" },
       { "text": " that one", "strong": "H259" },
       { "text": " event", "strong": "H4745" },
       { "text": " happeneth", "strong": "H7136" },
-      " to them all."
+      { "strong": "H853" },
+      { "text": " to them all.", "strong": "H3605" }
     ]
   },
   {
@@ -766,14 +808,15 @@
     "chapter": 2,
     "verse": 15,
     "content": [
-      { "text": "Then", "strong": "H227" },
-      { "text": " said", "strong": "H559" },
-      { "text": " I in my heart,", "strong": "H3820" },
+      { "text": "Then said", "strong": "H559" },
+      { "text": " I", "strong": "H589" },
+      { "text": " in my heart,", "strong": "H3820" },
       { "text": " As it happeneth", "strong": "H4745" },
       { "text": " to the fool,", "strong": "H3684" },
       { "text": " so it happeneth", "strong": "H7136" },
+      { "text": " even", "strong": "H1571" },
       {
-        "text": " even to me;",
+        "text": " to me;",
         "foot": {
           "type": "trn",
           "content": [
@@ -781,20 +824,21 @@
             { "text": "happeneth to me, even to me", "marks": ["i"] }
           ]
         },
-        "strong": "H1571"
+        "strong": "H589"
       },
-      { "text": " and why was I then more", "strong": "H3148" },
+      { "text": " and why", "strong": "H4100" },
+      { "text": " was", "strong": "H2449" },
+      { "text": " I", "strong": "H589" },
+      { "text": " then", "strong": "H227" },
+      { "text": " more", "strong": "H3148" },
       { "text": " wise?", "strong": "H2449" },
       { "text": " Then I said", "strong": "H1696" },
       { "text": " in my heart,", "strong": "H3820" },
-      {
-        "content": [
-          " that this also ",
-          { "text": "is", "marks": ["i"] },
-          " vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " that this", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -802,30 +846,30 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      {
-        "content": [
-          "For ",
-          { "text": "there is", "marks": ["i"] },
-          " no remembrance"
-        ],
-        "strong": "H2146"
-      },
+      { "text": "For", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " remembrance", "strong": "H2146" },
       { "text": " of the wise", "strong": "H2450" },
       { "text": " more than", "strong": "H5973" },
       { "text": " of the fool", "strong": "H3684" },
-      { "text": " for", "strong": "H3588" },
-      { "text": " ever;", "strong": "H5769" },
+      { "text": " for ever;", "strong": "H5769" },
       { "text": " seeing that which now", "strong": "H3528" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " in the days", "strong": "H3117" },
       { "text": " to come", "strong": "H935" },
-      { "text": " shall all be forgotten.", "strong": "H7911" },
-      { "text": " And how dieth", "strong": "H4191" },
+      { "text": " shall", "strong": "H7911" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " be forgotten.", "strong": "H7911" },
+      { "text": " And how", "strong": "H349" },
+      { "text": " dieth", "strong": "H4191" },
       { "text": " the wise", "strong": "H2450" },
       " ",
       { "text": "man?", "marks": ["i"] },
-      { "text": " as the fool.", "strong": "H3684" }
+      { "text": " as", "strong": "H5973" },
+      { "text": " the fool.", "strong": "H3684" }
     ]
   },
   {
@@ -839,18 +883,17 @@
       { "text": " because", "strong": "H3588" },
       { "text": " the work", "strong": "H4639" },
       { "text": " that is wrought", "strong": "H6213" },
-      { "text": " under the sun", "strong": "H8121" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun", "strong": "H8121" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " grievous", "strong": "H7451" },
-      {
-        "content": [
-          " unto me: for all ",
-          { "text": "is", "marks": ["i"] },
-          " vanity"
-        ],
-        "strong": "H1892"
-      },
+      { "text": " unto me:", "strong": "H5921" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -861,22 +904,26 @@
     "verse": 18,
     "content": [
       { "heading": "The Vanity of Work and Riches" },
-      { "paragraph": true, "text": "Yea, I hated", "strong": "H8130" },
+      { "paragraph": true, "text": "Yea, I", "strong": "H589" },
+      { "text": " hated", "strong": "H8130" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " my labour", "strong": "H5999" },
+      { "text": " which I", "strong": "H589" },
       {
-        "text": " which I had taken",
+        "text": " had taken",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "laboured", "marks": ["i"] }]
         },
         "strong": "H6001"
       },
-      { "text": " under the sun:", "strong": "H8121" },
-      { "text": " because I should leave", "strong": "H3240" },
-      { "text": " it unto the man", "strong": "H120" },
-      { "text": " that shall be after", "strong": "H310" },
-      " me."
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun:", "strong": "H8121" },
+      { "text": " because I should leave it", "strong": "H3240" },
+      { "text": " unto the man", "strong": "H120" },
+      { "text": " that shall be", "strong": "H1961" },
+      { "text": " after me.", "strong": "H310" }
     ]
   },
   {
@@ -884,24 +931,26 @@
     "chapter": 2,
     "verse": 19,
     "content": [
-      { "text": "And who knoweth", "strong": "H3045" },
-      { "text": " whether he shall be a wise", "strong": "H2450" },
+      { "text": "And who", "strong": "H4310" },
+      { "text": " knoweth", "strong": "H3045" },
+      { "text": " whether he shall be", "strong": "H1961" },
+      { "text": " a wise", "strong": "H2450" },
       " ",
       { "text": "man", "marks": ["i"] },
-      { "text": " or a fool?", "strong": "H5530" },
+      { "text": " or", "strong": "H176" },
+      { "text": " a fool?", "strong": "H5530" },
       { "text": " yet shall he have rule", "strong": "H7980" },
-      { "text": " over all my labour", "strong": "H5999" },
+      { "text": " over all", "strong": "H3605" },
+      { "text": " my labour", "strong": "H5999" },
       { "text": " wherein I have laboured,", "strong": "H5998" },
       { "text": " and wherein I have shewed myself wise", "strong": "H2449" },
-      { "text": " under the sun.", "strong": "H8121" },
-      {
-        "content": [
-          " This ",
-          { "text": "is", "marks": ["i"] },
-          " also vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" },
+      { "text": " This", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -909,14 +958,18 @@
     "chapter": 2,
     "verse": 20,
     "content": [
-      { "text": "Therefore I went about", "strong": "H5437" },
+      { "text": "Therefore I", "strong": "H589" },
+      { "text": " went about", "strong": "H5437" },
       { "text": " to cause", "strong": "H2976" },
       { "strong": "H853" },
       { "text": " my heart", "strong": "H3820" },
       { "text": " to despair", "strong": "H2976" },
-      { "text": " of all the labour", "strong": "H5999" },
+      { "text": " of", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the labour", "strong": "H5999" },
       { "text": " which I took", "strong": "H5998" },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -934,23 +987,30 @@
       { "text": " and in knowledge,", "strong": "H1847" },
       { "text": " and in equity;", "strong": "H3788" },
       { "text": " yet to a man", "strong": "H120" },
-      { "text": " that hath not laboured", "strong": "H5998" },
+      { "text": " that hath", "strong": "H5998" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " laboured", "strong": "H5998" },
       {
-        "text": " therein shall he leave",
-        "foot": {
-          "type": "trn",
-          "content": ["Heb. ", { "text": "give", "marks": ["i"] }]
-        },
+        "content": [
+          {
+            "text": " therein shall he leave",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "give", "marks": ["i"] }]
+            }
+          },
+          " it"
+        ],
         "strong": "H5414"
       },
-      {
-        "content": [" it ", { "text": "for", "marks": ["i"] }, " his portion."],
-        "strong": "H2506"
-      },
-      {
-        "content": [" This also ", { "text": "is", "marks": ["i"] }, " vanity"],
-        "strong": "H1892"
-      },
+      " ",
+      { "text": "for", "marks": ["i"] },
+      { "text": " his portion.", "strong": "H2506" },
+      { "text": " This", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and a great", "strong": "H7227" },
       { "text": " evil.", "strong": "H7451" }
     ]
@@ -964,12 +1024,14 @@
       { "text": " what", "strong": "H4100" },
       { "text": " hath", "strong": "H1933" },
       { "text": " man", "strong": "H120" },
-      { "text": " of all his labour,", "strong": "H5999" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " his labour,", "strong": "H5999" },
       { "text": " and of the vexation", "strong": "H7475" },
       { "text": " of his heart,", "strong": "H3820" },
-      { "text": " wherein", "strong": "H1931" },
-      { "text": " he hath laboured", "strong": "H6001" },
-      { "text": " under the sun?", "strong": "H8121" }
+      { "text": " wherein he", "strong": "H1931" },
+      { "text": " hath laboured", "strong": "H6001" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun?", "strong": "H8121" }
     ]
   },
   {
@@ -985,11 +1047,16 @@
       { "text": " sorrows,", "strong": "H4341" },
       { "text": " and his travail", "strong": "H6045" },
       { "text": " grief;", "strong": "H3708" },
-      { "text": " yea, his heart", "strong": "H3820" },
-      { "text": " taketh not rest", "strong": "H7901" },
+      { "text": " yea,", "strong": "H1571" },
+      { "text": " his heart", "strong": "H3820" },
+      { "text": " taketh", "strong": "H7901" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " rest", "strong": "H7901" },
       { "text": " in the night.", "strong": "H3915" },
       { "text": " This", "strong": "H2088" },
-      { "text": " is also vanity.", "strong": "H1892" }
+      { "text": " is", "strong": "H1931" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -998,22 +1065,19 @@
     "verse": 24,
     "content": [
       { "paragraph": true, "text": "There is", "marks": ["i"] },
-      { "text": " nothing better", "strong": "H2896" },
-      { "text": " for", "strong": "H3588" },
-      { "text": " a man,", "strong": "H120" },
+      { "text": " nothing", "strong": "H369" },
+      { "text": " better", "strong": "H2896" },
+      { "text": " for a man,", "strong": "H120" },
       " ",
       { "text": "than", "marks": ["i"] },
       { "text": " that he should eat", "strong": "H398" },
       { "text": " and drink,", "strong": "H8354" },
+      { "text": " and", "strong": "H7200" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " he should make", "strong": "H7200" },
       { "strong": "H853" },
-      {
-        "content": [
-          " and ",
-          { "text": "that", "marks": ["i"] },
-          " he should make his soul"
-        ],
-        "strong": "H5315"
-      },
+      { "text": " his soul", "strong": "H5315" },
       {
         "text": " enjoy",
         "foot": {
@@ -1026,15 +1090,13 @@
       { "text": " in his labour.", "strong": "H5999" },
       { "text": " This", "strong": "H2090" },
       { "text": " also", "strong": "H1571" },
-      { "text": " I saw,", "strong": "H7200" },
-      {
-        "content": [
-          " that it ",
-          { "text": "was", "marks": ["i"] },
-          " from the hand"
-        ],
-        "strong": "H3027"
-      },
+      { "text": " I", "strong": "H589" },
+      { "text": " saw,", "strong": "H7200" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " from the hand", "strong": "H3027" },
       { "text": " of God.", "strong": "H430" }
     ]
   },
@@ -1044,12 +1106,14 @@
     "verse": 25,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " who can eat,", "strong": "H398" },
-      { "text": " or who else can hasten", "strong": "H2363" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can eat,", "strong": "H398" },
+      { "text": " or who else", "strong": "H4310" },
+      { "text": " can hasten", "strong": "H2363" },
       " ",
       { "text": "hereunto", "marks": ["i"] },
       { "text": ", more", "strong": "H2351" },
-      " than I?"
+      { "text": " than I?", "strong": "H4480" }
     ]
   },
   {
@@ -1057,15 +1121,15 @@
     "chapter": 2,
     "verse": 26,
     "content": [
-      {
-        "content": ["For ", { "text": "God", "marks": ["i"] }, " giveth"],
-        "strong": "H5414"
-      },
+      { "text": "For", "strong": "H3588" },
+      " ",
+      { "text": "God", "marks": ["i"] },
+      { "text": " giveth", "strong": "H5414" },
       { "text": " to a man", "strong": "H120" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, " good"],
-        "strong": "H2896"
-      },
+      { "text": " that", "strong": "H2896" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " good", "strong": "H2896" },
       {
         "text": " in his sight",
         "foot": {
@@ -1083,16 +1147,17 @@
       { "text": " to gather", "strong": "H622" },
       { "text": " and to heap up,", "strong": "H3664" },
       { "text": " that he may give", "strong": "H5414" },
-      {
-        "content": [" to ", { "text": "him that is", "marks": ["i"] }, " good"],
-        "strong": "H2896"
-      },
+      { "text": " to", "strong": "H2896" },
+      " ",
+      { "text": "him that is", "marks": ["i"] },
+      { "text": " good", "strong": "H2896" },
       { "text": " before", "strong": "H6440" },
       { "text": " God.", "strong": "H430" },
-      {
-        "content": [" This also ", { "text": "is", "marks": ["i"] }, " vanity"],
-        "strong": "H1892"
-      },
+      { "text": " This", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -1102,18 +1167,15 @@
     "chapter": 3,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "To every ",
-          { "text": "thing there is", "marks": ["i"] },
-          " a season,"
-        ],
-        "strong": "H2165"
-      },
+      { "paragraph": true, "text": "To every", "strong": "H3605" },
+      " ",
+      { "text": "thing there is", "marks": ["i"] },
+      { "text": " a season,", "strong": "H2165" },
       { "text": " and a time", "strong": "H6256" },
-      { "text": " to every purpose", "strong": "H2656" },
-      { "text": " under the heaven:", "strong": "H8064" }
+      { "text": " to every", "strong": "H3605" },
+      { "text": " purpose", "strong": "H2656" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the heaven:", "strong": "H8064" }
     ]
   },
   {
@@ -1251,7 +1313,8 @@
       { "text": " profit", "strong": "H3504" },
       { "text": " hath he that worketh", "strong": "H6213" },
       { "text": " in that wherein", "strong": "H834" },
-      { "text": " he laboureth?", "strong": "H6001" }
+      { "text": " he", "strong": "H1931" },
+      { "text": " laboureth?", "strong": "H6001" }
     ]
   },
   {
@@ -1277,14 +1340,11 @@
     "verse": 11,
     "content": [
       { "text": "He hath made", "strong": "H6213" },
-      {
-        "content": [
-          " every ",
-          { "text": "thing", "marks": ["i"] },
-          " beautiful"
-        ],
-        "strong": "H3303"
-      },
+      { "strong": "H853" },
+      { "text": " every", "strong": "H3605" },
+      " ",
+      { "text": "thing", "marks": ["i"] },
+      { "text": " beautiful", "strong": "H3303" },
       { "text": " in his time:", "strong": "H6256" },
       { "text": " also", "strong": "H1571" },
       { "text": " he hath set", "strong": "H5414" },
@@ -1292,14 +1352,18 @@
       { "text": " the world", "strong": "H5769" },
       { "text": " in their heart,", "strong": "H3820" },
       { "text": " so that", "strong": "H1097" },
-      { "text": " no man", "strong": "H120" },
+      { "strong": "H834" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " man", "strong": "H120" },
       { "text": " can find out", "strong": "H4672" },
       { "strong": "H853" },
       { "text": " the work", "strong": "H4639" },
-      { "text": " that God", "strong": "H430" },
+      { "text": " that", "strong": "H834" },
+      { "text": " God", "strong": "H430" },
       { "text": " maketh", "strong": "H6213" },
       { "text": " from the beginning", "strong": "H7218" },
-      { "text": " to the end.", "strong": "H5490" }
+      { "text": " to", "strong": "H5704" },
+      { "text": " the end.", "strong": "H5490" }
     ]
   },
   {
@@ -1308,22 +1372,17 @@
     "verse": 12,
     "content": [
       { "text": "I know", "strong": "H3045" },
-      {
-        "content": [
-          " that ",
-          { "text": "there is", "marks": ["i"] },
-          " no good"
-        ],
-        "strong": "H2896"
-      },
-      {
-        "content": [
-          " in them, but for ",
-          { "text": "a man", "marks": ["i"] },
-          " to rejoice,"
-        ],
-        "strong": "H8055"
-      },
+      { "text": " that", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " good", "strong": "H2896" },
+      { "text": " in them, but", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " for", "strong": "H8055" },
+      " ",
+      { "text": "a man", "marks": ["i"] },
+      { "text": " to rejoice,", "strong": "H8055" },
       { "text": " and to do", "strong": "H6213" },
       { "text": " good", "strong": "H2896" },
       { "text": " in his life.", "strong": "H2416" }
@@ -1334,16 +1393,19 @@
     "chapter": 3,
     "verse": 13,
     "content": [
-      { "text": "And also that every man", "strong": "H120" },
+      { "text": "And also", "strong": "H1571" },
+      { "text": " that every", "strong": "H3605" },
+      { "text": " man", "strong": "H120" },
       { "text": " should eat", "strong": "H398" },
       { "text": " and drink,", "strong": "H8354" },
       { "text": " and enjoy", "strong": "H7200" },
       { "text": " the good", "strong": "H2896" },
-      { "text": " of all his labour,", "strong": "H5999" },
-      {
-        "content": [" it ", { "text": "is", "marks": ["i"] }, " the gift"],
-        "strong": "H4991"
-      },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " his labour,", "strong": "H5999" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the gift", "strong": "H4991" },
       { "text": " of God.", "strong": "H430" }
     ]
   },
@@ -1353,27 +1415,29 @@
     "verse": 14,
     "content": [
       { "text": "I know", "strong": "H3045" },
-      { "text": " that, whatsoever God", "strong": "H430" },
+      { "text": " that,", "strong": "H3588" },
+      { "text": " whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " God", "strong": "H430" },
       { "text": " doeth,", "strong": "H6213" },
-      { "text": " it shall be for ever:", "strong": "H5769" },
+      { "text": " it", "strong": "H1931" },
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " for ever:", "strong": "H5769" },
       { "text": " nothing", "strong": "H369" },
       { "text": " can be put", "strong": "H3254" },
-      { "text": " to it, nor any thing taken", "strong": "H1639" },
-      { "text": " from", "strong": "H4480" },
-      { "text": " it: and God", "strong": "H430" },
+      { "text": " to it,", "strong": "H5921" },
+      { "text": " nor any thing", "strong": "H369" },
+      { "text": " taken", "strong": "H1639" },
+      { "text": " from it:", "strong": "H4480" },
+      { "text": " and God", "strong": "H430" },
       { "text": " doeth", "strong": "H6213" },
       " ",
       { "text": "it", "marks": ["i"] },
-      {
-        "content": [
-          ", that ",
-          { "text": "men", "marks": ["i"] },
-          " should fear"
-        ],
-        "strong": "H3372"
-      },
-      { "text": " before", "strong": "H6440" },
-      " him."
+      { "text": ", that", "strong": "H3372" },
+      " ",
+      { "text": "men", "marks": ["i"] },
+      { "text": " should fear", "strong": "H3372" },
+      { "text": " before him.", "strong": "H6440" }
     ]
   },
   {
@@ -1381,9 +1445,16 @@
     "chapter": 3,
     "verse": 15,
     "content": [
-      { "text": "That which hath been is now;", "strong": "H3528" },
-      { "text": " and that which is to be hath already", "strong": "H3528" },
-      { "text": " been; and God", "strong": "H430" },
+      { "text": "That which", "strong": "H4100" },
+      { "text": " hath been", "strong": "H1961" },
+      { "text": " is", "strong": "H1931" },
+      { "text": " now;", "strong": "H3528" },
+      { "text": " and that which", "strong": "H834" },
+      { "text": " is to be", "strong": "H1961" },
+      { "text": " hath", "strong": "H1961" },
+      { "text": " already", "strong": "H3528" },
+      { "text": " been;", "strong": "H1961" },
+      { "text": " and God", "strong": "H430" },
       { "text": " requireth", "strong": "H1245" },
       { "strong": "H853" },
       {
@@ -1404,8 +1475,10 @@
     "chapter": 3,
     "verse": 16,
     "content": [
-      { "paragraph": true, "text": "And moreover I saw", "strong": "H7200" },
-      { "text": " under the sun", "strong": "H8121" },
+      { "paragraph": true, "text": "And moreover", "strong": "H5750" },
+      { "text": " I saw", "strong": "H7200" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun", "strong": "H8121" },
       { "text": " the place", "strong": "H4725" },
       { "text": " of judgment,", "strong": "H4941" },
       " ",
@@ -1413,14 +1486,15 @@
       { "text": " wickedness", "strong": "H7562" },
       " ",
       { "text": "was", "marks": ["i"] },
-      { "text": " there; and the place", "strong": "H4725" },
+      { "text": " there;", "strong": "H8033" },
+      { "text": " and the place", "strong": "H4725" },
       { "text": " of righteousness,", "strong": "H6664" },
       " ",
       { "text": "that", "marks": ["i"] },
       { "text": " iniquity", "strong": "H7562" },
       " ",
       { "text": "was", "marks": ["i"] },
-      " there."
+      { "text": " there.", "strong": "H8033" }
     ]
   },
   {
@@ -1428,22 +1502,26 @@
     "chapter": 3,
     "verse": 17,
     "content": [
-      { "text": "I said", "strong": "H559" },
+      { "text": "I", "strong": "H589" },
+      { "text": " said", "strong": "H559" },
       { "text": " in mine heart,", "strong": "H3820" },
       { "text": " God", "strong": "H430" },
       { "text": " shall judge", "strong": "H8199" },
       { "strong": "H853" },
       { "text": " the righteous", "strong": "H6662" },
-      { "text": " and the wicked:", "strong": "H7563" },
-      {
-        "content": [" for ", { "text": "there is", "marks": ["i"] }, " a time"],
-        "strong": "H6256"
-      },
-      { "text": " there", "strong": "H8033" },
+      " and",
+      { "strong": "H853" },
+      { "text": " the wicked:", "strong": "H7563" },
       { "text": " for", "strong": "H3588" },
-      { "text": " every", "strong": "H3605" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " a time", "strong": "H6256" },
+      { "text": " there", "strong": "H8033" },
+      { "text": " for every", "strong": "H3605" },
       { "text": " purpose", "strong": "H2656" },
-      { "text": " and for every work.", "strong": "H4639" }
+      { "text": " and for", "strong": "H5921" },
+      { "text": " every", "strong": "H3605" },
+      { "text": " work.", "strong": "H4639" }
     ]
   },
   {
@@ -1451,36 +1529,30 @@
     "chapter": 3,
     "verse": 18,
     "content": [
-      { "text": "I said", "strong": "H559" },
+      { "text": "I", "strong": "H589" },
+      { "text": " said", "strong": "H559" },
       { "text": " in mine heart", "strong": "H3820" },
       { "text": " concerning", "strong": "H5921" },
       { "text": " the estate", "strong": "H1700" },
       { "text": " of the sons", "strong": "H1121" },
       { "text": " of men,", "strong": "H120" },
       { "text": " that God", "strong": "H430" },
-      { "text": " might manifest", "strong": "H1305" },
       {
-        "content": [
-          {
-            "text": " them,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                {
-                  "text": "that they might clear God, and see",
-                  "marks": ["i"]
-                },
-                ", etc."
-              ]
-            }
-          },
-          " and that they might see"
-        ],
-        "strong": "H7200"
+        "text": " might manifest them,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that they might clear God, and see", "marks": ["i"] },
+            ", etc."
+          ]
+        },
+        "strong": "H1305"
       },
+      { "text": " and that they might see", "strong": "H7200" },
       { "text": " that they", "strong": "H1992" },
-      { "text": " themselves are beasts.", "strong": "H929" }
+      { "text": " themselves", "strong": "H1992" },
+      { "text": " are beasts.", "strong": "H929" }
     ]
   },
   {
@@ -1496,18 +1568,24 @@
       { "text": " beasts;", "strong": "H929" },
       { "text": " even one thing", "strong": "H259" },
       { "text": " befalleth", "strong": "H4745" },
-      { "text": " them: as the one dieth,", "strong": "H4194" },
-      { "text": " so dieth", "strong": "H4194" },
+      { "text": " them: as the one", "strong": "H2088" },
+      { "text": " dieth,", "strong": "H4194" },
+      { "text": " so", "strong": "H3651" },
+      { "text": " dieth", "strong": "H4194" },
       { "text": " the other;", "strong": "H2088" },
-      { "text": " yea, they have all one", "strong": "H259" },
+      { "text": " yea, they have all", "strong": "H3605" },
+      { "text": " one", "strong": "H259" },
       { "text": " breath;", "strong": "H7307" },
       { "text": " so that a man", "strong": "H120" },
-      { "text": " hath no preeminence", "strong": "H4195" },
-      { "text": " above a beast:", "strong": "H929" },
-      {
-        "content": [" for all ", { "text": "is", "marks": ["i"] }, " vanity."],
-        "strong": "H1892"
-      }
+      { "text": " hath no", "strong": "H369" },
+      { "text": " preeminence", "strong": "H4195" },
+      { "text": " above", "strong": "H4480" },
+      { "text": " a beast:", "strong": "H929" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -1521,9 +1599,13 @@
       { "text": " one", "strong": "H259" },
       { "text": " place;", "strong": "H4725" },
       { "text": " all", "strong": "H3605" },
-      { "text": " are of the dust,", "strong": "H6083" },
-      { "text": " and all turn", "strong": "H7725" },
-      { "text": " to dust", "strong": "H6083" },
+      { "text": " are", "strong": "H1961" },
+      { "text": " of", "strong": "H4480" },
+      { "text": " the dust,", "strong": "H6083" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " turn", "strong": "H7725" },
+      { "text": " to", "strong": "H413" },
+      { "text": " dust", "strong": "H6083" },
       { "text": " again.", "strong": "H7725" }
     ]
   },
@@ -1532,7 +1614,8 @@
     "chapter": 3,
     "verse": 21,
     "content": [
-      { "text": "Who knoweth", "strong": "H3045" },
+      { "text": "Who", "strong": "H4310" },
+      { "text": " knoweth", "strong": "H3045" },
       { "text": " the spirit", "strong": "H7307" },
       {
         "text": " of man",
@@ -1544,6 +1627,7 @@
       },
       { "strong": "H120" },
       { "text": " that goeth", "strong": "H5927" },
+      { "strong": "H1931" },
       {
         "text": " upward,",
         "foot": {
@@ -1555,6 +1639,7 @@
       { "text": " and the spirit", "strong": "H7307" },
       { "text": " of the beast", "strong": "H929" },
       { "text": " that goeth", "strong": "H3381" },
+      { "strong": "H1931" },
       { "text": " downward", "strong": "H4295" },
       { "text": " to the earth?", "strong": "H776" }
     ]
@@ -1565,32 +1650,27 @@
     "verse": 22,
     "content": [
       { "text": "Wherefore I perceive", "strong": "H7200" },
-      {
-        "content": [
-          " that ",
-          { "text": "there is", "marks": ["i"] },
-          " nothing better,"
-        ],
-        "strong": "H2896"
-      },
-      { "text": " than that a man", "strong": "H120" },
+      { "text": " that", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " nothing", "strong": "H369" },
+      { "text": " better,", "strong": "H2896" },
+      { "text": " than that", "strong": "H834" },
+      { "text": " a man", "strong": "H120" },
       { "text": " should rejoice", "strong": "H8055" },
       { "text": " in his own works;", "strong": "H4639" },
-      {
-        "content": [
-          " for that ",
-          { "text": "is", "marks": ["i"] },
-          " his portion:"
-        ],
-        "strong": "H2506"
-      },
       { "text": " for", "strong": "H3588" },
-      { "text": " who", "strong": "H834" },
-      { "text": " shall bring", "strong": "H935" },
-      { "text": " him to see", "strong": "H7200" },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " his portion:", "strong": "H2506" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " shall bring him", "strong": "H935" },
+      { "text": " to see", "strong": "H7200" },
       { "text": " what", "strong": "H4100" },
-      { "text": " shall be after", "strong": "H310" },
-      " him?"
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " after him?", "strong": "H310" }
     ]
   },
   {
@@ -1598,7 +1678,8 @@
     "chapter": 4,
     "verse": 1,
     "content": [
-      { "paragraph": true, "text": "So I returned,", "strong": "H7725" },
+      { "paragraph": true, "text": "So I", "strong": "H589" },
+      { "text": " returned,", "strong": "H7725" },
       {
         "content": [
           {
@@ -1612,26 +1693,28 @@
         ],
         "strong": "H7200"
       },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the oppressions", "strong": "H6217" },
-      { "text": " that are done", "strong": "H6213" },
-      { "text": " under the sun:", "strong": "H8121" },
-      { "text": " and behold the tears", "strong": "H1832" },
-      {
-        "content": [
-          " of ",
-          { "text": "such as were", "marks": ["i"] },
-          " oppressed,"
-        ],
-        "strong": "H6231"
-      },
-      { "text": " and they had no comforter;", "strong": "H5162" },
+      { "text": " that", "strong": "H834" },
+      { "text": " are done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun:", "strong": "H8121" },
+      { "text": " and behold", "strong": "H2009" },
+      { "text": " the tears", "strong": "H1832" },
+      { "text": " of", "strong": "H6231" },
+      " ",
+      { "text": "such as were", "marks": ["i"] },
+      { "text": " oppressed,", "strong": "H6231" },
+      { "text": " and they had no", "strong": "H369" },
+      { "text": " comforter;", "strong": "H5162" },
       { "text": " and on the side", "strong": "H3027" },
       { "text": " of their oppressors", "strong": "H6231" },
       " ",
       { "text": "there was", "marks": ["i"] },
       { "text": " power;", "strong": "H3581" },
-      { "text": " but they had no comforter.", "strong": "H5162" }
+      { "text": " but they had no", "strong": "H369" },
+      { "text": " comforter.", "strong": "H5162" }
     ]
   },
   {
@@ -1639,12 +1722,18 @@
     "chapter": 4,
     "verse": 2,
     "content": [
-      { "text": "Wherefore I praised", "strong": "H7623" },
+      { "text": "Wherefore I", "strong": "H589" },
+      { "text": " praised", "strong": "H7623" },
+      { "strong": "H853" },
       { "text": " the dead", "strong": "H4191" },
-      { "text": " which are already", "strong": "H3528" },
+      { "text": " which are", "strong": "H4191" },
+      { "text": " already", "strong": "H3528" },
       { "text": " dead", "strong": "H4191" },
-      { "text": " more than the living", "strong": "H2416" },
-      { "text": " which are yet", "strong": "H5728" },
+      { "text": " more than", "strong": "H4480" },
+      { "text": " the living", "strong": "H2416" },
+      { "text": " which", "strong": "H834" },
+      { "text": " are", "strong": "H1992" },
+      { "text": " yet", "strong": "H5728" },
       { "text": " alive.", "strong": "H2416" }
     ]
   },
@@ -1656,14 +1745,24 @@
       { "text": "Yea, better", "strong": "H2896" },
       " ",
       { "text": "is he", "marks": ["i"] },
-      { "text": " than both", "strong": "H8147" },
-      { "text": " they, which hath not yet", "strong": "H5728" },
-      { "text": " been, who hath not seen", "strong": "H7200" },
-      { "text": " the evil", "strong": "H7451" },
+      { "text": " than both they,", "strong": "H8147" },
       { "strong": "H853" },
+      { "text": " which", "strong": "H834" },
+      { "text": " hath", "strong": "H1961" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " yet", "strong": "H5728" },
+      { "text": " been,", "strong": "H1961" },
+      { "text": " who", "strong": "H834" },
+      { "text": " hath", "strong": "H7200" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " seen", "strong": "H7200" },
+      { "strong": "H853" },
+      { "text": " the evil", "strong": "H7451" },
       { "text": " work", "strong": "H4639" },
-      { "text": " that is done", "strong": "H6213" },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " that", "strong": "H834" },
+      { "text": " is done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -1671,10 +1770,15 @@
     "chapter": 4,
     "verse": 4,
     "content": [
-      { "paragraph": true, "text": "Again, I considered", "strong": "H7200" },
+      { "paragraph": true, "text": "Again, I", "strong": "H589" },
+      { "text": " considered", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " travail,", "strong": "H5999" },
-      { "text": " and every right", "strong": "H3788" },
+      " and",
+      { "strong": "H853" },
+      { "text": " every", "strong": "H3605" },
+      { "text": " right", "strong": "H3788" },
       {
         "text": " work,",
         "foot": {
@@ -1686,7 +1790,9 @@
         },
         "strong": "H4639"
       },
-      { "text": " that for this a man", "strong": "H376" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " for this", "strong": "H1931" },
+      { "text": " a man", "strong": "H376" },
       { "text": " is envied", "strong": "H7068" },
       {
         "text": " of his neighbour.",
@@ -1702,10 +1808,11 @@
         },
         "strong": "H7453"
       },
-      {
-        "content": [" This ", { "text": "is", "marks": ["i"] }, " also vanity"],
-        "strong": "H1892"
-      },
+      { "text": " This", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -1733,7 +1840,8 @@
       { "text": "Better", "strong": "H2896" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " an handful", "strong": "H3709" },
+      { "text": " an handful", "strong": "H4393" },
+      { "strong": "H3709" },
       " ",
       { "text": "with", "marks": ["i"] },
       { "text": " quietness,", "strong": "H5183" },
@@ -1751,10 +1859,12 @@
     "chapter": 4,
     "verse": 7,
     "content": [
-      { "paragraph": true, "text": "Then I returned,", "strong": "H7725" },
+      { "paragraph": true, "text": "Then I", "strong": "H589" },
+      { "text": " returned,", "strong": "H7725" },
       { "text": " and I saw", "strong": "H7200" },
       { "text": " vanity", "strong": "H1892" },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -1766,48 +1876,47 @@
       { "text": " one", "strong": "H259" },
       " ",
       { "text": "alone", "marks": ["i"] },
-      {
-        "content": [
-          ", and ",
-          { "text": "there is", "marks": ["i"] },
-          " not a second;"
-        ],
-        "strong": "H8145"
-      },
-      { "text": " yea, he hath neither child", "strong": "H1121" },
+      { "text": ", and", "strong": "H369" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " not", "strong": "H369" },
+      { "text": " a second;", "strong": "H8145" },
+      { "text": " yea,", "strong": "H1571" },
+      { "text": " he hath neither", "strong": "H369" },
+      { "text": " child", "strong": "H1121" },
       { "text": " nor brother:", "strong": "H251" },
-      {
-        "content": [" yet ", { "text": "is there", "marks": ["i"] }, " no end"],
-        "strong": "H7093"
-      },
-      { "text": " of all his labour;", "strong": "H5999" },
-      { "text": " neither is his eye", "strong": "H5869" },
+      { "text": " yet", "strong": "H369" },
+      " ",
+      { "text": "is there", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " end", "strong": "H7093" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " his labour;", "strong": "H5999" },
+      { "text": " neither", "strong": "H1571" },
+      { "strong": "H3808" },
+      { "text": " is", "strong": "H7646" },
+      { "text": " his eye", "strong": "H5869" },
       { "text": " satisfied", "strong": "H7646" },
       { "text": " with riches;", "strong": "H6239" },
-      {
-        "content": [
-          " neither ",
-          { "text": "saith he", "marks": ["i"] },
-          ", For whom do I labour,"
-        ],
-        "strong": "H6001"
-      },
+      { "text": " neither", "strong": "H4310" },
+      " ",
+      { "text": "saith he", "marks": ["i"] },
+      { "text": ", For whom", "strong": "H4310" },
+      { "text": " do I", "strong": "H589" },
+      { "text": " labour,", "strong": "H6001" },
       { "text": " and bereave", "strong": "H2637" },
       { "strong": "H853" },
       { "text": " my soul", "strong": "H5315" },
       { "text": " of good?", "strong": "H2896" },
-      {
-        "content": [
-          " This ",
-          { "text": "is", "marks": ["i"] },
-          " also vanity,"
-        ],
-        "strong": "H1892"
-      },
-      {
-        "content": [" yea, it ", { "text": "is", "marks": ["i"] }, " a sore"],
-        "strong": "H7451"
-      },
+      { "text": " This", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity,", "strong": "H1892" },
+      { "text": " yea, it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " a sore", "strong": "H7451" },
       { "text": " travail.", "strong": "H6045" }
     ]
   },
@@ -1820,8 +1929,10 @@
       " ",
       { "text": "are", "marks": ["i"] },
       { "text": " better", "strong": "H2896" },
-      { "text": " than one;", "strong": "H259" },
-      { "text": " because they have", "strong": "H3426" },
+      { "text": " than", "strong": "H4480" },
+      { "text": " one;", "strong": "H259" },
+      { "text": " because", "strong": "H834" },
+      { "text": " they have", "strong": "H3426" },
       { "text": " a good", "strong": "H2896" },
       { "text": " reward", "strong": "H7939" },
       { "text": " for their labour.", "strong": "H5999" }
@@ -1833,29 +1944,22 @@
     "verse": 10,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " if they fall,", "strong": "H5307" },
+      { "text": " if", "strong": "H518" },
+      { "text": " they fall,", "strong": "H5307" },
       { "text": " the one", "strong": "H259" },
       { "text": " will lift up", "strong": "H6965" },
       { "strong": "H853" },
       { "text": " his fellow:", "strong": "H2270" },
-      { "text": " but woe", "strong": "H337" },
-      {
-        "content": [
-          " to him ",
-          { "text": "that is", "marks": ["i"] },
-          " alone"
-        ],
-        "strong": "H259"
-      },
+      { "text": " but woe to him", "strong": "H337" },
+      " ",
+      { "text": "that is", "marks": ["i"] },
+      { "text": " alone", "strong": "H259" },
       { "text": " when he falleth;", "strong": "H5307" },
-      {
-        "content": [
-          " for ",
-          { "text": "he hath", "marks": ["i"] },
-          " not another"
-        ],
-        "strong": "H8145"
-      },
+      { "text": " for", "strong": "H369" },
+      " ",
+      { "text": "he hath", "marks": ["i"] },
+      { "text": " not", "strong": "H369" },
+      { "text": " another", "strong": "H8145" },
       { "text": " to help him up.", "strong": "H6965" }
     ]
   },
@@ -1865,10 +1969,13 @@
     "verse": 11,
     "content": [
       { "text": "Again,", "strong": "H1571" },
-      { "text": " if two", "strong": "H8147" },
+      { "text": " if", "strong": "H518" },
+      { "text": " two", "strong": "H8147" },
       { "text": " lie together,", "strong": "H7901" },
       { "text": " then they have heat:", "strong": "H2552" },
-      { "text": " but how can one", "strong": "H259" },
+      { "text": " but how", "strong": "H349" },
+      { "text": " can", "strong": "H3179" },
+      { "text": " one", "strong": "H259" },
       { "text": " be warm", "strong": "H3179" },
       " ",
       { "text": "alone?", "marks": ["i"] }
@@ -1879,13 +1986,17 @@
     "chapter": 4,
     "verse": 12,
     "content": [
-      { "text": "And if one", "strong": "H259" },
-      { "text": " prevail", "strong": "H8630" },
-      { "text": " against him, two", "strong": "H8147" },
+      { "text": "And if", "strong": "H518" },
+      { "text": " one", "strong": "H259" },
+      { "text": " prevail against him,", "strong": "H8630" },
+      { "text": " two", "strong": "H8147" },
       { "text": " shall withstand", "strong": "H5975" },
-      { "text": " him; and a threefold", "strong": "H8027" },
+      { "text": " him;", "strong": "H5048" },
+      { "text": " and a threefold", "strong": "H8027" },
       { "text": " cord", "strong": "H2339" },
-      { "text": " is not quickly", "strong": "H4120" },
+      { "text": " is", "strong": "H5423" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " quickly", "strong": "H4120" },
       { "text": " broken.", "strong": "H5423" }
     ]
   },
@@ -1905,8 +2016,10 @@
       { "text": " king,", "strong": "H4428" },
       { "text": " who", "strong": "H834" },
       { "text": " will", "strong": "H3045" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " more", "strong": "H5750" },
       {
-        "text": " no more be admonished.",
+        "text": " be admonished.",
         "foot": {
           "type": "trn",
           "content": [
@@ -1924,18 +2037,15 @@
     "verse": 14,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " out of prison", "strong": "H631" },
-      { "strong": "H1004" },
+      { "text": " out of prison", "strong": "H1004" },
+      { "strong": "H631" },
       { "text": " he cometh", "strong": "H3318" },
       { "text": " to reign;", "strong": "H4427" },
-      {
-        "content": [
-          " whereas also ",
-          { "text": "he that is", "marks": ["i"] },
-          " born"
-        ],
-        "strong": "H3205"
-      },
+      { "text": " whereas", "strong": "H3588" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "he that is", "marks": ["i"] },
+      { "text": " born", "strong": "H3205" },
       { "text": " in his kingdom", "strong": "H4438" },
       { "text": " becometh poor.", "strong": "H7326" }
     ]
@@ -1946,16 +2056,18 @@
     "verse": 15,
     "content": [
       { "text": "I considered", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the living", "strong": "H2416" },
-      { "text": " which", "strong": "H834" },
-      { "text": " walk", "strong": "H1980" },
-      { "text": " under the sun,", "strong": "H8121" },
+      { "text": " which walk", "strong": "H1980" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
       { "text": " with", "strong": "H5973" },
       { "text": " the second", "strong": "H8145" },
       { "text": " child", "strong": "H3206" },
-      { "text": " that shall stand up", "strong": "H5975" },
-      " in his stead."
+      { "text": " that", "strong": "H834" },
+      { "text": " shall stand up", "strong": "H5975" },
+      { "text": " in his stead.", "strong": "H8478" }
     ]
   },
   {
@@ -1964,23 +2076,28 @@
     "verse": 16,
     "content": [
       { "text": "There is", "marks": ["i"] },
-      { "text": " no end", "strong": "H7093" },
-      { "text": " of all the people,", "strong": "H5971" },
+      { "text": " no", "strong": "H369" },
+      { "text": " end", "strong": "H7093" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " the people,", "strong": "H5971" },
       " ",
       { "text": "even", "marks": ["i"] },
-      { "text": " of all that have been before", "strong": "H6440" },
-      { "text": " them: they also that come after", "strong": "H314" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " have been", "strong": "H1961" },
+      { "text": " before them:", "strong": "H6440" },
+      { "text": " they", "strong": "H314" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " that come after", "strong": "H314" },
       { "text": " shall", "strong": "H8055" },
       { "text": " not", "strong": "H3808" },
       { "text": " rejoice", "strong": "H8055" },
-      {
-        "content": [
-          " in him. Surely this also ",
-          { "text": "is", "marks": ["i"] },
-          " vanity"
-        ],
-        "strong": "H1892"
-      },
+      { "text": " in him. Surely", "strong": "H3588" },
+      { "text": " this", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7475" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -1992,8 +2109,10 @@
     "content": [
       { "paragraph": true, "text": "Keep", "strong": "H8104" },
       { "text": " thy foot", "strong": "H7272" },
-      { "text": " when thou goest", "strong": "H3212" },
-      { "text": " to the house", "strong": "H1004" },
+      { "text": " when", "strong": "H834" },
+      { "text": " thou goest", "strong": "H3212" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the house", "strong": "H1004" },
       { "text": " of God,", "strong": "H430" },
       { "text": " and be more ready", "strong": "H7138" },
       { "text": " to hear,", "strong": "H8085" },
@@ -2001,7 +2120,8 @@
       { "text": " the sacrifice", "strong": "H2077" },
       { "text": " of fools:", "strong": "H3684" },
       { "text": " for", "strong": "H3588" },
-      { "text": " they consider", "strong": "H3045" },
+      { "text": " they", "strong": "H369" },
+      { "text": " consider", "strong": "H3045" },
       { "text": " not", "strong": "H369" },
       { "text": " that they do", "strong": "H6213" },
       { "text": " evil.", "strong": "H7451" }
@@ -2012,9 +2132,14 @@
     "chapter": 5,
     "verse": 2,
     "content": [
-      { "text": "Be not rash", "strong": "H926" },
-      { "text": " with thy mouth,", "strong": "H6310" },
-      { "text": " and let not thine heart", "strong": "H3820" },
+      { "text": "Be", "strong": "H926" },
+      { "text": " not", "strong": "H408" },
+      { "text": " rash", "strong": "H926" },
+      { "text": " with", "strong": "H5921" },
+      { "text": " thy mouth,", "strong": "H6310" },
+      { "text": " and let", "strong": "H4116" },
+      { "text": " not", "strong": "H408" },
+      { "text": " thine heart", "strong": "H3820" },
       { "text": " be hasty", "strong": "H4116" },
       { "text": " to utter", "strong": "H3318" },
       " ",
@@ -2034,9 +2159,15 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " in heaven,", "strong": "H8064" },
-      { "text": " and thou upon earth:", "strong": "H776" },
-      { "text": " therefore let thy words", "strong": "H1697" },
-      { "text": " be few.", "strong": "H4592" }
+      { "text": " and thou", "strong": "H859" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " earth:", "strong": "H776" },
+      { "text": " therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " let", "strong": "H1961" },
+      { "text": " thy words", "strong": "H1697" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " few.", "strong": "H4592" }
     ]
   },
   {
@@ -2062,22 +2193,23 @@
     "chapter": 5,
     "verse": 4,
     "content": [
-      { "text": "When thou vowest", "strong": "H5087" },
+      { "text": "When", "strong": "H834" },
+      { "text": " thou vowest", "strong": "H5087" },
       { "text": " a vow", "strong": "H5088" },
       { "text": " unto God,", "strong": "H430" },
       { "text": " defer", "strong": "H309" },
-      { "text": " not to pay", "strong": "H7999" },
-      {
-        "content": [
-          " it; for ",
-          { "text": "he hath", "marks": ["i"] },
-          " no pleasure"
-        ],
-        "strong": "H2656"
-      },
+      { "text": " not", "strong": "H408" },
+      { "text": " to pay it;", "strong": "H7999" },
+      { "text": " for", "strong": "H3588" },
+      " ",
+      { "text": "he hath", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " pleasure", "strong": "H2656" },
       { "text": " in fools:", "strong": "H3684" },
       { "text": " pay", "strong": "H7999" },
-      { "text": " that which thou hast vowed.", "strong": "H5087" }
+      { "strong": "H853" },
+      { "text": " that which", "strong": "H834" },
+      { "text": " thou hast vowed.", "strong": "H5087" }
     ]
   },
   {
@@ -2088,9 +2220,13 @@
       { "text": "Better", "strong": "H2896" },
       " ",
       { "text": "is it", "marks": ["i"] },
-      { "text": " that thou shouldest not vow,", "strong": "H5087" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou shouldest", "strong": "H5087" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " vow,", "strong": "H5087" },
       { "text": " than that thou shouldest vow", "strong": "H5087" },
-      { "text": " and not pay.", "strong": "H7999" }
+      { "text": " and not", "strong": "H3808" },
+      { "text": " pay.", "strong": "H7999" }
     ]
   },
   {
@@ -2099,26 +2235,28 @@
     "verse": 6,
     "content": [
       { "text": "Suffer", "strong": "H5414" },
-      { "strong": "H853" },
       { "text": " not", "strong": "H408" },
-      { "text": " thy mouth", "strong": "H6310" },
       { "strong": "H853" },
-      { "text": " to cause thy flesh", "strong": "H1320" },
+      { "text": " thy mouth", "strong": "H6310" },
+      { "text": " to cause", "strong": "H2398" },
+      { "strong": "H853" },
+      { "text": " thy flesh", "strong": "H1320" },
       { "text": " to sin;", "strong": "H2398" },
-      { "text": " neither say", "strong": "H559" },
-      { "text": " thou before", "strong": "H6440" },
+      { "text": " neither", "strong": "H408" },
+      { "text": " say thou", "strong": "H559" },
+      { "text": " before", "strong": "H6440" },
       { "text": " the angel,", "strong": "H4397" },
-      {
-        "content": [
-          " that it ",
-          { "text": "was", "marks": ["i"] },
-          " an error:"
-        ],
-        "strong": "H7684"
-      },
-      { "text": " wherefore should God", "strong": "H430" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " an error:", "strong": "H7684" },
+      { "text": " wherefore", "strong": "H4100" },
+      { "text": " should", "strong": "H7107" },
+      { "text": " God", "strong": "H430" },
       { "text": " be angry", "strong": "H7107" },
-      { "text": " at thy voice,", "strong": "H6963" },
+      { "text": " at", "strong": "H5921" },
+      { "text": " thy voice,", "strong": "H6963" },
       { "text": " and destroy", "strong": "H2254" },
       { "strong": "H853" },
       { "text": " the work", "strong": "H4639" },
@@ -2145,9 +2283,10 @@
         ],
         "strong": "H1892"
       },
-      { "text": " but fear", "strong": "H3372" },
+      { "text": " but", "strong": "H3588" },
+      { "text": " fear thou", "strong": "H3372" },
       { "strong": "H853" },
-      { "text": " thou God.", "strong": "H430" }
+      { "text": " God.", "strong": "H430" }
     ]
   },
   {
@@ -2155,17 +2294,19 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "paragraph": true, "text": "If thou seest", "strong": "H7200" },
+      { "paragraph": true, "text": "If", "strong": "H518" },
+      { "text": " thou seest", "strong": "H7200" },
       { "text": " the oppression", "strong": "H6233" },
       { "text": " of the poor,", "strong": "H7326" },
-      { "text": " and violent", "strong": "H1499" },
-      { "text": " perverting of judgment", "strong": "H4941" },
+      { "text": " and violent perverting", "strong": "H1499" },
+      { "text": " of judgment", "strong": "H4941" },
       { "text": " and justice", "strong": "H6664" },
       { "text": " in a province,", "strong": "H4082" },
       { "text": " marvel", "strong": "H8539" },
       { "text": " not", "strong": "H408" },
+      { "text": " at", "strong": "H5921" },
       {
-        "text": " at the matter:",
+        "text": " the matter:",
         "foot": {
           "type": "trn",
           "content": [
@@ -2177,15 +2318,12 @@
         },
         "strong": "H2656"
       },
-      {
-        "content": [
-          " for ",
-          { "text": "he that is", "marks": ["i"] },
-          " higher"
-        ],
-        "strong": "H1364"
-      },
-      { "text": " than the highest", "strong": "H1364" },
+      { "text": " for", "strong": "H3588" },
+      " ",
+      { "text": "he that is", "marks": ["i"] },
+      { "text": " higher", "strong": "H1364" },
+      { "text": " than", "strong": "H5921" },
+      { "text": " the highest", "strong": "H1364" },
       { "text": " regardeth;", "strong": "H8104" },
       {
         "content": [" and ", { "text": "there be", "marks": ["i"] }, " higher"],
@@ -2201,7 +2339,9 @@
     "content": [
       { "text": "Moreover the profit", "strong": "H3504" },
       { "text": " of the earth", "strong": "H776" },
-      { "text": " is for all: the king", "strong": "H4428" },
+      { "text": " is", "strong": "H1931" },
+      { "text": " for all:", "strong": "H3605" },
+      { "text": " the king", "strong": "H4428" },
       " ",
       { "text": "himself", "marks": ["i"] },
       { "text": " is served", "strong": "H5647" },
@@ -2219,17 +2359,16 @@
       { "text": " not", "strong": "H3808" },
       { "text": " be satisfied", "strong": "H7646" },
       { "text": " with silver;", "strong": "H3701" },
-      { "text": " nor he that loveth", "strong": "H157" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " he that", "strong": "H4310" },
+      { "text": " loveth", "strong": "H157" },
       { "text": " abundance", "strong": "H1995" },
       { "text": " with increase:", "strong": "H8393" },
-      {
-        "content": [
-          " this ",
-          { "text": "is", "marks": ["i"] },
-          " also vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -2240,14 +2379,15 @@
       { "text": "When goods", "strong": "H2896" },
       { "text": " increase,", "strong": "H7235" },
       { "text": " they are increased", "strong": "H7231" },
-      { "text": " that eat", "strong": "H398" },
-      { "text": " them: and what good", "strong": "H3788" },
+      { "text": " that eat them:", "strong": "H398" },
+      { "text": " and what", "strong": "H4100" },
+      { "text": " good", "strong": "H3788" },
       " ",
       { "text": "is there", "marks": ["i"] },
-      { "text": " to the owners", "strong": "H1167" },
-      { "text": " thereof, saving", "strong": "H518" },
-      { "text": " the beholding", "strong": "H7207" },
-      { "strong": "H7212" },
+      { "text": " to the owners thereof,", "strong": "H1167" },
+      { "text": " saving", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " the beholding", "strong": "H7212" },
       " ",
       { "text": "of them", "marks": ["i"] },
       { "text": " with their eyes?", "strong": "H5869" }
@@ -2263,12 +2403,16 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " sweet,", "strong": "H4966" },
-      { "text": " whether he eat", "strong": "H398" },
+      { "text": " whether", "strong": "H518" },
+      { "text": " he eat", "strong": "H398" },
       { "text": " little", "strong": "H4592" },
-      { "text": " or much:", "strong": "H7235" },
+      { "text": " or", "strong": "H518" },
+      { "text": " much:", "strong": "H7235" },
       { "text": " but the abundance", "strong": "H7647" },
       { "text": " of the rich", "strong": "H6223" },
-      { "text": " will not suffer", "strong": "H3240" },
+      { "text": " will", "strong": "H3240" },
+      { "text": " not", "strong": "H369" },
+      { "text": " suffer", "strong": "H3240" },
       { "text": " him to sleep.", "strong": "H3462" }
     ]
   },
@@ -2283,13 +2427,14 @@
       " ",
       { "text": "which", "marks": ["i"] },
       { "text": " I have seen", "strong": "H7200" },
-      { "text": " under the sun,", "strong": "H8121" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
       " ",
       { "text": "namely", "marks": ["i"] },
       { "text": ", riches", "strong": "H6239" },
       { "text": " kept", "strong": "H8104" },
-      { "text": " for the owners", "strong": "H1167" },
-      { "text": " thereof to their hurt.", "strong": "H7451" }
+      { "text": " for the owners thereof", "strong": "H1167" },
+      { "text": " to their hurt.", "strong": "H7451" }
     ]
   },
   {
@@ -2297,7 +2442,8 @@
     "chapter": 5,
     "verse": 14,
     "content": [
-      { "text": "But those riches", "strong": "H6239" },
+      { "text": "But those", "strong": "H1931" },
+      { "text": " riches", "strong": "H6239" },
       { "text": " perish", "strong": "H6" },
       { "text": " by evil", "strong": "H7451" },
       { "text": " travail:", "strong": "H6045" },
@@ -2309,8 +2455,9 @@
           { "text": "there is", "marks": ["i"] },
           " nothing"
         ],
-        "strong": "H3972"
+        "strong": "H369"
       },
+      { "strong": "H3972" },
       { "text": " in his hand.", "strong": "H3027" }
     ]
   },
@@ -2319,7 +2466,8 @@
     "chapter": 5,
     "verse": 15,
     "content": [
-      { "text": "As he came forth", "strong": "H3318" },
+      { "text": "As", "strong": "H834" },
+      { "text": " he came forth", "strong": "H3318" },
       { "text": " of his mother’s", "strong": "H517" },
       { "text": " womb,", "strong": "H990" },
       { "text": " naked", "strong": "H6174" },
@@ -2328,9 +2476,9 @@
       { "text": " as he came,", "strong": "H935" },
       { "text": " and shall take", "strong": "H5375" },
       { "text": " nothing", "strong": "H3972" },
+      { "strong": "H3808" },
       { "text": " of his labour,", "strong": "H5999" },
-      { "text": " which", "strong": "H834" },
-      { "text": " he may carry away", "strong": "H3212" },
+      { "text": " which he may carry away", "strong": "H3212" },
       { "text": " in his hand.", "strong": "H3027" }
     ]
   },
@@ -2340,18 +2488,20 @@
     "verse": 16,
     "content": [
       { "text": "And this", "strong": "H2090" },
-      {
-        "content": [" also ", { "text": "is", "marks": ["i"] }, " a sore"],
-        "strong": "H2470"
-      },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " a sore", "strong": "H2470" },
       { "text": " evil,", "strong": "H7451" },
       " ",
       { "text": "that", "marks": ["i"] },
-      { "text": " in all points", "strong": "H5980" },
-      { "text": " as he came,", "strong": "H935" },
+      { "text": " in all points", "strong": "H3605" },
+      { "text": " as", "strong": "H5980" },
+      { "text": " he came,", "strong": "H935" },
       { "text": " so", "strong": "H3651" },
       { "text": " shall he go:", "strong": "H3212" },
-      { "text": " and what profit", "strong": "H3504" },
+      { "text": " and what", "strong": "H4100" },
+      { "text": " profit", "strong": "H3504" },
       { "text": " hath he that hath laboured", "strong": "H5998" },
       { "text": " for the wind?", "strong": "H7307" }
     ]
@@ -2380,20 +2530,18 @@
     "chapter": 5,
     "verse": 18,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "Behold ",
-          { "text": "that", "marks": ["i"] },
-          " which I have seen:"
-        ],
-        "strong": "H7200"
-      },
+      { "paragraph": true, "text": "Behold", "strong": "H2009" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " which", "strong": "H834" },
+      { "text": " I have seen:", "strong": "H7200" },
+      { "strong": "H589" },
       " ",
       { "text": "it is", "marks": ["i"] },
       { "text": " good", "strong": "H2896" },
+      { "text": " and", "strong": "H834" },
       {
-        "text": " and comely",
+        "text": " comely",
         "foot": {
           "type": "trn",
           "content": [
@@ -2410,9 +2558,11 @@
       { "text": " and to drink,", "strong": "H8354" },
       { "text": " and to enjoy", "strong": "H7200" },
       { "text": " the good", "strong": "H2896" },
-      { "text": " of all his labour", "strong": "H5999" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " his labour", "strong": "H5999" },
       { "text": " that he taketh", "strong": "H5998" },
-      { "text": " under the sun", "strong": "H8121" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun", "strong": "H8121" },
       { "text": " all", "strong": "H4557" },
       { "text": " the days", "strong": "H3117" },
       {
@@ -2429,14 +2579,11 @@
       { "text": " which", "strong": "H834" },
       { "text": " God", "strong": "H430" },
       { "text": " giveth", "strong": "H5414" },
-      {
-        "content": [
-          " him: for it ",
-          { "text": "is", "marks": ["i"] },
-          " his portion."
-        ],
-        "strong": "H2506"
-      }
+      { "text": " him: for", "strong": "H3588" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " his portion.", "strong": "H2506" }
     ]
   },
   {
@@ -2447,13 +2594,15 @@
       { "text": "Every", "strong": "H3605" },
       { "text": " man", "strong": "H120" },
       { "text": " also", "strong": "H1571" },
-      { "text": " to whom God", "strong": "H430" },
+      { "text": " to whom", "strong": "H834" },
+      { "text": " God", "strong": "H430" },
       { "text": " hath given", "strong": "H5414" },
       { "text": " riches", "strong": "H6239" },
       { "text": " and wealth,", "strong": "H5233" },
       { "text": " and hath given him power", "strong": "H7980" },
       { "text": " to eat", "strong": "H398" },
-      { "text": " thereof, and to take", "strong": "H5375" },
+      { "text": " thereof,", "strong": "H4480" },
+      { "text": " and to take", "strong": "H5375" },
       { "strong": "H853" },
       { "text": " his portion,", "strong": "H2506" },
       { "text": " and to rejoice", "strong": "H8055" },
@@ -2462,7 +2611,8 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " the gift", "strong": "H4991" },
-      { "text": " of God.", "strong": "H430" }
+      { "text": " of God.", "strong": "H430" },
+      { "strong": "H1931" }
     ]
   },
   {
@@ -2471,7 +2621,9 @@
     "verse": 20,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " he shall not much", "strong": "H7235" },
+      { "text": " he shall", "strong": "H2142" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " much", "strong": "H7235" },
       { "text": " remember", "strong": "H2142" },
       { "strong": "H853" },
       { "text": " the days", "strong": "H3117" },
@@ -2494,12 +2646,14 @@
       { "text": " an evil", "strong": "H7451" },
       { "text": " which", "strong": "H834" },
       { "text": " I have seen", "strong": "H7200" },
-      { "text": " under the sun,", "strong": "H8121" },
-      {
-        "content": [" and it ", { "text": "is", "marks": ["i"] }, " common"],
-        "strong": "H7227"
-      },
-      { "text": " among men:", "strong": "H120" }
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
+      { "text": " and it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " common", "strong": "H7227" },
+      { "text": " among", "strong": "H5921" },
+      { "text": " men:", "strong": "H120" }
     ]
   },
   {
@@ -2508,28 +2662,37 @@
     "verse": 2,
     "content": [
       { "text": "a man", "strong": "H376" },
-      { "text": " to whom God", "strong": "H430" },
+      { "text": " to whom", "strong": "H834" },
+      { "text": " God", "strong": "H430" },
       { "text": " hath given", "strong": "H5414" },
       { "text": " riches,", "strong": "H6239" },
       { "text": " wealth,", "strong": "H5233" },
       { "text": " and honour,", "strong": "H3519" },
-      { "text": " so that he wanteth", "strong": "H2638" },
-      { "text": " nothing for his soul", "strong": "H5315" },
-      { "text": " of all that he desireth,", "strong": "H183" },
+      { "text": " so that he", "strong": "H369" },
+      { "text": " wanteth", "strong": "H2638" },
+      { "text": " nothing", "strong": "H369" },
+      { "text": " for his soul", "strong": "H5315" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " he desireth,", "strong": "H183" },
       { "text": " yet God", "strong": "H430" },
-      { "text": " giveth him not power", "strong": "H7980" },
+      { "text": " giveth him", "strong": "H7980" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " power", "strong": "H7980" },
       { "text": " to eat", "strong": "H398" },
-      { "text": " thereof, but a stranger", "strong": "H376" },
+      { "text": " thereof,", "strong": "H4480" },
+      { "text": " but", "strong": "H3588" },
+      { "text": " a stranger", "strong": "H376" },
       { "strong": "H5237" },
-      { "text": " eateth", "strong": "H398" },
-      {
-        "content": [" it: this ", { "text": "is", "marks": ["i"] }, " vanity,"],
-        "strong": "H1892"
-      },
-      {
-        "content": [" and it ", { "text": "is", "marks": ["i"] }, " an evil"],
-        "strong": "H7451"
-      },
+      { "text": " eateth it:", "strong": "H398" },
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity,", "strong": "H1892" },
+      { "text": " and it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " an evil", "strong": "H7451" },
       { "text": " disease.", "strong": "H2483" }
     ]
   },
@@ -2538,7 +2701,8 @@
     "chapter": 6,
     "verse": 3,
     "content": [
-      { "text": "If a man", "strong": "H376" },
+      { "text": "If", "strong": "H518" },
+      { "text": " a man", "strong": "H376" },
       { "text": " beget", "strong": "H3205" },
       { "text": " an hundred", "strong": "H3967" },
       " ",
@@ -2548,18 +2712,20 @@
       { "text": " years,", "strong": "H8141" },
       { "text": " so that the days", "strong": "H3117" },
       { "text": " of his years", "strong": "H8141" },
-      { "text": " be many,", "strong": "H7227" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " many,", "strong": "H7227" },
       { "text": " and his soul", "strong": "H5315" },
-      { "text": " be not filled", "strong": "H7646" },
-      { "text": " with good,", "strong": "H2896" },
-      {
-        "content": [
-          " and also ",
-          { "text": "that", "marks": ["i"] },
-          " he have no burial;"
-        ],
-        "strong": "H6900"
-      },
+      { "text": " be", "strong": "H7646" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " filled", "strong": "H7646" },
+      { "text": " with", "strong": "H4480" },
+      { "text": " good,", "strong": "H2896" },
+      { "text": " and also", "strong": "H1571" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " he have", "strong": "H1961" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " burial;", "strong": "H6900" },
       { "text": " I say,", "strong": "H559" },
       " ",
       { "text": "that", "marks": ["i"] },
@@ -2567,7 +2733,7 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " better", "strong": "H2896" },
-      " than he."
+      { "text": " than he.", "strong": "H4480" }
     ]
   },
   {
@@ -2576,8 +2742,8 @@
     "verse": 4,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " he cometh", "strong": "H935" },
-      { "text": " in with vanity,", "strong": "H1892" },
+      { "text": " he cometh in", "strong": "H935" },
+      { "text": " with vanity,", "strong": "H1892" },
       { "text": " and departeth", "strong": "H3212" },
       { "text": " in darkness,", "strong": "H2822" },
       { "text": " and his name", "strong": "H8034" },
@@ -2590,15 +2756,18 @@
     "chapter": 6,
     "verse": 5,
     "content": [
-      { "text": "Moreover he hath not seen", "strong": "H7200" },
+      { "text": "Moreover", "strong": "H1571" },
+      { "text": " he hath", "strong": "H7200" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " seen", "strong": "H7200" },
       { "text": " the sun,", "strong": "H8121" },
-      { "text": " nor known", "strong": "H3045" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " known", "strong": "H3045" },
       " ",
       { "text": "any thing:", "marks": ["i"] },
       { "text": " this", "strong": "H2088" },
       { "text": " hath more rest", "strong": "H5183" },
-      { "text": " than", "strong": "H2088" },
-      " the other."
+      { "text": " than the other.", "strong": "H2088" }
     ]
   },
   {
@@ -2614,11 +2783,13 @@
       " ",
       { "text": "told", "marks": ["i"] },
       { "text": ", yet hath he seen", "strong": "H7200" },
-      { "text": " no good:", "strong": "H2896" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " good:", "strong": "H2896" },
       { "text": " do not", "strong": "H3808" },
       { "text": " all", "strong": "H3605" },
       { "text": " go", "strong": "H1980" },
-      { "text": " to one", "strong": "H259" },
+      { "text": " to", "strong": "H413" },
+      { "text": " one", "strong": "H259" },
       { "text": " place?", "strong": "H4725" }
     ]
   },
@@ -2633,15 +2804,18 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " for his mouth,", "strong": "H6310" },
+      { "text": " and yet", "strong": "H1571" },
       {
-        "text": " and yet the appetite",
+        "text": " the appetite",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "soul", "marks": ["i"] }]
         },
         "strong": "H5315"
       },
-      { "text": " is not filled.", "strong": "H4390" }
+      { "text": " is", "strong": "H4390" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " filled.", "strong": "H4390" }
     ]
   },
   {
@@ -2653,12 +2827,14 @@
       { "text": " what", "strong": "H4100" },
       { "text": " hath the wise", "strong": "H2450" },
       { "text": " more", "strong": "H3148" },
-      { "text": " than the fool?", "strong": "H3684" },
+      { "text": " than", "strong": "H4480" },
+      { "text": " the fool?", "strong": "H3684" },
       { "text": " what", "strong": "H4100" },
       { "text": " hath the poor,", "strong": "H6041" },
       { "text": " that knoweth", "strong": "H3045" },
       { "text": " to walk", "strong": "H1980" },
-      { "text": " before the living?", "strong": "H2416" }
+      { "text": " before", "strong": "H5048" },
+      { "text": " the living?", "strong": "H2416" }
     ]
   },
   {
@@ -2673,10 +2849,11 @@
       { "text": " of the eyes", "strong": "H5869" },
       { "text": " than the wandering", "strong": "H1980" },
       { "text": " of the desire:", "strong": "H5315" },
-      {
-        "content": [" this ", { "text": "is", "marks": ["i"] }, " also vanity"],
-        "strong": "H1892"
-      },
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity", "strong": "H1892" },
       { "text": " and vexation", "strong": "H7469" },
       { "text": " of spirit.", "strong": "H7307" }
     ]
@@ -2686,23 +2863,23 @@
     "chapter": 6,
     "verse": 10,
     "content": [
-      {
-        "paragraph": true,
-        "text": "That which hath been is named",
-        "strong": "H7121"
-      },
-      { "strong": "H8034" },
+      { "paragraph": true, "text": "That which", "strong": "H4100" },
+      { "text": " hath been", "strong": "H1961" },
+      { "text": " is named", "strong": "H7121" },
       { "text": " already,", "strong": "H3528" },
+      { "strong": "H8034" },
       { "text": " and it is known", "strong": "H3045" },
-      {
-        "content": [" that it ", { "text": "is", "marks": ["i"] }, " man:"],
-        "strong": "H120"
-      },
-      { "text": " neither may", "strong": "H3201" },
+      { "text": " that", "strong": "H834" },
+      { "text": " it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " man:", "strong": "H120" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " may", "strong": "H3201" },
       { "text": " he contend", "strong": "H1777" },
       { "text": " with", "strong": "H5973" },
       { "text": " him that is mightier", "strong": "H8623" },
-      " than he."
+      { "text": " than he.", "strong": "H4480" }
     ]
   },
   {
@@ -2710,15 +2887,16 @@
     "chapter": 6,
     "verse": 11,
     "content": [
-      { "text": "Seeing there be", "strong": "H3426" },
+      { "text": "Seeing", "strong": "H3588" },
+      { "text": " there be", "strong": "H3426" },
       { "text": " many", "strong": "H7235" },
       { "text": " things", "strong": "H1697" },
       { "text": " that increase", "strong": "H7235" },
       { "text": " vanity,", "strong": "H1892" },
-      {
-        "content": [" what ", { "text": "is", "marks": ["i"] }, " man"],
-        "strong": "H120"
-      },
+      { "text": " what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " man", "strong": "H120" },
       { "text": " the better?", "strong": "H3148" }
     ]
   },
@@ -2727,11 +2905,13 @@
     "chapter": 6,
     "verse": 12,
     "content": [
-      { "text": "For who knoweth", "strong": "H3045" },
-      {
-        "content": [" what ", { "text": "is", "marks": ["i"] }, " good"],
-        "strong": "H2896"
-      },
+      { "text": "For", "strong": "H3588" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " knoweth", "strong": "H3045" },
+      { "text": " what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " good", "strong": "H2896" },
       { "text": " for man", "strong": "H120" },
       {
         "content": [" in ", { "text": "this", "marks": ["i"] }, " life,"],
@@ -2754,14 +2934,17 @@
         },
         "strong": "H2416"
       },
-      { "text": " which", "strong": "H834" },
-      { "text": " he spendeth", "strong": "H6213" },
+      { "text": " which he spendeth", "strong": "H6213" },
       { "text": " as a shadow?", "strong": "H6738" },
-      { "text": " for who can tell", "strong": "H5046" },
+      { "text": " for", "strong": "H834" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can tell", "strong": "H5046" },
       { "text": " a man", "strong": "H120" },
       { "text": " what", "strong": "H4100" },
-      { "text": " shall be after", "strong": "H310" },
-      { "text": " him under the sun?", "strong": "H8121" }
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " after him", "strong": "H310" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun?", "strong": "H8121" }
     ]
   },
   {
@@ -2790,22 +2973,26 @@
       { "text": "It is", "marks": ["i"] },
       { "text": " better", "strong": "H2896" },
       { "text": " to go", "strong": "H3212" },
-      { "text": " to the house", "strong": "H1004" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the house", "strong": "H1004" },
       { "text": " of mourning,", "strong": "H60" },
       { "text": " than to go", "strong": "H3212" },
-      { "text": " to the house", "strong": "H1004" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the house", "strong": "H1004" },
       { "text": " of feasting:", "strong": "H4960" },
       { "text": " for", "strong": "H834" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, " the end"],
-        "strong": "H5490"
-      },
-      { "text": " of all men;", "strong": "H120" },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the end", "strong": "H5490" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " men;", "strong": "H120" },
       { "text": " and the living", "strong": "H2416" },
       { "text": " will lay", "strong": "H5414" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": " to his heart.", "strong": "H3820" }
+      { "text": " to", "strong": "H413" },
+      { "text": " his heart.", "strong": "H3820" }
     ]
   },
   {
@@ -2882,20 +3069,18 @@
         "strong": "H6963"
       },
       { "text": " of thorns", "strong": "H5518" },
-      { "text": " under a pot,", "strong": "H5518" },
-      {
-        "content": [" so ", { "text": "is", "marks": ["i"] }, " the laughter"],
-        "strong": "H7814"
-      },
+      { "text": " under", "strong": "H8478" },
+      { "text": " a pot,", "strong": "H5518" },
+      { "text": " so", "strong": "H3651" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the laughter", "strong": "H7814" },
       { "text": " of the fool:", "strong": "H3684" },
-      {
-        "content": [
-          " this also ",
-          { "text": "is", "marks": ["i"] },
-          " vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " this", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -2905,7 +3090,8 @@
     "content": [
       { "text": "Surely", "strong": "H3588" },
       { "text": " oppression", "strong": "H6233" },
-      { "text": " maketh a wise man", "strong": "H2450" },
+      { "text": " maketh", "strong": "H1984" },
+      { "text": " a wise man", "strong": "H2450" },
       { "text": " mad;", "strong": "H1984" },
       { "text": " and a gift", "strong": "H4979" },
       { "text": " destroyeth", "strong": "H6" },
@@ -2923,15 +3109,10 @@
       { "text": "is", "marks": ["i"] },
       { "text": " the end", "strong": "H319" },
       { "text": " of a thing", "strong": "H1697" },
-      { "text": " than the beginning", "strong": "H7225" },
-      {
-        "content": [
-          " thereof: ",
-          { "text": "and", "marks": ["i"] },
-          " the patient"
-        ],
-        "strong": "H750"
-      },
+      { "text": " than the beginning thereof:", "strong": "H7225" },
+      " ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " the patient", "strong": "H750" },
       { "text": " in spirit", "strong": "H7307" },
       " ",
       { "text": "is", "marks": ["i"] },
@@ -2945,7 +3126,9 @@
     "chapter": 7,
     "verse": 9,
     "content": [
-      { "text": "Be not hasty", "strong": "H926" },
+      { "text": "Be", "strong": "H926" },
+      { "text": " not", "strong": "H408" },
+      { "text": " hasty", "strong": "H926" },
       { "text": " in thy spirit", "strong": "H7307" },
       { "text": " to be angry:", "strong": "H3707" },
       { "text": " for", "strong": "H3588" },
@@ -2961,17 +3144,21 @@
     "verse": 10,
     "content": [
       { "text": "Say", "strong": "H559" },
-      {
-        "content": [
-          " not thou, What is ",
-          { "text": "the cause", "marks": ["i"] },
-          " that the former"
-        ],
-        "strong": "H7223"
-      },
+      { "text": " not", "strong": "H408" },
+      { "text": " thou,", "strong": "H559" },
+      { "text": " What", "strong": "H4100" },
+      { "text": " is", "strong": "H1961" },
+      " ",
+      { "text": "the cause", "marks": ["i"] },
+      { "text": " that the former", "strong": "H7223" },
       { "text": " days", "strong": "H3117" },
-      { "text": " were better", "strong": "H2896" },
-      { "text": " than these? for thou dost not enquire", "strong": "H7592" },
+      { "text": " were", "strong": "H1961" },
+      { "text": " better", "strong": "H2896" },
+      { "text": " than these?", "strong": "H428" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " thou", "strong": "H7592" },
+      { "text": " dost not", "strong": "H3808" },
+      { "text": " enquire", "strong": "H7592" },
       {
         "text": " wisely",
         "foot": {
@@ -2980,7 +3167,8 @@
         },
         "strong": "H2451"
       },
-      " concerning this."
+      { "text": " concerning", "strong": "H5921" },
+      { "text": " this.", "strong": "H2088" }
     ]
   },
   {
@@ -3048,8 +3236,7 @@
       { "text": "is, that", "marks": ["i"] },
       { "text": " wisdom", "strong": "H2451" },
       { "text": " giveth life", "strong": "H2421" },
-      { "text": " to them that have", "strong": "H1167" },
-      " it."
+      { "text": " to them that have it.", "strong": "H1167" }
     ]
   },
   {
@@ -3062,11 +3249,13 @@
       { "text": " the work", "strong": "H4639" },
       { "text": " of God:", "strong": "H430" },
       { "text": " for", "strong": "H3588" },
-      { "text": " who can", "strong": "H3201" },
-      {
-        "content": [" make ", { "text": "that", "marks": ["i"] }, " straight,"],
-        "strong": "H8626"
-      },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can", "strong": "H3201" },
+      { "text": " make", "strong": "H8626" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " straight,", "strong": "H8626" },
+      { "strong": "H853" },
       { "text": " which", "strong": "H834" },
       { "text": " he hath made crooked?", "strong": "H5791" }
     ]
@@ -3078,7 +3267,8 @@
     "content": [
       { "text": "In the day", "strong": "H3117" },
       { "text": " of prosperity", "strong": "H2896" },
-      { "text": " be joyful,", "strong": "H2896" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " joyful,", "strong": "H2896" },
       { "text": " but in the day", "strong": "H3117" },
       { "text": " of adversity", "strong": "H7451" },
       { "text": " consider:", "strong": "H7200" },
@@ -3092,14 +3282,17 @@
         },
         "strong": "H6213"
       },
-      { "text": " the one over", "strong": "H5980" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " the other, to the end", "strong": "H1700" },
+      { "strong": "H853" },
+      { "text": " the one", "strong": "H2088" },
+      { "text": " over against", "strong": "H5980" },
+      { "text": " the other,", "strong": "H2088" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the end", "strong": "H1700" },
       { "text": " that man", "strong": "H120" },
       { "text": " should find", "strong": "H4672" },
-      { "text": " nothing", "strong": "H3972" },
-      { "text": " after", "strong": "H310" },
-      " him."
+      { "text": " nothing", "strong": "H3808" },
+      { "strong": "H3972" },
+      { "text": " after him.", "strong": "H310" }
     ]
   },
   {
@@ -3107,15 +3300,11 @@
     "chapter": 7,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "All ",
-          { "text": "things", "marks": ["i"] },
-          " have I seen"
-        ],
-        "strong": "H7200"
-      },
+      { "paragraph": true, "strong": "H853" },
+      { "text": "All", "strong": "H3605" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " have I seen", "strong": "H7200" },
       { "text": " in the days", "strong": "H3117" },
       { "text": " of my vanity:", "strong": "H1892" },
       { "text": " there is", "strong": "H3426" },
@@ -3124,7 +3313,8 @@
       { "text": "man", "marks": ["i"] },
       { "text": " that perisheth", "strong": "H6" },
       { "text": " in his righteousness,", "strong": "H6664" },
-      { "text": " and there is a wicked", "strong": "H7563" },
+      { "text": " and there is", "strong": "H3426" },
+      { "text": " a wicked", "strong": "H7563" },
       " ",
       { "text": "man", "marks": ["i"] },
       { "text": " that prolongeth", "strong": "H748" },
@@ -3138,17 +3328,22 @@
     "chapter": 7,
     "verse": 16,
     "content": [
-      { "text": "Be not righteous", "strong": "H6662" },
+      { "text": "Be", "strong": "H1961" },
+      { "text": " not", "strong": "H408" },
+      { "text": " righteous", "strong": "H6662" },
       { "text": " over much;", "strong": "H7235" },
-      { "text": " neither make thyself over", "strong": "H3148" },
+      { "text": " neither", "strong": "H408" },
+      { "text": " make thyself", "strong": "H2449" },
+      { "text": " over", "strong": "H3148" },
       { "text": " wise:", "strong": "H2449" },
-      { "text": " why shouldest thou destroy", "strong": "H8074" },
+      { "text": " why", "strong": "H4100" },
       {
-        "text": " thyself?",
+        "text": " shouldest thou destroy thyself?",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "be desolate?", "marks": ["i"] }]
-        }
+        },
+        "strong": "H8074"
       }
     ]
   },
@@ -3157,12 +3352,18 @@
     "chapter": 7,
     "verse": 17,
     "content": [
-      { "text": "Be not over much", "strong": "H7235" },
+      { "text": "Be", "strong": "H7561" },
+      { "text": " not", "strong": "H408" },
+      { "text": " over much", "strong": "H7235" },
       { "text": " wicked,", "strong": "H7561" },
-      { "text": " neither be thou foolish:", "strong": "H5530" },
-      { "text": " why shouldest thou die", "strong": "H4191" },
+      { "text": " neither", "strong": "H408" },
+      { "text": " be thou", "strong": "H1961" },
+      { "text": " foolish:", "strong": "H5530" },
+      { "text": " why", "strong": "H4100" },
+      { "text": " shouldest thou die", "strong": "H4191" },
+      { "text": " before", "strong": "H3808" },
       {
-        "text": " before thy time?",
+        "text": " thy time?",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "not in thy time?", "marks": ["i"] }]
@@ -3178,17 +3379,21 @@
     "content": [
       { "text": "It is", "marks": ["i"] },
       { "text": " good", "strong": "H2896" },
-      { "text": " that thou shouldest take hold", "strong": "H270" },
-      { "text": " of this; yea, also from this", "strong": "H2088" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou shouldest take hold", "strong": "H270" },
+      { "text": " of this;", "strong": "H2088" },
+      { "text": " yea, also", "strong": "H1571" },
+      { "text": " from this", "strong": "H2088" },
       { "text": " withdraw", "strong": "H3240" },
-      { "strong": "H853" },
       { "text": " not", "strong": "H408" },
+      { "strong": "H853" },
       { "text": " thine hand:", "strong": "H3027" },
       { "text": " for", "strong": "H3588" },
       { "text": " he that feareth", "strong": "H3373" },
       { "text": " God", "strong": "H430" },
       { "text": " shall come forth", "strong": "H3318" },
-      " of them all."
+      { "text": " of", "strong": "H854" },
+      { "text": " them all.", "strong": "H3605" }
     ]
   },
   {
@@ -3203,7 +3408,9 @@
       { "text": " mighty", "strong": "H7989" },
       " ",
       { "text": "men", "marks": ["i"] },
-      { "text": " which are in the city.", "strong": "H5892" }
+      { "text": " which", "strong": "H834" },
+      { "text": " are", "strong": "H1961" },
+      { "text": " in the city.", "strong": "H5892" }
     ]
   },
   {
@@ -3211,20 +3418,18 @@
     "chapter": 7,
     "verse": 20,
     "content": [
-      {
-        "content": [
-          "For ",
-          { "text": "there is", "marks": ["i"] },
-          " not a just"
-        ],
-        "strong": "H6662"
-      },
+      { "text": "For", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " not", "strong": "H369" },
+      { "text": " a just", "strong": "H6662" },
       { "text": " man", "strong": "H120" },
       { "text": " upon earth,", "strong": "H776" },
-      { "text": " that doeth", "strong": "H6213" },
+      { "text": " that", "strong": "H834" },
+      { "text": " doeth", "strong": "H6213" },
       { "text": " good,", "strong": "H2896" },
       { "text": " and sinneth", "strong": "H2398" },
-      " not."
+      { "text": " not.", "strong": "H3808" }
     ]
   },
   {
@@ -3234,8 +3439,9 @@
     "content": [
       { "text": "Also", "strong": "H1571" },
       { "text": " take", "strong": "H5414" },
+      { "text": " no", "strong": "H408" },
       {
-        "text": " no heed",
+        "text": " heed",
         "foot": {
           "type": "trn",
           "content": [
@@ -3245,13 +3451,16 @@
         },
         "strong": "H3820"
       },
-      { "text": " unto all words", "strong": "H1697" },
-      { "text": " that are spoken;", "strong": "H1696" },
-      { "text": " lest thou hear", "strong": "H8085" },
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " words", "strong": "H1697" },
+      { "text": " that", "strong": "H834" },
+      { "text": " are spoken;", "strong": "H1696" },
+      { "text": " lest", "strong": "H834" },
+      { "strong": "H3808" },
+      { "text": " thou hear", "strong": "H8085" },
       { "strong": "H853" },
       { "text": " thy servant", "strong": "H5650" },
-      { "text": " curse", "strong": "H7043" },
-      " thee:"
+      { "text": " curse thee:", "strong": "H7043" }
     ]
   },
   {
@@ -3265,7 +3474,10 @@
       { "text": " also", "strong": "H1571" },
       { "text": " thine own heart", "strong": "H3820" },
       { "text": " knoweth", "strong": "H3045" },
-      { "text": " that thou thyself likewise hast cursed", "strong": "H7043" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou thyself", "strong": "H859" },
+      { "text": " likewise", "strong": "H1571" },
+      { "text": " hast cursed", "strong": "H7043" },
       { "text": " others.", "strong": "H312" }
     ]
   },
@@ -3281,11 +3493,11 @@
       { "text": " by wisdom:", "strong": "H2451" },
       { "text": " I said,", "strong": "H559" },
       { "text": " I will be wise;", "strong": "H2449" },
-      {
-        "content": [" but it ", { "text": "was", "marks": ["i"] }, " far"],
-        "strong": "H7350"
-      },
-      " from me."
+      { "text": " but it", "strong": "H1931" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " far", "strong": "H7350" },
+      { "text": " from me.", "strong": "H4480" }
     ]
   },
   {
@@ -3293,9 +3505,13 @@
     "chapter": 7,
     "verse": 24,
     "content": [
-      { "text": "That which is far off,", "strong": "H7350" },
-      { "text": " and exceeding deep,", "strong": "H6013" },
-      { "text": " who can find it out?", "strong": "H4672" }
+      { "text": "That which", "strong": "H4100" },
+      { "text": " is", "strong": "H1961" },
+      { "text": " far off,", "strong": "H7350" },
+      { "text": " and exceeding", "strong": "H6013" },
+      { "text": " deep,", "strong": "H6013" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can find it out?", "strong": "H4672" }
     ]
   },
   {
@@ -3304,6 +3520,7 @@
     "verse": 25,
     "content": [
       { "text": "I applied", "strong": "H5437" },
+      { "strong": "H589" },
       {
         "text": " mine heart",
         "foot": {
@@ -3336,12 +3553,14 @@
     "chapter": 7,
     "verse": 26,
     "content": [
-      { "text": "and I find", "strong": "H4672" },
+      { "text": "and I", "strong": "H589" },
+      { "text": " find", "strong": "H4672" },
       { "text": " more bitter", "strong": "H4751" },
       { "text": " than death", "strong": "H4194" },
       { "strong": "H853" },
       { "text": " the woman,", "strong": "H802" },
       { "text": " whose", "strong": "H834" },
+      { "strong": "H1931" },
       { "text": " heart", "strong": "H3820" },
       " ",
       { "text": "is", "marks": ["i"] },
@@ -3357,8 +3576,8 @@
       { "strong": "H6440" },
       { "text": " God", "strong": "H430" },
       { "text": " shall escape", "strong": "H4422" },
-      { "text": " from", "strong": "H4480" },
-      { "text": " her; but the sinner", "strong": "H2398" },
+      { "text": " from her;", "strong": "H4480" },
+      { "text": " but the sinner", "strong": "H2398" },
       { "text": " shall be taken", "strong": "H3920" },
       " by her."
     ]
@@ -3387,15 +3606,21 @@
     "verse": 28,
     "content": [
       { "text": "which", "strong": "H834" },
-      { "text": " yet my soul", "strong": "H5315" },
+      { "text": " yet", "strong": "H5750" },
+      { "text": " my soul", "strong": "H5315" },
       { "text": " seeketh,", "strong": "H1245" },
       { "text": " but I find", "strong": "H4672" },
-      { "text": " not: one", "strong": "H259" },
+      { "text": " not:", "strong": "H3808" },
+      { "text": " one", "strong": "H259" },
       { "text": " man", "strong": "H120" },
       { "text": " among a thousand", "strong": "H505" },
       { "text": " have I found;", "strong": "H4672" },
       { "text": " but a woman", "strong": "H802" },
-      { "text": " among all those have I not found.", "strong": "H4672" }
+      { "text": " among all", "strong": "H3605" },
+      { "text": " those", "strong": "H428" },
+      { "text": " have I", "strong": "H4672" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " found.", "strong": "H4672" }
     ]
   },
   {
@@ -3407,12 +3632,14 @@
       { "text": " this", "strong": "H2088" },
       { "text": " only", "strong": "H905" },
       { "text": " have I found,", "strong": "H4672" },
-      { "text": " that God", "strong": "H430" },
+      { "text": " that", "strong": "H834" },
+      { "text": " God", "strong": "H430" },
       { "text": " hath made", "strong": "H6213" },
       { "strong": "H853" },
       { "text": " man", "strong": "H120" },
       { "text": " upright;", "strong": "H3477" },
-      { "text": " but they have sought out", "strong": "H1245" },
+      { "text": " but they", "strong": "H1992" },
+      { "text": " have sought out", "strong": "H1245" },
       { "text": " many", "strong": "H7227" },
       { "text": " inventions.", "strong": "H2810" }
     ]
@@ -3422,19 +3649,20 @@
     "chapter": 8,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "content": ["Who ", { "text": "is", "marks": ["i"] }, " as the wise"],
-        "strong": "H2450"
-      },
+      { "paragraph": true, "text": "Who", "strong": "H4310" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " as the wise", "strong": "H2450" },
       " ",
       { "text": "man?", "marks": ["i"] },
-      { "text": " and who knoweth", "strong": "H3045" },
+      { "text": " and who", "strong": "H4310" },
+      { "text": " knoweth", "strong": "H3045" },
       { "text": " the interpretation", "strong": "H6592" },
       { "text": " of a thing?", "strong": "H1697" },
       { "text": " a man’s", "strong": "H120" },
       { "text": " wisdom", "strong": "H2451" },
-      { "text": " maketh his face", "strong": "H6440" },
+      { "text": " maketh", "strong": "H215" },
+      { "text": " his face", "strong": "H6440" },
       { "text": " to shine,", "strong": "H215" },
       {
         "text": " and the boldness",
@@ -3453,20 +3681,16 @@
     "chapter": 8,
     "verse": 2,
     "content": [
-      {
-        "content": [
-          "I ",
-          { "text": "counsel thee", "marks": ["i"] },
-          " to keep"
-        ],
-        "strong": "H8104"
-      },
+      { "text": "I", "strong": "H589" },
+      " ",
+      { "text": "counsel thee", "marks": ["i"] },
+      { "text": " to keep", "strong": "H8104" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " commandment,", "strong": "H6310" },
-      {
-        "content": [" and ", { "text": "that", "marks": ["i"] }, " in regard"],
-        "strong": "H1700"
-      },
+      { "text": " and", "strong": "H5921" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " in regard", "strong": "H1700" },
       { "text": " of the oath", "strong": "H7621" },
       { "text": " of God.", "strong": "H430" }
     ]
@@ -3476,7 +3700,9 @@
     "chapter": 8,
     "verse": 3,
     "content": [
-      { "text": "Be not hasty", "strong": "H926" },
+      { "text": "Be", "strong": "H926" },
+      { "text": " not", "strong": "H408" },
+      { "text": " hasty", "strong": "H926" },
       { "text": " to go out", "strong": "H3212" },
       { "text": " of his sight:", "strong": "H6440" },
       { "text": " stand", "strong": "H5975" },
@@ -3485,8 +3711,9 @@
       { "text": " thing;", "strong": "H1697" },
       { "text": " for", "strong": "H3588" },
       { "text": " he doeth", "strong": "H6213" },
-      { "text": " whatsoever pleaseth", "strong": "H2654" },
-      " him."
+      { "text": " whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " pleaseth him.", "strong": "H2654" }
     ]
   },
   {
@@ -3500,9 +3727,10 @@
       " ",
       { "text": "is, there is", "marks": ["i"] },
       { "text": " power:", "strong": "H7983" },
-      { "text": " and who may say", "strong": "H559" },
-      { "text": " unto him, What doest", "strong": "H6213" },
-      " thou?"
+      { "text": " and who", "strong": "H4310" },
+      { "text": " may say", "strong": "H559" },
+      { "text": " unto him, What", "strong": "H4100" },
+      { "text": " doest thou?", "strong": "H6213" }
     ]
   },
   {
@@ -3520,7 +3748,8 @@
         },
         "strong": "H3045"
       },
-      { "text": " no evil", "strong": "H7451" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " evil", "strong": "H7451" },
       { "text": " thing:", "strong": "H1697" },
       { "text": " and a wise man’s", "strong": "H2450" },
       { "text": " heart", "strong": "H3820" },
@@ -3535,16 +3764,18 @@
     "verse": 6,
     "content": [
       { "text": "Because", "strong": "H3588" },
-      { "text": " to every purpose", "strong": "H2656" },
+      { "text": " to every", "strong": "H3605" },
+      { "text": " purpose", "strong": "H2656" },
       { "text": " there is", "strong": "H3426" },
       { "text": " time", "strong": "H6256" },
       { "text": " and judgment,", "strong": "H4941" },
-      { "text": " therefore the misery", "strong": "H7451" },
+      { "text": " therefore", "strong": "H3588" },
+      { "text": " the misery", "strong": "H7451" },
       { "text": " of man", "strong": "H120" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " great", "strong": "H7227" },
-      " upon him."
+      { "text": " upon him.", "strong": "H5921" }
     ]
   },
   {
@@ -3553,15 +3784,22 @@
     "verse": 7,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " he knoweth", "strong": "H3045" },
+      { "text": " he", "strong": "H369" },
+      { "text": " knoweth", "strong": "H3045" },
       { "text": " not", "strong": "H369" },
-      { "text": " that which shall be: for who can tell", "strong": "H5046" },
+      { "text": " that which", "strong": "H4100" },
+      { "text": " shall be:", "strong": "H1961" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can tell", "strong": "H5046" },
+      { "text": " him when", "strong": "H834" },
       {
-        "text": " him when it shall be?",
+        "text": " it shall be?",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "how it shall be?", "marks": ["i"] }]
-        }
+        },
+        "strong": "H1961"
       }
     ]
   },
@@ -3571,47 +3809,41 @@
     "verse": 8,
     "content": [
       { "text": "There is", "marks": ["i"] },
-      { "text": " no man", "strong": "H120" },
+      { "text": " no", "strong": "H369" },
+      { "text": " man", "strong": "H120" },
       { "text": " that hath power", "strong": "H7989" },
       { "text": " over the spirit", "strong": "H7307" },
       { "text": " to retain", "strong": "H3607" },
+      { "strong": "H853" },
       { "text": " the spirit;", "strong": "H7307" },
-      {
-        "content": [
-          " neither ",
-          { "text": "hath he", "marks": ["i"] },
-          " power"
-        ],
-        "strong": "H7983"
-      },
+      { "text": " neither", "strong": "H369" },
+      " ",
+      { "text": "hath he", "marks": ["i"] },
+      { "text": " power", "strong": "H7983" },
       { "text": " in the day", "strong": "H3117" },
       { "text": " of death:", "strong": "H4194" },
       {
-        "content": [
-          " and ",
-          { "text": "there is", "marks": ["i"] },
-          {
-            "text": " no discharge",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                { "text": "casting of weapons", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
+        "content": [" and ", { "text": "there is", "marks": ["i"] }, " no"],
+        "strong": "H369"
+      },
+      {
+        "text": " discharge",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "casting of weapons", "marks": ["i"] }]
+        },
         "strong": "H4917"
       },
       {
         "content": [" in ", { "text": "that", "marks": ["i"] }, " war;"],
         "strong": "H4421"
       },
-      { "text": " neither shall wickedness", "strong": "H7562" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " shall", "strong": "H4422" },
+      { "text": " wickedness", "strong": "H7562" },
       { "text": " deliver", "strong": "H4422" },
       { "strong": "H853" },
-      { "text": " those that are given", "strong": "H1167" },
-      " to it."
+      { "text": " those that are given to it.", "strong": "H1167" }
     ]
   },
   {
@@ -3619,21 +3851,27 @@
     "chapter": 8,
     "verse": 9,
     "content": [
-      { "paragraph": true, "text": "All", "strong": "H3605" },
+      { "paragraph": true, "strong": "H853" },
+      { "text": "All", "strong": "H3605" },
       { "text": " this", "strong": "H2088" },
       { "text": " have I seen,", "strong": "H7200" },
       { "text": " and applied", "strong": "H5414" },
       { "strong": "H853" },
       { "text": " my heart", "strong": "H3820" },
-      { "text": " unto every work", "strong": "H4639" },
-      { "text": " that is done", "strong": "H6213" },
-      { "text": " under the sun:", "strong": "H8121" },
+      { "text": " unto every", "strong": "H3605" },
+      { "text": " work", "strong": "H4639" },
+      { "text": " that", "strong": "H834" },
+      { "text": " is done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun:", "strong": "H8121" },
       " ",
       { "text": "there is", "marks": ["i"] },
       { "text": " a time", "strong": "H6256" },
-      { "text": " wherein one man", "strong": "H120" },
+      { "text": " wherein", "strong": "H834" },
+      { "text": " one man", "strong": "H120" },
       { "text": " ruleth", "strong": "H7980" },
-      { "text": " over another to his own hurt.", "strong": "H7451" }
+      { "text": " over another", "strong": "H120" },
+      { "text": " to his own hurt.", "strong": "H7451" }
     ]
   },
   {
@@ -3651,15 +3889,15 @@
       { "text": " of the holy,", "strong": "H6918" },
       { "text": " and they were forgotten", "strong": "H7911" },
       { "text": " in the city", "strong": "H5892" },
-      { "text": " where they had so done:", "strong": "H6213" },
-      {
-        "content": [
-          " this ",
-          { "text": "is", "marks": ["i"] },
-          " also vanity."
-        ],
-        "strong": "H1892"
-      }
+      { "text": " where", "strong": "H834" },
+      { "text": " they had", "strong": "H6213" },
+      { "text": " so", "strong": "H3651" },
+      { "text": " done:", "strong": "H6213" },
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " also", "strong": "H1571" },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -3667,13 +3905,17 @@
     "chapter": 8,
     "verse": 11,
     "content": [
-      { "text": "Because sentence", "strong": "H6599" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " an evil", "strong": "H7451" },
+      { "text": "Because", "strong": "H834" },
+      { "text": " sentence", "strong": "H6599" },
+      { "text": " against an evil", "strong": "H7451" },
       { "text": " work", "strong": "H4639" },
-      { "text": " is not executed", "strong": "H6213" },
+      { "text": " is", "strong": "H6213" },
+      { "text": " not", "strong": "H369" },
+      { "text": " executed", "strong": "H6213" },
       { "text": " speedily,", "strong": "H4120" },
-      { "text": " therefore the heart", "strong": "H3820" },
+      { "text": " therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " the heart", "strong": "H3820" },
       { "text": " of the sons", "strong": "H1121" },
       { "text": " of men", "strong": "H120" },
       { "text": " is fully set", "strong": "H4390" },
@@ -3686,7 +3928,8 @@
     "chapter": 8,
     "verse": 12,
     "content": [
-      { "text": "Though a sinner", "strong": "H2398" },
+      { "text": "Though", "strong": "H834" },
+      { "text": " a sinner", "strong": "H2398" },
       { "text": " do", "strong": "H6213" },
       { "text": " evil", "strong": "H7451" },
       { "text": " an hundred times,", "strong": "H3967" },
@@ -3698,14 +3941,18 @@
         ],
         "strong": "H748"
       },
-      { "text": " yet surely I know", "strong": "H3045" },
-      { "text": " that it shall be well", "strong": "H2896" },
+      { "text": " yet", "strong": "H3588" },
+      { "text": " surely", "strong": "H1571" },
+      { "text": " I", "strong": "H589" },
+      { "text": " know", "strong": "H3045" },
+      { "text": " that", "strong": "H834" },
+      { "text": " it shall be", "strong": "H1961" },
+      { "text": " well", "strong": "H2896" },
       { "text": " with them that fear", "strong": "H3373" },
       { "text": " God,", "strong": "H430" },
       { "text": " which", "strong": "H834" },
       { "text": " fear", "strong": "H3372" },
-      { "text": " before", "strong": "H6440" },
-      " him:"
+      { "text": " before him:", "strong": "H6440" }
     ]
   },
   {
@@ -3713,17 +3960,24 @@
     "chapter": 8,
     "verse": 13,
     "content": [
-      { "text": "but it shall not be well", "strong": "H2896" },
+      { "text": "but it shall", "strong": "H1961" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " well", "strong": "H2896" },
       { "text": " with the wicked,", "strong": "H7563" },
-      { "text": " neither shall he prolong", "strong": "H748" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " shall he prolong", "strong": "H748" },
       " ",
       { "text": "his", "marks": ["i"] },
       { "text": " days,", "strong": "H3117" },
       " ",
       { "text": "which are", "marks": ["i"] },
       { "text": " as a shadow;", "strong": "H6738" },
-      { "text": " because he feareth", "strong": "H3373" },
-      { "text": " not before", "strong": "H6440" },
+      { "text": " because", "strong": "H834" },
+      { "text": " he", "strong": "H369" },
+      { "text": " feareth", "strong": "H3373" },
+      { "text": " not", "strong": "H369" },
+      { "text": " before", "strong": "H6440" },
       { "text": " God.", "strong": "H430" }
     ]
   },
@@ -3738,10 +3992,14 @@
       { "text": " is done", "strong": "H6213" },
       { "text": " upon", "strong": "H5921" },
       { "text": " the earth;", "strong": "H776" },
-      { "text": " that there be just", "strong": "H6662" },
+      { "text": " that", "strong": "H834" },
+      { "text": " there be", "strong": "H3426" },
+      { "text": " just", "strong": "H6662" },
       " ",
       { "text": "men", "marks": ["i"] },
-      { "text": ", unto whom it happeneth", "strong": "H5060" },
+      { "text": ", unto whom", "strong": "H834" },
+      { "text": " it happeneth", "strong": "H5060" },
+      { "strong": "H413" },
       { "text": " according to the work", "strong": "H4639" },
       { "text": " of the wicked;", "strong": "H7563" },
       { "text": " again, there be", "strong": "H3426" },
@@ -3749,10 +4007,12 @@
       " ",
       { "text": "men", "marks": ["i"] },
       { "text": ", to whom it happeneth", "strong": "H5060" },
+      { "strong": "H413" },
       { "text": " according to the work", "strong": "H4639" },
       { "text": " of the righteous:", "strong": "H6662" },
       { "text": " I said", "strong": "H559" },
-      { "text": " that this also", "strong": "H1571" },
+      { "text": " that this", "strong": "H2088" },
+      { "text": " also", "strong": "H1571" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " vanity.", "strong": "H1892" }
@@ -3763,23 +4023,31 @@
     "chapter": 8,
     "verse": 15,
     "content": [
-      { "text": "Then I commended", "strong": "H7623" },
+      { "text": "Then I", "strong": "H589" },
+      { "text": " commended", "strong": "H7623" },
       { "strong": "H853" },
       { "text": " mirth,", "strong": "H8057" },
-      { "text": " because a man", "strong": "H120" },
-      { "text": " hath no better thing", "strong": "H2896" },
-      { "text": " under the sun,", "strong": "H8121" },
-      { "text": " than to eat,", "strong": "H398" },
+      { "text": " because", "strong": "H834" },
+      { "text": " a man", "strong": "H120" },
+      { "text": " hath no", "strong": "H369" },
+      { "text": " better thing", "strong": "H2896" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
+      { "text": " than", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " to eat,", "strong": "H398" },
       { "text": " and to drink,", "strong": "H8354" },
       { "text": " and to be merry:", "strong": "H8055" },
-      { "text": " for that shall abide", "strong": "H3867" },
-      { "text": " with him of his labour", "strong": "H5999" },
+      { "text": " for that", "strong": "H1931" },
+      { "text": " shall abide with him", "strong": "H3867" },
+      { "text": " of his labour", "strong": "H5999" },
       { "text": " the days", "strong": "H3117" },
       { "text": " of his life,", "strong": "H2416" },
       { "text": " which", "strong": "H834" },
       { "text": " God", "strong": "H430" },
       { "text": " giveth", "strong": "H5414" },
-      { "text": " him under the sun.", "strong": "H8121" }
+      { "text": " him under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -3787,7 +4055,8 @@
     "chapter": 8,
     "verse": 16,
     "content": [
-      { "paragraph": true, "text": "When I applied", "strong": "H5414" },
+      { "paragraph": true, "text": "When", "strong": "H834" },
+      { "text": " I applied", "strong": "H5414" },
       { "strong": "H853" },
       { "text": " mine heart", "strong": "H3820" },
       { "text": " to know", "strong": "H3045" },
@@ -3795,18 +4064,16 @@
       { "text": " and to see", "strong": "H7200" },
       { "strong": "H853" },
       { "text": " the business", "strong": "H6045" },
-      { "text": " that is done", "strong": "H6213" },
+      { "text": " that", "strong": "H834" },
+      { "text": " is done", "strong": "H6213" },
       { "text": " upon", "strong": "H5921" },
       { "text": " the earth:", "strong": "H776" },
-      " (",
-      {
-        "content": [
-          "for also ",
-          { "text": "there is that", "marks": ["i"] },
-          " neither day"
-        ],
-        "strong": "H3117"
-      },
+      { "text": " (for", "strong": "H3588" },
+      { "text": " also", "strong": "H1571" },
+      " ",
+      { "text": "there is that", "marks": ["i"] },
+      { "text": " neither", "strong": "H369" },
+      { "text": " day", "strong": "H3117" },
       { "text": " nor night", "strong": "H3915" },
       { "text": " seeth", "strong": "H7200" },
       { "text": " sleep", "strong": "H8142" },
@@ -3819,34 +4086,46 @@
     "verse": 17,
     "content": [
       { "text": "then I beheld", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the work", "strong": "H4639" },
       { "text": " of God,", "strong": "H430" },
-      { "text": " that a man", "strong": "H120" },
-      { "text": " cannot", "strong": "H3201" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " a man", "strong": "H120" },
+      { "text": " cannot", "strong": "H3808" },
+      { "strong": "H3201" },
       { "text": " find out", "strong": "H4672" },
+      { "strong": "H853" },
       { "text": " the work", "strong": "H4639" },
-      { "text": " that is done", "strong": "H6213" },
-      { "text": " under the sun:", "strong": "H8121" },
-      { "text": " because", "strong": "H834" },
-      { "text": " though", "strong": "H7945" },
+      { "text": " that", "strong": "H834" },
+      { "text": " is done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun:", "strong": "H8121" },
+      { "text": " because", "strong": "H7945" },
+      { "text": " though", "strong": "H834" },
       { "text": " a man", "strong": "H120" },
       { "text": " labour", "strong": "H5998" },
       {
         "content": [" to seek ", { "text": "it", "marks": ["i"] }, " out,"],
         "strong": "H1245"
       },
-      { "text": " yet he shall not find", "strong": "H4672" },
+      { "text": " yet he shall", "strong": "H4672" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " find", "strong": "H4672" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": "; yea farther; though a wise", "strong": "H2450" },
+      { "text": "; yea farther;", "strong": "H1571" },
+      { "text": " though", "strong": "H518" },
+      { "text": " a wise", "strong": "H2450" },
       " ",
       { "text": "man", "marks": ["i"] },
       { "text": " think", "strong": "H559" },
       { "text": " to know", "strong": "H3045" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": ", yet shall he not be able", "strong": "H3201" },
+      { "text": ", yet shall he", "strong": "H3201" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " be able", "strong": "H3201" },
       { "text": " to find", "strong": "H4672" },
       " ",
       { "text": "it", "marks": ["i"] },
@@ -3859,11 +4138,13 @@
     "verse": 1,
     "content": [
       { "paragraph": true, "text": "For", "strong": "H3588" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " this", "strong": "H2088" },
       { "text": " I considered", "strong": "H5414" },
+      { "text": " in", "strong": "H413" },
       {
-        "text": " in my heart",
+        "text": " my heart",
         "foot": {
           "type": "trn",
           "content": [
@@ -3875,28 +4156,31 @@
         },
         "strong": "H3820"
       },
-      { "text": " even", "strong": "H1571" },
-      { "text": " to declare", "strong": "H952" },
+      { "text": " even to declare", "strong": "H952" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
-      { "text": " this, that the righteous,", "strong": "H6662" },
+      { "text": " this,", "strong": "H2088" },
+      { "text": " that", "strong": "H834" },
+      { "text": " the righteous,", "strong": "H6662" },
       { "text": " and the wise,", "strong": "H2450" },
       { "text": " and their works,", "strong": "H5652" },
       " ",
       { "text": "are", "marks": ["i"] },
       { "text": " in the hand", "strong": "H3027" },
       { "text": " of God:", "strong": "H430" },
-      { "text": " no man", "strong": "H120" },
+      { "text": " no", "strong": "H369" },
+      { "text": " man", "strong": "H120" },
       { "text": " knoweth", "strong": "H3045" },
       { "text": " either", "strong": "H1571" },
       { "text": " love", "strong": "H160" },
-      { "text": " or hatred", "strong": "H8135" },
+      { "text": " or", "strong": "H1571" },
+      { "text": " hatred", "strong": "H8135" },
       " ",
       { "text": "by", "marks": ["i"] },
-      {
-        "content": [" all ", { "text": "that is", "marks": ["i"] }, " before"],
-        "strong": "H6440"
-      },
-      " them."
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "that is", "marks": ["i"] },
+      { "text": " before them.", "strong": "H6440" }
     ]
   },
   {
@@ -3904,17 +4188,14 @@
     "chapter": 9,
     "verse": 2,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "All ",
-          { "text": "things come", "marks": ["i"] },
-          " alike to all: ",
-          { "text": "there is", "marks": ["i"] },
-          " one"
-        ],
-        "strong": "H259"
-      },
+      { "paragraph": true, "text": "All", "strong": "H3605" },
+      " ",
+      { "text": "things come", "marks": ["i"] },
+      { "text": " alike", "strong": "H834" },
+      { "text": " to all:", "strong": "H3605" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " one", "strong": "H259" },
       { "text": " event", "strong": "H4745" },
       { "text": " to the righteous,", "strong": "H6662" },
       { "text": " and to the wicked;", "strong": "H7563" },
@@ -3924,12 +4205,9 @@
       { "text": " to him that sacrificeth,", "strong": "H2076" },
       { "text": " and to him that", "strong": "H834" },
       { "text": " sacrificeth", "strong": "H2076" },
+      { "text": " not:", "strong": "H369" },
       {
-        "content": [
-          " not: as ",
-          { "text": "is", "marks": ["i"] },
-          " the good,"
-        ],
+        "content": [" as ", { "text": "is", "marks": ["i"] }, " the good,"],
         "strong": "H2896"
       },
       {
@@ -3939,8 +4217,9 @@
       " ",
       { "text": "and", "marks": ["i"] },
       { "text": " he that sweareth,", "strong": "H7650" },
+      { "text": " as", "strong": "H834" },
       {
-        "content": [" as ", { "text": "he", "marks": ["i"] }, " that feareth"],
+        "content": [" ", { "text": "he", "marks": ["i"] }, " that feareth"],
         "strong": "H3373"
       },
       { "text": " an oath.", "strong": "H7621" }
@@ -3951,44 +4230,39 @@
     "chapter": 9,
     "verse": 3,
     "content": [
-      {
-        "content": ["This ", { "text": "is", "marks": ["i"] }, " an evil"],
-        "strong": "H7451"
-      },
-      {
-        "content": [
-          " among all ",
-          { "text": "things", "marks": ["i"] },
-          " that are done"
-        ],
-        "strong": "H6213"
-      },
-      { "text": " under the sun,", "strong": "H8121" },
-      {
-        "content": [" that ", { "text": "there is", "marks": ["i"] }, " one"],
-        "strong": "H259"
-      },
+      { "text": "This", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " an evil", "strong": "H7451" },
+      { "text": " among all", "strong": "H3605" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " that", "strong": "H834" },
+      { "text": " are done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
+      { "text": " that", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " one", "strong": "H259" },
       { "text": " event", "strong": "H4745" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " all: yea, also the heart", "strong": "H3820" },
+      { "text": " unto all:", "strong": "H3605" },
+      { "text": " yea, also", "strong": "H1571" },
+      { "text": " the heart", "strong": "H3820" },
       { "text": " of the sons", "strong": "H1121" },
       { "text": " of men", "strong": "H120" },
-      { "text": " is full", "strong": "H4390" },
+      { "text": " is full", "strong": "H4392" },
       { "text": " of evil,", "strong": "H7451" },
       { "text": " and madness", "strong": "H1947" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " in their heart", "strong": "H3824" },
       { "text": " while they live,", "strong": "H2416" },
-      { "text": " and after", "strong": "H310" },
-      {
-        "content": [
-          " that ",
-          { "text": "they go", "marks": ["i"] },
-          " to the dead."
-        ],
-        "strong": "H4191"
-      }
+      { "text": " and after that", "strong": "H310" },
+      " ",
+      { "text": "they go", "marks": ["i"] },
+      { "text": " to", "strong": "H413" },
+      { "text": " the dead.", "strong": "H4191" }
     ]
   },
   {
@@ -3996,17 +4270,22 @@
     "chapter": 9,
     "verse": 4,
     "content": [
-      { "paragraph": true, "text": "For", "strong": "H4310" },
-      { "text": " to him that is", "strong": "H3426" },
-      { "text": " joined", "strong": "H2266" },
-      { "strong": "H977" },
-      { "text": " to all the living", "strong": "H2416" },
-      { "text": " there is hope:", "strong": "H986" },
+      { "paragraph": true, "text": "For", "strong": "H3588" },
+      { "text": " to him", "strong": "H4310" },
+      { "text": " that", "strong": "H834" },
+      { "text": " is joined", "strong": "H2266" },
+      { "text": " to", "strong": "H413" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the living", "strong": "H2416" },
+      { "text": " there is", "strong": "H3426" },
+      { "text": " hope:", "strong": "H986" },
       { "text": " for", "strong": "H3588" },
       { "text": " a living", "strong": "H2416" },
       { "text": " dog", "strong": "H3611" },
-      { "text": " is better", "strong": "H2896" },
-      { "text": " than a dead", "strong": "H4191" },
+      { "text": " is", "strong": "H1931" },
+      { "text": " better", "strong": "H2896" },
+      { "text": " than", "strong": "H4480" },
+      { "text": " a dead", "strong": "H4191" },
       { "text": " lion.", "strong": "H738" }
     ]
   },
@@ -4023,10 +4302,12 @@
       { "text": " know", "strong": "H3045" },
       { "text": " not", "strong": "H369" },
       { "text": " any thing,", "strong": "H3972" },
-      { "text": " neither have they any more a reward;", "strong": "H7939" },
+      { "text": " neither", "strong": "H369" },
+      { "text": " have they any more", "strong": "H5750" },
+      { "text": " a reward;", "strong": "H7939" },
       { "text": " for", "strong": "H3588" },
-      { "text": " the memory", "strong": "H2143" },
-      { "text": " of them is forgotten.", "strong": "H7911" }
+      { "text": " the memory of them", "strong": "H2143" },
+      { "text": " is forgotten.", "strong": "H7911" }
     ]
   },
   {
@@ -4036,21 +4317,23 @@
     "content": [
       { "text": "Also", "strong": "H1571" },
       { "text": " their love,", "strong": "H160" },
-      { "text": " and their hatred,", "strong": "H8135" },
-      { "text": " and their envy,", "strong": "H7068" },
+      { "text": " and", "strong": "H1571" },
+      { "text": " their hatred,", "strong": "H8135" },
+      { "text": " and", "strong": "H1571" },
+      { "text": " their envy,", "strong": "H7068" },
       { "text": " is now", "strong": "H3528" },
       { "text": " perished;", "strong": "H6" },
-      { "text": " neither have they any more a portion", "strong": "H2506" },
+      { "text": " neither", "strong": "H369" },
+      { "text": " have they any more", "strong": "H5750" },
+      { "text": " a portion", "strong": "H2506" },
       { "text": " for ever", "strong": "H5769" },
-      {
-        "content": [
-          " in any ",
-          { "text": "thing", "marks": ["i"] },
-          " that is done"
-        ],
-        "strong": "H6213"
-      },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " in any", "strong": "H3605" },
+      " ",
+      { "text": "thing", "marks": ["i"] },
+      { "text": " that", "strong": "H834" },
+      { "text": " is done", "strong": "H6213" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -4079,12 +4362,18 @@
     "chapter": 9,
     "verse": 8,
     "content": [
-      { "text": "Let thy garments", "strong": "H899" },
-      { "text": " be always", "strong": "H6256" },
+      { "text": "Let", "strong": "H1961" },
+      { "text": " thy garments", "strong": "H899" },
+      { "text": " be", "strong": "H1961" },
+      { "text": " always", "strong": "H3605" },
+      { "strong": "H6256" },
       { "text": " white;", "strong": "H3836" },
-      { "text": " and let thy head", "strong": "H7218" },
+      { "text": " and let", "strong": "H2637" },
+      { "text": " thy head", "strong": "H7218" },
       { "text": " lack", "strong": "H2637" },
-      { "text": " no ointment.", "strong": "H8081" }
+      { "text": " no", "strong": "H408" },
+      { "text": " ointment.", "strong": "H8081" },
+      { "strong": "H5921" }
     ]
   },
   {
@@ -4116,26 +4405,26 @@
       { "text": " of thy vanity,", "strong": "H1892" },
       { "text": " which", "strong": "H834" },
       { "text": " he hath given", "strong": "H5414" },
-      { "text": " thee under the sun,", "strong": "H8121" },
+      { "text": " thee under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
       { "text": " all", "strong": "H3605" },
       { "text": " the days", "strong": "H3117" },
       { "text": " of thy vanity:", "strong": "H1892" },
-      {
-        "content": [
-          " for that ",
-          { "text": "is", "marks": ["i"] },
-          " thy portion"
-        ],
-        "strong": "H2506"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy portion", "strong": "H2506" },
       {
         "content": [" in ", { "text": "this", "marks": ["i"] }, " life,"],
         "strong": "H2416"
       },
       { "text": " and in thy labour", "strong": "H5999" },
       { "text": " which", "strong": "H834" },
-      { "text": " thou takest", "strong": "H6001" },
-      { "text": " under the sun.", "strong": "H8121" }
+      { "text": " thou", "strong": "H859" },
+      { "text": " takest", "strong": "H6001" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun.", "strong": "H8121" }
     ]
   },
   {
@@ -4143,26 +4432,28 @@
     "chapter": 9,
     "verse": 10,
     "content": [
-      { "text": "Whatsoever thy hand", "strong": "H3027" },
+      { "text": "Whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " thy hand", "strong": "H3027" },
       { "text": " findeth", "strong": "H4672" },
       { "text": " to do,", "strong": "H6213" },
       { "text": " do", "strong": "H6213" },
       " ",
       { "text": "it", "marks": ["i"] },
       { "text": " with thy might;", "strong": "H3581" },
-      {
-        "content": [
-          " for ",
-          { "text": "there is", "marks": ["i"] },
-          " no work,"
-        ],
-        "strong": "H4639"
-      },
+      { "text": " for", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " work,", "strong": "H4639" },
       { "text": " nor device,", "strong": "H2808" },
       { "text": " nor knowledge,", "strong": "H1847" },
       { "text": " nor wisdom,", "strong": "H2451" },
       { "text": " in the grave,", "strong": "H7585" },
-      { "text": " whither thou goest.", "strong": "H1980" }
+      { "text": " whither", "strong": "H834" },
+      { "strong": "H8033" },
+      { "text": " thou", "strong": "H859" },
+      { "text": " goest.", "strong": "H1980" }
     ]
   },
   {
@@ -4172,23 +4463,35 @@
     "content": [
       { "paragraph": true, "text": "I returned,", "strong": "H7725" },
       { "text": " and saw", "strong": "H7200" },
-      { "text": " under the sun,", "strong": "H8121" },
-      { "text": " that the race", "strong": "H4793" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " the race", "strong": "H4793" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " not to the swift,", "strong": "H7031" },
-      { "text": " nor the battle", "strong": "H4421" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " to the swift,", "strong": "H7031" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " the battle", "strong": "H4421" },
       { "text": " to the strong,", "strong": "H1368" },
-      { "text": " neither yet bread", "strong": "H3899" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " yet", "strong": "H1571" },
+      { "text": " bread", "strong": "H3899" },
       { "text": " to the wise,", "strong": "H2450" },
-      { "text": " nor yet riches", "strong": "H6239" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " yet", "strong": "H1571" },
+      { "text": " riches", "strong": "H6239" },
       { "text": " to men of understanding,", "strong": "H995" },
-      { "text": " nor yet favour", "strong": "H2580" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " yet", "strong": "H1571" },
+      { "text": " favour", "strong": "H2580" },
       { "text": " to men of skill;", "strong": "H3045" },
-      { "text": " but time", "strong": "H6256" },
+      { "text": " but", "strong": "H3588" },
+      { "text": " time", "strong": "H6256" },
       { "text": " and chance", "strong": "H6294" },
       { "text": " happeneth", "strong": "H7136" },
-      " to them all."
+      { "strong": "H853" },
+      { "text": " to them all.", "strong": "H3605" }
     ]
   },
   {
@@ -4201,6 +4504,7 @@
       { "text": " also", "strong": "H1571" },
       { "text": " knoweth", "strong": "H3045" },
       { "text": " not", "strong": "H3808" },
+      { "strong": "H853" },
       { "text": " his time:", "strong": "H6256" },
       { "text": " as the fishes", "strong": "H1709" },
       { "text": " that are taken", "strong": "H270" },
@@ -4219,7 +4523,7 @@
       { "text": " time,", "strong": "H6256" },
       { "text": " when it falleth", "strong": "H5307" },
       { "text": " suddenly", "strong": "H6597" },
-      " upon them."
+      { "text": " upon them.", "strong": "H5921" }
     ]
   },
   {
@@ -4231,12 +4535,13 @@
       { "text": " wisdom", "strong": "H2451" },
       { "text": " have I seen", "strong": "H7200" },
       { "text": " also", "strong": "H1571" },
-      { "text": " under the sun,", "strong": "H8121" },
-      {
-        "content": [" and it ", { "text": "seemed", "marks": ["i"] }, " great"],
-        "strong": "H1419"
-      },
-      " unto me:"
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
+      { "text": " and it", "strong": "H1931" },
+      " ",
+      { "text": "seemed", "marks": ["i"] },
+      { "text": " great", "strong": "H1419" },
+      { "text": " unto me:", "strong": "H413" }
     ]
   },
   {
@@ -4252,12 +4557,13 @@
       { "text": " within it; and there came", "strong": "H935" },
       { "text": " a great", "strong": "H1419" },
       { "text": " king", "strong": "H4428" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " it, and besieged", "strong": "H5437" },
-      { "text": " it, and built", "strong": "H1129" },
+      { "text": " against it,", "strong": "H413" },
+      { "text": " and besieged", "strong": "H5437" },
+      { "text": " it,", "strong": "H853" },
+      { "text": " and built", "strong": "H1129" },
       { "text": " great", "strong": "H1419" },
       { "text": " bulwarks", "strong": "H4685" },
-      " against it:"
+      { "text": " against it:", "strong": "H5921" }
     ]
   },
   {
@@ -4269,13 +4575,17 @@
       { "text": " in it a poor", "strong": "H4542" },
       { "text": " wise", "strong": "H2450" },
       { "text": " man,", "strong": "H376" },
-      { "text": " and he by his wisdom", "strong": "H2451" },
+      { "text": " and he", "strong": "H1931" },
+      { "text": " by his wisdom", "strong": "H2451" },
       { "text": " delivered", "strong": "H4422" },
       { "strong": "H853" },
       { "text": " the city;", "strong": "H5892" },
-      { "text": " yet no man", "strong": "H120" },
+      { "text": " yet no", "strong": "H3808" },
+      { "text": " man", "strong": "H120" },
       { "text": " remembered", "strong": "H2142" },
-      { "text": " that same poor", "strong": "H4542" },
+      { "strong": "H853" },
+      { "text": " that same", "strong": "H1931" },
+      { "text": " poor", "strong": "H4542" },
       { "text": " man.", "strong": "H376" }
     ]
   },
@@ -4285,7 +4595,8 @@
     "verse": 16,
     "content": [
       { "text": "Then said", "strong": "H559" },
-      { "text": " I, Wisdom", "strong": "H2451" },
+      { "text": " I,", "strong": "H589" },
+      { "text": " Wisdom", "strong": "H2451" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " better", "strong": "H2896" },
@@ -4296,7 +4607,9 @@
       { "text": "is", "marks": ["i"] },
       { "text": " despised,", "strong": "H959" },
       { "text": " and his words", "strong": "H1697" },
-      { "text": " are not heard.", "strong": "H8085" }
+      { "text": " are", "strong": "H8085" },
+      { "text": " not", "strong": "H369" },
+      { "text": " heard.", "strong": "H8085" }
     ]
   },
   {
@@ -4347,7 +4660,8 @@
         },
         "strong": "H2070"
       },
-      { "text": " cause the ointment", "strong": "H8081" },
+      { "text": " cause", "strong": "H887" },
+      { "text": " the ointment", "strong": "H8081" },
       { "text": " of the apothecary", "strong": "H7543" },
       { "text": " to send forth", "strong": "H5042" },
       { "text": " a stinking savour:", "strong": "H887" },
@@ -4382,7 +4696,8 @@
     "chapter": 10,
     "verse": 3,
     "content": [
-      { "text": "Yea also, when he that is a fool", "strong": "H5530" },
+      { "text": "Yea also,", "strong": "H1571" },
+      { "text": " when he that is a fool", "strong": "H5530" },
       { "text": " walketh", "strong": "H1980" },
       { "text": " by the way,", "strong": "H1870" },
       {
@@ -4397,16 +4712,13 @@
       " ",
       { "text": "him", "marks": ["i"] },
       { "text": ", and he saith", "strong": "H559" },
-      {
-        "content": [
-          " to every one ",
-          { "text": "that", "marks": ["i"] },
-          " he ",
-          { "text": "is", "marks": ["i"] },
-          " a fool."
-        ],
-        "strong": "H5530"
-      }
+      { "text": " to every one", "strong": "H3605" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " he", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " a fool.", "strong": "H5530" }
     ]
   },
   {
@@ -4414,11 +4726,12 @@
     "chapter": 10,
     "verse": 4,
     "content": [
-      { "text": "If the spirit", "strong": "H7307" },
+      { "text": "If", "strong": "H518" },
+      { "text": " the spirit", "strong": "H7307" },
       { "text": " of the ruler", "strong": "H4910" },
       { "text": " rise up", "strong": "H5927" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " thee, leave", "strong": "H3240" },
+      { "text": " against thee,", "strong": "H5921" },
+      { "text": " leave", "strong": "H3240" },
       { "text": " not", "strong": "H408" },
       { "text": " thy place;", "strong": "H4725" },
       { "text": " for", "strong": "H3588" },
@@ -4438,7 +4751,8 @@
       " ",
       { "text": "which", "marks": ["i"] },
       { "text": " I have seen", "strong": "H7200" },
-      { "text": " under the sun,", "strong": "H8121" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " the sun,", "strong": "H8121" },
       { "text": " as an error", "strong": "H7684" },
       " ",
       { "text": "which", "marks": ["i"] },
@@ -4502,8 +4816,7 @@
       { "text": " into it; and whoso breaketh", "strong": "H6555" },
       { "text": " an hedge,", "strong": "H1447" },
       { "text": " a serpent", "strong": "H5175" },
-      { "text": " shall bite", "strong": "H5391" },
-      " him."
+      { "text": " shall bite him.", "strong": "H5391" }
     ]
   },
   {
@@ -4532,9 +4845,12 @@
     "chapter": 10,
     "verse": 10,
     "content": [
-      { "text": "If the iron", "strong": "H1270" },
+      { "text": "If", "strong": "H518" },
+      { "text": " the iron", "strong": "H1270" },
       { "text": " be blunt,", "strong": "H6949" },
-      { "text": " and he do not whet", "strong": "H7043" },
+      { "text": " and he", "strong": "H1931" },
+      { "text": " do not", "strong": "H3808" },
+      { "text": " whet", "strong": "H7043" },
       { "text": " the edge,", "strong": "H6440" },
       { "text": " then must he put", "strong": "H1396" },
       { "text": " to more strength:", "strong": "H2428" },
@@ -4550,9 +4866,11 @@
     "chapter": 10,
     "verse": 11,
     "content": [
-      { "text": "Surely the serpent", "strong": "H5175" },
+      { "text": "Surely", "strong": "H518" },
+      { "text": " the serpent", "strong": "H5175" },
       { "text": " will bite", "strong": "H5391" },
-      { "text": " without enchantment;", "strong": "H3908" },
+      { "text": " without", "strong": "H3808" },
+      { "text": " enchantment;", "strong": "H3908" },
       {
         "text": " and a babbler",
         "foot": {
@@ -4562,10 +4880,11 @@
             { "text": "the master of the tongue", "marks": ["i"] }
           ]
         },
-        "strong": "H3956"
+        "strong": "H1167"
       },
-      { "strong": "H1167" },
-      { "text": " is no better.", "strong": "H3504" }
+      { "strong": "H3956" },
+      { "text": " is no", "strong": "H369" },
+      { "text": " better.", "strong": "H3504" }
     ]
   },
   {
@@ -4588,8 +4907,7 @@
       },
       { "text": " but the lips", "strong": "H8193" },
       { "text": " of a fool", "strong": "H3684" },
-      { "text": " will swallow up", "strong": "H1104" },
-      " himself."
+      { "text": " will swallow up himself.", "strong": "H1104" }
     ]
   },
   {
@@ -4623,8 +4941,8 @@
     "chapter": 10,
     "verse": 14,
     "content": [
-      { "text": "A fool", "strong": "H5530" },
-      { "text": " also is full", "strong": "H7235" },
+      { "text": "A fool also", "strong": "H5530" },
+      { "text": " is full", "strong": "H7235" },
       {
         "text": " of words:",
         "foot": {
@@ -4634,10 +4952,15 @@
         "strong": "H1697"
       },
       { "text": " a man", "strong": "H120" },
-      { "text": " cannot tell", "strong": "H3045" },
+      { "text": " cannot", "strong": "H3808" },
+      { "text": " tell", "strong": "H3045" },
       { "text": " what", "strong": "H4100" },
-      { "text": " shall be; and what shall be after", "strong": "H310" },
-      { "text": " him, who can tell", "strong": "H5046" },
+      { "text": " shall be;", "strong": "H1961" },
+      { "text": " and what", "strong": "H834" },
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " after him,", "strong": "H310" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " can tell", "strong": "H5046" },
       " him?"
     ]
   },
@@ -4648,11 +4971,13 @@
     "content": [
       { "text": "The labour", "strong": "H5999" },
       { "text": " of the foolish", "strong": "H3684" },
-      { "text": " wearieth", "strong": "H3021" },
-      { "text": " every one of them, because he knoweth", "strong": "H3045" },
+      { "text": " wearieth every one of them,", "strong": "H3021" },
+      { "text": " because", "strong": "H834" },
+      { "text": " he knoweth", "strong": "H3045" },
       { "text": " not", "strong": "H3808" },
       { "text": " how to go", "strong": "H3212" },
-      { "text": " to the city.", "strong": "H5892" }
+      { "text": " to", "strong": "H413" },
+      { "text": " the city.", "strong": "H5892" }
     ]
   },
   {
@@ -4679,7 +5004,8 @@
       { "text": "Blessed", "strong": "H835" },
       " ",
       { "text": "art", "marks": ["i"] },
-      { "text": " thou, O land,", "strong": "H776" },
+      { "text": " thou,", "strong": "H835" },
+      { "text": " O land,", "strong": "H776" },
       { "text": " when thy king", "strong": "H4428" },
       " ",
       { "text": "is", "marks": ["i"] },
@@ -4689,7 +5015,8 @@
       { "text": " eat", "strong": "H398" },
       { "text": " in due season,", "strong": "H6256" },
       { "text": " for strength,", "strong": "H1369" },
-      { "text": " and not for drunkenness!", "strong": "H8358" }
+      { "text": " and not", "strong": "H3808" },
+      { "text": " for drunkenness!", "strong": "H8358" }
     ]
   },
   {
@@ -4729,7 +5056,9 @@
       { "strong": "H2416" },
       { "text": " but money", "strong": "H3701" },
       { "text": " answereth", "strong": "H6030" },
-      " all ",
+      { "strong": "H853" },
+      { "text": " all", "strong": "H3605" },
+      " ",
       { "text": "things", "marks": ["i"] },
       "."
     ]
@@ -4742,8 +5071,9 @@
       { "text": "Curse", "strong": "H7043" },
       { "text": " not", "strong": "H408" },
       { "text": " the king,", "strong": "H4428" },
+      { "text": " no not", "strong": "H1571" },
       {
-        "text": " no not in thy thought;",
+        "text": " in thy thought;",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "conscience", "marks": ["i"] }]
@@ -4774,7 +5104,8 @@
     "content": [
       { "paragraph": true, "text": "Cast", "strong": "H7971" },
       { "text": " thy bread", "strong": "H3899" },
-      { "text": " upon", "strong": "H6440" },
+      { "text": " upon", "strong": "H5921" },
+      { "strong": "H6440" },
       {
         "text": " the waters:",
         "foot": {
@@ -4787,8 +5118,8 @@
         "strong": "H4325"
       },
       { "text": " for", "strong": "H3588" },
-      { "text": " thou shalt find", "strong": "H4672" },
-      { "text": " it after many", "strong": "H7230" },
+      { "text": " thou shalt find it", "strong": "H4672" },
+      { "text": " after many", "strong": "H7230" },
       { "text": " days.", "strong": "H3117" }
     ]
   },
@@ -4800,13 +5131,16 @@
       { "text": "Give", "strong": "H5414" },
       { "text": " a portion", "strong": "H2506" },
       { "text": " to seven,", "strong": "H7651" },
-      { "text": " and also to eight;", "strong": "H8083" },
+      { "text": " and also", "strong": "H1571" },
+      { "text": " to eight;", "strong": "H8083" },
       { "text": " for", "strong": "H3588" },
       { "text": " thou knowest", "strong": "H3045" },
       { "text": " not", "strong": "H3808" },
       { "text": " what", "strong": "H4100" },
       { "text": " evil", "strong": "H7451" },
-      { "text": " shall be upon the earth.", "strong": "H776" }
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " the earth.", "strong": "H776" }
     ]
   },
   {
@@ -4814,17 +5148,21 @@
     "chapter": 11,
     "verse": 3,
     "content": [
-      { "text": "If the clouds", "strong": "H5645" },
+      { "text": "If", "strong": "H518" },
+      { "text": " the clouds", "strong": "H5645" },
       { "text": " be full", "strong": "H4390" },
       { "text": " of rain,", "strong": "H1653" },
       { "text": " they empty", "strong": "H7324" },
       " ",
       { "text": "themselves", "marks": ["i"] },
-      { "text": " upon the earth:", "strong": "H776" },
-      { "text": " and if the tree", "strong": "H6086" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " the earth:", "strong": "H776" },
+      { "text": " and if", "strong": "H518" },
+      { "text": " the tree", "strong": "H6086" },
       { "text": " fall", "strong": "H5307" },
       { "text": " toward the south,", "strong": "H1864" },
-      { "text": " or toward the north,", "strong": "H6828" },
+      { "text": " or", "strong": "H518" },
+      { "text": " toward the north,", "strong": "H6828" },
       { "text": " in the place", "strong": "H4725" },
       { "text": " where the tree", "strong": "H6086" },
       { "text": " falleth,", "strong": "H5307" },
@@ -4854,11 +5192,13 @@
     "chapter": 11,
     "verse": 5,
     "content": [
-      { "text": "As thou knowest", "strong": "H3045" },
-      {
-        "content": [" not what ", { "text": "is", "marks": ["i"] }, " the way"],
-        "strong": "H1870"
-      },
+      { "text": "As", "strong": "H834" },
+      { "text": " thou knowest", "strong": "H3045" },
+      { "text": " not", "strong": "H369" },
+      { "text": " what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the way", "strong": "H1870" },
       { "text": " of the spirit,", "strong": "H7307" },
       " ",
       { "text": "nor", "marks": ["i"] },
@@ -4867,13 +5207,16 @@
       { "text": "do grow", "marks": ["i"] },
       { "text": " in the womb", "strong": "H990" },
       { "text": " of her that is with child:", "strong": "H4392" },
-      { "text": " even so thou knowest", "strong": "H3045" },
+      { "text": " even so", "strong": "H3602" },
+      { "text": " thou knowest", "strong": "H3045" },
+      { "text": " not", "strong": "H3808" },
       { "strong": "H853" },
-      { "text": " not the works", "strong": "H4639" },
+      { "text": " the works", "strong": "H4639" },
       { "text": " of God", "strong": "H430" },
       { "text": " who", "strong": "H834" },
       { "text": " maketh", "strong": "H6213" },
-      " all."
+      { "strong": "H853" },
+      { "text": " all.", "strong": "H3605" }
     ]
   },
   {
@@ -4887,10 +5230,13 @@
       { "text": " thy seed,", "strong": "H2233" },
       { "text": " and in the evening", "strong": "H6153" },
       { "text": " withhold", "strong": "H3240" },
-      { "text": " not thine hand:", "strong": "H3027" },
+      { "text": " not", "strong": "H408" },
+      { "text": " thine hand:", "strong": "H3027" },
       { "text": " for", "strong": "H3588" },
       { "text": " thou knowest", "strong": "H3045" },
-      { "text": " not whether", "strong": "H335" },
+      { "text": " not", "strong": "H369" },
+      { "text": " whether", "strong": "H335" },
+      { "strong": "H2088" },
       {
         "text": " shall prosper,",
         "foot": {
@@ -4899,10 +5245,11 @@
         },
         "strong": "H3787"
       },
-      {
-        "text": " either this or that, or whether they both",
-        "strong": "H8147"
-      },
+      { "text": " either this", "strong": "H2088" },
+      { "text": " or", "strong": "H176" },
+      { "text": " that,", "strong": "H2088" },
+      { "text": " or whether", "strong": "H518" },
+      { "text": " they both", "strong": "H8147" },
       " ",
       { "text": "shall be", "marks": ["i"] },
       { "text": " alike", "strong": "H259" },
@@ -4932,19 +5279,23 @@
     "chapter": 11,
     "verse": 8,
     "content": [
-      { "text": "but if a man", "strong": "H120" },
+      { "text": "but", "strong": "H3588" },
+      { "text": " if", "strong": "H518" },
+      { "text": " a man", "strong": "H120" },
       { "text": " live", "strong": "H2421" },
       { "text": " many", "strong": "H7235" },
       { "text": " years,", "strong": "H8141" },
       " ",
       { "text": "and", "marks": ["i"] },
       { "text": " rejoice", "strong": "H8055" },
-      { "text": " in them all; yet let him remember", "strong": "H2142" },
+      { "text": " in them all;", "strong": "H3605" },
+      { "text": " yet let him remember", "strong": "H2142" },
       { "strong": "H853" },
       { "text": " the days", "strong": "H3117" },
       { "text": " of darkness;", "strong": "H2822" },
       { "text": " for", "strong": "H3588" },
-      { "text": " they shall be many.", "strong": "H7235" },
+      { "text": " they shall be", "strong": "H1961" },
+      { "text": " many.", "strong": "H7235" },
       { "text": " All", "strong": "H3605" },
       { "text": " that cometh", "strong": "H935" },
       " ",
@@ -4960,26 +5311,26 @@
       { "paragraph": true, "text": "Rejoice,", "strong": "H8055" },
       { "text": " O young man,", "strong": "H970" },
       { "text": " in thy youth;", "strong": "H3208" },
-      { "text": " and let thy heart", "strong": "H3820" },
-      { "text": " cheer", "strong": "H2895" },
-      { "text": " thee in the days", "strong": "H3117" },
+      { "text": " and let", "strong": "H3190" },
+      { "text": " thy heart", "strong": "H3820" },
+      { "text": " cheer thee", "strong": "H3190" },
+      { "text": " in the days", "strong": "H3117" },
       { "text": " of thy youth,", "strong": "H979" },
       { "text": " and walk", "strong": "H1980" },
       { "text": " in the ways", "strong": "H1870" },
       { "text": " of thine heart,", "strong": "H3820" },
       { "text": " and in the sight", "strong": "H4758" },
       { "text": " of thine eyes:", "strong": "H5869" },
-      { "text": " but know", "strong": "H3045" },
-      {
-        "content": [
-          " thou, that for all these ",
-          { "text": "things", "marks": ["i"] },
-          " God"
-        ],
-        "strong": "H430"
-      },
-      { "text": " will bring", "strong": "H935" },
-      { "text": " thee into judgment.", "strong": "H4941" }
+      { "text": " but know thou,", "strong": "H3045" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " these", "strong": "H428" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " God", "strong": "H430" },
+      { "text": " will bring thee", "strong": "H935" },
+      { "text": " into judgment.", "strong": "H4941" }
     ]
   },
   {
@@ -5018,13 +5369,18 @@
       { "text": " now thy Creator", "strong": "H1254" },
       { "text": " in the days", "strong": "H3117" },
       { "text": " of thy youth,", "strong": "H979" },
-      { "text": " while the evil", "strong": "H7451" },
+      { "text": " while", "strong": "H5704" },
+      { "strong": "H834" },
+      { "text": " the evil", "strong": "H7451" },
       { "text": " days", "strong": "H3117" },
       { "text": " come", "strong": "H935" },
-      { "text": " not, nor the years", "strong": "H8141" },
+      { "text": " not,", "strong": "H3808" },
+      { "text": " nor the years", "strong": "H8141" },
       { "text": " draw nigh,", "strong": "H5060" },
-      { "text": " when thou shalt say,", "strong": "H559" },
-      { "text": " I have no pleasure", "strong": "H2656" },
+      { "text": " when", "strong": "H834" },
+      { "text": " thou shalt say,", "strong": "H559" },
+      { "text": " I have no", "strong": "H369" },
+      { "text": " pleasure", "strong": "H2656" },
       " in them;"
     ]
   },
@@ -5033,11 +5389,15 @@
     "chapter": 12,
     "verse": 2,
     "content": [
-      { "text": "while the sun,", "strong": "H8121" },
+      { "text": "while", "strong": "H5704" },
+      { "strong": "H834" },
+      { "text": " the sun,", "strong": "H8121" },
       { "text": " or the light,", "strong": "H216" },
       { "text": " or the moon,", "strong": "H3394" },
       { "text": " or the stars,", "strong": "H3556" },
-      { "text": " be not darkened,", "strong": "H2821" },
+      { "text": " be", "strong": "H2821" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " darkened,", "strong": "H2821" },
       { "text": " nor the clouds", "strong": "H5645" },
       { "text": " return", "strong": "H7725" },
       { "text": " after", "strong": "H310" },
@@ -5055,8 +5415,8 @@
       { "text": " shall tremble,", "strong": "H2111" },
       { "text": " and the strong", "strong": "H2428" },
       { "text": " men", "strong": "H582" },
-      { "text": " shall bow", "strong": "H5791" },
-      { "text": " themselves, and the grinders", "strong": "H2912" },
+      { "text": " shall bow themselves,", "strong": "H5791" },
+      { "text": " and the grinders", "strong": "H2912" },
       { "text": " cease", "strong": "H988" },
       { "text": " because", "strong": "H3588" },
       { "text": " they are few,", "strong": "H4591" },
@@ -5079,7 +5439,8 @@
       { "text": " and he shall rise up", "strong": "H6965" },
       { "text": " at the voice", "strong": "H6963" },
       { "text": " of the bird,", "strong": "H6833" },
-      { "text": " and all the daughters", "strong": "H1323" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " the daughters", "strong": "H1323" },
       { "text": " of musick", "strong": "H7892" },
       { "text": " shall be brought low;", "strong": "H7817" }
     ]
@@ -5089,14 +5450,10 @@
     "chapter": 12,
     "verse": 5,
     "content": [
-      {
-        "content": [
-          "also ",
-          { "text": "when", "marks": ["i"] },
-          " they shall be afraid"
-        ],
-        "strong": "H3372"
-      },
+      { "text": "also", "strong": "H1571" },
+      " ",
+      { "text": "when", "marks": ["i"] },
+      { "text": " they shall be afraid", "strong": "H3372" },
       {
         "content": [
           " of ",
@@ -5118,7 +5475,8 @@
       { "text": " because", "strong": "H3588" },
       { "text": " man", "strong": "H120" },
       { "text": " goeth", "strong": "H1980" },
-      { "text": " to his long", "strong": "H5769" },
+      { "text": " to", "strong": "H413" },
+      { "text": " his long", "strong": "H5769" },
       { "text": " home,", "strong": "H1004" },
       { "text": " and the mourners", "strong": "H5594" },
       { "text": " go about", "strong": "H5437" },
@@ -5130,20 +5488,23 @@
     "chapter": 12,
     "verse": 6,
     "content": [
-      { "text": "or ever", "strong": "H3808" },
+      { "text": "or ever", "strong": "H5704" },
+      { "strong": "H834" },
+      { "strong": "H3808" },
       { "text": " the silver", "strong": "H3701" },
       { "text": " cord", "strong": "H2256" },
-      { "text": " be loosed,", "strong": "H7576" },
-      { "strong": "H7368" },
+      { "text": " be loosed,", "strong": "H7368" },
       { "text": " or the golden", "strong": "H2091" },
       { "text": " bowl", "strong": "H1543" },
       { "text": " be broken,", "strong": "H7533" },
       { "text": " or the pitcher", "strong": "H3537" },
       { "text": " be broken", "strong": "H7665" },
-      { "text": " at the fountain,", "strong": "H4002" },
+      { "text": " at", "strong": "H5921" },
+      { "text": " the fountain,", "strong": "H4002" },
       { "text": " or the wheel", "strong": "H1534" },
       { "text": " broken", "strong": "H7533" },
-      { "text": " at the cistern.", "strong": "H953" }
+      { "text": " at", "strong": "H413" },
+      { "text": " the cistern.", "strong": "H953" }
     ]
   },
   {
@@ -5151,16 +5512,18 @@
     "chapter": 12,
     "verse": 7,
     "content": [
-      { "text": "Then shall the dust", "strong": "H6083" },
+      { "text": "Then shall", "strong": "H7725" },
+      { "text": " the dust", "strong": "H6083" },
       { "text": " return", "strong": "H7725" },
-      { "text": " to the earth", "strong": "H776" },
-      { "text": " as it was: and the spirit", "strong": "H7307" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the earth", "strong": "H776" },
+      { "text": " as it was:", "strong": "H1961" },
+      { "text": " and the spirit", "strong": "H7307" },
       { "text": " shall return", "strong": "H7725" },
       { "text": " unto", "strong": "H413" },
       { "text": " God", "strong": "H430" },
       { "text": " who", "strong": "H834" },
-      { "text": " gave", "strong": "H5414" },
-      " it."
+      { "text": " gave it.", "strong": "H5414" }
     ]
   },
   {
@@ -5172,10 +5535,10 @@
       { "text": " of vanities,", "strong": "H1892" },
       { "text": " saith", "strong": "H559" },
       { "text": " the Preacher;", "strong": "H6953" },
-      {
-        "content": [" all ", { "text": "is", "marks": ["i"] }, " vanity."],
-        "strong": "H1892"
-      }
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " vanity.", "strong": "H1892" }
     ]
   },
   {
@@ -5185,8 +5548,9 @@
     "content": [
       { "text": "And moreover,", "strong": "H3148" },
       { "text": " because the preacher", "strong": "H6953" },
+      { "text": " was", "strong": "H1961" },
       {
-        "text": " was wise,",
+        "text": " wise,",
         "foot": {
           "type": "trn",
           "content": [
@@ -5197,7 +5561,8 @@
         },
         "strong": "H2450"
       },
-      { "text": " he still taught", "strong": "H3925" },
+      { "text": " he still", "strong": "H5750" },
+      { "text": " taught", "strong": "H3925" },
       { "strong": "H853" },
       { "text": " the people", "strong": "H5971" },
       { "text": " knowledge;", "strong": "H1847" },
@@ -5281,7 +5646,8 @@
       { "text": " books", "strong": "H5612" },
       " ",
       { "text": "there is", "marks": ["i"] },
-      { "text": " no end;", "strong": "H7093" },
+      { "text": " no", "strong": "H369" },
+      { "text": " end;", "strong": "H7093" },
       { "text": " and much", "strong": "H7235" },
       {
         "text": " study",
@@ -5304,8 +5670,9 @@
     "content": [
       { "paragraph": true, "text": "Let us hear", "strong": "H8085" },
       { "text": " the conclusion", "strong": "H5490" },
+      { "text": " of the whole", "strong": "H3605" },
       {
-        "text": " of the whole matter:",
+        "text": " matter:",
         "foot": {
           "type": "trn",
           "content": [
@@ -5322,17 +5689,16 @@
       { "strong": "H853" },
       { "text": " God,", "strong": "H430" },
       { "text": " and keep", "strong": "H8104" },
+      { "strong": "H853" },
       { "text": " his commandments:", "strong": "H4687" },
-      {
-        "content": [
-          " for this ",
-          { "text": "is", "marks": ["i"] },
-          " the whole ",
-          { "text": "duty", "marks": ["i"] },
-          " of man."
-        ],
-        "strong": "H120"
-      }
+      { "text": " for", "strong": "H3588" },
+      { "text": " this", "strong": "H2088" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the whole", "strong": "H3605" },
+      " ",
+      { "text": "duty", "marks": ["i"] },
+      { "text": " of man.", "strong": "H120" }
     ]
   },
   {
@@ -5343,22 +5709,21 @@
       { "text": "For", "strong": "H3588" },
       { "text": " God", "strong": "H430" },
       { "text": " shall bring", "strong": "H935" },
+      { "strong": "H853" },
       { "text": " every", "strong": "H3605" },
       { "text": " work", "strong": "H4639" },
       { "text": " into judgment,", "strong": "H4941" },
-      { "text": " with every secret thing,", "strong": "H5956" },
-      {
-        "content": [" whether ", { "text": "it be", "marks": ["i"] }, " good,"],
-        "strong": "H2896"
-      },
-      {
-        "content": [
-          " or whether ",
-          { "text": "it be", "marks": ["i"] },
-          " evil."
-        ],
-        "strong": "H7451"
-      }
+      { "text": " with", "strong": "H5921" },
+      { "text": " every", "strong": "H3605" },
+      { "text": " secret thing,", "strong": "H5956" },
+      { "text": " whether", "strong": "H518" },
+      " ",
+      { "text": "it be", "marks": ["i"] },
+      { "text": " good,", "strong": "H2896" },
+      { "text": " or whether", "strong": "H518" },
+      " ",
+      { "text": "it be", "marks": ["i"] },
+      { "text": " evil.", "strong": "H7451" }
     ]
   }
 ]

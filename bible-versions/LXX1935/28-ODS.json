@@ -13971,7 +13971,7 @@
   {
     "book": "ODS",
     "chapter": 5,
-    "verse": 1,
+    "verse": 9,
     "content": [
       {
         "subtitle": [
@@ -13992,14 +13992,7 @@
             "lemma": "Ἠσαΐας"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 5,
-    "verse": 9,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Ἐκ",
@@ -15989,7 +15982,7 @@
   {
     "book": "ODS",
     "chapter": 6,
-    "verse": 1,
+    "verse": 3,
     "content": [
       {
         "subtitle": [
@@ -16009,14 +16002,7 @@
             "lemma": "Ιωνα"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 6,
-    "verse": 3,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Ἐβόησα",
@@ -17184,7 +17170,7 @@
   {
     "book": "ODS",
     "chapter": 7,
-    "verse": 1,
+    "verse": 26,
     "content": [
       {
         "subtitle": [
@@ -17204,14 +17190,7 @@
             "lemma": "Ἀζαρίας"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 7,
-    "verse": 26,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Εὐλογητὸς",
@@ -20450,7 +20429,7 @@
   {
     "book": "ODS",
     "chapter": 8,
-    "verse": 1,
+    "verse": 52,
     "content": [
       {
         "subtitle": [
@@ -20487,14 +20466,7 @@
             "lemma": "παῖς"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 8,
-    "verse": 52,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Εὐλογητὸς",
@@ -24889,7 +24861,7 @@
   {
     "book": "ODS",
     "chapter": 9,
-    "verse": 1,
+    "verse": 46,
     "content": [
       {
         "subtitle": [
@@ -24925,14 +24897,7 @@
             "lemma": "θεοτόκος"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 9,
-    "verse": 46,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Μεγαλύνει",
@@ -25813,21 +25778,24 @@
     "verse": 68,
     "content": [
       {
-        "paragraph": true,
-        "text": "Προσευχὴ",
-        "script": "G",
-        "transliteration": "Proseuchḕ",
-        "strong": "G4335",
-        "morph": "N-NSF",
-        "lemma": "προσευχή"
-      },
-      {
-        "text": " Ζαχαριου.",
-        "script": "G",
-        "transliteration": " Zachariou.",
-        "strong": "G2197",
-        "morph": "N-GSM",
-        "lemma": "Ζαχαρίας"
+        "subtitle": [
+          {
+            "text": "Προσευχὴ",
+            "script": "G",
+            "transliteration": "Proseuchḕ",
+            "strong": "G4335",
+            "morph": "N-NSF",
+            "lemma": "προσευχή"
+          },
+          {
+            "text": " Ζαχαριου.",
+            "script": "G",
+            "transliteration": " Zachariou.",
+            "strong": "G2197",
+            "morph": "N-GSM",
+            "lemma": "Ζαχαρίας"
+          }
+        ]
       },
       {
         "paragraph": true,
@@ -28697,7 +28665,7 @@
   {
     "book": "ODS",
     "chapter": 11,
-    "verse": 1,
+    "verse": 10,
     "content": [
       {
         "subtitle": [
@@ -28718,14 +28686,7 @@
             "lemma": "Ἑζεκίας"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 11,
-    "verse": 10,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Ἐγὼ",
@@ -32943,7 +32904,7 @@
   {
     "book": "ODS",
     "chapter": 13,
-    "verse": 1,
+    "verse": 29,
     "content": [
       {
         "subtitle": [
@@ -32964,14 +32925,7 @@
             "lemma": "Συμεών"
           }
         ]
-      }
-    ]
-  },
-  {
-    "book": "ODS",
-    "chapter": 13,
-    "verse": 29,
-    "content": [
+      },
       {
         "paragraph": true,
         "text": "Νῦν",
