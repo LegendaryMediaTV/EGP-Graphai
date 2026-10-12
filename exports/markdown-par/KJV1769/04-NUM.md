@@ -593,11 +593,9 @@
 
 ## Chapter 11
 
-<sup>1</sup>
-
 ### Discontent
 
-And _when_ the people complained,<sup>a</sup> it displeased the<sup>b</sup> LORD: and the LORD heard _it_; and his anger was kindled; and the fire of the LORD burnt among them, and consumed _them that were_ in the uttermost parts of the camp.
+<sup>1</sup> And _when_ the people complained,<sup>a</sup> it displeased the<sup>b</sup> LORD: and the LORD heard _it_; and his anger was kindled; and the fire of the LORD burnt among them, and consumed _them that were_ in the uttermost parts of the camp.
 <sup>2</sup> And the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched.<sup>c</sup>
 <sup>3</sup> And he called the name of the place Taberah:<sup>d</sup> because the fire of the LORD burnt among them.
 

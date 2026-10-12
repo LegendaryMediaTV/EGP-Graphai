@@ -943,9 +943,8 @@ And when he was now not far from the house, the centurion sent friends to him, s
 <sup>28</sup> There shall be weeping and gnashing of teeth, when ye shall see Abraham, and Isaac, and Jacob, and all the prophets, in the kingdom of God, and you _yourselves_ thrust out.
 <sup>29</sup> And they shall come from the east, and _from_ the west, and from the north, and _from_ the south, and shall sit down in the kingdom of God.
 <sup>30</sup> And, behold, there are last which shall be first, and there are first which shall be last.
-<sup>31</sup>
 
-The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee.
+<sup>31</sup> The same day there came certain of the Pharisees, saying unto him, Get thee out, and depart hence: for Herod will kill thee.
 <sup>32</sup> And he said unto them, Go ye, and tell that fox, Behold, I cast out devils, and I do cures to day and to morrow, and the third _day_ I shall be perfected.
 <sup>33</sup> Nevertheless I must walk to day, and to morrow, and the _day_ following: for it cannot be that a prophet perish out of Jerusalem.
 
@@ -1006,9 +1005,7 @@ The same day there came certain of the Pharisees, saying unto him, Get thee out,
 
 ## Chapter 15
 
-<sup>1</sup>
-
-Then drew near unto him all the publicans and sinners for to hear him.
+<sup>1</sup> Then drew near unto him all the publicans and sinners for to hear him.
 <sup>2</sup> And the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them.
 
 ### The Lost Sheep
@@ -1406,11 +1403,10 @@ Then drew near unto him all the publicans and sinners for to hear him.
 <sup>34</sup> And take heed to yourselves, lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life, and _so_ that day come upon you unawares.
 <sup>35</sup> For as a snare shall it come on all them that dwell on the face of the whole earth.
 <sup>36</sup> Watch ye therefore, and pray always, that ye may be accounted worthy to escape all these things that shall come to pass, and to stand before the Son of man.
-<sup>37</sup>
 
 ### Visits Olivet
 
-And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the mount_ of Olives.
+<sup>37</sup> And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the mount_ of Olives.
 <sup>38</sup> And all the people came early in the morning to him in the temple, for to hear him.
 
 > - <sup>a</sup> 2. _See Mark 12.42_

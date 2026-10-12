@@ -1001,9 +1001,8 @@
 <sup>22</sup> And when he had thus spoken, one of the officers which stood by struck Jesus with the palm<sup>b</sup> of his hand, saying, Answerest thou the high priest so?
 <sup>23</sup> Jesus answered him, If I have spoken evil, bear witness of the evil: but if well, why smitest thou me?
 <sup>24</sup> Now Annas had sent him bound unto Caiaphas the high priest.
-<sup>25</sup>
 
-And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also _one_ of his disciples? He denied _it_, and said, I am not.
+<sup>25</sup> And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also _one_ of his disciples? He denied _it_, and said, I am not.
 <sup>26</sup> One of the servants of the high priest, being _his_ kinsman whose ear Peter cut off, saith, Did not I see thee in the garden with him?
 <sup>27</sup> Peter then denied again: and immediately the cock crew.
 

@@ -8,7 +8,8 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " the man", "strong": "H376" },
-      { "text": " that walketh", "strong": "H1980" },
+      { "text": " that", "strong": "H834" },
+      { "text": " walketh", "strong": "H1980" },
       { "text": " not", "strong": "H3808" },
       { "text": " in the counsel", "strong": "H6098" },
       {
@@ -19,10 +20,12 @@
         },
         "strong": "H7563"
       },
-      { "text": " nor standeth", "strong": "H5975" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " standeth", "strong": "H5975" },
       { "text": " in the way", "strong": "H1870" },
       { "text": " of sinners,", "break": true, "strong": "H2400" },
-      { "text": "Nor sitteth", "strong": "H3427" },
+      { "text": "Nor", "strong": "H3808" },
+      { "text": " sitteth", "strong": "H3427" },
       { "text": " in the seat", "strong": "H4186" },
       { "text": " of the scornful.", "break": true, "strong": "H3887" }
     ]
@@ -32,7 +35,9 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "text": "But his delight", "strong": "H2656" },
+      { "text": "But", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " his delight", "strong": "H2656" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " in the law", "strong": "H8451" },
@@ -52,16 +57,21 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      { "text": "And he shall be like a tree", "strong": "H6086" },
+      { "text": "And he shall be", "strong": "H1961" },
+      { "text": " like a tree", "strong": "H6086" },
       { "text": " planted", "strong": "H8362" },
-      { "text": " by the rivers", "strong": "H6388" },
+      { "text": " by", "strong": "H5921" },
+      { "text": " the rivers", "strong": "H6388" },
       { "text": " of water,", "break": true, "strong": "H4325" },
-      { "text": "That bringeth forth", "strong": "H5414" },
+      { "text": "That", "strong": "H834" },
+      { "text": " bringeth forth", "strong": "H5414" },
       { "text": " his fruit", "strong": "H6529" },
       { "text": " in his season;", "break": true, "strong": "H6256" },
       { "text": "His leaf", "strong": "H5929" },
+      { "text": " also shall", "strong": "H5034" },
+      { "text": " not", "strong": "H3808" },
       {
-        "text": " also shall not wither;",
+        "text": " wither;",
         "break": true,
         "foot": {
           "type": "trn",
@@ -69,7 +79,9 @@
         },
         "strong": "H5034"
       },
-      { "text": "And whatsoever he doeth", "strong": "H6213" },
+      { "text": "And whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " he doeth", "strong": "H6213" },
       { "text": " shall prosper.", "break": true, "strong": "H6743" }
     ]
   },
@@ -81,15 +93,13 @@
       { "text": "The ungodly", "strong": "H7563" },
       " ",
       { "text": "are", "marks": ["i"] },
-      {
-        "content": [
-          { "text": " not so:", "break": true },
-          "But ",
-          { "text": "are", "marks": ["i"] },
-          " like the chaff"
-        ],
-        "strong": "H4671"
-      },
+      { "text": " not", "strong": "H3808" },
+      { "text": " so:", "break": true, "strong": "H3651" },
+      { "text": "But", "strong": "H3588" },
+      { "strong": "H518" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " like the chaff", "strong": "H4671" },
       { "text": " which", "strong": "H834" },
       { "text": " the wind", "strong": "H7307" },
       { "text": " driveth away.", "break": true, "strong": "H5086" }
@@ -100,7 +110,9 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      { "text": "Therefore the ungodly", "strong": "H7563" },
+      { "text": "Therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " the ungodly", "strong": "H7563" },
       { "text": " shall", "strong": "H6965" },
       { "text": " not", "strong": "H3808" },
       { "text": " stand", "strong": "H6965" },
@@ -131,7 +143,8 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "paragraph": true, "text": "Why do the heathen", "strong": "H1471" },
+      { "paragraph": true, "text": "Why", "strong": "H4100" },
+      { "text": " do the heathen", "strong": "H1471" },
       {
         "text": " rage,",
         "break": true,
@@ -163,8 +176,8 @@
     "content": [
       { "text": "The kings", "strong": "H4428" },
       { "text": " of the earth", "strong": "H776" },
-      { "text": " set", "strong": "H3320" },
-      { "text": " themselves, and the rulers", "strong": "H7336" },
+      { "text": " set themselves,", "strong": "H3320" },
+      { "text": " and the rulers", "strong": "H7336" },
       { "text": " take counsel", "strong": "H3245" },
       { "text": " together,", "break": true, "strong": "H3162" },
       { "text": "Against", "strong": "H5921" },
@@ -172,7 +185,8 @@
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " and against his anointed,", "strong": "H4899" },
+      { "text": " and against", "strong": "H5921" },
+      { "text": " his anointed,", "strong": "H4899" },
       " ",
       { "text": "saying", "marks": ["i"] },
       { "text": ",", "break": true }
@@ -189,7 +203,7 @@
       { "text": " asunder,", "break": true, "strong": "H5423" },
       { "text": "And cast away", "strong": "H7993" },
       { "text": " their cords", "strong": "H5688" },
-      { "text": " from us.", "break": true }
+      { "text": " from us.", "break": true, "strong": "H4480" }
     ]
   },
   {
@@ -215,21 +229,22 @@
     "content": [
       { "text": "Then", "strong": "H227" },
       { "text": " shall he speak", "strong": "H1696" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " them in his wrath,", "break": true, "strong": "H639" },
+      { "text": " unto them", "strong": "H413" },
+      { "text": " in his wrath,", "break": true, "strong": "H639" },
       {
-        "text": "And vex",
-        "foot": {
-          "type": "trn",
-          "content": ["Or, ", { "text": "trouble", "marks": ["i"] }]
-        },
+        "content": [
+          {
+            "text": "And vex",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "trouble", "marks": ["i"] }]
+            }
+          },
+          " them"
+        ],
         "strong": "H926"
       },
-      {
-        "text": " them in his sore displeasure.",
-        "break": true,
-        "strong": "H2740"
-      }
+      { "text": " in his sore displeasure.", "break": true, "strong": "H2740" }
     ]
   },
   {
@@ -237,7 +252,9 @@
     "chapter": 2,
     "verse": 6,
     "content": [
-      { "text": "Yet have I set", "strong": "H5258" },
+      { "text": "Yet have", "strong": "H5258" },
+      { "text": " I", "strong": "H589" },
+      { "text": " set", "strong": "H5258" },
       {
         "text": " my king",
         "foot": {
@@ -269,6 +286,7 @@
     "verse": 7,
     "content": [
       { "text": "I will declare", "strong": "H5608" },
+      { "strong": "H413" },
       {
         "text": " the decree:",
         "foot": {
@@ -280,18 +298,15 @@
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " hath said", "strong": "H559" },
-      {
-        "content": [
-          { "text": " unto me,", "break": true },
-          "Thou ",
-          { "text": "art", "marks": ["i"] },
-          " my Son;"
-        ],
-        "strong": "H1121"
-      },
+      { "text": " unto me,", "break": true, "strong": "H413" },
+      { "text": "Thou", "strong": "H859" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " my Son;", "strong": "H1121" },
       { "text": " this day", "strong": "H3117" },
-      { "text": " have I begotten", "strong": "H3205" },
-      { "text": " thee.", "break": true }
+      { "text": " have", "strong": "H3205" },
+      { "text": " I", "strong": "H589" },
+      { "text": " begotten thee.", "break": true, "strong": "H3205" }
     ]
   },
   {
@@ -300,7 +315,8 @@
     "verse": 8,
     "content": [
       { "text": "Ask", "strong": "H7592" },
-      { "text": " of me, and I shall give", "strong": "H5414" },
+      { "text": " of me,", "strong": "H4480" },
+      { "text": " and I shall give", "strong": "H5414" },
       " ",
       { "text": "thee", "marks": ["i"] },
       { "text": " the heathen", "strong": "H1471" },
@@ -319,8 +335,8 @@
     "chapter": 2,
     "verse": 9,
     "content": [
-      { "text": "Thou shalt break", "strong": "H7489" },
-      { "text": " them with a rod", "strong": "H7626" },
+      { "text": "Thou shalt break them", "strong": "H7489" },
+      { "text": " with a rod", "strong": "H7626" },
       { "text": " of iron;", "break": true, "strong": "H1270" },
       { "text": "Thou shalt dash them in pieces", "strong": "H5310" },
       { "text": " like a potter’s", "strong": "H3335" },
@@ -333,8 +349,8 @@
     "verse": 10,
     "content": [
       { "text": "Be wise", "strong": "H7919" },
-      { "text": " now", "strong": "H6258" },
-      { "text": " therefore, O ye kings:", "break": true, "strong": "H4428" },
+      { "text": " now therefore,", "strong": "H6258" },
+      { "text": " O ye kings:", "break": true, "strong": "H4428" },
       { "text": "Be instructed,", "strong": "H3256" },
       { "text": " ye judges", "strong": "H8199" },
       { "text": " of the earth.", "break": true, "strong": "H776" }
@@ -361,18 +377,21 @@
     "content": [
       { "text": "Kiss", "strong": "H5401" },
       { "text": " the Son,", "strong": "H1248" },
-      { "text": " lest he be angry,", "strong": "H599" },
+      { "text": " lest", "strong": "H6435" },
+      { "text": " he be angry,", "strong": "H599" },
       { "text": " and ye perish", "strong": "H6" },
       " ",
       { "text": "from", "marks": ["i"] },
       { "text": " the way,", "break": true, "strong": "H1870" },
-      { "text": "When his wrath", "strong": "H639" },
+      { "text": "When", "strong": "H3588" },
+      { "text": " his wrath", "strong": "H639" },
       { "text": " is kindled", "strong": "H1197" },
       { "text": " but a little.", "strong": "H4592" },
       { "text": " Blessed", "strong": "H835" },
       " ",
       { "text": "are", "marks": ["i"] },
-      { "text": " all they that put their trust", "strong": "H2620" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " they that put their trust", "strong": "H2620" },
       { "text": " in him.", "break": true }
     ]
   },
@@ -396,16 +415,14 @@
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " how are they increased", "strong": "H7231" },
-      { "text": " that trouble", "strong": "H6862" },
-      {
-        "content": [{ "text": " me!", "break": true }, "Many"],
-        "strong": "H7227"
-      },
+      { "text": " how", "strong": "H4100" },
+      { "text": " are they increased", "strong": "H7231" },
+      { "text": " that trouble me!", "break": true, "strong": "H6862" },
+      { "text": "Many", "strong": "H7227" },
       " ",
       { "text": "are", "marks": ["i"] },
       { "text": " they that rise up", "strong": "H6965" },
-      { "text": " against me.", "break": true }
+      { "text": " against me.", "break": true, "strong": "H5921" }
     ]
   },
   {
@@ -419,7 +436,8 @@
       { "text": " which say", "strong": "H559" },
       { "text": " of my soul,", "break": true, "strong": "H5315" },
       { "text": "There is", "marks": ["i"] },
-      { "text": " no help", "strong": "H3444" },
+      { "text": " no", "strong": "H369" },
+      { "text": " help", "strong": "H3444" },
       { "text": " for him in God.", "strong": "H430" },
       " ",
       { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" }
@@ -430,8 +448,9 @@
     "chapter": 3,
     "verse": 3,
     "content": [
+      { "text": "But thou,", "strong": "H859" },
       {
-        "content": ["But thou, O ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       " ",
@@ -446,11 +465,12 @@
               "content": ["Or, ", { "text": "about", "marks": ["i"] }]
             }
           },
-          { "text": " me;", "break": true },
-          "My glory,"
+          " me;"
         ],
-        "strong": "H3519"
+        "break": true,
+        "strong": "H1157"
       },
+      { "text": "My glory,", "strong": "H3519" },
       { "text": " and the lifter up", "strong": "H7311" },
       { "text": " of mine head.", "break": true, "strong": "H7218" }
     ]
@@ -465,8 +485,8 @@
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " with my voice,", "break": true, "strong": "H6963" },
-      { "text": "And he heard", "strong": "H6030" },
-      { "text": " me out of his holy", "strong": "H6944" },
+      { "text": "And he heard me", "strong": "H6030" },
+      { "text": " out of his holy", "strong": "H6944" },
       { "text": " hill.", "strong": "H2022" },
       " ",
       { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" }
@@ -477,14 +497,14 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      { "text": "I laid me down", "strong": "H7901" },
+      { "text": "I", "strong": "H589" },
+      { "text": " laid me down", "strong": "H7901" },
       { "text": " and slept;", "break": true, "strong": "H3462" },
       { "text": "I awaked;", "strong": "H6974" },
       { "text": " for", "strong": "H3588" },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
-      { "text": " sustained", "strong": "H5564" },
-      { "text": " me.", "break": true }
+      { "text": " sustained me.", "break": true, "strong": "H5564" }
     ]
   },
   {
@@ -497,10 +517,12 @@
       { "text": " be afraid", "strong": "H3372" },
       { "text": " of ten thousands", "strong": "H7233" },
       { "text": " of people,", "break": true, "strong": "H5971" },
-      { "text": "That have set", "strong": "H7896" },
+      { "text": "That", "strong": "H834" },
+      { "text": " have set", "strong": "H7896" },
       " ",
       { "text": "themselves", "marks": ["i"] },
-      { "text": " against me round about.", "break": true, "strong": "H5439" }
+      { "text": " against me", "strong": "H5921" },
+      { "text": " round about.", "break": true, "strong": "H5439" }
     ]
   },
   {
@@ -513,10 +535,11 @@
         "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
       },
-      { "text": " save", "strong": "H3467" },
-      { "text": " me, O my God:", "break": true, "strong": "H430" },
+      { "text": " save me,", "strong": "H3467" },
+      { "text": " O my God:", "break": true, "strong": "H430" },
       { "text": "For", "strong": "H3588" },
       { "text": " thou hast smitten", "strong": "H5221" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " mine enemies", "strong": "H341" },
       " ",
@@ -543,7 +566,8 @@
       { "text": "Thy blessing", "strong": "H1293" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " upon thy people.", "strong": "H5971" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " thy people.", "strong": "H5971" },
       " ",
       { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" }
     ]
@@ -561,8 +585,8 @@
           { "text": " of David.", "strong": "H1732" }
         ]
       },
-      { "paragraph": true, "text": "Hear", "strong": "H6030" },
-      { "text": " me when I call,", "strong": "H7121" },
+      { "paragraph": true, "text": "Hear me", "strong": "H6030" },
+      { "text": " when I call,", "strong": "H7121" },
       { "text": " O God", "strong": "H430" },
       { "text": " of my righteousness:", "break": true, "strong": "H6664" },
       { "text": "Thou hast enlarged", "strong": "H7337" },
@@ -574,23 +598,15 @@
         ],
         "strong": "H6862"
       },
-      { "text": " Have mercy", "strong": "H2603" },
       {
-        "content": [
-          {
-            "text": " upon me,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                { "text": "be gracious unto me", "marks": ["i"] }
-              ]
-            }
-          },
-          " and hear"
-        ],
-        "strong": "H8085"
+        "text": " Have mercy upon me,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "be gracious unto me", "marks": ["i"] }]
+        },
+        "strong": "H2603"
       },
+      { "text": " and hear", "strong": "H8085" },
       { "text": " my prayer.", "break": true, "strong": "H8605" }
     ]
   },
@@ -601,7 +617,8 @@
     "content": [
       { "text": "O ye sons", "strong": "H1121" },
       { "text": " of men,", "strong": "H376" },
-      { "text": " how long", "strong": "H5704" },
+      { "text": " how", "strong": "H4100" },
+      { "text": " long", "strong": "H5704" },
       " ",
       { "text": "will ye turn", "marks": ["i"] },
       { "text": " my glory", "strong": "H3519" },
@@ -623,22 +640,17 @@
     "verse": 3,
     "content": [
       { "text": "But know", "strong": "H3045" },
-      " that the ",
+      { "text": " that", "strong": "H3588" },
+      " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " hath set apart", "strong": "H6395" },
       { "text": " him that is godly", "strong": "H2623" },
-      { "text": " for", "strong": "H3588" },
-      {
-        "content": [
-          { "text": " himself:", "break": true },
-          "The ",
-          { "text": "Lord", "marks": ["sc"] }
-        ],
-        "strong": "H3068"
-      },
+      { "text": " for himself:", "break": true },
+      "The ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " will hear", "strong": "H8085" },
       { "text": " when I call", "strong": "H7121" },
-      { "text": " unto him.", "break": true }
+      { "text": " unto him.", "break": true, "strong": "H413" }
     ]
   },
   {
@@ -648,10 +660,8 @@
     "content": [
       { "text": "Stand in awe,", "strong": "H7264" },
       { "text": " and sin", "strong": "H2398" },
-      {
-        "content": [{ "text": " not:", "break": true }, "Commune"],
-        "strong": "H559"
-      },
+      { "text": " not:", "break": true, "strong": "H408" },
+      { "text": "Commune", "strong": "H559" },
       { "text": " with your own heart", "strong": "H3824" },
       { "text": " upon", "strong": "H5921" },
       { "text": " your bed,", "strong": "H4904" },
@@ -669,8 +679,9 @@
       { "text": " the sacrifices", "strong": "H2077" },
       { "text": " of righteousness,", "break": true, "strong": "H6664" },
       { "text": "And put your trust", "strong": "H982" },
+      { "text": " in", "strong": "H413" },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "."],
+        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, "."],
         "break": true,
         "strong": "H3068"
       }
@@ -684,12 +695,11 @@
       { "text": "There be", "marks": ["i"] },
       { "text": " many", "strong": "H7227" },
       { "text": " that say,", "break": true, "strong": "H559" },
-      { "text": "Who will shew", "strong": "H7200" },
-      {
-        "content": [" us ", { "text": "any", "marks": ["i"] }, " good?"],
-        "break": true,
-        "strong": "H2896"
-      },
+      { "text": "Who", "strong": "H4310" },
+      { "text": " will shew us", "strong": "H7200" },
+      " ",
+      { "text": "any", "marks": ["i"] },
+      { "text": " good?", "break": true, "strong": "H2896" },
       {
         "content": [{ "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
@@ -697,7 +707,7 @@
       { "text": " lift thou up", "break": true, "strong": "H5375" },
       { "text": "The light", "strong": "H216" },
       { "text": " of thy countenance", "strong": "H6440" },
-      { "text": " upon us.", "break": true }
+      { "text": " upon us.", "break": true, "strong": "H5921" }
     ]
   },
   {
@@ -721,13 +731,15 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      { "text": "I will both", "strong": "H3162" },
+      { "text": "I will", "strong": "H7901" },
+      { "text": " both", "strong": "H3162" },
       { "text": " lay me down", "strong": "H7901" },
       { "text": " in peace,", "strong": "H7965" },
       { "text": " and sleep:", "break": true, "strong": "H3462" },
       { "text": "For", "strong": "H3588" },
+      { "text": " thou,", "strong": "H859" },
       {
-        "content": [" thou, ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " only", "strong": "H910" },
@@ -743,7 +755,8 @@
       {
         "subtitle": [
           { "text": "To the chief Musician", "strong": "H5329" },
-          { "text": " upon Nehiloth,", "strong": "H5155" },
+          { "text": " upon", "strong": "H413" },
+          { "text": " Nehiloth,", "strong": "H5155" },
           { "text": " A Psalm", "strong": "H4210" },
           { "text": " of David.", "strong": "H1732" }
         ]
@@ -765,13 +778,13 @@
     "verse": 2,
     "content": [
       { "text": "Hearken", "strong": "H7181" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " the voice", "strong": "H6963" },
+      { "text": " unto the voice", "strong": "H6963" },
       { "text": " of my cry,", "strong": "H7773" },
       { "text": " my King,", "strong": "H4428" },
       { "text": " and my God:", "break": true, "strong": "H430" },
       { "text": "For", "strong": "H3588" },
-      { "text": " unto thee will I pray.", "break": true, "strong": "H6419" }
+      { "text": " unto thee", "strong": "H413" },
+      { "text": " will I pray.", "break": true, "strong": "H6419" }
     ]
   },
   {
@@ -803,19 +816,18 @@
     "chapter": 5,
     "verse": 4,
     "content": [
-      {
-        "content": [
-          "For thou ",
-          { "text": "art", "marks": ["i"] },
-          " not a God"
-        ],
-        "strong": "H410"
-      },
+      { "text": "For", "strong": "H3588" },
+      { "text": " thou", "strong": "H859" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " a God", "strong": "H410" },
       { "text": " that hath pleasure", "strong": "H2655" },
       { "text": " in wickedness:", "break": true, "strong": "H7562" },
-      { "text": "Neither shall evil", "strong": "H7451" },
-      { "text": " dwell", "strong": "H1481" },
-      { "text": " with thee.", "break": true }
+      { "text": "Neither", "strong": "H3808" },
+      { "text": " shall", "strong": "H1481" },
+      { "text": " evil", "strong": "H7451" },
+      { "text": " dwell with thee.", "break": true, "strong": "H1481" }
     ]
   },
   {
@@ -827,8 +839,9 @@
       { "text": " shall", "strong": "H3320" },
       { "text": " not", "strong": "H3808" },
       { "text": " stand", "strong": "H3320" },
+      { "text": " in", "strong": "H5048" },
       {
-        "text": " in thy sight:",
+        "text": " thy sight:",
         "break": true,
         "foot": {
           "type": "trn",
@@ -874,7 +887,8 @@
     "chapter": 5,
     "verse": 7,
     "content": [
-      { "text": "But as for me, I will come", "strong": "H935" },
+      { "text": "But as for me,", "strong": "H589" },
+      { "text": " I will come", "strong": "H935" },
       " ",
       { "text": "into", "marks": ["i"] },
       { "text": " thy house", "strong": "H1004" },
@@ -883,7 +897,8 @@
       { "text": "And", "marks": ["i"] },
       { "text": " in thy fear", "strong": "H3374" },
       { "text": " will I worship", "strong": "H7812" },
-      { "text": " toward thy holy", "strong": "H6944" },
+      { "text": " toward", "strong": "H413" },
+      { "text": " thy holy", "strong": "H6944" },
       {
         "text": " temple.",
         "break": true,
@@ -903,14 +918,15 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "text": "Lead", "strong": "H5148" },
+      { "text": "Lead me,", "strong": "H5148" },
       {
-        "content": [" me, O ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " in thy righteousness", "strong": "H6666" },
+      { "text": " because of", "strong": "H4616" },
       {
-        "text": " because of mine enemies;",
+        "text": " mine enemies;",
         "break": true,
         "foot": {
           "type": "trn",
@@ -931,18 +947,16 @@
     "chapter": 5,
     "verse": 9,
     "content": [
+      { "text": "For", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
       {
-        "content": [
-          "For ",
-          { "text": "there is", "marks": ["i"] },
-          {
-            "text": " no faithfulness",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "steadfastness", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " faithfulness",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "steadfastness", "marks": ["i"] }]
+        },
         "strong": "H3559"
       },
       {
@@ -960,20 +974,16 @@
         },
         "strong": "H6310"
       },
-      { "text": "Their inward", "strong": "H7130" },
+      { "text": "Their inward part", "strong": "H7130" },
+      " ",
+      { "text": "is", "marks": ["i"] },
       {
-        "content": [
-          " part ",
-          { "text": "is", "marks": ["i"] },
-          {
-            "text": " very wickedness;",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "wickedness", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " very wickedness;",
         "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "wickedness", "marks": ["i"] }]
+        },
         "strong": "H1942"
       },
       { "text": "Their throat", "strong": "H1627" },
@@ -990,23 +1000,15 @@
     "chapter": 5,
     "verse": 10,
     "content": [
-      { "text": "Destroy", "strong": "H816" },
       {
-        "content": [
-          {
-            "text": " thou them,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Or, ",
-                { "text": "make them guilty", "marks": ["i"] }
-              ]
-            }
-          },
-          " O God;"
-        ],
-        "strong": "H430"
+        "text": "Destroy thou them,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make them guilty", "marks": ["i"] }]
+        },
+        "strong": "H816"
       },
+      { "text": " O God;", "strong": "H430" },
       { "text": " let them fall", "strong": "H5307" },
       {
         "text": " by their own counsels;",
@@ -1030,29 +1032,29 @@
     "chapter": 5,
     "verse": 11,
     "content": [
-      { "text": "But let all those that put their trust", "strong": "H2620" },
+      { "text": "But let", "strong": "H8055" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " those that put their trust", "strong": "H2620" },
       { "text": " in thee rejoice:", "break": true, "strong": "H8055" },
-      { "text": "Let them ever", "strong": "H5769" },
+      { "text": "Let them", "strong": "H7442" },
+      { "text": " ever", "strong": "H5769" },
       { "text": " shout for joy,", "strong": "H7442" },
       { "text": " because thou defendest", "strong": "H5526" },
       {
-        "content": [
-          {
-            "text": " them:",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "thou coverest over", "marks": ["i"] },
-                ", or ",
-                { "text": "protectest them", "marks": ["i"] }
-              ]
-            }
-          },
-          " let them also that love"
-        ],
-        "strong": "H157"
+        "text": " them:",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "thou coverest over", "marks": ["i"] },
+            ", or ",
+            { "text": "protectest them", "marks": ["i"] }
+          ]
+        },
+        "strong": "H5921"
       },
+      { "text": " let them also", "strong": "H5970" },
+      { "text": " that love", "strong": "H157" },
       { "text": " thy name", "strong": "H8034" },
       { "text": " be joyful", "strong": "H5970" },
       { "text": " in thee.", "break": true }
@@ -1064,27 +1066,24 @@
     "verse": 12,
     "content": [
       { "text": "For", "strong": "H3588" },
+      { "text": " thou,", "strong": "H859" },
       {
-        "content": [" thou, ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " wilt bless", "strong": "H1288" },
       { "text": " the righteous;", "break": true, "strong": "H6662" },
       { "text": "With favour", "strong": "H7522" },
-      { "text": " wilt thou compass", "strong": "H5849" },
       {
-        "content": [
-          {
-            "text": " him",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "crown him", "marks": ["i"] }]
-            }
-          },
-          " as ",
-          { "text": "with", "marks": ["i"] },
-          " a shield."
-        ],
+        "text": " wilt thou compass him",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "crown him", "marks": ["i"] }]
+        },
+        "strong": "H5849"
+      },
+      {
+        "content": [" as ", { "text": "with", "marks": ["i"] }, " a shield."],
         "break": true,
         "strong": "H6793"
       }
@@ -1099,7 +1098,8 @@
         "subtitle": [
           { "text": "To the chief Musician", "strong": "H5329" },
           { "text": " on Neginoth", "strong": "H5058" },
-          { "text": " upon Sheminith,", "strong": "H8067" },
+          { "text": " upon", "strong": "H5921" },
+          { "text": " Sheminith,", "strong": "H8067" },
           { "text": " A Psalm", "strong": "H4210" },
           { "text": " of David.", "strong": "H1732" }
         ]
@@ -1109,14 +1109,12 @@
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " rebuke", "strong": "H3198" },
-      { "text": " me not in thine anger,", "break": true, "strong": "H639" },
-      { "text": "Neither chasten", "strong": "H3256" },
-      {
-        "text": " me in thy hot displeasure.",
-        "break": true,
-        "strong": "H2534"
-      }
+      { "text": " rebuke me", "strong": "H3198" },
+      { "text": " not", "strong": "H408" },
+      { "text": " in thine anger,", "break": true, "strong": "H639" },
+      { "text": "Neither", "strong": "H408" },
+      { "text": " chasten me", "strong": "H3256" },
+      { "text": " in thy hot displeasure.", "break": true, "strong": "H2534" }
     ]
   },
   {
@@ -1124,22 +1122,23 @@
     "chapter": 6,
     "verse": 2,
     "content": [
-      { "text": "Have mercy", "strong": "H2603" },
+      { "text": "Have mercy upon me,", "strong": "H2603" },
       {
-        "content": [" upon me, O ", { "text": "Lord", "marks": ["sc"] }, ";"],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
       },
-      {
-        "content": [" for I ", { "text": "am", "marks": ["i"] }, " weak:"],
-        "break": true,
-        "strong": "H536"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " I", "strong": "H589" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " weak:", "break": true, "strong": "H536" },
       {
         "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " heal", "strong": "H7495" },
-      { "text": " me; for my bones", "strong": "H6106" },
+      { "text": " heal me;", "strong": "H7495" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " my bones", "strong": "H6106" },
       { "text": " are vexed.", "break": true, "strong": "H926" }
     ]
   },
@@ -1149,13 +1148,16 @@
     "verse": 3,
     "content": [
       { "text": "My soul", "strong": "H5315" },
-      { "text": " is also sore", "strong": "H3966" },
+      { "text": " is", "strong": "H926" },
+      { "text": " also sore", "strong": "H3966" },
       { "text": " vexed:", "break": true, "strong": "H926" },
+      { "text": "But thou,", "strong": "H859" },
       {
-        "content": ["But thou, O ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " how long?", "break": true }
+      { "text": " how", "strong": "H4970" },
+      { "text": " long?", "break": true, "strong": "H5704" }
     ]
   },
   {
@@ -1170,9 +1172,10 @@
       },
       { "text": " deliver", "strong": "H2502" },
       { "text": " my soul:", "break": true, "strong": "H5315" },
-      { "text": "Oh save", "strong": "H3467" },
-      { "text": " me for thy mercies’", "strong": "H2617" },
-      { "text": " sake.", "break": true }
+      { "text": "Oh save me", "strong": "H3467" },
+      { "text": " for", "strong": "H4616" },
+      { "text": " thy mercies’", "strong": "H2617" },
+      { "text": " sake.", "break": true, "strong": "H4616" }
     ]
   },
   {
@@ -1184,16 +1187,11 @@
       { "text": " in death", "strong": "H4194" },
       " ",
       { "text": "there is", "marks": ["i"] },
-      { "text": " no remembrance", "strong": "H2143" },
-      {
-        "content": [{ "text": " of thee:", "break": true }, "In the grave"],
-        "strong": "H7585"
-      },
-      {
-        "text": " who shall give thee thanks?",
-        "break": true,
-        "strong": "H3034"
-      }
+      { "text": " no", "strong": "H369" },
+      { "text": " remembrance of thee:", "break": true, "strong": "H2143" },
+      { "text": "In the grave", "strong": "H7585" },
+      { "text": " who", "strong": "H4310" },
+      { "text": " shall give thee thanks?", "break": true, "strong": "H3034" }
     ]
   },
   {
@@ -1212,7 +1210,8 @@
         },
         "strong": "H3915"
       },
-      { "text": " make I my bed", "strong": "H4296" },
+      { "text": " make I", "strong": "H7811" },
+      { "text": " my bed", "strong": "H4296" },
       { "text": " to swim;", "break": true, "strong": "H7811" },
       { "text": "I water", "strong": "H4529" },
       { "text": " my couch", "strong": "H6210" },
@@ -1228,11 +1227,8 @@
       { "text": " is consumed", "strong": "H6244" },
       { "text": " because of grief;", "break": true, "strong": "H3708" },
       { "text": "It waxeth old", "strong": "H6275" },
-      {
-        "text": " because of all mine enemies.",
-        "break": true,
-        "strong": "H6887"
-      }
+      { "text": " because of all", "strong": "H3605" },
+      { "text": " mine enemies.", "break": true, "strong": "H6887" }
     ]
   },
   {
@@ -1241,8 +1237,9 @@
     "verse": 8,
     "content": [
       { "text": "Depart", "strong": "H5493" },
-      { "text": " from", "strong": "H4480" },
-      { "text": " me, all ye workers", "strong": "H6466" },
+      { "text": " from me,", "strong": "H4480" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " ye workers", "strong": "H6466" },
       { "text": " of iniquity;", "break": true, "strong": "H205" },
       { "text": "For", "strong": "H3588" },
       " the ",
@@ -1272,7 +1269,9 @@
     "chapter": 6,
     "verse": 10,
     "content": [
-      { "text": "Let all mine enemies", "strong": "H341" },
+      { "text": "Let", "strong": "H954" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " mine enemies", "strong": "H341" },
       { "text": " be ashamed", "strong": "H954" },
       { "text": " and sore", "strong": "H3966" },
       { "text": " vexed:", "break": true, "strong": "H926" },
@@ -1292,18 +1291,19 @@
         "subtitle": [
           { "text": "Shiggaion", "strong": "H7692" },
           { "text": " of David,", "strong": "H1732" },
-          { "text": " which he sang", "strong": "H7891" },
+          { "text": " which", "strong": "H834" },
+          { "text": " he sang", "strong": "H7891" },
           {
             "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
             "strong": "H3068"
           },
-          { "text": " concerning the words", "strong": "H1697" },
+          { "text": " concerning", "strong": "H5921" },
+          { "text": " the words", "strong": "H1697" },
           { "text": " of Cush", "strong": "H3568" },
-          { "text": " the Benjamite.", "strong": "H1121" }
+          { "text": " the Benjamite.", "strong": "H1145" }
         ]
       },
-      { "paragraph": true, "strong": "H1145" },
-      "O ",
+      { "paragraph": true, "text": "O " },
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " my God,", "strong": "H430" },
       {
@@ -1311,10 +1311,10 @@
         "break": true,
         "strong": "H2620"
       },
-      { "text": "Save", "strong": "H3467" },
-      { "text": " me from all them that persecute", "strong": "H7291" },
-      { "text": " me, and deliver", "strong": "H5337" },
-      { "text": " me:", "break": true }
+      { "text": "Save me", "strong": "H3467" },
+      { "text": " from all", "strong": "H3605" },
+      { "text": " them that persecute me,", "strong": "H7291" },
+      { "text": " and deliver me:", "break": true, "strong": "H5337" }
     ]
   },
   {
@@ -1322,7 +1322,8 @@
     "chapter": 7,
     "verse": 2,
     "content": [
-      { "text": "Lest he tear", "strong": "H2963" },
+      { "text": "Lest", "strong": "H6435" },
+      { "text": " he tear", "strong": "H2963" },
       { "text": " my soul", "strong": "H5315" },
       { "text": " like a lion,", "strong": "H738" },
       {
@@ -1335,21 +1336,16 @@
         "strong": "H6561"
       },
       {
-        "content": [
-          "While ",
-          { "text": "there is", "marks": ["i"] },
-          {
-            "text": " none to deliver.",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "not a deliverer", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
+        "content": ["While ", { "text": "there is", "marks": ["i"] }, " none"],
+        "strong": "H369"
+      },
+      {
+        "text": " to deliver.",
         "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "not a deliverer", "marks": ["i"] }]
+        },
         "strong": "H5337"
       }
     ]
@@ -1362,11 +1358,11 @@
       "O ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " my God,", "strong": "H430" },
-      { "text": " if I have done", "strong": "H6213" },
-      {
-        "content": [{ "text": " this;", "break": true }, "If there be"],
-        "strong": "H3426"
-      },
+      { "text": " if", "strong": "H518" },
+      { "text": " I have done", "strong": "H6213" },
+      { "text": " this;", "break": true, "strong": "H2063" },
+      { "text": "If", "strong": "H518" },
+      { "text": " there be", "strong": "H3426" },
       { "text": " iniquity", "strong": "H5766" },
       { "text": " in my hands;", "break": true, "strong": "H3709" }
     ]
@@ -1376,17 +1372,17 @@
     "chapter": 7,
     "verse": 4,
     "content": [
-      { "text": "If I have rewarded", "strong": "H1580" },
+      { "text": "If", "strong": "H518" },
+      { "text": " I have rewarded", "strong": "H1580" },
       { "text": " evil", "strong": "H7451" },
-      { "text": " unto him that was at peace", "strong": "H7999" },
       {
-        "content": [
-          { "text": " with me;", "break": true },
-          "(Yea, I have delivered"
-        ],
-        "strong": "H2502"
+        "text": " unto him that was at peace with me;",
+        "break": true,
+        "strong": "H7999"
       },
-      { "text": " him that without cause", "strong": "H7387" },
+      { "text": "(Yea, I have delivered", "strong": "H2502" },
+      { "text": " him that", "strong": "H6887" },
+      { "text": " without cause", "strong": "H7387" },
       { "text": " is mine enemy:)", "break": true, "strong": "H6887" }
     ]
   },
@@ -1395,7 +1391,8 @@
     "chapter": 7,
     "verse": 5,
     "content": [
-      { "text": "Let the enemy", "strong": "H341" },
+      { "text": "Let", "strong": "H7291" },
+      { "text": " the enemy", "strong": "H341" },
       { "text": " persecute", "strong": "H7291" },
       { "text": " my soul,", "strong": "H5315" },
       { "text": " and take", "strong": "H5381" },
@@ -1425,18 +1422,14 @@
         "strong": "H3068"
       },
       { "text": " in thine anger,", "strong": "H639" },
-      { "text": " lift up", "strong": "H5375" },
-      { "text": " thyself because of the rage", "strong": "H5678" },
+      { "text": " lift up thyself", "strong": "H5375" },
+      { "text": " because of the rage", "strong": "H5678" },
       { "text": " of mine enemies:", "break": true, "strong": "H6887" },
       { "text": "And awake", "strong": "H5782" },
-      {
-        "content": [
-          " for me ",
-          { "text": "to", "marks": ["i"] },
-          " the judgment"
-        ],
-        "strong": "H4941"
-      },
+      { "text": " for me", "strong": "H413" },
+      " ",
+      { "text": "to", "marks": ["i"] },
+      { "text": " the judgment", "strong": "H4941" },
       " ",
       { "text": "that", "marks": ["i"] },
       { "text": " thou hast commanded.", "break": true, "strong": "H6680" }
@@ -1450,7 +1443,8 @@
       { "text": "So shall the congregation", "strong": "H5712" },
       { "text": " of the people", "strong": "H3816" },
       { "text": " compass thee about:", "break": true, "strong": "H5437" },
-      { "text": "For their sakes therefore return", "strong": "H7725" },
+      { "text": "For their sakes therefore", "strong": "H5921" },
+      { "text": " return", "strong": "H7725" },
       { "text": " thou on high.", "break": true, "strong": "H4791" }
     ]
   },
@@ -1463,9 +1457,9 @@
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " shall judge", "strong": "H1777" },
       { "text": " the people:", "strong": "H5971" },
-      { "text": " Judge", "strong": "H8199" },
+      { "text": " Judge me,", "strong": "H8199" },
       {
-        "content": [" me, O ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "break": true,
         "strong": "H3068"
       },
@@ -1473,7 +1467,7 @@
       { "text": " and according to mine integrity", "strong": "H8537" },
       " ",
       { "text": "that is", "marks": ["i"] },
-      { "text": " in me.", "break": true }
+      { "text": " in me.", "break": true, "strong": "H5921" }
     ]
   },
   {
@@ -1481,7 +1475,9 @@
     "chapter": 7,
     "verse": 9,
     "content": [
-      { "text": "Oh let the wickedness", "strong": "H7451" },
+      { "text": "Oh", "strong": "H4994" },
+      { "text": " let", "strong": "H1584" },
+      { "text": " the wickedness", "strong": "H7451" },
       { "text": " of the wicked", "strong": "H7563" },
       { "text": " come to an end;", "break": true, "strong": "H1584" },
       { "text": "but establish", "strong": "H3559" },
@@ -1501,7 +1497,8 @@
       { "text": "My defence", "strong": "H4043" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " of God,", "break": true, "strong": "H430" },
+      { "text": " of", "strong": "H5921" },
+      { "text": " God,", "break": true, "strong": "H430" },
       { "text": "Which saveth", "strong": "H3467" },
       { "text": " the upright", "strong": "H3477" },
       { "text": " in heart.", "break": true, "strong": "H3820" }
@@ -1530,7 +1527,8 @@
       { "text": " is angry", "strong": "H2194" },
       " ",
       { "text": "with the wicked", "marks": ["i"] },
-      { "text": " every day.", "break": true, "strong": "H3117" }
+      { "text": " every", "strong": "H3605" },
+      { "text": " day.", "break": true, "strong": "H3117" }
     ]
   },
   {
@@ -1538,8 +1536,10 @@
     "chapter": 7,
     "verse": 12,
     "content": [
-      { "text": "If he turn", "strong": "H7725" },
-      { "text": " not, he will whet", "strong": "H3913" },
+      { "text": "If", "strong": "H518" },
+      { "text": " he turn", "strong": "H7725" },
+      { "text": " not,", "strong": "H3808" },
+      { "text": " he will whet", "strong": "H3913" },
       { "text": " his sword;", "break": true, "strong": "H2719" },
       { "text": "He hath bent", "strong": "H1869" },
       { "text": " his bow,", "strong": "H7198" },
@@ -1564,7 +1564,8 @@
     "chapter": 7,
     "verse": 14,
     "content": [
-      { "text": "Behold, he travaileth", "strong": "H2254" },
+      { "text": "Behold,", "strong": "H2009" },
+      { "text": " he travaileth", "strong": "H2254" },
       { "text": " with iniquity,", "break": true, "strong": "H205" },
       { "text": "And hath conceived", "strong": "H2029" },
       { "text": " mischief,", "strong": "H5999" },
@@ -1579,11 +1580,8 @@
     "content": [
       { "text": "He made", "strong": "H3738" },
       { "text": " a pit,", "strong": "H953" },
-      { "text": " and digged", "strong": "H2658" },
-      {
-        "content": [{ "text": " it,", "break": true }, "And is fallen"],
-        "strong": "H5307"
-      },
+      { "text": " and digged it,", "break": true, "strong": "H2658" },
+      { "text": "And is fallen", "strong": "H5307" },
       { "text": " into the ditch", "strong": "H7845" },
       " ",
       { "text": "which", "marks": ["i"] },
@@ -1598,9 +1596,10 @@
       { "text": "His mischief", "strong": "H5999" },
       { "text": " shall return", "strong": "H7725" },
       { "text": " upon his own head,", "break": true, "strong": "H7218" },
-      { "text": "And his violent", "strong": "H2555" },
-      { "text": " dealing shall come down", "strong": "H3381" },
-      { "text": " upon his own pate.", "break": true, "strong": "H6936" }
+      { "text": "And his violent dealing", "strong": "H2555" },
+      { "text": " shall come down", "strong": "H3381" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " his own pate.", "break": true, "strong": "H6936" }
     ]
   },
   {
@@ -1631,7 +1630,8 @@
       {
         "subtitle": [
           { "text": "To the chief Musician", "strong": "H5329" },
-          { "text": " upon Gittith,", "strong": "H1665" },
+          { "text": " upon", "strong": "H5921" },
+          { "text": " Gittith,", "strong": "H1665" },
           { "text": " A Psalm", "strong": "H4210" },
           { "text": " of David.", "strong": "H1732" }
         ]
@@ -1639,11 +1639,13 @@
       { "paragraph": true, "text": "O " },
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " our Lord,", "strong": "H113" },
-      { "text": " how excellent", "strong": "H117" },
+      { "text": " how", "strong": "H4100" },
+      { "text": " excellent", "strong": "H117" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " thy name", "strong": "H8034" },
-      { "text": " in all the earth!", "break": true, "strong": "H776" },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the earth!", "break": true, "strong": "H776" },
       { "text": "Who", "strong": "H834" },
       { "text": " hast set", "strong": "H5414" },
       { "text": " thy glory", "strong": "H1935" },
@@ -1668,11 +1670,8 @@
         "strong": "H3245"
       },
       { "text": " strength", "strong": "H5797" },
-      {
-        "text": " because of thine enemies,",
-        "break": true,
-        "strong": "H6887"
-      },
+      { "text": " because of", "strong": "H4616" },
+      { "text": " thine enemies,", "break": true, "strong": "H6887" },
       { "text": "That thou mightest still", "strong": "H7673" },
       { "text": " the enemy", "strong": "H341" },
       { "text": " and the avenger.", "break": true, "strong": "H5358" }
@@ -1683,7 +1682,8 @@
     "chapter": 8,
     "verse": 3,
     "content": [
-      { "text": "When I consider", "strong": "H7200" },
+      { "text": "When", "strong": "H3588" },
+      { "text": " I consider", "strong": "H7200" },
       { "text": " thy heavens,", "strong": "H8064" },
       { "text": " the work", "strong": "H4639" },
       { "text": " of thy fingers,", "break": true, "strong": "H676" },
@@ -1700,14 +1700,12 @@
     "content": [
       { "text": "What", "strong": "H4100" },
       { "text": " is man,", "strong": "H582" },
-      { "text": " that thou art mindful", "strong": "H2142" },
-      {
-        "content": [{ "text": " of him?", "break": true }, "And the son"],
-        "strong": "H1121"
-      },
+      { "text": " that", "strong": "H3588" },
+      { "text": " thou art mindful of him?", "break": true, "strong": "H2142" },
+      { "text": "And the son", "strong": "H1121" },
       { "text": " of man,", "strong": "H120" },
-      { "text": " that thou visitest", "strong": "H6485" },
-      { "text": " him?", "break": true }
+      { "text": " that", "strong": "H3588" },
+      { "text": " thou visitest him?", "break": true, "strong": "H6485" }
     ]
   },
   {
@@ -1715,11 +1713,12 @@
     "chapter": 8,
     "verse": 5,
     "content": [
-      { "text": "For thou hast made him a little", "strong": "H4592" },
+      { "text": "For thou hast made him", "strong": "H2637" },
+      { "text": " a little", "strong": "H4592" },
       { "text": " lower", "strong": "H2637" },
       { "text": " than the angels,", "break": true, "strong": "H430" },
-      { "text": "And hast crowned", "strong": "H5849" },
-      { "text": " him with glory", "strong": "H3519" },
+      { "text": "And hast crowned him", "strong": "H5849" },
+      { "text": " with glory", "strong": "H3519" },
       { "text": " and honour.", "break": true, "strong": "H1926" }
     ]
   },
@@ -1732,15 +1731,11 @@
       { "text": " over the works", "strong": "H4639" },
       { "text": " of thy hands;", "break": true, "strong": "H3027" },
       { "text": "Thou hast put", "strong": "H7896" },
-      {
-        "content": [
-          " all ",
-          { "text": "things", "marks": ["i"] },
-          " under his feet:"
-        ],
-        "break": true,
-        "strong": "H7272"
-      }
+      { "text": " all", "strong": "H3605" },
+      " ",
+      { "text": "things", "marks": ["i"] },
+      { "text": " under", "strong": "H8478" },
+      { "text": " his feet:", "break": true, "strong": "H7272" }
     ]
   },
   {
@@ -1762,7 +1757,8 @@
         },
         "strong": "H504"
       },
-      { "text": "Yea, and the beasts", "strong": "H929" },
+      { "text": "Yea, and", "strong": "H1571" },
+      { "text": " the beasts", "strong": "H929" },
       { "text": " of the field;", "break": true, "strong": "H7704" }
     ]
   },
@@ -1789,11 +1785,13 @@
       "O ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " our Lord,", "break": true, "strong": "H113" },
-      { "text": "How excellent", "strong": "H117" },
+      { "text": "How", "strong": "H4100" },
+      { "text": " excellent", "strong": "H117" },
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " thy name", "strong": "H8034" },
-      { "text": " in all the earth!", "break": true, "strong": "H776" }
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the earth!", "break": true, "strong": "H776" }
     ]
   },
   {
@@ -5253,9 +5251,9 @@
       { "text": " the glory", "strong": "H3519" },
       { "text": " of God;", "break": true, "strong": "H410" },
       { "text": "And the firmament", "strong": "H7549" },
-      { "text": " sheweth his", "strong": "H5046" },
-      { "text": " handywork.", "strong": "H4639" },
-      { "break": true, "strong": "H3027" }
+      { "text": " sheweth", "strong": "H5046" },
+      { "text": " his", "strong": "H3027" },
+      { "text": " handywork.", "break": true, "strong": "H4639" }
     ]
   },
   {
@@ -23362,8 +23360,7 @@
       { "text": "But I will hope", "strong": "H3176" },
       { "text": " continually,", "break": true, "strong": "H8548" },
       { "text": "And will yet praise", "strong": "H8416" },
-      { "text": " thee more", "strong": "H3254" },
-      { "text": " and more.", "break": true, "strong": "H3254" }
+      { "text": " thee more and more.", "break": true, "strong": "H3254" }
     ]
   },
   {
@@ -40082,8 +40079,7 @@
     "verse": 2,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " his merciful", "strong": "H2617" },
-      { "text": " kindness", "strong": "H2617" },
+      { "text": " his merciful kindness", "strong": "H2617" },
       { "text": " is great", "strong": "H1396" },
       {
         "content": [{ "text": " toward us:", "break": true }, "And the truth"],

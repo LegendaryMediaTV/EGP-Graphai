@@ -112,8 +112,6 @@
 
 > _Proseuchḕ Ēsaiou._
 
-<sup>1</sup>
-
 <sup>9</sup> Ek nyktòs orthrízei tò pneûmá mou pròs sé, ho theós, dióti phō̂s tà prostágmatá sou epì tē̂s gē̂s; dikaiosýnēn máthete, hoi enoikoûntes epì tē̂s gē̂s.
 <sup>10</sup> Pépautai gàr ho asebḗs; ou mḕ máthē dikaiosýnēn epì tē̂s gē̂s, alḗtheian ou mḕ poiḗsei; arthḗtō ho asebḗs, hína mḕ ídē tḕn dóxan kyríou.
 <sup>11</sup> Kýrie, hypsēlós sou ho brachíōn, kaì ouk ḗdeisan, gnóntes dè aischynthḗtōsan; zē̂los lḗmpsetai laòn apaídeuton, kaì nŷn pŷr toùs hypenantíous édetai.
@@ -131,8 +129,6 @@
 
 > _Proseuchḕ Iōna._
 
-<sup>1</sup>
-
 <sup>3</sup> Ebóēsa en thlípsei mou pròs kýrion tòn theón mou, kaì eisḗkousén mou ek koilías hádou kraugē̂s mou; ḗkousas phōnē̂s mou.
 <sup>4</sup> Apérripsás me eis báthē kardías thalássēs, kaì potamoí me ekýklōsan, pántes hoi meteōrismoí sou kaì tà kýmatá sou ep’ emè diē̂lthon.
 <sup>5</sup> Kagṑ eîpa Apō̂smai ex ophthalmō̂n sou; âra prosthḗsō toû epiblépsai pròs naòn tòn hágión sou?
@@ -145,8 +141,6 @@
 ## Chapter 7
 
 > _Proseuchḕ Azariou._
-
-<sup>1</sup>
 
 <sup>26</sup> Eulogētòs eî, kýrie ho theòs tō̂n patérōn hēmō̂n, kaì ainetòn kaì dedoxasménon tò ónomá sou eis toùs aiō̂nas,
 <sup>27</sup> hóti díkaios eî epì pâsin, hoîs epoíēsas hēmîn, kaì pánta tà érga sou alēthiná, kaì eutheîai hai hodoí sou, kaì pâsai hai kríseis sou alētheîs,
@@ -172,8 +166,6 @@
 ## Chapter 8
 
 > _Hýmnos tō̂n triō̂n paídōn._
-
-<sup>1</sup>
 
 <sup>52</sup> Eulogētòs eî, kýrie ho theòs tō̂n patérōn hēmō̂n, kaì ainetòs kaì hyperypsoúmenos eis toùs aiō̂nas, kaì eulogēménon tò ónoma tē̂s dóxēs sou tò hágion kaì hyperainetòn kaì hyperypsoúmenon eis toùs aiō̂nas.
 <sup>53</sup> Eulogēménos eî en tō̂ naō̂ tē̂s hagías dóxēs sou kaì hyperymnētòs kaì hyperéndoxos eis toùs aiō̂nas.
@@ -217,8 +209,6 @@
 
 > _Proseuchḕ Marias tē̂s theotókou._
 
-<sup>1</sup>
-
 <sup>46</sup> Megalýnei hē psychḗ mou tòn kýrion,
 <sup>47</sup> kaì ēgallíasen tò pneûmá mou epì tō̂ theō̂ tō̂ sōtē̂rí mou,
 <sup>48</sup> hóti epéblepsen epì tḕn tapeínōsin tē̂s doúlēs autoû; idoù gàr apò toû nŷn makarioûsín me pâsai hai geneaí,
@@ -230,9 +220,9 @@
 <sup>54</sup> Antelábeto Israēl paidòs autoû mnēsthē̂nai eléous,
 <sup>55</sup> kathṑs elálēsen pròs toùs patéras hēmō̂n, tō̂ Abraam kaì tō̂ spérmati autoû héōs aiō̂nos.
 
-<sup>68</sup> Proseuchḕ Zachariou.
+> _Proseuchḕ Zachariou._
 
-Eulogētòs kýrios ho theòs toû Israēl, hóti epesképsato kaì epoíēsen lýtrōsin tō̂ laō̂ autoû
+<sup>68</sup> Eulogētòs kýrios ho theòs toû Israēl, hóti epesképsato kaì epoíēsen lýtrōsin tō̂ laō̂ autoû
 <sup>69</sup> kaì ḗgeiren kéras sōtērías hēmîn en tō̂ oíkō Dauid toû paidòs autoû,
 <sup>70</sup> kathṑs elálēsen dià stómatos tō̂n hagíōn tō̂n ap’ aiō̂nos prophētō̂n autoû,
 <sup>71</sup> sōtērían ex echthrō̂n hēmō̂n kaì ek cheiròs pántōn tō̂n misoúntōn hēmâs,
@@ -262,8 +252,6 @@ Eulogētòs kýrios ho theòs toû Israēl, hóti epesképsato kaì epoíēsen l
 ## Chapter 11
 
 > _Proseuchḕ Ezekiou._
-
-<sup>1</sup>
 
 <sup>10</sup> Egṑ eîpa En tō̂ hýpsei tō̂n hēmerō̂n mou poreúsomai en pýlais hádou, kataleípsō tà étē tà epíloipa.
 <sup>11</sup> Eîpa Oukéti ou mḕ ídō tò sōtḗrion toû theoû epì tē̂s gē̂s, ou mḕ ídō ánthrōpon metà katoikoúntōn.
@@ -301,8 +289,6 @@ Eulogētòs kýrios ho theòs toû Israēl, hóti epesképsato kaì epoíēsen l
 ## Chapter 13
 
 > _Proseuchḕ Symeōn._
-
-<sup>1</sup>
 
 <sup>29</sup> Nŷn apolýeis tòn doûlón sou, déspota, katà tò rhē̂má sou en eirḗnē,
 <sup>30</sup> hóti eîdon hoi ophthalmoí mou tò sōtḗrión sou,

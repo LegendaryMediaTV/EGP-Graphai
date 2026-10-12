@@ -4,20 +4,17 @@
     "chapter": 1,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Now it came to pass in the days",
-        "strong": "H3117"
-      },
+      { "paragraph": true, "text": "Now it came to pass", "strong": "H1961" },
+      { "text": " in the days", "strong": "H3117" },
       { "text": " of Ahasuerus,", "strong": "H325" },
-      " (",
-      {
-        "content": ["this ", { "text": "is", "marks": ["i"] }, " Ahasuerus"],
-        "strong": "H325"
-      },
+      { "text": " (this", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " Ahasuerus", "strong": "H325" },
       { "text": " which reigned,", "strong": "H4427" },
       { "text": " from India", "strong": "H1912" },
-      { "text": " even unto Ethiopia,", "strong": "H3568" },
+      { "text": " even unto", "strong": "H5704" },
+      { "text": " Ethiopia,", "strong": "H3568" },
       " ",
       { "text": "over", "marks": ["i"] },
       { "text": " an hundred", "strong": "H3967" },
@@ -32,21 +29,18 @@
     "verse": 2,
     "content": [
       { "text": "that", "marks": ["i"] },
-      { "text": " in those days,", "strong": "H3117" },
+      { "text": " in those", "strong": "H1992" },
+      { "text": " days,", "strong": "H3117" },
       { "text": " when the king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " sat", "strong": "H3427" },
       { "text": " on", "strong": "H5921" },
       { "text": " the throne", "strong": "H3678" },
       { "text": " of his kingdom,", "strong": "H4438" },
-      {
-        "content": [
-          " which ",
-          { "text": "was", "marks": ["i"] },
-          " in Shushan"
-        ],
-        "strong": "H7800"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" }
     ]
   },
@@ -60,7 +54,8 @@
       { "text": " of his reign,", "strong": "H4427" },
       { "text": " he made", "strong": "H6213" },
       { "text": " a feast", "strong": "H4960" },
-      { "text": " unto all his princes", "strong": "H8269" },
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " his princes", "strong": "H8269" },
       { "text": " and his servants;", "strong": "H5650" },
       { "text": " the power", "strong": "H2428" },
       { "text": " of Persia", "strong": "H6539" },
@@ -70,8 +65,7 @@
       { "text": " of the provinces,", "strong": "H4082" },
       " ",
       { "text": "being", "marks": ["i"] },
-      { "text": " before", "strong": "H6440" },
-      " him:"
+      { "text": " before him:", "strong": "H6440" }
     ]
   },
   {
@@ -84,7 +78,9 @@
       { "text": " the riches", "strong": "H6239" },
       { "text": " of his glorious", "strong": "H3519" },
       { "text": " kingdom", "strong": "H4438" },
-      { "text": " and the honour", "strong": "H3366" },
+      " and",
+      { "strong": "H853" },
+      { "text": " the honour", "strong": "H3366" },
       { "text": " of his excellent", "strong": "H8597" },
       { "text": " majesty", "strong": "H1420" },
       { "text": " many", "strong": "H7227" },
@@ -101,13 +97,13 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      { "text": "And when these days", "strong": "H3117" },
+      { "text": "And when these", "strong": "H428" },
+      { "text": " days", "strong": "H3117" },
       { "text": " were expired,", "strong": "H4390" },
       { "text": " the king", "strong": "H4428" },
       { "text": " made", "strong": "H6213" },
       { "text": " a feast", "strong": "H4960" },
-      { "text": " unto", "strong": "H5704" },
-      { "text": " all", "strong": "H3605" },
+      { "text": " unto all", "strong": "H3605" },
       { "text": " the people", "strong": "H5971" },
       {
         "text": " that were present",
@@ -120,7 +116,8 @@
       { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" },
       { "text": " both unto great", "strong": "H1419" },
-      { "text": " and small,", "strong": "H6996" },
+      { "text": " and", "strong": "H5704" },
+      { "text": " small,", "strong": "H6996" },
       { "text": " seven", "strong": "H7651" },
       { "text": " days,", "strong": "H3117" },
       { "text": " in the court", "strong": "H2691" },
@@ -151,7 +148,8 @@
       { "text": " with cords", "strong": "H2256" },
       { "text": " of fine linen", "strong": "H948" },
       { "text": " and purple", "strong": "H713" },
-      { "text": " to silver", "strong": "H3701" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " silver", "strong": "H3701" },
       { "text": " rings", "strong": "H1550" },
       { "text": " and pillars", "strong": "H5982" },
       { "text": " of marble:", "strong": "H8336" },
@@ -163,10 +161,10 @@
       { "text": " upon", "strong": "H5921" },
       { "text": " a pavement", "strong": "H7531" },
       { "text": " of red,", "strong": "H923" },
-      { "text": " and blue,", "strong": "H8504" },
+      { "text": " and blue,", "strong": "H8336" },
       { "text": " and white,", "strong": "H1858" },
       { "text": " and black,", "strong": "H5508" },
-      { "text": " marble.", "strong": "H8336" }
+      " marble."
     ]
   },
   {
@@ -223,15 +221,19 @@
       " ",
       { "text": "was", "marks": ["i"] },
       { "text": " according to the law;", "strong": "H1881" },
-      { "text": " none did compel:", "strong": "H597" },
+      { "text": " none", "strong": "H369" },
+      { "text": " did compel:", "strong": "H597" },
       { "text": " for", "strong": "H3588" },
       { "text": " so", "strong": "H3651" },
       { "text": " the king", "strong": "H4428" },
       { "text": " had appointed", "strong": "H3245" },
-      { "text": " to all the officers", "strong": "H7227" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the officers", "strong": "H7227" },
       { "text": " of his house,", "strong": "H1004" },
       { "text": " that they should do", "strong": "H6213" },
       { "text": " according to every man’s", "strong": "H376" },
+      { "strong": "H376" },
       { "text": " pleasure.", "strong": "H7522" }
     ]
   },
@@ -250,14 +252,10 @@
       { "text": "in", "marks": ["i"] },
       { "text": " the royal", "strong": "H4438" },
       { "text": " house", "strong": "H1004" },
-      {
-        "content": [
-          " which ",
-          { "text": "belonged", "marks": ["i"] },
-          " to king"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "belonged", "marks": ["i"] },
+      { "text": " to king", "strong": "H4428" },
       { "text": " Ahasuerus.", "strong": "H325" }
     ]
   },
@@ -271,8 +269,7 @@
       { "text": " when the heart", "strong": "H3820" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " was merry", "strong": "H2896" },
-      { "text": " with", "strong": "H854" },
-      { "text": " wine,", "strong": "H3196" },
+      { "text": " with wine,", "strong": "H3196" },
       { "text": " he commanded", "strong": "H559" },
       { "text": " Mehuman,", "strong": "H4104" },
       { "text": " Biztha,", "strong": "H968" },
@@ -291,7 +288,8 @@
         "strong": "H5631"
       },
       { "text": " that served", "strong": "H8334" },
-      { "text": " in the presence", "strong": "H6440" },
+      { "text": " in", "strong": "H854" },
+      { "text": " the presence", "strong": "H6440" },
       { "text": " of Ahasuerus", "strong": "H325" },
       { "text": " the king,", "strong": "H4428" }
     ]
@@ -314,10 +312,11 @@
       { "text": " and the princes", "strong": "H8269" },
       { "strong": "H853" },
       { "text": " her beauty:", "strong": "H3308" },
-      {
-        "content": [" for she ", { "text": "was", "marks": ["i"] }, " fair"],
-        "strong": "H2896"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " she", "strong": "H1931" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " fair", "strong": "H2896" },
       {
         "text": " to look on.",
         "foot": {
@@ -342,6 +341,7 @@
       { "text": " to come", "strong": "H935" },
       { "text": " at the king’s", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
+      { "strong": "H834" },
       { "text": " by", "strong": "H3027" },
       " ",
       { "text": "his", "marks": ["i"] },
@@ -374,15 +374,11 @@
       { "text": " to the wise men,", "strong": "H2450" },
       { "text": " which knew", "strong": "H3045" },
       { "text": " the times,", "strong": "H6256" },
-      " (",
-      {
-        "content": [
-          "for so ",
-          { "text": "was", "marks": ["i"] },
-          " the king’s"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " (for", "strong": "H3588" },
+      { "text": " so", "strong": "H3651" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " manner", "strong": "H1697" },
       { "text": " toward", "strong": "H6440" },
       { "text": " all", "strong": "H3605" },
@@ -397,14 +393,10 @@
     "verse": 14,
     "content": [
       { "text": "and the next", "strong": "H7138" },
-      {
-        "content": [
-          " unto him ",
-          { "text": "was", "marks": ["i"] },
-          " Carshena,"
-        ],
-        "strong": "H3771"
-      },
+      { "text": " unto him", "strong": "H413" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " Carshena,", "strong": "H3771" },
       { "text": " Shethar,", "strong": "H8369" },
       { "text": " Admatha,", "strong": "H133" },
       { "text": " Tarshish,", "strong": "H8659" },
@@ -444,7 +436,11 @@
       { "text": " unto the queen", "strong": "H4436" },
       { "text": " Vashti", "strong": "H2060" },
       { "text": " according to law,", "strong": "H1881" },
-      { "text": " because she hath not performed", "strong": "H6213" },
+      { "text": " because", "strong": "H5921" },
+      { "strong": "H834" },
+      { "text": " she hath", "strong": "H6213" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " performed", "strong": "H6213" },
       { "strong": "H853" },
       { "text": " the commandment", "strong": "H3982" },
       { "text": " of the king", "strong": "H4428" },
@@ -465,18 +461,24 @@
       { "text": " and the princes,", "strong": "H8269" },
       { "text": " Vashti", "strong": "H2060" },
       { "text": " the queen", "strong": "H4436" },
-      { "text": " hath not done wrong", "strong": "H5753" },
-      { "text": " to the king", "strong": "H4428" },
-      { "text": " only, but also to all the princes,", "strong": "H8269" },
-      { "text": " and to all the people", "strong": "H5971" },
-      {
-        "content": [
-          " that ",
-          { "text": "are", "marks": ["i"] },
-          " in all the provinces"
-        ],
-        "strong": "H4082"
-      },
+      { "text": " hath", "strong": "H5753" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " done wrong", "strong": "H5753" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the king", "strong": "H4428" },
+      { "text": " only,", "strong": "H905" },
+      { "text": " but also", "strong": "H3588" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the princes,", "strong": "H8269" },
+      { "text": " and to", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the people", "strong": "H5971" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " Ahasuerus.", "strong": "H325" }
     ]
@@ -486,13 +488,15 @@
     "chapter": 1,
     "verse": 17,
     "content": [
-      {
-        "content": ["For ", { "text": "this", "marks": ["i"] }, " deed"],
-        "strong": "H1697"
-      },
+      { "text": "For", "strong": "H3588" },
+      " ",
+      { "text": "this", "marks": ["i"] },
+      { "text": " deed", "strong": "H1697" },
       { "text": " of the queen", "strong": "H4436" },
       { "text": " shall come abroad", "strong": "H3318" },
-      { "text": " unto all women,", "strong": "H802" },
+      { "text": " unto", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " women,", "strong": "H802" },
       { "text": " so that they shall despise", "strong": "H959" },
       { "text": " their husbands", "strong": "H1167" },
       { "text": " in their eyes,", "strong": "H5869" },
@@ -504,9 +508,9 @@
       { "text": " Vashti", "strong": "H2060" },
       { "text": " the queen", "strong": "H4436" },
       { "text": " to be brought in", "strong": "H935" },
-      { "text": " before", "strong": "H6440" },
-      { "text": " him, but she came", "strong": "H935" },
-      " not."
+      { "text": " before him,", "strong": "H6440" },
+      { "text": " but she came", "strong": "H935" },
+      { "text": " not.", "strong": "H3808" }
     ]
   },
   {
@@ -515,13 +519,15 @@
     "verse": 18,
     "content": [
       { "text": "Likewise", "marks": ["i"] },
-      { "text": " shall the ladies", "strong": "H8282" },
+      { "text": " shall", "strong": "H559" },
+      { "text": " the ladies", "strong": "H8282" },
       { "text": " of Persia", "strong": "H6539" },
       { "text": " and Media", "strong": "H4074" },
       { "text": " say", "strong": "H559" },
       { "text": " this", "strong": "H2088" },
       { "text": " day", "strong": "H3117" },
-      { "text": " unto all the king’s", "strong": "H4428" },
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " princes,", "strong": "H8269" },
       { "text": " which", "strong": "H834" },
       { "text": " have heard", "strong": "H8085" },
@@ -545,7 +551,9 @@
     "chapter": 1,
     "verse": 19,
     "content": [
-      { "text": "If it please", "strong": "H2895" },
+      { "text": "If", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2895" },
       {
         "text": " the king,",
         "foot": {
@@ -560,9 +568,8 @@
       { "text": " let there go", "strong": "H3318" },
       { "text": " a royal", "strong": "H4438" },
       { "text": " commandment", "strong": "H1697" },
-      { "text": " from", "strong": "H4480" },
       {
-        "text": " him,",
+        "text": " from him,",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "from before him", "marks": ["i"] }]
@@ -573,8 +580,10 @@
       { "text": " among the laws", "strong": "H1881" },
       { "text": " of the Persians", "strong": "H6539" },
       { "text": " and the Medes,", "strong": "H4074" },
+      { "text": " that it be", "strong": "H5674" },
+      { "text": " not", "strong": "H3808" },
       {
-        "text": " that it be not altered,",
+        "text": " altered,",
         "foot": {
           "type": "trn",
           "content": [
@@ -584,12 +593,15 @@
         },
         "strong": "H5674"
       },
-      { "text": " That Vashti", "strong": "H2060" },
+      { "text": " That", "strong": "H834" },
+      { "text": " Vashti", "strong": "H2060" },
       { "text": " come", "strong": "H935" },
-      { "text": " no more before", "strong": "H6440" },
+      { "text": " no more", "strong": "H3808" },
+      { "text": " before", "strong": "H6440" },
       { "text": " king", "strong": "H4428" },
       { "text": " Ahasuerus;", "strong": "H325" },
-      { "text": " and let the king", "strong": "H4428" },
+      { "text": " and let", "strong": "H5414" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " give", "strong": "H5414" },
       { "text": " her royal estate", "strong": "H4438" },
       {
@@ -601,7 +613,7 @@
         "strong": "H7468"
       },
       { "text": " that is better", "strong": "H2896" },
-      " than she."
+      { "text": " than she.", "strong": "H4480" }
     ]
   },
   {
@@ -614,15 +626,19 @@
       { "text": " which", "strong": "H834" },
       { "text": " he shall make", "strong": "H6213" },
       { "text": " shall be published", "strong": "H8085" },
-      { "text": " throughout all his empire,", "strong": "H4438" },
-      { "text": " (for it is great,)", "strong": "H7227" },
+      { "text": " throughout all", "strong": "H3605" },
+      { "text": " his empire,", "strong": "H4438" },
+      { "text": " (for", "strong": "H3588" },
+      { "text": " it", "strong": "H1931" },
+      { "text": " is great,)", "strong": "H7227" },
       { "text": " all", "strong": "H3605" },
       { "text": " the wives", "strong": "H802" },
       { "text": " shall give", "strong": "H5414" },
       { "text": " to their husbands", "strong": "H1167" },
       { "text": " honour,", "strong": "H3366" },
       { "text": " both to great", "strong": "H1419" },
-      { "text": " and small.", "strong": "H6996" }
+      { "text": " and", "strong": "H5704" },
+      { "text": " small.", "strong": "H6996" }
     ]
   },
   {
@@ -658,13 +674,21 @@
     "content": [
       { "text": "for he sent", "strong": "H7971" },
       { "text": " letters", "strong": "H5612" },
-      { "text": " into all the king’s", "strong": "H4428" },
+      { "text": " into", "strong": "H413" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
-      { "text": " into every province", "strong": "H4082" },
-      { "text": " according to the writing", "strong": "H3791" },
-      { "text": " thereof, and to every people", "strong": "H5971" },
+      { "text": " into", "strong": "H413" },
+      { "text": " every province", "strong": "H4082" },
+      { "strong": "H4082" },
+      { "text": " according to the writing thereof,", "strong": "H3791" },
+      { "text": " and to", "strong": "H413" },
+      { "text": " every people", "strong": "H5971" },
+      { "strong": "H5971" },
       { "text": " after their language,", "strong": "H3956" },
-      { "text": " that every man", "strong": "H376" },
+      { "strong": "H1961" },
+      { "text": " that every", "strong": "H3605" },
+      { "text": " man", "strong": "H376" },
       { "text": " should bear rule", "strong": "H8323" },
       { "text": " in his own house,", "strong": "H1004" },
       {
@@ -708,9 +732,15 @@
       { "text": " he remembered", "strong": "H2142" },
       { "strong": "H853" },
       { "text": " Vashti,", "strong": "H2060" },
-      { "text": " and what she had done,", "strong": "H6213" },
-      { "text": " and what was decreed", "strong": "H1504" },
-      " against her."
+      " and",
+      { "strong": "H853" },
+      { "text": " what", "strong": "H834" },
+      { "text": " she had done,", "strong": "H6213" },
+      " and",
+      { "strong": "H853" },
+      { "text": " what", "strong": "H834" },
+      { "text": " was decreed", "strong": "H1504" },
+      { "text": " against her.", "strong": "H5921" }
     ]
   },
   {
@@ -721,8 +751,9 @@
       { "text": "Then said", "strong": "H559" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
-      { "text": " that ministered", "strong": "H8334" },
-      { "text": " unto him, Let there be fair", "strong": "H2896" },
+      { "text": " that ministered unto him,", "strong": "H8334" },
+      { "text": " Let there be", "strong": "H1245" },
+      { "text": " fair", "strong": "H2896" },
       { "strong": "H4758" },
       { "text": " young", "strong": "H5291" },
       { "text": " virgins", "strong": "H1330" },
@@ -735,12 +766,15 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      { "text": "and let the king", "strong": "H4428" },
+      { "text": "and let", "strong": "H6485" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " appoint", "strong": "H6485" },
       { "text": " officers", "strong": "H6496" },
-      { "text": " in all the provinces", "strong": "H4082" },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of his kingdom,", "strong": "H4438" },
       { "text": " that they may gather together", "strong": "H6908" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the fair", "strong": "H2896" },
       { "strong": "H4758" },
@@ -749,7 +783,8 @@
       { "text": " unto", "strong": "H413" },
       { "text": " Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" },
-      { "text": " to the house", "strong": "H1004" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the house", "strong": "H1004" },
       { "text": " of the women,", "strong": "H802" },
       { "text": " unto", "strong": "H413" },
       {
@@ -779,7 +814,8 @@
       { "text": " chamberlain,", "strong": "H5631" },
       { "text": " keeper", "strong": "H8104" },
       { "text": " of the women;", "strong": "H802" },
-      { "text": " and let their things for purification", "strong": "H8562" },
+      { "text": " and let", "strong": "H5414" },
+      { "text": " their things for purification", "strong": "H8562" },
       { "text": " be given", "strong": "H5414" },
       " ",
       { "text": "them:", "marks": ["i"] }
@@ -790,13 +826,15 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      { "text": "and let the maiden", "strong": "H5291" },
+      { "text": "and let", "strong": "H4427" },
+      { "text": " the maiden", "strong": "H5291" },
       { "text": " which", "strong": "H834" },
       { "text": " pleaseth", "strong": "H3190" },
       { "strong": "H5869" },
       { "text": " the king", "strong": "H4428" },
       { "text": " be queen", "strong": "H4427" },
-      { "text": " instead of Vashti.", "strong": "H2060" },
+      { "text": " instead of", "strong": "H8478" },
+      { "text": " Vashti.", "strong": "H2060" },
       { "text": " And the thing", "strong": "H1697" },
       { "text": " pleased", "strong": "H3190" },
       { "strong": "H5869" },
@@ -813,7 +851,8 @@
       { "paragraph": true, "text": "Now", "marks": ["i"] },
       { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace", "strong": "H1002" },
-      { "text": " there was a certain", "strong": "H376" },
+      { "text": " there was", "strong": "H1961" },
+      { "text": " a certain", "strong": "H376" },
       { "text": " Jew,", "strong": "H3064" },
       { "text": " whose name", "strong": "H8034" },
       " ",
@@ -856,8 +895,10 @@
     "chapter": 2,
     "verse": 7,
     "content": [
+      "And",
+      { "strong": "H1961" },
       {
-        "text": "And he brought up",
+        "text": " he brought up",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "nourished", "marks": ["i"] }]
@@ -866,13 +907,15 @@
       },
       { "strong": "H853" },
       { "text": " Hadassah,", "strong": "H1919" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", Esther,"],
-        "strong": "H635"
-      },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", Esther,", "strong": "H635" },
       { "text": " his uncle’s", "strong": "H1730" },
       { "text": " daughter:", "strong": "H1323" },
-      { "text": " for she had neither father", "strong": "H1" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " she had neither", "strong": "H369" },
+      { "text": " father", "strong": "H1" },
       { "text": " nor mother,", "strong": "H517" },
       { "text": " and the maid", "strong": "H5291" },
       " ",
@@ -891,7 +934,8 @@
         "strong": "H2896"
       },
       { "strong": "H4758" },
-      { "text": " whom Mordecai,", "strong": "H4782" },
+      { "text": " whom", "strong": "H3947" },
+      { "text": " Mordecai,", "strong": "H4782" },
       { "text": " when her father", "strong": "H1" },
       { "text": " and mother", "strong": "H517" },
       { "text": " were dead,", "strong": "H4194" },
@@ -904,11 +948,8 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "So it came to pass, when the king’s",
-        "strong": "H4428"
-      },
+      { "paragraph": true, "text": "So it came to pass,", "strong": "H1961" },
+      { "text": " when the king’s", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " was heard,", "strong": "H8085" },
@@ -918,13 +959,16 @@
       { "text": " unto", "strong": "H413" },
       { "text": " Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" },
-      { "text": " to the custody", "strong": "H3027" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the custody", "strong": "H3027" },
       { "text": " of Hegai,", "strong": "H1896" },
       { "text": " that Esther", "strong": "H635" },
       { "text": " was brought", "strong": "H3947" },
-      { "text": " also unto the king’s", "strong": "H4428" },
+      { "text": " also unto", "strong": "H413" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
-      { "text": " to the custody", "strong": "H3027" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the custody", "strong": "H3027" },
       { "text": " of Hegai,", "strong": "H1896" },
       { "text": " keeper", "strong": "H8104" },
       { "text": " of the women.", "strong": "H802" }
@@ -937,14 +981,15 @@
     "content": [
       { "text": "And the maiden", "strong": "H5291" },
       { "text": " pleased", "strong": "H3190" },
-      { "strong": "H5869" },
-      { "text": " him, and she obtained", "strong": "H5375" },
+      { "text": " him,", "strong": "H5869" },
+      { "text": " and she obtained", "strong": "H5375" },
       { "text": " kindness", "strong": "H2617" },
       { "text": " of him;", "strong": "H6440" },
       { "text": " and he speedily", "strong": "H926" },
       { "text": " gave", "strong": "H5414" },
       { "strong": "H853" },
       { "text": " her her things for purification,", "strong": "H8562" },
+      { "strong": "H853" },
       {
         "content": [
           {
@@ -954,11 +999,13 @@
               "content": ["Heb. ", { "text": "her portions", "marks": ["i"] }]
             }
           },
-          " as belonged"
+          " as belonged to her,"
         ],
         "strong": "H4490"
       },
-      { "text": " to her, and seven", "strong": "H7651" },
+      " and",
+      { "strong": "H853" },
+      { "text": " seven", "strong": "H7651" },
       { "text": " maidens,", "strong": "H5291" },
       " ",
       { "text": "which were", "marks": ["i"] },
@@ -966,20 +1013,17 @@
       { "text": " to be given", "strong": "H5414" },
       { "text": " her, out of the king’s", "strong": "H4428" },
       { "text": " house:", "strong": "H1004" },
-      { "text": " and he preferred", "strong": "H8138" },
       {
-        "content": [
-          {
-            "text": " her",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "he changed her", "marks": ["i"] }]
-            }
-          },
-          " and her maids"
-        ],
-        "strong": "H5291"
+        "text": " and he preferred her",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "he changed her", "marks": ["i"] }]
+        },
+        "strong": "H8138"
       },
+      " and",
+      { "strong": "H853" },
+      { "text": " her maids", "strong": "H5291" },
       { "text": " unto the best", "strong": "H2896" },
       " ",
       { "text": "place", "marks": ["i"] },
@@ -998,11 +1042,17 @@
       { "text": " shewed", "strong": "H5046" },
       { "strong": "H853" },
       { "text": " her people", "strong": "H5971" },
-      { "text": " nor her kindred:", "strong": "H4138" },
+      " nor",
+      { "strong": "H853" },
+      { "text": " her kindred:", "strong": "H4138" },
       { "text": " for", "strong": "H3588" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " had charged", "strong": "H6680" },
-      { "text": " her that she should not shew", "strong": "H5046" },
+      { "text": " her", "strong": "H5921" },
+      { "text": " that", "strong": "H834" },
+      { "text": " she should", "strong": "H5046" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " shew", "strong": "H5046" },
       " ",
       { "text": "it", "marks": ["i"] },
       "."
@@ -1017,30 +1067,25 @@
       { "text": " walked", "strong": "H1980" },
       { "text": " every", "strong": "H3605" },
       { "text": " day", "strong": "H3117" },
+      { "strong": "H3117" },
       { "text": " before", "strong": "H6440" },
       { "text": " the court", "strong": "H2691" },
       { "text": " of the women’s", "strong": "H802" },
       { "text": " house,", "strong": "H1004" },
       { "text": " to know", "strong": "H3045" },
-      {
-        "content": [
-          {
-            "text": " how",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "to know the peace", "marks": ["i"] }
-              ]
-            }
-          },
-          " Esther"
-        ],
-        "strong": "H635"
-      },
       { "strong": "H853" },
+      {
+        "text": " how",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "to know the peace", "marks": ["i"] }]
+        },
+        "strong": "H7965"
+      },
+      { "text": " Esther", "strong": "H635" },
       { "text": " did,", "strong": "H7965" },
-      { "text": " and what should become", "strong": "H6213" },
+      { "text": " and what", "strong": "H4100" },
+      { "text": " should become", "strong": "H6213" },
       " of her."
     ]
   },
@@ -1050,18 +1095,24 @@
     "verse": 12,
     "content": [
       { "paragraph": true, "text": "Now when every maid’s", "strong": "H5291" },
+      { "strong": "H5291" },
       { "text": " turn", "strong": "H8447" },
       { "text": " was come", "strong": "H5060" },
       { "text": " to go in", "strong": "H935" },
-      { "text": " to king", "strong": "H4428" },
+      { "text": " to", "strong": "H413" },
+      { "text": " king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
       { "text": " after", "strong": "H7093" },
-      { "text": " that she had been twelve", "strong": "H8147" },
+      { "text": " that she had been", "strong": "H1961" },
+      { "text": " twelve", "strong": "H8147" },
       { "strong": "H6240" },
       { "text": " months,", "strong": "H2320" },
       { "text": " according to the manner", "strong": "H1881" },
       { "text": " of the women,", "strong": "H802" },
-      { "text": " (for so were the days", "strong": "H3117" },
+      { "text": " (for", "strong": "H3588" },
+      { "text": " so", "strong": "H3651" },
+      { "text": " were", "strong": "H4390" },
+      { "text": " the days", "strong": "H3117" },
       { "text": " of their purifications", "strong": "H4795" },
       { "text": " accomplished,", "strong": "H4390" },
       " ",
@@ -1089,18 +1140,24 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      { "text": "then thus came", "strong": "H935" },
+      { "text": "then thus", "strong": "H2088" },
+      { "text": " came", "strong": "H935" },
       " ",
       { "text": "every", "marks": ["i"] },
       { "text": " maiden", "strong": "H5291" },
-      { "text": " unto the king;", "strong": "H4428" },
-      { "text": " whatsoever she desired", "strong": "H559" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the king;", "strong": "H4428" },
+      { "strong": "H853" },
+      { "text": " whatsoever", "strong": "H3605" },
+      { "strong": "H834" },
+      { "text": " she desired", "strong": "H559" },
       { "text": " was given", "strong": "H5414" },
       { "text": " her to go", "strong": "H935" },
-      { "text": " with", "strong": "H5973" },
-      { "text": " her out of the house", "strong": "H1004" },
+      { "text": " with her", "strong": "H5973" },
+      { "text": " out of the house", "strong": "H1004" },
       { "text": " of the women", "strong": "H802" },
-      { "text": " unto the king’s", "strong": "H4428" },
+      { "text": " unto", "strong": "H5704" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " house.", "strong": "H1004" }
     ]
   },
@@ -1110,13 +1167,17 @@
     "verse": 14,
     "content": [
       { "text": "In the evening", "strong": "H6153" },
-      { "text": " she went,", "strong": "H935" },
+      { "text": " she", "strong": "H1931" },
+      { "text": " went,", "strong": "H935" },
       { "text": " and on the morrow", "strong": "H1242" },
-      { "text": " she returned", "strong": "H7725" },
-      { "text": " into the second", "strong": "H8145" },
+      { "text": " she", "strong": "H1931" },
+      { "text": " returned", "strong": "H7725" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the second", "strong": "H8145" },
       { "text": " house", "strong": "H1004" },
       { "text": " of the women,", "strong": "H802" },
-      { "text": " to the custody", "strong": "H3027" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the custody", "strong": "H3027" },
       { "text": " of Shaashgaz,", "strong": "H8190" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " chamberlain,", "strong": "H5631" },
@@ -1125,7 +1186,11 @@
       { "text": " she came in", "strong": "H935" },
       { "text": " unto", "strong": "H413" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " no more, except the king", "strong": "H4428" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " more,", "strong": "H5750" },
+      { "text": " except", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " delighted", "strong": "H2654" },
       { "text": " in her, and that she were called", "strong": "H7121" },
       { "text": " by name.", "strong": "H8034" }
@@ -1150,19 +1215,25 @@
       { "text": " unto", "strong": "H413" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " she required", "strong": "H1245" },
-      { "text": " nothing", "strong": "H1697" },
-      { "text": " but what Hegai", "strong": "H1896" },
+      { "text": " nothing", "strong": "H3808" },
+      { "strong": "H1697" },
+      { "text": " but", "strong": "H3588" },
+      { "strong": "H518" },
+      { "strong": "H853" },
+      { "text": " what", "strong": "H834" },
+      { "text": " Hegai", "strong": "H1896" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " chamberlain,", "strong": "H5631" },
       { "text": " the keeper", "strong": "H8104" },
       { "text": " of the women,", "strong": "H802" },
       { "text": " appointed.", "strong": "H559" },
+      { "strong": "H1961" },
       { "text": " And Esther", "strong": "H635" },
       { "text": " obtained", "strong": "H5375" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in the sight", "strong": "H5869" },
-      { "text": " of all them that looked", "strong": "H7200" },
-      " upon her."
+      { "text": " of all", "strong": "H3605" },
+      { "text": " them that looked upon her.", "strong": "H7200" }
     ]
   },
   {
@@ -1175,14 +1246,15 @@
       { "text": " unto", "strong": "H413" },
       { "text": " king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
-      { "text": " into his house", "strong": "H1004" },
+      { "text": " into", "strong": "H413" },
+      { "text": " his house", "strong": "H1004" },
       { "text": " royal", "strong": "H4438" },
       { "text": " in the tenth", "strong": "H6224" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
-        "strong": "H2320"
-      },
+      { "text": " which", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the month", "strong": "H2320" },
       { "text": " Tebeth,", "strong": "H2887" },
       { "text": " in the seventh", "strong": "H7651" },
       { "text": " year", "strong": "H8141" },
@@ -1198,7 +1270,8 @@
       { "text": " loved", "strong": "H157" },
       { "strong": "H853" },
       { "text": " Esther", "strong": "H635" },
-      { "text": " above all the women,", "strong": "H802" },
+      { "text": " above all", "strong": "H3605" },
+      { "text": " the women,", "strong": "H802" },
       { "text": " and she obtained", "strong": "H5375" },
       { "text": " grace", "strong": "H2580" },
       {
@@ -1217,13 +1290,15 @@
         },
         "strong": "H6440"
       },
-      { "text": " more than all the virgins;", "strong": "H1330" },
+      { "text": " more than all", "strong": "H3605" },
+      { "text": " the virgins;", "strong": "H1330" },
       { "text": " so that he set", "strong": "H7760" },
       { "text": " the royal", "strong": "H4438" },
       { "text": " crown", "strong": "H3804" },
       { "text": " upon her head,", "strong": "H7218" },
       { "text": " and made her queen", "strong": "H4427" },
-      { "text": " instead of Vashti.", "strong": "H2060" }
+      { "text": " instead of", "strong": "H8478" },
+      { "text": " Vashti.", "strong": "H2060" }
     ]
   },
   {
@@ -1235,10 +1310,12 @@
       { "text": " made", "strong": "H6213" },
       { "text": " a great", "strong": "H1419" },
       { "text": " feast", "strong": "H4960" },
-      { "text": " unto all his princes", "strong": "H8269" },
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " his princes", "strong": "H8269" },
       { "text": " and his servants,", "strong": "H5650" },
       " ",
       { "text": "even", "marks": ["i"] },
+      { "strong": "H853" },
       { "text": " Esther’s", "strong": "H635" },
       { "text": " feast;", "strong": "H4960" },
       { "text": " and he made", "strong": "H6213" },
@@ -1277,20 +1354,28 @@
     "verse": 20,
     "content": [
       { "text": "Esther", "strong": "H635" },
-      {
-        "content": [" had not ", { "text": "yet", "marks": ["i"] }, " shewed"],
-        "strong": "H5046"
-      },
+      { "text": " had", "strong": "H5046" },
+      { "text": " not", "strong": "H369" },
+      " ",
+      { "text": "yet", "marks": ["i"] },
+      { "text": " shewed", "strong": "H5046" },
       { "text": " her kindred", "strong": "H4138" },
-      { "text": " nor her people;", "strong": "H5971" },
-      { "text": " as Mordecai", "strong": "H4782" },
+      " nor",
+      { "strong": "H853" },
+      { "text": " her people;", "strong": "H5971" },
+      { "text": " as", "strong": "H834" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " had charged", "strong": "H6680" },
-      { "text": " her: for Esther", "strong": "H635" },
+      { "text": " her:", "strong": "H5921" },
+      { "text": " for Esther", "strong": "H635" },
       { "text": " did", "strong": "H6213" },
+      { "strong": "H853" },
       { "text": " the commandment", "strong": "H3982" },
       { "text": " of Mordecai,", "strong": "H4782" },
-      { "text": " like as when she was brought up", "strong": "H545" },
-      " with him."
+      { "text": " like as", "strong": "H834" },
+      { "text": " when she was", "strong": "H1961" },
+      { "text": " brought up", "strong": "H545" },
+      { "text": " with him.", "strong": "H854" }
     ]
   },
   {
@@ -1298,7 +1383,8 @@
     "chapter": 2,
     "verse": 21,
     "content": [
-      { "paragraph": true, "text": "In those days,", "strong": "H3117" },
+      { "paragraph": true, "text": "In those", "strong": "H1992" },
+      { "text": " days,", "strong": "H3117" },
       { "text": " while Mordecai", "strong": "H4782" },
       { "text": " sat", "strong": "H3427" },
       { "text": " in the king’s", "strong": "H4428" },
@@ -1359,10 +1445,11 @@
     "chapter": 2,
     "verse": 23,
     "content": [
-      { "text": "And when inquisition", "strong": "H1245" },
-      { "text": " was made of the matter,", "strong": "H1697" },
+      { "text": "And when inquisition was made", "strong": "H1245" },
+      { "text": " of the matter,", "strong": "H1697" },
       { "text": " it was found out;", "strong": "H4672" },
-      { "text": " therefore they were both", "strong": "H8147" },
+      { "text": " therefore they were", "strong": "H8518" },
+      { "text": " both", "strong": "H8147" },
       { "text": " hanged", "strong": "H8518" },
       { "text": " on", "strong": "H5921" },
       { "text": " a tree:", "strong": "H6086" },
@@ -1391,14 +1478,17 @@
       { "text": " the son", "strong": "H1121" },
       { "text": " of Hammedatha", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
-      { "text": " and advanced", "strong": "H5375" },
-      { "text": " him, and set", "strong": "H7760" },
+      { "text": " and advanced him,", "strong": "H5375" },
+      { "text": " and set", "strong": "H7760" },
       { "strong": "H853" },
       { "text": " his seat", "strong": "H3678" },
-      { "text": " above all the princes", "strong": "H8269" },
-      " that ",
+      { "text": " above", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the princes", "strong": "H8269" },
+      { "text": " that", "strong": "H834" },
+      " ",
       { "text": "were", "marks": ["i"] },
-      " with him."
+      { "text": " with him.", "strong": "H854" }
     ]
   },
   {
@@ -1406,31 +1496,28 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      { "text": "And all the king’s", "strong": "H4428" },
+      { "text": "And all", "strong": "H3605" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " servants,", "strong": "H5650" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " in the king’s"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in the king’s", "strong": "H4428" },
       { "text": " gate,", "strong": "H8179" },
       { "text": " bowed,", "strong": "H3766" },
       { "text": " and reverenced", "strong": "H7812" },
       { "text": " Haman:", "strong": "H2001" },
       { "text": " for", "strong": "H3588" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " had so commanded", "strong": "H6680" },
+      { "text": " had", "strong": "H6680" },
+      { "text": " so", "strong": "H3651" },
+      { "text": " commanded", "strong": "H6680" },
       { "text": " concerning him. But Mordecai", "strong": "H4782" },
       { "text": " bowed", "strong": "H3766" },
+      { "text": " not,", "strong": "H3808" },
+      { "text": " nor", "strong": "H3808" },
       {
-        "content": [
-          " not, nor did ",
-          { "text": "him", "marks": ["i"] },
-          " reverence."
-        ],
+        "content": [" did ", { "text": "him", "marks": ["i"] }, " reverence."],
         "strong": "H7812"
       }
     ]
@@ -1442,20 +1529,18 @@
     "content": [
       { "text": "Then the king’s", "strong": "H4428" },
       { "text": " servants,", "strong": "H5650" },
-      {
-        "content": [
-          " which ",
-          { "text": "were", "marks": ["i"] },
-          " in the king’s"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in the king’s", "strong": "H4428" },
       { "text": " gate,", "strong": "H8179" },
       { "text": " said", "strong": "H559" },
       { "text": " unto Mordecai,", "strong": "H4782" },
-      { "text": " Why transgressest", "strong": "H5674" },
-      { "text": " thou the king’s", "strong": "H4428" },
+      { "text": " Why", "strong": "H4069" },
+      { "text": " transgressest", "strong": "H5674" },
+      { "text": " thou", "strong": "H859" },
       { "strong": "H853" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " commandment?", "strong": "H4687" }
     ]
   },
@@ -1464,14 +1549,15 @@
     "chapter": 3,
     "verse": 4,
     "content": [
-      { "text": "Now it came to pass, when they spake", "strong": "H559" },
+      { "text": "Now it came to pass,", "strong": "H1961" },
+      { "text": " when they spake", "strong": "H559" },
       { "text": " daily", "strong": "H3117" },
       { "strong": "H3117" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " him, and he hearkened", "strong": "H8085" },
+      { "text": " unto him,", "strong": "H413" },
+      { "text": " and he hearkened", "strong": "H8085" },
       { "text": " not", "strong": "H3808" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " them, that they told", "strong": "H5046" },
+      { "text": " unto them,", "strong": "H413" },
+      { "text": " that they told", "strong": "H5046" },
       { "text": " Haman,", "strong": "H2001" },
       { "text": " to see", "strong": "H7200" },
       { "text": " whether Mordecai’s", "strong": "H4782" },
@@ -1479,14 +1565,11 @@
       { "text": " would stand:", "strong": "H5975" },
       { "text": " for", "strong": "H3588" },
       { "text": " he had told", "strong": "H5046" },
-      {
-        "content": [
-          " them that he ",
-          { "text": "was", "marks": ["i"] },
-          " a Jew."
-        ],
-        "strong": "H3064"
-      }
+      { "text": " them that", "strong": "H834" },
+      { "text": " he", "strong": "H1931" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " a Jew.", "strong": "H3064" }
     ]
   },
   {
@@ -1496,9 +1579,11 @@
     "content": [
       { "text": "And when Haman", "strong": "H2001" },
       { "text": " saw", "strong": "H7200" },
-      { "text": " that Mordecai", "strong": "H4782" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " bowed", "strong": "H3766" },
-      { "text": " not, nor did him reverence,", "strong": "H7812" },
+      { "text": " not,", "strong": "H369" },
+      { "text": " nor did him reverence,", "strong": "H7812" },
       { "text": " then was Haman", "strong": "H2001" },
       { "text": " full", "strong": "H4390" },
       { "text": " of wrath.", "strong": "H2534" }
@@ -1514,22 +1599,23 @@
       { "text": " to lay", "strong": "H7971" },
       { "text": " hands", "strong": "H3027" },
       { "text": " on Mordecai", "strong": "H4782" },
-      { "text": " alone; for they had shewed", "strong": "H5046" },
+      { "text": " alone;", "strong": "H905" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " they had shewed", "strong": "H5046" },
+      { "strong": "H853" },
       { "text": " him the people", "strong": "H5971" },
       { "text": " of Mordecai:", "strong": "H4782" },
       { "text": " wherefore Haman", "strong": "H2001" },
       { "text": " sought", "strong": "H1245" },
       { "text": " to destroy", "strong": "H8045" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " throughout the whole kingdom"
-        ],
-        "strong": "H4438"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " throughout the whole", "strong": "H3605" },
+      { "text": " kingdom", "strong": "H4438" },
       { "text": " of Ahasuerus,", "strong": "H325" },
       " ",
       { "text": "even", "marks": ["i"] },
@@ -1544,10 +1630,10 @@
     "content": [
       { "paragraph": true, "text": "In the first", "strong": "H7223" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
-        "strong": "H2320"
-      },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the month", "strong": "H2320" },
       { "text": " Nisan,", "strong": "H5212" },
       { "text": " in the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
@@ -1556,10 +1642,10 @@
       { "text": " Ahasuerus,", "strong": "H325" },
       { "text": " they cast", "strong": "H5307" },
       { "text": " Pur,", "strong": "H6332" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the lot,"],
-        "strong": "H1486"
-      },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the lot,", "strong": "H1486" },
       { "text": " before", "strong": "H6440" },
       { "text": " Haman", "strong": "H2001" },
       { "text": " from day", "strong": "H3117" },
@@ -1572,10 +1658,10 @@
       { "strong": "H6240" },
       " ",
       { "text": "month", "marks": ["i"] },
-      {
-        "content": [", that ", { "text": "is", "marks": ["i"] }, ", the month"],
-        "strong": "H2320"
-      },
+      { "text": ", that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the month", "strong": "H2320" },
       { "text": " Adar.", "strong": "H143" }
     ]
   },
@@ -1593,40 +1679,41 @@
       { "text": " people", "strong": "H5971" },
       { "text": " scattered abroad", "strong": "H6340" },
       { "text": " and dispersed", "strong": "H6504" },
-      { "text": " among the people", "strong": "H5971" },
-      { "text": " in all the provinces", "strong": "H4082" },
+      { "text": " among", "strong": "H996" },
+      { "text": " the people", "strong": "H5971" },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of thy kingdom;", "strong": "H4438" },
       { "text": " and their laws", "strong": "H1881" },
       " ",
       { "text": "are", "marks": ["i"] },
       { "text": " diverse", "strong": "H8138" },
-      { "text": " from all people;", "strong": "H5971" },
-      { "text": " neither keep", "strong": "H6213" },
-      { "text": " they the king’s", "strong": "H4428" },
+      { "text": " from all", "strong": "H3605" },
+      { "text": " people;", "strong": "H5971" },
+      { "text": " neither", "strong": "H369" },
+      { "text": " keep", "strong": "H6213" },
+      { "text": " they", "strong": "H369" },
+      { "strong": "H853" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " laws:", "strong": "H1881" },
       {
-        "content": [
-          {
-            "text": " therefor",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "meet", "marks": ["i"] },
-                " Or, ",
-                { "text": "equal", "marks": ["i"] }
-              ]
-            }
-          },
-          "e it ",
-          { "text": "is", "marks": ["i"] },
-          " not for the king’s"
-        ],
-        "strong": "H4428"
+        "text": " therefor",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "meet", "marks": ["i"] },
+            " Or, ",
+            { "text": "equal", "marks": ["i"] }
+          ]
+        }
       },
+      "e it ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " not", "strong": "H369" },
+      { "text": " for the king’s", "strong": "H4428" },
       { "text": " profit", "strong": "H7737" },
-      { "text": " to suffer", "strong": "H3240" },
-      " them."
+      { "text": " to suffer them.", "strong": "H3240" }
     ]
   },
   {
@@ -1634,7 +1721,9 @@
     "chapter": 3,
     "verse": 9,
     "content": [
-      { "text": "If it please", "strong": "H2895" },
+      { "text": "If", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2895" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " let it be written", "strong": "H3789" },
       {
@@ -1657,13 +1746,15 @@
       { "text": " thousand", "strong": "H505" },
       { "text": " talents", "strong": "H3603" },
       { "text": " of silver", "strong": "H3701" },
-      { "text": " to the hands", "strong": "H3027" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the hands", "strong": "H3027" },
       { "text": " of those that have the charge", "strong": "H6213" },
       { "text": " of the business,", "strong": "H4399" },
       { "text": " to bring", "strong": "H935" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": " into the king’s", "strong": "H4428" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " treasuries.", "strong": "H1595" }
     ]
   },
@@ -1676,9 +1767,10 @@
       { "text": " took", "strong": "H5493" },
       { "strong": "H853" },
       { "text": " his ring", "strong": "H2885" },
-      { "text": " from his hand,", "strong": "H3027" },
-      { "text": " and gave", "strong": "H5414" },
-      { "text": " it unto Haman", "strong": "H2001" },
+      { "text": " from", "strong": "H5921" },
+      { "text": " his hand,", "strong": "H3027" },
+      { "text": " and gave it", "strong": "H5414" },
+      { "text": " unto Haman", "strong": "H2001" },
       { "text": " the son", "strong": "H1121" },
       { "text": " of Hammedatha", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
@@ -1709,7 +1801,7 @@
       { "text": " also, to do", "strong": "H6213" },
       { "text": " with them as it seemeth", "strong": "H5869" },
       { "text": " good", "strong": "H2896" },
-      " to thee."
+      { "text": " to thee.", "strong": "H5869" }
     ]
   },
   {
@@ -1717,7 +1809,8 @@
     "chapter": 3,
     "verse": 12,
     "content": [
-      { "paragraph": true, "text": "Then were the king’s", "strong": "H4428" },
+      { "paragraph": true, "text": "Then were", "strong": "H7121" },
+      { "text": " the king’s", "strong": "H4428" },
       {
         "text": " scribes",
         "foot": {
@@ -1727,39 +1820,39 @@
         "strong": "H5608"
       },
       { "text": " called", "strong": "H7121" },
-      { "text": " on", "strong": "H5921" },
-      { "text": " the thirteenth", "strong": "H7969" },
+      { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
       { "text": " of the first", "strong": "H7223" },
       { "text": " month,", "strong": "H2320" },
       { "text": " and there was written", "strong": "H3789" },
-      { "text": " according to all that Haman", "strong": "H2001" },
+      { "text": " according to all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Haman", "strong": "H2001" },
       { "text": " had commanded", "strong": "H6680" },
       { "text": " unto", "strong": "H413" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " lieutenants,", "strong": "H323" },
-      { "text": " and to the governors", "strong": "H6346" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " over every province,"
-        ],
-        "strong": "H4082"
-      },
-      { "text": " and to the rulers", "strong": "H8269" },
+      { "text": " and to", "strong": "H413" },
+      { "text": " the governors", "strong": "H6346" },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " over", "strong": "H5921" },
+      { "text": " every province,", "strong": "H4082" },
+      { "strong": "H4082" },
+      { "text": " and to", "strong": "H413" },
+      { "text": " the rulers", "strong": "H8269" },
       { "text": " of every people", "strong": "H5971" },
+      { "strong": "H5971" },
       { "text": " of every province", "strong": "H4082" },
-      { "text": " according to the writing", "strong": "H3791" },
+      { "strong": "H4082" },
+      { "text": " according to the writing thereof,", "strong": "H3791" },
       {
-        "content": [
-          " thereof, and ",
-          { "text": "to", "marks": ["i"] },
-          " every people"
-        ],
+        "content": [" and ", { "text": "to", "marks": ["i"] }, " every people"],
         "strong": "H5971"
       },
+      { "strong": "H5971" },
       { "text": " after their language;", "strong": "H3956" },
       { "text": " in the name", "strong": "H8034" },
       { "text": " of king", "strong": "H4428" },
@@ -1779,15 +1872,19 @@
       { "text": " were sent", "strong": "H7971" },
       { "text": " by", "strong": "H3027" },
       { "text": " posts", "strong": "H7323" },
-      { "text": " into all the king’s", "strong": "H4428" },
+      { "text": " into", "strong": "H413" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
       { "text": " to destroy,", "strong": "H8045" },
       { "text": " to kill,", "strong": "H2026" },
       { "text": " and to cause to perish,", "strong": "H6" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " Jews,", "strong": "H3064" },
       { "text": " both young", "strong": "H5288" },
-      { "text": " and old,", "strong": "H2205" },
+      { "text": " and", "strong": "H5704" },
+      { "text": " old,", "strong": "H2205" },
       { "text": " little children", "strong": "H2945" },
       { "text": " and women,", "strong": "H802" },
       { "text": " in one", "strong": "H259" },
@@ -1801,20 +1898,20 @@
       { "text": " of the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
-        "strong": "H2320"
-      },
+      { "text": " which", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the month", "strong": "H2320" },
       { "text": " Adar,", "strong": "H143" },
       {
         "content": [
           " and ",
           { "text": "to take", "marks": ["i"] },
-          " the spoil"
+          " the spoil of them"
         ],
         "strong": "H7998"
       },
-      { "text": " of them for a prey.", "strong": "H962" }
+      { "text": " for a prey.", "strong": "H962" }
     ]
   },
   {
@@ -1826,11 +1923,16 @@
       { "text": " of the writing", "strong": "H3791" },
       { "text": " for a commandment", "strong": "H1881" },
       { "text": " to be given", "strong": "H5414" },
-      { "text": " in every province", "strong": "H4082" },
+      { "text": " in every", "strong": "H3605" },
+      { "text": " province", "strong": "H4082" },
+      { "strong": "H4082" },
       { "text": " was published", "strong": "H1540" },
-      { "text": " unto all people,", "strong": "H5971" },
-      { "text": " that they should be ready", "strong": "H6264" },
-      { "text": " against that day.", "strong": "H3117" }
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " people,", "strong": "H5971" },
+      { "text": " that they should be", "strong": "H1961" },
+      { "text": " ready", "strong": "H6264" },
+      { "text": " against that", "strong": "H2088" },
+      { "text": " day.", "strong": "H3117" }
     ]
   },
   {
@@ -1863,8 +1965,10 @@
     "content": [
       { "paragraph": true, "text": "When Mordecai", "strong": "H4782" },
       { "text": " perceived", "strong": "H3045" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
-      { "text": " that was done,", "strong": "H6213" },
+      { "text": " that", "strong": "H834" },
+      { "text": " was done,", "strong": "H6213" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " rent", "strong": "H7167" },
       { "strong": "H853" },
@@ -1887,18 +1991,17 @@
     "verse": 2,
     "content": [
       { "text": "and came", "strong": "H935" },
-      { "text": " even before", "strong": "H6440" },
+      { "text": " even", "strong": "H5704" },
+      { "text": " before", "strong": "H6440" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " gate:", "strong": "H8179" },
-      {
-        "content": [
-          " for none ",
-          { "text": "might", "marks": ["i"] },
-          " enter"
-        ],
-        "strong": "H935"
-      },
-      { "text": " into the king’s", "strong": "H4428" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " none", "strong": "H369" },
+      " ",
+      { "text": "might", "marks": ["i"] },
+      { "text": " enter", "strong": "H935" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " gate", "strong": "H8179" },
       { "text": " clothed", "strong": "H3830" },
       { "text": " with sackcloth.", "strong": "H8242" }
@@ -1909,8 +2012,11 @@
     "chapter": 4,
     "verse": 3,
     "content": [
-      { "text": "And in every province,", "strong": "H4082" },
+      { "text": "And in every", "strong": "H3605" },
+      { "text": " province,", "strong": "H4082" },
+      { "strong": "H4082" },
       { "text": " whithersoever", "strong": "H4725" },
+      { "strong": "H834" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
@@ -1948,7 +2054,8 @@
       { "text": " and told", "strong": "H5046" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": " her. Then was the queen", "strong": "H4436" },
+      { "text": " her. Then was", "strong": "H2342" },
+      { "text": " the queen", "strong": "H4436" },
       { "text": " exceedingly", "strong": "H3966" },
       { "text": " grieved;", "strong": "H2342" },
       { "text": " and she sent", "strong": "H7971" },
@@ -1958,10 +2065,11 @@
       { "text": " Mordecai,", "strong": "H4782" },
       { "text": " and to take away", "strong": "H5493" },
       { "text": " his sackcloth", "strong": "H8242" },
-      { "text": " from him: but he received", "strong": "H6901" },
+      { "text": " from him:", "strong": "H5921" },
+      { "text": " but he received", "strong": "H6901" },
       " ",
       { "text": "it", "marks": ["i"] },
-      " not."
+      { "text": " not.", "strong": "H3808" }
     ]
   },
   {
@@ -1978,29 +2086,29 @@
       { "text": " chamberlains,", "strong": "H5631" },
       { "text": " whom", "strong": "H834" },
       { "text": " he had appointed", "strong": "H5975" },
-      { "text": " to attend", "strong": "H6440" },
-      { "text": " upon", "strong": "H5921" },
       {
-        "content": [
-          {
-            "text": " her,",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "whom he had set before her", "marks": ["i"] }
-              ]
-            }
-          },
-          " and gave him a commandment"
-        ],
-        "strong": "H6680"
+        "text": " to attend upon her,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "whom he had set before her", "marks": ["i"] }
+          ]
+        },
+        "strong": "H6440"
       },
-      { "text": " to Mordecai,", "strong": "H4782" },
+      { "text": " and gave him a commandment", "strong": "H6680" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " Mordecai,", "strong": "H4782" },
       { "text": " to know", "strong": "H3045" },
-      " what it ",
+      { "text": " what", "strong": "H4100" },
+      { "text": " it", "strong": "H2088" },
+      " ",
       { "text": "was", "marks": ["i"] },
-      ", and why it ",
+      { "text": ", and why", "strong": "H5921" },
+      { "strong": "H4100" },
+      { "text": " it", "strong": "H2088" },
+      " ",
       { "text": "was", "marks": ["i"] },
       "."
     ]
@@ -2012,14 +2120,15 @@
     "content": [
       { "text": "So Hatach", "strong": "H2047" },
       { "text": " went forth", "strong": "H3318" },
-      { "text": " to Mordecai", "strong": "H4782" },
+      { "text": " to", "strong": "H413" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " unto", "strong": "H413" },
       { "text": " the street", "strong": "H7339" },
       { "text": " of the city,", "strong": "H5892" },
-      {
-        "content": [" which ", { "text": "was", "marks": ["i"] }, " before"],
-        "strong": "H6440"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " before", "strong": "H6440" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" }
     ]
@@ -2031,17 +2140,23 @@
     "content": [
       { "text": "And Mordecai", "strong": "H4782" },
       { "text": " told", "strong": "H5046" },
-      { "text": " him of all that had happened", "strong": "H7136" },
-      { "text": " unto him, and of the sum", "strong": "H6575" },
+      { "strong": "H853" },
+      { "text": " him of all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " had happened unto him,", "strong": "H7136" },
+      " and of",
+      { "strong": "H853" },
+      { "text": " the sum", "strong": "H6575" },
       { "text": " of the money", "strong": "H3701" },
-      { "text": " that Haman", "strong": "H2001" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Haman", "strong": "H2001" },
       { "text": " had promised", "strong": "H559" },
       { "text": " to pay", "strong": "H8254" },
-      { "text": " to the king’s", "strong": "H4428" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " treasuries", "strong": "H1595" },
       { "text": " for the Jews,", "strong": "H3064" },
-      { "text": " to destroy", "strong": "H6" },
-      " them."
+      { "text": " to destroy them.", "strong": "H6" }
     ]
   },
   {
@@ -2050,27 +2165,32 @@
     "verse": 8,
     "content": [
       { "text": "Also he gave", "strong": "H5414" },
+      { "strong": "H853" },
       { "text": " him the copy", "strong": "H6572" },
       { "text": " of the writing", "strong": "H3791" },
       { "text": " of the decree", "strong": "H1881" },
-      { "text": " that was given", "strong": "H5414" },
+      { "text": " that", "strong": "H834" },
+      { "text": " was given", "strong": "H5414" },
       { "text": " at Shushan", "strong": "H7800" },
-      { "text": " to destroy", "strong": "H8045" },
-      { "text": " them, to shew", "strong": "H7200" },
-      { "strong": "H853" },
+      { "text": " to destroy them,", "strong": "H8045" },
+      { "text": " to shew", "strong": "H7200" },
       " ",
       { "text": "it", "marks": ["i"] },
+      { "strong": "H853" },
       { "text": " unto Esther,", "strong": "H635" },
       { "text": " and to declare", "strong": "H5046" },
       " ",
       { "text": "it", "marks": ["i"] },
       { "text": " unto her, and to charge", "strong": "H6680" },
-      { "text": " her that she should go in", "strong": "H935" },
-      { "text": " unto the king,", "strong": "H4428" },
+      { "text": " her", "strong": "H5921" },
+      { "text": " that she should go in", "strong": "H935" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the king,", "strong": "H4428" },
       { "text": " to make supplication", "strong": "H2603" },
       { "text": " unto him, and to make request", "strong": "H1245" },
-      { "text": " before", "strong": "H6440" },
-      { "text": " him for her people.", "strong": "H5971" }
+      { "text": " before him", "strong": "H6440" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " her people.", "strong": "H5971" }
     ]
   },
   {
@@ -2096,7 +2216,8 @@
       { "text": " spake", "strong": "H559" },
       { "text": " unto Hatach,", "strong": "H2047" },
       { "text": " and gave him commandment", "strong": "H6680" },
-      { "text": " unto Mordecai;", "strong": "H4782" }
+      { "text": " unto", "strong": "H413" },
+      { "text": " Mordecai;", "strong": "H4782" }
     ]
   },
   {
@@ -2111,35 +2232,45 @@
       { "text": " of the king’s", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
       { "text": " do know,", "strong": "H3045" },
-      { "text": " that whosoever, whether man", "strong": "H376" },
+      { "text": " that", "strong": "H834" },
+      { "text": " whosoever,", "strong": "H3605" },
+      { "text": " whether man", "strong": "H376" },
       { "text": " or woman,", "strong": "H802" },
+      { "strong": "H834" },
       { "text": " shall come", "strong": "H935" },
       { "text": " unto", "strong": "H413" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " into the inner", "strong": "H6442" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the inner", "strong": "H6442" },
       { "text": " court,", "strong": "H2691" },
       { "text": " who", "strong": "H834" },
-      { "text": " is not called,", "strong": "H7121" },
+      { "text": " is", "strong": "H7121" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " called,", "strong": "H7121" },
       " ",
       { "text": "there is", "marks": ["i"] },
       { "text": " one", "strong": "H259" },
-      { "text": " law", "strong": "H1881" },
+      { "text": " law of his", "strong": "H1881" },
       {
         "content": [
-          " of his to put ",
+          " to put ",
           { "text": "him", "marks": ["i"] },
           " to death,"
         ],
         "strong": "H4191"
       },
       { "text": " except", "strong": "H905" },
+      { "strong": "H834" },
       { "text": " such to whom the king", "strong": "H4428" },
       { "text": " shall hold out", "strong": "H3447" },
-      { "text": " the golden", "strong": "H2091" },
       { "strong": "H853" },
+      { "text": " the golden", "strong": "H2091" },
       { "text": " sceptre,", "strong": "H8275" },
       { "text": " that he may live:", "strong": "H2421" },
-      { "text": " but I have not been called", "strong": "H7121" },
+      { "text": " but I", "strong": "H589" },
+      { "text": " have", "strong": "H7121" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " been called", "strong": "H7121" },
       { "text": " to come in", "strong": "H935" },
       { "text": " unto", "strong": "H413" },
       { "text": " the king", "strong": "H4428" },
@@ -2155,8 +2286,8 @@
     "content": [
       { "text": "And they told", "strong": "H5046" },
       { "text": " to Mordecai", "strong": "H4782" },
-      { "text": " Esther’s", "strong": "H635" },
       { "strong": "H853" },
+      { "text": " Esther’s", "strong": "H635" },
       { "text": " words.", "strong": "H1697" }
     ]
   },
@@ -2168,6 +2299,7 @@
       { "paragraph": true, "text": "Then Mordecai", "strong": "H4782" },
       { "text": " commanded", "strong": "H559" },
       { "text": " to answer", "strong": "H7725" },
+      { "strong": "H413" },
       { "text": " Esther,", "strong": "H635" },
       { "text": " Think", "strong": "H1819" },
       { "text": " not", "strong": "H408" },
@@ -2175,7 +2307,8 @@
       { "text": " that thou shalt escape", "strong": "H4422" },
       { "text": " in the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
-      { "text": " more than all the Jews.", "strong": "H3064" }
+      { "text": " more than all", "strong": "H3605" },
+      { "text": " the Jews.", "strong": "H3064" }
     ]
   },
   {
@@ -2184,9 +2317,11 @@
     "verse": 14,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " if thou altogether", "strong": "H2790" },
+      { "text": " if", "strong": "H518" },
+      { "text": " thou altogether", "strong": "H2790" },
       { "text": " holdest thy peace", "strong": "H2790" },
-      { "text": " at this time,", "strong": "H6256" },
+      { "text": " at this", "strong": "H2063" },
+      { "text": " time,", "strong": "H6256" },
       " ",
       { "text": "then", "marks": ["i"] },
       {
@@ -2202,17 +2337,20 @@
       { "text": " to the Jews", "strong": "H3064" },
       { "text": " from another", "strong": "H312" },
       { "text": " place;", "strong": "H4725" },
-      { "text": " but thou and thy father’s", "strong": "H1" },
+      { "text": " but thou", "strong": "H859" },
+      { "text": " and thy father’s", "strong": "H1" },
       { "text": " house", "strong": "H1004" },
       { "text": " shall be destroyed:", "strong": "H6" },
-      { "text": " and who knoweth", "strong": "H3045" },
-      { "text": " whether thou art come", "strong": "H5060" },
+      { "text": " and who", "strong": "H4310" },
+      { "text": " knoweth", "strong": "H3045" },
+      { "text": " whether", "strong": "H518" },
+      { "text": " thou art come", "strong": "H5060" },
       { "text": " to the kingdom", "strong": "H4438" },
       {
         "content": [" for ", { "text": "such", "marks": ["i"] }, " a time"],
         "strong": "H6256"
       },
-      " as this?"
+      { "text": " as this?", "strong": "H2063" }
     ]
   },
   {
@@ -2225,6 +2363,7 @@
       " ",
       { "text": "them", "marks": ["i"] },
       { "text": " return", "strong": "H7725" },
+      { "strong": "H413" },
       { "text": " Mordecai", "strong": "H4782" },
       " ",
       { "text": "this answer", "marks": ["i"] },
@@ -2238,6 +2377,7 @@
     "content": [
       { "text": "Go,", "strong": "H3212" },
       { "text": " gather together", "strong": "H3664" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the Jews", "strong": "H3064" },
       {
@@ -2249,27 +2389,32 @@
         "strong": "H4672"
       },
       { "text": " in Shushan,", "strong": "H7800" },
-      { "text": " and fast", "strong": "H6684" },
-      { "text": " ye for me, and neither eat", "strong": "H398" },
-      { "text": " nor drink", "strong": "H8354" },
+      { "text": " and fast ye", "strong": "H6684" },
+      { "text": " for me,", "strong": "H5921" },
+      { "text": " and neither", "strong": "H408" },
+      { "text": " eat", "strong": "H398" },
+      { "text": " nor", "strong": "H408" },
+      { "text": " drink", "strong": "H8354" },
       { "text": " three", "strong": "H7969" },
       { "text": " days,", "strong": "H3117" },
       { "text": " night", "strong": "H3915" },
       { "text": " or day:", "strong": "H3117" },
-      { "text": " I also and my maidens", "strong": "H5291" },
+      { "text": " I", "strong": "H589" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " and my maidens", "strong": "H5291" },
       { "text": " will fast", "strong": "H6684" },
-      { "text": " likewise; and so", "strong": "H3651" },
-      { "text": " will I go", "strong": "H935" },
-      { "text": " in unto the king,", "strong": "H4428" },
-      {
-        "content": [
-          " which ",
-          { "text": "is", "marks": ["i"] },
-          " not according to the law:"
-        ],
-        "strong": "H1881"
-      },
-      { "text": " and if I perish,", "strong": "H6" },
+      { "text": " likewise;", "strong": "H3651" },
+      { "text": " and so", "strong": "H3651" },
+      { "text": " will I go in", "strong": "H935" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the king,", "strong": "H4428" },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " according to the law:", "strong": "H1881" },
+      { "text": " and if", "strong": "H834" },
+      { "text": " I perish,", "strong": "H6" },
       { "text": " I perish.", "strong": "H6" }
     ]
   },
@@ -2293,9 +2438,11 @@
         "strong": "H5674"
       },
       { "text": " and did", "strong": "H6213" },
-      { "text": " according to all that Esther", "strong": "H635" },
+      { "text": " according to all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Esther", "strong": "H635" },
       { "text": " had commanded", "strong": "H6680" },
-      " him."
+      { "text": " him.", "strong": "H5921" }
     ]
   },
   {
@@ -2304,11 +2451,8 @@
     "verse": 1,
     "content": [
       { "heading": "Esther’s Request" },
-      {
-        "paragraph": true,
-        "text": "Now it came to pass on the third",
-        "strong": "H7992"
-      },
+      { "paragraph": true, "text": "Now it came to pass", "strong": "H1961" },
+      { "text": " on the third", "strong": "H7992" },
       { "text": " day,", "strong": "H3117" },
       { "text": " that Esther", "strong": "H635" },
       { "text": " put on", "strong": "H3847" },
@@ -2327,7 +2471,8 @@
       { "text": " house:", "strong": "H1004" },
       { "text": " and the king", "strong": "H4428" },
       { "text": " sat", "strong": "H3427" },
-      { "text": " upon his royal", "strong": "H4438" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " his royal", "strong": "H4438" },
       { "text": " throne", "strong": "H3678" },
       { "text": " in the royal", "strong": "H4438" },
       { "text": " house,", "strong": "H1004" },
@@ -2341,8 +2486,10 @@
     "chapter": 5,
     "verse": 2,
     "content": [
-      { "text": "And it was so, when the king", "strong": "H4428" },
+      { "text": "And it was so,", "strong": "H1961" },
+      { "text": " when the king", "strong": "H4428" },
       { "text": " saw", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " Esther", "strong": "H635" },
       { "text": " the queen", "strong": "H4436" },
       { "text": " standing", "strong": "H5975" },
@@ -2355,16 +2502,13 @@
       { "text": " and the king", "strong": "H4428" },
       { "text": " held out", "strong": "H3447" },
       { "text": " to Esther", "strong": "H635" },
+      { "strong": "H853" },
       { "text": " the golden", "strong": "H2091" },
       { "text": " sceptre", "strong": "H8275" },
-      {
-        "content": [
-          " that ",
-          { "text": "was", "marks": ["i"] },
-          " in his hand."
-        ],
-        "strong": "H3027"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "was", "marks": ["i"] },
+      { "text": " in his hand.", "strong": "H3027" },
       { "text": " So Esther", "strong": "H635" },
       { "text": " drew near,", "strong": "H7126" },
       { "text": " and touched", "strong": "H5060" },
@@ -2379,19 +2523,18 @@
     "content": [
       { "text": "Then said", "strong": "H559" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " unto", "strong": "H5704" },
-      { "text": " her, What wilt thou, queen", "strong": "H4436" },
+      { "text": " unto her, What", "strong": "H4100" },
+      { "text": " wilt thou, queen", "strong": "H4436" },
       { "text": " Esther?", "strong": "H635" },
-      {
-        "content": [
-          " and what ",
-          { "text": "is", "marks": ["i"] },
-          " thy request?"
-        ],
-        "strong": "H1246"
-      },
-      { "text": " it shall be even given", "strong": "H5414" },
-      { "text": " thee to the half", "strong": "H2677" },
+      { "text": " and what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy request?", "strong": "H1246" },
+      { "text": " it shall be", "strong": "H5414" },
+      { "text": " even", "strong": "H5704" },
+      { "text": " given", "strong": "H5414" },
+      { "text": " thee to", "strong": "H5704" },
+      { "text": " the half", "strong": "H2677" },
       { "text": " of the kingdom.", "strong": "H4438" }
     ]
   },
@@ -2402,17 +2545,21 @@
     "content": [
       { "text": "And Esther", "strong": "H635" },
       { "text": " answered,", "strong": "H559" },
-      {
-        "content": [" If ", { "text": "it seem", "marks": ["i"] }, " good"],
-        "strong": "H2895"
-      },
-      { "text": " unto the king,", "strong": "H4428" },
-      { "text": " let the king", "strong": "H4428" },
+      { "text": " If", "strong": "H518" },
+      " ",
+      { "text": "it seem", "marks": ["i"] },
+      { "text": " good", "strong": "H2896" },
+      { "text": " unto", "strong": "H5921" },
+      { "text": " the king,", "strong": "H4428" },
+      { "text": " let", "strong": "H935" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " come", "strong": "H935" },
       { "text": " this day", "strong": "H3117" },
-      { "text": " unto the banquet", "strong": "H4960" },
-      { "text": " that I have prepared", "strong": "H6213" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the banquet", "strong": "H4960" },
+      { "text": " that", "strong": "H834" },
+      { "text": " I have prepared", "strong": "H6213" },
       " for him."
     ]
   },
@@ -2423,17 +2570,21 @@
     "content": [
       { "paragraph": true, "text": "Then the king", "strong": "H4428" },
       { "text": " said,", "strong": "H559" },
-      { "text": " Cause Haman", "strong": "H2001" },
+      { "text": " Cause", "strong": "H4116" },
+      { "strong": "H853" },
+      { "text": " Haman", "strong": "H2001" },
       { "text": " to make haste,", "strong": "H4116" },
       { "text": " that he may do", "strong": "H6213" },
-      { "text": " as Esther", "strong": "H635" },
       { "strong": "H853" },
+      { "text": " as Esther", "strong": "H635" },
       { "text": " hath said.", "strong": "H1697" },
       { "text": " So the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " came", "strong": "H935" },
-      { "text": " to the banquet", "strong": "H4960" },
-      { "text": " that Esther", "strong": "H635" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the banquet", "strong": "H4960" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Esther", "strong": "H635" },
       { "text": " had prepared.", "strong": "H6213" }
     ]
   },
@@ -2444,28 +2595,20 @@
     "content": [
       { "text": "And the king", "strong": "H4428" },
       { "text": " said", "strong": "H559" },
-      { "text": " unto", "strong": "H5704" },
-      { "text": " Esther", "strong": "H635" },
+      { "text": " unto Esther", "strong": "H635" },
       { "text": " at the banquet", "strong": "H4960" },
       { "text": " of wine,", "strong": "H3196" },
-      {
-        "content": [
-          " What ",
-          { "text": "is", "marks": ["i"] },
-          " thy petition?"
-        ],
-        "strong": "H7596"
-      },
+      { "text": " What", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy petition?", "strong": "H7596" },
       { "text": " and it shall be granted", "strong": "H5414" },
-      {
-        "content": [
-          " thee: and what ",
-          { "text": "is", "marks": ["i"] },
-          " thy request?"
-        ],
-        "strong": "H1246"
-      },
-      { "text": " even to the half", "strong": "H2677" },
+      { "text": " thee: and what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy request?", "strong": "H1246" },
+      { "text": " even to", "strong": "H5704" },
+      { "text": " the half", "strong": "H2677" },
       { "text": " of the kingdom", "strong": "H4438" },
       { "text": " it shall be performed.", "strong": "H6213" }
     ]
@@ -2490,11 +2633,14 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "text": "if I have found", "strong": "H4672" },
+      { "text": "if", "strong": "H518" },
+      { "text": " I have found", "strong": "H4672" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in the sight", "strong": "H5869" },
       { "text": " of the king,", "strong": "H4428" },
-      { "text": " and if it please", "strong": "H2895" },
+      { "text": " and if", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2896" },
       { "text": " the king", "strong": "H4428" },
       { "text": " to grant", "strong": "H5414" },
       { "strong": "H853" },
@@ -2509,11 +2655,14 @@
       },
       { "strong": "H853" },
       { "text": " my request,", "strong": "H1246" },
-      { "text": " let the king", "strong": "H4428" },
+      { "text": " let", "strong": "H935" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " come", "strong": "H935" },
-      { "text": " to the banquet", "strong": "H4960" },
-      { "text": " that I shall prepare", "strong": "H6213" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the banquet", "strong": "H4960" },
+      { "text": " that", "strong": "H834" },
+      { "text": " I shall prepare", "strong": "H6213" },
       { "text": " for them, and I will do", "strong": "H6213" },
       { "text": " to morrow", "strong": "H4279" },
       { "text": " as the king", "strong": "H4428" },
@@ -2528,18 +2677,24 @@
       { "paragraph": true, "text": "Then went", "strong": "H3318" },
       { "text": " Haman", "strong": "H2001" },
       { "text": " forth", "strong": "H3318" },
-      { "text": " that day", "strong": "H3117" },
+      { "text": " that", "strong": "H1931" },
+      { "text": " day", "strong": "H3117" },
       { "text": " joyful", "strong": "H8056" },
       { "text": " and with a glad", "strong": "H2896" },
       { "text": " heart:", "strong": "H3820" },
       { "text": " but when Haman", "strong": "H2001" },
       { "text": " saw", "strong": "H7200" },
+      { "strong": "H853" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " in the king’s", "strong": "H4428" },
       { "text": " gate,", "strong": "H8179" },
-      { "text": " that he stood not up,", "strong": "H6965" },
-      { "text": " nor moved", "strong": "H2111" },
-      { "text": " for him, he", "strong": "H2001" },
+      { "text": " that he stood", "strong": "H6965" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " up,", "strong": "H6965" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " moved", "strong": "H2111" },
+      { "text": " for him,", "strong": "H4480" },
+      { "text": " he", "strong": "H2001" },
       { "text": " was full", "strong": "H4390" },
       { "text": " of indignation", "strong": "H2534" },
       { "text": " against", "strong": "H5921" },
@@ -2552,9 +2707,10 @@
     "verse": 10,
     "content": [
       { "text": "Nevertheless Haman", "strong": "H2001" },
-      { "text": " refrained", "strong": "H662" },
-      { "text": " himself: and when he came", "strong": "H935" },
-      { "text": " home,", "strong": "H1004" },
+      { "text": " refrained himself:", "strong": "H662" },
+      { "text": " and when he came", "strong": "H935" },
+      { "text": " home,", "strong": "H413" },
+      { "strong": "H1004" },
       { "text": " he sent", "strong": "H7971" },
       {
         "text": " and called",
@@ -2566,6 +2722,7 @@
       },
       { "strong": "H853" },
       { "text": " for his friends,", "strong": "H157" },
+      { "strong": "H853" },
       { "text": " and Zeresh", "strong": "H2238" },
       { "text": " his wife.", "strong": "H802" }
     ]
@@ -2582,17 +2739,18 @@
       { "text": " of his riches,", "strong": "H6239" },
       { "text": " and the multitude", "strong": "H7230" },
       { "text": " of his children,", "strong": "H1121" },
-      {
-        "content": [
-          " and all ",
-          { "text": "the things", "marks": ["i"] },
-          " wherein the king"
-        ],
-        "strong": "H4428"
-      },
-      { "text": " had promoted", "strong": "H1431" },
-      { "text": " him, and how he had advanced", "strong": "H5375" },
-      { "text": " him above the princes", "strong": "H8269" },
+      { "strong": "H853" },
+      { "text": " and all", "strong": "H3605" },
+      " ",
+      { "text": "the things", "marks": ["i"] },
+      { "text": " wherein", "strong": "H834" },
+      { "text": " the king", "strong": "H4428" },
+      { "text": " had promoted him,", "strong": "H1431" },
+      { "strong": "H853" },
+      { "text": " and how", "strong": "H834" },
+      { "text": " he had advanced him", "strong": "H5375" },
+      { "text": " above", "strong": "H5921" },
+      { "text": " the princes", "strong": "H8269" },
       { "text": " and servants", "strong": "H5650" },
       { "text": " of the king.", "strong": "H4428" }
     ]
@@ -2604,16 +2762,28 @@
     "content": [
       { "text": "Haman", "strong": "H2001" },
       { "text": " said", "strong": "H559" },
-      { "text": " moreover, Yea, Esther", "strong": "H635" },
+      { "text": " moreover, Yea,", "strong": "H637" },
+      { "text": " Esther", "strong": "H635" },
       { "text": " the queen", "strong": "H4436" },
-      { "text": " did let no man come in", "strong": "H935" },
+      { "text": " did let", "strong": "H935" },
+      { "text": " no man", "strong": "H3808" },
+      { "text": " come in", "strong": "H935" },
       { "text": " with", "strong": "H5973" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " unto the banquet", "strong": "H4960" },
-      { "text": " that she had prepared", "strong": "H6213" },
-      { "text": " but myself; and to morrow", "strong": "H4279" },
-      { "text": " am I invited", "strong": "H7121" },
-      { "text": " unto her also with the king.", "strong": "H4428" }
+      { "text": " unto", "strong": "H413" },
+      { "text": " the banquet", "strong": "H4960" },
+      { "text": " that", "strong": "H834" },
+      { "text": " she had prepared", "strong": "H6213" },
+      { "text": " but", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " myself;", "strong": "H853" },
+      { "text": " and to morrow", "strong": "H4279" },
+      { "text": " am", "strong": "H7121" },
+      { "text": " I", "strong": "H589" },
+      { "text": " invited", "strong": "H7121" },
+      { "text": " unto her also", "strong": "H1571" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " the king.", "strong": "H4428" }
     ]
   },
   {
@@ -2621,9 +2791,15 @@
     "chapter": 5,
     "verse": 13,
     "content": [
-      { "text": "Yet all this availeth", "strong": "H7737" },
-      { "text": " me nothing, so long as", "strong": "H6256" },
-      { "text": " I see", "strong": "H7200" },
+      { "text": "Yet all", "strong": "H3605" },
+      { "text": " this", "strong": "H2088" },
+      { "text": " availeth", "strong": "H7737" },
+      { "text": " me nothing,", "strong": "H369" },
+      { "text": " so", "strong": "H3605" },
+      { "text": " long", "strong": "H6256" },
+      { "text": " as", "strong": "H834" },
+      { "text": " I", "strong": "H589" },
+      { "text": " see", "strong": "H7200" },
       { "strong": "H853" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " the Jew", "strong": "H3064" },
@@ -2640,9 +2816,11 @@
       { "text": "Then said", "strong": "H559" },
       { "text": " Zeresh", "strong": "H2238" },
       { "text": " his wife", "strong": "H802" },
-      { "text": " and all his friends", "strong": "H157" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " his friends", "strong": "H157" },
+      { "text": " unto him, Let", "strong": "H6213" },
       {
-        "text": " unto him, Let a gallows",
+        "text": " a gallows",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "tree", "marks": ["i"] }]
@@ -2654,16 +2832,18 @@
       { "text": " cubits", "strong": "H520" },
       { "text": " high,", "strong": "H1364" },
       { "text": " and to morrow", "strong": "H1242" },
-      { "text": " speak", "strong": "H559" },
-      { "text": " thou unto the king", "strong": "H4428" },
+      { "text": " speak thou", "strong": "H559" },
+      { "text": " unto the king", "strong": "H4428" },
       { "strong": "H853" },
       { "text": " that Mordecai", "strong": "H4782" },
       { "text": " may be hanged", "strong": "H8518" },
-      { "text": " thereon: then go", "strong": "H935" },
-      { "text": " thou in merrily", "strong": "H8056" },
+      { "text": " thereon:", "strong": "H5921" },
+      { "text": " then go thou in", "strong": "H935" },
+      { "text": " merrily", "strong": "H8056" },
       { "text": " with", "strong": "H5973" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " unto the banquet.", "strong": "H4960" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the banquet.", "strong": "H4960" },
       { "text": " And the thing", "strong": "H1697" },
       { "text": " pleased", "strong": "H3190" },
       { "strong": "H6440" },
@@ -2678,7 +2858,8 @@
     "chapter": 6,
     "verse": 1,
     "content": [
-      { "paragraph": true, "text": "On that night", "strong": "H3915" },
+      { "paragraph": true, "text": "On that", "strong": "H1931" },
+      { "text": " night", "strong": "H3915" },
       { "text": " could not", "strong": "H5074" },
       { "text": " the king", "strong": "H4428" },
       {
@@ -2699,6 +2880,7 @@
       { "text": " of records", "strong": "H2146" },
       { "text": " of the chronicles;", "strong": "H1697" },
       { "strong": "H3117" },
+      { "strong": "H1961" },
       { "text": " and they were read", "strong": "H7121" },
       { "text": " before", "strong": "H6440" },
       { "text": " the king.", "strong": "H4428" }
@@ -2711,10 +2893,12 @@
     "content": [
       { "text": "And it was found", "strong": "H4672" },
       { "text": " written,", "strong": "H3789" },
-      { "text": " that Mordecai", "strong": "H4782" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " had told", "strong": "H5046" },
+      { "text": " of", "strong": "H5921" },
       {
-        "text": " of Bigthana",
+        "text": " Bigthana",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "Bigthan", "marks": ["i"] }]
@@ -2738,8 +2922,7 @@
       { "text": " sought", "strong": "H1245" },
       { "text": " to lay", "strong": "H7971" },
       { "text": " hand", "strong": "H3027" },
-      { "text": " on", "strong": "H5921" },
-      { "text": " the king", "strong": "H4428" },
+      { "text": " on the king", "strong": "H4428" },
       { "text": " Ahasuerus.", "strong": "H325" }
     ]
   },
@@ -2755,13 +2938,16 @@
       { "text": " and dignity", "strong": "H1420" },
       { "text": " hath been done", "strong": "H6213" },
       { "text": " to Mordecai", "strong": "H4782" },
-      { "text": " for this? Then said", "strong": "H559" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " this?", "strong": "H2088" },
+      { "text": " Then said", "strong": "H559" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
-      { "text": " that ministered", "strong": "H8334" },
-      { "text": " unto him, There is nothing", "strong": "H1697" },
+      { "text": " that ministered unto him,", "strong": "H8334" },
+      { "text": " There is nothing", "strong": "H3808" },
+      { "strong": "H1697" },
       { "text": " done", "strong": "H6213" },
-      " for him."
+      { "text": " for him.", "strong": "H5973" }
     ]
   },
   {
@@ -2771,14 +2957,10 @@
     "content": [
       { "paragraph": true, "text": "And the king", "strong": "H4428" },
       { "text": " said,", "strong": "H559" },
-      {
-        "content": [
-          " Who ",
-          { "text": "is", "marks": ["i"] },
-          " in the court?"
-        ],
-        "strong": "H2691"
-      },
+      { "text": " Who", "strong": "H4310" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " in the court?", "strong": "H2691" },
       { "text": " Now Haman", "strong": "H2001" },
       { "text": " was come", "strong": "H935" },
       { "text": " into the outward", "strong": "H2435" },
@@ -2792,7 +2974,8 @@
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " on", "strong": "H5921" },
       { "text": " the gallows", "strong": "H6086" },
-      { "text": " that he had prepared", "strong": "H3559" },
+      { "text": " that", "strong": "H834" },
+      { "text": " he had prepared", "strong": "H3559" },
       " for him."
     ]
   },
@@ -2804,8 +2987,9 @@
       { "text": "And the king’s", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
       { "text": " said", "strong": "H559" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " him, Behold, Haman", "strong": "H2001" },
+      { "text": " unto him,", "strong": "H413" },
+      { "text": " Behold,", "strong": "H2009" },
+      { "text": " Haman", "strong": "H2001" },
       { "text": " standeth", "strong": "H5975" },
       { "text": " in the court.", "strong": "H2691" },
       { "text": " And the king", "strong": "H4428" },
@@ -2822,7 +3006,8 @@
       { "text": " came in.", "strong": "H935" },
       { "text": " And the king", "strong": "H4428" },
       { "text": " said", "strong": "H559" },
-      { "text": " unto him, What shall be done", "strong": "H6213" },
+      { "text": " unto him, What", "strong": "H4100" },
+      { "text": " shall be done", "strong": "H6213" },
       { "text": " unto the man", "strong": "H376" },
       { "text": " whom", "strong": "H834" },
       { "text": " the king", "strong": "H4428" },
@@ -2831,12 +3016,14 @@
       { "text": " Now Haman", "strong": "H2001" },
       { "text": " thought", "strong": "H559" },
       { "text": " in his heart,", "strong": "H3820" },
-      { "text": " To whom would the king", "strong": "H4428" },
+      { "text": " To whom", "strong": "H4310" },
+      { "text": " would", "strong": "H2654" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " delight", "strong": "H2654" },
       { "text": " to do", "strong": "H6213" },
       { "text": " honour", "strong": "H3366" },
       { "text": " more", "strong": "H3148" },
-      " than to myself?"
+      { "text": " than to myself?", "strong": "H4480" }
     ]
   },
   {
@@ -2846,6 +3033,7 @@
     "content": [
       { "text": "And Haman", "strong": "H2001" },
       { "text": " answered", "strong": "H559" },
+      { "strong": "H413" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " For the man", "strong": "H376" },
       { "text": " whom", "strong": "H834" },
@@ -2859,7 +3047,8 @@
     "chapter": 6,
     "verse": 8,
     "content": [
-      { "text": "let the royal", "strong": "H4438" },
+      { "text": "let", "strong": "H935" },
+      { "text": " the royal", "strong": "H4438" },
       { "text": " apparel", "strong": "H3830" },
       {
         "text": " be brought",
@@ -2888,14 +3077,15 @@
         "strong": "H3847"
       },
       { "text": " and the horse", "strong": "H5483" },
-      { "text": " that the king", "strong": "H4428" },
+      { "text": " that", "strong": "H834" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " rideth", "strong": "H7392" },
-      { "text": " upon, and the crown", "strong": "H3804" },
+      { "text": " upon,", "strong": "H5921" },
+      { "text": " and the crown", "strong": "H3804" },
       { "text": " royal", "strong": "H4438" },
       { "text": " which", "strong": "H834" },
       { "text": " is set", "strong": "H5414" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " his head:", "strong": "H7218" }
+      { "text": " upon his head:", "strong": "H7218" }
     ]
   },
   {
@@ -2903,24 +3093,29 @@
     "chapter": 6,
     "verse": 9,
     "content": [
-      { "text": "and let this apparel", "strong": "H3830" },
+      { "text": "and let", "strong": "H5414" },
+      { "text": " this apparel", "strong": "H3830" },
       { "text": " and horse", "strong": "H5483" },
       { "text": " be delivered", "strong": "H5414" },
-      { "text": " to the hand", "strong": "H3027" },
+      { "text": " to", "strong": "H5921" },
+      { "text": " the hand", "strong": "H3027" },
       { "text": " of one", "strong": "H376" },
       { "text": " of the king’s", "strong": "H4428" },
       { "text": " most noble", "strong": "H6579" },
       { "text": " princes,", "strong": "H8269" },
       { "text": " that they may array", "strong": "H3847" },
+      { "strong": "H853" },
       { "text": " the man", "strong": "H376" },
       " ",
       { "text": "withal", "marks": ["i"] },
-      { "text": " whom the king", "strong": "H4428" },
+      { "text": " whom", "strong": "H834" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " delighteth", "strong": "H2654" },
       { "text": " to honour,", "strong": "H3366" },
-      { "text": " and bring", "strong": "H7392" },
+      { "text": " and bring him", "strong": "H7392" },
+      { "text": " on", "strong": "H5921" },
       {
-        "text": " him on horseback",
+        "text": " horseback",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "cause him to ride", "marks": ["i"] }]
@@ -2930,8 +3125,9 @@
       { "text": " through the street", "strong": "H7339" },
       { "text": " of the city,", "strong": "H5892" },
       { "text": " and proclaim", "strong": "H7121" },
-      { "text": " before", "strong": "H6440" },
-      { "text": " him, Thus shall it be done", "strong": "H6213" },
+      { "text": " before him,", "strong": "H6440" },
+      { "text": " Thus", "strong": "H3602" },
+      { "text": " shall it be done", "strong": "H6213" },
       { "text": " to the man", "strong": "H376" },
       { "text": " whom", "strong": "H834" },
       { "text": " the king", "strong": "H4428" },
@@ -2953,15 +3149,20 @@
       { "text": " take", "strong": "H3947" },
       { "strong": "H853" },
       { "text": " the apparel", "strong": "H3830" },
+      { "strong": "H853" },
       { "text": " and the horse,", "strong": "H5483" },
-      { "text": " as thou hast said,", "strong": "H1696" },
+      { "text": " as", "strong": "H834" },
+      { "text": " thou hast said,", "strong": "H1696" },
       { "text": " and do", "strong": "H6213" },
-      { "text": " even so to Mordecai", "strong": "H4782" },
+      { "text": " even so", "strong": "H3651" },
+      { "text": " to Mordecai", "strong": "H4782" },
       { "text": " the Jew,", "strong": "H3064" },
       { "text": " that sitteth", "strong": "H3427" },
       { "text": " at the king’s", "strong": "H4428" },
       { "text": " gate:", "strong": "H8179" },
-      { "text": " let nothing", "strong": "H1697" },
+      { "text": " let", "strong": "H5307" },
+      { "text": " nothing", "strong": "H408" },
+      { "strong": "H1697" },
       {
         "text": " fail",
         "foot": {
@@ -2973,7 +3174,9 @@
         },
         "strong": "H5307"
       },
-      { "text": " of all that thou hast spoken.", "strong": "H1696" }
+      { "text": " of all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " thou hast spoken.", "strong": "H1696" }
     ]
   },
   {
@@ -2985,6 +3188,7 @@
       { "text": " Haman", "strong": "H2001" },
       { "strong": "H853" },
       { "text": " the apparel", "strong": "H3830" },
+      { "strong": "H853" },
       { "text": " and the horse,", "strong": "H5483" },
       { "text": " and arrayed", "strong": "H3847" },
       { "strong": "H853" },
@@ -2993,8 +3197,9 @@
       { "text": " through the street", "strong": "H7339" },
       { "text": " of the city,", "strong": "H5892" },
       { "text": " and proclaimed", "strong": "H7121" },
-      { "text": " before", "strong": "H6440" },
-      { "text": " him, Thus shall it be done", "strong": "H6213" },
+      { "text": " before him,", "strong": "H6440" },
+      { "text": " Thus", "strong": "H3602" },
+      { "text": " shall it be done", "strong": "H6213" },
       { "text": " unto the man", "strong": "H376" },
       { "text": " whom", "strong": "H834" },
       { "text": " the king", "strong": "H4428" },
@@ -3009,13 +3214,16 @@
     "content": [
       { "text": "And Mordecai", "strong": "H4782" },
       { "text": " came again", "strong": "H7725" },
-      { "text": " to the king’s", "strong": "H4428" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" },
       { "text": " But Haman", "strong": "H2001" },
       { "text": " hasted", "strong": "H1765" },
-      { "text": " to his house", "strong": "H1004" },
+      { "text": " to", "strong": "H413" },
+      { "text": " his house", "strong": "H1004" },
       { "text": " mourning,", "strong": "H57" },
-      { "text": " and having his head", "strong": "H7218" },
+      { "text": " and having", "strong": "H2645" },
+      { "text": " his head", "strong": "H7218" },
       { "text": " covered.", "strong": "H2645" }
     ]
   },
@@ -3028,20 +3236,20 @@
       { "text": " told", "strong": "H5608" },
       { "text": " Zeresh", "strong": "H2238" },
       { "text": " his wife", "strong": "H802" },
-      { "text": " and all his friends", "strong": "H157" },
-      {
-        "content": [
-          " every ",
-          { "text": "thing", "marks": ["i"] },
-          " that had befallen"
-        ],
-        "strong": "H7136"
-      },
-      { "text": " him. Then said", "strong": "H559" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " his friends", "strong": "H157" },
+      { "strong": "H853" },
+      { "text": " every", "strong": "H3605" },
+      " ",
+      { "text": "thing", "marks": ["i"] },
+      { "text": " that", "strong": "H834" },
+      { "text": " had befallen him.", "strong": "H7136" },
+      { "text": " Then said", "strong": "H559" },
       { "text": " his wise men", "strong": "H2450" },
       { "text": " and Zeresh", "strong": "H2238" },
       { "text": " his wife", "strong": "H802" },
-      { "text": " unto him, If Mordecai", "strong": "H4782" },
+      { "text": " unto him, If", "strong": "H518" },
+      { "text": " Mordecai", "strong": "H4782" },
       " ",
       { "text": "be", "marks": ["i"] },
       { "text": " of the seed", "strong": "H2233" },
@@ -3050,12 +3258,14 @@
       { "text": " whom", "strong": "H834" },
       { "text": " thou hast begun", "strong": "H2490" },
       { "text": " to fall,", "strong": "H5307" },
-      { "text": " thou shalt not prevail", "strong": "H3201" },
-      { "text": " against him, but shalt", "strong": "H5307" },
-      { "text": " surely", "strong": "H3588" },
+      { "text": " thou shalt", "strong": "H3201" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " prevail", "strong": "H3201" },
+      { "text": " against him, but", "strong": "H3588" },
+      { "text": " shalt", "strong": "H5307" },
+      { "text": " surely", "strong": "H5307" },
       { "text": " fall", "strong": "H5307" },
-      { "text": " before", "strong": "H6440" },
-      " him."
+      { "text": " before him.", "strong": "H6440" }
     ]
   },
   {
@@ -3063,16 +3273,13 @@
     "chapter": 6,
     "verse": 14,
     "content": [
-      {
-        "content": [
-          "And while they ",
-          { "text": "were", "marks": ["i"] },
-          " yet talking"
-        ],
-        "strong": "H1696"
-      },
-      { "text": " with", "strong": "H5973" },
-      { "text": " him, came", "strong": "H5060" },
+      { "text": "And while they", "strong": "H5750" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " yet", "strong": "H5750" },
+      { "text": " talking", "strong": "H1696" },
+      { "text": " with him,", "strong": "H5973" },
+      { "text": " came", "strong": "H5060" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " chamberlains,", "strong": "H5631" },
       { "text": " and hasted", "strong": "H926" },
@@ -3081,7 +3288,8 @@
       { "text": " Haman", "strong": "H2001" },
       { "text": " unto", "strong": "H413" },
       { "text": " the banquet", "strong": "H4960" },
-      { "text": " that Esther", "strong": "H635" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Esther", "strong": "H635" },
       { "text": " had prepared.", "strong": "H6213" }
     ]
   },
@@ -3113,34 +3321,28 @@
     "content": [
       { "text": "And the king", "strong": "H4428" },
       { "text": " said", "strong": "H559" },
-      { "text": " again unto Esther", "strong": "H635" },
+      { "text": " again", "strong": "H1571" },
+      { "text": " unto Esther", "strong": "H635" },
       { "text": " on the second", "strong": "H8145" },
       { "text": " day", "strong": "H3117" },
       { "text": " at the banquet", "strong": "H4960" },
       { "text": " of wine,", "strong": "H3196" },
-      {
-        "content": [
-          " What ",
-          { "text": "is", "marks": ["i"] },
-          " thy petition,"
-        ],
-        "strong": "H7596"
-      },
+      { "text": " What", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy petition,", "strong": "H7596" },
       { "text": " queen", "strong": "H4436" },
       { "text": " Esther?", "strong": "H635" },
       { "text": " and it shall be granted", "strong": "H5414" },
-      {
-        "content": [
-          " thee: and what ",
-          { "text": "is", "marks": ["i"] },
-          " thy request?"
-        ],
-        "strong": "H1246"
-      },
+      { "text": " thee: and what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy request?", "strong": "H1246" },
       { "text": " and it shall be performed,", "strong": "H6213" },
       " ",
       { "text": "even", "marks": ["i"] },
-      { "text": " to the half", "strong": "H2677" },
+      { "text": " to", "strong": "H5704" },
+      { "text": " the half", "strong": "H2677" },
       { "text": " of the kingdom.", "strong": "H4438" }
     ]
   },
@@ -3153,13 +3355,17 @@
       { "text": " the queen", "strong": "H4436" },
       { "text": " answered", "strong": "H6030" },
       { "text": " and said,", "strong": "H559" },
-      { "text": " If I have found", "strong": "H4672" },
+      { "text": " If", "strong": "H518" },
+      { "text": " I have found", "strong": "H4672" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in thy sight,", "strong": "H5869" },
       { "text": " O king,", "strong": "H4428" },
-      { "text": " and if it please", "strong": "H2895" },
+      { "text": " and if", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2896" },
       { "text": " the king,", "strong": "H4428" },
-      { "text": " let my life", "strong": "H5315" },
+      { "text": " let", "strong": "H5414" },
+      { "text": " my life", "strong": "H5315" },
       { "text": " be given", "strong": "H5414" },
       { "text": " me at my petition,", "strong": "H7596" },
       { "text": " and my people", "strong": "H5971" },
@@ -3173,7 +3379,8 @@
     "content": [
       { "text": "for", "strong": "H3588" },
       { "text": " we are sold,", "strong": "H4376" },
-      { "text": " I and my people,", "strong": "H5971" },
+      { "text": " I", "strong": "H589" },
+      { "text": " and my people,", "strong": "H5971" },
       { "text": " to be destroyed,", "strong": "H8045" },
       { "text": " to be slain,", "strong": "H2026" },
       {
@@ -3192,12 +3399,13 @@
       },
       { "text": " But if", "strong": "H432" },
       { "text": " we had been sold", "strong": "H4376" },
-      { "text": " for", "strong": "H3588" },
-      { "text": " bondmen", "strong": "H5650" },
+      { "text": " for bondmen", "strong": "H5650" },
       { "text": " and bondwomen,", "strong": "H8198" },
       { "text": " I had held my tongue,", "strong": "H2790" },
-      { "text": " although the enemy", "strong": "H6862" },
-      { "text": " could not countervail", "strong": "H7737" },
+      { "text": " although", "strong": "H3588" },
+      { "text": " the enemy", "strong": "H6862" },
+      { "text": " could not", "strong": "H369" },
+      { "text": " countervail", "strong": "H7737" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " damage.", "strong": "H5143" }
     ]
@@ -3213,11 +3421,14 @@
       { "text": " and said", "strong": "H559" },
       { "text": " unto Esther", "strong": "H635" },
       { "text": " the queen,", "strong": "H4436" },
-      { "text": " Who", "strong": "H834" },
-      {
-        "text": " is he, and where is he, that durst presume",
-        "strong": "H4390"
-      },
+      { "text": " Who", "strong": "H4310" },
+      { "text": " is he,", "strong": "H1931" },
+      { "strong": "H2088" },
+      { "text": " and where", "strong": "H335" },
+      { "strong": "H2088" },
+      { "text": " is he,", "strong": "H1931" },
+      { "text": " that", "strong": "H834" },
+      { "text": " durst presume", "strong": "H4390" },
       {
         "text": " in his heart",
         "foot": {
@@ -3230,7 +3441,7 @@
         "strong": "H3820"
       },
       { "text": " to do", "strong": "H6213" },
-      " so?"
+      { "text": " so?", "strong": "H3651" }
     ]
   },
   {
@@ -3252,7 +3463,8 @@
       { "text": " and enemy", "strong": "H341" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " this wicked", "strong": "H7451" },
+      { "text": " this", "strong": "H2088" },
+      { "text": " wicked", "strong": "H7451" },
       { "text": " Haman.", "strong": "H2001" },
       { "text": " Then Haman", "strong": "H2001" },
       { "text": " was afraid", "strong": "H1204" },
@@ -3280,21 +3492,24 @@
       { "text": " in his wrath", "strong": "H2534" },
       " ",
       { "text": "went", "marks": ["i"] },
-      { "text": " into the palace", "strong": "H1055" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the palace", "strong": "H1055" },
       { "text": " garden:", "strong": "H1594" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " stood up", "strong": "H5975" },
       { "text": " to make request", "strong": "H1245" },
-      { "text": " for", "strong": "H3588" },
+      { "text": " for", "strong": "H5921" },
       { "text": " his life", "strong": "H5315" },
       { "text": " to Esther", "strong": "H635" },
       { "text": " the queen;", "strong": "H4436" },
       { "text": " for", "strong": "H3588" },
       { "text": " he saw", "strong": "H7200" },
-      { "text": " that there was evil", "strong": "H7451" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " there was evil", "strong": "H7451" },
       { "text": " determined", "strong": "H3615" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " him by the king.", "strong": "H4428" }
+      { "text": " against him", "strong": "H413" },
+      { "text": " by", "strong": "H854" },
+      { "text": " the king.", "strong": "H4428" }
     ]
   },
   {
@@ -3306,14 +3521,17 @@
       { "text": " returned", "strong": "H7725" },
       { "text": " out of the palace", "strong": "H1055" },
       { "text": " garden", "strong": "H1594" },
-      { "text": " into the place", "strong": "H1004" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the place", "strong": "H1004" },
       { "text": " of the banquet", "strong": "H4960" },
       { "text": " of wine;", "strong": "H3196" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " was fallen", "strong": "H5307" },
       { "text": " upon", "strong": "H5921" },
       { "text": " the bed", "strong": "H4296" },
-      { "text": " whereon Esther", "strong": "H635" },
+      { "text": " whereon", "strong": "H834" },
+      { "strong": "H5921" },
+      { "text": " Esther", "strong": "H635" },
       " ",
       { "text": "was", "marks": ["i"] },
       { "text": ". Then said", "strong": "H559" },
@@ -3323,18 +3541,14 @@
       { "text": " the queen", "strong": "H4436" },
       { "text": " also", "strong": "H1571" },
       {
-        "content": [
-          {
-            "text": " before me",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "with me", "marks": ["i"] }]
-            }
-          },
-          " in the house?"
-        ],
-        "strong": "H1004"
+        "text": " before me",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "with me", "marks": ["i"] }]
+        },
+        "strong": "H5973"
       },
+      { "text": " in the house?", "strong": "H1004" },
       { "text": " As the word", "strong": "H1697" },
       { "text": " went out", "strong": "H3318" },
       { "text": " of the king’s", "strong": "H4428" },
@@ -3351,13 +3565,15 @@
     "content": [
       { "text": "And Harbonah,", "strong": "H2726" },
       { "text": " one", "strong": "H259" },
-      { "text": " of the chamberlains,", "strong": "H5631" },
+      { "text": " of", "strong": "H4480" },
+      { "text": " the chamberlains,", "strong": "H5631" },
       { "text": " said", "strong": "H559" },
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " Behold", "strong": "H2009" },
+      { "text": " also,", "strong": "H1571" },
       {
-        "text": " also, the gallows",
+        "text": " the gallows",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "tree", "marks": ["i"] }]
@@ -3374,14 +3590,15 @@
       { "text": " who", "strong": "H834" },
       { "text": " had spoken", "strong": "H1696" },
       { "text": " good", "strong": "H2896" },
-      { "text": " for the king,", "strong": "H4428" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " the king,", "strong": "H4428" },
       { "text": " standeth", "strong": "H5975" },
       { "text": " in the house", "strong": "H1004" },
       { "text": " of Haman.", "strong": "H2001" },
       { "text": " Then the king", "strong": "H4428" },
       { "text": " said,", "strong": "H559" },
-      { "text": " Hang", "strong": "H8518" },
-      " him thereon."
+      { "text": " Hang him", "strong": "H8518" },
+      { "text": " thereon.", "strong": "H5921" }
     ]
   },
   {
@@ -3394,9 +3611,11 @@
       { "text": " Haman", "strong": "H2001" },
       { "text": " on", "strong": "H5921" },
       { "text": " the gallows", "strong": "H6086" },
-      { "text": " that he had prepared", "strong": "H3559" },
+      { "text": " that", "strong": "H834" },
+      { "text": " he had prepared", "strong": "H3559" },
       { "text": " for Mordecai.", "strong": "H4782" },
-      { "text": " Then was the king’s", "strong": "H4428" },
+      { "text": " Then was", "strong": "H7918" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " wrath", "strong": "H2534" },
       { "text": " pacified.", "strong": "H7918" }
     ]
@@ -3407,7 +3626,8 @@
     "verse": 1,
     "content": [
       { "heading": "Mordecai Honoured" },
-      { "paragraph": true, "text": "On that day", "strong": "H3117" },
+      { "paragraph": true, "text": "On that", "strong": "H1931" },
+      { "text": " day", "strong": "H3117" },
       { "text": " did the king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " give", "strong": "H5414" },
@@ -3425,7 +3645,9 @@
       { "text": " for", "strong": "H3588" },
       { "text": " Esther", "strong": "H635" },
       { "text": " had told", "strong": "H5046" },
-      " what he ",
+      { "text": " what", "strong": "H4100" },
+      { "text": " he", "strong": "H1931" },
+      " ",
       { "text": "was", "marks": ["i"] },
       " unto her."
     ]
@@ -3442,10 +3664,11 @@
       { "text": " which", "strong": "H834" },
       { "text": " he had taken", "strong": "H5674" },
       { "text": " from Haman,", "strong": "H2001" },
-      { "text": " and gave", "strong": "H5414" },
-      { "text": " it unto Mordecai.", "strong": "H4782" },
+      { "text": " and gave it", "strong": "H5414" },
+      { "text": " unto Mordecai.", "strong": "H4782" },
       { "text": " And Esther", "strong": "H635" },
       { "text": " set", "strong": "H7760" },
+      { "strong": "H853" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " over", "strong": "H5921" },
       { "text": " the house", "strong": "H1004" },
@@ -3482,8 +3705,10 @@
       { "text": " the mischief", "strong": "H7451" },
       { "text": " of Haman", "strong": "H2001" },
       { "text": " the Agagite,", "strong": "H91" },
+      { "strong": "H853" },
       { "text": " and his device", "strong": "H4284" },
-      { "text": " that he had devised", "strong": "H2803" },
+      { "text": " that", "strong": "H834" },
+      { "text": " he had devised", "strong": "H2803" },
       { "text": " against", "strong": "H5921" },
       { "text": " the Jews.", "strong": "H3064" }
     ]
@@ -3495,8 +3720,8 @@
     "content": [
       { "text": "Then the king", "strong": "H4428" },
       { "text": " held out", "strong": "H3447" },
-      { "text": " the golden", "strong": "H2091" },
       { "strong": "H853" },
+      { "text": " the golden", "strong": "H2091" },
       { "text": " sceptre", "strong": "H8275" },
       { "text": " toward Esther.", "strong": "H635" },
       { "text": " So Esther", "strong": "H635" },
@@ -3512,9 +3737,12 @@
     "verse": 5,
     "content": [
       { "text": "and said,", "strong": "H559" },
-      { "text": " If it please", "strong": "H2896" },
+      { "text": " If", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2896" },
       { "text": " the king,", "strong": "H4428" },
-      { "text": " and if I have found", "strong": "H4672" },
+      { "text": " and if", "strong": "H518" },
+      { "text": " I have found", "strong": "H4672" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in his sight,", "strong": "H6440" },
       { "text": " and the thing", "strong": "H1697" },
@@ -3523,10 +3751,10 @@
       { "text": " right", "strong": "H3787" },
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
-      {
-        "content": [" and I ", { "text": "be", "marks": ["i"] }, " pleasing"],
-        "strong": "H2896"
-      },
+      { "text": " and I", "strong": "H589" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " pleasing", "strong": "H2896" },
       { "text": " in his eyes,", "strong": "H5869" },
       { "text": " let it be written", "strong": "H3789" },
       { "text": " to reverse", "strong": "H7725" },
@@ -3556,14 +3784,11 @@
       { "text": " to destroy", "strong": "H6" },
       { "strong": "H853" },
       { "text": " the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " which ",
-          { "text": "are", "marks": ["i"] },
-          " in all the king’s"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " provinces:", "strong": "H4082" }
     ]
   },
@@ -3587,7 +3812,8 @@
         "strong": "H7200"
       },
       { "text": " the evil", "strong": "H7451" },
-      { "text": " that shall come", "strong": "H4672" },
+      { "text": " that", "strong": "H834" },
+      { "text": " shall come", "strong": "H4672" },
       { "strong": "H853" },
       { "text": " unto my people?", "strong": "H5971" },
       { "text": " or how", "strong": "H349" },
@@ -3609,17 +3835,20 @@
       { "text": " the queen", "strong": "H4436" },
       { "text": " and to Mordecai", "strong": "H4782" },
       { "text": " the Jew,", "strong": "H3064" },
-      { "text": " Behold, I have given", "strong": "H5414" },
+      { "text": " Behold,", "strong": "H2009" },
+      { "text": " I have given", "strong": "H5414" },
       { "text": " Esther", "strong": "H635" },
       { "text": " the house", "strong": "H1004" },
       { "text": " of Haman,", "strong": "H2001" },
-      { "text": " and him they have hanged", "strong": "H8518" },
+      { "text": " and him", "strong": "H853" },
+      { "text": " they have hanged", "strong": "H8518" },
       { "text": " upon", "strong": "H5921" },
       { "text": " the gallows,", "strong": "H6086" },
-      { "text": " because he laid", "strong": "H7971" },
+      { "text": " because", "strong": "H5921" },
+      { "strong": "H834" },
+      { "text": " he laid", "strong": "H7971" },
       { "text": " his hand", "strong": "H3027" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " the Jews.", "strong": "H3064" }
+      { "text": " upon the Jews.", "strong": "H3064" }
     ]
   },
   {
@@ -3628,7 +3857,9 @@
     "verse": 8,
     "content": [
       { "text": "Write", "strong": "H3789" },
-      { "text": " ye also for the Jews,", "strong": "H3064" },
+      { "text": " ye also", "strong": "H859" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " the Jews,", "strong": "H3064" },
       { "text": " as it liketh", "strong": "H2896" },
       { "text": " you,", "strong": "H5869" },
       { "text": " in the king’s", "strong": "H4428" },
@@ -3647,7 +3878,9 @@
       { "text": " and sealed", "strong": "H2856" },
       { "text": " with the king’s", "strong": "H4428" },
       { "text": " ring,", "strong": "H2885" },
-      { "text": " may no man reverse.", "strong": "H7725" }
+      { "text": " may", "strong": "H7725" },
+      { "text": " no man", "strong": "H369" },
+      { "text": " reverse.", "strong": "H7725" }
     ]
   },
   {
@@ -3655,47 +3888,53 @@
     "chapter": 8,
     "verse": 9,
     "content": [
-      { "paragraph": true, "text": "Then were the king’s", "strong": "H4428" },
+      { "paragraph": true, "text": "Then were", "strong": "H7121" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " scribes", "strong": "H5608" },
       { "text": " called", "strong": "H7121" },
-      { "text": " at that time", "strong": "H6256" },
+      { "text": " at that", "strong": "H1931" },
+      { "text": " time", "strong": "H6256" },
       { "text": " in the third", "strong": "H7992" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
-        "strong": "H2320"
-      },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the month", "strong": "H2320" },
       { "text": " Sivan,", "strong": "H5510" },
       { "text": " on the three", "strong": "H7969" },
       { "text": " and twentieth", "strong": "H6242" },
       " ",
       { "text": "day", "marks": ["i"] },
       { "text": " thereof; and it was written", "strong": "H3789" },
-      { "text": " according to all that Mordecai", "strong": "H4782" },
+      { "text": " according to all", "strong": "H3605" },
+      { "text": " that", "strong": "H834" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " commanded", "strong": "H6680" },
-      { "text": " unto the Jews,", "strong": "H3064" },
-      { "text": " and to the lieutenants,", "strong": "H323" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " the Jews,", "strong": "H3064" },
+      { "text": " and to", "strong": "H413" },
+      { "text": " the lieutenants,", "strong": "H323" },
       { "text": " and the deputies", "strong": "H6346" },
       { "text": " and rulers", "strong": "H8269" },
       { "text": " of the provinces", "strong": "H4082" },
-      {
-        "content": [
-          " which ",
-          { "text": "are", "marks": ["i"] },
-          " from India"
-        ],
-        "strong": "H1912"
-      },
-      { "text": " unto Ethiopia,", "strong": "H3568" },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " from India", "strong": "H1912" },
+      { "text": " unto", "strong": "H5704" },
+      { "text": " Ethiopia,", "strong": "H3568" },
       { "text": " an hundred", "strong": "H3967" },
       { "text": " twenty", "strong": "H6242" },
       { "text": " and seven", "strong": "H7651" },
       { "text": " provinces,", "strong": "H4082" },
-      { "text": " unto every province", "strong": "H4082" },
-      { "text": " according to the writing", "strong": "H3791" },
-      { "text": " thereof, and unto every people", "strong": "H5971" },
+      { "text": " unto every", "strong": "H4082" },
+      { "text": " province", "strong": "H4082" },
+      { "text": " according to the writing thereof,", "strong": "H3791" },
+      { "text": " and unto every", "strong": "H5971" },
+      { "text": " people", "strong": "H5971" },
       { "text": " after their language,", "strong": "H3956" },
-      { "text": " and to the Jews", "strong": "H3064" },
+      { "text": " and to", "strong": "H413" },
+      { "text": " the Jews", "strong": "H3064" },
       { "text": " according to their writing,", "strong": "H3791" },
       { "text": " and according to their language.", "strong": "H3956" }
     ]
@@ -3735,46 +3974,39 @@
     "chapter": 8,
     "verse": 11,
     "content": [
-      { "text": "wherein the king", "strong": "H4428" },
+      { "text": "wherein", "strong": "H834" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " granted", "strong": "H5414" },
       { "text": " the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " which ",
-          { "text": "were", "marks": ["i"] },
-          " in every city"
-        ],
-        "strong": "H5892"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in every", "strong": "H3605" },
+      { "text": " city", "strong": "H5892" },
+      { "strong": "H5892" },
       { "text": " to gather themselves together,", "strong": "H6950" },
       { "text": " and to stand", "strong": "H5975" },
-      { "text": " for their life,", "strong": "H5315" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " their life,", "strong": "H5315" },
       { "text": " to destroy,", "strong": "H8045" },
       { "text": " to slay,", "strong": "H2026" },
       { "text": " and to cause to perish,", "strong": "H6" },
+      { "strong": "H853" },
       { "text": " all", "strong": "H3605" },
       { "text": " the power", "strong": "H2428" },
       { "text": " of the people", "strong": "H5971" },
       { "text": " and province", "strong": "H4082" },
       { "text": " that would assault", "strong": "H6696" },
-      {
-        "content": [
-          " them, ",
-          { "text": "both", "marks": ["i"] },
-          " little ones"
-        ],
-        "strong": "H2945"
-      },
+      { "text": " them,", "strong": "H853" },
+      " ",
+      { "text": "both", "marks": ["i"] },
+      { "text": " little ones", "strong": "H2945" },
       { "text": " and women,", "strong": "H802" },
-      {
-        "content": [
-          " and ",
-          { "text": "to take", "marks": ["i"] },
-          " the spoil"
-        ],
-        "strong": "H7998"
-      },
-      { "text": " of them for a prey,", "strong": "H962" }
+      { "text": " and", "strong": "H7998" },
+      " ",
+      { "text": "to take", "marks": ["i"] },
+      { "text": " the spoil of them", "strong": "H7998" },
+      { "text": " for a prey,", "strong": "H962" }
     ]
   },
   {
@@ -3784,7 +4016,8 @@
     "content": [
       { "text": "upon one", "strong": "H259" },
       { "text": " day", "strong": "H3117" },
-      { "text": " in all the provinces", "strong": "H4082" },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
       " ",
@@ -3796,10 +4029,10 @@
       { "text": " of the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
-        "strong": "H2320"
-      },
+      { "text": " which", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the month", "strong": "H2320" },
       { "text": " Adar.", "strong": "H143" }
     ]
   },
@@ -3812,7 +4045,9 @@
       { "text": " of the writing", "strong": "H3791" },
       { "text": " for a commandment", "strong": "H1881" },
       { "text": " to be given", "strong": "H5414" },
-      { "text": " in every province", "strong": "H4082" },
+      { "text": " in every", "strong": "H3605" },
+      { "text": " province", "strong": "H4082" },
+      { "strong": "H4082" },
       " ",
       { "text": "was", "marks": ["i"] },
       {
@@ -3823,13 +4058,15 @@
         },
         "strong": "H1540"
       },
-      { "text": " unto all people,", "strong": "H5971" },
+      { "text": " unto all", "strong": "H3605" },
+      { "text": " people,", "strong": "H5971" },
       { "text": " and that the Jews", "strong": "H3064" },
-      { "text": " should be ready", "strong": "H6264" },
-      { "strong": "H6259" },
-      { "text": " against that day", "strong": "H3117" },
-      { "text": " to avenge", "strong": "H5358" },
-      { "text": " themselves on their enemies.", "strong": "H341" }
+      { "text": " should be", "strong": "H1961" },
+      { "text": " ready", "strong": "H6264" },
+      { "text": " against that", "strong": "H2088" },
+      { "text": " day", "strong": "H3117" },
+      { "text": " to avenge themselves", "strong": "H5358" },
+      { "text": " on their enemies.", "strong": "H341" }
     ]
   },
   {
@@ -3884,7 +4121,7 @@
       { "text": " and the city", "strong": "H5892" },
       { "text": " of Shushan", "strong": "H7800" },
       { "text": " rejoiced", "strong": "H6670" },
-      { "text": " and was glad.", "strong": "H8056" }
+      { "text": " and was glad.", "strong": "H8055" }
     ]
   },
   {
@@ -3893,7 +4130,8 @@
     "verse": 16,
     "content": [
       { "text": "The Jews", "strong": "H3064" },
-      { "text": " had light,", "strong": "H219" },
+      { "text": " had", "strong": "H1961" },
+      { "text": " light,", "strong": "H219" },
       { "text": " and gladness,", "strong": "H8057" },
       { "text": " and joy,", "strong": "H8342" },
       { "text": " and honour.", "strong": "H3366" }
@@ -3904,9 +4142,14 @@
     "chapter": 8,
     "verse": 17,
     "content": [
-      { "text": "And in every province,", "strong": "H4082" },
-      { "text": " and in every city,", "strong": "H5892" },
+      { "text": "And in every", "strong": "H3605" },
+      { "text": " province,", "strong": "H4082" },
+      { "strong": "H4082" },
+      { "text": " and in every", "strong": "H3605" },
+      { "text": " city,", "strong": "H5892" },
+      { "strong": "H5892" },
       { "text": " whithersoever", "strong": "H4725" },
+      { "strong": "H834" },
       { "text": " the king’s", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
@@ -3925,7 +4168,7 @@
       { "text": " the fear", "strong": "H6343" },
       { "text": " of the Jews", "strong": "H3064" },
       { "text": " fell", "strong": "H5307" },
-      " upon them."
+      { "text": " upon them.", "strong": "H5921" }
     ]
   },
   {
@@ -3936,29 +4179,33 @@
       { "paragraph": true, "text": "Now in the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
-        "strong": "H2320"
-      },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the month", "strong": "H2320" },
       { "text": " Adar,", "strong": "H143" },
       { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
-      { "text": " of the same, when the king’s", "strong": "H4428" },
+      { "text": " of the same, when", "strong": "H834" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " drew near", "strong": "H5060" },
       { "text": " to be put in execution,", "strong": "H6213" },
       { "text": " in the day", "strong": "H3117" },
-      { "text": " that the enemies", "strong": "H341" },
+      { "text": " that", "strong": "H834" },
+      { "text": " the enemies", "strong": "H341" },
       { "text": " of the Jews", "strong": "H3064" },
       { "text": " hoped", "strong": "H7663" },
       { "text": " to have power", "strong": "H7980" },
-      { "text": " over them, (though it was turned", "strong": "H2015" },
-      { "text": " to the contrary, that the Jews", "strong": "H3064" },
+      { "text": " over them, (though it", "strong": "H1931" },
+      { "text": " was turned to the contrary,", "strong": "H2015" },
+      { "text": " that", "strong": "H834" },
+      { "text": " the Jews", "strong": "H3064" },
       { "text": " had rule", "strong": "H7980" },
-      { "text": " over them that hated", "strong": "H8130" },
-      " them;)"
+      { "strong": "H1992" },
+      { "text": " over them that hated them;)", "strong": "H8130" }
     ]
   },
   {
@@ -3969,20 +4216,24 @@
       { "text": "the Jews", "strong": "H3064" },
       { "text": " gathered themselves together", "strong": "H6950" },
       { "text": " in their cities", "strong": "H5892" },
-      { "text": " throughout all the provinces", "strong": "H4082" },
+      { "text": " throughout all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
       { "text": " to lay", "strong": "H7971" },
       { "text": " hand", "strong": "H3027" },
       { "text": " on such as sought", "strong": "H1245" },
       { "text": " their hurt:", "strong": "H7451" },
-      { "text": " and no man", "strong": "H376" },
+      { "text": " and no", "strong": "H3808" },
+      { "text": " man", "strong": "H376" },
       { "text": " could withstand", "strong": "H5975" },
       { "text": " them;", "strong": "H6440" },
       { "text": " for", "strong": "H3588" },
-      { "text": " the fear", "strong": "H6343" },
-      { "text": " of them fell", "strong": "H5307" },
-      { "text": " upon all people.", "strong": "H5971" }
+      { "text": " the fear of them", "strong": "H6343" },
+      { "text": " fell", "strong": "H5307" },
+      { "text": " upon", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " people.", "strong": "H5971" }
     ]
   },
   {
@@ -3990,12 +4241,14 @@
     "chapter": 9,
     "verse": 3,
     "content": [
-      { "text": "And all the rulers", "strong": "H8269" },
+      { "text": "And all", "strong": "H3605" },
+      { "text": " the rulers", "strong": "H8269" },
       { "text": " of the provinces,", "strong": "H4082" },
       { "text": " and the lieutenants,", "strong": "H323" },
       { "text": " and the deputies,", "strong": "H6346" },
       { "text": " and officers", "strong": "H6213" },
       { "strong": "H4399" },
+      { "strong": "H834" },
       {
         "text": " of the king,",
         "foot": {
@@ -4017,7 +4270,7 @@
       { "text": " the fear", "strong": "H6343" },
       { "text": " of Mordecai", "strong": "H4782" },
       { "text": " fell", "strong": "H5307" },
-      " upon them."
+      { "text": " upon them.", "strong": "H5921" }
     ]
   },
   {
@@ -4034,12 +4287,13 @@
       { "text": " house,", "strong": "H1004" },
       { "text": " and his fame", "strong": "H8089" },
       { "text": " went out", "strong": "H1980" },
-      { "text": " throughout all the provinces:", "strong": "H4082" },
+      { "text": " throughout all", "strong": "H3605" },
+      { "text": " the provinces:", "strong": "H4082" },
       { "text": " for", "strong": "H3588" },
       { "text": " this man", "strong": "H376" },
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " waxed", "strong": "H1980" },
-      { "text": " greater and greater.", "strong": "H1419" }
+      { "text": " greater and greater.", "strong": "H1431" }
     ]
   },
   {
@@ -4067,8 +4321,7 @@
         },
         "strong": "H7522"
       },
-      { "text": " unto those that hated", "strong": "H8130" },
-      " them."
+      { "text": " unto those that hated them.", "strong": "H8130" }
     ]
   },
   {
@@ -4091,8 +4344,11 @@
     "chapter": 9,
     "verse": 7,
     "content": [
+      { "strong": "H853" },
       { "text": "And Parshandatha,", "strong": "H6577" },
+      { "strong": "H853" },
       { "text": " and Dalphon,", "strong": "H1813" },
+      { "strong": "H853" },
       { "text": " and Aspatha,", "strong": "H630" }
     ]
   },
@@ -4101,8 +4357,11 @@
     "chapter": 9,
     "verse": 8,
     "content": [
+      { "strong": "H853" },
       { "text": "and Poratha,", "strong": "H6334" },
+      { "strong": "H853" },
       { "text": " and Adalia,", "strong": "H118" },
+      { "strong": "H853" },
       { "text": " and Aridatha,", "strong": "H743" }
     ]
   },
@@ -4111,9 +4370,13 @@
     "chapter": 9,
     "verse": 9,
     "content": [
+      { "strong": "H853" },
       { "text": "and Parmashta,", "strong": "H6534" },
+      { "strong": "H853" },
       { "text": " and Arisai,", "strong": "H747" },
+      { "strong": "H853" },
       { "text": " and Aridai,", "strong": "H742" },
+      { "strong": "H853" },
       { "text": " and Vajezatha,", "strong": "H2055" }
     ]
   },
@@ -4129,11 +4392,12 @@
       { "text": " of Hammedatha,", "strong": "H4099" },
       { "text": " the enemy", "strong": "H6887" },
       { "text": " of the Jews,", "strong": "H3064" },
-      { "text": " slew", "strong": "H2026" },
-      { "text": " they; but on the spoil", "strong": "H961" },
-      { "text": " laid", "strong": "H7971" },
+      { "text": " slew they;", "strong": "H2026" },
+      { "text": " but on the spoil", "strong": "H961" },
+      { "text": " laid they", "strong": "H7971" },
+      { "text": " not", "strong": "H3808" },
       { "strong": "H853" },
-      { "text": " they not their hand.", "strong": "H3027" }
+      { "text": " their hand.", "strong": "H3027" }
     ]
   },
   {
@@ -4141,7 +4405,8 @@
     "chapter": 9,
     "verse": 11,
     "content": [
-      { "paragraph": true, "text": "On that day", "strong": "H3117" },
+      { "paragraph": true, "text": "On that", "strong": "H1931" },
+      { "text": " day", "strong": "H3117" },
       { "text": " the number", "strong": "H4557" },
       { "text": " of those that were slain", "strong": "H2026" },
       { "text": " in Shushan", "strong": "H7800" },
@@ -4175,6 +4440,7 @@
       { "text": " men", "strong": "H376" },
       { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" },
+      { "strong": "H853" },
       { "text": " and the ten", "strong": "H6235" },
       { "text": " sons", "strong": "H1121" },
       { "text": " of Haman;", "strong": "H2001" },
@@ -4183,23 +4449,15 @@
       { "text": " in the rest", "strong": "H7605" },
       { "text": " of the king’s", "strong": "H4428" },
       { "text": " provinces?", "strong": "H4082" },
-      {
-        "content": [
-          " now what ",
-          { "text": "is", "marks": ["i"] },
-          " thy petition?"
-        ],
-        "strong": "H7596"
-      },
+      { "text": " now what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy petition?", "strong": "H7596" },
       { "text": " and it shall be granted", "strong": "H5414" },
-      {
-        "content": [
-          " thee: or what ",
-          { "text": "is", "marks": ["i"] },
-          " thy request"
-        ],
-        "strong": "H1246"
-      },
+      { "text": " thee: or what", "strong": "H4100" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " thy request", "strong": "H1246" },
       { "text": " further?", "strong": "H5750" },
       { "text": " and it shall be done.", "strong": "H6213" }
     ]
@@ -4211,24 +4469,24 @@
     "content": [
       { "text": "Then said", "strong": "H559" },
       { "text": " Esther,", "strong": "H635" },
-      { "text": " If it please", "strong": "H2896" },
+      { "text": " If", "strong": "H518" },
+      { "strong": "H5921" },
+      { "text": " it please", "strong": "H2896" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " let it be granted", "strong": "H5414" },
       { "text": " to the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " which ",
-          { "text": "are", "marks": ["i"] },
-          " in Shushan"
-        ],
-        "strong": "H7800"
-      },
+      { "text": " which", "strong": "H834" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " in Shushan", "strong": "H7800" },
       { "text": " to do", "strong": "H6213" },
       { "text": " to morrow", "strong": "H4279" },
       { "text": " also", "strong": "H1571" },
       { "text": " according unto this day’s", "strong": "H3117" },
       { "text": " decree,", "strong": "H1881" },
-      { "text": " and let Haman’s", "strong": "H2001" },
+      { "text": " and let", "strong": "H8518" },
+      { "strong": "H853" },
+      { "text": " Haman’s", "strong": "H2001" },
       { "text": " ten", "strong": "H6235" },
       { "text": " sons", "strong": "H1121" },
       { "text": " be hanged", "strong": "H8518" },
@@ -4243,11 +4501,13 @@
     "content": [
       { "text": "And the king", "strong": "H4428" },
       { "text": " commanded", "strong": "H559" },
-      { "text": " it so to be done:", "strong": "H6213" },
+      { "text": " it so", "strong": "H3651" },
+      { "text": " to be done:", "strong": "H6213" },
       { "text": " and the decree", "strong": "H1881" },
       { "text": " was given", "strong": "H5414" },
       { "text": " at Shushan;", "strong": "H7800" },
       { "text": " and they hanged", "strong": "H8518" },
+      { "strong": "H853" },
       { "text": " Haman’s", "strong": "H2001" },
       { "text": " ten", "strong": "H6235" },
       { "text": " sons.", "strong": "H1121" }
@@ -4259,14 +4519,10 @@
     "verse": 15,
     "content": [
       { "text": "For the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " in Shushan"
-        ],
-        "strong": "H7800"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in Shushan", "strong": "H7800" },
       { "text": " gathered themselves together", "strong": "H6950" },
       { "text": " on the fourteenth", "strong": "H702" },
       { "strong": "H6240" },
@@ -4281,8 +4537,8 @@
       { "text": " at Shushan;", "strong": "H7800" },
       { "text": " but on the prey", "strong": "H961" },
       { "text": " they laid", "strong": "H7971" },
-      { "strong": "H853" },
       { "text": " not", "strong": "H3808" },
+      { "strong": "H853" },
       { "text": " their hand.", "strong": "H3027" }
     ]
   },
@@ -4293,18 +4549,15 @@
     "content": [
       { "text": "But the other", "strong": "H7605" },
       { "text": " Jews", "strong": "H3064" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " in the king’s"
-        ],
-        "strong": "H4428"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in the king’s", "strong": "H4428" },
       { "text": " provinces", "strong": "H4082" },
       { "text": " gathered themselves together,", "strong": "H6950" },
       { "text": " and stood", "strong": "H5975" },
-      { "text": " for their lives,", "strong": "H5315" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " their lives,", "strong": "H5315" },
       { "text": " and had rest", "strong": "H5118" },
       { "text": " from their enemies,", "strong": "H341" },
       { "text": " and slew", "strong": "H2026" },
@@ -4313,11 +4566,10 @@
       { "text": " and five", "strong": "H2568" },
       { "text": " thousand,", "strong": "H505" },
       { "text": " but they laid", "strong": "H7971" },
-      { "strong": "H853" },
       { "text": " not", "strong": "H3808" },
+      { "strong": "H853" },
       { "text": " their hands", "strong": "H3027" },
-      { "text": " on", "strong": "H5921" },
-      { "text": " the prey,", "strong": "H961" }
+      { "text": " on the prey,", "strong": "H961" }
     ]
   },
   {
@@ -4341,12 +4593,13 @@
               "content": ["Heb. ", { "text": "in it", "marks": ["i"] }]
             }
           },
-          " rested"
+          " rested they,"
         ],
-        "strong": "H5118"
+        "strong": "H5117"
       },
-      { "text": " they, and made", "strong": "H6213" },
-      { "text": " it a day", "strong": "H3117" },
+      { "text": " and made", "strong": "H6213" },
+      { "text": " it", "strong": "H853" },
+      { "text": " a day", "strong": "H3117" },
       { "text": " of feasting", "strong": "H4960" },
       { "text": " and gladness.", "strong": "H8057" }
     ]
@@ -4357,14 +4610,10 @@
     "verse": 18,
     "content": [
       { "text": "But the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " at Shushan"
-        ],
-        "strong": "H7800"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " at Shushan", "strong": "H7800" },
       { "text": " assembled together", "strong": "H6950" },
       { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
@@ -4380,10 +4629,11 @@
           { "text": "day", "marks": ["i"] },
           " of the same they rested,"
         ],
-        "strong": "H5118"
+        "strong": "H5117"
       },
       { "text": " and made", "strong": "H6213" },
-      { "text": " it a day", "strong": "H3117" },
+      { "text": " it", "strong": "H853" },
+      { "text": " a day", "strong": "H3117" },
       { "text": " of feasting", "strong": "H4960" },
       { "text": " and gladness.", "strong": "H8057" }
     ]
@@ -4393,12 +4643,15 @@
     "chapter": 9,
     "verse": 19,
     "content": [
-      { "text": "Therefore the Jews", "strong": "H3064" },
+      { "text": "Therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " the Jews", "strong": "H3064" },
       { "text": " of the villages,", "strong": "H6521" },
       { "text": " that dwelt", "strong": "H3427" },
       { "text": " in the unwalled", "strong": "H6519" },
       { "text": " towns,", "strong": "H5892" },
       { "text": " made", "strong": "H6213" },
+      { "strong": "H853" },
       { "text": " the fourteenth", "strong": "H702" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
@@ -4432,14 +4685,11 @@
       { "text": " unto", "strong": "H413" },
       { "text": " all", "strong": "H3605" },
       { "text": " the Jews", "strong": "H3064" },
-      {
-        "content": [
-          " that ",
-          { "text": "were", "marks": ["i"] },
-          " in all the provinces"
-        ],
-        "strong": "H4082"
-      },
+      { "text": " that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " the provinces", "strong": "H4082" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
       " ",
@@ -4456,16 +4706,21 @@
       { "text": "to stablish", "strong": "H6965" },
       " ",
       { "text": "this", "marks": ["i"] },
-      { "text": " among them, that they should keep", "strong": "H6213" },
+      { "text": " among them,", "strong": "H5921" },
+      { "strong": "H1961" },
+      { "text": " that they should keep", "strong": "H6213" },
+      { "strong": "H853" },
       { "text": " the fourteenth", "strong": "H702" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
       { "text": " of the month", "strong": "H2320" },
       { "text": " Adar,", "strong": "H143" },
+      { "strong": "H853" },
       { "text": " and the fifteenth", "strong": "H2568" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
-      { "text": " of the same, yearly,", "strong": "H8141" },
+      { "text": " of the same, yearly,", "strong": "H3605" },
+      { "strong": "H8141" },
       { "strong": "H8141" }
     ]
   },
@@ -4475,7 +4730,8 @@
     "verse": 22,
     "content": [
       { "text": "as the days", "strong": "H3117" },
-      { "text": " wherein the Jews", "strong": "H3064" },
+      { "text": " wherein", "strong": "H834" },
+      { "text": " the Jews", "strong": "H3064" },
       { "text": " rested", "strong": "H5117" },
       { "text": " from their enemies,", "strong": "H341" },
       { "text": " and the month", "strong": "H2320" },
@@ -4487,7 +4743,8 @@
       { "text": " into a good", "strong": "H2896" },
       { "text": " day:", "strong": "H3117" },
       { "text": " that they should make", "strong": "H6213" },
-      { "text": " them days", "strong": "H3117" },
+      { "text": " them", "strong": "H853" },
+      { "text": " days", "strong": "H3117" },
       { "text": " of feasting", "strong": "H4960" },
       { "text": " and joy,", "strong": "H8057" },
       { "text": " and of sending", "strong": "H4916" },
@@ -4505,11 +4762,15 @@
     "content": [
       { "text": "And the Jews", "strong": "H3064" },
       { "text": " undertook", "strong": "H6901" },
+      { "strong": "H853" },
       { "text": " to do", "strong": "H6213" },
-      { "text": " as they had begun,", "strong": "H2490" },
-      { "text": " and as Mordecai", "strong": "H4782" },
+      { "text": " as", "strong": "H834" },
+      { "text": " they had begun,", "strong": "H2490" },
+      { "strong": "H853" },
+      { "text": " and as", "strong": "H834" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " had written", "strong": "H3789" },
-      " unto them;"
+      { "text": " unto them;", "strong": "H413" }
     ]
   },
   {
@@ -4523,27 +4784,32 @@
       { "text": " of Hammedatha,", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
       { "text": " the enemy", "strong": "H6887" },
-      { "text": " of all the Jews,", "strong": "H3064" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " the Jews,", "strong": "H3064" },
       { "text": " had devised", "strong": "H2803" },
       { "text": " against", "strong": "H5921" },
       { "text": " the Jews", "strong": "H3064" },
-      { "text": " to destroy", "strong": "H6" },
-      { "text": " them, and had cast", "strong": "H5307" },
+      { "text": " to destroy them,", "strong": "H6" },
+      { "text": " and had cast", "strong": "H5307" },
       { "text": " Pur,", "strong": "H6332" },
+      { "text": " that", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": ", the lot,", "strong": "H1486" },
       {
-        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the lot,"],
-        "strong": "H1486"
-      },
-      {
-        "text": " to consume",
-        "foot": {
-          "type": "trn",
-          "content": ["Heb. ", { "text": "crush", "marks": ["i"] }]
-        },
+        "content": [
+          {
+            "text": " to consume",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "crush", "marks": ["i"] }]
+            }
+          },
+          " them,"
+        ],
         "strong": "H2000"
       },
-      { "text": " them, and to destroy", "strong": "H6" },
-      " them;"
+      { "text": " and to destroy them;", "strong": "H6" }
     ]
   },
   {
@@ -4568,7 +4834,8 @@
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " he commanded", "strong": "H559" },
-      { "text": " by letters", "strong": "H5612" },
+      { "text": " by", "strong": "H5973" },
+      { "text": " letters", "strong": "H5612" },
       { "text": " that his wicked", "strong": "H7451" },
       { "text": " device,", "strong": "H4284" },
       { "text": " which", "strong": "H834" },
@@ -4578,7 +4845,9 @@
       { "text": " should return", "strong": "H7725" },
       { "text": " upon", "strong": "H5921" },
       { "text": " his own head,", "strong": "H7218" },
-      { "text": " and that he and his sons", "strong": "H1121" },
+      { "text": " and that he", "strong": "H853" },
+      { "strong": "H853" },
+      { "text": " and his sons", "strong": "H1121" },
       { "text": " should be hanged", "strong": "H8518" },
       { "text": " on", "strong": "H5921" },
       { "text": " the gallows.", "strong": "H6086" }
@@ -4589,8 +4858,11 @@
     "chapter": 9,
     "verse": 26,
     "content": [
-      { "paragraph": true, "text": "Wherefore they called", "strong": "H7121" },
-      { "text": " these days", "strong": "H3117" },
+      { "paragraph": true, "text": "Wherefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " they called", "strong": "H7121" },
+      { "text": " these", "strong": "H428" },
+      { "text": " days", "strong": "H3117" },
       {
         "content": [
           {
@@ -4604,22 +4876,26 @@
         ],
         "strong": "H6332"
       },
-      { "text": " after the name", "strong": "H8034" },
+      { "text": " after", "strong": "H5921" },
+      { "text": " the name", "strong": "H8034" },
       { "text": " of Pur.", "strong": "H6332" },
-      { "text": " Therefore for all the words", "strong": "H1697" },
-      { "text": " of this letter,", "strong": "H107" },
-      {
-        "content": [
-          " and ",
-          { "text": "of that", "marks": ["i"] },
-          " which they had seen"
-        ],
-        "strong": "H7200"
-      },
+      { "text": " Therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " the words", "strong": "H1697" },
+      { "text": " of this", "strong": "H2063" },
+      { "text": " letter,", "strong": "H107" },
+      { "text": " and", "strong": "H4100" },
+      " ",
+      { "text": "of that", "marks": ["i"] },
+      { "text": " which", "strong": "H4100" },
+      { "text": " they had seen", "strong": "H7200" },
       { "text": " concerning", "strong": "H5921" },
       { "text": " this matter,", "strong": "H3602" },
-      { "text": " and which had come", "strong": "H5060" },
-      " unto them,"
+      { "text": " and which", "strong": "H4100" },
+      { "text": " had come", "strong": "H5060" },
+      { "text": " unto them,", "strong": "H413" }
     ]
   },
   {
@@ -4630,17 +4906,24 @@
       { "text": "the Jews", "strong": "H3064" },
       { "text": " ordained,", "strong": "H6965" },
       { "text": " and took", "strong": "H6901" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " them, and upon their seed,", "strong": "H2233" },
-      { "text": " and upon all such as joined", "strong": "H3867" },
+      { "text": " upon them,", "strong": "H5921" },
+      { "text": " and upon", "strong": "H5921" },
+      { "text": " their seed,", "strong": "H2233" },
+      { "text": " and upon", "strong": "H5921" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " such as joined themselves", "strong": "H3867" },
+      { "text": " unto them,", "strong": "H5921" },
+      { "text": " so as it should", "strong": "H5674" },
+      { "text": " not", "strong": "H3808" },
       {
-        "text": " themselves unto them, so as it should not fail,",
+        "text": " fail,",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "pass", "marks": ["i"] }]
         },
         "strong": "H5674"
       },
+      { "strong": "H1961" },
       { "text": " that they would keep", "strong": "H6213" },
       { "strong": "H853" },
       { "text": " these", "strong": "H428" },
@@ -4665,23 +4948,27 @@
     "chapter": 9,
     "verse": 28,
     "content": [
-      {
-        "content": ["and ", { "text": "that", "marks": ["i"] }, " these days"],
-        "strong": "H3117"
-      },
+      "and ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " these", "strong": "H428" },
+      { "text": " days", "strong": "H3117" },
       " ",
       { "text": "should be", "marks": ["i"] },
       { "text": " remembered", "strong": "H2142" },
       { "text": " and kept", "strong": "H6213" },
-      { "text": " throughout", "strong": "H1755" },
-      { "text": " every generation,", "strong": "H1755" },
-      { "text": " every family,", "strong": "H4940" },
-      { "text": " every province,", "strong": "H4082" },
-      { "text": " and every city;", "strong": "H5892" },
-      {
-        "content": [" and ", { "text": "that", "marks": ["i"] }, " these days"],
-        "strong": "H3117"
-      },
+      { "text": " throughout", "strong": "H3605" },
+      { "text": " every", "strong": "H1755" },
+      { "text": " generation,", "strong": "H1755" },
+      { "text": " every", "strong": "H4940" },
+      { "text": " family,", "strong": "H4940" },
+      { "text": " every", "strong": "H4082" },
+      { "text": " province,", "strong": "H4082" },
+      { "text": " and every", "strong": "H5892" },
+      { "text": " city;", "strong": "H5892" },
+      " and ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " these", "strong": "H428" },
+      { "text": " days", "strong": "H3117" },
       { "text": " of Purim", "strong": "H6332" },
       { "text": " should", "strong": "H5674" },
       { "text": " not", "strong": "H3808" },
@@ -4695,9 +4982,10 @@
       },
       { "text": " from among", "strong": "H8432" },
       { "text": " the Jews,", "strong": "H3064" },
-      { "text": " nor the memorial", "strong": "H2143" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " the memorial of them", "strong": "H2143" },
       {
-        "text": " of them perish",
+        "text": " perish",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "be ended", "marks": ["i"] }]
@@ -4719,8 +5007,10 @@
       { "text": " and Mordecai", "strong": "H4782" },
       { "text": " the Jew,", "strong": "H3064" },
       { "text": " wrote", "strong": "H3789" },
+      { "text": " with", "strong": "H854" },
+      { "text": " all", "strong": "H3605" },
       {
-        "text": " with all authority,",
+        "text": " authority,",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "all strength", "marks": ["i"] }]
@@ -4728,9 +5018,9 @@
         "strong": "H8633"
       },
       { "text": " to confirm", "strong": "H6965" },
+      { "strong": "H853" },
       { "text": " this", "strong": "H2063" },
       { "text": " second", "strong": "H8145" },
-      { "strong": "H853" },
       { "text": " letter", "strong": "H107" },
       { "text": " of Purim.", "strong": "H6332" }
     ]
@@ -4745,7 +5035,8 @@
       { "text": " unto", "strong": "H413" },
       { "text": " all", "strong": "H3605" },
       { "text": " the Jews,", "strong": "H3064" },
-      { "text": " to the hundred", "strong": "H3967" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the hundred", "strong": "H3967" },
       { "text": " twenty", "strong": "H6242" },
       { "text": " and seven", "strong": "H7651" },
       { "text": " provinces", "strong": "H4082" },
@@ -4771,21 +5062,26 @@
       { "text": " in their times", "strong": "H2165" },
       " ",
       { "text": "appointed", "marks": ["i"] },
-      { "text": ", according as Mordecai", "strong": "H4782" },
+      { "text": ", according as", "strong": "H834" },
+      { "text": " Mordecai", "strong": "H4782" },
       { "text": " the Jew", "strong": "H3064" },
       { "text": " and Esther", "strong": "H635" },
       { "text": " the queen", "strong": "H4436" },
       { "text": " had enjoined", "strong": "H6965" },
-      { "text": " them, and as they had decreed", "strong": "H6965" },
+      { "text": " them,", "strong": "H5921" },
+      { "text": " and as", "strong": "H834" },
+      { "text": " they had decreed", "strong": "H6965" },
+      { "text": " for", "strong": "H5921" },
       {
-        "text": " for themselves",
+        "text": " themselves",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "for their souls", "marks": ["i"] }]
         },
         "strong": "H5315"
       },
-      { "text": " and for their seed,", "strong": "H2233" },
+      { "text": " and for", "strong": "H5921" },
+      { "text": " their seed,", "strong": "H2233" },
       { "text": " the matters", "strong": "H1697" },
       { "text": " of the fastings", "strong": "H6685" },
       { "text": " and their cry.", "strong": "H2201" }
@@ -4829,30 +5125,30 @@
     "chapter": 10,
     "verse": 2,
     "content": [
-      { "text": "And all the acts", "strong": "H4639" },
+      { "text": "And all", "strong": "H3605" },
+      { "text": " the acts", "strong": "H4639" },
       { "text": " of his power", "strong": "H8633" },
       { "text": " and of his might,", "strong": "H1369" },
       { "text": " and the declaration", "strong": "H6575" },
       { "text": " of the greatness", "strong": "H1420" },
       { "text": " of Mordecai,", "strong": "H4782" },
-      { "text": " whereunto the king", "strong": "H4428" },
-      { "text": " advanced", "strong": "H1431" },
+      { "text": " whereunto", "strong": "H834" },
+      { "text": " the king", "strong": "H4428" },
       {
-        "content": [
-          {
-            "text": " him,",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "made him great", "marks": ["i"] }]
-            }
-          },
-          " ",
-          { "text": "are", "marks": ["i"] },
-          " they not written"
-        ],
-        "strong": "H3789"
+        "text": " advanced him,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "made him great", "marks": ["i"] }]
+        },
+        "strong": "H1431"
       },
-      { "text": " in the book", "strong": "H5612" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " they", "strong": "H1992" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " written", "strong": "H3789" },
+      { "text": " in", "strong": "H5921" },
+      { "text": " the book", "strong": "H5612" },
       { "text": " of the chronicles", "strong": "H1697" },
       { "strong": "H3117" },
       { "text": " of the kings", "strong": "H4428" },
@@ -4883,7 +5179,8 @@
       { "text": " of his people,", "strong": "H5971" },
       { "text": " and speaking", "strong": "H1696" },
       { "text": " peace", "strong": "H7965" },
-      { "text": " to all his seed.", "strong": "H2233" }
+      { "text": " to all", "strong": "H3605" },
+      { "text": " his seed.", "strong": "H2233" }
     ]
   }
 ]

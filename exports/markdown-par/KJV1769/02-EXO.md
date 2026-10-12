@@ -1474,9 +1474,8 @@
 <sup>15</sup> lest thou make a covenant with the inhabitants of the land, and they go a whoring after their gods, and do sacrifice unto their gods, and _one_ call thee, and thou eat of his sacrifice;
 <sup>16</sup> and thou take of their daughters unto thy sons, and their daughters go a whoring after their gods, and make thy sons go a whoring after their gods.
 <sup>17</sup> Thou shalt make thee no molten gods.
-<sup>18</sup>
 
-The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.
+<sup>18</sup> The feast of unleavened bread shalt thou keep. Seven days thou shalt eat unleavened bread, as I commanded thee, in the time of the month Abib: for in the month Abib thou camest out from Egypt.
 <sup>19</sup> All that openeth the matrix _is_ mine; and every firstling among thy cattle, _whether_ ox or sheep, _that is male_.
 <sup>20</sup> But the firstling of an ass thou shalt redeem with a lamb:<sup>b</sup> and if thou redeem _him_ not, then shalt thou break his neck. All the firstborn of thy sons thou shalt redeem. And none shall appear before me empty.
 
