@@ -562,7 +562,7 @@
 <sup>6</sup> And in the end of years they shall join themselves<sup>a</sup> together; for the king’s daughter of the south shall come to the king of the north to make an agreement:<sup>b</sup> but she shall not retain the power of the arm; neither shall he stand, nor his arm: but she shall be given up, and they that brought her, and he that begat her,<sup>c</sup> and he that strengthened her in _these_ times.
 
 <sup>7</sup> But out of a branch of her roots shall _one_ stand up in his estate, which shall come with an army, and shall enter into the fortress of the king of the north, and shall deal against them, and shall prevail:
-<sup>8</sup> and shall also carry captives into Egypt their gods, with their princes, _and_ with their precious vessels<sup>d</sup> of silver and of gold; and he shall continue _more_ years than the king of the north.
+<sup>8</sup> And shall also carry captives into Egypt their gods, with their princes, _and_ with their precious vessels<sup>d</sup> of silver and of gold; and he shall continue _more_ years than the king of the north.
 <sup>9</sup> So the king of the south shall come into _his_ kingdom, and shall return into his own land.
 <sup>10</sup> But his sons shall be stirred<sup>e</sup> up, and shall assemble a multitude of great forces: and _one_ shall certainly come, and overflow, and pass through: then shall he return, and be stirred up, _even_ to his fortress.
 <sup>11</sup> And the king of the south shall be moved with choler, and shall come forth and fight with him, _even_ with the king of the north: and he shall set forth a great multitude; but the multitude shall be given into his hand.

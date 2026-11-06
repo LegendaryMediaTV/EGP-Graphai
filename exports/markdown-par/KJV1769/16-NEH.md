@@ -345,7 +345,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 ### The Confession
 
 <sup>5</sup> Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, _and_ Pethahiah, said, Stand up _and_ bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.
-<sup>6</sup> Thou, _even_ thou, _art LORD_ alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all _things_ that _are_ therein, the seas, and all that _is_ therein, and thou preservest them all; and the host of heaven worshippeth thee.
+<sup>6</sup> Thou, _even_ thou, _art_ LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all _things_ that _are_ therein, the seas, and all that _is_ therein, and thou preservest them all; and the host of heaven worshippeth thee.
 <sup>7</sup> Thou _art_ the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;
 <sup>8</sup> and foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give _it, I say_, to his seed, and hast performed thy words; for thou _art_ righteous:
 <sup>9</sup> and didst see the affliction of our fathers in Egypt, and heardest their cry by the Red sea;

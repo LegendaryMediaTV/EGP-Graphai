@@ -7,7 +7,10 @@
       { "paragraph": true, "text": "The word", "strong": "H1697" },
       " of the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
-      { "text": " that came unto Hosea,", "strong": "H1954" },
+      { "text": " that", "strong": "H834" },
+      { "text": " came", "strong": "H1961" },
+      { "text": " unto", "strong": "H413" },
+      { "text": " Hosea,", "strong": "H1954" },
       { "text": " the son", "strong": "H1121" },
       { "text": " of Beeri,", "strong": "H882" },
       { "text": " in the days", "strong": "H3117" },
@@ -40,17 +43,18 @@
       " And the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " said", "strong": "H559" },
-      { "text": " to Hosea,", "strong": "H1954" },
+      { "text": " to", "strong": "H413" },
+      { "text": " Hosea,", "strong": "H1954" },
       { "text": " Go,", "strong": "H3212" },
       { "text": " take", "strong": "H3947" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " thee a wife", "strong": "H802" },
+      { "text": " unto thee a wife", "strong": "H802" },
       { "text": " of whoredoms", "strong": "H2183" },
       { "text": " and children", "strong": "H3206" },
       { "text": " of whoredoms:", "strong": "H2183" },
       { "text": " for", "strong": "H3588" },
       { "text": " the land", "strong": "H776" },
-      { "text": " hath committed great", "strong": "H2181" },
+      { "text": " hath committed", "strong": "H2181" },
+      { "text": " great", "strong": "H2181" },
       { "text": " whoredom,", "strong": "H2181" },
       " ",
       { "text": "departing", "marks": ["i"] },
@@ -85,12 +89,13 @@
       "And the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " said", "strong": "H559" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " him, Call", "strong": "H7121" },
+      { "text": " unto him,", "strong": "H413" },
+      { "text": " Call", "strong": "H7121" },
       { "text": " his name", "strong": "H8034" },
       { "text": " Jezreel;", "strong": "H3157" },
       { "text": " for", "strong": "H3588" },
-      { "text": " yet a little", "strong": "H4592" },
+      { "text": " yet", "strong": "H5750" },
+      { "text": " a little", "strong": "H4592" },
       " ",
       { "text": "while", "marks": ["i"] },
       {
@@ -118,7 +123,9 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      { "text": "And it shall come to pass at that day,", "strong": "H3117" },
+      { "text": "And it shall come to pass", "strong": "H1961" },
+      { "text": " at that", "strong": "H1931" },
+      { "text": " day,", "strong": "H3117" },
       { "text": " that I will break", "strong": "H7665" },
       { "strong": "H853" },
       { "text": " the bow", "strong": "H7198" },
@@ -132,13 +139,13 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      { "text": "And she conceived again,", "strong": "H2029" },
+      { "text": "And she conceived", "strong": "H2029" },
+      { "text": " again,", "strong": "H5750" },
       { "text": " and bare", "strong": "H3205" },
       { "text": " a daughter.", "strong": "H1323" },
-      {
-        "content": [" And ", { "text": "God", "marks": ["i"] }, " said"],
-        "strong": "H559"
-      },
+      " And ",
+      { "text": "God", "marks": ["i"] },
+      { "text": " said", "strong": "H559" },
       { "text": " unto him, Call", "strong": "H7121" },
       { "text": " her name", "strong": "H8034" },
       {
@@ -153,8 +160,9 @@
         "strong": "H3819"
       },
       { "text": " for", "strong": "H3588" },
+      { "text": " I will no", "strong": "H3808" },
       {
-        "text": " I will no more",
+        "text": " more",
         "foot": {
           "type": "trn",
           "content": [
@@ -164,11 +172,14 @@
         },
         "strong": "H3254"
       },
+      { "strong": "H5750" },
       { "text": " have mercy", "strong": "H7355" },
       { "strong": "H853" },
       { "text": " upon the house", "strong": "H1004" },
       { "text": " of Israel;", "strong": "H3478" },
-      { "text": " but I will utterly", "strong": "H5375" },
+      { "text": " but", "strong": "H3588" },
+      { "text": " I will", "strong": "H5375" },
+      { "text": " utterly", "strong": "H5375" },
       {
         "text": " take them away.",
         "foot": {
@@ -188,14 +199,16 @@
     "verse": 7,
     "content": [
       { "text": "But I will have mercy", "strong": "H7355" },
+      { "strong": "H853" },
       { "text": " upon the house", "strong": "H1004" },
       { "text": " of Judah,", "strong": "H3063" },
-      { "text": " and will save", "strong": "H3467" },
-      " them by the ",
+      { "text": " and will save them", "strong": "H3467" },
+      " by the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " their God,", "strong": "H430" },
-      { "text": " and will not save", "strong": "H3467" },
-      { "text": " them by bow,", "strong": "H7198" },
+      { "text": " and will not", "strong": "H3808" },
+      { "text": " save them", "strong": "H3467" },
+      { "text": " by bow,", "strong": "H7198" },
       { "text": " nor by sword,", "strong": "H2719" },
       { "text": " nor by battle,", "strong": "H4421" },
       { "text": " by horses,", "strong": "H5483" },
@@ -233,15 +246,16 @@
         },
         "strong": "H3818"
       },
-      {
-        "content": [
-          " for ye ",
-          { "text": "are", "marks": ["i"] },
-          " not my people,"
-        ],
-        "strong": "H5971"
-      },
-      " and I will not be your ",
+      { "text": " for", "strong": "H3588" },
+      { "text": " ye", "strong": "H859" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " my people,", "strong": "H5971" },
+      { "text": " and I", "strong": "H595" },
+      { "text": " will not", "strong": "H3808" },
+      { "text": " be", "strong": "H1961" },
+      " your ",
       { "text": "God", "marks": ["i"] },
       "."
     ]
@@ -254,15 +268,19 @@
       { "paragraph": true, "text": "Yet the number", "strong": "H4557" },
       { "text": " of the children", "strong": "H1121" },
       { "text": " of Israel", "strong": "H3478" },
-      { "text": " shall be as the sand", "strong": "H2344" },
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " as the sand", "strong": "H2344" },
       { "text": " of the sea,", "strong": "H3220" },
       { "text": " which", "strong": "H834" },
-      { "text": " cannot be measured", "strong": "H4058" },
-      { "text": " nor numbered;", "strong": "H5608" },
+      { "text": " cannot", "strong": "H3808" },
+      { "text": " be measured", "strong": "H4058" },
+      { "text": " nor", "strong": "H3808" },
+      { "text": " numbered;", "strong": "H5608" },
+      { "text": " and it shall come to pass,", "strong": "H1961" },
+      " ",
+      { "text": "that", "marks": ["i"] },
       {
         "content": [
-          " and it shall come to pass, ",
-          { "text": "that", "marks": ["i"] },
           {
             "text": " in",
             "foot": {
@@ -276,25 +294,17 @@
       },
       { "text": " where", "strong": "H834" },
       { "text": " it was said", "strong": "H559" },
-      {
-        "content": [
-          " unto them, Ye ",
-          { "text": "are", "marks": ["i"] },
-          " not my people,"
-        ],
-        "strong": "H5971"
-      },
+      { "text": " unto them, Ye", "strong": "H859" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " my people,", "strong": "H5971" },
       " ",
       { "text": "there", "marks": ["i"] },
       { "text": " it shall be said", "strong": "H559" },
-      {
-        "content": [
-          " unto them, ",
-          { "text": "Ye are", "marks": ["i"] },
-          " the sons"
-        ],
-        "strong": "H1121"
-      },
+      " unto them, ",
+      { "text": "Ye are", "marks": ["i"] },
+      { "text": " the sons", "strong": "H1121" },
       { "text": " of the living", "strong": "H2416" },
       { "text": " God.", "strong": "H410" }
     ]
@@ -304,7 +314,8 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      { "text": "Then shall the children", "strong": "H1121" },
+      { "text": "Then shall", "strong": "H6908" },
+      { "text": " the children", "strong": "H1121" },
       { "text": " of Judah", "strong": "H3063" },
       { "text": " and the children", "strong": "H1121" },
       { "text": " of Israel", "strong": "H3478" },
@@ -329,8 +340,8 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "paragraph": true, "text": "Say", "strong": "H559" },
-      { "text": " ye unto your brethren,", "strong": "H251" },
+      { "paragraph": true, "text": "Say ye", "strong": "H559" },
+      { "text": " unto your brethren,", "strong": "H251" },
       {
         "text": " Ammi;",
         "foot": {
@@ -362,27 +373,23 @@
       { "paragraph": true, "text": "Plead", "strong": "H7378" },
       { "text": " with your mother,", "strong": "H517" },
       { "text": " plead:", "strong": "H7378" },
-      {
-        "content": [
-          " for she ",
-          { "text": "is", "marks": ["i"] },
-          " not my wife,"
-        ],
-        "strong": "H802"
-      },
-      {
-        "content": [
-          " neither ",
-          { "text": "am", "marks": ["i"] },
-          " I her husband:"
-        ],
-        "strong": "H376"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " she", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " my wife,", "strong": "H802" },
+      { "text": " neither", "strong": "H3808" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " I", "strong": "H595" },
+      { "text": " her husband:", "strong": "H376" },
       { "text": " let her therefore put away", "strong": "H5493" },
       { "text": " her whoredoms", "strong": "H2183" },
       { "text": " out of her sight,", "strong": "H6440" },
       { "text": " and her adulteries", "strong": "H5005" },
-      { "text": " from between her breasts;", "strong": "H7699" }
+      { "text": " from between", "strong": "H996" },
+      { "text": " her breasts;", "strong": "H7699" }
     ]
   },
   {
@@ -390,18 +397,19 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      { "text": "lest I strip", "strong": "H6584" },
-      { "text": " her naked,", "strong": "H6174" },
-      { "text": " and set", "strong": "H3322" },
-      { "text": " her as in the day", "strong": "H3117" },
+      { "text": "lest", "strong": "H6435" },
+      { "text": " I strip her", "strong": "H6584" },
+      { "text": " naked,", "strong": "H6174" },
+      { "text": " and set her", "strong": "H3322" },
+      { "text": " as in the day", "strong": "H3117" },
       { "text": " that she was born,", "strong": "H3205" },
-      { "text": " and make", "strong": "H7760" },
-      { "text": " her as a wilderness,", "strong": "H4057" },
-      { "text": " and set", "strong": "H7896" },
-      { "text": " her like a dry", "strong": "H6723" },
+      { "text": " and make her", "strong": "H7760" },
+      { "text": " as a wilderness,", "strong": "H4057" },
+      { "text": " and set her", "strong": "H7896" },
+      { "text": " like a dry", "strong": "H6723" },
       { "text": " land,", "strong": "H776" },
-      { "text": " and slay", "strong": "H4191" },
-      { "text": " her with thirst.", "strong": "H6772" }
+      { "text": " and slay her", "strong": "H4191" },
+      { "text": " with thirst.", "strong": "H6772" }
     ]
   },
   {
@@ -409,16 +417,15 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      { "text": "And I will not have mercy", "strong": "H7355" },
+      { "text": "And I will not", "strong": "H3808" },
+      { "text": " have mercy", "strong": "H7355" },
+      { "strong": "H853" },
       { "text": " upon her children;", "strong": "H1121" },
-      {
-        "content": [
-          " for they ",
-          { "text": "be", "marks": ["i"] },
-          " the children"
-        ],
-        "strong": "H1121"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " they", "strong": "H1992" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " the children", "strong": "H1121" },
       { "text": " of whoredoms.", "strong": "H2183" }
     ]
   },
@@ -430,8 +437,8 @@
       { "text": "For", "strong": "H3588" },
       { "text": " their mother", "strong": "H517" },
       { "text": " hath played the harlot:", "strong": "H2181" },
-      { "text": " she that conceived", "strong": "H2029" },
-      { "text": " them hath done shamefully:", "strong": "H3001" },
+      { "text": " she that conceived them", "strong": "H2029" },
+      { "text": " hath done shamefully:", "strong": "H3001" },
       { "text": " for", "strong": "H3588" },
       { "text": " she said,", "strong": "H559" },
       { "text": " I will go", "strong": "H3212" },
@@ -460,9 +467,11 @@
     "chapter": 2,
     "verse": 6,
     "content": [
-      { "text": "Therefore, behold, I will hedge", "strong": "H7753" },
+      { "text": "Therefore,", "strong": "H3651" },
+      { "text": " behold,", "strong": "H2009" },
+      { "text": " I will hedge up", "strong": "H7753" },
       { "strong": "H853" },
-      { "text": " up thy way", "strong": "H1870" },
+      { "text": " thy way", "strong": "H1870" },
       { "text": " with thorns,", "strong": "H5518" },
       { "text": " and make", "strong": "H1443" },
       { "strong": "H853" },
@@ -474,7 +483,8 @@
         },
         "strong": "H1447"
       },
-      { "text": " that she shall not find", "strong": "H4672" },
+      { "text": " that she shall not", "strong": "H3808" },
+      { "text": " find", "strong": "H4672" },
       { "text": " her paths.", "strong": "H5410" }
     ]
   },
@@ -486,24 +496,26 @@
       { "text": "And she shall follow", "strong": "H7291" },
       { "strong": "H853" },
       { "text": " after her lovers,", "strong": "H157" },
-      { "text": " but she shall not overtake", "strong": "H5381" },
-      { "text": " them; and she shall seek", "strong": "H1245" },
-      { "text": " them, but shall not find", "strong": "H4672" },
+      { "text": " but she shall not", "strong": "H3808" },
+      { "text": " overtake", "strong": "H5381" },
+      { "text": " them;", "strong": "H853" },
+      { "text": " and she shall seek them,", "strong": "H1245" },
+      { "text": " but shall not", "strong": "H3808" },
+      { "text": " find", "strong": "H4672" },
       " ",
       { "text": "them:", "marks": ["i"] },
       { "text": " then shall she say,", "strong": "H559" },
       { "text": " I will go", "strong": "H3212" },
       { "text": " and return", "strong": "H7725" },
-      { "text": " to my first", "strong": "H7223" },
+      { "text": " to", "strong": "H413" },
+      { "text": " my", "strong": "H376" },
+      { "text": " first", "strong": "H7223" },
       { "text": " husband;", "strong": "H376" },
-      {
-        "content": [
-          " for then ",
-          { "text": "was it", "marks": ["i"] },
-          " better"
-        ],
-        "strong": "H2896"
-      },
+      { "text": " for", "strong": "H3588" },
+      { "text": " then", "strong": "H227" },
+      " ",
+      { "text": "was it", "marks": ["i"] },
+      { "text": " better", "strong": "H2896" },
       { "text": " with me than now.", "strong": "H6258" }
     ]
   },
@@ -512,8 +524,12 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      { "paragraph": true, "text": "For she did not know", "strong": "H3045" },
-      { "text": " that I gave", "strong": "H5414" },
+      { "paragraph": true, "text": "For she", "strong": "H1931" },
+      { "text": " did not", "strong": "H3808" },
+      { "text": " know", "strong": "H3045" },
+      { "text": " that", "strong": "H3588" },
+      { "text": " I", "strong": "H595" },
+      { "text": " gave", "strong": "H5414" },
       { "text": " her corn,", "strong": "H1715" },
       {
         "text": " and wine,",
@@ -548,14 +564,15 @@
     "chapter": 2,
     "verse": 9,
     "content": [
-      { "text": "Therefore will I return,", "strong": "H7725" },
+      { "text": "Therefore", "strong": "H3651" },
+      { "text": " will I return,", "strong": "H7725" },
       { "text": " and take away", "strong": "H3947" },
       { "text": " my corn", "strong": "H1715" },
-      { "text": " in the time", "strong": "H6256" },
-      { "text": " thereof, and my wine", "strong": "H8492" },
-      { "text": " in the season", "strong": "H4150" },
+      { "text": " in the time thereof,", "strong": "H6256" },
+      { "text": " and my wine", "strong": "H8492" },
+      { "text": " in the season thereof,", "strong": "H4150" },
       {
-        "text": " thereof, and will recover",
+        "text": " and will recover",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "take away", "marks": ["i"] }]
@@ -576,7 +593,8 @@
     "chapter": 2,
     "verse": 10,
     "content": [
-      { "text": "And now will I discover", "strong": "H1540" },
+      { "text": "And now", "strong": "H6258" },
+      { "text": " will I discover", "strong": "H1540" },
       { "strong": "H853" },
       {
         "text": " her lewdness",
@@ -594,8 +612,9 @@
       { "text": " in the sight", "strong": "H5869" },
       { "text": " of her lovers,", "strong": "H157" },
       { "text": " and none", "strong": "H376" },
-      { "text": " shall deliver", "strong": "H5337" },
-      { "text": " her out of mine hand.", "strong": "H3027" }
+      { "strong": "H3808" },
+      { "text": " shall deliver her", "strong": "H5337" },
+      { "text": " out of mine hand.", "strong": "H3027" }
     ]
   },
   {
@@ -603,12 +622,15 @@
     "chapter": 2,
     "verse": 11,
     "content": [
-      { "text": "I will also cause all her mirth", "strong": "H4885" },
+      { "text": "I will also cause", "strong": "H7673" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " her mirth", "strong": "H4885" },
       { "text": " to cease,", "strong": "H7673" },
       { "text": " her feast days,", "strong": "H2282" },
       { "text": " her new moons,", "strong": "H2320" },
       { "text": " and her sabbaths,", "strong": "H7676" },
-      { "text": " and all her solemn feasts.", "strong": "H4150" }
+      { "text": " and all", "strong": "H3605" },
+      { "text": " her solemn feasts.", "strong": "H4150" }
     ]
   },
   {
@@ -626,23 +648,20 @@
       },
       { "text": " her vines", "strong": "H1612" },
       { "text": " and her fig trees,", "strong": "H8384" },
-      { "text": " whereof she hath said,", "strong": "H559" },
-      {
-        "content": [
-          " These ",
-          { "text": "are", "marks": ["i"] },
-          " my rewards"
-        ],
-        "strong": "H866"
-      },
-      { "text": " that my lovers", "strong": "H157" },
+      { "text": " whereof", "strong": "H834" },
+      { "text": " she hath said,", "strong": "H559" },
+      { "text": " These", "strong": "H1992" },
+      " ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " my rewards", "strong": "H866" },
+      { "text": " that", "strong": "H834" },
+      { "text": " my lovers", "strong": "H157" },
       { "text": " have given", "strong": "H5414" },
-      { "text": " me: and I will make", "strong": "H7760" },
-      { "text": " them a forest,", "strong": "H3293" },
+      { "text": " me: and I will make them", "strong": "H7760" },
+      { "text": " a forest,", "strong": "H3293" },
       { "text": " and the beasts", "strong": "H2416" },
       { "text": " of the field", "strong": "H7704" },
-      { "text": " shall eat", "strong": "H398" },
-      " them."
+      { "text": " shall eat them.", "strong": "H398" }
     ]
   },
   {
@@ -651,19 +670,21 @@
     "verse": 13,
     "content": [
       { "text": "And I will visit", "strong": "H6485" },
+      { "text": " upon her", "strong": "H5921" },
       { "strong": "H853" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " her the days", "strong": "H3117" },
+      { "text": " the days", "strong": "H3117" },
       { "text": " of Baalim,", "strong": "H1168" },
-      { "text": " wherein she burned incense", "strong": "H6999" },
-      { "text": " to them, and she decked", "strong": "H5710" },
-      { "text": " herself with her earrings", "strong": "H5141" },
+      { "text": " wherein", "strong": "H834" },
+      { "text": " she burned incense", "strong": "H6999" },
+      { "text": " to them, and she decked herself", "strong": "H5710" },
+      { "text": " with her earrings", "strong": "H5141" },
       { "text": " and her jewels,", "strong": "H2484" },
       { "text": " and she went", "strong": "H3212" },
       { "text": " after", "strong": "H310" },
       { "text": " her lovers,", "strong": "H157" },
       { "text": " and forgat", "strong": "H7911" },
-      { "text": " me, saith", "strong": "H5002" },
+      { "text": " me,", "strong": "H853" },
+      { "text": " saith", "strong": "H5002" },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, "."],
         "strong": "H3068"
@@ -675,13 +696,12 @@
     "chapter": 2,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Therefore, behold, I will allure",
-        "strong": "H6601"
-      },
-      { "text": " her, and bring", "strong": "H3212" },
-      { "text": " her into the wilderness,", "strong": "H4057" },
+      { "paragraph": true, "text": "Therefore,", "strong": "H3651" },
+      { "text": " behold,", "strong": "H2009" },
+      { "text": " I", "strong": "H595" },
+      { "text": " will allure her,", "strong": "H6601" },
+      { "text": " and bring her", "strong": "H3212" },
+      { "text": " into the wilderness,", "strong": "H4057" },
       { "text": " and speak", "strong": "H1696" },
       {
         "text": " comfortably",
@@ -694,9 +714,9 @@
             { "text": "to her heart", "marks": ["i"] }
           ]
         },
-        "strong": "H3820"
+        "strong": "H5921"
       },
-      " unto her."
+      { "text": " unto her.", "strong": "H3820" }
     ]
   },
   {
@@ -707,12 +727,15 @@
       { "text": "And I will give", "strong": "H5414" },
       { "strong": "H853" },
       { "text": " her her vineyards", "strong": "H3754" },
-      { "text": " from thence, and the valley", "strong": "H6010" },
+      { "text": " from thence,", "strong": "H8033" },
+      { "strong": "H853" },
+      { "text": " and the valley", "strong": "H6010" },
       { "text": " of Achor", "strong": "H5911" },
       { "text": " for a door", "strong": "H6607" },
       { "text": " of hope:", "strong": "H8615" },
       { "text": " and she shall sing", "strong": "H6030" },
-      { "text": " there, as in the days", "strong": "H3117" },
+      { "text": " there,", "strong": "H8033" },
+      { "text": " as in the days", "strong": "H3117" },
       { "text": " of her youth,", "strong": "H5271" },
       { "text": " and as in the day", "strong": "H3117" },
       { "text": " when she came up", "strong": "H5927" },
@@ -725,7 +748,9 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      { "text": "And it shall be at that day,", "strong": "H3117" },
+      { "text": "And it shall be", "strong": "H1961" },
+      { "text": " at that", "strong": "H1931" },
+      { "text": " day,", "strong": "H3117" },
       { "text": " saith", "strong": "H5002" },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
@@ -743,8 +768,10 @@
         "strong": "H376"
       },
       { "text": " and shalt call", "strong": "H7121" },
+      { "text": " me no", "strong": "H3808" },
+      { "text": " more", "strong": "H5750" },
       {
-        "text": " me no more Baali.",
+        "text": " Baali.",
         "foot": {
           "type": "stu",
           "content": ["That is, ", { "text": "my Lord", "marks": ["i"] }]
@@ -759,10 +786,13 @@
     "verse": 17,
     "content": [
       { "text": "For I will take away", "strong": "H5493" },
+      { "strong": "H853" },
       { "text": " the names", "strong": "H8034" },
       { "text": " of Baalim", "strong": "H1168" },
       { "text": " out of her mouth,", "strong": "H6310" },
-      { "text": " and they shall no more be remembered", "strong": "H2142" },
+      { "text": " and they shall no", "strong": "H3808" },
+      { "text": " more", "strong": "H5750" },
+      { "text": " be remembered", "strong": "H2142" },
       { "text": " by their name.", "strong": "H8034" }
     ]
   },
@@ -771,21 +801,19 @@
     "chapter": 2,
     "verse": 18,
     "content": [
-      { "text": "And in that day", "strong": "H3117" },
+      { "text": "And in that", "strong": "H1931" },
+      { "text": " day", "strong": "H3117" },
       { "text": " will I make", "strong": "H3772" },
       { "text": " a covenant", "strong": "H1285" },
-      { "text": " for them with the beasts", "strong": "H2416" },
+      { "text": " for them with", "strong": "H5973" },
+      { "text": " the beasts", "strong": "H2416" },
       { "text": " of the field,", "strong": "H7704" },
-      { "text": " and with the fowls", "strong": "H5775" },
+      { "text": " and with", "strong": "H5973" },
+      { "text": " the fowls", "strong": "H5775" },
       { "text": " of heaven,", "strong": "H8064" },
-      {
-        "content": [
-          " and ",
-          { "text": "with", "marks": ["i"] },
-          " the creeping things"
-        ],
-        "strong": "H7431"
-      },
+      " and ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " the creeping things", "strong": "H7431" },
       { "text": " of the ground:", "strong": "H127" },
       { "text": " and I will break", "strong": "H7665" },
       { "text": " the bow", "strong": "H7198" },
@@ -802,10 +830,14 @@
     "chapter": 2,
     "verse": 19,
     "content": [
-      { "paragraph": true, "text": "And I will betroth", "strong": "H781" },
-      { "text": " thee unto me for ever;", "strong": "H5769" },
-      { "text": " yea, I will betroth", "strong": "H781" },
-      { "text": " thee unto me in righteousness,", "strong": "H6664" },
+      {
+        "paragraph": true,
+        "text": "And I will betroth thee",
+        "strong": "H781"
+      },
+      { "text": " unto me for ever;", "strong": "H5769" },
+      { "text": " yea, I will betroth thee", "strong": "H781" },
+      { "text": " unto me in righteousness,", "strong": "H6664" },
       { "text": " and in judgment,", "strong": "H4941" },
       { "text": " and in lovingkindness,", "strong": "H2617" },
       { "text": " and in mercies.", "strong": "H7356" }
@@ -816,8 +848,8 @@
     "chapter": 2,
     "verse": 20,
     "content": [
-      { "text": "I will even betroth", "strong": "H781" },
-      { "text": " thee unto me in faithfulness:", "strong": "H530" },
+      { "text": "I will even betroth thee", "strong": "H781" },
+      { "text": " unto me in faithfulness:", "strong": "H530" },
       { "text": " and thou shalt know", "strong": "H3045" },
       { "strong": "H853" },
       {
@@ -831,7 +863,9 @@
     "chapter": 2,
     "verse": 21,
     "content": [
-      { "text": "And it shall come to pass in that day,", "strong": "H3117" },
+      { "text": "And it shall come to pass", "strong": "H1961" },
+      { "text": " in that", "strong": "H1931" },
+      { "text": " day,", "strong": "H3117" },
       { "text": " I will hear,", "strong": "H6030" },
       { "text": " saith", "strong": "H5002" },
       {
@@ -841,7 +875,8 @@
       { "text": " I will hear", "strong": "H6030" },
       { "strong": "H853" },
       { "text": " the heavens,", "strong": "H8064" },
-      { "text": " and they shall hear", "strong": "H6030" },
+      { "text": " and they", "strong": "H1992" },
+      { "text": " shall hear", "strong": "H6030" },
       { "strong": "H853" },
       { "text": " the earth;", "strong": "H776" }
     ]
@@ -855,9 +890,12 @@
       { "text": " shall hear", "strong": "H6030" },
       { "strong": "H853" },
       { "text": " the corn,", "strong": "H1715" },
+      { "strong": "H853" },
       { "text": " and the wine,", "strong": "H8492" },
+      { "strong": "H853" },
       { "text": " and the oil;", "strong": "H3323" },
-      { "text": " and they shall hear", "strong": "H6030" },
+      { "text": " and they", "strong": "H1992" },
+      { "text": " shall hear", "strong": "H6030" },
       { "strong": "H853" },
       { "text": " Jezreel.", "strong": "H3157" }
     ]
@@ -867,25 +905,23 @@
     "chapter": 2,
     "verse": 23,
     "content": [
-      { "text": "And I will sow", "strong": "H2232" },
-      { "text": " her unto me in the earth;", "strong": "H776" },
+      { "text": "And I will sow her", "strong": "H2232" },
+      { "text": " unto me in the earth;", "strong": "H776" },
       { "text": " and I will have mercy", "strong": "H7355" },
-      { "text": " upon her that had not obtained mercy;", "strong": "H7355" },
-      { "strong": "H3818" },
+      { "strong": "H853" },
+      { "text": " upon her that had not", "strong": "H3808" },
+      { "text": " obtained mercy;", "strong": "H7355" },
       { "text": " and I will say", "strong": "H559" },
-      {
-        "content": [
-          " to ",
-          { "text": "them which were", "marks": ["i"] },
-          " not my people,"
-        ],
-        "strong": "H5971"
-      },
-      {
-        "content": [" Thou ", { "text": "art", "marks": ["i"] }, " my people;"],
-        "strong": "H5971"
-      },
-      { "text": " and they shall say,", "strong": "H559" },
+      " to ",
+      { "text": "them which were", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " my people,", "strong": "H5971" },
+      { "text": " Thou", "strong": "H859" },
+      " ",
+      { "text": "art", "marks": ["i"] },
+      { "text": " my people;", "strong": "H5971" },
+      { "text": " and they", "strong": "H1931" },
+      { "text": " shall say,", "strong": "H559" },
       " ",
       { "text": "Thou art", "marks": ["i"] },
       { "text": " my God.", "strong": "H430" }
@@ -900,15 +936,15 @@
       { "paragraph": true, "text": "Then said", "strong": "H559" },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " me, Go", "strong": "H3212" },
-      { "text": " yet, love", "strong": "H157" },
+      { "text": " unto me,", "strong": "H413" },
+      { "text": " Go", "strong": "H3212" },
+      { "text": " yet,", "strong": "H5750" },
+      { "text": " love", "strong": "H157" },
       { "text": " a woman", "strong": "H802" },
       { "text": " beloved", "strong": "H157" },
-      {
-        "content": [" of ", { "text": "her", "marks": ["i"] }, " friend,"],
-        "strong": "H7453"
-      },
+      " of ",
+      { "text": "her", "marks": ["i"] },
+      { "text": " friend,", "strong": "H7453" },
       { "text": " yet an adulteress,", "strong": "H5003" },
       { "text": " according to the love", "strong": "H160" },
       " of the ",
@@ -916,8 +952,10 @@
       { "strong": "H853" },
       { "text": " toward the children", "strong": "H1121" },
       { "text": " of Israel,", "strong": "H3478" },
-      { "text": " who look", "strong": "H6437" },
-      { "text": " to other", "strong": "H312" },
+      { "text": " who", "strong": "H1992" },
+      { "text": " look", "strong": "H6437" },
+      { "text": " to", "strong": "H413" },
+      { "text": " other", "strong": "H312" },
       { "text": " gods,", "strong": "H430" },
       { "text": " and love", "strong": "H157" },
       { "text": " flagons", "strong": "H809" },
@@ -936,16 +974,15 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      { "text": "So I bought", "strong": "H3739" },
-      { "text": " her to me for fifteen", "strong": "H6240" },
-      { "strong": "H2568" },
+      { "text": "So I bought her", "strong": "H3739" },
+      { "text": " to me for fifteen", "strong": "H2568" },
+      { "strong": "H6240" },
       " ",
       { "text": "pieces", "marks": ["i"] },
       { "text": " of silver,", "strong": "H3701" },
-      {
-        "content": [" and ", { "text": "for", "marks": ["i"] }, " an homer"],
-        "strong": "H2563"
-      },
+      " and ",
+      { "text": "for", "marks": ["i"] },
+      { "text": " an homer", "strong": "H2563" },
       { "text": " of barley,", "strong": "H8184" },
       {
         "text": " and an half homer",
@@ -964,21 +1001,24 @@
     "verse": 3,
     "content": [
       { "text": "and I said", "strong": "H559" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " her, Thou shalt abide", "strong": "H3427" },
+      { "text": " unto her,", "strong": "H413" },
+      { "text": " Thou shalt abide", "strong": "H3427" },
       { "text": " for me many", "strong": "H7227" },
       { "text": " days;", "strong": "H3117" },
-      { "text": " thou shalt not play the harlot,", "strong": "H2181" },
-      { "text": " and thou shalt not be", "strong": "H1961" },
-      {
-        "content": [" for ", { "text": "another", "marks": ["i"] }, " man:"],
-        "strong": "H376"
-      },
+      { "text": " thou shalt not", "strong": "H3808" },
+      { "text": " play the harlot,", "strong": "H2181" },
+      { "text": " and thou shalt not", "strong": "H3808" },
+      { "text": " be", "strong": "H1961" },
+      " for ",
+      { "text": "another", "marks": ["i"] },
+      { "text": " man:", "strong": "H376" },
       " so ",
       { "text": "will", "marks": ["i"] },
-      " I also ",
+      { "text": " I", "strong": "H589" },
+      { "text": " also", "strong": "H1571" },
+      " ",
       { "text": "be", "marks": ["i"] },
-      " for thee."
+      { "text": " for thee.", "strong": "H413" }
     ]
   },
   {
@@ -993,11 +1033,15 @@
       { "text": " shall abide", "strong": "H3427" },
       { "text": " many", "strong": "H7227" },
       { "text": " days", "strong": "H3117" },
-      { "text": " without a king,", "strong": "H4428" },
-      { "text": " and without a prince,", "strong": "H8269" },
-      { "text": " and without a sacrifice,", "strong": "H2077" },
+      { "text": " without", "strong": "H369" },
+      { "text": " a king,", "strong": "H4428" },
+      { "text": " and without", "strong": "H369" },
+      { "text": " a prince,", "strong": "H8269" },
+      { "text": " and without", "strong": "H369" },
+      { "text": " a sacrifice,", "strong": "H2077" },
+      { "text": " and without", "strong": "H369" },
       {
-        "text": " and without an image,",
+        "text": " an image,",
         "foot": {
           "type": "trn",
           "content": [
@@ -1009,15 +1053,11 @@
         },
         "strong": "H4676"
       },
-      { "text": " and without an ephod,", "strong": "H646" },
-      {
-        "content": [
-          " and ",
-          { "text": "without", "marks": ["i"] },
-          " teraphim:"
-        ],
-        "strong": "H8655"
-      }
+      { "text": " and without", "strong": "H369" },
+      { "text": " an ephod,", "strong": "H646" },
+      " and ",
+      { "text": "without", "marks": ["i"] },
+      { "text": " teraphim:", "strong": "H8655" }
     ]
   },
   {
@@ -1026,18 +1066,23 @@
     "verse": 5,
     "content": [
       { "text": "afterward", "strong": "H310" },
-      { "text": " shall the children", "strong": "H1121" },
+      { "text": " shall", "strong": "H7725" },
+      { "text": " the children", "strong": "H1121" },
       { "text": " of Israel", "strong": "H3478" },
       { "text": " return,", "strong": "H7725" },
       { "text": " and seek", "strong": "H1245" },
+      { "strong": "H853" },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " their God,", "strong": "H430" },
+      { "strong": "H853" },
       { "text": " and David", "strong": "H1732" },
       { "text": " their king;", "strong": "H4428" },
       { "text": " and shall fear", "strong": "H6342" },
+      { "strong": "H413" },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
+      { "strong": "H413" },
       { "text": " and his goodness", "strong": "H2898" },
       { "text": " in the latter", "strong": "H319" },
       { "text": " days.", "strong": "H3117" }
@@ -1070,16 +1115,15 @@
       { "text": " with", "strong": "H5973" },
       { "text": " the inhabitants", "strong": "H3427" },
       { "text": " of the land,", "strong": "H776" },
-      {
-        "content": [
-          " because ",
-          { "text": "there is", "marks": ["i"] },
-          " no truth,"
-        ],
-        "strong": "H571"
-      },
-      { "text": " nor mercy,", "strong": "H2617" },
-      { "text": " nor knowledge", "strong": "H1847" },
+      { "text": " because", "strong": "H3588" },
+      " ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " truth,", "strong": "H571" },
+      { "text": " nor", "strong": "H369" },
+      { "text": " mercy,", "strong": "H2617" },
+      { "text": " nor", "strong": "H369" },
+      { "text": " knowledge", "strong": "H1847" },
       { "text": " of God", "strong": "H430" },
       { "text": " in the land.", "strong": "H776" }
     ]
@@ -1112,9 +1156,13 @@
     "chapter": 4,
     "verse": 3,
     "content": [
-      { "text": "Therefore shall the land", "strong": "H776" },
+      { "text": "Therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " shall", "strong": "H56" },
+      { "text": " the land", "strong": "H776" },
       { "text": " mourn,", "strong": "H56" },
-      { "text": " and every one that dwelleth", "strong": "H3427" },
+      { "text": " and every one", "strong": "H3605" },
+      { "text": " that dwelleth", "strong": "H3427" },
       { "text": " therein shall languish,", "strong": "H535" },
       { "text": " with the beasts", "strong": "H2416" },
       { "text": " of the field,", "strong": "H7704" },
@@ -1131,9 +1179,12 @@
     "chapter": 4,
     "verse": 4,
     "content": [
-      { "text": "Yet let no man", "strong": "H376" },
+      { "text": "Yet", "strong": "H389" },
+      { "text": " let no", "strong": "H408" },
+      { "text": " man", "strong": "H376" },
       { "text": " strive,", "strong": "H7378" },
-      { "text": " nor reprove", "strong": "H3198" },
+      { "text": " nor", "strong": "H408" },
+      { "text": " reprove", "strong": "H3198" },
       { "text": " another:", "strong": "H376" },
       { "text": " for thy people", "strong": "H5971" },
       " ",
@@ -1152,8 +1203,8 @@
       { "text": " and the prophet", "strong": "H5030" },
       { "text": " also", "strong": "H1571" },
       { "text": " shall fall", "strong": "H3782" },
-      { "text": " with", "strong": "H5973" },
-      { "text": " thee in the night,", "strong": "H3915" },
+      { "text": " with thee", "strong": "H5973" },
+      { "text": " in the night,", "strong": "H3915" },
       {
         "text": " and I will destroy",
         "foot": {
@@ -1179,15 +1230,20 @@
         },
         "strong": "H1820"
       },
-      { "text": " for lack of knowledge:", "strong": "H1847" },
-      { "text": " because thou hast rejected", "strong": "H3988" },
+      { "text": " for lack", "strong": "H1097" },
+      { "text": " of knowledge:", "strong": "H1847" },
+      { "text": " because", "strong": "H3588" },
+      { "text": " thou", "strong": "H859" },
+      { "text": " hast rejected", "strong": "H3988" },
       { "text": " knowledge,", "strong": "H1847" },
-      { "text": " I will also reject", "strong": "H3988" },
-      { "text": " thee, that thou shalt be no priest", "strong": "H3547" },
+      { "text": " I will also reject thee,", "strong": "H3988" },
+      { "text": " that thou shalt be no priest", "strong": "H3547" },
       { "text": " to me: seeing thou hast forgotten", "strong": "H7911" },
       { "text": " the law", "strong": "H8451" },
       { "text": " of thy God,", "strong": "H430" },
-      { "text": " I will also forget", "strong": "H7911" },
+      { "text": " I", "strong": "H589" },
+      { "text": " will also", "strong": "H1571" },
+      { "text": " forget", "strong": "H7911" },
       { "text": " thy children.", "strong": "H1121" }
     ]
   },
@@ -1196,17 +1252,12 @@
     "chapter": 4,
     "verse": 7,
     "content": [
-      { "text": "As they were increased,", "strong": "H7230" },
+      { "text": "As they were increased,", "strong": "H7235" },
       { "text": " so", "strong": "H3651" },
       { "text": " they sinned", "strong": "H2398" },
-      {
-        "content": [
-          " against me: ",
-          { "text": "therefore", "marks": ["i"] },
-          " will I change"
-        ],
-        "strong": "H4171"
-      },
+      " against me: ",
+      { "text": "therefore", "marks": ["i"] },
+      { "text": " will I change", "strong": "H4171" },
       { "text": " their glory", "strong": "H3519" },
       { "text": " into shame.", "strong": "H7036" }
     ]
@@ -1221,8 +1272,9 @@
       { "text": " of my people,", "strong": "H5971" },
       { "text": " and they set", "strong": "H5375" },
       { "text": " their heart", "strong": "H5315" },
+      { "text": " on", "strong": "H413" },
       {
-        "text": " on their iniquity.",
+        "text": " their iniquity.",
         "foot": {
           "type": "trn",
           "content": [
@@ -1239,7 +1291,8 @@
     "chapter": 4,
     "verse": 9,
     "content": [
-      { "text": "And there shall be, like people,", "strong": "H5971" },
+      { "text": "And there shall be,", "strong": "H1961" },
+      { "text": " like people,", "strong": "H5971" },
       { "text": " like priest:", "strong": "H3548" },
       {
         "text": " and I will punish",
@@ -1249,7 +1302,8 @@
         },
         "strong": "H6485"
       },
-      { "text": " them for their ways,", "strong": "H1870" },
+      { "text": " them", "strong": "H5921" },
+      { "text": " for their ways,", "strong": "H1870" },
       {
         "text": " and reward",
         "foot": {
@@ -1267,10 +1321,13 @@
     "verse": 10,
     "content": [
       { "text": "For they shall eat,", "strong": "H398" },
-      { "text": " and not have enough:", "strong": "H7646" },
+      { "text": " and not", "strong": "H3808" },
+      { "text": " have enough:", "strong": "H7646" },
       { "text": " they shall commit whoredom,", "strong": "H2181" },
-      { "text": " and shall not increase:", "strong": "H6555" },
-      { "text": " because they have left off", "strong": "H5800" },
+      { "text": " and shall not", "strong": "H3808" },
+      { "text": " increase:", "strong": "H6555" },
+      { "text": " because", "strong": "H3588" },
+      { "text": " they have left off", "strong": "H5800" },
       { "text": " to take heed", "strong": "H8104" },
       { "strong": "H853" },
       {
@@ -1297,22 +1354,20 @@
     "verse": 12,
     "content": [
       { "text": "My people", "strong": "H5971" },
-      { "text": " ask", "strong": "H7592" },
-      { "text": " counsel at their stocks,", "strong": "H6086" },
+      { "text": " ask counsel", "strong": "H7592" },
+      { "text": " at their stocks,", "strong": "H6086" },
       { "text": " and their staff", "strong": "H4731" },
       { "text": " declareth", "strong": "H5046" },
-      { "text": " unto them: for the spirit", "strong": "H7307" },
+      { "text": " unto them: for", "strong": "H3588" },
+      { "text": " the spirit", "strong": "H7307" },
       { "text": " of whoredoms", "strong": "H2183" },
-      {
-        "content": [
-          " hath caused ",
-          { "text": "them", "marks": ["i"] },
-          " to err,"
-        ],
-        "strong": "H8582"
-      },
+      { "text": " hath caused", "strong": "H8582" },
+      " ",
+      { "text": "them", "marks": ["i"] },
+      { "text": " to err,", "strong": "H8582" },
       { "text": " and they have gone a whoring", "strong": "H2181" },
-      { "text": " from under their God.", "strong": "H430" }
+      { "text": " from under", "strong": "H8478" },
+      { "text": " their God.", "strong": "H430" }
     ]
   },
   {
@@ -1327,16 +1382,18 @@
       { "text": " and burn incense", "strong": "H6999" },
       { "text": " upon", "strong": "H5921" },
       { "text": " the hills,", "strong": "H1389" },
-      { "text": " under oaks", "strong": "H437" },
+      { "text": " under", "strong": "H8478" },
+      { "text": " oaks", "strong": "H437" },
       { "text": " and poplars", "strong": "H3839" },
       { "text": " and elms,", "strong": "H424" },
       { "text": " because", "strong": "H3588" },
-      { "text": " the shadow", "strong": "H6738" },
-      {
-        "content": [" thereof ", { "text": "is", "marks": ["i"] }, " good:"],
-        "strong": "H2896"
-      },
-      { "text": " therefore your daughters", "strong": "H1323" },
+      { "text": " the shadow thereof", "strong": "H6738" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " good:", "strong": "H2896" },
+      { "text": " therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " your daughters", "strong": "H1323" },
       { "text": " shall commit whoredom,", "strong": "H2181" },
       { "text": " and your spouses", "strong": "H3618" },
       { "text": " shall commit adultery.", "strong": "H5003" }
@@ -1361,12 +1418,17 @@
         "strong": "H3808"
       },
       { "text": " punish", "strong": "H6485" },
+      { "strong": "H5921" },
       { "text": " your daughters", "strong": "H1323" },
-      { "text": " when they commit whoredom,", "strong": "H2181" },
+      { "text": " when", "strong": "H3588" },
+      { "text": " they commit whoredom,", "strong": "H2181" },
+      { "strong": "H5921" },
       { "text": " nor your spouses", "strong": "H3618" },
-      { "text": " when they commit adultery:", "strong": "H5003" },
+      { "text": " when", "strong": "H3588" },
+      { "text": " they commit adultery:", "strong": "H5003" },
       { "text": " for", "strong": "H3588" },
-      { "text": " themselves are separated", "strong": "H6504" },
+      { "text": " themselves", "strong": "H1992" },
+      { "text": " are separated", "strong": "H6504" },
       { "text": " with", "strong": "H5973" },
       { "text": " whores,", "strong": "H2181" },
       { "text": " and they sacrifice", "strong": "H2076" },
@@ -1375,7 +1437,8 @@
       { "text": " therefore the people", "strong": "H5971" },
       " ",
       { "text": "that", "marks": ["i"] },
-      { "text": " doth not understand", "strong": "H995" },
+      { "text": " doth not", "strong": "H3808" },
+      { "text": " understand", "strong": "H995" },
       {
         "text": " shall fall.",
         "foot": {
@@ -1391,18 +1454,24 @@
     "chapter": 4,
     "verse": 15,
     "content": [
-      { "paragraph": true, "text": "Though thou, Israel,", "strong": "H3478" },
+      { "paragraph": true, "text": "Though", "strong": "H518" },
+      { "text": " thou,", "strong": "H859" },
+      { "text": " Israel,", "strong": "H3478" },
       { "text": " play the harlot,", "strong": "H2181" },
       " ",
       { "text": "yet", "marks": ["i"] },
-      { "text": " let not Judah", "strong": "H3063" },
+      { "text": " let not", "strong": "H408" },
+      { "text": " Judah", "strong": "H3063" },
       { "text": " offend;", "strong": "H816" },
       { "text": " and come", "strong": "H935" },
       { "text": " not", "strong": "H408" },
-      { "text": " ye unto Gilgal,", "strong": "H1537" },
-      { "text": " neither go ye up", "strong": "H5927" },
+      { "text": " ye", "strong": "H935" },
+      { "text": " unto Gilgal,", "strong": "H1537" },
+      { "text": " neither", "strong": "H408" },
+      { "text": " go ye up", "strong": "H5927" },
       { "text": " to Beth-aven,", "strong": "H1007" },
-      { "text": " nor swear,", "strong": "H7650" },
+      { "text": " nor", "strong": "H408" },
+      { "text": " swear,", "strong": "H7650" },
       " The ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " liveth.", "strong": "H2416" }
@@ -1421,8 +1490,8 @@
       { "text": " now", "strong": "H6258" },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
-      { "text": " will feed", "strong": "H7462" },
-      { "text": " them as a lamb", "strong": "H3532" },
+      { "text": " will feed them", "strong": "H7462" },
+      { "text": " as a lamb", "strong": "H3532" },
       { "text": " in a large place.", "strong": "H4800" }
     ]
   },
@@ -1467,8 +1536,7 @@
       { "text": "with", "marks": ["i"] },
       { "text": " shame", "strong": "H7036" },
       { "text": " do love,", "strong": "H157" },
-      { "text": " Give", "strong": "H3051" },
-      " ye."
+      { "text": " Give ye.", "strong": "H3051" }
     ]
   },
   {
@@ -1477,7 +1545,9 @@
     "verse": 19,
     "content": [
       { "text": "The wind", "strong": "H7307" },
-      { "text": " hath bound her up", "strong": "H6887" },
+      { "text": " hath bound", "strong": "H6887" },
+      { "text": " her", "strong": "H853" },
+      { "text": " up", "strong": "H6887" },
       { "text": " in her wings,", "strong": "H3671" },
       { "text": " and they shall be ashamed", "strong": "H954" },
       { "text": " because of their sacrifices.", "strong": "H2077" }
@@ -1489,8 +1559,9 @@
     "verse": 1,
     "content": [
       { "heading": "Against Priests and Kings" },
-      { "paragraph": true, "text": "Hear", "strong": "H8085" },
-      { "text": " ye this, O priests;", "strong": "H3548" },
+      { "paragraph": true, "text": "Hear ye", "strong": "H8085" },
+      { "text": " this,", "strong": "H2063" },
+      { "text": " O priests;", "strong": "H3548" },
       { "text": " and hearken,", "strong": "H7181" },
       { "text": " ye house", "strong": "H1004" },
       { "text": " of Israel;", "strong": "H3478" },
@@ -1501,14 +1572,14 @@
       { "text": " judgment", "strong": "H4941" },
       " ",
       { "text": "is", "marks": ["i"] },
-      {
-        "text": " toward you, because ye have been a snare",
-        "strong": "H6341"
-      },
+      { "text": " toward you, because", "strong": "H3588" },
+      { "text": " ye have been", "strong": "H1961" },
+      { "text": " a snare", "strong": "H6341" },
       { "text": " on Mizpah,", "strong": "H4709" },
       { "text": " and a net", "strong": "H7568" },
       { "text": " spread", "strong": "H6566" },
-      { "text": " upon Tabor.", "strong": "H8396" }
+      { "text": " upon", "strong": "H5921" },
+      { "text": " Tabor.", "strong": "H8396" }
     ]
   },
   {
@@ -1528,19 +1599,21 @@
               "content": ["Or, ", { "text": "and", "marks": ["i"] }, ", etc."]
             }
           },
-          " I ",
-          { "text": "have been", "marks": ["i"] },
-          {
-            "text": " a rebuker",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "a correction", "marks": ["i"] }]
-            }
-          }
+          " I"
         ],
+        "strong": "H589"
+      },
+      " ",
+      { "text": "have been", "marks": ["i"] },
+      {
+        "text": " a rebuker",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "a correction", "marks": ["i"] }]
+        },
         "strong": "H4148"
       },
-      " of them all."
+      { "text": " of them all.", "strong": "H3605" }
     ]
   },
   {
@@ -1548,12 +1621,16 @@
     "chapter": 5,
     "verse": 3,
     "content": [
-      { "paragraph": true, "text": "I know", "strong": "H3045" },
+      { "paragraph": true, "text": "I", "strong": "H589" },
+      { "text": " know", "strong": "H3045" },
       { "text": " Ephraim,", "strong": "H669" },
       { "text": " and Israel", "strong": "H3478" },
-      { "text": " is not hid", "strong": "H3582" },
-      { "text": " from", "strong": "H4480" },
-      { "text": " me: for now, O Ephraim,", "strong": "H669" },
+      { "text": " is not", "strong": "H3808" },
+      { "text": " hid", "strong": "H3582" },
+      { "text": " from me:", "strong": "H4480" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " now,", "strong": "H6258" },
+      { "text": " O Ephraim,", "strong": "H669" },
       { "text": " thou committest whoredom,", "strong": "H2181" },
       " ",
       { "text": "and", "marks": ["i"] },
@@ -1585,8 +1662,10 @@
       { "text": " of whoredoms", "strong": "H2183" },
       " ",
       { "text": "is", "marks": ["i"] },
-      { "text": " in the midst", "strong": "H7130" },
-      { "text": " of them, and they have not known", "strong": "H3045" },
+      { "text": " in the midst of them,", "strong": "H7130" },
+      { "text": " and they have not", "strong": "H3808" },
+      { "text": " known", "strong": "H3045" },
+      { "strong": "H853" },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, "."],
         "strong": "H3068"
@@ -1602,14 +1681,15 @@
       { "text": " of Israel", "strong": "H3478" },
       { "text": " doth testify", "strong": "H6030" },
       { "text": " to his face:", "strong": "H6440" },
-      { "text": " therefore shall Israel", "strong": "H3478" },
+      { "text": " therefore shall", "strong": "H3782" },
+      { "text": " Israel", "strong": "H3478" },
       { "text": " and Ephraim", "strong": "H669" },
       { "text": " fall", "strong": "H3782" },
       { "text": " in their iniquity;", "strong": "H5771" },
       { "text": " Judah", "strong": "H3063" },
       { "text": " also", "strong": "H1571" },
       { "text": " shall fall", "strong": "H3782" },
-      " with them."
+      { "text": " with them.", "strong": "H5973" }
     ]
   },
   {
@@ -1626,7 +1706,8 @@
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
       },
-      { "text": " but they shall not find", "strong": "H4672" },
+      { "text": " but they shall not", "strong": "H3808" },
+      { "text": " find", "strong": "H4672" },
       " ",
       { "text": "him", "marks": ["i"] },
       { "text": "; he hath withdrawn", "strong": "H2502" },
@@ -1648,9 +1729,11 @@
       { "text": " strange", "strong": "H2114" },
       { "text": " children:", "strong": "H1121" },
       { "text": " now", "strong": "H6258" },
-      { "text": " shall a month", "strong": "H2320" },
-      { "text": " devour", "strong": "H398" },
-      { "text": " them with their portions.", "strong": "H2506" }
+      { "text": " shall", "strong": "H398" },
+      { "text": " a month", "strong": "H2320" },
+      { "text": " devour them", "strong": "H398" },
+      { "text": " with", "strong": "H854" },
+      { "text": " their portions.", "strong": "H2506" }
     ]
   },
   {
@@ -1658,8 +1741,8 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "paragraph": true, "text": "Blow", "strong": "H8628" },
-      { "text": " ye the cornet", "strong": "H7782" },
+      { "paragraph": true, "text": "Blow ye", "strong": "H8628" },
+      { "text": " the cornet", "strong": "H7782" },
       { "text": " in Gibeah,", "strong": "H1390" },
       " ",
       { "text": "and", "marks": ["i"] },
@@ -1669,8 +1752,8 @@
       " ",
       { "text": "at", "marks": ["i"] },
       { "text": " Beth-aven,", "strong": "H1007" },
-      { "text": " after", "strong": "H310" },
-      { "text": " thee, O Benjamin.", "strong": "H1144" }
+      { "text": " after thee,", "strong": "H310" },
+      { "text": " O Benjamin.", "strong": "H1144" }
     ]
   },
   {
@@ -1679,7 +1762,8 @@
     "verse": 9,
     "content": [
       { "text": "Ephraim", "strong": "H669" },
-      { "text": " shall be desolate", "strong": "H8047" },
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " desolate", "strong": "H8047" },
       { "text": " in the day", "strong": "H3117" },
       { "text": " of rebuke:", "strong": "H8433" },
       { "text": " among the tribes", "strong": "H7626" },
@@ -1695,14 +1779,15 @@
     "content": [
       { "paragraph": true, "text": "The princes", "strong": "H8269" },
       { "text": " of Judah", "strong": "H3063" },
-      { "text": " were like them that remove", "strong": "H5253" },
+      { "text": " were", "strong": "H1961" },
+      { "text": " like them that remove", "strong": "H5253" },
       { "text": " the bound:", "strong": "H1366" },
       " ",
       { "text": "therefore", "marks": ["i"] },
       { "text": " I will pour out", "strong": "H8210" },
       { "text": " my wrath", "strong": "H5678" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " them like water.", "strong": "H4325" }
+      { "text": " upon them", "strong": "H5921" },
+      { "text": " like water.", "strong": "H4325" }
     ]
   },
   {
@@ -1730,16 +1815,12 @@
     "chapter": 5,
     "verse": 12,
     "content": [
-      {
-        "content": [
-          "Therefore ",
-          { "text": "will", "marks": ["i"] },
-          " I ",
-          { "text": "be", "marks": ["i"] },
-          " unto Ephraim"
-        ],
-        "strong": "H669"
-      },
+      "Therefore ",
+      { "text": "will", "marks": ["i"] },
+      { "text": " I", "strong": "H589" },
+      " ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " unto Ephraim", "strong": "H669" },
       { "text": " as a moth,", "strong": "H6211" },
       { "text": " and to the house", "strong": "H1004" },
       { "text": " of Judah", "strong": "H3063" },
@@ -1765,12 +1846,15 @@
       { "text": " and Judah", "strong": "H3063" },
       " ",
       { "text": "saw", "marks": ["i"] },
+      { "strong": "H853" },
       { "text": " his wound,", "strong": "H4205" },
       { "text": " then went", "strong": "H3212" },
       { "text": " Ephraim", "strong": "H669" },
-      { "text": " to the Assyrian,", "strong": "H804" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the Assyrian,", "strong": "H804" },
       { "text": " and sent", "strong": "H7971" },
-      { "text": " to king", "strong": "H4428" },
+      { "text": " to", "strong": "H413" },
+      { "text": " king", "strong": "H4428" },
       {
         "text": " Jareb:",
         "foot": {
@@ -1784,11 +1868,14 @@
         },
         "strong": "H3377"
       },
-      { "strong": "H7378" },
       { "text": " yet could", "strong": "H3201" },
-      { "text": " he not heal", "strong": "H7495" },
-      { "text": " you, nor cure", "strong": "H1455" },
-      { "text": " you of your wound.", "strong": "H4205" }
+      { "text": " he", "strong": "H1931" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " heal", "strong": "H7495" },
+      { "text": " you, nor", "strong": "H3808" },
+      { "text": " cure", "strong": "H1455" },
+      { "text": " you", "strong": "H4480" },
+      { "text": " of your wound.", "strong": "H4205" }
     ]
   },
   {
@@ -1796,29 +1883,24 @@
     "chapter": 5,
     "verse": 14,
     "content": [
-      {
-        "content": [
-          "For I ",
-          { "text": "will be", "marks": ["i"] },
-          " unto Ephraim"
-        ],
-        "strong": "H669"
-      },
+      { "text": "For", "strong": "H3588" },
+      { "text": " I", "strong": "H595" },
+      " ",
+      { "text": "will be", "marks": ["i"] },
+      { "text": " unto Ephraim", "strong": "H669" },
       { "text": " as a lion,", "strong": "H7826" },
       { "text": " and as a young lion", "strong": "H3715" },
       { "text": " to the house", "strong": "H1004" },
       { "text": " of Judah:", "strong": "H3063" },
-      {
-        "content": [
-          " I, ",
-          { "text": "even", "marks": ["i"] },
-          " I, will tear"
-        ],
-        "strong": "H2963"
-      },
+      { "text": " I,", "strong": "H589" },
+      " ",
+      { "text": "even", "marks": ["i"] },
+      { "text": " I,", "strong": "H589" },
+      { "text": " will tear", "strong": "H2963" },
       { "text": " and go away;", "strong": "H3212" },
       { "text": " I will take away,", "strong": "H5375" },
-      { "text": " and none shall rescue", "strong": "H5337" },
+      { "text": " and none", "strong": "H369" },
+      { "text": " shall rescue", "strong": "H5337" },
       " ",
       { "text": "him", "marks": ["i"] },
       "."
@@ -1833,8 +1915,10 @@
       " ",
       { "text": "and", "marks": ["i"] },
       { "text": " return", "strong": "H7725" },
-      { "text": " to my place,", "strong": "H4725" },
+      { "text": " to", "strong": "H413" },
+      { "text": " my place,", "strong": "H4725" },
       { "text": " till", "strong": "H5704" },
+      { "strong": "H834" },
       {
         "text": " they acknowledge their offence,",
         "foot": {
@@ -1866,9 +1950,10 @@
         "strong": "H3068"
       },
       { "text": " for", "strong": "H3588" },
-      { "text": " he hath torn,", "strong": "H2963" },
-      { "text": " and he will heal", "strong": "H7495" },
-      { "text": " us; he hath smitten,", "strong": "H5221" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " hath torn,", "strong": "H2963" },
+      { "text": " and he will heal us;", "strong": "H7495" },
+      { "text": " he hath smitten,", "strong": "H5221" },
       { "text": " and he will bind us up.", "strong": "H2280" }
     ]
   },
@@ -1878,8 +1963,8 @@
     "verse": 2,
     "content": [
       { "text": "After two days", "strong": "H3117" },
-      { "text": " will he revive", "strong": "H2421" },
-      { "text": " us: in the third", "strong": "H7992" },
+      { "text": " will he revive us:", "strong": "H2421" },
+      { "text": " in the third", "strong": "H7992" },
       { "text": " day", "strong": "H3117" },
       { "text": " he will raise us up,", "strong": "H6965" },
       { "text": " and we shall live", "strong": "H2421" },
@@ -1951,12 +2036,14 @@
     "chapter": 6,
     "verse": 5,
     "content": [
-      { "text": "Therefore have I hewed", "strong": "H2672" },
+      { "text": "Therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " have I hewed", "strong": "H2672" },
       " ",
       { "text": "them", "marks": ["i"] },
       { "text": " by the prophets;", "strong": "H5030" },
-      { "text": " I have slain", "strong": "H2026" },
-      { "text": " them by the words", "strong": "H561" },
+      { "text": " I have slain them", "strong": "H2026" },
+      { "text": " by the words", "strong": "H561" },
       { "text": " of my mouth:", "strong": "H6310" },
       { "text": " and thy judgments", "strong": "H4941" },
       " ",
@@ -1986,7 +2073,8 @@
       { "text": "For", "strong": "H3588" },
       { "text": " I desired", "strong": "H2654" },
       { "text": " mercy,", "strong": "H2617" },
-      { "text": " and not sacrifice;", "strong": "H2077" },
+      { "text": " and not", "strong": "H3808" },
+      { "text": " sacrifice;", "strong": "H2077" },
       { "text": " and the knowledge", "strong": "H1847" },
       { "text": " of God", "strong": "H430" },
       { "text": " more than burnt offerings.", "strong": "H5930" }
@@ -1997,14 +2085,14 @@
     "chapter": 6,
     "verse": 7,
     "content": [
+      { "paragraph": true, "text": "But they", "strong": "H1992" },
       {
-        "paragraph": true,
-        "text": "But they like men",
+        "text": " like men",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "like Adam", "marks": ["i"] }]
         },
-        "strong": "H120"
+        "strong": "H121"
       },
       { "text": " have transgressed", "strong": "H5674" },
       { "text": " the covenant:", "strong": "H1285" },
@@ -2042,8 +2130,8 @@
     "chapter": 6,
     "verse": 9,
     "content": [
-      { "text": "And as troops", "strong": "H1416" },
-      { "text": " of robbers wait", "strong": "H2442" },
+      { "text": "And as troops of robbers", "strong": "H1416" },
+      { "text": " wait", "strong": "H2442" },
       { "text": " for a man,", "strong": "H376" },
       " ",
       { "text": "so", "marks": ["i"] },
@@ -2062,10 +2150,10 @@
             { "text": "to Sichem", "marks": ["i"] }
           ]
         },
-        "strong": "H7926"
+        "strong": "H7927"
       },
-      { "strong": "H7927" },
-      { "text": " for they commit", "strong": "H6213" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " they commit", "strong": "H6213" },
       {
         "text": " lewdness.",
         "foot": {
@@ -2085,14 +2173,10 @@
       { "text": " an horrible thing", "strong": "H8186" },
       { "text": " in the house", "strong": "H1004" },
       { "text": " of Israel:", "strong": "H3478" },
-      {
-        "content": [
-          " there ",
-          { "text": "is", "marks": ["i"] },
-          " the whoredom"
-        ],
-        "strong": "H2184"
-      },
+      { "text": " there", "strong": "H8033" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " the whoredom", "strong": "H2184" },
       { "text": " of Ephraim,", "strong": "H669" },
       { "text": " Israel", "strong": "H3478" },
       { "text": " is defiled.", "strong": "H2930" }
@@ -2103,7 +2187,8 @@
     "chapter": 6,
     "verse": 11,
     "content": [
-      { "paragraph": true, "text": "Also, O Judah,", "strong": "H3063" },
+      { "paragraph": true, "text": "Also,", "strong": "H1571" },
+      { "text": " O Judah,", "strong": "H3063" },
       { "text": " he hath set", "strong": "H7896" },
       { "text": " an harvest", "strong": "H7105" },
       { "text": " for thee, when I returned", "strong": "H7725" },
@@ -2142,9 +2227,9 @@
       { "text": " cometh in,", "strong": "H935" },
       " ",
       { "text": "and", "marks": ["i"] },
-      { "text": " the troop", "strong": "H1416" },
+      { "text": " the troop of robbers", "strong": "H1416" },
       {
-        "text": " of robbers spoileth",
+        "text": " spoileth",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "strippeth", "marks": ["i"] }]
@@ -2161,18 +2246,14 @@
     "content": [
       { "text": "And they consider", "strong": "H559" },
       {
-        "content": [
-          {
-            "text": " not",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "say not to", "marks": ["i"] }]
-            }
-          },
-          " in their hearts"
-        ],
-        "strong": "H3824"
+        "text": " not",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "say not to", "marks": ["i"] }]
+        },
+        "strong": "H1077"
       },
+      { "text": " in their hearts", "strong": "H3824" },
       " ",
       { "text": "that", "marks": ["i"] },
       { "text": " I remember", "strong": "H2142" },
@@ -2181,7 +2262,9 @@
       { "text": " now", "strong": "H6258" },
       { "text": " their own doings", "strong": "H4611" },
       { "text": " have beset them about;", "strong": "H5437" },
-      { "text": " they are before my face.", "strong": "H6440" }
+      { "text": " they are", "strong": "H1961" },
+      { "text": " before", "strong": "H5048" },
+      { "text": " my face.", "strong": "H6440" }
     ]
   },
   {
@@ -2189,7 +2272,8 @@
     "chapter": 7,
     "verse": 3,
     "content": [
-      { "text": "They make the king", "strong": "H4428" },
+      { "text": "They make", "strong": "H8055" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " glad", "strong": "H8055" },
       { "text": " with their wickedness,", "strong": "H7451" },
       { "text": " and the princes", "strong": "H8269" },
@@ -2201,15 +2285,12 @@
     "chapter": 7,
     "verse": 4,
     "content": [
-      {
-        "content": [
-          "They ",
-          { "text": "are", "marks": ["i"] },
-          " all adulterers,"
-        ],
-        "strong": "H5003"
-      },
-      { "text": " as an oven", "strong": "H8574" },
+      "They ",
+      { "text": "are", "marks": ["i"] },
+      { "text": " all", "strong": "H3605" },
+      { "text": " adulterers,", "strong": "H5003" },
+      { "text": " as", "strong": "H3644" },
+      { "text": " an oven", "strong": "H8574" },
       { "text": " heated", "strong": "H1197" },
       { "text": " by the baker,", "strong": "H644" },
       " ",
@@ -2265,7 +2346,8 @@
       },
       { "text": " he stretched out", "strong": "H4900" },
       { "text": " his hand", "strong": "H3027" },
-      { "text": " with scorners.", "strong": "H3945" }
+      { "text": " with", "strong": "H854" },
+      { "text": " scorners.", "strong": "H3945" }
     ]
   },
   {
@@ -2284,13 +2366,14 @@
       },
       { "text": " their heart", "strong": "H3820" },
       { "text": " like an oven,", "strong": "H8574" },
-      { "text": " whiles they lie in wait:", "strong": "H693" },
+      { "text": " whiles they lie in wait:", "strong": "H696" },
       { "text": " their baker", "strong": "H644" },
       { "text": " sleepeth", "strong": "H3463" },
       { "text": " all", "strong": "H3605" },
       { "text": " the night;", "strong": "H3915" },
       { "text": " in the morning", "strong": "H1242" },
-      { "text": " it burneth", "strong": "H1197" },
+      { "text": " it", "strong": "H1931" },
+      { "text": " burneth", "strong": "H1197" },
       { "text": " as a flaming", "strong": "H3852" },
       { "text": " fire.", "strong": "H784" }
     ]
@@ -2300,7 +2383,8 @@
     "chapter": 7,
     "verse": 7,
     "content": [
-      { "text": "They are all hot", "strong": "H2552" },
+      { "text": "They are all", "strong": "H3605" },
+      { "text": " hot", "strong": "H2552" },
       { "text": " as an oven,", "strong": "H8574" },
       { "text": " and have devoured", "strong": "H398" },
       { "strong": "H853" },
@@ -2310,8 +2394,9 @@
       { "text": " are fallen:", "strong": "H5307" },
       " ",
       { "text": "there is", "marks": ["i"] },
-      { "text": " none among them that calleth", "strong": "H7121" },
-      " unto me."
+      { "text": " none", "strong": "H369" },
+      { "text": " among them that calleth", "strong": "H7121" },
+      { "text": " unto me.", "strong": "H413" }
     ]
   },
   {
@@ -2320,11 +2405,14 @@
     "verse": 8,
     "content": [
       { "paragraph": true, "text": "Ephraim,", "strong": "H669" },
-      { "text": " he hath mixed", "strong": "H1101" },
-      { "text": " himself among the people;", "strong": "H5971" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " hath mixed himself", "strong": "H1101" },
+      { "text": " among the people;", "strong": "H5971" },
       { "text": " Ephraim", "strong": "H669" },
-      { "text": " is a cake", "strong": "H5692" },
-      { "text": " not turned.", "strong": "H2015" }
+      { "text": " is", "strong": "H1961" },
+      { "text": " a cake", "strong": "H5692" },
+      { "text": " not", "strong": "H1097" },
+      { "text": " turned.", "strong": "H2015" }
     ]
   },
   {
@@ -2335,10 +2423,13 @@
       { "text": "Strangers", "strong": "H2114" },
       { "text": " have devoured", "strong": "H398" },
       { "text": " his strength,", "strong": "H3581" },
-      { "text": " and he knoweth", "strong": "H3045" },
+      { "text": " and he", "strong": "H1931" },
+      { "text": " knoweth", "strong": "H3045" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": " not: yea, gray hairs", "strong": "H7872" },
+      { "text": " not:", "strong": "H3808" },
+      { "text": " yea,", "strong": "H1571" },
+      { "text": " gray hairs", "strong": "H7872" },
       {
         "text": " are here and there",
         "foot": {
@@ -2347,8 +2438,9 @@
         },
         "strong": "H2236"
       },
-      { "text": " upon him, yet he knoweth", "strong": "H3045" },
-      " not."
+      { "text": " upon him, yet he", "strong": "H1931" },
+      { "text": " knoweth", "strong": "H3045" },
+      { "text": " not.", "strong": "H3808" }
     ]
   },
   {
@@ -2360,12 +2452,16 @@
       { "text": " of Israel", "strong": "H3478" },
       { "text": " testifieth", "strong": "H6030" },
       { "text": " to his face:", "strong": "H6440" },
-      { "text": " and they do not return", "strong": "H7725" },
-      " to the ",
+      { "text": " and they do not", "strong": "H3808" },
+      { "text": " return", "strong": "H7725" },
+      { "text": " to the", "strong": "H413" },
+      " ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " their God,", "strong": "H430" },
-      { "text": " nor seek", "strong": "H1245" },
-      " him for all this."
+      { "text": " nor", "strong": "H3808" },
+      { "text": " seek him", "strong": "H1245" },
+      { "text": " for all", "strong": "H3605" },
+      { "text": " this.", "strong": "H2063" }
     ]
   },
   {
@@ -2374,9 +2470,11 @@
     "verse": 11,
     "content": [
       { "text": "Ephraim", "strong": "H669" },
-      { "text": " also is like a silly", "strong": "H6601" },
+      { "text": " also is", "strong": "H1961" },
+      { "text": " like a silly", "strong": "H6601" },
       { "text": " dove", "strong": "H3123" },
-      { "text": " without heart:", "strong": "H3820" },
+      { "text": " without", "strong": "H369" },
+      { "text": " heart:", "strong": "H3820" },
       { "text": " they call", "strong": "H7121" },
       { "text": " to Egypt,", "strong": "H4714" },
       { "text": " they go", "strong": "H1980" },
@@ -2388,15 +2486,16 @@
     "chapter": 7,
     "verse": 12,
     "content": [
-      { "text": "When they shall go,", "strong": "H3212" },
+      { "text": "When", "strong": "H834" },
+      { "text": " they shall go,", "strong": "H3212" },
       { "text": " I will spread", "strong": "H6566" },
       { "text": " my net", "strong": "H7568" },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " them; I will bring them down", "strong": "H3381" },
+      { "text": " upon them;", "strong": "H5921" },
+      { "text": " I will bring them down", "strong": "H3381" },
       { "text": " as the fowls", "strong": "H5775" },
       { "text": " of the heaven;", "strong": "H8064" },
-      { "text": " I will chastise", "strong": "H3256" },
-      { "text": " them, as their congregation", "strong": "H5712" },
+      { "text": " I will chastise them,", "strong": "H3256" },
+      { "text": " as their congregation", "strong": "H5712" },
       { "text": " hath heard.", "strong": "H8088" }
     ]
   },
@@ -2406,25 +2505,25 @@
     "verse": 13,
     "content": [
       { "text": "Woe", "strong": "H188" },
-      { "text": " unto them! for they have fled", "strong": "H5074" },
-      { "text": " from", "strong": "H4480" },
+      { "text": " unto them! for", "strong": "H3588" },
+      { "text": " they have fled", "strong": "H5074" },
+      { "text": " from me:", "strong": "H4480" },
       {
-        "text": " me: destruction",
+        "text": " destruction",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "spoil", "marks": ["i"] }]
         },
         "strong": "H7701"
       },
-      {
-        "text": " unto them! because they have transgressed",
-        "strong": "H6586"
-      },
-      { "text": " against", "strong": "H5921" },
-      { "text": " me: though I have redeemed", "strong": "H6299" },
-      { "text": " them, yet they have spoken", "strong": "H1696" },
+      { "text": " unto them! because", "strong": "H3588" },
+      { "text": " they have transgressed", "strong": "H6586" },
+      { "text": " against me: though I", "strong": "H595" },
+      { "text": " have redeemed them,", "strong": "H6299" },
+      { "text": " yet they", "strong": "H1992" },
+      { "text": " have spoken", "strong": "H1696" },
       { "text": " lies", "strong": "H3577" },
-      " against me."
+      { "text": " against me.", "strong": "H5921" }
     ]
   },
   {
@@ -2432,14 +2531,17 @@
     "chapter": 7,
     "verse": 14,
     "content": [
-      { "text": "And they have not cried", "strong": "H2199" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " me with their heart,", "strong": "H3820" },
-      { "text": " when they howled", "strong": "H3213" },
+      { "text": "And they have not", "strong": "H3808" },
+      { "text": " cried", "strong": "H2199" },
+      { "text": " unto me", "strong": "H413" },
+      { "text": " with their heart,", "strong": "H3820" },
+      { "text": " when", "strong": "H3588" },
+      { "text": " they howled", "strong": "H3213" },
       { "text": " upon", "strong": "H5921" },
       { "text": " their beds:", "strong": "H4904" },
-      { "text": " they assemble", "strong": "H1481" },
-      { "text": " themselves for corn", "strong": "H1715" },
+      { "text": " they assemble themselves", "strong": "H1481" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " corn", "strong": "H1715" },
       { "text": " and wine,", "strong": "H8492" },
       " ",
       { "text": "and", "marks": ["i"] },
@@ -2452,8 +2554,9 @@
     "chapter": 7,
     "verse": 15,
     "content": [
+      { "text": "Though I", "strong": "H589" },
       {
-        "text": "Though I have bound",
+        "text": " have bound",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "chastened", "marks": ["i"] }]
@@ -2466,7 +2569,7 @@
       { "text": " their arms,", "strong": "H2220" },
       { "text": " yet do they imagine", "strong": "H2803" },
       { "text": " mischief", "strong": "H7451" },
-      " against me."
+      { "text": " against me.", "strong": "H413" }
     ]
   },
   {
@@ -2477,8 +2580,10 @@
       { "text": "They return,", "strong": "H7725" },
       " ",
       { "text": "but", "marks": ["i"] },
-      { "text": " not to the most High:", "strong": "H5920" },
-      { "text": " they are like a deceitful", "strong": "H7423" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " to the most High:", "strong": "H5920" },
+      { "text": " they are", "strong": "H1961" },
+      { "text": " like a deceitful", "strong": "H7423" },
       { "text": " bow:", "strong": "H7198" },
       { "text": " their princes", "strong": "H8269" },
       { "text": " shall fall", "strong": "H5307" },
@@ -2501,8 +2606,9 @@
       { "heading": "Reaping the Whirlwind" },
       { "paragraph": true, "text": "Set", "marks": ["i"] },
       { "text": " the trumpet", "strong": "H7782" },
+      { "text": " to", "strong": "H413" },
       {
-        "text": " to thy mouth.",
+        "text": " thy mouth.",
         "foot": {
           "type": "trn",
           "content": [
@@ -2521,7 +2627,8 @@
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " because they have transgressed", "strong": "H5674" },
+      { "text": " because", "strong": "H3282" },
+      { "text": " they have transgressed", "strong": "H5674" },
       { "text": " my covenant,", "strong": "H1285" },
       { "text": " and trespassed", "strong": "H6586" },
       { "text": " against", "strong": "H5921" },
@@ -2536,8 +2643,7 @@
       { "text": "Israel", "strong": "H3478" },
       { "text": " shall cry", "strong": "H2199" },
       { "text": " unto me, My God,", "strong": "H430" },
-      { "text": " we know", "strong": "H3045" },
-      " thee."
+      { "text": " we know thee.", "strong": "H3045" }
     ]
   },
   {
@@ -2551,8 +2657,7 @@
       { "text": "the thing that is", "marks": ["i"] },
       { "text": " good:", "strong": "H2896" },
       { "text": " the enemy", "strong": "H341" },
-      { "text": " shall pursue", "strong": "H7291" },
-      " him."
+      { "text": " shall pursue him.", "strong": "H7291" }
     ]
   },
   {
@@ -2560,16 +2665,21 @@
     "chapter": 8,
     "verse": 4,
     "content": [
-      { "text": "They have set up kings,", "strong": "H4427" },
-      { "text": " but not by me: they have made princes,", "strong": "H7786" },
+      { "text": "They", "strong": "H1992" },
+      { "text": " have set up kings,", "strong": "H4427" },
+      { "text": " but not", "strong": "H3808" },
+      { "text": " by me:", "strong": "H4480" },
+      { "text": " they have made princes,", "strong": "H7786" },
       { "text": " and I knew", "strong": "H3045" },
       " ",
       { "text": "it", "marks": ["i"] },
-      { "text": " not: of their silver", "strong": "H3701" },
+      { "text": " not:", "strong": "H3808" },
+      { "text": " of their silver", "strong": "H3701" },
       { "text": " and their gold", "strong": "H2091" },
       { "text": " have they made", "strong": "H6213" },
       { "text": " them idols,", "strong": "H6091" },
-      { "text": " that they may be cut off.", "strong": "H3772" }
+      { "text": " that", "strong": "H4616" },
+      { "text": " they may be cut off.", "strong": "H3772" }
     ]
   },
   {
@@ -2582,16 +2692,14 @@
       { "text": " hath cast", "strong": "H2186" },
       " ",
       { "text": "thee", "marks": ["i"] },
-      { "text": " off; mine anger", "strong": "H639" },
+      { "text": " off;", "strong": "H2186" },
+      { "text": " mine anger", "strong": "H639" },
       { "text": " is kindled", "strong": "H2734" },
-      {
-        "content": [
-          " against them: how long ",
-          { "text": "will it be", "marks": ["i"] },
-          " ere"
-        ],
-        "strong": "H3808"
-      },
+      { "text": " against them: how long", "strong": "H5704" },
+      { "strong": "H4970" },
+      " ",
+      { "text": "will it be", "marks": ["i"] },
+      { "text": " ere", "strong": "H3808" },
       { "text": " they attain", "strong": "H3201" },
       { "text": " to innocency?", "strong": "H5356" }
     ]
@@ -2605,19 +2713,19 @@
       { "text": " from Israel", "strong": "H3478" },
       " ",
       { "text": "was", "marks": ["i"] },
-      { "text": " it also: the workman", "strong": "H2796" },
-      { "text": " made", "strong": "H6213" },
-      {
-        "content": [
-          " it; therefore it ",
-          { "text": "is", "marks": ["i"] },
-          " not God:"
-        ],
-        "strong": "H430"
-      },
-      { "text": " but the calf", "strong": "H5695" },
+      { "text": " it also:", "strong": "H1931" },
+      { "text": " the workman", "strong": "H2796" },
+      { "text": " made it;", "strong": "H6213" },
+      { "text": " therefore it", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " not", "strong": "H3808" },
+      { "text": " God:", "strong": "H430" },
+      { "text": " but", "strong": "H3588" },
+      { "text": " the calf", "strong": "H5695" },
       { "text": " of Samaria", "strong": "H8111" },
-      { "text": " shall be broken in pieces.", "strong": "H7616" }
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " broken in pieces.", "strong": "H7616" }
     ]
   },
   {
@@ -2630,8 +2738,9 @@
       { "text": " the wind,", "strong": "H7307" },
       { "text": " and they shall reap", "strong": "H7114" },
       { "text": " the whirlwind:", "strong": "H5492" },
+      { "text": " it hath no", "strong": "H369" },
       {
-        "text": " it hath no stalk:",
+        "text": " stalk:",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "standing corn", "marks": ["i"] }]
@@ -2640,9 +2749,10 @@
       },
       { "text": " the bud", "strong": "H6780" },
       { "text": " shall yield", "strong": "H6213" },
-      { "text": " no meal:", "strong": "H7058" },
-      { "text": " if", "strong": "H194" },
-      { "text": " so be it yield,", "strong": "H6213" },
+      { "text": " no", "strong": "H1097" },
+      { "text": " meal:", "strong": "H7058" },
+      { "text": " if so be", "strong": "H194" },
+      { "text": " it yield,", "strong": "H6213" },
       { "text": " the strangers", "strong": "H2114" },
       { "text": " shall swallow it up.", "strong": "H1104" }
     ]
@@ -2655,16 +2765,13 @@
       { "text": "Israel", "strong": "H3478" },
       { "text": " is swallowed up:", "strong": "H1104" },
       { "text": " now", "strong": "H6258" },
-      { "text": " shall they be among the Gentiles", "strong": "H1471" },
+      { "text": " shall they be", "strong": "H1961" },
+      { "text": " among the Gentiles", "strong": "H1471" },
       { "text": " as a vessel", "strong": "H3627" },
-      {
-        "content": [
-          " wherein ",
-          { "text": "is", "marks": ["i"] },
-          " no pleasure."
-        ],
-        "strong": "H2656"
-      }
+      " wherein ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " pleasure.", "strong": "H2656" }
     ]
   },
   {
@@ -2673,7 +2780,8 @@
     "verse": 9,
     "content": [
       { "text": "For", "strong": "H3588" },
-      { "text": " they are gone up", "strong": "H5927" },
+      { "text": " they", "strong": "H1992" },
+      { "text": " are gone up", "strong": "H5927" },
       { "text": " to Assyria,", "strong": "H804" },
       { "text": " a wild ass", "strong": "H6501" },
       { "text": " alone", "strong": "H909" },
@@ -2694,12 +2802,14 @@
     "chapter": 8,
     "verse": 10,
     "content": [
-      { "text": "Yea, though they have hired", "strong": "H8566" },
+      { "text": "Yea,", "strong": "H1571" },
+      { "text": " though", "strong": "H3588" },
+      { "text": " they have hired", "strong": "H8566" },
       { "text": " among the nations,", "strong": "H1471" },
       { "text": " now", "strong": "H6258" },
-      { "text": " will I gather", "strong": "H6908" },
+      { "text": " will I gather them,", "strong": "H6908" },
       {
-        "text": " them, and they shall sorrow",
+        "text": " and they shall sorrow",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "begin", "marks": ["i"] }]
@@ -2707,8 +2817,7 @@
         "strong": "H2490"
       },
       { "text": " a little", "strong": "H4592" },
-      { "text": " for", "strong": "H3588" },
-      { "text": " the burden", "strong": "H4853" },
+      { "text": " for the burden", "strong": "H4853" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " of princes.", "strong": "H8269" }
     ]
@@ -2724,7 +2833,8 @@
       { "text": " altars", "strong": "H4196" },
       { "text": " to sin,", "strong": "H2398" },
       { "text": " altars", "strong": "H4196" },
-      { "text": " shall be unto him to sin.", "strong": "H2398" }
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " unto him to sin.", "strong": "H2398" }
     ]
   },
   {
@@ -2733,13 +2843,13 @@
     "verse": 12,
     "content": [
       { "text": "I have written", "strong": "H3789" },
-      { "text": " to him the great things", "strong": "H7230" },
-      { "strong": "H7239" },
+      { "text": " to him the great things", "strong": "H7239" },
       { "text": " of my law,", "strong": "H8451" },
       " ",
       { "text": "but", "marks": ["i"] },
       { "text": " they were counted", "strong": "H2803" },
-      { "text": " as a strange thing.", "strong": "H2114" }
+      { "text": " as", "strong": "H3644" },
+      { "text": " a strange thing.", "strong": "H2114" }
     ]
   },
   {
@@ -2758,12 +2868,15 @@
       { "text": "it; but", "marks": ["i"] },
       " the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
-      { "text": " accepteth", "strong": "H7521" },
-      { "text": " them not; now will he remember", "strong": "H2142" },
+      { "text": " accepteth them", "strong": "H7521" },
+      { "text": " not;", "strong": "H3808" },
+      { "text": " now", "strong": "H6258" },
+      { "text": " will he remember", "strong": "H2142" },
       { "text": " their iniquity,", "strong": "H5771" },
       { "text": " and visit", "strong": "H6485" },
       { "text": " their sins:", "strong": "H2403" },
-      { "text": " they shall return", "strong": "H7725" },
+      { "text": " they", "strong": "H1992" },
+      { "text": " shall return", "strong": "H7725" },
       { "text": " to Egypt.", "strong": "H4714" }
     ]
   },
@@ -2786,8 +2899,7 @@
       { "text": " a fire", "strong": "H784" },
       { "text": " upon his cities,", "strong": "H5892" },
       { "text": " and it shall devour", "strong": "H398" },
-      { "text": " the palaces", "strong": "H759" },
-      " thereof."
+      { "text": " the palaces thereof.", "strong": "H759" }
     ]
   },
   {
@@ -2797,14 +2909,18 @@
     "content": [
       { "heading": "Days of Recompence" },
       { "paragraph": true, "text": "Rejoice", "strong": "H8055" },
-      { "text": " not, O Israel,", "strong": "H3478" },
-      { "text": " for joy,", "strong": "H1524" },
+      { "text": " not,", "strong": "H408" },
+      { "text": " O Israel,", "strong": "H3478" },
+      { "text": " for", "strong": "H413" },
+      { "text": " joy,", "strong": "H1524" },
       {
         "content": [" as ", { "text": "other", "marks": ["i"] }, " people:"],
         "strong": "H5971"
       },
-      { "text": " for thou hast gone a whoring", "strong": "H2181" },
-      { "text": " from thy God,", "strong": "H430" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " thou hast gone a whoring", "strong": "H2181" },
+      { "text": " from", "strong": "H5921" },
+      { "text": " thy God,", "strong": "H430" },
       { "text": " thou hast loved", "strong": "H157" },
       { "text": " a reward", "strong": "H868" },
       {
@@ -2836,8 +2952,8 @@
       },
       { "text": " shall", "strong": "H7462" },
       { "text": " not", "strong": "H3808" },
-      { "text": " feed", "strong": "H7462" },
-      { "text": " them, and the new wine", "strong": "H8492" },
+      { "text": " feed them,", "strong": "H7462" },
+      { "text": " and the new wine", "strong": "H8492" },
       { "text": " shall fail", "strong": "H3584" },
       " in her."
     ]
@@ -2880,16 +2996,18 @@
         "content": [" to the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " neither shall they be pleasing", "strong": "H6149" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " shall they be pleasing", "strong": "H6149" },
       { "text": " unto him: their sacrifices", "strong": "H2077" },
       " ",
       { "text": "shall be", "marks": ["i"] },
       { "text": " unto them as the bread", "strong": "H3899" },
       { "text": " of mourners;", "strong": "H205" },
       { "text": " all", "strong": "H3605" },
-      { "text": " that eat", "strong": "H398" },
-      { "text": " thereof shall be polluted:", "strong": "H2930" },
-      { "text": " for their bread", "strong": "H3899" },
+      { "text": " that eat thereof", "strong": "H398" },
+      { "text": " shall be polluted:", "strong": "H2930" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " their bread", "strong": "H3899" },
       { "text": " for their soul", "strong": "H5315" },
       { "text": " shall", "strong": "H935" },
       { "text": " not", "strong": "H3808" },
@@ -2923,10 +3041,11 @@
     "chapter": 9,
     "verse": 6,
     "content": [
-      { "text": "For, lo, they are gone", "strong": "H1980" },
-      { "text": " because", "strong": "H3588" },
+      { "text": "For,", "strong": "H3588" },
+      { "text": " lo,", "strong": "H2009" },
+      { "text": " they are gone", "strong": "H1980" },
       {
-        "text": " of destruction:",
+        "text": " because of destruction:",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "spoil", "marks": ["i"] }]
@@ -2936,8 +3055,8 @@
       { "text": " Egypt", "strong": "H4714" },
       { "text": " shall gather them up,", "strong": "H6908" },
       { "text": " Memphis", "strong": "H4644" },
-      { "text": " shall bury", "strong": "H6912" },
-      { "text": " them: the pleasant", "strong": "H4261" },
+      { "text": " shall bury them:", "strong": "H6912" },
+      { "text": " the pleasant", "strong": "H4261" },
       " ",
       { "text": "places", "marks": ["i"] },
       { "text": " for their silver,", "strong": "H3701" },
@@ -2957,8 +3076,8 @@
         },
         "strong": "H7057"
       },
-      { "text": " shall possess", "strong": "H3423" },
-      { "text": " them: thorns", "strong": "H2336" },
+      { "text": " shall possess them:", "strong": "H3423" },
+      { "text": " thorns", "strong": "H2336" },
       " ",
       { "text": "shall be", "marks": ["i"] },
       { "text": " in their tabernacles.", "strong": "H168" }
@@ -2995,7 +3114,8 @@
       " ",
       { "text": "is", "marks": ["i"] },
       { "text": " mad,", "strong": "H7696" },
-      { "text": " for the multitude", "strong": "H7230" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " the multitude", "strong": "H7230" },
       { "text": " of thine iniquity,", "strong": "H5771" },
       { "text": " and the great", "strong": "H7227" },
       { "text": " hatred.", "strong": "H4895" }
@@ -3010,7 +3130,8 @@
       { "text": " of Ephraim", "strong": "H669" },
       " ",
       { "text": "was", "marks": ["i"] },
-      { "text": " with my God:", "strong": "H430" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " my God:", "strong": "H430" },
       " ",
       { "text": "but", "marks": ["i"] },
       { "text": " the prophet", "strong": "H5030" },
@@ -3019,18 +3140,15 @@
       { "text": " a snare", "strong": "H6341" },
       { "text": " of a fowler", "strong": "H3352" },
       {
-        "content": [
-          {
-            "text": " in",
-            "foot": {
-              "type": "trn",
-              "content": ["Or, ", { "text": "against", "marks": ["i"] }]
-            }
-          },
-          " all his ways,"
-        ],
-        "strong": "H1870"
+        "text": " in",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        },
+        "strong": "H5921"
       },
+      { "text": " all", "strong": "H3605" },
+      { "text": " his ways,", "strong": "H1870" },
       " ",
       { "text": "and", "marks": ["i"] },
       { "text": " hatred", "strong": "H4895" },
@@ -3073,26 +3191,18 @@
       { "text": " at her first time:", "strong": "H7225" },
       " ",
       { "text": "but", "marks": ["i"] },
-      { "text": " they went", "strong": "H935" },
+      { "text": " they", "strong": "H1992" },
+      { "text": " went", "strong": "H935" },
       { "text": " to Baal-peor,", "strong": "H1187" },
-      { "text": " and separated", "strong": "H5144" },
-      {
-        "content": [
-          " themselves unto ",
-          { "text": "that", "marks": ["i"] },
-          " shame;"
-        ],
-        "strong": "H1322"
-      },
-      {
-        "content": [
-          " and ",
-          { "text": "their", "marks": ["i"] },
-          " abominations"
-        ],
-        "strong": "H8251"
-      },
-      { "text": " were according as they loved.", "strong": "H157" }
+      { "text": " and separated themselves", "strong": "H5144" },
+      " unto ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " shame;", "strong": "H1322" },
+      " and ",
+      { "text": "their", "marks": ["i"] },
+      { "text": " abominations", "strong": "H8251" },
+      { "text": " were", "strong": "H1961" },
+      { "text": " according as they loved.", "strong": "H157" }
     ]
   },
   {
@@ -3115,26 +3225,24 @@
     "chapter": 9,
     "verse": 12,
     "content": [
-      { "text": "Though they bring up", "strong": "H1431" },
+      { "text": "Though", "strong": "H3588" },
+      { "strong": "H518" },
+      { "text": " they bring up", "strong": "H1431" },
       { "strong": "H853" },
       { "text": " their children,", "strong": "H1121" },
-      { "text": " yet will I bereave", "strong": "H7921" },
-      {
-        "content": [
-          " them, ",
-          { "text": "that there shall", "marks": ["i"] },
-          " not ",
-          { "text": "be", "marks": ["i"] },
-          " a man"
-        ],
-        "strong": "H120"
-      },
+      { "text": " yet will I bereave them,", "strong": "H7921" },
+      " ",
+      { "text": "that there shall", "marks": ["i"] },
+      " not ",
+      { "text": "be", "marks": ["i"] },
+      { "text": " a man", "strong": "H120" },
       " ",
       { "text": "left:", "marks": ["i"] },
-      { "text": " yea, woe", "strong": "H188" },
+      { "text": " yea,", "strong": "H3588" },
+      { "text": " woe", "strong": "H188" },
       { "text": " also", "strong": "H1571" },
       { "text": " to them when I depart", "strong": "H5493" },
-      " from them!"
+      { "text": " from them!", "strong": "H4480" }
     ]
   },
   {
@@ -3143,7 +3251,8 @@
     "verse": 13,
     "content": [
       { "text": "Ephraim,", "strong": "H669" },
-      { "text": " as I saw", "strong": "H7200" },
+      { "text": " as", "strong": "H834" },
+      { "text": " I saw", "strong": "H7200" },
       { "text": " Tyrus,", "strong": "H6865" },
       " ",
       { "text": "is", "marks": ["i"] },
@@ -3152,7 +3261,8 @@
       { "text": " but Ephraim", "strong": "H669" },
       { "text": " shall bring forth", "strong": "H3318" },
       { "text": " his children", "strong": "H1121" },
-      { "text": " to the murderer.", "strong": "H2026" }
+      { "text": " to", "strong": "H413" },
+      { "text": " the murderer.", "strong": "H2026" }
     ]
   },
   {
@@ -3196,13 +3306,15 @@
       { "text": " in Gilgal:", "strong": "H1537" },
       { "text": " for", "strong": "H3588" },
       { "text": " there", "strong": "H8033" },
-      { "text": " I hated", "strong": "H8130" },
-      { "text": " them: for the wickedness", "strong": "H7455" },
+      { "text": " I hated them:", "strong": "H8130" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " the wickedness", "strong": "H7455" },
       { "text": " of their doings", "strong": "H4611" },
       { "text": " I will drive them out", "strong": "H1644" },
       { "text": " of mine house,", "strong": "H1004" },
-      { "text": " I will love", "strong": "H160" },
-      { "text": " them no more:", "strong": "H3254" },
+      { "text": " I will love them", "strong": "H160" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " more:", "strong": "H3254" },
       { "text": " all", "strong": "H3605" },
       { "text": " their princes", "strong": "H8269" },
       " ",
@@ -3220,8 +3332,11 @@
       { "text": " their root", "strong": "H8328" },
       { "text": " is dried up,", "strong": "H3001" },
       { "text": " they shall bear", "strong": "H6213" },
-      { "text": " no fruit:", "strong": "H6529" },
-      { "text": " yea, though they bring forth,", "strong": "H3205" },
+      { "text": " no", "strong": "H1077" },
+      { "text": " fruit:", "strong": "H6529" },
+      { "text": " yea,", "strong": "H1571" },
+      { "text": " though", "strong": "H3588" },
+      { "text": " they bring forth,", "strong": "H3205" },
       { "text": " yet will I slay", "strong": "H4191" },
       " ",
       { "text": "even", "marks": ["i"] },
@@ -3246,8 +3361,10 @@
       { "text": "My God", "strong": "H430" },
       { "text": " will cast them away,", "strong": "H3988" },
       { "text": " because", "strong": "H3588" },
-      { "text": " they did not hearken", "strong": "H8085" },
-      { "text": " unto him: and they shall be wanderers", "strong": "H5074" },
+      { "text": " they did not", "strong": "H3808" },
+      { "text": " hearken", "strong": "H8085" },
+      { "text": " unto him: and they shall be", "strong": "H1961" },
+      { "text": " wanderers", "strong": "H5074" },
       { "text": " among the nations.", "strong": "H1471" }
     ]
   },
@@ -3286,7 +3403,7 @@
       { "text": " the altars;", "strong": "H4196" },
       { "text": " according to the goodness", "strong": "H2896" },
       { "text": " of his land", "strong": "H776" },
-      { "text": " they have made goodly", "strong": "H2895" },
+      { "text": " they have made goodly", "strong": "H3190" },
       {
         "text": " images.",
         "foot": {
@@ -3321,10 +3438,11 @@
       },
       { "text": " now", "strong": "H6258" },
       { "text": " shall they be found faulty:", "strong": "H816" },
+      { "text": " he", "strong": "H1931" },
       {
         "content": [
           {
-            "text": " he shall break",
+            "text": " shall break",
             "foot": {
               "type": "trn",
               "content": ["Heb. ", { "text": "behead", "marks": ["i"] }]
@@ -3347,12 +3465,14 @@
       { "text": "For", "strong": "H3588" },
       { "text": " now", "strong": "H6258" },
       { "text": " they shall say,", "strong": "H559" },
-      { "text": " We have no king,", "strong": "H4428" },
+      { "text": " We have no", "strong": "H369" },
+      { "text": " king,", "strong": "H4428" },
       { "text": " because", "strong": "H3588" },
       { "text": " we feared", "strong": "H3372" },
+      { "text": " not", "strong": "H3808" },
       { "strong": "H853" },
       {
-        "content": [" not the ", { "text": "Lord", "marks": ["sc"] }, ";"],
+        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
       },
       { "text": " what", "strong": "H4100" },
@@ -3375,7 +3495,8 @@
       { "text": " thus judgment", "strong": "H4941" },
       { "text": " springeth up", "strong": "H6524" },
       { "text": " as hemlock", "strong": "H7219" },
-      { "text": " in the furrows", "strong": "H8525" },
+      { "text": " in", "strong": "H5921" },
+      { "text": " the furrows", "strong": "H8525" },
       { "text": " of the field.", "strong": "H7704" }
     ]
   },
@@ -3387,26 +3508,22 @@
       { "text": "The inhabitants", "strong": "H7934" },
       { "text": " of Samaria", "strong": "H8111" },
       { "text": " shall fear", "strong": "H1481" },
-      { "text": " because", "strong": "H3588" },
-      { "text": " of the calves", "strong": "H5697" },
+      { "text": " because of the calves", "strong": "H5697" },
       { "text": " of Beth-aven:", "strong": "H1007" },
       { "text": " for", "strong": "H3588" },
-      { "text": " the people", "strong": "H5971" },
-      { "text": " thereof shall mourn", "strong": "H56" },
-      { "text": " over", "strong": "H5921" },
-      { "text": " it, and the priests", "strong": "H3649" },
-      {
-        "content": [
-          " thereof ",
-          { "text": "that", "marks": ["i"] },
-          " rejoiced"
-        ],
-        "strong": "H1523"
-      },
-      { "text": " on", "strong": "H5921" },
-      { "text": " it, for the glory", "strong": "H3519" },
-      { "text": " thereof, because it is departed", "strong": "H1540" },
-      " from it."
+      { "text": " the people thereof", "strong": "H5971" },
+      { "text": " shall mourn", "strong": "H56" },
+      { "text": " over it,", "strong": "H5921" },
+      { "text": " and the priests thereof", "strong": "H3649" },
+      " ",
+      { "text": "that", "marks": ["i"] },
+      { "text": " rejoiced", "strong": "H1523" },
+      { "text": " on it,", "strong": "H5921" },
+      { "text": " for", "strong": "H5921" },
+      { "text": " the glory thereof,", "strong": "H3519" },
+      { "text": " because", "strong": "H3588" },
+      { "text": " it is departed", "strong": "H1540" },
+      { "text": " from it.", "strong": "H4480" }
     ]
   },
   {
@@ -3414,7 +3531,10 @@
     "chapter": 10,
     "verse": 6,
     "content": [
-      { "text": "It shall be also carried", "strong": "H2986" },
+      { "text": "It", "strong": "H853" },
+      { "text": " shall be", "strong": "H2986" },
+      { "text": " also", "strong": "H1571" },
+      { "text": " carried", "strong": "H2986" },
       { "text": " unto Assyria", "strong": "H804" },
       " ",
       { "text": "for", "marks": ["i"] },
@@ -3439,7 +3559,8 @@
       { "text": " her king", "strong": "H4428" },
       { "text": " is cut off", "strong": "H1820" },
       { "text": " as the foam", "strong": "H7110" },
-      { "text": " upon", "strong": "H6440" },
+      { "text": " upon", "strong": "H5921" },
+      { "strong": "H6440" },
       {
         "text": " the water.",
         "foot": {
@@ -3470,10 +3591,10 @@
       { "text": " their altars;", "strong": "H4196" },
       { "text": " and they shall say", "strong": "H559" },
       { "text": " to the mountains,", "strong": "H2022" },
-      { "text": " Cover", "strong": "H3680" },
-      { "text": " us; and to the hills,", "strong": "H1389" },
+      { "text": " Cover us;", "strong": "H3680" },
+      { "text": " and to the hills,", "strong": "H1389" },
       { "text": " Fall", "strong": "H5307" },
-      " on us."
+      { "text": " on us.", "strong": "H5921" }
     ]
   },
   {
@@ -3493,8 +3614,7 @@
       { "text": " the children", "strong": "H1121" },
       { "text": " of iniquity", "strong": "H5932" },
       { "text": " did not", "strong": "H3808" },
-      { "text": " overtake", "strong": "H5381" },
-      " them."
+      { "text": " overtake them.", "strong": "H5381" }
     ]
   },
   {
@@ -3504,12 +3624,12 @@
     "content": [
       { "text": "It is", "marks": ["i"] },
       { "text": " in my desire", "strong": "H185" },
-      { "text": " that I should chastise", "strong": "H3256" },
-      { "text": " them; and the people", "strong": "H5971" },
+      { "text": " that I should chastise them;", "strong": "H3256" },
+      { "text": " and the people", "strong": "H5971" },
       { "text": " shall be gathered", "strong": "H622" },
-      { "text": " against", "strong": "H5921" },
-      { "text": " them, when they shall bind", "strong": "H631" },
-      { "text": " themselves in their two", "strong": "H8147" },
+      { "text": " against them,", "strong": "H5921" },
+      { "text": " when they shall bind themselves", "strong": "H631" },
+      { "text": " in their two", "strong": "H8147" },
       { "text": " furrows.", "strong": "H5869" }
     ]
   },
@@ -3531,7 +3651,8 @@
       { "text": " to tread out", "strong": "H1758" },
       " ",
       { "text": "the corn", "marks": ["i"] },
-      { "text": "; but I passed over", "strong": "H5674" },
+      { "text": "; but I", "strong": "H589" },
+      { "text": " passed over", "strong": "H5674" },
       { "text": " upon", "strong": "H5921" },
       { "text": " her fair", "strong": "H2898" },
       {
@@ -3545,7 +3666,8 @@
         },
         "strong": "H6677"
       },
-      { "text": " I will make Ephraim", "strong": "H669" },
+      { "text": " I will make", "strong": "H7392" },
+      { "text": " Ephraim", "strong": "H669" },
       { "text": " to ride;", "strong": "H7392" },
       { "text": " Judah", "strong": "H3063" },
       { "text": " shall plow,", "strong": "H2790" },
@@ -3567,10 +3689,9 @@
       { "text": " mercy;", "strong": "H2617" },
       { "text": " break up", "strong": "H5214" },
       { "text": " your fallow ground:", "strong": "H5215" },
-      {
-        "content": [" for ", { "text": "it is", "marks": ["i"] }, " time"],
-        "strong": "H6256"
-      },
+      " for ",
+      { "text": "it is", "marks": ["i"] },
+      { "text": " time", "strong": "H6256" },
       { "text": " to seek", "strong": "H1875" },
       { "strong": "H853" },
       {
@@ -3608,14 +3729,12 @@
     "chapter": 10,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Therefore shall a tumult",
-        "strong": "H7588"
-      },
+      { "paragraph": true, "text": "Therefore shall", "strong": "H6965" },
+      { "text": " a tumult", "strong": "H7588" },
       { "text": " arise", "strong": "H6965" },
       { "text": " among thy people,", "strong": "H5971" },
-      { "text": " and all thy fortresses", "strong": "H4013" },
+      { "text": " and all", "strong": "H3605" },
+      { "text": " thy fortresses", "strong": "H4013" },
       { "text": " shall be spoiled,", "strong": "H7703" },
       { "text": " as Shalman", "strong": "H8020" },
       { "text": " spoiled", "strong": "H7701" },
@@ -3624,10 +3743,10 @@
       { "text": " of battle:", "strong": "H4421" },
       { "text": " the mother", "strong": "H517" },
       { "text": " was dashed in pieces", "strong": "H7376" },
-      {
-        "content": [" upon ", { "text": "her", "marks": ["i"] }, " children."],
-        "strong": "H1121"
-      }
+      { "text": " upon", "strong": "H5921" },
+      " ",
+      { "text": "her", "marks": ["i"] },
+      { "text": " children.", "strong": "H1121" }
     ]
   },
   {
@@ -3636,7 +3755,8 @@
     "verse": 15,
     "content": [
       { "text": "So", "strong": "H3602" },
-      { "text": " shall Beth-el", "strong": "H1008" },
+      { "text": " shall", "strong": "H6213" },
+      { "text": " Beth-el", "strong": "H1008" },
       { "text": " do", "strong": "H6213" },
       { "text": " unto you because", "strong": "H6440" },
       { "text": " of your great", "strong": "H7451" },
@@ -3652,7 +3772,8 @@
         "strong": "H7451"
       },
       { "text": " in a morning", "strong": "H7837" },
-      { "text": " shall the king", "strong": "H4428" },
+      { "text": " shall", "strong": "H1820" },
+      { "text": " the king", "strong": "H4428" },
       { "text": " of Israel", "strong": "H3478" },
       { "text": " utterly", "strong": "H1820" },
       { "text": " be cut off.", "strong": "H1820" }
@@ -3664,12 +3785,13 @@
     "verse": 1,
     "content": [
       { "heading": "The Father’s Love" },
-      { "paragraph": true, "text": "When Israel", "strong": "H3478" },
+      { "paragraph": true, "text": "When", "strong": "H3588" },
+      { "text": " Israel", "strong": "H3478" },
       " ",
       { "text": "was", "marks": ["i"] },
       { "text": " a child,", "strong": "H5288" },
-      { "text": " then I loved", "strong": "H157" },
-      { "text": " him, and called", "strong": "H7121" },
+      { "text": " then I loved him,", "strong": "H157" },
+      { "text": " and called", "strong": "H7121" },
       { "text": " my son", "strong": "H1121" },
       { "text": " out of Egypt.", "strong": "H4714" }
     ]
@@ -3681,7 +3803,8 @@
     "content": [
       { "text": "As", "marks": ["i"] },
       { "text": " they called", "strong": "H7121" },
-      { "text": " them, so they went", "strong": "H1980" },
+      { "text": " them, so", "strong": "H3651" },
+      { "text": " they went", "strong": "H1980" },
       { "text": " from them:", "strong": "H6440" },
       { "text": " they sacrificed", "strong": "H2076" },
       { "text": " unto Baalim,", "strong": "H1168" },
@@ -3694,15 +3817,17 @@
     "chapter": 11,
     "verse": 3,
     "content": [
-      { "paragraph": true, "text": "I taught", "strong": "H8637" },
+      { "paragraph": true, "text": "I", "strong": "H595" },
+      { "text": " taught", "strong": "H8637" },
       { "text": " Ephraim", "strong": "H669" },
       { "text": " also to go,", "strong": "H8637" },
-      { "text": " taking", "strong": "H3947" },
-      { "text": " them by their arms;", "strong": "H2220" },
+      { "text": " taking them", "strong": "H3947" },
+      { "text": " by", "strong": "H5921" },
+      { "text": " their arms;", "strong": "H2220" },
       { "text": " but they knew", "strong": "H3045" },
       { "text": " not", "strong": "H3808" },
-      { "text": " that I healed", "strong": "H7495" },
-      " them."
+      { "text": " that", "strong": "H3588" },
+      { "text": " I healed them.", "strong": "H7495" }
     ]
   },
   {
@@ -3710,13 +3835,14 @@
     "chapter": 11,
     "verse": 4,
     "content": [
-      { "text": "I drew", "strong": "H4900" },
-      { "text": " them with cords", "strong": "H2256" },
+      { "text": "I drew them", "strong": "H4900" },
+      { "text": " with cords", "strong": "H2256" },
       { "text": " of a man,", "strong": "H120" },
       { "text": " with bands", "strong": "H5688" },
       { "text": " of love:", "strong": "H160" },
+      { "text": " and I was", "strong": "H1961" },
       {
-        "text": " and I was to them as they that take off",
+        "text": " to them as they that take off",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "lift up", "marks": ["i"] }]
@@ -3728,7 +3854,7 @@
       { "text": " their jaws,", "strong": "H3895" },
       { "text": " and I laid", "strong": "H5186" },
       { "text": " meat", "strong": "H398" },
-      " unto them."
+      { "text": " unto them.", "strong": "H413" }
     ]
   },
   {
@@ -3739,9 +3865,11 @@
       { "paragraph": true, "text": "He shall", "strong": "H7725" },
       { "text": " not", "strong": "H3808" },
       { "text": " return", "strong": "H7725" },
-      { "text": " into the land", "strong": "H776" },
+      { "text": " into", "strong": "H413" },
+      { "text": " the land", "strong": "H776" },
       { "text": " of Egypt,", "strong": "H4714" },
       { "text": " but the Assyrian", "strong": "H804" },
+      { "strong": "H1931" },
       { "text": " shall be his king,", "strong": "H4428" },
       { "text": " because", "strong": "H3588" },
       { "text": " they refused", "strong": "H3985" },
@@ -3771,10 +3899,12 @@
     "content": [
       { "text": "And my people", "strong": "H5971" },
       { "text": " are bent", "strong": "H8511" },
-      { "text": " to backsliding", "strong": "H4878" },
-      { "text": " from me: though they called", "strong": "H7121" },
-      { "text": " them to the most High,", "strong": "H5920" },
-      { "text": " none at all", "strong": "H3162" },
+      { "text": " to backsliding from me:", "strong": "H4878" },
+      { "text": " though they called them", "strong": "H7121" },
+      { "text": " to", "strong": "H413" },
+      { "text": " the most High,", "strong": "H5920" },
+      { "text": " none", "strong": "H3808" },
+      { "text": " at all", "strong": "H3162" },
       { "text": " would exalt", "strong": "H7311" },
       " ",
       { "text": "him", "marks": ["i"] },
@@ -3795,25 +3925,24 @@
     "chapter": 11,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "How shall I give thee up,",
-        "strong": "H5414"
-      },
+      { "paragraph": true, "text": "How", "strong": "H349" },
+      { "text": " shall I give thee up,", "strong": "H5414" },
       { "text": " Ephraim?", "strong": "H669" },
       " ",
       { "text": "how", "marks": ["i"] },
-      { "text": " shall I deliver", "strong": "H4042" },
-      { "text": " thee, Israel?", "strong": "H3478" },
-      { "text": " how shall I make", "strong": "H5414" },
-      { "text": " thee as Admah?", "strong": "H126" },
+      { "text": " shall I deliver thee,", "strong": "H4042" },
+      { "text": " Israel?", "strong": "H3478" },
+      { "text": " how", "strong": "H349" },
+      { "text": " shall I make thee", "strong": "H5414" },
+      { "text": " as Admah?", "strong": "H126" },
       " ",
       { "text": "how", "marks": ["i"] },
-      { "text": " shall I set", "strong": "H7760" },
-      { "text": " thee as Zeboim?", "strong": "H6636" },
+      { "text": " shall I set thee", "strong": "H7760" },
+      { "text": " as Zeboim?", "strong": "H6636" },
       { "text": " mine heart", "strong": "H3820" },
       { "text": " is turned", "strong": "H2015" },
-      { "text": " within me, my repentings", "strong": "H5150" },
+      { "text": " within me,", "strong": "H5921" },
+      { "text": " my repentings", "strong": "H5150" },
       { "text": " are kindled", "strong": "H3648" },
       { "text": " together.", "strong": "H3162" }
     ]
@@ -3833,14 +3962,17 @@
       { "text": " return", "strong": "H7725" },
       { "text": " to destroy", "strong": "H7843" },
       { "text": " Ephraim:", "strong": "H669" },
-      {
-        "content": [" for I ", { "text": "am", "marks": ["i"] }, " God,"],
-        "strong": "H410"
-      },
-      { "text": " and not man;", "strong": "H376" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " I", "strong": "H595" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " God,", "strong": "H410" },
+      { "text": " and not", "strong": "H3808" },
+      { "text": " man;", "strong": "H376" },
       { "text": " the Holy One", "strong": "H6918" },
-      { "text": " in the midst", "strong": "H7130" },
-      { "text": " of thee: and I will not enter", "strong": "H935" },
+      { "text": " in the midst of thee:", "strong": "H7130" },
+      { "text": " and I will not", "strong": "H3808" },
+      { "text": " enter", "strong": "H935" },
       { "text": " into the city.", "strong": "H5892" }
     ]
   },
@@ -3857,7 +3989,9 @@
       },
       { "text": " he shall roar", "strong": "H7580" },
       { "text": " like a lion:", "strong": "H738" },
-      { "text": " when he shall roar,", "strong": "H7580" },
+      { "text": " when", "strong": "H3588" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " shall roar,", "strong": "H7580" },
       { "text": " then the children", "strong": "H1121" },
       { "text": " shall tremble", "strong": "H2729" },
       { "text": " from the west.", "strong": "H3220" }
@@ -3874,8 +4008,9 @@
       { "text": " and as a dove", "strong": "H3123" },
       { "text": " out of the land", "strong": "H776" },
       { "text": " of Assyria:", "strong": "H804" },
-      { "text": " and I will place", "strong": "H3427" },
-      { "text": " them in their houses,", "strong": "H1004" },
+      { "text": " and I will place them", "strong": "H3427" },
+      { "text": " in", "strong": "H5921" },
+      { "text": " their houses,", "strong": "H1004" },
       { "text": " saith", "strong": "H5002" },
       {
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, "."],
@@ -3889,17 +4024,20 @@
     "verse": 12,
     "content": [
       { "paragraph": true, "text": "Ephraim", "strong": "H669" },
-      { "text": " compasseth", "strong": "H5437" },
-      { "text": " me about with lies,", "strong": "H3585" },
+      { "text": " compasseth me about", "strong": "H5437" },
+      { "text": " with lies,", "strong": "H3585" },
       { "text": " and the house", "strong": "H1004" },
       { "text": " of Israel", "strong": "H3478" },
       { "text": " with deceit:", "strong": "H4820" },
       { "text": " but Judah", "strong": "H3063" },
-      { "text": " yet ruleth", "strong": "H7300" },
-      { "text": " with God,", "strong": "H410" },
+      { "text": " yet", "strong": "H5750" },
+      { "text": " ruleth", "strong": "H7300" },
+      { "text": " with", "strong": "H5973" },
+      { "text": " God,", "strong": "H410" },
       { "text": " and is faithful", "strong": "H539" },
+      { "text": " with", "strong": "H5973" },
       {
-        "text": " with the saints.",
+        "text": " the saints.",
         "foot": {
           "type": "trn",
           "content": ["Or, ", { "text": "with the most holy", "marks": ["i"] }]
@@ -3917,9 +4055,11 @@
       { "paragraph": true, "text": "Ephraim", "strong": "H669" },
       { "text": " feedeth", "strong": "H7462" },
       { "text": " on wind,", "strong": "H7307" },
-      { "text": " and followeth", "strong": "H7291" },
-      { "text": " after the east wind:", "strong": "H6921" },
-      { "text": " he daily", "strong": "H3117" },
+      { "text": " and followeth after", "strong": "H7291" },
+      { "text": " the east wind:", "strong": "H6921" },
+      { "text": " he", "strong": "H7235" },
+      { "text": " daily", "strong": "H3605" },
+      { "strong": "H3117" },
       { "text": " increaseth", "strong": "H7235" },
       { "text": " lies", "strong": "H3577" },
       { "text": " and desolation;", "strong": "H7701" },
@@ -3950,11 +4090,11 @@
         },
         "strong": "H6485"
       },
+      { "strong": "H5921" },
       { "text": " Jacob", "strong": "H3290" },
       { "text": " according to his ways;", "strong": "H1870" },
       { "text": " according to his doings", "strong": "H4611" },
-      { "text": " will he recompense", "strong": "H7725" },
-      " him."
+      { "text": " will he recompense him.", "strong": "H7725" }
     ]
   },
   {
@@ -3962,8 +4102,9 @@
     "chapter": 12,
     "verse": 3,
     "content": [
+      { "text": "He took", "strong": "H6117" },
       { "strong": "H853" },
-      { "text": "He took his brother", "strong": "H251" },
+      { "text": " his brother", "strong": "H251" },
       { "text": " by the heel", "strong": "H6117" },
       { "text": " in the womb,", "strong": "H990" },
       { "text": " and by his strength", "strong": "H202" },
@@ -3990,18 +4131,18 @@
     "verse": 4,
     "content": [
       { "text": "yea, he had power", "strong": "H7786" },
-      { "text": " over the angel,", "strong": "H4397" },
+      { "text": " over", "strong": "H413" },
+      { "text": " the angel,", "strong": "H4397" },
       { "text": " and prevailed:", "strong": "H3201" },
       { "text": " he wept,", "strong": "H1058" },
       { "text": " and made supplication", "strong": "H2603" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " him: he found", "strong": "H4672" },
-      {
-        "content": [" him ", { "text": "in", "marks": ["i"] }, " Beth-el,"],
-        "strong": "H1008"
-      },
-      { "text": " and there he spake", "strong": "H1696" },
-      " with us;"
+      { "text": " unto him: he found him", "strong": "H4672" },
+      " ",
+      { "text": "in", "marks": ["i"] },
+      { "text": " Beth-el,", "strong": "H1008" },
+      { "text": " and there", "strong": "H8033" },
+      { "text": " he spake", "strong": "H1696" },
+      { "text": " with us;", "strong": "H5973" }
     ]
   },
   {
@@ -4026,12 +4167,14 @@
     "verse": 6,
     "content": [
       { "text": "Therefore turn", "strong": "H7725" },
-      { "text": " thou to thy God:", "strong": "H430" },
+      { "text": " thou", "strong": "H859" },
+      { "text": " to thy God:", "strong": "H430" },
       { "text": " keep", "strong": "H8104" },
       { "text": " mercy", "strong": "H2617" },
       { "text": " and judgment,", "strong": "H4941" },
       { "text": " and wait", "strong": "H6960" },
-      { "text": " on thy God", "strong": "H430" },
+      { "text": " on", "strong": "H413" },
+      { "text": " thy God", "strong": "H430" },
       { "text": " continually.", "strong": "H8548" }
     ]
   },
@@ -4072,22 +4215,21 @@
     "content": [
       { "text": "And Ephraim", "strong": "H669" },
       { "text": " said,", "strong": "H559" },
-      { "text": " Yet I am become rich,", "strong": "H6238" },
+      { "text": " Yet", "strong": "H389" },
+      { "text": " I am become rich,", "strong": "H6238" },
       { "text": " I have found me out", "strong": "H4672" },
       { "text": " substance:", "strong": "H202" },
       " ",
       { "text": "in", "marks": ["i"] },
-      { "text": " all my labours", "strong": "H3018" },
+      { "text": " all", "strong": "H3605" },
+      { "text": " my labours", "strong": "H3018" },
       { "text": " they shall find", "strong": "H4672" },
-      { "text": " none iniquity", "strong": "H5771" },
-      {
-        "content": [
-          " in me that ",
-          { "text": "were", "marks": ["i"] },
-          " sin."
-        ],
-        "strong": "H2399"
-      }
+      { "text": " none", "strong": "H3808" },
+      { "text": " iniquity", "strong": "H5771" },
+      { "text": " in me that", "strong": "H834" },
+      " ",
+      { "text": "were", "marks": ["i"] },
+      { "text": " sin.", "strong": "H2399" }
     ]
   },
   {
@@ -4095,19 +4237,17 @@
     "chapter": 12,
     "verse": 9,
     "content": [
-      {
-        "content": [
-          "And I ",
-          { "text": "that am", "marks": ["i"] },
-          " the ",
-          { "text": "Lord", "marks": ["sc"] }
-        ],
-        "strong": "H3068"
-      },
+      { "text": "And I", "strong": "H595" },
+      " ",
+      { "text": "that am", "marks": ["i"] },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " thy God", "strong": "H430" },
       { "text": " from the land", "strong": "H776" },
       { "text": " of Egypt", "strong": "H4714" },
-      { "text": " will yet make thee to dwell", "strong": "H3427" },
+      { "text": " will", "strong": "H3427" },
+      { "text": " yet", "strong": "H5750" },
+      { "text": " make thee to dwell", "strong": "H3427" },
       { "text": " in tabernacles,", "strong": "H168" },
       { "text": " as in the days", "strong": "H3117" },
       { "text": " of the solemn feast.", "strong": "H4150" }
@@ -4119,8 +4259,10 @@
     "verse": 10,
     "content": [
       { "paragraph": true, "text": "I have also spoken", "strong": "H1696" },
-      { "text": " by the prophets,", "strong": "H5030" },
-      { "text": " and I have multiplied", "strong": "H7235" },
+      { "text": " by", "strong": "H5921" },
+      { "text": " the prophets,", "strong": "H5030" },
+      { "text": " and I", "strong": "H595" },
+      { "text": " have multiplied", "strong": "H7235" },
       { "text": " visions,", "strong": "H2377" },
       { "text": " and used similitudes,", "strong": "H1819" },
       {
@@ -4139,20 +4281,25 @@
     "chapter": 12,
     "verse": 11,
     "content": [
+      { "strong": "H518" },
       { "text": "Is there", "marks": ["i"] },
       { "text": " iniquity", "strong": "H205" },
       " ",
       { "text": "in", "marks": ["i"] },
       { "text": " Gilead?", "strong": "H1568" },
-      { "text": " surely they are vanity:", "strong": "H7723" },
+      { "text": " surely", "strong": "H389" },
+      { "text": " they are", "strong": "H1961" },
+      { "text": " vanity:", "strong": "H7723" },
       { "text": " they sacrifice", "strong": "H2076" },
       { "text": " bullocks", "strong": "H7794" },
       { "text": " in Gilgal;", "strong": "H1537" },
-      { "text": " yea, their altars", "strong": "H4196" },
+      { "text": " yea,", "strong": "H1571" },
+      { "text": " their altars", "strong": "H4196" },
       " ",
       { "text": "are", "marks": ["i"] },
       { "text": " as heaps", "strong": "H1530" },
-      { "text": " in the furrows", "strong": "H8525" },
+      { "text": " in", "strong": "H5921" },
+      { "text": " the furrows", "strong": "H8525" },
       { "text": " of the fields.", "strong": "H7704" }
     ]
   },
@@ -4222,9 +4369,10 @@
         },
         "strong": "H1818"
       },
-      { "text": " upon", "strong": "H5921" },
-      { "text": " him, and his reproach", "strong": "H2781" },
-      { "text": " shall his Lord", "strong": "H113" },
+      { "text": " upon him,", "strong": "H5921" },
+      { "text": " and his reproach", "strong": "H2781" },
+      { "text": " shall", "strong": "H7725" },
+      { "text": " his Lord", "strong": "H113" },
       { "text": " return", "strong": "H7725" },
       " unto him."
     ]
@@ -4239,7 +4387,8 @@
       { "text": " spake", "strong": "H1696" },
       { "text": " trembling,", "strong": "H7578" },
       { "text": " he exalted", "strong": "H5375" },
-      { "text": " himself in Israel;", "strong": "H3478" },
+      { "text": " himself", "strong": "H1931" },
+      { "text": " in Israel;", "strong": "H3478" },
       { "text": " but when he offended", "strong": "H816" },
       { "text": " in Baal,", "strong": "H1168" },
       { "text": " he died.", "strong": "H4191" }
@@ -4250,7 +4399,8 @@
     "chapter": 13,
     "verse": 2,
     "content": [
-      { "text": "And now they sin", "strong": "H2398" },
+      { "text": "And now", "strong": "H6258" },
+      { "text": " they sin", "strong": "H2398" },
       {
         "text": " more and more,",
         "foot": {
@@ -4266,11 +4416,13 @@
       { "text": "and", "marks": ["i"] },
       { "text": " idols", "strong": "H6091" },
       { "text": " according to their own understanding,", "strong": "H8394" },
-      { "text": " all", "strong": "H3605" },
-      { "text": " of it the work", "strong": "H4639" },
+      { "text": " all of it", "strong": "H3605" },
+      { "text": " the work", "strong": "H4639" },
       { "text": " of the craftsmen:", "strong": "H2796" },
-      { "text": " they say", "strong": "H559" },
-      { "text": " of them, Let the men", "strong": "H120" },
+      { "text": " they", "strong": "H1992" },
+      { "text": " say", "strong": "H559" },
+      { "text": " of them, Let", "strong": "H5401" },
+      { "text": " the men", "strong": "H120" },
       {
         "text": " that sacrifice",
         "foot": {
@@ -4291,7 +4443,9 @@
     "chapter": 13,
     "verse": 3,
     "content": [
-      { "text": "Therefore they shall be as the morning", "strong": "H1242" },
+      { "text": "Therefore", "strong": "H3651" },
+      { "text": " they shall be", "strong": "H1961" },
+      { "text": " as the morning", "strong": "H1242" },
       { "text": " cloud,", "strong": "H6051" },
       { "text": " and as the early", "strong": "H7925" },
       { "text": " dew", "strong": "H2919" },
@@ -4310,30 +4464,22 @@
     "chapter": 13,
     "verse": 4,
     "content": [
-      {
-        "paragraph": true,
-        "content": [
-          "Yet I ",
-          { "text": "am", "marks": ["i"] },
-          " the ",
-          { "text": "Lord", "marks": ["sc"] }
-        ],
-        "strong": "H3068"
-      },
+      { "paragraph": true, "text": "Yet I", "strong": "H595" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      " the ",
+      { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       { "text": " thy God", "strong": "H430" },
       { "text": " from the land", "strong": "H776" },
       { "text": " of Egypt,", "strong": "H4714" },
       { "text": " and thou shalt know", "strong": "H3045" },
-      { "text": " no god", "strong": "H430" },
+      { "text": " no", "strong": "H3808" },
+      { "text": " god", "strong": "H430" },
       { "text": " but me:", "strong": "H2108" },
-      {
-        "content": [
-          " for ",
-          { "text": "there is", "marks": ["i"] },
-          " no saviour"
-        ],
-        "strong": "H3467"
-      },
+      " for ",
+      { "text": "there is", "marks": ["i"] },
+      { "text": " no", "strong": "H369" },
+      { "text": " saviour", "strong": "H3467" },
       { "text": " beside me.", "strong": "H1115" }
     ]
   },
@@ -4342,8 +4488,9 @@
     "chapter": 13,
     "verse": 5,
     "content": [
-      { "text": "I did know", "strong": "H3045" },
-      { "text": " thee in the wilderness,", "strong": "H4057" },
+      { "text": "I", "strong": "H589" },
+      { "text": " did know thee", "strong": "H3045" },
+      { "text": " in the wilderness,", "strong": "H4057" },
       { "text": " in the land", "strong": "H776" },
       {
         "text": " of great drought.",
@@ -4361,13 +4508,13 @@
     "verse": 6,
     "content": [
       { "text": "According to their pasture,", "strong": "H4830" },
-      { "text": " so", "strong": "H3651" },
-      { "text": " were they filled;", "strong": "H7646" },
+      { "text": " so were they filled;", "strong": "H7646" },
       { "text": " they were filled,", "strong": "H7646" },
       { "text": " and their heart", "strong": "H3820" },
       { "text": " was exalted;", "strong": "H7311" },
-      { "text": " therefore have they forgotten", "strong": "H7911" },
-      " me."
+      { "text": " therefore", "strong": "H5921" },
+      { "strong": "H3651" },
+      { "text": " have they forgotten me.", "strong": "H7911" }
     ]
   },
   {
@@ -4375,9 +4522,12 @@
     "chapter": 13,
     "verse": 7,
     "content": [
-      { "text": "Therefore I will be unto them as a lion:", "strong": "H7826" },
+      { "text": "Therefore I will be", "strong": "H1961" },
+      { "text": " unto them as", "strong": "H3644" },
+      { "text": " a lion:", "strong": "H7826" },
       { "text": " as a leopard", "strong": "H5246" },
-      { "text": " by the way", "strong": "H1870" },
+      { "text": " by", "strong": "H5921" },
+      { "text": " the way", "strong": "H1870" },
       { "text": " will I observe", "strong": "H7789" },
       " ",
       { "text": "them:", "marks": ["i"] }
@@ -4388,8 +4538,8 @@
     "chapter": 13,
     "verse": 8,
     "content": [
-      { "text": "I will meet", "strong": "H6298" },
-      { "text": " them as a bear", "strong": "H1677" },
+      { "text": "I will meet them", "strong": "H6298" },
+      { "text": " as a bear", "strong": "H1677" },
       " ",
       { "text": "that is", "marks": ["i"] },
       { "text": " bereaved", "strong": "H7909" },
@@ -4398,8 +4548,9 @@
       { "text": ", and will rend", "strong": "H7167" },
       { "text": " the caul", "strong": "H5458" },
       { "text": " of their heart,", "strong": "H3820" },
-      { "text": " and there will I devour", "strong": "H398" },
-      { "text": " them like a lion:", "strong": "H3833" },
+      { "text": " and there", "strong": "H8033" },
+      { "text": " will I devour them", "strong": "H398" },
+      { "text": " like a lion:", "strong": "H3833" },
       { "text": " the wild", "strong": "H7704" },
       {
         "text": " beast",
@@ -4412,8 +4563,7 @@
         },
         "strong": "H2416"
       },
-      { "text": " shall tear", "strong": "H1234" },
-      " them."
+      { "text": " shall tear them.", "strong": "H1234" }
     ]
   },
   {
@@ -4422,19 +4572,16 @@
     "verse": 9,
     "content": [
       { "paragraph": true, "text": "O Israel,", "strong": "H3478" },
-      { "text": " thou hast destroyed", "strong": "H7843" },
+      { "text": " thou hast destroyed thyself;", "strong": "H7843" },
+      { "text": " but", "strong": "H3588" },
+      " in me ",
+      { "text": "is", "marks": ["i"] },
       {
-        "content": [
-          " thyself; but in me ",
-          { "text": "is", "marks": ["i"] },
-          {
-            "text": " thine help.",
-            "foot": {
-              "type": "trn",
-              "content": ["Heb. ", { "text": "in thy help", "marks": ["i"] }]
-            }
-          }
-        ],
+        "text": " thine help.",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "in thy help", "marks": ["i"] }]
+        },
         "strong": "H5828"
       }
     ]
@@ -4444,15 +4591,17 @@
     "chapter": 13,
     "verse": 10,
     "content": [
-      { "text": "I will", "strong": "H165" },
-      { "text": " be thy king:", "strong": "H4428" },
+      { "text": "I will be", "strong": "H165" },
+      { "text": " thy king:", "strong": "H4428" },
       { "text": " where", "strong": "H645" },
       " ",
       { "text": "is any other", "marks": ["i"] },
-      { "text": " that may save", "strong": "H3467" },
-      { "text": " thee in all thy cities?", "strong": "H5892" },
+      { "text": " that may save thee", "strong": "H3467" },
+      { "text": " in all", "strong": "H3605" },
+      { "text": " thy cities?", "strong": "H5892" },
       { "text": " and thy judges", "strong": "H8199" },
-      { "text": " of whom thou saidst,", "strong": "H559" },
+      { "text": " of whom", "strong": "H834" },
+      { "text": " thou saidst,", "strong": "H559" },
       { "text": " Give", "strong": "H5414" },
       { "text": " me a king", "strong": "H4428" },
       { "text": " and princes?", "strong": "H8269" }
@@ -4469,7 +4618,8 @@
       { "text": " and took", "strong": "H3947" },
       " ",
       { "text": "him", "marks": ["i"] },
-      { "text": " away in my wrath.", "strong": "H5678" }
+      { "text": " away", "strong": "H3947" },
+      { "text": " in my wrath.", "strong": "H5678" }
     ]
   },
   {
@@ -4496,17 +4646,16 @@
       { "text": "The sorrows", "strong": "H2256" },
       { "text": " of a travailing woman", "strong": "H3205" },
       { "text": " shall come", "strong": "H935" },
-      {
-        "content": [
-          " upon him: he ",
-          { "text": "is", "marks": ["i"] },
-          " an unwise"
-        ],
-        "strong": "H2450"
-      },
+      { "text": " upon him: he", "strong": "H1931" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " an unwise", "strong": "H3808" },
+      { "strong": "H2450" },
       { "text": " son;", "strong": "H1121" },
       { "text": " for", "strong": "H3588" },
-      { "text": " he should not stay", "strong": "H5975" },
+      { "text": " he should", "strong": "H5975" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " stay", "strong": "H5975" },
       {
         "text": " long",
         "foot": {
@@ -4515,14 +4664,9 @@
         },
         "strong": "H6256"
       },
-      {
-        "content": [
-          " in ",
-          { "text": "the place of", "marks": ["i"] },
-          " the breaking forth"
-        ],
-        "strong": "H4866"
-      },
+      " in ",
+      { "text": "the place of", "marks": ["i"] },
+      { "text": " the breaking forth", "strong": "H4866" },
       { "text": " of children.", "strong": "H1121" }
     ]
   },
@@ -4531,9 +4675,9 @@
     "chapter": 13,
     "verse": 14,
     "content": [
-      { "text": "I will ransom", "strong": "H6299" },
+      { "text": "I will ransom them", "strong": "H6299" },
       {
-        "text": " them from the power",
+        "text": " from the power",
         "foot": {
           "type": "trn",
           "content": ["Heb. ", { "text": "the hand", "marks": ["i"] }]
@@ -4541,14 +4685,14 @@
         "strong": "H3027"
       },
       { "text": " of the grave;", "strong": "H7585" },
-      { "text": " I will redeem", "strong": "H1350" },
-      { "text": " them from death:", "strong": "H4194" },
+      { "text": " I will redeem them", "strong": "H1350" },
+      { "text": " from death:", "strong": "H4194" },
       { "text": " O death,", "strong": "H4194" },
-      { "text": " I will", "strong": "H165" },
-      { "text": " be thy plagues;", "strong": "H1698" },
+      { "text": " I will be", "strong": "H165" },
+      { "text": " thy plagues;", "strong": "H1698" },
       { "text": " O grave,", "strong": "H7585" },
-      { "text": " I will", "strong": "H165" },
-      { "text": " be thy destruction:", "strong": "H6987" },
+      { "text": " I will be", "strong": "H165" },
+      { "text": " thy destruction:", "strong": "H6987" },
       { "text": " repentance", "strong": "H5164" },
       { "text": " shall be hid", "strong": "H5641" },
       { "text": " from mine eyes.", "strong": "H5869" }
@@ -4559,11 +4703,13 @@
     "chapter": 13,
     "verse": 15,
     "content": [
-      { "paragraph": true, "text": "Though he be fruitful", "strong": "H6500" },
-      {
-        "content": [" among ", { "text": "his", "marks": ["i"] }, " brethren,"],
-        "strong": "H251"
-      },
+      { "paragraph": true, "text": "Though", "strong": "H3588" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " be fruitful", "strong": "H6500" },
+      { "text": " among", "strong": "H996" },
+      " ",
+      { "text": "his", "marks": ["i"] },
+      { "text": " brethren,", "strong": "H251" },
       { "text": " an east wind", "strong": "H6921" },
       { "text": " shall come,", "strong": "H935" },
       { "text": " the wind", "strong": "H7307" },
@@ -4575,9 +4721,11 @@
       { "text": " shall become dry,", "strong": "H954" },
       { "text": " and his fountain", "strong": "H4599" },
       { "text": " shall be dried up:", "strong": "H2717" },
-      { "text": " he shall spoil", "strong": "H8154" },
+      { "text": " he", "strong": "H1931" },
+      { "text": " shall spoil", "strong": "H8154" },
       { "text": " the treasure", "strong": "H214" },
-      { "text": " of all pleasant", "strong": "H2532" },
+      { "text": " of all", "strong": "H3605" },
+      { "text": " pleasant", "strong": "H2532" },
       {
         "text": " vessels.",
         "foot": {
@@ -4629,16 +4777,17 @@
     "verse": 2,
     "content": [
       { "text": "Take", "strong": "H3947" },
-      { "text": " with", "strong": "H5973" },
-      { "text": " you words,", "strong": "H1697" },
+      { "text": " with you", "strong": "H5973" },
+      { "text": " words,", "strong": "H1697" },
       { "text": " and turn", "strong": "H7725" },
+      { "text": " to", "strong": "H413" },
       {
-        "content": [" to the ", { "text": "Lord", "marks": ["sc"] }, ":"],
+        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ":"],
         "strong": "H3068"
       },
       { "text": " say", "strong": "H559" },
-      { "text": " unto", "strong": "H413" },
-      { "text": " him, Take away", "strong": "H5375" },
+      { "text": " unto him,", "strong": "H413" },
+      { "text": " Take away", "strong": "H5375" },
       { "text": " all", "strong": "H3605" },
       { "text": " iniquity,", "strong": "H5771" },
       { "text": " and receive", "strong": "H3947" },
@@ -4665,17 +4814,22 @@
       { "text": "Asshur", "strong": "H804" },
       { "text": " shall", "strong": "H3467" },
       { "text": " not", "strong": "H3808" },
-      { "text": " save", "strong": "H3467" },
-      { "text": " us; we will not ride", "strong": "H7392" },
+      { "text": " save us;", "strong": "H3467" },
+      { "text": " we will", "strong": "H7392" },
+      { "text": " not", "strong": "H3808" },
+      { "text": " ride", "strong": "H7392" },
       { "text": " upon", "strong": "H5921" },
       { "text": " horses:", "strong": "H5483" },
-      { "text": " neither will we say", "strong": "H559" },
-      { "text": " any more to the work", "strong": "H4639" },
+      { "text": " neither", "strong": "H3808" },
+      { "text": " will we say", "strong": "H559" },
+      { "text": " any more", "strong": "H5750" },
+      { "text": " to the work", "strong": "H4639" },
       { "text": " of our hands,", "strong": "H3027" },
       " ",
       { "text": "Ye are", "marks": ["i"] },
       { "text": " our gods:", "strong": "H430" },
-      { "text": " for in thee the fatherless", "strong": "H3490" },
+      { "text": " for", "strong": "H834" },
+      { "text": " in thee the fatherless", "strong": "H3490" },
       { "text": " findeth mercy.", "strong": "H7355" }
     ]
   },
@@ -4686,12 +4840,12 @@
     "content": [
       { "paragraph": true, "text": "I will heal", "strong": "H7495" },
       { "text": " their backsliding,", "strong": "H4878" },
-      { "text": " I will love", "strong": "H157" },
-      { "text": " them freely:", "strong": "H5071" },
+      { "text": " I will love them", "strong": "H157" },
+      { "text": " freely:", "strong": "H5071" },
       { "text": " for", "strong": "H3588" },
       { "text": " mine anger", "strong": "H639" },
       { "text": " is turned away", "strong": "H7725" },
-      " from him."
+      { "text": " from him.", "strong": "H4480" }
     ]
   },
   {
@@ -4699,7 +4853,8 @@
     "chapter": 14,
     "verse": 5,
     "content": [
-      { "text": "I will be as the dew", "strong": "H2919" },
+      { "text": "I will be", "strong": "H1961" },
+      { "text": " as the dew", "strong": "H2919" },
       { "text": " unto Israel:", "strong": "H3478" },
       {
         "text": " he shall grow",
@@ -4737,7 +4892,8 @@
         "strong": "H3212"
       },
       { "text": " and his beauty", "strong": "H1935" },
-      { "text": " shall be as the olive tree,", "strong": "H2132" },
+      { "text": " shall be", "strong": "H1961" },
+      { "text": " as the olive tree,", "strong": "H2132" },
       { "text": " and his smell", "strong": "H7381" },
       { "text": " as Lebanon.", "strong": "H3844" }
     ]
@@ -4763,15 +4919,10 @@
         "strong": "H6524"
       },
       { "text": " as the vine:", "strong": "H1612" },
-      { "text": " the scent", "strong": "H2143" },
-      {
-        "content": [
-          " thereof ",
-          { "text": "shall be", "marks": ["i"] },
-          " as the wine"
-        ],
-        "strong": "H3196"
-      },
+      { "text": " the scent thereof", "strong": "H2143" },
+      " ",
+      { "text": "shall be", "marks": ["i"] },
+      { "text": " as the wine", "strong": "H3196" },
       { "text": " of Lebanon.", "strong": "H3844" }
     ]
   },
@@ -4783,22 +4934,22 @@
       { "text": "Ephraim", "strong": "H669" },
       " ",
       { "text": "shall say", "marks": ["i"] },
-      { "text": ", What have I to do any more with idols?", "strong": "H6091" },
-      { "text": " I have heard", "strong": "H6030" },
+      { "text": ", What", "strong": "H4100" },
+      { "text": " have I to do any more", "strong": "H5750" },
+      { "text": " with idols?", "strong": "H6091" },
+      { "text": " I", "strong": "H589" },
+      { "text": " have heard", "strong": "H6030" },
       " ",
       { "text": "him", "marks": ["i"] },
-      { "text": ", and observed", "strong": "H7789" },
-      {
-        "content": [
-          " him: I ",
-          { "text": "am", "marks": ["i"] },
-          " like a green"
-        ],
-        "strong": "H7488"
-      },
+      { "text": ", and observed him:", "strong": "H7789" },
+      { "text": " I", "strong": "H589" },
+      " ",
+      { "text": "am", "marks": ["i"] },
+      { "text": " like a green", "strong": "H7488" },
       { "text": " fir tree.", "strong": "H1265" },
-      { "text": " From", "strong": "H4480" },
-      { "text": " me is thy fruit", "strong": "H6529" },
+      { "text": " From me", "strong": "H4480" },
+      { "text": " is", "strong": "H4672" },
+      { "text": " thy fruit", "strong": "H6529" },
       { "text": " found.", "strong": "H4672" }
     ]
   },
@@ -4807,22 +4958,18 @@
     "chapter": 14,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "content": ["Who ", { "text": "is", "marks": ["i"] }, " wise,"],
-        "strong": "H2450"
-      },
+      { "paragraph": true, "text": "Who", "strong": "H4310" },
+      " ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " wise,", "strong": "H2450" },
       { "text": " and he shall understand", "strong": "H995" },
-      {
-        "content": [
-          " these ",
-          { "text": "things?", "marks": ["i"] },
-          " prudent,"
-        ],
-        "strong": "H995"
-      },
-      { "text": " and he shall know", "strong": "H3045" },
-      { "text": " them? for the ways", "strong": "H1870" },
+      { "text": " these", "strong": "H428" },
+      " ",
+      { "text": "things?", "marks": ["i"] },
+      { "text": " prudent,", "strong": "H995" },
+      { "text": " and he shall know them?", "strong": "H3045" },
+      { "text": " for", "strong": "H3588" },
+      { "text": " the ways", "strong": "H1870" },
       " of the ",
       { "text": "Lord", "marks": ["sc"], "strong": "H3068" },
       " ",
