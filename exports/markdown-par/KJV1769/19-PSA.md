@@ -1752,7 +1752,7 @@
 
 > _To the chief Musician upon Shushan-eduth, Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah, when Joab returned, and smote of Edom in the valley of salt twelve thousand._
 
-<sup>1</sup> O God, thou hast cast us off, thou has scattered<sup>a</sup> us,<br>Thou hast been displeased; O turn thyself to us again.<br>
+<sup>1</sup> O God, thou hast cast us off, thou hast scattered<sup>a</sup> us,<br>Thou hast been displeased; O turn thyself to us again.<br>
 <sup>2</sup> Thou hast made the earth to tremble; thou hast broken it:<br>Heal the breaches thereof; for it shaketh.<br>
 <sup>3</sup> Thou hast shewed thy people hard things:<br>Thou hast made us to drink the wine of astonishment.<br>
 <sup>4</sup> Thou hast given a banner to them that fear thee,<br>That it may be displayed because of the truth. _Selah._<br>
@@ -2232,7 +2232,7 @@
 
 > _To the chief Musician, to Jeduthun, A Psalm of Asaph._
 
-<sup>1</sup> I Cried unto God with my voice,<br>_Even_ unto God with my voice; and he gave ear unto me.<br>
+<sup>1</sup> I cried unto God with my voice,<br>_Even_ unto God with my voice; and he gave ear unto me.<br>
 <sup>2</sup> In the day of my trouble I sought the Lord:<br>My sore<sup>a</sup> ran in the night, and ceased not: My soul refused to be comforted.<br>
 <sup>3</sup> I remembered God, and was troubled:<br>I complained, and my spirit was overwhelmed. _Selah._<br>
 <sup>4</sup> Thou holdest mine eyes waking:<br>I am so troubled that I cannot speak.<br>
@@ -3679,7 +3679,7 @@
 <sup>123</sup> Mine eyes fail for thy salvation,<br>And for the word of thy righteousness.<br>
 <sup>124</sup> Deal with thy servant according unto thy mercy,<br>And teach me thy statutes.<br>
 <sup>125</sup> I _am_ thy servant; give me understanding,<br>That I may know thy testimonies.<br>
-<sup>126</sup> _It is_ time for _thee, LORD_, to work:<br>_For_ they have made void thy law.<br>
+<sup>126</sup> _It is_ time for _thee,_ LORD, to work:<br>_For_ they have made void thy law.<br>
 <sup>127</sup> Therefore I love thy commandments<br>Above gold; yea, above fine gold.<br>
 <sup>128</sup> Therefore I esteem all _thy_ precepts _concerning_ all _things to be_ right;<br>_And_ I hate every false way.<br>
 

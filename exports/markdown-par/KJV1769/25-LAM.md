@@ -15,7 +15,7 @@
 <sup>13</sup> From above hath he sent fire into my bones,<br>And it prevaileth against them:<br>He hath spread a net for my feet,<br>He hath turned me back:<br>He hath made me desolate<br>_And_ faint all the day.<br>
 <sup>14</sup> The yoke of my transgressions is bound<br>By his hand:<br>They are wreathed, _and_ come up upon my neck:<br>He hath made my strength to fall,<br>The Lord hath delivered me into _their_ hands,<br>_From whom_ I am not able to rise up.<br>
 <sup>15</sup> The Lord hath trodden under foot all my mighty _men_<br>In the midst of me:<br>He hath called an assembly against me<br>To crush my young men:<br>The Lord hath trodden the virgin,<br>The daughter of Judah, _as_ in a winepress.<br>
-<sup>16</sup> For these _things_ I weep;<br>Mine eye, mine eye runneth down with water,<br>Because the comforter that should relieve<sup>h</sup> my<br>Soul is far from me:<br>My children are desolate,<br>Because the enemy prevailed.<br>
+<sup>16</sup> For these _things_ I weep;<br>Mine eye, mine eye runneth down with water,<br>Because the comforter that should relieve<sup>h</sup> my<br>soul is far from me:<br>My children are desolate,<br>Because the enemy prevailed.<br>
 <sup>17</sup> Zion spreadeth forth her hands,<br>_And there is_ none to comfort her:<br>The LORD hath commanded concerning Jacob,<br>_That_ his adversaries _should be_ round about him:<br>Jerusalem is as<br>A menstruous woman among them.<br>
 <sup>18</sup> The LORD is righteous;<br>For I have rebelled against his commandment:<sup>i</sup><br>Hear, I pray you, all people,<br>And behold my sorrow:<br>My virgins and my young men<br>Are gone into captivity.<br>
 <sup>19</sup> I called for my lovers,<br>_But_ they deceived me:<br>My priests and mine elders<br>Gave up the ghost in the city,<br>While they sought their meat<br>To relieve their souls.<br>
@@ -57,7 +57,7 @@
 <sup>19</sup> Arise, cry out in the night:<br>In the beginning of the watches<br>Pour out thine heart like water<br>Before the face of the Lord:<br>Lift up thy hands toward him for the life<br>Of thy young children,<br>That faint for hunger<br>In the top of every street.<br>
 <sup>20</sup> Behold, O LORD,<br>And consider to whom thou hast done this.<br>Shall the women eat their fruit,<br>_And_ children of a span long?<sup>h</sup><br>Shall the priest and the prophet be slain<br>In the sanctuary of the Lord?<br>
 <sup>21</sup> The young and the old lie<br>On the ground in the streets:<br>My virgins and my young men<br>Are fallen by the sword;<br>Thou hast slain _them_ in the day of thine anger;<br>Thou hast killed, _and_ not pitied.<br>
-<sup>22</sup> Thou hast called as in a solemn day<br>My terrors round about,<br>So that in the day of the LORD’s anger<br>None escaped nor remained:<br>Those that I have swaddled and brought up hath<br>Mine enemy consumed.<br>
+<sup>22</sup> Thou hast called as in a solemn day<br>My terrors round about,<br>So that in the day of the LORD’s anger<br>None escaped nor remained:<br>Those that I have swaddled and brought up hath<br>mine enemy consumed.<br>
 
 > - <sup>a</sup> 2. Heb. _made to couch_
 > - <sup>b</sup> 4. Heb. _all the desirable of the eye_
